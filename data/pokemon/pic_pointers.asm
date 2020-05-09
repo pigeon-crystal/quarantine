@@ -38,10 +38,10 @@ PokemonPicPointers::
 	dba_pic PidgeottoBackpic
 	dba_pic PidgeotFrontpic
 	dba_pic PidgeotBackpic
-	dba_pic RattataFrontpic
-	dba_pic RattataBackpic
-	dba_pic RaticateFrontpic
-	dba_pic RaticateBackpic
+	dba_pic NomsterFrontpic ;orig rattata
+	dba_pic NomsterBackpic ;orig rattata
+	dba_pic NomsabreFrontpic ;orig raticate
+	dba_pic NomsabreBackpic ;orig raticate
 	dba_pic SpearowFrontpic
 	dba_pic SpearowBackpic
 	dba_pic FearowFrontpic
@@ -304,25 +304,25 @@ PokemonPicPointers::
 	dba_pic MewtwoBackpic
 	dba_pic MewFrontpic
 	dba_pic MewBackpic
-	dba_pic ChikoritaFrontpic
-	dba_pic ChikoritaBackpic
-	dba_pic BayleefFrontpic
-	dba_pic BayleefBackpic
-	dba_pic MeganiumFrontpic
-	dba_pic MeganiumBackpic
-	dba_pic CyndaquilFrontpic
-	dba_pic CyndaquilBackpic
+	dba_pic CigerillarFrontpic ;orig chiko
+	dba_pic CigerillarBackpic
+	dba_pic TobacoonFrontpic
+	dba_pic TobacoonBackpic
+	dba_pic OkamikazeFrontpic
+	dba_pic OkamikazeBackpic
+	dba_pic RadeonFrontpic     ;orig cyndaquil
+	dba_pic RadeonBackpic
 	dba_pic QuilavaFrontpic
 	dba_pic QuilavaBackpic
 	dba_pic TyphlosionFrontpic
 	dba_pic TyphlosionBackpic
-	dba_pic TotodileFrontpic
-	dba_pic TotodileBackpic
-	dba_pic CroconawFrontpic
-	dba_pic CroconawBackpic
-	dba_pic FeraligatrFrontpic
-	dba_pic FeraligatrBackpic
-	dba_pic SentretFrontpic
+	dba_pic FursaFrontpic      ;orig totodile
+	dba_pic FursaBackpic       ;orig totodile
+	dba_pic NanuquaFrontpic
+	dba_pic NanuquaBackpic
+	dba_pic UrskimoFrontpic
+	dba_pic UrskimoBackpic
+	dba_pic SentretFrontpic	   ;orig sentret
 	dba_pic SentretBackpic
 	dba_pic FurretFrontpic
 	dba_pic FurretBackpic
@@ -471,8 +471,8 @@ PokemonPicPointers::
 	dba_pic DonphanBackpic
 	dba_pic Porygon2Frontpic
 	dba_pic Porygon2Backpic
-	dba_pic StantlerFrontpic
-	dba_pic StantlerBackpic
+	dba_pic MissingnoFrontpic ;stantler
+	dba_pic MissingnoBackpic
 	dba_pic SmeargleFrontpic
 	dba_pic SmeargleBackpic
 	dba_pic TyrogueFrontpic
@@ -507,7 +507,7 @@ PokemonPicPointers::
 	dba_pic HoOhBackpic
 	dba_pic CelebiFrontpic
 	dba_pic CelebiBackpic
-	dbw -1, -1 ; unused
-	dbw -1, -1 ; unused
+	dba_pic PilfoardFrontpic
+	dba_pic PilfoardBackpic
 	dba_pic EggPic
 	dbw -1, -1 ; unused

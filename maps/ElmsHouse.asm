@@ -38,10 +38,16 @@ ElmsSonText:
 	line "I'm going to help"
 	cont "my dad!"
 
-	para "I'm going to be a"
-	line "great #MON"
-	cont "professor!"
+	para "He seems to have"
+	line "some trouble with"
+	cont "the starter"
+	cont "#MON."
+	
+	para "He comes home"
+	line "smelling like"
+	cont "CIGERILLER!"
 	done
+	
 
 ElmsHouseLabFoodText:
 ; unused

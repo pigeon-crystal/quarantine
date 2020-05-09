@@ -17,8 +17,8 @@ PokemonNames::
 	db "PIDGEY@@@@"
 	db "PIDGEOTTO@"
 	db "PIDGEOT@@@"
-	db "RATTATA@@@"
-	db "RATICATE@@"
+	db "NOMSTER@@@" ;orig rattata
+	db "NOMSABRE@@" ;orig raticate
 	db "SPEAROW@@@"
 	db "FEAROW@@@@"
 	db "EKANS@@@@@"
@@ -150,16 +150,16 @@ PokemonNames::
 	db "DRAGONITE@"
 	db "MEWTWO@@@@"
 	db "MEW@@@@@@@"
-	db "CHIKORITA@"
-	db "BAYLEEF@@@"
-	db "MEGANIUM@@"
-	db "CYNDAQUIL@"
+	db "CIGERILLAR" ;chiko
+	db "TOBACOON@@"
+	db "OKAMIKAZE@"
+	db "RADEON@@@@" ;cyndaquil
 	db "QUILAVA@@@"
 	db "TYPHLOSION"
-	db "TOTODILE@@"
-	db "CROCONAW@@"
-	db "FERALIGATR"
-	db "SENTRET@@@"
+	db "FURSA@@@@@" ;orig totodile
+	db "NANUQUA@@@"
+	db "URSKIMO@@@"
+	db "SENTRET@@@" ;sentret
 	db "FURRET@@@@"
 	db "HOOTHOOT@@"
 	db "NOCTOWL@@@"
@@ -232,7 +232,7 @@ PokemonNames::
 	db "PHANPY@@@@"
 	db "DONPHAN@@@"
 	db "PORYGON2@@"
-	db "STANTLER@@"
+	db "MISSINGNO."
 	db "SMEARGLE@@"
 	db "TYROGUE@@@"
 	db "HITMONTOP@"
@@ -250,7 +250,7 @@ PokemonNames::
 	db "LUGIA@@@@@"
 	db "HO-OH@@@@@"
 	db "CELEBI@@@@"
-	db "?????@@@@@"
+	db "PILFOARD@@"
 	db "EGG@@@@@@@"
 	db "?????@@@@@"
 	db "?????@@@@@"

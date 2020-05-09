@@ -87,6 +87,9 @@ EvolveAfterBattle_MasterLoop:
 	cp EVOLVE_HAPPINESS
 	jr z, .happiness
 
+	cp EVOLVE_FISH
+	jp z, .fish
+	
 ; EVOLVE_STAT
 	ld a, [wTempMonLevel]
 	cp [hl]
@@ -113,7 +116,7 @@ EvolveAfterBattle_MasterLoop:
 	jp nz, .dont_evolve_2
 
 	inc hl
-	jr .proceed
+	jp .proceed
 
 .happiness
 	ld a, [wTempMonHappiness]
@@ -140,7 +143,7 @@ EvolveAfterBattle_MasterLoop:
 	cp NITE_F
 	jp z, .dont_evolve_3
 	jr .proceed
-
+	
 .trade
 	ld a, [wLinkMode]
 	and a
@@ -179,6 +182,12 @@ EvolveAfterBattle_MasterLoop:
 	ld a, [wLinkMode]
 	and a
 	jp nz, .dont_evolve_3
+	jr .proceed
+	
+.fish 
+	ld a, [wTempMonCaughtLocation]
+	and CAUGHT_LOCATION_MASK
+	cp a, LANDMARK_FISHING
 	jr .proceed
 
 .level

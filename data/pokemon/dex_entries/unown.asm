@@ -1,10 +1,10 @@
 	db "SYMBOL@" ; species name
 	dw 108, 110 ; height, weight
 
-	db   "Because different"
-	next "types of UNOWN"
-	next "exist, it is said"
-
-	page "that they must"
-	next "have a variety of"
-	next "abilities.@"
+	db   "The last relic of"
+	next "a vanished civil-"
+	next "ization. There are"
+	
+	page "many different"
+	next "varietes of UNOWN"
+	next "that exist.@"

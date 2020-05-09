@@ -11,7 +11,6 @@ AlphabeticalPokedexOrder:
 	db ARIADOS
 	db ARTICUNO
 	db AZUMARILL
-	db BAYLEEF
 	db BEEDRILL
 	db BELLOSSOM
 	db BELLSPROUT
@@ -25,17 +24,15 @@ AlphabeticalPokedexOrder:
 	db CHARIZARD
 	db CHARMANDER
 	db CHARMELEON
-	db CHIKORITA
 	db CHINCHOU
+	db CIGERILLAR
 	db CLEFABLE
 	db CLEFAIRY
 	db CLEFFA
 	db CLOYSTER
 	db CORSOLA
 	db CROBAT
-	db CROCONAW
 	db CUBONE
-	db CYNDAQUIL
 	db DELIBIRD
 	db DEWGONG
 	db DIGLETT
@@ -60,11 +57,11 @@ AlphabeticalPokedexOrder:
 	db EXEGGUTOR
 	db FARFETCH_D
 	db FEAROW
-	db FERALIGATR
 	db FLAAFFY
 	db FLAREON
 	db FORRETRESS
 	db FURRET
+	db FURSA
 	db GASTLY
 	db GENGAR
 	db GEODUDE
@@ -128,17 +125,18 @@ AlphabeticalPokedexOrder:
 	db MAREEP
 	db MARILL
 	db MAROWAK
-	db MEGANIUM
 	db MEOWTH
 	db METAPOD
 	db MEW
 	db MEWTWO
 	db MILTANK
 	db MISDREAVUS
+	db MISSINGNO
 	db MOLTRES
 	db MR__MIME
 	db MUK
 	db MURKROW
+	db NANUQUA
 	db NATU
 	db NIDOKING
 	db NIDOQUEEN
@@ -148,8 +146,11 @@ AlphabeticalPokedexOrder:
 	db NIDORINO
 	db NINETALES
 	db NOCTOWL
+	db NOMSABRE
+	db NOMSTER
 	db OCTILLERY
 	db ODDISH
+	db OKAMIKAZE
 	db OMANYTE
 	db OMASTAR
 	db ONIX
@@ -162,6 +163,7 @@ AlphabeticalPokedexOrder:
 	db PIDGEOTTO
 	db PIDGEY
 	db PIKACHU
+	db PILFOARD
 	db PILOSWINE
 	db PINECO
 	db PINSIR
@@ -180,9 +182,8 @@ AlphabeticalPokedexOrder:
 	db QWILFISH
 	db RAICHU
 	db RAIKOU
+	db RADEON
 	db RAPIDASH
-	db RATICATE
-	db RATTATA
 	db REMORAID
 	db RHYDON
 	db RHYHORN
@@ -210,7 +211,6 @@ AlphabeticalPokedexOrder:
 	db SPEAROW
 	db SPINARAK
 	db SQUIRTLE
-	db STANTLER
 	db STARMIE
 	db STARYU
 	db STEELIX
@@ -224,14 +224,15 @@ AlphabeticalPokedexOrder:
 	db TEDDIURSA
 	db TENTACOOL
 	db TENTACRUEL
+	db TOBACOON
 	db TOGEPI
 	db TOGETIC
-	db TOTODILE
 	db TYPHLOSION
 	db TYRANITAR
 	db TYROGUE
 	db UMBREON
 	db UNOWN
+	db URSKIMO
 	db URSARING
 	db VAPOREON
 	db VENOMOTH

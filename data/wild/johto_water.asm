@@ -2,232 +2,270 @@
 
 JohtoWaterWildMons:
 
-	map_id RUINS_OF_ALPH_OUTSIDE
+	map_id RUINS_OF_ALPH_OUTSIDE ;done
 	db 2 percent ; encounter rate
 	db 15, WOOPER
 	db 20, QUAGSIRE
 	db 15, QUAGSIRE
+	db 25, QUAGSIRE
 
-	map_id UNION_CAVE_1F
+	map_id UNION_CAVE_1F ;done
 	db 2 percent ; encounter rate
 	db 15, WOOPER
 	db 20, QUAGSIRE
 	db 15, QUAGSIRE
+	db 25, QUAGSIRE
 
-	map_id UNION_CAVE_B1F
+	map_id UNION_CAVE_B1F ;done
 	db 2 percent ; encounter rate
 	db 15, WOOPER
 	db 20, QUAGSIRE
 	db 15, QUAGSIRE
+	db 25, QUAGSIRE
 
-	map_id UNION_CAVE_B2F
+	map_id UNION_CAVE_B2F ;done
 	db 4 percent ; encounter rate
 	db 15, TENTACOOL
 	db 20, QUAGSIRE
 	db 20, TENTACRUEL
+	db 25, QUAGSIRE
 
-	map_id SLOWPOKE_WELL_B1F
+	map_id SLOWPOKE_WELL_B1F ;done
 	db 2 percent ; encounter rate
 	db 15, SLOWPOKE
 	db 20, SLOWPOKE
 	db 10, SLOWPOKE
+	db 25, SLOWBRO
 
-	map_id SLOWPOKE_WELL_B2F
+	map_id SLOWPOKE_WELL_B2F ;done
 	db 2 percent ; encounter rate
 	db 15, SLOWPOKE
 	db 20, SLOWPOKE
 	db 20, SLOWBRO
+	db 25, SLOWBRO
 
-	map_id ILEX_FOREST
+	map_id ILEX_FOREST ;done
 	db 2 percent ; encounter rate
 	db 15, PSYDUCK
 	db 10, PSYDUCK
 	db 15, GOLDUCK
+	db 25, GOLDEEN
 
-	map_id MOUNT_MORTAR_1F_OUTSIDE
+	map_id MOUNT_MORTAR_1F_OUTSIDE ;done
 	db 4 percent ; encounter rate
 	db 15, GOLDEEN
 	db 20, MARILL
 	db 20, SEAKING
+	db 25, SEAKING
 
-	map_id MOUNT_MORTAR_2F_INSIDE
+	map_id MOUNT_MORTAR_2F_INSIDE ;done
 	db 2 percent ; encounter rate
 	db 20, GOLDEEN
 	db 25, MARILL
 	db 25, SEAKING
+	db 30, SEAKING
 
-	map_id MOUNT_MORTAR_B1F
+	map_id MOUNT_MORTAR_B1F ;done
 	db 2 percent ; encounter rate
 	db 15, GOLDEEN
 	db 20, MARILL
 	db 20, SEAKING
+	db 25, SEAKING
 
-	map_id WHIRL_ISLAND_SW
+	map_id WHIRL_ISLAND_SW ;done
 	db 4 percent ; encounter rate
 	db 20, TENTACOOL
 	db 15, HORSEA
 	db 20, TENTACRUEL
+	db 25, TENTACRUEL
 
-	map_id WHIRL_ISLAND_B2F
+	map_id WHIRL_ISLAND_B2F ;done
 	db 4 percent ; encounter rate
 	db 15, HORSEA
 	db 20, HORSEA
 	db 20, TENTACRUEL
+	db 25, TENTACRUEL
 
-	map_id WHIRL_ISLAND_LUGIA_CHAMBER
+	map_id WHIRL_ISLAND_LUGIA_CHAMBER ;done
 	db 4 percent ; encounter rate
 	db 20, HORSEA
 	db 20, TENTACRUEL
 	db 20, SEADRA
+	db 25, SEADRA
 
-	map_id SILVER_CAVE_ROOM_2
+	map_id SILVER_CAVE_ROOM_2 ;done
 	db 2 percent ; encounter rate
 	db 35, SEAKING
 	db 35, GOLDUCK
 	db 35, GOLDEEN
+	db 40, GOLDEEN
 
-	map_id DARK_CAVE_VIOLET_ENTRANCE
+	map_id DARK_CAVE_VIOLET_ENTRANCE ;done
 	db 2 percent ; encounter rate
 	db 15, MAGIKARP
 	db 10, MAGIKARP
 	db 5, MAGIKARP
+	db 20, GYARADOS
 
-	map_id DARK_CAVE_BLACKTHORN_ENTRANCE
+	map_id DARK_CAVE_BLACKTHORN_ENTRANCE ;done
 	db 2 percent ; encounter rate
 	db 15, MAGIKARP
 	db 10, MAGIKARP
 	db 5, MAGIKARP
+	db 20, GYARADOS
 
-	map_id DRAGONS_DEN_B1F
+	map_id DRAGONS_DEN_B1F ;done
 	db 4 percent ; encounter rate
 	db 15, MAGIKARP
 	db 10, MAGIKARP
 	db 10, DRATINI
+	db 20, DRATINI
 
-	map_id OLIVINE_PORT
+	map_id OLIVINE_PORT ;done
 	db 2 percent ; encounter rate
 	db 20, TENTACOOL
 	db 15, TENTACOOL
 	db 20, TENTACRUEL
+	db 25, TENTACRUEL
 
-	map_id ROUTE_30
+	map_id ROUTE_30 ;done
 	db 2 percent ; encounter rate
 	db 20, POLIWAG
 	db 15, POLIWAG
 	db 20, POLIWHIRL
+	db 25, POLIWHIRL
 
-	map_id ROUTE_31
+	map_id ROUTE_31 ;done
 	db 2 percent ; encounter rate
 	db 20, POLIWAG
 	db 15, POLIWAG
 	db 20, POLIWHIRL
+	db 25, POLIWHIRL
 
-	map_id ROUTE_32
+	map_id ROUTE_32 ;done
 	db 6 percent ; encounter rate
 	db 15, TENTACOOL
 	db 20, QUAGSIRE
 	db 20, TENTACRUEL
+	db 25, QUAGSIRE
 
-	map_id ROUTE_34
+	map_id ROUTE_34 ;done
 	db 6 percent ; encounter rate
 	db 20, TENTACOOL
 	db 15, TENTACOOL
 	db 20, TENTACRUEL
+	db 25, TENTACRUEL
 
-	map_id ROUTE_35
+	map_id ROUTE_35 ;done
 	db 4 percent ; encounter rate
 	db 20, PSYDUCK
 	db 15, PSYDUCK
 	db 20, GOLDUCK
+	db 25, GOLDUCK
 
-	map_id ROUTE_40
+	map_id ROUTE_40 ;done
 	db 6 percent ; encounter rate
 	db 20, TENTACOOL
 	db 15, TENTACOOL
 	db 20, TENTACRUEL
+	db 25, TENTACRUEL
 
-	map_id ROUTE_41
+	map_id ROUTE_41 ;done
 	db 6 percent ; encounter rate
 	db 20, TENTACOOL
 	db 20, TENTACRUEL
 	db 20, MANTINE
+	db 25, MANTINE
 
-	map_id ROUTE_42
+	map_id ROUTE_42 ;done
 	db 4 percent ; encounter rate
 	db 20, GOLDEEN
 	db 15, GOLDEEN
 	db 20, SEAKING
+	db 25, SEAKING
 
-	map_id ROUTE_43
+	map_id ROUTE_43 ;done
 	db 2 percent ; encounter rate
 	db 20, MAGIKARP
 	db 15, MAGIKARP
 	db 10, MAGIKARP
+	db 30, MAGIKARP
 
-	map_id ROUTE_44
+	map_id ROUTE_44 ;done
 	db 2 percent ; encounter rate
 	db 25, POLIWAG
 	db 20, POLIWAG
 	db 25, POLIWHIRL
+	db 30, POLIWHIRL
 
-	map_id ROUTE_45
+	map_id ROUTE_45 ;done
 	db 2 percent ; encounter rate
 	db 20, MAGIKARP
 	db 15, MAGIKARP
 	db 5, MAGIKARP
+	db 30, MAGIKARP
 
-	map_id NEW_BARK_TOWN
+	map_id NEW_BARK_TOWN ;done
 	db 6 percent ; encounter rate
 	db 20, TENTACOOL
 	db 15, TENTACOOL
 	db 20, TENTACRUEL
+	db 22, TENTACRUEL
 
-	map_id CHERRYGROVE_CITY
+	map_id CHERRYGROVE_CITY ;done
 	db 6 percent ; encounter rate
 	db 20, TENTACOOL
 	db 15, TENTACOOL
 	db 20, TENTACRUEL
+	db 22, TENTACRUEL
 
-	map_id VIOLET_CITY
+	map_id VIOLET_CITY ;done
 	db 2 percent ; encounter rate
 	db 20, POLIWAG
 	db 15, POLIWAG
 	db 20, POLIWHIRL
+	db 30, POLIWHIRL
 
-	map_id CIANWOOD_CITY
+	map_id CIANWOOD_CITY ;done
 	db 6 percent ; encounter rate
 	db 20, TENTACOOL
 	db 15, TENTACOOL
 	db 20, TENTACRUEL
+	db 25, TENTACOOL
 
-	map_id OLIVINE_CITY
+	map_id OLIVINE_CITY ;done
 	db 6 percent ; encounter rate
 	db 20, TENTACOOL
 	db 15, TENTACOOL
 	db 20, TENTACRUEL
+	db 25, TENTACOOL
 
-	map_id ECRUTEAK_CITY
+	map_id ECRUTEAK_CITY ;done
 	db 2 percent ; encounter rate
 	db 20, POLIWAG
 	db 15, POLIWAG
 	db 20, POLIWHIRL
+	db 25, TENTACRUEL
 
-	map_id LAKE_OF_RAGE
+	map_id LAKE_OF_RAGE ;done
 	db 6 percent ; encounter rate
 	db 15, MAGIKARP
 	db 10, MAGIKARP
 	db 15, GYARADOS
+	db 18, GYARADOS
 
-	map_id BLACKTHORN_CITY
+	map_id BLACKTHORN_CITY ;done
 	db 4 percent ; encounter rate
 	db 15, MAGIKARP
 	db 10, MAGIKARP
 	db 5, MAGIKARP
+	db 8, DRATINI
 
-	map_id SILVER_CAVE_OUTSIDE
+	map_id SILVER_CAVE_OUTSIDE ;done
 	db 2 percent ; encounter rate
 	db 35, POLIWHIRL
 	db 40, POLIWHIRL
 	db 35, POLIWAG
+	db 44, POLIWHIRL
 
 	db -1 ; end

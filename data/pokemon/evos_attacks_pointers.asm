@@ -19,8 +19,8 @@ EvosAttacksPointers::
 	dw PidgeyEvosAttacks
 	dw PidgeottoEvosAttacks
 	dw PidgeotEvosAttacks
-	dw RattataEvosAttacks
-	dw RaticateEvosAttacks
+	dw NomsterEvosAttacks ;orig rattata
+	dw NomsabreEvosAttacks ;orig raticate
 	dw SpearowEvosAttacks
 	dw FearowEvosAttacks
 	dw EkansEvosAttacks
@@ -152,16 +152,16 @@ EvosAttacksPointers::
 	dw DragoniteEvosAttacks
 	dw MewtwoEvosAttacks
 	dw MewEvosAttacks
-	dw ChikoritaEvosAttacks
-	dw BayleefEvosAttacks
-	dw MeganiumEvosAttacks
-	dw CyndaquilEvosAttacks
+	dw CigerillarEvosAttacks  ;chiko
+	dw TobacoonEvosAttacks
+	dw OkamikazeEvosAttacks
+	dw RadeonEvosAttacks       ;cynda
 	dw QuilavaEvosAttacks
 	dw TyphlosionEvosAttacks
-	dw TotodileEvosAttacks
-	dw CroconawEvosAttacks
-	dw FeraligatrEvosAttacks
-	dw SentretEvosAttacks
+	dw FursaEvosAttacks			;orig totodile
+	dw NanuquaEvosAttacks
+	dw UrskimoEvosAttacks
+	dw SentretEvosAttacks		;orig sentret
 	dw FurretEvosAttacks
 	dw HoothootEvosAttacks
 	dw NoctowlEvosAttacks
@@ -234,7 +234,7 @@ EvosAttacksPointers::
 	dw PhanpyEvosAttacks
 	dw DonphanEvosAttacks
 	dw Porygon2EvosAttacks
-	dw StantlerEvosAttacks
+	dw MissingnoEvosAttacks ;stantler
 	dw SmeargleEvosAttacks
 	dw TyrogueEvosAttacks
 	dw HitmontopEvosAttacks
@@ -252,3 +252,4 @@ EvosAttacksPointers::
 	dw LugiaEvosAttacks
 	dw HoOhEvosAttacks
 	dw CelebiEvosAttacks
+	dw PilfoardEvosAttacks

@@ -145,7 +145,7 @@ HikerDanielBeatenText:
 	line "big time!"
 	done
 
-HikerDanielAfterBattleText:
+HikerDanielAfterBattleText: ;slowpoketail
 	text "I was conned into"
 	line "buying a SLOWPOKE-"
 	cont "TAIL."
@@ -154,7 +154,7 @@ HikerDanielAfterBattleText:
 	line "the poor #MON."
 	done
 
-FirebreatherBillSeenText:
+FirebreatherBillSeenText: ;zubat
 	text "ZUBAT's SUPERSONIC"
 	line "keeps confusing"
 	cont "my #MON."
@@ -168,7 +168,7 @@ FirebreatherBillBeatenText:
 	done
 
 FirebreatherBillAfterBattleText:
-	text "On weekends, you"
+	text "On Friday, you"
 	line "can hear strange"
 
 	para "roars from deep in"

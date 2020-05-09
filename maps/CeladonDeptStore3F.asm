@@ -53,31 +53,26 @@ CeladonDeptStore3FYoungsterText:
 
 	para "should use this TM"
 	line "on…"
+	
+	para "Lucky for me,"
+	line "it's reusable!"
 	done
 
 CeladonDeptStore3FGameboyKid1Text:
 	text "Uh-oh! I traded my"
 	line "#MON without"
 
-	para "removing the UP-"
-	line "GRADE from it."
+	para "removing the"
+	line "NUGGET from it."
 	done
 
 CeladonDeptStore3FGameboyKid2Text:
-	text "Yeah! I'm finally"
-	line "getting a PORYGON!"
+	text "NUGGET? What"
+	line "NUGGET?"
+	
+	para "I don't see"
+	line "any NUGGET here…"
 
-	para "I'm no good at the"
-	line "slots, so I could"
-
-	para "never get enough"
-	line "coins…"
-
-	para "…Huh?"
-
-	para "The traded PORYGON"
-	line "turned into a dif-"
-	cont "ferent #MON!"
 	done
 
 CeladonDeptStore3FSuperNerdText:

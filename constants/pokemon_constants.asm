@@ -37,8 +37,8 @@
 	const PIDGEY     ; 10
 	const PIDGEOTTO  ; 11
 	const PIDGEOT    ; 12
-	const RATTATA    ; 13
-	const RATICATE   ; 14
+	const NOMSTER    ; 13 orig Rattatta
+	const NOMSABRE   ; 14 orig RATICATE
 	const SPEAROW    ; 15
 	const FEAROW     ; 16
 	const EKANS      ; 17
@@ -171,16 +171,16 @@
 	const MEWTWO     ; 96
 	const MEW        ; 97
 JOHTO_POKEMON EQU const_value
-	const CHIKORITA  ; 98
-	const BAYLEEF    ; 99
-	const MEGANIUM   ; 9a
-	const CYNDAQUIL  ; 9b
+	const CIGERILLAR ; 98 chikorita
+	const TOBACOON   ; 99
+	const OKAMIKAZE  ; 9a
+	const RADEON     ; 9b cyndaquild
 	const QUILAVA    ; 9c
 	const TYPHLOSION ; 9d
-	const TOTODILE   ; 9e
-	const CROCONAW   ; 9f
-	const FERALIGATR ; a0
-	const SENTRET    ; a1
+	const FURSA      ; 9e orig Totodile
+	const NANUQUA  	 ; 9f
+	const URSKIMO    ; a0
+	const SENTRET    ; a1 orig Sentret
 	const FURRET     ; a2
 	const HOOTHOOT   ; a3
 	const NOCTOWL    ; a4
@@ -253,7 +253,7 @@ JOHTO_POKEMON EQU const_value
 	const PHANPY     ; e7
 	const DONPHAN    ; e8
 	const PORYGON2   ; e9
-	const STANTLER   ; ea
+	const MISSINGNO  ; ea orig stantler
 	const SMEARGLE   ; eb
 	const TYROGUE    ; ec
 	const HITMONTOP  ; ed
@@ -271,8 +271,8 @@ JOHTO_POKEMON EQU const_value
 	const LUGIA      ; f9
 	const HO_OH      ; fa
 	const CELEBI     ; fb
+	const PILFOARD	 ; fc
 NUM_POKEMON EQU const_value - 1
-	const MON_FC     ; fc
 	const EGG        ; fd
 	const MON_FE     ; fe
 

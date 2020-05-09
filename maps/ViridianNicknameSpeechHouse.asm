@@ -26,7 +26,7 @@ Speary:
 Rattey:
 	opentext
 	writetext RatteyText
-	cry RATTATA
+	cry NOMSTER
 	waitbutton
 	closetext
 	end
@@ -48,7 +48,7 @@ ViridianNicknameSpeechHousePokefanMText:
 ViridianNicknameSpeechHouseLassText:
 	text "They're SPEARY--"
 	line "a SPEAROW--and"
-	cont "RATTEY--a RATTATA."
+	cont "HAMMY--a NOMSTER."
 	done
 
 SpearyText:
@@ -56,7 +56,7 @@ SpearyText:
 	done
 
 RatteyText:
-	text "RATTEY: Kikiii!"
+	text "HAMMY: Kikiii!"
 	done
 
 ViridianNicknameSpeechHouse_MapEvents:

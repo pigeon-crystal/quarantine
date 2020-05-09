@@ -84,6 +84,14 @@ ResetDamage::
 	ld [wCurDamage], a
 	ld [wCurDamage + 1], a
 	ret
+	
+SwitchTurn::
+	ldh a, [hBattleTurn]
+	push af
+	xor 1
+	ldh [hBattleTurn], a
+	pop af
+	ret
 
 SetPlayerTurn::
 	xor a

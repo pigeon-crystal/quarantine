@@ -1,24 +1,24 @@
 ; Every Pokémon sorted in New Pokédex Order.
 
 NewPokedexOrder:
-	db CHIKORITA
-	db BAYLEEF
-	db MEGANIUM
-	db CYNDAQUIL
+	db CIGERILLAR ;orig chiko
+	db TOBACOON
+	db OKAMIKAZE
+	db RADEON ;orig cyndaquil
 	db QUILAVA
 	db TYPHLOSION
-	db TOTODILE
-	db CROCONAW
-	db FERALIGATR
-	db PIDGEY
+	db FURSA ;orig totodile
+	db NANUQUA
+	db URSKIMO
+	db PIDGEY ;orig pidgey
 	db PIDGEOTTO
 	db PIDGEOT
 	db SPEAROW
 	db FEAROW
 	db HOOTHOOT
 	db NOCTOWL
-	db RATTATA
-	db RATICATE
+	db NOMSTER ;orig rattata
+	db NOMSABRE ;orig raticate
 	db SENTRET
 	db FURRET
 	db PICHU
@@ -129,7 +129,7 @@ NewPokedexOrder:
 	db NINETALES
 	db GROWLITHE
 	db ARCANINE
-	db STANTLER
+	db MISSINGNO
 	db MARILL
 	db AZUMARILL
 	db DIGLETT
@@ -252,3 +252,4 @@ NewPokedexOrder:
 	db MEWTWO
 	db MEW
 	db CELEBI
+	db PILFOARD

@@ -19,7 +19,7 @@ BillsBrotherText:
 	cont "on CERULEAN CAPE."
 	done
 
-BillsBrothersHouseYoungsterText:
+BillsBrothersHouseYoungsterText: ;MON REFERENCE
 	text "I saw these weird,"
 	line "slow #MON on"
 	cont "CYCLING ROAD."

@@ -157,3 +157,6 @@ MoveEffectsPointers:
 	dw BeatUp
 	dw Fly
 	dw DefenseCurl
+	dw DoBurn
+	dw DragonDance
+	dw CalmMind

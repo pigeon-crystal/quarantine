@@ -575,7 +575,6 @@ DefenseDownHit:
 	supereffectivetext
 	checkfaint
 	buildopponentrage
-	effectchance ; bug: duplicate effectchance shouldn't be here
 	defensedown
 	statdownmessage
 	endmove
@@ -781,6 +780,19 @@ Conversion:
 	usedmovetext
 	doturn
 	conversion
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	checkhit
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	kingsrock
 	endmove
 
 ResetStats:
@@ -1824,10 +1836,21 @@ FakeOut:
 	checkobedience
 	usedmovetext
 	doturn
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
 	checkhit
-	fakeout
+	effectchance
 	moveanim
 	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	checkfaint
+	buildopponentrage
+	fakeout
 	endmove
 
 BellyDrum:
@@ -2072,6 +2095,46 @@ DefenseCurl:
 	lowersub
 	statupanim
 	raisesub
+	statupmessage
+	statupfailtext
+	endmove
+	
+DoBurn:
+	checkobedience
+	usedmovetext
+	doturn
+	checkhit
+	stab
+	checksafeguard
+	burn
+	endmove
+ 
+DragonDance:
+ 	checkobedience
+	usedmovetext
+	doturn
+	attackup
+	lowersub
+	statupanim
+	raisesub
+	statupmessage
+	statupfailtext
+	speedup
+	statupmessage
+	statupfailtext
+	endmove
+	
+CalmMind:
+	checkobedience
+	usedmovetext
+	doturn
+	specialattackup
+	lowersub
+	statupanim
+	raisesub
+	statupmessage
+	statupfailtext
+	specialdefenseup
 	statupmessage
 	statupfailtext
 	endmove

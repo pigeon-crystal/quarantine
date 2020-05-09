@@ -18,8 +18,8 @@ PokedexDataPointerTable:
 	dw PidgeyPokedexEntry
 	dw PidgeottoPokedexEntry
 	dw PidgeotPokedexEntry
-	dw RattataPokedexEntry
-	dw RaticatePokedexEntry
+	dw NomsterPokedexEntry ;orig rattata
+	dw NomsabrePokedexEntry ;orig raticate
 	dw SpearowPokedexEntry
 	dw FearowPokedexEntry
 	dw EkansPokedexEntry
@@ -151,16 +151,16 @@ PokedexDataPointerTable:
 	dw DragonitePokedexEntry
 	dw MewtwoPokedexEntry
 	dw MewPokedexEntry
-	dw ChikoritaPokedexEntry
-	dw BayleefPokedexEntry
-	dw MeganiumPokedexEntry
-	dw CyndaquilPokedexEntry
+	dw CigerillarPokedexEntry   ;orig chikorita
+	dw TobacoonPokedexEntry
+	dw OkamikazePokedexEntry
+	dw RadeonPokedexEntry       ;orig cynda
 	dw QuilavaPokedexEntry
 	dw TyphlosionPokedexEntry
-	dw TotodilePokedexEntry
-	dw CroconawPokedexEntry
-	dw FeraligatrPokedexEntry
-	dw SentretPokedexEntry
+	dw FursaPokedexEntry		;orig totodile
+	dw NanuquaPokedexEntry
+	dw UrskimoPokedexEntry
+	dw SentretPokedexEntry 		;orig sentret
 	dw FurretPokedexEntry
 	dw HoothootPokedexEntry
 	dw NoctowlPokedexEntry
@@ -233,7 +233,7 @@ PokedexDataPointerTable:
 	dw PhanpyPokedexEntry
 	dw DonphanPokedexEntry
 	dw Porygon2PokedexEntry
-	dw StantlerPokedexEntry
+	dw MissingnoPokedexEntry
 	dw SmearglePokedexEntry
 	dw TyroguePokedexEntry
 	dw HitmontopPokedexEntry
@@ -251,3 +251,4 @@ PokedexDataPointerTable:
 	dw LugiaPokedexEntry
 	dw HoOhPokedexEntry
 	dw CelebiPokedexEntry
+	dw PilfoardPokedexEntry

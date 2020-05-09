@@ -173,9 +173,9 @@ FalknerTMMudSlapText:
 	para "instantly learn a"
 	line "new move."
 
-	para "Think before you"
-	line "act--a TM can be"
-	cont "used only once."
+	para "A TM can be used"
+	line "as many times as"
+	cont "you like."
 
 	para "TM31 contains"
 	line "MUD-SLAP."
@@ -267,8 +267,15 @@ VioletGymGuyText:
 	para "The grass-type is"
 	line "weak against the"
 
-	para "flying-type. Keep"
-	line "this in mind."
+	para "flying-type. So"
+	line "is the fighting-"
+	cont "type."
+	
+	para "It's hard to"
+	line "punch a bird."
+	
+	para "Keep this in"
+	line "mind."
 	done
 
 VioletGymGuyWinText:

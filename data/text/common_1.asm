@@ -1304,6 +1304,13 @@ _RepelWoreOffText::
 	text "REPEL's effect"
 	line "wore off."
 	done
+	
+_UseAnotherRepelText::
+	text "REPEL's effect"
+	line "wore off."
+
+	para "Use another?"
+	done
 
 _PlayerFoundItemText::
 	text "<PLAYER> found"

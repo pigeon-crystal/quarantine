@@ -190,7 +190,16 @@ SetBoxmonOrEggmonCaughtData:
 	ld c, a
 
 .NotPokecenter2F:
+	ld a, [wBattleType]
+	cp BATTLETYPE_FISH
+	jr z, .fishing
 	call GetWorldMapLocation
+	jr .set_data
+	
+.fishing
+	ld a, LANDMARK_FISHING ; or whatever you names it
+	
+.set_data
 	ld b, a
 	ld a, [wPlayerGender]
 	rrca ; shift bit 0 (PLAYERGENDER_FEMALE_F) to bit 7 (CAUGHT_GENDER_MASK)

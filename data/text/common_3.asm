@@ -189,20 +189,9 @@ _WouldYouLikeToSaveTheGameText::
 	line "save the game?"
 	done
 
-_SavingDontTurnOffThePowerText::
-	text "SAVING… DON'T TURN"
-	line "OFF THE POWER."
-	done
-
 _SavedTheGameText::
 	text "<PLAYER> saved"
 	line "the game."
-	done
-
-_AlreadyASaveFileText::
-	text "There is already a"
-	line "save file. Is it"
-	cont "OK to overwrite?"
 	done
 
 _AnotherSaveFileText::
@@ -364,6 +353,9 @@ _SeerEggText::
 
 	para "You can't say that"
 	line "you've met it yet…"
+	
+	para "…because it's"
+	line "an EGG!"
 	done
 
 _SeerDoNothingText::
@@ -504,7 +496,6 @@ _HerbShopLadyIntroText::
 	line "not like them."
 
 	para "Hehehehe…"
-	done
 
 _HerbalLadyHowManyText::
 	text "How many?"
@@ -630,6 +621,11 @@ _NothingToSellText::
 
 _MartSellHowManyText::
 	text "How many?"
+	done
+	
+AlreadyHaveTMText::
+	text "You already have"
+	line "that TM."
 	done
 
 _MartSellPriceText::

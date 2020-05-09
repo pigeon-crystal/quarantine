@@ -48,8 +48,8 @@ INCBIN "gfx/footprints/pidgey.1bpp",     footprint_bottom
 ; 017-024 top halves
 INCBIN "gfx/footprints/pidgeotto.1bpp",  footprint_top
 INCBIN "gfx/footprints/pidgeot.1bpp",    footprint_top
-INCBIN "gfx/footprints/rattata.1bpp",    footprint_top
-INCBIN "gfx/footprints/raticate.1bpp",   footprint_top
+INCBIN "gfx/footprints/nomster.1bpp",    footprint_top ;orig rattata
+INCBIN "gfx/footprints/nomsabre.1bpp",   footprint_top ;orig raticate
 INCBIN "gfx/footprints/spearow.1bpp",    footprint_top
 INCBIN "gfx/footprints/fearow.1bpp",     footprint_top
 INCBIN "gfx/footprints/ekans.1bpp",      footprint_top
@@ -57,8 +57,8 @@ INCBIN "gfx/footprints/arbok.1bpp",      footprint_top
 ; 017-024 bottom halves
 INCBIN "gfx/footprints/pidgeotto.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/pidgeot.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/rattata.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/raticate.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/nomster.1bpp",    footprint_bottom ;orig rattata
+INCBIN "gfx/footprints/nomsabre.1bpp",   footprint_bottom ;orig raticate
 INCBIN "gfx/footprints/spearow.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/fearow.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/ekans.1bpp",      footprint_bottom
@@ -341,7 +341,7 @@ INCBIN "gfx/footprints/dragonair.1bpp",  footprint_top
 INCBIN "gfx/footprints/dragonite.1bpp",  footprint_top
 INCBIN "gfx/footprints/mewtwo.1bpp",     footprint_top
 INCBIN "gfx/footprints/mew.1bpp",        footprint_top
-INCBIN "gfx/footprints/chikorita.1bpp",  footprint_top
+INCBIN "gfx/footprints/cigerillar.1bpp",  footprint_top
 ; 145-152 bottom halves
 INCBIN "gfx/footprints/zapdos.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/moltres.1bpp",    footprint_bottom
@@ -350,25 +350,24 @@ INCBIN "gfx/footprints/dragonair.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/dragonite.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/mewtwo.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/mew.1bpp",        footprint_bottom
-INCBIN "gfx/footprints/chikorita.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/cigerillar.1bpp", footprint_bottom
 ; 153-160 top halves
-INCBIN "gfx/footprints/bayleef.1bpp",    footprint_top
-INCBIN "gfx/footprints/meganium.1bpp",   footprint_top
-INCBIN "gfx/footprints/cyndaquil.1bpp",  footprint_top
+INCBIN "gfx/footprints/tobacoon.1bpp",   footprint_top
+INCBIN "gfx/footprints/okamikaze.1bpp",  footprint_top
+INCBIN "gfx/footprints/radeon.1bpp",     footprint_top
 INCBIN "gfx/footprints/quilava.1bpp",    footprint_top
 INCBIN "gfx/footprints/typhlosion.1bpp", footprint_top
-INCBIN "gfx/footprints/totodile.1bpp",   footprint_top
-INCBIN "gfx/footprints/croconaw.1bpp",   footprint_top
-INCBIN "gfx/footprints/feraligatr.1bpp", footprint_top
+INCBIN "gfx/footprints/fursa.1bpp",      footprint_top ;orig totodile
+INCBIN "gfx/footprints/nanuqua.1bpp",    footprint_top
+INCBIN "gfx/footprints/urskimo.1bpp", 	 footprint_top
 ; 153-160 bottom halves
-INCBIN "gfx/footprints/bayleef.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/meganium.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/cyndaquil.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/quilava.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/tobacoon.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/okamikaze.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/radeon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/typhlosion.1bpp", footprint_bottom
-INCBIN "gfx/footprints/totodile.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/croconaw.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/feraligatr.1bpp", footprint_bottom
+INCBIN "gfx/footprints/fursa.1bpp",      footprint_bottom ;orig totodile
+INCBIN "gfx/footprints/nanuqua.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/urskimo.1bpp",    footprint_bottom
 ; 161-168 top halves
 INCBIN "gfx/footprints/sentret.1bpp",    footprint_top
 INCBIN "gfx/footprints/furret.1bpp",     footprint_top
@@ -533,7 +532,7 @@ INCBIN "gfx/footprints/phanpy.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/donphan.1bpp",    footprint_bottom
 ; 233-240 top halves
 INCBIN "gfx/footprints/porygon2.1bpp",   footprint_top
-INCBIN "gfx/footprints/stantler.1bpp",   footprint_top
+INCBIN "gfx/footprints/missingno.1bpp",  footprint_top
 INCBIN "gfx/footprints/smeargle.1bpp",   footprint_top
 INCBIN "gfx/footprints/tyrogue.1bpp",    footprint_top
 INCBIN "gfx/footprints/hitmontop.1bpp",  footprint_top
@@ -542,7 +541,7 @@ INCBIN "gfx/footprints/elekid.1bpp",     footprint_top
 INCBIN "gfx/footprints/magby.1bpp",      footprint_top
 ; 233-240 bottom halves
 INCBIN "gfx/footprints/porygon2.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/stantler.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/missingno.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/smeargle.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/tyrogue.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/hitmontop.1bpp",  footprint_bottom
@@ -571,7 +570,7 @@ INCBIN "gfx/footprints/tyranitar.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/lugia.1bpp",      footprint_top
 INCBIN "gfx/footprints/ho_oh.1bpp",      footprint_top
 INCBIN "gfx/footprints/celebi.1bpp",     footprint_top
-INCBIN "gfx/footprints/252.1bpp",        footprint_top
+INCBIN "gfx/footprints/pilfoard.1bpp",   footprint_top
 INCBIN "gfx/footprints/253.1bpp",        footprint_top
 INCBIN "gfx/footprints/254.1bpp",        footprint_top
 INCBIN "gfx/footprints/255.1bpp",        footprint_top
@@ -580,7 +579,7 @@ INCBIN "gfx/footprints/256.1bpp",        footprint_top
 INCBIN "gfx/footprints/lugia.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/ho_oh.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/celebi.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/252.1bpp",        footprint_bottom
+INCBIN "gfx/footprints/pilfoard.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/253.1bpp",        footprint_bottom
 INCBIN "gfx/footprints/254.1bpp",        footprint_bottom
 INCBIN "gfx/footprints/255.1bpp",        footprint_bottom

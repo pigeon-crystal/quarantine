@@ -1,4 +1,4 @@
-	object_const_def ; object_event constants
+	object_const_def ; object_event constants ;need to figure out how to replace the "bayleef" and "clefairy"
 	const POKEMONFANCLUB_CHAIRMAN
 	const POKEMONFANCLUB_RECEPTIONIST
 	const POKEMONFANCLUB_CLEFAIRY_GUY
@@ -107,7 +107,7 @@ PokemonFanClubClefairyDollScript:
 PokemonFanClubBayleefScript:
 	opentext
 	writetext PokemonFanClubBayleefText
-	cry BAYLEEF
+	cry TOBACOON
 	waitbutton
 	closetext
 	end
@@ -264,7 +264,7 @@ PokemonFanClubClefairyGuyPackIsJammedFullText:
 
 PokemonFanClubTeacherText:
 	text "Look at my darling"
-	line "BAYLEEF!"
+	line "TOBACOON!"
 
 	para "The leaf on its"
 	line "head is so cute!"
@@ -280,7 +280,7 @@ PokemonFanClubClefairyDollText:
 	done
 
 PokemonFanClubBayleefText:
-	text "BAYLEEF: Li liif!"
+	text "TOBACOON: Brrrrrr."
 	done
 
 PokemonFanClubListenSignText:

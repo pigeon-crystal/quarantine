@@ -17,7 +17,7 @@ EggMovePointers::
 	dw PidgeyEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw RattataEggMoves
+	dw NomsterEggMoves ;orig rattata
 	dw NoEggMoves
 	dw SpearowEggMoves
 	dw NoEggMoves
@@ -150,16 +150,16 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw ChikoritaEggMoves
+	dw CigerillarEggMoves  ;Chiko
 	dw NoEggMoves
 	dw NoEggMoves
-	dw CyndaquilEggMoves
+	dw RadeonEggMoves	   ;Cynda
 	dw NoEggMoves
 	dw NoEggMoves
-	dw TotodileEggMoves
+	dw FursaEggMoves       ;Totodile
 	dw NoEggMoves
 	dw NoEggMoves
-	dw SentretEggMoves
+	dw SentretEggMoves	   ;Sentret
 	dw NoEggMoves
 	dw HoothootEggMoves
 	dw NoEggMoves
@@ -232,7 +232,7 @@ EggMovePointers::
 	dw PhanpyEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw StantlerEggMoves
+	dw NoEggMoves
 	dw NoEggMoves
 	dw TyrogueEggMoves
 	dw NoEggMoves
@@ -250,3 +250,4 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
+	dw PilfoardEggMoves

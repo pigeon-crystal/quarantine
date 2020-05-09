@@ -135,6 +135,7 @@ NUM_HOF_TEAMS EQU 30
 	const EVOLVE_TRADE
 	const EVOLVE_HAPPINESS
 	const EVOLVE_STAT
+	const EVOLVE_FISH
 
 ; EVOLVE_HAPPINESS triggers
 	const_def 1
@@ -150,8 +151,8 @@ NUM_HOF_TEAMS EQU 30
 
 ; wild data
 
-NUM_GRASSMON EQU 7 ; data/wild/*_grass.asm table size
-NUM_WATERMON EQU 3 ; data/wild/*_water.asm table size
+NUM_GRASSMON EQU 8 ; data/wild/*_grass.asm table size
+NUM_WATERMON EQU 4 ; data/wild/*_water.asm table size
 
 GRASS_WILDDATA_LENGTH EQU 2 + (1 + NUM_GRASSMON * 2) * 3
 WATER_WILDDATA_LENGTH EQU 2 + (1 + NUM_WATERMON * 2) * 1
