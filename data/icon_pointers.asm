@@ -39,3 +39,6 @@ IconPointers:
 	dw SlowpokeIcon
 	dw SudowoodoIcon
 	dw BigmonIcon
+	dw NomsterIcon
+	dw NomsabreIcon
+	dw CigerillarIcon	

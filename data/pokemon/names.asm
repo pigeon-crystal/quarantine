@@ -14,13 +14,13 @@ PokemonNames::
 	db "WEEDLE@@@@"
 	db "KAKUNA@@@@"
 	db "BEEDRILL@@"
-	db "PIDGEY@@@@"
+	db "FURNIT@@@@" ;pidgey
 	db "PIDGEOTTO@"
 	db "PIDGEOT@@@"
 	db "NOMSTER@@@" ;orig rattata
 	db "NOMSABRE@@" ;orig raticate
-	db "SPEAROW@@@"
-	db "FEAROW@@@@"
+	db "QWAIL@@@@@" ;spearow
+	db "QWALLOP@@@"
 	db "EKANS@@@@@"
 	db "ARBOK@@@@@"
 	db "PIKACHU@@@"
@@ -67,12 +67,12 @@ PokemonNames::
 	db "MACHOP@@@@"
 	db "MACHOKE@@@"
 	db "MACHAMP@@@"
-	db "BELLSPROUT"
+	db "LAWNIE@@@@" ;bellsprout
 	db "WEEPINBELL"
 	db "VICTREEBEL"
 	db "TENTACOOL@"
 	db "TENTACRUEL"
-	db "GEODUDE@@@"
+	db "DOLMITE@@@" ;geodude
 	db "GRAVELER@@"
 	db "GOLEM@@@@@"
 	db "PONYTA@@@@"
@@ -154,16 +154,16 @@ PokemonNames::
 	db "TOBACOON@@"
 	db "OKAMIKAZE@"
 	db "RADEON@@@@" ;cyndaquil
-	db "QUILAVA@@@"
-	db "TYPHLOSION"
-	db "FURSA@@@@@" ;orig totodile
+	db "SCAULTER@@"
+	db "SCORCHOPPR"
+	db "FURSA@@@@@" ;totodile
 	db "NANUQUA@@@"
 	db "URSKIMO@@@"
 	db "SENTRET@@@" ;sentret
 	db "FURRET@@@@"
 	db "HOOTHOOT@@"
 	db "NOCTOWL@@@"
-	db "LEDYBA@@@@"
+	db "WORMEEK@@@" ;ledyba
 	db "LEDIAN@@@@"
 	db "SPINARAK@@"
 	db "ARIADOS@@@"
@@ -204,7 +204,7 @@ PokemonNames::
 	db "GIRAFARIG@"
 	db "PINECO@@@@"
 	db "FORRETRESS"
-	db "DUNSPARCE@"
+	db "ATTACKO@@@"
 	db "GLIGAR@@@@"
 	db "STEELIX@@@"
 	db "SNUBBULL@@"

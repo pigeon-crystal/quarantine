@@ -7,10 +7,10 @@ AsleepTreeMonsNite:
 	db WEEDLE
 	db KAKUNA
 	db BEEDRILL
-	db SPEAROW
+	db QWAIL
 	db EKANS
 	db EXEGGCUTE
-	db LEDYBA
+	db WORMEEK
 	db AIPOM
 	db -1 ; end
 

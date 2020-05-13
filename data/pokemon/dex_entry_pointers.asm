@@ -15,14 +15,14 @@ PokedexDataPointerTable:
 	dw WeedlePokedexEntry
 	dw KakunaPokedexEntry
 	dw BeedrillPokedexEntry
-	dw PidgeyPokedexEntry
+	dw FurnitPokedexEntry
 	dw PidgeottoPokedexEntry
 	dw PidgeotPokedexEntry
 	dw NomsterPokedexEntry ;orig rattata
 	dw NomsabrePokedexEntry ;orig raticate
-	dw SpearowPokedexEntry
-	dw FearowPokedexEntry
-	dw EkansPokedexEntry
+	dw QwailPokedexEntry	;spearow
+	dw QwallopPokedexEntry
+	dw EkansPokedexEntry	;ekans
 	dw ArbokPokedexEntry
 	dw PikachuPokedexEntry
 	dw RaichuPokedexEntry
@@ -68,12 +68,12 @@ PokedexDataPointerTable:
 	dw MachopPokedexEntry
 	dw MachokePokedexEntry
 	dw MachampPokedexEntry
-	dw BellsproutPokedexEntry
+	dw LawniePokedexEntry
 	dw WeepinbellPokedexEntry
 	dw VictreebelPokedexEntry
 	dw TentacoolPokedexEntry
 	dw TentacruelPokedexEntry
-	dw GeodudePokedexEntry
+	dw DolmitePokedexEntry
 	dw GravelerPokedexEntry
 	dw GolemPokedexEntry
 	dw PonytaPokedexEntry
@@ -155,8 +155,8 @@ PokedexDataPointerTable:
 	dw TobacoonPokedexEntry
 	dw OkamikazePokedexEntry
 	dw RadeonPokedexEntry       ;orig cynda
-	dw QuilavaPokedexEntry
-	dw TyphlosionPokedexEntry
+	dw ScaulterPokedexEntry
+	dw ScorchopprPokedexEntry
 	dw FursaPokedexEntry		;orig totodile
 	dw NanuquaPokedexEntry
 	dw UrskimoPokedexEntry
@@ -164,7 +164,7 @@ PokedexDataPointerTable:
 	dw FurretPokedexEntry
 	dw HoothootPokedexEntry
 	dw NoctowlPokedexEntry
-	dw LedybaPokedexEntry
+	dw WormeekPokedexEntry
 	dw LedianPokedexEntry
 	dw SpinarakPokedexEntry
 	dw AriadosPokedexEntry
@@ -205,7 +205,7 @@ PokedexDataPointerTable:
 	dw GirafarigPokedexEntry
 	dw PinecoPokedexEntry
 	dw ForretressPokedexEntry
-	dw DunsparcePokedexEntry
+	dw AttackoPokedexEntry
 	dw GligarPokedexEntry
 	dw SteelixPokedexEntry
 	dw SnubbullPokedexEntry

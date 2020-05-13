@@ -34,14 +34,14 @@
 	const WEEDLE     ; 0d
 	const KAKUNA     ; 0e
 	const BEEDRILL   ; 0f
-	const PIDGEY     ; 10
+	const FURNIT     ; 10 pidgey
 	const PIDGEOTTO  ; 11
 	const PIDGEOT    ; 12
 	const NOMSTER    ; 13 orig Rattatta
 	const NOMSABRE   ; 14 orig RATICATE
-	const SPEAROW    ; 15
-	const FEAROW     ; 16
-	const EKANS      ; 17
+	const QWAIL      ; 15 spearow
+	const QWALLOP    ; 16
+	const EKANS      ; 17 ekans
 	const ARBOK      ; 18
 	const PIKACHU    ; 19
 	const RAICHU     ; 1a
@@ -87,12 +87,12 @@
 	const MACHOP     ; 42
 	const MACHOKE    ; 43
 	const MACHAMP    ; 44
-	const BELLSPROUT ; 45
+	const LAWNIE     ; 45
 	const WEEPINBELL ; 46
 	const VICTREEBEL ; 47
 	const TENTACOOL  ; 48
 	const TENTACRUEL ; 49
-	const GEODUDE    ; 4a
+	const DOLMITE    ; 4a
 	const GRAVELER   ; 4b
 	const GOLEM      ; 4c
 	const PONYTA     ; 4d
@@ -175,8 +175,8 @@ JOHTO_POKEMON EQU const_value
 	const TOBACOON   ; 99
 	const OKAMIKAZE  ; 9a
 	const RADEON     ; 9b cyndaquild
-	const QUILAVA    ; 9c
-	const TYPHLOSION ; 9d
+	const SCAULTER   ; 9c
+	const SCORCHOPPR ; 9d
 	const FURSA      ; 9e orig Totodile
 	const NANUQUA  	 ; 9f
 	const URSKIMO    ; a0
@@ -184,7 +184,7 @@ JOHTO_POKEMON EQU const_value
 	const FURRET     ; a2
 	const HOOTHOOT   ; a3
 	const NOCTOWL    ; a4
-	const LEDYBA     ; a5
+	const WORMEEK    ; a5 ledyba
 	const LEDIAN     ; a6
 	const SPINARAK   ; a7
 	const ARIADOS    ; a8
@@ -225,7 +225,7 @@ JOHTO_POKEMON EQU const_value
 	const GIRAFARIG  ; cb
 	const PINECO     ; cc
 	const FORRETRESS ; cd
-	const DUNSPARCE  ; ce
+	const ATTACKO    ; ce dunsparce
 	const GLIGAR     ; cf
 	const STEELIX    ; d0
 	const SNUBBULL   ; d1

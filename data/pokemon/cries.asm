@@ -20,13 +20,13 @@ PokemonCries::
 	mon_cry CRY_WEEDLE,      238,  129 ; WEEDLE
 	mon_cry CRY_BLASTOISE,   255,  129 ; KAKUNA
 	mon_cry CRY_BLASTOISE,    96,  256 ; BEEDRILL
-	mon_cry CRY_PIDGEY,      223,  132 ; PIDGEY
+	mon_cry CRY_PIDGEY,      223,  132 ; FURNIT, orig pidgy
 	mon_cry CRY_PIDGEOTTO,    40,  320 ; PIDGEOTTO
 	mon_cry CRY_PIDGEOTTO,    17,  383 ; PIDGEOT
 	mon_cry CRY_RATTATA,       0,  256 ; NOMSTER, ORIG RATTATA
 	mon_cry CRY_RATTATA,      32,  383 ; NOMSABRE, ORIG RATICATE
-	mon_cry CRY_SPEAROW,       0,  256 ; SPEAROW
-	mon_cry CRY_FEAROW,       64,  288 ; FEAROW
+	mon_cry CRY_SPEAROW,     310,  129 ; QWAIL
+	mon_cry CRY_FEAROW,      164,  129 ; QWALLOP
 	mon_cry CRY_EKANS,        18,  192 ; EKANS
 	mon_cry CRY_EKANS,       224,  144 ; ARBOK
 	mon_cry CRY_BULBASAUR,   238,  129 ; PIKACHU
@@ -73,12 +73,12 @@ PokemonCries::
 	mon_cry CRY_GROWLITHE,   238,  129 ; MACHOP
 	mon_cry CRY_GROWLITHE,    72,  224 ; MACHOKE
 	mon_cry CRY_GROWLITHE,     8,  320 ; MACHAMP
-	mon_cry CRY_PSYDUCK,      85,  129 ; BELLSPROUT
+	mon_cry CRY_PSYDUCK,    1111,  129 ; LAWNIE
 	mon_cry CRY_WEEPINBELL,   68,  160 ; WEEPINBELL
 	mon_cry CRY_WEEPINBELL,  102,  332 ; VICTREEBEL
 	mon_cry CRY_VENONAT,       0,  256 ; TENTACOOL
 	mon_cry CRY_VENONAT,     238,  383 ; TENTACRUEL
-	mon_cry CRY_VULPIX,      240,  144 ; GEODUDE
+	mon_cry CRY_VULPIX,      240,  144 ; DOLMITE
 	mon_cry CRY_VULPIX,        0,  256 ; GRAVELER
 	mon_cry CRY_GOLEM,       224,  192 ; GOLEM
 	mon_cry CRY_WEEPINBELL,    0,  256 ; PONYTA
@@ -160,16 +160,16 @@ PokemonCries::
 	mon_cry CRY_CHIKORITA,   -34,  288 ; TOBACOON, orig BAYLEEF
 	mon_cry CRY_CHIKORITA,  -183,  512 ; OKAMIKAZE, orig MEGANIUM
 	mon_cry CRY_CYNDAQUIL,   839,  128 ; RADEON, orig CYNDAQUIL
-	mon_cry CRY_CYNDAQUIL,   801,  288 ; QUILAVA
-	mon_cry CRY_TYPHLOSION, 3420,  212 ; TYPHLOSION
+	mon_cry CRY_CYNDAQUIL,   801,  288 ; SCAULTER
+	mon_cry CRY_TYPHLOSION, -183,  300 ; SCORCHOPPR
 	mon_cry CRY_TEDDIURSA,  1954,  110 ; FURSA, orig TOTODILE
 	mon_cry CRY_TEDDIURSA,  1555,  269 ; NANUQUA
-	mon_cry CRY_TEDDIURSA,   996,  272 ; URSKIMO
+	mon_cry CRY_TEDDIURSA,   990,  272 ; URSKIMO
 	mon_cry CRY_SENTRET,     138,  184 ; SENTRET, orig SENTRET
 	mon_cry CRY_SENTRET,     107,  258 ; FURRET
 	mon_cry CRY_HOOTHOOT,    145,  216 ; HOOTHOOT
 	mon_cry CRY_HOOTHOOT,      0,  416 ; NOCTOWL
-	mon_cry CRY_LEDYBA,        0,  222 ; LEDYBA
+	mon_cry CRY_LEDYBA,      687,  299 ; WORMEEK
 	mon_cry CRY_LEDYBA,     -150,  312 ; LEDIAN
 	mon_cry CRY_SPINARAK,     17,  512 ; SPINARAK
 	mon_cry CRY_SPINARAK,   -174,  482 ; ARIADOS
@@ -210,7 +210,7 @@ PokemonCries::
 	mon_cry CRY_GIRAFARIG,    65,  512 ; GIRAFARIG
 	mon_cry CRY_SLOWKING,    128,  256 ; PINECO
 	mon_cry CRY_SLOWKING,      0,  384 ; FORRETRESS
-	mon_cry CRY_DUNSPARCE,   452,  256 ; DUNSPARCE
+	mon_cry CRY_DUNSPARCE,   420,  356 ; ATTACKO
 	mon_cry CRY_GLIGAR,     -258,  256 ; GLIGAR
 	mon_cry CRY_TYPHLOSION,  239,  247 ; STEELIX
 	mon_cry CRY_DUNSPARCE,   274,  232 ; SNUBBULL

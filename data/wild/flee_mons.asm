@@ -10,6 +10,7 @@ SometimesFleeMons:
 	db PORYGON
 	db DRATINI
 	db DRAGONAIR
+	db WORMEEK
 	db TOGETIC
 	db UMBREON
 	db UNOWN

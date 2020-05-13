@@ -69,14 +69,23 @@ MeetMomScript:
 .KnowPhone:
 	writetext KnowTheInstructionsText
 	promptbutton
-	sjump .FinishPhone
+	sjump .FinishPhoneKnow
 
 .ExplainPhone:
 	writetext DontKnowTheInstructionsText
 	promptbutton
-	sjump .FinishPhone
+	sjump .FinishPhoneExplain
 
-.FinishPhone:
+.FinishPhoneKnow
+	waitbutton
+	closetext
+	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
+	iftrue .FromRight
+	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_2
+	iffalse .FromLeft
+	sjump .Finish
+	
+.FinishPhoneExplain:
 	writetext InstructionsNextText
 	waitbutton
 	closetext
@@ -263,11 +272,8 @@ ComeHomeForDSTText:
 	done
 
 KnowTheInstructionsText:
-	text "Don't you just"
-	line "turn the #GEAR"
-
-	para "on and select the"
-	line "PHONE icon?"
+	text "Oh, good! Teach"
+	line "me sometime, dear."
 	done
 
 DontKnowTheInstructionsText:

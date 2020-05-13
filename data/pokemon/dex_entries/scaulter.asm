@@ -1,5 +1,5 @@
 	db "REVVING@" ; species name
-	dw 3002, 8820 ; height, weight
+	dw 411, 1023 ; height, weight
 
 	db   "Though still ob-"
 	next "noxiously loud,"

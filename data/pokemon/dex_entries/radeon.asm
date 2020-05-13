@@ -1,5 +1,5 @@
 	db "OBNOXIOUS@" ; species name
-	dw 3002, 8820 ; height, weight
+	dw 200, 487 ; height, weight
 
 	db   "RADEON take great"
 	next "pride in how loud"

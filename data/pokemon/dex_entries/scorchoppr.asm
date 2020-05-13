@@ -1,5 +1,5 @@
 	db "ROARING@" ; species name
-	dw 3002, 8820 ; height, weight
+	dw 1801, 17637 ; height, weight
 
 	db   "Their roars emit"
 	next "flames from their"

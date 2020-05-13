@@ -18,7 +18,7 @@ ViridianNicknameSpeechHouseLassScript:
 Speary:
 	opentext
 	writetext SpearyText
-	cry SPEAROW
+	cry QWAIL
 	waitbutton
 	closetext
 	end
@@ -43,16 +43,21 @@ ViridianNicknameSpeechHousePokefanMText:
 
 	para "the fun of trading"
 	line "with others."
+	
+	para "Though, so does"
+	line "giving bad ones!"
+	
+	para "Dohohohoho!"
 	done
 
 ViridianNicknameSpeechHouseLassText:
-	text "They're SPEARY--"
-	line "a SPEAROW--and"
+	text "They're TYSON--"
+	line "a QWAIL--and"
 	cont "HAMMY--a NOMSTER."
 	done
 
 SpearyText:
-	text "SPEARY: Ch-chun!"
+	text "TYSON: Ch-chun!"
 	done
 
 RatteyText:

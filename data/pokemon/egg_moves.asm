@@ -39,7 +39,7 @@ SquirtleEggMoves:
 	db FLAIL
 	db -1 ; end
 
-PidgeyEggMoves:
+FurnitEggMoves:
 	db PURSUIT
 	db FAINT_ATTACK
 	db FORESIGHT
@@ -57,12 +57,14 @@ NomsterEggMoves:
 	db FLAIL
 	db -1 ; end
 
-SpearowEggMoves:
+QwailEggMoves:
 	db FAINT_ATTACK
 	db FALSE_SWIPE
 	db SCARY_FACE
 	db QUICK_ATTACK
-	db TRI_ATTACK
+	db ICE_PUNCH
+	db FIRE_PUNCH
+	db THUNDERPUNCH
 	db -1 ; end
 
 EkansEggMoves:
@@ -204,7 +206,7 @@ MachopEggMoves:
 	db ENCORE
 	db -1 ; end
 
-BellsproutEggMoves:
+LawnieEggMoves:
 	db SWORDS_DANCE
 	db ENCORE
 	db REFLECT
@@ -220,9 +222,9 @@ TentacoolEggMoves:
 	db SAFEGUARD
 	db -1 ; end
 
-GeodudeEggMoves:
-	db COMET_PUNCH
+DolmiteEggMoves:
 	db ROCK_SLIDE
+	db CURSE
 	db -1 ; end
 
 PonytaEggMoves:
@@ -493,7 +495,7 @@ HoothootEggMoves:
 	db SKY_ATTACK
 	db -1 ; end
 
-LedybaEggMoves:
+WormeekEggMoves:
 	db PSYBEAM
 	db BIDE
 	db LIGHT_SCREEN
@@ -638,11 +640,14 @@ PinecoEggMoves:
 	db SWIFT
 	db -1 ; end
 
-DunsparceEggMoves:
+AttackoEggMoves:
 	db BIDE
 	db ANCIENTPOWER
 	db ROCK_SLIDE
 	db BITE
+	db CRUNCH
+	db CURSE
+	db SPITE
 	db -1 ; end
 
 GligarEggMoves:

@@ -11,7 +11,7 @@ ChrisNameMenuHeader:
 	db "NEW NAME@"
 MalePlayerNameArray:
 	db "GOLD@"
-	db "CHRIS@"
+	db "ETHAN@"
 	db "op@"
 	db "(you)@"
 	db 2 ; displacement

@@ -3,7 +3,7 @@ Pokered_MonIndices:
 	db KANGASKHAN
 	db NIDORAN_M
 	db CLEFAIRY
-	db SPEAROW
+	db QWAIL
 	db VOLTORB
 	db NIDOKING
 	db SLOWBRO
@@ -33,8 +33,8 @@ Pokered_MonIndices:
 	db SHUCKLE ; MISSINGNO.
 	db GROWLITHE
 	db ONIX
-	db FEAROW
-	db PIDGEY
+	db QWALLOP
+	db FURNIT
 	db SLOWPOKE
 	db KADABRA
 	db GRAVELER
@@ -167,7 +167,7 @@ Pokered_MonIndices:
 	db NOMSABRE
 	db NIDORINO
 	db NIDORINA
-	db GEODUDE
+	db DOLMITE
 	db PORYGON
 	db AERODACTYL
 	db RAIKOU ; MISSINGNO.
@@ -186,7 +186,7 @@ Pokered_MonIndices:
 	db ODDISH
 	db GLOOM
 	db VILEPLUME
-	db BELLSPROUT
+	db LAWNIE
 	db WEEPINBELL
 	db VICTREEBEL
 
@@ -194,8 +194,8 @@ Pokered_MonIndices:
 	db TOBACOON
 	db OKAMIKAZE
 	db RADEON
-	db QUILAVA
-	db TYPHLOSION
+	db SCAULTER
+	db SCORCHOPPR
 	db FURSA
 	db NANUQUA
 	db URSKIMO
@@ -203,7 +203,7 @@ Pokered_MonIndices:
 	db FURRET
 	db HOOTHOOT
 	db NOCTOWL
-	db LEDYBA
+	db WORMEEK
 	db LEDIAN
 	db SPINARAK
 	db ARIADOS
@@ -244,7 +244,7 @@ Pokered_MonIndices:
 	db GIRAFARIG
 	db PINECO
 	db FORRETRESS
-	db DUNSPARCE
+	db ATTACKO
 	db GLIGAR
 	db STEELIX
 	db SNUBBULL

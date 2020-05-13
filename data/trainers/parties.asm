@@ -17,8 +17,9 @@ SECTION "Enemy Trainer Parties 1", ROMX
 FalknerGroup:
 	; FALKNER (1)
 	db "FALKNER@", TRAINERTYPE_MOVES
-	db  7, PIDGEY,     TACKLE, MUD_SLAP, NO_MOVE, NO_MOVE
-	db  9, PIDGEOTTO,  TACKLE, MUD_SLAP, GUST, NO_MOVE
+	db 10, HOOTHOOT,   PECK, MUD_SLAP, MOONLIGHT, NO_MOVE
+	db 12, FURNIT,     TACKLE, MUD_SLAP, NO_MOVE, NO_MOVE
+	db 12, PIDGEOTTO,  TACKLE, MUD_SLAP, GUST, NO_MOVE
 	db -1 ; end
 
 WhitneyGroup:
@@ -113,7 +114,7 @@ Rival1Group:
 	db "?@", TRAINERTYPE_NORMAL
 	db 12, GASTLY
 	db 14, ZUBAT
-	db 16, QUILAVA
+	db 16, SCAULTER
 	db -1 ; end
 
 	; RIVAL1 (6)
@@ -136,7 +137,7 @@ Rival1Group:
 	db 20, HAUNTER,    LICK, SPITE, MEAN_LOOK, CURSE
 	db 18, MAGNEMITE,  TACKLE, THUNDERSHOCK, SUPERSONIC, SONICBOOM
 	db 20, ZUBAT,      LEECH_LIFE, SUPERSONIC, BITE, CONFUSE_RAY
-	db 22, QUILAVA,    LEER, SMOKESCREEN, EMBER, QUICK_ATTACK
+	db 22, SCAULTER,    LEER, SMOKESCREEN, EMBER, QUICK_ATTACK
 	db -1 ; end
 
 	; RIVAL1 (9)
@@ -162,7 +163,7 @@ Rival1Group:
 	db 28, MAGNEMITE,  TACKLE, THUNDERSHOCK, SONICBOOM, THUNDER_WAVE
 	db 30, HAUNTER,    LICK, MEAN_LOOK, CURSE, SHADOW_BALL
 	db 32, SNEASEL,    LEER, QUICK_ATTACK, SCREECH, FAINT_ATTACK
-	db 32, QUILAVA,    SMOKESCREEN, EMBER, QUICK_ATTACK, FLAME_WHEEL
+	db 32, SCAULTER,    SMOKESCREEN, EMBER, QUICK_ATTACK, FLAME_WHEEL
 	db -1 ; end
 
 	; RIVAL1 (12)
@@ -191,7 +192,7 @@ Rival1Group:
 	db 35, MAGNETON,   THUNDERSHOCK, SONICBOOM, THUNDER_WAVE, SWIFT
 	db 35, HAUNTER,    MEAN_LOOK, CURSE, SHADOW_BALL, CONFUSE_RAY
 	db 35, KADABRA,    DISABLE, PSYBEAM, RECOVER, FUTURE_SIGHT
-	db 38, TYPHLOSION, SMOKESCREEN, EMBER, QUICK_ATTACK, FLAME_WHEEL
+	db 38, SCORCHOPPR, SMOKESCREEN, EMBER, QUICK_ATTACK, FLAME_WHEEL
 	db -1 ; end
 
 	; RIVAL1 (15)
@@ -227,14 +228,14 @@ PKMNTrainerGroup:
 	; CAL (2)
 	db "CAL@", TRAINERTYPE_NORMAL
 	db 30, TOBACOON
-	db 30, QUILAVA
+	db 30, SCAULTER
 	db 30, NANUQUA
 	db -1 ; end
 
 	; CAL (3)
 	db "CAL@", TRAINERTYPE_NORMAL
 	db 50, OKAMIKAZE
-	db 50, TYPHLOSION
+	db 50, SCORCHOPPR
 	db 50, URSKIMO
 	db -1 ; end
 
@@ -356,7 +357,7 @@ YoungsterGroup:
 
 	; YOUNGSTER (2) ;route 29
 	db "MIKEY@", TRAINERTYPE_NORMAL 
-	db  4, PIDGEY
+	db  5, FURNIT
 	db  4, NOMSTER
 	db -1 ; end
 
@@ -375,8 +376,8 @@ YoungsterGroup:
 	db "SAMUEL@", TRAINERTYPE_NORMAL
 	db  7, NOMSTER
 	db 10, SANDSHREW
-	db  8, SPEAROW
-	db  8, SPEAROW
+	db  8, QWAIL
+	db  8, QWAIL
 	db -1 ; end
 
 	; YOUNGSTER (6)
@@ -397,7 +398,7 @@ YoungsterGroup:
 
 	; YOUNGSTER (9)
 	db "WARREN@", TRAINERTYPE_NORMAL
-	db 35, FEAROW
+	db 35, QWALLOP
 	db -1 ; end
 
 	; YOUNGSTER (10)
@@ -449,7 +450,7 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (4)
 	db "JOHNNY@", TRAINERTYPE_NORMAL
-	db 29, BELLSPROUT
+	db 29, LAWNIE
 	db 31, WEEPINBELL
 	db 33, VICTREEBEL
 	db -1 ; end
@@ -586,28 +587,28 @@ SchoolboyGroup:
 BirdKeeperGroup:
 	; BIRD_KEEPER (1) ;violet gym
 	db "ROD@", TRAINERTYPE_NORMAL
-	db  7, PIDGEY
-	db  7, PIDGEY
+	db 10, FURNIT
+	db 10, FURNIT
 	db -1 ; end
 
 	; BIRD_KEEPER (2) ;violet gym
 	db "ABE@", TRAINERTYPE_NORMAL 
-	db  9, SPEAROW
+	db 10, QWAIL
 	db -1 ; end
 
 	; BIRD_KEEPER (3)
 	db "BRYAN@", TRAINERTYPE_NORMAL
-	db 12, PIDGEY
+	db 12, FURNIT
 	db 14, PIDGEOTTO
 	db -1 ; end
 
 	; BIRD_KEEPER (4)
 	db "THEO@", TRAINERTYPE_NORMAL
-	db 17, PIDGEY
-	db 15, PIDGEY
-	db 19, PIDGEY
-	db 15, PIDGEY
-	db 15, PIDGEY
+	db 17, FURNIT
+	db 15, FURNIT
+	db 19, FURNIT
+	db 15, FURNIT
+	db 15, FURNIT
 	db -1 ; end
 
 	; BIRD_KEEPER (5)
@@ -619,9 +620,9 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (6)
 	db "DENIS@", TRAINERTYPE_NORMAL
-	db 18, SPEAROW
-	db 20, FEAROW
-	db 18, SPEAROW
+	db 18, QWAIL
+	db 20, QWALLOP
+	db 18, QWAIL
 	db -1 ; end
 
 	; BIRD_KEEPER (7)
@@ -632,14 +633,14 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (8)
 	db "HANK@", TRAINERTYPE_NORMAL
-	db 12, PIDGEY
+	db 12, FURNIT
 	db 34, PIDGEOT
 	db -1 ; end
 
 	; BIRD_KEEPER (9)
 	db "ROY@", TRAINERTYPE_NORMAL
-	db 29, FEAROW
-	db 35, FEAROW
+	db 29, QWALLOP
+	db 35, QWALLOP
 	db -1 ; end
 
 	; BIRD_KEEPER (10)
@@ -661,9 +662,9 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (13) ;route 32
 	db "PETER@", TRAINERTYPE_NORMAL
-	db  6, PIDGEY
-	db  6, PIDGEY
-	db  8, SPEAROW
+	db  6, FURNIT
+	db  6, FURNIT
+	db  8, QWAIL
 	db -1 ; end
 
 	; BIRD_KEEPER (14)
@@ -679,7 +680,7 @@ BirdKeeperGroup:
 	; BIRD_KEEPER (16)
 	db "BRET@", TRAINERTYPE_NORMAL
 	db 32, PIDGEOTTO
-	db 32, FEAROW
+	db 32, QWALLOP
 	db -1 ; end
 
 	; BIRD_KEEPER (17)
@@ -1509,8 +1510,8 @@ SabrinaGroup:
 BugCatcherGroup:
 	; BUG_CATCHER (1) ;route 29
 	db "DON@", TRAINERTYPE_NORMAL
-	db  3, CATERPIE
-	db  3, CATERPIE
+	db  5, CATERPIE
+	db  5, CATERPIE
 	db -1 ; end
 
 	; BUG_CATCHER (2)
@@ -1528,10 +1529,10 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (4) ;route 31
 	db "WADE@", TRAINERTYPE_NORMAL
-	db  2, CATERPIE
-	db  2, CATERPIE
-	db  3, WEEDLE
-	db  2, CATERPIE
+	db  3, CATERPIE
+	db  3, CATERPIE
+	db  5, WEEDLE
+	db  5, CATERPIE
 	db -1 ; end
 
 	; BUG_CATCHER (5)
@@ -1622,7 +1623,7 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (19)
 	db "WAYNE@", TRAINERTYPE_NORMAL
-	db  8, LEDYBA
+	db  8, WORMEEK
 	db 10, PARAS
 	db -1 ; end
 
@@ -2223,7 +2224,7 @@ Rival2Group:
 	db 41, MAGNETON,   THUNDERSHOCK, SONICBOOM, THUNDER_WAVE, SWIFT
 	db 43, GENGAR,     MEAN_LOOK, CURSE, SHADOW_BALL, CONFUSE_RAY
 	db 43, ALAKAZAM,   DISABLE, RECOVER, FUTURE_SIGHT, PSYCHIC_M
-	db 45, TYPHLOSION, SMOKESCREEN, QUICK_ATTACK, FLAME_WHEEL, SWIFT
+	db 45, SCORCHOPPR, SMOKESCREEN, QUICK_ATTACK, FLAME_WHEEL, SWIFT
 	db -1 ; end
 
 	; RIVAL2 (3)
@@ -2253,7 +2254,7 @@ Rival2Group:
 	db 45, MAGNETON,   THUNDER, SONICBOOM, THUNDER_WAVE, SWIFT
 	db 46, GENGAR,     MEAN_LOOK, CURSE, SHADOW_BALL, CONFUSE_RAY
 	db 46, ALAKAZAM,   RECOVER, FUTURE_SIGHT, PSYCHIC_M, REFLECT
-	db 50, TYPHLOSION, SMOKESCREEN, QUICK_ATTACK, FIRE_BLAST, SWIFT
+	db 50, SCORCHOPPR, SMOKESCREEN, QUICK_ATTACK, FIRE_BLAST, SWIFT
 	db -1 ; end
 
 	; RIVAL2 (6)
@@ -2283,40 +2284,40 @@ GuitaristGroup:
 HikerGroup:
 	; HIKER (1)
 	db "ANTHONY@", TRAINERTYPE_NORMAL
-	db 16, GEODUDE
+	db 16, DOLMITE
 	db 18, MACHAMP
 	db -1 ; end
 
 	; HIKER (2)
 	db "RUSSELL@", TRAINERTYPE_NORMAL
-	db  4, GEODUDE
-	db  6, GEODUDE
-	db  8, GEODUDE
+	db  4, DOLMITE
+	db  6, DOLMITE
+	db  8, DOLMITE
 	db -1 ; end
 
 	; HIKER (3)
 	db "PHILLIP@", TRAINERTYPE_NORMAL
-	db 23, GEODUDE
-	db 23, GEODUDE
+	db 23, DOLMITE
+	db 23, DOLMITE
 	db 23, GRAVELER
 	db -1 ; end
 
 	; HIKER (4)
 	db "LEONARD@", TRAINERTYPE_NORMAL
-	db 23, GEODUDE
+	db 23, DOLMITE
 	db 25, MACHOP
 	db -1 ; end
 
 	; HIKER (5)
 	db "ANTHONY@", TRAINERTYPE_NORMAL
-	db 11, GEODUDE
+	db 11, DOLMITE
 	db 11, MACHOP
 	db -1 ; end
 
 	; HIKER (6)
 	db "BENJAMIN@", TRAINERTYPE_NORMAL
 	db 14, DIGLETT
-	db 14, GEODUDE
+	db 14, DOLMITE
 	db 16, DUGTRIO
 	db -1 ; end
 
@@ -2329,7 +2330,7 @@ HikerGroup:
 
 	; HIKER (8)
 	db "MICHAEL@", TRAINERTYPE_NORMAL
-	db 25, GEODUDE
+	db 25, DOLMITE
 	db 25, GRAVELER
 	db 25, GOLEM
 	db -1 ; end
@@ -2348,11 +2349,11 @@ HikerGroup:
 
 	; HIKER (11)
 	db "BAILEY@", TRAINERTYPE_NORMAL
-	db 13, GEODUDE
-	db 13, GEODUDE
-	db 13, GEODUDE
-	db 13, GEODUDE
-	db 13, GEODUDE
+	db 13, DOLMITE
+	db 13, DOLMITE
+	db 13, DOLMITE
+	db 13, DOLMITE
+	db 13, DOLMITE
 	db -1 ; end
 
 	; HIKER (12)
@@ -2991,15 +2992,15 @@ CamperGroup:
 
 	; CAMPER (12)
 	db "TODD@", TRAINERTYPE_NORMAL
-	db 17, GEODUDE
-	db 17, GEODUDE
+	db 17, DOLMITE
+	db 17, DOLMITE
 	db 23, PSYDUCK
 	db -1 ; end
 
 	; CAMPER (13)
 	db "TODD@", TRAINERTYPE_NORMAL
-	db 23, GEODUDE
-	db 23, GEODUDE
+	db 23, DOLMITE
+	db 23, DOLMITE
 	db 26, PSYDUCK
 	db -1 ; end
 
@@ -3065,7 +3066,7 @@ CamperGroup:
 
 	; CAMPER (22)
 	db "QUENTIN@", TRAINERTYPE_NORMAL
-	db 30, FEAROW
+	db 30, QWALLOP
 	db 30, PRIMEAPE
 	db 30, TAUROS
 	db -1 ; end
@@ -3086,28 +3087,29 @@ ExecutiveFGroup:
 	db -1 ; end
 
 SageGroup:
-	; SAGE (1)
+	; SAGE (1) ;sprout
 	db "CHOW@", TRAINERTYPE_NORMAL
-	db  3, BELLSPROUT
-	db  3, BELLSPROUT
-	db  3, BELLSPROUT
+	db  5, LAWNIE
+	db  5, LAWNIE
+	db  6, LAWNIE
 	db -1 ; end
 
-	; SAGE (2)
+	; SAGE (2) ;sprout
 	db "NICO@", TRAINERTYPE_NORMAL
-	db  3, BELLSPROUT
-	db  3, BELLSPROUT
-	db  3, BELLSPROUT
+	db  6, LAWNIE
+	db  6, LAWNIE
+	db  7, LAWNIE
 	db -1 ; end
 
-	; SAGE (3)
+	; SAGE (3) ;sprout
 	db "JIN@", TRAINERTYPE_NORMAL
-	db  6, BELLSPROUT
+	db  10, LAWNIE
+	db  7,  HOOTHOOT
 	db -1 ; end
 
-	; SAGE (4)
+	; SAGE (4) ;sprout
 	db "TROY@", TRAINERTYPE_NORMAL
-	db  7, BELLSPROUT
+	db  7, LAWNIE
 	db  7, HOOTHOOT
 	db -1 ; end
 
@@ -3125,23 +3127,24 @@ SageGroup:
 	db 16, GASTLY
 	db -1 ; end
 
-	; SAGE (7)
+	; SAGE (7) ;sprout
 	db "EDMOND@", TRAINERTYPE_NORMAL
-	db  3, BELLSPROUT
-	db  3, BELLSPROUT
-	db  3, BELLSPROUT
+	db  7, LAWNIE
+	db  7, LAWNIE
+	db  8, LAWNIE
 	db -1 ; end
 
-	; SAGE (8)
+	; SAGE (8) ;sprout
 	db "NEAL@", TRAINERTYPE_NORMAL
-	db  6, BELLSPROUT
+	db  10, LAWNIE
+	db   9, HOOTHOOT
 	db -1 ; end
 
-	; SAGE (9)
+	; SAGE (9) ;sprout boss
 	db "LI@", TRAINERTYPE_NORMAL
-	db  7, BELLSPROUT
-	db  7, BELLSPROUT
-	db 10, HOOTHOOT
+	db 10, LAWNIE
+	db 10, LAWNIE
+	db 11, HOOTHOOT
 	db -1 ; end
 
 	; SAGE (10)
@@ -3343,7 +3346,7 @@ TwinsGroup:
 	; TWINS (1)
 	db "AMY & MAY@", TRAINERTYPE_NORMAL
 	db 10, SPINARAK
-	db 10, LEDYBA
+	db 10, WORMEEK
 	db -1 ; end
 
 	; TWINS (2)
@@ -3360,7 +3363,7 @@ TwinsGroup:
 
 	; TWINS (4)
 	db "AMY & MAY@", TRAINERTYPE_NORMAL
-	db 10, LEDYBA
+	db 10, WORMEEK
 	db 10, SPINARAK
 	db -1 ; end
 

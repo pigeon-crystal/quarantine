@@ -32,8 +32,8 @@ PokemonPicPointers::
 	dba_pic KakunaBackpic
 	dba_pic BeedrillFrontpic
 	dba_pic BeedrillBackpic
-	dba_pic PidgeyFrontpic
-	dba_pic PidgeyBackpic
+	dba_pic FurnitFrontpic
+	dba_pic FurnitBackpic
 	dba_pic PidgeottoFrontpic
 	dba_pic PidgeottoBackpic
 	dba_pic PidgeotFrontpic
@@ -42,10 +42,10 @@ PokemonPicPointers::
 	dba_pic NomsterBackpic ;orig rattata
 	dba_pic NomsabreFrontpic ;orig raticate
 	dba_pic NomsabreBackpic ;orig raticate
-	dba_pic SpearowFrontpic
-	dba_pic SpearowBackpic
-	dba_pic FearowFrontpic
-	dba_pic FearowBackpic
+	dba_pic QwailFrontpic
+	dba_pic QwailBackpic
+	dba_pic QwallopFrontpic
+	dba_pic QwallopBackpic
 	dba_pic EkansFrontpic
 	dba_pic EkansBackpic
 	dba_pic ArbokFrontpic
@@ -138,8 +138,8 @@ PokemonPicPointers::
 	dba_pic MachokeBackpic
 	dba_pic MachampFrontpic
 	dba_pic MachampBackpic
-	dba_pic BellsproutFrontpic
-	dba_pic BellsproutBackpic
+	dba_pic LawnieFrontpic
+	dba_pic LawnieBackpic
 	dba_pic WeepinbellFrontpic
 	dba_pic WeepinbellBackpic
 	dba_pic VictreebelFrontpic
@@ -148,8 +148,8 @@ PokemonPicPointers::
 	dba_pic TentacoolBackpic
 	dba_pic TentacruelFrontpic
 	dba_pic TentacruelBackpic
-	dba_pic GeodudeFrontpic
-	dba_pic GeodudeBackpic
+	dba_pic DolmiteFrontpic
+	dba_pic DolmiteBackpic
 	dba_pic GravelerFrontpic
 	dba_pic GravelerBackpic
 	dba_pic GolemFrontpic
@@ -312,10 +312,10 @@ PokemonPicPointers::
 	dba_pic OkamikazeBackpic
 	dba_pic RadeonFrontpic     ;orig cyndaquil
 	dba_pic RadeonBackpic
-	dba_pic QuilavaFrontpic
-	dba_pic QuilavaBackpic
-	dba_pic TyphlosionFrontpic
-	dba_pic TyphlosionBackpic
+	dba_pic ScaulterFrontpic
+	dba_pic ScaulterBackpic
+	dba_pic ScorchopprFrontpic
+	dba_pic ScorchopprBackpic
 	dba_pic FursaFrontpic      ;orig totodile
 	dba_pic FursaBackpic       ;orig totodile
 	dba_pic NanuquaFrontpic
@@ -330,8 +330,8 @@ PokemonPicPointers::
 	dba_pic HoothootBackpic
 	dba_pic NoctowlFrontpic
 	dba_pic NoctowlBackpic
-	dba_pic LedybaFrontpic
-	dba_pic LedybaBackpic
+	dba_pic WormeekFrontpic
+	dba_pic WormeekBackpic
 	dba_pic LedianFrontpic
 	dba_pic LedianBackpic
 	dba_pic SpinarakFrontpic
@@ -415,8 +415,8 @@ PokemonPicPointers::
 	dba_pic PinecoBackpic
 	dba_pic ForretressFrontpic
 	dba_pic ForretressBackpic
-	dba_pic DunsparceFrontpic
-	dba_pic DunsparceBackpic
+	dba_pic AttackoFrontpic
+	dba_pic AttackoBackpic
 	dba_pic GligarFrontpic
 	dba_pic GligarBackpic
 	dba_pic SteelixFrontpic

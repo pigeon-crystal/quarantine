@@ -16,14 +16,14 @@ EvosAttacksPointers::
 	dw WeedleEvosAttacks
 	dw KakunaEvosAttacks
 	dw BeedrillEvosAttacks
-	dw PidgeyEvosAttacks
+	dw FurnitEvosAttacks
 	dw PidgeottoEvosAttacks
 	dw PidgeotEvosAttacks
 	dw NomsterEvosAttacks ;orig rattata
 	dw NomsabreEvosAttacks ;orig raticate
-	dw SpearowEvosAttacks
-	dw FearowEvosAttacks
-	dw EkansEvosAttacks
+	dw QwailEvosAttacks		;spearow
+	dw QwallopEvosAttacks
+	dw EkansEvosAttacks		;ekans
 	dw ArbokEvosAttacks
 	dw PikachuEvosAttacks
 	dw RaichuEvosAttacks
@@ -69,12 +69,12 @@ EvosAttacksPointers::
 	dw MachopEvosAttacks
 	dw MachokeEvosAttacks
 	dw MachampEvosAttacks
-	dw BellsproutEvosAttacks
+	dw LawnieEvosAttacks
 	dw WeepinbellEvosAttacks
 	dw VictreebelEvosAttacks
 	dw TentacoolEvosAttacks
 	dw TentacruelEvosAttacks
-	dw GeodudeEvosAttacks
+	dw DolmiteEvosAttacks
 	dw GravelerEvosAttacks
 	dw GolemEvosAttacks
 	dw PonytaEvosAttacks
@@ -156,8 +156,8 @@ EvosAttacksPointers::
 	dw TobacoonEvosAttacks
 	dw OkamikazeEvosAttacks
 	dw RadeonEvosAttacks       ;cynda
-	dw QuilavaEvosAttacks
-	dw TyphlosionEvosAttacks
+	dw ScaulterEvosAttacks
+	dw ScorchopprEvosAttacks
 	dw FursaEvosAttacks			;orig totodile
 	dw NanuquaEvosAttacks
 	dw UrskimoEvosAttacks
@@ -165,7 +165,7 @@ EvosAttacksPointers::
 	dw FurretEvosAttacks
 	dw HoothootEvosAttacks
 	dw NoctowlEvosAttacks
-	dw LedybaEvosAttacks
+	dw WormeekEvosAttacks
 	dw LedianEvosAttacks
 	dw SpinarakEvosAttacks
 	dw AriadosEvosAttacks
@@ -206,7 +206,7 @@ EvosAttacksPointers::
 	dw GirafarigEvosAttacks
 	dw PinecoEvosAttacks
 	dw ForretressEvosAttacks
-	dw DunsparceEvosAttacks
+	dw AttackoEvosAttacks
 	dw GligarEvosAttacks
 	dw SteelixEvosAttacks
 	dw SnubbullEvosAttacks

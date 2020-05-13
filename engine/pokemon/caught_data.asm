@@ -197,7 +197,7 @@ SetBoxmonOrEggmonCaughtData:
 	jr .set_data
 	
 .fishing
-	ld a, LANDMARK_FISHING ; or whatever you names it
+	ld a, LANDMARK_FISHING
 	
 .set_data
 	ld b, a

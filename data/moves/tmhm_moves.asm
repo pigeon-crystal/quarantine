@@ -51,6 +51,8 @@ TMHMMoves:
 	db FIRE_PUNCH
 	db FURY_CUTTER
 	db NIGHTMARE
+	db FALSE_SWIPE
+	db SNARL
 ; HMs
 	db CUT
 	db FLY

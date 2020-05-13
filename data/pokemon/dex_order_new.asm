@@ -5,16 +5,16 @@ NewPokedexOrder:
 	db TOBACOON
 	db OKAMIKAZE
 	db RADEON ;orig cyndaquil
-	db QUILAVA
-	db TYPHLOSION
+	db SCAULTER
+	db SCORCHOPPR
 	db FURSA ;orig totodile
 	db NANUQUA
 	db URSKIMO
-	db PIDGEY ;orig pidgey
+	db FURNIT ;orig pidgey
 	db PIDGEOTTO
 	db PIDGEOT
-	db SPEAROW
-	db FEAROW
+	db QWAIL
+	db QWALLOP
 	db HOOTHOOT
 	db NOCTOWL
 	db NOMSTER ;orig rattata
@@ -30,11 +30,11 @@ NewPokedexOrder:
 	db WEEDLE
 	db KAKUNA
 	db BEEDRILL
-	db LEDYBA
+	db WORMEEK
 	db LEDIAN
 	db SPINARAK
 	db ARIADOS
-	db GEODUDE
+	db DOLMITE
 	db GRAVELER
 	db GOLEM
 	db ZUBAT
@@ -52,7 +52,7 @@ NewPokedexOrder:
 	db SANDSLASH
 	db EKANS
 	db ARBOK
-	db DUNSPARCE
+	db ATTACKO
 	db MAREEP
 	db FLAAFFY
 	db AMPHAROS
@@ -64,7 +64,7 @@ NewPokedexOrder:
 	db UNOWN
 	db ONIX
 	db STEELIX
-	db BELLSPROUT
+	db LAWNIE
 	db WEEPINBELL
 	db VICTREEBEL
 	db HOPPIP

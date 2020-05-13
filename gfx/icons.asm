@@ -1,4 +1,4 @@
-Icons: ; used only for BANK(Icons)
+SECTION "Mon Icons 1", ROMX
 
 NullIcon:
 PoliwagIcon:      INCBIN "gfx/icons/poliwag.2bpp"
@@ -21,6 +21,10 @@ ShellIcon:        INCBIN "gfx/icons/shell.2bpp"
 BlobIcon:         INCBIN "gfx/icons/blob.2bpp"
 SerpentIcon:      INCBIN "gfx/icons/serpent.2bpp"
 VoltorbIcon:      INCBIN "gfx/icons/voltorb.2bpp"
+
+
+SECTION "Mon Icons 2", ROMX
+
 SquirtleIcon:     INCBIN "gfx/icons/squirtle.2bpp"
 BulbasaurIcon:    INCBIN "gfx/icons/bulbasaur.2bpp"
 CharmanderIcon:   INCBIN "gfx/icons/charmander.2bpp"
@@ -39,3 +43,6 @@ GyaradosIcon:     INCBIN "gfx/icons/gyarados.2bpp"
 SlowpokeIcon:     INCBIN "gfx/icons/slowpoke.2bpp"
 SudowoodoIcon:    INCBIN "gfx/icons/sudowoodo.2bpp"
 BigmonIcon:       INCBIN "gfx/icons/bigmon.2bpp"
+NomsterIcon:      INCBIN "gfx/icons/nomster.2bpp"
+NomsabreIcon:     INCBIN "gfx/icons/nomsabre.2bpp"
+CigerillarIcon:   INCBIN "gfx/icons/cigerillar.2bpp"

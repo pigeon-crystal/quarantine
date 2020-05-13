@@ -457,11 +457,11 @@ VoltorbExplodingTrap:
 
 GeodudeExplodingTrap:
 	special FadeOutPalettes
-	cry GEODUDE
+	cry DOLMITE
 	special FadeInPalettes
 	setlasttalked -1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon GEODUDE, 21
+	loadwildmon DOLMITE, 21
 	startbattle
 	end
 
