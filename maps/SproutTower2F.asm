@@ -65,14 +65,11 @@ SageEdmondBeatenText:
 	done
 
 SageEdmondAfterBattleText:
-	text "I tried to copy"
-	line "BELLSPROUT's"
+	text "My beloved"
+	line "LAWNIE…"
 
-	para "gentle movements"
-	line "for battle…"
-
-	para "But I didn't train"
-	line "well enough."
+	para "For its sake, I"
+	line "must get stronger!"
 	done
 
 SproutTower2FStatueText:

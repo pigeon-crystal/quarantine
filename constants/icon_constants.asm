@@ -20,8 +20,15 @@
 	const ICON_SHELL
 	const ICON_BLOB
 	const ICON_SERPENT
-	const ICON_VOLTORB
-	const ICON_SQUIRTLE
+	const ICON_VOLTORB 
+	const ICON_FURNIT
+	const ICON_FURBODA
+	const ICON_HORNAMPA
+	const ICON_ATTACKO
+	const ICON_HOATOT
+	const ICON_HOATOXIC
+	const ICON_NOXROMAEUS
+	const ICON_SQUIRTLE ;START OF BANK 2
 	const ICON_BULBASAUR
 	const ICON_CHARMANDER
 	const ICON_CATERPILLAR
@@ -42,6 +49,14 @@
 	const ICON_NOMSTER
 	const ICON_NOMSABRE
 	const ICON_CIGERILLAR
+	const ICON_TOBACOON
+	const ICON_OKAMIKAZE
+	const ICON_RADEON
+	const ICON_SCAULTER
+	const ICON_SCORCHOPPR
+	const ICON_FURSA
+	const ICON_NANUQUA
+	const ICON_URSKIMO
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

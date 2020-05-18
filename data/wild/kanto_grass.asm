@@ -228,7 +228,7 @@ KantoGrassWildMons:
 	db 3, FURNIT
 	db 5, FURNIT
 	db 7, BUTTERFREE
-	db 7, PIDGEOTTO
+	db 7, FURBODA
 	db 4, PIKACHU
 	db 4, PIKACHU
 	db 10, PIKACHU
@@ -307,7 +307,7 @@ KantoGrassWildMons:
 	; morn
 	db 13, FURNIT
 	db 13, SNUBBULL
-	db 15, PIDGEOTTO
+	db 15, FURBODA
 	db 12, ABRA
 	db 14, JIGGLYPUFF
 	db 14, ABRA
@@ -316,7 +316,7 @@ KantoGrassWildMons:
 	; day
 	db 13, FURNIT
 	db 13, SNUBBULL
-	db 15, PIDGEOTTO
+	db 15, FURBODA
 	db 12, ABRA
 	db 14, JIGGLYPUFF
 	db 14, ABRA
@@ -396,7 +396,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 17, SNUBBULL
-	db 19, PIDGEOTTO
+	db 19, FURBODA
 	db 16, ABRA
 	db 17, GROWLITHE
 	db 16, JIGGLYPUFF
@@ -405,7 +405,7 @@ KantoGrassWildMons:
 	db 20, KADABRA
 	; day
 	db 17, SNUBBULL
-	db 19, PIDGEOTTO
+	db 19, FURBODA
 	db 16, ABRA
 	db 17, GROWLITHE
 	db 16, JIGGLYPUFF
@@ -488,7 +488,7 @@ KantoGrassWildMons:
 	db 14, HOPPIP
 	db 13, NOMSABRE
 	db 15, MAGNEMITE
-	db 16, PIDGEOTTO
+	db 16, FURBODA
 	db 16, NOMSTER
 	db 16, HOPPIP
 	db 16, HOPPIP
@@ -497,7 +497,7 @@ KantoGrassWildMons:
 	db 14, HOPPIP
 	db 13, NOMSABRE
 	db 15, MAGNEMITE
-	db 16, PIDGEOTTO
+	db 16, FURBODA
 	db 16, NOMSTER
 	db 16, HOPPIP
 	db 16, HOPPIP
@@ -517,7 +517,7 @@ KantoGrassWildMons:
 	; morn
 	db 23, NIDORINO
 	db 23, NIDORINA
-	db 25, PIDGEOTTO
+	db 25, FURBODA
 	db 25, HOPPIP
 	db 27, HOPPIP
 	db 27, HOPPIP
@@ -526,7 +526,7 @@ KantoGrassWildMons:
 	; day
 	db 23, NIDORINO
 	db 23, NIDORINA
-	db 25, PIDGEOTTO
+	db 25, FURBODA
 	db 25, HOPPIP
 	db 27, HOPPIP
 	db 27, HOPPIP
@@ -547,7 +547,7 @@ KantoGrassWildMons:
 	; morn
 	db 26, NIDORINO
 	db 26, NIDORINA
-	db 28, PIDGEOTTO
+	db 28, FURBODA
 	db 28, HOPPIP
 	db 30, SKIPLOOM
 	db 30, SKIPLOOM
@@ -556,7 +556,7 @@ KantoGrassWildMons:
 	; day
 	db 26, NIDORINO
 	db 26, NIDORINA
-	db 28, PIDGEOTTO
+	db 28, FURBODA
 	db 28, HOPPIP
 	db 30, SKIPLOOM
 	db 30, SKIPLOOM
@@ -577,7 +577,7 @@ KantoGrassWildMons:
 	; morn
 	db 23, NIDORINO
 	db 23, NIDORINA
-	db 25, PIDGEOTTO
+	db 25, FURBODA
 	db 25, HOPPIP
 	db 27, HOPPIP
 	db 27, HOPPIP
@@ -586,7 +586,7 @@ KantoGrassWildMons:
 	; day
 	db 23, NIDORINO
 	db 23, NIDORINA
-	db 25, PIDGEOTTO
+	db 25, FURBODA
 	db 25, HOPPIP
 	db 27, HOPPIP
 	db 27, HOPPIP
@@ -787,7 +787,7 @@ KantoGrassWildMons:
 	; morn
 	db 10, CATERPIE
 	db 10, FURNIT
-	db 12, PIDGEOTTO
+	db 12, FURBODA
 	db 12, METAPOD
 	db 10, LAWNIE
 	db 14, BUTTERFREE
@@ -796,7 +796,7 @@ KantoGrassWildMons:
 	; day
 	db 10, CATERPIE
 	db 10, FURNIT
-	db 12, PIDGEOTTO
+	db 12, FURBODA
 	db 12, METAPOD
 	db 10, LAWNIE
 	db 14, BUTTERFREE

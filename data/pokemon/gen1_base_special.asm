@@ -13,11 +13,11 @@ KantoMonSpecials:
 	db  20 ; CATERPIE
 	db  25 ; METAPOD
 	db  80 ; BUTTERFREE
-	db  20 ; WEEDLE
-	db  25 ; KAKUNA
+	db  20 ; HOATOT
+	db  25 ; HOATOXIC
 	db  45 ; BEEDRILL
 	db  35 ; PIDGEY
-	db  50 ; PIDGEOTTO
+	db  50 ; FURBODA
 	db  70 ; PIDGEOT
 	db  25 ; RATTATA
 	db  50 ; NOMSABRE
@@ -71,7 +71,7 @@ KantoMonSpecials:
 	db  65 ; MACHAMP
 	db  70 ; BELLSPROUT
 	db  85 ; WEEPINBELL
-	db 100 ; VICTREEBEL
+	db 100 ; GNOMERCY
 	db 100 ; TENTACOOL
 	db 120 ; TENTACRUEL
 	db  30 ; GEODUDE

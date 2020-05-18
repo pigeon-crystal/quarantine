@@ -15,14 +15,13 @@ GuideGentsHouseBookshelf:
 GuideGentsHouseGuideGentText:
 	text "When I was a wee"
 	line "lad, I was a hot-"
-	cont "shot trainer!"
+	cont "head trainer!"
 
 	para "Here's a word of"
-	line "advice: Catch lots"
-	cont "of #MON!"
+	line "advice:"
 
-	para "Treat them all"
-	line "with kindness!"
+	para "Get good!"
+	line "Dohohoho!"
 	done
 
 GuideGentsHouse_MapEvents:

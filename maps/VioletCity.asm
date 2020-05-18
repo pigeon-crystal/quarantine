@@ -203,26 +203,39 @@ Text_HereTeacherIAm:
 	done
 
 VioletCityLassText:
-	text "Ghosts are rumored"
-	line "to appear in"
-	cont "SPROUT TOWER."
-
-	para "They said normal-"
-	line "type #MON moves"
-
-	para "had no effect on"
-	line "ghosts."
+	text "Have you heard"
+	line "the legend of"
+	cont "SPROUT TOWER?"
+	
+	para "It's said a"
+	line "planted LAWNIE"
+	cont "will grow and"
+	cont "bring luck."
+	
+	para "What does this"
+	line "have to do with"
+	cont "SPROUT TOWER?"
+	
+	para "The SAGES say"
+	line "the center post"
+	cont "is really"
+	
+	para "an ancient LAWNIE"
+	line "planted long, long"
+	cont "ago."
+	
+	para "Isn't that so"
+	cont "cool?!"
 	done
 
 VioletCitySuperNerdText:
-	text "Hey, you're a"
-	line "#MON trainer?"
+	text "Those guys up in"
+	line "SPROUT TOWER"
+	cont "love LAWNIE."
 
-	para "If you beat the"
-	line "GYM LEADER here,"
-
-	para "you'll be ready"
-	line "for prime time!"
+	para "Keep that in mind"
+	line "if you're gonna"
+	cont "scale it."
 	done
 
 VioletCityGrampsText:

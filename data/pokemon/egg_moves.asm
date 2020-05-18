@@ -39,7 +39,18 @@ SquirtleEggMoves:
 	db FLAIL
 	db -1 ; end
 
+HoatotEggMoves:
+	db RAZOR_WIND
+	db ACID
+	db SLUDGE_BOMB
+	db POISON_JAB
+	db TOXIC
+	db WHIRLWIND
+	db HAZE
+	db -1 ;end
+	
 FurnitEggMoves:
+	db RAZOR_WIND
 	db PURSUIT
 	db FAINT_ATTACK
 	db FORESIGHT

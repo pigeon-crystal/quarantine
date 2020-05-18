@@ -245,6 +245,10 @@ SageLiFlashExplanationText:
 	text "FLASH illuminates"
 	line "even the darkest"
 	cont "of all places."
+	
+	para "It may help you"
+	line "against FALKNER,"
+	cont "too."
 
 	para "But to use it out"
 	line "of battle, you"
@@ -317,7 +321,7 @@ SageNealAfterBattleText:
 SproutTower3FPaintingText:
 	text "It's a powerful"
 	line "painting of a"
-	cont "BELLSPROUT."
+	cont "LAWNIE."
 	done
 
 SproutTower3FStatueText:

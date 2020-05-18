@@ -31,11 +31,11 @@
 	const CATERPIE   ; 0a
 	const METAPOD    ; 0b
 	const BUTTERFREE ; 0c
-	const WEEDLE     ; 0d
-	const KAKUNA     ; 0e
-	const BEEDRILL   ; 0f
+	const HOATOT     ; 0d weedle
+	const HOATOXIC   ; 0e
+	const NOXROMAEUS ; 0f
 	const FURNIT     ; 10 pidgey
-	const PIDGEOTTO  ; 11
+	const FURBODA    ; 11
 	const PIDGEOT    ; 12
 	const NOMSTER    ; 13 orig Rattatta
 	const NOMSABRE   ; 14 orig RATICATE
@@ -89,7 +89,7 @@
 	const MACHAMP    ; 44
 	const LAWNIE     ; 45
 	const WEEPINBELL ; 46
-	const VICTREEBEL ; 47
+	const GNOMERCY   ; 47
 	const TENTACOOL  ; 48
 	const TENTACRUEL ; 49
 	const DOLMITE    ; 4a

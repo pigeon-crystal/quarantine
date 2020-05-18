@@ -3,7 +3,7 @@ SpriteMons:
 	db UNOWN
 	db DOLMITE
 	db GROWLITHE
-	db WEEDLE
+	db HOATOT
 	db SHELLDER
 	db ODDISH
 	db GENGAR

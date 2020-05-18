@@ -1,10 +1,10 @@
 	db "TURF@" ; species name LAWNIE
 	dw 010, 397 ; height, weight
 
-	db   ""
-	next ""
-	next ""
+	db   "Commonly seen as a"
+	next "pest, this #MON"
+	next "has a tendency to"
 
-	page ""
-	next ""
-	next "@"
+	page "ruin people's"
+	next "gardens in search"
+	next "of decorations.@"

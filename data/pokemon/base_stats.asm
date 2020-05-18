@@ -44,11 +44,11 @@ INCLUDE "data/pokemon/base_stats/blastoise.asm"
 INCLUDE "data/pokemon/base_stats/caterpie.asm"
 INCLUDE "data/pokemon/base_stats/metapod.asm"
 INCLUDE "data/pokemon/base_stats/butterfree.asm"
-INCLUDE "data/pokemon/base_stats/weedle.asm"
-INCLUDE "data/pokemon/base_stats/kakuna.asm"
-INCLUDE "data/pokemon/base_stats/beedrill.asm"
+INCLUDE "data/pokemon/base_stats/hoatot.asm"    ;weedle
+INCLUDE "data/pokemon/base_stats/hoatoxic.asm"
+INCLUDE "data/pokemon/base_stats/noxromaeus.asm"
 INCLUDE "data/pokemon/base_stats/furnit.asm" 	;pidgey
-INCLUDE "data/pokemon/base_stats/pidgeotto.asm"
+INCLUDE "data/pokemon/base_stats/furboda.asm"
 INCLUDE "data/pokemon/base_stats/pidgeot.asm"
 INCLUDE "data/pokemon/base_stats/nomster.asm" ;orig rattata
 INCLUDE "data/pokemon/base_stats/nomsabre.asm" ;orig raticate
@@ -102,7 +102,7 @@ INCLUDE "data/pokemon/base_stats/machoke.asm"
 INCLUDE "data/pokemon/base_stats/machamp.asm"
 INCLUDE "data/pokemon/base_stats/lawnie.asm" ;bellsprout
 INCLUDE "data/pokemon/base_stats/weepinbell.asm"
-INCLUDE "data/pokemon/base_stats/victreebel.asm"
+INCLUDE "data/pokemon/base_stats/gnomercy.asm"
 INCLUDE "data/pokemon/base_stats/tentacool.asm"
 INCLUDE "data/pokemon/base_stats/tentacruel.asm"
 INCLUDE "data/pokemon/base_stats/dolmite.asm" ;geodude

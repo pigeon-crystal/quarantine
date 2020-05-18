@@ -193,72 +193,110 @@ ButterfreeEvosAttacks:
 	db 40, SAFEGUARD
 	db 0 ; no more level-up moves
 
-WeedleEvosAttacks:
-	db EVOLVE_LEVEL, 7, KAKUNA
+HoatotEvosAttacks:
+	db EVOLVE_LEVEL, 15, HOATOXIC
 	db 0 ; no more evolutions
-	db 1, POISON_STING
-	db 1, STRING_SHOT
+	db 1, GROWL
+	db 1, PECK
+	db 8, POISON_STING
+	db 15, WING_ATTACK
+	db 17, SMOG
+	db 23, POISON_GAS
+	db 27, FAINT_ATTACK
+	db 31, SLASH
+	db 35, POISON_JAB
+	db 39, NASTY_PLOT
+	db 44, RAZOR_WIND
+	db 48, DRAGONBREATH
+	db 50, TOXIC
 	db 0 ; no more level-up moves
 
-KakunaEvosAttacks:
-	db EVOLVE_LEVEL, 10, BEEDRILL
+HoatoxicEvosAttacks:
+	db EVOLVE_LEVEL, 34, NOXROMAEUS
 	db 0 ; no more evolutions
-	db 1, HARDEN
-	db 7, HARDEN
+	db 1, GROWL
+	db 1, PECK
+	db 8, POISON_STING
+	db 15, WING_ATTACK
+	db 17, SMOG
+	db 23, POISON_GAS
+	db 27, FAINT_ATTACK
+	db 31, SLASH
+	db 35, POISON_JAB
+	db 39, NASTY_PLOT
+	db 44, RAZOR_WIND
+	db 48, DRAGONBREATH
+	db 50, TOXIC
 	db 0 ; no more level-up moves
 
-BeedrillEvosAttacks:
+NoxromaeusEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, FURY_SWIPES
-	db 10, FURY_SWIPES
-	db 15, FOCUS_ENERGY
-	db 20, TWINEEDLE
-	db 30, PURSUIT
-	db 35, TWINEEDLE
-	db 40, AGILITY
+	db 1, GROWL
+	db 1, PECK
+	db 8, POISON_STING
+	db 15, WING_ATTACK
+	db 17, SMOG
+	db 23, POISON_GAS
+	db 27, FAINT_ATTACK
+	db 31, SLASH
+	db 35, POISON_JAB
+	db 39, NASTY_PLOT
+	db 44, RAZOR_WIND
+	db 48, DRAGONBREATH
+	db 50, TOXIC
 	db 0 ; no more level-up moves
 
 FurnitEvosAttacks:
-	db EVOLVE_LEVEL, 99, PIDGEOTTO
+	db EVOLVE_LEVEL, 15, FURBODA
 	db 0 ; no more evolutions
+	db 1, LEER
 	db 1, PECK
-	db 5, SAND_ATTACK
-	db 9, MUD_SLAP
-	db 15, QUICK_ATTACK
-	db 21, WHIRLWIND
-	db 29, WING_ATTACK
-	db 37, AGILITY
-	db 47, MIRROR_MOVE
+	db 5, MUD_SLAP
+	db 7, SAND_ATTACK
+	db 12, GUST
+	db 24, DIG
+	db 29, POWER_GEM
+	db 36, EARTH_POWER
+	db 41, SANDSTORM
+	db 44, WHIRLWIND
+	db 50, BRAVE_BIRD
+	db 51, RAZOR_WIND
+	db 55, MIRROR_MOVE
 	db 0 ; no more level-up moves
 
-PidgeottoEvosAttacks:
-	db EVOLVE_LEVEL, 36, PIDGEOT
+FurbodaEvosAttacks:
+	db EVOLVE_LEVEL, 99, PIDGEOT
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, SAND_ATTACK
-	db 1, GUST
-	db 5, SAND_ATTACK
-	db 9, GUST
-	db 15, QUICK_ATTACK
-	db 23, WHIRLWIND
-	db 33, WING_ATTACK
-	db 43, AGILITY
+	db 1, LEER
+	db 1, PECK
+	db 5, MUD_SLAP
+	db 7, SAND_ATTACK
+	db 12, GUST
+	db 24, DIG
+	db 29, POWER_GEM
+	db 36, EARTH_POWER
+	db 41, SANDSTORM
+	db 44, WHIRLWIND
+	db 50, BRAVE_BIRD
+	db 51, RAZOR_WIND
 	db 55, MIRROR_MOVE
 	db 0 ; no more level-up moves
 
 PidgeotEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, SAND_ATTACK
-	db 1, GUST
-	db 1, QUICK_ATTACK
-	db 5, SAND_ATTACK
-	db 9, GUST
-	db 15, QUICK_ATTACK
-	db 23, WHIRLWIND
-	db 33, WING_ATTACK
-	db 46, AGILITY
-	db 61, MIRROR_MOVE
+	db 1, LEER
+	db 1, PECK
+	db 5, MUD_SLAP
+	db 7, SAND_ATTACK
+	db 12, GUST
+	db 24, DIG
+	db 29, POWER_GEM
+	db 36, EARTH_POWER
+	db 41, SANDSTORM
+	db 44, WHIRLWIND
+	db 50, BRAVE_BIRD
+	db 51, RAZOR_WIND
+	db 55, MIRROR_MOVE
 	db 0 ; no more level-up moves
 
 NomsterEvosAttacks:
@@ -936,7 +974,7 @@ LawnieEvosAttacks:
 	db 0 ; no more level-up moves
 
 WeepinbellEvosAttacks:
-	db EVOLVE_ITEM, LEAF_STONE, VICTREEBEL
+	db EVOLVE_ITEM, LEAF_STONE, GNOMERCY
 	db 0 ; no more evolutions
 	db 1, VINE_WHIP
 	db 1, GROWTH
@@ -952,12 +990,14 @@ WeepinbellEvosAttacks:
 	db 54, BODY_SLAM
 	db 0 ; no more level-up moves
 
-VictreebelEvosAttacks:
+GnomercyEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, VINE_WHIP
-	db 1, SLEEP_POWDER
-	db 1, SWEET_SCENT
-	db 1, RAZOR_LEAF
+	db 1, POUND
+	db 1, GROWL
+	db 44, CRUNCH
+	db 48, DARK_PULSE
+	db 55, SUNNY_DAY
+	db 59, SOLARBEAM
 	db 0 ; no more level-up moves
 
 TentacoolEvosAttacks:
@@ -2059,7 +2099,6 @@ CigerillarEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, STRING_SHOT
-	db 6, GROWL
 	db 8, ABSORB
 	db 10, POISON_GAS
 	db 12, SMOKESCREEN
@@ -2745,6 +2784,10 @@ MisdreavusEvosAttacks:
 UnownEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, HIDDEN_POWER
+	db 1, ANCIENTPOWER
+	db 1, EARTH_POWER
+	db 1, CONFUSION
+	db 35, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 WobbuffetEvosAttacks:

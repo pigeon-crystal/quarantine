@@ -21,7 +21,14 @@ IconPointers:
 	dw BlobIcon
 	dw SerpentIcon
 	dw VoltorbIcon
-	dw SquirtleIcon
+	dw FurnitIcon
+	dw FurbodaIcon
+	dw HornampaIcon
+	dw AttackoIcon
+	dw HoatotIcon
+	dw HoatoxicIcon
+	dw NoxromaeusIcon
+	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon
 	dw CaterpillarIcon
@@ -41,4 +48,12 @@ IconPointers:
 	dw BigmonIcon
 	dw NomsterIcon
 	dw NomsabreIcon
-	dw CigerillarIcon	
+	dw CigerillarIcon
+	dw TobacoonIcon
+	dw OkamikazeIcon
+	dw RadeonIcon
+	dw ScaulterIcon
+	dw ScorchopprIcon
+	dw FursaIcon
+	dw NanuquaIcon
+	dw UrskimoIcon

@@ -12,11 +12,11 @@ PokedexDataPointerTable:
 	dw CaterpiePokedexEntry
 	dw MetapodPokedexEntry
 	dw ButterfreePokedexEntry
-	dw WeedlePokedexEntry
-	dw KakunaPokedexEntry
-	dw BeedrillPokedexEntry
-	dw FurnitPokedexEntry
-	dw PidgeottoPokedexEntry
+	dw HoatotPokedexEntry   ;ORIG Weedle
+	dw HoatoxicPokedexEntry
+	dw NoxromaeusPokedexEntry
+	dw FurnitPokedexEntry   ;orig pidgey
+	dw FurbodaPokedexEntry
 	dw PidgeotPokedexEntry
 	dw NomsterPokedexEntry ;orig rattata
 	dw NomsabrePokedexEntry ;orig raticate
@@ -70,7 +70,7 @@ PokedexDataPointerTable:
 	dw MachampPokedexEntry
 	dw LawniePokedexEntry
 	dw WeepinbellPokedexEntry
-	dw VictreebelPokedexEntry
+	dw GnomercyPokedexEntry
 	dw TentacoolPokedexEntry
 	dw TentacruelPokedexEntry
 	dw DolmitePokedexEntry

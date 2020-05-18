@@ -18,7 +18,7 @@ VioletNicknameSpeechHouseBirdScript:
 	faceplayer
 	opentext
 	writetext VioletNicknameSpeechHouseBirdText
-	cry FURNIT
+	cry HOATOT
 	waitbutton
 	closetext
 	end
@@ -34,12 +34,12 @@ VioletNicknameSpeechHouseTeacherText:
 	done
 
 VioletNicknameSpeechHouseLassText:
-	text "I call my FURNIT"
-	line "CHOCO!"
+	text "I call my HOATOT"
+	line "DURIAN!"
 	done
 
 VioletNicknameSpeechHouseBirdText:
-	text "CHOCO: Co-roo!"
+	text "DURIAN: Co-roo!"
 	done
 
 VioletNicknameSpeechHouse_MapEvents:
@@ -56,4 +56,4 @@ VioletNicknameSpeechHouse_MapEvents:
 	db 3 ; object events
 	object_event  2,  3, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VioletNicknameSpeechHouseTeacherScript, -1
 	object_event  6,  4, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, VioletNicknameSpeechHouseLassScript, -1
-	object_event  5,  2, SPRITE_BIRD, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, VioletNicknameSpeechHouseBirdScript, -1
+	object_event  5,  2, SPRITE_BIRD, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, VioletNicknameSpeechHouseBirdScript, -1

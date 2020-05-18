@@ -25,18 +25,22 @@ CherrygroveEvolutionSpeechHouseBookshelf:
 	jumpstd magazinebookshelf
 
 CherrygroveEvolutionSpeechHouseYoungsterText:
-	text "#MON gain expe-"
-	line "rience in battle"
+	text "Even though"
+	line "WORMACHO is"
+	cont "the coolest,"
 
-	para "and change their"
-	line "form."
+	para "QWALLOP has a"
+	line "type advantage!"
+	
+	para "It's a no-"
+	line "brainer!"
 	done
 
 CherrygroveEvolutionSpeechHouseLassText:
-	text "#MON change?"
-
-	para "I would be shocked"
-	line "if one did that!"
+	text "Who would win:"
+	
+	para "QWALLOP or"
+	line "WORMACHO?"
 	done
 
 CherrygroveEvolutionSpeechHouse_MapEvents:

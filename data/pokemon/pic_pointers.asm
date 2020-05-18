@@ -26,16 +26,16 @@ PokemonPicPointers::
 	dba_pic MetapodBackpic
 	dba_pic ButterfreeFrontpic
 	dba_pic ButterfreeBackpic
-	dba_pic WeedleFrontpic
-	dba_pic WeedleBackpic
-	dba_pic KakunaFrontpic
-	dba_pic KakunaBackpic
-	dba_pic BeedrillFrontpic
-	dba_pic BeedrillBackpic
+	dba_pic HoatotFrontpic  ;weedle
+	dba_pic HoatotBackpic
+	dba_pic HoatoxicFrontpic
+	dba_pic HoatoxicBackpic
+	dba_pic NoxromaeusFrontpic
+	dba_pic NoxromaeusBackpic
 	dba_pic FurnitFrontpic
 	dba_pic FurnitBackpic
-	dba_pic PidgeottoFrontpic
-	dba_pic PidgeottoBackpic
+	dba_pic FurbodaFrontpic
+	dba_pic FurbodaBackpic
 	dba_pic PidgeotFrontpic
 	dba_pic PidgeotBackpic
 	dba_pic NomsterFrontpic ;orig rattata
@@ -142,8 +142,8 @@ PokemonPicPointers::
 	dba_pic LawnieBackpic
 	dba_pic WeepinbellFrontpic
 	dba_pic WeepinbellBackpic
-	dba_pic VictreebelFrontpic
-	dba_pic VictreebelBackpic
+	dba_pic GnomercyFrontpic
+	dba_pic GnomercyBackpic
 	dba_pic TentacoolFrontpic
 	dba_pic TentacoolBackpic
 	dba_pic TentacruelFrontpic

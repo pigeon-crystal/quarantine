@@ -32,21 +32,21 @@ INCBIN "gfx/footprints/blastoise.1bpp",  footprint_top
 INCBIN "gfx/footprints/caterpie.1bpp",   footprint_top
 INCBIN "gfx/footprints/metapod.1bpp",    footprint_top
 INCBIN "gfx/footprints/butterfree.1bpp", footprint_top
-INCBIN "gfx/footprints/weedle.1bpp",     footprint_top
-INCBIN "gfx/footprints/kakuna.1bpp",     footprint_top
-INCBIN "gfx/footprints/beedrill.1bpp",   footprint_top
+INCBIN "gfx/footprints/hoatot.1bpp",     footprint_top
+INCBIN "gfx/footprints/hoatoxic.1bpp",   footprint_top
+INCBIN "gfx/footprints/noxromaeus.1bpp", footprint_top
 INCBIN "gfx/footprints/furnit.1bpp",     footprint_top
 ; 009-016 bottom halves
 INCBIN "gfx/footprints/blastoise.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/caterpie.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/metapod.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/butterfree.1bpp", footprint_bottom
-INCBIN "gfx/footprints/weedle.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/kakuna.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/beedrill.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/hoatot.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/hoatoxic.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/noxromaeus.1bpp", footprint_bottom
 INCBIN "gfx/footprints/furnit.1bpp",     footprint_bottom
 ; 017-024 top halves
-INCBIN "gfx/footprints/pidgeotto.1bpp",  footprint_top
+INCBIN "gfx/footprints/furboda.1bpp",  footprint_top
 INCBIN "gfx/footprints/pidgeot.1bpp",    footprint_top
 INCBIN "gfx/footprints/nomster.1bpp",    footprint_top ;orig rattata
 INCBIN "gfx/footprints/nomsabre.1bpp",   footprint_top ;orig raticate
@@ -55,7 +55,7 @@ INCBIN "gfx/footprints/qwallop.1bpp",     footprint_top
 INCBIN "gfx/footprints/ekans.1bpp",      footprint_top
 INCBIN "gfx/footprints/arbok.1bpp",      footprint_top
 ; 017-024 bottom halves
-INCBIN "gfx/footprints/pidgeotto.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/furboda.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/pidgeot.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/nomster.1bpp",    footprint_bottom ;orig rattata
 INCBIN "gfx/footprints/nomsabre.1bpp",   footprint_bottom ;orig raticate
@@ -158,18 +158,18 @@ INCBIN "gfx/footprints/alakazam.1bpp",   footprint_top
 INCBIN "gfx/footprints/machop.1bpp",     footprint_top
 INCBIN "gfx/footprints/machoke.1bpp",    footprint_top
 INCBIN "gfx/footprints/machamp.1bpp",    footprint_top
-INCBIN "gfx/footprints/lawnie.1bpp", footprint_top
+INCBIN "gfx/footprints/lawnie.1bpp", 	 footprint_top
 INCBIN "gfx/footprints/weepinbell.1bpp", footprint_top
-INCBIN "gfx/footprints/victreebel.1bpp", footprint_top
+INCBIN "gfx/footprints/gnomercy.1bpp",   footprint_top
 INCBIN "gfx/footprints/tentacool.1bpp",  footprint_top
 ; 065-072 bottom halves
 INCBIN "gfx/footprints/alakazam.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/machop.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/machoke.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/machamp.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/lawnie.1bpp", footprint_bottom
+INCBIN "gfx/footprints/lawnie.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/weepinbell.1bpp", footprint_bottom
-INCBIN "gfx/footprints/victreebel.1bpp", footprint_bottom
+INCBIN "gfx/footprints/gnomercy.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/tentacool.1bpp",  footprint_bottom
 ; 073-080 top halves
 INCBIN "gfx/footprints/tentacruel.1bpp", footprint_top

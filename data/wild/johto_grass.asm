@@ -370,18 +370,18 @@ JohtoGrassWildMons:
 	db 14, WORMEEK
 	db 13, FURNIT
 	db 10, CATERPIE
-	db 10, WEEDLE
-	db 10, WEEDLE
-	db 10, WEEDLE
+	db 10, HOATOT
+	db 10, HOATOT
+	db 10, HOATOT
 	; day
 	db 12, NIDORAN_F
 	db 12, NIDORAN_M
 	db 14, SUNKERN
 	db 13, FURNIT
 	db 10, CATERPIE
-	db 10, WEEDLE
-	db 10, WEEDLE
-	db 10, WEEDLE
+	db 10, HOATOT
+	db 10, HOATOT
+	db 10, HOATOT
 	; nite
 	db 12, PSYDUCK
 	db 13, HOOTHOOT
@@ -606,18 +606,18 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	db 5, CATERPIE
-	db 5, WEEDLE
+	db 5, HOATOT
 	db 7, METAPOD
-	db 7, KAKUNA
+	db 7, HOATOXIC
 	db 7, FURNIT
 	db 6, PARAS
 	db 6, PARAS
 	db 9, PARAS
 	; day
 	db 5, CATERPIE
-	db 5, WEEDLE
+	db 5, HOATOT
 	db 7, METAPOD
-	db 7, KAKUNA
+	db 7, HOATOXIC
 	db 7, FURNIT
 	db 6, PARAS
 	db 6, PARAS
@@ -1346,8 +1346,8 @@ JohtoGrassWildMons:
 	db 2, WORMEEK
 	db 2, LAWNIE
 	db 3, WORMEEK
-	db 3, FURNIT
-	db 2, WORMEEK
+	db 3, HOATOT
+	db 2, HOATOT
 	db 3, WORMEEK
 	db 3, WORMEEK
 	db 5, WORMEEK
@@ -1359,7 +1359,7 @@ JohtoGrassWildMons:
 	db 3, CATERPIE
 	db 4, CATERPIE
 	db 4, FURNIT
-	db 3, WEEDLE
+	db 3, HOATOT
 	db 4, HOPPIP
 	db 4, HOPPIP
 	db 5, WORMEEK
@@ -1368,7 +1368,7 @@ JohtoGrassWildMons:
 	db 3, CATERPIE
 	db 4, CATERPIE
 	db 4, FURNIT
-	db 3, WEEDLE
+	db 3, HOATOT
 	db 4, HOPPIP
 	db 4, HOPPIP
 	db 5, HOPPIP
@@ -1389,7 +1389,7 @@ JohtoGrassWildMons:
 	db 4, CATERPIE
 	db 5, LAWNIE
 	db 5, FURNIT
-	db 4, WEEDLE
+	db 4, HOATOT
 	db 5, HOPPIP
 	db 5, HOPPIP
 	db 6, WORMEEK
@@ -1398,7 +1398,7 @@ JohtoGrassWildMons:
 	db 4, CATERPIE
 	db 5, LAWNIE
 	db 5, FURNIT
-	db 4, WEEDLE
+	db 4, HOATOT
 	db 5, HOPPIP
 	db 5, HOPPIP
 	db 6, HOPPIP
@@ -1569,7 +1569,7 @@ JohtoGrassWildMons:
 	db 14, GROWLITHE
 	db 15, FURNIT
 	db 16, GROWLITHE
-	db 15, PIDGEOTTO
+	db 15, FURBODA
 	db 15, LEDIAN
 	db 15, LEDIAN
 	db 16, LEDIAN
@@ -1578,7 +1578,7 @@ JohtoGrassWildMons:
 	db 14, GROWLITHE
 	db 15, FURNIT
 	db 16, GROWLITHE
-	db 15, PIDGEOTTO
+	db 15, FURBODA
 	db 15, FURNIT
 	db 15, FURNIT
 	db 17, GROWLITHE
@@ -1598,7 +1598,7 @@ JohtoGrassWildMons:
 	db 16, NOMSTER
 	db 16, NOMSABRE
 	db 16, MAGNEMITE
-	db 16, PIDGEOTTO
+	db 16, FURBODA
 	db 13, TAUROS
 	db 13, MILTANK
 	db 13, MILTANK
@@ -1607,7 +1607,7 @@ JohtoGrassWildMons:
 	db 16, NOMSTER
 	db 16, NOMSABRE
 	db 16, MAGNEMITE
-	db 16, PIDGEOTTO
+	db 16, FURBODA
 	db 13, TAUROS
 	db 13, MILTANK
 	db 13, MILTANK
@@ -1628,7 +1628,7 @@ JohtoGrassWildMons:
 	db 16, NOMSTER
 	db 16, NOMSABRE
 	db 16, MAGNEMITE
-	db 16, PIDGEOTTO
+	db 16, FURBODA
 	db 15, MILTANK
 	db 15, TAUROS
 	db 15, TAUROS
@@ -1637,7 +1637,7 @@ JohtoGrassWildMons:
 	db 16, NOMSTER
 	db 16, NOMSABRE
 	db 16, MAGNEMITE
-	db 16, PIDGEOTTO
+	db 16, FURBODA
 	db 15, MILTANK
 	db 15, TAUROS
 	db 15, TAUROS
@@ -1686,7 +1686,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 15, SENTRET
-	db 16, PIDGEOTTO
+	db 16, FURBODA
 	db 16, FARFETCH_D
 	db 15, FURRET
 	db 17, NOMSABRE
@@ -1695,7 +1695,7 @@ JohtoGrassWildMons:
 	db 18, FURRET
 	; day
 	db 15, SENTRET
-	db 16, PIDGEOTTO
+	db 16, FURBODA
 	db 16, FARFETCH_D
 	db 15, FURRET
 	db 17, NOMSABRE

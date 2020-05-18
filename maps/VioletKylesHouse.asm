@@ -27,7 +27,9 @@ VioletKylesHousePokefanMText:
 	line "have the right GYM"
 
 	para "BADGE, they may"
-	line "disobey you."
+	line "disobey you."	
+	
+	para "Hint, hint!"
 	done
 
 VioletKylesHouse_MapEvents:

@@ -6,5 +6,5 @@
 	next "with mud. The"
 
 	page "house is sturdy"
-	next "enough to battle"
-	next "in.@"
+	next "enough to with-"
+	next "stand attacks.@"

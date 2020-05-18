@@ -1597,7 +1597,7 @@ BattleTowerMons3:
 
 	db QWALLOP
 	db BRIGHTPOWDER
-	db MIRROR_MOVE, PURSUIT, PECK, SWIFT
+	db MIRROR_MOVE, PURSUIT, BRAVE_BIRD, SWIFT
 	dw 0 ; OT ID
 	dt 27000 ; Exp
 	; Stat exp
@@ -4314,7 +4314,7 @@ BattleTowerMons8:
 	bigdw 177 ; SDef
 	db "DAGUTORIO@@"
 
-	db VICTREEBEL
+	db GNOMERCY
 	db QUICK_CLAW
 	db GIGA_DRAIN, SLUDGE_BOMB, HYPER_BEAM, TOXIC
 	dw 0 ; OT ID

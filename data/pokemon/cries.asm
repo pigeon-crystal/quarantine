@@ -17,12 +17,12 @@ PokemonCries::
 	mon_cry CRY_CATERPIE,    128,  160 ; CATERPIE
 	mon_cry CRY_METAPOD,     204,  129 ; METAPOD
 	mon_cry CRY_CATERPIE,    119,  192 ; BUTTERFREE
-	mon_cry CRY_WEEDLE,      238,  129 ; WEEDLE
-	mon_cry CRY_BLASTOISE,   255,  129 ; KAKUNA
-	mon_cry CRY_BLASTOISE,    96,  256 ; BEEDRILL
+	mon_cry CRY_PIDGEY,      -23,  129 ; HOATOT, orig Weedle
+	mon_cry CRY_PIDGEOTTO,   -255, 132 ; HOATOXIC
+	mon_cry CRY_PIDGEOTTO,   666,  256 ; NOXROMAEUS
 	mon_cry CRY_PIDGEY,      223,  132 ; FURNIT, orig pidgy
-	mon_cry CRY_PIDGEOTTO,    40,  320 ; PIDGEOTTO
-	mon_cry CRY_PIDGEOTTO,    17,  383 ; PIDGEOT
+	mon_cry CRY_PIDGEOTTO,    17,  201 ; FURBODA
+	mon_cry CRY_PIDGEOTTO,   -17,  300 ; PIDGEOT
 	mon_cry CRY_RATTATA,       0,  256 ; NOMSTER, ORIG RATTATA
 	mon_cry CRY_RATTATA,      32,  383 ; NOMSABRE, ORIG RATICATE
 	mon_cry CRY_SPEAROW,     310,  129 ; QWAIL
@@ -75,7 +75,7 @@ PokemonCries::
 	mon_cry CRY_GROWLITHE,     8,  320 ; MACHAMP
 	mon_cry CRY_PSYDUCK,    1111,  129 ; LAWNIE
 	mon_cry CRY_WEEPINBELL,   68,  160 ; WEEPINBELL
-	mon_cry CRY_WEEPINBELL,  102,  332 ; VICTREEBEL
+	mon_cry CRY_WEEPINBELL, -102,  333 ; VICTREEBEL
 	mon_cry CRY_VENONAT,       0,  256 ; TENTACOOL
 	mon_cry CRY_VENONAT,     238,  383 ; TENTACRUEL
 	mon_cry CRY_VULPIX,      240,  144 ; DOLMITE

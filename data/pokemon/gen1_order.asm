@@ -110,9 +110,9 @@ Pokered_MonIndices:
 	db PARAS
 	db POLIWHIRL
 	db POLIWRATH
-	db WEEDLE
-	db KAKUNA
-	db BEEDRILL
+	db HOATOT
+	db HOATOXIC
+	db NOXROMAEUS
 	db HOUNDOOM ; MISSINGNO.
 	db DODRIO
 	db PRIMEAPE
@@ -148,7 +148,7 @@ Pokered_MonIndices:
 	db HAUNTER
 	db ABRA
 	db ALAKAZAM
-	db PIDGEOTTO
+	db FURBODA
 	db PIDGEOT
 	db STARMIE
 	db BULBASAUR
@@ -188,7 +188,7 @@ Pokered_MonIndices:
 	db VILEPLUME
 	db LAWNIE
 	db WEEPINBELL
-	db VICTREEBEL
+	db GNOMERCY
 
 	db CIGERILLAR
 	db TOBACOON

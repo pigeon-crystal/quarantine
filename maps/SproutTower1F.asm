@@ -77,12 +77,20 @@ SproutTower1FSage2Text:
 	done
 
 SproutTower1FGrannyText:
-	text "A BELLSPROUT over"
-	line "100 feet tall…"
+	text "LAWNIE sure is"
+	line "interesting…"
 
-	para "People say that it"
-	line "became the center"
-	cont "pillar here."
+	para "It changes type"
+	line "each time it"
+	cont "evolves!"
+	
+	para "There's some moves"
+	line "it can only learn"
+	cont "as just LAWNIE."
+	
+	para "I'm sure the same"
+	line "is true when it"
+	cont "evolves."
 	done
 
 SproutTower1FTeacherText:

@@ -12,7 +12,6 @@ AlphabeticalPokedexOrder:
 	db ARTICUNO
 	db ATTACKO
 	db AZUMARILL
-	db BEEDRILL
 	db BELLOSSOM
 	db BLASTOISE
 	db BLISSEY
@@ -59,6 +58,7 @@ AlphabeticalPokedexOrder:
 	db FLAAFFY
 	db FLAREON
 	db FORRETRESS
+	db FURBODA
 	db FURNIT
 	db FURRET
 	db FURSA
@@ -67,6 +67,7 @@ AlphabeticalPokedexOrder:
 	db GIRAFARIG
 	db GLIGAR
 	db GLOOM
+	db GNOMERCY
 	db GOLBAT
 	db GOLDEEN
 	db GOLDUCK
@@ -81,6 +82,8 @@ AlphabeticalPokedexOrder:
 	db HITMONCHAN
 	db HITMONLEE
 	db HITMONTOP
+	db HOATOT
+	db HOATOXIC
 	db HO_OH
 	db HOOTHOOT
 	db HOPPIP
@@ -97,7 +100,6 @@ AlphabeticalPokedexOrder:
 	db KABUTO
 	db KABUTOPS
 	db KADABRA
-	db KAKUNA
 	db KANGASKHAN
 	db KINGDRA
 	db KINGLER
@@ -147,6 +149,7 @@ AlphabeticalPokedexOrder:
 	db NOCTOWL
 	db NOMSABRE
 	db NOMSTER
+	db NOXROMAEUS
 	db OCTILLERY
 	db ODDISH
 	db OKAMIKAZE
@@ -159,7 +162,6 @@ AlphabeticalPokedexOrder:
 	db PHANPY
 	db PICHU
 	db PIDGEOT
-	db PIDGEOTTO
 	db PIKACHU
 	db PILFOARD
 	db PILOSWINE
@@ -237,12 +239,10 @@ AlphabeticalPokedexOrder:
 	db VENOMOTH
 	db VENONAT
 	db VENUSAUR
-	db VICTREEBEL
 	db VILEPLUME
 	db VOLTORB
 	db VULPIX
 	db WARTORTLE
-	db WEEDLE
 	db WEEPINBELL
 	db WEEZING
 	db WIGGLYTUFF

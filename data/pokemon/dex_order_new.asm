@@ -11,7 +11,7 @@ NewPokedexOrder:
 	db NANUQUA
 	db URSKIMO
 	db FURNIT ;orig pidgey
-	db PIDGEOTTO
+	db FURBODA
 	db PIDGEOT
 	db QWAIL
 	db QWALLOP
@@ -27,10 +27,10 @@ NewPokedexOrder:
 	db CATERPIE
 	db METAPOD
 	db BUTTERFREE
-	db WEEDLE
-	db KAKUNA
-	db BEEDRILL
-	db WORMEEK
+	db HOATOT  ;orig weedle
+	db HOATOXIC
+	db NOXROMAEUS
+	db WORMEEK    ;Ledyba
 	db LEDIAN
 	db SPINARAK
 	db ARIADOS
@@ -66,7 +66,7 @@ NewPokedexOrder:
 	db STEELIX
 	db LAWNIE
 	db WEEPINBELL
-	db VICTREEBEL
+	db GNOMERCY
 	db HOPPIP
 	db SKIPLOOM
 	db JUMPLUFF

@@ -4,9 +4,9 @@ AsleepTreeMonsNite:
 	db CATERPIE
 	db METAPOD
 	db BUTTERFREE
-	db WEEDLE
-	db KAKUNA
-	db BEEDRILL
+	db HOATOT
+	db HOATOXIC
+	db NOXROMAEUS
 	db QWAIL
 	db EKANS
 	db EXEGGCUTE

@@ -289,10 +289,17 @@ AcademyPoisonText:
 
 	para "To cure it, use an"
 	line "ANTIDOTE."
+	
+	para "Toxic poison starts"
+	line "weak, but gets"
+	
+	para "worse each turn"
+	line "your #MON is"
+	cont "on the field."
 	done
 
 AcademyParalysisText:
-	text "Paralysis reduces"
+	text "Paralysis halves"
 	line "speed and may"
 	cont "prevent movement."
 
@@ -318,7 +325,7 @@ AcademyBurnText:
 	text "A burn steadily"
 	line "consumes HP."
 
-	para "It also reduces"
+	para "It also halves"
 	line "attack power."
 
 	para "A burn lingers"
@@ -338,6 +345,10 @@ AcademyFreezeText:
 
 	para "Thaw it out with"
 	line "an ICE HEAL."
+	
+	para "Using some moves"
+	line "may thaw it,"
+	cont "too."
 	done
 
 AcademyNotebookText:

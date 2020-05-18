@@ -11,7 +11,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw NoEggMoves
+	dw HoatotEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw FurnitEggMoves

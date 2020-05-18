@@ -13,14 +13,14 @@ EvosAttacksPointers::
 	dw CaterpieEvosAttacks
 	dw MetapodEvosAttacks
 	dw ButterfreeEvosAttacks
-	dw WeedleEvosAttacks
-	dw KakunaEvosAttacks
-	dw BeedrillEvosAttacks
-	dw FurnitEvosAttacks
-	dw PidgeottoEvosAttacks
+	dw HoatotEvosAttacks     ;weedle
+	dw HoatoxicEvosAttacks
+	dw NoxromaeusEvosAttacks
+	dw FurnitEvosAttacks     ;pidgey
+	dw FurbodaEvosAttacks
 	dw PidgeotEvosAttacks
-	dw NomsterEvosAttacks ;orig rattata
-	dw NomsabreEvosAttacks ;orig raticate
+	dw NomsterEvosAttacks     ;orig rattata
+	dw NomsabreEvosAttacks   ;orig raticate
 	dw QwailEvosAttacks		;spearow
 	dw QwallopEvosAttacks
 	dw EkansEvosAttacks		;ekans
@@ -71,7 +71,7 @@ EvosAttacksPointers::
 	dw MachampEvosAttacks
 	dw LawnieEvosAttacks
 	dw WeepinbellEvosAttacks
-	dw VictreebelEvosAttacks
+	dw GnomercyEvosAttacks
 	dw TentacoolEvosAttacks
 	dw TentacruelEvosAttacks
 	dw DolmiteEvosAttacks

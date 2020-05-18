@@ -11,11 +11,11 @@ PokemonNames::
 	db "CATERPIE@@"
 	db "METAPOD@@@"
 	db "BUTTERFREE"
-	db "WEEDLE@@@@"
-	db "KAKUNA@@@@"
-	db "BEEDRILL@@"
+	db "HOATOT@@@@" ;weedle
+	db "HOATOXIC@@"
+	db "NOXROMAEUS"
 	db "FURNIT@@@@" ;pidgey
-	db "PIDGEOTTO@"
+	db "FURBODA@@@"
 	db "PIDGEOT@@@"
 	db "NOMSTER@@@" ;orig rattata
 	db "NOMSABRE@@" ;orig raticate
@@ -64,13 +64,13 @@ PokemonNames::
 	db "ABRA@@@@@@"
 	db "KADABRA@@@"
 	db "ALAKAZAM@@"
-	db "MACHOP@@@@"
+	db "MACHOP@@@@" ;machop
 	db "MACHOKE@@@"
 	db "MACHAMP@@@"
 	db "LAWNIE@@@@" ;bellsprout
 	db "WEEPINBELL"
-	db "VICTREEBEL"
-	db "TENTACOOL@"
+	db "GNOMERCY@@" 
+	db "TENTACOOL@" ;tentacool
 	db "TENTACRUEL"
 	db "DOLMITE@@@" ;geodude
 	db "GRAVELER@@"
