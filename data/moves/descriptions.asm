@@ -40,7 +40,7 @@ MoveDescriptions::
 	dw DoubleEdgeDescription
 	dw TailWhipDescription
 	dw PoisonStingDescription
-	dw TwineedleDescription
+	dw VaporPulseDescription
 	dw FlashCannonDescription
 	dw LeerDescription
 	dw BiteDescription
@@ -176,7 +176,7 @@ MoveDescriptions::
 	dw CurseDescription
 	dw FlailDescription
 	dw Conversion2Description
-	dw AeroblastDescription
+	dw FrostbiteDescription
 	dw CottonSporeDescription
 	dw FocusBlastDescription
 	dw SpiteDescription
@@ -220,7 +220,7 @@ MoveDescriptions::
 	dw FrustrationDescription
 	dw SafeguardDescription
 	dw PainSplitDescription
-	dw SacredFireDescription
+	dw NitroblazeDescription
 	dw MagnitudeDescription
 	dw DynamicpunchDescription
 	dw MegahornDescription
@@ -421,9 +421,9 @@ PoisonStingDescription:
 	db   "An attack that may"
 	next "poison the target.@"
 
-TwineedleDescription:
-	db   "Jabs the foe twice"
-	next "using stingers.@"
+VaporPulseDescription:
+	db   "Assails with vapor"
+	next "that may poison.@"
 
 FlashCannonDescription:
 	db   "An attack that may"
@@ -965,9 +965,9 @@ Conversion2Description:
 	db   "The user's type is"
 	next "made resistant.@"
 
-AeroblastDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+FrostbiteDescription:
+	db   "May slow foe. High"
+	next "crit. chance.@"
 
 CottonSporeDescription:
 	db   "Sharply reduces"
@@ -1141,9 +1141,9 @@ PainSplitDescription:
 	db   "Adds user & foe's"
 	next "HPs. Shares total.@"
 
-SacredFireDescription:
+NitroblazeDescription:
 	db   "An attack that may"
-	next "inflict a burn.@"
+	next "boost SPEED.@"
 
 MagnitudeDescription:
 	db   "A ground attack"

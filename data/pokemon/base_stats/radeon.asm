@@ -1,6 +1,6 @@
 	db RADEON ; this mon only becomes fire/steel at the last stage because fire/steel is a fucking incredible typing
  
-    db 55,  72,  55,   43,  50,  40
+    db 50,  70,  55,   43,  50,  42
     ;   hp  atk  def  spd  sat  sdf
  
     db FIRE, FIRE ; type
@@ -17,6 +17,6 @@
     dn EGG_MONSTER, EGG_MONSTER ; egg groups
  
     ; tm/hm learnset
-    tmhm HEADBUTT, ROAR, TOXIC, HIDDEN_POWER, SUNNY_DAY, SNORE, PROTECT, ENDURE, FRUSTRATION, IRON_TAIL, RETURN, DIG, MUD_SLAP, SWAGGER, SLEEP_TALK, FIRE_BLAST, SWIFT, REST, ATTRACT, THIEF, SNARL, CUT, FLASH, FLAMETHROWER
+    tmhm HEADBUTT, ROAR, TOXIC, HIDDEN_POWER, SUNNY_DAY, SNORE, PROTECT, ENDURE, FRUSTRATION, IRON_TAIL, RETURN, DIG, MUD_SLAP, SWAGGER, SLEEP_TALK, FIRE_BLAST, SWIFT, REST, ATTRACT, THIEF, FALSE_SWIPE, SNARL, CUT, FLASH, FLAMETHROWER
     ; end
 	

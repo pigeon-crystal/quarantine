@@ -646,13 +646,11 @@ GirafarigEggMoves:
 
 PinecoEggMoves:
 	db REFLECT
-	db TWINEEDLE
 	db FLAIL
 	db SWIFT
 	db -1 ; end
 
 AttackoEggMoves:
-	db BIDE
 	db ANCIENTPOWER
 	db ROCK_SLIDE
 	db BITE

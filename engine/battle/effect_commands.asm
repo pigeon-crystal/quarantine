@@ -200,7 +200,7 @@ CheckPlayerTurn:
 	ld a, [wCurPlayerMove]
 	cp FLAME_WHEEL
 	jr z, .not_frozen
-	cp SACRED_FIRE
+	cp NITROBLAZE
 	jr z, .not_frozen
 
 	ld hl, FrozenSolidText
@@ -427,7 +427,7 @@ CheckEnemyTurn:
 	ld a, [wCurEnemyMove]
 	cp FLAME_WHEEL
 	jr z, .not_frozen
-	cp SACRED_FIRE
+	cp NITROBLAZE
 	jr z, .not_frozen
 
 	ld hl, FrozenSolidText

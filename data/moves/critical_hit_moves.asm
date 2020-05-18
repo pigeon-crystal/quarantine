@@ -6,7 +6,7 @@ CriticalHitMoves:
 	db LEAF_BLADE
 	db CRABHAMMER
 	db SLASH
-	db AEROBLAST
+	db FROSTBITE
 	db SHADOW_CLAW
 	db CROSS_CHOP
 	db -1

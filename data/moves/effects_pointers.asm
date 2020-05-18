@@ -160,3 +160,4 @@ MoveEffectsPointers:
 	dw DoBurn
 	dw DragonDance
 	dw CalmMind
+	dw SpeedUpHit

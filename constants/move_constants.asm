@@ -46,7 +46,7 @@
 	const DOUBLE_EDGE  ; 26
 	const TAIL_WHIP    ; 27
 	const POISON_STING ; 28
-	const TWINEEDLE    ; 29
+	const VAPOR_PULSE  ; 29
 	const FLASH_CANNON ; 2a
 	const LEER         ; 2b
 	const BITE         ; 2c
@@ -182,7 +182,7 @@
 	const CURSE        ; ae
 	const FLAIL        ; af
 	const CONVERSION2  ; b0
-	const AEROBLAST    ; b1
+	const FROSTBITE    ; b1
 	const COTTON_SPORE ; b2
 	const FOCUS_BLAST  ; b3
 	const SPITE        ; b4
@@ -226,7 +226,7 @@
 	const FRUSTRATION  ; da
 	const SAFEGUARD    ; db
 	const PAIN_SPLIT   ; dc
-	const SACRED_FIRE  ; dd
+	const NITROBLAZE   ; dd
 	const MAGNITUDE    ; de
 	const DYNAMICPUNCH ; df
 	const MEGAHORN     ; e0

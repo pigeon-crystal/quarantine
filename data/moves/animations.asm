@@ -41,7 +41,7 @@ BattleAnimations::
 	dw BattleAnim_DoubleEdge
 	dw BattleAnim_TailWhip
 	dw BattleAnim_PoisonSting
-	dw BattleAnim_Twineedle
+	dw BattleAnim_VaporPulse
 	dw BattleAnim_FlashCannon
 	dw BattleAnim_Leer
 	dw BattleAnim_Bite
@@ -177,7 +177,7 @@ BattleAnimations::
 	dw BattleAnim_Curse
 	dw BattleAnim_Flail
 	dw BattleAnim_Conversion2
-	dw BattleAnim_Aeroblast
+	dw BattleAnim_Frostbite
 	dw BattleAnim_CottonSpore
 	dw BattleAnim_FocusBlast
 	dw BattleAnim_Spite
@@ -221,7 +221,7 @@ BattleAnimations::
 	dw BattleAnim_Frustration
 	dw BattleAnim_Safeguard
 	dw BattleAnim_PainSplit
-	dw BattleAnim_SacredFire
+	dw BattleAnim_Nitroblaze
 	dw BattleAnim_Magnitude
 	dw BattleAnim_Dynamicpunch
 	dw BattleAnim_Megahorn
@@ -2789,6 +2789,7 @@ BattleAnim_Conversion2:
 	anim_wait 48
 	anim_ret
 
+BattleAnim_VaporPulse:
 BattleAnim_Smokescreen:
 	anim_3gfx ANIM_GFX_HAZE, ANIM_GFX_EGG, ANIM_GFX_SMOKE
 	anim_sound 6, 2, SFX_THROW_BALL
@@ -2803,7 +2804,7 @@ BattleAnim_Smokescreen:
 	anim_obj ANIM_OBJ_SMOKE, 132, 60, $20
 	anim_wait 8
 	anim_loop 5, .loop
-	anim_wait 128
+	anim_wait 33
 	anim_ret
 
 BattleAnim_Strength:
@@ -2827,7 +2828,7 @@ BattleAnim_SwordsDance:
 	anim_obj ANIM_OBJ_SWORDS_DANCE, 48, 108, $1a
 	anim_obj ANIM_OBJ_SWORDS_DANCE, 48, 108, $27
 	anim_obj ANIM_OBJ_SWORDS_DANCE, 48, 108, $34
-	anim_wait 56
+	anim_wait 50
 	anim_ret
 
 BattleAnim_QuickAttack:
@@ -3322,6 +3323,24 @@ BattleAnim_Conversion:
 	anim_wait 128
 	anim_ret
 
+BattleAnim_Frostbite:
+	anim_3gfx ANIM_GFX_CUT, ANIM_GFX_HIT, ANIM_GFX_ICE
+	anim_bgp $1b
+	anim_obp0 $c0
+	anim_bgeffect ANIM_BG_1F, $20, $2, $0
+	anim_obj ANIM_OBJ_BITE, 136, 56, $a8
+	anim_obj ANIM_OBJ_BITE, 136, 56, $28
+	anim_wait 8
+	anim_sound 0, 1, SFX_BITE
+	anim_obj ANIM_OBJ_00, 144, 48, $18
+	anim_wait 16
+	anim_sound 0, 1, SFX_BITE
+	anim_obj ANIM_OBJ_00, 128, 64, $18
+	anim_wait 10
+	anim_call BattleAnimSub_Ice
+	anim_wait 8
+	anim_ret
+	
 BattleAnim_Aeroblast:
 	anim_2gfx ANIM_GFX_BEAM, ANIM_GFX_AEROBLAST
 	anim_bgp $1b
@@ -4051,7 +4070,7 @@ BattleAnim_PainSplit:
 	anim_wait 1
 	anim_ret
 
-BattleAnim_SacredFire:
+BattleAnim_Nitroblaze:
 	anim_1gfx ANIM_GFX_FIRE
 	anim_bgeffect ANIM_BG_06, $0, $2, $0
 	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $2, $0

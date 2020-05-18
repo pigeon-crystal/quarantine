@@ -1,6 +1,6 @@
 	db OKAMIKAZE ; made it grass/bug from the getgo half to mirror bulbasaur and half because there's no way in hell this thing isn't bug type. as gen 2 just copied gen 1's setup, i'm going to do the same. a decent case can be made to make this thing's egg group just bug, but figured i'd help with crossbreeding egg moves a little bit
  
-    db 80,  55,  75,  125,  120,  75
+    db 79,  65,  72,  122,  120,  72
     ;   hp  atk  def  spd  sat  sdf
  
     db GRASS, BUG ; type
@@ -17,6 +17,6 @@
     dn EGG_PLANT, EGG_BUG ; egg groups
  
     ; tm/hm learnset
-    tmhm
+    tmhm CURSE, TOXIC, PSYCH_UP, HIDDEN_POWER, SUNNY_DAY, SWEET_SCENT, HYPER_BEAM, PROTECT, RAIN_DANCE, FRUSTRATION, SOLARBEAM, RETURN, PSYCHIC_M, SHADOW_BALL, SLUDGE_BOMB, SWIFT, DETECT, REST, ATTRACT, FURY_CUTTER, FLASH
     ; end
 	

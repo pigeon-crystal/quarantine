@@ -1,6 +1,6 @@
 	db TOBACOON ;
 	
-    db 70,  45,  55,   90,  85,  75
+    db 75,  55,  70,   60,  75,  70
     ;   hp  atk  def  spd  sat  sdf
  
     db GRASS, BUG ; type
@@ -17,7 +17,6 @@
     dn EGG_PLANT, EGG_BUG ; egg groups
  
     ; tm/hm learnset
-    tmhm
+    tmhm CURSE, TOXIC, PSYCH_UP, HIDDEN_POWER, SUNNY_DAY, SWEET_SCENT, PROTECT, RAIN_DANCE, FRUSTRATION, SOLARBEAM, RETURN, PSYCHIC_M, SHADOW_BALL, SLUDGE_BOMB, SWIFT, DETECT, REST, ATTRACT, FURY_CUTTER, FLASH
     ; end
-   
    

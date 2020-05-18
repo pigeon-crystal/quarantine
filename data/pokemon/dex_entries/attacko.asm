@@ -1,5 +1,5 @@
 	db "BAD MIMIC@" ; species name
-	dw 300, 310 ; height, weight
+	dw 301, 310 ; height, weight
 
 	db   "It attempts to"
 	next "impersonate a"

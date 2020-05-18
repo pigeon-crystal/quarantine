@@ -1,4 +1,5 @@
 ; Johto Pokémon in water
+; probabilities: 50 / 30 / 15 / 5
 
 JohtoWaterWildMons:
 

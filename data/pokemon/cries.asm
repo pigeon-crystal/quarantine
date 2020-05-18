@@ -20,11 +20,11 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,      -23,  129 ; HOATOT, orig Weedle
 	mon_cry CRY_PIDGEOTTO,   -255, 132 ; HOATOXIC
 	mon_cry CRY_PIDGEOTTO,   666,  256 ; NOXROMAEUS
-	mon_cry CRY_PIDGEY,      223,  132 ; FURNIT, orig pidgy
-	mon_cry CRY_PIDGEOTTO,    17,  201 ; FURBODA
-	mon_cry CRY_PIDGEOTTO,   -17,  300 ; PIDGEOT
-	mon_cry CRY_RATTATA,       0,  256 ; NOMSTER, ORIG RATTATA
-	mon_cry CRY_RATTATA,      32,  383 ; NOMSABRE, ORIG RATICATE
+	mon_cry CRY_PIDGEY,      321,  100 ; FURNIT, orig pidgy
+	mon_cry CRY_PIDGEOTTO,    86,  214 ; FURBODA
+	mon_cry CRY_PIDGEOTTO,    -1,  300 ; PIDGEOT
+	mon_cry CRY_RATTATA,     444,  192 ; NOMSTER, ORIG RATTATA
+	mon_cry CRY_RATTATA,     -32,  192 ; NOMSABRE, ORIG RATICATE
 	mon_cry CRY_SPEAROW,     310,  129 ; QWAIL
 	mon_cry CRY_FEAROW,      164,  129 ; QWALLOP
 	mon_cry CRY_EKANS,        18,  192 ; EKANS
@@ -157,14 +157,14 @@ PokemonCries::
 	mon_cry CRY_PARAS,       153,  383 ; MEWTWO
 	mon_cry CRY_PARAS,       238,  383 ; MEW
 	mon_cry CRY_PARAS,  	 -16,  176 ; CIGERILLAR, orig CHIKORITA
-	mon_cry CRY_CHIKORITA,   -34,  288 ; TOBACOON, orig BAYLEEF
-	mon_cry CRY_CHIKORITA,  -183,  512 ; OKAMIKAZE, orig MEGANIUM
+	mon_cry CRY_PARAS,       -34,  288 ; TOBACOON, orig BAYLEEF
+	mon_cry CRY_CHIKORITA,  -183,  500 ; OKAMIKAZE, orig MEGANIUM
 	mon_cry CRY_CYNDAQUIL,   839,  128 ; RADEON, orig CYNDAQUIL
 	mon_cry CRY_CYNDAQUIL,   801,  288 ; SCAULTER
-	mon_cry CRY_TYPHLOSION, -183,  300 ; SCORCHOPPR
+	mon_cry CRY_TYPHLOSION, -183,  377 ; SCORCHOPPR
 	mon_cry CRY_TEDDIURSA,  1954,  110 ; FURSA, orig TOTODILE
 	mon_cry CRY_TEDDIURSA,  1555,  269 ; NANUQUA
-	mon_cry CRY_TEDDIURSA,   990,  272 ; URSKIMO
+	mon_cry CRY_TEDDIURSA,  1021,  269 ; URSKIMO
 	mon_cry CRY_SENTRET,     138,  184 ; SENTRET, orig SENTRET
 	mon_cry CRY_SENTRET,     107,  258 ; FURRET
 	mon_cry CRY_HOOTHOOT,    145,  216 ; HOOTHOOT
