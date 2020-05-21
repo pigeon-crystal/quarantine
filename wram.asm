@@ -2611,8 +2611,7 @@ wRegisteredItem:: db ; d95c
 wPlayerState:: db ; d95d
 
 wHallOfFameCount:: dw
-wTradeFlags:: flag_array NUM_NPC_TRADES ; d960
-	ds 1
+wTradeFlags:: flag_array NUM_NPC_TRADES ; d960     delete below ds 1
 wMooMooBerries:: db ; d962
 wUndergroundSwitchPositions:: db ; d963
 wFarfetchdPosition:: db ; d964
@@ -2698,9 +2697,8 @@ wFastShip1FSceneID::                              db ; d9bc
 wFastShipB1FSceneID::                             db ; d9bd
 wMountMoonSquareSceneID::                         db ; d9be
 wMobileTradeRoomSceneID::                         db ; d9bf
-wMobileBattleRoomSceneID::                        db ; d9c0
+wMobileBattleRoomSceneID::                        db ; d9c0     delete below ds 49
 
-	ds 49
 
 ; fight counts
 wJackFightCount::    db ; d9f2

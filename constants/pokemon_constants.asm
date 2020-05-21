@@ -110,9 +110,9 @@
 	const MUK        ; 59
 	const SHELLDER   ; 5a
 	const CLOYSTER   ; 5b
-	const GASTLY     ; 5c
-	const HAUNTER    ; 5d
-	const GENGAR     ; 5e
+	const GASTLY     ; 5c gastly
+	const SCRUFFRUIT    ; 5d
+	const PITAYRANT     ; 5e
 	const ONIX       ; 5f
 	const DROWZEE    ; 60
 	const HYPNO      ; 61
@@ -136,7 +136,7 @@
 	const KANGASKHAN ; 73
 	const HORSEA     ; 74
 	const SEADRA     ; 75
-	const GOLDEEN    ; 76
+	const GOOSAPLING    ; 76
 	const SEAKING    ; 77
 	const STARYU     ; 78
 	const STARMIE    ; 79
@@ -186,7 +186,7 @@ JOHTO_POKEMON EQU const_value
 	const NOCTOWL    ; a4
 	const WORMEEK    ; a5 ledyba
 	const LEDIAN     ; a6
-	const SPINARAK   ; a7
+	const GWUBBY     ; a7
 	const ARIADOS    ; a8
 	const CROBAT     ; a9
 	const CHINCHOU   ; aa
@@ -194,7 +194,7 @@ JOHTO_POKEMON EQU const_value
 	const PICHU      ; ac
 	const CLEFFA     ; ad
 	const IGGLYBUFF  ; ae
-	const TOGEPI     ; af
+	const TRANQUIEL     ; af
 	const TOGETIC    ; b0
 	const NATU       ; b1
 	const XATU       ; b2

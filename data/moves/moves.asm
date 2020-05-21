@@ -27,7 +27,7 @@ Moves: ; 41afb
 	move RAZOR_WIND,   EFFECT_NORMAL_HIT,         85, FLYING,   SPECIAL,  100, 15,   0
 	move SWORDS_DANCE, EFFECT_ATTACK_UP_2,         0, NORMAL,   STATUS,   100, 30,   0
 	move CUT,          EFFECT_FLINCH_HIT,         60, GRASS,    PHYSICAL, 100, 25,  10
-	move GUST,         EFFECT_GUST,               40, FLYING,   SPECIAL,  100, 35,   0
+	move GUST,         EFFECT_GUST,               41, FLYING,   SPECIAL,  100, 35,   0
 	move WING_ATTACK,  EFFECT_NORMAL_HIT,         55, FLYING,   PHYSICAL, 100, 30,   0
 	move WHIRLWIND,    EFFECT_FORCE_SWITCH,        0, NORMAL,   STATUS,   100, 20,   0
 	move FLY,          EFFECT_NORMAL_HIT,         80, FLYING,   PHYSICAL,  95, 15,   0

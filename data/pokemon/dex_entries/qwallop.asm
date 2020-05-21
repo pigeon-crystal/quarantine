@@ -1,4 +1,4 @@
-	db "PRIZEFIGHT@"		;species name
+	db "PRIZEFIGHT@"	;species name
 	dw 200, 79			;height/weight
 	
 	db 	 "A QWAIL that"

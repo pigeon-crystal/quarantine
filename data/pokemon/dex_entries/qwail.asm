@@ -7,5 +7,5 @@
  
 	page "even land a"
 	next "glancing blow"
-	next "on QWALLOP."
+	next "on QWALLOP.@"
 	

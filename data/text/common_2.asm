@@ -662,7 +662,25 @@ _YouCantUseItInABattleText::
 	prompt
 
 _AreYouABoyOrAreYouAGirlText::
-	text "Are you a boy?"
+	text "This is an un-"
+	line "official fangame."
+	
+	para "This is not"
+	line "associated with"
+	cont "GAMEFREAK or"
+	cont "official #MON"
+	cont "games in any way."
+	
+	para "If you somehow"
+	line "paid money for"
+	cont "this, demand a"
+	cont "refund."
+	
+	para "But I digress!"
+	
+	para "Let's begin!"
+	
+	para "Are you a boy?"
 	line "Or are you a girl?"
 	done
 

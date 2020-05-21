@@ -225,7 +225,7 @@ VioletCityLassText:
 	cont "ago."
 	
 	para "Isn't that so"
-	cont "cool?!"
+	line "cool?!"
 	done
 
 VioletCitySuperNerdText:

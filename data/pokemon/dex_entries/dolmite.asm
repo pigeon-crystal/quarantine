@@ -1,10 +1,10 @@
-	db "ROCKSTACK@" ; species name DOLMITE
-	dw 211, 430 ; height, weight
+	db "ROCKSTACK@" ; species name DOLMITE >>43619674
+	dw 104, 419 ; height, weight
 
-	db   ""
-	next ""
-	next ""
+	db   "DOLMITE grows"
+	next "when a stone is"
+	next "stacked atop it."
 
-	page ""
-	next ""
-	next "@"
+	page "It can sense"
+	next "nutrients"
+	next "underground.@"

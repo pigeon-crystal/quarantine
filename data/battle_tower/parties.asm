@@ -1543,7 +1543,7 @@ BattleTowerMons3:
 	bigdw 101 ; SDef
 	db "DOKUKURAGE@"
 
-	db GENGAR
+	db PITAYRANT
 	db GOLD_BERRY
 	db THIEF, LICK, NIGHT_SHADE, GIGA_DRAIN
 	dw 0 ; OT ID
@@ -4002,7 +4002,7 @@ BattleTowerMons8:
 	bigdw 226 ; SDef
 	db "BANGIRASU@@"
 
-	db GENGAR
+	db PITAYRANT
 	db NO_ITEM
 	db THUNDERBOLT, SHADOW_BALL, CONFUSE_RAY, THIEF
 	dw 0 ; OT ID

@@ -32,7 +32,7 @@ NewPokedexOrder:
 	db NOXROMAEUS
 	db WORMEEK    ;Ledyba
 	db LEDIAN
-	db SPINARAK
+	db GWUBBY
 	db ARIADOS
 	db DOLMITE
 	db GRAVELER
@@ -46,7 +46,7 @@ NewPokedexOrder:
 	db IGGLYBUFF
 	db JIGGLYPUFF
 	db WIGGLYTUFF
-	db TOGEPI
+	db TRANQUIEL
 	db TOGETIC
 	db SANDSHREW
 	db SANDSLASH
@@ -59,8 +59,8 @@ NewPokedexOrder:
 	db WOOPER
 	db QUAGSIRE
 	db GASTLY
-	db HAUNTER
-	db GENGAR
+	db SCRUFFRUIT
+	db PITAYRANT
 	db UNOWN
 	db ONIX
 	db STEELIX
@@ -78,7 +78,7 @@ NewPokedexOrder:
 	db POLITOED
 	db MAGIKARP
 	db GYARADOS
-	db GOLDEEN
+	db GOOSAPLING
 	db SEAKING
 	db SLOWPOKE
 	db SLOWBRO

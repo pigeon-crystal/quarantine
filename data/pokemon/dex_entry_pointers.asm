@@ -92,8 +92,8 @@ PokedexDataPointerTable:
 	dw ShellderPokedexEntry
 	dw CloysterPokedexEntry
 	dw GastlyPokedexEntry
-	dw HaunterPokedexEntry
-	dw GengarPokedexEntry
+	dw ScruffruitPokedexEntry
+	dw PitayrantPokedexEntry
 	dw OnixPokedexEntry
 	dw DrowzeePokedexEntry
 	dw HypnoPokedexEntry
@@ -117,7 +117,7 @@ PokedexDataPointerTable:
 	dw KangaskhanPokedexEntry
 	dw HorseaPokedexEntry
 	dw SeadraPokedexEntry
-	dw GoldeenPokedexEntry
+	dw GoosaplingPokedexEntry
 	dw SeakingPokedexEntry
 	dw StaryuPokedexEntry
 	dw StarmiePokedexEntry
@@ -166,7 +166,7 @@ PokedexDataPointerTable:
 	dw NoctowlPokedexEntry
 	dw WormeekPokedexEntry
 	dw LedianPokedexEntry
-	dw SpinarakPokedexEntry
+	dw GwubbyPokedexEntry
 	dw AriadosPokedexEntry
 	dw CrobatPokedexEntry
 	dw ChinchouPokedexEntry
@@ -174,7 +174,7 @@ PokedexDataPointerTable:
 	dw PichuPokedexEntry
 	dw CleffaPokedexEntry
 	dw IgglybuffPokedexEntry
-	dw TogepiPokedexEntry
+	dw TranquielPokedexEntry
 	dw TogeticPokedexEntry
 	dw NatuPokedexEntry
 	dw XatuPokedexEntry

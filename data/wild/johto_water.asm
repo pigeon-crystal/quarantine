@@ -50,25 +50,25 @@ JohtoWaterWildMons:
 	db 15, PSYDUCK
 	db 10, PSYDUCK
 	db 15, GOLDUCK
-	db 25, GOLDEEN
+	db 25, GOOSAPLING
 
 	map_id MOUNT_MORTAR_1F_OUTSIDE ;done
 	db 4 percent ; encounter rate
-	db 15, GOLDEEN
+	db 15, GOOSAPLING
 	db 20, MARILL
 	db 20, SEAKING
 	db 25, SEAKING
 
 	map_id MOUNT_MORTAR_2F_INSIDE ;done
 	db 2 percent ; encounter rate
-	db 20, GOLDEEN
+	db 20, GOOSAPLING
 	db 25, MARILL
 	db 25, SEAKING
 	db 30, SEAKING
 
 	map_id MOUNT_MORTAR_B1F ;done
 	db 2 percent ; encounter rate
-	db 15, GOLDEEN
+	db 15, GOOSAPLING
 	db 20, MARILL
 	db 20, SEAKING
 	db 25, SEAKING
@@ -98,8 +98,8 @@ JohtoWaterWildMons:
 	db 2 percent ; encounter rate
 	db 35, SEAKING
 	db 35, GOLDUCK
-	db 35, GOLDEEN
-	db 40, GOLDEEN
+	db 35, GOOSAPLING
+	db 40, GOOSAPLING
 
 	map_id DARK_CAVE_VIOLET_ENTRANCE ;done
 	db 2 percent ; encounter rate
@@ -180,8 +180,8 @@ JohtoWaterWildMons:
 
 	map_id ROUTE_42 ;done
 	db 4 percent ; encounter rate
-	db 20, GOLDEEN
-	db 15, GOLDEEN
+	db 20, GOOSAPLING
+	db 15, GOOSAPLING
 	db 20, SEAKING
 	db 25, SEAKING
 

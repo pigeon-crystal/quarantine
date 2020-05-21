@@ -116,7 +116,7 @@ EggMovePointers::
 	dw KangaskhanEggMoves
 	dw HorseaEggMoves
 	dw NoEggMoves
-	dw GoldeenEggMoves
+	dw GoosaplingEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
@@ -165,7 +165,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw WormeekEggMoves
 	dw NoEggMoves
-	dw SpinarakEggMoves
+	dw GwubbyEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw ChinchouEggMoves
@@ -173,7 +173,7 @@ EggMovePointers::
 	dw PichuEggMoves
 	dw CleffaEggMoves
 	dw IgglybuffEggMoves
-	dw TogepiEggMoves
+	dw TranquielEggMoves
 	dw NoEggMoves
 	dw NatuEggMoves
 	dw NoEggMoves

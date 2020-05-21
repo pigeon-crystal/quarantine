@@ -63,21 +63,22 @@ AlphabeticalPokedexOrder:
 	db FURRET
 	db FURSA
 	db GASTLY
-	db GENGAR
+	db PITAYRANT
 	db GIRAFARIG
 	db GLIGAR
 	db GLOOM
 	db GNOMERCY
 	db GOLBAT
-	db GOLDEEN
 	db GOLDUCK
 	db GOLEM
+	db GOOSAPLING
 	db GRANBULL
 	db GRAVELER
 	db GRIMER
 	db GROWLITHE
+	db GWUBBY
 	db GYARADOS
-	db HAUNTER
+	db SCRUFFRUIT
 	db HERACROSS
 	db HITMONCHAN
 	db HITMONLEE
@@ -211,7 +212,6 @@ AlphabeticalPokedexOrder:
 	db SNEASEL
 	db SNORLAX
 	db SNUBBULL
-	db SPINARAK
 	db SQUIRTLE
 	db STARMIE
 	db STARYU
@@ -227,8 +227,8 @@ AlphabeticalPokedexOrder:
 	db TENTACOOL
 	db TENTACRUEL
 	db TOBACOON
-	db TOGEPI
 	db TOGETIC
+	db TRANQUIEL
 	db TYRANITAR
 	db TYROGUE
 	db UMBREON

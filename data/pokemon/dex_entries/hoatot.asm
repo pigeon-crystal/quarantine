@@ -3,8 +3,8 @@
 
 	db   "HOATOT cannot fly,"
 	next "so they attack by"
-	next "falling from trees."
+	next "falling from"
 
-	page "Their pudgy bodies"
-	next "help them float"
-	next "in water.@"
+	page "trees. Their pudgy"
+	next "bodies help them"
+	next "float in water.@"

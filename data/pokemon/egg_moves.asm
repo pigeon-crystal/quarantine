@@ -294,9 +294,13 @@ ShellderEggMoves:
 	db -1 ; end
 
 GastlyEggMoves:
-	db PSYWAVE
-	db PERISH_SONG
 	db HAZE
+	db DRAGONBREATH
+	db POISONPOWDER
+	db STUN_SPORE
+	db SLEEP_POWDER
+	db PETAL_DANCE
+	db BEAT_UP
 	db -1 ; end
 
 OnixEggMoves:
@@ -390,7 +394,7 @@ HorseaEggMoves:
 	db SONICBOOM
 	db -1 ; end
 
-GoldeenEggMoves:
+GoosaplingEggMoves:
 	db PSYBEAM
 	db HAZE
 	db HYDRO_PUMP
@@ -512,8 +516,8 @@ WormeekEggMoves:
 	db LIGHT_SCREEN
 	db -1 ; end
 
-SpinarakEggMoves:
-	db PSYBEAM
+GwubbyEggMoves:
+	db LEECH_LIFE
 	db DISABLE
 	db SONICBOOM
 	db BATON_PASS
@@ -549,12 +553,12 @@ IgglybuffEggMoves:
 	db FAINT_ATTACK
 	db -1 ; end
 
-TogepiEggMoves:
+TranquielEggMoves:
 	db PRESENT
-	db MIRROR_MOVE
-	db PECK
 	db FORESIGHT
 	db FUTURE_SIGHT
+	db SUPERSONIC
+	db TELEPORT
 	db -1 ; end
 
 NatuEggMoves:

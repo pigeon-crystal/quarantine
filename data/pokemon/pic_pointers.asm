@@ -186,10 +186,10 @@ PokemonPicPointers::
 	dba_pic CloysterBackpic
 	dba_pic GastlyFrontpic
 	dba_pic GastlyBackpic
-	dba_pic HaunterFrontpic
-	dba_pic HaunterBackpic
-	dba_pic GengarFrontpic
-	dba_pic GengarBackpic
+	dba_pic ScruffruitFrontpic
+	dba_pic ScruffruitBackpic
+	dba_pic PitayrantFrontpic
+	dba_pic PitayrantBackpic
 	dba_pic OnixFrontpic
 	dba_pic OnixBackpic
 	dba_pic DrowzeeFrontpic
@@ -236,8 +236,8 @@ PokemonPicPointers::
 	dba_pic HorseaBackpic
 	dba_pic SeadraFrontpic
 	dba_pic SeadraBackpic
-	dba_pic GoldeenFrontpic
-	dba_pic GoldeenBackpic
+	dba_pic GoosaplingFrontpic
+	dba_pic GoosaplingBackpic
 	dba_pic SeakingFrontpic
 	dba_pic SeakingBackpic
 	dba_pic StaryuFrontpic
@@ -334,8 +334,8 @@ PokemonPicPointers::
 	dba_pic WormeekBackpic
 	dba_pic LedianFrontpic
 	dba_pic LedianBackpic
-	dba_pic SpinarakFrontpic
-	dba_pic SpinarakBackpic
+	dba_pic GwubbyFrontpic
+	dba_pic GwubbyBackpic
 	dba_pic AriadosFrontpic
 	dba_pic AriadosBackpic
 	dba_pic CrobatFrontpic
@@ -350,8 +350,8 @@ PokemonPicPointers::
 	dba_pic CleffaBackpic
 	dba_pic IgglybuffFrontpic
 	dba_pic IgglybuffBackpic
-	dba_pic TogepiFrontpic
-	dba_pic TogepiBackpic
+	dba_pic TranquielFrontpic
+	dba_pic TranquielBackpic
 	dba_pic TogeticFrontpic
 	dba_pic TogeticBackpic
 	dba_pic NatuFrontpic

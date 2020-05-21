@@ -12,7 +12,7 @@ Pokered_MonIndices:
 	db LICKITUNG
 	db EXEGGCUTE
 	db GRIMER
-	db GENGAR
+	db PITAYRANT
 	db NIDORAN_F
 	db NIDOQUEEN
 	db CUBONE
@@ -145,7 +145,7 @@ Pokered_MonIndices:
 	db PERSIAN
 	db MAROWAK
 	db HITMONTOP ; MISSINGNO.
-	db HAUNTER
+	db SCRUFFRUIT
 	db ABRA
 	db ALAKAZAM
 	db FURBODA
@@ -155,7 +155,7 @@ Pokered_MonIndices:
 	db VENUSAUR
 	db TENTACRUEL
 	db SMOOCHUM ; MISSINGNO.
-	db GOLDEEN
+	db GOOSAPLING
 	db SEAKING
 	db ELEKID ; MISSINGNO.
 	db MAGBY ; MISSINGNO.
@@ -205,7 +205,7 @@ Pokered_MonIndices:
 	db NOCTOWL
 	db WORMEEK
 	db LEDIAN
-	db SPINARAK
+	db GWUBBY
 	db ARIADOS
 	db CROBAT
 	db CHINCHOU
@@ -213,7 +213,7 @@ Pokered_MonIndices:
 	db PICHU
 	db CLEFFA
 	db IGGLYBUFF
-	db TOGEPI
+	db TRANQUIEL
 	db TOGETIC
 	db NATU
 	db XATU

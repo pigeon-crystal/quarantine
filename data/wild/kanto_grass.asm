@@ -86,11 +86,11 @@ KantoGrassWildMons:
 	db 12, ZUBAT
 	db 11, DOLMITE
 	db 12, DOLMITE
-	db 17, HAUNTER
+	db 17, SCRUFFRUIT
 	db 15, ZUBAT
 	db 15, ZUBAT
 	db 15, ZUBAT
-	db 20, HAUNTER
+	db 20, SCRUFFRUIT
 
 	map_id ROCK_TUNNEL_B1F ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -117,10 +117,10 @@ KantoGrassWildMons:
 	db 14, DOLMITE
 	db 16, ONIX
 	db 15, ZUBAT
-	db 15, HAUNTER
+	db 15, SCRUFFRUIT
 	db 15, GOLBAT
 	db 15, GOLBAT
-	db 19, HAUNTER
+	db 19, SCRUFFRUIT
 
 	map_id VICTORY_ROAD ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -234,7 +234,7 @@ KantoGrassWildMons:
 	db 10, PIKACHU
 	; nite
 	db 3, HOOTHOOT
-	db 3, SPINARAK
+	db 3, GWUBBY
 	db 5, HOOTHOOT
 	db 7, NOCTOWL
 	db 7, ARIADOS
@@ -416,11 +416,11 @@ KantoGrassWildMons:
 	db 17, MEOWTH
 	db 20, NOCTOWL
 	db 16, ABRA
-	db 17, HAUNTER
+	db 17, SCRUFFRUIT
 	db 16, JIGGLYPUFF
 	db 18, KADABRA
 	db 18, KADABRA
-	db 20, HAUNTER
+	db 20, SCRUFFRUIT
 
 	map_id ROUTE_9 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

@@ -242,6 +242,12 @@ EarlsPokemonAcademyGameboyKid1Text:
 	text "I traded my best"
 	line "#MON to the"
 	cont "guy beside me."
+	
+	para "…At least that's"
+	line "what I told him."
+	cont "It's just a"
+	cont "NOMSTER with a"
+	cont "BERRY."
 	done
 
 EarlsPokemonAcademyGameboyKid2Text:
@@ -290,12 +296,16 @@ AcademyPoisonText:
 	para "To cure it, use an"
 	line "ANTIDOTE."
 	
-	para "Toxic poison starts"
-	line "weak, but gets"
+	para "Toxic poison will"
+	line "start weak, but"
 	
-	para "worse each turn"
-	line "your #MON is"
-	cont "on the field."
+	para "intensifies each"
+	line "turn your #MON"
+	cont "is in battle."
+	
+	para "The damage resets"
+	line "when your #MON"
+	cont "is withdrawn."
 	done
 
 AcademyParalysisText:
@@ -312,6 +322,11 @@ AcademySleepText:
 	text "If asleep, your"
 	line "#MON can't make"
 	cont "a move."
+	
+	para "However, during"
+	line "battle, it will"
+	cont "wake up after"
+	cont "2-5 turns."
 
 	para "A sleeping #MON"
 	line "doesn't wake up"
@@ -354,7 +369,7 @@ AcademyFreezeText:
 AcademyNotebookText:
 	text "It's this kid's"
 	line "notebook…"
-
+	
 	para "Catch #MON"
 	line "using # BALLS."
 
@@ -369,9 +384,10 @@ AcademyNotebookText1:
 	line "# BALL, weaken"
 	cont "the target first."
 
-	para "A poisoned or"
-	line "burned #MON is"
-	cont "easier to catch."
+	para "A #MON with"
+	line "a status condition"
+	cont "is easier to"
+	cont "catch."
 
 	para "Keep reading?"
 	done
@@ -387,6 +403,24 @@ AcademyNotebookText2:
 	para "Leaving battle"
 	line "clears up any"
 	cont "confusion."
+	
+	para "Some moves may"
+	line "cause infatuation,"
+	cont "which may make"
+	cont "a #MON im-"
+	cont "mobilized by love."
+	
+	para "While a #MON"
+	line "can snap out of"
+	cont "confusion mid-"
+	cont "battle,"
+	
+	para "infatuation"
+	line "persists until"
+	cont "after the battle"
+	cont "or until the"
+	cont "#MON is with-"
+	cont "drawn."
 
 	para "Keep reading?"
 	done

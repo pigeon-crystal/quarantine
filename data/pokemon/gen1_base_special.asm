@@ -93,8 +93,8 @@ KantoMonSpecials:
 	db  45 ; SHELLDER
 	db  85 ; CLOYSTER
 	db 100 ; GASTLY
-	db 115 ; HAUNTER
-	db 130 ; GENGAR
+	db 115 ; SCRUFFRUIT
+	db 130 ; PITAYRANT
 	db  30 ; ONIX
 	db  90 ; DROWZEE
 	db 115 ; HYPNO
@@ -118,7 +118,7 @@ KantoMonSpecials:
 	db  40 ; KANGASKHAN
 	db  70 ; HORSEA
 	db  95 ; SEADRA
-	db  50 ; GOLDEEN
+	db  50 ; GOOSAPLING
 	db  80 ; SEAKING
 	db  70 ; STARYU
 	db 100 ; STARMIE

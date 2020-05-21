@@ -211,7 +211,7 @@ JohtoGrassWildMons:
 	db 23, NOMSTER
 	db 24, NOMSTER
 	db 24, NOMSTER
-	db 29, HAUNTER
+	db 29, SCRUFFRUIT
 
 	map_id TIN_TOWER_7F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
@@ -271,7 +271,7 @@ JohtoGrassWildMons:
 	db 23, NOMSTER
 	db 24, NOMSTER
 	db 24, NOMSTER
-	db 30, HAUNTER
+	db 30, SCRUFFRUIT
 
 	map_id TIN_TOWER_9F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
@@ -301,7 +301,7 @@ JohtoGrassWildMons:
 	db 23, NOMSTER
 	db 24, NOMSTER
 	db 24, NOMSTER
-	db 30, HAUNTER
+	db 30, SCRUFFRUIT
 
 	map_id BURNED_TOWER_1F ;done
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -386,7 +386,7 @@ JohtoGrassWildMons:
 	; nite
 	db 12, PSYDUCK
 	db 13, HOOTHOOT
-	db 14, SPINARAK
+	db 14, GWUBBY
 	db 15, HOOTHOOT
 	db 10, VENONAT
 	db 12, VENONAT
@@ -1264,7 +1264,7 @@ JohtoGrassWildMons:
 	db 55, PARASECT
 
 	map_id DARK_CAVE_VIOLET_ENTRANCE ;done
-	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
+	db 5 percent, 5 percent, 5 percent ; encounter rates: morn/day/nite
 	; morn
 	db 4, DOLMITE
 	db 4, ZUBAT
@@ -1294,7 +1294,7 @@ JohtoGrassWildMons:
 	db 6, ATTACKO
 
 	map_id DARK_CAVE_BLACKTHORN_ENTRANCE ;done
-	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
+	db 5 percent, 5 percent, 5 percent ; encounter rates: morn/day/nite
 	; morn
 	db 23, DOLMITE
 	db 23, ZUBAT
@@ -1326,29 +1326,29 @@ JohtoGrassWildMons:
 	map_id ROUTE_29 ;done
 	db 11 percent, 11 percent, 11 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, NOMSTER
+	db 3, NOMSTER
 	db 2, WORMEEK
 	db 3, FURNIT
 	db 3, HOATOT
-	db 2, NOMSTER
+	db 3, NOMSTER
 	db 3, WORMEEK
 	db 3, HOATOT
 	db 5, QWAIL
 	; day
-	db 2, NOMSTER
-	db 2, FURNIT
-	db 3, WORMEEK
+	db 3, NOMSTER
+	db 3, FURNIT
 	db 3, HOATOT
-	db 2, FURNIT
+	db 2, WORMEEK
+	db 3, FURNIT
 	db 3, HOATOT
 	db 3, QWAIL
 	db 5, QWAIL
 	; nite
 	db 2, WORMEEK
-	db 2, NOMSTER
+	db 3, NOMSTER
 	db 3, HOATOT
 	db 3, HOATOT
-	db 2, NOMSTER
+	db 3, NOMSTER
 	db 3, WORMEEK
 	db 3, LAWNIE
 	db 5, LAWNIE
@@ -1374,14 +1374,14 @@ JohtoGrassWildMons:
 	db 4, QWAIL
 	db 5, QWAIL
 	; nite
-	db 3, SPINARAK
+	db 4, CATERPIE
+	db 3, CATERPIE
+	db 4, LAWNIE
+	db 4, GWUBBY
 	db 3, LAWNIE
 	db 4, LAWNIE
 	db 4, QWAIL
-	db 3, HOATOT
-	db 4, HOATOT
-	db 4, HOATOT
-	db 5, HOATOT
+	db 5, QWAIL
 
 	map_id ROUTE_31 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1404,14 +1404,14 @@ JohtoGrassWildMons:
 	db 6, LAWNIE
 	db 6, LAWNIE
 	; nite
-	db 5, SPINARAK
-	db 4, SPINARAK
+	db 5, PITAYRANT
+	db 4, PITAYRANT
 	db 5, LAWNIE
 	db 6, QWAIL
 	db 5, QWAIL
 	db 5, LAWNIE
 	db 6, GASTLY
-	db 6, SPINARAK
+	db 6, GWUBBY
 
 	map_id ROUTE_32 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1554,14 +1554,14 @@ JohtoGrassWildMons:
 	db 6, FURNIT
 	db 7, LAWNIE
 	; nite
-	db 4, SPINARAK
+	db 4, GWUBBY
 	db 4, HOOTHOOT
 	db 5, LAWNIE
 	db 5, HOOTHOOT
 	db 5, HOOTHOOT
 	db 5, GASTLY
 	db 5, GASTLY
-	db 7, SPINARAK
+	db 7, GWUBBY
 
 	map_id ROUTE_37 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1584,7 +1584,7 @@ JohtoGrassWildMons:
 	db 15, FURNIT
 	db 17, GROWLITHE
 	; nite
-	db 13, SPINARAK
+	db 13, GWUBBY
 	db 14, NOMSTER
 	db 15, HOOTHOOT
 	db 16, NOMSTER
@@ -1783,7 +1783,7 @@ JohtoGrassWildMons:
 	db 3, PHANPY
 	db 3, NOMSTER
 	db 3, NOMSTER
-	db 4, PHANPY
+	db 5, PHANPY
 	; day
 	db 3, DOLMITE
 	db 3, QWAIL
@@ -1791,8 +1791,8 @@ JohtoGrassWildMons:
 	db 3, QWAIL
 	db 3, NOMSTER
 	db 3, NOMSTER
-	db 3, NOMSTER
-	db 4, QWAIL
+	db 3, DOLMITE
+	db 5, QWAIL
 	; nite
 	db 3, DOLMITE
 	db 3, NOMSTER

@@ -61,7 +61,7 @@ MartViolet:
 	db X_DEFEND
 	db X_ATTACK
 	db X_SPEED
-	db FLOWER_MAIL
+	db TM_FALSE_SWIPE
 	db -1 ; end
 
 MartAzalea:

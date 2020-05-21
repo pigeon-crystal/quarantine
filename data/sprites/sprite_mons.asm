@@ -6,11 +6,11 @@ SpriteMons:
 	db HOATOT
 	db SHELLDER
 	db ODDISH
-	db GENGAR
+	db PITAYRANT
 	db ZUBAT
 	db MAGIKARP
 	db SQUIRTLE
-	db TOGEPI
+	db TRANQUIEL
 	db BUTTERFREE
 	db DIGLETT
 	db POLIWAG
@@ -35,3 +35,4 @@ SpriteMons:
 	db GYARADOS
 	db LUGIA
 	db HO_OH
+	db SEAKING

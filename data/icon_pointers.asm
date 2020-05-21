@@ -57,3 +57,9 @@ IconPointers:
 	dw FursaIcon
 	dw NanuquaIcon
 	dw UrskimoIcon
+	dw LawnieIcon
+	dw OrgnomeIcon
+	dw GnomercyIcon
+	dw GoosaplingIcon
+	dw GanzerkerIcon
+	

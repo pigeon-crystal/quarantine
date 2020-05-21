@@ -48,7 +48,8 @@ Route32CooltrainerMContinueScene:
 	opentext
 	checkevent EVENT_GOT_MIRACLE_SEED_IN_ROUTE_32
 	iftrue .GotMiracleSeed
-	checkflag ENGINE_ZEPHYRBADGE
+	;checkflag ENGINE_ZEPHYRBADGE
+	checkflag ENGINE_RISINGBADGE ;DELETE THIS and uncomment above after finishing demo
 	iffalse .DontHaveZephyrBadge
 	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
 	iftrue .GiveMiracleSeed
@@ -558,16 +559,44 @@ Route32CooltrainerMText_UnusedSproutTower:
 	done
 
 Route32CooltrainerMText_VioletGym:
-	text "Have you gone to"
-	line "the #MON GYM?"
+	;text "Have you gone to"
+	;line "the #MON GYM?"
 
-	para "You can test your"
-	line "#MON and your-"
-	cont "self there."
+	;para "You can test your"
+	;line "#MON and your-"
+	;cont "self there."
 
-	para "It's a rite of"
-	line "passage for all"
-	cont "trainers!"
+	;para "It's a rite of"
+	;line "passage for all"
+	;cont "trainers!"
+	text "Sorry buddy, but"
+	line "I can't let you"
+	cont "past here."
+	
+	para "It's a demo,"
+	line "after all!"
+	
+	para "The RUINS are"
+	line "blocked off,"
+	cont "too."
+	
+	para "If you've scaled"
+	line "SPROUT TOWER,"
+	cont "beat FALKNER,"
+	cont "and caught to"
+	cont "your heart's"
+	cont "content, then that"
+	cont "about covers it."
+	
+	para "Remember to report"
+	line "any bugs you en-"
+	cont "countered, and"
+	cont "give feedback."
+	
+	para "Thank you for"
+	line "your support,"
+	cont "and thank you"
+	cont "for playing!"
 	done
 
 Route32CooltrainerMText_HaveThisSeed:
@@ -608,7 +637,7 @@ Text_MillionDollarSlowpokeTail:
 	line "to have this"
 
 	para "tasty, nutritious"
-	line "SLOWPOKETAIL?"
+	line "ATTACKO GRAFT?"
 
 	para "For you right now,"
 	line "just ¥1,000,000!"
@@ -822,6 +851,8 @@ BirdKeeperPeterSeenText:
 	line "from VIOLET CITY!"
 
 	para "You beat FALKNER?"
+	line "I'll show you"
+	cont "what he taught me!"
 	done
 
 BirdKeeperPeterBeatenText:
@@ -917,8 +948,10 @@ Route32SignText:
 	done
 
 Route32RuinsSignText:
-	text "RUINS OF ALPH"
-	line "EAST ENTRANCE"
+	;text "RUINS OF ALPH"
+	;line "EAST ENTRANCE"
+	text "SORRY BUD"
+	line "IT'S A DEMO"
 	done
 
 Route32UnionCaveSignText:
@@ -929,10 +962,10 @@ Route32UnionCaveSignText:
 Route32_MapEvents:
 	db 0, 0 ; filler
 
-	db 4 ; warp events
+	db 2 ; warp events (fix to 4)
 	warp_event 11, 73, ROUTE_32_POKECENTER_1F, 1
-	warp_event  4,  2, ROUTE_32_RUINS_OF_ALPH_GATE, 3
-	warp_event  4,  3, ROUTE_32_RUINS_OF_ALPH_GATE, 4
+	;warp_event  4,  2, ROUTE_32_RUINS_OF_ALPH_GATE, 3
+	;warp_event  4,  3, ROUTE_32_RUINS_OF_ALPH_GATE, 4
 	warp_event  6, 79, UNION_CAVE_1F, 4
 
 	db 2 ; coord events
@@ -955,7 +988,7 @@ Route32_MapEvents:
 	object_event  4, 63, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerYoungsterGordon, -1
 	object_event  3, 45, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, TrainerCamperRoland, -1
 	object_event 10, 30, SPRITE_LASS, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 1, TrainerPicnickerLiz1, -1
-	object_event 19,  8, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route32CooltrainerMScript, -1
+	object_event 19,  8, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, Route32CooltrainerMScript, -1
 	object_event 11, 82, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerBirdKeeperPeter, -1
 	object_event  7, 70, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SlowpokeTailSalesmanScript, EVENT_SLOWPOKE_WELL_ROCKETS
 	object_event  6, 53, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route32GreatBall, EVENT_ROUTE_32_GREAT_BALL

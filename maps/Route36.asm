@@ -50,10 +50,16 @@ Route36SuicuneScript:
 SudowoodoScript:
 	checkitem SQUIRTBOTTLE
 	iftrue .Fight
-
+	
+	cry SEAKING
 	waitsfx
 	playsound SFX_SANDSTORM
 	applymovement ROUTE36_WEIRD_TREE, SudowoodoShakeMovement
+	cry SEAKING
+	opentext
+	writetext HorridGooseText
+	waitbutton
+	closetext
 	end
 
 .Fight:
@@ -70,6 +76,8 @@ WateredWeirdTreeScript:: ; export (for when you use Squirtbottle from pack)
 	waitsfx
 	playsound SFX_SANDSTORM
 	applymovement ROUTE36_WEIRD_TREE, SudowoodoShakeMovement
+	cry SEAKING
+	cry SEAKING
 	opentext
 	writetext SudowoodoAttackedText
 	waitbutton
@@ -408,22 +416,31 @@ Route36SuicuneMovement:
 	remove_sliding
 	step_end
 
+HorridGooseText:
+	text "GANZERKER: Honk!"
+
+	para "Agh! The GANZERKER"
+	line "bit you!"
+	
+	para "Better back off"
+	line "for now…"
+	done
+
 UseSquirtbottleText:
-	text "It's a weird tree."
-	line "Use SQUIRTBOTTLE?"
+	text "Use the GANZBGONE?"
 	done
 
 UsedSquirtbottleText:
 	text "<PLAYER> used the"
-	line "SQUIRTBOTTLE."
+	line "GANZBGONE."
 	done
 
 SudowoodoAttackedText:
-	text "The weird tree"
+	text "The GANZERKER"
 	line "doesn't like the"
-	cont "SQUIRTBOTTLE!"
+	cont "GANZBGONE!"
 
-	para "The weird tree"
+	para "The GANZERKER"
 	line "attacked!"
 	done
 
@@ -433,56 +450,51 @@ FloriaText1:
 
 	para "Listen, listen!"
 
-	para "When I sprinkled"
-	line "water on that"
+	para "At our shop, we"
+	line "have repellents"
+	cont "for common pest"
+	cont "#MON."
 
-	para "wiggly tree, it"
-	line "jumped right up!"
-
-	para "It just has to be"
-	line "a #MON."
-
-	para "I bet it would be"
-	line "shocked out of its"
-
-	para "disguise if you"
-	line "soaked it!"
+	para "One of the more"
+	line "expensive types"
+	cont "could get rid"
+	cont "of that ornery"
+	cont "GANZERKER!"
 
 	para "I know! I'll tell"
-	line "my sis and borrow"
-	cont "her water bottle!"
+	line "my sis and try"
+	cont "to borrow some!"
 	done
 
 FloriaText2:
 	text "When I told my sis"
-	line "about the jiggly"
+	line "about the rabid"
 
-	para "tree, she said"
-	line "it's dangerous."
+	para "GANZERKER, she"
+	line "said it was too"
+	cont "dangerous."
 
 	para "If I beat WHITNEY,"
 	line "I wonder if she'll"
 
-	para "lend me her water"
-	line "bottle…"
+	para "lend me her goose"
+	line "repellent…"
 	done
 
 RockSmashGuyText1:
-	text "Wa-hey!"
+	text "I was going to"
+	line "pummel that"
+	cont "GANZERKER with my"
+	cont "fighting #MON."
 
-	para "I was going to"
-	line "snap that tree"
-
-	para "with my straight-"
-	line "arm punch."
-
-	para "But I couldn't!"
-	line "I'm a failure!"
+	para "But I forgot my"
+	line "type matchups!"
+	cont "I'm a failure!"
 	done
 
 RockSmashGuyText2:
 	text "Did you clear that"
-	line "wretched tree?"
+	line "nasty GANZERKER?"
 
 	para "I'm impressed!"
 	line "I want you to"
@@ -522,24 +534,26 @@ UnusedOddTreeText:
 	done
 
 Route36LassText:
-	text "An odd tree is"
-	line "blocking the way"
-	cont "to GOLDENROD CITY."
+	text "A horrid GANZERKER"
+	line "is blocking the"
+	cont "way to GOLDENROD"
+	cont "CITY."
 
 	para "It's preventing"
-	line "me from shopping."
+	line "me from shopping!"
 
 	para "Something should"
-	line "be done about it."
+	line "be done about it,"
+	cont "but that GANZERKER"
+	cont "is so aggressive!"
 	done
 
 Route36LassText_ClearedSudowoodo:
-	text "That odd tree dis-"
-	line "appeared without a"
-	cont "trace."
+	text "Phew! Good riddance"
+	line "to bad GANZERKERS."
 
-	para "Oh! That tree was"
-	line "really a #MON?"
+	para "Now I can shop"
+	line "'till I drop!"
 	done
 
 PsychicMarkSeenText:
@@ -622,8 +636,10 @@ Route36SignText:
 	done
 
 RuinsOfAlphNorthSignText:
-	text "RUINS OF ALPH"
-	line "NORTH ENTRANCE"
+	;text "RUINS OF ALPH"
+	;line "NORTH ENTRANCE"
+	text "SORRY BUD"
+	line "IT'S A DEMO"
 	done
 
 Route36TrainerTips1Text:
@@ -660,11 +676,11 @@ Route36TrainerTips2Text:
 Route36_MapEvents:
 	db 0, 0 ; filler
 
-	db 4 ; warp events
+	db 2 ; warp events (fix to 4)
 	warp_event 18,  8, ROUTE_36_NATIONAL_PARK_GATE, 3
 	warp_event 18,  9, ROUTE_36_NATIONAL_PARK_GATE, 4
-	warp_event 47, 13, ROUTE_36_RUINS_OF_ALPH_GATE, 1
-	warp_event 48, 13, ROUTE_36_RUINS_OF_ALPH_GATE, 2
+	;warp_event 47, 13, ROUTE_36_RUINS_OF_ALPH_GATE, 1
+	;warp_event 48, 13, ROUTE_36_RUINS_OF_ALPH_GATE, 2
 
 	db 2 ; coord events
 	coord_event 20,  7, SCENE_ROUTE36_SUICUNE, Route36SuicuneScript
@@ -679,7 +695,7 @@ Route36_MapEvents:
 	db 9 ; object events
 	object_event 20, 13, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerPsychicMark, -1
 	object_event 31, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 5, TrainerSchoolboyAlan1, -1
-	object_event 35,  9, SPRITE_WEIRD_TREE, SPRITEMOVEDATA_SUDOWOODO, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SudowoodoScript, EVENT_ROUTE_36_SUDOWOODO
+	object_event 35,  9, SPRITE_WEIRD_TREE, SPRITEMOVEDATA_SUDOWOODO, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, SudowoodoScript, EVENT_ROUTE_36_SUDOWOODO
 	object_event 51,  8, SPRITE_LASS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route36LassScript, -1
 	object_event 44,  9, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route36RockSmashGuyScript, -1
 	object_event 21,  4, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route36FruitTree, -1

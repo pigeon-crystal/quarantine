@@ -1,0 +1,11 @@
+	db "TERRAFORM@"		;species name
+	dw 703, 5071	    ;height/weight
+	
+	db 	 "The presence of"
+	next "just one SATELISK"
+    next "can rapidly alter"
+ 
+	page "an entire eco-"
+	next "system to its"
+	next "liking.@"
+	

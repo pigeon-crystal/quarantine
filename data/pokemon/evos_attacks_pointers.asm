@@ -93,8 +93,8 @@ EvosAttacksPointers::
 	dw ShellderEvosAttacks
 	dw CloysterEvosAttacks
 	dw GastlyEvosAttacks
-	dw HaunterEvosAttacks
-	dw GengarEvosAttacks
+	dw ScruffruitEvosAttacks
+	dw PitayrantEvosAttacks
 	dw OnixEvosAttacks
 	dw DrowzeeEvosAttacks
 	dw HypnoEvosAttacks
@@ -118,7 +118,7 @@ EvosAttacksPointers::
 	dw KangaskhanEvosAttacks
 	dw HorseaEvosAttacks
 	dw SeadraEvosAttacks
-	dw GoldeenEvosAttacks
+	dw GoosaplingEvosAttacks
 	dw SeakingEvosAttacks
 	dw StaryuEvosAttacks
 	dw StarmieEvosAttacks
@@ -167,7 +167,7 @@ EvosAttacksPointers::
 	dw NoctowlEvosAttacks
 	dw WormeekEvosAttacks
 	dw LedianEvosAttacks
-	dw SpinarakEvosAttacks
+	dw GwubbyEvosAttacks
 	dw AriadosEvosAttacks
 	dw CrobatEvosAttacks
 	dw ChinchouEvosAttacks
@@ -175,7 +175,7 @@ EvosAttacksPointers::
 	dw PichuEvosAttacks
 	dw CleffaEvosAttacks
 	dw IgglybuffEvosAttacks
-	dw TogepiEvosAttacks
+	dw TranquielEvosAttacks
 	dw TogeticEvosAttacks
 	dw NatuEvosAttacks
 	dw XatuEvosAttacks

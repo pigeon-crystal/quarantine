@@ -57,6 +57,11 @@
 	const ICON_FURSA
 	const ICON_NANUQUA
 	const ICON_URSKIMO
+	const ICON_LAWNIE
+	const ICON_ORGNOME
+	const ICON_GNOMERCY
+	const ICON_GOOSAPLING
+	const ICON_GANZERKER
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

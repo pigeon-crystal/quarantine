@@ -923,7 +923,7 @@ BerryDesc:
 
 GoldBerryDesc:
 	db   "A self-restore"
-	next "item. (30HP, HOLD)@"
+	next "item. (40HP, HOLD)@"
 
 SquirtBottleDesc:
 	db   "A bottle used for"

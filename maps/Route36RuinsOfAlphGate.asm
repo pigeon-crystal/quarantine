@@ -18,18 +18,25 @@ Route36RuinsOfAlphGateOfficerText:
 	line "who'd make some-"
 	cont "thing like this?"
 	cont "And why?"
+	
+	para "And who's ALPH"
+	cont "anyways?"
+	
+	para "Wasn't he on TV?"
 	done
 
 Route36RuinsOfAlphGateGrampsText:
-	text "Did you see that"
-	line "strange tree in"
-	cont "the road?"
+	text "Huff puff…"
+	line "Hoo boy…"
 
-	para "That may explain"
-	line "why fewer people"
+	para "I had to run to"
+	line "get away from that"
+	cont "GANZERKER."
 
-	para "are visiting the"
-	line "RUINS OF ALPH."
+	para "Maybe that bird's"
+	line "why there's been"
+	cont "less visitors to"
+	cont "the RUINS OF ALPH."
 	done
 
 Route36RuinsOfAlphGate_MapEvents:
