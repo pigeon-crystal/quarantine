@@ -125,7 +125,7 @@ KantoGrassWildMons:
 	map_id VICTORY_ROAD ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 34, GRAVELER
+	db 34, DOLMESA
 	db 32, RHYHORN
 	db 33, ONIX
 	db 34, GOLBAT
@@ -134,7 +134,7 @@ KantoGrassWildMons:
 	db 35, RHYDON
 	db 40, RHYDON
 	; day
-	db 34, GRAVELER
+	db 34, DOLMESA
 	db 32, RHYHORN
 	db 33, ONIX
 	db 34, GOLBAT
@@ -144,12 +144,12 @@ KantoGrassWildMons:
 	db 40, RHYDON
 	; nite
 	db 34, GOLBAT
-	db 34, GRAVELER
+	db 34, DOLMESA
 	db 32, ONIX
-	db 36, GRAVELER
-	db 38, GRAVELER
-	db 40, GRAVELER
-	db 40, GRAVELER
+	db 36, DOLMESA
+	db 38, DOLMESA
+	db 40, DOLMESA
+	db 40, DOLMESA
 	db 44, ONIX
 
 	map_id TOHJO_FALLS ;done
@@ -215,20 +215,20 @@ KantoGrassWildMons:
 	map_id ROUTE_2 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, CATERPIE
+	db 3, BUZZLING
 	db 3, WORMEEK
 	db 5, FURNIT
-	db 7, BUTTERFREE
-	db 7, LEDIAN
+	db 7, VAZZINATE
+	db 7, WORMACHO
 	db 4, PIKACHU
 	db 4, PIKACHU
 	db 10, PIKACHU
 	; day
-	db 3, CATERPIE
+	db 3, BUZZLING
 	db 3, FURNIT
 	db 5, FURNIT
-	db 7, BUTTERFREE
-	db 7, FURBODA
+	db 7, VAZZINATE
+	db 7, FURDOBA
 	db 4, PIKACHU
 	db 4, PIKACHU
 	db 10, PIKACHU
@@ -237,10 +237,10 @@ KantoGrassWildMons:
 	db 3, GWUBBY
 	db 5, HOOTHOOT
 	db 7, NOCTOWL
-	db 7, ARIADOS
+	db 7, GRUBBOID
 	db 4, NOCTOWL
 	db 4, NOCTOWL
-	db 10, ARIADOS
+	db 10, GRUBBOID
 
 	map_id ROUTE_3 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -307,7 +307,7 @@ KantoGrassWildMons:
 	; morn
 	db 13, FURNIT
 	db 13, SNUBBULL
-	db 15, FURBODA
+	db 15, FURDOBA
 	db 12, ABRA
 	db 14, JIGGLYPUFF
 	db 14, ABRA
@@ -316,7 +316,7 @@ KantoGrassWildMons:
 	; day
 	db 13, FURNIT
 	db 13, SNUBBULL
-	db 15, FURBODA
+	db 15, FURDOBA
 	db 12, ABRA
 	db 14, JIGGLYPUFF
 	db 14, ABRA
@@ -396,7 +396,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 17, SNUBBULL
-	db 19, FURBODA
+	db 19, FURDOBA
 	db 16, ABRA
 	db 17, GROWLITHE
 	db 16, JIGGLYPUFF
@@ -405,7 +405,7 @@ KantoGrassWildMons:
 	db 20, KADABRA
 	; day
 	db 17, SNUBBULL
-	db 19, FURBODA
+	db 19, FURDOBA
 	db 16, ABRA
 	db 17, GROWLITHE
 	db 16, JIGGLYPUFF
@@ -488,7 +488,7 @@ KantoGrassWildMons:
 	db 14, HOPPIP
 	db 13, NOMSABRE
 	db 15, MAGNEMITE
-	db 16, FURBODA
+	db 16, FURDOBA
 	db 16, NOMSTER
 	db 16, HOPPIP
 	db 16, HOPPIP
@@ -497,7 +497,7 @@ KantoGrassWildMons:
 	db 14, HOPPIP
 	db 13, NOMSABRE
 	db 15, MAGNEMITE
-	db 16, FURBODA
+	db 16, FURDOBA
 	db 16, NOMSTER
 	db 16, HOPPIP
 	db 16, HOPPIP
@@ -517,7 +517,7 @@ KantoGrassWildMons:
 	; morn
 	db 23, NIDORINO
 	db 23, NIDORINA
-	db 25, FURBODA
+	db 25, FURDOBA
 	db 25, HOPPIP
 	db 27, HOPPIP
 	db 27, HOPPIP
@@ -526,7 +526,7 @@ KantoGrassWildMons:
 	; day
 	db 23, NIDORINO
 	db 23, NIDORINA
-	db 25, FURBODA
+	db 25, FURDOBA
 	db 25, HOPPIP
 	db 27, HOPPIP
 	db 27, HOPPIP
@@ -547,7 +547,7 @@ KantoGrassWildMons:
 	; morn
 	db 26, NIDORINO
 	db 26, NIDORINA
-	db 28, FURBODA
+	db 28, FURDOBA
 	db 28, HOPPIP
 	db 30, SKIPLOOM
 	db 30, SKIPLOOM
@@ -556,7 +556,7 @@ KantoGrassWildMons:
 	; day
 	db 26, NIDORINO
 	db 26, NIDORINA
-	db 28, FURBODA
+	db 28, FURDOBA
 	db 28, HOPPIP
 	db 30, SKIPLOOM
 	db 30, SKIPLOOM
@@ -577,7 +577,7 @@ KantoGrassWildMons:
 	; morn
 	db 23, NIDORINO
 	db 23, NIDORINA
-	db 25, FURBODA
+	db 25, FURDOBA
 	db 25, HOPPIP
 	db 27, HOPPIP
 	db 27, HOPPIP
@@ -586,7 +586,7 @@ KantoGrassWildMons:
 	; day
 	db 23, NIDORINO
 	db 23, NIDORINA
-	db 25, FURBODA
+	db 25, FURDOBA
 	db 25, HOPPIP
 	db 27, HOPPIP
 	db 27, HOPPIP
@@ -755,55 +755,55 @@ KantoGrassWildMons:
 	map_id ROUTE_24 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 8, CATERPIE
-	db 10, CATERPIE
-	db 12, METAPOD
+	db 8, BUZZLING
+	db 10, BUZZLING
+	db 12, HIVEMAIM
 	db 12, ABRA
 	db 10, LAWNIE
-	db 14, BUTTERFREE
-	db 14, BUTTERFREE
+	db 14, VAZZINATE
+	db 14, VAZZINATE
 	db 15, ABRA
 	; day
-	db 8, CATERPIE
+	db 8, BUZZLING
 	db 12, SUNKERN
-	db 10, CATERPIE
+	db 10, BUZZLING
 	db 12, ABRA
 	db 10, LAWNIE
-	db 14, BUTTERFREE
-	db 14, BUTTERFREE
+	db 14, VAZZINATE
+	db 14, VAZZINATE
 	db 15, ABRA
 	; nite
 	db 10, VENONAT
-	db 10, ODDISH
-	db 12, ODDISH
+	db 10, EUKUB
+	db 12, EUKUB
 	db 12, ABRA
 	db 10, LAWNIE
-	db 14, GLOOM
-	db 14, GLOOM
+	db 14, KOAGAN
+	db 14, KOAGAN
 	db 15, ABRA
 
 	map_id ROUTE_25 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 10, CATERPIE
+	db 10, BUZZLING
 	db 10, FURNIT
-	db 12, FURBODA
-	db 12, METAPOD
+	db 12, FURDOBA
+	db 12, HIVEMAIM
 	db 10, LAWNIE
-	db 14, BUTTERFREE
-	db 14, BUTTERFREE
-	db 15, BUTTERFREE
+	db 14, VAZZINATE
+	db 14, VAZZINATE
+	db 15, VAZZINATE
 	; day
-	db 10, CATERPIE
+	db 10, BUZZLING
 	db 10, FURNIT
-	db 12, FURBODA
-	db 12, METAPOD
+	db 12, FURDOBA
+	db 12, HIVEMAIM
 	db 10, LAWNIE
-	db 14, BUTTERFREE
-	db 14, BUTTERFREE
-	db 15, BUTTERFREE
+	db 14, VAZZINATE
+	db 14, VAZZINATE
+	db 15, VAZZINATE
 	; nite
-	db 10, ODDISH
+	db 10, EUKUB
 	db 10, HOOTHOOT
 	db 10, VENONAT
 	db 12, NOCTOWL

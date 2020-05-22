@@ -6,7 +6,7 @@
 	db FAIRY, FAIRY ; type
 	db 147 ; catch rate
 	db 57 ; base exp
-	db STARDUST, STAR_PIECE ; items
+	db NO_ITEM, STARDUST ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 17 ; step cycles to hatch

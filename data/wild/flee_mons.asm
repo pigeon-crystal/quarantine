@@ -11,7 +11,6 @@ SometimesFleeMons:
 	db DRATINI
 	db DRAGONAIR
 	db WORMEEK
-	db TOGETIC
 	db UMBREON
 	db UNOWN
 	db SNUBBULL

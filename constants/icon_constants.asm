@@ -22,7 +22,7 @@
 	const ICON_SERPENT
 	const ICON_VOLTORB 
 	const ICON_FURNIT
-	const ICON_FURBODA
+	const ICON_FURDOBA
 	const ICON_HORNAMPA
 	const ICON_ATTACKO
 	const ICON_HOATOT

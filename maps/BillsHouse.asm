@@ -51,7 +51,7 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special BillsGrandfather
 	iffalse .SaidNo
-	ifnotequal ODDISH, .WrongPokemon
+	ifnotequal EUKUB, .WrongPokemon
 	scall .CorrectPokemon
 	setevent EVENT_SHOWED_ODDISH_TO_BILLS_GRANDPA
 	sjump .ShowedOddish
@@ -289,11 +289,11 @@ BillsGrandpaLickitungText:
 
 BillsGrandpaOddishText:
 	text "Ah, my grandson"
-	line "mentioned a round,"
+	line "mentioned a cute,"
 
 	para "green #MON that"
-	line "has leaves growing"
-	cont "on its head."
+	line "is a slow little"
+	cont "bear."
 	done
 
 BillsGrandpaStaryuText:

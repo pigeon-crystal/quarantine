@@ -5,13 +5,13 @@ SpriteMons:
 	db GROWLITHE
 	db HOATOT
 	db SHELLDER
-	db ODDISH
+	db EUKUB
 	db PITAYRANT
 	db ZUBAT
 	db MAGIKARP
 	db SQUIRTLE
 	db TRANQUIEL
-	db BUTTERFREE
+	db VAZZINATE
 	db DIGLETT
 	db POLIWAG
 	db PIKACHU
@@ -35,4 +35,4 @@ SpriteMons:
 	db GYARADOS
 	db LUGIA
 	db HO_OH
-	db SEAKING
+	db GANZERKER

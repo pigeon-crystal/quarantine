@@ -22,7 +22,7 @@ IconPointers:
 	dw SerpentIcon
 	dw VoltorbIcon
 	dw FurnitIcon
-	dw FurbodaIcon
+	dw FurdobaIcon
 	dw HornampaIcon
 	dw AttackoIcon
 	dw HoatotIcon

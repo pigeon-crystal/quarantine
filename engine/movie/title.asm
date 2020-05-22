@@ -72,20 +72,27 @@ _TitleScreen:
 	ld a, 6
 	call ByteFill
 
-; 'CRYSTAL VERSION'
-	hlbgcoord 5, 9
-	ld bc, NAME_LENGTH ; length of version text
+; 'QUARANTINE'
+	hlbgcoord 7, 9 ;orig 5_9
+	ld bc, 9 ; length of version text
 	ld a, 1
 	call ByteFill
+	
+; 'CRYSTAL'
+	hlbgcoord 7, 10 
+	ld bc, 9 ; length of version text
+	call ByteFill
+
+; I would kill for pfaero
 
 ; Suicune gfx
 	hlbgcoord 0, 12
-	ld bc, 6 * BG_MAP_WIDTH ; the rest of the screen
+	ld bc, 10 * BG_MAP_WIDTH ; the rest of the screen
 	ld a, 0 | VRAM_BANK_1
 	call ByteFill
 
 ; Back to VRAM bank 0
-	ld a, $0
+	ld a, $0 	
 	ldh [rVBK], a
 
 ; Decompress logo
@@ -110,6 +117,27 @@ _TitleScreen:
 	ld d, $80
 	ld e, $14
 	call DrawTitleGraphic
+	
+; Draw "Quarantine"
+	hlcoord 7, 9
+	lb bc, 1, 7
+	ld d, $34
+	ld e, $3A
+	call DrawTitleGraphic
+	
+; Draw "Crystal"
+	hlcoord 8, 10
+	lb bc, 1, 6
+	ld d, $3B
+	ld e, $40
+	call DrawTitleGraphic
+	
+; Draw Legendary
+	hlcoord 5, 12
+	lb bc, 6, 11
+	ld d, $80
+	ld e, 11
+	call DrawTitleGraphic
 
 ; Draw copyright text
 	hlbgcoord 3, 0, vBGMap1
@@ -119,8 +147,8 @@ _TitleScreen:
 	call DrawTitleGraphic
 
 ; Initialize running Suicune?
-	ld d, $0
-	call LoadSuicuneFrame
+;	ld d, $0
+;	call LoadSuicuneFrame
 
 ; Initialize background crystal
 	call InitializeBackground
@@ -217,63 +245,63 @@ _TitleScreen:
 
 	ret
 
-SuicuneFrameIterator:
-	ld hl, wSuicuneFrame
-	ld a, [hl]
-	ld c, a
-	inc [hl]
+;SuicuneFrameIterator:
+;	ld hl, wSuicuneFrame
+;	ld a, [hl]
+;	ld c, a
+;	inc [hl]
 
-; Only do this once every eight frames
-	and %111
-	ret nz
+;; Only do this once every eight frames
+;	and %111
+;	ret nz
 
-	ld a, c
-	and %11000
-	sla a
-	swap a
-	ld e, a
-	ld d, $0
-	ld hl, .Frames
-	add hl, de
-	ld d, [hl]
-	xor a
-	ldh [hBGMapMode], a
-	call LoadSuicuneFrame
-	ld a, $1
-	ldh [hBGMapMode], a
-	ld a, $3
-	ldh [hBGMapThird], a
-	ret
+;	ld a, c
+;	and %11000
+;	sla a
+;	swap a
+;	ld e, a
+;	ld d, $0
+;	ld hl, .Frames
+;	add hl, de
+;	ld d, [hl]
+;	xor a
+;	ldh [hBGMapMode], a
+;	call LoadSuicuneFrame
+;	ld a, $1
+;	ldh [hBGMapMode], a
+;	ld a, $3
+;	ldh [hBGMapThird], a
+;	ret
 
-.Frames:
-	db $80 ; vTiles3 tile $80
-	db $88 ; vTiles3 tile $88
-	db $00 ; vTiles5 tile $00
-	db $08 ; vTiles5 tile $08
+;.Frames:
+	;db $80 ; vTiles3 tile $80
+	;db $88 ; vTiles3 tile $88
+	;db $00 ; vTiles5 tile $00
+	;db $08 ; vTiles5 tile $08
 
-LoadSuicuneFrame:
-	hlcoord 6, 12
-	ld b, 6
-.bgrows
-	ld c, 8
-.col
-	ld a, d
-	ld [hli], a
-	inc d
-	dec c
-	jr nz, .col
-	ld a, SCREEN_WIDTH - 8
-	add l
-	ld l, a
-	ld a, 0
-	adc h
-	ld h, a
-	ld a, 8
-	add d
-	ld d, a
-	dec b
-	jr nz, .bgrows
-	ret
+;LoadSuicuneFrame:
+;	hlcoord 2, 13
+;	ld b, 11
+;.bgrows
+;	ld c, 11
+;.col
+;	ld a, d
+;	ld [hli], a
+;	inc d
+;	dec c
+;	jr nz, .col
+;	ld a, SCREEN_WIDTH - 8
+;	add l
+;	ld l, a
+;	ld a, 0
+;	adc h
+;	ld h, a
+;	ld a, 8
+;	add d
+;	ld d, a
+;	dec b
+;	jr nz, .bgrows
+;	ret
 
 DrawTitleGraphic:
 ; input:

@@ -51,11 +51,11 @@ SudowoodoScript:
 	checkitem SQUIRTBOTTLE
 	iftrue .Fight
 	
-	cry SEAKING
+	cry GANZERKER
 	waitsfx
 	playsound SFX_SANDSTORM
 	applymovement ROUTE36_WEIRD_TREE, SudowoodoShakeMovement
-	cry SEAKING
+	cry GANZERKER
 	opentext
 	writetext HorridGooseText
 	waitbutton
@@ -74,15 +74,16 @@ WateredWeirdTreeScript:: ; export (for when you use Squirtbottle from pack)
 	waitbutton
 	closetext
 	waitsfx
+	cry GANZERKER
 	playsound SFX_SANDSTORM
 	applymovement ROUTE36_WEIRD_TREE, SudowoodoShakeMovement
-	cry SEAKING
-	cry SEAKING
+	cry GANZERKER
+	cry GANZERKER
 	opentext
 	writetext SudowoodoAttackedText
 	waitbutton
 	closetext
-	loadwildmon SUDOWOODO, 20
+	loadwildmon GANZERKER, 30
 	startbattle
 	setevent EVENT_FOUGHT_SUDOWOODO
 	ifequal DRAW, DidntCatchSudowoodo

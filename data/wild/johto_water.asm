@@ -56,22 +56,22 @@ JohtoWaterWildMons:
 	db 4 percent ; encounter rate
 	db 15, GOOSAPLING
 	db 20, MARILL
-	db 20, SEAKING
-	db 25, SEAKING
+	db 20, GANZERKER
+	db 25, GANZERKER
 
 	map_id MOUNT_MORTAR_2F_INSIDE ;done
 	db 2 percent ; encounter rate
 	db 20, GOOSAPLING
 	db 25, MARILL
-	db 25, SEAKING
-	db 30, SEAKING
+	db 25, GANZERKER
+	db 30, GANZERKER
 
 	map_id MOUNT_MORTAR_B1F ;done
 	db 2 percent ; encounter rate
 	db 15, GOOSAPLING
 	db 20, MARILL
-	db 20, SEAKING
-	db 25, SEAKING
+	db 20, GANZERKER
+	db 25, GANZERKER
 
 	map_id WHIRL_ISLAND_SW ;done
 	db 4 percent ; encounter rate
@@ -96,7 +96,7 @@ JohtoWaterWildMons:
 
 	map_id SILVER_CAVE_ROOM_2 ;done
 	db 2 percent ; encounter rate
-	db 35, SEAKING
+	db 35, GANZERKER
 	db 35, GOLDUCK
 	db 35, GOOSAPLING
 	db 40, GOOSAPLING
@@ -182,8 +182,8 @@ JohtoWaterWildMons:
 	db 4 percent ; encounter rate
 	db 20, GOOSAPLING
 	db 15, GOOSAPLING
-	db 20, SEAKING
-	db 25, SEAKING
+	db 20, GANZERKER
+	db 25, GANZERKER
 
 	map_id ROUTE_43 ;done
 	db 2 percent ; encounter rate

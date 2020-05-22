@@ -9,15 +9,15 @@ PokedexDataPointerTable:
 	dw SquirtlePokedexEntry
 	dw WartortlePokedexEntry
 	dw BlastoisePokedexEntry
-	dw CaterpiePokedexEntry
-	dw MetapodPokedexEntry
-	dw ButterfreePokedexEntry
+	dw BuzzlingPokedexEntry
+	dw HivemaimPokedexEntry
+	dw VazzinatePokedexEntry
 	dw HoatotPokedexEntry   ;ORIG Weedle
 	dw HoatoxicPokedexEntry
 	dw NoxromaeusPokedexEntry
 	dw FurnitPokedexEntry   ;orig pidgey
-	dw FurbodaPokedexEntry
-	dw PidgeotPokedexEntry
+	dw FurdobaPokedexEntry
+	dw HornampaPokedexEntry
 	dw NomsterPokedexEntry ;orig rattata
 	dw NomsabrePokedexEntry ;orig raticate
 	dw QwailPokedexEntry	;spearow
@@ -42,9 +42,9 @@ PokedexDataPointerTable:
 	dw WigglytuffPokedexEntry
 	dw ZubatPokedexEntry
 	dw GolbatPokedexEntry
-	dw OddishPokedexEntry
-	dw GloomPokedexEntry
-	dw VileplumePokedexEntry
+	dw EukubPokedexEntry
+	dw KoaganPokedexEntry
+	dw PocalyptusPokedexEntry
 	dw ParasPokedexEntry
 	dw ParasectPokedexEntry
 	dw VenonatPokedexEntry
@@ -69,13 +69,13 @@ PokedexDataPointerTable:
 	dw MachokePokedexEntry
 	dw MachampPokedexEntry
 	dw LawniePokedexEntry
-	dw WeepinbellPokedexEntry
+	dw OrgnomePokedexEntry
 	dw GnomercyPokedexEntry
 	dw TentacoolPokedexEntry
 	dw TentacruelPokedexEntry
 	dw DolmitePokedexEntry
-	dw GravelerPokedexEntry
-	dw GolemPokedexEntry
+	dw DolmesaPokedexEntry
+	dw CairnivorePokedexEntry
 	dw PonytaPokedexEntry
 	dw RapidashPokedexEntry
 	dw SlowpokePokedexEntry
@@ -91,7 +91,7 @@ PokedexDataPointerTable:
 	dw MukPokedexEntry
 	dw ShellderPokedexEntry
 	dw CloysterPokedexEntry
-	dw GastlyPokedexEntry
+	dw FluffruitPokedexEntry
 	dw ScruffruitPokedexEntry
 	dw PitayrantPokedexEntry
 	dw OnixPokedexEntry
@@ -118,7 +118,7 @@ PokedexDataPointerTable:
 	dw HorseaPokedexEntry
 	dw SeadraPokedexEntry
 	dw GoosaplingPokedexEntry
-	dw SeakingPokedexEntry
+	dw GanzerkerPokedexEntry
 	dw StaryuPokedexEntry
 	dw StarmiePokedexEntry
 	dw MrMimePokedexEntry
@@ -165,9 +165,9 @@ PokedexDataPointerTable:
 	dw HoothootPokedexEntry
 	dw NoctowlPokedexEntry
 	dw WormeekPokedexEntry
-	dw LedianPokedexEntry
+	dw WormachoPokedexEntry
 	dw GwubbyPokedexEntry
-	dw AriadosPokedexEntry
+	dw GrubboidPokedexEntry
 	dw CrobatPokedexEntry
 	dw ChinchouPokedexEntry
 	dw LanturnPokedexEntry
@@ -175,7 +175,7 @@ PokedexDataPointerTable:
 	dw CleffaPokedexEntry
 	dw IgglybuffPokedexEntry
 	dw TranquielPokedexEntry
-	dw TogeticPokedexEntry
+	dw AllseeraphPokedexEntry
 	dw NatuPokedexEntry
 	dw XatuPokedexEntry
 	dw MareepPokedexEntry

@@ -1,7 +1,7 @@
 	db "TURF@" ; species name LAWNIE
 	dw 010, 397 ; height, weight
 
-	db   "Commonly seen as a"
+	db   "At times seen as a"
 	next "pest, this #MON"
 	next "has a tendency to"
 

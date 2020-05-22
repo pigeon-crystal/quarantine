@@ -111,15 +111,15 @@ TreeMonSet_Forest:
 	db 15, PINECO,     10
 	db 15, PINECO,     10
 	db 10, NOCTOWL,    10
-	db  5, BUTTERFREE, 10
+	db  5, VAZZINATE, 10
 	db  5, NOXROMAEUS, 10
 	db -1
 ; rare
 	db 50, HOOTHOOT,   10
-	db 15, CATERPIE,   10
+	db 15, BUZZLING,   10
 	db 15, HOATOT,     10
 	db 10, HOOTHOOT,   10
-	db  5, METAPOD,    10
+	db  5, HIVEMAIM,    10
 	db  5, HOATOXIC,     10
 	db -1
 

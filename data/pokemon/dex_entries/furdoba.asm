@@ -6,5 +6,5 @@
 	next "its mud has become"
 
 	page "even harder. Now,"
-	next "it acts as"
+	next "it acts as sturdy"
 	next "armor.@"

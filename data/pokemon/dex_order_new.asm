@@ -11,8 +11,8 @@ NewPokedexOrder:
 	db NANUQUA
 	db URSKIMO
 	db FURNIT ;orig pidgey
-	db FURBODA
-	db PIDGEOT
+	db FURDOBA
+	db HORNAMPA
 	db QWAIL
 	db QWALLOP
 	db HOOTHOOT
@@ -24,19 +24,19 @@ NewPokedexOrder:
 	db PICHU
 	db PIKACHU
 	db RAICHU
-	db CATERPIE
-	db METAPOD
-	db BUTTERFREE
+	db BUZZLING
+	db HIVEMAIM
+	db VAZZINATE
 	db HOATOT  ;orig weedle
 	db HOATOXIC
 	db NOXROMAEUS
 	db WORMEEK    ;Ledyba
-	db LEDIAN
+	db WORMACHO
 	db GWUBBY
-	db ARIADOS
+	db GRUBBOID
 	db DOLMITE
-	db GRAVELER
-	db GOLEM
+	db DOLMESA
+	db CAIRNIVORE
 	db ZUBAT
 	db GOLBAT
 	db CROBAT
@@ -47,7 +47,7 @@ NewPokedexOrder:
 	db JIGGLYPUFF
 	db WIGGLYTUFF
 	db TRANQUIEL
-	db TOGETIC
+	db ALLSEERAPH
 	db SANDSHREW
 	db SANDSLASH
 	db EKANS
@@ -58,14 +58,14 @@ NewPokedexOrder:
 	db AMPHAROS
 	db WOOPER
 	db QUAGSIRE
-	db GASTLY
+	db FLUFFRUIT
 	db SCRUFFRUIT
 	db PITAYRANT
 	db UNOWN
 	db ONIX
 	db STEELIX
 	db LAWNIE
-	db WEEPINBELL
+	db ORGNOME
 	db GNOMERCY
 	db HOPPIP
 	db SKIPLOOM
@@ -79,13 +79,13 @@ NewPokedexOrder:
 	db MAGIKARP
 	db GYARADOS
 	db GOOSAPLING
-	db SEAKING
+	db GANZERKER
 	db SLOWPOKE
 	db SLOWBRO
 	db SLOWKING
-	db ODDISH
-	db GLOOM
-	db VILEPLUME
+	db EUKUB
+	db KOAGAN
+	db POCALYPTUS
 	db BELLOSSOM
 	db DROWZEE
 	db HYPNO

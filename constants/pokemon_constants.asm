@@ -28,15 +28,15 @@
 	const SQUIRTLE   ; 07
 	const WARTORTLE  ; 08
 	const BLASTOISE  ; 09
-	const CATERPIE   ; 0a
-	const METAPOD    ; 0b
-	const BUTTERFREE ; 0c
+	const BUZZLING   ; 0a
+	const HIVEMAIM   ; 0b
+	const VAZZINATE ; 0c
 	const HOATOT     ; 0d weedle
 	const HOATOXIC   ; 0e
 	const NOXROMAEUS ; 0f
 	const FURNIT     ; 10 pidgey
-	const FURBODA    ; 11
-	const PIDGEOT    ; 12
+	const FURDOBA    ; 11
+	const HORNAMPA    ; 12
 	const NOMSTER    ; 13 orig Rattatta
 	const NOMSABRE   ; 14 orig RATICATE
 	const QWAIL      ; 15 spearow
@@ -61,9 +61,9 @@
 	const WIGGLYTUFF ; 28
 	const ZUBAT      ; 29
 	const GOLBAT     ; 2a
-	const ODDISH     ; 2b
-	const GLOOM      ; 2c
-	const VILEPLUME  ; 2d
+	const EUKUB     ; 2b
+	const KOAGAN      ; 2c
+	const POCALYPTUS  ; 2d
 	const PARAS      ; 2e
 	const PARASECT   ; 2f
 	const VENONAT    ; 30
@@ -88,13 +88,13 @@
 	const MACHOKE    ; 43
 	const MACHAMP    ; 44
 	const LAWNIE     ; 45
-	const WEEPINBELL ; 46
+	const ORGNOME 	; 46
 	const GNOMERCY   ; 47
 	const TENTACOOL  ; 48
 	const TENTACRUEL ; 49
 	const DOLMITE    ; 4a
-	const GRAVELER   ; 4b
-	const GOLEM      ; 4c
+	const DOLMESA    ; 4b
+	const CAIRNIVORE ; 4c
 	const PONYTA     ; 4d
 	const RAPIDASH   ; 4e
 	const SLOWPOKE   ; 4f
@@ -110,7 +110,7 @@
 	const MUK        ; 59
 	const SHELLDER   ; 5a
 	const CLOYSTER   ; 5b
-	const GASTLY     ; 5c gastly
+	const FLUFFRUIT     ; 5c gastly
 	const SCRUFFRUIT    ; 5d
 	const PITAYRANT     ; 5e
 	const ONIX       ; 5f
@@ -137,7 +137,7 @@
 	const HORSEA     ; 74
 	const SEADRA     ; 75
 	const GOOSAPLING    ; 76
-	const SEAKING    ; 77
+	const GANZERKER    ; 77
 	const STARYU     ; 78
 	const STARMIE    ; 79
 	const MR__MIME   ; 7a
@@ -185,9 +185,9 @@ JOHTO_POKEMON EQU const_value
 	const HOOTHOOT   ; a3
 	const NOCTOWL    ; a4
 	const WORMEEK    ; a5 ledyba
-	const LEDIAN     ; a6
+	const WORMACHO     ; a6
 	const GWUBBY     ; a7
-	const ARIADOS    ; a8
+	const GRUBBOID    ; a8
 	const CROBAT     ; a9
 	const CHINCHOU   ; aa
 	const LANTURN    ; ab
@@ -195,7 +195,7 @@ JOHTO_POKEMON EQU const_value
 	const CLEFFA     ; ad
 	const IGGLYBUFF  ; ae
 	const TRANQUIEL     ; af
-	const TOGETIC    ; b0
+	const ALLSEERAPH    ; b0
 	const NATU       ; b1
 	const XATU       ; b2
 	const MAREEP     ; b3

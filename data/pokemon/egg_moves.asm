@@ -130,7 +130,7 @@ ZubatEggMoves:
 	db WHIRLWIND
 	db -1 ; end
 
-OddishEggMoves:
+EukubEggMoves:
 	db SWORDS_DANCE
 	db RAZOR_LEAF
 	db FLAIL
@@ -293,7 +293,7 @@ ShellderEggMoves:
 	db SCREECH
 	db -1 ; end
 
-GastlyEggMoves:
+FluffruitEggMoves:
 	db HAZE
 	db DRAGONBREATH
 	db POISONPOWDER

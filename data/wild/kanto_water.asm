@@ -7,8 +7,8 @@ KantoWaterWildMons:
 	db 4 percent ; encounter rate
 	db 20, GOOSAPLING
 	db 20, SLOWPOKE
-	db 20, SEAKING
-	db 25, SEAKING
+	db 20, GANZERKER
+	db 25, GANZERKER
 
 	map_id VERMILION_PORT
 	db 2 percent ; encounter rate
@@ -21,8 +21,8 @@ KantoWaterWildMons:
 	db 4 percent ; encounter rate
 	db 10, GOOSAPLING
 	db 5, GOOSAPLING
-	db 10, SEAKING
-	db 20, SEAKING
+	db 10, GANZERKER
+	db 20, GANZERKER
 
 	map_id ROUTE_6
 	db 2 percent ; encounter rate
@@ -35,15 +35,15 @@ KantoWaterWildMons:
 	db 4 percent ; encounter rate
 	db 15, GOOSAPLING
 	db 10, GOOSAPLING
-	db 15, SEAKING
-	db 20, SEAKING
+	db 15, GANZERKER
+	db 20, GANZERKER
 
 	map_id ROUTE_10_NORTH
 	db 4 percent ; encounter rate
 	db 15, GOOSAPLING
 	db 10, GOOSAPLING
-	db 15, SEAKING
-	db 20, SEAKING
+	db 15, GANZERKER
+	db 20, GANZERKER
 
 	map_id ROUTE_12
 	db 6 percent ; encounter rate
@@ -91,15 +91,15 @@ KantoWaterWildMons:
 	db 4 percent ; encounter rate
 	db 10, GOOSAPLING
 	db 5, GOOSAPLING
-	db 10, SEAKING
-	db 15, SEAKING
+	db 10, GANZERKER
+	db 15, GANZERKER
 
 	map_id ROUTE_25
 	db 4 percent ; encounter rate
 	db 10, GOOSAPLING
 	db 5, GOOSAPLING
-	db 10, SEAKING
-	db 15, SEAKING
+	db 10, GANZERKER
+	db 15, GANZERKER
 
 	map_id ROUTE_26
 	db 6 percent ; encounter rate
@@ -140,8 +140,8 @@ KantoWaterWildMons:
 	db 4 percent ; encounter rate
 	db 10, GOOSAPLING
 	db 5, GOOSAPLING
-	db 10, SEAKING
-	db 15, SEAKING
+	db 10, GANZERKER
+	db 15, GANZERKER
 
 	map_id VERMILION_CITY
 	db 6 percent ; encounter rate

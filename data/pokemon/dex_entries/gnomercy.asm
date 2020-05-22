@@ -1,5 +1,5 @@
 	db "TURFTHIEF@" ; species name
-	dw 207, 2587 ; height, weight
+	dw 307, 25187 ; height, weight
 
 	db   "No longer content"
 	next "with decorations,"

@@ -10,15 +10,15 @@ EvosAttacksPointers::
 	dw SquirtleEvosAttacks
 	dw WartortleEvosAttacks
 	dw BlastoiseEvosAttacks
-	dw CaterpieEvosAttacks
-	dw MetapodEvosAttacks
-	dw ButterfreeEvosAttacks
+	dw BuzzlingEvosAttacks
+	dw HivemaimEvosAttacks
+	dw VazzinateEvosAttacks
 	dw HoatotEvosAttacks     ;weedle
 	dw HoatoxicEvosAttacks
 	dw NoxromaeusEvosAttacks
 	dw FurnitEvosAttacks     ;pidgey
-	dw FurbodaEvosAttacks
-	dw PidgeotEvosAttacks
+	dw FurdobaEvosAttacks
+	dw HornampaEvosAttacks
 	dw NomsterEvosAttacks     ;orig rattata
 	dw NomsabreEvosAttacks   ;orig raticate
 	dw QwailEvosAttacks		;spearow
@@ -43,9 +43,9 @@ EvosAttacksPointers::
 	dw WigglytuffEvosAttacks
 	dw ZubatEvosAttacks
 	dw GolbatEvosAttacks
-	dw OddishEvosAttacks
-	dw GloomEvosAttacks
-	dw VileplumeEvosAttacks
+	dw EukubEvosAttacks
+	dw KoaganEvosAttacks
+	dw PocalyptusEvosAttacks
 	dw ParasEvosAttacks
 	dw ParasectEvosAttacks
 	dw VenonatEvosAttacks
@@ -70,13 +70,13 @@ EvosAttacksPointers::
 	dw MachokeEvosAttacks
 	dw MachampEvosAttacks
 	dw LawnieEvosAttacks
-	dw WeepinbellEvosAttacks
+	dw OrgnomeEvosAttacks
 	dw GnomercyEvosAttacks
 	dw TentacoolEvosAttacks
 	dw TentacruelEvosAttacks
 	dw DolmiteEvosAttacks
-	dw GravelerEvosAttacks
-	dw GolemEvosAttacks
+	dw DolmesaEvosAttacks
+	dw CairnivoreEvosAttacks
 	dw PonytaEvosAttacks
 	dw RapidashEvosAttacks
 	dw SlowpokeEvosAttacks
@@ -92,7 +92,7 @@ EvosAttacksPointers::
 	dw MukEvosAttacks
 	dw ShellderEvosAttacks
 	dw CloysterEvosAttacks
-	dw GastlyEvosAttacks
+	dw FluffruitEvosAttacks
 	dw ScruffruitEvosAttacks
 	dw PitayrantEvosAttacks
 	dw OnixEvosAttacks
@@ -119,7 +119,7 @@ EvosAttacksPointers::
 	dw HorseaEvosAttacks
 	dw SeadraEvosAttacks
 	dw GoosaplingEvosAttacks
-	dw SeakingEvosAttacks
+	dw GanzerkerEvosAttacks
 	dw StaryuEvosAttacks
 	dw StarmieEvosAttacks
 	dw MrMimeEvosAttacks
@@ -166,9 +166,9 @@ EvosAttacksPointers::
 	dw HoothootEvosAttacks
 	dw NoctowlEvosAttacks
 	dw WormeekEvosAttacks
-	dw LedianEvosAttacks
+	dw WormachoEvosAttacks
 	dw GwubbyEvosAttacks
-	dw AriadosEvosAttacks
+	dw GrubboidEvosAttacks
 	dw CrobatEvosAttacks
 	dw ChinchouEvosAttacks
 	dw LanturnEvosAttacks
@@ -176,7 +176,7 @@ EvosAttacksPointers::
 	dw CleffaEvosAttacks
 	dw IgglybuffEvosAttacks
 	dw TranquielEvosAttacks
-	dw TogeticEvosAttacks
+	dw AllseeraphEvosAttacks
 	dw NatuEvosAttacks
 	dw XatuEvosAttacks
 	dw MareepEvosAttacks

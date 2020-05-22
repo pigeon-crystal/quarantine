@@ -1,13 +1,13 @@
 	db WORMEEK ;
 
-	db  46,  40,  50,  29, 24,  53
+	db  46,  47,  54,  29, 24,  50
 	;   hp  atk  def  spd  sat  sdf
 
 	db GROUND, BUG ; type
 	db 242 ; catch rate
 	db 50 ; base exp
 	db NO_ITEM, BRIGHTPOWDER ; items
-	db GENDER_F50 ; gender ratio
+	db GENDER_F25 ; gender ratio
 	db 100 ; unknown 1
 	db 20 ; step cycles to hatch
 	db 5 ; unknown 2
@@ -17,5 +17,5 @@
 	dn EGG_BUG, EGG_BUG ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm HEADBUTT, CURSE, TOXIC, HIDDEN_POWER, PROTECT, GIGA_DRAIN, ENDURE, FRUSTRATION, EARTHQUAKE, RETURN, DIG, MUD_SLAP, SWAGGER, SANDSTORM, DEFENSE_CURL, DETECT, REST, ATTRACT
 	; end

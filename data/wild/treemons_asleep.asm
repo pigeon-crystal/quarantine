@@ -1,9 +1,9 @@
 ; Used by CheckSleepingTreeMon
 
 AsleepTreeMonsNite:
-	db CATERPIE
-	db METAPOD
-	db BUTTERFREE
+	db BUZZLING
+	db HIVEMAIM
+	db VAZZINATE
 	db HOATOT
 	db HOATOXIC
 	db NOXROMAEUS

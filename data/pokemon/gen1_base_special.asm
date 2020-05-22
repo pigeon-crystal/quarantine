@@ -10,15 +10,15 @@ KantoMonSpecials:
 	db  50 ; SQUIRTLE
 	db  65 ; WARTORTLE
 	db  85 ; BLASTOISE
-	db  20 ; CATERPIE
-	db  25 ; METAPOD
-	db  80 ; BUTTERFREE
+	db  20 ; BUZZLING
+	db  25 ; HIVEMAIM
+	db  80 ; VAZZINATE
 	db  20 ; HOATOT
 	db  25 ; HOATOXIC
 	db  45 ; BEEDRILL
 	db  35 ; PIDGEY
-	db  50 ; FURBODA
-	db  70 ; PIDGEOT
+	db  50 ; FURDOBA
+	db  70 ; HORNAMPA
 	db  25 ; RATTATA
 	db  50 ; NOMSABRE
 	db  31 ; SPEAROW
@@ -43,9 +43,9 @@ KantoMonSpecials:
 	db  50 ; WIGGLYTUFF
 	db  40 ; ZUBAT
 	db  75 ; GOLBAT
-	db  75 ; ODDISH
-	db  85 ; GLOOM
-	db 100 ; VILEPLUME
+	db  75 ; EUKUB
+	db  85 ; KOAGAN
+	db 100 ; POCALYPTUS
 	db  55 ; PARAS
 	db  80 ; PARASECT
 	db  40 ; VENONAT
@@ -70,13 +70,13 @@ KantoMonSpecials:
 	db  50 ; MACHOKE
 	db  65 ; MACHAMP
 	db  70 ; BELLSPROUT
-	db  85 ; WEEPINBELL
+	db  85 ; ORGNOME
 	db 100 ; GNOMERCY
 	db 100 ; TENTACOOL
 	db 120 ; TENTACRUEL
 	db  30 ; GEODUDE
-	db  45 ; GRAVELER
-	db  55 ; GOLEM
+	db  45 ; DOLMESA
+	db  55 ; CAIRNIVORE
 	db  65 ; PONYTA
 	db  80 ; RAPIDASH
 	db  40 ; SLOWPOKE
@@ -92,7 +92,7 @@ KantoMonSpecials:
 	db  65 ; MUK
 	db  45 ; SHELLDER
 	db  85 ; CLOYSTER
-	db 100 ; GASTLY
+	db 100 ; FLUFFRUIT
 	db 115 ; SCRUFFRUIT
 	db 130 ; PITAYRANT
 	db  30 ; ONIX
@@ -119,7 +119,7 @@ KantoMonSpecials:
 	db  70 ; HORSEA
 	db  95 ; SEADRA
 	db  50 ; GOOSAPLING
-	db  80 ; SEAKING
+	db  80 ; GANZERKER
 	db  70 ; STARYU
 	db 100 ; STARMIE
 	db 100 ; MR__MIME

@@ -5,10 +5,10 @@ AlphabeticalPokedexOrder:
 	db AERODACTYL
 	db AIPOM
 	db ALAKAZAM
+	db ALLSEERAPH
 	db AMPHAROS
 	db ARBOK
 	db ARCANINE
-	db ARIADOS
 	db ARTICUNO
 	db ATTACKO
 	db AZUMARILL
@@ -16,8 +16,8 @@ AlphabeticalPokedexOrder:
 	db BLASTOISE
 	db BLISSEY
 	db BULBASAUR
-	db BUTTERFREE
-	db CATERPIE
+	db BUZZLING
+	db CAIRNIVORE
 	db CELEBI
 	db CHANSEY
 	db CHARIZARD
@@ -38,6 +38,7 @@ AlphabeticalPokedexOrder:
 	db DITTO
 	db DODRIO
 	db DODUO
+	db DOLMESA
 	db DOLMITE
 	db DONPHAN
 	db DRAGONAIR
@@ -52,42 +53,42 @@ AlphabeticalPokedexOrder:
 	db ELEKID
 	db ENTEI
 	db ESPEON
+	db EUKUB
 	db EXEGGCUTE
 	db EXEGGUTOR
 	db FARFETCH_D
 	db FLAAFFY
 	db FLAREON
+	db FLUFFRUIT
 	db FORRETRESS
-	db FURBODA
+	db FURDOBA
 	db FURNIT
 	db FURRET
 	db FURSA
-	db GASTLY
-	db PITAYRANT
+	db GANZERKER
 	db GIRAFARIG
 	db GLIGAR
-	db GLOOM
 	db GNOMERCY
 	db GOLBAT
 	db GOLDUCK
-	db GOLEM
 	db GOOSAPLING
 	db GRANBULL
-	db GRAVELER
 	db GRIMER
 	db GROWLITHE
+	db GRUBBOID
 	db GWUBBY
 	db GYARADOS
-	db SCRUFFRUIT
 	db HERACROSS
 	db HITMONCHAN
 	db HITMONLEE
 	db HITMONTOP
+	db HIVEMAIM
 	db HOATOT
 	db HOATOXIC
 	db HO_OH
 	db HOOTHOOT
 	db HOPPIP
+	db HORNAMPA
 	db HORSEA
 	db HOUNDOOM
 	db HOUNDOUR
@@ -104,13 +105,13 @@ AlphabeticalPokedexOrder:
 	db KANGASKHAN
 	db KINGDRA
 	db KINGLER
+	db KOAGAN
 	db KOFFING
 	db KRABBY
 	db LANTURN
 	db LAPRAS
 	db LARVITAR
 	db LAWNIE
-	db LEDIAN
 	db LICKITUNG
 	db LUGIA
 	db MACHAMP
@@ -128,7 +129,6 @@ AlphabeticalPokedexOrder:
 	db MARILL
 	db MAROWAK
 	db MEOWTH
-	db METAPOD
 	db MEW
 	db MEWTWO
 	db MILTANK
@@ -152,7 +152,6 @@ AlphabeticalPokedexOrder:
 	db NOMSTER
 	db NOXROMAEUS
 	db OCTILLERY
-	db ODDISH
 	db OKAMIKAZE
 	db OMANYTE
 	db OMASTAR
@@ -162,12 +161,13 @@ AlphabeticalPokedexOrder:
 	db PERSIAN
 	db PHANPY
 	db PICHU
-	db PIDGEOT
 	db PIKACHU
 	db PILFOARD
 	db PILOSWINE
 	db PINECO
 	db PINSIR
+	db PITAYRANT
+	db POCALYPTUS
 	db POLITOED
 	db POLIWAG
 	db POLIWHIRL
@@ -194,9 +194,9 @@ AlphabeticalPokedexOrder:
 	db SCAULTER
 	db SCIZOR
 	db SCORCHOPPR
+	db SCRUFFRUIT
 	db SCYTHER
 	db SEADRA
-	db SEAKING
 	db SEEL
 	db SENTRET
 	db SHELLDER
@@ -227,7 +227,6 @@ AlphabeticalPokedexOrder:
 	db TENTACOOL
 	db TENTACRUEL
 	db TOBACOON
-	db TOGETIC
 	db TRANQUIEL
 	db TYRANITAR
 	db TYROGUE
@@ -236,18 +235,19 @@ AlphabeticalPokedexOrder:
 	db URSKIMO
 	db URSARING
 	db VAPOREON
+	db VAZZINATE
 	db VENOMOTH
 	db VENONAT
 	db VENUSAUR
-	db VILEPLUME
 	db VOLTORB
 	db VULPIX
 	db WARTORTLE
-	db WEEPINBELL
+	db ORGNOME
 	db WEEZING
 	db WIGGLYTUFF
 	db WOBBUFFET
 	db WOOPER
+	db WORMACHO
 	db WORMEEK
 	db XATU
 	db YANMA
