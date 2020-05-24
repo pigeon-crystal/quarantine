@@ -252,4 +252,4 @@ MoveNames::
 	db "BEAT UP@"
 	db "SHEKELSHOT@"
 	db "MOONBLAST@"
-	db "ICE_SHARD@"
+	db "ICE SHARD@"

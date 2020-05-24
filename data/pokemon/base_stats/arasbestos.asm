@@ -1,11 +1,11 @@
 	db ARASBESTOS ; 063
 
-	db  59,  80,  104,  57, 50,  107
+	db  59,  80,  104,  57, 52,  107
 	;   hp  atk  def  spd  sat  sdf
 
 	db POISON, ROCK ; type
 	db 109 ; catch rate
-	db 100 ; base exp
+	db 95 ; base exp
 	db POISON_BARB, BERRY ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

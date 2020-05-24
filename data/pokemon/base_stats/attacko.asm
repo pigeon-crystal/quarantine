@@ -1,4 +1,4 @@
-	db ATTACKO ; 206
+	db  ATTACKO ; 206
 
 	db 71,  75,  71,  99,  61,  71
 	;   hp  atk  def  spd  sat  sdf

@@ -12,7 +12,7 @@ JohtoGrassWildMons:
 	db 6, LAWNIE
 	db 7, LAWNIE
 	db 7, LAWNIE
-	db 7, LAWNIE
+	db 7, FLUFFRUIT
 	db 7, LAWNIE
 	; day
 	db 6, NOMSTER
@@ -21,7 +21,7 @@ JohtoGrassWildMons:
 	db 6, LAWNIE
 	db 6, LAWNIE
 	db 6, LAWNIE
-	db 7, LAWNIE
+	db 7, FLUFFRUIT
 	db 7, LAWNIE
 	; nite
 	db 6, LAWNIE
@@ -1285,8 +1285,8 @@ JohtoGrassWildMons:
 	db 6, ARASBESTOS
 	; nite
 	db 4, DOLMITE
-	db 4, DOLMITE
 	db 4, FLUFFRUIT
+	db 4, DOLMITE
 	db 4, FLUFFRUIT
 	db 6, ATTACKO
 	db 6, ATTACKO
@@ -1346,12 +1346,12 @@ JohtoGrassWildMons:
 	; nite
 	db 2, WORMEEK
 	db 3, NOMSTER
-	db 3, HOATOT
+	db 3, FURNIT
 	db 3, HOATOT
 	db 3, NOMSTER
 	db 3, WORMEEK
 	db 3, LAWNIE
-	db 5, LAWNIE
+	db 5, FURNIT
 
 	map_id ROUTE_30 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1379,7 +1379,7 @@ JohtoGrassWildMons:
 	db 4, LAWNIE
 	db 4, GWUBBY
 	db 3, LAWNIE
-	db 4, LAWNIE
+	db 4, FURNIT
 	db 4, QWAIL
 	db 5, QWAIL
 
@@ -1408,7 +1408,7 @@ JohtoGrassWildMons:
 	db 4, FLUFFRUIT
 	db 5, LAWNIE
 	db 6, GWUBBY
-	db 5, QWAIL
+	db 5, FURNIT
 	db 5, LAWNIE
 	db 6, FLUFFRUIT
 	db 6, GWUBBY
@@ -1558,7 +1558,7 @@ JohtoGrassWildMons:
 	db 5, EUKUB
 	db 5, EUKUB
 	db 5, FLUFFRUIT
-	db 5, GWUBBY
+	db 5, FURNIT
 	db 5, EUKUB
 	db 5, FLUFFRUIT
 	db 7, GWUBBY

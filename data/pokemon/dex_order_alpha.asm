@@ -7,6 +7,7 @@ AlphabeticalPokedexOrder:
 	db ALAKAZAM
 	db ALLSEERAPH
 	db AMPHAROS
+	db ARASBESTOS
 	db ARBOK
 	db ARCANINE
 	db ARTICUNO
@@ -18,6 +19,7 @@ AlphabeticalPokedexOrder:
 	db BULBASAUR
 	db BUZZLING
 	db CAIRNIVORE
+	db CADDISICLE
 	db CELEBI
 	db CHANSEY
 	db CHARIZARD
@@ -33,7 +35,6 @@ AlphabeticalPokedexOrder:
 	db CROBAT
 	db CUBONE
 	db DELIBIRD
-	db JADDICE
 	db DIGLETT
 	db DITTO
 	db DODRIO
@@ -95,6 +96,7 @@ AlphabeticalPokedexOrder:
 	db HYPNO
 	db IGGLYBUFF
 	db IVYSAUR
+	db JADDICE
 	db JIGGLYPUFF
 	db JOLTEON
 	db JUMPLUFF
@@ -197,7 +199,6 @@ AlphabeticalPokedexOrder:
 	db SCRUFFRUIT
 	db SCYTHER
 	db SEADRA
-	db CADDISICLE
 	db SENTRET
 	db SHELLDER
 	db SHUCKLE
@@ -250,6 +251,5 @@ AlphabeticalPokedexOrder:
 	db WORMACHO
 	db WORMEEK
 	db XATU
-	db ARASBESTOS
 	db ZAPDOS
 	db ZUBAT
