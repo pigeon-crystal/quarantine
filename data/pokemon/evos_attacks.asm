@@ -186,11 +186,14 @@ HivemaimEvosAttacks:
 	db 1, STRING_SHOT
 	db 5, TACKLE
 	db 10, HARDEN
+	db 12, CONSTRICT
 	db 15, DISABLE
 	db 20, PURSUIT
 	db 25, CURSE
 	db 30, POISON_JAB
 	db 35, LEECH_LIFE
+	db 42, RECOVER
+	db 45, X_SCISSOR
 	db 0 ; no more level-up moves
 
 VazzinateEvosAttacks:
@@ -202,7 +205,7 @@ VazzinateEvosAttacks:
 	db 15, DISABLE
 	db 20, PURSUIT
 	db 25, CURSE
-	db 30, POISON_JAB
+	db 34, POISON_JAB
 	db 35, LEECH_LIFE
 	db 40, GRIMNEEDLE
 	db 42, NASTY_PLOT
@@ -2796,6 +2799,7 @@ ArasbestosEvosAttacks:
 	db 1, HARDEN
 	db 1, POISON_STING
 	db 7, SAND_ATTACK
+	db 9, CONSTRICT
 	db 11, ROCK_THROW
 	db 15, POISONPOWDER
 	db 18, SCARY_FACE

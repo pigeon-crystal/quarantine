@@ -1273,7 +1273,7 @@ JohtoGrassWildMons:
 	db 6, ATTACKO
 	db 6, FLUFFRUIT
 	db 6, ARASBESTOS
-	db 7, ARASBESTOS
+	db 7, ATTACKO
 	; day
 	db 4, DOLMITE
 	db 4, FLUFFRUIT
@@ -1282,7 +1282,7 @@ JohtoGrassWildMons:
 	db 6, ATTACKO
 	db 6, FLUFFRUIT
 	db 7, ARASBESTOS
-	db 6, ARASBESTOS
+	db 6, ATTACKO
 	; nite
 	db 4, DOLMITE
 	db 4, FLUFFRUIT
@@ -1291,7 +1291,7 @@ JohtoGrassWildMons:
 	db 6, ATTACKO
 	db 6, ATTACKO
 	db 6, ARASBESTOS
-	db 7, ARASBESTOS
+	db 7, ATTACKO
 
 	map_id DARK_CAVE_BLACKTHORN_ENTRANCE ;done
 	db 5 percent, 5 percent, 5 percent ; encounter rates: morn/day/nite
@@ -1300,28 +1300,28 @@ JohtoGrassWildMons:
 	db 23, ZUBAT
 	db 25, DOLMESA
 	db 25, URSARING
-	db 20, TEDDIURSA
+	db 20, ARASBESTOS
 	db 23, GOLBAT
 	db 23, GOLBAT
-	db 25, GOLBAT
+	db 25, ARASBESTOS
 	; day
 	db 23, DOLMITE
 	db 23, ZUBAT
 	db 25, DOLMESA
 	db 25, URSARING
-	db 30, URSARING
+	db 30, ARASBESTOS
 	db 23, GOLBAT
 	db 23, GOLBAT
-	db 25, GOLBAT
+	db 25, ARASBESTOS
 	; nite
 	db 23, DOLMITE
 	db 23, ZUBAT
 	db 25, DOLMESA
 	db 20, WOBBUFFET
-	db 25, WOBBUFFET
+	db 25, ARASBESTOS
 	db 23, GOLBAT
 	db 23, GOLBAT
-	db 25, GOLBAT
+	db 25, ARASBESTOS
 
 	map_id ROUTE_29 ;done
 	db 11 percent, 11 percent, 11 percent ; encounter rates: morn/day/nite
