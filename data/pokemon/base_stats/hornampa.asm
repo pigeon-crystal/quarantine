@@ -4,8 +4,8 @@
 	;   hp  atk   def  spd  sat  sdf
 
 	db GROUND, FLYING ; type
-	db 120 ; catch rate
-	db 122 ; base exp
+	db 50 ; catch rate
+	db 210 ; base exp
 	db NO_ITEM, GOLD_BERRY ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

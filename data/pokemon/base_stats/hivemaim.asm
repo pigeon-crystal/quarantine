@@ -1,6 +1,6 @@
 	db HIVEMAIM ; 011
 
-	db  54,  66,  57,  20,  39,  65
+	db  54,  70,  57,  30,  40,  65
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, BUG ; type

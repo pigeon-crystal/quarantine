@@ -1,6 +1,6 @@
 	db WORMEEK ;
 
-	db  46,  47,  54,  29, 24,  50
+	db  46,  54,  54,  29, 25,  50
 	;   hp  atk  def  spd  sat  sdf
 
 	db GROUND, BUG ; type

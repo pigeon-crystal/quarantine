@@ -1,6 +1,6 @@
 	db DOLMESA ;
 	
-	db  66,  71,  116, 24, 39,  64
+	db  73,  73,  116, 24, 39,  65
 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, ROCK ; type

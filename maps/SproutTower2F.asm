@@ -37,14 +37,14 @@ SproutTower2FXAccuracy:
 	itemball X_ACCURACY
 
 SageNicoSeenText:
-	text "However hard we"
-	line "battle, the TOWER"
-	cont "will stand strong."
+	text "Welcome, youth!"
+	line "Welcome to the"
+	cont "real SPROUT TOWER!"
 	done
 
 SageNicoBeatenText:
-	text "I fought hard but"
-	line "I'm too weak."
+	text "I fought hard, but"
+	line "you fought harder!"
 	done
 
 SageNicoAfterBattleText:
@@ -56,12 +56,15 @@ SageNicoAfterBattleText:
 	done
 
 SageEdmondSeenText:
-	text "…Sway like leaves"
-	line "in the wind…"
+	text "Precept of LAWNIE"
+	line "number 10:"
+	
+	para "Strike strong,"
+	line "strike true!"
 	done
 
 SageEdmondBeatenText:
-	text "Oh, I'm weak!"
+	text "Not strong enough?"
 	done
 
 SageEdmondAfterBattleText:

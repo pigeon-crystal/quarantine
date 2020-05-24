@@ -90,8 +90,8 @@ PokemonCries::
 	mon_cry CRY_SPEAROW,     221,  129 ; FARFETCH_D
 	mon_cry CRY_DIGLETT,     187,  129 ; DODUO
 	mon_cry CRY_DIGLETT,     153,  160 ; DODRIO
-	mon_cry CRY_SEEL,        136,  320 ; SEEL
-	mon_cry CRY_SEEL,         35,  383 ; DEWGONG
+	mon_cry CRY_TOTODILE,    -50,  123 ; CADDISICLE
+	mon_cry CRY_TOTODILE,    100,  200 ; JADDICE
 	mon_cry CRY_GRIMER,        0,  256 ; GRIMER
 	mon_cry CRY_MUK,         239,  383 ; MUK
 	mon_cry CRY_FEAROW,        0,  256 ; SHELLDER
@@ -197,7 +197,7 @@ PokemonCries::
 	mon_cry CRY_AIPOM,       -81,  232 ; AIPOM
 	mon_cry CRY_MARILL,      299,  184 ; SUNKERN
 	mon_cry CRY_SUNFLORA,    -32,  384 ; SUNFLORA
-	mon_cry CRY_TOTODILE,     49,  200 ; YANMA
+	mon_cry CRY_VENONAT,     -49,  304 ; ARASBESTOS
 	mon_cry CRY_WOOPER,      147,  175 ; WOOPER
 	mon_cry CRY_WOOPER,     -198,  320 ; QUAGSIRE
 	mon_cry CRY_AIPOM,       162,  320 ; ESPEON

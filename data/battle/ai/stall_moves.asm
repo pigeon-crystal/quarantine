@@ -27,7 +27,6 @@ StallMoves:
 	db NASTY_PLOT
 	db AMNESIA
 	db TRANSFORM
-	db SPLASH
 	db WILL_O_WISP
 	db SHARPEN
 	db CONVERSION

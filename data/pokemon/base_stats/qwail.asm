@@ -1,6 +1,6 @@
     db QWAIL ; basically it's fearow
  
-    db 41,  66,  38,   54,  25,  26
+    db 41,  68,  40,   54,  25,  30
     ;   hp  atk  def  spd  sat  sdf
  
     db NORMAL, FLYING ; type

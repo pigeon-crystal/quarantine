@@ -1,6 +1,6 @@
 	db NOMSABRE ; 020
 
-	db  115, 91,  81, 45,  37,  81
+	db  115, 93,  95, 40,  30,  75
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type

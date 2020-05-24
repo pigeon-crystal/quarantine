@@ -86,8 +86,8 @@ MonMenuIcons:
 	db ICON_BIRD        ; FARFETCH_D
 	db ICON_BIRD        ; DODUO
 	db ICON_BIRD        ; DODRIO
-	db ICON_LAPRAS      ; SEEL
-	db ICON_LAPRAS      ; DEWGONG
+	db ICON_CATERPILLAR ; CADDISICLE
+	db ICON_BUG         ; JADDICE
 	db ICON_BLOB        ; GRIMER
 	db ICON_BLOB        ; MUK
 	db ICON_SHELL       ; SHELLDER
@@ -193,7 +193,7 @@ MonMenuIcons:
 	db ICON_MONSTER     ; AIPOM
 	db ICON_ODDISH      ; SUNKERN
 	db ICON_ODDISH      ; SUNFLORA
-	db ICON_BUG         ; YANMA
+	db ICON_BUG         ; ARASBESTOS
 	db ICON_MONSTER     ; WOOPER
 	db ICON_MONSTER     ; QUAGSIRE
 	db ICON_FOX         ; ESPEON

@@ -149,7 +149,7 @@ MoveDescriptions::
 	dw SporeDescription
 	dw FlashDescription
 	dw PsywaveDescription
-	dw SplashDescription
+	dw IcicleCrashDescription
 	dw WillOWispDescription
 	dw CrabhammerDescription
 	dw ExplosionDescription
@@ -175,7 +175,7 @@ MoveDescriptions::
 	dw SnoreDescription
 	dw CurseDescription
 	dw FlailDescription
-	dw Conversion2Description
+	dw GrimneedleDescription
 	dw FrostbiteDescription
 	dw CottonSporeDescription
 	dw FocusBlastDescription
@@ -754,8 +754,8 @@ SmogDescription:
 	next "poison the foe.@"
 
 ZenHeadbuttDescription:
-	db   "An odd headbutt"
-	next "may flinch.@"
+	db   "An odd headbutt."
+	next "May flinch.@"
 
 EarthPowerDescription:
 	db   "An attack that may"
@@ -857,9 +857,9 @@ PsywaveDescription:
 	db   "An attack with"
 	next "variable power.@"
 
-SplashDescription:
-	db   "Has no effect"
-	next "whatsoever.@"
+IcicleCrashDescription:
+	db   "An attack that may"
+	next "cause flinching.@"
 
 WillOWispDescription:
 	db   "Burns with a"
@@ -961,9 +961,9 @@ FlailDescription:
 	db   "Stronger if the"
 	next "user's HP is low.@"
 
-Conversion2Description:
-	db   "The user's type is"
-	next "made resistant.@"
+GrimneedleDescription:
+	db   "May paralyze. High"
+	next "critical hit ratio@"
 
 FrostbiteDescription:
 	db   "May slow foe. High"

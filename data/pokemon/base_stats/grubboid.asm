@@ -1,9 +1,9 @@
 	db GRUBBOID ; 
 
-	db   66, 40, 66,  35,  27,  66
-	;   hp  atk  def  spd  sat  sdf
+	db   103, 101, 103,  45,  103,  45
+	;   hp   atk   def   spd  sat  sdf
 
-	db BUG, BUG ; type
+	db BUG, DARK ; type
 	db 86 ; catch rate
 	db 166 ; base exp
 	db NO_ITEM, MIRACLEBERRY ; items

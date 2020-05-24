@@ -6,6 +6,7 @@ CriticalHitMoves:
 	db LEAF_BLADE
 	db CRABHAMMER
 	db SLASH
+	db GRIMNEEDLE
 	db FROSTBITE
 	db SHADOW_CLAW
 	db CROSS_CHOP

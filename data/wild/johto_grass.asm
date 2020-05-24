@@ -9,7 +9,7 @@ JohtoGrassWildMons:
 	db 6, NOMSTER
 	db 6, NOMSTER
 	db 6, NOMSTER
-	db 6, NOMSTER
+	db 6, LAWNIE
 	db 7, LAWNIE
 	db 7, LAWNIE
 	db 7, LAWNIE
@@ -18,7 +18,7 @@ JohtoGrassWildMons:
 	db 6, NOMSTER
 	db 6, NOMSTER
 	db 6, NOMSTER
-	db 6, NOMSTER
+	db 6, LAWNIE
 	db 6, LAWNIE
 	db 6, LAWNIE
 	db 7, LAWNIE
@@ -38,7 +38,7 @@ JohtoGrassWildMons:
 	; morn
 	db 6, NOMSTER
 	db 6, NOMSTER
-	db 7, NOMSTER
+	db 7, FLUFFRUIT
 	db 7, FLUFFRUIT
 	db 7, LAWNIE
 	db 7, LAWNIE
@@ -908,21 +908,21 @@ JohtoGrassWildMons:
 	; morn
 	db 22, KRABBY
 	db 23, ZUBAT
-	db 22, SEEL
+	db 22, CADDISICLE
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
-	db 25, SEEL
+	db 24, CADDISICLE
+	db 24, CADDISICLE
+	db 25, CADDISICLE
 	; day
 	db 22, KRABBY
 	db 23, ZUBAT
-	db 22, SEEL
+	db 22, CADDISICLE
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
-	db 25, SEEL
+	db 24, CADDISICLE
+	db 24, CADDISICLE
+	db 25, CADDISICLE
 	; nite
 	db 22, KRABBY
 	db 23, ZUBAT
@@ -938,21 +938,21 @@ JohtoGrassWildMons:
 	; morn
 	db 22, KRABBY
 	db 23, ZUBAT
-	db 22, SEEL
+	db 22, CADDISICLE
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
-	db 26, SEEL
+	db 24, CADDISICLE
+	db 24, CADDISICLE
+	db 26, CADDISICLE
 	; day
 	db 22, KRABBY
 	db 23, ZUBAT
-	db 22, SEEL
+	db 22, CADDISICLE
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
-	db 26, SEEL
+	db 24, CADDISICLE
+	db 24, CADDISICLE
+	db 26, CADDISICLE
 	; nite
 	db 22, KRABBY
 	db 23, ZUBAT
@@ -968,21 +968,21 @@ JohtoGrassWildMons:
 	; morn
 	db 22, KRABBY
 	db 23, ZUBAT
-	db 22, SEEL
+	db 22, CADDISICLE
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
-	db 26, SEEL
+	db 24, CADDISICLE
+	db 24, CADDISICLE
+	db 26, CADDISICLE
 	; day
 	db 22, KRABBY
 	db 23, ZUBAT
-	db 22, SEEL
+	db 22, CADDISICLE
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
-	db 26, SEEL
+	db 24, CADDISICLE
+	db 24, CADDISICLE
+	db 26, CADDISICLE
 	; nite
 	db 22, KRABBY
 	db 23, ZUBAT
@@ -998,21 +998,21 @@ JohtoGrassWildMons:
 	; morn
 	db 22, KRABBY
 	db 23, ZUBAT
-	db 22, SEEL
+	db 22, CADDISICLE
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
-	db 26, SEEL
+	db 24, CADDISICLE
+	db 24, CADDISICLE
+	db 26, CADDISICLE
 	; day
 	db 22, KRABBY
 	db 23, ZUBAT
-	db 22, SEEL
+	db 22, CADDISICLE
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
-	db 26, SEEL
+	db 24, CADDISICLE
+	db 24, CADDISICLE
+	db 26, CADDISICLE
 	; nite
 	db 22, KRABBY
 	db 23, ZUBAT
@@ -1028,21 +1028,21 @@ JohtoGrassWildMons:
 	; morn
 	db 22, KRABBY
 	db 23, ZUBAT
-	db 22, SEEL
+	db 22, CADDISICLE
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
-	db 26, SEEL
+	db 24, CADDISICLE
+	db 24, CADDISICLE
+	db 26, CADDISICLE
 	; day
 	db 22, KRABBY
 	db 23, ZUBAT
-	db 22, SEEL
+	db 22, CADDISICLE
 	db 24, KRABBY
 	db 25, GOLBAT
-	db 24, SEEL
-	db 24, SEEL
-	db 26, SEEL
+	db 24, CADDISICLE
+	db 24, CADDISICLE
+	db 26, CADDISICLE
 	; nite
 	db 22, KRABBY
 	db 23, ZUBAT
@@ -1058,21 +1058,21 @@ JohtoGrassWildMons:
 	; morn
 	db 23, KRABBY
 	db 24, ZUBAT
-	db 23, SEEL
+	db 23, CADDISICLE
 	db 25, KRABBY
 	db 26, GOLBAT
-	db 25, SEEL
-	db 25, SEEL
-	db 26, SEEL
+	db 25, CADDISICLE
+	db 25, CADDISICLE
+	db 26, CADDISICLE
 	; day
 	db 23, KRABBY
 	db 24, ZUBAT
-	db 23, SEEL
+	db 23, CADDISICLE
 	db 25, KRABBY
 	db 26, GOLBAT
-	db 25, SEEL
-	db 25, SEEL
-	db 26, SEEL
+	db 25, CADDISICLE
+	db 25, CADDISICLE
+	db 26, CADDISICLE
 	; nite
 	db 23, KRABBY
 	db 24, ZUBAT
@@ -1088,21 +1088,21 @@ JohtoGrassWildMons:
 	; morn
 	db 24, KRABBY
 	db 25, ZUBAT
-	db 24, SEEL
+	db 24, CADDISICLE
 	db 26, KRABBY
 	db 27, GOLBAT
-	db 26, SEEL
-	db 26, SEEL
-	db 29, SEEL
+	db 26, CADDISICLE
+	db 26, CADDISICLE
+	db 29, CADDISICLE
 	; day
 	db 24, KRABBY
 	db 25, ZUBAT
-	db 24, SEEL
+	db 24, CADDISICLE
 	db 26, KRABBY
 	db 27, GOLBAT
-	db 26, SEEL
-	db 26, SEEL
-	db 29, SEEL
+	db 26, CADDISICLE
+	db 26, CADDISICLE
+	db 29, CADDISICLE
 	; nite
 	db 24, KRABBY
 	db 25, ZUBAT
@@ -1111,28 +1111,28 @@ JohtoGrassWildMons:
 	db 27, GOLBAT
 	db 26, GOLBAT
 	db 26, GOLBAT
-	db 29, SEEL
+	db 29, CADDISICLE
 
 	map_id WHIRL_ISLAND_LUGIA_CHAMBER ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 25, KRABBY
 	db 26, ZUBAT
-	db 25, SEEL
+	db 25, CADDISICLE
 	db 27, KRABBY
 	db 28, GOLBAT
-	db 27, SEEL
-	db 27, SEEL
-	db 29, SEEL
+	db 27, CADDISICLE
+	db 27, CADDISICLE
+	db 29, CADDISICLE
 	; day
 	db 25, KRABBY
 	db 26, ZUBAT
-	db 25, SEEL
+	db 25, CADDISICLE
 	db 27, KRABBY
 	db 28, GOLBAT
-	db 27, SEEL
-	db 27, SEEL
-	db 29, SEEL
+	db 27, CADDISICLE
+	db 27, CADDISICLE
+	db 29, CADDISICLE
 	; nite
 	db 25, KRABBY
 	db 26, ZUBAT
@@ -1270,28 +1270,28 @@ JohtoGrassWildMons:
 	db 4, FLUFFRUIT
 	db 4, DOLMITE
 	db 4, DOLMITE
-	db 3, FLUFFRUIT
 	db 6, ATTACKO
-	db 6, ATTACKO
-	db 6, ATTACKO
+	db 6, FLUFFRUIT
+	db 6, ARASBESTOS
+	db 7, ARASBESTOS
 	; day
 	db 4, DOLMITE
-	db 3, FLUFFRUIT
+	db 4, FLUFFRUIT
 	db 4, DOLMITE
 	db 3, DOLMITE
-	db 4, FLUFFRUIT
 	db 6, ATTACKO
-	db 6, ATTACKO
-	db 6, ATTACKO
+	db 6, FLUFFRUIT
+	db 7, ARASBESTOS
+	db 6, ARASBESTOS
 	; nite
 	db 4, DOLMITE
-	db 3, DOLMITE
+	db 4, DOLMITE
 	db 4, FLUFFRUIT
 	db 4, FLUFFRUIT
 	db 6, ATTACKO
 	db 6, ATTACKO
-	db 6, ATTACKO
-	db 6, ATTACKO
+	db 6, ARASBESTOS
+	db 7, ARASBESTOS
 
 	map_id DARK_CAVE_BLACKTHORN_ENTRANCE ;done
 	db 5 percent, 5 percent, 5 percent ; encounter rates: morn/day/nite
@@ -1360,7 +1360,7 @@ JohtoGrassWildMons:
 	db 3, BUZZLING
 	db 4, BUZZLING
 	db 4, FURNIT
-	db 3, LAWNIE
+	db 3, HOATOT
 	db 4, LAWNIE
 	db 4, LAWNIE
 	db 5, WORMEEK
@@ -1369,10 +1369,10 @@ JohtoGrassWildMons:
 	db 3, BUZZLING
 	db 4, BUZZLING
 	db 4, QWAIL
-	db 3, LAWNIE
+	db 3, HOATOT
 	db 4, LAWNIE
 	db 4, QWAIL
-	db 5, QWAIL
+	db 5, HOATOT
 	; nite
 	db 4, BUZZLING
 	db 3, BUZZLING
@@ -1419,7 +1419,7 @@ JohtoGrassWildMons:
 	db 7, WORMEEK
 	db 7, NOMSTER
 	db 7, NOMSTER
-	db 6, GOOSAPLING
+	db 6, EUKUB
 	db 7, FURNIT
 	db 7, GWUBBY
 	db 7, FURNIT
@@ -1437,7 +1437,7 @@ JohtoGrassWildMons:
 	db 7, GWUBBY
 	db 7, NOMSTER
 	db 7, FLUFFRUIT
-	db 7, GOOSAPLING
+	db 7, EUKUB
 	db 7, GOOSAPLING
 	db 7, FLUFFRUIT
 	db 7, FLUFFRUIT
@@ -1512,8 +1512,8 @@ JohtoGrassWildMons:
 	db 10, ABRA
 	db 12, JIGGLYPUFF
 	db 10, DITTO
-	db 12, YANMA
-	db 13, YANMA
+	db 12, ARASBESTOS
+	db 13, ARASBESTOS
 	; day
 	db 12, SNUBBULL
 	db 14, FURNIT
@@ -1521,8 +1521,8 @@ JohtoGrassWildMons:
 	db 10, ABRA
 	db 12, JIGGLYPUFF
 	db 10, DITTO
-	db 12, YANMA
-	db 13, YANMA
+	db 12, ARASBESTOS
+	db 13, ARASBESTOS
 	; nite
 	db 12, DROWZEE
 	db 14, HOOTHOOT
@@ -1530,36 +1530,36 @@ JohtoGrassWildMons:
 	db 10, ABRA
 	db 12, JIGGLYPUFF
 	db 10, DITTO
-	db 12, YANMA
-	db 13, YANMA
+	db 12, ARASBESTOS
+	db 13, ARASBESTOS
 
 	map_id ROUTE_36 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 4, WORMEEK
-	db 4, FURNIT
-	db 5, LAWNIE
+	db 5, WORMEEK
+	db 5, HOATOT
+	db 5, HOATOT
 	db 5, GOOSAPLING
-	db 5, GWUBBY
-	db 6, GWUBBY
-	db 6, GWUBBY
+	db 5, EUKUB
+	db 6, EUKUB
+	db 6, GOOSAPLING
 	db 7, WORMEEK
 	; day
-	db 4, FURNIT
-	db 4, WORMEEK
+	db 5, FURNIT
+	db 5, WORMEEK
 	db 5, LAWNIE
 	db 5, GOOSAPLING
-	db 5, FURNIT
-	db 6, GWUBBY
-	db 6, GWUBBY
-	db 7, FURNIT
+	db 5, EUKUB
+	db 6, HOATOT
+	db 6, GOOSAPLING
+	db 7, EUKUB
 	; nite
-	db 4, GWUBBY
-	db 4, GWUBBY
-	db 5, LAWNIE
+	db 5, GWUBBY
+	db 5, EUKUB
+	db 5, EUKUB
 	db 5, FLUFFRUIT
 	db 5, GWUBBY
-	db 5, FLUFFRUIT
+	db 5, EUKUB
 	db 5, FLUFFRUIT
 	db 7, GWUBBY
 
@@ -1798,10 +1798,10 @@ JohtoGrassWildMons:
 	db 3, NOMSTER
 	db 3, DOLMITE
 	db 3, QWAIL
+	db 3, QWAIL
 	db 3, NOMSTER
 	db 3, NOMSTER
-	db 3, NOMSTER
-	db 5, DOLMITE
+	db 5, ARASBESTOS
 
 	map_id SILVER_CAVE_OUTSIDE ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

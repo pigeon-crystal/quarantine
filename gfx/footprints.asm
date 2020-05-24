@@ -195,8 +195,8 @@ INCBIN "gfx/footprints/magneton.1bpp",   footprint_top
 INCBIN "gfx/footprints/farfetch_d.1bpp", footprint_top
 INCBIN "gfx/footprints/doduo.1bpp",      footprint_top
 INCBIN "gfx/footprints/dodrio.1bpp",     footprint_top
-INCBIN "gfx/footprints/seel.1bpp",       footprint_top
-INCBIN "gfx/footprints/dewgong.1bpp",    footprint_top
+INCBIN "gfx/footprints/caddisicle.1bpp",       footprint_top
+INCBIN "gfx/footprints/jaddice.1bpp",    footprint_top
 INCBIN "gfx/footprints/grimer.1bpp",     footprint_top
 ; 081-088 bottom halves
 INCBIN "gfx/footprints/magnemite.1bpp",  footprint_bottom
@@ -204,8 +204,8 @@ INCBIN "gfx/footprints/magneton.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/farfetch_d.1bpp", footprint_bottom
 INCBIN "gfx/footprints/doduo.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/dodrio.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/seel.1bpp",       footprint_bottom
-INCBIN "gfx/footprints/dewgong.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/caddisicle.1bpp",       footprint_bottom
+INCBIN "gfx/footprints/jaddice.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/grimer.1bpp",     footprint_bottom
 ; 089-096 top halves
 INCBIN "gfx/footprints/muk.1bpp",        footprint_top
@@ -442,7 +442,7 @@ INCBIN "gfx/footprints/aipom.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/sunkern.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/sunflora.1bpp",   footprint_bottom
 ; 193-200 top halves
-INCBIN "gfx/footprints/yanma.1bpp",      footprint_top
+INCBIN "gfx/footprints/arasbestos.1bpp",      footprint_top
 INCBIN "gfx/footprints/wooper.1bpp",     footprint_top
 INCBIN "gfx/footprints/quagsire.1bpp",   footprint_top
 INCBIN "gfx/footprints/espeon.1bpp",     footprint_top
@@ -451,7 +451,7 @@ INCBIN "gfx/footprints/murkrow.1bpp",    footprint_top
 INCBIN "gfx/footprints/slowking.1bpp",   footprint_top
 INCBIN "gfx/footprints/misdreavus.1bpp", footprint_top
 ; 193-200 bottom halves
-INCBIN "gfx/footprints/yanma.1bpp",      footprint_bottom
+INCBIN "gfx/footprints/arasbestos.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/wooper.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/quagsire.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/espeon.1bpp",     footprint_bottom

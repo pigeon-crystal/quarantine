@@ -18,8 +18,8 @@ TreeMonSet_City:
 TreeMonSet_Canyon:
 ; common
 	db 50, QWAIL,    10
-	db 15, QWAIL,    10
-	db 15, QWAIL,    10
+	db 15, WORMEEK,    10
+	db 15, WORMEEK,    10
 	db 10, AIPOM,      10
 	db  5, AIPOM,      10
 	db  5, AIPOM,      10
@@ -28,7 +28,7 @@ TreeMonSet_Canyon:
 	db 50, QWAIL,    10
 	db 15, HERACROSS,  10
 	db 15, HERACROSS,  10
-	db 10, AIPOM,      10
+	db 10, WORMEEK,      10
 	db  5, AIPOM,      10
 	db  5, AIPOM,      10
 	db -1
@@ -36,11 +36,11 @@ TreeMonSet_Canyon:
 TreeMonSet_Town:
 ; common
 	db 50, QWAIL,    10
-	db 15, EKANS,      10
+	db 15, QWAIL,      10
 	db 15, QWAIL,    10
-	db 10, AIPOM,      10
-	db  5, AIPOM,      10
-	db  5, AIPOM,      10
+	db 10, GWUBBY,      10
+	db  5, GWUBBY,      10
+	db  5, GWUBBY,      10
 	db -1
 ; rare
 	db 50, QWAIL,    10
@@ -107,23 +107,23 @@ TreeMonSet_Lake:
 
 TreeMonSet_Forest:
 ; common
-	db 50, HOOTHOOT,   10
-	db 15, PINECO,     10
-	db 15, PINECO,     10
-	db 10, NOCTOWL,    10
-	db  5, VAZZINATE, 10
-	db  5, NOXROMAEUS, 10
+	db 50, EUKUB,   10
+	db 15, EUKUB,     10
+	db 15, EUKUB,     10
+	db 10, BUZZLING,    10
+	db  5, BUZZLING, 10
+	db  5, KOAGAN, 10
 	db -1
 ; rare
-	db 50, HOOTHOOT,   10
-	db 15, BUZZLING,   10
-	db 15, HOATOT,     10
-	db 10, HOOTHOOT,   10
+	db 50, EUKUB,   10
+	db 15, KOAGAN,   10
+	db 15, KOAGAN,     10
+	db 10, HIVEMAIM,   10
 	db  5, HIVEMAIM,    10
-	db  5, HOATOXIC,     10
+	db  5, GWUBBY,     10
 	db -1
 
 TreeMonSet_Rock:
-	db 90, KRABBY,     15
+	db 90, DOLMESA,     15
 	db 10, SHUCKLE,    15
 	db -1

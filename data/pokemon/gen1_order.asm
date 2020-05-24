@@ -56,7 +56,7 @@ Pokered_MonIndices:
 	db KOFFING
 	db SNEASEL ; MISSINGNO.
 	db MANKEY
-	db SEEL
+	db CADDISICLE
 	db DIGLETT
 	db TAUROS
 	db TEDDIURSA ; MISSINGNO.
@@ -118,7 +118,7 @@ Pokered_MonIndices:
 	db PRIMEAPE
 	db DUGTRIO
 	db VENOMOTH
-	db DEWGONG
+	db JADDICE
 	db KINGDRA ; MISSINGNO.
 	db PHANPY ; MISSINGNO.
 	db BUZZLING
@@ -231,7 +231,7 @@ Pokered_MonIndices:
 	db AIPOM
 	db SUNKERN
 	db SUNFLORA
-	db YANMA
+	db ARASBESTOS
 	db WOOPER
 	db QUAGSIRE
 	db ESPEON

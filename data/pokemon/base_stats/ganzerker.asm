@@ -1,11 +1,11 @@
 	db GANZERKER ; 184
 
-	db 96,  62,  88,  96,  96,  62
+	db 96,  68,  88,  96,  96,  62
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, FLYING ; type
 	db 11 ; catch rate
-	db 140 ; base exp
+	db 145 ; base exp
 	db NO_ITEM, BERSERK_GENE ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

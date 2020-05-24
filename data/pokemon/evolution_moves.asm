@@ -9,7 +9,7 @@ EvolutionMoves::
 	db NO_MOVE		; WARTORTLE
 	db NO_MOVE		; BLASTOISE
 	db NO_MOVE		; BUZZLING
-	db NO_MOVE 		; HIVEMAIM
+	db HARDEN 		; HIVEMAIM
 	db NO_MOVE		; VAZZINATE
 	db NO_MOVE		; HOATOT
 	db WING_ATTACK  ; HOATOXIC
@@ -42,7 +42,7 @@ EvolutionMoves::
 	db NO_MOVE		; ZUBAT
 	db NO_MOVE		; GOLBAT
 	db NO_MOVE 		; EUKUB
-	db NO_MOVE		; KOAGAN
+	db STOMP		; KOAGAN
 	db FIRE_PUNCH	; POCALYPTUS
 	db NO_MOVE		; PARAS
 	db NO_MOVE		; PARASECT
@@ -84,8 +84,8 @@ EvolutionMoves::
 	db NO_MOVE		; FARFETCH_D
 	db NO_MOVE		; DODUO
 	db NO_MOVE		; DODRIO
-	db NO_MOVE		; SEEL
-	db NO_MOVE		; DEWGONG
+	db NO_MOVE		; CADDISICLE
+	db STOMP		; JADDICE
 	db NO_MOVE		; GRIMGER
 	db NO_MOVE		; MUK
 	db NO_MOVE		; SHELLDER
@@ -191,7 +191,7 @@ EvolutionMoves::
 	db NO_MOVE		; AIPOM
 	db NO_MOVE		; SUNKURN
 	db NO_MOVE		; SUNFLORA
-	db NO_MOVE		; YANMA
+	db NO_MOVE		; ARASBESTOS
 	db NO_MOVE		; WOOPER
 	db NO_MOVE		; QUAGSIRE
 	db NO_MOVE		; ESPEON

@@ -52,8 +52,8 @@ FishGroups:
 	db 100 percent,     LANTURN,    40
 
 .Lake_Old:
-	db  70 percent + 1, MAGIKARP,   10
-	db  85 percent + 1, MAGIKARP,   10
+	db  70 percent + 1, GOOSAPLING,   10
+	db  85 percent + 1, GOOSAPLING,   10
 	db 100 percent,     GOOSAPLING,    10
 .Lake_Good:
 	db  35 percent,     MAGIKARP,   20
@@ -173,12 +173,12 @@ FishGroups:
 
 .Qwilfish_NoSwarm_Old:
 .Qwilfish_Old:
-	db  70 percent + 1, MAGIKARP,   10
-	db  85 percent + 1, MAGIKARP,   10
+	db  70 percent + 1, GOOSAPLING,   10
+	db  85 percent + 1, GOOSAPLING,   10
 	db 100 percent,     TENTACOOL,  10
 .Qwilfish_NoSwarm_Good:
 .Qwilfish_Good:
-	db  35 percent,     MAGIKARP,   20
+	db  35 percent,     GOOSAPLING,   20
 	db  70 percent,     TENTACOOL,  20
 	db  90 percent + 1, TENTACOOL,  20
 	db 100 percent,     time_group 20

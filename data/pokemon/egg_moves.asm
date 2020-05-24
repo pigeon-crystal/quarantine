@@ -198,7 +198,7 @@ GrowlitheEggMoves:
 
 PoliwagEggMoves:
 	db MIST
-	db SPLASH
+	db TACKLE
 	db BUBBLEBEAM
 	db HAZE
 	db LOCK_ON
@@ -270,11 +270,9 @@ DoduoEggMoves:
 	db FLAIL
 	db -1 ; end
 
-SeelEggMoves:
-	db LICK
+CaddisicleEggMoves:
 	db PERISH_SONG
 	db DISABLE
-	db PECK
 	db BODY_SLAM
 	db ENCORE
 	db -1 ; end
@@ -390,7 +388,7 @@ HorseaEggMoves:
 	db AURORA_BEAM
 	db ZAP_CANNON
 	db DISABLE
-	db SPLASH
+	db TACKLE
 	db SONICBOOM
 	db -1 ; end
 
@@ -543,7 +541,7 @@ CleffaEggMoves:
 	db METRONOME
 	db AMNESIA
 	db BELLY_DRUM
-	db SPLASH
+	db TACKLE
 	db MIMIC
 	db -1 ; end
 
@@ -614,10 +612,11 @@ AipomEggMoves:
 	db BEAT_UP
 	db -1 ; end
 
-YanmaEggMoves:
-	db WHIRLWIND
+ArasbestosEggMoves:
+	db GRIMNEEDLE
 	db FLAIL
 	db LEECH_LIFE
+	db WILL_O_WISP
 	db -1 ; end
 
 WooperEggMoves:
@@ -747,7 +746,7 @@ DelibirdEggMoves:
 	db AURORA_BEAM
 	db QUICK_ATTACK
 	db FUTURE_SIGHT
-	db SPLASH
+	db TACKLE
 	db RAPID_SPIN
 	db -1 ; end
 

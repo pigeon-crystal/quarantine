@@ -1,6 +1,6 @@
 	db QWALLOP ; basically it's fearow
  
-    db 70,  112,  76,  102, 45,  60
+    db 76,  112,  75,  102, 55,  65
     ;   hp  atk  def  spd  sat  sdf
  
     db FIGHTING, FLYING ; type

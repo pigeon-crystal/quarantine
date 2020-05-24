@@ -150,7 +150,7 @@ BattleAnimations::
 	dw BattleAnim_Spore
 	dw BattleAnim_Flash
 	dw BattleAnim_Psywave
-	dw BattleAnim_Splash
+	dw BattleAnim_IcicleCrash
 	dw BattleAnim_WillOWisp
 	dw BattleAnim_Crabhammer
 	dw BattleAnim_Explosion
@@ -176,7 +176,7 @@ BattleAnimations::
 	dw BattleAnim_Snore
 	dw BattleAnim_Curse
 	dw BattleAnim_Flail
-	dw BattleAnim_Conversion2
+	dw BattleAnim_Grimneedle
 	dw BattleAnim_Frostbite
 	dw BattleAnim_CottonSpore
 	dw BattleAnim_FocusBlast
@@ -2305,6 +2305,7 @@ BattleAnim_PoisonSting:
 	anim_wait 16
 	anim_ret
 
+BattleAnim_Grimneedle:
 BattleAnim_Twineedle:
 	anim_2gfx ANIM_GFX_HORN, ANIM_GFX_HIT
 	anim_sound 0, 1, SFX_POISON_STING
@@ -2820,6 +2821,21 @@ BattleAnim_Strength:
 	anim_wait 16
 	anim_ret
 
+BattleAnim_IcicleCrash:
+	anim_3gfx ANIM_GFX_ROCKS, ANIM_GFX_HIT, ANIM_GFX_ICE
+	anim_bgeffect ANIM_BG_20, $10, $1, $20
+	anim_sound 0, 0, SFX_STRENGTH
+	anim_obj ANIM_OBJ_STRENGTH, 64, 104, $1
+	anim_wait 90
+	anim_incobj 1
+	anim_wait 15
+	anim_sound 0, 1, SFX_MEGA_PUNCH
+	anim_obj ANIM_OBJ_00, 132, 40, $0
+	anim_wait 4
+	anim_call BattleAnimSub_Ice
+	anim_wait 8
+	anim_ret 
+	
 BattleAnim_SwordsDance:
 	anim_1gfx ANIM_GFX_WHIP
 	anim_sound 0, 0, SFX_SWORDS_DANCE

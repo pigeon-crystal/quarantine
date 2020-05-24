@@ -155,7 +155,7 @@
 	const SPORE        ; 93
 	const FLASH        ; 94
 	const PSYWAVE      ; 95
-	const SPLASH       ; 96
+	const ICICLE_CRASH ; 96
 	const WILL_O_WISP  ; 97
 	const CRABHAMMER   ; 98
 	const EXPLOSION    ; 99
@@ -175,13 +175,13 @@
 	const TRIPLE_KICK  ; a7
 	const THIEF        ; a8
 	const SPIDER_WEB   ; a9
-	const ACCELEROCK    ; aa
+	const ACCELEROCK   ; aa
 	const NIGHTMARE    ; ab
 	const FLAME_WHEEL  ; ac
 	const SNORE        ; ad
 	const CURSE        ; ae
 	const FLAIL        ; af
-	const CONVERSION2  ; b0
+	const GRIMNEEDLE   ; b0
 	const FROSTBITE    ; b1
 	const COTTON_SPORE ; b2
 	const FOCUS_BLAST  ; b3

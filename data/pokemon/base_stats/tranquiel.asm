@@ -1,6 +1,6 @@
 	db TRANQUIEL ; 063
 
-	db  47,  37,  47,  47, 67,  67
+	db  57,  37,  47,  47, 67,  67
 	;   hp  atk  def  spd  sat  sdf
 
 	db FAIRY, FAIRY ; type

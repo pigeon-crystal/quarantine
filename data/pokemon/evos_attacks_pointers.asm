@@ -86,8 +86,8 @@ EvosAttacksPointers::
 	dw FarfetchDEvosAttacks
 	dw DoduoEvosAttacks
 	dw DodrioEvosAttacks
-	dw SeelEvosAttacks
-	dw DewgongEvosAttacks
+	dw CaddisicleEvosAttacks
+	dw JaddiceEvosAttacks
 	dw GrimerEvosAttacks
 	dw MukEvosAttacks
 	dw ShellderEvosAttacks
@@ -193,7 +193,7 @@ EvosAttacksPointers::
 	dw AipomEvosAttacks
 	dw SunkernEvosAttacks
 	dw SunfloraEvosAttacks
-	dw YanmaEvosAttacks
+	dw ArasbestosEvosAttacks
 	dw WooperEvosAttacks
 	dw QuagsireEvosAttacks
 	dw EspeonEvosAttacks

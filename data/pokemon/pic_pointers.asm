@@ -172,10 +172,10 @@ PokemonPicPointers::
 	dba_pic DoduoBackpic
 	dba_pic DodrioFrontpic
 	dba_pic DodrioBackpic
-	dba_pic SeelFrontpic
-	dba_pic SeelBackpic
-	dba_pic DewgongFrontpic
-	dba_pic DewgongBackpic
+	dba_pic CaddisicleFrontpic
+	dba_pic CaddisicleBackpic
+	dba_pic JaddiceFrontpic
+	dba_pic JaddiceBackpic
 	dba_pic GrimerFrontpic
 	dba_pic GrimerBackpic
 	dba_pic MukFrontpic
@@ -386,8 +386,8 @@ PokemonPicPointers::
 	dba_pic SunkernBackpic
 	dba_pic SunfloraFrontpic
 	dba_pic SunfloraBackpic
-	dba_pic YanmaFrontpic
-	dba_pic YanmaBackpic
+	dba_pic ArasbestosFrontpic
+	dba_pic ArasbestosBackpic
 	dba_pic WooperFrontpic
 	dba_pic WooperBackpic
 	dba_pic QuagsireFrontpic

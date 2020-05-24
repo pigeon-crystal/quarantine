@@ -1,6 +1,6 @@
 	db SCAULTER ; this mon only becomes fire/steel at the last stage because fire/steel is a fucking incredible typing
  
-    db 70,  86,  67,   68,  64,  50
+    db 72,  87,  69,   70,  64,  53
     ;   hp  atk  def  spd  sat  sdf
  
     db FIRE, FIRE ; type

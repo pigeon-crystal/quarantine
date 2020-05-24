@@ -33,7 +33,7 @@ AlphabeticalPokedexOrder:
 	db CROBAT
 	db CUBONE
 	db DELIBIRD
-	db DEWGONG
+	db JADDICE
 	db DIGLETT
 	db DITTO
 	db DODRIO
@@ -197,7 +197,7 @@ AlphabeticalPokedexOrder:
 	db SCRUFFRUIT
 	db SCYTHER
 	db SEADRA
-	db SEEL
+	db CADDISICLE
 	db SENTRET
 	db SHELLDER
 	db SHUCKLE
@@ -250,6 +250,6 @@ AlphabeticalPokedexOrder:
 	db WORMACHO
 	db WORMEEK
 	db XATU
-	db YANMA
+	db ARASBESTOS
 	db ZAPDOS
 	db ZUBAT

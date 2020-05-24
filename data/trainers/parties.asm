@@ -16,9 +16,17 @@ SECTION "Enemy Trainer Parties 1", ROMX
 
 FalknerGroup:
 	; FALKNER (1)
-	db "FALKNER@", TRAINERTYPE_ITEM_MOVES
-	db 13, HOATOXIC, BERRY,  PECK, MUD_SLAP, ACID, POISON_STING
-	db 13, FURDOBA,  BERRY,  MUD_SLAP, GUST, SANDSTORM, PROTECT
+	db "FALKNER@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
+	db 13, HOATOXIC
+		db $ef, $fe
+		dw $9999, $9999, $f1ef, $f1ef, $999f
+		db  BERRY
+		db  PECK, MUD_SLAP, ACID, POISON_STING
+	db 14, FURDOBA
+		db $ef, $fe
+		dw $f1ef, $9999, $f1ef, $999f, $999f
+		db BERRY
+		db MUD_SLAP, GUST, SANDSTORM, PROTECT
 	db -1 ; end
 
 WhitneyGroup:
@@ -26,21 +34,26 @@ WhitneyGroup:
 	db "WHITNEY@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 18, CLEFAIRY
 		db PERFECT_DV, $de
-		dw PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP
+		dw PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, $07fa
 		db BERRY
 		db DOUBLESLAP, MIMIC, ENCORE, METRONOME
-	db 20, PILFOARD 																;level and name
-		db PERFECT_DV, $de 														    ;DVs: atk|def, spd|spc
-		dw PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP 	;Stat exp: hp, atk, def, spd, spc
-		db BERRY 																	;item
-		db PAY_DAY, THIEF, SCARY_FACE, GLARE										;moves
-	db 20, MILTANK,    ROLLOUT, ATTRACT, STOMP, MILK_DRINK
+	db 20, PILFOARD 																					;level and name
+		db $fa, $de 														    					;DVs: atk|def, spd|spc
+		dw PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP 	;Stat exp: hp, atk, def, spd, spc
+		db BERRY 																						;item
+		db PAY_DAY, THIEF, SCARY_FACE, GLARE															;moves
+	db 20, MILTANK    
+		db $ef, $fd
+		dw PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP 	;Stat exp: hp, atk, def, spd, spc
+		db BERRY 																					
+		db ROLLOUT, ATTRACT, STOMP, MILK_DRINK
 	db -1 ; end
 
 BugsyGroup:
 	; BUGSY (1)
 	db "BUGSY@", TRAINERTYPE_ITEM_MOVES
-	db 14, HIVEMAIM,    BERRY, 		TACKLE, STRING_SHOT, HARDEN, NO_MOVE
+	db 20, BUZZLING,   EVIOLITE,    DOUBLE_TEAM, TOXIC, FURY_CUTTER, HEADBUTT
+	db 17, HIVEMAIM,   BERRY, 		FURY_CUTTER, STRING_SHOT, HARDEN, NO_MOVE
 	db 17, GWUBBY,     GOLD_BERRY, 	ROCK_SMASH, FURY_CUTTER, DEFENSE_CURL, ROLLOUT
 	db 16, SCYTHER,    BERRY, 		QUICK_ATTACK, LEER, FURY_CUTTER, NO_MOVE
 	db -1 ; end
@@ -57,8 +70,8 @@ MortyGroup:
 PryceGroup:
 	; PRYCE (1)
 	db "PRYCE@", TRAINERTYPE_MOVES
-	db 27, SEEL,       HEADBUTT, ICY_WIND, AURORA_BEAM, REST
-	db 29, DEWGONG,    HEADBUTT, ICY_WIND, AURORA_BEAM, REST
+	db 27, CADDISICLE,       HEADBUTT, ICY_WIND, AURORA_BEAM, REST
+	db 29, JADDICE,    HEADBUTT, ICY_WIND, AURORA_BEAM, REST
 	db 31, PILOSWINE,  ICY_WIND, FURY_SWIPES, MIST, BLIZZARD
 	db -1 ; end
 
@@ -336,7 +349,7 @@ ScientistGroup:
 
 	; SCIENTIST (5)
 	db "RICH@", TRAINERTYPE_MOVES
-	db 30, PORYGON,    CONVERSION, CONVERSION2, RECOVER, TRI_ATTACK
+	db 30, PORYGON,    CONVERSION, CONVERSION, RECOVER, TRI_ATTACK
 	db -1 ; end
 
 ErikaGroup:
@@ -518,7 +531,7 @@ SchoolboyGroup:
 	; SCHOOLBOY (15)
 	db "ALAN@", TRAINERTYPE_NORMAL
 	db 17, TANGELA
-	db 17, YANMA
+	db 17, ARASBESTOS
 	db -1 ; end
 
 	; SCHOOLBOY (16)
@@ -526,7 +539,7 @@ SchoolboyGroup:
 	db 20, NATU
 	db 22, TANGELA
 	db 20, QUAGSIRE
-	db 25, YANMA
+	db 25, ARASBESTOS
 	db -1 ; end
 
 	; SCHOOLBOY (17)
@@ -560,14 +573,14 @@ SchoolboyGroup:
 	db 27, NATU
 	db 27, TANGELA
 	db 30, QUAGSIRE
-	db 30, YANMA
+	db 30, ARASBESTOS
 	db -1 ; end
 
 	; SCHOOLBOY (22)
 	db "ALAN@", TRAINERTYPE_MOVES
 	db 35, XATU,       PECK, NIGHT_SHADE, SWIFT, FUTURE_SIGHT
 	db 32, TANGELA,    POISONPOWDER, VINE_WHIP, WRAP, MEGA_DRAIN
-	db 32, YANMA,      QUICK_ATTACK, DOUBLE_TEAM, SONICBOOM, SUPERSONIC
+	db 32, ARASBESTOS,      QUICK_ATTACK, DOUBLE_TEAM, SONICBOOM, SUPERSONIC
 	db 35, QUAGSIRE,   TAIL_WHIP, BODY_SLAM, AMNESIA, EARTHQUAKE
 	db -1 ; end
 
@@ -584,16 +597,17 @@ SchoolboyGroup:
 	db -1 ; end
 
 BirdKeeperGroup:
-	; BIRD_KEEPER (1) ;violet gym
-	db "ROD@", TRAINERTYPE_NORMAL
-	db 11, FURNIT
-	db 11, HOATOT
+	; BIRD_KEEPER (1) ;violet gym 2
+	db "ROD@", TRAINERTYPE_ITEM
+	db 11, QWAIL, 	   BERRY
+	db 11, GOOSAPLING, NO_ITEM
+	db 12, FLUFFRUIT,  BERRY
 	db -1 ; end
 
 	; BIRD_KEEPER (2) ;violet gym
 	db "ABE@", TRAINERTYPE_ITEM 
-	db 11, QWAIL, 	   BERRY
-	db 11, GOOSAPLING, NO_ITEM
+	db 11, FURNIT, 		NO_ITEM
+	db 11, HOATOT,		BERRY
 	db -1 ; end
 
 	; BIRD_KEEPER (3)
@@ -1115,7 +1129,7 @@ BeautyGroup:
 	; BEAUTY (7)
 	db "CAROLINE@", TRAINERTYPE_NORMAL
 	db 30, MARILL
-	db 32, SEEL
+	db 32, CADDISICLE
 	db 30, MARILL
 	db -1 ; end
 
@@ -1223,7 +1237,7 @@ PokemaniacGroup:
 
 	; POKEMANIAC (10)
 	db "BRENT@", TRAINERTYPE_MOVES
-	db 36, PORYGON,    RECOVER, PSYCHIC_M, CONVERSION2, TRI_ATTACK
+	db 36, PORYGON,    RECOVER, PSYCHIC_M, CONVERSION, TRI_ATTACK
 	db -1 ; end
 
 	; POKEMANIAC (11)
@@ -1480,7 +1494,7 @@ SkierGroup:
 
 	; SKIER (2)
 	db "CLARISSA@", TRAINERTYPE_NORMAL
-	db 28, DEWGONG
+	db 28, JADDICE
 	db -1 ; end
 
 TeacherGroup:
@@ -1846,9 +1860,9 @@ SwimmerMGroup:
 
 	; SWIMMERM (9)
 	db "HAL@", TRAINERTYPE_NORMAL
-	db 24, SEEL
-	db 25, DEWGONG
-	db 24, SEEL
+	db 24, CADDISICLE
+	db 25, JADDICE
+	db 24, CADDISICLE
 	db -1 ; end
 
 	; SWIMMERM (10)
@@ -1959,7 +1973,7 @@ SwimmerFGroup:
 
 	; SWIMMERF (5)
 	db "DENISE@", TRAINERTYPE_NORMAL
-	db 22, SEEL
+	db 22, CADDISICLE
 	db -1 ; end
 
 	; SWIMMERF (6)
@@ -1981,7 +1995,7 @@ SwimmerFGroup:
 
 	; SWIMMERF (9)
 	db "JILL@", TRAINERTYPE_NORMAL
-	db 28, DEWGONG
+	db 28, JADDICE
 	db -1 ; end
 
 	; SWIMMERF (10)
@@ -1991,7 +2005,7 @@ SwimmerFGroup:
 
 	; SWIMMERF (11)
 	db "KATIE@", TRAINERTYPE_NORMAL
-	db 33, DEWGONG
+	db 33, JADDICE
 	db -1 ; end
 
 	; SWIMMERF (12)
@@ -2024,10 +2038,10 @@ SwimmerFGroup:
 
 	; SWIMMERF (17)
 	db "NIKKI@", TRAINERTYPE_NORMAL
-	db 28, SEEL
-	db 28, SEEL
-	db 28, SEEL
-	db 28, DEWGONG
+	db 28, CADDISICLE
+	db 28, CADDISICLE
+	db 28, CADDISICLE
+	db 28, JADDICE
 	db -1 ; end
 
 	; SWIMMERF (18)
@@ -2194,7 +2208,7 @@ SuperNerdGroup:
 
 	; SUPER_NERD (12)
 	db "NORTON@", TRAINERTYPE_MOVES
-	db 30, PORYGON,    CONVERSION, CONVERSION2, RECOVER, TRI_ATTACK
+	db 30, PORYGON,    CONVERSION, CONVERSION, RECOVER, TRI_ATTACK
 	db -1 ; end
 
 	; SUPER_NERD (13)
@@ -3090,22 +3104,21 @@ ExecutiveFGroup:
 SageGroup:
 	; SAGE (1) ;sprout
 	db "CHOW@", TRAINERTYPE_NORMAL
-	db  5, LAWNIE
-	db  5, LAWNIE
-	db  6, ZUBAT
+	db  6, LAWNIE
+	db  6, LAWNIE
 	db -1 ; end
 
 	; SAGE (2) ;sprout
 	db "NICO@", TRAINERTYPE_NORMAL
-	db  6, LAWNIE
-	db  6, LAWNIE
+	db  7, LAWNIE
+	db  6, EUKUB
 	db  7, HOATOT
 	db -1 ; end
 
 	; SAGE (3) ;sprout
 	db "JIN@", TRAINERTYPE_NORMAL
 	db  10, LAWNIE
-	db  7,  HOOTHOOT
+	db  8,  QWAIL
 	db -1 ; end
 
 	; SAGE (4) ;sprout
@@ -3131,21 +3144,31 @@ SageGroup:
 	; SAGE (7) ;sprout
 	db "EDMOND@", TRAINERTYPE_NORMAL
 	db  7, LAWNIE
-	db  7, LAWNIE
 	db  8, FURNIT
+	db 	8, LAWNIE
 	db -1 ; end
 
 	; SAGE (8) ;sprout
 	db "NEAL@", TRAINERTYPE_NORMAL
 	db  10, LAWNIE
 	db   9, FURNIT
+	db 	 9, GWUBBY
 	db -1 ; end
 
 	; SAGE (9) ;sprout boss
-	db "LI@", TRAINERTYPE_ITEM
-	db 10, LAWNIE, NO_ITEM
-	db 11, LAWNIE, BERRY
-	db 11, HOOTHOOT, NO_ITEM
+	db "LI@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
+	db 11, LAWNIE
+		dw $1111, $0040, $666A, $E190, $07A0
+		db BERRY
+		db BEAT_UP, MUD_SLAP, FLASH, SWIFT
+	db 11, FLUFFRUIT
+		dw $1040, $006F, $7D0D, $0700, $710D
+		db MIRACLE_SEED
+		db ABSORB, GROWTH, GUST, ATTRACT
+	db 12, LAWNIE
+		dw $7EBA, $7EBA, $7EBA, $7EBA, $7EBA
+		db BERRY
+		db REST, SNORE, FLASH, MUD_SLAP
 	db -1 ; end
 
 	; SAGE (10)
@@ -3210,9 +3233,9 @@ MediumGroup:
 BoarderGroup:
 	; BOARDER (1)
 	db "RONALD@", TRAINERTYPE_NORMAL
-	db 24, SEEL
-	db 25, DEWGONG
-	db 24, SEEL
+	db 24, CADDISICLE
+	db 25, JADDICE
+	db 24, CADDISICLE
 	db -1 ; end
 
 	; BOARDER (2)

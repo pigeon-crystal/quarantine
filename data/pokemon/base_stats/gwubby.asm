@@ -1,6 +1,6 @@
 	db GWUBBY ; 
 
-	db   66, 40, 66,  35,  27,  66
+	db  66, 42,  66,  30,  30,  66
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, BUG ; type

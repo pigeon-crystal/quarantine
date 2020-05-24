@@ -1,6 +1,6 @@
 	db BUZZLING ; 010
 
-	db  25,  40,  35,  45,  35,  35
+	db  25,  41,  35,  50,  35,  35
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, BUG ; type

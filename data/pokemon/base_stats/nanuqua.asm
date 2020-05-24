@@ -1,6 +1,6 @@
     db NANUQUA ; i ASSUME this mon is water/ice, so i gave it ice at stage 2 (so that grass is always double typed, water is double typed half way through, and fire is only double typed at the end). gave it field egg group and nothing else as that's what beartic does
  
-    db 82,  82,  82,   60,  40,  59
+    db 85,  85,  85,   60,  40,  60
     ;   hp  atk  def  spd  sat  sdf
  
     db WATER, ICE ; type

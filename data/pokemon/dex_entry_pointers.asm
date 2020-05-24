@@ -85,8 +85,8 @@ PokedexDataPointerTable:
 	dw FarfetchDPokedexEntry
 	dw DoduoPokedexEntry
 	dw DodrioPokedexEntry
-	dw SeelPokedexEntry
-	dw DewgongPokedexEntry
+	dw CaddisiclePokedexEntry
+	dw JaddicePokedexEntry
 	dw GrimerPokedexEntry
 	dw MukPokedexEntry
 	dw ShellderPokedexEntry
@@ -192,7 +192,7 @@ PokedexDataPointerTable:
 	dw AipomPokedexEntry
 	dw SunkernPokedexEntry
 	dw SunfloraPokedexEntry
-	dw YanmaPokedexEntry
+	dw ArasbestosPokedexEntry
 	dw WooperPokedexEntry
 	dw QuagsirePokedexEntry
 	dw EspeonPokedexEntry

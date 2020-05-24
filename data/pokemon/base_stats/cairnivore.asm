@@ -1,6 +1,6 @@
 	db CAIRNIVORE ;
 	
-	db  90,  90,  175, 25, 45,  80
+	db  92,  92,  175, 25, 45,  81
 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, ROCK ; type

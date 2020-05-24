@@ -1,6 +1,6 @@
 	db NOMSTER ; 019
 
-	db  70,  39,  45,  44, 	23,  45
+	db  70,  42,  46,  39, 	23,  45
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type

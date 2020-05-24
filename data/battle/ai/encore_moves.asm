@@ -21,7 +21,6 @@ EncoreMoves:
 	db NASTY_PLOT
 	db DREAM_EATER
 	db POISON_GAS
-	db SPLASH
 	db SHARPEN
 	db WILL_O_WISP
 	db CONVERSION

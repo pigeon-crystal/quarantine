@@ -1,9 +1,9 @@
 	db KOAGAN ; 063
 
-	db  84,  84,  76,  25, 46,  55
+	db  79,  79,  75,  25, 44,  55
 	;   hp  atk  def  spd  sat  sdf
 
-	db GRASS, GRASS ; type
+	db GRASS, POISON ; type
 	db 110 ; catch rate
 	db 69 ; base exp
 	db MIRACLE_SEED, BERRY ; items

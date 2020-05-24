@@ -183,19 +183,26 @@ SproutTowerRivalOnlyCareAboutStrongText:
 	para "It stands to"
 	line "reason."
 
-	para "I'd never lose to"
-	line "fools who babble"
+	para "Flowery rhetoric"
+	line "means nothing if"
+	cont "you don't have"
+	cont "the strength to"
+	cont "back it up."
 
-	para "about being nice"
-	line "to #MON."
+	para "Listen up!"
 
-	para "I only care about"
-	line "strong #MON"
-	cont "that can win."
-
-	para "I really couldn't"
-	line "care less about"
-	cont "weak #MON."
+	para "I'll gain the"
+	line "strength to make"
+	cont "my goals intro"
+	cont "reality:"
+	
+	para "I'm going to be"
+	line "the strongest"
+	cont "#MON trainer"
+	cont "in JOHTO."
+	
+	para "…And I'm going"
+	line "to crush you."
 	done
 
 SproutTowerRivalUsedEscapeRopeText:
@@ -204,11 +211,17 @@ SproutTowerRivalUsedEscapeRopeText:
 	done
 
 SageLiSeenText:
-	text "So good of you to"
-	line "come here!"
+	text "How do you do,"
+	line "young traveller?"
 
-	para "SPROUT TOWER is a"
-	line "place of training."
+	para "Have you enjoyed"
+	line "your battles on"
+	cont "your path to"
+	cont "reach me?"
+	
+	para "You may wonder"
+	line "why we SAGES"
+	cont "battle."
 
 	para "People and #MON"
 	line "test their bonds"
@@ -224,14 +237,21 @@ SageLiSeenText:
 
 	para "your #MON and"
 	line "you!"
+	
+	para "Prepare yourself!"
+	line "I won't hold back!"
 	done
 
 SageLiBeatenText:
-	text "Ah, excellent!"
+	text "You didn't hold"
+	line "back, either!"
 	done
 
 SageLiTakeThisFlashText:
-	text "You and your #-"
+	text "Ah, the power of"
+	line "youth!"
+
+	para "You and your #-"
 	line "MON should have"
 
 	para "no problem using"
@@ -258,32 +278,39 @@ SageLiFlashExplanationText:
 	done
 
 SageLiAfterBattleText:
-	text "I hope you learn"
-	line "and grow from your"
-	cont "journey."
+	text "…Say, would you"
+	line "like to be a"
+	cont "SAGE?"
+	
+	para "Promise you won't"
+	line "have to go bald"
+	cont "or use LAWNIE!"	
 	done
 
 SageJinSeenText:
-	text "I train to find"
-	line "enlightenment in"
-	cont "#MON!"
+	text "Were you tricked"
+	line "by LAWNIE's type,"
+	cont "too?"
 	done
 
 SageJinBeatenText:
-	text "My training is"
-	line "incomplete…"
+	text "Guess not!"
 	done
 
 SageJinAfterBattleText:
-	text "As #MON grow"
-	line "stronger, so does"
-	cont "the trainer."
-
-	para "No, wait. As the"
-	line "trainer grows"
-
-	para "stronger, so do"
-	line "the #MON."
+	text "If you want to"
+	line "raise a LAWNIE"
+	cont "of your own,"
+	cont "I'll give you"
+	cont "a tip!"
+	
+	para "LAWNIE stays"
+	line "part dark with"
+	cont "each evolution."
+	
+	para "Only LAWNIE can"
+	line "learn strong"
+	cont "ground-type moves."
 	done
 
 SageTroySeenText:
@@ -293,19 +320,23 @@ SageTroySeenText:
 	done
 
 SageTroyBeatenText:
-	text "Yes, your trust is"
-	line "real!"
+	text "That much?"
 	done
 
 SageTroyAfterBattleText:
 	text "It is not far to"
 	line "the ELDER."
+	
+	para "His battle prowess"
+	line "far surpasses"
+	cont "that of us SAGES."
 	done
 
 SageNealSeenText:
 	text "The ELDER's HM"
-	line "lights even pitch-"
-	cont "black darkness."
+	line "will brighten even"
+	cont "the darkest of"
+	cont "caves!"
 	done
 
 SageNealBeatenText:
@@ -314,14 +345,23 @@ SageNealBeatenText:
 	done
 
 SageNealAfterBattleText:
-	text "Let there be light"
-	line "on your journey."
+	text "FLASH won't work"
+	line "on LAWNIE."
+	
+	para "Maybe that's why"
+	line "they can put up"
+	cont "with our baldness!"
 	done
 
 SproutTower3FPaintingText:
-	text "It's a powerful"
+	text "It's a moving"
 	line "painting of a"
 	cont "LAWNIE."
+	
+	para "Its beauty helps"
+	line "explain the"
+	cont "obsession the"
+	cont "SAGES have."
 	done
 
 SproutTower3FStatueText:

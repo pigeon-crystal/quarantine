@@ -104,8 +104,8 @@
 	const FARFETCH_D ; 53
 	const DODUO      ; 54
 	const DODRIO     ; 55
-	const SEEL       ; 56
-	const DEWGONG    ; 57
+	const CADDISICLE       ; 56
+	const JADDICE    ; 57
 	const GRIMER     ; 58
 	const MUK        ; 59
 	const SHELLDER   ; 5a
@@ -212,7 +212,7 @@ JOHTO_POKEMON EQU const_value
 	const AIPOM      ; be
 	const SUNKERN    ; bf
 	const SUNFLORA   ; c0
-	const YANMA      ; c1
+	const ARASBESTOS      ; c1
 	const WOOPER     ; c2
 	const QUAGSIRE   ; c3
 	const ESPEON     ; c4

@@ -1,6 +1,6 @@
 	db GOOSAPLING ; 184
 
-	db 69,  31,  44,  44,  69,  31
+	db 69,  34,  44,  48,  69,  31
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type

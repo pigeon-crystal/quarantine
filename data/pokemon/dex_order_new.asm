@@ -101,7 +101,7 @@ NewPokedexOrder:
 	db NIDORAN_M
 	db NIDORINO
 	db NIDOKING
-	db YANMA
+	db ARASBESTOS
 	db SUNKERN
 	db SUNFLORA
 	db EXEGGCUTE
@@ -176,8 +176,8 @@ NewPokedexOrder:
 	db OCTILLERY
 	db CHINCHOU
 	db LANTURN
-	db SEEL
-	db DEWGONG
+	db CADDISICLE
+	db JADDICE
 	db LICKITUNG
 	db TANGELA
 	db EEVEE

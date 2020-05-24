@@ -41,16 +41,21 @@ SproutTower1FStatue:
 	jumptext SproutTower1FStatueText
 
 SageChowSeenText:
-	text "We stand guard in"
-	line "this tower."
-
-	para "Here, we express"
-	line "our gratitude to"
-	cont "honor all #MON."
+	text "Here in this"
+	line "tower, we honor"
+	cont "all #MON!"
+	
+	para "The weak, the"
+	line "unseemly -- they"
+	cont "have something"
+	cont "to offer, too!"
+	
+	para "It is for them"
+	line "we train!"
 	done
 
 SageChowBeatenText:
-	text "Th-Thank you!"
+	text "Oof!"
 	done
 
 SageChowAfterBattleText:
@@ -63,17 +68,42 @@ SageChowAfterBattleText:
 	done
 
 SproutTower1FSage1Text:
-	text "Only if you reach"
-	line "the top will you"
-	cont "obtain an HM."
+	text "To aid in youth"
+	line "outreach, we"
+	cont "set up a promo"
+	cont "campaign."
+	
+	para "The ELDER will"
+	line "give you a nice"
+	cont "HM if you make"
+	cont "it to the top."
+	
+	para "If you plan on"
+	line "exploring caves,"
+	cont "this is a real"
+	cont "must-have!"
 	done
 
 SproutTower1FSage2Text:
-	text "SPROUT TOWER was"
-	line "built long ago"
+	text "All of us SAGES"
+	line "train with our"
+	cont "LAWNIE."
 
-	para "as a place for"
-	line "#MON training."
+	para "Even #MON some"
+	line "people think of"
+	cont "as pests deserve"
+	cont "love and respect."
+	
+	para "Cunning critters,"
+	line "these LAWNIE."
+	
+	para "As difficult as"
+	line "they may make"
+	cont "home ownership,"
+	
+	para "there's a lot"
+	line "to learn from"
+	cont "them."
 	done
 
 SproutTower1FGrannyText:
