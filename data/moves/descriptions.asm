@@ -367,7 +367,7 @@ PowerGemDescription:
 
 CalmMindDescription:
 	db   "User clears mind."
-	next "SPCL.ATK/DEF up.@"
+	next "SPCL.ATK DEF up.@"
 
 SandAttackDescription:
 	db   "Reduces accuracy"

@@ -2337,7 +2337,6 @@ BattleAnim_PinMissile:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_IceShard:
 BattleAnim_SpikeCannon:
 	anim_2gfx ANIM_GFX_HORN, ANIM_GFX_HIT
 .loop
@@ -2355,6 +2354,26 @@ BattleAnim_SpikeCannon:
 	anim_obj ANIM_OBJ_05, 132, 52, $0
 	anim_loop 3, .loop
 	anim_wait 16
+	anim_ret
+	
+BattleAnim_IceShard:
+	anim_3gfx ANIM_GFX_HORN, ANIM_GFX_HIT, ANIM_GFX_ICE
+.loop
+	anim_obj ANIM_OBJ_60, 64, 92, $18
+	anim_wait 8
+	anim_obj ANIM_OBJ_60, 56, 84, $18
+	anim_sound 0, 1, SFX_POISON_STING
+	anim_obj ANIM_OBJ_05, 136, 56, $0
+	anim_wait 8
+	anim_obj ANIM_OBJ_60, 52, 88, $18
+	anim_sound 0, 1, SFX_POISON_STING
+	anim_obj ANIM_OBJ_05, 128, 48, $0
+	anim_wait 8
+	anim_sound 0, 1, SFX_POISON_STING
+	anim_obj ANIM_OBJ_05, 132, 52, $0
+	anim_loop 3, .loop
+	anim_wait 8
+	anim_call BattleAnimSub_Ice
 	anim_ret
 
 BattleAnim_Transform:
@@ -4095,7 +4114,7 @@ BattleAnim_Nitroblaze:
 	anim_obj ANIM_OBJ_SACRED_FIRE, 48, 104, $0
 	anim_wait 8
 	anim_loop 8, .loop
-	anim_wait 96
+	anim_wait 80
 	anim_call BattleAnim_TargetObj_1Row
 	anim_bgeffect ANIM_BG_TACKLE, $0, $1, $0
 	anim_wait 4
@@ -4167,7 +4186,7 @@ BattleAnim_BatonPass:
 	anim_obj ANIM_OBJ_BATON_PASS, 44, 104, $20
 	anim_sound 0, 0, SFX_BATON_PASS
 	anim_call BattleAnim_ReturnMon.anim
-	anim_wait 64
+	anim_wait 48
 	anim_ret
 
 BattleAnim_Encore:
@@ -4244,7 +4263,7 @@ BattleAnim_SweetScent:
 	anim_obj ANIM_OBJ_COTTON, 136, 40, $15
 	anim_obj ANIM_OBJ_COTTON, 136, 40, $2a
 	anim_obj ANIM_OBJ_COTTON, 136, 40, $3f
-	anim_wait 128
+	anim_wait 80
 	anim_ret
 
 BattleAnim_IronTail:
@@ -4326,7 +4345,7 @@ BattleAnim_Synthesis:
 	anim_bgeffect ANIM_BG_18, $0, $1, $40
 	anim_bgeffect ANIM_BG_07, $0, $0, $0
 	anim_sound 0, 0, SFX_OUTRAGE
-	anim_wait 72
+	anim_wait 56
 	anim_incbgeffect ANIM_BG_18
 	anim_call BattleAnim_ShowMon_0
 	anim_if_param_equal $1, .one
@@ -4364,7 +4383,7 @@ BattleAnim_Moonlight:
 	anim_obj ANIM_OBJ_MOONLIGHT, 64, 104, $0
 	anim_wait 1
 	anim_sound 0, 0, SFX_MOONLIGHT
-	anim_wait 63
+	anim_wait 56
 	anim_if_param_equal $3, .three
 	anim_call BattleAnimSub_Glimmer
 	anim_ret
@@ -4404,7 +4423,7 @@ BattleAnim_HiddenPower:
 	anim_wait 16
 	anim_1gfx ANIM_GFX_HIT
 	anim_obj ANIM_OBJ_00, 136, 56, $0
-	anim_wait 32
+	anim_wait 24
 	anim_ret
 
 BattleAnim_CrossChop:
@@ -4473,7 +4492,7 @@ BattleAnim_RainDance:
 	anim_obj ANIM_OBJ_RAIN, 88, 0, $1
 	anim_wait 8
 	anim_obj ANIM_OBJ_RAIN, 88, 0, $2
-	anim_wait 128
+	anim_wait 64
 	anim_ret
 
 BattleAnim_SunnyDay:
@@ -4485,7 +4504,7 @@ BattleAnim_SunnyDay:
 	anim_obj ANIM_OBJ_RAIN, 88, 0, $2
 	anim_wait 8
 	anim_obj ANIM_OBJ_RAIN, 88, 0, $2
-	anim_wait 128
+	anim_wait 64
 	anim_ret
 
 BattleAnim_MirrorCoat:
@@ -4516,7 +4535,7 @@ BattleAnim_PsychUp:
 	anim_obj ANIM_OBJ_PSYCH_UP, 44, 88, $10
 	anim_obj ANIM_OBJ_PSYCH_UP, 44, 88, $20
 	anim_obj ANIM_OBJ_PSYCH_UP, 44, 88, $30
-	anim_wait 64
+	anim_wait 56
 	anim_incbgeffect ANIM_BG_1A
 	anim_call BattleAnim_ShowMon_0
 	anim_wait 16
@@ -4656,8 +4675,8 @@ BattleAnim_BeatUp:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
-BattleAnim_Moonblast: ; anim from Pokemon Prism
-	anim_1gfx ANIM_GFX_SHINE
+BattleAnim_Moonblast: ; anim from Pokemon Prism kinda
+	anim_2gfx ANIM_GFX_SHINE, ANIM_GFX_BEAM
 	anim_bgp $1b
 	anim_bgeffect ANIM_BG_07, $0, $0, $0
 	anim_obj ANIM_OBJ_MOONLIGHT, 0, 40, $0

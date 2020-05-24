@@ -167,7 +167,7 @@ BlastoiseEvosAttacks:
 	db 0 ; no more level-up moves
 
 BuzzlingEvosAttacks:
-	db EVOLVE_LEVEL, 12, HIVEMAIM
+	db EVOLVE_LEVEL, 11, HIVEMAIM
 	db 0 ; no more evolutions
 	db 1, POISON_STING
 	db 1, STRING_SHOT
@@ -185,7 +185,7 @@ HivemaimEvosAttacks:
 	db 1, POISON_STING
 	db 1, STRING_SHOT
 	db 5, TACKLE
-	db 11, HARDEN
+	db 10, HARDEN
 	db 15, DISABLE
 	db 20, PURSUIT
 	db 25, CURSE
@@ -1006,6 +1006,7 @@ LawnieEvosAttacks:
 	db 6, MUD_SLAP
 	db 6, ABSORB
 	db 10, BITE
+	db 10, DIG
 	db 11, GROWTH
 	db 16, MAGNITUDE
 	db 17, BEAT_UP
@@ -1727,7 +1728,8 @@ GoosaplingEvosAttacks:
 	db 1, BITE
 	db 1, GROWL
 	db 9, WATER_GUN
-	db 14, SUPERSONIC
+	db 14, BUBBLE
+	db 15, SUPERSONIC
 	db 18, ROCK_THROW
 	db 24, MEAN_LOOK
 	db 27, BUBBLEBEAM
@@ -2552,13 +2554,13 @@ TranquielEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, ALLSEERAPH
 	db 0 ; no more evolutions
 	db 1, CHARM
-	db 6, TACKLE
-	db 10, LOVELY_KISS
-	db 10, SWEET_KISS
+	db 1, TACKLE
+	db 7, LOVELY_KISS
+	db 11, SWEET_KISS
 	db 13, GUST
-	db 16, METRONOME
+	db 17, METRONOME
 	db 21, DISABLE
-	db 28, DRAININGKISS
+	db 25, DRAININGKISS
 	db 34, WILL_O_WISP
 	db 40, CALM_MIND
 	db 50, DESTINY_BOND

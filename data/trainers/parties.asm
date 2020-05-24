@@ -3160,7 +3160,7 @@ SageGroup:
 	db 11, LAWNIE
 		dw $1111, $0040, $666A, $E190, $07A0
 		db BERRY
-		db BEAT_UP, MUD_SLAP, FLASH, SWIFT
+		db BEAT_UP, MUD_SLAP, DIG, SWIFT
 	db 11, FLUFFRUIT
 		dw $1040, $006F, $7D0D, $0700, $710D
 		db MIRACLE_SEED
@@ -3168,7 +3168,7 @@ SageGroup:
 	db 12, LAWNIE
 		dw $7EBA, $7EBA, $7EBA, $7EBA, $7EBA
 		db BERRY
-		db REST, SNORE, FLASH, MUD_SLAP
+		db REST, SNORE, FLASH, DIG
 	db -1 ; end
 
 	; SAGE (10)

@@ -3,9 +3,9 @@
 	
 	db 	 "It hides itself"
 	next "among fruit trees."
-    next "Small FLUFFRUIT are"
+    next "Small FLUFFRUIT"
  
-	page "often mistaken for"
-	next "APRICORNS and end"
-	next "up at #MARTS.@"
+	page "are often mistaken"
+	next "as APRICORNS and"
+	next "end up at MARTS.@"
 	

@@ -166,7 +166,7 @@ PokemonNames::
 	db "WORMEEK@@@" ;ledyba
 	db "WORMACHO@@"
 	db "GWUBBY@@@@"
-	db "GRUBBOID@@@"
+	db "GRUBBOID@@"
 	db "CROBAT@@@@"
 	db "CHINCHOU@@"
 	db "LANTURN@@@"

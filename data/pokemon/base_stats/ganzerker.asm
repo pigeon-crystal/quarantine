@@ -13,7 +13,7 @@
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/ganzerker/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
-	db GROWTH_SLIGHTLY_SLOW ; growth rate
+	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_WATER_1, EGG_MINERAL ; egg groups
 
 	; tm/hm learnset

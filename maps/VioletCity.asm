@@ -253,12 +253,20 @@ VioletCityGrampsText:
 	done
 
 VioletCityYoungsterText:
-	text "I saw a wiggly"
-	line "tree up ahead!"
+	text "Ouchies, ouchies!"
 
-	para "If you touch it,"
-	line "it squirms and"
-	cont "dances! Cool!"
+	para "I should have"
+	line "listened to my"
+	cont "sis when she said"
+	
+	para "not to mess"
+	line "with that"
+	cont "GANZERKER on"
+	cont "ROUTE 36."
+	
+	para "Its honk isn't"
+	line "worse than its"
+	cont "bite!"
 	done
 
 VioletCitySignText:

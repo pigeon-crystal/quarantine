@@ -9,8 +9,13 @@ VioletNicknameSpeechHouse_MapScripts:
 	db 0 ; callbacks
 
 VioletNicknameSpeechHouseTeacherScript:
-	jumptextfaceplayer VioletNicknameSpeechHouseTeacherText
-
+	faceplayer
+	opentext
+	special NameRater
+	waitbutton
+	closetext
+	end
+	
 VioletNicknameSpeechHouseLassScript:
 	jumptextfaceplayer VioletNicknameSpeechHouseLassText
 
@@ -23,18 +28,24 @@ VioletNicknameSpeechHouseBirdScript:
 	closetext
 	end
 
-VioletNicknameSpeechHouseTeacherText:
-	text "She uses the names"
-	line "of her favorite"
-	cont "things to eat."
+;VioletNicknameSpeechHouseTeacherText:
+;	text "She uses the names"
+;	line "of her favorite"
+;	cont "things to eat."
 
-	para "For the nicknames"
-	line "she gives to her"
-	cont "#MON, I mean."
-	done
+;	para "For the nicknames"
+;	line "she gives to her"
+;	cont "#MON, I mean."
+;	done
 
 VioletNicknameSpeechHouseLassText:
-	text "I call my HOATOT"
+	text "My mom learned"
+	line "how to rate names"
+	cont "from the NAME"
+	cont "RATER in"
+	cont "LAVENDER TOWN."
+	
+	para "I call my HOATOT"
 	line "DURIAN!"
 	done
 
@@ -54,6 +65,6 @@ VioletNicknameSpeechHouse_MapEvents:
 	db 0 ; bg events
 
 	db 3 ; object events
-	object_event  2,  3, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VioletNicknameSpeechHouseTeacherScript, -1
+	object_event  2,  3, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, VioletNicknameSpeechHouseTeacherScript, -1
 	object_event  6,  4, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, VioletNicknameSpeechHouseLassScript, -1
 	object_event  5,  2, SPRITE_BIRD, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, VioletNicknameSpeechHouseBirdScript, -1
