@@ -676,10 +676,10 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (13) ;route 32
 	db "PETER@", TRAINERTYPE_NORMAL
-	db  11, FURNIT
-	db  11, HOATOT
-	db  11, QWAIL
-	db  11, GOOSAPLING
+	db  12, FURNIT
+	db  12, HOATOT
+	db  12, QWAIL
+	db  12, GOOSAPLING
 	db -1 ; end
 
 	; BIRD_KEEPER (14)
@@ -3105,25 +3105,26 @@ SageGroup:
 	; SAGE (1) ;sprout
 	db "CHOW@", TRAINERTYPE_NORMAL
 	db  6, LAWNIE
-	db  6, LAWNIE
+	db  7, LAWNIE
 	db -1 ; end
 
 	; SAGE (2) ;sprout
 	db "NICO@", TRAINERTYPE_NORMAL
 	db  7, LAWNIE
-	db  6, EUKUB
+	db  7, EUKUB
 	db  7, HOATOT
 	db -1 ; end
 
 	; SAGE (3) ;sprout
 	db "JIN@", TRAINERTYPE_NORMAL
 	db  10, LAWNIE
-	db  8,  QWAIL
+	db  9,  QWAIL
 	db -1 ; end
 
 	; SAGE (4) ;sprout
 	db "TROY@", TRAINERTYPE_NORMAL
 	db  10, LAWNIE
+	db 	 8, BUZZLING
 	db  10, LAWNIE
 	db -1 ; end
 
@@ -3150,23 +3151,23 @@ SageGroup:
 
 	; SAGE (8) ;sprout
 	db "NEAL@", TRAINERTYPE_NORMAL
-	db  10, LAWNIE
 	db   9, FURNIT
 	db 	 9, GWUBBY
+	db  11, LAWNIE
 	db -1 ; end
 
 	; SAGE (9) ;sprout boss
 	db "LI@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 11, LAWNIE
-		dw $1111, $0040, $666A, $E190, $07A0
+		dw $11F1, $1F11, $666A, $E190, $710D
 		db BERRY
 		db BEAT_UP, MUD_SLAP, DIG, SWIFT
 	db 11, FLUFFRUIT
-		dw $1040, $006F, $7D0D, $0700, $710D
+		dw $BF1D, $AF6F, $7D1D, $B710, $710D
 		db MIRACLE_SEED
 		db ABSORB, GROWTH, GUST, ATTRACT
 	db 12, LAWNIE
-		dw $7EBA, $7EBA, $7EBA, $7EBA, $7EBA
+		dw $9EBA, $7EBA, $7EBA, $7EBA, $DEBA
 		db BERRY
 		db REST, SNORE, FLASH, DIG
 	db -1 ; end

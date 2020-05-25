@@ -1,6 +1,6 @@
 	db CADDISICLE ; 063
 
-	db  42,  59,  61,  50, 44,  61
+	db  45,  59,  61,  50, 44,  61
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, ICE ; type

@@ -270,8 +270,8 @@ FurnitEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, PECK
-	db 5, MUD_SLAP
-	db 7, SAND_ATTACK
+	db 4, SAND_ATTACK
+	db 7, MUD_SLAP
 	db 12, GUST
 	db 24, DIG
 	db 29, POWER_GEM
@@ -330,9 +330,10 @@ NomsterEvosAttacks:
 	db 16, HEADBUTT
 	db 19, ENDURE
 	db 21, QUICK_ATTACK
-	db 23, DIG
-	db 23, REST
-	db 29, CRUNCH
+	db 22, DIG
+	db 24, REST
+	db 27, ZEN_HEADBUTT
+	db 30, CRUNCH
 	db 33, HYPER_FANG
 	db 40, SUPER_FANG
 	db 0 ; no more level-up moves
@@ -349,7 +350,8 @@ NomsabreEvosAttacks:
 	db 22, HAMSTERKAUF
 	db 24, REST
 	db 28, DIG
-	db 35, CRUNCH
+	db 33, ZEN_HEADBUTT
+	db 37, CRUNCH
 	db 38, HYPER_FANG
 	db 41, SUPER_FANG
 	db 49, CURSE
@@ -638,9 +640,9 @@ EukubEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LICK
 	db 1, POISON_STING
-	db 1, SWEET_SCENT
+	db 2, SWEET_SCENT
 	db 6, LEER
-	db 9, VINE_WHIP
+	db 10, VINE_WHIP
 	db 14, POISONPOWDER
 	db 22, STOMP
 	db 23, FURY_SWIPES
@@ -1005,12 +1007,12 @@ LawnieEvosAttacks:
 	db EVOLVE_LEVEL, 21, ORGNOME
 	db 0 ; no more evolutions
 	db 1, POUND
-	db 1, GROWL
-	db 6, MUD_SLAP
+	db 4, GROWL
 	db 6, ABSORB
-	db 10, BITE
+	db 8, BITE
 	db 10, DIG
-	db 11, GROWTH
+	db 11, MUD_SLAP
+	db 14, GROWTH
 	db 16, MAGNITUDE
 	db 17, BEAT_UP
 	db 26, SNARL
@@ -2191,9 +2193,10 @@ CigerillarEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, STRING_SHOT
-	db 8, ABSORB
-	db 10, POISON_GAS
-	db 12, SMOKESCREEN
+	db 7, CONSTRICT
+	db 9, ABSORB
+	db 11, POISON_GAS
+	db 13, SMOKESCREEN
 	db 15, STUN_SPORE
 	db 18, MEGA_DRAIN
 	db 22, SYNTHESIS
@@ -2209,10 +2212,9 @@ TobacoonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, STRING_SHOT
-	db 1, REFLECT
-	db 8, ABSORB
-	db 10, POISON_GAS
-	db 12, SMOKESCREEN
+	db 7, CONSTRICT
+	db 9, ABSORB
+	db 11, POISON_GAS
 	db 15, STUN_SPORE
 	db 15, HARDEN
 	db 17, HAZE
@@ -2229,10 +2231,10 @@ TobacoonEvosAttacks:
 OkamikazeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, GROWL
-	db 1, REFLECT
-	db 10, POISON_GAS
-	db 12, REFLECT
+	db 1, STRING_SHOT
+	db 7, CONSTRICT
+	db 9, ABSORB
+	db 11, POISON_GAS
 	db 15, STUN_SPORE
 	db 19, PETAL_DANCE
 	db 23, SYNTHESIS
@@ -2269,7 +2271,7 @@ ScaulterEvosAttacks:
 	db 1, GROWL
 	db 1, SMOKESCREEN
 	db 12, EMBER
-	db 15, ROAR
+	db 14, ROAR
 	db 19, METAL_CLAW
 	db 21, QUICK_ATTACK
 	db 24, BEAT_UP
@@ -2307,7 +2309,7 @@ FursaEvosAttacks: ;orig totodile
 	db 1, LEER
 	db 4, LICK
 	db 7, BITE
-	db 13, WATER_GUN
+	db 11, WATER_GUN
 	db 20, SHARPEN
 	db 27, SCARY_FACE
 	db 35, SLASH
@@ -2324,7 +2326,7 @@ NanuquaEvosAttacks:
 	db 1, LEER
 	db 4, LICK
 	db 7, BITE
-	db 13, WATER_GUN
+	db 11, WATER_GUN
 	db 15, PURSUIT
 	db 17, SCARY_FACE
 	db 20, SHARPEN
@@ -2344,9 +2346,9 @@ UrskimoEvosAttacks:
 	db 1, LEER
 	db 1, WATER_GUN
 	db 4, LICK
-	db 13, WATER_GUN
-	db 16, SCARY_FACE
+	db 11, WATER_GUN
 	db 16, PURSUIT
+	db 17, SCARY_FACE
 	db 20, SHARPEN
 	db 21, BITE
 	db 28, BONE_RUSH
@@ -2359,6 +2361,7 @@ UrskimoEvosAttacks:
 	db 51, SKULL_BASH
 	db 55, RAIN_DANCE
 	db 60, BELLY_DRUM
+	db 66, SHADOW_BONE
 	db 0 ; no more level-up moves
 
 SentretEvosAttacks:
@@ -2560,33 +2563,34 @@ TranquielEvosAttacks:
 	db 1, TACKLE
 	db 7, LOVELY_KISS
 	db 11, SWEET_KISS
-	db 13, GUST
+	db 14, GUST
 	db 17, METRONOME
-	db 21, DISABLE
-	db 25, DRAININGKISS
+	db 22, DISABLE
+	db 27, DRAININGKISS
 	db 34, WILL_O_WISP
-	db 40, CALM_MIND
-	db 50, DESTINY_BOND
-	db 55, RECOVER
+	db 41, CALM_MIND
+	db 51, DESTINY_BOND
+	db 55, MOONLIGHT
 	db 60, MOONBLAST
 	db 0 ; no more level-up moves
 
 AllseeraphEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CHARM
-	db 6, TACKLE
-	db 10, LOVELY_KISS
-	db 10, SWEET_KISS
-	db 13, GUST
+	db 1, TACKLE
+	db 7, LOVELY_KISS
+	db 11, SWEET_KISS
+	db 14, GUST
 	db 16, METRONOME
-	db 21, DISABLE
-	db 28, DRAININGKISS
+	db 22, DISABLE
+	db 27, DRAININGKISS
 	db 34, WILL_O_WISP
-	db 40, CALM_MIND
+	db 41, CALM_MIND
 	db 45, MEAN_LOOK
-	db 50, DESTINY_BOND
-	db 55, RECOVER
+	db 51, DESTINY_BOND
+	db 55, MOONLIGHT
 	db 60, MOONBLAST
+	db 61, GLARE
 	db 0 ; no more level-up moves
 
 NatuEvosAttacks:
@@ -2911,12 +2915,23 @@ UnownEvosAttacks:
 	db 35, PSYCHIC_M
 	db 0 ; no more level-up moves
 
-WobbuffetEvosAttacks:
+WobbuffetEvosAttacks:  				;prep for Respectre
 	db 0 ; no more evolutions
-	db 1, COUNTER
-	db 1, MIRROR_COAT
-	db 1, SAFEGUARD
-	db 1, DESTINY_BOND
+	db 1, SPITE
+	db 8, ROCK_THROW
+	db 12, LICK
+	db 14, HARDEN
+	db 17, CONFUSE_RAY
+	db 22, NIGHT_SHADE
+	db 29, ANCIENTPOWER
+	db 31, WILL_O_WISP
+	db 35, BODY_SLAM
+	db 41, ROCK_SLIDE
+	db 44, AMNESIA
+	db 47, SHADOW_BONE
+	db 51, PAIN_SPLIT
+	db 55, RAPID_SPIN
+	db 60, DESTINY_BOND
 	db 0 ; no more level-up moves
 
 GirafarigEvosAttacks:

@@ -3,8 +3,8 @@
 
 	db   "This #MON hangs"
 	next "on its favorite"
-	next "branch, waiting for"
+	next "branch, waiting"
 
-	page "new leaves to grow"
-	next "rather than seek"
-	next "out a new ones.@"
+	page "for new leaves to"
+	next "grow rather than"
+	next "find new ones.@"

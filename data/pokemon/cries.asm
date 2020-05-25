@@ -80,7 +80,7 @@ PokemonCries::
 	mon_cry CRY_VENONAT,     238,  383 ; TENTACRUEL
 	mon_cry CRY_GOLEM,       600,  144 ; DOLMITE
 	mon_cry CRY_GOLEM,       109,  200 ; DOLMESA
-	mon_cry CRY_GOLEM,      -109,  297 ; CAIRNIVORE
+	mon_cry CRY_GOLEM,      -169,  401 ; CAIRNIVORE
 	mon_cry CRY_WEEPINBELL,    0,  256 ; PONYTA
 	mon_cry CRY_WEEPINBELL,   32,  320 ; RAPIDASH
 	mon_cry CRY_SLOWPOKE,      0,  256 ; SLOWPOKE

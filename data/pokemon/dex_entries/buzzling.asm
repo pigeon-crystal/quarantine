@@ -5,7 +5,7 @@
 	next "sinister, horrific"
     next "internal changes"
  
-	page "are occuring. It"
+	page "are occurring. It"
 	next "pleads to stay"
-	next "unvolved.@"
+	next "unevolved.@"
 	
