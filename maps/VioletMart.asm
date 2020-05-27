@@ -35,15 +35,23 @@ VioletMartGrannyText:
 	done
 
 VioletMartCooltrainerMText:
-	text "#MON can hold"
-	line "items like POTION"
-	cont "and ANTIDOTE."
+	text "…Sigh…"
 
-	para "But they don't"
-	line "appear to know how"
+	para "FALKNER got me"
+	line "good, again."
+	
+	para "Stocking up on"
+	line "X-ACCURACY isn't"
+	cont "enough."
 
-	para "to use manmade"
-	line "items."
+	para "I think I'll try"
+	line "to get that HM"
+	cont "from SPROUT TOWER."
+	
+	para "I hear it's"
+	line "super-effective on"
+	cont "flying type"
+	cont "#MON."
 	done
 
 VioletMart_MapEvents:

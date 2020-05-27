@@ -187,7 +187,7 @@ EvosAttacksPointers::
 	dw AzumarillEvosAttacks
 	dw SudowoodoEvosAttacks
 	dw PolitoedEvosAttacks
-	dw HoppipEvosAttacks
+	dw ShabbycatEvosAttacks
 	dw SkiploomEvosAttacks
 	dw JumpluffEvosAttacks
 	dw AipomEvosAttacks

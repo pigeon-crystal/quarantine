@@ -52,16 +52,16 @@ MartCherrygroveDex:
 
 MartViolet:
 	db 10 ; # items
+	db TM_FALSE_SWIPE
 	db POKE_BALL
 	db POTION
 	db ESCAPE_ROPE
 	db ANTIDOTE
 	db PARLYZ_HEAL
 	db AWAKENING
+	db X_ACCURACY
 	db X_DEFEND
 	db X_ATTACK
-	db X_SPEED
-	db TM_FALSE_SWIPE
 	db -1 ; end
 
 MartAzalea:
@@ -130,11 +130,13 @@ MartGoldenrod4F:
 	db -1 ; end
 
 MartGoldenrod5F:
-	db 4 ; # items
+	db 6 ; # items
+	db TM_SNARL
 	db TM_THUNDERPUNCH
 	db TM_FIRE_PUNCH
 	db TM_ICE_PUNCH
 	db TM_PSYCH_UP
+	db TM_FALSE_SWIPE
 	db -1 ; end
 
 MartOlivine:
@@ -285,12 +287,13 @@ MartCeladon2F2:
 	db -1 ; end
 
 MartCeladon3F:
-	db 5 ; # items
+	db 6 ; # items
 	db TM_FIRE_PUNCH
 	db TM_ICE_PUNCH
 	db TM_THUNDERPUNCH
 	db TM_PSYCH_UP
 	db TM_PROTECT
+	db TM_SNARL
 	db -1 ; end
 
 MartCeladon4F:

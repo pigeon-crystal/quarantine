@@ -88,7 +88,7 @@ AlphabeticalPokedexOrder:
 	db HOATOXIC
 	db HO_OH
 	db HOOTHOOT
-	db HOPPIP
+	db SHABBYCAT
 	db HORNAMPA
 	db HORSEA
 	db HOUNDOOM

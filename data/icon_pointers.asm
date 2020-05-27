@@ -28,6 +28,15 @@ IconPointers:
 	dw HoatotIcon
 	dw HoatoxicIcon
 	dw NoxromaeusIcon
+	dw BuzzlingIcon
+	dw HivemaimIcon
+	dw VazzinateIcon
+	dw QwailIcon
+	dw QwallopIcon
+	dw CaddisicleIcon
+	dw ShabbycatIcon
+	dw PurrdleIcon
+	dw MeowtainIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon
@@ -62,4 +71,9 @@ IconPointers:
 	dw GnomercyIcon
 	dw GoosaplingIcon
 	dw GanzerkerIcon
+	dw GwubbyIcon
+	dw GrubboidIcon
+	dw DolmiteIcon
+	dw DolmesaIcon
+	dw CairnivoreIcon
 	

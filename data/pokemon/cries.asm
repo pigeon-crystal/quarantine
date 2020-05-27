@@ -74,8 +74,8 @@ PokemonCries::
 	mon_cry CRY_GROWLITHE,    72,  224 ; MACHOKE
 	mon_cry CRY_GROWLITHE,     8,  320 ; MACHAMP
 	mon_cry CRY_PSYDUCK,    1111,  129 ; LAWNIE
-	mon_cry CRY_WEEPINBELL,   68,  160 ; ORGNOME
-	mon_cry CRY_WEEPINBELL, -102,  333 ; VICTREEBEL
+	mon_cry CRY_PSYDUCK,      68,  160 ; ORGNOME
+	mon_cry CRY_PSYDUCK,    -102,  333 ; VICTREEBEL
 	mon_cry CRY_VENONAT,       0,  256 ; TENTACOOL
 	mon_cry CRY_VENONAT,     238,  383 ; TENTACRUEL
 	mon_cry CRY_GOLEM,       600,  144 ; DOLMITE
@@ -169,8 +169,8 @@ PokemonCries::
 	mon_cry CRY_SENTRET,     107,  258 ; FURRET
 	mon_cry CRY_HOOTHOOT,    145,  216 ; HOOTHOOT
 	mon_cry CRY_HOOTHOOT,      0,  416 ; NOCTOWL
-	mon_cry CRY_LEDYBA,      787,  200 ; WORMEEK ;ORIG ledyba
-	mon_cry CRY_GROWLITHE,   -77,  255 ; WORMACHO
+	mon_cry CRY_LEDYBA,      420,  104 ; WORMEEK ;ORIG ledyba
+	mon_cry CRY_GROWLITHE,   -77,  256 ; WORMACHO
 	mon_cry CRY_WEEDLE,      444,  166 ; GWUBBY   ;orig spinarak
 	mon_cry CRY_SPINARAK,   -166,  444 ; GRUBBOID
 	mon_cry CRY_SQUIRTLE,    -16,  320 ; CROBAT
@@ -191,9 +191,9 @@ PokemonCries::
 	mon_cry CRY_MARILL,      182,  384 ; AZUMARILL
 	mon_cry CRY_CLEFFA,     3904,  384 ; SUDOWOODO
 	mon_cry CRY_CLEFFA,     -675,  456 ; POLITOED
-	mon_cry CRY_CLEFFA,       59,  200 ; HOPPIP
-	mon_cry CRY_CLEFFA,       39,  312 ; SKIPLOOM
-	mon_cry CRY_CLEFFA,        0,  384 ; JUMPLUFF
+	mon_cry CRY_CLEFAIRY,    100,  99 ; SHABBYCAT orig HOPPIP
+	mon_cry CRY_CLEFAIRY,    222,  198 ; SKIPLOOM
+	mon_cry CRY_CLEFFA,      600,  384 ; JUMPLUFF
 	mon_cry CRY_AIPOM,       -81,  232 ; AIPOM
 	mon_cry CRY_MARILL,      299,  184 ; SUNKERN
 	mon_cry CRY_SUNFLORA,    -32,  384 ; SUNFLORA
@@ -238,7 +238,7 @@ PokemonCries::
 	mon_cry CRY_SENTRET,      72,  560 ; PHANPY
 	mon_cry CRY_DONPHAN,       0,  416 ; DONPHAN
 	mon_cry CRY_GIRAFARIG,   115,  576 ; PORYGON2
-	mon_cry CRY_RHYDON,        0,    0 ; MISSINGNO
+	mon_cry CRY_NIDORAN_M,     1,    1 ; MISSINGNO
 	mon_cry CRY_PICHU,      -538,  496 ; SMEARGLE
 	mon_cry CRY_AIPOM,        44,  264 ; TYROGUE
 	mon_cry CRY_SLUGMA,        0,  256 ; HITMONTOP
@@ -256,7 +256,7 @@ PokemonCries::
 	mon_cry CRY_TYPHLOSION,    0,  256 ; LUGIA
 	mon_cry CRY_AIPOM,         0,  384 ; HO_OH
 	mon_cry CRY_ENTEI,       330,  273 ; CELEBI
-	mon_cry CRY_AIPOM,     	   0,  384 ; PILFOARD
+	mon_cry CRY_RAIKOU,      345,  234 ; PILFOARD
 	mon_cry CRY_NIDORAN_M,     0,    0 ; 253
 	mon_cry CRY_NIDORAN_M,     0,    0 ; 254
 	mon_cry CRY_NIDORAN_M,     0,    0 ; 255

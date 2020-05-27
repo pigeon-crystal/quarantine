@@ -186,7 +186,7 @@ PokedexDataPointerTable:
 	dw AzumarillPokedexEntry
 	dw SudowoodoPokedexEntry
 	dw PolitoedPokedexEntry
-	dw HoppipPokedexEntry
+	dw ShabbycatPokedexEntry
 	dw SkiploomPokedexEntry
 	dw JumpluffPokedexEntry
 	dw AipomPokedexEntry

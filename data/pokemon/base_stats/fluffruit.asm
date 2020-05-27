@@ -6,7 +6,7 @@
 	db GRASS, FLYING ; type
 	db 160 ; catch rate
 	db 52 ; base exp
-	db BERRY, NO_ITEM ; items
+	db BERRY, PNK_APRICORN ; items
 	db GENDER_F25 ; gender ratio
 	db 100 ; unknown 1
 	db 20 ; step cycles to hatch

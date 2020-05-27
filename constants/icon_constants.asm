@@ -28,6 +28,15 @@
 	const ICON_HOATOT
 	const ICON_HOATOXIC
 	const ICON_NOXROMAEUS
+	const ICON_BUZZLING
+	const ICON_HIVEMAIM
+	const ICON_VAZZINATE
+	const ICON_QWAIL
+	const ICON_QWALLOP
+	const ICON_CADDISICLE
+	const ICON_SHABBYCAT
+	const ICON_PURRDLE
+	const ICON_MEOWTAIN
 	const ICON_SQUIRTLE ;START OF BANK 2
 	const ICON_BULBASAUR
 	const ICON_CHARMANDER
@@ -62,6 +71,11 @@
 	const ICON_GNOMERCY
 	const ICON_GOOSAPLING
 	const ICON_GANZERKER
+	const ICON_GWUBBY
+	const ICON_GRUBBOID
+	const ICON_DOLMITE
+	const ICON_DOLMESA
+	const ICON_CAIRNIVORE
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

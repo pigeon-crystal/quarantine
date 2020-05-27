@@ -67,7 +67,7 @@ NewPokedexOrder:
 	db LAWNIE
 	db ORGNOME
 	db GNOMERCY
-	db HOPPIP
+	db SHABBYCAT
 	db SKIPLOOM
 	db JUMPLUFF
 	db PARAS

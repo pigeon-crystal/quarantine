@@ -36,32 +36,32 @@ JohtoGrassWildMons:
 	map_id SPROUT_TOWER_3F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 6, NOMSTER
-	db 6, NOMSTER
+	db 7, NOMSTER
+	db 7, NOMSTER
 	db 7, FLUFFRUIT
 	db 7, FLUFFRUIT
-	db 7, LAWNIE
-	db 7, LAWNIE
-	db 7, LAWNIE
-	db 7, LAWNIE
+	db 8, LAWNIE
+	db 8, LAWNIE
+	db 8, LAWNIE
+	db 8, LAWNIE
 	; day
-	db 6, NOMSTER
-	db 6, NOMSTER
+	db 7, NOMSTER
+	db 7, NOMSTER
 	db 7, NOMSTER
 	db 7, FLUFFRUIT
-	db 7, LAWNIE
-	db 7, LAWNIE
-	db 7, LAWNIE
-	db 7, LAWNIE
+	db 8, LAWNIE
+	db 8, LAWNIE
+	db 8, LAWNIE
+	db 8, LAWNIE
 	; nite
-	db 6, LAWNIE
-	db 6, LAWNIE
+	db 7, LAWNIE
+	db 7, LAWNIE
 	db 7, FLUFFRUIT
 	db 7, FLUFFRUIT
-	db 7, FLUFFRUIT
-	db 7, NOMSTER
-	db 7, NOMSTER
-	db 7, NOMSTER
+	db 8, FLUFFRUIT
+	db 8, NOMSTER
+	db 8, NOMSTER
+	db 8, NOMSTER
 
 	map_id TIN_TOWER_2F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
@@ -1356,11 +1356,11 @@ JohtoGrassWildMons:
 	map_id ROUTE_30 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, QWAIL
-	db 3, BUZZLING
+	db 4, QWAIL
+	db 4, BUZZLING
 	db 4, BUZZLING
 	db 4, FURNIT
-	db 3, HOATOT
+	db 4, HOATOT
 	db 4, LAWNIE
 	db 4, LAWNIE
 	db 5, WORMEEK
@@ -1375,10 +1375,10 @@ JohtoGrassWildMons:
 	db 5, HOATOT
 	; nite
 	db 4, BUZZLING
-	db 3, BUZZLING
+	db 4, BUZZLING
 	db 4, LAWNIE
 	db 4, GWUBBY
-	db 3, LAWNIE
+	db 4, LAWNIE
 	db 4, FURNIT
 	db 4, QWAIL
 	db 5, QWAIL
@@ -1387,91 +1387,91 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 5, WORMEEK
-	db 4, BUZZLING
+	db 5, BUZZLING
 	db 5, FURNIT
 	db 5, HOATOT
 	db 6, BUZZLING
 	db 5, LAWNIE
 	db 6, LAWNIE
-	db 6, WORMEEK
+	db 7, WORMEEK
 	; day
 	db 5, FURNIT
-	db 4, BUZZLING
+	db 5, BUZZLING
 	db 5, FURNIT
 	db 5, BUZZLING
 	db 6, HOATOT
 	db 5, LAWNIE
 	db 6, LAWNIE
-	db 6, LAWNIE
+	db 7, LAWNIE
 	; nite
 	db 5, BUZZLING
-	db 4, FLUFFRUIT
+	db 5, FLUFFRUIT
 	db 5, LAWNIE
 	db 6, GWUBBY
 	db 5, FURNIT
 	db 5, LAWNIE
 	db 6, FLUFFRUIT
-	db 6, GWUBBY
+	db 7, GWUBBY
 
 	map_id ROUTE_32 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 7, WORMEEK
-	db 7, NOMSTER
-	db 7, NOMSTER
-	db 6, EUKUB
-	db 7, FURNIT
-	db 7, GWUBBY
-	db 7, FURNIT
-	db 8, GOOSAPLING
+	db 9, WORMEEK
+	db 9, NOMSTER
+	db 9, NOMSTER
+	db 9, EUKUB
+	db 10, FURNIT
+	db 10, GWUBBY
+	db 10, FURNIT
+	db 11, GOOSAPLING
 	; day
-	db 7, NOMSTER
-	db 7, WORMEEK
-	db 7, GOOSAPLING
-	db 6, NOMSTER
-	db 7, FURNIT
-	db 7, FURNIT
-	db 7, GWUBBY
-	db 8, GWUBBY
+	db 9, NOMSTER
+	db 9, WORMEEK
+	db 9, GOOSAPLING
+	db 9, NOMSTER
+	db 10, FURNIT
+	db 10, FURNIT
+	db 10, GWUBBY
+	db 11, GWUBBY
 	; nite
-	db 7, GWUBBY
-	db 7, NOMSTER
-	db 7, FLUFFRUIT
-	db 7, EUKUB
-	db 7, GOOSAPLING
-	db 7, FLUFFRUIT
-	db 7, FLUFFRUIT
-	db 8, NOMSTER
+	db 9, GWUBBY
+	db 9, NOMSTER
+	db 9, FLUFFRUIT
+	db 8, EUKUB
+	db 10, GOOSAPLING
+	db 8, FLUFFRUIT
+	db 10, FLUFFRUIT
+	db 10, GOOSAPLING
 
 	map_id ROUTE_33 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 6, NOMSTER
-	db 6, QWAIL
-	db 6, DOLMITE
-	db 6, HOPPIP
-	db 7, EKANS
-	db 7, HOPPIP
-	db 7, HOPPIP
-	db 8, HOPPIP
+	db 12, NOMSTER
+	db 12, QWAIL
+	db 12, DOLMITE
+	db 12, SHABBYCAT
+	db 12, QWAIL
+	db 12, SHABBYCAT
+	db 12, SHABBYCAT
+	db 13, SHABBYCAT
 	; day
-	db 6, NOMSTER
-	db 6, QWAIL
-	db 6, DOLMITE
-	db 6, HOPPIP
-	db 7, EKANS
-	db 7, HOPPIP
-	db 7, HOPPIP
-	db 8, HOPPIP
+	db 12, NOMSTER
+	db 12, QWAIL
+	db 12, DOLMITE
+	db 12, SHABBYCAT
+	db 12, QWAIL
+	db 12, SHABBYCAT
+	db 12, SHABBYCAT
+	db 13, SHABBYCAT
 	; nite
-	db 6, NOMSTER
-	db 6, ZUBAT
-	db 6, DOLMITE
-	db 6, ZUBAT
-	db 7, NOMSTER
-	db 7, NOMSTER
-	db 7, NOMSTER
-	db 8, NOMSTER
+	db 12, DOLMITE
+	db 12, NOMSTER
+	db 12, FLUFFRUIT
+	db 12, SHABBYCAT
+	db 12, SHABBYCAT
+	db 12, SHABBYCAT
+	db 12, SHABBYCAT
+	db 13, FLUFFRUIT
 
 	map_id ROUTE_34 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1536,32 +1536,32 @@ JohtoGrassWildMons:
 	map_id ROUTE_36 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, WORMEEK
-	db 5, HOATOT
-	db 5, HOATOT
-	db 5, GOOSAPLING
-	db 5, EUKUB
-	db 6, EUKUB
-	db 6, GOOSAPLING
-	db 7, WORMEEK
-	; day
-	db 5, FURNIT
-	db 5, WORMEEK
-	db 5, LAWNIE
-	db 5, GOOSAPLING
-	db 5, EUKUB
+	db 6, WORMEEK
 	db 6, HOATOT
-	db 6, GOOSAPLING
+	db 6, HOATOT
+	db 7, GOOSAPLING
+	db 6, EUKUB
 	db 7, EUKUB
+	db 7, GOOSAPLING
+	db 8, WORMEEK
+	; day
+	db 6, FURNIT
+	db 6, WORMEEK
+	db 6, LAWNIE
+	db 7, GOOSAPLING
+	db 6, EUKUB
+	db 7, HOATOT
+	db 7, GOOSAPLING
+	db 8, EUKUB
 	; nite
-	db 5, GWUBBY
-	db 5, EUKUB
-	db 5, EUKUB
-	db 5, FLUFFRUIT
-	db 5, FURNIT
-	db 5, EUKUB
-	db 5, FLUFFRUIT
-	db 7, GWUBBY
+	db 6, GWUBBY
+	db 6, EUKUB
+	db 6, EUKUB
+	db 7, FLUFFRUIT
+	db 6, FURNIT
+	db 7, EUKUB
+	db 7, FLUFFRUIT
+	db 8, GWUBBY
 
 	map_id ROUTE_37 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

@@ -185,17 +185,17 @@ JOHTO_POKEMON EQU const_value
 	const HOOTHOOT   ; a3
 	const NOCTOWL    ; a4
 	const WORMEEK    ; a5 ledyba
-	const WORMACHO     ; a6
+	const WORMACHO   ; a6
 	const GWUBBY     ; a7
-	const GRUBBOID    ; a8
+	const GRUBBOID   ; a8
 	const CROBAT     ; a9
 	const CHINCHOU   ; aa
 	const LANTURN    ; ab
 	const PICHU      ; ac
 	const CLEFFA     ; ad
 	const IGGLYBUFF  ; ae
-	const TRANQUIEL     ; af
-	const ALLSEERAPH    ; b0
+	const TRANQUIEL  ; af
+	const ALLSEERAPH ; b0
 	const NATU       ; b1
 	const XATU       ; b2
 	const MAREEP     ; b3
@@ -206,7 +206,7 @@ JOHTO_POKEMON EQU const_value
 	const AZUMARILL  ; b8
 	const SUDOWOODO  ; b9
 	const POLITOED   ; ba
-	const HOPPIP     ; bb
+	const SHABBYCAT  ; bb
 	const SKIPLOOM   ; bc
 	const JUMPLUFF   ; bd
 	const AIPOM      ; be

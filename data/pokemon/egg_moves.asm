@@ -218,6 +218,7 @@ MachopEggMoves:
 	db -1 ; end
 
 LawnieEggMoves:
+	db MEGA_DRAIN
 	db SWORDS_DANCE
 	db ENCORE
 	db REFLECT
@@ -591,8 +592,7 @@ SudowoodoEggMoves:
 	db SELFDESTRUCT
 	db -1 ; end
 
-HoppipEggMoves:
-	db CONFUSION
+ShabbycatEggMoves:
 	db GROWL
 	db ENCORE
 	db DOUBLE_EDGE

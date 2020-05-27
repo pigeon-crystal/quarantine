@@ -185,7 +185,7 @@ PokemonNames::
 	db "AZUMARILL@"
 	db "SUDOWOODO@"
 	db "POLITOED@@"
-	db "HOPPIP@@@@"
+	db "SHABBYCAT@"
 	db "SKIPLOOM@@"
 	db "JUMPLUFF@@"
 	db "AIPOM@@@@@"

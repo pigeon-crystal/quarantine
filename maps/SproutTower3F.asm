@@ -212,11 +212,11 @@ SproutTowerRivalUsedEscapeRopeText:
 
 SageLiSeenText:
 	text "How do you do,"
-	line "young traveller?"
+	line "young trainer?"
 
 	para "Have you enjoyed"
 	line "your battles on"
-	cont "your path to"
+	cont "the path to"
 	cont "reach me?"
 	
 	para "You may wonder"
@@ -262,14 +262,26 @@ SageLiTakeThisFlashText:
 	done
 
 SageLiFlashExplanationText:
-	text "FLASH illuminates"
-	line "even the darkest"
-	cont "of all places."
+	text "In battle, FLASH"
+	line "deals damage while"
+	cont "lowering the"
+	cont "ACCURACY of your"
+	cont "foe."
+	
+	para "It is much like"
+	line "the move MUD-SLAP"
+	cont "which FALKNER"
+	cont "uses."
 	
 	para "It may help you"
-	line "against FALKNER,"
-	cont "too."
+	line "in your battle"
+	cont "against him."
 
+	para "Outside of battle,"
+	line "FLASH illuminates"
+	cont "even the darkest"
+	cont "of all places."
+	
 	para "But to use it out"
 	line "of battle, you"
 

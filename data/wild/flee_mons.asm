@@ -2,16 +2,7 @@ FleeMons:
 ; referenced by TryEnemyFlee and FastBallMultiplier
 
 SometimesFleeMons:
-	db MAGNEMITE
-	db GRIMER
-	db TANGELA
-	db MR__MIME
-	db EEVEE
-	db PORYGON
-	db DRATINI
-	db DRAGONAIR
 	db WORMEEK
-	db UMBREON
 	db UNOWN
 	db SNUBBULL
 	db HERACROSS
@@ -19,13 +10,7 @@ SometimesFleeMons:
 
 OftenFleeMons:
 	db CUBONE
-	db ARTICUNO
-	db ZAPDOS
-	db MOLTRES
-	db QUAGSIRE
-	db DELIBIRD
-	db PHANPY
-	db TEDDIURSA
+	db SHABBYCAT
 	db -1
 
 AlwaysFleeMons:

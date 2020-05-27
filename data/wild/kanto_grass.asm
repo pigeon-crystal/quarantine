@@ -485,22 +485,22 @@ KantoGrassWildMons:
 	map_id ROUTE_11 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 14, HOPPIP
+	db 14, SHABBYCAT
 	db 13, NOMSABRE
 	db 15, MAGNEMITE
 	db 16, FURDOBA
 	db 16, NOMSTER
-	db 16, HOPPIP
-	db 16, HOPPIP
+	db 16, SHABBYCAT
+	db 16, SHABBYCAT
 	db 20, MAGNEMITE
 	; day
-	db 14, HOPPIP
+	db 14, SHABBYCAT
 	db 13, NOMSABRE
 	db 15, MAGNEMITE
 	db 16, FURDOBA
 	db 16, NOMSTER
-	db 16, HOPPIP
-	db 16, HOPPIP
+	db 16, SHABBYCAT
+	db 16, SHABBYCAT
 	db 20, MAGNEMITE
 	; nite
 	db 14, DROWZEE
@@ -518,18 +518,18 @@ KantoGrassWildMons:
 	db 23, NIDORINO
 	db 23, NIDORINA
 	db 25, FURDOBA
-	db 25, HOPPIP
-	db 27, HOPPIP
-	db 27, HOPPIP
+	db 25, SHABBYCAT
+	db 27, SHABBYCAT
+	db 27, SHABBYCAT
 	db 25, CHANSEY
 	db 26, CHANSEY
 	; day
 	db 23, NIDORINO
 	db 23, NIDORINA
 	db 25, FURDOBA
-	db 25, HOPPIP
-	db 27, HOPPIP
-	db 27, HOPPIP
+	db 25, SHABBYCAT
+	db 27, SHABBYCAT
+	db 27, SHABBYCAT
 	db 25, CHANSEY
 	db 26, CHANSEY
 	; nite
@@ -548,7 +548,7 @@ KantoGrassWildMons:
 	db 26, NIDORINO
 	db 26, NIDORINA
 	db 28, FURDOBA
-	db 28, HOPPIP
+	db 28, SHABBYCAT
 	db 30, SKIPLOOM
 	db 30, SKIPLOOM
 	db 28, CHANSEY
@@ -557,7 +557,7 @@ KantoGrassWildMons:
 	db 26, NIDORINO
 	db 26, NIDORINA
 	db 28, FURDOBA
-	db 28, HOPPIP
+	db 28, SHABBYCAT
 	db 30, SKIPLOOM
 	db 30, SKIPLOOM
 	db 28, CHANSEY
@@ -578,18 +578,18 @@ KantoGrassWildMons:
 	db 23, NIDORINO
 	db 23, NIDORINA
 	db 25, FURDOBA
-	db 25, HOPPIP
-	db 27, HOPPIP
-	db 27, HOPPIP
+	db 25, SHABBYCAT
+	db 27, SHABBYCAT
+	db 27, SHABBYCAT
 	db 25, CHANSEY
 	db 30, CHANSEY
 	; day
 	db 23, NIDORINO
 	db 23, NIDORINA
 	db 25, FURDOBA
-	db 25, HOPPIP
-	db 27, HOPPIP
-	db 27, HOPPIP
+	db 25, SHABBYCAT
+	db 27, SHABBYCAT
+	db 27, SHABBYCAT
 	db 25, CHANSEY
 	db 30, CHANSEY
 	; nite

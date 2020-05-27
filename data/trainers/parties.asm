@@ -51,11 +51,27 @@ WhitneyGroup:
 
 BugsyGroup:
 	; BUGSY (1)
-	db "BUGSY@", TRAINERTYPE_ITEM_MOVES
-	db 20, BUZZLING,   EVIOLITE,    DOUBLE_TEAM, TOXIC, FURY_CUTTER, HEADBUTT
-	db 17, HIVEMAIM,   BERRY, 		FURY_CUTTER, STRING_SHOT, HARDEN, NO_MOVE
-	db 17, GWUBBY,     GOLD_BERRY, 	ROCK_SMASH, FURY_CUTTER, DEFENSE_CURL, ROLLOUT
-	db 16, SCYTHER,    BERRY, 		QUICK_ATTACK, LEER, FURY_CUTTER, NO_MOVE
+	db "BUGSY@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
+	db 25, BUZZLING  
+		db PERFECT_DV, PERFECT_DV
+		dw PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, $17fa
+		db EVIOLITE
+		db DOUBLE_TEAM, TOXIC, FURY_CUTTER, HEADBUTT
+	db 19, HIVEMAIM   ;REPLACE W BERRY SNAKE
+		db $b9, $9b 
+		dw $f1ef, $9999, $f1ef, $999f, $999f
+		db BERRY
+		db FURY_CUTTER, STRING_SHOT, HARDEN, NO_MOVE
+	db 19, WORMEEK	   ;REPLACE W EELKIE
+		db $b9, $9b 
+		dw $f1ef, $9999, $f1ef, $999f, $999f
+		db BERRY
+		db FURY_CUTTER, STRING_SHOT, NO_MOVE, NO_MOVE
+	db 20, ORGNOME
+		db PERFECT_DV, PERFECT_DV
+		dw PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, $17fa
+		db BERRY
+	    dw BUBBLEBEAM, MEGA_DRAIN, MUD_SLAP, GROWTH
 	db -1 ; end
 
 MortyGroup:
@@ -70,7 +86,7 @@ MortyGroup:
 PryceGroup:
 	; PRYCE (1)
 	db "PRYCE@", TRAINERTYPE_MOVES
-	db 27, CADDISICLE,       HEADBUTT, ICY_WIND, AURORA_BEAM, REST
+	db 27, CADDISICLE, HEADBUTT, ICY_WIND, AURORA_BEAM, REST
 	db 29, JADDICE,    HEADBUTT, ICY_WIND, AURORA_BEAM, REST
 	db 31, PILOSWINE,  ICY_WIND, FURY_SWIPES, MIST, BLIZZARD
 	db -1 ; end
@@ -115,25 +131,25 @@ Rival1Group:
 	db  5, FURSA
 	db -1 ; end
 
-	; RIVAL1 (4)
-	db "?@", TRAINERTYPE_NORMAL
-	db 12, FLUFFRUIT
-	db 14, ZUBAT
-	db 16, TOBACOON
+	; RIVAL1 (4) Azalea, chose Fursa
+	db "?@", TRAINERTYPE_ITEM_MOVES
+	db 19, ARASBESTOS, 	POISON_BARB, 	SPIKES, ROCK_THROW, CONSTRICT, POISON_STING
+	db 20, GOOSAPLING, 	NO_ITEM, 		BUBBLE, WRAP, SUPERSONIC, ROCK_THROW
+	db 21, TOBACOON, 	GOLD_BERRY, 	MEGA_DRAIN, STUN_SPORE, CONSTRICT, HAZE
 	db -1 ; end
 
-	; RIVAL1 (5)
-	db "?@", TRAINERTYPE_NORMAL
-	db 12, FLUFFRUIT
-	db 14, ZUBAT
-	db 16, SCAULTER
+	; RIVAL1 (5) Azalea, chose cigerillar
+	db "?@", TRAINERTYPE_ITEM_MOVES
+	db 19, ARASBESTOS, 	POISON_BARB, 	SPIKES, ROCK_THROW, CONSTRICT, POISON_STING
+	db 20, KOAGAN, 		NO_ITEM, 		STOMP, CUT, POISONPOWDER, POISON_STING
+	db 21, SCAULTER, 	GOLD_BERRY,	 	ROAR, EMBER, METAL_CLAW, QUICK_ATTACK
 	db -1 ; end
 
-	; RIVAL1 (6)
-	db "?@", TRAINERTYPE_NORMAL
-	db 12, FLUFFRUIT
-	db 14, ZUBAT
-	db 16, NANUQUA
+	; RIVAL1 (6) Azalea, chose Radeon
+	db "?@", TRAINERTYPE_ITEM_MOVES
+	db 19, ARASBESTOS, 	POISON_BARB, 	SPIKES, ROCK_THROW, CONSTRICT, POISON_STING
+	db 20, GOOSAPLING, 	NO_ITEM, 		BUBBLE, WRAP, SUPERSONIC, ROCK_THROW
+	db 21, NANUQUA, 	GOLD_BERRY, 	SHARPEN, PURSUIT, ICY_WIND, WATER_GUN
 	db -1 ; end
 
 	; RIVAL1 (7)
@@ -375,13 +391,13 @@ YoungsterGroup:
 
 	; YOUNGSTER (3) ;route 32
 	db "ALBERT@", TRAINERTYPE_NORMAL
-	db  12, NOMSTER
-	db  12, ZUBAT
+	db  13, NOMSTER
+	db  13, FLUFFRUIT
 	db -1 ; end
 
 	; YOUNGSTER (4) ;route 32
 	db "GORDON@", TRAINERTYPE_NORMAL
-	db 10, WOOPER
+	db 15, EUKUB
 	db -1 ; end
 
 	; YOUNGSTER (5)
@@ -678,8 +694,8 @@ BirdKeeperGroup:
 	db "PETER@", TRAINERTYPE_NORMAL
 	db  12, FURNIT
 	db  12, HOATOT
-	db  12, QWAIL
-	db  12, GOOSAPLING
+	db  13, QWAIL
+	db  13, GOOSAPLING
 	db -1 ; end
 
 	; BIRD_KEEPER (14)
@@ -770,7 +786,7 @@ LassGroup:
 	; LASS (9)
 	db "MICHELLE@", TRAINERTYPE_NORMAL
 	db 32, SKIPLOOM
-	db 33, HOPPIP
+	db 33, SHABBYCAT
 	db 34, JUMPLUFF
 	db -1 ; end
 
@@ -1177,7 +1193,7 @@ BeautyGroup:
 
 	; BEAUTY (16)
 	db "VALERIE@", TRAINERTYPE_MOVES
-	db 17, HOPPIP,     SYNTHESIS, TAIL_WHIP, TACKLE, POISONPOWDER
+	db 17, SHABBYCAT,     SYNTHESIS, TAIL_WHIP, TACKLE, POISONPOWDER
 	db 17, SKIPLOOM,   SYNTHESIS, TAIL_WHIP, TACKLE, STUN_SPORE
 	db -1 ; end
 
@@ -1187,9 +1203,9 @@ BeautyGroup:
 	db -1 ; end
 
 PokemaniacGroup:
-	; POKEMANIAC (1)
-	db "LARRY@", TRAINERTYPE_NORMAL
-	db 10, SLOWPOKE
+	; POKEMANIAC (1) union cave 1f
+	db "LARRY@", TRAINERTYPE_ITEM
+	db 15, PILFOARD, BERRY
 	db -1 ; end
 
 	; POKEMANIAC (2)
@@ -1550,22 +1566,25 @@ BugCatcherGroup:
 	db  5, GWUBBY
 	db -1 ; end
 
-	; BUG_CATCHER (5)
+	; BUG_CATCHER (5) Azalea gym
 	db "BENNY@", TRAINERTYPE_NORMAL
-	db  7, HOATOT
-	db  9, HOATOXIC
-	db 12, NOXROMAEUS
+	db  17, QWAIL
+	db  15, FURDOBA
+	db  18, FURNIT
 	db -1 ; end
 
-	; BUG_CATCHER (6)
+	; BUG_CATCHER (6) Azalea Gym
 	db "AL@", TRAINERTYPE_NORMAL
-	db 12, BUZZLING
-	db 12, HOATOT
+	db 15, LAWNIE
+	db 16, DOLMITE
+	db 17, DOLMITE
 	db -1 ; end
 
-	; BUG_CATCHER (7)
+	; BUG_CATCHER (7) Azalea gym
 	db "JOSH@", TRAINERTYPE_NORMAL
-	db 13, PARAS
+	db 16, FLUFFRUIT
+	db 16, EUKUB
+	db 17, EUKUB
 	db -1 ; end
 
 	; BUG_CATCHER (8)
@@ -1636,10 +1655,11 @@ BugCatcherGroup:
 	db 40, VENOMOTH,   GUST, SUPERSONIC, PSYCHIC_M, TOXIC
 	db -1 ; end
 
-	; BUG_CATCHER (19)
+	; BUG_CATCHER (19) Ilex Forest
 	db "WAYNE@", TRAINERTYPE_NORMAL
-	db  8, WORMEEK
-	db 10, PARAS
+	db 19, WORMEEK
+	db 19, GWUBBY
+	db 17, HIVEMAIM
 	db -1 ; end
 
 FisherGroup:
@@ -1653,7 +1673,8 @@ FisherGroup:
 
 	; FISHER (2) ;route 32
 	db "RALPH@", TRAINERTYPE_NORMAL
-	db 10, GOOSAPLING
+	db 12, GOOSAPLING
+	db 11, GOOSAPLING
 	db -1 ; end
 
 	; FISHER (3)
@@ -1670,8 +1691,8 @@ FisherGroup:
 
 	; FISHER (5) ;route 32
 	db "HENRY@", TRAINERTYPE_NORMAL
-	db  8, POLIWAG
-	db  8, POLIWAG
+	db  10, GOOSAPLING
+	db  10, EUKUB
 	db -1 ; end
 
 	; FISHER (6)
@@ -2303,11 +2324,11 @@ HikerGroup:
 	db 18, MACHAMP
 	db -1 ; end
 
-	; HIKER (2)
+	; HIKER (2) union cave 1f
 	db "RUSSELL@", TRAINERTYPE_NORMAL
-	db  4, DOLMITE
-	db  6, DOLMITE
-	db  8, DOLMITE
+	db  10, DOLMITE
+	db  11, DOLMITE
+	db  12, DOLMITE
 	db -1 ; end
 
 	; HIKER (3)
@@ -2323,10 +2344,10 @@ HikerGroup:
 	db 25, MACHOP
 	db -1 ; end
 
-	; HIKER (5)
+	; HIKER (5) Anthony 1. Route 33
 	db "ANTHONY@", TRAINERTYPE_NORMAL
-	db 11, DOLMITE
-	db 11, MACHOP
+	db 16, DOLMITE
+	db 16, FURDOBA
 	db -1 ; end
 
 	; HIKER (6)
@@ -2410,9 +2431,9 @@ HikerGroup:
 	db 35, MACHAMP
 	db -1 ; end
 
-	; HIKER (18)
+	; HIKER (18) ;Union Cave 1F
 	db "DANIEL@", TRAINERTYPE_NORMAL
-	db 11, ONIX
+	db 11, DOLMITE
 	db -1 ; end
 
 	; HIKER (19)
@@ -2556,10 +2577,10 @@ FirebreatherGroup:
 	db 32, SLUGMA
 	db -1 ; end
 
-	; FIREBREATHER (5)
+	; FIREBREATHER (5) union cave 1f
 	db "BILL@", TRAINERTYPE_NORMAL
-	db  6, KOFFING
-	db  6, KOFFING
+	db  15, CIGERILLAR
+	db  16, TOBACOON
 	db -1 ; end
 
 	; FIREBREATHER (6)
@@ -2568,9 +2589,9 @@ FirebreatherGroup:
 	db 13, MAGMAR
 	db -1 ; end
 
-	; FIREBREATHER (7)
-	db "RAY@", TRAINERTYPE_NORMAL
-	db  9, VULPIX
+	; FIREBREATHER (7) union cave 1f
+	db "RAY@", TRAINERTYPE_ITEM
+	db  14, ATTACKO, BERRY
 	db -1 ; end
 
 	; FIREBREATHER (8)
@@ -2791,13 +2812,13 @@ PsychicGroup:
 PicnickerGroup:
 	; PICNICKER (1) ;route 32
 	db "LIZ@", TRAINERTYPE_NORMAL
-	db  9, NIDORAN_F
+	db  12, SHABBYCAT
 	db -1 ; end
 
 	; PICNICKER (2)
 	db "GINA@", TRAINERTYPE_NORMAL
-	db  9, HOPPIP
-	db  9, HOPPIP
+	db  9, SHABBYCAT
+	db  9, SHABBYCAT
 	db 12, BULBASAUR
 	db -1 ; end
 
@@ -2834,8 +2855,8 @@ PicnickerGroup:
 
 	; PICNICKER (9)
 	db "GINA@", TRAINERTYPE_NORMAL
-	db 14, HOPPIP
-	db 14, HOPPIP
+	db 14, SHABBYCAT
+	db 14, SHABBYCAT
 	db 17, IVYSAUR
 	db -1 ; end
 
@@ -2847,15 +2868,15 @@ PicnickerGroup:
 
 	; PICNICKER (11)
 	db "LIZ@", TRAINERTYPE_NORMAL
-	db 15, ORGNOME
-	db 15, NIDORINA
+	db 20, ORGNOME
+	db 20, SHABBYCAT
 	db -1 ; end
 
 	; PICNICKER (12)
 	db "LIZ@", TRAINERTYPE_NORMAL
-	db 19, ORGNOME
-	db 19, NIDORINO
-	db 21, NIDOQUEEN
+	db 24, ORGNOME
+	db 25, KOAGAN
+	db 26, SHABBYCAT
 	db -1 ; end
 
 	; PICNICKER (13)
@@ -2946,7 +2967,7 @@ PicnickerGroup:
 CamperGroup:
 	; CAMPER (1) ;route 32
 	db "ROLAND@", TRAINERTYPE_NORMAL
-	db  9, NIDORAN_M
+	db  13, EUKUB
 	db -1 ; end
 
 	; CAMPER (2)
@@ -3368,10 +3389,10 @@ KimonoGirlGroup:
 	db -1 ; end
 
 TwinsGroup:
-	; TWINS (1)
+	; TWINS (1) Azalea Gym
 	db "AMY & MAY@", TRAINERTYPE_NORMAL
-	db 10, GWUBBY
-	db 10, WORMEEK
+	db 17, GWUBBY
+	db 17, WORMEEK
 	db -1 ; end
 
 	; TWINS (2)

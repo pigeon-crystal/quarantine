@@ -32,7 +32,7 @@ Moves: ; 41afb
 	move WHIRLWIND,    EFFECT_FORCE_SWITCH,        0, NORMAL,   	STATUS,   100, 20,   0
 	move FLY,          EFFECT_NORMAL_HIT,         80, FLYING,   	PHYSICAL,  95, 15,   0
 	move DARK_PULSE,   EFFECT_FLINCH_HIT,         80, DARK,     	SPECIAL,  100, 15,  20
-	move POISON_JAB,   EFFECT_POISON_HIT,         80, NORMAL,   	PHYSICAL, 100, 20,  30
+	move POISON_JAB,   EFFECT_POISON_HIT,         80, POISON,   	PHYSICAL, 100, 20,  30
 	move VINE_WHIP,    EFFECT_NORMAL_HIT,         45, GRASS,    	PHYSICAL, 100, 25,   0
 	move STOMP,        EFFECT_STOMP,              65, NORMAL,   	PHYSICAL, 100, 20,  30
 	move DOUBLE_KICK,  EFFECT_DOUBLE_HIT,         30, FIGHTING, 	PHYSICAL, 100, 30,   0
@@ -62,7 +62,7 @@ Moves: ; 41afb
 	move SUPERSONIC,   EFFECT_CONFUSE,             0, NORMAL,   	STATUS,    55, 20,   0
 	move SONICBOOM,    EFFECT_STATIC_DAMAGE,      40, NORMAL,   	SPECIAL,   90, 20,   0
 	move DISABLE,      EFFECT_DISABLE,             0, NORMAL,   	STATUS,    55, 20,   0
-	move ACID,         EFFECT_DEFENSE_DOWN_HIT,   50, POISON,   	SPECIAL,  100, 30,  50
+	move ACID,         EFFECT_DEFENSE_DOWN_HIT,   50, POISON,   	SPECIAL,  100, 15,  50
 	move EMBER,        EFFECT_BURN_HIT,           40, FIRE,     	SPECIAL,  100, 25,  10
 	move FLAMETHROWER, EFFECT_BURN_HIT,           90, FIRE,     	SPECIAL,  100, 15,  10
 	move MIST,         EFFECT_MIST,                0, ICE,      	STATUS,   100, 30,   0
@@ -159,8 +159,8 @@ Moves: ; 41afb
 	move BUBBLE,       EFFECT_SPEED_DOWN_HIT,     40, WATER,    	SPECIAL,  100, 30,  15
 	move DIZZY_PUNCH,  EFFECT_CONFUSE_HIT,        70, NORMAL,   	PHYSICAL, 100, 10,  20
 	move SPORE,        EFFECT_SLEEP,               0, GRASS,    	STATUS,   100, 15,   0
-	move FLASH,        EFFECT_ACCURACY_DOWN_HIT,  20, ELECTRIC, 	SPECIAL,  100, 20, 100
-	move PSYWAVE,      EFFECT_PSYWAVE,             1, PSYCHIC_TYPE, SPECIAL, 100, 15,   0
+	move FLASH,        EFFECT_ACCURACY_DOWN_HIT,  22, ELECTRIC, 	SPECIAL,  100, 10, 100
+	move PSYWAVE,      EFFECT_PSYWAVE,             1, PSYCHIC_TYPE, SPECIAL,  100, 15,   0
 	move ICICLE_CRASH, EFFECT_FLINCH_HIT,         85, ICE,      	PHYSICAL, 90,  10,   30
 	move WILL_O_WISP,  EFFECT_BURN,           	   0, FIRE,     	STATUS,    85, 15,   0
 	move CRABHAMMER,   EFFECT_NORMAL_HIT,        100, WATER,    	PHYSICAL,  90, 10,   0
