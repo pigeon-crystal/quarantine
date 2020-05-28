@@ -224,6 +224,9 @@ MysticWaterGuy:
 	end
 
 CherrygroveCitySign:
+	givepoke TIDO, 5
+	givepoke STINPEON, 5
+	givepoke SCORPEROR, 5
 	jumptext CherrygroveCitySignText
 
 GuideGentsHouseSign:

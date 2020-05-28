@@ -37,6 +37,8 @@ IconPointers:
 	dw ShabbycatIcon
 	dw PurrdleIcon
 	dw MeowtainIcon
+	dw EelkieIcon
+	dw MossarreIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon
@@ -76,4 +78,8 @@ IconPointers:
 	dw DolmiteIcon
 	dw DolmesaIcon
 	dw CairnivoreIcon
+	dw CremigoIcon
+	dw AmanigoIcon
+	dw YuggromiIcon
+	dw RespectreIcon
 	

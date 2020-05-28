@@ -131,17 +131,17 @@ JohtoWaterWildMons:
 
 	map_id ROUTE_30 ;done
 	db 2 percent ; encounter rate
-	db 20, POLIWAG
-	db 15, POLIWAG
-	db 20, POLIWHIRL
-	db 25, POLIWHIRL
+	db 20, CREMIGO
+	db 15, CREMIGO
+	db 20, AMANIGO
+	db 25, AMANIGO
 
 	map_id ROUTE_31 ;done
 	db 2 percent ; encounter rate
-	db 20, POLIWAG
-	db 15, POLIWAG
-	db 20, POLIWHIRL
-	db 25, POLIWHIRL
+	db 20, CREMIGO
+	db 15, CREMIGO
+	db 20, AMANIGO
+	db 25, AMANIGO
 
 	map_id ROUTE_32 ;done
 	db 6 percent ; encounter rate
@@ -194,10 +194,10 @@ JohtoWaterWildMons:
 
 	map_id ROUTE_44 ;done
 	db 2 percent ; encounter rate
-	db 25, POLIWAG
-	db 20, POLIWAG
-	db 25, POLIWHIRL
-	db 30, POLIWHIRL
+	db 25, CREMIGO
+	db 20, CREMIGO
+	db 25, AMANIGO
+	db 30, AMANIGO
 
 	map_id ROUTE_45 ;done
 	db 2 percent ; encounter rate
@@ -222,10 +222,10 @@ JohtoWaterWildMons:
 
 	map_id VIOLET_CITY ;done
 	db 2 percent ; encounter rate
-	db 20, POLIWAG
-	db 15, POLIWAG
-	db 20, POLIWHIRL
-	db 30, POLIWHIRL
+	db 20, CREMIGO
+	db 15, CREMIGO
+	db 20, AMANIGO
+	db 30, AMANIGO
 
 	map_id CIANWOOD_CITY ;done
 	db 6 percent ; encounter rate
@@ -243,9 +243,9 @@ JohtoWaterWildMons:
 
 	map_id ECRUTEAK_CITY ;done
 	db 2 percent ; encounter rate
-	db 20, POLIWAG
-	db 15, POLIWAG
-	db 20, POLIWHIRL
+	db 20, CREMIGO
+	db 15, CREMIGO
+	db 20, AMANIGO
 	db 25, TENTACRUEL
 
 	map_id LAKE_OF_RAGE ;done
@@ -264,9 +264,9 @@ JohtoWaterWildMons:
 
 	map_id SILVER_CAVE_OUTSIDE ;done
 	db 2 percent ; encounter rate
-	db 35, POLIWHIRL
-	db 40, POLIWHIRL
-	db 35, POLIWAG
-	db 44, POLIWHIRL
+	db 35, AMANIGO
+	db 40, AMANIGO
+	db 35, CREMIGO
+	db 44, AMANIGO
 
 	db -1 ; end

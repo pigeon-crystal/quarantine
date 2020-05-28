@@ -82,10 +82,10 @@ PokemonPicPointers::
 	dba_pic JigglypuffBackpic
 	dba_pic WigglytuffFrontpic
 	dba_pic WigglytuffBackpic
-	dba_pic ZubatFrontpic
-	dba_pic ZubatBackpic
-	dba_pic GolbatFrontpic
-	dba_pic GolbatBackpic
+	dba_pic StinpeonFrontpic
+	dba_pic StinpeonBackpic
+	dba_pic ScorperorFrontpic
+	dba_pic ScorperorBackpic
 	dba_pic EukubFrontpic
 	dba_pic EukubBackpic
 	dba_pic KoaganFrontpic
@@ -120,12 +120,12 @@ PokemonPicPointers::
 	dba_pic GrowlitheBackpic
 	dba_pic ArcanineFrontpic
 	dba_pic ArcanineBackpic
-	dba_pic PoliwagFrontpic
-	dba_pic PoliwagBackpic
-	dba_pic PoliwhirlFrontpic
-	dba_pic PoliwhirlBackpic
-	dba_pic PoliwrathFrontpic
-	dba_pic PoliwrathBackpic
+	dba_pic CremigoFrontpic
+	dba_pic CremigoBackpic
+	dba_pic AmanigoFrontpic
+	dba_pic AmanigoBackpic
+	dba_pic YuggromiFrontpic
+	dba_pic YuggromiBackpic
 	dba_pic AbraFrontpic
 	dba_pic AbraBackpic
 	dba_pic KadabraFrontpic
@@ -192,10 +192,10 @@ PokemonPicPointers::
 	dba_pic PitayrantBackpic
 	dba_pic OnixFrontpic
 	dba_pic OnixBackpic
-	dba_pic DrowzeeFrontpic
-	dba_pic DrowzeeBackpic
-	dba_pic HypnoFrontpic
-	dba_pic HypnoBackpic
+	dba_pic EelkieFrontpic
+	dba_pic EelkieBackpic
+	dba_pic MossarreFrontpic
+	dba_pic MossarreBackpic
 	dba_pic KrabbyFrontpic
 	dba_pic KrabbyBackpic
 	dba_pic KinglerFrontpic
@@ -376,10 +376,10 @@ PokemonPicPointers::
 	dba_pic PolitoedBackpic
 	dba_pic ShabbycatFrontpic
 	dba_pic ShabbycatBackpic
-	dba_pic SkiploomFrontpic
-	dba_pic SkiploomBackpic
-	dba_pic JumpluffFrontpic
-	dba_pic JumpluffBackpic
+	dba_pic PurrdleFrontpic
+	dba_pic PurrdleBackpic
+	dba_pic MeowtainFrontpic
+	dba_pic MeowtainBackpic
 	dba_pic AipomFrontpic
 	dba_pic AipomBackpic
 	dba_pic SunkernFrontpic
@@ -398,8 +398,8 @@ PokemonPicPointers::
 	dba_pic UmbreonBackpic
 	dba_pic MurkrowFrontpic
 	dba_pic MurkrowBackpic
-	dba_pic SlowkingFrontpic
-	dba_pic SlowkingBackpic
+	dba_pic TidoFrontpic
+	dba_pic TidoBackpic
 	dba_pic MisdreavusFrontpic
 	dba_pic MisdreavusBackpic
 
@@ -407,8 +407,8 @@ PokemonPicPointers::
 	dbw -1, -1
 	dbw -1, -1
 
-	dba_pic WobbuffetFrontpic
-	dba_pic WobbuffetBackpic
+	dba_pic RespectreFrontpic
+	dba_pic RespectreBackpic
 	dba_pic GirafarigFrontpic
 	dba_pic GirafarigBackpic
 	dba_pic PinecoFrontpic

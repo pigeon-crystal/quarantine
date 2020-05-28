@@ -35,7 +35,7 @@ KantoGrassWildMons:
 	map_id MOUNT_MOON ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 6, ZUBAT
+	db 6, STINPEON
 	db 8, DOLMITE
 	db 8, SANDSHREW
 	db 12, PARAS
@@ -44,7 +44,7 @@ KantoGrassWildMons:
 	db 8, CLEFAIRY
 	db 10, CLEFAIRY
 	; day
-	db 6, ZUBAT
+	db 6, STINPEON
 	db 8, DOLMITE
 	db 8, SANDSHREW
 	db 12, PARAS
@@ -53,7 +53,7 @@ KantoGrassWildMons:
 	db 8, CLEFAIRY
 	db 10, CLEFAIRY
 	; nite
-	db 6, ZUBAT
+	db 6, STINPEON
 	db 8, DOLMITE
 	db 8, CLEFAIRY
 	db 12, PARAS
@@ -68,7 +68,7 @@ KantoGrassWildMons:
 	db 10, CUBONE
 	db 11, DOLMITE
 	db 12, MACHOP
-	db 12, ZUBAT
+	db 12, STINPEON
 	db 15, MACHOKE
 	db 12, MAROWAK
 	db 12, MAROWAK
@@ -77,19 +77,19 @@ KantoGrassWildMons:
 	db 10, CUBONE
 	db 11, DOLMITE
 	db 12, MACHOP
-	db 12, ZUBAT
+	db 12, STINPEON
 	db 15, MACHOKE
 	db 12, MAROWAK
 	db 12, MAROWAK
 	db 20, MAROWAK
 	; nite
-	db 12, ZUBAT
+	db 12, STINPEON
 	db 11, DOLMITE
 	db 12, DOLMITE
 	db 17, SCRUFFRUIT
-	db 15, ZUBAT
-	db 15, ZUBAT
-	db 15, ZUBAT
+	db 15, STINPEON
+	db 15, STINPEON
+	db 15, STINPEON
 	db 20, SCRUFFRUIT
 
 	map_id ROCK_TUNNEL_B1F ;done
@@ -98,7 +98,7 @@ KantoGrassWildMons:
 	db 12, CUBONE
 	db 14, DOLMITE
 	db 16, ONIX
-	db 12, ZUBAT
+	db 12, STINPEON
 	db 15, MAROWAK
 	db 15, KANGASKHAN
 	db 15, KANGASKHAN
@@ -107,19 +107,19 @@ KantoGrassWildMons:
 	db 12, CUBONE
 	db 14, DOLMITE
 	db 16, ONIX
-	db 12, ZUBAT
+	db 12, STINPEON
 	db 15, MAROWAK
 	db 15, KANGASKHAN
 	db 15, KANGASKHAN
 	db 19, KANGASKHAN
 	; nite
-	db 12, ZUBAT
+	db 12, STINPEON
 	db 14, DOLMITE
 	db 16, ONIX
-	db 15, ZUBAT
+	db 15, STINPEON
 	db 15, SCRUFFRUIT
-	db 15, GOLBAT
-	db 15, GOLBAT
+	db 15, SCORPEROR
+	db 15, SCORPEROR
 	db 19, SCRUFFRUIT
 
 	map_id VICTORY_ROAD ;done
@@ -128,7 +128,7 @@ KantoGrassWildMons:
 	db 34, DOLMESA
 	db 32, RHYHORN
 	db 33, ONIX
-	db 34, GOLBAT
+	db 34, SCORPEROR
 	db 35, SANDSLASH
 	db 35, RHYDON
 	db 35, RHYDON
@@ -137,13 +137,13 @@ KantoGrassWildMons:
 	db 34, DOLMESA
 	db 32, RHYHORN
 	db 33, ONIX
-	db 34, GOLBAT
+	db 34, SCORPEROR
 	db 35, SANDSLASH
 	db 35, RHYDON
 	db 35, RHYDON
 	db 40, RHYDON
 	; nite
-	db 34, GOLBAT
+	db 34, SCORPEROR
 	db 34, DOLMESA
 	db 32, ONIX
 	db 36, DOLMESA
@@ -155,32 +155,32 @@ KantoGrassWildMons:
 	map_id TOHJO_FALLS ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, ZUBAT
+	db 22, STINPEON
 	db 22, NOMSABRE
-	db 24, GOLBAT
+	db 24, SCORPEROR
 	db 21, SLOWPOKE
 	db 20, NOMSTER
 	db 23, SLOWPOKE
 	db 23, SLOWPOKE
 	db 25, SLOWBRO
 	; day
-	db 22, ZUBAT
+	db 22, STINPEON
 	db 22, NOMSABRE
-	db 24, GOLBAT
+	db 24, SCORPEROR
 	db 21, SLOWPOKE
 	db 20, NOMSTER
 	db 23, SLOWPOKE
 	db 23, SLOWPOKE
 	db 24, SLOWBRO
 	; nite
-	db 22, ZUBAT
+	db 22, STINPEON
 	db 22, NOMSABRE
-	db 24, GOLBAT
+	db 24, SCORPEROR
 	db 21, SLOWPOKE
 	db 20, NOMSTER
 	db 23, SLOWPOKE
 	db 23, SLOWPOKE
-	db 25, GOLBAT
+	db 25, SCORPEROR
 
 	map_id ROUTE_1 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -266,11 +266,11 @@ KantoGrassWildMons:
 	db 5, NOMSTER
 	db 10, NOMSTER
 	db 10, NOMSABRE
-	db 6, ZUBAT
+	db 6, STINPEON
 	db 5, NOMSTER
 	db 6, CLEFAIRY
 	db 6, CLEFAIRY
-	db 10, ZUBAT
+	db 10, STINPEON
 
 	map_id ROUTE_4 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -296,11 +296,11 @@ KantoGrassWildMons:
 	db 5, NOMSTER
 	db 10, NOMSTER
 	db 10, NOMSABRE
-	db 6, ZUBAT
+	db 6, STINPEON
 	db 5, NOMSTER
 	db 6, CLEFAIRY
 	db 6, CLEFAIRY
-	db 9, ZUBAT
+	db 9, STINPEON
 
 	map_id ROUTE_5 ;done 
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -354,7 +354,7 @@ KantoGrassWildMons:
 	db 20, MAGNEMITE
 	; nite
 	db 13, MEOWTH
-	db 13, DROWZEE
+	db 13, EELKIE
 	db 14, MAGNEMITE
 	db 15, PSYDUCK
 	db 12, JIGGLYPUFF
@@ -447,7 +447,7 @@ KantoGrassWildMons:
 	db 15, VENONAT
 	db 15, NOMSABRE
 	db 15, VENOMOTH
-	db 15, ZUBAT
+	db 15, STINPEON
 	db 18, NOMSABRE
 	db 18, NOMSABRE
 	db 20, VENOMOTH
@@ -477,7 +477,7 @@ KantoGrassWildMons:
 	db 17, VOLTORB
 	db 15, NOMSABRE
 	db 15, VENOMOTH
-	db 15, ZUBAT
+	db 15, STINPEON
 	db 16, ELECTABUZZ
 	db 16, ELECTABUZZ
 	db 20, ELECTABUZZ
@@ -503,13 +503,13 @@ KantoGrassWildMons:
 	db 16, SHABBYCAT
 	db 20, MAGNEMITE
 	; nite
-	db 14, DROWZEE
+	db 14, EELKIE
 	db 13, MEOWTH
 	db 15, MAGNEMITE
 	db 16, NOCTOWL
 	db 16, NOMSABRE
-	db 16, HYPNO
-	db 16, HYPNO
+	db 16, MOSSARRE
+	db 16, MOSSARRE
 	db 20, MAGNEMITE
 
 	map_id ROUTE_13 ;done
@@ -549,8 +549,8 @@ KantoGrassWildMons:
 	db 26, NIDORINA
 	db 28, FURDOBA
 	db 28, SHABBYCAT
-	db 30, SKIPLOOM
-	db 30, SKIPLOOM
+	db 30, PURRDLE
+	db 30, PURRDLE
 	db 28, CHANSEY
 	db 30, CHANSEY
 	; day
@@ -558,8 +558,8 @@ KantoGrassWildMons:
 	db 26, NIDORINA
 	db 28, FURDOBA
 	db 28, SHABBYCAT
-	db 30, SKIPLOOM
-	db 30, SKIPLOOM
+	db 30, PURRDLE
+	db 30, PURRDLE
 	db 28, CHANSEY
 	db 30, CHANSEY
 	; nite
@@ -744,13 +744,13 @@ KantoGrassWildMons:
 	db 10, PONYTA
 	; nite
 	db 3, NOMSTER
-	db 3, POLIWAG
+	db 3, CREMIGO
 	db 5, NOMSTER
-	db 4, POLIWAG
+	db 4, CREMIGO
 	db 6, NOMSTER
 	db 7, NOMSTER
 	db 7, NOMSTER
-	db 10, POLIWAG
+	db 10, CREMIGO
 
 	map_id ROUTE_24 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -894,12 +894,12 @@ KantoGrassWildMons:
 	db 42, RAPIDASH
 	; nite
 	db 39, TANGELA
-	db 40, POLIWHIRL
-	db 40, GOLBAT
-	db 40, POLIWHIRL
-	db 42, GOLBAT
-	db 42, GOLBAT
-	db 42, GOLBAT
-	db 42, POLIWHIRL
+	db 40, AMANIGO
+	db 40, SCORPEROR
+	db 40, AMANIGO
+	db 42, SCORPEROR
+	db 42, SCORPEROR
+	db 42, SCORPEROR
+	db 42, AMANIGO
 
 	db -1 ; end

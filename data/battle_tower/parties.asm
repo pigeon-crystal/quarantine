@@ -81,7 +81,7 @@ BattleTowerMons1:
 	bigdw 39 ; SDef
 	db "BURAtuKI-@@"
 
-	db WOBBUFFET
+	db RESPECTRE
 	db FOCUS_BAND
 	db COUNTER, MIRROR_COAT, SAFEGUARD, DESTINY_BOND
 	dw 0 ; OT ID
@@ -1127,7 +1127,7 @@ BattleTowerMons3:
 	bigdw 87 ; SDef
 	db "SANDA-SU@@@"
 
-	db POLIWRATH
+	db AMANIGO
 	db BRIGHTPOWDER
 	db DOUBLE_TEAM, SURF, FISSURE, DOUBLE_EDGE
 	dw 0 ; OT ID
@@ -1832,7 +1832,7 @@ BattleTowerMons4:
 	bigdw 105 ; SDef
 	db "SUTA-MI-@@@"
 
-	db WOBBUFFET
+	db RESPECTRE
 	db GOLD_BERRY
 	db COUNTER, MIRROR_COAT, SAFEGUARD, DESTINY_BOND
 	dw 0 ; OT ID
@@ -2118,7 +2118,7 @@ BattleTowerMons4:
 	bigdw 84 ; SDef
 	db "NAtuSI-@@@@"
 
-	db HYPNO
+	db MOSSARRE
 	db BRIGHTPOWDER
 	db CONFUSION, THUNDERPUNCH, HEADBUTT, DISABLE
 	dw 0 ; OT ID
@@ -2381,7 +2381,7 @@ BattleTowerMons5:
 	bigdw 124 ; SDef
 	db "HAtuSAMU@@@"
 
-	db SLOWKING
+	db TIDO
 	db MINT_BERRY
 	db REST, SURF, PSYCHIC_M, AMNESIA
 	dw 0 ; OT ID
@@ -2904,7 +2904,7 @@ BattleTowerMons6:
 	bigdw 161 ; SDef
 	db "SANDA-@@@@@"
 
-	db WOBBUFFET
+	db RESPECTRE
 	db GOLD_BERRY
 	db COUNTER, MIRROR_COAT, DESTINY_BOND, SAFEGUARD
 	dw 0 ; OT ID

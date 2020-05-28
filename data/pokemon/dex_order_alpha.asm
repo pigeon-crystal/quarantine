@@ -45,7 +45,7 @@ AlphabeticalPokedexOrder:
 	db DRAGONAIR
 	db DRAGONITE
 	db DRATINI
-	db DROWZEE
+	db EELKIE
 	db DUGTRIO
 	db EEVEE
 	db EKANS
@@ -70,7 +70,7 @@ AlphabeticalPokedexOrder:
 	db GIRAFARIG
 	db GLIGAR
 	db GNOMERCY
-	db GOLBAT
+	db SCORPEROR
 	db GOLDUCK
 	db GOOSAPLING
 	db GRANBULL
@@ -93,13 +93,13 @@ AlphabeticalPokedexOrder:
 	db HORSEA
 	db HOUNDOOM
 	db HOUNDOUR
-	db HYPNO
+	db MOSSARRE
 	db IGGLYBUFF
 	db IVYSAUR
 	db JADDICE
 	db JIGGLYPUFF
 	db JOLTEON
-	db JUMPLUFF
+	db MEOWTAIN
 	db JYNX
 	db KABUTO
 	db KABUTOPS
@@ -171,9 +171,9 @@ AlphabeticalPokedexOrder:
 	db PITAYRANT
 	db POCALYPTUS
 	db POLITOED
-	db POLIWAG
-	db POLIWHIRL
-	db POLIWRATH
+	db CREMIGO
+	db AMANIGO
+	db YUGGROMI
 	db PONYTA
 	db PORYGON
 	db PORYGON2
@@ -203,9 +203,9 @@ AlphabeticalPokedexOrder:
 	db SHELLDER
 	db SHUCKLE
 	db SKARMORY
-	db SKIPLOOM
+	db PURRDLE
 	db SLOWBRO
-	db SLOWKING
+	db TIDO
 	db SLOWPOKE
 	db SLUGMA
 	db SMEARGLE
@@ -246,10 +246,10 @@ AlphabeticalPokedexOrder:
 	db ORGNOME
 	db WEEZING
 	db WIGGLYTUFF
-	db WOBBUFFET
+	db RESPECTRE
 	db WOOPER
 	db WORMACHO
 	db WORMEEK
 	db XATU
 	db ZAPDOS
-	db ZUBAT
+	db STINPEON

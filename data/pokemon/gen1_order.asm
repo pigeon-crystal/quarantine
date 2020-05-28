@@ -46,7 +46,7 @@ Pokered_MonIndices:
 	db ARBOK
 	db PARASECT
 	db PSYDUCK
-	db DROWZEE
+	db EELKIE
 	db CAIRNIVORE
 	db HERACROSS ; MISSINGNO.
 	db MAGMAR
@@ -69,7 +69,7 @@ Pokered_MonIndices:
 	db SWINUB ; MISSINGNO.
 	db PILOSWINE ; MISSINGNO.
 	db DODUO
-	db POLIWAG
+	db CREMIGO
 	db JYNX
 	db MOLTRES
 	db ARTICUNO
@@ -105,11 +105,11 @@ Pokered_MonIndices:
 	db JOLTEON
 	db VAPOREON
 	db MACHOP
-	db ZUBAT
+	db STINPEON
 	db EKANS
 	db PARAS
-	db POLIWHIRL
-	db POLIWRATH
+	db AMANIGO
+	db AMANIGO
 	db HOATOT
 	db HOATOXIC
 	db NOXROMAEUS
@@ -127,8 +127,8 @@ Pokered_MonIndices:
 	db MACHAMP
 	db DONPHAN ; MISSINGNO.
 	db GOLDUCK
-	db HYPNO
-	db GOLBAT
+	db MOSSARRE
+	db SCORPEROR
 	db MEWTWO
 	db SNORLAX
 	db MAGIKARP
@@ -226,8 +226,8 @@ Pokered_MonIndices:
 	db SUDOWOODO
 	db POLITOED
 	db SHABBYCAT
-	db SKIPLOOM
-	db JUMPLUFF
+	db PURRDLE
+	db MEOWTAIN
 	db AIPOM
 	db SUNKERN
 	db SUNFLORA
@@ -237,10 +237,10 @@ Pokered_MonIndices:
 	db ESPEON
 	db UMBREON
 	db MURKROW
-	db SLOWKING
+	db TIDO
 	db MISDREAVUS
 	db UNOWN
-	db WOBBUFFET
+	db RESPECTRE
 	db GIRAFARIG
 	db PINECO
 	db FORRETRESS
@@ -250,5 +250,5 @@ Pokered_MonIndices:
 	db SNUBBULL
 	db GRANBULL
 	db QWILFISH
-	db WOBBUFFET
-	db WOBBUFFET
+	db RESPECTRE
+	db RESPECTRE

@@ -82,10 +82,10 @@ KantoWaterWildMons:
 
 	map_id ROUTE_22
 	db 2 percent ; encounter rate
-	db 10, POLIWAG
-	db 5, POLIWAG
-	db 10, POLIWHIRL
-	db 15, POLIWAG
+	db 10, CREMIGO
+	db 5, CREMIGO
+	db 10, AMANIGO
+	db 15, CREMIGO
 
 	map_id ROUTE_24
 	db 4 percent ; encounter rate
@@ -117,10 +117,10 @@ KantoWaterWildMons:
 
 	map_id ROUTE_28
 	db 2 percent ; encounter rate
-	db 40, POLIWAG
-	db 35, POLIWAG
-	db 40, POLIWHIRL
-	db 45, POLIWHIRL
+	db 40, CREMIGO
+	db 35, CREMIGO
+	db 40, AMANIGO
+	db 45, AMANIGO
 
 	map_id PALLET_TOWN
 	db 6 percent ; encounter rate
@@ -131,10 +131,10 @@ KantoWaterWildMons:
 
 	map_id VIRIDIAN_CITY
 	db 2 percent ; encounter rate
-	db 10, POLIWAG
-	db 5, POLIWAG
-	db 10, POLIWHIRL
-	db 15, POLIWHIRL
+	db 10, CREMIGO
+	db 5, CREMIGO
+	db 10, AMANIGO
+	db 15, AMANIGO
 
 	map_id CERULEAN_CITY
 	db 4 percent ; encounter rate

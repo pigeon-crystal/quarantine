@@ -122,12 +122,10 @@ VulpixEggMoves:
 	db DISABLE
 	db -1 ; end
 
-ZubatEggMoves:
+StinpeonEggMoves:
 	db QUICK_ATTACK
 	db PURSUIT
 	db FAINT_ATTACK
-	db GUST
-	db WHIRLWIND
 	db -1 ; end
 
 EukubEggMoves:
@@ -196,7 +194,7 @@ GrowlitheEggMoves:
 	db FIRE_SPIN
 	db -1 ; end
 
-PoliwagEggMoves:
+CremigoEggMoves:
 	db MIST
 	db TACKLE
 	db BUBBLEBEAM
@@ -307,9 +305,10 @@ OnixEggMoves:
 	db FLAIL
 	db -1 ; end
 
-DrowzeeEggMoves:
+EelkieEggMoves:
 	db LIGHT_SCREEN
 	db BARRIER
+	db BODY_SLAM
 	db -1 ; end
 
 KrabbyEggMoves:
@@ -593,12 +592,13 @@ SudowoodoEggMoves:
 	db -1 ; end
 
 ShabbycatEggMoves:
-	db GROWL
-	db ENCORE
-	db DOUBLE_EDGE
-	db REFLECT
-	db AMNESIA
 	db PAY_DAY
+	db SAND_ATTACK
+	db PLAY_ROUGH
+	db DOUBLE_EDGE
+	db QUICK_ATTACK
+	db HAMSTERKAUF
+	db REFLECT
 	db -1 ; end
 
 AipomEggMoves:
@@ -634,8 +634,21 @@ MurkrowEggMoves:
 	db SKY_ATTACK
 	db -1 ; end
 
+TidoEggMoves:
+	db SHADOW_BONE
+	db BONE_RUSH
+	db METAL_CLAW
+	db BEAT_UP
+	db MOONBLAST
+	db -1 ;end
+
 MisdreavusEggMoves:
 	db SCREECH
+	db DESTINY_BOND
+	db -1 ; end
+	
+RespectreEggMoves:
+	db GRIMNEEDLE
 	db DESTINY_BOND
 	db -1 ; end
 

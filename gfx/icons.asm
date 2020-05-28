@@ -37,6 +37,8 @@ CaddisicleIcon:   INCBIN "gfx/icons/caddisicle.2bpp"
 ShabbycatIcon:	  INCBIN "gfx/icons/shabbycat.2bpp"
 PurrdleIcon:	  INCBIN "gfx/icons/purrdle.2bpp"
 MeowtainIcon:	  INCBIN "gfx/icons/meowtain.2bpp"
+EelkieIcon:       INCBIN "gfx/icons/eelkie.2bpp"
+MossarreIcon:     INCBIN "gfx/icons/mossarre.2bpp"
 
 SECTION "Mon Icons 2", ROMX
 
@@ -78,4 +80,8 @@ GwubbyIcon:		  INCBIN "gfx/icons/gwubby.2bpp"
 GrubboidIcon:     INCBIN "gfx/icons/grubboid.2bpp"		
 DolmiteIcon:	  INCBIN "gfx/icons/dolmite.2bpp"	
 DolmesaIcon:	  INCBIN "gfx/icons/dolmesa.2bpp"	
-CairnivoreIcon:  INCBIN "gfx/icons/cairnivore.2bpp"	
+CairnivoreIcon:   INCBIN "gfx/icons/cairnivore.2bpp"
+CremigoIcon:	  INCBIN "gfx/icons/cremigo.2bpp"	
+AmanigoIcon:	  INCBIN "gfx/icons/amanigo.2bpp"	
+YuggromiIcon:	  INCBIN "gfx/icons/yuggromi.2bpp"
+RespectreIcon:	  INCBIN "gfx/icons/respectre.2bpp"		

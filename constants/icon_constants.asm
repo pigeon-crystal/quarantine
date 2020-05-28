@@ -37,6 +37,8 @@
 	const ICON_SHABBYCAT
 	const ICON_PURRDLE
 	const ICON_MEOWTAIN
+	const ICON_EELKIE
+	const ICON_MOSSARRE
 	const ICON_SQUIRTLE ;START OF BANK 2
 	const ICON_BULBASAUR
 	const ICON_CHARMANDER
@@ -76,6 +78,10 @@
 	const ICON_DOLMITE
 	const ICON_DOLMESA
 	const ICON_CAIRNIVORE
+	const ICON_CREMIGO
+	const ICON_AMANIGO
+	const ICON_YUGGROMI
+	const ICON_RESPECTRE
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

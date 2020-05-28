@@ -612,30 +612,45 @@ WigglytuffEvosAttacks:
 	db 1, DOUBLESLAP
 	db 0 ; no more level-up moves
 
-ZubatEvosAttacks:
-	db EVOLVE_LEVEL, 22, GOLBAT
+StinpeonEvosAttacks:
+	db EVOLVE_LEVEL, 33, SCORPEROR
 	db 0 ; no more evolutions
-	db 1, LEECH_LIFE
-	db 6, SUPERSONIC
-	db 12, BITE
-	db 19, CONFUSE_RAY
-	db 27, WING_ATTACK
-	db 36, MEAN_LOOK
-	db 46, HAZE
+	db 1, SCRATCH
+	db 5, POISON_STING
+	db 9, HARDEN
+	db 13, CLAMP
+	db 21, DIZZY_PUNCH
+	db 26, SLASH
+	db 30, LEECH_LIFE
+	db 37, SWORDS_DANCE
+	db 42, X_SCISSOR
+	db 45, POISON_JAB
+	db 51, CROSS_CHOP
+	db 58, MEGAHORN
+	db 60, SWORDS_DANCE
+	db 60, POISON_JAB
+	db 60, CROSS_CHOP
 	db 0 ; no more level-up moves
 
-GolbatEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, CROBAT
+ScorperorEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SCREECH
-	db 1, LEECH_LIFE
-	db 1, SUPERSONIC
-	db 6, SUPERSONIC
-	db 12, BITE
-	db 19, CONFUSE_RAY
-	db 30, WING_ATTACK
-	db 42, MEAN_LOOK
-	db 55, HAZE
+	db 1, SCRATCH
+	db 5, POISON_STING
+	db 9, HARDEN
+	db 13, CLAMP
+	db 21, DIZZY_PUNCH
+	db 26, SLASH
+	db 30, LEECH_LIFE
+	db 32, SEISMIC_TOSS
+	db 37, SWORDS_DANCE
+	db 42, X_SCISSOR
+	db 45, POISON_JAB
+	db 51, CROSS_CHOP
+	db 58, MEGAHORN
+	db 60, SWORDS_DANCE
+	db 60, POISON_JAB
+	db 60, CROSS_CHOP
+	db 66, GUILLOTINE
 	db 0 ; no more level-up moves
 
 EukubEvosAttacks:
@@ -889,43 +904,59 @@ ArcanineEvosAttacks:
 	db 50, EXTREMESPEED
 	db 0 ; no more level-up moves
 
-PoliwagEvosAttacks:
-	db EVOLVE_LEVEL, 25, POLIWHIRL
+CremigoEvosAttacks:
+	db EVOLVE_LEVEL, 29, AMANIGO
 	db 0 ; no more evolutions
-	db 1, BUBBLE
-	db 7, HYPNOSIS
-	db 13, WATER_GUN
-	db 19, DOUBLESLAP
-	db 25, RAIN_DANCE
-	db 31, BODY_SLAM
-	db 37, BELLY_DRUM
-	db 43, HYDRO_PUMP
+	db 1, SMOG
+	db 1, HARDEN
+	db 9, DISABLE
+	db 15, ACID
+	db 18, HYPNOSIS
+	db 19, STUN_SPORE
+	db 20, POISONPOWDER
+	db 21, SLEEP_POWDER
+	db 22, POISON_GAS
+	db 30, SPORE
+	db 50, DARK_PULSE
 	db 0 ; no more level-up moves
 
-PoliwhirlEvosAttacks:
-	db EVOLVE_ITEM, WATER_STONE, POLIWRATH
-	db EVOLVE_TRADE, KINGS_ROCK, POLITOED
+AmanigoEvosAttacks:
+	db EVOLVE_ITEM, 43, YUGGROMI
 	db 0 ; no more evolutions
-	db 1, BUBBLE
-	db 1, HYPNOSIS
-	db 1, WATER_GUN
-	db 7, HYPNOSIS
-	db 13, WATER_GUN
-	db 19, DOUBLESLAP
-	db 27, RAIN_DANCE
-	db 35, BODY_SLAM
-	db 43, BELLY_DRUM
-	db 51, HYDRO_PUMP
+	db 1, SMOG
+	db 1, HARDEN
+	db 9, DISABLE
+	db 15, ACID
+	db 18, HYPNOSIS
+	db 19, STUN_SPORE
+	db 20, POISONPOWDER
+	db 21, SLEEP_POWDER
+	db 22, POISON_GAS
+	db 28, SPORE
+	db 33, AMNESIA
+	db 37, MEAN_LOOK
+	db 50, DARK_PULSE
 	db 0 ; no more level-up moves
 
-PoliwrathEvosAttacks:
+YuggromiEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, WATER_GUN
-	db 1, HYPNOSIS
-	db 1, DOUBLESLAP
-	db 1, DOUBLE_EDGE
-	db 35, DOUBLE_EDGE
-	db 51, LOCK_ON
+	db 1, SMOG
+	db 1, HARDEN
+	db 9, DISABLE
+	db 15, ACID
+	db 18, HYPNOSIS
+	db 19, STUN_SPORE
+	db 20, POISONPOWDER
+	db 21, SLEEP_POWDER
+	db 22, POISON_GAS
+	db 28, SPORE
+	db 33, AMNESIA
+	db 37, MEAN_LOOK
+	db 42, DARK_PULSE
+	db 48, SLUDGE_BOMB
+	db 60, NASTY_PLOT
+	db 60, DARK_PULSE
+	db 60, SPORE
 	db 0 ; no more level-up moves
 
 AbraEvosAttacks:
@@ -1172,7 +1203,6 @@ RapidashEvosAttacks:
 
 SlowpokeEvosAttacks:
 	db EVOLVE_LEVEL, 37, SLOWBRO
-	db EVOLVE_TRADE, KINGS_ROCK, SLOWKING
 	db 0 ; no more evolutions
 	db 1, CURSE
 	db 1, TACKLE
@@ -1426,8 +1456,8 @@ OnixEvosAttacks:
 	db 40, BODY_SLAM
 	db 0 ; no more level-up moves
 
-DrowzeeEvosAttacks:
-	db EVOLVE_LEVEL, 26, HYPNO
+EelkieEvosAttacks:
+	db EVOLVE_LEVEL, 26, MOSSARRE
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, HYPNOSIS
@@ -1441,7 +1471,7 @@ DrowzeeEvosAttacks:
 	db 45, FUTURE_SIGHT
 	db 0 ; no more level-up moves
 
-HypnoEvosAttacks:
+MossarreEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, HYPNOSIS
@@ -2718,7 +2748,7 @@ PolitoedEvosAttacks:
 	db 0 ; no more level-up moves
 
 ShabbycatEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, SKIPLOOM
+	db EVOLVE_HAPPINESS, TR_ANYTIME, PURRDLE
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
@@ -2734,8 +2764,8 @@ ShabbycatEvosAttacks:
 	db 50, POISON_JAB
 	db 0 ; no more level-up moves
 
-SkiploomEvosAttacks:
-	db EVOLVE_LEVEL, 48, JUMPLUFF
+PurrdleEvosAttacks:
+	db EVOLVE_LEVEL, 48, MEOWTAIN
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
@@ -2752,7 +2782,7 @@ SkiploomEvosAttacks:
 	db 50, POISON_JAB
 	db 0 ; no more level-up moves
 
-JumpluffEvosAttacks:
+MeowtainEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
@@ -2888,17 +2918,21 @@ MurkrowEvosAttacks:
 	db 41, MEAN_LOOK
 	db 0 ; no more level-up moves
 
-SlowkingEvosAttacks:
+TidoEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, CURSE
-	db 1, TACKLE
-	db 6, GROWL
-	db 15, WATER_GUN
-	db 20, CONFUSION
-	db 29, DISABLE
-	db 34, HEADBUTT
-	db 43, SWAGGER
-	db 48, PSYCHIC_M
+	db 1, BUBBLE
+	db 1, CHARM
+	db 6, LICK
+	db 11, ROAR
+	db 17, SUPER_FANG
+	db 23, CLAMP
+	db 27, SCREECH
+	db 31, BONE_RUSH
+	db 36, CRUNCH
+	db 40, LIQUIDATION
+	db 46, PLAY_ROUGH
+	db 50, AGILITY
+	db 54, SKULL_BASH
 	db 0 ; no more level-up moves
 
 MisdreavusEvosAttacks:
@@ -2922,7 +2956,7 @@ UnownEvosAttacks:
 	db 35, PSYCHIC_M
 	db 0 ; no more level-up moves
 
-WobbuffetEvosAttacks:  				;prep for Respectre
+RespectreEvosAttacks:  				;prep for Respectre
 	db 0 ; no more evolutions
 	db 1, SPITE
 	db 8, ROCK_THROW
@@ -2933,12 +2967,14 @@ WobbuffetEvosAttacks:  				;prep for Respectre
 	db 29, ANCIENTPOWER
 	db 31, WILL_O_WISP
 	db 35, BODY_SLAM
-	db 41, ROCK_SLIDE
-	db 44, AMNESIA
-	db 47, SHADOW_BONE
-	db 51, PAIN_SPLIT
+	db 38, ROCK_SLIDE
+	db 41, AMNESIA
+	db 45, SHADOW_BONE
+	db 50, PAIN_SPLIT
 	db 55, RAPID_SPIN
 	db 60, DESTINY_BOND
+	db 60, SHADOW_BONE
+	db 60, ROCK_SLIDE
 	db 0 ; no more level-up moves
 
 GirafarigEvosAttacks:

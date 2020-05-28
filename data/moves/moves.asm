@@ -110,7 +110,7 @@ Moves: ; 41afb
 	move LIQUIDATION,  EFFECT_DEFENSE_DOWN_HIT,   85, WATER,    	PHYSICAL,  100, 10,  20
 	move AGILITY,      EFFECT_SPEED_UP_2,          0, PSYCHIC_TYPE, STATUS,   100, 30,   0
 	move QUICK_ATTACK, EFFECT_PRIORITY_HIT,       40, NORMAL,   	PHYSICAL, 100, 30,   0
-	move HAMSTERKAUF,  EFFECT_RAGE,               66, NORMAL,   	PHYSICAL, 100, 20,   0
+	move HAMSTERKAUF,  EFFECT_RAGE,               66, NORMAL,   	PHYSICAL, 100, 15,   0
 	move TELEPORT,     EFFECT_TELEPORT,            0, PSYCHIC_TYPE, STATUS,   100, 20,   0
 	move NIGHT_SHADE,  EFFECT_LEVEL_DAMAGE,        1, GHOST,    	SPECIAL,  100, 15,   0
 	move MIMIC,        EFFECT_MIMIC,               0, NORMAL,   	STATUS,   100, 10,   0
@@ -209,7 +209,7 @@ Moves: ; 41afb
 	move PERISH_SONG,  EFFECT_PERISH_SONG,         0, NORMAL,   	STATUS,   100,  5,   0
 	move ICY_WIND,     EFFECT_SPEED_DOWN_HIT,     55, ICE,      	SPECIAL,   95, 15, 100
 	move DETECT,       EFFECT_PROTECT,             0, FIGHTING, 	STATUS,   100,  5,   0
-	move BONE_RUSH,    EFFECT_MULTI_HIT,          25, GROUND,   	PHYSICAL,  90, 10,   0
+	move BONE_RUSH,    EFFECT_MULTI_HIT,          26, GROUND,   	PHYSICAL,  90, 10,   0
 	move LOCK_ON,      EFFECT_LOCK_ON,             0, NORMAL,   	STATUS,   100,  5,   0
 	move OUTRAGE,      EFFECT_RAMPAGE,           110, DRAGON,   	PHYSICAL, 100, 15,   0
 	move SANDSTORM,    EFFECT_SANDSTORM,           0, ROCK,     	STATUS,   100, 10,   0

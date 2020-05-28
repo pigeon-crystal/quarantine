@@ -59,8 +59,8 @@
 	const NINETALES  ; 26
 	const JIGGLYPUFF ; 27
 	const WIGGLYTUFF ; 28
-	const ZUBAT      ; 29
-	const GOLBAT     ; 2a
+	const STINPEON      ; 29
+	const SCORPEROR     ; 2a
 	const EUKUB     ; 2b
 	const KOAGAN      ; 2c
 	const POCALYPTUS  ; 2d
@@ -78,9 +78,9 @@
 	const PRIMEAPE   ; 39
 	const GROWLITHE  ; 3a
 	const ARCANINE   ; 3b
-	const POLIWAG    ; 3c
-	const POLIWHIRL  ; 3d
-	const POLIWRATH  ; 3e
+	const CREMIGO    ; 3c
+	const AMANIGO    ; 3d
+	const YUGGROMI  ; 3e
 	const ABRA       ; 3f
 	const KADABRA    ; 40
 	const ALAKAZAM   ; 41
@@ -114,8 +114,8 @@
 	const SCRUFFRUIT    ; 5d
 	const PITAYRANT     ; 5e
 	const ONIX       ; 5f
-	const DROWZEE    ; 60
-	const HYPNO      ; 61
+	const EELKIE    ; 60
+	const MOSSARRE      ; 61
 	const KRABBY     ; 62
 	const KINGLER    ; 63
 	const VOLTORB    ; 64
@@ -207,8 +207,8 @@ JOHTO_POKEMON EQU const_value
 	const SUDOWOODO  ; b9
 	const POLITOED   ; ba
 	const SHABBYCAT  ; bb
-	const SKIPLOOM   ; bc
-	const JUMPLUFF   ; bd
+	const PURRDLE    ; bc
+	const MEOWTAIN   ; bd
 	const AIPOM      ; be
 	const SUNKERN    ; bf
 	const SUNFLORA   ; c0
@@ -218,10 +218,10 @@ JOHTO_POKEMON EQU const_value
 	const ESPEON     ; c4
 	const UMBREON    ; c5
 	const MURKROW    ; c6
-	const SLOWKING   ; c7
+	const TIDO   	 ; c7
 	const MISDREAVUS ; c8
 	const UNOWN      ; c9
-	const WOBBUFFET  ; ca
+	const RESPECTRE  ; ca
 	const GIRAFARIG  ; cb
 	const PINECO     ; cc
 	const FORRETRESS ; cd

@@ -40,8 +40,8 @@ PokedexDataPointerTable:
 	dw NinetalesPokedexEntry
 	dw JigglypuffPokedexEntry
 	dw WigglytuffPokedexEntry
-	dw ZubatPokedexEntry
-	dw GolbatPokedexEntry
+	dw StinpeonPokedexEntry
+	dw ScorperorPokedexEntry
 	dw EukubPokedexEntry
 	dw KoaganPokedexEntry
 	dw PocalyptusPokedexEntry
@@ -59,9 +59,9 @@ PokedexDataPointerTable:
 	dw PrimeapePokedexEntry
 	dw GrowlithePokedexEntry
 	dw ArcaninePokedexEntry
-	dw PoliwagPokedexEntry
-	dw PoliwhirlPokedexEntry
-	dw PoliwrathPokedexEntry
+	dw CremigoPokedexEntry
+	dw AmanigoPokedexEntry
+	dw YuggromiPokedexEntry
 	dw AbraPokedexEntry
 	dw KadabraPokedexEntry
 	dw AlakazamPokedexEntry
@@ -95,8 +95,8 @@ PokedexDataPointerTable:
 	dw ScruffruitPokedexEntry
 	dw PitayrantPokedexEntry
 	dw OnixPokedexEntry
-	dw DrowzeePokedexEntry
-	dw HypnoPokedexEntry
+	dw EelkiePokedexEntry
+	dw MossarrePokedexEntry
 	dw KrabbyPokedexEntry
 	dw KinglerPokedexEntry
 	dw VoltorbPokedexEntry
@@ -187,8 +187,8 @@ PokedexDataPointerTable:
 	dw SudowoodoPokedexEntry
 	dw PolitoedPokedexEntry
 	dw ShabbycatPokedexEntry
-	dw SkiploomPokedexEntry
-	dw JumpluffPokedexEntry
+	dw PurrdlePokedexEntry
+	dw MeowtainPokedexEntry
 	dw AipomPokedexEntry
 	dw SunkernPokedexEntry
 	dw SunfloraPokedexEntry
@@ -198,10 +198,10 @@ PokedexDataPointerTable:
 	dw EspeonPokedexEntry
 	dw UmbreonPokedexEntry
 	dw MurkrowPokedexEntry
-	dw SlowkingPokedexEntry
+	dw TidoPokedexEntry
 	dw MisdreavusPokedexEntry
 	dw UnownPokedexEntry
-	dw WobbuffetPokedexEntry
+	dw RespectrePokedexEntry
 	dw GirafarigPokedexEntry
 	dw PinecoPokedexEntry
 	dw ForretressPokedexEntry
