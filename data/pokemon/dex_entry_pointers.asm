@@ -62,7 +62,7 @@ PokedexDataPointerTable:
 	dw CremigoPokedexEntry
 	dw AmanigoPokedexEntry
 	dw YuggromiPokedexEntry
-	dw AbraPokedexEntry
+	dw DusmausPokedexEntry
 	dw KadabraPokedexEntry
 	dw AlakazamPokedexEntry
 	dw MachopPokedexEntry

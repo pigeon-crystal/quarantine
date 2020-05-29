@@ -63,7 +63,7 @@ EvosAttacksPointers::
 	dw CremigoEvosAttacks
 	dw AmanigoEvosAttacks
 	dw YuggromiEvosAttacks
-	dw AbraEvosAttacks
+	dw DusmausEvosAttacks
 	dw KadabraEvosAttacks
 	dw AlakazamEvosAttacks
 	dw MachopEvosAttacks

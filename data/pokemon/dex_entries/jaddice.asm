@@ -1,10 +1,10 @@
 	db "SNOWWEAVE@" ; species name
 	dw 501, 1108 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "JADDICE are"
+	next "experts at manip-"
+	next "ulation. The frost"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "they spread is"
+	next "just as cold as"
+	next "their hearts.@"

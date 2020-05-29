@@ -7,7 +7,7 @@ MoveReminder:
 	call PrintText
 	call JoyWaitAorB
 
-	ld a, POTION
+	ld a, POKE_DOLL
 	ld [wCurItem], a
 	ld hl, wNumItems
 	call CheckItem
@@ -56,7 +56,7 @@ MoveReminder:
 	and a
 	jr z, .skip_learn
 
-	ld a, POTION
+	ld a, POKE_DOLL
 	ld [wCurItem], a
 	ld a, 1
 	ld [wItemQuantityChangeBuffer], a

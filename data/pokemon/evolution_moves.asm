@@ -61,7 +61,7 @@ EvolutionMoves::
 	db NO_MOVE		; CREMIGO
 	db SPORE		; AMANIGO
 	db DARK_PULSE	; YUGGROMI
-	db NO_MOVE		; ABRA
+	db NO_MOVE		; DUSMAUS
 	db NO_MOVE		; KADABRA
 	db NO_MOVE		; ALAKAZAM
 	db NO_MOVE		; MACHOP

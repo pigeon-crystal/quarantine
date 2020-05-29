@@ -456,62 +456,62 @@ JohtoGrassWildMons:
 	map_id UNION_CAVE_1F ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 6, DOLMITE
-	db 6, SANDSHREW
-	db 5, STINPEON
-	db 4, NOMSTER
-	db 7, STINPEON
-	db 6, ONIX
-	db 6, ONIX
-	db 7, ONIX
+	db 8, DOLMITE
+	db 8, STINPEON
+	db 8, NOMSTER
+	db 8, NOMSTER
+	db 9, STINPEON
+	db 9, DOLMITE
+	db 9, DOLMITE
+	db 10, STINPEON
 	; day
-	db 6, DOLMITE
-	db 6, SANDSHREW
-	db 5, STINPEON
-	db 4, NOMSTER
-	db 7, STINPEON
-	db 6, ONIX
-	db 6, ONIX
-	db 7, ONIX
+	db 8, DOLMITE
+	db 8, STINPEON
+	db 8, NOMSTER
+	db 8, NOMSTER
+	db 9, STINPEON
+	db 9, DOLMITE
+	db 9, DOLMITE
+	db 10, STINPEON
 	; nite
-	db 6, DOLMITE
-	db 6, NOMSTER
-	db 5, WOOPER
-	db 4, NOMSTER
-	db 7, STINPEON
-	db 6, ONIX
-	db 6, ONIX
-	db 7, ONIX
+	db 8, DOLMITE
+	db 8, STINPEON
+	db 8, NOMSTER
+	db 8, NOMSTER
+	db 9, STINPEON
+	db 9, DOLMITE
+	db 9, DOLMITE
+	db 10, STINPEON
 
 	map_id UNION_CAVE_B1F ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 8, DOLMITE
-	db 6, STINPEON
 	db 8, STINPEON
-	db 8, ONIX
-	db 6, NOMSTER
 	db 8, NOMSTER
-	db 8, NOMSTER
+	db 9, STINPEON
+	db 9, DOLMITE
 	db 9, NOMSTER
+	db 10, RESPECTRE
+	db 11, RESPECTRE
 	; day
 	db 8, DOLMITE
-	db 6, STINPEON
 	db 8, STINPEON
-	db 8, ONIX
-	db 6, NOMSTER
 	db 8, NOMSTER
-	db 8, NOMSTER
+	db 9, STINPEON
+	db 9, DOLMITE
 	db 9, NOMSTER
+	db 10, RESPECTRE
+	db 11, RESPECTRE
 	; nite
 	db 8, DOLMITE
-	db 6, STINPEON
-	db 8, WOOPER
-	db 8, ONIX
-	db 6, NOMSTER
+	db 8, STINPEON
 	db 8, NOMSTER
-	db 8, NOMSTER
+	db 9, STINPEON
+	db 9, DOLMITE
 	db 9, NOMSTER
+	db 10, RESPECTRE
+	db 11, RESPECTRE
 
 	map_id UNION_CAVE_B2F ;done
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -606,32 +606,32 @@ JohtoGrassWildMons:
 	map_id ILEX_FOREST ;done
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, BUZZLING
-	db 5, HOATOT
-	db 7, HIVEMAIM
-	db 7, HOATOXIC
-	db 7, FURNIT
-	db 6, PARAS
-	db 6, PARAS
-	db 9, PARAS
+	db 10, CREMIGO
+	db 10, HOATOT
+	db 9, EUKUB
+	db 10, EELKIE
+	db 11, CREMIGO
+	db 11, EELKIE
+	db 10, EUKUB
+	db 12, CREMIGO
 	; day
-	db 5, BUZZLING
-	db 5, HOATOT
-	db 7, HIVEMAIM
-	db 7, HOATOXIC
-	db 7, FURNIT
-	db 6, PARAS
-	db 6, PARAS
-	db 9, PARAS
+	db 10, CREMIGO
+	db 10, HOATOT
+	db 10, EELKIE
+	db 9, EUKUB
+	db 11, CREMIGO
+	db 11, EELKIE
+	db 10, EELKIE
+	db 12, CREMIGO
 	; nite
-	db 5, EUKUB
-	db 5, VENONAT
-	db 7, EUKUB
-	db 7, PSYDUCK
-	db 7, HOOTHOOT
-	db 6, PARAS
-	db 57, PARAS
-	db 57, PARAS
+	db 11, CREMIGO
+	db 11, CREMIGO
+	db 11, CREMIGO
+	db 10, EELKIE
+	db 10, EELKIE
+	db 9, EUKUB
+	db 57, YUGGROMI
+	db 57, YUGGROMI
 
 	map_id MOUNT_MORTAR_1F_OUTSIDE ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -1479,7 +1479,7 @@ JohtoGrassWildMons:
 	db 10, SNUBBULL
 	db 11, NOMSTER
 	db 12, FURNIT
-	db 10, ABRA
+	db 10, DUSMAUS
 	db 12, JIGGLYPUFF
 	db 10, DITTO
 	db 10, DITTO
@@ -1488,7 +1488,7 @@ JohtoGrassWildMons:
 	db 10, SNUBBULL
 	db 11, NOMSTER
 	db 12, FURNIT
-	db 10, ABRA
+	db 10, DUSMAUS
 	db 12, JIGGLYPUFF
 	db 10, DITTO
 	db 10, DITTO
@@ -1497,7 +1497,7 @@ JohtoGrassWildMons:
 	db 12, EELKIE
 	db 11, NOMSTER
 	db 12, HOOTHOOT
-	db 10, ABRA
+	db 10, DUSMAUS
 	db 12, JIGGLYPUFF
 	db 10, DITTO
 	db 10, DITTO
@@ -1509,7 +1509,7 @@ JohtoGrassWildMons:
 	db 12, SNUBBULL
 	db 14, FURNIT
 	db 13, GROWLITHE
-	db 10, ABRA
+	db 10, DUSMAUS
 	db 12, JIGGLYPUFF
 	db 10, DITTO
 	db 12, ARASBESTOS
@@ -1518,7 +1518,7 @@ JohtoGrassWildMons:
 	db 12, SNUBBULL
 	db 14, FURNIT
 	db 13, GROWLITHE
-	db 10, ABRA
+	db 10, DUSMAUS
 	db 12, JIGGLYPUFF
 	db 10, DITTO
 	db 12, ARASBESTOS
@@ -1527,7 +1527,7 @@ JohtoGrassWildMons:
 	db 12, EELKIE
 	db 14, HOOTHOOT
 	db 13, PSYDUCK
-	db 10, ABRA
+	db 10, DUSMAUS
 	db 12, JIGGLYPUFF
 	db 10, DITTO
 	db 12, ARASBESTOS

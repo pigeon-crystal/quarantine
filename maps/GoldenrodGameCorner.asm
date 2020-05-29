@@ -26,7 +26,7 @@ GoldenrodGameCorner_MapScripts:
 	callback MAPCALLBACK_OBJECTS, .MoveTutor
 
 .MoveTutor:
-	checkevent EVENT_BEAT_ELITE_FOUR
+	checkevent EVENT_BEAT_PRYCE
 	iffalse .finish
 	checkitem COIN_CASE
 	iffalse .move_tutor_inside
@@ -191,16 +191,16 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
 	readvar VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	getmonname STRING_BUFFER_3, ABRA
+	getmonname STRING_BUFFER_3, DUSMAUS
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	setval ABRA
+	setval DUSMAUS
 	special GameCornerPrizeMonCheckDex
-	givepoke ABRA, 5
+	givepoke DUSMAUS, 5
 	takecoins GOLDENRODGAMECORNER_ABRA_COINS
 	sjump .loop
 
@@ -249,7 +249,7 @@ GoldenrodGameCornerPrizeMonVendorScript:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "ABRA        100@"
+	db "DUSMAUS     100@"
 	db "CUBONE      800@"
 	db "RESPECTRE  1500@"
 	db "CANCEL@"

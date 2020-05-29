@@ -170,7 +170,7 @@ TeleportGuyScript:
 AbraScript:
 	opentext
 	writetext AbraText
-	cry ABRA
+	cry DUSMAUS
 	waitbutton
 	closetext
 	end

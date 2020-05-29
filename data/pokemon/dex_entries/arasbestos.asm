@@ -1,10 +1,10 @@
-	db "TOXIN@" ; species name
+	db "TOXIN@" ; species name >>43676952 
 	dw 303, 2365 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "This #MON grows"
+	next "sharp needles from"
+	next "eating crystals. The"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "needles' venom"
+	next "causes violent"
+	next "skin irritation.@"

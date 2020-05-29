@@ -142,7 +142,7 @@ INCBIN "gfx/footprints/arcanine.1bpp",   footprint_top
 INCBIN "gfx/footprints/cremigo.1bpp",    footprint_top
 INCBIN "gfx/footprints/amanigo.1bpp",  footprint_top
 INCBIN "gfx/footprints/yuggromi.1bpp",  footprint_top
-INCBIN "gfx/footprints/abra.1bpp",       footprint_top
+INCBIN "gfx/footprints/dusmaus.1bpp",       footprint_top
 INCBIN "gfx/footprints/kadabra.1bpp",    footprint_top
 ; 057-064 bottom halves
 INCBIN "gfx/footprints/primeape.1bpp",   footprint_bottom
@@ -151,7 +151,7 @@ INCBIN "gfx/footprints/arcanine.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/cremigo.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/amanigo.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/yuggromi.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/abra.1bpp",       footprint_bottom
+INCBIN "gfx/footprints/dusmaus.1bpp",       footprint_bottom
 INCBIN "gfx/footprints/kadabra.1bpp",    footprint_bottom
 ; 065-072 top halves
 INCBIN "gfx/footprints/alakazam.1bpp",   footprint_top

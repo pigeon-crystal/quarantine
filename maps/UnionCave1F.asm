@@ -73,7 +73,7 @@ UnionCave1FGreatBall:
 	itemball GREAT_BALL
 
 UnionCave1FXAttack:
-	itemball X_ATTACK
+	itemball POKE_DOLL
 
 UnionCave1FPotion:
 	itemball POTION
@@ -95,7 +95,8 @@ HikerRussellSeenText:
 	done
 
 HikerRussellBeatenText:
-	text "Oh, oh, oh!"
+	text "Oh my! Looks good"
+	cont "to me!"
 	done
 
 HikerRussellAfterBattleText:
@@ -128,8 +129,14 @@ PokemaniacLarryAfterBattleText:
 	text "Every Friday, you"
 	line "can hear #MON"
 
-	para "roars from deep"
+	para "barks from deep"
 	line "inside the cave."
+	
+	para "Once I get the"
+	line "FOG BADGE, I'll"
+	cont "use SURF to find"
+	cont "and catch that"
+	cont "rare #MON!"
 	done
 
 HikerDanielSeenText:
@@ -155,23 +162,27 @@ HikerDanielAfterBattleText: ;slowpoketail
 	done
 
 FirebreatherBillSeenText: ;zubat
-	text "ZUBAT's SUPERSONIC"
-	line "keeps confusing"
-	cont "my #MON."
+	text "STINPEON's POISON"
+	line "STING keeps "
+	cont "poisoning my"
+	cont "beloved #MON!"
 
-	para "I'm seriously"
-	line "upset about that!"
+	para "I'm gonna take"
+	line "that anger out"
+	cont "on you!"
 	done
 
 FirebreatherBillBeatenText:
-	text "I flamed out!"
+	text "A good beating"
+	line "sure can calm"
+	cont "you down."
 	done
 
 FirebreatherBillAfterBattleText:
 	text "On Friday, you"
 	line "can hear strange"
 
-	para "roars from deep in"
+	para "barks from deep in"
 	line "the cave."
 	done
 

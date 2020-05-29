@@ -12,7 +12,7 @@ SwarmGrassWildMons:
 	db 4, DOLMITE
 	db 4, ATTACKO
 	db 6, ARASBESTOS
-	db 6, ARASBESTOS
+	db 6, ATTACKO
 	; day
 	db 4, DOLMITE
 	db 6, ATTACKO
@@ -20,7 +20,7 @@ SwarmGrassWildMons:
 	db 4, DOLMITE
 	db 6, ATTACKO
 	db 6, ARASBESTOS
-	db 6, ARASBESTOS
+	db 6, ATTACKO
 	; nite
 	db 4, DOLMITE
 	db 6, ATTACKO
@@ -28,7 +28,7 @@ SwarmGrassWildMons:
 	db 4, DOLMITE
 	db 6, ATTACKO
 	db 6, ARASBESTOS
-	db 6, ARASBESTOS
+	db 6, ATTACKO
 	
 
 ; Arasbestos swarm
@@ -36,7 +36,7 @@ SwarmGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 12, NIDORAN_M
-	db 12, NIDORAN_F
+	db 12, ARASBESTOS
 	db 12, ARASBESTOS
 	db 14, ARASBESTOS
 	db 14, FURNIT
@@ -44,7 +44,7 @@ SwarmGrassWildMons:
 	db 10, DITTO
 	; day
 	db 12, NIDORAN_M
-	db 12, NIDORAN_F
+	db 12, ARASBESTOS
 	db 12, ARASBESTOS
 	db 14, ARASBESTOS
 	db 14, FURNIT
@@ -52,7 +52,7 @@ SwarmGrassWildMons:
 	db 10, DITTO
 	; nite
 	db 12, NIDORAN_M
-	db 12, NIDORAN_F
+	db 12, ARASBESTOS
 	db 12, ARASBESTOS
 	db 14, ARASBESTOS
 	db 14, HOOTHOOT

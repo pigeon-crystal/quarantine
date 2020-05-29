@@ -202,7 +202,7 @@ CremigoEggMoves:
 	db LOCK_ON
 	db -1 ; end
 
-AbraEggMoves:
+DusmausEggMoves:
 	db LIGHT_SCREEN
 	db ENCORE
 	db BARRIER

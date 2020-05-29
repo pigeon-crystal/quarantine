@@ -81,7 +81,7 @@
 	const CREMIGO    ; 3c
 	const AMANIGO    ; 3d
 	const YUGGROMI  ; 3e
-	const ABRA       ; 3f
+	const DUSMAUS       ; 3f
 	const KADABRA    ; 40
 	const ALAKAZAM   ; 41
 	const MACHOP     ; 42

@@ -17,41 +17,6 @@ GuideGentsHouseGuideGent:
 GuideGentsHouseBookshelf:
 	jumpstd magazinebookshelf
 
-;unused
-GuideGentsHouseGuideGentText:
-	text "When I was a wee"
-	line "lad, I was a hot-"
-	cont "head trainer!"
-
-	para "Here's a word of"
-	line "advice:"
-
-	para "Get good!"
-	line "Dohohoho!"
-	
-	para "…but really,"
-	line "try to have a"
-	cont "balanced team."
-	
-	para "Try to have some"
-	line "#MON that have"
-	cont "high SPCL. ATK,"
-	
-	para "and some with"
-	line "high ATTACK."
-	
-	para "The same goes"
-	line "for DEFENSE and"
-	cont "SPCL. DEF."
-	
-	para "And most important"
-	line "advice I can give:"
-	
-	para "Treat #MON"
-	line "with love and"
-	cont "respect!"
-	done
-
 GuideGentsHouse_MapEvents:
 	db 0, 0 ; filler
 

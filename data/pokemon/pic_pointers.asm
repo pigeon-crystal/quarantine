@@ -126,8 +126,8 @@ PokemonPicPointers::
 	dba_pic AmanigoBackpic
 	dba_pic YuggromiFrontpic
 	dba_pic YuggromiBackpic
-	dba_pic AbraFrontpic
-	dba_pic AbraBackpic
+	dba_pic DusmausFrontpic
+	dba_pic DusmausBackpic
 	dba_pic KadabraFrontpic
 	dba_pic KadabraBackpic
 	dba_pic AlakazamFrontpic

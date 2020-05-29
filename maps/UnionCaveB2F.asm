@@ -28,7 +28,7 @@ UnionCaveB2F_MapScripts:
 UnionCaveLapras:
 	faceplayer
 	cry LAPRAS
-	loadwildmon LAPRAS, 20
+	loadwildmon TIDO, 30
 	startbattle
 	disappear UNIONCAVEB2F_LAPRAS
 	setflag ENGINE_UNION_CAVE_LAPRAS

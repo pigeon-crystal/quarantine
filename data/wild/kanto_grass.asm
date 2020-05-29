@@ -308,28 +308,28 @@ KantoGrassWildMons:
 	db 13, FURNIT
 	db 13, SNUBBULL
 	db 15, FURDOBA
-	db 12, ABRA
+	db 12, DUSMAUS
 	db 14, JIGGLYPUFF
-	db 14, ABRA
-	db 14, ABRA
+	db 14, DUSMAUS
+	db 14, DUSMAUS
 	db 18, JIGGLYPUFF
 	; day
 	db 13, FURNIT
 	db 13, SNUBBULL
 	db 15, FURDOBA
-	db 12, ABRA
+	db 12, DUSMAUS
 	db 14, JIGGLYPUFF
-	db 14, ABRA
-	db 14, ABRA
+	db 14, DUSMAUS
+	db 14, DUSMAUS
 	db 18, JIGGLYPUFF
 	; nite
 	db 13, HOOTHOOT
 	db 13, MEOWTH
 	db 15, NOCTOWL
-	db 12, ABRA
+	db 12, DUSMAUS
 	db 14, JIGGLYPUFF
-	db 14, ABRA
-	db 14, ABRA
+	db 14, DUSMAUS
+	db 14, DUSMAUS
 	db 18, JIGGLYPUFF
 
 	map_id ROUTE_6 ;done
@@ -370,8 +370,8 @@ KantoGrassWildMons:
 	db 18, SNUBBULL
 	db 18, NOMSABRE
 	db 18, JIGGLYPUFF
-	db 16, ABRA
-	db 16, ABRA
+	db 16, DUSMAUS
+	db 16, DUSMAUS
 	db 20, JIGGLYPUFF
 	; day
 	db 17, NOMSTER
@@ -379,8 +379,8 @@ KantoGrassWildMons:
 	db 18, SNUBBULL
 	db 18, NOMSABRE
 	db 18, JIGGLYPUFF
-	db 16, ABRA
-	db 16, ABRA
+	db 16, DUSMAUS
+	db 16, DUSMAUS
 	db 20, JIGGLYPUFF
 	; nite
 	db 17, MEOWTH
@@ -388,8 +388,8 @@ KantoGrassWildMons:
 	db 18, HOUNDOUR
 	db 18, PERSIAN
 	db 18, JIGGLYPUFF
-	db 16, ABRA
-	db 16, ABRA
+	db 16, DUSMAUS
+	db 16, DUSMAUS
 	db 20, HOUNDOUR
 
 	map_id ROUTE_8 ;done
@@ -397,7 +397,7 @@ KantoGrassWildMons:
 	; morn
 	db 17, SNUBBULL
 	db 19, FURDOBA
-	db 16, ABRA
+	db 16, DUSMAUS
 	db 17, GROWLITHE
 	db 16, JIGGLYPUFF
 	db 18, KADABRA
@@ -406,7 +406,7 @@ KantoGrassWildMons:
 	; day
 	db 17, SNUBBULL
 	db 19, FURDOBA
-	db 16, ABRA
+	db 16, DUSMAUS
 	db 17, GROWLITHE
 	db 16, JIGGLYPUFF
 	db 18, KADABRA
@@ -415,7 +415,7 @@ KantoGrassWildMons:
 	; nite
 	db 17, MEOWTH
 	db 20, NOCTOWL
-	db 16, ABRA
+	db 16, DUSMAUS
 	db 17, SCRUFFRUIT
 	db 16, JIGGLYPUFF
 	db 18, KADABRA
@@ -758,29 +758,29 @@ KantoGrassWildMons:
 	db 8, BUZZLING
 	db 10, BUZZLING
 	db 12, HIVEMAIM
-	db 12, ABRA
+	db 12, DUSMAUS
 	db 10, LAWNIE
 	db 14, VAZZINATE
 	db 14, VAZZINATE
-	db 15, ABRA
+	db 15, DUSMAUS
 	; day
 	db 8, BUZZLING
 	db 12, SUNKERN
 	db 10, BUZZLING
-	db 12, ABRA
+	db 12, DUSMAUS
 	db 10, LAWNIE
 	db 14, VAZZINATE
 	db 14, VAZZINATE
-	db 15, ABRA
+	db 15, DUSMAUS
 	; nite
 	db 10, VENONAT
 	db 10, EUKUB
 	db 12, EUKUB
-	db 12, ABRA
+	db 12, DUSMAUS
 	db 10, LAWNIE
 	db 14, KOAGAN
 	db 14, KOAGAN
-	db 15, ABRA
+	db 15, DUSMAUS
 
 	map_id ROUTE_25 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

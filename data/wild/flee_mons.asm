@@ -3,6 +3,7 @@ FleeMons:
 
 SometimesFleeMons:
 	db WORMEEK
+	db DUSMAUS
 	db UNOWN
 	db SNUBBULL
 	db HERACROSS

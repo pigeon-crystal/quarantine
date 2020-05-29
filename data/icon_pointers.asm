@@ -34,11 +34,15 @@ IconPointers:
 	dw QwailIcon
 	dw QwallopIcon
 	dw CaddisicleIcon
+	dw JaddiceIcon
 	dw ShabbycatIcon
 	dw PurrdleIcon
 	dw MeowtainIcon
 	dw EelkieIcon
 	dw MossarreIcon
+	dw TidoIcon
+	dw BismuttIcon
+	dw MaulzerIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon

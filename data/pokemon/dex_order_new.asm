@@ -89,7 +89,7 @@ NewPokedexOrder:
 	db BELLOSSOM
 	db EELKIE
 	db MOSSARRE
-	db ABRA
+	db DUSMAUS
 	db KADABRA
 	db ALAKAZAM
 	db DITTO

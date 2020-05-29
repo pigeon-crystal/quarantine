@@ -146,7 +146,7 @@ Pokered_MonIndices:
 	db MAROWAK
 	db HITMONTOP ; MISSINGNO.
 	db SCRUFFRUIT
-	db ABRA
+	db DUSMAUS
 	db ALAKAZAM
 	db FURDOBA
 	db HORNAMPA

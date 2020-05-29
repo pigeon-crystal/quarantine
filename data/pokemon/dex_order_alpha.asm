@@ -1,7 +1,7 @@
 ; Every Pokémon sorted alphabetically by name.
 
 AlphabeticalPokedexOrder:
-	db ABRA
+	db DUSMAUS
 	db AERODACTYL
 	db AIPOM
 	db ALAKAZAM

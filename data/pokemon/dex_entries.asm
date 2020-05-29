@@ -65,7 +65,7 @@ ArcaninePokedexEntry::   INCLUDE "data/pokemon/dex_entries/arcanine.asm"
 CremigoPokedexEntry::    INCLUDE "data/pokemon/dex_entries/cremigo.asm"
 AmanigoPokedexEntry::  INCLUDE "data/pokemon/dex_entries/amanigo.asm"
 YuggromiPokedexEntry::  INCLUDE "data/pokemon/dex_entries/yuggromi.asm"
-AbraPokedexEntry::       INCLUDE "data/pokemon/dex_entries/abra.asm"
+DusmausPokedexEntry::       INCLUDE "data/pokemon/dex_entries/dusmaus.asm"
 KadabraPokedexEntry::    INCLUDE "data/pokemon/dex_entries/kadabra.asm"
 
 

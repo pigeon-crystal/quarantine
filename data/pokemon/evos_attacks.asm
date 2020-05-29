@@ -959,7 +959,7 @@ YuggromiEvosAttacks:
 	db 60, SPORE
 	db 0 ; no more level-up moves
 
-AbraEvosAttacks:
+DusmausEvosAttacks:
 	db EVOLVE_LEVEL, 16, KADABRA
 	db 0 ; no more evolutions
 	db 1, TELEPORT
@@ -2392,10 +2392,10 @@ UrskimoEvosAttacks:
 	db 45, SCREECH
 	db 47, LIQUIDATION
 	db 50, ICE_SHARD
-	db 51, SKULL_BASH
+	db 52, SHADOW_BONE
 	db 55, RAIN_DANCE
 	db 60, BELLY_DRUM
-	db 66, SHADOW_BONE
+	db 66, SKULL_BASH
 	db 0 ; no more level-up moves
 
 SentretEvosAttacks:
@@ -2920,11 +2920,8 @@ MurkrowEvosAttacks:
 
 TidoEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, EXPLOSION
 	db 1, BUBBLE
 	db 1, CHARM
-	db 1, NITROBLAZE
-	db 1, FROSTBITE
 	db 6, LICK
 	db 11, ROAR
 	db 17, SUPER_FANG
@@ -2935,7 +2932,7 @@ TidoEvosAttacks:
 	db 40, LIQUIDATION
 	db 46, PLAY_ROUGH
 	db 50, AGILITY
-	db 54, SKULL_BASH
+	db 56, SKULL_BASH
 	db 0 ; no more level-up moves
 
 MisdreavusEvosAttacks:

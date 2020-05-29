@@ -1,31 +1,19 @@
 ; Used by CheckSleepingTreeMon
 
 AsleepTreeMonsNite:
-	db BUZZLING
-	db HIVEMAIM
-	db VAZZINATE
-	db HOATOT
-	db HOATOXIC
-	db NOXROMAEUS
 	db QWAIL
-	db EKANS
-	db EXEGGCUTE
-	db WORMEEK
-	db AIPOM
 	db -1 ; end
 
 AsleepTreeMonsDay:
-	db VENONAT
-	db HOOTHOOT
-	db NOCTOWL
+	db EUKUB
+	db KOAGAN
+	db FLUFFRUIT
 	db GWUBBY
-	db HERACROSS
 	db -1 ; end
 
 AsleepTreeMonsMorn:
-	db VENONAT
-	db HOOTHOOT
-	db NOCTOWL
+	db HIVEMAIM
+	db EUKUB
+	db KOAGAN
 	db GWUBBY
-	db HERACROSS
 	db -1 ; end

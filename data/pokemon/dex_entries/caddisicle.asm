@@ -1,10 +1,10 @@
 	db "SNOWSHELL@" ; species name
 	dw 102, 284 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "CADDISICLE dress"
+	next "themselves in only"
+	next "the most perfect"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "ice crystals they"
+	next "can find, for both"
+	next "safety and pride.@"

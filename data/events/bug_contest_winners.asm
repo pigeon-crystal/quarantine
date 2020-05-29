@@ -20,60 +20,60 @@ BugContestantPointers:
 
 BugContestant_BugCatcherDon:
 	db BUG_CATCHER, DON
-	dbw HOATOXIC,   300
-	dbw HIVEMAIM,    285
+	dbw HIVEMAIM,   300
+	dbw HIVEMAIM,   285
 	dbw BUZZLING,   226
 
 BugContestant_BugCatcherEd:
 	db BUG_CATCHER, ED
-	dbw VAZZINATE, 286
-	dbw VAZZINATE, 251
+	dbw VAZZINATE,  300
+	dbw VAZZINATE,  251
 	dbw BUZZLING,   237
 
 BugContestant_CooltrainerMNick:
 	db COOLTRAINERM, NICK
-	dbw SCYTHER,    357
-	dbw VAZZINATE, 349
-	dbw PINSIR,     368
+	dbw BUZZLING,     370
+	dbw JADDICE,      344
+	dbw ARASBESTOS,   339
 
 BugContestant_PokefanMWilliam:
 	db POKEFANM, WILLIAM
-	dbw PINSIR,     332
-	dbw VAZZINATE, 324
-	dbw VENONAT,    321
+	dbw GWUBBY,     332
+	dbw VAZZINATE,  324
+	dbw WORMEEK,    321
 
 BugContestant_BugCatcherBenny:
 	db BUG_CATCHER, BUG_CATCHER_BENNY
-	dbw VAZZINATE, 318
-	dbw HOATOT,     295
+	dbw CADDISICLE, 318
+	dbw GWUBBY,     295
 	dbw BUZZLING,   285
 
 BugContestant_CamperBarry:
 	db CAMPER, BARRY
-	dbw PINSIR,     366
-	dbw VENONAT,    329
-	dbw HOATOXIC,     314
+	dbw JADDICE,     360
+	dbw HIVEMAIM,    329
+	dbw GWUBBY,      314
 
 BugContestant_PicnickerCindy:
 	db PICNICKER, CINDY
-	dbw VAZZINATE, 341
-	dbw HIVEMAIM,    301
+	dbw CADDISICLE, 342
+	dbw CADDISICLE, 311
 	dbw BUZZLING,   264
 
 BugContestant_BugCatcherJosh:
 	db BUG_CATCHER, JOSH
-	dbw SCYTHER,    326
-	dbw VAZZINATE, 292
-	dbw HIVEMAIM,    282
+	dbw CADDISICLE,  327
+	dbw HIVEMAIM,    292
+	dbw BUZZLING,    282
 
 BugContestant_YoungsterSamuel:
 	db YOUNGSTER, SAMUEL
-	dbw HOATOT,     270
-	dbw PINSIR,     282
-	dbw BUZZLING,   251
+	dbw VAZZINATE,   280
+	dbw WORMEEK,     282
+	dbw BUZZLING,    251
 
 BugContestant_SchoolboyKipp:
 	db SCHOOLBOY, KIPP
-	dbw VENONAT,    267
-	dbw PARAS,      254
-	dbw HOATOXIC,     259
+	dbw ARASBESTOS,    320
+	dbw BUZZLING,      254
+	dbw ARASBESTOS,    259

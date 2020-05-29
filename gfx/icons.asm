@@ -34,11 +34,15 @@ VazzinateIcon:    INCBIN "gfx/icons/vazzinate.2bpp"
 QwailIcon:		  INCBIN "gfx/icons/qwail.2bpp"
 QwallopIcon:      INCBIN "gfx/icons/qwallop.2bpp"
 CaddisicleIcon:   INCBIN "gfx/icons/caddisicle.2bpp"
+JaddiceIcon:      INCBIN "gfx/icons/jaddice.2bpp"
 ShabbycatIcon:	  INCBIN "gfx/icons/shabbycat.2bpp"
 PurrdleIcon:	  INCBIN "gfx/icons/purrdle.2bpp"
 MeowtainIcon:	  INCBIN "gfx/icons/meowtain.2bpp"
 EelkieIcon:       INCBIN "gfx/icons/eelkie.2bpp"
 MossarreIcon:     INCBIN "gfx/icons/mossarre.2bpp"
+TidoIcon:		  INCBIN "gfx/icons/tido.2bpp"
+BismuttIcon:	  INCBIN "gfx/icons/bismutt.2bpp"
+MaulzerIcon:      INCBIN "gfx/icons/maulzer.2bpp"
 
 SECTION "Mon Icons 2", ROMX
 
