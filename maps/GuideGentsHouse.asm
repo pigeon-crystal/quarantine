@@ -7,11 +7,17 @@ GuideGentsHouse_MapScripts:
 	db 0 ; callbacks
 
 GuideGentsHouseGuideGent:
-	jumptextfaceplayer GuideGentsHouseGuideGentText
-
+	faceplayer
+	opentext
+	special MoveReminder
+	waitbutton
+	closetext
+	end
+	
 GuideGentsHouseBookshelf:
 	jumpstd magazinebookshelf
 
+;unused
 GuideGentsHouseGuideGentText:
 	text "When I was a wee"
 	line "lad, I was a hot-"

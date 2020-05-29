@@ -254,7 +254,7 @@ ChooseMoveToLearn:
 
 .menudata2:
 	db $30 ; pointers
-	db 5, 8 ; rows, columns
+	db 5, SCREEN_WIDTH + 2 ; rows, columns
 	db 1 ; horizontal spacing
 	dbw 0, wd002
 	dba .PrintMoveName
@@ -289,6 +289,12 @@ ChooseMoveToLearn:
 	ld a, BANK(Moves)
 	call GetFarByte
 	ld [wd265], a
+	and TYPE_MASK
+	cp UNUSED_TYPES
+	jr c, .got_type
+	sub UNUSED_TYPES_END - UNUSED_TYPES
+.got_type
+
 	; c = a * 7
 	ld c, a
 	add a
@@ -348,15 +354,10 @@ ChooseMoveToLearn:
 	ld hl, wStringBuffer1 + 14
 	ld [hl], "@"
 
-	ld hl, SCREEN_WIDTH - 6
-	pop de
-	add hl, de
-	push de
+	pop hl
 	ld de, wStringBuffer1
-	call PlaceString
-	pop de
-	ret
-
+	jp PlaceString
+	
 .Types
 	db "NORMAL@"
 	db " FIGHT@"
@@ -364,6 +365,7 @@ ChooseMoveToLearn:
 	db "POISON@"
 	db "GROUND@"
 	db "  ROCK@"
+	db "  BIRD@"
 	db "   BUG@"
 	db " GHOST@"
 	db " STEEL@"

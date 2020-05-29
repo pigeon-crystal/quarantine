@@ -1541,14 +1541,18 @@ _MomLostGearBookletText::
 	prompt
 
 _MoveReminderIntro::
-	text "I'm the MOVE"
-	line "REMINDER."
+	text "I'm not just"
+	line "the CHERRYGROVE-"
+	cont "famous GUIDE GENT."
+	
+	para "I'm also the MOVE"
+	line "REMINDER!"
 	
 	para "I can teach your"
 	line "#MON a move"
 	cont "it's learned"
 	cont "if you gimme"
-	cont "a #DOLL."
+	cont "a # DOLL."
 	done
 	
 _MoveReminderPrompt::
@@ -1581,7 +1585,9 @@ _MoveReminderEgg::
 	
 _MoveReminderNoPay::
 	text "Hm. Come back with"
-	line "a # DOLL."
+	line "a # DOLL, then"
+	cont "I can teach your"
+	cont "#MON a move."
 	done
 	
 _MoveReminderNoMon::
@@ -1595,5 +1601,8 @@ _MoveReminderNoMoves::
 	text "There's no"
 	line "moves for this"
 	cont "#MON to learn!"
+	
+	para "It's either young"
+	line "or a good student."
 	done
 	

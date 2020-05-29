@@ -224,7 +224,6 @@ MysticWaterGuy:
 	end
 
 CherrygroveCitySign:
-	giveegg TRANQUIEL, 5
 	jumptext CherrygroveCitySignText
 
 GuideGentsHouseSign:

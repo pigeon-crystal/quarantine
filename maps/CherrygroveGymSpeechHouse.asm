@@ -8,13 +8,7 @@ CherrygroveGymSpeechHouse_MapScripts:
 	db 0 ; callbacks
 
 CherrygroveGymSpeechHousePokefanMScript:
-	faceplayer
-	opentext
-	special MoveReminder
-	waitbutton
-	closetext
-	end
-	;jumptextfaceplayer CherrygroveGymSpeechHousePokefanMText
+	jumptextfaceplayer CherrygroveGymSpeechHousePokefanMText
 
 CherrygroveGymSpeechHouseBugCatcherScript:
 	jumptextfaceplayer CherrygroveGymSpeechHouseBugCatcherText
@@ -28,12 +22,32 @@ CherrygroveGymSpeechHousePokefanMText:
 
 	para "are as a #MON"
 	line "trainer?"
+	
+	para "Here's some tips"
+	line "for you on your"
+	cont "GYM challenge:"
 
-	para "You better visit"
-	line "the #MON GYMS"
-
-	para "all over JOHTO and"
-	line "collect BADGES."
+	para "Above all else,"
+	line "try to have a"
+	cont "balanced team."
+	
+	para "Try to have some"
+	line "#MON that have"
+	cont "high ATTACK,"
+	
+	para "and some with"
+	line "high SPCL. ATK."
+	
+	para "The same goes"
+	line "for DEFENSE and"
+	cont "SPCL. DEF."
+	
+	para "And most important"
+	line "advice I can give:"
+	
+	para "Treat #MON"
+	line "with love and"
+	cont "respect!"
 	done
 
 CherrygroveGymSpeechHouseBugCatcherText:
@@ -46,6 +60,9 @@ CherrygroveGymSpeechHouseBugCatcherText:
 
 	para "friend's to make"
 	line "them tougher!"
+	
+	para "Soon I'll journey"
+	line "all over JOHTO!"
 	done
 
 CherrygroveGymSpeechHouse_MapEvents:
