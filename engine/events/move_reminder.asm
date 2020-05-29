@@ -299,41 +299,23 @@ ChooseMoveToLearn:
 	ld b, 0
 	ld hl, .Types
 	add hl, bc
-	ld d, h
-	ld e, l
 
 ;print / between move type and category (works)
-	ld hl, wStringBuffer1
-	ld bc, 7
-	call PlaceString
-	ld hl, wStringBuffer1 + 6
-	ld [hl], "/"
-
-	;ld a, [wMenuSelection]
-	;dec a
-	;ld bc, MOVE_LENGTH
-	;ld hl, Moves + TYPE_MASK
-	;call AddNTimes
-	;ld a, BANK(Moves)
-	;call GetFarByte
+	ld de, wStringBuffer1
+	ld bc, 6
+	call CopyBytes
+	ld a, "/"
+	ld [de], a
 	
 ;attempt to use the phys/spec split code to print category (bugged but at least prints a category)
-	ld a, b
-	dec a
-	ld bc, MOVE_LENGTH
-	ld hl, Moves + MOVE_TYPE
-	call AddNTimes
-	ld a, BANK(Moves)
-	call GetFarByte
-
-; Mask out the type
+;get the category
+	ld a, [wd265]
 	and $ff ^ TYPE_MASK
-; Shift the category bits into the range 0-2
 	rlc a
 	rlc a
 	dec a
-;end of attempt
 
+; c = a * 5
 	ld c, a
 	add a
 	add a
@@ -342,16 +324,13 @@ ChooseMoveToLearn:
 	ld c, a
 	ld hl, .Category
 	add hl, bc
-	ld d, h
-	ld e, l
-
 
 ;print / between category and PP (works)
-	ld hl, wStringBuffer1 + 7
-	ld bc, 7
-	call PlaceString
-	ld hl, wStringBuffer1 + 11
-	ld [hl], "/"
+	ld de, wStringBuffer1 + 7
+	ld bc, 4
+	call CopyBytes
+	ld a, "/"
+	ld [de], a
 
 ;print PP (works)
 	ld a, [wMenuSelection]
