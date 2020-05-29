@@ -1,3 +1,7 @@
+;based on an old commit of Rangi's Polished Crystal, which was in turn based off TPP Anniversary Crystal
+;https://github.com/Rangi42/polishedcrystal/blob/39bf603531d74254e7ab2740677d38ec3ef9b6bd/event/move_reminder.asm
+;https://github.com/TwitchPlaysPokemon/tppcrystal251pub/blob/public/event/move_relearner.asm
+
 MoveReminder:
 	ld hl, Text_MoveReminderIntro
 	call PrintText
@@ -267,6 +271,7 @@ ChooseMoveToLearn:
 	ret
 
 .PrintDetails
+;Initialize menu (bugged)
 	ld hl, wStringBuffer1
 	ld bc, wStringBuffer2 - wStringBuffer1
 	ld a, " "
@@ -276,6 +281,8 @@ ChooseMoveToLearn:
 	ret z
 	push de
 	dec a
+	
+;print move type (bugged)
 	ld bc, MOVE_LENGTH
 	ld hl, Moves + MOVE_TYPE
 	call AddNTimes
@@ -295,36 +302,58 @@ ChooseMoveToLearn:
 	ld d, h
 	ld e, l
 
+;print / between move type and category (works)
 	ld hl, wStringBuffer1
 	ld bc, 7
 	call PlaceString
 	ld hl, wStringBuffer1 + 6
 	ld [hl], "/"
 
-	ld a, [wMenuSelection]
+	;ld a, [wMenuSelection]
+	;dec a
+	;ld bc, MOVE_LENGTH
+	;ld hl, Moves + TYPE_MASK
+	;call AddNTimes
+	;ld a, BANK(Moves)
+	;call GetFarByte
+	
+;attempt to use the phys/spec split code to print category (bugged but at least prints a category)
+	ld a, b
 	dec a
 	ld bc, MOVE_LENGTH
-	ld hl, Moves + TYPE_MASK
+	ld hl, Moves + MOVE_TYPE
 	call AddNTimes
 	ld a, BANK(Moves)
 	call GetFarByte
+
+; Mask out the type
+	and $ff ^ TYPE_MASK
+; Shift the category bits into the range 0-2
+	rlc a
+	rlc a
+	dec a
+;end of attempt
+
 	ld c, a
 	add a
 	add a
 	add c
 	ld b, 0
 	ld c, a
-	ld hl, .Classes
+	ld hl, .Category
 	add hl, bc
 	ld d, h
 	ld e, l
 
+
+;print / between category and PP (works)
 	ld hl, wStringBuffer1 + 7
 	ld bc, 7
 	call PlaceString
 	ld hl, wStringBuffer1 + 11
 	ld [hl], "/"
 
+;print PP (works)
 	ld a, [wMenuSelection]
 	dec a
 	ld bc, MOVE_LENGTH
@@ -354,7 +383,7 @@ ChooseMoveToLearn:
 	db " FIGHT@"
 	db "FLYING@"
 	db "POISON@"
-	db "  GRND@"
+	db "GROUND@"
 	db "  ROCK@"
 	db "   BUG@"
 	db " GHOST@"
@@ -362,14 +391,14 @@ ChooseMoveToLearn:
 	db "  FIRE@"
 	db " WATER@"
 	db " GRASS@"
-	db "ELECTR@"
+	db "  ELEC@"
 	db " PSYCH@"
 	db "   ICE@"
-	db "  DRGN@"
+	db "DRAGON@"
 	db "  DARK@"
 	db " FAIRY@"
 
-.Classes
+.Category
 	db "PHYS@"
 	db "SPCL@"
 	db "STAT@"
@@ -388,64 +417,38 @@ ChooseMoveToLearn:
 
 
 Text_MoveReminderIntro:
-	;text "I'm the MOVE"
-	;line "REMINDER."
-	
-	;para "I can teach your"
-	;line "#MON a move"
-	;cont "it's learned"
-	;cont "if you gimme"
-	;cont "a #DOLL."
-	text "INTRO"
-	done
+	text_far _MoveReminderIntro
+	text_end
 
 Text_MoveReminderPrompt:
-	;text "Are you"
-	;line "interested?"
-	text "prompt"
-	done
-
+	text_far _MoveReminderPrompt
+	text_end
+	
 Text_MoveReminderWhichMon:
-	;text "Which #MON"
-	;next "would you like"
-	;cont "to remember a"
-	;cont "move?"
-	text "WHICH"
-	done
+	text_far _MoveReminderWhichMon
+	text_end
 
 Text_MoveReminderWhichMove:
-	;text "Which move would"
-	;next "you like to"
-	;cont "remember?"
-	text "WHAT MOVE"
-	done
+	text_far _MoveReminderWhichMove
+	text_end
 
 Text_MoveReminderCancel:
-	text "CANCEL"
-	done
+	text_far _MoveReminderCancel
+	text_end
 	
 Text_MoveReminderEgg:
-	text "What am I"
-	line "supposed to teach"
-	cont "an egg?"
-	done
+	text_far _MoveReminderEgg
+	text_end
 
 Text_MoveReminderNoGoldLeaf:
-	text "You don't have"
-	line "a # DOLL!"
-	done
+	text_far _MoveReminderNoPay
+	text_end
 
 Text_MoveReminderNoMon:
-	;text "You don't have"
-	;line "a #MON that can"
-	;cont "remember any"
-	;cont "moves."
-	text "NOPE"
-	done
+	text_far _MoveReminderNoMon
+	text_end
 	
 Text_MoveReminderNoMoves:
-	;text "There's no"
-	;line "moves for this"
-	;cont "#MON to learn!"
-	text "NOPE"
-	done
+	text_far _MoveReminderNoMoves
+	text_end
+	
