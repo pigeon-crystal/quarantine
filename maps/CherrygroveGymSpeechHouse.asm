@@ -8,7 +8,13 @@ CherrygroveGymSpeechHouse_MapScripts:
 	db 0 ; callbacks
 
 CherrygroveGymSpeechHousePokefanMScript:
-	jumptextfaceplayer CherrygroveGymSpeechHousePokefanMText
+	faceplayer
+	opentext
+	special MoveReminder
+	waitbutton
+	closetext
+	end
+	;jumptextfaceplayer CherrygroveGymSpeechHousePokefanMText
 
 CherrygroveGymSpeechHouseBugCatcherScript:
 	jumptextfaceplayer CherrygroveGymSpeechHouseBugCatcherText

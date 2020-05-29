@@ -2920,8 +2920,11 @@ MurkrowEvosAttacks:
 
 TidoEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, EXPLOSION
 	db 1, BUBBLE
 	db 1, CHARM
+	db 1, NITROBLAZE
+	db 1, FROSTBITE
 	db 6, LICK
 	db 11, ROAR
 	db 17, SUPER_FANG
