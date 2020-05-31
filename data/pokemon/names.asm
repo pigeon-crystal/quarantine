@@ -61,7 +61,7 @@ PokemonNames::
 	db "CREMIGO@@@"
 	db "AMANIGO@@@"
 	db "YUGGROMI@@"
-	db "DUSMAUS@@@@@@"
+	db "DUSMAUS@@@"
 	db "KADABRA@@@"
 	db "ALAKAZAM@@"
 	db "MACHOP@@@@" ;machop

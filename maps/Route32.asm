@@ -48,8 +48,7 @@ Route32CooltrainerMContinueScene:
 	opentext
 	checkevent EVENT_GOT_MIRACLE_SEED_IN_ROUTE_32
 	iftrue .GotMiracleSeed
-	;checkflag ENGINE_ZEPHYRBADGE
-	checkflag ENGINE_RISINGBADGE ;DELETE THIS and uncomment above after finishing demo
+	checkflag ENGINE_ZEPHYRBADGE
 	iffalse .DontHaveZephyrBadge
 	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
 	iftrue .GiveMiracleSeed
@@ -559,44 +558,21 @@ Route32CooltrainerMText_UnusedSproutTower:
 	done
 
 Route32CooltrainerMText_VioletGym:
-	;text "Have you gone to"
-	;line "the #MON GYM?"
+	text "Hey there pal!"
+	line "I'm on the tourist"
+	cont "committee for"
+	cont "VIOLET CITY."
+	
+	para "Have you gone to"
+	line "the #MON GYM?"
 
-	;para "You can test your"
-	;line "#MON and your-"
-	;cont "self there."
+	para "You can test your"
+	line "#MON and your-"
+	cont "self there."
 
-	;para "It's a rite of"
-	;line "passage for all"
-	;cont "trainers!"
-	text "Sorry buddy, but"
-	line "I can't let you"
-	cont "past here."
-	
-	para "It's a demo,"
-	line "after all!"
-	
-	para "The RUINS are"
-	line "blocked off,"
-	cont "too."
-	
-	para "If you've scaled"
-	line "SPROUT TOWER,"
-	cont "beat FALKNER,"
-	cont "and caught to"
-	cont "your heart's"
-	cont "content, then that"
-	cont "about covers it."
-	
-	para "Remember to report"
-	line "any bugs you en-"
-	cont "countered, and"
-	cont "give feedback."
-	
-	para "Thank you for"
-	line "your support,"
-	cont "and thank you"
-	cont "for playing!"
+	para "It's a rite of"
+	line "passage for all"
+	cont "trainers!"
 	done
 
 Route32CooltrainerMText_HaveThisSeed:
@@ -617,7 +593,7 @@ Route32CooltrainerMText_HaveThisSeed:
 
 	para "As a souvenir of"
 	line "VIOLET CITY, take"
-	cont "this."
+	cont "this!"
 
 	para "It increases the"
 	line "power of grass-"
@@ -630,6 +606,9 @@ Route32CooltrainerMText_ExperiencesShouldBeUseful:
 
 	para "should be useful"
 	line "for your journey."
+	
+	para "Tell your friends!"
+	cont "Come back soon!"
 	done
 
 Text_MillionDollarSlowpokeTail:
@@ -948,10 +927,8 @@ Route32SignText:
 	done
 
 Route32RuinsSignText:
-	;text "RUINS OF ALPH"
-	;line "EAST ENTRANCE"
-	text "SORRY BUD"
-	line "IT'S A DEMO"
+	text "RUINS OF ALPH"
+	line "EAST ENTRANCE"
 	done
 
 Route32UnionCaveSignText:
@@ -962,10 +939,10 @@ Route32UnionCaveSignText:
 Route32_MapEvents:
 	db 0, 0 ; filler
 
-	db 2 ; warp events (fix to 4)
+	db 4 ; warp events (fix to 4)
 	warp_event 11, 73, ROUTE_32_POKECENTER_1F, 1
-	;warp_event  4,  2, ROUTE_32_RUINS_OF_ALPH_GATE, 3
-	;warp_event  4,  3, ROUTE_32_RUINS_OF_ALPH_GATE, 4
+	warp_event  4,  2, ROUTE_32_RUINS_OF_ALPH_GATE, 3
+	warp_event  4,  3, ROUTE_32_RUINS_OF_ALPH_GATE, 4
 	warp_event  6, 79, UNION_CAVE_1F, 4
 
 	db 2 ; coord events

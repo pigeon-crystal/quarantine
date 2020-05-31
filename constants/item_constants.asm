@@ -50,12 +50,12 @@
 	const SUPER_REPEL  ; 2a
 	const MAX_REPEL    ; 2b
 	const DIRE_HIT     ; 2c
-	const ITEM_2D      ; 2d
+	const SCORPSERUM   ; 2d
 	const FRESH_WATER  ; 2e
 	const SODA_POP     ; 2f
 	const LEMONADE     ; 30
 	const X_ATTACK     ; 31
-	const ITEM_32      ; 32
+	const REFINEDSERUM ; 32
 	const X_DEFEND     ; 33
 	const X_SPEED      ; 34
 	const X_SPECIAL    ; 35
@@ -95,7 +95,7 @@
 	const BIG_MUSHROOM ; 57
 	const SILVERPOWDER ; 58
 	const BLU_APRICORN ; 59
-	const ITEM_5A      ; 5a
+	const HORN_FOSSIL  ; 5a
 	const AMULET_COIN  ; 5b
 	const YLW_APRICORN ; 5c
 	const GRN_APRICORN ; 5d
@@ -105,7 +105,7 @@
 	const WHT_APRICORN ; 61
 	const BLACKBELT_I  ; 62
 	const BLK_APRICORN ; 63
-	const ITEM_64      ; 64
+	const MIST_STONE   ; 64
 	const PNK_APRICORN ; 65
 	const BLACKGLASSES ; 66
 	const SLOWPOKETAIL ; 67
@@ -125,7 +125,7 @@
 	const MIRACLE_SEED ; 75
 	const THICK_CLUB   ; 76
 	const FOCUS_BAND   ; 77
-	const ITEM_78      ; 78
+	const ODD_AMBER    ; 78
 	const ENERGYPOWDER ; 79
 	const ENERGY_ROOT  ; 7a
 	const HEAL_POWDER  ; 7b
@@ -140,14 +140,14 @@
 	const STAR_PIECE   ; 84
 	const BASEMENT_KEY ; 85
 	const PASS         ; 86
-	const ITEM_87      ; 87
-	const ITEM_88      ; 88
-	const ITEM_89      ; 89
+	const SCYTHEFOSSIL ; 87
+	const MYSTERY_BONE ; 88
+	const SCALE_FOSSIL ; 89
 	const CHARCOAL     ; 8a
 	const BERRY_JUICE  ; 8b
 	const SCOPE_LENS   ; 8c
-	const ITEM_8D      ; 8d
-	const ITEM_8E      ; 8e
+	const OLD_IVORY    ; 8d
+	const BEAK_FOSSIL  ; 8e
 	const METAL_COAT   ; 8f
 	const DRAGON_FANG  ; 90
 	const ITEM_91      ; 91

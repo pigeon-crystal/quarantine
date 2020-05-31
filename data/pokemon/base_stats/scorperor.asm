@@ -3,7 +3,7 @@
 	db  80,  135,  125,  40,   80,  40
 	;   hp   atk   def   spd   sat  sdf
 
-	db POISON, POISON ; type
+	db POISON, FIGHTING ; type
 	db 25 ; catch rate
 	db 209 ; base exp
 	db POISON_BARB, YLW_APRICORN ; items

@@ -67,7 +67,7 @@ PokemonCries::
 	mon_cry CRY_AMPHAROS,   1751,  221 ; CREMIGO
 	mon_cry CRY_AMPHAROS,   2791,  331 ; AMANIGO
 	mon_cry CRY_PIDGEY,     3111,  391 ; YUGGROMI
-	mon_cry CRY_METAPOD,     192,  129 ; DUSMAUS
+	mon_cry CRY_PICHU,       -49,  121 ; DUSMAUS
 	mon_cry CRY_METAPOD,     168,  320 ; KADABRA
 	mon_cry CRY_METAPOD,     152,  383 ; ALAKAZAM
 	mon_cry CRY_GROWLITHE,   238,  129 ; MACHOP
@@ -203,7 +203,7 @@ PokemonCries::
 	mon_cry CRY_AIPOM,       162,  320 ; ESPEON
 	mon_cry CRY_VENONAT,    -233,  240 ; UMBREON
 	mon_cry CRY_MARILL,      -31,  384 ; MURKROW
-	mon_cry CRY_ENTEI,       333,  200 ; TIDO
+	mon_cry CRY_ENTEI,       160,  190 ; TIDO
 	mon_cry CRY_HOOTHOOT,    304,  232 ; MISDREAVUS
 	mon_cry CRY_HOOTHOOT,    354,  256 ; UNOWN
 	mon_cry CRY_AMPHAROS,    400,  201 ; RESPECTRE

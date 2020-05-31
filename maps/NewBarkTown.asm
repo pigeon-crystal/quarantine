@@ -126,6 +126,9 @@ NewBarkTownSilverScript:
 	end
 
 NewBarkTownSign:
+	verbosegiveitem MAX_REPEL
+	verbosegiveitem MAX_REPEL
+	verbosegiveitem MAX_REPEL
 	jumptext NewBarkTownSignText
 
 NewBarkTownPlayersHouseSign:

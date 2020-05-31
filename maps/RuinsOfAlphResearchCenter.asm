@@ -150,27 +150,217 @@ RuinsOfAlphResearchCenterComputer:
 
 RuinsOfAlphResearchCenterPrinter:
 	opentext
-	checkevent EVENT_RUINS_OF_ALPH_RESEARCH_CENTER_SCIENTIST
-	iftrue .SkipChecking
-	readvar VAR_UNOWNCOUNT
-	ifequal NUM_UNOWN, .PrinterAvailable
-.SkipChecking:
-	writetext RuinsOfAlphResearchCenterPrinterText_DoesntWork
+	playsound SFX_BOOT_PC
+	writetext FossilMachineIntroText
+	yesorno
+	iffalse FossilMachineCancelScript
+	waitbutton
+	readvar VAR_PARTYCOUNT
+	ifequal PARTY_LENGTH, FossilMachineFullPartyScript
+	closetext
+.loop                              
+	writetext FossilMachineWhichFossilText
+	loadmenu .MenuHeader
+	call ScrollingMenu
+	closewindow
+	ifequal 0, .Horn
+	ifequal 1, .Ivory
+	ifequal 2, .Scythe
+	ifequal 3, .Amber
+	ifequal 4, .Bone
+	ifequal 5, .Beak
+	ifequal 6, .Fang
+	ifequal 7, .Scale
+	sjump FossilMachineCancelScript
+	end
+;here we fucking go, switch items with proper ones once testing is done
+.Horn
+	checkitem HORN_FOSSIL
+	iffalse .NoFossil
+	scall FossilReviveConfirmScript
+	yesorno
+	iffalse FossilMachineCancelScript
+	waitsfx
+	playsound SFX_TRANSACTION
+	setval MISSINGNO
+	special GameCornerPrizeMonCheckDex
+	givepoke MISSINGNO, 10
+	takeitem HORN_FOSSIL
+	sjump FossilMachineEndTransaction
+	
+.Ivory
+	checkitem OLD_IVORY
+	iffalse .NoFossil
+	scall FossilReviveConfirmScript
+	yesorno
+	iffalse FossilMachineCancelScript
+	waitsfx
+	playsound SFX_TRANSACTION
+	setval MISSINGNO
+	special GameCornerPrizeMonCheckDex
+	givepoke MISSINGNO, 10
+	takeitem OLD_IVORY
+	sjump FossilMachineEndTransaction
+	
+.Scythe
+	checkitem SCYTHEFOSSIL
+	iffalse .NoFossil
+	scall FossilReviveConfirmScript
+	yesorno
+	iffalse FossilMachineCancelScript
+	waitsfx
+	playsound SFX_TRANSACTION
+	setval MISSINGNO
+	special GameCornerPrizeMonCheckDex
+	givepoke MISSINGNO, 10
+	takeitem SCYTHEFOSSIL
+	sjump FossilMachineEndTransaction
+	
+.Amber
+	checkitem ODD_AMBER
+	iffalse .NoFossil
+	scall FossilReviveConfirmScript
+	yesorno
+	iffalse FossilMachineCancelScript
+	waitsfx
+	playsound SFX_TRANSACTION
+	setval MISSINGNO
+	special GameCornerPrizeMonCheckDex
+	givepoke MISSINGNO, 10
+	takeitem ODD_AMBER
+	sjump FossilMachineEndTransaction
+	
+.Bone
+	checkitem MYSTERY_BONE
+	iffalse .NoFossil
+	scall FossilReviveConfirmScript
+	yesorno
+	iffalse FossilMachineCancelScript
+	waitsfx
+	playsound SFX_TRANSACTION
+	setval MISSINGNO
+	special GameCornerPrizeMonCheckDex
+	givepoke MISSINGNO, 10
+	takeitem MYSTERY_BONE
+	sjump FossilMachineEndTransaction
+	
+.Beak 
+	checkitem BEAK_FOSSIL
+	iffalse .NoFossil
+	scall FossilReviveConfirmScript
+	yesorno
+	iffalse FossilMachineCancelScript
+	waitsfx
+	playsound SFX_TRANSACTION
+	setval MISSINGNO
+	special GameCornerPrizeMonCheckDex
+	givepoke MISSINGNO, 10
+	takeitem BEAK_FOSSIL
+	sjump FossilMachineEndTransaction
+	
+.Fang
+	checkitem HORN_FOSSIL
+	iffalse .NoFossil
+	scall FossilReviveConfirmScript
+	yesorno
+	iffalse FossilMachineCancelScript
+	waitsfx
+	playsound SFX_TRANSACTION
+	setval MISSINGNO
+	special GameCornerPrizeMonCheckDex
+	givepoke MISSINGNO, 10
+	takeitem HORN_FOSSIL
+	sjump FossilMachineEndTransaction
+	
+.Scale
+	checkitem SCALE_FOSSIL
+	iffalse .NoFossil
+	scall FossilReviveConfirmScript
+	yesorno
+	iffalse FossilMachineCancelScript
+	waitsfx
+	playsound SFX_TRANSACTION
+	setval MISSINGNO
+	special GameCornerPrizeMonCheckDex
+	givepoke MISSINGNO, 10
+	takeitem SCALE_FOSSIL
+	sjump FossilMachineEndTransaction
+	
+.NoFossil
+	writetext NoFossilText
+	waitbutton
+	closetext
+	end
+	
+.MenuHeader:
+	db MENU_BACKUP_TILES ; flags
+	menu_coords 0, 2, 17, TEXTBOX_Y - 1
+	dw .MenuData
+	db 1 ; default option
+	
+.MenuData: ;thanks to pfero for this part
+	db 0 ; flags
+	db 9, 0 ; rows, columns
+	db SCROLLINGMENU_ITEMS_NORMAL ; item format
+	dba .Items
+	dba .PlaceItems
+	dba NULL
+	dba NULL
+
+.Items:
+	db 9 ; amount of entries
+	db 0
+	db 1
+	db 2
+	db 3
+	db 4
+	db 5
+	db 6
+	db 7
+	db 8
+	db -1
+
+.PlaceItems:
+	ld hl, .Strings
+	ld a, [wMenuSelection]
+	call GetNthString
+	jp PlaceString
+	
+.Strings:
+	db "HORN FOSSIL@"
+	db "OLD IVORY@"
+	db "SCYTHEFOSSIL@"
+	db "ODD AMBER@"
+	db "MYSTERY BONE@"
+	db "BEAK FOSSIL@"
+	db "FANG FOSSIL@"
+	db "SCALE FOSSIL@"
+	db "CANCEL@"
+	
+FossilMachineCancelScript:
+	writetext FossilMachineCancelText
+	waitbutton
+	closetext
+	end
+	
+FossilMachineFullPartyScript:
+	writetext FossilMachineFullPartyText
+	waitbutton
+	closetext
+	end
+	
+FossilReviveConfirmScript:
+	writetext FossilReviveConfirmText
 	waitbutton
 	closetext
 	end
 
-.PrinterAvailable:
-	writetext RuinsOfAlphResearchCenterUnownPrinterText
+FossilMachineEndTransaction:
+	writetext FossilMachineEndText
 	waitbutton
-	special UnownPrinter
 	closetext
 	end
-
-RuinsOfAlphResearchCenterPhoto:
-; unreferenced
-	jumptext RuinsOfAlphResearchCenterProfSilktreePhotoText
-
+	
 RuinsOfAlphResearchCenterBookshelf:
 	jumptext RuinsOfAlphResearchCenterAcademicBooksText
 
@@ -368,18 +558,65 @@ RuinsOfAlphResearchCenterPrinterText_DoesntWork:
 	line "to work yet."
 	done
 
-RuinsOfAlphResearchCenterUnownPrinterText:
-	text "UNOWN may be"
-	line "printed out."
+FossilMachineIntroText:
+	text "BEEP BOOP."
+	
+	para "This is the"
+	line "FOSSIL RESTORATION"
+	cont "MACHINE."
+	
+	para "Do you have a"
+	line "fossil you would"
+	cont "like restored,"
+	cont "BEEP BOOP?"
 	done
-
-RuinsOfAlphResearchCenterProfSilktreePhotoText:
-; unused
-	text "It's a photo of"
-	line "the RESEARCH"
-
-	para "CENTER'S founder,"
-	line "PROF.SILKTREE."
+	
+FossilMachineCancelText:
+	text "BEEP BOOP."
+	
+	para "Instance cancelled"
+	line "and shutdown"
+	cont "engaged."
+	done
+	
+FossilMachineFullPartyText:
+	text "BOOP! BOOP!"
+	
+	para "Party is full."
+	line "Please make room"
+	cont "in your party,"
+	cont "then return."
+	done
+	
+NoFossilText:
+	text "BE-BOOP?"
+	
+	para "Could not detect"
+	line "the specified"
+	cont "fossil."
+	
+	para "Please try again."
+	done
+	
+FossilMachineWhichFossilText:
+	text "Please choose a"
+	line "fossil to revive."
+	done
+	
+FossilReviveConfirmText:
+	text "Are you sure you"
+	line "want to revive"
+	cont "this fossil?"
+	done
+	
+FossilMachineEndText:
+	text "BEEP-BE-BEEP!!!"
+	
+	para "Please be kind"
+	line "to your new"
+	cont "#MON."
+	
+	para "Come again!"
 	done
 
 RuinsOfAlphResearchCenterAcademicBooksText:

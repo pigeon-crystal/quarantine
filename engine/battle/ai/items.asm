@@ -281,12 +281,19 @@ AI_Items:
 	dbw X_DEFEND,     .XDefend
 	dbw X_SPEED,      .XSpeed
 	dbw X_SPECIAL,    .XSpecial
+	dbw SCORPSERUM,   .ScorpSerum
 	db -1 ; end
 
 .FullHeal:
 	call .Status
 	jp c, .DontUse
 	call EnemyUsedFullHeal
+	jp .Use
+	
+.ScorpSerum:
+	call .Status
+	jp c, .DontUse
+	call EnemyUsedScorpSerum
 	jp .Use
 
 .Status:
@@ -537,6 +544,12 @@ EnemyUsedFullHeal:
 	call AIUsedItemSound
 	call AI_HealStatus
 	ld a, FULL_HEAL
+	jp PrintText_UsedItemOn_AND_AIUpdateHUD
+	
+EnemyUsedScorpSerum:
+	call AIUsedItemSound
+	call AI_HealStatus
+	ld a, SCORPSERUM
 	jp PrintText_UsedItemOn_AND_AIUpdateHUD
 
 EnemyUsedMaxPotion:

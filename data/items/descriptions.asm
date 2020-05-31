@@ -44,12 +44,12 @@ ItemDescriptions:
 	dw SuperRepelDesc
 	dw MaxRepelDesc
 	dw DireHitDesc
-	dw TeruSama3Desc
+	dw ScorpSerumDesc
 	dw FreshWaterDesc
 	dw SodaPopDesc
 	dw LemonadeDesc
 	dw XAttackDesc
-	dw TeruSama4Desc
+	dw RefinedSerumDesc
 	dw XDefendDesc
 	dw XSpeedDesc
 	dw XSpecialDesc
@@ -89,7 +89,7 @@ ItemDescriptions:
 	dw BigMushroomDesc
 	dw SilverPowderDesc
 	dw BluApricornDesc
-	dw TeruSama6Desc
+	dw HornFossilDesc
 	dw AmuletCoinDesc
 	dw YlwApricornDesc
 	dw GrnApricornDesc
@@ -99,7 +99,7 @@ ItemDescriptions:
 	dw WhtApricornDesc
 	dw BlackbeltDesc
 	dw BlkApricornDesc
-	dw TeruSama7Desc
+	dw MistStoneDesc
 	dw PnkApricornDesc
 	dw BlackGlassesDesc
 	dw SlowpokeTailDesc
@@ -119,7 +119,7 @@ ItemDescriptions:
 	dw MiracleSeedDesc
 	dw ThickClubDesc
 	dw FocusBandDesc
-	dw TeruSama8Desc
+	dw OddAmberDesc
 	dw EnergyPowderDesc
 	dw EnergyRootDesc
 	dw HealPowderDesc
@@ -134,14 +134,14 @@ ItemDescriptions:
 	dw StarPieceDesc
 	dw BasementKeyDesc
 	dw PassDesc
-	dw TeruSama9Desc
-	dw TeruSama10Desc
-	dw TeruSama11Desc
+	dw ScytheFossilDesc
+	dw MysteryBoneDesc
+	dw ScaleFossilDesc
 	dw CharcoalDesc
 	dw BerryJuiceDesc
 	dw ScopeLensDesc
-	dw TeruSama12Desc
-	dw TeruSama13Desc
+	dw OldIvoryDesc
+	dw BeakFossilDesc
 	dw MetalCoatDesc
 	dw DragonFangDesc
 	dw TeruSama14Desc
@@ -431,9 +431,10 @@ DireHitDesc:
 	db   "Ups critical hit"
 	next "ratio. (1 BTL)@"
 
-TeruSama3Desc:
-	db   "?@"
-
+ScorpSerumDesc:
+	db   "From SCORPOCTOR."
+	next "Cures all status.@"
+	
 FreshWaterDesc:
 	db   "Restores #MON"
 	next "HP by 50.@"
@@ -450,8 +451,9 @@ XAttackDesc:
 	db   "Raises ATTACK."
 	next "(1 BTL)@"
 
-TeruSama4Desc:
-	db   "?@"
+RefinedSerumDesc:
+	db   "Refind venom. May"
+	next "cure BUZZLING.@"
 
 XDefendDesc:
 	db   "Raises DEFENSE."
@@ -606,8 +608,9 @@ SilverPowderDesc:
 BluApricornDesc:
 	db   "A blue APRICORN.@"
 
-TeruSama6Desc:
-	db   "?@"
+HornFossilDesc:
+	db   "The horn of a"
+	next "fossil #MON.@" 
 
 AmuletCoinDesc:
 	db   "Doubles monetary"
@@ -642,8 +645,9 @@ BlkApricornDesc:
 	db   "A black APRICORN."
 	next "@"
 
-TeruSama7Desc:
-	db   "?@"
+MistStoneDesc:
+	db   "Very rare. Evolves"
+	next "certain #MON."
 
 PnkApricornDesc:
 	db   "A pink APRICORN."
@@ -721,8 +725,9 @@ FocusBandDesc:
 	db   "May prevent faint-"
 	next "ing. (HOLD)@"
 
-TeruSama8Desc:
-	db   "?@"
+OddAmberDesc:
+	db   "A chunk of odd,"
+	next "fossilized amber.@"
 
 EnergyPowderDesc:
 	db   "Restores #MON"
@@ -779,14 +784,17 @@ PassDesc:
 	db   "A ticket for the"
 	next "MAGNET TRAIN.@"
 
-TeruSama9Desc:
-	db   "?@"
+ScytheFossilDesc:
+	db   "Razorlike claw of"
+	next "a fossil #MON.@"
+	
+MysteryBoneDesc:
+	db   "A fossilized bone."
+	next "Better keep it.@"
 
-TeruSama10Desc:
-	db   "?@"
-
-TeruSama11Desc:
-	db   "?@"
+ScaleFossilDesc:
+	db   "The scale of a"
+	next "fossil #MON.@"
 
 CharcoalDesc:
 	db   "Powers up fire-"
@@ -800,12 +808,14 @@ ScopeLensDesc:
 	db   "Raises critical"
 	next "hit ratio. (HOLD)@"
 
-TeruSama12Desc:
-	db   "?@"
+OldIvoryDesc:
+	db   "Ancient ivory"
+	next "from a #MON.@"
 
-TeruSama13Desc:
-	db   "?@"
-
+BeakFossilDesc:
+	db   "The beak of an"
+	next "ancient #MON.@"
+	
 MetalCoatDesc:
 	db   "Powers up steel-"
 	next "type moves. (HOLD)@"
