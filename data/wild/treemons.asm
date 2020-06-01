@@ -46,9 +46,9 @@ TreeMonSet_Town:
 	db 50, QWAIL,    10
 	db 15, HERACROSS,  10
 	db 15, HERACROSS,  10
-	db 10, AIPOM,      10
-	db  5, AIPOM,      10
-	db  5, AIPOM,      10
+	db 10, HOPLAQUE,      10
+	db  5, HOPLAQUE,      10
+	db  5, HOPLAQUE,      10
 	db -1
 
 TreeMonSet_Route:

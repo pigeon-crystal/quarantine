@@ -50,8 +50,8 @@ EvosAttacksPointers::
 	dw ParasectEvosAttacks
 	dw VenonatEvosAttacks
 	dw VenomothEvosAttacks
-	dw DiglettEvosAttacks
-	dw DugtrioEvosAttacks
+	dw MuminiEvosAttacks
+	dw MumagnusEvosAttacks
 	dw MeowthEvosAttacks
 	dw PersianEvosAttacks
 	dw PsyduckEvosAttacks
@@ -98,8 +98,8 @@ EvosAttacksPointers::
 	dw OnixEvosAttacks
 	dw EelkieEvosAttacks
 	dw MossarreEvosAttacks
-	dw KrabbyEvosAttacks
-	dw KinglerEvosAttacks
+	dw LanatunEvosAttacks
+	dw PepofferEvosAttacks
 	dw VoltorbEvosAttacks
 	dw ElectrodeEvosAttacks
 	dw ExeggcuteEvosAttacks
@@ -190,9 +190,9 @@ EvosAttacksPointers::
 	dw ShabbycatEvosAttacks
 	dw PurrdleEvosAttacks
 	dw MeowtainEvosAttacks
-	dw AipomEvosAttacks
-	dw SunkernEvosAttacks
-	dw SunfloraEvosAttacks
+	dw HoplaqueEvosAttacks
+	dw PhanguardEvosAttacks
+	dw BrigadoomEvosAttacks
 	dw ArasbestosEvosAttacks
 	dw WooperEvosAttacks
 	dw QuagsireEvosAttacks

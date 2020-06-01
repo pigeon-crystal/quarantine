@@ -100,10 +100,10 @@ PokemonPicPointers::
 	dba_pic VenonatBackpic
 	dba_pic VenomothFrontpic
 	dba_pic VenomothBackpic
-	dba_pic DiglettFrontpic
-	dba_pic DiglettBackpic
-	dba_pic DugtrioFrontpic
-	dba_pic DugtrioBackpic
+	dba_pic MuminiFrontpic
+	dba_pic MuminiBackpic
+	dba_pic MumagnusFrontpic
+	dba_pic MumagnusBackpic
 	dba_pic MeowthFrontpic
 	dba_pic MeowthBackpic
 	dba_pic PersianFrontpic
@@ -196,10 +196,10 @@ PokemonPicPointers::
 	dba_pic EelkieBackpic
 	dba_pic MossarreFrontpic
 	dba_pic MossarreBackpic
-	dba_pic KrabbyFrontpic
-	dba_pic KrabbyBackpic
-	dba_pic KinglerFrontpic
-	dba_pic KinglerBackpic
+	dba_pic LanatunFrontpic
+	dba_pic LanatunBackpic
+	dba_pic PepofferFrontpic
+	dba_pic PepofferBackpic
 	dba_pic VoltorbFrontpic
 	dba_pic VoltorbBackpic
 	dba_pic ElectrodeFrontpic
@@ -380,12 +380,12 @@ PokemonPicPointers::
 	dba_pic PurrdleBackpic
 	dba_pic MeowtainFrontpic
 	dba_pic MeowtainBackpic
-	dba_pic AipomFrontpic
-	dba_pic AipomBackpic
-	dba_pic SunkernFrontpic
-	dba_pic SunkernBackpic
-	dba_pic SunfloraFrontpic
-	dba_pic SunfloraBackpic
+	dba_pic HoplaqueFrontpic
+	dba_pic HoplaqueBackpic
+	dba_pic PhanguardFrontpic
+	dba_pic PhanguardBackpic
+	dba_pic BrigadoomFrontpic
+	dba_pic BrigadoomBackpic
 	dba_pic ArasbestosFrontpic
 	dba_pic ArasbestosBackpic
 	dba_pic WooperFrontpic

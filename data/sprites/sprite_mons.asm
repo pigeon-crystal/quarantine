@@ -12,7 +12,7 @@ SpriteMons:
 	db SQUIRTLE
 	db TRANQUIEL
 	db VAZZINATE
-	db DIGLETT
+	db MUMINI
 	db CREMIGO
 	db PIKACHU
 	db CLEFAIRY

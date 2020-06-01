@@ -68,8 +68,8 @@
 	const PARASECT   ; 2f
 	const VENONAT    ; 30
 	const VENOMOTH   ; 31
-	const DIGLETT    ; 32
-	const DUGTRIO    ; 33
+	const MUMINI    ; 32
+	const MUMAGNUS    ; 33
 	const MEOWTH     ; 34
 	const PERSIAN    ; 35
 	const PSYDUCK    ; 36
@@ -116,8 +116,8 @@
 	const ONIX       ; 5f
 	const EELKIE    ; 60
 	const MOSSARRE      ; 61
-	const KRABBY     ; 62
-	const KINGLER    ; 63
+	const LANATUN     ; 62
+	const PEPOFFER    ; 63
 	const VOLTORB    ; 64
 	const ELECTRODE  ; 65
 	const EXEGGCUTE  ; 66
@@ -209,9 +209,9 @@ JOHTO_POKEMON EQU const_value
 	const SHABBYCAT  ; bb
 	const PURRDLE    ; bc
 	const MEOWTAIN   ; bd
-	const AIPOM      ; be
-	const SUNKERN    ; bf
-	const SUNFLORA   ; c0
+	const HOPLAQUE      ; be
+	const PHANGUARD    ; bf
+	const BRIGADOOM   ; c0
 	const ARASBESTOS ; c1
 	const WOOPER     ; c2
 	const QUAGSIRE   ; c3

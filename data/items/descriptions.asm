@@ -144,7 +144,7 @@ ItemDescriptions:
 	dw BeakFossilDesc
 	dw MetalCoatDesc
 	dw DragonFangDesc
-	dw TeruSama14Desc
+	dw AncientFangDesc
 	dw LeftoversDesc
 	dw TeruSama15Desc
 	dw TeruSama16Desc
@@ -609,8 +609,8 @@ BluApricornDesc:
 	db   "A blue APRICORN.@"
 
 HornFossilDesc:
-	db   "The horn of a"
-	next "fossil #MON.@" 
+	db   "The horn of an"
+	next "ancient #MON.@" 
 
 AmuletCoinDesc:
 	db   "Doubles monetary"
@@ -824,8 +824,9 @@ DragonFangDesc:
 	db   "Powers up dragon-"
 	next "type moves. (HOLD)@"
 
-TeruSama14Desc:
-	db   "?@"
+AncientFangDesc:
+	db   "The fang of an"
+	next "ancient #MON.@"
 
 LeftoversDesc:
 	db   "Restores HP during"

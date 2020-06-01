@@ -1,6 +1,6 @@
 	db MOSSARRE ; 063
 
-	db  134,  53,  82,  50, 80,  82
+	db  130,  73,  82,  50, 73,  82
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, GHOST ; type

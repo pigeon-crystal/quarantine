@@ -150,29 +150,37 @@ RuinsOfAlphResearchCenterComputer:
 
 RuinsOfAlphResearchCenterPrinter:
 	opentext
+	writetext BeepBoop
 	playsound SFX_BOOT_PC
+	waitsfx
 	writetext FossilMachineIntroText
 	yesorno
 	iffalse FossilMachineCancelScript
 	waitbutton
 	readvar VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, FossilMachineFullPartyScript
-	closetext
-.loop                              
+.Page1                              
 	writetext FossilMachineWhichFossilText
-	loadmenu .MenuHeader
-	call ScrollingMenu
+	loadmenu .MenuHeader1
+	verticalmenu
 	closewindow
-	ifequal 0, .Horn
-	ifequal 1, .Ivory
-	ifequal 2, .Scythe
-	ifequal 3, .Amber
-	ifequal 4, .Bone
-	ifequal 5, .Beak
-	ifequal 6, .Fang
-	ifequal 7, .Scale
+	ifequal 1, .Horn
+	ifequal 2, .Ivory
+	ifequal 3, .Scythe
+	ifequal 4, .Amber
+	ifequal 5, .Page2
 	sjump FossilMachineCancelScript
-	end
+.Page2
+	writetext FossilMachineWhichFossilText
+	loadmenu .MenuHeader2
+	verticalmenu
+	closewindow
+	ifequal 1, .Bone
+	ifequal 2, .Beak
+	ifequal 3, .Fang
+	ifequal 4, .Scale
+	ifequal 5, .Page1
+	sjump FossilMachineCancelScript
 ;here we fucking go, switch items with proper ones once testing is done
 .Horn
 	checkitem HORN_FOSSIL
@@ -182,6 +190,7 @@ RuinsOfAlphResearchCenterPrinter:
 	iffalse FossilMachineCancelScript
 	waitsfx
 	playsound SFX_TRANSACTION
+	scall FossilMachineItsAMonScript
 	setval MISSINGNO
 	special GameCornerPrizeMonCheckDex
 	givepoke MISSINGNO, 10
@@ -196,6 +205,7 @@ RuinsOfAlphResearchCenterPrinter:
 	iffalse FossilMachineCancelScript
 	waitsfx
 	playsound SFX_TRANSACTION
+	scall FossilMachineItsAMonScript
 	setval MISSINGNO
 	special GameCornerPrizeMonCheckDex
 	givepoke MISSINGNO, 10
@@ -210,6 +220,7 @@ RuinsOfAlphResearchCenterPrinter:
 	iffalse FossilMachineCancelScript
 	waitsfx
 	playsound SFX_TRANSACTION
+	scall FossilMachineItsAMonScript
 	setval MISSINGNO
 	special GameCornerPrizeMonCheckDex
 	givepoke MISSINGNO, 10
@@ -224,6 +235,7 @@ RuinsOfAlphResearchCenterPrinter:
 	iffalse FossilMachineCancelScript
 	waitsfx
 	playsound SFX_TRANSACTION
+	scall FossilMachineItsAMonScript
 	setval MISSINGNO
 	special GameCornerPrizeMonCheckDex
 	givepoke MISSINGNO, 10
@@ -238,6 +250,7 @@ RuinsOfAlphResearchCenterPrinter:
 	iffalse FossilMachineCancelScript
 	waitsfx
 	playsound SFX_TRANSACTION
+	scall FossilMachineItsAMonScript
 	setval MISSINGNO
 	special GameCornerPrizeMonCheckDex
 	givepoke MISSINGNO, 10
@@ -252,6 +265,7 @@ RuinsOfAlphResearchCenterPrinter:
 	iffalse FossilMachineCancelScript
 	waitsfx
 	playsound SFX_TRANSACTION
+	scall FossilMachineItsAMonScript
 	setval MISSINGNO
 	special GameCornerPrizeMonCheckDex
 	givepoke MISSINGNO, 10
@@ -259,17 +273,18 @@ RuinsOfAlphResearchCenterPrinter:
 	sjump FossilMachineEndTransaction
 	
 .Fang
-	checkitem HORN_FOSSIL
+	checkitem ANCIENT_FANG
 	iffalse .NoFossil
 	scall FossilReviveConfirmScript
 	yesorno
 	iffalse FossilMachineCancelScript
 	waitsfx
 	playsound SFX_TRANSACTION
+	scall FossilMachineItsAMonScript
 	setval MISSINGNO
 	special GameCornerPrizeMonCheckDex
 	givepoke MISSINGNO, 10
-	takeitem HORN_FOSSIL
+	takeitem ANCIENT_FANG
 	sjump FossilMachineEndTransaction
 	
 .Scale
@@ -280,6 +295,7 @@ RuinsOfAlphResearchCenterPrinter:
 	iffalse FossilMachineCancelScript
 	waitsfx
 	playsound SFX_TRANSACTION
+	scall FossilMachineItsAMonScript
 	setval MISSINGNO
 	special GameCornerPrizeMonCheckDex
 	givepoke MISSINGNO, 10
@@ -288,63 +304,54 @@ RuinsOfAlphResearchCenterPrinter:
 	
 .NoFossil
 	writetext NoFossilText
+	playsound SFX_SHUT_DOWN_PC 
+	waitsfx
 	waitbutton
 	closetext
 	end
 	
-.MenuHeader:
+.MenuHeader1:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 2, 17, TEXTBOX_Y - 1
-	dw .MenuData
+	menu_coords 0, 0, 17, TEXTBOX_Y - 1
+	dw .MenuData1
 	db 1 ; default option
 	
-.MenuData: ;thanks to pfero for this part
-	db 0 ; flags
-	db 9, 0 ; rows, columns
-	db SCROLLINGMENU_ITEMS_NORMAL ; item format
-	dba .Items
-	dba .PlaceItems
-	dba NULL
-	dba NULL
-
-.Items:
-	db 9 ; amount of entries
-	db 0
-	db 1
-	db 2
-	db 3
-	db 4
-	db 5
-	db 6
-	db 7
-	db 8
-	db -1
-
-.PlaceItems:
-	ld hl, .Strings
-	ld a, [wMenuSelection]
-	call GetNthString
-	jp PlaceString
-	
-.Strings:
-	db "HORN FOSSIL@"
+.MenuData1:
+	db STATICMENU_CURSOR ; flags
+	db 5 ;items
+	db "ANCIENT HORN@"
 	db "OLD IVORY@"
 	db "SCYTHEFOSSIL@"
 	db "ODD AMBER@"
+	db "PAGE 2@"
+
+.MenuHeader2:
+	db MENU_BACKUP_TILES ; flags
+	menu_coords 0, 0, 17, TEXTBOX_Y - 1
+	dw .MenuData2
+	db 1 ; default option
+	
+.MenuData2
+	db STATICMENU_CURSOR ; flags
+	db 5 ;items
 	db "MYSTERY BONE@"
 	db "BEAK FOSSIL@"
-	db "FANG FOSSIL@"
+	db "ANCIENT FANG@"
 	db "SCALE FOSSIL@"
-	db "CANCEL@"
+	db "PAGE 1@"
 	
 FossilMachineCancelScript:
 	writetext FossilMachineCancelText
+	playsound SFX_SHUT_DOWN_PC 
+	waitsfx
 	waitbutton
 	closetext
 	end
 	
 FossilMachineFullPartyScript:
 	writetext FossilMachineFullPartyText
+	playsound SFX_SHUT_DOWN_PC 
+	waitsfx
 	waitbutton
 	closetext
 	end
@@ -352,14 +359,97 @@ FossilMachineFullPartyScript:
 FossilReviveConfirmScript:
 	writetext FossilReviveConfirmText
 	waitbutton
-	closetext
 	end
 
+FossilMachineItsAMonScript:
+	writetext FossilReviveItsAMonText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	waitbutton
+	end
+	
 FossilMachineEndTransaction:
 	writetext FossilMachineEndText
+	playsound SFX_SHUT_DOWN_PC 
+	waitsfx
 	waitbutton
 	closetext
 	end
+
+BeepBoop:
+	text "BEEP BOOP."
+	done
+	
+FossilMachineIntroText:
+	text "This is the"
+	line "FOSSIL RESTORATION"
+	cont "MACHINE."
+	
+	para "Do you have a"
+	line "fossil you would"
+	cont "like restored,"
+	cont "BEEP BOOP?"
+	done
+	
+FossilMachineCancelText:
+	text "BEEP BOOP."
+	
+	para "Instance cancelled"
+	line "and shutdown"
+	cont "engaged."
+	done
+	
+FossilMachineFullPartyText:
+	text "BOOP! BOOP!"
+	
+	para "Party is full."
+	line "Please make room"
+	cont "in your party,"
+	cont "then return."
+	done
+	
+NoFossilText:
+	text "BE-BOOP?"
+	
+	para "Could not detect"
+	line "the specified"
+	cont "fossil."
+	
+	para "Please try again."
+	done
+	
+FossilMachineWhichFossilText:
+	text "Please choose a"
+	line "fossil to revive."
+	done
+	
+FossilReviveConfirmText:
+	text "Are you sure you"
+	line "want to revive"
+	cont "this fossil?"
+	done
+	
+FossilReviveItsAMonText:
+	text "BOOPITY BOOP."
+	
+	para "PROCESSING."
+	
+	para "PROCESSING."
+	
+	para "COMPLETE."
+	line "Revival has"
+	cont "succeeded!"
+	done
+	
+FossilMachineEndText:
+	text "BEEP-BE-BEEP!!!"
+	
+	para "Please be kind"
+	line "to your new"
+	cont "#MON."
+	
+	para "Come again!"
+	done
 	
 RuinsOfAlphResearchCenterBookshelf:
 	jumptext RuinsOfAlphResearchCenterAcademicBooksText
@@ -556,67 +646,6 @@ RuinsOfAlphResearchCenterComputerText_GotAllUnown:
 RuinsOfAlphResearchCenterPrinterText_DoesntWork:
 	text "This doesn't seem"
 	line "to work yet."
-	done
-
-FossilMachineIntroText:
-	text "BEEP BOOP."
-	
-	para "This is the"
-	line "FOSSIL RESTORATION"
-	cont "MACHINE."
-	
-	para "Do you have a"
-	line "fossil you would"
-	cont "like restored,"
-	cont "BEEP BOOP?"
-	done
-	
-FossilMachineCancelText:
-	text "BEEP BOOP."
-	
-	para "Instance cancelled"
-	line "and shutdown"
-	cont "engaged."
-	done
-	
-FossilMachineFullPartyText:
-	text "BOOP! BOOP!"
-	
-	para "Party is full."
-	line "Please make room"
-	cont "in your party,"
-	cont "then return."
-	done
-	
-NoFossilText:
-	text "BE-BOOP?"
-	
-	para "Could not detect"
-	line "the specified"
-	cont "fossil."
-	
-	para "Please try again."
-	done
-	
-FossilMachineWhichFossilText:
-	text "Please choose a"
-	line "fossil to revive."
-	done
-	
-FossilReviveConfirmText:
-	text "Are you sure you"
-	line "want to revive"
-	cont "this fossil?"
-	done
-	
-FossilMachineEndText:
-	text "BEEP-BE-BEEP!!!"
-	
-	para "Please be kind"
-	line "to your new"
-	cont "#MON."
-	
-	para "Come again!"
 	done
 
 RuinsOfAlphResearchCenterAcademicBooksText:

@@ -43,6 +43,9 @@ IconPointers:
 	dw TidoIcon
 	dw BismuttIcon
 	dw MaulzerIcon
+	dw MissingnoIcon
+	dw LanatunIcon
+	dw PepofferIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon

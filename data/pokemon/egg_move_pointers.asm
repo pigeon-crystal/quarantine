@@ -48,7 +48,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw VenonatEggMoves
 	dw NoEggMoves
-	dw DiglettEggMoves
+	dw MuminiEggMoves
 	dw NoEggMoves
 	dw MeowthEggMoves
 	dw NoEggMoves
@@ -96,7 +96,7 @@ EggMovePointers::
 	dw OnixEggMoves
 	dw EelkieEggMoves
 	dw NoEggMoves
-	dw KrabbyEggMoves
+	dw LanatunEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
@@ -188,7 +188,7 @@ EggMovePointers::
 	dw ShabbycatEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw AipomEggMoves
+	dw HoplaqueEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw ArasbestosEggMoves

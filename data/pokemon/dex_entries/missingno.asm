@@ -1,10 +1,10 @@
 	db "???@" ; species name
 	dw 100, 35072 ; height, weight
 
-	db   " "
-	next " "
-	next " "
+	db   "Error: dex/typing."
+	next "Unknown type"
+	next "'BIRD'."
 
-	page " "
-	next " "
-	next " .@"
+	page "Make: [dexentry]"
+	next "failed."
+	next "Begin diagnostic.@"

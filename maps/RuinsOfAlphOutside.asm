@@ -125,6 +125,7 @@ RuinsOfAlphOutsideMysteryChamberSign:
 	jumptext RuinsOfAlphOutsideMysteryChamberSignText
 
 RuinsOfAlphSign:
+	givepoke BRIGADOOM, 5
 	jumptext RuinsOfAlphSignText
 
 RuinsOfAlphResearchCenterSign:

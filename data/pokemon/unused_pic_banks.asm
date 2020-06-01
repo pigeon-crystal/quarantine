@@ -4,9 +4,9 @@
 Unreferenced_MonPicBanks:
 	; last mon in bank, bank #
 	db RAICHU,    $15 + 0
-	db DUGTRIO,   $15 + 1
+	db MUMAGNUS,   $15 + 1
 	db DOLMESA ,  $15 + 2
-	db KRABBY,    $15 + 3
+	db LANATUN,    $15 + 3
 	db STARMIE,   $15 + 4
 	db ARTICUNO,  $15 + 5
 	db GRUBBOID,   $15 + 6 ; JARANRA in pokegold-spaceworld

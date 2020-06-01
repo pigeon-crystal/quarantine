@@ -24,17 +24,17 @@ FishGroups:
 .Shore_Old:
 	db  70 percent + 1, MAGIKARP,   10
 	db  85 percent + 1, MAGIKARP,   10
-	db 100 percent,     KRABBY,     10
+	db 100 percent,     LANATUN,     10
 .Shore_Good:
 	db  35 percent,     MAGIKARP,   20
-	db  70 percent,     KRABBY,     20
-	db  90 percent + 1, KRABBY,     20
+	db  70 percent,     LANATUN,     20
+	db  90 percent + 1, LANATUN,     20
 	db 100 percent,     time_group 0
 .Shore_Super:
-	db  40 percent,     KRABBY,     40
+	db  40 percent,     LANATUN,     40
 	db  70 percent,     time_group 1
-	db  90 percent + 1, KRABBY,     40
-	db 100 percent,     KINGLER,    40
+	db  90 percent + 1, LANATUN,     40
+	db 100 percent,     PEPOFFER,    40
 
 .Ocean_Old:
 	db  70 percent + 1, MAGIKARP,   10
@@ -49,37 +49,37 @@ FishGroups:
 	db  40 percent,     CHINCHOU,   40
 	db  70 percent,     time_group 3
 	db  90 percent + 1, TENTACRUEL, 40
-	db 100 percent,     LANTURN,    40
+	db 100 percent,     LANATUN,    40
 
 .Lake_Old:
 	db  70 percent + 1, GOOSAPLING,   10
-	db  85 percent + 1, GOOSAPLING,   10
+	db  85 percent + 1, LANATUN,   10
 	db 100 percent,     GOOSAPLING,    10
 .Lake_Good:
-	db  35 percent,     MAGIKARP,   20
+	db  35 percent,     LANATUN,   20
 	db  70 percent,     GOOSAPLING,    20
 	db  90 percent + 1, GOOSAPLING,    20
 	db 100 percent,     time_group 4
 .Lake_Super:
-	db  40 percent,     GOOSAPLING,    40
+	db  40 percent,     PEPOFFER,    40
 	db  70 percent,     time_group 5
-	db  90 percent + 1, MAGIKARP,   40
+	db  90 percent + 1, PEPOFFER,   40
 	db 100 percent,     GANZERKER,    40
 
 .Pond_Old:
-	db  70 percent + 1, MAGIKARP,   10
-	db  85 percent + 1, MAGIKARP,   10
-	db 100 percent,     CREMIGO,    10
+	db  70 percent + 1, LANATUN,   10
+	db  85 percent + 1, GOOSAPLING,   10
+	db 100 percent,     GOOSAPLING,    10
 .Pond_Good:
-	db  35 percent,     MAGIKARP,   20
-	db  70 percent,     CREMIGO,    20
-	db  90 percent + 1, CREMIGO,    20
+	db  35 percent,     LANATUN,   20
+	db  70 percent,     GOOSAPLING,    20
+	db  90 percent + 1, LANATUN,    20
 	db 100 percent,     time_group 6
 .Pond_Super:
-	db  40 percent,     CREMIGO,    40
+	db  40 percent,     PEPOFFER,    40
 	db  70 percent,     time_group 7
-	db  90 percent + 1, MAGIKARP,   40
-	db 100 percent,     CREMIGO,    40
+	db  90 percent + 1, PEPOFFER,   40
+	db 100 percent,     PEPOFFER,    50
 
 .Dratini_Old:
 	db  70 percent + 1, MAGIKARP,   10
@@ -97,9 +97,9 @@ FishGroups:
 	db 100 percent,     DRAGONAIR,  40
 
 .Qwilfish_Swarm_Old:
-	db  70 percent + 1, MAGIKARP,   5
-	db  85 percent + 1, MAGIKARP,   5
-	db 100 percent,     QWILFISH,   5
+	db  70 percent + 1, LANATUN,   5
+	db  85 percent + 1, GOOSAPLING,   5
+	db 100 percent,     LANATUN,   5
 .Qwilfish_Swarm_Good:
 	db  35 percent,     MAGIKARP,   20
 	db  70 percent,     QWILFISH,   20
@@ -159,34 +159,34 @@ FishGroups:
 .WhirlIslands_Old:
 	db  70 percent + 1, MAGIKARP,   10
 	db  85 percent + 1, MAGIKARP,   10
-	db 100 percent,     KRABBY,     10
+	db 100 percent,     LANATUN,     10
 .WhirlIslands_Good:
 	db  35 percent,     MAGIKARP,   20
-	db  70 percent,     KRABBY,     20
-	db  90 percent + 1, KRABBY,     20
+	db  70 percent,     LANATUN,     20
+	db  90 percent + 1, LANATUN,     20
 	db 100 percent,     time_group 18
 .WhirlIslands_Super:
-	db  40 percent,     KRABBY,     40
+	db  40 percent,     LANATUN,     40
 	db  70 percent,     time_group 19
-	db  90 percent + 1, KINGLER,    40
+	db  90 percent + 1, PEPOFFER,    40
 	db 100 percent,     SEADRA,     40
 
 .Qwilfish_NoSwarm_Old:
 .Qwilfish_Old:
 	db  70 percent + 1, GOOSAPLING,   10
-	db  85 percent + 1, GOOSAPLING,   10
-	db 100 percent,     TENTACOOL,  10
+	db  85 percent + 1, LANATUN,   10
+	db 100 percent,     LANATUN,  10
 .Qwilfish_NoSwarm_Good:
 .Qwilfish_Good:
 	db  35 percent,     GOOSAPLING,   20
-	db  70 percent,     TENTACOOL,  20
-	db  90 percent + 1, TENTACOOL,  20
+	db  70 percent,     LANATUN,  20
+	db  90 percent + 1, LANATUN,  20
 	db 100 percent,     time_group 20
 .Qwilfish_NoSwarm_Super:
 .Qwilfish_Super:
-	db  40 percent,     TENTACOOL,  40
+	db  40 percent,     PEPOFFER,  40
 	db  70 percent,     time_group 21
-	db  90 percent + 1, MAGIKARP,   40
+	db  90 percent + 1, PEPOFFER,   40
 	db 100 percent,     QWILFISH,   40
 
 .Remoraid_Old:
@@ -212,7 +212,7 @@ TimeFishGroups:
 	db SHELLDER,   40,  SHELLDER,   40 ; 3
 	db GOOSAPLING,    20,  GOOSAPLING,    20 ; 4
 	db GOOSAPLING,    40,  GOOSAPLING,    40 ; 5
-	db CREMIGO,    20,  CREMIGO,    20 ; 6
+	db LANATUN,    20,  GOOSAPLING,    20 ; 6
 	db CREMIGO,    40,  CREMIGO,    40 ; 7
 	db DRATINI,    20,  DRATINI,    20 ; 8
 	db DRATINI,    40,  DRATINI,    40 ; 9

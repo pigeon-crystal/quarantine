@@ -43,6 +43,9 @@ MossarreIcon:     INCBIN "gfx/icons/mossarre.2bpp"
 TidoIcon:		  INCBIN "gfx/icons/tido.2bpp"
 BismuttIcon:	  INCBIN "gfx/icons/bismutt.2bpp"
 MaulzerIcon:      INCBIN "gfx/icons/maulzer.2bpp"
+MissingnoIcon:	  INCBIN "gfx/icons/missingno.2bpp"
+LanatunIcon:      INCBIN "gfx/icons/lanatun.2bpp"
+PepofferIcon:     INCBIN "gfx/icons/pepoffer.2bpp"
 
 SECTION "Mon Icons 2", ROMX
 

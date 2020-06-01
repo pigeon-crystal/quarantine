@@ -150,7 +150,7 @@
 	const BEAK_FOSSIL  ; 8e
 	const METAL_COAT   ; 8f
 	const DRAGON_FANG  ; 90
-	const ITEM_91      ; 91
+	const ANCIENT_FANG ; 91
 	const LEFTOVERS    ; 92
 	const ITEM_93      ; 93
 	const ITEM_94      ; 94

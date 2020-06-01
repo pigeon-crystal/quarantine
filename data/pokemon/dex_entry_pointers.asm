@@ -49,8 +49,8 @@ PokedexDataPointerTable:
 	dw ParasectPokedexEntry
 	dw VenonatPokedexEntry
 	dw VenomothPokedexEntry
-	dw DiglettPokedexEntry
-	dw DugtrioPokedexEntry
+	dw MuminiPokedexEntry
+	dw MumagnusPokedexEntry
 	dw MeowthPokedexEntry
 	dw PersianPokedexEntry
 	dw PsyduckPokedexEntry
@@ -97,8 +97,8 @@ PokedexDataPointerTable:
 	dw OnixPokedexEntry
 	dw EelkiePokedexEntry
 	dw MossarrePokedexEntry
-	dw KrabbyPokedexEntry
-	dw KinglerPokedexEntry
+	dw LanatunPokedexEntry
+	dw PepofferPokedexEntry
 	dw VoltorbPokedexEntry
 	dw ElectrodePokedexEntry
 	dw ExeggcutePokedexEntry
@@ -189,9 +189,9 @@ PokedexDataPointerTable:
 	dw ShabbycatPokedexEntry
 	dw PurrdlePokedexEntry
 	dw MeowtainPokedexEntry
-	dw AipomPokedexEntry
-	dw SunkernPokedexEntry
-	dw SunfloraPokedexEntry
+	dw HoplaquePokedexEntry
+	dw PhanguardPokedexEntry
+	dw BrigadoomPokedexEntry
 	dw ArasbestosPokedexEntry
 	dw WooperPokedexEntry
 	dw QuagsirePokedexEntry

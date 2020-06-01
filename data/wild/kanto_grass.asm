@@ -5,32 +5,32 @@ KantoGrassWildMons:
 	map_id DIGLETTS_CAVE ;done
 	db 4 percent, 2 percent, 8 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, DIGLETT
-	db 6, DIGLETT
-	db 12, DIGLETT
-	db 24, DIGLETT
-	db 24, DUGTRIO
-	db 24, DUGTRIO
-	db 24, DUGTRIO
-	db 28, DUGTRIO
+	db 3, MUMINI
+	db 6, MUMINI
+	db 12, MUMINI
+	db 24, MUMINI
+	db 24, MUMAGNUS
+	db 24, MUMAGNUS
+	db 24, MUMAGNUS
+	db 28, MUMAGNUS
 	; day
-	db 2, DIGLETT
-	db 4, DIGLETT
-	db 8, DIGLETT
-	db 16, DIGLETT
-	db 16, DUGTRIO
-	db 16, DUGTRIO
-	db 16, DUGTRIO
-	db 28, DUGTRIO
+	db 2, MUMINI
+	db 4, MUMINI
+	db 8, MUMINI
+	db 16, MUMINI
+	db 16, MUMAGNUS
+	db 16, MUMAGNUS
+	db 16, MUMAGNUS
+	db 28, MUMAGNUS
 	; nite
-	db 4, DIGLETT
-	db 8, DIGLETT
-	db 16, DIGLETT
-	db 32, DIGLETT
-	db 32, DUGTRIO
-	db 32, DUGTRIO
-	db 32, DUGTRIO
-	db 38, DUGTRIO
+	db 4, MUMINI
+	db 8, MUMINI
+	db 16, MUMINI
+	db 32, MUMINI
+	db 32, MUMAGNUS
+	db 32, MUMAGNUS
+	db 32, MUMAGNUS
+	db 38, MUMAGNUS
 
 	map_id MOUNT_MOON ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -765,7 +765,7 @@ KantoGrassWildMons:
 	db 15, DUSMAUS
 	; day
 	db 8, BUZZLING
-	db 12, SUNKERN
+	db 12, PHANGUARD
 	db 10, BUZZLING
 	db 12, DUSMAUS
 	db 10, LAWNIE

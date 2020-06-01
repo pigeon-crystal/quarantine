@@ -3,7 +3,7 @@
 AlphabeticalPokedexOrder:
 	db DUSMAUS
 	db AERODACTYL
-	db AIPOM
+	db HOPLAQUE
 	db ALAKAZAM
 	db ALLSEERAPH
 	db AMPHAROS
@@ -35,7 +35,7 @@ AlphabeticalPokedexOrder:
 	db CROBAT
 	db CUBONE
 	db DELIBIRD
-	db DIGLETT
+	db MUMINI
 	db DITTO
 	db DODRIO
 	db DODUO
@@ -46,7 +46,7 @@ AlphabeticalPokedexOrder:
 	db DRAGONITE
 	db DRATINI
 	db EELKIE
-	db DUGTRIO
+	db MUMAGNUS
 	db EEVEE
 	db EKANS
 	db ELECTABUZZ
@@ -106,10 +106,10 @@ AlphabeticalPokedexOrder:
 	db KADABRA
 	db KANGASKHAN
 	db KINGDRA
-	db KINGLER
+	db PEPOFFER
 	db KOAGAN
 	db KOFFING
-	db KRABBY
+	db LANATUN
 	db LANTURN
 	db LAPRAS
 	db LARVITAR
@@ -219,8 +219,8 @@ AlphabeticalPokedexOrder:
 	db STEELIX
 	db SUDOWOODO
 	db SUICUNE
-	db SUNFLORA
-	db SUNKERN
+	db BRIGADOOM
+	db PHANGUARD
 	db SWINUB
 	db TANGELA
 	db TAUROS
