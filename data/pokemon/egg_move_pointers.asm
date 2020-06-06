@@ -21,7 +21,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw QwailEggMoves
 	dw NoEggMoves
-	dw EkansEggMoves
+	dw WyrmometerEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
@@ -118,9 +118,9 @@ EggMovePointers::
 	dw NoEggMoves
 	dw GoosaplingEggMoves
 	dw NoEggMoves
+	dw PeautyEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw MrMimeEggMoves
 	dw ScytherEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
@@ -168,7 +168,7 @@ EggMovePointers::
 	dw GwubbyEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw ChinchouEggMoves
+	dw StranglureEggMoves
 	dw NoEggMoves
 	dw PichuEggMoves
 	dw CleffaEggMoves
@@ -180,8 +180,8 @@ EggMovePointers::
 	dw MareepEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
+	dw PlantennaEggMoves
 	dw NoEggMoves
-	dw MarillEggMoves
 	dw NoEggMoves
 	dw SudowoodoEggMoves
 	dw NoEggMoves
@@ -205,7 +205,7 @@ EggMovePointers::
 	dw PinecoEggMoves
 	dw NoEggMoves
 	dw AttackoEggMoves
-	dw GligarEggMoves
+	dw WiwrightEggMoves
 	dw NoEggMoves
 	dw SnubbullEggMoves
 	dw NoEggMoves

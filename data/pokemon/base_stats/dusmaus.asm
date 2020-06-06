@@ -1,6 +1,6 @@
 	db DUSMAUS ; 190
 
-	db  46,  54,  44,  86,  44,  46
+	db  49,  54,  44,  86,  44,  46
 	;   hp  atk  def  spd  sat  sdf
 
 	db GROUND, ELECTRIC ; type

@@ -46,6 +46,15 @@
 	const ICON_MISSINGNO
 	const ICON_LANATUN
 	const ICON_PEPOFFER
+	const ICON_ODDITULLY
+	const ICON_HOPLAQUE
+	const ICON_PHANGUARD
+	const ICON_BRIGADOOM
+	const ICON_PLANTENNA
+	const ICON_HABBLE
+	const ICON_SATELISK
+	const ICON_STRANGLURE
+	const ICON_SHAMSEL
 	const ICON_SQUIRTLE ;START OF BANK 2
 	const ICON_BULBASAUR
 	const ICON_CHARMANDER
@@ -89,6 +98,7 @@
 	const ICON_AMANIGO
 	const ICON_YUGGROMI
 	const ICON_RESPECTRE
+	const ICON_DUSMAUS
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def
@@ -99,3 +109,15 @@
 	const MONICON_MOBILE1
 	const MONICON_MOBILE2
 	const MONICON_UNUSED
+
+; party menu icon palettes
+	const_def
+	const PAL_ICON_RED    ; 0
+	const PAL_ICON_BLUE   ; 1
+	const PAL_ICON_GREEN  ; 2
+	const PAL_ICON_BROWN  ; 3
+	const PAL_ICON_PINK   ; 4
+	const PAL_ICON_GRAY   ; 5
+	const PAL_ICON_YELLOW ; 6
+	const PAL_ICON_PURPLE ; 7
+	

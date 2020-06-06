@@ -65,7 +65,7 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special BillsGrandfather
 	iffalse .SaidNo
-	ifnotequal STARYU, .WrongPokemon
+	ifnotequal PEAUTY, .WrongPokemon
 	scall .CorrectPokemon
 	setevent EVENT_SHOWED_STARYU_TO_BILLS_GRANDPA
 	sjump .ShowedStaryu
@@ -298,17 +298,12 @@ BillsGrandpaOddishText:
 
 BillsGrandpaStaryuText:
 	text "Do you know of a"
-	line "sea #MON that"
+	line "bird #MON that"
 
-	para "has a red sphere"
-	line "in its body?"
-
-	para "You know, the one"
-	line "that's shaped like"
-	cont "a star?"
-
-	para "I heard that it"
-	line "appears at night."
+	para "has beautiful"
+	line "feathers that"
+	cont "look a bit"
+	cont "like eyes?"
 
 	para "I would surely"
 	line "like to see it."

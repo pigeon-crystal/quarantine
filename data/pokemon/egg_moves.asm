@@ -8,14 +8,13 @@ SECTION "Egg Moves", ROMX
 ; Sweet Scent and Steel Wing were redundant since they're TMs, and
 ; Charm and Lovely Kiss were unobtainable.
 
-; Staryu's egg moves were removed in Crystal, because Staryu is genderless
+; Peauty's egg moves were removed in Crystal, because Peauty is genderless
 ; and can only breed with Ditto.
 
 INCLUDE "data/pokemon/egg_move_pointers.asm"
 
 BulbasaurEggMoves:
 	db LIGHT_SCREEN
-	db SKULL_BASH
 	db SAFEGUARD
 	db RAZOR_WIND
 	db PETAL_DANCE
@@ -71,12 +70,11 @@ QwailEggMoves:
 	db QUICK_ATTACK
 	db -1 ; end
 
-EkansEggMoves:
-	db PURSUIT
-	db BODY_SLAM
+WyrmometerEggMoves:
+	db DRAININGKISS
+	db GLARE
 	db SPITE
 	db BEAT_UP
-	db CRUNCH
 	db -1 ; end
 
 SandshrewEggMoves:
@@ -314,8 +312,6 @@ CuboneEggMoves:
 	db ROCK_SLIDE
 	db ANCIENTPOWER
 	db BELLY_DRUM
-	db SCREECH
-	db SKULL_BASH
 	db PERISH_SONG
 	db SWORDS_DANCE
 	db -1 ; end
@@ -371,7 +367,7 @@ HorseaEggMoves:
 	db AURORA_BEAM
 	db ZAP_CANNON
 	db DISABLE
-	db TACKLE
+	db POUND
 	db SONICBOOM
 	db -1 ; end
 
@@ -381,7 +377,7 @@ GoosaplingEggMoves:
 	db HYDRO_PUMP
 	db -1 ; end
 
-MrMimeEggMoves:
+PeautyEggMoves:
 	db FUTURE_SIGHT
 	db HYPNOSIS
 	db MIMIC
@@ -502,7 +498,7 @@ GwubbyEggMoves:
 	db PURSUIT
 	db -1 ; end
 
-ChinchouEggMoves:
+StranglureEggMoves:
 	db FLAIL
 	db SUPERSONIC
 	db SCREECH
@@ -521,7 +517,7 @@ CleffaEggMoves:
 	db METRONOME
 	db AMNESIA
 	db BELLY_DRUM
-	db TACKLE
+	db POUND
 	db MIMIC
 	db -1 ; end
 
@@ -556,15 +552,13 @@ MareepEggMoves:
 	db REFLECT
 	db -1 ; end
 
-MarillEggMoves:
+PlantennaEggMoves:
 	db LIGHT_SCREEN
 	db PRESENT
 	db AMNESIA
 	db FUTURE_SIGHT
-	db BELLY_DRUM
 	db PERISH_SONG
 	db SUPERSONIC
-	db FORESIGHT
 	db -1 ; end
 
 SudowoodoEggMoves:
@@ -646,7 +640,7 @@ AttackoEggMoves:
 	db SPITE
 	db -1 ; end
 
-GligarEggMoves:
+WiwrightEggMoves:
 	db METAL_CLAW
 	db WING_ATTACK
 	db RAZOR_WIND
@@ -718,7 +712,7 @@ DelibirdEggMoves:
 	db AURORA_BEAM
 	db QUICK_ATTACK
 	db FUTURE_SIGHT
-	db TACKLE
+	db POUND
 	db RAPID_SPIN
 	db -1 ; end
 

@@ -8,14 +8,14 @@ AlphabeticalPokedexOrder:
 	db ALLSEERAPH
 	db AMPHAROS
 	db ARASBESTOS
-	db ARBOK
+	db IGNAGA
 	db ARCANINE
 	db ARTICUNO
 	db ATTACKO
-	db AZUMARILL
-	db BELLOSSOM
+	db SATELISK
+	db PLANTENNA
 	db BLASTOISE
-	db BLISSEY
+	db ODDITULLY
 	db BULBASAUR
 	db BUZZLING
 	db CAIRNIVORE
@@ -25,7 +25,7 @@ AlphabeticalPokedexOrder:
 	db CHARIZARD
 	db CHARMANDER
 	db CHARMELEON
-	db CHINCHOU
+	db STRANGLURE
 	db CIGERILLAR
 	db CLEFABLE
 	db CLEFAIRY
@@ -48,7 +48,7 @@ AlphabeticalPokedexOrder:
 	db EELKIE
 	db MUMAGNUS
 	db EEVEE
-	db EKANS
+	db WYRMOMETER
 	db ELECTABUZZ
 	db ELECTRODE
 	db ELEKID
@@ -68,7 +68,7 @@ AlphabeticalPokedexOrder:
 	db FURSA
 	db GANZERKER
 	db GIRAFARIG
-	db GLIGAR
+	db WIWRIGHT
 	db GNOMERCY
 	db SCORPEROR
 	db GOLDUCK
@@ -100,10 +100,10 @@ AlphabeticalPokedexOrder:
 	db JIGGLYPUFF
 	db JOLTEON
 	db MEOWTAIN
-	db JYNX
+	db CLIBBLE
 	db KABUTO
 	db KABUTOPS
-	db KADABRA
+	db AMBINNI
 	db KANGASKHAN
 	db KINGDRA
 	db PEPOFFER
@@ -128,7 +128,7 @@ AlphabeticalPokedexOrder:
 	db MANKEY
 	db MANTINE
 	db MAREEP
-	db MARILL
+	db HABBLE
 	db MAROWAK
 	db MEOWTH
 	db MEW
@@ -137,7 +137,7 @@ AlphabeticalPokedexOrder:
 	db MISDREAVUS
 	db MISSINGNO
 	db MOLTRES
-	db MR__MIME
+	db PEACOLDER
 	db MUK
 	db MURKROW
 	db NANUQUA
@@ -214,9 +214,9 @@ AlphabeticalPokedexOrder:
 	db SNORLAX
 	db SNUBBULL
 	db SQUIRTLE
-	db STARMIE
-	db STARYU
-	db STEELIX
+	db PEEKEYE
+	db PEAUTY
+	db WIRIGIBLE
 	db SUDOWOODO
 	db SUICUNE
 	db BRIGADOOM

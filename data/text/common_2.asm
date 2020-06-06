@@ -734,7 +734,7 @@ _BattleTookSunlightText::
 
 _BattleLoweredHeadText::
 	text_start
-	line "lowered its head!"
+	line "is on high alert!"
 	prompt
 
 _BattleGlowingText::

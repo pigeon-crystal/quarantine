@@ -74,7 +74,7 @@ MartAzalea:
 	db REPEL
 	db ANTIDOTE
 	db PARLYZ_HEAL
-	db FLOWER_MAIL
+	db POKE_DOLL
 	db -1 ; end
 
 MartCianwood:
@@ -87,7 +87,7 @@ MartCianwood:
 	db -1 ; end
 
 MartGoldenrod2F1:
-	db 7 ; # items
+	db 8 ; # items
 	db POTION
 	db SUPER_POTION
 	db ANTIDOTE
@@ -95,6 +95,7 @@ MartGoldenrod2F1:
 	db AWAKENING
 	db BURN_HEAL
 	db ICE_HEAL
+	db MAX_REPEL
 	db -1 ; end
 
 MartGoldenrod2F2:
@@ -102,7 +103,7 @@ MartGoldenrod2F2:
 	db POKE_BALL
 	db GREAT_BALL
 	db ESCAPE_ROPE
-	db REPEL
+	db MAX_REPEL
 	db REVIVE
 	db FULL_HEAL
 	db POKE_DOLL
@@ -376,7 +377,8 @@ MartUnderground:
 	db -1 ; end
 
 DefaultMart:
-	db 2 ; # items
+	db 3 ; # items
 	db POKE_BALL
 	db POTION
+	db REPEL
 	db -1 ; end

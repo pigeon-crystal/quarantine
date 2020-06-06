@@ -22,8 +22,8 @@ PokedexDataPointerTable:
 	dw NomsabrePokedexEntry ;orig raticate
 	dw QwailPokedexEntry	;spearow
 	dw QwallopPokedexEntry
-	dw EkansPokedexEntry	;ekans
-	dw ArbokPokedexEntry
+	dw WyrmometerPokedexEntry	;wyrmometer
+	dw IgnagaPokedexEntry
 	dw PikachuPokedexEntry
 	dw RaichuPokedexEntry
 	dw SandshrewPokedexEntry
@@ -63,7 +63,7 @@ PokedexDataPointerTable:
 	dw AmanigoPokedexEntry
 	dw YuggromiPokedexEntry
 	dw DusmausPokedexEntry
-	dw KadabraPokedexEntry
+	dw AmbinniPokedexEntry
 	dw AlakazamPokedexEntry
 	dw MachopPokedexEntry
 	dw MachokePokedexEntry
@@ -119,11 +119,11 @@ PokedexDataPointerTable:
 	dw SeadraPokedexEntry
 	dw GoosaplingPokedexEntry
 	dw GanzerkerPokedexEntry
-	dw StaryuPokedexEntry
-	dw StarmiePokedexEntry
-	dw MrMimePokedexEntry
+	dw PeautyPokedexEntry
+	dw PeekeyePokedexEntry
+	dw PeacolderPokedexEntry
 	dw ScytherPokedexEntry
-	dw JynxPokedexEntry
+	dw ClibblePokedexEntry
 	dw ElectabuzzPokedexEntry
 	dw MagmarPokedexEntry
 	dw PinsirPokedexEntry
@@ -169,7 +169,7 @@ PokedexDataPointerTable:
 	dw GwubbyPokedexEntry
 	dw GrubboidPokedexEntry
 	dw CrobatPokedexEntry
-	dw ChinchouPokedexEntry
+	dw StranglurePokedexEntry
 	dw LanturnPokedexEntry
 	dw PichuPokedexEntry
 	dw CleffaPokedexEntry
@@ -181,9 +181,9 @@ PokedexDataPointerTable:
 	dw MareepPokedexEntry
 	dw FlaaffyPokedexEntry
 	dw AmpharosPokedexEntry
-	dw BellossomPokedexEntry
-	dw MarillPokedexEntry
-	dw AzumarillPokedexEntry
+	dw PlantennaPokedexEntry
+	dw HabblePokedexEntry
+	dw SateliskPokedexEntry
 	dw SudowoodoPokedexEntry
 	dw PolitoedPokedexEntry
 	dw ShabbycatPokedexEntry
@@ -206,8 +206,8 @@ PokedexDataPointerTable:
 	dw PinecoPokedexEntry
 	dw ForretressPokedexEntry
 	dw AttackoPokedexEntry
-	dw GligarPokedexEntry
-	dw SteelixPokedexEntry
+	dw WiwrightPokedexEntry
+	dw WirigiblePokedexEntry
 	dw SnubbullPokedexEntry
 	dw GranbullPokedexEntry
 	dw QwilfishPokedexEntry
@@ -241,7 +241,7 @@ PokedexDataPointerTable:
 	dw ElekidPokedexEntry
 	dw MagbyPokedexEntry
 	dw MiltankPokedexEntry
-	dw BlisseyPokedexEntry
+	dw OdditullyPokedexEntry
 	dw RaikouPokedexEntry
 	dw EnteiPokedexEntry
 	dw SuicunePokedexEntry

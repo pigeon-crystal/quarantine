@@ -38,7 +38,7 @@
 	const HORN_ATTACK  ; 1e
 	const PLAY_ROUGH   ; 1f
 	const HORN_DRILL   ; 20
-	const TACKLE       ; 21
+	const HEART_STAMP  ; 21
 	const BODY_SLAM    ; 22
 	const WRAP         ; 23
 	const X_SCISSOR    ; 24
@@ -129,13 +129,13 @@
 	const NASTY_PLOT   ; 79
 	const LICK         ; 7a
 	const SMOG         ; 7b
-	const ZEN_HEADBUTT ; 7c
+	const PSYCHO_CUT   ; 7c
 	const EARTH_POWER  ; 7d
 	const FIRE_BLAST   ; 7e
 	const WATERFALL    ; 7f
 	const CLAMP        ; 80
 	const SWIFT        ; 81
-	const SKULL_BASH   ; 82
+	const HACKLES_UP   ; 82
 	const SPIKE_CANNON ; 83
 	const CONSTRICT    ; 84
 	const AMNESIA      ; 85

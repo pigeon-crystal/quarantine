@@ -420,9 +420,8 @@ AzaleaGymSignText:
 	line "#MON GYM"
 	cont "LEADER: BUGSY"
 
-	para "The Walking"
-	line "Bug #MON"
-	cont "Encyclopedia"
+	para "The Master of"
+	line "Gardens"
 	done
 
 SlowpokeWellSignText:

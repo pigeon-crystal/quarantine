@@ -247,21 +247,21 @@ KantoGrassWildMons:
 	; morn
 	db 5, QWAIL
 	db 5, NOMSTER
-	db 8, EKANS
+	db 8, WYRMOMETER
 	db 10, NOMSABRE
-	db 10, ARBOK
+	db 10, IGNAGA
 	db 10, SANDSHREW
 	db 10, SANDSHREW
-	db 15, ARBOK
+	db 15, IGNAGA
 	; day
 	db 5, QWAIL
 	db 5, NOMSTER
-	db 8, EKANS
+	db 8, WYRMOMETER
 	db 10, NOMSABRE
-	db 10, ARBOK
+	db 10, IGNAGA
 	db 10, SANDSHREW
 	db 10, SANDSHREW
-	db 15, ARBOK
+	db 15, IGNAGA
 	; nite
 	db 5, NOMSTER
 	db 10, NOMSTER
@@ -277,21 +277,21 @@ KantoGrassWildMons:
 	; morn
 	db 5, QWAIL
 	db 5, NOMSTER
-	db 8, EKANS
+	db 8, WYRMOMETER
 	db 10, NOMSABRE
-	db 10, ARBOK
+	db 10, IGNAGA
 	db 10, SANDSHREW
 	db 10, SANDSHREW
-	db 20, ARBOK
+	db 20, IGNAGA
 	; day
 	db 5, QWAIL
 	db 5, NOMSTER
-	db 8, EKANS
+	db 8, WYRMOMETER
 	db 10, NOMSABRE
-	db 10, ARBOK
+	db 10, IGNAGA
 	db 10, SANDSHREW
 	db 10, SANDSHREW
-	db 20, ARBOK
+	db 20, IGNAGA
 	; nite
 	db 5, NOMSTER
 	db 10, NOMSTER
@@ -400,26 +400,26 @@ KantoGrassWildMons:
 	db 16, DUSMAUS
 	db 17, GROWLITHE
 	db 16, JIGGLYPUFF
-	db 18, KADABRA
-	db 18, KADABRA
-	db 20, KADABRA
+	db 18, AMBINNI
+	db 18, AMBINNI
+	db 20, AMBINNI
 	; day
 	db 17, SNUBBULL
 	db 19, FURDOBA
 	db 16, DUSMAUS
 	db 17, GROWLITHE
 	db 16, JIGGLYPUFF
-	db 18, KADABRA
-	db 18, KADABRA
-	db 20, KADABRA
+	db 18, AMBINNI
+	db 18, AMBINNI
+	db 20, AMBINNI
 	; nite
 	db 17, MEOWTH
 	db 20, NOCTOWL
 	db 16, DUSMAUS
 	db 17, SCRUFFRUIT
 	db 16, JIGGLYPUFF
-	db 18, KADABRA
-	db 18, KADABRA
+	db 18, AMBINNI
+	db 18, AMBINNI
 	db 20, SCRUFFRUIT
 
 	map_id ROUTE_9 ;done
@@ -699,19 +699,19 @@ KantoGrassWildMons:
 	db 25, NOMSTER
 	db 35, TANGELA
 	db 20, NOMSABRE
-	db 30, MR__MIME
-	db 28, MR__MIME
-	db 28, MR__MIME
-	db 40, MR__MIME
+	db 30, PEACOLDER
+	db 28, PEACOLDER
+	db 28, PEACOLDER
+	db 40, PEACOLDER
 	; day
 	db 30, TANGELA
 	db 25, NOMSTER
 	db 35, TANGELA
 	db 20, NOMSABRE
-	db 28, MR__MIME
-	db 30, MR__MIME
-	db 30, MR__MIME
-	db 40, MR__MIME
+	db 28, PEACOLDER
+	db 30, PEACOLDER
+	db 30, PEACOLDER
+	db 40, PEACOLDER
 	; nite
 	db 30, TANGELA
 	db 25, NOMSTER
@@ -820,18 +820,18 @@ KantoGrassWildMons:
 	db 32, PONYTA
 	db 30, NOMSABRE
 	db 30, DODUO
-	db 30, ARBOK
-	db 30, ARBOK
-	db 34, ARBOK
+	db 30, IGNAGA
+	db 30, IGNAGA
+	db 34, IGNAGA
 	; day
 	db 28, DODUO
 	db 28, SANDSLASH
 	db 32, PONYTA
 	db 30, NOMSABRE
 	db 30, DODUO
-	db 30, ARBOK
-	db 30, ARBOK
-	db 34, ARBOK
+	db 30, IGNAGA
+	db 30, IGNAGA
+	db 34, IGNAGA
 	; nite
 	db 28, NOCTOWL
 	db 28, NOMSABRE
@@ -846,7 +846,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 28, DODUO
-	db 28, ARBOK
+	db 28, IGNAGA
 	db 30, NOMSABRE
 	db 30, DODUO
 	db 32, PONYTA
@@ -855,7 +855,7 @@ KantoGrassWildMons:
 	db 40, PONYTA
 	; day
 	db 28, DODUO
-	db 28, ARBOK
+	db 28, IGNAGA
 	db 30, NOMSABRE
 	db 30, DODUO
 	db 32, PONYTA
@@ -878,7 +878,7 @@ KantoGrassWildMons:
 	db 39, TANGELA
 	db 40, PONYTA
 	db 40, RAPIDASH
-	db 42, ARBOK
+	db 42, IGNAGA
 	db 41, DODUO
 	db 43, DODRIO
 	db 43, DODRIO
@@ -887,7 +887,7 @@ KantoGrassWildMons:
 	db 39, TANGELA
 	db 40, PONYTA
 	db 40, RAPIDASH
-	db 42, ARBOK
+	db 42, IGNAGA
 	db 41, DODUO
 	db 43, DODRIO
 	db 43, DODRIO

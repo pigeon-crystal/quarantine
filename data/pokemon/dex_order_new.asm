@@ -50,8 +50,8 @@ NewPokedexOrder:
 	db ALLSEERAPH
 	db SANDSHREW
 	db SANDSLASH
-	db EKANS
-	db ARBOK
+	db WYRMOMETER
+	db IGNAGA
 	db ATTACKO
 	db MAREEP
 	db FLAAFFY
@@ -63,7 +63,7 @@ NewPokedexOrder:
 	db PITAYRANT
 	db UNOWN
 	db ONIX
-	db STEELIX
+	db WIRIGIBLE
 	db LAWNIE
 	db ORGNOME
 	db GNOMERCY
@@ -86,11 +86,11 @@ NewPokedexOrder:
 	db EUKUB
 	db KOAGAN
 	db POCALYPTUS
-	db BELLOSSOM
+	db PLANTENNA
 	db EELKIE
 	db MOSSARRE
 	db DUSMAUS
-	db KADABRA
+	db AMBINNI
 	db ALAKAZAM
 	db DITTO
 	db PINECO
@@ -130,8 +130,8 @@ NewPokedexOrder:
 	db GROWLITHE
 	db ARCANINE
 	db MISSINGNO
-	db MARILL
-	db AZUMARILL
+	db HABBLE
+	db SATELISK
 	db MUMINI
 	db MUMAGNUS
 	db MANKEY
@@ -153,10 +153,10 @@ NewPokedexOrder:
 	db MAGBY
 	db MAGMAR
 	db SMOOCHUM
-	db JYNX
+	db CLIBBLE
 	db ELEKID
 	db ELECTABUZZ
-	db MR__MIME
+	db PEACOLDER
 	db SMEARGLE
 	db FARFETCH_D
 	db NATU
@@ -167,14 +167,14 @@ NewPokedexOrder:
 	db LANATUN
 	db PEPOFFER
 	db SHUCKLE
-	db STARYU
-	db STARMIE
+	db PEAUTY
+	db PEEKEYE
 	db SHELLDER
 	db CLOYSTER
 	db CORSOLA
 	db REMORAID
 	db OCTILLERY
-	db CHINCHOU
+	db STRANGLURE
 	db LANTURN
 	db CADDISICLE
 	db JADDICE
@@ -189,7 +189,7 @@ NewPokedexOrder:
 	db HORSEA
 	db SEADRA
 	db KINGDRA
-	db GLIGAR
+	db WIWRIGHT
 	db DELIBIRD
 	db SWINUB
 	db PILOSWINE
@@ -218,7 +218,7 @@ NewPokedexOrder:
 	db PORYGON
 	db PORYGON2
 	db CHANSEY
-	db BLISSEY
+	db ODDITULLY
 	db LAPRAS
 	db OMANYTE
 	db OMASTAR

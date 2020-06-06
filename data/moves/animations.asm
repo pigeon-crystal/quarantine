@@ -33,7 +33,7 @@ BattleAnimations::
 	dw BattleAnim_HornAttack
 	dw BattleAnim_PlayRough
 	dw BattleAnim_HornDrill
-	dw BattleAnim_Tackle
+	dw BattleAnim_HeartStamp
 	dw BattleAnim_BodySlam
 	dw BattleAnim_Wrap
 	dw BattleAnim_XScissor
@@ -124,13 +124,13 @@ BattleAnimations::
 	dw BattleAnim_NastyPlot
 	dw BattleAnim_Lick
 	dw BattleAnim_Smog
-	dw BattleAnim_ZenHeadbutt
+	dw BattleAnim_PsychoCut
 	dw BattleAnim_EarthPower
 	dw BattleAnim_FireBlast
 	dw BattleAnim_Waterfall
 	dw BattleAnim_Clamp
 	dw BattleAnim_Swift
-	dw BattleAnim_SkullBash
+	dw BattleAnim_HacklesUp
 	dw BattleAnim_SpikeCannon
 	dw BattleAnim_Constrict
 	dw BattleAnim_Amnesia
@@ -1552,6 +1552,20 @@ BattleAnim_Slash:
 	anim_obj ANIM_OBJ_3A, 148, 36, $0
 	anim_wait 32
 	anim_ret
+	
+BattleAnim_PsychoCut:	
+	anim_1gfx ANIM_GFX_CUT, ANIM_GFX_HIT
+	anim_call BattleAnim_UserObj_2Row
+	anim_sound 0, 1, SFX_PSYCHIC
+	anim_bgeffect ANIM_BG_NIGHT_SHADE, $0, $0, $8
+	anim_wait 32
+	anim_incbgeffect ANIM_BG_NIGHT_SHADE
+	anim_call BattleAnim_ShowMon_1
+	anim_sound 0, 1, SFX_CUT
+	anim_obj ANIM_OBJ_3A, 152, 40, $0
+	anim_obj ANIM_OBJ_3A, 148, 36, $0
+	anim_wait 24
+	anim_ret
 
 BattleAnim_Clamp:
 	anim_2gfx ANIM_GFX_CUT, ANIM_GFX_HIT
@@ -2075,7 +2089,6 @@ BattleAnim_StringShot:
 	anim_ret
 
 BattleAnim_IronHead:
-BattleAnim_ZenHeadbutt:
 BattleAnim_Headbutt:
 	anim_1gfx ANIM_GFX_HIT
 	anim_bgeffect ANIM_BG_1F, $14, $2, $0
@@ -2089,11 +2102,16 @@ BattleAnim_Headbutt:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
-BattleAnim_Tackle:
-	anim_1gfx ANIM_GFX_HIT
-	anim_call BattleAnim_TargetObj_2Row
-	anim_bgeffect ANIM_BG_TACKLE, $0, $1, $0
-	anim_wait 4
+BattleAnim_HeartStamp:
+	anim_2gfx ANIM_GFX_OBJECTS, ANIM_GFX_HIT
+	anim_call BattleAnim_TargetObj_1Row
+	anim_bgeffect ANIM_BG_26, $0, $1, $0
+	anim_sound 0, 0, SFX_ATTRACT
+	anim_obj ANIM_OBJ_HEART, 64, 80, $0
+	anim_wait 24
+	anim_incbgeffect ANIM_BG_26
+	anim_call BattleAnim_ShowMon_0
+	anim_wait 24
 	anim_sound 0, 1, SFX_TACKLE
 	anim_obj ANIM_OBJ_00, 136, 48, $0
 	anim_wait 8
@@ -2482,7 +2500,7 @@ BattleAnim_Crabhammer:
 	anim_loop 3, .loop
 	anim_ret
 
-BattleAnim_SkullBash:
+BattleAnim_HacklesUp:
 	anim_if_param_equal $1, BattleAnim_FocusEnergy
 	anim_1gfx ANIM_GFX_HIT
 	anim_bgeffect ANIM_BG_1F, $14, $2, $0
@@ -2978,6 +2996,9 @@ BattleAnim_Agility:
 
 BattleAnim_ShadowBone: ;orig bone club
 	anim_2gfx ANIM_GFX_HIT, ANIM_GFX_MISC
+	anim_bgeffect ANIM_BG_NIGHT_SHADE, $0, $0, $8
+	anim_wait 20
+	anim_incbgeffect ANIM_BG_NIGHT_SHADE
 	anim_obj ANIM_OBJ_BONE_CLUB, 64, 88, $2
 	anim_wait 32
 	anim_sound 0, 1, SFX_BONE_CLUB

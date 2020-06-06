@@ -25,7 +25,7 @@ Pokered_MonIndices:
 	db TENTACOOL
 	db FLUFFRUIT
 	db SCYTHER
-	db STARYU
+	db PEAUTY
 	db BLASTOISE
 	db PINSIR
 	db TANGELA
@@ -36,14 +36,14 @@ Pokered_MonIndices:
 	db QWALLOP
 	db FURNIT
 	db SLOWPOKE
-	db KADABRA
+	db AMBINNI
 	db DOLMESA
 	db CHANSEY
 	db MACHOKE
-	db MR__MIME
+	db PEACOLDER
 	db HITMONLEE
 	db HITMONCHAN
-	db ARBOK
+	db IGNAGA
 	db PARASECT
 	db PSYDUCK
 	db EELKIE
@@ -70,7 +70,7 @@ Pokered_MonIndices:
 	db PILOSWINE ; MISSINGNO.
 	db DODUO
 	db CREMIGO
-	db JYNX
+	db CLIBBLE
 	db MOLTRES
 	db ARTICUNO
 	db ZAPDOS
@@ -106,7 +106,7 @@ Pokered_MonIndices:
 	db VAPOREON
 	db MACHOP
 	db STINPEON
-	db EKANS
+	db WYRMOMETER
 	db PARAS
 	db AMANIGO
 	db AMANIGO
@@ -150,7 +150,7 @@ Pokered_MonIndices:
 	db ALAKAZAM
 	db FURDOBA
 	db HORNAMPA
-	db STARMIE
+	db PEEKEYE
 	db BULBASAUR
 	db VENUSAUR
 	db TENTACRUEL
@@ -160,7 +160,7 @@ Pokered_MonIndices:
 	db ELEKID ; MISSINGNO.
 	db MAGBY ; MISSINGNO.
 	db MILTANK ; MISSINGNO.
-	db BLISSEY ; MISSINGNO.
+	db ODDITULLY ; MISSINGNO.
 	db PONYTA
 	db RAPIDASH
 	db NOMSTER
@@ -208,7 +208,7 @@ Pokered_MonIndices:
 	db GWUBBY
 	db GRUBBOID
 	db CROBAT
-	db CHINCHOU
+	db STRANGLURE
 	db LANTURN
 	db PICHU
 	db CLEFFA
@@ -220,9 +220,9 @@ Pokered_MonIndices:
 	db MAREEP
 	db FLAAFFY
 	db AMPHAROS
-	db BELLOSSOM
-	db MARILL
-	db AZUMARILL
+	db PLANTENNA
+	db HABBLE
+	db SATELISK
 	db SUDOWOODO
 	db POLITOED
 	db SHABBYCAT
@@ -245,8 +245,8 @@ Pokered_MonIndices:
 	db PINECO
 	db FORRETRESS
 	db ATTACKO
-	db GLIGAR
-	db STEELIX
+	db WIWRIGHT
+	db WIRIGIBLE
 	db SNUBBULL
 	db GRANBULL
 	db QWILFISH

@@ -14,7 +14,7 @@ prob_total = 0
 ; Igglybuff
 	prob 16
 	prob 3
-; Smoochum
+; Hoplaque
 	prob 14
 	prob 2
 ; Magby
@@ -171,7 +171,7 @@ OddEggs:
 	bigdw 0
 	bigdw 0
 	dn 2, 10, 10, 10 ; DVs
-	db 15, 20, 10, 0 ; PP
+	db 15, 10, 10, 0 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
 	db 5 ; Level
@@ -185,37 +185,37 @@ OddEggs:
 	bigdw 8 ; SDef
 	db "EGG@@@@@@@@"
 
-	db SMOOCHUM
+	db HOPLAQUE
 	db NO_ITEM
-	db POUND, LICK, DIZZY_PUNCH, 0
+	db NIGHT_SHADE, SPITE, PURSUIT, COUNTER
 	dw 03584 ; OT ID
-	dt 125 ; Exp
+	dt 157 ; Exp
 	; Stat exp
 	bigdw 0
 	bigdw 0
 	bigdw 0
 	bigdw 0
 	bigdw 0
-	dn 0, 0, 0, 0 ; DVs
-	db 35, 30, 10, 0 ; PP
-	db 20 ; Step cycles to hatch
+	dn 13, 13, 13, 13 ; DVs
+	db 15, 10, 20, 20 ; PP
+	db 15 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
 	db 5 ; Level
 	db 0, 0 ; Status
 	bigdw 0 ; HP
-	bigdw 19 ; Max HP
-	bigdw 8 ; Atk
-	bigdw 6 ; Def
-	bigdw 11 ; Spd
+	bigdw 23 ; Max HP
+	bigdw 16 ; Atk
+	bigdw 13 ; Def
+	bigdw 12 ; Spd
 	bigdw 13 ; SAtk
-	bigdw 11 ; SDef
+	bigdw 15 ; SDef
 	db "EGG@@@@@@@@"
 
-	db SMOOCHUM
+	db HOPLAQUE
 	db NO_ITEM
-	db POUND, LICK, DIZZY_PUNCH, 0
+	db NIGHT_SHADE, SPITE, PURSUIT, COUNTER
 	dw 00512 ; OT ID
-	dt 125 ; Exp
+	dt 157 ; Exp
 	; Stat exp
 	bigdw 0
 	bigdw 0
@@ -223,18 +223,18 @@ OddEggs:
 	bigdw 0
 	bigdw 0
 	dn 2, 10, 10, 10 ; DVs
-	db 35, 30, 10, 0 ; PP
-	db 20 ; Step cycles to hatch
+	db 15, 10, 20, 20 ; PP
+	db 15 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
 	db 5 ; Level
 	db 0, 0 ; Status
 	bigdw 0 ; HP
-	bigdw 19 ; Max HP
-	bigdw 8 ; Atk
-	bigdw 7 ; Def
+	bigdw 22 ; Max HP
+	bigdw 14 ; Atk
+	bigdw 13 ; Def
 	bigdw 12 ; Spd
-	bigdw 14 ; SAtk
-	bigdw 12 ; SDef
+	bigdw 13 ; SAtk
+	bigdw 15 ; SDef
 	db "EGG@@@@@@@@"
 
 	db MAGBY
@@ -343,7 +343,7 @@ OddEggs:
 
 	db TYROGUE
 	db NO_ITEM
-	db TACKLE, DIZZY_PUNCH, 0, 0
+	db POUND, DIZZY_PUNCH, 0, 0
 	dw 02560 ; OT ID
 	dt 125 ; Exp
 	; Stat exp
@@ -369,7 +369,7 @@ OddEggs:
 
 	db TYROGUE
 	db NO_ITEM
-	db TACKLE, DIZZY_PUNCH, 0, 0
+	db POUND, DIZZY_PUNCH, 0, 0
 	dw 00256 ; OT ID
 	dt 125 ; Exp
 	; Stat exp

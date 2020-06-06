@@ -23,8 +23,8 @@ EvosAttacksPointers::
 	dw NomsabreEvosAttacks   ;orig raticate
 	dw QwailEvosAttacks		;spearow
 	dw QwallopEvosAttacks
-	dw EkansEvosAttacks		;ekans
-	dw ArbokEvosAttacks
+	dw WyrmometerEvosAttacks		;ekans
+	dw IgnagaEvosAttacks
 	dw PikachuEvosAttacks
 	dw RaichuEvosAttacks
 	dw SandshrewEvosAttacks
@@ -64,7 +64,7 @@ EvosAttacksPointers::
 	dw AmanigoEvosAttacks
 	dw YuggromiEvosAttacks
 	dw DusmausEvosAttacks
-	dw KadabraEvosAttacks
+	dw AmbinniEvosAttacks
 	dw AlakazamEvosAttacks
 	dw MachopEvosAttacks
 	dw MachokeEvosAttacks
@@ -120,11 +120,11 @@ EvosAttacksPointers::
 	dw SeadraEvosAttacks
 	dw GoosaplingEvosAttacks
 	dw GanzerkerEvosAttacks
-	dw StaryuEvosAttacks
-	dw StarmieEvosAttacks
-	dw MrMimeEvosAttacks
+	dw PeautyEvosAttacks
+	dw PeekeyeEvosAttacks
+	dw PeacolderEvosAttacks
 	dw ScytherEvosAttacks
-	dw JynxEvosAttacks
+	dw ClibbleEvosAttacks
 	dw ElectabuzzEvosAttacks
 	dw MagmarEvosAttacks
 	dw PinsirEvosAttacks
@@ -170,7 +170,7 @@ EvosAttacksPointers::
 	dw GwubbyEvosAttacks
 	dw GrubboidEvosAttacks
 	dw CrobatEvosAttacks
-	dw ChinchouEvosAttacks
+	dw StranglureEvosAttacks
 	dw LanturnEvosAttacks
 	dw PichuEvosAttacks
 	dw CleffaEvosAttacks
@@ -182,9 +182,9 @@ EvosAttacksPointers::
 	dw MareepEvosAttacks
 	dw FlaaffyEvosAttacks
 	dw AmpharosEvosAttacks
-	dw BellossomEvosAttacks
-	dw MarillEvosAttacks
-	dw AzumarillEvosAttacks
+	dw PlantennaEvosAttacks
+	dw HabbleEvosAttacks
+	dw SateliskEvosAttacks
 	dw SudowoodoEvosAttacks
 	dw PolitoedEvosAttacks
 	dw ShabbycatEvosAttacks
@@ -207,8 +207,8 @@ EvosAttacksPointers::
 	dw PinecoEvosAttacks
 	dw ForretressEvosAttacks
 	dw AttackoEvosAttacks
-	dw GligarEvosAttacks
-	dw SteelixEvosAttacks
+	dw WiwrightEvosAttacks
+	dw WirigibleEvosAttacks
 	dw SnubbullEvosAttacks
 	dw GranbullEvosAttacks
 	dw QwilfishEvosAttacks
@@ -242,7 +242,7 @@ EvosAttacksPointers::
 	dw ElekidEvosAttacks
 	dw MagbyEvosAttacks
 	dw MiltankEvosAttacks
-	dw BlisseyEvosAttacks
+	dw OdditullyEvosAttacks
 	dw RaikouEvosAttacks
 	dw EnteiEvosAttacks
 	dw SuicuneEvosAttacks

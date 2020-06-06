@@ -6,10 +6,10 @@
 	db GHOST, DRAGON ; type
 	db 99 ; catch rate
 	db 45 ; base exp
-	db BLK_APRICORN, KINGS_ROCK ; items
+	db BLK_APRICORN, DRAGON_FANG ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
-	db 20 ; step cycles to hatch
+	db 15 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/hoplaque/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

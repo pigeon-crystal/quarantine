@@ -456,65 +456,65 @@ JohtoGrassWildMons:
 	map_id UNION_CAVE_1F ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 8, DOLMITE
-	db 8, STINPEON
-	db 8, NOMSTER
-	db 8, NOMSTER
-	db 9, STINPEON
-	db 9, DOLMITE
 	db 9, DOLMITE
 	db 10, STINPEON
+	db 10, NOMSTER
+	db 11, NOMSTER
+	db 10, STINPEON
+	db 10, DOLMITE
+	db 11, STINPEON
+	db 12, STINPEON
 	; day
-	db 8, DOLMITE
-	db 8, STINPEON
-	db 8, NOMSTER
-	db 8, NOMSTER
-	db 9, STINPEON
-	db 9, DOLMITE
 	db 9, DOLMITE
 	db 10, STINPEON
+	db 9, NOMSTER
+	db 11, STINPEON
+	db 10, STINPEON
+	db 10, DOLMITE
+	db 9, DOLMITE
+	db 12, STINPEON
 	; nite
-	db 8, DOLMITE
-	db 8, STINPEON
-	db 8, NOMSTER
-	db 8, NOMSTER
-	db 9, STINPEON
-	db 9, DOLMITE
 	db 9, DOLMITE
 	db 10, STINPEON
+	db 11, NOMSTER
+	db 9, NOMSTER
+	db 11, STINPEON
+	db 10, DOLMITE
+	db 11, DOLMITE
+	db 12, STINPEON
 
 	map_id UNION_CAVE_B1F ;done
-	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
+	db 6 percent, 6 percent, 7 percent ; encounter rates: morn/day/nite
 	; morn
-	db 8, DOLMITE
-	db 8, STINPEON
-	db 8, NOMSTER
-	db 9, STINPEON
 	db 9, DOLMITE
-	db 9, NOMSTER
-	db 10, RESPECTRE
+	db 10, STINPEON
+	db 10, NOMSTER
+	db 10, STINPEON
+	db 10, DOLMITE
+	db 11, NOMSTER
+	db 12, RESPECTRE
 	db 11, RESPECTRE
 	; day
-	db 8, DOLMITE
-	db 8, STINPEON
-	db 8, NOMSTER
-	db 9, STINPEON
 	db 9, DOLMITE
-	db 9, NOMSTER
-	db 10, RESPECTRE
+	db 10, STINPEON
+	db 10, NOMSTER
+	db 10, STINPEON
+	db 10, DOLMITE
+	db 11, NOMSTER
+	db 12, RESPECTRE
 	db 11, RESPECTRE
 	; nite
-	db 8, DOLMITE
-	db 8, STINPEON
-	db 8, NOMSTER
-	db 9, STINPEON
 	db 9, DOLMITE
-	db 9, NOMSTER
-	db 10, RESPECTRE
+	db 10, STINPEON
+	db 10, NOMSTER
+	db 10, STINPEON
+	db 10, DOLMITE
+	db 11, NOMSTER
+	db 12, RESPECTRE
 	db 11, RESPECTRE
 
 	map_id UNION_CAVE_B2F ;done
-	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
+	db 5 percent, 5 percent, 5 percent ; encounter rates: morn/day/nite
 	; morn
 	db 22, STINPEON
 	db 22, SCORPEROR
@@ -544,10 +544,10 @@ JohtoGrassWildMons:
 	db 25, ONIX
 
 	map_id SLOWPOKE_WELL_B1F ;done
-	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+	db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
 	; morn
 	db 10, STINPEON
-	db 11, STINPEON
+	db 11, SLOWPOKE
 	db 10, STINPEON
 	db 10, SLOWPOKE
 	db 10, STINPEON
@@ -556,7 +556,7 @@ JohtoGrassWildMons:
 	db 14, MUMINI
 	; day
 	db 10, STINPEON
-	db 11, STINPEON
+	db 11, SLOWPOKE
 	db 10, STINPEON
 	db 10, SLOWPOKE
 	db 11, STINPEON
@@ -565,7 +565,7 @@ JohtoGrassWildMons:
 	db 14, MUMINI
 	; nite
 	db 10, STINPEON
-	db 11, STINPEON
+	db 11, SLOWPOKE
 	db 10, STINPEON
 	db 10, MUMINI
 	db 12, HOPLAQUE
@@ -604,31 +604,31 @@ JohtoGrassWildMons:
 	db 24, SLOWPOKE
 
 	map_id ILEX_FOREST ;done
-	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
+	db 4 percent, 4 percent, 5 percent ; encounter rates: morn/day/nite
 	; morn
-	db 10, CREMIGO
-	db 12, HOATOT
-	db 12, EUKUB
-	db 10, EELKIE
-	db 11, CREMIGO
-	db 11, EELKIE
-	db 11, EUKUB
-	db 12, CREMIGO
+	db 14, CREMIGO
+	db 15, HOATOT
+	db 14, EUKUB
+	db 13, EELKIE
+	db 13, CREMIGO
+	db 15, EELKIE
+	db 14, EUKUB
+	db 16, CREMIGO
 	; day
-	db 10, CREMIGO
-	db 12, HOATOT
-	db 10, EELKIE
-	db 11, EUKUB
-	db 11, CREMIGO
-	db 11, EELKIE
-	db 10, EELKIE
+	db 15, CREMIGO
+	db 14, HOATOT
+	db 14, EELKIE
+	db 13, EUKUB
+	db 13, CREMIGO
+	db 14, EELKIE
+	db 15, EELKIE
 	db 12, CREMIGO
 	; nite
-	db 11, CREMIGO
-	db 12, CREMIGO
-	db 11, CREMIGO
-	db 10, EELKIE
-	db 10, EELKIE
+	db 15, CREMIGO
+	db 13, CREMIGO
+	db 14, CREMIGO
+	db 14, EELKIE
+	db 13, EELKIE
 	db 11, HOPLAQUE
 	db 57, YUGGROMI
 	db 57, YUGGROMI
@@ -656,7 +656,7 @@ JohtoGrassWildMons:
 	; nite
 	db 14, NOMSTER
 	db 13, STINPEON
-	db 14, MARILL
+	db 14, HABBLE
 	db 13, SCORPEROR
 	db 14, DOLMITE
 	db 16, NOMSABRE
@@ -688,7 +688,7 @@ JohtoGrassWildMons:
 	db 14, NOMSTER
 	db 15, NOMSABRE
 	db 14, STINPEON
-	db 15, MARILL
+	db 15, HABBLE
 	db 15, SCORPEROR
 	db 15, SCORPEROR
 	db 17, SCORPEROR
@@ -747,7 +747,7 @@ JohtoGrassWildMons:
 	db 15, STINPEON
 	db 17, STINPEON
 	db 17, SCORPEROR
-	db 16, MARILL
+	db 16, HABBLE
 	db 16, DOLMITE
 	db 18, NOMSABRE
 	db 18, NOMSABRE
@@ -792,8 +792,8 @@ JohtoGrassWildMons:
 	db 24, SWINUB
 	db 25, SCORPEROR
 	db 23, SCORPEROR
-	db 22, JYNX
-	db 23, JYNX
+	db 22, CLIBBLE
+	db 23, CLIBBLE
 	; day
 	db 22, SWINUB
 	db 23, STINPEON
@@ -801,8 +801,8 @@ JohtoGrassWildMons:
 	db 24, SWINUB
 	db 25, SCORPEROR
 	db 23, SCORPEROR
-	db 22, JYNX
-	db 23, JYNX
+	db 22, CLIBBLE
+	db 23, CLIBBLE
 	; nite
 	db 22, DELIBIRD
 	db 23, STINPEON
@@ -821,18 +821,18 @@ JohtoGrassWildMons:
 	db 24, SCORPEROR
 	db 25, SWINUB
 	db 26, SCORPEROR
-	db 22, JYNX
-	db 24, JYNX
-	db 25, JYNX
+	db 22, CLIBBLE
+	db 24, CLIBBLE
+	db 25, CLIBBLE
 	; day
 	db 23, SWINUB
 	db 24, STINPEON
 	db 24, SCORPEROR
 	db 25, SWINUB
 	db 26, SCORPEROR
-	db 22, JYNX
-	db 24, JYNX
-	db 25, JYNX
+	db 22, CLIBBLE
+	db 24, CLIBBLE
+	db 25, CLIBBLE
 	; nite
 	db 23, DELIBIRD
 	db 24, STINPEON
@@ -841,7 +841,7 @@ JohtoGrassWildMons:
 	db 26, SCORPEROR
 	db 22, SNEASEL
 	db 24, SNEASEL
-	db 25, JYNX
+	db 25, CLIBBLE
 
 	map_id ICE_PATH_B2F_BLACKTHORN_SIDE ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
@@ -850,28 +850,28 @@ JohtoGrassWildMons:
 	db 24, STINPEON
 	db 24, SCORPEROR
 	db 25, SWINUB
-	db 26, SCORPEROR
-	db 22, JYNX
-	db 24, JYNX
-	db 25, JYNX
+	db 22, CADDISICLE
+	db 24, CADDISICLE
+	db 26, JADDICE
+	db 28, JADDICE
 	; day
 	db 23, SWINUB
 	db 24, STINPEON
 	db 24, SCORPEROR
 	db 25, SWINUB
-	db 26, SCORPEROR
-	db 22, JYNX
-	db 24, JYNX
-	db 25, JYNX
+	db 22, CADDISICLE
+	db 24, CADDISICLE
+	db 26, JADDICE
+	db 28, JADDICE
 	; nite
 	db 23, DELIBIRD
 	db 24, STINPEON
 	db 24, SCORPEROR
 	db 25, DELIBIRD
-	db 26, SCORPEROR
-	db 22, SNEASEL
-	db 24, SNEASEL
-	db 25, JYNX
+	db 22, CADDISICLE
+	db 24, CADDISICLE
+	db 26, JADDICE
+	db 28, JADDICE
 
 	map_id ICE_PATH_B3F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
@@ -880,28 +880,28 @@ JohtoGrassWildMons:
 	db 25, STINPEON
 	db 25, SCORPEROR
 	db 26, SWINUB
-	db 22, JYNX
-	db 24, JYNX
-	db 26, JYNX
-	db 28, JYNX
+	db 22, CADDISICLE
+	db 24, CADDISICLE
+	db 26, JADDICE
+	db 28, JADDICE
 	; day
 	db 24, SWINUB
 	db 25, STINPEON
 	db 25, SCORPEROR
 	db 26, SWINUB
-	db 22, JYNX
-	db 24, JYNX
-	db 26, JYNX
-	db 28, JYNX
+	db 22, CADDISICLE
+	db 24, CADDISICLE
+	db 26, JADDICE
+	db 28, JADDICE
 	; nite
 	db 24, DELIBIRD
 	db 25, STINPEON
 	db 25, SCORPEROR
 	db 26, DELIBIRD
-	db 22, SNEASEL
-	db 24, SNEASEL
-	db 26, SNEASEL
-	db 28, SNEASEL
+	db 22, CADDISICLE
+	db 24, CADDISICLE
+	db 26, JADDICE
+	db 28, JADDICE
 
 	map_id WHIRL_ISLAND_NW ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -1447,29 +1447,29 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 10, NOMSTER
-	db 10, QWAIL
-	db 10, DOLMITE
-	db 11, SHABBYCAT
-	db 10, QWAIL
+	db 11, QWAIL
+	db 11, DOLMITE
+	db 12, SHABBYCAT
+	db 12, SHABBYCAT
 	db 11, SHABBYCAT
 	db 12, SHABBYCAT
 	db 13, SHABBYCAT
 	; day
 	db 10, NOMSTER
 	db 11, QWAIL
-	db 10, DOLMITE
-	db 11, SHABBYCAT
-	db 10, QWAIL
-	db 11, SHABBYCAT
+	db 11, DOLMITE
+	db 12, SHABBYCAT
+	db 11, QWAIL
+	db 12, SHABBYCAT
 	db 12, SHABBYCAT
 	db 13, SHABBYCAT
 	; nite
-	db 10, DOLMITE
+	db 11, DOLMITE
 	db 10, NOMSTER
 	db 11, FLUFFRUIT
-	db 11, SHABBYCAT
-	db 10, SHABBYCAT
-	db 11, SHABBYCAT
+	db 12, SHABBYCAT
+	db 12, SHABBYCAT
+	db 12, SHABBYCAT
 	db 12, SHABBYCAT
 	db 13, FLUFFRUIT
 
@@ -1534,7 +1534,7 @@ JohtoGrassWildMons:
 	db 13, ARASBESTOS
 
 	map_id ROUTE_36 ;done
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	db 12 percent, 12 percent, 12 percent ; encounter rates: morn/day/nite
 	; morn
 	db 6, WORMEEK
 	db 6, HOATOT
@@ -1656,20 +1656,20 @@ JohtoGrassWildMons:
 	map_id ROUTE_42 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, EKANS
+	db 13, WYRMOMETER
 	db 14, QWAIL
 	db 15, NOMSTER
 	db 16, NOMSABRE
-	db 15, ARBOK
+	db 15, IGNAGA
 	db 16, QWALLOP
 	db 16, QWALLOP
 	db 18, QWALLOP
 	; day
-	db 13, EKANS
+	db 13, WYRMOMETER
 	db 14, QWAIL
 	db 15, NOMSTER
 	db 16, NOMSABRE
-	db 15, ARBOK
+	db 15, IGNAGA
 	db 16, QWALLOP
 	db 16, QWALLOP
 	db 18, QWALLOP
@@ -1678,7 +1678,7 @@ JohtoGrassWildMons:
 	db 14, STINPEON
 	db 15, NOMSABRE
 	db 16, SCORPEROR
-	db 15, MARILL
+	db 15, HABBLE
 	db 16, SCORPEROR
 	db 16, SCORPEROR
 	db 18, SCORPEROR
@@ -1748,7 +1748,7 @@ JohtoGrassWildMons:
 	; morn
 	db 23, DOLMITE
 	db 23, DOLMESA
-	db 24, GLIGAR
+	db 24, WIWRIGHT
 	db 25, DONPHAN
 	db 20, PHANPY
 	db 27, SKARMORY
@@ -1757,7 +1757,7 @@ JohtoGrassWildMons:
 	; day
 	db 23, DOLMITE
 	db 23, DOLMESA
-	db 24, GLIGAR
+	db 24, WIWRIGHT
 	db 25, DONPHAN
 	db 30, DONPHAN
 	db 27, SKARMORY
@@ -1766,12 +1766,12 @@ JohtoGrassWildMons:
 	; nite
 	db 23, DOLMITE
 	db 23, DOLMESA
-	db 24, GLIGAR
+	db 24, WIWRIGHT
 	db 25, DOLMESA
 	db 27, DOLMESA
 	db 27, DOLMESA
 	db 27, DOLMESA
-	db 28, GLIGAR
+	db 28, WIWRIGHT
 
 	map_id ROUTE_46 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1808,7 +1808,7 @@ JohtoGrassWildMons:
 	; morn
 	db 41, TANGELA
 	db 42, PONYTA
-	db 42, ARBOK
+	db 42, IGNAGA
 	db 44, RAPIDASH
 	db 41, DODUO
 	db 43, DODRIO
@@ -1817,7 +1817,7 @@ JohtoGrassWildMons:
 	; day
 	db 41, TANGELA
 	db 42, PONYTA
-	db 42, ARBOK
+	db 42, IGNAGA
 	db 44, RAPIDASH
 	db 41, DODUO
 	db 43, DODRIO

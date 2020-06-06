@@ -1408,20 +1408,15 @@ BattleCheckTypeMatchup:
 	ld hl, wEnemyMonType1
 	ldh a, [hBattleTurn]
 	and a
-	jr z, CheckTypeMatchup
+	jr z, .get_type
 	ld hl, wBattleMonType1
+.get_type
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar ; preserves hl, de, and bc
 CheckTypeMatchup:
-; There is an incorrect assumption about this function made in the AI related code: when
-; the AI calls CheckTypeMatchup (not BattleCheckTypeMatchup), it assumes that placing the
-; offensive type in a will make this function do the right thing. Since a is overwritten,
-; this assumption is incorrect. A simple fix would be to load the move type for the
-; current move into a in BattleCheckTypeMatchup, before falling through, which is
-; consistent with how the rest of the code assumes this code works like.
 	push hl
 	push de
 	push bc
-	ld a, BATTLE_VARS_MOVE_TYPE
-	call GetBattleVar
 	and TYPE_MASK
 	ld d, a
 	ld b, [hl]
@@ -2567,6 +2562,17 @@ DittoMetalPowder:
 .done
 	scf
 	rr c
+	
+	ld a, HIGH(MAX_STAT_VALUE)
+	cp b
+	jr c, .cap
+	ret nz
+	ld a, LOW(MAX_STAT_VALUE)
+	cp c
+	ret nc
+
+.cap
+	ld bc, MAX_STAT_VALUE
 	ret
 
 UnevolvedEviolite:
@@ -2878,6 +2884,17 @@ SpeciesItemBoost:
 ; Double the stat
 	sla l
 	rl h
+	
+	ld a, HIGH(MAX_STAT_VALUE)
+	cp h
+	jr c, .cap
+	ret nz
+	ld a, LOW(MAX_STAT_VALUE)
+	cp l
+	ret nc
+
+.cap
+	ld hl, MAX_STAT_VALUE
 	ret
 
 EnemyAttackDamage:
@@ -5708,7 +5725,7 @@ BattleCommand_Charge:
 	ld hl, .BattleTookSunlightText
 	jr z, .done
 
-	cp SKULL_BASH
+	cp HACKLES_UP
 	ld hl, .BattleLoweredHeadText
 	jr z, .done
 
@@ -6079,9 +6096,14 @@ INCLUDE "engine/battle/move_effects/substitute.asm"
 
 BattleCommand_RechargeNextTurn:
 ; rechargenextturn
+	call BattleCommand_CheckFaint
+	jr c, .skip
 	ld a, BATTLE_VARS_SUBSTATUS4
 	call GetBattleVarAddr
 	set SUBSTATUS_RECHARGE, [hl]
+	ret
+
+.skip
 	ret
 
 EndRechargeOpp:

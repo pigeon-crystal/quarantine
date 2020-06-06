@@ -367,7 +367,7 @@ BattleTowerMons1:
 	bigdw 24 ; SDef
 	db "KIRINRIKI@@"
 
-	db BLISSEY
+	db ODDITULLY
 	db QUICK_CLAW
 	db HEADBUTT, SOLARBEAM, ROLLOUT, STRENGTH
 	dw 0 ; OT ID
@@ -523,7 +523,7 @@ BattleTowerMons1:
 	bigdw 24 ; SDef
 	db "KENTAROSU@@"
 
-	db MR__MIME
+	db PEACOLDER
 	db QUICK_CLAW
 	db TOXIC, PSYCH_UP, FIRE_PUNCH, HEADBUTT
 	dw 0 ; OT ID
@@ -578,7 +578,7 @@ BattleTowerMons2:
 	bigdw 72 ; SDef
 	db "BURAtuKI-@@"
 
-	db STARMIE
+	db PEEKEYE
 	db GOLD_BERRY
 	db RECOVER, PSYCHIC_M, SURF, PSYCH_UP
 	dw 0 ; OT ID
@@ -630,7 +630,7 @@ BattleTowerMons2:
 	bigdw 61 ; SDef
 	db "GIyaRADOSU@"
 
-	db STEELIX
+	db WIRIGIBLE
 	db GOLD_BERRY
 	db ROAR, IRON_TAIL, SWAGGER, EARTHQUAKE
 	dw 0 ; OT ID
@@ -786,7 +786,7 @@ BattleTowerMons2:
 	bigdw 50 ; SDef
 	db "PUTERA@@@@@"
 
-	db BLISSEY
+	db ODDITULLY
 	db BRIGHTPOWDER
 	db PSYCHIC_M, SHADOW_BALL, SOFTBOILED, COUNTER
 	dw 0 ; OT ID
@@ -942,7 +942,7 @@ BattleTowerMons2:
 	bigdw 47 ; SDef
 	db "KENTAROSU@@"
 
-	db AZUMARILL
+	db SATELISK
 	db MYSTIC_WATER
 	db SURF, BLIZZARD, ATTRACT, RAIN_DANCE
 	dw 0 ; OT ID
@@ -1153,7 +1153,7 @@ BattleTowerMons3:
 	bigdw 82 ; SDef
 	db "NIyoROBON@@"
 
-	db STARMIE
+	db PEEKEYE
 	db LEFTOVERS
 	db THUNDER_WAVE, PSYCHIC_M, RECOVER, SURF
 	dw 0 ; OT ID
@@ -1179,7 +1179,7 @@ BattleTowerMons3:
 	bigdw 81 ; SDef
 	db "SUTA-MI-@@@"
 
-	db JYNX
+	db CLIBBLE
 	db GOLD_BERRY
 	db BLIZZARD, LOVELY_KISS, DREAM_EATER, ATTRACT
 	dw 0 ; OT ID
@@ -1231,7 +1231,7 @@ BattleTowerMons3:
 	bigdw 72 ; SDef
 	db "DAGUTORIO@@"
 
-	db BELLOSSOM
+	db PLANTENNA
 	db BRIGHTPOWDER
 	db GIGA_DRAIN, SUNNY_DAY, SOLARBEAM, DOUBLE_TEAM
 	dw 0 ; OT ID
@@ -1257,7 +1257,7 @@ BattleTowerMons3:
 	bigdw 88 ; SDef
 	db "KIREIHANA@@"
 
-	db BLISSEY
+	db ODDITULLY
 	db LEFTOVERS
 	db TOXIC, REFLECT, SOFTBOILED, PROTECT
 	dw 0 ; OT ID
@@ -1754,7 +1754,7 @@ BattleTowerMons4:
 	bigdw 111 ; SDef
 	db "RAPURASU@@@"
 
-	db STEELIX
+	db WIRIGIBLE
 	db GOLD_BERRY
 	db SANDSTORM, IRON_TAIL, EARTHQUAKE, TOXIC
 	dw 0 ; OT ID
@@ -1806,7 +1806,7 @@ BattleTowerMons4:
 	bigdw 107 ; SDef
 	db "HU-DEiN@@@@"
 
-	db STARMIE
+	db PEEKEYE
 	db LEFTOVERS
 	db BLIZZARD, THUNDERBOLT, SURF, PSYCHIC_M
 	dw 0 ; OT ID
@@ -2433,7 +2433,7 @@ BattleTowerMons5:
 	bigdw 128 ; SDef
 	db "KAIRIKI-@@@"
 
-	db STARMIE
+	db PEEKEYE
 	db SCOPE_LENS
 	db THUNDER_WAVE, RECOVER, THUNDERBOLT, SURF
 	dw 0 ; OT ID
@@ -2641,7 +2641,7 @@ BattleTowerMons5:
 	bigdw 103 ; SDef
 	db "HUoRETOSU@@"
 
-	db STEELIX
+	db WIRIGIBLE
 	db MIRACLEBERRY
 	db SANDSTORM, IRON_TAIL, REST, EARTHQUAKE
 	dw 0 ; OT ID
@@ -3060,7 +3060,7 @@ BattleTowerMons6:
 	bigdw 135 ; SDef
 	db "EA-MUDO@@@@"
 
-	db BLISSEY
+	db ODDITULLY
 	db LEFTOVERS
 	db SOFTBOILED, TOXIC, PROTECT, PSYCHIC_M
 	dw 0 ; OT ID
@@ -3138,7 +3138,7 @@ BattleTowerMons6:
 	bigdw 167 ; SDef
 	db "HERAKUROSU@"
 
-	db JYNX
+	db CLIBBLE
 	db MIRACLEBERRY
 	db BLIZZARD, PSYCHIC_M, SHADOW_BALL, ICY_WIND
 	dw 0 ; OT ID
@@ -3375,7 +3375,7 @@ BattleTowerMons7:
 	bigdw 247 ; SDef
 	db "BURAtuKI-@@"
 
-	db BLISSEY
+	db ODDITULLY
 	db GOLD_BERRY
 	db COUNTER, SOFTBOILED, SHADOW_BALL, THUNDERBOLT
 	dw 0 ; OT ID
@@ -3635,7 +3635,7 @@ BattleTowerMons7:
 	bigdw 166 ; SDef
 	db "RINGUMA@@@@"
 
-	db MR__MIME
+	db PEACOLDER
 	db KINGS_ROCK
 	db REFLECT, FIRE_PUNCH, PSYCHIC_M, ENCORE
 	dw 0 ; OT ID
@@ -4132,7 +4132,7 @@ BattleTowerMons8:
 	bigdw 221 ; SDef
 	db "PORIGON2@@@"
 
-	db JYNX
+	db CLIBBLE
 	db QUICK_CLAW
 	db LOVELY_KISS, BLIZZARD, DREAM_EATER, PSYCHIC_M
 	dw 0 ; OT ID
@@ -4447,7 +4447,7 @@ BattleTowerMons9:
 	bigdw 263 ; SDef
 	db "KAIRIyu-@@@"
 
-	db STARMIE
+	db PEEKEYE
 	db LEFTOVERS
 	db RECOVER, THUNDERBOLT, SURF, PSYCHIC_M
 	dw 0 ; OT ID
@@ -4733,7 +4733,7 @@ BattleTowerMons9:
 	bigdw 226 ; SDef
 	db "UINDEi@@@@@"
 
-	db BLISSEY
+	db ODDITULLY
 	db LEFTOVERS
 	db SOLARBEAM, SUNNY_DAY, SOFTBOILED, FIRE_BLAST
 	dw 0 ; OT ID
@@ -5178,7 +5178,7 @@ BattleTowerMons10:
 	bigdw 178 ; SDef
 	db "SAIDON@@@@@"
 
-	db STEELIX
+	db WIRIGIBLE
 	db LEFTOVERS
 	db EARTHQUAKE, HYPER_BEAM, SWAGGER, CRUNCH
 	dw 0 ; OT ID
@@ -5308,7 +5308,7 @@ BattleTowerMons10:
 	bigdw 246 ; SDef
 	db "HAtuSAMU@@@"
 
-	db BLISSEY
+	db ODDITULLY
 	db LEFTOVERS
 	db THUNDERBOLT, BLIZZARD, FIRE_BLAST, SOFTBOILED
 	dw 0 ; OT ID

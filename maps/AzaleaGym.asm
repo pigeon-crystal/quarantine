@@ -149,20 +149,27 @@ AzaleaGymStatue:
 
 BugsyText_INeverLose:
 	text "I'm BUGSY!"
-	line "I never lose when"
+	line "I'm a real ace"
+	cont "when it comes to"
+	cont "gardens."
 
-	para "it comes to bug"
-	line "#MON."
+	para "My trainers have"
+	line "helped with my"
+	cont "research into"
+	cont "what makes the"
+	
+	para "perfect garden"
+	line "for #MON."
 
-	para "My research is"
-	line "going to make me"
+	para "Bugs for the"
+	line "soil, landscaping"
+	cont "for aesthetics, and"
+	cont "#MON to help"
+	cont "spread seeds!"
 
-	para "the authority on"
-	line "bug #MON!"
-
-	para "Let me demonstrate"
-	line "what I've learned"
-	cont "from my studies."
+	para "Can you face the"
+	line "perfect garden"
+	cont "onslaught?"
 	done
 
 BugsyText_ResearchIncomplete:
@@ -188,7 +195,7 @@ BugsyText_HiveBadgeSpeech:
 	cont "BADGE?"
 
 	para "If you have it,"
-	line "#MON up to L30"
+	line "#MON up to L44"
 
 	para "will obey you,"
 	line "even traded ones."
@@ -231,45 +238,54 @@ BugsyText_BugMonsAreDeep:
 	done
 
 BugCatcherBennySeenText:
-	text "Bug #MON evolve"
-	line "young. So they get"
+	text "I'm a BUG CATCHER,"
+	line "but my true love"
+	cont "is bird #MON!"
+	
+	para "My job's to make"
+	line "sure bird #MON"
+	cont "like the garden!"
 
-	para "stronger that much"
-	line "faster."
+	para "Birds are important,"
+	line "after all!"
 	done
 
 BugCatcherBennyBeatenText:
-	text "Just evolving"
-	line "isn't enough!"
+	text "Thank you!"
 	done
 
 BugCatcherBennyAfterBattleText:
-	text "#MON become"
-	line "stronger if they"
-	cont "evolve. Really!"
+	text "It's not a"
+	line "garden without"
+	cont "birds!"
 	done
 
 BugCatcherAlSeenText:
-	text "Bug #MON are"
-	line "cool and tough!"
+	text "Howdy! My"
+	line "#MON help with"
+	cont "landscaping the"
+	cont "garden!"
 
-	para "I'll prove it to"
-	line "you!"
+	para "We're rough and"
+	line "tumble!"
 	done
 
 BugCatcherAlBeatenText:
-	text "You proved how"
-	line "tough you are…"
+	text "You're rougher!"
 	done
 
 BugCatcherAlAfterBattleText:
-	text "They're so cool,"
-	line "but most girls"
-
-	para "don't like bug"
-	line "#MON."
-
-	para "I don't know why…"
+	text "In my zen garden"
+	line "at home, I like"
+	cont "to stack my"
+	cont "DOLMITE."
+	
+	para "They get up and"
+	line "move, making lines"
+	cont "in the garden."
+	
+	para "It's very"
+	line "meditative!"
 	done
 
 BugCatcherJoshSeenText:
@@ -277,7 +293,7 @@ BugCatcherJoshSeenText:
 	line "SLOWPOKE? Whew,"
 	cont "you're mighty!"
 
-	para "But my grown-up"
+	para "But my grass"
 	line "#MON are pretty"
 	cont "tough too!"
 	done
@@ -287,15 +303,24 @@ BugCatcherJoshBeatenText:
 	done
 
 BugCatcherJoshAfterBattleText:
-	text "I guess I should"
-	line "teach them better"
-	cont "moves…"
+	text "Both FLUFFRUIT"
+	line "and EUKUB get"
+	cont "seeds stuck in"
+	cont "their fur."
+	
+	para "Any ecosystem"
+	line "with 'em is bound"
+	cont "to be nice and"
+	cont "healthy."
 	done
 
 TwinsAmyandmay1SeenText:
-	text "AMY: Hi! Are you"
-	line "challenging the"
-	cont "LEADER? No way!"
+	text "AMY: Hi! All"
+	line "the gym trainers"
+	cont "are getting ready"
+	cont "for a picnic!"
+	
+	para "We brought bugs!"
 	done
 
 TwinsAmyandmay1BeatenText:
@@ -309,9 +334,13 @@ TwinsAmyandmay1AfterBattleText:
 	done
 
 TwinsAmyandmay2SeenText:
-	text "MAY: You want to"
-	line "see the LEADER?"
-	cont "We come first!"
+	text "MAY: Guess what?"
+	line "We're gonna have"
+	cont "a picnic!"
+	
+	para "These cute buggies"
+	line "were playing in"
+	cont "the soil!"
 	done
 
 TwinsAmyandmay2BeatenText:
@@ -328,23 +357,26 @@ TwinsAmyandmay2AfterBattleText:
 AzaleaGymGuyText:
 	text "Yo, challenger!"
 
-	para "BUGSY's young, but"
-	line "his knowledge of"
+	para "This gym's pretty"
+	line "neat."
+	
+	para "BUGSY and his"
+	line "trainers have made"
+	cont "a real nice"
+	cont "garden!"
+	
+	para "Their teams reflect"
+	line "that."
 
-	para "bug #MON is for"
-	line "real."
-
-	para "It's going to be"
-	line "tough without my"
-	cont "advice."
-
-	para "Let's see… Bug"
-	line "#MON don't like"
-	cont "fire."
-
-	para "Flying-type moves"
-	line "are super-effec-"
-	cont "tive too."
+	para "What kind of"
+	line "#MON would you"
+	cont "expect to see"
+	cont "in a garden?"
+	
+	para "Stay on guard"
+	line "and don't be"
+	cont "afraid to switch"
+	cont "your strategies!"
 	done
 
 AzaleaGymGuyWinText:

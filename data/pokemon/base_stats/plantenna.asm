@@ -1,12 +1,12 @@
 	db PLANTENNA ; 063
 
-	db  38,  37,  55,  68,   67,  55
-	;   hp   atk   def   spd   sat  sdf
+	db  41,  40,  58,    70,   70,  56
+	;   hp   atk  def   spd  sat  sdf
 
 	db PSYCHIC_TYPE, ELECTRIC ; type
 	db 69 ; catch rate
 	db 66 ; base exp
-	db MYSTERYBERRY, WHT_APRICORN ; items
+	db WHT_APRICORN, MYSTERYBERRY ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 20 ; step cycles to hatch

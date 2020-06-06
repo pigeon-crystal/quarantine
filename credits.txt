@@ -1,11 +1,14 @@
 op/kaijuanon for the art. The heart and soul of this project.
 All the anonymous contributors for their design prompts, icons, flavor text, dex entries, and ideas.
-pret pokecrystal wiki for teaching me how to code and doing 99% of the heavy lifting.
+pret pokecrystal wiki and its many contributors for teaching me how to code and doing 99% of the heavy lifting.
 Ragni and TPP Anniversary Crystal Devs for Move Reminder code.
-pfero for help with move reminder string printing, menus, and a hell of a lot more (just look up "pfero"/"pfaero" in the source code repository).
+pfero for help with move reminder string printing, bugfixes, menus, and a hell of a lot more.
 Electro for help with added evolution methods.
 Cam with project management help.
-Many anonymous contributors, Actually TC, gueso and Emi Monserrate for icons.
-An anonymous contributor for unown fossil tiles
+Seatree for Hyper Beam code.
+SourCrystal's dev for help with palettes.
+Many anonymous contributors, TC, gueso and Emi Monserrate for menu icons.
+An anonymous contributor for unown fossil tiles.
+CaptainAhab and gojee for promo art.
 
-/rheg/, pret, and rhh discords for their support
+/rheg/ and the rheg + pret + rhh discords for their support

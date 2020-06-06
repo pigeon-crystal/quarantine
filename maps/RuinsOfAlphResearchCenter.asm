@@ -60,15 +60,7 @@ RuinsOfAlphResearchCenter_MapScripts:
 RuinsOfAlphResearchCenterScientist3Script:
 	faceplayer
 	opentext
-	readvar VAR_UNOWNCOUNT
-	ifequal NUM_UNOWN, .PrinterAvailable
-	writetext RuinsOfAlphResearchCenterScientist3Text
-	waitbutton
-	closetext
-	end
-
-.PrinterAvailable:
-	writetext RuinsOfAlphResearchCenterScientist3_PrinterAvailable
+	writetext RuinsOfAlphResearchCenterScientist3RestingText
 	waitbutton
 	closetext
 	end
@@ -181,7 +173,7 @@ RuinsOfAlphResearchCenterPrinter:
 	ifequal 4, .Scale
 	ifequal 5, .Page1
 	sjump FossilMachineCancelScript
-;here we fucking go, switch items with proper ones once testing is done
+;here we fucking go, switch the mons as they get added!!!
 .Horn
 	checkitem HORN_FOSSIL
 	iffalse .NoFossil
@@ -266,9 +258,9 @@ RuinsOfAlphResearchCenterPrinter:
 	waitsfx
 	playsound SFX_TRANSACTION
 	scall FossilMachineItsAMonScript
-	setval MISSINGNO
+	setval ODDITULLY
 	special GameCornerPrizeMonCheckDex
-	givepoke MISSINGNO, 10
+	givepoke ODDITULLY, 10
 	takeitem BEAK_FOSSIL
 	sjump FossilMachineEndTransaction
 	
@@ -296,9 +288,9 @@ RuinsOfAlphResearchCenterPrinter:
 	waitsfx
 	playsound SFX_TRANSACTION
 	scall FossilMachineItsAMonScript
-	setval MISSINGNO
+	setval WIWRIGHT
 	special GameCornerPrizeMonCheckDex
-	givepoke MISSINGNO, 10
+	givepoke WIWRIGHT, 10
 	takeitem SCALE_FOSSIL
 	sjump FossilMachineEndTransaction
 	
@@ -499,6 +491,19 @@ RuinsOfAlphResearchCenterScientist3Text:
 	para "Check to see how"
 	line "many kinds exist."
 	done
+	
+RuinsOfAlphResearchCenterScientist3RestingText:
+	text "A life in science"
+	line "has lots of"
+	cont "tedium, but"
+	cont "the thrill of"
+	cont "big breaks is"
+	cont "the best."
+	
+	para "Try out the"
+	line "FOSSIL RESTORATION"
+	cont "MACHINE to see"
+	cont "what I mean."
 
 RuinsOfAlphResearchCenterScientist3_PrinterAvailable:
 	text "You caught all the"

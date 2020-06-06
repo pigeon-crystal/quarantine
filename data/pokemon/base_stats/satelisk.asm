@@ -1,12 +1,12 @@
 	db SATELISK ; 063
 
-	db  54,  53,   79,   52,   88,  79
+	db  63,  62,   94,   107,   107,  92
 	;   hp   atk   def   spd   sat  sdf
 
 	db PSYCHIC_TYPE, ELECTRIC ; type
 	db 49 ; catch rate
 	db 220 ; base exp
-	db MYSTERYBERRY, WHT_APRICORN ; items
+	db WHT_APRICORN, MYSTERYBERRY ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 20 ; step cycles to hatch

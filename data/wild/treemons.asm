@@ -17,110 +17,110 @@ TreeMons:
 TreeMonSet_City:
 TreeMonSet_Canyon:
 ; common
-	db 50, QWAIL,    12
-	db 15, EUKUB,    12
-	db 15, EUKUB,    12
-	db 10, QWAIL,      12
-	db  5, QWAIL,      12
-	db  5, GWUBBY,     12
+	db 50, QWAIL,    20
+	db 15, EUKUB,    20
+	db 15, EUKUB,    20
+	db 10, QWAIL,      20
+	db  5, QWAIL,      20
+	db  5, GWUBBY,     20
 	db -1
 ; rare
-	db 50, GWUBBY,   12
-	db 15, EUKUB,  12
-	db 15, QWAIL,    12
-	db 10, EUKUB,  12
-	db  5, QWAIL,    12
-	db  5, GWUBBY,   12
+	db 50, WYRMOMETER, 21
+	db 15, WYRMOMETER, 21
+	db 15, WYRMOMETER, 21
+	db 10, WYRMOMETER, 21
+	db  5, KOAGAN,     22
+	db  5, KOAGAN,     22
 	db -1
 
 TreeMonSet_Town:
 ; common
-	db 50, QWAIL,    	10
-	db 15, QWAIL,    	10
-	db 15, QWAIL,    	10
-	db 10, GWUBBY,      10
-	db  5, GWUBBY,      10
-	db  5, GWUBBY,      10
+	db 50, QWAIL,    	20
+	db 15, QWAIL,    	20
+	db 15, QWAIL,    	20
+	db 10, GWUBBY,      20
+	db  5, GWUBBY,      20
+	db  5, GWUBBY,      20
 	db -1
 ; rare
-	db 50, QWAIL,    10
-	db 15, HERACROSS,  10
-	db 15, HERACROSS,  10
-	db 10, HOPLAQUE,      10
-	db  5, HOPLAQUE,      10
-	db  5, HOPLAQUE,      10
+	db 50, WYRMOMETER,         21
+	db 15, WYRMOMETER,     21
+	db 15, WYRMOMETER,  	  21
+	db 10, WYRMOMETER,      21
+	db  5, HOPLAQUE,      22
+	db  5, KOAGAN,      22
 	db -1
 
 TreeMonSet_Route:
 ; common
-	db 50, HOATOT,   	10
-	db 15, GWUBBY,   	10
-	db 15, EUKUB,     10
-	db 10, BUZZLING,  	10
-	db  5, EUKUB,  	10
-	db  5, BUZZLING,  	10
+	db 50, HOATOT,   	20
+	db 15, GWUBBY,   	20
+	db 15, EUKUB,     	20
+	db 10, BUZZLING,  	20
+	db  5, EUKUB,  		20
+	db  5, HIVEMAIM,  	20
 	db -1
 ; rare
-	db 50, HOOTHOOT,   10
-	db 15, PINECO,     10
-	db 15, PINECO,     10
-	db 10, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
+	db 50, WYRMOMETER,  21
+	db 15, WYRMOMETER,  21
+	db 15, WYRMOMETER,  21
+	db 10, WYRMOMETER,  21
+	db  5, KOAGAN,  	22
+	db  5, KOAGAN,  	22
 	db -1
 
 TreeMonSet_Kanto:
 ; common
-	db 50, HOOTHOOT,   10
-	db 15, EKANS,      10
-	db 15, HOOTHOOT,   10
-	db 10, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
+	db 50, HOATOT,     20
+	db 15, FLUFFRUIT,  20
+	db 15, EUKUB,      20
+	db 10, HOATOT,     20
+	db  5, HOATOT,     20
+	db  5, HOATOT,     20
 	db -1
 ; rare
-	db 50, HOOTHOOT,   10
-	db 15, PINECO,     10
-	db 15, PINECO,     10
-	db 10, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
+	db 50, WYRMOMETER,  21
+	db 15, WYRMOMETER,  21
+	db 15, WYRMOMETER,  21
+	db 10, WYRMOMETER,  21
+	db  5, KOAGAN,  	22
+	db  5, KOAGAN,  	22
 	db -1
 
 TreeMonSet_Lake:
 ; common
-	db 50, EUKUB,   	10
-	db 15, FLUFFRUIT,   10
-	db 15, FLUFFRUIT,   10
-	db 10, GWUBBY,  	10
-	db  5, GWUBBY,  	10
-	db  5, GWUBBY,  	10
+	db 50, EUKUB,   	20
+	db 15, FLUFFRUIT,   20
+	db 15, FLUFFRUIT,   20
+	db 10, GWUBBY,  	20
+	db  5, GWUBBY,  	20
+	db  5, GWUBBY,  	20
 	db -1
 ; rare
-	db 50, KOAGAN,   10
-	db 15, EUKUB,     10
-	db 15, FLUFFRUIT,     10
-	db 10, FLUFFRUIT,  10
-	db  5, GWUBBY,  10
-	db  5, GWUBBY,  10
+	db 50, WYRMOMETER,  21
+	db 15, WYRMOMETER,  21
+	db 15, WYRMOMETER,  21
+	db 10, WYRMOMETER,  21
+	db  5, KOAGAN,      22
+	db  5, KOAGAN,      22
 	db -1
 
 TreeMonSet_Forest:
 ; common
-	db 50, EUKUB,   	10
-	db 15, EUKUB,     	10
-	db 15, EUKUB,     	10
-	db 10, BUZZLING,    10
-	db  5, BUZZLING, 	10
-	db  5, KOAGAN, 		10
+	db 50, EUKUB,   	20
+	db 15, BUZZLING,    20
+	db 15, FLUFFRUIT,   20
+	db 10, EUKUB,       20
+	db  5, HIVEMAIM, 	20
+	db  5, WYRMOMETER,  20
 	db -1
 ; rare
-	db 50, KOAGAN,     10
-	db 15, EUKUB,      10
-	db 15, KOAGAN,     10
-	db 10, HIVEMAIM,   10
-	db  5, HIVEMAIM,   10
-	db  5, GWUBBY,     10
+	db 50, WYRMOMETER, 21
+	db 15, WYRMOMETER, 21
+	db 15, WYRMOMETER, 21
+	db 10, WYRMOMETER, 21
+	db  5, KOAGAN,     22
+	db  5, KOAGAN,     22
 	db -1
 
 TreeMonSet_Rock:

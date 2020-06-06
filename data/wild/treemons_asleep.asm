@@ -1,6 +1,7 @@
 ; Used by CheckSleepingTreeMon
 
 AsleepTreeMonsNite:
+	db HOATOT
 	db QWAIL
 	db -1 ; end
 

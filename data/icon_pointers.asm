@@ -46,6 +46,15 @@ IconPointers:
 	dw MissingnoIcon
 	dw LanatunIcon
 	dw PepofferIcon
+	dw OdditullyIcon
+	dw HoplaqueIcon
+	dw PhanguardIcon
+	dw BrigadoomIcon
+	dw PlantennaIcon	
+	dw HabbleIcon
+	dw SateliskIcon
+	dw StranglureIcon
+	dw ShamselIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon
@@ -89,4 +98,5 @@ IconPointers:
 	dw AmanigoIcon
 	dw YuggromiIcon
 	dw RespectreIcon
+	dw DusmausIcon
 	

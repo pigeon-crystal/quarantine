@@ -7,7 +7,7 @@ Unreferenced_MonPicBanks:
 	db MUMAGNUS,   $15 + 1
 	db DOLMESA ,  $15 + 2
 	db LANATUN,    $15 + 3
-	db STARMIE,   $15 + 4
+	db PEEKEYE,   $15 + 4
 	db ARTICUNO,  $15 + 5
 	db GRUBBOID,   $15 + 6 ; JARANRA in pokegold-spaceworld
 	db ESPEON,    $15 + 7 ; KOUNYA in pokegold-spaceworld

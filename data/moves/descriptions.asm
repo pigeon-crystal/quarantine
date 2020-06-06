@@ -32,7 +32,7 @@ MoveDescriptions::
 	dw HornAttackDescription
 	dw PlayRoughDescription
 	dw HornDrillDescription
-	dw TackleDescription
+	dw HeartStampDescription
 	dw BodySlamDescription
 	dw WrapDescription
 	dw XScissorDescription
@@ -123,13 +123,13 @@ MoveDescriptions::
 	dw NastyPlotDescription
 	dw LickDescription
 	dw SmogDescription
-	dw ZenHeadbuttDescription
+	dw PsychoCutDescription
 	dw EarthPowerDescription
 	dw FireBlastDescription
 	dw WaterfallDescription
 	dw ClampDescription
 	dw SwiftDescription
-	dw SkullBashDescription
+	dw HacklesUpDescription
 	dw SpikeCannonDescription
 	dw ConstrictDescription
 	dw AmnesiaDescription
@@ -262,8 +262,8 @@ Move00Description:
 	db "?@"
 
 PoundDescription:
-	db   "Pounds with fore-"
-	next "legs or tail.@"
+	db   "A full-body charge"
+	next "attack.@"
 
 KarateChopDescription:
 	db   "Has a high criti-"
@@ -389,9 +389,9 @@ HornDrillDescription:
 	db   "A one-hit KO,"
 	next "drill attack.@"
 
-TackleDescription:
-	db   "A full-body charge"
-	next "attack.@"
+HeartStampDescription:
+	db   "Acts cute to fool"
+	next "foe. May flinch.@"
 
 BodySlamDescription:
 	db   "An attack that may"
@@ -562,8 +562,8 @@ RazorLeafDescription:
 	next "cal hit ratio.@"
 
 SolarbeamDescription:
-	db   "1st turn: Prepare"
-	next "2nd turn: Attack@"
+	db   "1st turn: Prepare."
+	next "2nd turn: Attack.@"
 
 PoisonpowderDescription:
 	db   "A move that may"
@@ -753,9 +753,9 @@ SmogDescription:
 	db   "An attack that may"
 	next "poison the foe.@"
 
-ZenHeadbuttDescription:
-	db   "An odd headbutt."
-	next "May flinch.@"
+PsychoCutDescription:
+	db   "Has a high criti-"
+	next "cal hit ratio.@"
 
 EarthPowerDescription:
 	db   "An attack that may"
@@ -777,9 +777,9 @@ SwiftDescription:
 	db   "An attack that"
 	next "never misses.@"
 
-SkullBashDescription:
-	db   "1st turn: Prepare"
-	next "2nd turn: Attack@"
+HacklesUpDescription:
+	db   "1st turn: Prepare."
+	next "2nd turn: Attack.@"
 
 SpikeCannonDescription:
 	db   "Fires spikes to"
@@ -830,8 +830,8 @@ LovelyKissDescription:
 	next "to fall asleep.@"
 
 SkyAttackDescription:
-	db   "1st turn: Prepare"
-	next "2nd turn: Attack@"
+	db   "1st turn: Prepare."
+	next "2nd turn: Attack.@"
 
 TransformDescription:
 	db   "The user assumes"

@@ -55,21 +55,21 @@ JohtoWaterWildMons:
 	map_id MOUNT_MORTAR_1F_OUTSIDE ;done
 	db 4 percent ; encounter rate
 	db 15, GOOSAPLING
-	db 20, MARILL
+	db 20, HABBLE
 	db 20, GANZERKER
 	db 25, GANZERKER
 
 	map_id MOUNT_MORTAR_2F_INSIDE ;done
 	db 2 percent ; encounter rate
 	db 20, GOOSAPLING
-	db 25, MARILL
+	db 25, HABBLE
 	db 25, GANZERKER
 	db 30, GANZERKER
 
 	map_id MOUNT_MORTAR_B1F ;done
 	db 2 percent ; encounter rate
 	db 15, GOOSAPLING
-	db 20, MARILL
+	db 20, HABBLE
 	db 20, GANZERKER
 	db 25, GANZERKER
 

@@ -1,4 +1,4 @@
-	db "ATROCITY@" ; species name,
+	db "UNNATURAL@" ; species name,
 	dw 1506, 3009 ; height, weight
 
 	db   "Known to cause"

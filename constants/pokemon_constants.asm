@@ -41,8 +41,8 @@
 	const NOMSABRE   ; 14 orig RATICATE
 	const QWAIL      ; 15 spearow
 	const QWALLOP    ; 16
-	const EKANS      ; 17 ekans
-	const ARBOK      ; 18
+	const WYRMOMETER      ; 17 wyrmometer
+	const IGNAGA      ; 18
 	const PIKACHU    ; 19
 	const RAICHU     ; 1a
 	const SANDSHREW  ; 1b
@@ -82,7 +82,7 @@
 	const AMANIGO    ; 3d
 	const YUGGROMI  ; 3e
 	const DUSMAUS       ; 3f
-	const KADABRA    ; 40
+	const AMBINNI    ; 40
 	const ALAKAZAM   ; 41
 	const MACHOP     ; 42
 	const MACHOKE    ; 43
@@ -138,11 +138,11 @@
 	const SEADRA     ; 75
 	const GOOSAPLING    ; 76
 	const GANZERKER    ; 77
-	const STARYU     ; 78
-	const STARMIE    ; 79
-	const MR__MIME   ; 7a
+	const PEAUTY     ; 78
+	const PEEKEYE    ; 79
+	const PEACOLDER   ; 7a
 	const SCYTHER    ; 7b
-	const JYNX       ; 7c
+	const CLIBBLE       ; 7c
 	const ELECTABUZZ ; 7d
 	const MAGMAR     ; 7e
 	const PINSIR     ; 7f
@@ -189,7 +189,7 @@ JOHTO_POKEMON EQU const_value
 	const GWUBBY     ; a7
 	const GRUBBOID   ; a8
 	const CROBAT     ; a9
-	const CHINCHOU   ; aa
+	const STRANGLURE   ; aa
 	const LANTURN    ; ab
 	const PICHU      ; ac
 	const CLEFFA     ; ad
@@ -201,9 +201,9 @@ JOHTO_POKEMON EQU const_value
 	const MAREEP     ; b3
 	const FLAAFFY    ; b4
 	const AMPHAROS   ; b5
-	const BELLOSSOM  ; b6
-	const MARILL     ; b7
-	const AZUMARILL  ; b8
+	const PLANTENNA  ; b6
+	const HABBLE     ; b7
+	const SATELISK  ; b8
 	const SUDOWOODO  ; b9
 	const POLITOED   ; ba
 	const SHABBYCAT  ; bb
@@ -226,8 +226,8 @@ JOHTO_POKEMON EQU const_value
 	const PINECO     ; cc
 	const FORRETRESS ; cd
 	const ATTACKO    ; ce dunsparce
-	const GLIGAR     ; cf
-	const STEELIX    ; d0
+	const WIWRIGHT     ; cf
+	const WIRIGIBLE    ; d0
 	const SNUBBULL   ; d1
 	const GRANBULL   ; d2
 	const QWILFISH   ; d3
@@ -261,7 +261,7 @@ JOHTO_POKEMON EQU const_value
 	const ELEKID     ; ef
 	const MAGBY      ; f0
 	const MILTANK    ; f1
-	const BLISSEY    ; f2
+	const ODDITULLY    ; f2
 	const RAIKOU     ; f3
 	const ENTEI      ; f4
 	const SUICUNE    ; f5

@@ -1,10 +1,10 @@
 	db "SOLIDER@" ; species name
 	dw 501, 793 ; height, weight
 
-	db   "They guard the"
-	next "land in which"
-	next "they were planted."
+	db   "It retains its"
+	next "memories of life"
+	next "as a dragon."
 
-	page "PHANGUARD are well"
-	next "known for fearsome"
-	next "group formations.@"
+	page "Deep in its"
+	next "heart, it yearns"
+	next "to be one again.@"
