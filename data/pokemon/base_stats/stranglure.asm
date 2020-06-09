@@ -1,12 +1,12 @@
 	db STRANGLURE ; 063
 
-	db  68,  68,  48,  58,   38,  68
+	db  68,  68,  58,  58,   38,  68
 	;   hp   atk   def   spd   sat  sdf
 
 	db ELECTRIC, DARK ; type
 	db 108 ; catch rate
 	db 68 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	db PNK_APRICORN, RED_APRICORN ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 12 ; step cycles to hatch

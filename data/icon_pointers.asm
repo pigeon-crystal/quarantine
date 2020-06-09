@@ -55,6 +55,19 @@ IconPointers:
 	dw SateliskIcon
 	dw StranglureIcon
 	dw ShamselIcon
+	dw DunefinIcon
+	dw SandolphIcon
+	dw ClibbleIcon
+	dw GiguardIcon
+	dw GigeratorIcon
+	dw DumbloonIcon
+	dw ZeppliumIcon
+	dw PeautyIcon
+	dw PeekeyeIcon
+	dw PeacolderIcon
+	dw SappuraIcon
+	dw LeaffigyIcon
+	dw SakuronnaIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon
@@ -99,4 +112,19 @@ IconPointers:
 	dw YuggromiIcon
 	dw RespectreIcon
 	dw DusmausIcon
-	
+	dw ZasterIcon
+	dw NyalleyIcon
+	dw FelioritteIcon
+	dw PilfoardIcon
+	dw MuminiIcon
+	dw MumagnusIcon
+	dw MandelblobIcon
+	dw HelactalIcon
+	dw IgnagaIcon
+	dw GrimpactIcon
+	dw CuttleIcon
+	dw SmuciousIcon
+	dw SmothereneIcon
+	dw ArasbestosIcon
+	dw KodoroyahIcon
+	dw CasanocteIcon

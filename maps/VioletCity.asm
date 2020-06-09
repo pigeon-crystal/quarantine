@@ -69,9 +69,7 @@ VioletCityYoungsterScript:
 	jumptextfaceplayer VioletCityYoungsterText
 
 VioletCitySign:
-	givepoke AMBINNI, 5
-	givepoke CLIBBLE, 5
-	givepoke STRANGLURE, 5
+	givepoke MANDELBLOB, 5
 	jumptext VioletCitySignText
 
 VioletGymSign:

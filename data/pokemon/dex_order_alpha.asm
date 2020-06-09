@@ -27,8 +27,8 @@ AlphabeticalPokedexOrder:
 	db CHARMELEON
 	db STRANGLURE
 	db CIGERILLAR
-	db CLEFABLE
-	db CLEFAIRY
+	db FELIORITTE
+	db NYALLEY
 	db CLEFFA
 	db CLOYSTER
 	db CORSOLA
@@ -49,7 +49,7 @@ AlphabeticalPokedexOrder:
 	db MUMAGNUS
 	db EEVEE
 	db WYRMOMETER
-	db ELECTABUZZ
+	db GIGUARD
 	db ELECTRODE
 	db ELEKID
 	db ENTEI
@@ -73,8 +73,8 @@ AlphabeticalPokedexOrder:
 	db SCORPEROR
 	db GOLDUCK
 	db GOOSAPLING
-	db GRANBULL
-	db GRIMER
+	db GRIMPACT
+	db DUMBLOON
 	db GROWLITHE
 	db GRUBBOID
 	db GWUBBY
@@ -108,21 +108,21 @@ AlphabeticalPokedexOrder:
 	db KINGDRA
 	db PEPOFFER
 	db KOAGAN
-	db KOFFING
+	db LEAFFIGY
 	db LANATUN
-	db LANTURN
-	db LAPRAS
+	db SHAMSEL
+	db MANDELBLOB
 	db LARVITAR
 	db LAWNIE
-	db LICKITUNG
+	db SAPPURA
 	db LUGIA
 	db MACHAMP
 	db MACHOKE
 	db MACHOP
 	db MAGBY
-	db MAGCARGO
+	db CASANOCTE
 	db MAGIKARP
-	db MAGMAR
+	db GIGERATOR
 	db MAGNEMITE
 	db MAGNETON
 	db MANKEY
@@ -138,8 +138,8 @@ AlphabeticalPokedexOrder:
 	db MISSINGNO
 	db MOLTRES
 	db PEACOLDER
-	db MUK
-	db MURKROW
+	db ZEPPLIUM
+	db BISMUTT
 	db NANUQUA
 	db NATU
 	db NIDOKING
@@ -189,8 +189,8 @@ AlphabeticalPokedexOrder:
 	db RADEON
 	db RAPIDASH
 	db REMORAID
-	db RHYDON
-	db RHYHORN
+	db TENDRILL
+	db CUTTLE
 	db SANDSHREW
 	db SANDSLASH
 	db SCAULTER
@@ -207,12 +207,12 @@ AlphabeticalPokedexOrder:
 	db SLOWBRO
 	db TIDO
 	db SLOWPOKE
-	db SLUGMA
+	db KODOROYAH
 	db SMEARGLE
 	db SMOOCHUM
 	db SNEASEL
 	db SNORLAX
-	db SNUBBULL
+	db ZASTER
 	db SQUIRTLE
 	db PEEKEYE
 	db PEAUTY
@@ -224,7 +224,7 @@ AlphabeticalPokedexOrder:
 	db SWINUB
 	db TANGELA
 	db TAUROS
-	db TEDDIURSA
+	db SMUCIOUS
 	db TENTACOOL
 	db TENTACRUEL
 	db TOBACOON
@@ -234,7 +234,7 @@ AlphabeticalPokedexOrder:
 	db UMBREON
 	db UNOWN
 	db URSKIMO
-	db URSARING
+	db SMOTHERENE
 	db VAPOREON
 	db VAZZINATE
 	db VENOMOTH
@@ -244,7 +244,7 @@ AlphabeticalPokedexOrder:
 	db VULPIX
 	db WARTORTLE
 	db ORGNOME
-	db WEEZING
+	db SAKURONNA
 	db WIGGLYTUFF
 	db RESPECTRE
 	db WOOPER

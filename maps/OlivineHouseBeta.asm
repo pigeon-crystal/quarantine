@@ -13,7 +13,7 @@ OlivineHouseBetaTeacherScript:
 OlivineHouseBetaRhydonScript:
 	opentext
 	writetext OlivineHouseBetaRhydonText
-	cry RHYDON
+	cry CUTTLE
 	waitbutton
 	closetext
 	end

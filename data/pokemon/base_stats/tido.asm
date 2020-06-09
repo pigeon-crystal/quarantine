@@ -6,7 +6,7 @@
 	db WATER, FAIRY ; type
 	db 50 ; catch rate
 	db 169 ; base exp
-	db BLU_APRICORN, POLKADOT_BOW ; items
+	db POLKADOT_BOW, POLKADOT_BOW ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 19 ; step cycles to hatch

@@ -23,7 +23,7 @@ CeladonMansion1FMeowth:
 CeladonMansion1FClefairy:
 	opentext
 	writetext CeladonMansion1FClefairyText
-	cry CLEFAIRY
+	cry NYALLEY
 	waitbutton
 	closetext
 	end
@@ -58,7 +58,7 @@ CeladonMansion1FMeowthText:
 	done
 
 CeladonMansion1FClefairyText:
-	text "CLEFAIRY: Clef"
+	text "NYALLEY: Clef"
 	line "cleff!"
 	done
 

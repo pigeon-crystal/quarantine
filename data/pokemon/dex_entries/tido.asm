@@ -1,4 +1,4 @@
-	db "SALTY DOG@" ; species name
+	db "SALTY DOG@" ; species name 43700213
 	dw 210, 572 ; height, weight
 
 	db   "TIDO were once"

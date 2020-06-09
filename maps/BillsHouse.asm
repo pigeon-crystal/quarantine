@@ -37,7 +37,7 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special BillsGrandfather
 	iffalse .SaidNo
-	ifnotequal LICKITUNG, .WrongPokemon
+	ifnotequal SAPPURA, .WrongPokemon
 	scall .CorrectPokemon
 	setevent EVENT_SHOWED_LICKITUNG_TO_BILLS_GRANDPA
 	sjump .ShowedLickitung

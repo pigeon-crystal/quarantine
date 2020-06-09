@@ -1,21 +1,21 @@
-	db SMUCIOUS ; 063
+	db SMUCIOUS ; 142
 
-	db  37,  50,   34,   73,   34,  40
-	;   hp   atk   def   spd   sat  sdf
+	db  49, 61,  48, 73,  48,  52
+	;   hp  atk  def  spd  sat  sdf
 
 	db DARK, FLYING ; type
-	db 88 ; catch rate
-	db 40 ; base exp
-	db PNK_APRICORN, BLK_APRICORN ; items
-	db GENDER_F100 ; gender ratio
+	db 60 ; catch rate
+	db 66 ; base exp
+	db POLKADOT_BOW, POLKADOT_BOW ; items
+	db GENDER_F100; gender ratio
 	db 100 ; unknown 1
-	db 20 ; step cycles to hatch
+	db 15 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/smucious/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
-	db GROWTH_MEDIUM_SLOW ; growth rate
-	dn EGG_MONSTER, EGG_HUMANSHAPE ; egg groups
+	db GROWTH_SLOW ; growth rate
+	dn EGG_HUMANSHAPE, EGG_MONSTER ; egg groups
 
 	; tm/hm learnset
-	tmhm FLY
+	tmhm HEADBUTT, TOXIC, PSYCH_UP, HIDDEN_POWER, SWEET_SCENT, PROTECT, FRUSTRATION, RETURN, SLEEP_TALK, SWIFT, DREAM_EATER, DETECT, REST, ATTRACT, THIEF, STEEL_WING, NIGHTMARE, FLY, FLASH
 	; end

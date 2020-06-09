@@ -55,6 +55,19 @@
 	const ICON_SATELISK
 	const ICON_STRANGLURE
 	const ICON_SHAMSEL
+	const ICON_DUNEFIN
+	const ICON_SANDOLPH
+	const ICON_CLIBBLE ;big block 6/7
+	const ICON_GIGUARD
+	const ICON_GIGERATOR
+	const ICON_DUMBLOON
+	const ICON_ZEPPLIUM
+	const ICON_PEAUTY
+	const ICON_PEEKEYE
+	const ICON_PEACOLDER
+	const ICON_SAPPURA
+	const ICON_LEAFFIGY
+	const ICON_SAKURONNA
 	const ICON_SQUIRTLE ;START OF BANK 2
 	const ICON_BULBASAUR
 	const ICON_CHARMANDER
@@ -99,6 +112,22 @@
 	const ICON_YUGGROMI
 	const ICON_RESPECTRE
 	const ICON_DUSMAUS
+	const ICON_ZASTER
+	const ICON_NYALLEY
+	const ICON_FELIORITTE
+	const ICON_PILFOARD
+	const ICON_MUMINI
+	const ICON_MUMAGNUS
+	const ICON_MANDELBLOB
+	const ICON_HELACTAL
+	const ICON_IGNAGA
+	const ICON_GRIMPACT
+	const ICON_CUTTLE
+	const ICON_SMUCIOUS
+	const ICON_SMOTHERENE
+	const ICON_ARASBESTOS
+	const ICON_KODOROYAH
+	const ICON_CASANOCTE
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

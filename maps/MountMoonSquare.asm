@@ -35,19 +35,19 @@ ClefairyDance:
 	pause 15
 	appear MOUNTMOONSQUARE_ROCK
 	turnobject MOUNTMOONSQUARE_FAIRY1, RIGHT
-	cry CLEFAIRY
+	cry NYALLEY
 	waitsfx
 	pause 30
 	follow MOUNTMOONSQUARE_FAIRY1, MOUNTMOONSQUARE_FAIRY2
-	cry CLEFAIRY
+	cry NYALLEY
 	applymovement MOUNTMOONSQUARE_FAIRY1, ClefairyDanceStep1
-	cry CLEFAIRY
+	cry NYALLEY
 	applymovement MOUNTMOONSQUARE_FAIRY1, ClefairyDanceStep2
-	cry CLEFAIRY
+	cry NYALLEY
 	applymovement MOUNTMOONSQUARE_FAIRY1, ClefairyDanceStep3
-	cry CLEFAIRY
+	cry NYALLEY
 	applymovement MOUNTMOONSQUARE_FAIRY1, ClefairyDanceStep4
-	cry CLEFAIRY
+	cry NYALLEY
 	applymovement MOUNTMOONSQUARE_FAIRY1, ClefairyDanceStep5
 	stopfollow
 	applymovement MOUNTMOONSQUARE_FAIRY2, ClefairyDanceStep6
@@ -58,7 +58,7 @@ ClefairyDance:
 	pause 10
 	showemote EMOTE_SHOCK, MOUNTMOONSQUARE_FAIRY1, 15
 	turnobject MOUNTMOONSQUARE_FAIRY1, DOWN
-	cry CLEFAIRY
+	cry NYALLEY
 	pause 15
 	follow MOUNTMOONSQUARE_FAIRY1, MOUNTMOONSQUARE_FAIRY2
 	applymovement MOUNTMOONSQUARE_FAIRY1, ClefairyFleeMovement

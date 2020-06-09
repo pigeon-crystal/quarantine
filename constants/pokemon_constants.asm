@@ -53,8 +53,8 @@
 	const NIDORAN_M  ; 20
 	const NIDORINO   ; 21
 	const NIDOKING   ; 22
-	const CLEFAIRY   ; 23
-	const CLEFABLE   ; 24
+	const NYALLEY   ; 23
+	const FELIORITTE   ; 24
 	const VULPIX     ; 25
 	const NINETALES  ; 26
 	const JIGGLYPUFF ; 27
@@ -106,8 +106,8 @@
 	const DODRIO     ; 55
 	const CADDISICLE       ; 56
 	const JADDICE    ; 57
-	const GRIMER     ; 58
-	const MUK        ; 59
+	const DUMBLOON     ; 58
+	const ZEPPLIUM        ; 59
 	const SHELLDER   ; 5a
 	const CLOYSTER   ; 5b
 	const FLUFFRUIT     ; 5c gastly
@@ -126,12 +126,12 @@
 	const MAROWAK    ; 69
 	const HITMONLEE  ; 6a
 	const HITMONCHAN ; 6b
-	const LICKITUNG  ; 6c
-	const KOFFING    ; 6d
-	const WEEZING    ; 6e
-	const RHYHORN    ; 6f
-	const RHYDON     ; 70
-	const CHANSEY    ; 71
+	const SAPPURA  ; 6c
+	const LEAFFIGY    ; 6d
+	const SAKURONNA    ; 6e
+	const CUTTLE    ; 6f cuttle
+	const TENDRILL     ; 70 tendrill
+	const CHANSEY    ; 71 calarmouri
 	const TANGELA    ; 72
 	const KANGASKHAN ; 73
 	const HORSEA     ; 74
@@ -143,13 +143,13 @@
 	const PEACOLDER   ; 7a
 	const SCYTHER    ; 7b
 	const CLIBBLE       ; 7c
-	const ELECTABUZZ ; 7d
-	const MAGMAR     ; 7e
+	const GIGUARD ; 7d
+	const GIGERATOR     ; 7e
 	const PINSIR     ; 7f
 	const TAUROS     ; 80
 	const MAGIKARP   ; 81
 	const GYARADOS   ; 82
-	const LAPRAS     ; 83
+	const MANDELBLOB     ; 83
 	const DITTO      ; 84
 	const EEVEE      ; 85
 	const VAPOREON   ; 86
@@ -189,8 +189,8 @@ JOHTO_POKEMON EQU const_value
 	const GWUBBY     ; a7
 	const GRUBBOID   ; a8
 	const CROBAT     ; a9
-	const STRANGLURE   ; aa
-	const LANTURN    ; ab
+	const STRANGLURE ; aa
+	const SHAMSEL    ; ab
 	const PICHU      ; ac
 	const CLEFFA     ; ad
 	const IGGLYBUFF  ; ae
@@ -203,21 +203,21 @@ JOHTO_POKEMON EQU const_value
 	const AMPHAROS   ; b5
 	const PLANTENNA  ; b6
 	const HABBLE     ; b7
-	const SATELISK  ; b8
+	const SATELISK   ; b8
 	const SUDOWOODO  ; b9
 	const POLITOED   ; ba
 	const SHABBYCAT  ; bb
 	const PURRDLE    ; bc
 	const MEOWTAIN   ; bd
-	const HOPLAQUE      ; be
-	const PHANGUARD    ; bf
-	const BRIGADOOM   ; c0
+	const HOPLAQUE   ; be
+	const PHANGUARD  ; bf
+	const BRIGADOOM  ; c0
 	const ARASBESTOS ; c1
 	const WOOPER     ; c2
 	const QUAGSIRE   ; c3
 	const ESPEON     ; c4
 	const UMBREON    ; c5
-	const MURKROW    ; c6
+	const BISMUTT    ; c6
 	const TIDO   	 ; c7
 	const MISDREAVUS ; c8
 	const UNOWN      ; c9
@@ -226,19 +226,19 @@ JOHTO_POKEMON EQU const_value
 	const PINECO     ; cc
 	const FORRETRESS ; cd
 	const ATTACKO    ; ce dunsparce
-	const WIWRIGHT     ; cf
-	const WIRIGIBLE    ; d0
-	const SNUBBULL   ; d1
-	const GRANBULL   ; d2
+	const WIWRIGHT   ; cf
+	const WIRIGIBLE  ; d0
+	const ZASTER     ; d1
+	const GRIMPACT   ; d2
 	const QWILFISH   ; d3
 	const SCIZOR     ; d4
 	const SHUCKLE    ; d5
 	const HERACROSS  ; d6
 	const SNEASEL    ; d7
-	const TEDDIURSA  ; d8
-	const URSARING   ; d9
-	const SLUGMA     ; da
-	const MAGCARGO   ; db
+	const SMUCIOUS   ; d8
+	const SMOTHERENE ; d9
+	const KODOROYAH  ; da
+	const CASANOCTE  ; db
 	const SWINUB     ; dc
 	const PILOSWINE  ; dd
 	const CORSOLA    ; de
@@ -261,7 +261,7 @@ JOHTO_POKEMON EQU const_value
 	const ELEKID     ; ef
 	const MAGBY      ; f0
 	const MILTANK    ; f1
-	const ODDITULLY    ; f2
+	const ODDITULLY  ; f2
 	const RAIKOU     ; f3
 	const ENTEI      ; f4
 	const SUICUNE    ; f5

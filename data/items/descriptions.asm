@@ -802,7 +802,7 @@ CharcoalDesc:
 
 BerryJuiceDesc:
 	db   "Restores #MON"
-	next "HP by 20.@"
+	next "HP by 50.@"
 
 ScopeLensDesc:
 	db   "Raises critical"

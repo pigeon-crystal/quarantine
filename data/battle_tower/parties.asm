@@ -211,7 +211,7 @@ BattleTowerMons1:
 	bigdw 26 ; SDef
 	db "PUTERA@@@@@"
 
-	db LAPRAS
+	db MANDELBLOB
 	db MIRACLEBERRY
 	db BLIZZARD, SURF, THUNDERBOLT, PSYCHIC_M
 	dw 0 ; OT ID
@@ -812,7 +812,7 @@ BattleTowerMons2:
 	bigdw 75 ; SDef
 	db "HAPINASU@@@"
 
-	db LAPRAS
+	db MANDELBLOB
 	db GOLD_BERRY
 	db PSYCHIC_M, THUNDERBOLT, BLIZZARD, CONFUSE_RAY
 	dw 0 ; OT ID
@@ -1439,7 +1439,7 @@ BattleTowerMons3:
 	bigdw 78 ; SDef
 	db "MARUMAIN@@@"
 
-	db LAPRAS
+	db MANDELBLOB
 	db LEFTOVERS
 	db RAIN_DANCE, WATER_GUN, ICY_WIND, STRENGTH
 	dw 0 ; OT ID
@@ -1465,7 +1465,7 @@ BattleTowerMons3:
 	bigdw 81 ; SDef
 	db "RAPURASU@@@"
 
-	db LANTURN
+	db SHAMSEL
 	db GOLD_BERRY
 	db RAIN_DANCE, THUNDER, SURF, FLAIL
 	dw 0 ; OT ID
@@ -1569,7 +1569,7 @@ BattleTowerMons3:
 	bigdw 70 ; SDef
 	db "GENGA-@@@@@"
 
-	db URSARING
+	db SMOTHERENE
 	db GOLD_BERRY
 	db HEADBUTT, PROTECT, ROAR, LEER
 	dw 0 ; OT ID
@@ -1728,7 +1728,7 @@ BattleTowerMons4:
 	bigdw 125 ; SDef
 	db "KABIGON@@@@"
 
-	db LAPRAS
+	db MANDELBLOB
 	db LEFTOVERS
 	db THUNDERBOLT, ICE_BEAM, CONFUSE_RAY, SURF
 	dw 0 ; OT ID
@@ -2144,7 +2144,7 @@ BattleTowerMons4:
 	bigdw 122 ; SDef
 	db "SURI-PA-@@@"
 
-	db MUK
+	db ZEPPLIUM
 	db QUICK_CLAW
 	db SCREECH, TOXIC, SLUDGE_BOMB, HARDEN
 	dw 0 ; OT ID
@@ -2170,7 +2170,7 @@ BattleTowerMons4:
 	bigdw 111 ; SDef
 	db "BETOBETON@@"
 
-	db ELECTABUZZ
+	db GIGUARD
 	db KINGS_ROCK
 	db LIGHT_SCREEN, THUNDERPUNCH, SWIFT, SNORE
 	dw 0 ; OT ID
@@ -2303,7 +2303,7 @@ BattleTowerMons5:
 	bigdw 159 ; SDef
 	db "KABIGON@@@@"
 
-	db LAPRAS
+	db MANDELBLOB
 	db GOLD_BERRY
 	db THUNDERBOLT, SURF, CONFUSE_RAY, BLIZZARD
 	dw 0 ; OT ID
@@ -3190,7 +3190,7 @@ BattleTowerMons6:
 	bigdw 180 ; SDef
 	db "KAMEtuKUSU@"
 
-	db RHYDON
+	db TENDRILL
 	db QUICK_CLAW
 	db EARTHQUAKE, SURF, IRON_TAIL, ROCK_SLIDE
 	dw 0 ; OT ID
@@ -3609,7 +3609,7 @@ BattleTowerMons7:
 	bigdw 152 ; SDef
 	db "NUO-@@@@@@@"
 
-	db URSARING
+	db SMOTHERENE
 	db SCOPE_LENS
 	db SLASH, EARTHQUAKE, HYPER_BEAM, THUNDERPUNCH
 	dw 0 ; OT ID
@@ -3950,7 +3950,7 @@ BattleTowerMons8:
 	bigdw 183 ; SDef
 	db "KENTAROSU@@"
 
-	db LAPRAS
+	db MANDELBLOB
 	db MINT_BERRY
 	db REST, SURF, CONFUSE_RAY, PSYCHIC_M
 	dw 0 ; OT ID
@@ -4366,7 +4366,7 @@ BattleTowerMons8:
 	bigdw 157 ; SDef
 	db "KAIROSU@@@@"
 
-	db GRANBULL
+	db GRIMPACT
 	db BRIGHTPOWDER
 	db ROAR, SHADOW_BALL, HYPER_BEAM, THUNDERPUNCH
 	dw 0 ; OT ID
@@ -4603,7 +4603,7 @@ BattleTowerMons9:
 	bigdw 259 ; SDef
 	db "BANGIRASU@@"
 
-	db LAPRAS
+	db MANDELBLOB
 	db MINT_BERRY
 	db REST, SURF, THUNDERBOLT, PSYCHIC_M
 	dw 0 ; OT ID
@@ -4915,7 +4915,7 @@ BattleTowerMons9:
 	bigdw 180 ; SDef
 	db "KENTAROSU@@"
 
-	db MUK
+	db ZEPPLIUM
 	db QUICK_CLAW
 	db TOXIC, SLUDGE_BOMB, ATTRACT, GIGA_DRAIN
 	dw 0 ; OT ID
@@ -5152,7 +5152,7 @@ BattleTowerMons10:
 	bigdw 248 ; SDef
 	db "MARUMAIN@@@"
 
-	db RHYDON
+	db TENDRILL
 	db MIRACLEBERRY
 	db SURF, EARTHQUAKE, HYPER_BEAM, ROCK_SLIDE
 	dw 0 ; OT ID
@@ -5464,7 +5464,7 @@ BattleTowerMons10:
 	bigdw 280 ; SDef
 	db "EBIWARA-@@@"
 
-	db LANTURN
+	db SHAMSEL
 	db QUICK_CLAW
 	db SURF, RAIN_DANCE, ZAP_CANNON, CONFUSE_RAY
 	dw 0 ; OT ID

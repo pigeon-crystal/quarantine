@@ -5,7 +5,7 @@ SometimesFleeMons:
 	db WORMEEK
 	db DUSMAUS
 	db UNOWN
-	db SNUBBULL
+	db ZASTER
 	db HERACROSS
 	db -1
 

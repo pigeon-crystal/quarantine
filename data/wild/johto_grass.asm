@@ -307,7 +307,7 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	db 13, NOMSTER
-	db 14, KOFFING
+	db 14, LEAFFIGY
 	db 15, NOMSTER
 	db 14, STINPEON
 	db 15, NOMSTER
@@ -316,7 +316,7 @@ JohtoGrassWildMons:
 	db 19, NOMSABRE
 	; day
 	db 13, NOMSTER
-	db 14, KOFFING
+	db 14, LEAFFIGY
 	db 15, NOMSTER
 	db 14, STINPEON
 	db 15, NOMSTER
@@ -325,7 +325,7 @@ JohtoGrassWildMons:
 	db 19, NOMSABRE
 	; nite
 	db 13, NOMSTER
-	db 14, KOFFING
+	db 14, LEAFFIGY
 	db 15, NOMSTER
 	db 14, STINPEON
 	db 15, NOMSTER
@@ -337,31 +337,31 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 14, NOMSTER
-	db 14, KOFFING
-	db 16, KOFFING
+	db 14, LEAFFIGY
+	db 16, LEAFFIGY
 	db 15, STINPEON
-	db 12, KOFFING
-	db 16, KOFFING
-	db 16, WEEZING
-	db 19, WEEZING
+	db 12, LEAFFIGY
+	db 16, LEAFFIGY
+	db 16, SAKURONNA
+	db 19, SAKURONNA
 	; day
 	db 14, NOMSTER
-	db 14, KOFFING
-	db 16, KOFFING
+	db 14, LEAFFIGY
+	db 16, LEAFFIGY
 	db 15, STINPEON
-	db 12, KOFFING
-	db 16, KOFFING
-	db 16, WEEZING
-	db 19, WEEZING
+	db 12, LEAFFIGY
+	db 16, LEAFFIGY
+	db 16, SAKURONNA
+	db 19, SAKURONNA
 	; nite
 	db 14, NOMSTER
-	db 14, KOFFING
-	db 16, KOFFING
+	db 14, LEAFFIGY
+	db 16, LEAFFIGY
 	db 15, STINPEON
-	db 12, KOFFING
-	db 16, KOFFING
-	db 16, WEEZING
-	db 19, WEEZING
+	db 12, LEAFFIGY
+	db 16, LEAFFIGY
+	db 16, SAKURONNA
+	db 19, SAKURONNA
 
 	map_id NATIONAL_PARK ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -480,7 +480,7 @@ JohtoGrassWildMons:
 	db 9, NOMSTER
 	db 11, STINPEON
 	db 10, DOLMITE
-	db 11, DOLMITE
+	db 11, STINPEON
 	db 12, STINPEON
 
 	map_id UNION_CAVE_B1F ;done
@@ -492,8 +492,8 @@ JohtoGrassWildMons:
 	db 10, STINPEON
 	db 10, DOLMITE
 	db 11, NOMSTER
-	db 12, RESPECTRE
-	db 11, RESPECTRE
+	db 12, MUMINI
+	db 11, MUMINI
 	; day
 	db 9, DOLMITE
 	db 10, STINPEON
@@ -501,8 +501,8 @@ JohtoGrassWildMons:
 	db 10, STINPEON
 	db 10, DOLMITE
 	db 11, NOMSTER
-	db 12, RESPECTRE
-	db 11, RESPECTRE
+	db 12, MUMINI
+	db 11, MUMINI
 	; nite
 	db 9, DOLMITE
 	db 10, STINPEON
@@ -510,8 +510,8 @@ JohtoGrassWildMons:
 	db 10, STINPEON
 	db 10, DOLMITE
 	db 11, NOMSTER
-	db 12, RESPECTRE
-	db 11, RESPECTRE
+	db 12, MUMINI
+	db 11, MUMINI
 
 	map_id UNION_CAVE_B2F ;done
 	db 5 percent, 5 percent, 5 percent ; encounter rates: morn/day/nite
@@ -1147,18 +1147,18 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 43, DOLMESA
-	db 44, URSARING
+	db 44, SMOTHERENE
 	db 42, ONIX
-	db 45, MAGMAR
+	db 45, GIGERATOR
 	db 45, SCORPEROR
 	db 20, LARVITAR
 	db 15, LARVITAR
 	db 20, LARVITAR
 	; day
 	db 43, DOLMESA
-	db 44, URSARING
+	db 44, SMOTHERENE
 	db 42, ONIX
-	db 45, MAGMAR
+	db 45, GIGERATOR
 	db 45, SCORPEROR
 	db 20, LARVITAR
 	db 15, LARVITAR
@@ -1178,7 +1178,7 @@ JohtoGrassWildMons:
 	; morn
 	db 48, SCORPEROR
 	db 48, MACHOKE
-	db 47, URSARING
+	db 47, SMOTHERENE
 	db 46, PARASECT
 	db 48, PARASECT
 	db 15, LARVITAR
@@ -1187,7 +1187,7 @@ JohtoGrassWildMons:
 	; day
 	db 48, SCORPEROR
 	db 48, MACHOKE
-	db 47, URSARING
+	db 47, SMOTHERENE
 	db 46, PARASECT
 	db 48, PARASECT
 	db 15, LARVITAR
@@ -1209,7 +1209,7 @@ JohtoGrassWildMons:
 	db 51, SCORPEROR
 	db 48, ONIX
 	db 48, DOLMESA
-	db 50, URSARING
+	db 50, SMOTHERENE
 	db 20, LARVITAR
 	db 15, LARVITAR
 	db 20, PUPITAR
@@ -1218,7 +1218,7 @@ JohtoGrassWildMons:
 	db 51, SCORPEROR
 	db 48, ONIX
 	db 48, DOLMESA
-	db 50, URSARING
+	db 50, SMOTHERENE
 	db 20, LARVITAR
 	db 15, LARVITAR
 	db 20, PUPITAR
@@ -1299,7 +1299,7 @@ JohtoGrassWildMons:
 	db 23, DOLMITE
 	db 23, STINPEON
 	db 25, DOLMESA
-	db 25, URSARING
+	db 25, SMOTHERENE
 	db 20, ARASBESTOS
 	db 23, SCORPEROR
 	db 23, SCORPEROR
@@ -1308,7 +1308,7 @@ JohtoGrassWildMons:
 	db 23, DOLMITE
 	db 23, STINPEON
 	db 25, DOLMESA
-	db 25, URSARING
+	db 25, SMOTHERENE
 	db 30, ARASBESTOS
 	db 23, SCORPEROR
 	db 23, SCORPEROR
@@ -1476,7 +1476,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_34 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 10, SNUBBULL
+	db 10, ZASTER
 	db 11, NOMSTER
 	db 12, FURNIT
 	db 10, DUSMAUS
@@ -1485,7 +1485,7 @@ JohtoGrassWildMons:
 	db 10, DITTO
 	db 13, DITTO
 	; day
-	db 10, SNUBBULL
+	db 10, ZASTER
 	db 11, NOMSTER
 	db 12, FURNIT
 	db 10, DUSMAUS
@@ -1506,7 +1506,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_35 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 12, SNUBBULL
+	db 12, ZASTER
 	db 14, FURNIT
 	db 13, GROWLITHE
 	db 10, DUSMAUS
@@ -1515,7 +1515,7 @@ JohtoGrassWildMons:
 	db 12, ARASBESTOS
 	db 13, ARASBESTOS
 	; day
-	db 12, SNUBBULL
+	db 12, ZASTER
 	db 14, FURNIT
 	db 13, GROWLITHE
 	db 10, DUSMAUS
@@ -1717,22 +1717,22 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 23, TANGELA
-	db 22, LICKITUNG
+	db 22, SAPPURA
 	db 22, LAWNIE
 	db 24, ORGNOME
-	db 24, LICKITUNG
-	db 26, LICKITUNG
-	db 26, LICKITUNG
-	db 28, LICKITUNG
+	db 24, SAPPURA
+	db 26, SAPPURA
+	db 26, SAPPURA
+	db 28, SAPPURA
 	; day
 	db 23, TANGELA
-	db 22, LICKITUNG
+	db 22, SAPPURA
 	db 22, LAWNIE
 	db 24, ORGNOME
-	db 24, LICKITUNG
-	db 26, LICKITUNG
-	db 26, LICKITUNG
-	db 28, LICKITUNG
+	db 24, SAPPURA
+	db 26, SAPPURA
+	db 26, SAPPURA
+	db 28, SAPPURA
 	; nite
 	db 23, TANGELA
 	db 22, CREMIGO

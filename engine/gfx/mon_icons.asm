@@ -444,7 +444,7 @@ endr
 
 GetIconBank:
 	ld a, [wCurIcon]
-	cp ICON_SQUIRTLE ; first mon in Icons2
+	cp ICON_SQUIRTLE ; first Icon in Icons2
 	lb bc, BANK("Mon Icons 1"), 8
 	ret c
 	ld b, BANK("Mon Icons 2")

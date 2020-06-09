@@ -40,27 +40,27 @@ KantoGrassWildMons:
 	db 8, SANDSHREW
 	db 12, PARAS
 	db 10, DOLMITE
-	db 8, CLEFAIRY
-	db 8, CLEFAIRY
-	db 10, CLEFAIRY
+	db 8, NYALLEY
+	db 8, NYALLEY
+	db 10, NYALLEY
 	; day
 	db 6, STINPEON
 	db 8, DOLMITE
 	db 8, SANDSHREW
 	db 12, PARAS
 	db 10, DOLMITE
-	db 8, CLEFAIRY
-	db 8, CLEFAIRY
-	db 10, CLEFAIRY
+	db 8, NYALLEY
+	db 8, NYALLEY
+	db 10, NYALLEY
 	; nite
 	db 6, STINPEON
 	db 8, DOLMITE
-	db 8, CLEFAIRY
+	db 8, NYALLEY
 	db 12, PARAS
 	db 10, DOLMITE
-	db 12, CLEFAIRY
-	db 12, CLEFAIRY
-	db 20, CLEFAIRY
+	db 12, NYALLEY
+	db 12, NYALLEY
+	db 20, NYALLEY
 
 	map_id ROCK_TUNNEL_1F ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -126,22 +126,22 @@ KantoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 34, DOLMESA
-	db 32, RHYHORN
+	db 32, CUTTLE
 	db 33, ONIX
 	db 34, SCORPEROR
 	db 35, SANDSLASH
-	db 35, RHYDON
-	db 35, RHYDON
-	db 40, RHYDON
+	db 35, TENDRILL
+	db 35, TENDRILL
+	db 40, TENDRILL
 	; day
 	db 34, DOLMESA
-	db 32, RHYHORN
+	db 32, CUTTLE
 	db 33, ONIX
 	db 34, SCORPEROR
 	db 35, SANDSLASH
-	db 35, RHYDON
-	db 35, RHYDON
-	db 40, RHYDON
+	db 35, TENDRILL
+	db 35, TENDRILL
+	db 40, TENDRILL
 	; nite
 	db 34, SCORPEROR
 	db 34, DOLMESA
@@ -268,8 +268,8 @@ KantoGrassWildMons:
 	db 10, NOMSABRE
 	db 6, STINPEON
 	db 5, NOMSTER
-	db 6, CLEFAIRY
-	db 6, CLEFAIRY
+	db 6, NYALLEY
+	db 6, NYALLEY
 	db 10, STINPEON
 
 	map_id ROUTE_4 ;done
@@ -298,15 +298,15 @@ KantoGrassWildMons:
 	db 10, NOMSABRE
 	db 6, STINPEON
 	db 5, NOMSTER
-	db 6, CLEFAIRY
-	db 6, CLEFAIRY
+	db 6, NYALLEY
+	db 6, NYALLEY
 	db 9, STINPEON
 
 	map_id ROUTE_5 ;done 
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 13, FURNIT
-	db 13, SNUBBULL
+	db 13, ZASTER
 	db 15, FURDOBA
 	db 12, DUSMAUS
 	db 14, JIGGLYPUFF
@@ -315,7 +315,7 @@ KantoGrassWildMons:
 	db 18, JIGGLYPUFF
 	; day
 	db 13, FURNIT
-	db 13, SNUBBULL
+	db 13, ZASTER
 	db 15, FURDOBA
 	db 12, DUSMAUS
 	db 14, JIGGLYPUFF
@@ -336,21 +336,21 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 13, NOMSTER
-	db 13, SNUBBULL
+	db 13, ZASTER
 	db 14, MAGNEMITE
 	db 15, NOMSABRE
 	db 12, JIGGLYPUFF
-	db 15, GRANBULL
-	db 15, GRANBULL
+	db 15, GRIMPACT
+	db 15, GRIMPACT
 	db 20, MAGNEMITE
 	; day
 	db 13, NOMSTER
-	db 13, SNUBBULL
+	db 13, ZASTER
 	db 14, MAGNEMITE
 	db 15, NOMSABRE
 	db 12, JIGGLYPUFF
-	db 15, GRANBULL
-	db 15, GRANBULL
+	db 15, GRIMPACT
+	db 15, GRIMPACT
 	db 20, MAGNEMITE
 	; nite
 	db 13, MEOWTH
@@ -367,7 +367,7 @@ KantoGrassWildMons:
 	; morn
 	db 17, NOMSTER
 	db 17, QWAIL
-	db 18, SNUBBULL
+	db 18, ZASTER
 	db 18, NOMSABRE
 	db 18, JIGGLYPUFF
 	db 16, DUSMAUS
@@ -376,7 +376,7 @@ KantoGrassWildMons:
 	; day
 	db 17, NOMSTER
 	db 17, QWAIL
-	db 18, SNUBBULL
+	db 18, ZASTER
 	db 18, NOMSABRE
 	db 18, JIGGLYPUFF
 	db 16, DUSMAUS
@@ -384,7 +384,7 @@ KantoGrassWildMons:
 	db 20, JIGGLYPUFF
 	; nite
 	db 17, MEOWTH
-	db 17, MURKROW
+	db 17, BISMUTT
 	db 18, HOUNDOUR
 	db 18, PERSIAN
 	db 18, JIGGLYPUFF
@@ -395,7 +395,7 @@ KantoGrassWildMons:
 	map_id ROUTE_8 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 17, SNUBBULL
+	db 17, ZASTER
 	db 19, FURDOBA
 	db 16, DUSMAUS
 	db 17, GROWLITHE
@@ -404,7 +404,7 @@ KantoGrassWildMons:
 	db 18, AMBINNI
 	db 20, AMBINNI
 	; day
-	db 17, SNUBBULL
+	db 17, ZASTER
 	db 19, FURDOBA
 	db 16, DUSMAUS
 	db 17, GROWLITHE
@@ -460,27 +460,27 @@ KantoGrassWildMons:
 	db 15, NOMSABRE
 	db 15, QWALLOP
 	db 15, MAROWAK
-	db 16, ELECTABUZZ
-	db 16, ELECTABUZZ
-	db 20, ELECTABUZZ
+	db 16, GIGUARD
+	db 16, GIGUARD
+	db 20, GIGUARD
 	; day
 	db 15, QWAIL
 	db 17, VOLTORB
 	db 15, NOMSABRE
 	db 15, QWALLOP
 	db 15, MAROWAK
-	db 18, ELECTABUZZ
-	db 18, ELECTABUZZ
-	db 20, ELECTABUZZ
+	db 18, GIGUARD
+	db 18, GIGUARD
+	db 20, GIGUARD
 	; nite
 	db 15, VENONAT
 	db 17, VOLTORB
 	db 15, NOMSABRE
 	db 15, VENOMOTH
 	db 15, STINPEON
-	db 16, ELECTABUZZ
-	db 16, ELECTABUZZ
-	db 20, ELECTABUZZ
+	db 16, GIGUARD
+	db 16, GIGUARD
+	db 20, GIGUARD
 
 	map_id ROUTE_11 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -605,92 +605,92 @@ KantoGrassWildMons:
 	map_id ROUTE_16 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 26, GRIMER
+	db 26, DUMBLOON
 	db 27, QWALLOP
-	db 28, GRIMER
+	db 28, DUMBLOON
 	db 29, QWALLOP
 	db 29, QWALLOP
-	db 30, MUK
-	db 30, MUK
-	db 40, MUK
+	db 30, ZEPPLIUM
+	db 30, ZEPPLIUM
+	db 40, ZEPPLIUM
 	; day
-	db 26, GRIMER
+	db 26, DUMBLOON
 	db 27, QWALLOP
-	db 28, GRIMER
+	db 28, DUMBLOON
 	db 29, QWALLOP
-	db 29, SLUGMA
-	db 30, MUK
-	db 30, MUK
-	db 40, SLUGMA
+	db 29, KODOROYAH
+	db 30, ZEPPLIUM
+	db 30, ZEPPLIUM
+	db 40, KODOROYAH
 	; nite
-	db 26, GRIMER
-	db 27, GRIMER
-	db 28, GRIMER
-	db 29, MURKROW
-	db 29, MURKROW
-	db 30, MUK
-	db 30, MUK
-	db 40, MURKROW
+	db 26, DUMBLOON
+	db 27, DUMBLOON
+	db 28, DUMBLOON
+	db 29, BISMUTT
+	db 29, BISMUTT
+	db 30, ZEPPLIUM
+	db 30, ZEPPLIUM
+	db 40, BISMUTT
 
 	map_id ROUTE_17 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 30, QWALLOP
-	db 29, GRIMER
-	db 31, GRIMER
+	db 29, DUMBLOON
+	db 31, DUMBLOON
 	db 32, QWALLOP
-	db 33, GRIMER
-	db 33, MUK
-	db 33, MUK
-	db 40, MUK
+	db 33, DUMBLOON
+	db 33, ZEPPLIUM
+	db 33, ZEPPLIUM
+	db 40, ZEPPLIUM
 	; day
 	db 30, QWALLOP
-	db 29, SLUGMA
-	db 29, GRIMER
+	db 29, KODOROYAH
+	db 29, DUMBLOON
 	db 32, QWALLOP
-	db 32, SLUGMA
-	db 33, MUK
-	db 33, MUK
-	db 40, SLUGMA
+	db 32, KODOROYAH
+	db 33, ZEPPLIUM
+	db 33, ZEPPLIUM
+	db 40, KODOROYAH
 	; nite
-	db 30, GRIMER
-	db 29, GRIMER
-	db 31, GRIMER
-	db 32, GRIMER
-	db 33, GRIMER
-	db 33, MUK
-	db 33, MUK
-	db 40, MUK
+	db 30, DUMBLOON
+	db 29, DUMBLOON
+	db 31, DUMBLOON
+	db 32, DUMBLOON
+	db 33, DUMBLOON
+	db 33, ZEPPLIUM
+	db 33, ZEPPLIUM
+	db 40, ZEPPLIUM
 
 	map_id ROUTE_18 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 26, GRIMER
+	db 26, DUMBLOON
 	db 27, QWALLOP
-	db 28, GRIMER
+	db 28, DUMBLOON
 	db 29, QWALLOP
 	db 29, QWALLOP
-	db 30, MUK
-	db 30, MUK
-	db 40, MUK
+	db 30, ZEPPLIUM
+	db 30, ZEPPLIUM
+	db 40, ZEPPLIUM
 	; day
-	db 26, GRIMER
+	db 26, DUMBLOON
 	db 27, QWALLOP
-	db 28, GRIMER
+	db 28, DUMBLOON
 	db 29, QWALLOP
-	db 29, SLUGMA
-	db 30, MUK
-	db 30, MUK
-	db 40, MUK
+	db 29, KODOROYAH
+	db 30, ZEPPLIUM
+	db 30, ZEPPLIUM
+	db 40, ZEPPLIUM
 	; nite
-	db 26, GRIMER
-	db 27, GRIMER
-	db 28, GRIMER
-	db 29, GRIMER
-	db 29, GRIMER
-	db 30, MUK
-	db 30, MUK
-	db 40, MUK
+	db 26, DUMBLOON
+	db 27, DUMBLOON
+	db 28, DUMBLOON
+	db 29, DUMBLOON
+	db 29, DUMBLOON
+	db 30, ZEPPLIUM
+	db 30, ZEPPLIUM
+	db 40, ZEPPLIUM
 
 	map_id ROUTE_21 ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite

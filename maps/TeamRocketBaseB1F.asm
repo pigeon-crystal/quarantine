@@ -467,11 +467,11 @@ GeodudeExplodingTrap:
 
 KoffingExplodingTrap:
 	special FadeOutPalettes
-	cry KOFFING
+	cry PILFOARD
 	special FadeInPalettes
 	setlasttalked -1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon KOFFING, 21
+	loadwildmon PILFOARD, 21
 	startbattle
 	end
 

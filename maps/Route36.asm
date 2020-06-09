@@ -362,6 +362,9 @@ Route36Sign:
 	jumptext Route36SignText
 
 RuinsOfAlphNorthSign:
+	givepoke SMUCIOUS, 5
+	givepoke SMOTHERENE, 5
+	givepoke CUTTLE, 5
 	jumptext RuinsOfAlphNorthSignText
 
 Route36TrainerTips1:

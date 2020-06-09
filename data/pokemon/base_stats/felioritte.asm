@@ -1,6 +1,6 @@
 	db FELIORITTE ; 063
 
-	db  74,  50,  70,  120,  111,  88
+	db  74,  55,  68,  120,  111,  87
 	;   hp   atk  def  spd   sat  sdf
 
 	db PSYCHIC_TYPE, FIRE ; type
@@ -9,7 +9,7 @@
 	db STARDUST, STARDUST ; items
 	db GENDER_F75 ; gender ratio
 	db 100 ; unknown 1
-	db 20 ; step cycles to hatch
+	db 15 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/felioritte/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

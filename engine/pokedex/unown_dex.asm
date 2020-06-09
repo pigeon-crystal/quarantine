@@ -1,4 +1,4 @@
-UpdateUnownDex:
+UpdateUnownDex::
 	ld a, [wUnownLetter]
 	ld c, a
 	ld b, NUM_UNOWN

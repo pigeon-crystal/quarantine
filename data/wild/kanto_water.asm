@@ -152,10 +152,10 @@ KantoWaterWildMons:
 
 	map_id CELADON_CITY
 	db 2 percent ; encounter rate
-	db 20, GRIMER
-	db 15, GRIMER
-	db 15, MUK
-	db 40, MUK
+	db 20, DUMBLOON
+	db 15, DUMBLOON
+	db 15, ZEPPLIUM
+	db 40, ZEPPLIUM
 
 	map_id FUCHSIA_CITY
 	db 2 percent ; encounter rate

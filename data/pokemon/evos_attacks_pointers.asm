@@ -35,8 +35,8 @@ EvosAttacksPointers::
 	dw NidoranMEvosAttacks
 	dw NidorinoEvosAttacks
 	dw NidokingEvosAttacks
-	dw ClefairyEvosAttacks
-	dw ClefableEvosAttacks
+	dw NyalleyEvosAttacks
+	dw FelioritteEvosAttacks
 	dw VulpixEvosAttacks
 	dw NinetalesEvosAttacks
 	dw JigglypuffEvosAttacks
@@ -88,8 +88,8 @@ EvosAttacksPointers::
 	dw DodrioEvosAttacks
 	dw CaddisicleEvosAttacks
 	dw JaddiceEvosAttacks
-	dw GrimerEvosAttacks
-	dw MukEvosAttacks
+	dw DumbloonEvosAttacks
+	dw ZeppliumEvosAttacks
 	dw ShellderEvosAttacks
 	dw CloysterEvosAttacks
 	dw FluffruitEvosAttacks
@@ -108,11 +108,11 @@ EvosAttacksPointers::
 	dw MarowakEvosAttacks
 	dw HitmonleeEvosAttacks
 	dw HitmonchanEvosAttacks
-	dw LickitungEvosAttacks
-	dw KoffingEvosAttacks
-	dw WeezingEvosAttacks
-	dw RhyhornEvosAttacks
-	dw RhydonEvosAttacks
+	dw SappuraEvosAttacks
+	dw LeaffigyEvosAttacks
+	dw SakuronnaEvosAttacks
+	dw CuttleEvosAttacks
+	dw TendrillEvosAttacks
 	dw ChanseyEvosAttacks
 	dw TangelaEvosAttacks
 	dw KangaskhanEvosAttacks
@@ -125,13 +125,13 @@ EvosAttacksPointers::
 	dw PeacolderEvosAttacks
 	dw ScytherEvosAttacks
 	dw ClibbleEvosAttacks
-	dw ElectabuzzEvosAttacks
-	dw MagmarEvosAttacks
+	dw GiguardEvosAttacks
+	dw GigeratorEvosAttacks
 	dw PinsirEvosAttacks
 	dw TaurosEvosAttacks
 	dw MagikarpEvosAttacks
 	dw GyaradosEvosAttacks
-	dw LaprasEvosAttacks
+	dw MandelblobEvosAttacks
 	dw DittoEvosAttacks
 	dw EeveeEvosAttacks
 	dw VaporeonEvosAttacks
@@ -171,7 +171,7 @@ EvosAttacksPointers::
 	dw GrubboidEvosAttacks
 	dw CrobatEvosAttacks
 	dw StranglureEvosAttacks
-	dw LanturnEvosAttacks
+	dw ShamselEvosAttacks
 	dw PichuEvosAttacks
 	dw CleffaEvosAttacks
 	dw IgglybuffEvosAttacks
@@ -198,7 +198,7 @@ EvosAttacksPointers::
 	dw QuagsireEvosAttacks
 	dw EspeonEvosAttacks
 	dw UmbreonEvosAttacks
-	dw MurkrowEvosAttacks
+	dw BismuttEvosAttacks
 	dw TidoEvosAttacks
 	dw MisdreavusEvosAttacks
 	dw UnownEvosAttacks
@@ -209,17 +209,17 @@ EvosAttacksPointers::
 	dw AttackoEvosAttacks
 	dw WiwrightEvosAttacks
 	dw WirigibleEvosAttacks
-	dw SnubbullEvosAttacks
-	dw GranbullEvosAttacks
+	dw ZasterEvosAttacks
+	dw GrimpactEvosAttacks
 	dw QwilfishEvosAttacks
 	dw ScizorEvosAttacks
 	dw ShuckleEvosAttacks
 	dw HeracrossEvosAttacks
 	dw SneaselEvosAttacks
-	dw TeddiursaEvosAttacks
-	dw UrsaringEvosAttacks
-	dw SlugmaEvosAttacks
-	dw MagcargoEvosAttacks
+	dw SmuciousEvosAttacks
+	dw SmothereneEvosAttacks
+	dw KodoroyahEvosAttacks
+	dw CasanocteEvosAttacks
 	dw SwinubEvosAttacks
 	dw PiloswineEvosAttacks
 	dw CorsolaEvosAttacks

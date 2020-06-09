@@ -186,7 +186,7 @@ TrainerPicnickerTiffany:
 	iftrue .HasPinkBow
 	checkcellnum PHONE_PICNICKER_TIFFANY
 	iftrue .NumberAccepted
-	checkpoke CLEFAIRY
+	checkpoke NYALLEY
 	iffalse .NoClefairy
 	checkevent EVENT_TIFFANY_ASKED_FOR_PHONE_NUMBER
 	iftrue .AskedAlready
@@ -457,7 +457,7 @@ PicnickerTiffanyWantsPicnicText:
 	done
 
 PicnickerTiffanyClefairyText:
-	text "Isn't my CLEFAIRY"
+	text "Isn't my NYALLEY"
 	line "just the most"
 	cont "adorable thing?"
 	done

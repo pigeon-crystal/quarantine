@@ -184,12 +184,14 @@ CremigoEggMoves:
 	db MIST
 	db HAZE
 	db LOCK_ON
+	db REFLECT
 	db -1 ; end
 
 DusmausEggMoves:
 	db LIGHT_SCREEN
 	db ENCORE
 	db BARRIER
+	db AMNESIA
 	db -1 ; end
 
 MachopEggMoves:
@@ -217,6 +219,8 @@ TentacoolEggMoves:
 
 DolmiteEggMoves:
 	db ROCK_SLIDE
+	db RECOVER
+	db SPIKE_CANNON
 	db CURSE
 	db -1 ; end
 
@@ -259,8 +263,10 @@ CaddisicleEggMoves:
 	db ENCORE
 	db -1 ; end
 
-GrimerEggMoves:
+DumbloonEggMoves:
 	db HAZE
+	db MIST
+	db SMOG
 	db MEAN_LOOK
 	db LICK
 	db -1 ; end
@@ -316,34 +322,20 @@ CuboneEggMoves:
 	db SWORDS_DANCE
 	db -1 ; end
 
-LickitungEggMoves:
-	db BELLY_DRUM
-	db MAGNITUDE
-	db BODY_SLAM
-	db -1 ; end
-
-KoffingEggMoves:
+SappuraEggMoves:
 	db SCREECH
-	db PSYWAVE
-	db PSYBEAM
+	db MAGNITUDE
 	db DESTINY_BOND
 	db PAIN_SPLIT
 	db -1 ; end
-
-RhyhornEggMoves:
-	db CRUNCH
-	db FLAIL
-	db ROCK_SLIDE
-	db THRASH
-	db PURSUIT
+	
+CuttleEggMoves:
+	db HEAL_BELL
+	db ICE_BEAM
+	db LOCK_ON
+	db MIRROR_COAT
 	db COUNTER
 	db MAGNITUDE
-	db -1 ; end
-
-ChanseyEggMoves:
-	db PRESENT
-	db METRONOME
-	db HEAL_BELL
 	db -1 ; end
 
 TangelaEggMoves:
@@ -374,6 +366,7 @@ HorseaEggMoves:
 GoosaplingEggMoves:
 	db PSYBEAM
 	db HAZE
+	db AURORA_BEAM
 	db HYDRO_PUMP
 	db -1 ; end
 
@@ -381,6 +374,7 @@ PeautyEggMoves:
 	db FUTURE_SIGHT
 	db HYPNOSIS
 	db MIMIC
+	db FORESIGHT
 	db -1 ; end
 
 ScytherEggMoves:
@@ -396,8 +390,7 @@ PinsirEggMoves:
 	db FLAIL
 	db -1 ; end
 
-LaprasEggMoves:
-	db AURORA_BEAM
+MandelblobEggMoves:
 	db FORESIGHT
 	db -1 ; end
 
@@ -485,7 +478,6 @@ HoothootEggMoves:
 	db -1 ; end
 
 WormeekEggMoves:
-	db PSYBEAM
 	db BIDE
 	db LIGHT_SCREEN
 	db -1 ; end
@@ -595,8 +587,11 @@ WooperEggMoves:
 	db SAFEGUARD
 	db -1 ; end
 
-MurkrowEggMoves:
-	db WHIRLWIND
+BismuttEggMoves:
+	db HACKLES_UP
+	db SHADOW_BONE
+	db BONE_RUSH
+	db MINIMIZE
 	db -1 ; end
 
 TidoEggMoves:
@@ -647,7 +642,7 @@ WiwrightEggMoves:
 	db COUNTER
 	db -1 ; end
 
-SnubbullEggMoves:
+ZasterEggMoves:
 	db METRONOME
 	db -1 ; end
 
@@ -676,11 +671,11 @@ SneaselEggMoves:
 	db BITE
 	db -1 ; end
 
-TeddiursaEggMoves:
+SmuciousEggMoves:
 	db CRUNCH
 	db -1 ; end
 
-SlugmaEggMoves:
+KodoroyahEggMoves:
 	db BARRIER
 	db -1 ; end
 

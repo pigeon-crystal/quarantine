@@ -1,4 +1,4 @@
-	db "LURING@" ; species name, thanks to an anon for this
+	db "LURING@" ; thanks to an anon for this
     dw 290, 100 ; height, weight
  
     db   "The dim glow of"
