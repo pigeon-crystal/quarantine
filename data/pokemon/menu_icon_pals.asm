@@ -236,7 +236,7 @@ MonMenuIconPals:
 	icon_pals RED,   YELLOW    ; KINGDRA
 	icon_pals RED,   YELLOW    ; PHANPHY
 	icon_pals RED,   YELLOW    ; DONPHAN
-	icon_pals RED,   YELLOW    ; POLYRO
+	icon_pals PURPLE,   YELLOW    ; POLYRO
 	icon_pals RED,   YELLOW    ; MISSINGNO
 	icon_pals RED,   YELLOW    ; SMEARGLE
 	icon_pals RED,   YELLOW    ; TYROGUE

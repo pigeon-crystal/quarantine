@@ -79,12 +79,16 @@ HikerPhillipBeatenText:
 	done
 
 HikerPhillipAfterBattleText:
-	text "I've been lost for"
-	line "a long time…"
+	text "I've travelled all"
+	line "over the world!"
 
-	para "I don't mind it"
-	line "here, but I am"
-	cont "soooo hungry!"
+	para "I'm originally"
+	line "from the FOCHUN"
+	cont "region."
+	
+	para "The #MON back"
+	line "home are quite"
+	cont "different!"
 	done
 
 HikerLeonardSeenText:

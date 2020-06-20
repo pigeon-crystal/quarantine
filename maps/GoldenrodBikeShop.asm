@@ -66,6 +66,13 @@ GoldenrodBikeShopClerkAgreedText:
 
 	para "and I'll loan you"
 	line "a BICYCLE."
+	
+	para "Man, I can't wait"
+	line "to tell my"
+	cont "girlfriend I got"
+	
+	para "my first"
+	line "customer!"
 	done
 
 BorrowedABicycleText:

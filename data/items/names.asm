@@ -173,7 +173,7 @@ ItemNames::
 	db "UP-GRADE@"
 	db "BERRY@"
 	db "GOLD BERRY@"
-	db "GANZ-B-GONE@"
+	db "BIKE HORN@"
 	db "TERU-SAMA@"
 	db "PARK BALL@"
 	db "RAINBOW WING@"

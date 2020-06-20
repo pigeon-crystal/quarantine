@@ -26,17 +26,14 @@ Route36RuinsOfAlphGateOfficerText:
 	done
 
 Route36RuinsOfAlphGateGrampsText:
-	text "Huff puff…"
-	line "Hoo boy…"
+	text "They ruins them-"
+	line "selves are closed."
 
-	para "I had to run to"
-	line "get away from that"
-	cont "GANZERKER."
-
-	para "Maybe that bird's"
-	line "why there's been"
-	cont "less visitors to"
-	cont "the RUINS OF ALPH."
+	para "However, the"
+	line "machine in the"
+	cont "research center"
+	cont "is up and"
+	cont "running."
 	done
 
 Route36RuinsOfAlphGate_MapEvents:

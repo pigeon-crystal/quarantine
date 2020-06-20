@@ -362,9 +362,8 @@ Route36Sign:
 	jumptext Route36SignText
 
 RuinsOfAlphNorthSign:
-	givepoke PLANTENNA, 5
-	givepoke HABBLE, 5
-	givepoke SATELISK, 5
+	givepoke MOSSARRE, 50
+	givepoke ZEPPLIUM, 50
 	jumptext RuinsOfAlphNorthSignText
 
 Route36TrainerTips1:
@@ -431,15 +430,16 @@ HorridGooseText:
 	done
 
 UseSquirtbottleText:
-	text "Use the"
-	cont "HORN?"
+	text "Honk the BIKE"
+	line "HORN at the"
+	cont "GANZERKER?"
 	done
 
 UsedSquirtbottleText:
 	text "<PLAYER> used the"
 	line "HORN."
 	
-	para "Honkhonk!"
+	para "Honkhonkhonk!"
 	done
 
 SudowoodoAttackedText:
@@ -533,18 +533,6 @@ RockSmashGuyText3:
 	para "If any rocks are"
 	line "in your way, just"
 	cont "smash 'em up!"
-	done
-
-UnusedOddTreeText:
-	text "An odd tree is"
-	line "blocking the way"
-	cont "to GOLDENROD CITY."
-
-	para "I wanted to go see"
-	line "the huge #MON"
-
-	para "CENTER they just"
-	line "opened…"
 	done
 
 Route36LassText:

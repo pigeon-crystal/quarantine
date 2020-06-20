@@ -2,7 +2,7 @@
 	dw 302, 2501 ; height, weight
 
 	db   "Once thought to be"
-	next "artificial, the odd"
+	next "artificial, the"
 	next "geometric crystals"
 
 	page "of BISMUTT coats"

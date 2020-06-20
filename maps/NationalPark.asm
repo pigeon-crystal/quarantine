@@ -324,6 +324,13 @@ NationalParkPokefanFText:
 	text "This is MAIL I got"
 	line "from my daughter."
 	cont "It cheers me up."
+	
+	para "Sometimes, a"
+	line "letter beats a"
+	cont "call."
+	
+	para "Write your"
+	line "folks sometime."
 	done
 
 NationalParkTeacher1Text:

@@ -90,6 +90,10 @@ Route32Pokecenter1FCooltrainerFText:
 	para "Maybe an item that"
 	line "increases ATTACK"
 	cont "power…"
+	
+	para "Maybe a BERRY"
+	line "to heal it in"
+	cont "battle…"
 	done
 
 Route32Pokecenter1F_MapEvents:

@@ -734,7 +734,7 @@ BirdKeeperGroup:
 	db "PETER@", TRAINERTYPE_NORMAL
 	db  13, FURNIT
 	db  13, HOATOT
-	db  14, PEAUTY
+	db  15, PEAUTY
 	db  13, GOOSAPLING
 	db -1 ; end
 

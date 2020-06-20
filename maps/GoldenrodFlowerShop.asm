@@ -19,6 +19,8 @@ FlowerShopTeacherScript:
 	iffalse .Lalala
 	checkflag ENGINE_PLAINBADGE
 	iffalse .NoPlainBadge
+	checkflag EVENT_GOT_BICYCLE
+	iffalse .GoHelpHim
 	faceplayer
 	opentext
 	writetext GoldenrodFlowerShopTeacherHeresTheSquirtbottleText
@@ -43,6 +45,9 @@ FlowerShopTeacherScript:
 
 .NoPlainBadge:
 	jumptextfaceplayer GoldenrodFlowerShopTeacherAskWantToBorrowWaterBottleText
+
+.GoHelpHim:
+	jumptextfaceplayer GoldenrodFlowerShopTeacherGoHelpMyBFText
 
 .HaventMetFloria:
 	jumptextfaceplayer GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text
@@ -90,28 +95,73 @@ GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text:
 	done
 
 GoldenrodFlowerShopTeacherAskWantToBorrowWaterBottleText:
-	text "You probably want"
-	line "to borrow some of"
-	cont "that GANZ-B-GONE"
-	cont "too, don't you."
+	text "I think honking"
+	line "a horn at the"
+	cont "GANZERKER will"
+	cont "rile it up."
 
-	para "That GANZERKER"
-	line "looks too dangerous"
-	cont "for you!"
+	para "I have a spare"
+	line "BIKE HORN, but"
+	
+	para "this all seems too"
+	line "dangerous for"
+	cont "you!"
+	done
+	
+GoldenrodFlowerShopTeacherGoHelpMyBFText:
+	text "Wow, you're better"
+	line "than WHITNEY!"
+	
+	para "Tell you what,"
+	line "I'll let you"
+	cont "borrow this"
+	
+	para "BIKE HORN if you"
+	line "go help by"
+	cont "boyfriend out."
+	
+	para "He works at the"
+	line "BIKE SHOP, but"
+	cont "has been too"
+	cont "mopey lately."
 	done
 
 GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
-	text "Oh, you're better"
-	line "than WHITNEY…"
-
-	para "You'll be OK,"
-	line "then. Here's the"
-	cont "GANZ-B-GONE!"
-	done
+	text "Wow, you're better"
+	line "than WHITNEY!"
+	
+	para "Tell you what,"
+	line "I'll let you"
+	cont "borrow this"
+	
+	para "BIKE HORN if you"
+	line "go help by"
+	cont "boyfriend out."
+	
+	para "He works at the"
+	line "BIKE SHOP, but"
+	cont "has been too"
+	cont "mopey lately."
+	
+	para "Oh, you have"
+	line "one of his"
+	cont "bikes!"
+	
+	para "In that case,"
+	line "here you go!"
 
 GoldenrodFlowerShopTeacherDontDoAnythingDangerousText:
-	text "Don't do anything"
-	line "too dangerous!"
+	text "My boyfriend got"
+	line "this for me for"
+	cont "my birthday,"
+	
+	para "but I don't even"
+	line "have a bike."
+	
+	para "I think he just"
+	line "gave me whatever"
+	cont "was in his"
+	cont "backpack."
 	done
 
 GoldenrodFlowerShopTeacherLalalaHavePlentyOfWaterText:
@@ -122,16 +172,13 @@ GoldenrodFlowerShopTeacherLalalaHavePlentyOfWaterText:
 
 GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText:
 	text "When I told my sis"
-	line "about the jiggly"
+	line "about the horrid"
 
-	para "tree, she told me"
+	para "goose, she told me"
 	line "it's dangerous."
 
-	para "If I beat WHITNEY,"
-	line "I wonder if she'll"
-
-	para "lend me her water"
-	line "bottle…"
+	para "Guess I'll stay"
+	line "away for now."
 	done
 
 GoldenrodFlowerShopFloriaYouBeatWhitneyText:

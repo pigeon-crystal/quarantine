@@ -636,22 +636,29 @@ Text_RefusedToBuySlowpokeTail:
 	done
 
 FisherJustinSeenText:
-	text "Whoa!"
+	text "He he he!"
 
-	para "You made me lose"
-	line "that fish!"
+	para "Check out this"
+	line "rare fish!"
 	done
 
 FisherJustinBeatenText:
-	text "Sploosh!"
+	text "…"
+	line "Sploosh…"
 	done
 
 FisherJustinAfterText:
-	text "Calm, collected…"
-	line "The essence of"
+	text "You'll need a"
+	line "GOOD ROD or to"
+	cont "wait for a swarm"
 
-	para "fishing and #-"
-	line "MON is the same."
+	para "to catch yourself"
+	line "a PEKOI."
+	
+	para "RALPH always"
+	line "knows when this"
+	cont "place swarms with"
+	cont "'em."
 	done
 
 FisherRalph1SeenText:
@@ -677,13 +684,16 @@ FisherRalphAfterText:
 	done
 
 FisherRalphSwarmText:
-	text "One, two, three…"
-	line "Muahahaha, what a"
+	text "SNIIFFFF!!"
+	line "Ahhhhh, nice!"
+	
+	para "You smell that,"
+	line "kid? It's the"
+	cont "smell of a pond"
 
-	para "great haul!"
-	line "I'm done! Go ahead"
+	para "full of PEKOI!"
 
-	para "and catch as many"
+	para "Catch as many"
 	line "as you can, kid!"
 	done
 
@@ -733,18 +743,29 @@ Route32UnusedFisher2AfterText:
 FisherHenrySeenText:
 	text "My #MON?"
 	line "Freshly caught!"
+	
+	para "Our eyes?"
+	line "Freshly locked!"
+	
+	para "Time for a"
+	line "battle!"
 	done
 
 FisherHenryBeatenText:
-	text "SPLASH?"
+	text "S-SPLASH?"
 	done
 
 FisherHenryAfterText:
-	text "Freshly caught"
-	line "#MON are no"
+	text "A swimmer friend"
+	line "of mine says his"
 
-	para "match for properly"
-	line "raised ones."
+	para "STIKLBRAT acts a"
+	line "lot nicer than"
+	cont "mine."
+	
+	para "Does how they're"
+	line "found change how"
+	cont "they grow?"
 	done
 
 YoungsterAlbertSeenText:
@@ -907,8 +928,8 @@ FriedaFridayText:
 	para "I love Friday. No"
 	line "doubt about it!"
 
-	para "Don't you think"
-	line "it's great too?"
+	para "I gotta get down"
+	line "on Friday!"
 	done
 
 FriedaNotFridayText:

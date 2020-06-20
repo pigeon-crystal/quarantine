@@ -937,7 +937,7 @@ GoldBerryDesc:
 	next "item. (40HP, HOLD)@"
 
 SquirtBottleDesc:
-	db   "A repellant for"
+	db   "A horn that annoys"
 	next "a certain #MON.@"
 
 TeruSama23Desc:
