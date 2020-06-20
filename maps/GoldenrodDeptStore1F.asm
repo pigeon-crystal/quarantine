@@ -37,7 +37,7 @@ GoldenrodDeptStore1FGentlemanText:
 	line "has a decent se-"
 	cont "lection."
 
-	para "But some items"
+	para "But some TMs"
 	line "are only available"
 
 	para "as GAME CORNER"

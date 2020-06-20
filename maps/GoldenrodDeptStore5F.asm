@@ -193,8 +193,8 @@ GoldenrodDeptStore5FPokefanMText:
 	para "original trainer's"
 	line "feelings for it."
 	
-	para "My PALOOQUAIL's"
-	line "name is 'DICKS'."
+	para "My QWAIL's"
+	line "name is 'BUTTS'."
 	done
 
 GoldenrodDeptStore5FDirectoryText:

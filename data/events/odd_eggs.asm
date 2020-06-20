@@ -17,10 +17,10 @@ prob_total = 0
 ; Hoplaque
 	prob 14
 	prob 2
-; Magby (replace w peauty)
+; Peauty
 	prob 10
 	prob 2
-; Elekid (replace w plantenna)
+; Plantenna
 	prob 12
 	prob 2
 ; Clibble
@@ -237,37 +237,37 @@ OddEggs:
 	bigdw 15 ; SDef
 	db "EGG@@@@@@@@"
 
-	db MAGBY
+	db PEAUTY
 	db NO_ITEM
-	db EMBER, DIZZY_PUNCH, 0, 0
+	db PECK, TELEPORT, METRONOME, SPITE
 	dw 02560 ; OT ID
-	dt 125 ; Exp
+	dt 523 ; Exp
 	; Stat exp
 	bigdw 0
 	bigdw 0
 	bigdw 0
 	bigdw 0
 	bigdw 0
-	dn 0, 0, 0, 0 ; DVs
-	db 25, 10, 0, 0 ; PP
+	dn 15, 8, 10, 14 ; DVs
+	db 35, 20, 10, 10 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
 	db 5 ; Level
 	db 0, 0 ; Status
 	bigdw 0 ; HP
 	bigdw 19 ; Max HP
-	bigdw 12 ; Atk
+	bigdw 10 ; Atk
 	bigdw 8 ; Def
-	bigdw 13 ; Spd
-	bigdw 12 ; SAtk
-	bigdw 10 ; SDef
+	bigdw 10 ; Spd
+	bigdw 11 ; SAtk
+	bigdw 11 ; SDef
 	db "EGG@@@@@@@@"
 
-	db MAGBY
+	db PEAUTY
 	db NO_ITEM
-	db EMBER, DIZZY_PUNCH, 0, 0
+	db PECK, TELEPORT, METRONOME, SPITE
 	dw 00512 ; OT ID
-	dt 125 ; Exp
+	dt 523 ; Exp
 	; Stat exp
 	bigdw 0
 	bigdw 0
@@ -275,51 +275,51 @@ OddEggs:
 	bigdw 0
 	bigdw 0
 	dn 2, 10, 10, 10 ; DVs
-	db 25, 10, 0, 0 ; PP
+	db 35, 20, 10, 10 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
 	db 5 ; Level
 	db 0, 0 ; Status
 	bigdw 0 ; HP
 	bigdw 19 ; Max HP
-	bigdw 12 ; Atk
-	bigdw 9 ; Def
-	bigdw 14 ; Spd
-	bigdw 13 ; SAtk
+	bigdw 10 ; Atk
+	bigdw 8  ; Def
+	bigdw 10 ; Spd
+	bigdw 11 ; SAtk
 	bigdw 11 ; SDef
 	db "EGG@@@@@@@@"
 
-	db ELEKID
+	db PLANTENNA
 	db NO_ITEM
-	db QUICK_ATTACK, LEER, DIZZY_PUNCH, 0
+	db CONFUSION, GROWL, LIGHT_SCREEN, SPITE
 	dw 03072 ; OT ID
-	dt 125 ; Exp
+	dt 135 ; Exp
 	; Stat exp
 	bigdw 0
 	bigdw 0
 	bigdw 0
 	bigdw 0
 	bigdw 0
-	dn 0, 0, 0, 0 ; DVs
-	db 30, 30, 10, 0 ; PP
+	dn 11, 12, 15, 12 ; DVs
+	db 25, 40, 30, 10 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
 	db 5 ; Level
 	db 0, 0 ; Status
 	bigdw 0 ; HP
-	bigdw 19 ; Max HP
-	bigdw 11 ; Atk
-	bigdw 8 ; Def
-	bigdw 14 ; Spd
+	bigdw 18 ; Max HP
+	bigdw 9 ; Atk
+	bigdw 10 ; Def
+	bigdw 12 ; Spd
 	bigdw 11 ; SAtk
 	bigdw 10 ; SDef
 	db "EGG@@@@@@@@"
 
-	db ELEKID
+	db PLANTENNA ;shiny
 	db NO_ITEM
-	db QUICK_ATTACK, LEER, DIZZY_PUNCH, 0
+	db CONFUSION, GROWL, LIGHT_SCREEN, SPITE
 	dw 00512 ; OT ID
-	dt 125 ; Exp
+	dt 135 ; Exp
 	; Stat exp
 	bigdw 0
 	bigdw 0
@@ -327,18 +327,18 @@ OddEggs:
 	bigdw 0
 	bigdw 0
 	dn 2, 10, 10, 10 ; DVs
-	db 30, 30, 10, 0 ; PP
+	db 25, 40, 30, 10 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
 	db 5 ; Level
 	db 0, 0 ; Status
 	bigdw 0 ; HP
-	bigdw 19 ; Max HP
-	bigdw 11 ; Atk
-	bigdw 9 ; Def
-	bigdw 15 ; Spd
-	bigdw 12 ; SAtk
-	bigdw 11 ; SDef
+	bigdw 18 ; Max HP
+	bigdw 9 ; Atk
+	bigdw 10 ; Def
+	bigdw 12 ; Spd
+	bigdw 11 ; SAtk
+	bigdw 10 ; SDef
 	db "EGG@@@@@@@@"
 
 	db CLIBBLE

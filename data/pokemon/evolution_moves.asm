@@ -242,7 +242,7 @@ EvolutionMoves::
 	db NO_MOVE		; MILTANK
 	db NO_MOVE		; ODDITULLY
 	db NO_MOVE		; RAIKOU
-	db NO_MOVE		; ENTEI
+	db NO_MOVE		; SLAATEL
 	db NO_MOVE		; SUICUNE
 	db NO_MOVE		; LARVITAR
 	db NO_MOVE		; PUPITAR

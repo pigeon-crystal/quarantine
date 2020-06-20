@@ -93,7 +93,7 @@ RadioTower1FLuckyNumberManScript:
 	playsound SFX_3RD_PLACE
 	waitsfx
 	promptbutton
-	giveitem PP_UP
+	giveitem EVIOLITE
 	iffalse .BagFull
 	itemnotify
 	setflag ENGINE_LUCKY_NUMBER_SHOW
@@ -285,7 +285,8 @@ RadioTower1FLuckyNumberManWeakMatchText:
 	cont "two numbers."
 
 	para "You've won third"
-	line "prize, a PP UP."
+	line "prize, a nifty"
+	cont "EVIOLITE!"
 	done
 
 RadioTower1FLuckyNumberManNoneOfYourIDNumbersMatchText:
@@ -363,11 +364,11 @@ RadioTower1FRadioCardWomanQuestion5Text:
 	line "Here's the final"
 	cont "question:"
 
-	para "Do GOLDENROD GAME"
-	line "CORNER's slots"
+	para "Does the card"
+	line "flip at the GAME"
 
-	para "have CHARMANDER"
-	line "on their reels?"
+	para "CORNER have"
+	line "TIDO on it?"
 	done
 
 RadioTower1FRadioCardWomanYouWinText:

@@ -553,7 +553,7 @@ INCBIN "gfx/footprints/magby.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/miltank.1bpp",    footprint_top
 INCBIN "gfx/footprints/odditully.1bpp",    footprint_top
 INCBIN "gfx/footprints/raikou.1bpp",     footprint_top
-INCBIN "gfx/footprints/entei.1bpp",      footprint_top
+INCBIN "gfx/footprints/slaatel.1bpp",      footprint_top
 INCBIN "gfx/footprints/suicune.1bpp",    footprint_top
 INCBIN "gfx/footprints/larvitar.1bpp",   footprint_top
 INCBIN "gfx/footprints/pupitar.1bpp",    footprint_top
@@ -562,7 +562,7 @@ INCBIN "gfx/footprints/tyranitar.1bpp",  footprint_top
 INCBIN "gfx/footprints/miltank.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/odditully.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/raikou.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/entei.1bpp",      footprint_bottom
+INCBIN "gfx/footprints/slaatel.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/suicune.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/larvitar.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/pupitar.1bpp",    footprint_bottom

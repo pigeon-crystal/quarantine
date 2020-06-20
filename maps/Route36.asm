@@ -362,6 +362,9 @@ Route36Sign:
 	jumptext Route36SignText
 
 RuinsOfAlphNorthSign:
+	givepoke PLANTENNA, 5
+	givepoke HABBLE, 5
+	givepoke SATELISK, 5
 	jumptext RuinsOfAlphNorthSignText
 
 Route36TrainerTips1:

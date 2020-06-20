@@ -42,3 +42,5 @@ SpriteMons:
 	db NOMSTER
 	db NOMSABRE
 	db SHABBYCAT
+	db SLAATEL
+	db WORMACHO

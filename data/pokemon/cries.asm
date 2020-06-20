@@ -186,9 +186,9 @@ PokemonCries::
 	mon_cry CRY_MAREEP,       34,  216 ; MAREEP
 	mon_cry CRY_MAREEP,       -7,  384 ; FLAAFFY
 	mon_cry CRY_AMPHAROS,   -124,  232 ; AMPHAROS
-	mon_cry CRY_CLEFFA,      132,  336 ; PLANTENNA
-	mon_cry CRY_MARILL,      283,  288 ; HABBLE
-	mon_cry CRY_MARILL,      182,  384 ; SATELISK
+	mon_cry CRY_CLEFFA,      336,  111 ; PLANTENNA
+	mon_cry CRY_NATU,        180,  333 ; HABBLE
+	mon_cry CRY_NATU,       -182,  384 ; SATELISK
 	mon_cry CRY_CLEFFA,     3904,  384 ; SUDOWOODO
 	mon_cry CRY_CLEFFA,     -675,  456 ; POLITOED
 	mon_cry CRY_CLEFAIRY,    199,  169 ; SHABBYCAT orig HOPPIP
@@ -211,8 +211,8 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,    128,  256 ; PINECO
 	mon_cry CRY_SLOWKING,      0,  384 ; FORRETRESS
 	mon_cry CRY_DUNSPARCE,   420,  355 ; ATTACKO
-	mon_cry CRY_GLIGAR,       69,  230 ; WIWRIGHT
-	mon_cry CRY_GLIGAR,  	 100,  247 ; WIRIGIBLE
+	mon_cry CRY_GLIGAR,       69,  231 ; WIWRIGHT
+	mon_cry CRY_GLIGAR,  	  51,  247 ; WIRIGIBLE
 	mon_cry CRY_DUNSPARCE,   274,  232 ; ZASTER
 	mon_cry CRY_DUNSPARCE,     0,  384 ; GRIMPACT
 	mon_cry CRY_SLOWKING,    252,  234 ; PEKOI
@@ -248,7 +248,7 @@ PokemonCries::
 	mon_cry CRY_GLIGAR,     -461,  416 ; MILTANK
 	mon_cry CRY_VILEPLUME,   133,  455 ; ODDITULLY
 	mon_cry CRY_RAIKOU,      558,  288 ; RAIKOU
-	mon_cry CRY_ENTEI,         0,  416 ; ENTEI
+	mon_cry CRY_ENTEI,         0,  416 ; SLAATEL
 	mon_cry CRY_MAGCARGO,      0,  384 ; SUICUNE
 	mon_cry CRY_RAIKOU,       95,  208 ; LARVITAR
 	mon_cry CRY_SPINARAK,   -475,  336 ; PUPITAR

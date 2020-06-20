@@ -6,6 +6,7 @@
 	const ECRUTEAKCITY_FISHER
 	const ECRUTEAKCITY_YOUNGSTER
 	const ECRUTEAKCITY_GRAMPS3
+	const ECRUTEAKCITY_SLAATEL_MEME
 
 EcruteakCity_MapScripts:
 	db 0 ; scene scripts
@@ -17,6 +18,21 @@ EcruteakCity_MapScripts:
 	setflag ENGINE_FLYPOINT_ECRUTEAK
 	return
 
+EcruteakCitySlaatelScript: ;23/28
+	opentext
+	writetext SlaatelScold
+	waitbutton
+	loadwildmon SLAATEL, 100
+	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM	
+	startbattle
+	dontrestartmapmusic
+	reloadmapafterbattle
+	writetext SlaatelShock
+	waitbutton
+	closetext
+	disappear ECRUTEAKCITY_SLAATEL_MEME
+	end
+	
 EcruteakCityGramps1Script:
 	jumptextfaceplayer EcruteakCityGramps1Text
 
@@ -257,6 +273,50 @@ BurnedTowerSignText:
 	line "as it is unsafe."
 	done
 
+SlaatelScold:
+	text "SLAATEL: Hiss!"
+	line "You cheater!"
+	
+	para "SLAATEL: You"
+	line "naughty thing! You"
+	cont "KNOW you shouldn't"
+	cont "be here!"
+	
+	para "SLAATEL: I"
+	line "guess I'll have"
+	cont "to punish you!"
+	
+	para "SLAATEL: Prepare"
+	line "yourself!"
+	done
+	
+SlaatelShock:
+	text "SLAATEL: HOW?"
+	line "Do you have THAT"
+	cont "much free time?"
+	
+	para "SLAATEL: Well,"
+	line "I shan't be a"
+	cont "sore loser."
+	
+	para "SLAATEL: Hiss."
+	line "I'm actually"
+	cont "a bit impressed."
+	cont "Your dedication"
+	
+	para "SLAATEL: makes me"
+	line "feel rather, well…"
+	
+	para "SLAATEL: Anyways!"
+	line "This demo was"
+	cont "supposed to end"
+	cont "already, so"
+	cont "don't expect much"
+	cont "beyond here."
+	
+	para "SLAATEL: Toodles!"
+	done
+	
 EcruteakCity_MapEvents:
 	db 0, 0 ; filler
 
@@ -289,7 +349,7 @@ EcruteakCity_MapEvents:
 	bg_event 30, 21, BGEVENT_READ, EcruteakCityMartSign
 	bg_event 23, 14, BGEVENT_ITEM, EcruteakCityHiddenHyperPotion
 
-	db 7 ; object events
+	db 8 ; object events EDIT THIS FOR NEXT DEMO FFS
 	object_event 18, 15, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakCityGramps1Script, -1
 	object_event 20, 21, SPRITE_GRAMPS, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakCityGramps2Script, -1
 	object_event 21, 29, SPRITE_LASS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, EcruteakCityLass1Script, -1
@@ -297,3 +357,4 @@ EcruteakCity_MapEvents:
 	object_event  9, 22, SPRITE_FISHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, EcruteakCityFisherScript, -1
 	object_event 10, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, EcruteakCityYoungsterScript, -1
 	object_event  3,  7, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, EcruteakCityGramps3Script, EVENT_ECRUTEAK_CITY_GRAMPS
+	object_event  6, 28, SPRITE_SLAATEL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, EcruteakCitySlaatelScript, -1

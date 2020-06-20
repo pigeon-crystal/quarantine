@@ -242,7 +242,7 @@ PokemonNames::
 	db "MILTANK@@@"
 	db "ODDITULLY@"
 	db "RAIKOU@@@@"
-	db "ENTEI@@@@@"
+	db "SLAATEL@@@"
 	db "SUICUNE@@@"
 	db "LARVITAR@@"
 	db "PUPITAR@@@"

@@ -72,6 +72,7 @@
 	const ICON_WIRIGIBLE
 	const ICON_STIKLBRAT
 	const ICON_SIDFICIOUS
+	const ICON_SLAATEL
 	const ICON_SQUIRTLE ;START OF BANK 2
 	const ICON_BULBASAUR
 	const ICON_CHARMANDER
@@ -132,6 +133,10 @@
 	const ICON_ARASBESTOS
 	const ICON_KODOROYAH
 	const ICON_CASANOCTE
+	const ICON_BUNDEGRAF
+	const ICON_VOLTINGER
+	const ICON_PEKOI
+	const ICON_WYRMOMETER
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

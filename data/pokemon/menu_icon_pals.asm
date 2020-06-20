@@ -214,7 +214,7 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW    ; WIRIGIBLE
 	icon_pals RED,   YELLOW    ; ZASTER
 	icon_pals GRAY,   YELLOW   ; GRIMPACT
-	icon_pals RED,   YELLOW    ; PEKOI
+	icon_pals BROWN,   GREEN    ; PEKOI
 	icon_pals RED,   YELLOW    ; SCIZOR
 	icon_pals RED,   YELLOW    ; SHUCKLE
 	icon_pals RED,   YELLOW    ; HERACROSS
@@ -247,7 +247,7 @@ MonMenuIconPals:
 	icon_pals RED,   YELLOW    ; MILTANK
 	icon_pals BLUE,   YELLOW   ; ODDITULLY
 	icon_pals RED,   YELLOW    ; RAIKOU
-	icon_pals RED,   YELLOW    ; ENTEI
+	icon_pals GRAY,   YELLOW    ; SLAATEL
 	icon_pals RED,   YELLOW    ; SUICUNE
 	icon_pals RED,   YELLOW    ; LARVITAR
 	icon_pals RED,   YELLOW    ; PUPITAR

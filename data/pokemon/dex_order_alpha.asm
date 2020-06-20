@@ -52,7 +52,7 @@ AlphabeticalPokedexOrder:
 	db GIGUARD
 	db ELECTRODE
 	db ELEKID
-	db ENTEI
+	db SLAATEL
 	db ESPEON
 	db EUKUB
 	db EXEGGCUTE

@@ -71,8 +71,8 @@ GoldenrodDeptStore2FYoungsterText:
 	done
 
 GoldenrodDeptStore2FCooltrainerFText:
-	text "I got my ABRA at"
-	line "the GAME CORNER."
+	text "I got DUMBLOON"
+	line "the GAME CORNER!"
 
 	para "Now it's my best"
 	line "partner."

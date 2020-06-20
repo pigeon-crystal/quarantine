@@ -797,7 +797,6 @@ MumagnusEvosAttacks:
 	db 0 ; no more level-up moves
 
 MeowthEvosAttacks:
-	db EVOLVE_LEVEL, 28, JUNOBE
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
@@ -1204,34 +1203,40 @@ CairnivoreEvosAttacks:
 	db 0 ; no more level-up moves
 
 MoperdorEvosAttacks:
-	db EVOLVE_LEVEL, 40, MAJESDOR
+	db EVOLVE_HAPPINESS, TR_ANYTIME, MAJESDOR
 	db 0 ; no more evolutions
 	db 1, POUND
-	db 4, GROWL
-	db 8, TAIL_WHIP
-	db 13, EMBER
-	db 19, STOMP
-	db 26, FIRE_SPIN
-	db 34, DOUBLE_EDGE
-	db 43, AGILITY
-	db 53, FIRE_BLAST
+	db 4, TAIL_WHIP
+	db 8, LICK
+	db 13, BUBBLE
+	db 19, QUICK_ATTACK
+	db 22, BITE
+	db 23, MUD_SLAP
+	db 29, BEAT_UP
+	db 35, LIQUIDATION
+	db 40, BODY_SLAM
+	db 43, HACKLES_UP
+	db 47, PLAY_ROUGH
+	db 53, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 MajesdorEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, EXTREMESPEED
+	db 1, DRILL_PECK
+	db 1, HORN_DRILL
 	db 1, POUND
-	db 1, GROWL
-	db 1, TAIL_WHIP
-	db 1, EMBER
-	db 4, GROWL
-	db 8, TAIL_WHIP
-	db 13, EMBER
-	db 19, STOMP
-	db 26, FIRE_SPIN
-	db 34, DOUBLE_EDGE
-	db 40, FURY_SWIPES
-	db 47, AGILITY
-	db 61, FIRE_BLAST
+	db 4, TAIL_WHIP
+	db 8, LICK
+	db 13, BUBBLE
+	db 19, QUICK_ATTACK
+	db 22, BITE
+	db 29, BEAT_UP
+	db 35, LIQUIDATION
+	db 40, BODY_SLAM
+	db 43, HACKLES_UP
+	db 47, PLAY_ROUGH
+	db 53, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 SlowpokeEvosAttacks:
@@ -3596,17 +3601,19 @@ RaikouEvosAttacks:
 	db 71, THUNDER
 	db 0 ; no more level-up moves
 
-EnteiEvosAttacks:
+SlaatelEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BITE
 	db 1, LEER
-	db 11, EMBER
-	db 21, ROAR
-	db 31, FIRE_SPIN
-	db 41, STOMP
-	db 51, FLAMETHROWER
-	db 61, SWAGGER
-	db 71, FIRE_BLAST
+	db 11, ROAR
+	db 50, HEAL_BELL
+	db 50, RECOVER
+	db 50, STEEL_WING
+	db 50, DRAGONBREATH
+	db 100, RECOVER
+	db 100, GUILLOTINE
+	db 100, FISSURE
+	db 100, LOCK_ON
 	db 0 ; no more level-up moves
 
 SuicuneEvosAttacks:

@@ -243,7 +243,7 @@ PokedexDataPointerTable:
 	dw MiltankPokedexEntry
 	dw OdditullyPokedexEntry
 	dw RaikouPokedexEntry
-	dw EnteiPokedexEntry
+	dw SlaatelPokedexEntry
 	dw SuicunePokedexEntry
 	dw LarvitarPokedexEntry
 	dw PupitarPokedexEntry

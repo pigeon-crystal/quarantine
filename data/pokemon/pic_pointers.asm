@@ -491,8 +491,8 @@ PokemonPicPointers::
 	dba_pic OdditullyBackpic
 	dba_pic RaikouFrontpic
 	dba_pic RaikouBackpic
-	dba_pic EnteiFrontpic
-	dba_pic EnteiBackpic
+	dba_pic SlaatelFrontpic
+	dba_pic SlaatelBackpic
 	dba_pic SuicuneFrontpic
 	dba_pic SuicuneBackpic
 	dba_pic LarvitarFrontpic

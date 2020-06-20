@@ -143,11 +143,11 @@ Rival1Group:
 	; RIVAL1 (4) Azalea, chose Fursa
 	db "?@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 20, ARASBESTOS
-		dw $7f69, $7f69, $7f69, $7f69, $7f69
+		dw $df69, $7f69, $7f69, $7f69, $7f69
 		db POISON_BARB
 		db SPIKES, ROCK_THROW, CONSTRICT, POISON_STING
 	db 20, GOOSAPLING
-		dw $7f69, $7f69, $7f69, $7f69, $7f69
+		dw $7f69, $7f69, $7f69, $7f69, $af69
 		db BERRY
 		db BUBBLE, WRAP, SUPERSONIC, ROCK_THROW
 	db 22, TOBACOON
@@ -159,11 +159,11 @@ Rival1Group:
 	; RIVAL1 (5) Azalea, chose cigerillar
 	db "?@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 20, ARASBESTOS
-		dw $7f69, $7f69, $7f69, $7f69, $7f69
+		dw $df69, $7f69, $7f69, $7f69, $7f69
 		db POISON_BARB
 		db SPIKES, ROCK_THROW, CONSTRICT, POISON_STING
 	db 20, KOAGAN
-		dw $7f69, $7f69, $7f69, $7f69, $7f69
+		dw $7f69, $7f69, $7f69, $7f69, $af69
 		db BERRY
 		db STOMP, CUT, POISONPOWDER, POISON_STING
 	db 22, SCAULTER
@@ -175,13 +175,13 @@ Rival1Group:
 	; RIVAL1 (6) Azalea, chose Radeon
 	db "?@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 20, ARASBESTOS
-		dw $7f69, $7f69, $7f69, $7f69, $7f69
+		dw $df69, $7f69, $7f69, $7f69, $7f69
 		db POISON_BARB
 		db SPIKES, ROCK_THROW, CONSTRICT, POISON_STING
 	db 20, WYRMOMETER
-		dw $7f69, $7f69, $7f69, $7f69, $7f69
+		dw $7f69, $7f69, $7f69, $7f69, $af69
 		db BERRY
-		db FIRE_SPIN, CONSTRICT, EMBER, NO_MOVE
+		db FIRE_SPIN, WRAP, EMBER, NO_MOVE
 	db 22, NANUQUA
 		dw $af69, $af69, $af69, $af69, $af69
 		db GOLD_BERRY
@@ -494,10 +494,10 @@ YoungsterGroup:
 	db -1 ; end
 
 SchoolboyGroup:
-	; SCHOOLBOY (1)
+	; SCHOOLBOY (1) national park Jack 1
 	db "JACK@", TRAINERTYPE_NORMAL
-	db 12, EUKUB
-	db 15, VOLTORB
+	db 24, KOAGAN
+	db 25, SCRUFFRUIT
 	db -1 ; end
 
 	; SCHOOLBOY (2)
@@ -508,9 +508,11 @@ SchoolboyGroup:
 	db 31, MAGNETON
 	db -1 ; end
 
-	; SCHOOLBOY (3)
+	; SCHOOLBOY (3) route 36 alan 1
 	db "ALAN@", TRAINERTYPE_NORMAL
-	db 16, TANGELA
+	db 25, STIKLBRAT
+	db 24, KOAGAN
+	db 23, POLYRO
 	db -1 ; end
 
 	; SCHOOLBOY (4)
@@ -569,25 +571,25 @@ SchoolboyGroup:
 	db 32, HELACTAL
 	db -1 ; end
 
-	; SCHOOLBOY (13)
+	; SCHOOLBOY (13) Jack 2
 	db "JACK@", TRAINERTYPE_NORMAL
 	db 14, EUKUB
 	db 17, VOLTORB
 	db -1 ; end
 
-	; SCHOOLBOY (14)
+	; SCHOOLBOY (14) Jack 3
 	db "JACK@", TRAINERTYPE_NORMAL
 	db 28, KOAGAN
 	db 31, ELECTRODE
 	db -1 ; end
 
-	; SCHOOLBOY (15)
+	; SCHOOLBOY (15) alan 2
 	db "ALAN@", TRAINERTYPE_NORMAL
 	db 17, TANGELA
 	db 17, ARASBESTOS
 	db -1 ; end
 
-	; SCHOOLBOY (16)
+	; SCHOOLBOY (16) alan 3
 	db "ALAN@", TRAINERTYPE_NORMAL
 	db 20, NATU
 	db 22, TANGELA
@@ -607,21 +609,21 @@ SchoolboyGroup:
 	db 31, MAGNETON
 	db -1 ; end
 
-	; SCHOOLBOY (19)
+	; SCHOOLBOY (19) Jack 4
 	db "JACK@", TRAINERTYPE_NORMAL
 	db 30, KOAGAN
 	db 33, GROWLITHE
 	db 33, ELECTRODE
 	db -1 ; end
 
-	; SCHOOLBOY (20)
+	; SCHOOLBOY (20) Jack 5
 	db "JACK@", TRAINERTYPE_MOVES
 	db 35, ELECTRODE,  SCREECH, SONICBOOM, ROLLOUT, LIGHT_SCREEN
 	db 35, GROWLITHE,  SUNNY_DAY, LEER, DOUBLE_EDGE, FLAME_WHEEL
 	db 37, POCALYPTUS,  SOLARBEAM, SLEEP_POWDER, ACID, MOONLIGHT
 	db -1 ; end
 
-	; SCHOOLBOY (21)
+	; SCHOOLBOY (21) alan 4
 	db "ALAN@", TRAINERTYPE_NORMAL
 	db 27, NATU
 	db 27, TANGELA
@@ -629,7 +631,7 @@ SchoolboyGroup:
 	db 30, ARASBESTOS
 	db -1 ; end
 
-	; SCHOOLBOY (22)
+	; SCHOOLBOY (22) alan 5
 	db "ALAN@", TRAINERTYPE_MOVES
 	db 35, XATU,       PECK, NIGHT_SHADE, SWIFT, FUTURE_SIGHT
 	db 32, TANGELA,    POISONPOWDER, VINE_WHIP, WRAP, MEGA_DRAIN
@@ -667,6 +669,7 @@ BirdKeeperGroup:
 	db "BRYAN@", TRAINERTYPE_ITEM
 	db 26, FURNIT, EVIOLITE
 	db 25, FURDOBA, NO_ITEM
+	db 24, PEAUTY, NO_ITEM
 	db -1 ; end
 
 	; BIRD_KEEPER (4)
@@ -771,8 +774,7 @@ BirdKeeperGroup:
 LassGroup:
 	; LASS (1) Goldenrod gym
 	db "CARRIE@", TRAINERTYPE_ITEM
-	db 22, NOMSTER
-	db 24, BUNDEGRAF, BERRY
+	db 24, BUNDEGRAF, GOLD_BERRY
 	db 24, TIDO, POLKADOT_BOW
 	db -1 ; end
 
@@ -791,10 +793,10 @@ LassGroup:
 	db 30, KOAGAN
 	db -1 ; end
 
-	; LASS (4)
+	; LASS (4) national park
 	db "KRISE@", TRAINERTYPE_NORMAL
-	db 12, EUKUB
-	db 15, CUBONE
+	db 24, HOATOXIC
+	db 25, KOAGAN
 	db -1 ; end
 
 	; LASS (5)
@@ -1148,18 +1150,18 @@ CooltrainerFGroup:
 	db -1 ; end
 
 BeautyGroup:
-	; BEAUTY (1) Goldenrod gym NEED MOP DOGS
+	; BEAUTY (1) Goldenrod gym
 	db "VICTORIA@", TRAINERTYPE_NORMAL
 	db 25, NOMSTER
 	db 23, NOMSABRE
-	db 25, NOMSTER ;replace w dog
+	db 25, MOPERDOR ;replace w dog
 	db -1 ; end
 
 	; BEAUTY (2) Goldenrod gym
 	db "SAMANTHA@", TRAINERTYPE_ITEM
-	db 23, SHABBYCAT,     BERRY
 	db 24, SHABBYCAT,     BERRY
-	db 24, SHABBYCAT,       BERRY
+	db 24, SHABBYCAT,     BERRY
+	db 24, SHABBYCAT,     BERRY
 	db -1 ; end
 
 	; BEAUTY (3)
@@ -1247,8 +1249,7 @@ PokemaniacGroup:
 	; POKEMANIAC (1) union cave 1f
 	db "LARRY@", TRAINERTYPE_ITEM
 	db 15, PILFOARD, BERRY
-	db 15, KODOROYAH, BERRY
-	db 15, SMUCIOUS, BERRY
+	db 15, RESPECTRE, BERRY
 	db -1 ; end
 
 	; POKEMANIAC (2)
@@ -2809,8 +2810,11 @@ PsychicGroup:
 	db -1 ; end
 
 	; PSYCHIC_T (5)
-	db "GREG@", TRAINERTYPE_MOVES
-	db 17, EELKIE,    HYPNOSIS, DISABLE, DREAM_EATER, NO_MOVE
+	db "GREG@", TRAINERTYPE_ITEM
+	db 25, PEAUTY, BERRY
+	db 27, JUNOBE, EVIOLITE
+	db 25, PLANTENNA, NO_ITEM
+	db 27, TRANQUIEL, BERRY
 	db -1 ; end
 
 	; PSYCHIC_T (6)
@@ -2819,11 +2823,11 @@ PsychicGroup:
 	db 20, SLOWPOKE,   CURSE, BODY_SLAM, WATER_GUN, CONFUSION
 	db -1 ; end
 
-	; PSYCHIC_T (7)
-	db "MARK@", TRAINERTYPE_MOVES
-	db 13, AMBINNI,       TELEPORT, FLASH, NO_MOVE, NO_MOVE
-	db 13, AMBINNI,       TELEPORT, FLASH, NO_MOVE, NO_MOVE
-	db 15, BUNDEGRAF,    TELEPORT, CONFUSION, NO_MOVE, NO_MOVE
+	; PSYCHIC_T (7) route 36
+	db "MARK@", TRAINERTYPE_ITEM
+	db 24, SAPPURA,      MIRACLEBERRY
+	db 24, SAPPURA,      BERRY
+	db 25, LEAFFIGY,     MIRACLEBERRY
 	db -1 ; end
 
 	; PSYCHIC_T (8)
@@ -2860,26 +2864,28 @@ PsychicGroup:
 PicnickerGroup:
 	; PICNICKER (1) ;route 32 Liz 1
 	db "LIZ@", TRAINERTYPE_NORMAL
-	db  13, AMBINNI
-	db  13, SMUCIOUS
+	db  13, MOPERDOR
+	db  13, MUMINI
 	db -1 ; end
 
 	; PICNICKER (2) route 34 Gina 1
 	db "GINA@", TRAINERTYPE_NORMAL
 	db  21, KOAGAN
-	db  22, SHABBYCAT
+	db  23, SHABBYCAT
 	db  21, EELKIE
 	db -1 ; end
 
 	; PICNICKER (3) route 35
 	db "BROOKE@", TRAINERTYPE_ITEM
-	db 22, AMBINNI
+	db 24, AMBINNI
+	db 25, SMUCIOUS
 	db 24, BUNDEGRAF
 	db -1 ; end
 
 	; PICNICKER (4) route 35
 	db "KIM@", TRAINERTYPE_NORMAL
-	db 26, NYALLEY
+	db 24, NYALLEY
+	db 24, MUMINI
 	db -1 ; end
 
 	; PICNICKER (5)
@@ -3036,8 +3042,8 @@ CamperGroup:
 
 	; CAMPER (4) route 35
 	db "ELLIOT@", TRAINERTYPE_NORMAL
-	db 23, PLANTENNA
-	db 24, NOMSABRE
+	db 24, KODOROYAH
+	db 24, PLANTENNA
 	db -1 ; end
 
 	; CAMPER (5)
@@ -3326,9 +3332,11 @@ BoarderGroup:
 	db -1 ; end
 
 PokefanMGroup:
-	; POKEFANM (1)
+	; POKEFANM (1) national park
 	db "WILLIAM@", TRAINERTYPE_ITEM
-	db 14, RAICHU,     BERRY
+	db 24, MOPERDOR, BERRY
+	db 22, MOPERDOR, BERRY
+	db 23, MOPERDOR, BERRY
 	db -1 ; end
 
 	; POKEFANM (2)
@@ -3447,22 +3455,22 @@ TwinsGroup:
 	db 17, WORMEEK
 	db -1 ; end
 
-	; TWINS (2)
-	db "ANN & ANNE@", TRAINERTYPE_MOVES
-	db 16, NYALLEY,   GROWL, ENCORE, DOUBLESLAP, METRONOME
-	db 16, JIGGLYPUFF, SING, DEFENSE_CURL, POUND, DISABLE
+	; TWINS (2) route 37
+	db "ANN & ANNE@", TRAINERTYPE_ITEM
+	db 27, MOPERDOR, PINK_BOW
+	db 27, NYALLEY, PINK_BOW
 	db -1 ; end
 
-	; TWINS (3)
-	db "ANN & ANNE@", TRAINERTYPE_MOVES
-	db 16, JIGGLYPUFF, SING, DEFENSE_CURL, POUND, DISABLE
-	db 16, NYALLEY,   GROWL, ENCORE, DOUBLESLAP, METRONOME
+	; TWINS (3) route 37
+	db "ANN & ANNE@", TRAINERTYPE_ITEM
+	db 27, MOPERDOR, PINK_BOW
+	db 27, NYALLEY, PINK_BOW
 	db -1 ; end
 
-	; TWINS (4)
+	; TWINS (4) Azalea gym
 	db "AMY & MAY@", TRAINERTYPE_NORMAL
-	db 10, WORMEEK
-	db 10, GWUBBY
+	db 17, GWUBBY
+	db 17, WORMEEK
 	db -1 ; end
 
 	; TWINS (5)
@@ -3502,9 +3510,9 @@ TwinsGroup:
 	db -1 ; end
 
 PokefanFGroup:
-	; POKEFANF (1)
+	; POKEFANF (1) national park, Beverly 1
 	db "BEVERLY@", TRAINERTYPE_ITEM
-	db 14, ZASTER,   BERRY
+	db 25, MOPERDOR,   BERRY
 	db -1 ; end
 
 	; POKEFANF (2)
@@ -3514,12 +3522,14 @@ PokefanFGroup:
 
 	; POKEFANF (3)
 	db "BEVERLY@", TRAINERTYPE_ITEM
-	db 18, ZASTER,   BERRY
+	db 36, MOPERDOR,   BERRY
+	db 33, BISMUTT,    BERRY
 	db -1 ; end
 
 	; POKEFANF (4)
 	db "BEVERLY@", TRAINERTYPE_ITEM
-	db 30, GRIMPACT,   BERRY
+	db 40, MAJESDOR,   BERRY
+	db 40, BISMUTT,    BERRY
 	db -1 ; end
 
 	; POKEFANF (5)
@@ -3569,7 +3579,8 @@ OfficerGroup:
 	; OFFICER (2) Route 35
 	db "DIRK@", TRAINERTYPE_ITEM
 	db 27, CREMIGO, EVIOLITE
-	db 24, SCRUFFRUIT, BERRY
+	db 24, ZASTER, BERRY
+	db 27, GWUBBY, BERRY
 	db -1 ; end
 
 GruntFGroup:

@@ -495,7 +495,7 @@ InitRoamMons:
 ; species
 	ld a, RAIKOU
 	ld [wRoamMon1Species], a
-	ld a, ENTEI
+	ld a, SLAATEL
 	ld [wRoamMon2Species], a
 
 ; level

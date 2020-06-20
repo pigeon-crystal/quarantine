@@ -367,8 +367,10 @@ GoosaplingEggMoves:
 PeautyEggMoves:
 	db FUTURE_SIGHT
 	db HYPNOSIS
+	db METRONOME
 	db MIMIC
 	db FORESIGHT
+	db SPITE
 	db -1 ; end
 
 ScytherEggMoves:
@@ -549,11 +551,10 @@ MareepEggMoves:
 
 PlantennaEggMoves:
 	db LIGHT_SCREEN
-	db PRESENT
 	db AMNESIA
 	db FUTURE_SIGHT
 	db PERISH_SONG
-	db SUPERSONIC
+	db SPITE
 	db -1 ; end
 
 SudowoodoEggMoves:

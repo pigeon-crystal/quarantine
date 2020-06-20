@@ -263,7 +263,7 @@ JOHTO_POKEMON EQU const_value
 	const MILTANK    ; f1
 	const ODDITULLY  ; f2
 	const RAIKOU     ; f3
-	const ENTEI      ; f4
+	const SLAATEL      ; f4
 	const SUICUNE    ; f5
 	const LARVITAR   ; f6
 	const PUPITAR    ; f7

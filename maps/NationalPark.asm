@@ -314,6 +314,10 @@ NationalParkLassText:
 
 	para "#DEX and stuck"
 	line "them on my bag."
+	
+	para "Nothing says"
+	line "'fashion' like a"
+	cont "sticker of TIDO!"
 	done
 
 NationalParkPokefanFText:
@@ -439,24 +443,34 @@ PokefanBeverlyCuteMonText:
 	done
 
 PokefanmWilliamSeenText:
-	text "We adore our #-"
-	line "MON, even if they"
-	cont "dislike us."
+	text "I used to be"
+	line "a dog catcher"
+	cont "for the PARK."
 
-	para "That's what being"
-	line "a FAN is about."
+	para "I'll show you"
+	line "all I've learned!"
 	done
 
 PokefanmWilliamBeatenText:
-	text "M-my #MON!"
+	text "Diddly squat!"
 	done
 
 PokefanmWilliamAfterBattleText:
-	text "I lost the battle,"
-	line "but my #MON win"
+	text "I quit my job"
+	line "at the PARK be-"
+	cont "cause I love"
 
-	para "the prize for"
-	line "being most lovely."
+	para "cute little"
+	line "MOPERDOR so much."
+	
+	para "They're unruly,"
+	line "so bad trainers"
+	cont "set them free"
+	cont "in the PARK."
+	
+	para "I want to ded-"
+	line "icate my life to"
+	cont "raising them!"
 	done
 
 PokefanFBeverlyMarillFriendText:
@@ -486,6 +500,10 @@ LassKriseAfterBattleText:
 	text "I thought you were"
 	line "staring at me"
 	cont "because I'm cute!"
+	
+	para "My #MON are"
+	line "almost as cute"
+	cont "as me!"
 	done
 
 NationalParkRelaxationSquareText:

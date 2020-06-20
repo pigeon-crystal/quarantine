@@ -72,6 +72,7 @@ WiwrightIcon:     INCBIN "gfx/icons/wiwright.2bpp"
 WirigibleIcon:    INCBIN "gfx/icons/wirigible.2bpp"
 StiklbratIcon:    INCBIN "gfx/icons/stiklbrat.2bpp"
 SidficiousIcon:   INCBIN "gfx/icons/sidficious.2bpp"
+SlaatelIcon:      INCBIN "gfx/icons/slaatel.2bpp"
 
 SECTION "Mon Icons 2", ROMX
 
@@ -135,3 +136,10 @@ SmothereneIcon:   INCBIN "gfx/icons/smotherene.2bpp"
 ArasbestosIcon:   INCBIN "gfx/icons/arasbestos.2bpp"
 KodoroyahIcon:    INCBIN "gfx/icons/kodoroyah.2bpp"
 CasanocteIcon:    INCBIN "gfx/icons/casanocte.2bpp"
+BundegrafIcon:    INCBIN "gfx/icons/bundegraf.2bpp"
+VoltingerIcon:    INCBIN "gfx/icons/voltinger.2bpp"
+PekoiIcon:        INCBIN "gfx/icons/pekoi.2bpp"
+WyrmometerIcon:   INCBIN "gfx/icons/wyrmometer.2bpp"
+
+
+

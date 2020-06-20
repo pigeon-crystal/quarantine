@@ -307,6 +307,8 @@ CamperElliotAfterBattleText:
 	text "I was humiliated"
 	line "in front of my"
 	cont "girlfriend…"
+	
+	para "Again…"
 	done
 
 PicnickerBrookeSeenText:
@@ -318,6 +320,8 @@ PicnickerBrookeSeenText:
 PicnickerBrookeBeatenText:
 	text "Oh, my! You're so"
 	line "strong!"
+	
+	para "…Just my type…"
 	done
 
 PicnickerBrookeAfterBattleText:

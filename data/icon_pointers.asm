@@ -72,6 +72,7 @@ IconPointers:
 	dw WirigibleIcon
 	dw StiklbratIcon
 	dw SidficiousIcon
+	dw SlaatelIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon
@@ -132,3 +133,8 @@ IconPointers:
 	dw ArasbestosIcon
 	dw KodoroyahIcon
 	dw CasanocteIcon
+	dw BundegrafIcon
+	dw VoltingerIcon
+	dw PekoiIcon
+	dw WyrmometerIcon
+	

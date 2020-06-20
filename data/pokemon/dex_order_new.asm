@@ -239,7 +239,7 @@ NewPokedexOrder:
 	db ZAPDOS
 	db MOLTRES
 	db RAIKOU
-	db ENTEI
+	db SLAATEL
 	db SUICUNE
 	db DRATINI
 	db DRAGONAIR
