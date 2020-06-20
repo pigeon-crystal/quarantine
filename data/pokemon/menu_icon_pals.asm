@@ -56,9 +56,9 @@ MonMenuIconPals:
 	icon_pals PURPLE,   YELLOW ; MUMINI
 	icon_pals BROWN,   YELLOW  ; MUMAGNUS
 	icon_pals BROWN,   YELLOW  ; MEOWTH
-	icon_pals BROWN,   YELLOW  ; PERSIAN
-	icon_pals BROWN,   YELLOW  ; PSYDUCK
-	icon_pals BROWN,   YELLOW  ; GOLDUCK
+	icon_pals GREEN,   YELLOW  ; JUNOBE
+	icon_pals GREEN,   YELLOW  ; VOYAPOD
+	icon_pals GREEN,   YELLOW  ; EXOTUNITY
 	icon_pals BROWN,   YELLOW  ; MANKEY
 	icon_pals BROWN,   YELLOW  ; PRIMEAPE
 	icon_pals BROWN,   YELLOW  ; GROWLITHE
@@ -66,9 +66,9 @@ MonMenuIconPals:
 	icon_pals PINK,   YELLOW   ; CREMIGO
 	icon_pals GRAY,   YELLOW   ; AMANIGO
 	icon_pals PURPLE,   YELLOW ; YUGGROMI
-	icon_pals BROWN,   YELLOW  ; DUSMAUS
 	icon_pals BROWN,   YELLOW  ; AMBINNI
-	icon_pals BROWN,   YELLOW  ; ALAKAZAM
+	icon_pals BROWN,   YELLOW  ; BUNDEGRAF
+	icon_pals BROWN,   YELLOW  ; VOLTINGER
 	icon_pals BROWN,   YELLOW  ; MACHOP
 	icon_pals BROWN,   YELLOW  ; MACHOKE
 	icon_pals BROWN,   YELLOW  ; MACHAMP
@@ -80,8 +80,8 @@ MonMenuIconPals:
 	icon_pals GRAY,   YELLOW   ; DOLMITE
 	icon_pals GRAY,   YELLOW   ; DOLMESA
 	icon_pals GRAY,   YELLOW   ; CAIRNIVORE
-	icon_pals BROWN,   YELLOW  ; PONYTA
-	icon_pals BROWN,   YELLOW  ; RAPIDASH
+	icon_pals BROWN,   YELLOW  ; MOPERDOR
+	icon_pals BROWN,   YELLOW  ; MAJESDOR
 	icon_pals BROWN,   YELLOW  ; SLOWPOKE
 	icon_pals BROWN,   YELLOW  ; SLOWBRO
 	icon_pals BROWN,   YELLOW  ; MAGNEMITE
@@ -91,8 +91,8 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; DODRIO
 	icon_pals BLUE,   YELLOW   ; CADDISICLE
 	icon_pals BLUE,   YELLOW   ; JADDICE
-	icon_pals BROWN,   YELLOW  ; DUMBLOON
-	icon_pals BROWN,   YELLOW  ; ZEPPLIUM
+	icon_pals PINK,   YELLOW  ; DUMBLOON
+	icon_pals PINK,   YELLOW  ; ZEPPLIUM
 	icon_pals BROWN,   YELLOW  ; SHELLDER
 	icon_pals BROWN,   YELLOW  ; CLOYSTER
 	icon_pals PINK,   YELLOW   ; FLUFFRUIT
@@ -116,7 +116,7 @@ MonMenuIconPals:
 	icon_pals PINK,   PINK     ; SAKURONNA
 	icon_pals GRAY,   RED      ; CUTTLE
 	icon_pals GRAY,   RED      ; TENDRILL
-	icon_pals GRAY,   RED      ; CHANSEY
+	icon_pals GRAY,   PINK      ; CALARMOURI
 	icon_pals BROWN,   YELLOW  ; TANGELA
 	icon_pals BROWN,   YELLOW  ; KANGASKHAN
 	icon_pals BROWN,   YELLOW  ; HORSEA
@@ -127,15 +127,15 @@ MonMenuIconPals:
 	icon_pals BLUE,     YELLOW ; PEEKEYE
 	icon_pals PURPLE,   YELLOW ; PEACOLDER
 	icon_pals BROWN,   YELLOW  ; SCYTHER
-	icon_pals BROWN,   YELLOW  ; CLIBBLE
-	icon_pals BROWN,   YELLOW  ; GIGUARD
-	icon_pals BROWN,   YELLOW  ; GIGERATOR
+	icon_pals GRAY,   YELLOW  ; CLIBBLE
+	icon_pals GRAY,   YELLOW  ; GIGUARD
+	icon_pals GRAY,   YELLOW  ; GIGERATOR
 	icon_pals BROWN,   YELLOW  ; PINSIR
 	icon_pals BROWN,   YELLOW  ; TAUROS
 	icon_pals BROWN,   YELLOW  ; MAGIKARP
 	icon_pals BROWN,   YELLOW  ; GYARADOS
 	icon_pals PINK,   YELLOW   ; MANDELBLOB
-	icon_pals PINK,   YELLOW   ; DITTO
+	icon_pals PINK,   YELLOW   ; HELACTAL
 	icon_pals BROWN,   YELLOW  ; EEVEE
 	icon_pals BROWN,   YELLOW  ; VAPOREON
 	icon_pals BROWN,   YELLOW  ; JOLTEON
@@ -203,7 +203,7 @@ MonMenuIconPals:
 	icon_pals RED,   YELLOW    ; UMBREON
 	icon_pals BROWN,   YELLOW    ; BISMUTT
 	icon_pals BLUE,   YELLOW   ; TIDO
-	icon_pals RED,   YELLOW    ; MISDREAVUS
+	icon_pals BROWN,   RED    ; MAULZER
 	icon_pals RED,   YELLOW    ; UNOWN
 	icon_pals BROWN,   YELLOW  ; RESPECTRE
 	icon_pals RED,   YELLOW    ; GIRAFARIG
@@ -211,10 +211,10 @@ MonMenuIconPals:
 	icon_pals RED,   YELLOW    ; FORTRESS
 	icon_pals PINK,   YELLOW   ; ATTACKO
 	icon_pals BROWN,   YELLOW  ; WIWRIGHT
-	icon_pals RED,   YELLOW    ; WIRIGIBLE
+	icon_pals BROWN,   YELLOW    ; WIRIGIBLE
 	icon_pals RED,   YELLOW    ; ZASTER
 	icon_pals GRAY,   YELLOW   ; GRIMPACT
-	icon_pals RED,   YELLOW    ; QWILFISH
+	icon_pals RED,   YELLOW    ; PEKOI
 	icon_pals RED,   YELLOW    ; SCIZOR
 	icon_pals RED,   YELLOW    ; SHUCKLE
 	icon_pals RED,   YELLOW    ; HERACROSS
@@ -226,8 +226,8 @@ MonMenuIconPals:
 	icon_pals RED,   YELLOW    ; SWINUB
 	icon_pals RED,   YELLOW    ; PILOSWINE
 	icon_pals RED,   YELLOW    ; CORSOLA
-	icon_pals RED,   YELLOW    ; REMORAID
-	icon_pals RED,   YELLOW    ; OCTILLERY
+	icon_pals BLUE,   YELLOW    ; STIKLBRAT
+	icon_pals RED,   YELLOW    ; SIDFICIOUS
 	icon_pals RED,   YELLOW    ; DELIBIRD
 	icon_pals RED,   YELLOW    ; MANTINE
 	icon_pals RED,   YELLOW    ; SKARMORY
@@ -236,7 +236,7 @@ MonMenuIconPals:
 	icon_pals RED,   YELLOW    ; KINGDRA
 	icon_pals RED,   YELLOW    ; PHANPHY
 	icon_pals RED,   YELLOW    ; DONPHAN
-	icon_pals RED,   YELLOW    ; PORYGON2
+	icon_pals RED,   YELLOW    ; POLYRO
 	icon_pals RED,   YELLOW    ; MISSINGNO
 	icon_pals RED,   YELLOW    ; SMEARGLE
 	icon_pals RED,   YELLOW    ; TYROGUE

@@ -1,6 +1,6 @@
 	db ARASBESTOS ; 063
 
-	db  59,  80,  104,  57, 52,  107
+	db  59,  80,  104,  59, 59,  107
 	;   hp  atk  def  spd  sat  sdf
 
 	db POISON, ROCK ; type

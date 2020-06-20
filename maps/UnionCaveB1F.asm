@@ -60,7 +60,7 @@ UnionCaveB1FTMSwift:
 	itemball TM_SWIFT
 
 UnionCaveB1FXDefend:
-	itemball X_DEFEND
+	itemball SCALE_FOSSIL
 
 UnionCaveB1FBoulder:
 	jumpstd strengthboulder

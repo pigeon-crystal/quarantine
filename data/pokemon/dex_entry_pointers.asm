@@ -52,9 +52,9 @@ PokedexDataPointerTable:
 	dw MuminiPokedexEntry
 	dw MumagnusPokedexEntry
 	dw MeowthPokedexEntry
-	dw PersianPokedexEntry
-	dw PsyduckPokedexEntry
-	dw GolduckPokedexEntry
+	dw JunobePokedexEntry
+	dw VoyapodPokedexEntry
+	dw ExotunityPokedexEntry
 	dw MankeyPokedexEntry
 	dw PrimeapePokedexEntry
 	dw GrowlithePokedexEntry
@@ -62,9 +62,9 @@ PokedexDataPointerTable:
 	dw CremigoPokedexEntry
 	dw AmanigoPokedexEntry
 	dw YuggromiPokedexEntry
-	dw DusmausPokedexEntry
 	dw AmbinniPokedexEntry
-	dw AlakazamPokedexEntry
+	dw BundegrafPokedexEntry
+	dw VoltingerPokedexEntry
 	dw MachopPokedexEntry
 	dw MachokePokedexEntry
 	dw MachampPokedexEntry
@@ -76,8 +76,8 @@ PokedexDataPointerTable:
 	dw DolmitePokedexEntry
 	dw DolmesaPokedexEntry
 	dw CairnivorePokedexEntry
-	dw PonytaPokedexEntry
-	dw RapidashPokedexEntry
+	dw MoperdorPokedexEntry
+	dw MajesdorPokedexEntry
 	dw SlowpokePokedexEntry
 	dw SlowbroPokedexEntry
 	dw MagnemitePokedexEntry
@@ -112,7 +112,7 @@ PokedexDataPointerTable:
 	dw SakuronnaPokedexEntry
 	dw CuttlePokedexEntry
 	dw TendrillPokedexEntry
-	dw ChanseyPokedexEntry
+	dw CalarmouriPokedexEntry
 	dw TangelaPokedexEntry
 	dw KangaskhanPokedexEntry
 	dw HorseaPokedexEntry
@@ -131,7 +131,7 @@ PokedexDataPointerTable:
 	dw MagikarpPokedexEntry
 	dw GyaradosPokedexEntry
 	dw MandelblobPokedexEntry
-	dw DittoPokedexEntry
+	dw HelactalPokedexEntry
 	dw EeveePokedexEntry
 	dw VaporeonPokedexEntry
 	dw JolteonPokedexEntry
@@ -199,7 +199,7 @@ PokedexDataPointerTable:
 	dw UmbreonPokedexEntry
 	dw BismuttPokedexEntry
 	dw TidoPokedexEntry
-	dw MisdreavusPokedexEntry
+	dw MaulzerPokedexEntry
 	dw UnownPokedexEntry
 	dw RespectrePokedexEntry
 	dw GirafarigPokedexEntry
@@ -210,7 +210,7 @@ PokedexDataPointerTable:
 	dw WirigiblePokedexEntry
 	dw ZasterPokedexEntry
 	dw GrimpactPokedexEntry
-	dw QwilfishPokedexEntry
+	dw PekoiPokedexEntry
 	dw ScizorPokedexEntry
 	dw ShucklePokedexEntry
 	dw HeracrossPokedexEntry
@@ -222,8 +222,8 @@ PokedexDataPointerTable:
 	dw SwinubPokedexEntry
 	dw PiloswinePokedexEntry
 	dw CorsolaPokedexEntry
-	dw RemoraidPokedexEntry
-	dw OctilleryPokedexEntry
+	dw StiklbratPokedexEntry
+	dw SidficiousPokedexEntry
 	dw DelibirdPokedexEntry
 	dw MantinePokedexEntry
 	dw SkarmoryPokedexEntry
@@ -232,7 +232,7 @@ PokedexDataPointerTable:
 	dw KingdraPokedexEntry
 	dw PhanpyPokedexEntry
 	dw DonphanPokedexEntry
-	dw Porygon2PokedexEntry
+	dw PolyroPokedexEntry
 	dw MissingnoPokedexEntry
 	dw SmearglePokedexEntry
 	dw TyroguePokedexEntry

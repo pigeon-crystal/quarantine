@@ -68,6 +68,10 @@ IconPointers:
 	dw SappuraIcon
 	dw LeaffigyIcon
 	dw SakuronnaIcon
+	dw WiwrightIcon
+	dw WirigibleIcon
+	dw StiklbratIcon
+	dw SidficiousIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon
@@ -111,7 +115,7 @@ IconPointers:
 	dw AmanigoIcon
 	dw YuggromiIcon
 	dw RespectreIcon
-	dw DusmausIcon
+	dw AmbinniIcon
 	dw ZasterIcon
 	dw NyalleyIcon
 	dw FelioritteIcon

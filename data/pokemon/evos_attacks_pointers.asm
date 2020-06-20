@@ -53,9 +53,9 @@ EvosAttacksPointers::
 	dw MuminiEvosAttacks
 	dw MumagnusEvosAttacks
 	dw MeowthEvosAttacks
-	dw PersianEvosAttacks
-	dw PsyduckEvosAttacks
-	dw GolduckEvosAttacks
+	dw JunobeEvosAttacks
+	dw VoyapodEvosAttacks
+	dw ExotunityEvosAttacks
 	dw MankeyEvosAttacks
 	dw PrimeapeEvosAttacks
 	dw GrowlitheEvosAttacks
@@ -63,9 +63,9 @@ EvosAttacksPointers::
 	dw CremigoEvosAttacks
 	dw AmanigoEvosAttacks
 	dw YuggromiEvosAttacks
-	dw DusmausEvosAttacks
 	dw AmbinniEvosAttacks
-	dw AlakazamEvosAttacks
+	dw BundegrafEvosAttacks
+	dw VoltingerEvosAttacks
 	dw MachopEvosAttacks
 	dw MachokeEvosAttacks
 	dw MachampEvosAttacks
@@ -77,8 +77,8 @@ EvosAttacksPointers::
 	dw DolmiteEvosAttacks
 	dw DolmesaEvosAttacks
 	dw CairnivoreEvosAttacks
-	dw PonytaEvosAttacks
-	dw RapidashEvosAttacks
+	dw MoperdorEvosAttacks
+	dw MajesdorEvosAttacks
 	dw SlowpokeEvosAttacks
 	dw SlowbroEvosAttacks
 	dw MagnemiteEvosAttacks
@@ -113,7 +113,7 @@ EvosAttacksPointers::
 	dw SakuronnaEvosAttacks
 	dw CuttleEvosAttacks
 	dw TendrillEvosAttacks
-	dw ChanseyEvosAttacks
+	dw CalarmouriEvosAttacks
 	dw TangelaEvosAttacks
 	dw KangaskhanEvosAttacks
 	dw HorseaEvosAttacks
@@ -132,7 +132,7 @@ EvosAttacksPointers::
 	dw MagikarpEvosAttacks
 	dw GyaradosEvosAttacks
 	dw MandelblobEvosAttacks
-	dw DittoEvosAttacks
+	dw HelactalEvosAttacks
 	dw EeveeEvosAttacks
 	dw VaporeonEvosAttacks
 	dw JolteonEvosAttacks
@@ -200,7 +200,7 @@ EvosAttacksPointers::
 	dw UmbreonEvosAttacks
 	dw BismuttEvosAttacks
 	dw TidoEvosAttacks
-	dw MisdreavusEvosAttacks
+	dw MaulzerEvosAttacks
 	dw UnownEvosAttacks
 	dw RespectreEvosAttacks
 	dw GirafarigEvosAttacks
@@ -211,7 +211,7 @@ EvosAttacksPointers::
 	dw WirigibleEvosAttacks
 	dw ZasterEvosAttacks
 	dw GrimpactEvosAttacks
-	dw QwilfishEvosAttacks
+	dw PekoiEvosAttacks
 	dw ScizorEvosAttacks
 	dw ShuckleEvosAttacks
 	dw HeracrossEvosAttacks
@@ -223,8 +223,8 @@ EvosAttacksPointers::
 	dw SwinubEvosAttacks
 	dw PiloswineEvosAttacks
 	dw CorsolaEvosAttacks
-	dw RemoraidEvosAttacks
-	dw OctilleryEvosAttacks
+	dw StiklbratEvosAttacks
+	dw SidficiousEvosAttacks
 	dw DelibirdEvosAttacks
 	dw MantineEvosAttacks
 	dw SkarmoryEvosAttacks
@@ -233,7 +233,7 @@ EvosAttacksPointers::
 	dw KingdraEvosAttacks
 	dw PhanpyEvosAttacks
 	dw DonphanEvosAttacks
-	dw Porygon2EvosAttacks
+	dw PolyroEvosAttacks
 	dw MissingnoEvosAttacks ;stantler
 	dw SmeargleEvosAttacks
 	dw TyrogueEvosAttacks

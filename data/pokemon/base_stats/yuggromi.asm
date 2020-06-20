@@ -1,6 +1,6 @@
 	db YUGGROMI ; 063
 
-	db  79,  59,  71,  67, 131,  97
+	db  73,  59,  73,  73, 131,  97
 	;   hp  atk  def  spd  sat  sdf
 
 	db POISON, POISON ; type

@@ -616,7 +616,7 @@ Text_MillionDollarSlowpokeTail:
 	line "to have this"
 
 	para "tasty, nutritious"
-	line "ATTACKO GRAFT?"
+	line "CUTTLETENDER?"
 
 	para "For you right now,"
 	line "just ¥1,000,000!"
@@ -864,7 +864,7 @@ Text_RoarIntro:
 	done
 
 Text_RoarOutro:
-	text "WROOOAR!"
+	text "WROOOOOAR!"
 	line "IT'S ROAR!"
 
 	para "EVEN #MON RUN"

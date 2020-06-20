@@ -31,6 +31,7 @@ Marts:
 	dw MartMtMoon
 	dw MartIndigoPlateau
 	dw MartUnderground
+	dw MartFlowerShop
 .End
 
 MartCherrygrove:
@@ -150,7 +151,7 @@ MartOlivine:
 	db AWAKENING
 	db ICE_HEAL
 	db SUPER_REPEL
-	db SURF_MAIL
+	db POKE_DOLL
 	db -1 ; end
 
 MartEcruteak:
@@ -374,6 +375,18 @@ MartUnderground:
 	db ENERGY_ROOT
 	db HEAL_POWDER
 	db REVIVAL_HERB
+	db -1 ; end
+	
+MartFlowerShop:
+	db 8 ; # items
+	db REPEL
+	db SUPER_REPEL
+	db MAX_REPEL
+	db BERRY
+	db MYSTERYBERRY
+	db MIRACLEBERRY
+	db GOLD_BERRY
+	db MIRACLE_SEED
 	db -1 ; end
 
 DefaultMart:

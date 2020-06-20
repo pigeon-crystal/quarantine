@@ -154,14 +154,18 @@ HikerDanielBeatenText:
 
 HikerDanielAfterBattleText: ;slowpoketail
 	text "I was conned into"
-	line "buying a SLOWPOKE-"
-	cont "TAIL."
+	line "buying a CUTTLE-"
+	cont "TENDER."
 
 	para "I feel sorry for"
 	line "the poor #MON."
+	
+	para "I know their"
+	line "tentacles grow"
+	cont "back, but still!"
 	done
 
-FirebreatherBillSeenText: ;zubat
+FirebreatherBillSeenText:
 	text "STINPEON's POISON"
 	line "STING keeps "
 	cont "poisoning my"
@@ -200,9 +204,9 @@ FirebreatherRayBeatenText:
 	done
 
 FirebreatherRayAfterBattleText:
-	text "It's my #MON's"
-	line "fire that lights"
-	cont "up this cave."
+	text "It's my own"
+	line "breath that lights"
+	cont "up this cave!"
 	done
 
 UnionCave1FUnusedSignText:

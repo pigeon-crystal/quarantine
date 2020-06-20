@@ -1,10 +1,10 @@
 ; Every Pokémon sorted alphabetically by name.
 
 AlphabeticalPokedexOrder:
-	db DUSMAUS
+	db AMBINNI
 	db AERODACTYL
 	db HOPLAQUE
-	db ALAKAZAM
+	db VOLTINGER
 	db ALLSEERAPH
 	db AMPHAROS
 	db ARASBESTOS
@@ -21,7 +21,7 @@ AlphabeticalPokedexOrder:
 	db CAIRNIVORE
 	db CADDISICLE
 	db CELEBI
-	db CHANSEY
+	db CALARMOURI
 	db CHARIZARD
 	db CHARMANDER
 	db CHARMELEON
@@ -36,7 +36,7 @@ AlphabeticalPokedexOrder:
 	db CUBONE
 	db DELIBIRD
 	db MUMINI
-	db DITTO
+	db HELACTAL
 	db DODRIO
 	db DODUO
 	db DOLMESA
@@ -71,7 +71,7 @@ AlphabeticalPokedexOrder:
 	db WIWRIGHT
 	db GNOMERCY
 	db SCORPEROR
-	db GOLDUCK
+	db EXOTUNITY
 	db GOOSAPLING
 	db GRIMPACT
 	db DUMBLOON
@@ -103,7 +103,7 @@ AlphabeticalPokedexOrder:
 	db CLIBBLE
 	db KABUTO
 	db KABUTOPS
-	db AMBINNI
+	db BUNDEGRAF
 	db KANGASKHAN
 	db KINGDRA
 	db PEPOFFER
@@ -134,7 +134,7 @@ AlphabeticalPokedexOrder:
 	db MEW
 	db MEWTWO
 	db MILTANK
-	db MISDREAVUS
+	db MAULZER
 	db MISSINGNO
 	db MOLTRES
 	db PEACOLDER
@@ -153,14 +153,14 @@ AlphabeticalPokedexOrder:
 	db NOMSABRE
 	db NOMSTER
 	db NOXROMAEUS
-	db OCTILLERY
+	db SIDFICIOUS
 	db OKAMIKAZE
 	db OMANYTE
 	db OMASTAR
 	db ONIX
 	db PARAS
 	db PARASECT
-	db PERSIAN
+	db JUNOBE
 	db PHANPY
 	db PICHU
 	db PIKACHU
@@ -174,21 +174,21 @@ AlphabeticalPokedexOrder:
 	db CREMIGO
 	db AMANIGO
 	db YUGGROMI
-	db PONYTA
+	db MOPERDOR
 	db PORYGON
-	db PORYGON2
+	db POLYRO
 	db PRIMEAPE
-	db PSYDUCK
+	db VOYAPOD
 	db PUPITAR
 	db QUAGSIRE
 	db QWAIL
 	db QWALLOP
-	db QWILFISH
+	db PEKOI
 	db RAICHU
 	db RAIKOU
 	db RADEON
-	db RAPIDASH
-	db REMORAID
+	db MAJESDOR
+	db STIKLBRAT
 	db TENDRILL
 	db CUTTLE
 	db SANDSHREW

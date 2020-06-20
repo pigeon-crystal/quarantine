@@ -6,5 +6,5 @@
     next "veins. Nowadays,"
  
     page "CLIBBLE attach"
-    next "to machines"
-    next "to leech energy.@"
+    next "to machines to"
+    next "leech energy.@"

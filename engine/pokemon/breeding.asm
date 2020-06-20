@@ -40,16 +40,16 @@ CheckBreedmonCompatibility:
 .genderless
 	ld c, $0
 	ld a, [wBreedMon1Species]
-	cp DITTO
+	cp HELACTAL
 	jr z, .ditto1
 	ld a, [wBreedMon2Species]
-	cp DITTO
+	cp HELACTAL
 	jr nz, .done
 	jr .compute
 
 .ditto1
 	ld a, [wBreedMon2Species]
-	cp DITTO
+	cp HELACTAL
 	jr z, .done
 
 .compute
@@ -122,7 +122,7 @@ CheckBreedmonCompatibility:
 ; Ditto is automatically compatible with everything.
 ; If not Ditto, load the breeding groups into b/c and d/e.
 	ld a, [wBreedMon2Species]
-	cp DITTO
+	cp HELACTAL
 	jr z, .Compatible
 	ld [wCurSpecies], a
 	call GetBaseData
@@ -136,7 +136,7 @@ CheckBreedmonCompatibility:
 	ld c, a
 
 	ld a, [wBreedMon1Species]
-	cp DITTO
+	cp HELACTAL
 	jr z, .Compatible
 	ld [wCurSpecies], a
 	push bc
@@ -549,10 +549,10 @@ LoadEggMove:
 GetHeritableMoves:
 	ld hl, wBreedMon2Moves
 	ld a, [wBreedMon1Species]
-	cp DITTO
+	cp HELACTAL
 	jr z, .ditto1
 	ld a, [wBreedMon2Species]
-	cp DITTO
+	cp HELACTAL
 	jr z, .ditto2
 	ld a, [wBreedMotherOrNonDitto]
 	and a
@@ -606,10 +606,10 @@ GetHeritableMoves:
 GetBreedmonMovePointer:
 	ld hl, wBreedMon1Moves
 	ld a, [wBreedMon1Species]
-	cp DITTO
+	cp HELACTAL
 	ret z
 	ld a, [wBreedMon2Species]
-	cp DITTO
+	cp HELACTAL
 	jr z, .ditto
 	ld a, [wBreedMotherOrNonDitto]
 	and a

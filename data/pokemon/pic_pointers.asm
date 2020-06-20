@@ -106,12 +106,12 @@ PokemonPicPointers::
 	dba_pic MumagnusBackpic
 	dba_pic MeowthFrontpic
 	dba_pic MeowthBackpic
-	dba_pic PersianFrontpic
-	dba_pic PersianBackpic
-	dba_pic PsyduckFrontpic
-	dba_pic PsyduckBackpic
-	dba_pic GolduckFrontpic
-	dba_pic GolduckBackpic
+	dba_pic JunobeFrontpic
+	dba_pic JunobeBackpic
+	dba_pic VoyapodFrontpic
+	dba_pic VoyapodBackpic
+	dba_pic ExotunityFrontpic
+	dba_pic ExotunityBackpic
 	dba_pic MankeyFrontpic
 	dba_pic MankeyBackpic
 	dba_pic PrimeapeFrontpic
@@ -126,12 +126,12 @@ PokemonPicPointers::
 	dba_pic AmanigoBackpic
 	dba_pic YuggromiFrontpic
 	dba_pic YuggromiBackpic
-	dba_pic DusmausFrontpic
-	dba_pic DusmausBackpic
 	dba_pic AmbinniFrontpic
 	dba_pic AmbinniBackpic
-	dba_pic AlakazamFrontpic
-	dba_pic AlakazamBackpic
+	dba_pic BundegrafFrontpic
+	dba_pic BundegrafBackpic
+	dba_pic VoltingerFrontpic
+	dba_pic VoltingerBackpic
 	dba_pic MachopFrontpic
 	dba_pic MachopBackpic
 	dba_pic MachokeFrontpic
@@ -154,10 +154,10 @@ PokemonPicPointers::
 	dba_pic DolmesaBackpic
 	dba_pic CairnivoreFrontpic
 	dba_pic CairnivoreBackpic
-	dba_pic PonytaFrontpic
-	dba_pic PonytaBackpic
-	dba_pic RapidashFrontpic
-	dba_pic RapidashBackpic
+	dba_pic MoperdorFrontpic
+	dba_pic MoperdorBackpic
+	dba_pic MajesdorFrontpic
+	dba_pic MajesdorBackpic
 	dba_pic SlowpokeFrontpic
 	dba_pic SlowpokeBackpic
 	dba_pic SlowbroFrontpic
@@ -226,8 +226,8 @@ PokemonPicPointers::
 	dba_pic CuttleBackpic
 	dba_pic TendrillFrontpic
 	dba_pic TendrillBackpic
-	dba_pic ChanseyFrontpic
-	dba_pic ChanseyBackpic
+	dba_pic CalarmouriFrontpic
+	dba_pic CalarmouriBackpic
 	dba_pic TangelaFrontpic
 	dba_pic TangelaBackpic
 	dba_pic KangaskhanFrontpic
@@ -264,8 +264,8 @@ PokemonPicPointers::
 	dba_pic GyaradosBackpic
 	dba_pic MandelblobFrontpic
 	dba_pic MandelblobBackpic
-	dba_pic DittoFrontpic
-	dba_pic DittoBackpic
+	dba_pic HelactalFrontpic
+	dba_pic HelactalBackpic
 	dba_pic EeveeFrontpic
 	dba_pic EeveeBackpic
 	dba_pic VaporeonFrontpic
@@ -400,8 +400,8 @@ PokemonPicPointers::
 	dba_pic BismuttBackpic
 	dba_pic TidoFrontpic
 	dba_pic TidoBackpic
-	dba_pic MisdreavusFrontpic
-	dba_pic MisdreavusBackpic
+	dba_pic MaulzerFrontpic
+	dba_pic MaulzerBackpic
 
 	; Unown pics have their own table. See UnownPicPointers
 	dbw -1, -1
@@ -425,8 +425,8 @@ PokemonPicPointers::
 	dba_pic ZasterBackpic
 	dba_pic GrimpactFrontpic
 	dba_pic GrimpactBackpic
-	dba_pic QwilfishFrontpic
-	dba_pic QwilfishBackpic
+	dba_pic PekoiFrontpic
+	dba_pic PekoiBackpic
 	dba_pic ScizorFrontpic
 	dba_pic ScizorBackpic
 	dba_pic ShuckleFrontpic
@@ -449,10 +449,10 @@ PokemonPicPointers::
 	dba_pic PiloswineBackpic
 	dba_pic CorsolaFrontpic
 	dba_pic CorsolaBackpic
-	dba_pic RemoraidFrontpic
-	dba_pic RemoraidBackpic
-	dba_pic OctilleryFrontpic
-	dba_pic OctilleryBackpic
+	dba_pic StiklbratFrontpic
+	dba_pic StiklbratBackpic
+	dba_pic SidficiousFrontpic
+	dba_pic SidficiousBackpic
 	dba_pic DelibirdFrontpic
 	dba_pic DelibirdBackpic
 	dba_pic MantineFrontpic
@@ -469,8 +469,8 @@ PokemonPicPointers::
 	dba_pic PhanpyBackpic
 	dba_pic DonphanFrontpic
 	dba_pic DonphanBackpic
-	dba_pic Porygon2Frontpic
-	dba_pic Porygon2Backpic
+	dba_pic PolyroFrontpic
+	dba_pic PolyroBackpic
 	dba_pic MissingnoFrontpic ;stantler
 	dba_pic MissingnoBackpic
 	dba_pic SmeargleFrontpic

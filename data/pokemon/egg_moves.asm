@@ -3,14 +3,6 @@ INCLUDE "constants.asm"
 
 SECTION "Egg Moves", ROMX
 
-; All instances of Charm, Steel Wing, Sweet Scent, and Lovely Kiss were
-; removed from egg move lists in Crystal.
-; Sweet Scent and Steel Wing were redundant since they're TMs, and
-; Charm and Lovely Kiss were unobtainable.
-
-; Peauty's egg moves were removed in Crystal, because Peauty is genderless
-; and can only breed with Ditto.
-
 INCLUDE "data/pokemon/egg_move_pointers.asm"
 
 BulbasaurEggMoves:
@@ -159,8 +151,8 @@ MeowthEggMoves:
 	db AMNESIA
 	db -1 ; end
 
-PsyduckEggMoves:
-	db ICE_BEAM
+JunobeEggMoves:
+	db TRANSFORM
 	db -1 ; end
 
 MankeyEggMoves:
@@ -187,7 +179,7 @@ CremigoEggMoves:
 	db REFLECT
 	db -1 ; end
 
-DusmausEggMoves:
+AmbinniEggMoves:
 	db LIGHT_SCREEN
 	db ENCORE
 	db BARRIER
@@ -224,13 +216,15 @@ DolmiteEggMoves:
 	db CURSE
 	db -1 ; end
 
-PonytaEggMoves:
+MoperdorEggMoves:
 	db FLAME_WHEEL
 	db THRASH
 	db DOUBLE_KICK
 	db HYPNOSIS
 	db CHARM
 	db QUICK_ATTACK
+	db BONE_RUSH
+	db SHADOW_BONE
 	db -1 ; end
 
 SlowpokeEggMoves:
@@ -385,6 +379,14 @@ ScytherEggMoves:
 	db FLAIL
 	db LIGHT_SCREEN
 	db -1 ; end
+	
+ClibbleEggMoves:
+	db X_SCISSOR
+	db BATON_PASS
+	db SPITE
+	db ZAP_CANNON
+	db PLAY_ROUGH
+	db -1 ; end
 
 PinsirEggMoves:
 	db FLAIL
@@ -392,6 +394,7 @@ PinsirEggMoves:
 
 MandelblobEggMoves:
 	db FORESIGHT
+	db MEGA_DRAIN
 	db -1 ; end
 
 EeveeEggMoves:
@@ -595,16 +598,17 @@ BismuttEggMoves:
 	db -1 ; end
 
 TidoEggMoves:
+	db HACKLES_UP
 	db SHADOW_BONE
 	db BONE_RUSH
 	db METAL_CLAW
 	db BEAT_UP
-	db MOONBLAST
 	db -1 ;end
 
-MisdreavusEggMoves:
+MaulzerEggMoves:
 	db SCREECH
-	db DESTINY_BOND
+	db HACKLES_UP
+	db BONE_RUSH
 	db -1 ; end
 	
 RespectreEggMoves:
@@ -646,7 +650,7 @@ ZasterEggMoves:
 	db METRONOME
 	db -1 ; end
 
-QwilfishEggMoves:
+PekoiEggMoves:
 	db FLAIL
 	db HAZE
 	db BUBBLEBEAM
@@ -673,10 +677,16 @@ SneaselEggMoves:
 
 SmuciousEggMoves:
 	db CRUNCH
+	db SPITE
+	db COUNTER
+	db PECK
 	db -1 ; end
 
 KodoroyahEggMoves:
 	db BARRIER
+	db SUPERSONIC
+	db SPITE
+	db ANCIENTPOWER
 	db -1 ; end
 
 SwinubEggMoves:
@@ -695,7 +705,7 @@ CorsolaEggMoves:
 	db AMNESIA
 	db -1 ; end
 
-RemoraidEggMoves:
+StiklbratEggMoves:
 	db AURORA_BEAM
 	db ZAP_CANNON
 	db SUPERSONIC
@@ -734,6 +744,13 @@ PhanpyEggMoves:
 	db BODY_SLAM
 	db ANCIENTPOWER
 	db WATER_GUN
+	db -1 ; end
+	
+PolyroEggMoves:
+	db SKY_ATTACK
+	db EARTH_POWER
+	db FIRE_BLAST
+	db THRASH
 	db -1 ; end
 
 TyrogueEggMoves:

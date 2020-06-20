@@ -119,7 +119,7 @@ IlexForestFarfetchdScript:
 	writetext Text_ItsTheMissingPokemon
 	promptbutton
 	writetext Text_Kwaaaa
-	cry FARFETCH_D
+	cry QWALLOP
 	waitbutton
 	closetext
 	applymovement ILEXFOREST_FARFETCHD, MovementData_Farfetchd_Pos1_Pos2
@@ -327,7 +327,7 @@ IlexForestFarfetchdScript:
 	faceplayer
 	opentext
 	writetext Text_Kwaaaa
-	cry FARFETCH_D
+	cry QWALLOP
 	waitbutton
 	closetext
 	end
@@ -336,7 +336,7 @@ IlexForestFarfetchdScript:
 	faceplayer
 	opentext
 	writetext Text_Kwaaaa
-	cry FARFETCH_D
+	cry QWALLOP
 	waitbutton
 	closetext
 	readvar VAR_FACING
@@ -406,7 +406,7 @@ IlexForestXAttack:
 	itemball X_ATTACK
 
 IlexForestAntidote:
-	itemball ANTIDOTE
+	itemball FULL_HEAL
 
 IlexForestEther:
 	itemball ETHER
@@ -419,10 +419,6 @@ IlexForestHiddenSuperPotion:
 
 IlexForestHiddenFullHeal:
 	hiddenitem FULL_HEAL, EVENT_ILEX_FOREST_HIDDEN_FULL_HEAL
-
-IlexForestBoulder:
-; unused
-	jumpstd strengthboulder
 
 IlexForestSignpost:
 	jumptext IlexForestSignpostText
@@ -741,10 +737,11 @@ IlexForestApprenticeIntroText:
 	line "is going to be"
 	cont "steaming…"
 
-	para "The FARFETCH'D"
-	line "that CUTS trees"
+	para "The QWALLOP"
+	line "that punches down"
+	cont "trees to help"
 
-	para "for charcoal took"
+	para "with charcoal took"
 	line "off on me."
 
 	para "I can't go looking"
@@ -771,11 +768,11 @@ Text_ItsTheMissingPokemon:
 	done
 
 Text_Kwaaaa:
-	text "FARFETCH'D: Kwaa!"
+	text "QWALLOP: Kyaa!"
 	done
 
 Text_CharcoalMasterIntro:
-	text "Ah! My FARFETCH'D!"
+	text "Ah! My QWALLOP!"
 
 	para "You found it for"
 	line "us, kid?"
@@ -783,8 +780,8 @@ Text_CharcoalMasterIntro:
 	para "Without it, we"
 	line "wouldn't be able"
 
-	para "to CUT trees for"
-	line "charcoal."
+	para "to knock down"
+	line "trees for charcoal."
 
 	para "Thanks, kid!"
 

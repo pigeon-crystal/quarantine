@@ -83,7 +83,7 @@ WateredWeirdTreeScript:: ; export (for when you use Squirtbottle from pack)
 	writetext SudowoodoAttackedText
 	waitbutton
 	closetext
-	loadwildmon GANZERKER, 31
+	loadwildmon GANZERKER, 26
 	startbattle
 	setevent EVENT_FOUGHT_SUDOWOODO
 	ifequal DRAW, DidntCatchSudowoodo
@@ -362,9 +362,6 @@ Route36Sign:
 	jumptext Route36SignText
 
 RuinsOfAlphNorthSign:
-	givepoke SMUCIOUS, 5
-	givepoke SMOTHERENE, 5
-	givepoke CUTTLE, 5
 	jumptext RuinsOfAlphNorthSignText
 
 Route36TrainerTips1:
@@ -431,18 +428,21 @@ HorridGooseText:
 	done
 
 UseSquirtbottleText:
-	text "Use the GANZBGONE?"
+	text "Use the"
+	cont "HORN?"
 	done
 
 UsedSquirtbottleText:
 	text "<PLAYER> used the"
-	line "GANZBGONE."
+	line "HORN."
+	
+	para "Honkhonk!"
 	done
 
 SudowoodoAttackedText:
 	text "The GANZERKER"
 	line "doesn't like the"
-	cont "GANZBGONE!"
+	cont "HORN!"
 
 	para "The GANZERKER"
 	line "attacked!"
@@ -454,20 +454,28 @@ FloriaText1:
 
 	para "Listen, listen!"
 
-	para "At our shop, we"
-	line "have repellents"
-	cont "for common pest"
-	cont "#MON."
+	para "At first I thought"
+	line "we would have a"
+	cont "repellent that"
+	cont "would take care"
 
-	para "One of the more"
-	line "expensive types"
-	cont "could get rid"
-	cont "of that ornery"
-	cont "GANZERKER!"
+	para "of that ornery"
+	line "GANZERKER!"
 
-	para "I know! I'll tell"
-	line "my sis and try"
-	cont "to borrow some!"
+	para "Turns out we"
+	line "don't!"
+
+	para "Not sure what"
+	line "to do now…"
+	
+	para "Somebody told me"
+	line "they don't like"
+	cont "anybody honking"
+	cont "but them."
+	
+	para "Could you use"
+	line "that to your"
+	cont "advantage?"
 	done
 
 FloriaText2:
@@ -478,11 +486,10 @@ FloriaText2:
 	line "said it was too"
 	cont "dangerous."
 
-	para "If I beat WHITNEY,"
-	line "I wonder if she'll"
-
-	para "lend me her goose"
-	line "repellent…"
+	para "But here I am"
+	line "anyways!"
+	
+	para "Tee-hee!"
 	done
 
 RockSmashGuyText1:
@@ -603,6 +610,8 @@ MeetArthurText:
 
 	para "I'm ARTHUR of"
 	line "Thursday."
+	
+	para "Thursday rocks!"
 	done
 
 ArthurGivesGiftText:
@@ -640,10 +649,8 @@ Route36SignText:
 	done
 
 RuinsOfAlphNorthSignText:
-	;text "RUINS OF ALPH"
-	;line "NORTH ENTRANCE"
-	text "SORRY BUD"
-	line "IT'S A DEMO"
+	text "RUINS OF ALPH"
+	line "NORTH ENTRANCE"
 	done
 
 Route36TrainerTips1Text:

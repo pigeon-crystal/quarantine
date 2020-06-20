@@ -178,7 +178,6 @@ INCLUDE "data/battle/effect_command_pointers.asm"
 SECTION "bank10", ROMX
 
 INCLUDE "data/moves/moves.asm"
-;INCLUDE "engine/pokemon/evolve.asm"
 INCLUDE "engine/pokedex/pokedex.asm"
 
 
@@ -677,7 +676,7 @@ INCLUDE "engine/pokemon/european_mail.asm"
 SECTION "Battle Tower Text", ROMX
 
 INCLUDE "data/battle_tower/trainer_text.asm"
-INCLUDE "engine/pokemon/evolve.asm"
+;INCLUDE "engine/pokemon/evolve.asm"
 
 
 

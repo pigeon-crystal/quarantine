@@ -1,6 +1,7 @@
 	object_const_def ; object_event constants
 	const GOLDENRODFLOWERSHOP_TEACHER
 	const GOLDENRODFLOWERSHOP_FLORIA
+	const GOLDENRODFLOWERSHOP_CLERK
 
 GoldenrodFlowerShop_MapScripts:
 	db 0 ; scene scripts
@@ -73,24 +74,10 @@ FlowerShopFloriaScript:
 	closetext
 	end
 
-FlowerShopShelf1:
-; unused
-	jumpstd picturebookshelf
-
-FlowerShopShelf2:
-; unused
-	jumpstd magazinebookshelf
-
-FlowerShopRadio:
-; unused
-	jumpstd radio2
-
 GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text:
 	text "Have you seen that"
-	line "wiggly tree that's"
-
-	para "growing on ROUTE"
-	line "36?"
+	line "horrid #MON"
+	cont "over on ROUTE 36?"
 
 	para "My little sister"
 	line "got all excited"
@@ -103,14 +90,14 @@ GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text:
 	done
 
 GoldenrodFlowerShopTeacherAskWantToBorrowWaterBottleText:
-	text "Do you want to"
-	line "borrow the water"
+	text "You probably want"
+	line "to borrow some of"
+	cont "that GANZ-B-GONE"
+	cont "too, don't you."
 
-	para "bottle too?"
-	line "I don't want you"
-
-	para "doing anything"
-	line "dangerous with it."
+	para "That GANZERKER"
+	line "looks too dangerous"
+	cont "for you!"
 	done
 
 GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
@@ -119,7 +106,7 @@ GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
 
 	para "You'll be OK,"
 	line "then. Here's the"
-	cont "SQUIRTBOTTLE!"
+	cont "GANZ-B-GONE!"
 	done
 
 GoldenrodFlowerShopTeacherDontDoAnythingDangerousText:
@@ -153,9 +140,22 @@ GoldenrodFlowerShopFloriaYouBeatWhitneyText:
 	done
 
 GoldenrodFlowerShopFloriaItReallyWasAMonText:
-	text "So it really was a"
-	line "#MON!"
+	text "I'm glad the way"
+	line "to VIOLET CITY is"
+	cont "clear!"
+	
+	para "I wanna watch"
+	line "FALKNER at his"
+	cont "gym. He's soooo"
+	cont "cute!"
 	done
+	
+GoldenrodFlowerShopClerkScript:
+	faceplayer
+	opentext
+	pokemart MARTTYPE_FLOWERSHOP, MART_FLOWER_SHOP
+	closetext
+	end
 
 GoldenrodFlowerShop_MapEvents:
 	db 0, 0 ; filler
@@ -168,6 +168,7 @@ GoldenrodFlowerShop_MapEvents:
 
 	db 0 ; bg events
 
-	db 2 ; object events
+	db 3 ; object events
 	object_event  2,  4, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, FlowerShopTeacherScript, -1
 	object_event  5,  6, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, FlowerShopFloriaScript, EVENT_FLORIA_AT_FLOWER_SHOP
+	object_event  4,  1, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, GoldenrodFlowerShopClerkScript, -1

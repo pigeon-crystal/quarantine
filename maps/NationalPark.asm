@@ -55,7 +55,7 @@ NationalParkPersian:
 	faceplayer
 	opentext
 	writetext NationalParkPersianText
-	cry PERSIAN
+	cry SHABBYCAT
 	waitbutton
 	closetext
 	end
@@ -208,7 +208,7 @@ TrainerPokefanfBeverly1:
 	iftrue .GiveNugget
 	checkcellnum PHONE_POKEFAN_BEVERLY
 	iftrue .NumberAccepted
-	checkpoke DUSMAUS
+	checkpoke AMBINNI
 	iffalse .NoMarill
 	checkevent EVENT_BEVERLY_ASKED_FOR_PHONE_NUMBER
 	iftrue .AskAgain
@@ -375,7 +375,7 @@ NationalParkTeacher2Text:
 	done
 
 NationalParkPersianText:
-	text "PERSIAN: Fufushaa!"
+	text "SHABBYCAT: Meek!"
 	done
 
 NationalParkGameboyKidText:
@@ -411,7 +411,7 @@ SchoolboyJackTradeMonText:
 
 	para "For example…"
 
-	para "There are 50 kinds"
+	para "There are 52 kinds"
 	line "of TMs."
 
 	para "Traded #MON"
@@ -461,13 +461,14 @@ PokefanmWilliamAfterBattleText:
 
 PokefanFBeverlyMarillFriendText:
 	text "My friend keeps a"
-	line "DUSMAUS!"
+	line "BUNDEGRAF!"
 
 	para "I find them very"
 	line "endearing."
 
 	para "Oh, I wish for a"
-	line "DUSMAUS of my own…"
+	line "BUNDEGRAF of"
+	cont "my own…"
 	done
 
 LassKriseSeenText:
@@ -535,7 +536,7 @@ NationalPark_MapEvents:
 	object_event 11, 41, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, NationalParkYoungster1Script, -1
 	object_event 10, 41, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, NationalParkYoungster2Script, -1
 	object_event 17, 41, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, NationalParkTeacher2Script, -1
-	object_event 26, 40, SPRITE_GROWLITHE, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, NationalParkPersian, -1
+	object_event 26, 40, SPRITE_SHABBYCAT, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, NationalParkPersian, -1
 	object_event 27, 23, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerSchoolboyJack1, -1
 	object_event 18, 29, SPRITE_POKEFAN_F, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 2, TrainerPokefanfBeverly1, -1
 	object_event 16,  9, SPRITE_POKEFAN_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 2, TrainerPokefanmWilliam, -1

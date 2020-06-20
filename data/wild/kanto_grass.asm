@@ -308,28 +308,28 @@ KantoGrassWildMons:
 	db 13, FURNIT
 	db 13, ZASTER
 	db 15, FURDOBA
-	db 12, DUSMAUS
+	db 12, AMBINNI
 	db 14, JIGGLYPUFF
-	db 14, DUSMAUS
-	db 14, DUSMAUS
+	db 14, AMBINNI
+	db 14, AMBINNI
 	db 18, JIGGLYPUFF
 	; day
 	db 13, FURNIT
 	db 13, ZASTER
 	db 15, FURDOBA
-	db 12, DUSMAUS
+	db 12, AMBINNI
 	db 14, JIGGLYPUFF
-	db 14, DUSMAUS
-	db 14, DUSMAUS
+	db 14, AMBINNI
+	db 14, AMBINNI
 	db 18, JIGGLYPUFF
 	; nite
 	db 13, HOOTHOOT
 	db 13, MEOWTH
 	db 15, NOCTOWL
-	db 12, DUSMAUS
+	db 12, AMBINNI
 	db 14, JIGGLYPUFF
-	db 14, DUSMAUS
-	db 14, DUSMAUS
+	db 14, AMBINNI
+	db 14, AMBINNI
 	db 18, JIGGLYPUFF
 
 	map_id ROUTE_6 ;done
@@ -356,7 +356,7 @@ KantoGrassWildMons:
 	db 13, MEOWTH
 	db 13, EELKIE
 	db 14, MAGNEMITE
-	db 15, PSYDUCK
+	db 15, VOYAPOD
 	db 12, JIGGLYPUFF
 	db 15, NOMSABRE
 	db 15, NOMSABRE
@@ -370,8 +370,8 @@ KantoGrassWildMons:
 	db 18, ZASTER
 	db 18, NOMSABRE
 	db 18, JIGGLYPUFF
-	db 16, DUSMAUS
-	db 16, DUSMAUS
+	db 16, AMBINNI
+	db 16, AMBINNI
 	db 20, JIGGLYPUFF
 	; day
 	db 17, NOMSTER
@@ -379,17 +379,17 @@ KantoGrassWildMons:
 	db 18, ZASTER
 	db 18, NOMSABRE
 	db 18, JIGGLYPUFF
-	db 16, DUSMAUS
-	db 16, DUSMAUS
+	db 16, AMBINNI
+	db 16, AMBINNI
 	db 20, JIGGLYPUFF
 	; nite
 	db 17, MEOWTH
 	db 17, BISMUTT
 	db 18, HOUNDOUR
-	db 18, PERSIAN
+	db 18, JUNOBE
 	db 18, JIGGLYPUFF
-	db 16, DUSMAUS
-	db 16, DUSMAUS
+	db 16, AMBINNI
+	db 16, AMBINNI
 	db 20, HOUNDOUR
 
 	map_id ROUTE_8 ;done
@@ -397,29 +397,29 @@ KantoGrassWildMons:
 	; morn
 	db 17, ZASTER
 	db 19, FURDOBA
-	db 16, DUSMAUS
+	db 16, AMBINNI
 	db 17, GROWLITHE
 	db 16, JIGGLYPUFF
-	db 18, AMBINNI
-	db 18, AMBINNI
-	db 20, AMBINNI
+	db 18, BUNDEGRAF
+	db 18, BUNDEGRAF
+	db 20, BUNDEGRAF
 	; day
 	db 17, ZASTER
 	db 19, FURDOBA
-	db 16, DUSMAUS
+	db 16, AMBINNI
 	db 17, GROWLITHE
 	db 16, JIGGLYPUFF
-	db 18, AMBINNI
-	db 18, AMBINNI
-	db 20, AMBINNI
+	db 18, BUNDEGRAF
+	db 18, BUNDEGRAF
+	db 20, BUNDEGRAF
 	; nite
 	db 17, MEOWTH
 	db 20, NOCTOWL
-	db 16, DUSMAUS
+	db 16, AMBINNI
 	db 17, SCRUFFRUIT
 	db 16, JIGGLYPUFF
-	db 18, AMBINNI
-	db 18, AMBINNI
+	db 18, BUNDEGRAF
+	db 18, BUNDEGRAF
 	db 20, SCRUFFRUIT
 
 	map_id ROUTE_9 ;done
@@ -521,8 +521,8 @@ KantoGrassWildMons:
 	db 25, SHABBYCAT
 	db 27, SHABBYCAT
 	db 27, SHABBYCAT
-	db 25, CHANSEY
-	db 26, CHANSEY
+	db 25, CALARMOURI
+	db 26, CALARMOURI
 	; day
 	db 23, NIDORINO
 	db 23, NIDORINA
@@ -530,8 +530,8 @@ KantoGrassWildMons:
 	db 25, SHABBYCAT
 	db 27, SHABBYCAT
 	db 27, SHABBYCAT
-	db 25, CHANSEY
-	db 26, CHANSEY
+	db 25, CALARMOURI
+	db 26, CALARMOURI
 	; nite
 	db 23, VENONAT
 	db 23, QUAGSIRE
@@ -539,8 +539,8 @@ KantoGrassWildMons:
 	db 25, VENOMOTH
 	db 25, QUAGSIRE
 	db 25, QUAGSIRE
-	db 25, CHANSEY
-	db 26, CHANSEY
+	db 25, CALARMOURI
+	db 26, CALARMOURI
 
 	map_id ROUTE_14 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -551,8 +551,8 @@ KantoGrassWildMons:
 	db 28, SHABBYCAT
 	db 30, PURRDLE
 	db 30, PURRDLE
-	db 28, CHANSEY
-	db 30, CHANSEY
+	db 28, CALARMOURI
+	db 30, CALARMOURI
 	; day
 	db 26, NIDORINO
 	db 26, NIDORINA
@@ -560,8 +560,8 @@ KantoGrassWildMons:
 	db 28, SHABBYCAT
 	db 30, PURRDLE
 	db 30, PURRDLE
-	db 28, CHANSEY
-	db 30, CHANSEY
+	db 28, CALARMOURI
+	db 30, CALARMOURI
 	; nite
 	db 26, VENONAT
 	db 26, QUAGSIRE
@@ -569,8 +569,8 @@ KantoGrassWildMons:
 	db 28, VENOMOTH
 	db 28, QUAGSIRE
 	db 28, QUAGSIRE
-	db 28, CHANSEY
-	db 30, CHANSEY
+	db 28, CALARMOURI
+	db 30, CALARMOURI
 
 	map_id ROUTE_15
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -581,8 +581,8 @@ KantoGrassWildMons:
 	db 25, SHABBYCAT
 	db 27, SHABBYCAT
 	db 27, SHABBYCAT
-	db 25, CHANSEY
-	db 30, CHANSEY
+	db 25, CALARMOURI
+	db 30, CALARMOURI
 	; day
 	db 23, NIDORINO
 	db 23, NIDORINA
@@ -590,8 +590,8 @@ KantoGrassWildMons:
 	db 25, SHABBYCAT
 	db 27, SHABBYCAT
 	db 27, SHABBYCAT
-	db 25, CHANSEY
-	db 30, CHANSEY
+	db 25, CALARMOURI
+	db 30, CALARMOURI
 	; nite
 	db 23, VENONAT
 	db 23, QUAGSIRE
@@ -599,8 +599,8 @@ KantoGrassWildMons:
 	db 25, VENOMOTH
 	db 25, QUAGSIRE
 	db 25, QUAGSIRE
-	db 25, CHANSEY
-	db 30, CHANSEY
+	db 25, CALARMOURI
+	db 30, CALARMOURI
 
 	map_id ROUTE_16 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -729,19 +729,19 @@ KantoGrassWildMons:
 	db 3, QWAIL
 	db 5, QWAIL
 	db 4, DODUO
-	db 6, PONYTA
+	db 6, MOPERDOR
 	db 7, QWALLOP
 	db 7, QWALLOP
-	db 10, PONYTA
+	db 10, MOPERDOR
 	; day
 	db 3, NOMSTER
 	db 3, QWAIL
 	db 5, QWAIL
 	db 4, DODUO
-	db 6, PONYTA
+	db 6, MOPERDOR
 	db 7, QWALLOP
 	db 7, QWALLOP
-	db 10, PONYTA
+	db 10, MOPERDOR
 	; nite
 	db 3, NOMSTER
 	db 3, CREMIGO
@@ -758,29 +758,29 @@ KantoGrassWildMons:
 	db 8, BUZZLING
 	db 10, BUZZLING
 	db 12, HIVEMAIM
-	db 12, DUSMAUS
+	db 12, AMBINNI
 	db 10, LAWNIE
 	db 14, VAZZINATE
 	db 14, VAZZINATE
-	db 15, DUSMAUS
+	db 15, AMBINNI
 	; day
 	db 8, BUZZLING
 	db 12, PHANGUARD
 	db 10, BUZZLING
-	db 12, DUSMAUS
+	db 12, AMBINNI
 	db 10, LAWNIE
 	db 14, VAZZINATE
 	db 14, VAZZINATE
-	db 15, DUSMAUS
+	db 15, AMBINNI
 	; nite
 	db 10, VENONAT
 	db 10, EUKUB
 	db 12, EUKUB
-	db 12, DUSMAUS
+	db 12, AMBINNI
 	db 10, LAWNIE
 	db 14, KOAGAN
 	db 14, KOAGAN
-	db 15, DUSMAUS
+	db 15, AMBINNI
 
 	map_id ROUTE_25 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -817,7 +817,7 @@ KantoGrassWildMons:
 	; morn
 	db 28, DODUO
 	db 28, SANDSLASH
-	db 32, PONYTA
+	db 32, MOPERDOR
 	db 30, NOMSABRE
 	db 30, DODUO
 	db 30, IGNAGA
@@ -826,7 +826,7 @@ KantoGrassWildMons:
 	; day
 	db 28, DODUO
 	db 28, SANDSLASH
-	db 32, PONYTA
+	db 32, MOPERDOR
 	db 30, NOMSABRE
 	db 30, DODUO
 	db 30, IGNAGA
@@ -849,19 +849,19 @@ KantoGrassWildMons:
 	db 28, IGNAGA
 	db 30, NOMSABRE
 	db 30, DODUO
-	db 32, PONYTA
+	db 32, MOPERDOR
 	db 30, DODRIO
 	db 30, DODRIO
-	db 40, PONYTA
+	db 40, MOPERDOR
 	; day
 	db 28, DODUO
 	db 28, IGNAGA
 	db 30, NOMSABRE
 	db 30, DODUO
-	db 32, PONYTA
+	db 32, MOPERDOR
 	db 30, DODRIO
 	db 30, DODRIO
-	db 40, PONYTA
+	db 40, MOPERDOR
 	; nite
 	db 28, QUAGSIRE
 	db 28, NOCTOWL
@@ -876,22 +876,22 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 39, TANGELA
-	db 40, PONYTA
-	db 40, RAPIDASH
+	db 40, MOPERDOR
+	db 40, MAJESDOR
 	db 42, IGNAGA
 	db 41, DODUO
 	db 43, DODRIO
 	db 43, DODRIO
-	db 42, RAPIDASH
+	db 42, MAJESDOR
 	; day
 	db 39, TANGELA
-	db 40, PONYTA
-	db 40, RAPIDASH
+	db 40, MOPERDOR
+	db 40, MAJESDOR
 	db 42, IGNAGA
 	db 41, DODUO
 	db 43, DODRIO
 	db 43, DODRIO
-	db 42, RAPIDASH
+	db 42, MAJESDOR
 	; nite
 	db 39, TANGELA
 	db 40, AMANIGO

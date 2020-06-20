@@ -458,8 +458,8 @@ SupernerdTeruAfterBattleText:
 	text "I know my #MON"
 	line "type alignments."
 
-	para "But I only use one"
-	line "type of #MON."
+	para "Seems you did,"
+	line "too!"
 	done
 
 PokemaniacIssacSeenText:

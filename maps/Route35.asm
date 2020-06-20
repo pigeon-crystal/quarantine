@@ -399,7 +399,7 @@ BugCatcherArnieBeatenText:
 	done
 
 BugCatcherArnieAfterBattleText:
-	text "My VENONAT won me"
+	text "I'm a real pro at"
 	line "the Bug-Catching"
 
 	para "Contest at the"
@@ -407,10 +407,16 @@ BugCatcherArnieAfterBattleText:
 	done
 
 BugCatcherArnieYanmaText:
-	text "Wow… Look at all"
-	line "those YANMA!"
+	text "AGH! There's too"
+	line "many ARASBESTOS!"
+	
+	para "I thought it"
+	line "would be cool,"
+	
+	para "but this is a"
+	line "nightmare!!!"
 
-	para "I'm so blown away,"
+	para "I'm so scared,"
 	line "I can't move."
 	done
 
@@ -436,7 +442,9 @@ OfficerDirkSeenText:
 	done
 
 OfficerDirkBeatenText:
-	text "Whoops!"
+	text "Wait! I'm"
+	line "supposed to stop"
+	cont "danger."
 	done
 
 OfficerDirkAfterBattleText:

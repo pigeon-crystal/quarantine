@@ -348,14 +348,13 @@ BeautySamanthaSeenText:
 	done
 
 BeautySamanthaBeatenText:
-	text "No! Oh, MEOWTH,"
+	text "No! SHABBYCAT,"
 	line "I'm so sorry!"
 	done
 
 BeautySamanthaAfterBattleText:
-	text "I taught MEOWTH"
-	line "moves for taking"
-	cont "on any type…"
+	text "My cats are just"
+	line "as cute as I am!"
 	done
 
 GoldenrodGymGuyText:
@@ -363,12 +362,20 @@ GoldenrodGymGuyText:
 	line "making!"
 
 	para "This GYM is home"
-	line "to normal-type"
-	cont "#MON trainers."
+	line "to cute trainers"
+	cont "who love cute"
+	cont "#MON."
+	
+	para "Expect to see"
+	line "a lot of NORMAL"
+	cont "types."
 
 	para "I recommend you"
 	line "use fighting-type"
-	cont "#MON."
+	cont "#MON and types"
+	cont "that can cover"
+	cont "what fighting"
+	cont "can't. Good luck!"
 	done
 
 GoldenrodGymGuyWinText:

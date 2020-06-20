@@ -1,4 +1,4 @@
-EvolvePokemon:
+EvolvePokemon::
 	ld hl, wEvolvableFlags
 	xor a
 	ld [hl], a
@@ -6,7 +6,7 @@ EvolvePokemon:
 	ld c, a
 	ld b, SET_FLAG
 	call EvoFlagAction
-EvolveAfterBattle:
+EvolveAfterBattle::
 	xor a
 	ld [wMonTriedToEvolve], a
 	dec a
@@ -18,7 +18,7 @@ EvolveAfterBattle:
 
 	push hl
 
-EvolveAfterBattle_MasterLoop:
+EvolveAfterBattle_MasterLoop::
 	ld hl, wCurPartyMon
 	inc [hl]
 
@@ -354,7 +354,7 @@ EvolveAfterBattle_MasterLoop:
 	call nz, RestartMapMusic
 	ret
 
-LearnEvolutionMove:
+LearnEvolutionMove::
 	ld a, [wTempSpecies]
 	ld [wCurPartySpecies], a
 	dec a
@@ -394,7 +394,7 @@ LearnEvolutionMove:
 	pop hl
 	ret
 
-UpdateSpeciesNameIfNotNicknamed:
+UpdateSpeciesNameIfNotNicknamed::
 	ld a, [wCurSpecies]
 	push af
 	ld a, [wBaseDexNo]
@@ -426,14 +426,14 @@ UpdateSpeciesNameIfNotNicknamed:
 	ld bc, MON_NAME_LENGTH
 	jp CopyBytes
 
-CancelEvolution:
+CancelEvolution::
 	ld hl, StoppedEvolvingText
 	call PrintText
 	call ClearTilemap
 	pop hl
 	jp EvolveAfterBattle_MasterLoop
 
-IsMonHoldingEverstone:
+IsMonHoldingEverstone::
 	push hl
 	ld a, [wCurPartyMon]
 	ld hl, wPartyMon1Item
@@ -444,23 +444,23 @@ IsMonHoldingEverstone:
 	pop hl
 	ret
 
-CongratulationsYourPokemonText:
+CongratulationsYourPokemonText::
 	text_far _CongratulationsYourPokemonText
 	text_end
 
-EvolvedIntoText:
+EvolvedIntoText::
 	text_far _EvolvedIntoText
 	text_end
 
-StoppedEvolvingText:
+StoppedEvolvingText::
 	text_far _StoppedEvolvingText
 	text_end
 
-EvolvingText:
+EvolvingText::
 	text_far _EvolvingText
 	text_end
 
-LearnLevelMoves:
+LearnLevelMoves::
 	ld a, [wTempSpecies]
 	ld [wCurPartySpecies], a
 	dec a
@@ -524,7 +524,7 @@ LearnLevelMoves:
 	ld [wTempSpecies], a
 	ret
 
-FillMoves:
+FillMoves::
 ; Fill in moves at de for wCurPartySpecies at wCurPartyLevel
 
 	push hl
@@ -651,7 +651,7 @@ EvoFlagAction:
 	pop de
 	ret
 
-GetPreEvolution:
+GetPreEvolution::
 ; Find the first mon to evolve into wCurPartySpecies.
 
 ; Return carry and the new species in wCurPartySpecies

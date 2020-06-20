@@ -1,6 +1,6 @@
 	db MANDELBLOB ; 142
 
-	db  101, 48,  45, 44,  48,  45
+	db  101, 46,  44, 43,  46,  44
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type
@@ -17,5 +17,5 @@
 	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
 
 	; tm/hm learnset
-	tmhm HEADBUTT, REST, FLASH
+	tmhm HEADBUTT, CURSE, PSYCH_UP, HIDDEN_POWER, SNORE, PROTECT, ENDURE, FRUSTRATION, RETURN, SHADOW_BALL, SWAGGER, SLEEP_TALK, SWIFT, DREAM_EATER, REST, FLASH
 	; end

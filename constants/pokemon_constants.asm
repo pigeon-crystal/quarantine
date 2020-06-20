@@ -30,19 +30,19 @@
 	const BLASTOISE  ; 09
 	const BUZZLING   ; 0a
 	const HIVEMAIM   ; 0b
-	const VAZZINATE ; 0c
-	const HOATOT     ; 0d weedle
+	const VAZZINATE  ; 0c
+	const HOATOT     ; 0d
 	const HOATOXIC   ; 0e
 	const NOXROMAEUS ; 0f
-	const FURNIT     ; 10 pidgey
+	const FURNIT     ; 10 
 	const FURDOBA    ; 11
-	const HORNAMPA    ; 12
-	const NOMSTER    ; 13 orig Rattatta
-	const NOMSABRE   ; 14 orig RATICATE
-	const QWAIL      ; 15 spearow
+	const HORNAMPA   ; 12
+	const NOMSTER    ; 13 
+	const NOMSABRE   ; 14 
+	const QWAIL      ; 15
 	const QWALLOP    ; 16
-	const WYRMOMETER      ; 17 wyrmometer
-	const IGNAGA      ; 18
+	const WYRMOMETER ; 17 
+	const IGNAGA     ; 18
 	const PIKACHU    ; 19
 	const RAICHU     ; 1a
 	const SANDSHREW  ; 1b
@@ -53,50 +53,50 @@
 	const NIDORAN_M  ; 20
 	const NIDORINO   ; 21
 	const NIDOKING   ; 22
-	const NYALLEY   ; 23
-	const FELIORITTE   ; 24
+	const NYALLEY    ; 23
+	const FELIORITTE ; 24
 	const VULPIX     ; 25
 	const NINETALES  ; 26
 	const JIGGLYPUFF ; 27
 	const WIGGLYTUFF ; 28
-	const STINPEON      ; 29
-	const SCORPEROR     ; 2a
-	const EUKUB     ; 2b
-	const KOAGAN      ; 2c
-	const POCALYPTUS  ; 2d
+	const STINPEON   ; 29
+	const SCORPEROR  ; 2a
+	const EUKUB      ; 2b
+	const KOAGAN     ; 2c
+	const POCALYPTUS ; 2d
 	const PARAS      ; 2e
 	const PARASECT   ; 2f
 	const VENONAT    ; 30
 	const VENOMOTH   ; 31
-	const MUMINI    ; 32
-	const MUMAGNUS    ; 33
+	const MUMINI     ; 32
+	const MUMAGNUS   ; 33
 	const MEOWTH     ; 34
-	const PERSIAN    ; 35
-	const PSYDUCK    ; 36
-	const GOLDUCK    ; 37
+	const JUNOBE     ; 35persian
+	const VOYAPOD    ; 36psyduck
+	const EXOTUNITY  ; 37golduck
 	const MANKEY     ; 38
 	const PRIMEAPE   ; 39
 	const GROWLITHE  ; 3a
 	const ARCANINE   ; 3b
 	const CREMIGO    ; 3c
 	const AMANIGO    ; 3d
-	const YUGGROMI  ; 3e
-	const DUSMAUS       ; 3f
-	const AMBINNI    ; 40
-	const ALAKAZAM   ; 41
+	const YUGGROMI   ; 3e
+	const AMBINNI    ; 3f
+	const BUNDEGRAF  ; 40
+	const VOLTINGER  ; 41
 	const MACHOP     ; 42
 	const MACHOKE    ; 43
 	const MACHAMP    ; 44
 	const LAWNIE     ; 45
-	const ORGNOME 	; 46
+	const ORGNOME 	 ; 46
 	const GNOMERCY   ; 47
 	const TENTACOOL  ; 48
 	const TENTACRUEL ; 49
 	const DOLMITE    ; 4a
 	const DOLMESA    ; 4b
 	const CAIRNIVORE ; 4c
-	const PONYTA     ; 4d
-	const RAPIDASH   ; 4e
+	const MOPERDOR     ; 4d
+	const MAJESDOR   ; 4e
 	const SLOWPOKE   ; 4f
 	const SLOWBRO    ; 50
 	const MAGNEMITE  ; 51
@@ -104,20 +104,20 @@
 	const FARFETCH_D ; 53
 	const DODUO      ; 54
 	const DODRIO     ; 55
-	const CADDISICLE       ; 56
+	const CADDISICLE ; 56
 	const JADDICE    ; 57
-	const DUMBLOON     ; 58
-	const ZEPPLIUM        ; 59
+	const DUMBLOON   ; 58
+	const ZEPPLIUM   ; 59
 	const SHELLDER   ; 5a
 	const CLOYSTER   ; 5b
-	const FLUFFRUIT     ; 5c gastly
-	const SCRUFFRUIT    ; 5d
-	const PITAYRANT     ; 5e
+	const FLUFFRUIT  ; 5c gastly
+	const SCRUFFRUIT ; 5d
+	const PITAYRANT  ; 5e
 	const ONIX       ; 5f
-	const EELKIE    ; 60
-	const MOSSARRE      ; 61
-	const LANATUN     ; 62
-	const PEPOFFER    ; 63
+	const EELKIE     ; 60
+	const MOSSARRE   ; 61
+	const LANATUN    ; 62
+	const PEPOFFER   ; 63
 	const VOLTORB    ; 64
 	const ELECTRODE  ; 65
 	const EXEGGCUTE  ; 66
@@ -126,31 +126,31 @@
 	const MAROWAK    ; 69
 	const HITMONLEE  ; 6a
 	const HITMONCHAN ; 6b
-	const SAPPURA  ; 6c
-	const LEAFFIGY    ; 6d
-	const SAKURONNA    ; 6e
-	const CUTTLE    ; 6f cuttle
-	const TENDRILL     ; 70 tendrill
-	const CHANSEY    ; 71 calarmouri
+	const SAPPURA    ; 6c
+	const LEAFFIGY   ; 6d
+	const SAKURONNA  ; 6e
+	const CUTTLE     ; 6f 
+	const TENDRILL   ; 70 
+	const CALARMOURI ; 71 
 	const TANGELA    ; 72
 	const KANGASKHAN ; 73
 	const HORSEA     ; 74
 	const SEADRA     ; 75
-	const GOOSAPLING    ; 76
-	const GANZERKER    ; 77
+	const GOOSAPLING ; 76
+	const GANZERKER  ; 77
 	const PEAUTY     ; 78
 	const PEEKEYE    ; 79
-	const PEACOLDER   ; 7a
+	const PEACOLDER  ; 7a
 	const SCYTHER    ; 7b
-	const CLIBBLE       ; 7c
-	const GIGUARD ; 7d
-	const GIGERATOR     ; 7e
+	const CLIBBLE    ; 7c
+	const GIGUARD    ; 7d
+	const GIGERATOR  ; 7e
 	const PINSIR     ; 7f
 	const TAUROS     ; 80
 	const MAGIKARP   ; 81
 	const GYARADOS   ; 82
-	const MANDELBLOB     ; 83
-	const DITTO      ; 84
+	const MANDELBLOB ; 83
+	const HELACTAL   ; 84
 	const EEVEE      ; 85
 	const VAPOREON   ; 86
 	const JOLTEON    ; 87
@@ -219,7 +219,7 @@ JOHTO_POKEMON EQU const_value
 	const UMBREON    ; c5
 	const BISMUTT    ; c6
 	const TIDO   	 ; c7
-	const MISDREAVUS ; c8
+	const MAULZER 	 ; c8
 	const UNOWN      ; c9
 	const RESPECTRE  ; ca
 	const GIRAFARIG  ; cb
@@ -230,7 +230,7 @@ JOHTO_POKEMON EQU const_value
 	const WIRIGIBLE  ; d0
 	const ZASTER     ; d1
 	const GRIMPACT   ; d2
-	const QWILFISH   ; d3
+	const PEKOI      ; d3
 	const SCIZOR     ; d4
 	const SHUCKLE    ; d5
 	const HERACROSS  ; d6
@@ -242,8 +242,8 @@ JOHTO_POKEMON EQU const_value
 	const SWINUB     ; dc
 	const PILOSWINE  ; dd
 	const CORSOLA    ; de
-	const REMORAID   ; df
-	const OCTILLERY  ; e0
+	const STIKLBRAT  ; df
+	const SIDFICIOUS ; e0
 	const DELIBIRD   ; e1
 	const MANTINE    ; e2
 	const SKARMORY   ; e3
@@ -252,7 +252,7 @@ JOHTO_POKEMON EQU const_value
 	const KINGDRA    ; e6
 	const PHANPY     ; e7
 	const DONPHAN    ; e8
-	const PORYGON2   ; e9
+	const POLYRO     ; e9
 	const MISSINGNO  ; ea orig stantler
 	const SMEARGLE   ; eb
 	const TYROGUE    ; ec

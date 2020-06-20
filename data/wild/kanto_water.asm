@@ -26,10 +26,10 @@ KantoWaterWildMons:
 
 	map_id ROUTE_6
 	db 2 percent ; encounter rate
-	db 10, PSYDUCK
-	db 5, PSYDUCK
-	db 10, GOLDUCK
-	db 15, GOLDUCK
+	db 10, VOYAPOD
+	db 5, VOYAPOD
+	db 10, EXOTUNITY
+	db 15, EXOTUNITY
 
 	map_id ROUTE_9
 	db 4 percent ; encounter rate

@@ -61,10 +61,9 @@ CharcoalKilnApprentice:
 	end
 
 CharcoalKilnFarfetchd:
-	faceplayer
 	opentext
 	writetext FarfetchdText
-	cry FARFETCH_D
+	cry QWALLOP
 	waitbutton
 	closetext
 	end
@@ -76,7 +75,7 @@ CharcoalKilnRadio:
 	jumpstd radio2
 
 CharcoalKilnBossText1:
-	text "All the SLOWPOKE"
+	text "All the CUTTLE"
 	line "have disappeared"
 	cont "from the town."
 
@@ -90,7 +89,7 @@ CharcoalKilnBossText1:
 	done
 
 CharcoalKilnBossText2:
-	text "The SLOWPOKE have"
+	text "The CUTTLE have"
 	line "returned…"
 
 	para "But my APPRENTICE"
@@ -115,7 +114,7 @@ CharcoalKilnBossText3:
 
 CharcoalKilnApprenticeText1:
 	text "Where have all the"
-	line "SLOWPOKE gone?"
+	line "CUTTLE gone?"
 
 	para "Are they out play-"
 	line "ing somewhere?"
@@ -134,16 +133,16 @@ CharcoalKilnApprenticeText2:
 	done
 
 CharcoalKilnApprenticeText3:
-	text "The SLOWPOKE came"
+	text "The CUTTLE came"
 	line "back, and you even"
-	cont "found FARFETCH'D."
+	cont "found QWALLOP."
 
 	para "You're the cool-"
 	line "est, man!"
 	done
 
 FarfetchdText:
-	text "FARFETCH'D: Kwaa!"
+	text "QWALLOP: Kyaah!"
 	done
 
 CharcoalKiln_MapEvents:
@@ -163,4 +162,4 @@ CharcoalKiln_MapEvents:
 	db 3 ; object events
 	object_event  2,  3, SPRITE_BLACK_BELT, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CharcoalKilnBoss, EVENT_CHARCOAL_KILN_BOSS
 	object_event  5,  3, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CharcoalKilnApprentice, EVENT_CHARCOAL_KILN_APPRENTICE
-	object_event  5,  6, SPRITE_MOLTRES, SPRITEMOVEDATA_POKEMON, 2, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CharcoalKilnFarfetchd, EVENT_CHARCOAL_KILN_FARFETCH_D
+	object_event  5,  6, SPRITE_BIRD, SPRITEMOVEDATA_POKEMON, 2, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CharcoalKilnFarfetchd, EVENT_CHARCOAL_KILN_FARFETCH_D

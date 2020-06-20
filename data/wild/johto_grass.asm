@@ -366,32 +366,32 @@ JohtoGrassWildMons:
 	map_id NATIONAL_PARK ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 12, NIDORAN_M
-	db 12, NIDORAN_F
-	db 14, WORMEEK
-	db 13, FURNIT
-	db 10, BUZZLING
-	db 10, HOATOT
-	db 10, HOATOT
-	db 10, HOATOT
+	db 16, SHABBYCAT
+	db 16, WORMEEK
+	db 16, WORMEEK
+	db 16, FURDOBA
+	db 16, BUZZLING
+	db 16, SHABBYCAT
+	db 16, HOATOT
+	db 20, MAULZER
 	; day
-	db 12, NIDORAN_F
-	db 12, NIDORAN_M
-	db 14, PHANGUARD
-	db 13, FURNIT
-	db 10, BUZZLING
-	db 10, HOATOT
-	db 10, HOATOT
-	db 10, HOATOT
+	db 16, SHABBYCAT
+	db 16, WORMEEK
+	db 16, SHABBYCAT
+	db 16, FURDOBA
+	db 16, BUZZLING
+	db 16, HOATOT
+	db 16, HOATOT
+	db 20, MAULZER
 	; nite
-	db 12, PSYDUCK
-	db 13, HOOTHOOT
-	db 14, GWUBBY
-	db 15, HOOTHOOT
-	db 10, VENONAT
-	db 12, VENONAT
-	db 12, VENONAT
-	db 13, VENONAT
+	db 16, NYALLEY
+	db 16, SHABBYCAT
+	db 16, GWUBBY
+	db 16, FURDOBA
+	db 16, NYALLEY
+	db 16, SHABBYCAT
+	db 16, JUNOBE
+	db 20, BISMUTT
 
 	map_id RUINS_OF_ALPH_OUTSIDE ;done
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -491,7 +491,7 @@ JohtoGrassWildMons:
 	db 10, NOMSTER
 	db 10, STINPEON
 	db 10, DOLMITE
-	db 11, NOMSTER
+	db 11, MUMINI
 	db 12, MUMINI
 	db 11, MUMINI
 	; day
@@ -509,7 +509,7 @@ JohtoGrassWildMons:
 	db 10, NOMSTER
 	db 10, STINPEON
 	db 10, DOLMITE
-	db 11, NOMSTER
+	db 11, MUMINI
 	db 12, MUMINI
 	db 11, MUMINI
 
@@ -544,34 +544,34 @@ JohtoGrassWildMons:
 	db 25, ONIX
 
 	map_id SLOWPOKE_WELL_B1F ;done
-	db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
+	db 3 percent, 3 percent, 5 percent ; encounter rates: morn/day/nite
 	; morn
-	db 10, STINPEON
-	db 11, SLOWPOKE
-	db 10, STINPEON
-	db 10, SLOWPOKE
-	db 10, STINPEON
+	db 11, STINPEON
+	db 11, CUTTLE
+	db 11, CUTTLE
+	db 11, CUTTLE
+	db 11, STINPEON
 	db 12, MUMINI
 	db 11, MUMINI
-	db 14, MUMINI
+	db 14, CUTTLE
 	; day
-	db 10, STINPEON
-	db 11, SLOWPOKE
-	db 10, STINPEON
-	db 10, SLOWPOKE
+	db 11, STINPEON
+	db 11, CUTTLE
+	db 11, CUTTLE
+	db 11, CUTTLE
 	db 11, STINPEON
 	db 11, MUMINI
 	db 12, MUMINI
-	db 14, MUMINI
+	db 14, CUTTLE
 	; nite
-	db 10, STINPEON
-	db 11, SLOWPOKE
-	db 10, STINPEON
-	db 10, MUMINI
-	db 12, HOPLAQUE
+	db 11, STINPEON
+	db 11, CUTTLE
+	db 11, CUTTLE
+	db 11, MUMINI
+	db 12, CUTTLE
 	db 11, MUMINI
 	db 11, MUMINI
-	db 14, HOPLAQUE
+	db 14, RESPECTRE
 
 	map_id SLOWPOKE_WELL_B2F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
@@ -622,14 +622,14 @@ JohtoGrassWildMons:
 	db 13, CREMIGO
 	db 14, EELKIE
 	db 15, EELKIE
-	db 12, CREMIGO
+	db 16, CREMIGO
 	; nite
 	db 15, CREMIGO
 	db 13, CREMIGO
-	db 14, CREMIGO
+	db 17, CREMIGO
 	db 14, EELKIE
 	db 13, EELKIE
-	db 11, HOPLAQUE
+	db 14, EELKIE
 	db 57, YUGGROMI
 	db 57, YUGGROMI
 
@@ -1168,7 +1168,7 @@ JohtoGrassWildMons:
 	db 44, SCORPEROR
 	db 42, ONIX
 	db 42, SCORPEROR
-	db 45, GOLDUCK
+	db 45, EXOTUNITY
 	db 46, SCORPEROR
 	db 46, SCORPEROR
 	db 20, LARVITAR
@@ -1195,12 +1195,12 @@ JohtoGrassWildMons:
 	db 21, LARVITAR
 	; nite
 	db 48, SCORPEROR
-	db 48, GOLDUCK
+	db 48, EXOTUNITY
 	db 46, SCORPEROR
 	db 46, PARASECT
 	db 48, PARASECT
-	db 45, MISDREAVUS
-	db 45, MISDREAVUS
+	db 45, MAULZER
+	db 45, MAULZER
 	db 21, LARVITAR
 
 	map_id SILVER_CAVE_ROOM_3 ;done
@@ -1228,7 +1228,7 @@ JohtoGrassWildMons:
 	db 48, ONIX
 	db 48, DOLMESA
 	db 49, SCORPEROR
-	db 45, GOLDUCK
+	db 45, EXOTUNITY
 	db 53, SCORPEROR
 	db 53, SCORPEROR
 	db 30, PUPITAR
@@ -1254,7 +1254,7 @@ JohtoGrassWildMons:
 	db 52, PARASECT
 	db 55, PARASECT
 	; nite
-	db 45, MISDREAVUS
+	db 45, MAULZER
 	db 48, SCORPEROR
 	db 50, SCORPEROR
 	db 46, PARASECT
@@ -1270,28 +1270,28 @@ JohtoGrassWildMons:
 	db 4, FLUFFRUIT
 	db 4, DOLMITE
 	db 4, DOLMITE
-	db 6, ATTACKO
 	db 6, FLUFFRUIT
-	db 6, ARASBESTOS
-	db 7, ATTACKO
+	db 6, ATTACKO
+	db 6, ATTACKO
+	db 7, ARASBESTOS
 	; day
 	db 4, DOLMITE
 	db 4, FLUFFRUIT
 	db 4, DOLMITE
 	db 3, DOLMITE
-	db 6, ATTACKO
 	db 6, FLUFFRUIT
-	db 7, ARASBESTOS
 	db 6, ATTACKO
+	db 7, ATTACKO
+	db 6, ARASBESTOS
 	; nite
 	db 4, DOLMITE
 	db 4, FLUFFRUIT
 	db 4, DOLMITE
 	db 4, FLUFFRUIT
+	db 6, FLUFFRUIT
 	db 6, ATTACKO
 	db 6, ATTACKO
-	db 6, ARASBESTOS
-	db 7, ATTACKO
+	db 7, ARASBESTOS
 
 	map_id DARK_CAVE_BLACKTHORN_ENTRANCE ;done
 	db 5 percent, 5 percent, 5 percent ; encounter rates: morn/day/nite
@@ -1435,13 +1435,13 @@ JohtoGrassWildMons:
 	db 11, GWUBBY
 	; nite
 	db 9, GWUBBY
-	db 9, NOMSTER
 	db 9, FLUFFRUIT
+	db 9, NOMSTER
 	db 8, EUKUB
 	db 10, GOOSAPLING
 	db 8, FLUFFRUIT
-	db 10, FLUFFRUIT
-	db 10, GOOSAPLING
+	db 10, JUNOBE
+	db 10, JUNOBE
 
 	map_id ROUTE_33 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1471,67 +1471,67 @@ JohtoGrassWildMons:
 	db 12, SHABBYCAT
 	db 12, SHABBYCAT
 	db 12, SHABBYCAT
-	db 13, FLUFFRUIT
+	db 13, JUNOBE
 
 	map_id ROUTE_34 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 10, ZASTER
-	db 11, NOMSTER
-	db 12, FURNIT
-	db 10, DUSMAUS
-	db 12, JIGGLYPUFF
-	db 10, DITTO
-	db 10, DITTO
-	db 13, DITTO
+	db 13, NOMSTER
+	db 13, NOMSTER
+	db 14, SAPPURA
+	db 14, AMBINNI
+	db 13, SAPPURA
+	db 14, AMBINNI
+	db 15, MANDELBLOB
+	db 16, MANDELBLOB
 	; day
-	db 10, ZASTER
-	db 11, NOMSTER
-	db 12, FURNIT
-	db 10, DUSMAUS
-	db 12, JIGGLYPUFF
-	db 10, DITTO
-	db 10, DITTO
-	db 13, DITTO
+	db 13, NOMSTER
+	db 13, NOMSTER
+	db 14, SAPPURA
+	db 14, AMBINNI
+	db 13, SAPPURA
+	db 14, AMBINNI
+	db 15, MANDELBLOB
+	db 16, MANDELBLOB
 	; nite
-	db 12, EELKIE
-	db 11, NOMSTER
-	db 12, HOOTHOOT
-	db 10, DUSMAUS
-	db 12, JIGGLYPUFF
-	db 10, DITTO
-	db 10, DITTO
-	db 13, DITTO
+	db 13, NOMSTER
+	db 13, FLUFFRUIT
+	db 14, SAPPURA
+	db 14, AMBINNI
+	db 13, SAPPURA
+	db 14, MANDELBLOB
+	db 15, MANDELBLOB
+	db 16, JUNOBE
 
 	map_id ROUTE_35 ;done
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	db 11 percent, 11 percent, 11 percent ; encounter rates: morn/day/nite
 	; morn
-	db 12, ZASTER
-	db 14, FURNIT
-	db 13, GROWLITHE
-	db 10, DUSMAUS
-	db 12, JIGGLYPUFF
-	db 10, DITTO
-	db 12, ARASBESTOS
-	db 13, ARASBESTOS
+	db 14, AMBINNI
+	db 14, WORMEEK
+	db 13, GOOSAPLING
+	db 14, SAPPURA
+	db 14, MANDELBLOB
+	db 16, MANDELBLOB
+	db 15, ZASTER
+	db 16, ARASBESTOS
 	; day
-	db 12, ZASTER
-	db 14, FURNIT
-	db 13, GROWLITHE
-	db 10, DUSMAUS
-	db 12, JIGGLYPUFF
-	db 10, DITTO
-	db 12, ARASBESTOS
-	db 13, ARASBESTOS
+	db 14, AMBINNI
+	db 14, WORMEEK
+	db 13, GOOSAPLING
+	db 14, SAPPURA
+	db 14, MANDELBLOB
+	db 16, MANDELBLOB
+	db 15, ZASTER
+	db 16, ARASBESTOS
 	; nite
-	db 12, EELKIE
-	db 14, HOOTHOOT
-	db 13, PSYDUCK
-	db 10, DUSMAUS
-	db 12, JIGGLYPUFF
-	db 10, DITTO
-	db 12, ARASBESTOS
-	db 13, ARASBESTOS
+	db 14, AMBINNI
+	db 14, GWUBBY
+	db 13, GOOSAPLING
+	db 14, SAPPURA
+	db 14, MANDELBLOB
+	db 16, SAPPURA
+	db 15, ZASTER
+	db 16, ARASBESTOS
 
 	map_id ROUTE_36 ;done
 	db 12 percent, 12 percent, 12 percent ; encounter rates: morn/day/nite
@@ -1566,32 +1566,32 @@ JohtoGrassWildMons:
 	map_id ROUTE_37 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, WORMEEK
-	db 14, GROWLITHE
-	db 15, FURNIT
-	db 16, GROWLITHE
-	db 15, FURDOBA
-	db 15, WORMACHO
-	db 15, WORMACHO
-	db 16, WORMACHO
-	; day
-	db 13, FURNIT
-	db 14, GROWLITHE
-	db 15, FURNIT
-	db 16, GROWLITHE
-	db 15, FURDOBA
-	db 15, FURNIT
-	db 15, FURNIT
-	db 17, GROWLITHE
-	; nite
-	db 13, GWUBBY
-	db 14, NOMSTER
-	db 15, HOOTHOOT
+	db 17, WORMEEK
 	db 16, NOMSTER
-	db 15, NOCTOWL
-	db 15, GRUBBOID
-	db 15, GRUBBOID
-	db 16, GRUBBOID
+	db 15, FURNIT
+	db 16, HIVEMAIM
+	db 17, FURDOBA
+	db 16, FURDOBA
+	db 17, PEAUTY
+	db 18, HOATOXIC
+	; day
+	db 17, FURNIT
+	db 16, NOMSTER
+	db 15, FURNIT
+	db 16, WORMEEK
+	db 17, FURDOBA
+	db 16, FURDOBA
+	db 17, PEAUTY
+	db 18, HOATOXIC
+	; nite
+	db 17, GWUBBY
+	db 16, NOMSTER
+	db 15, HOATOT
+	db 16, NOMSTER
+	db 17, FURDOBA
+	db 16, HOATOXIC
+	db 17, PEAUTY
+	db 16, JUNOBE
 
 	map_id ROUTE_38 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1799,26 +1799,26 @@ JohtoGrassWildMons:
 	db 3, DOLMITE
 	db 3, QWAIL
 	db 3, QWAIL
-	db 3, NOMSTER
-	db 3, NOMSTER
-	db 5, ARASBESTOS
+	db 3, JUNOBE
+	db 3, DOLMITE
+	db 5, JUNOBE
 
 	map_id SILVER_CAVE_OUTSIDE ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 41, TANGELA
-	db 42, PONYTA
+	db 42, MOPERDOR
 	db 42, IGNAGA
-	db 44, RAPIDASH
+	db 44, MAJESDOR
 	db 41, DODUO
 	db 43, DODRIO
 	db 43, DODRIO
 	db 45, TANGELA
 	; day
 	db 41, TANGELA
-	db 42, PONYTA
+	db 42, MOPERDOR
 	db 42, IGNAGA
-	db 44, RAPIDASH
+	db 44, MAJESDOR
 	db 41, DODUO
 	db 43, DODRIO
 	db 43, DODRIO

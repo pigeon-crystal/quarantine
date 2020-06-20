@@ -6,10 +6,10 @@
 	db POISON, FLYING ; type
 	db 50 ; catch rate
 	db 210 ; base exp
-	db NO_ITEM, GOLD_BERRY ; items
+	db PNK_APRICORN, GOLD_BERRY ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
-	db 17 ; step cycles to hatch
+	db 12 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/noxromaeus/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

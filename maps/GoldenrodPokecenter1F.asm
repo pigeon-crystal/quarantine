@@ -81,7 +81,7 @@ GoldenrodPokecenter1FGameboyKidScript:
 GoldenrodPokecenter1FLassScript:
 	jumptextfaceplayer GoldenrodPokecenter1FLassText
 
-GoldenrodPokecenter1FPokefanF:
+GoldenrodPokecenter1FPokefanF: ; prime candidate to replace with souvineer miniquest
 	faceplayer
 	opentext
 	writetext GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText

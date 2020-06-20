@@ -3,10 +3,8 @@ FleeMons:
 
 SometimesFleeMons:
 	db WORMEEK
-	db DUSMAUS
+	db AMBINNI
 	db UNOWN
-	db ZASTER
-	db HERACROSS
 	db -1
 
 OftenFleeMons:

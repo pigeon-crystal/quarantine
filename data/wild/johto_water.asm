@@ -47,9 +47,9 @@ JohtoWaterWildMons:
 
 	map_id ILEX_FOREST ;done
 	db 2 percent ; encounter rate
-	db 15, PSYDUCK
-	db 10, PSYDUCK
-	db 15, GOLDUCK
+	db 15, VOYAPOD
+	db 10, VOYAPOD
+	db 15, EXOTUNITY
 	db 25, GOOSAPLING
 
 	map_id MOUNT_MORTAR_1F_OUTSIDE ;done
@@ -97,7 +97,7 @@ JohtoWaterWildMons:
 	map_id SILVER_CAVE_ROOM_2 ;done
 	db 2 percent ; encounter rate
 	db 35, GANZERKER
-	db 35, GOLDUCK
+	db 35, EXOTUNITY
 	db 35, GOOSAPLING
 	db 40, GOOSAPLING
 
@@ -159,10 +159,10 @@ JohtoWaterWildMons:
 
 	map_id ROUTE_35 ;done
 	db 4 percent ; encounter rate
-	db 20, PSYDUCK
-	db 15, PSYDUCK
-	db 20, GOLDUCK
-	db 25, GOLDUCK
+	db 20, VOYAPOD
+	db 15, VOYAPOD
+	db 20, EXOTUNITY
+	db 25, EXOTUNITY
 
 	map_id ROUTE_40 ;done
 	db 6 percent ; encounter rate

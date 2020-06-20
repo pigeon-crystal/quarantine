@@ -129,7 +129,7 @@ Route35GoldenrodGateRandyWeirdTreeBlockingRoadText:
 	cont "ROUTE 31!"
 
 	para "Oh, yeah. There"
-	line "was a weird tree"
+	line "was a #MON"
 	cont "blocking the road."
 
 	para "I wonder if it's"
@@ -162,17 +162,13 @@ Route35GoldenrodGateRandyMyPalWasSnoozingRightText:
 	done
 
 Route35GoldenrodGatePokefanFText:
-	text "A strange tree is"
-	line "blocking the road."
-
-	para "It wriggles around"
-	line "if you talk to it."
+	text "A GANZERKER is"
+	line "blocking the road!"
 
 	para "I heard it became"
 	line "wild when someone"
 
-	para "watered it with a"
-	line "SQUIRTBOTTLE."
+	para "honked back at it!"
 	done
 
 Route35GoldenrodGatePokefanFText_FoughtSudowoodo:
@@ -196,6 +192,9 @@ Route35GoldenrodGateFisherText:
 	
 	para "It was a"
 	line "different time."
+	
+	para "A REALLY different"
+	line "time."
 	done
 
 Route35GoldenrodGate_MapEvents:

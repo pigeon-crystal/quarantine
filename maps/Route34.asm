@@ -490,7 +490,7 @@ Route34HiddenRareCandy:
 	hiddenitem RARE_CANDY, EVENT_ROUTE_34_HIDDEN_RARE_CANDY
 
 Route34HiddenSuperPotion:
-	hiddenitem SUPER_POTION, EVENT_ROUTE_34_HIDDEN_SUPER_POTION
+	hiddenitem RARE_CANDY, EVENT_ROUTE_34_HIDDEN_SUPER_POTION
 
 Route34MovementData_DayCareManWalksBackInside:
 	slow_step LEFT
@@ -542,8 +542,9 @@ YoungsterIanSeenText:
 	done
 
 YoungsterIanBeatenText:
-	text "No! There are bet-"
-	line "ter trainers…"
+	text "Guess I'm a big"
+	line "LANATUN in a"
+	cont "small pond…"
 	done
 
 YoungsterIanAfterText:

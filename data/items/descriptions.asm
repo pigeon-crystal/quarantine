@@ -372,8 +372,8 @@ CarbosDesc:
 	next "one #MON.@"
 
 LuckyPunchDesc:
-	db   "Ups critical hit"
-	next "ratio of CHANSEY.@"
+	db   "Ups crit ratio"
+	next "of CALARMOURI.@"
 
 CalciumDesc:
 	db   "Ups SPECIAL stats"
@@ -937,8 +937,8 @@ GoldBerryDesc:
 	next "item. (40HP, HOLD)@"
 
 SquirtBottleDesc:
-	db   "A bottle used for"
-	next "watering plants.@"
+	db   "A repellant for"
+	next "a certain #MON.@"
 
 TeruSama23Desc:
 	db   "?@"

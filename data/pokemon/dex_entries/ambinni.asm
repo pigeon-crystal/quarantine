@@ -1,5 +1,5 @@
 	db "DUST@" ; species name
-	dw 105, 529 ; height, weight
+	dw 009, 110 ; height, weight
 
 	db   "This is an"
 	next "undiscovered"

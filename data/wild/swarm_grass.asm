@@ -11,6 +11,7 @@ SwarmGrassWildMons:
 	db 4, DOLMITE
 	db 4, DOLMITE
 	db 4, ATTACKO
+	db 7, DOLMITE
 	db 6, ARASBESTOS
 	db 6, ATTACKO
 	; day
@@ -19,44 +20,48 @@ SwarmGrassWildMons:
 	db 6, ATTACKO
 	db 4, DOLMITE
 	db 6, ATTACKO
+	db 7, DOLMITE
 	db 6, ARASBESTOS
 	db 6, ATTACKO
 	; nite
 	db 4, DOLMITE
 	db 6, ATTACKO
-	db 4, DOLMITE
+	db 4, FLUFFRUIT
 	db 4, DOLMITE
 	db 6, ATTACKO
+	db 7, FLUFFRUIT
 	db 6, ARASBESTOS
 	db 6, ATTACKO
-	
 
 ; Arasbestos swarm
 	map_id ROUTE_35
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 12, NIDORAN_M
-	db 12, ARASBESTOS
-	db 12, ARASBESTOS
-	db 14, ARASBESTOS
-	db 14, FURNIT
-	db 10, DITTO
-	db 10, DITTO
+	db 14, AMBINNI
+	db 14, WORMEEK
+	db 17, ARASBESTOS
+	db 14, SAPPURA
+	db 17, ARASBESTOS
+	db 16, MANDELBLOB
+	db 15, ZASTER
+	db 16, ARASBESTOS
 	; day
-	db 12, NIDORAN_M
-	db 12, ARASBESTOS
-	db 12, ARASBESTOS
+	db 14, AMBINNI
+	db 14, WORMEEK
+	db 13, ARASBESTOS
+	db 14, SAPPURA
 	db 14, ARASBESTOS
-	db 14, FURNIT
-	db 10, DITTO
-	db 10, DITTO
+	db 16, MANDELBLOB
+	db 15, ZASTER
+	db 16, ARASBESTOS
 	; nite
-	db 12, NIDORAN_M
-	db 12, ARASBESTOS
-	db 12, ARASBESTOS
-	db 14, ARASBESTOS
-	db 14, HOOTHOOT
-	db 10, DITTO
-	db 10, DITTO
+	db 14, AMBINNI
+	db 15, GWUBBY
+	db 17, ARASBESTOS
+	db 14, SAPPURA
+	db 17, ARASBESTOS
+	db 16, MANDELBLOB
+	db 15, ZASTER
+	db 17, ARASBESTOS
 
 	db -1 ; end

@@ -1,6 +1,6 @@
 	db AMANIGO ; 063
 
-	db  59,  47,  59,  59, 97,  67
+	db  61,  47,  61,  61, 97,  67
 	;   hp  atk  def  spd  sat  sdf
 
 	db POISON, POISON ; type

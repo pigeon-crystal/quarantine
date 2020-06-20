@@ -20,7 +20,7 @@ Route36RuinsOfAlphGateOfficerText:
 	cont "And why?"
 	
 	para "And who's ALPH"
-	cont "anyways?"
+	line "anyways?"
 	
 	para "Wasn't he on TV?"
 	done
@@ -54,4 +54,4 @@ Route36RuinsOfAlphGate_MapEvents:
 
 	db 2 ; object events
 	object_event  0,  4, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route36RuinsOfAlphGateOfficerScript, -1
-	object_event  7,  5, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, Route36RuinsOfAlphGateGrampsScript, -1
+	object_event  7,  5, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, Route36RuinsOfAlphGateGrampsScript, -1

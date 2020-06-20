@@ -23,17 +23,20 @@ GoldenrodPPSpeechHouseRadio:
 	jumpstd radio2
 
 GoldenrodPPSpeechHouseFisherText:
-	text "Once while I was"
-	line "battling, my"
+	text "I was on a"
+	line "long journey once."
+	
+	para "Wild #MON kept"
+	line "using SPITE on"
+	cont "my team."
+	
+	para "That dranied their"
+	line "PP awfully quick!"
 
-	para "#MON couldn't"
-	line "make any moves."
-
-	para "The POWER POINTS,"
-	line "or PP, of its"
-
-	para "moves were all"
-	line "gone."
+	para "I had to run back"
+	line "to town so they"
+	cont "could use moves"
+	cont "again."
 	done
 
 GoldenrodPPSpeechHouseLassText:

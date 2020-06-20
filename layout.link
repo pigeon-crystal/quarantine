@@ -291,7 +291,7 @@ ROMX $78
 	"Tileset Data 8"
 ROMX $7b
 	"Battle Tower Text"
-	"Evolutions and Attacks"
+	
 ROMX $7c
 	"Battle Tower Trainer Data"
 ROMX $7d

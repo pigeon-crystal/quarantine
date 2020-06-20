@@ -720,7 +720,7 @@ BugCatchingContestant5BText:
 
 BugCatchingContestant5BStillCompetingText:
 	text "BENNY: I caught a"
-	line "SCYTHER before,"
+	line "JADDICE before,"
 	cont "but I didn't win."
 	done
 
@@ -765,7 +765,7 @@ BugCatchingContestant8BText:
 BugCatchingContestant8BStillCompetingText:
 	text "JOSH: I heard that"
 	line "somebody won with"
-	cont "a CATERPIE!"
+	cont "a BUZZLING!"
 	done
 
 BugCatchingContestant9BText:

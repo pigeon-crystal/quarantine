@@ -36,3 +36,9 @@ SpriteMons:
 	db LUGIA
 	db HO_OH
 	db GANZERKER
+	db TIDO
+	db MAULZER
+	db BISMUTT
+	db NOMSTER
+	db NOMSABRE
+	db SHABBYCAT

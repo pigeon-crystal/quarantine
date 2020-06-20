@@ -1,4 +1,4 @@
-EvolutionAnimation:
+EvolutionAnimation::
 	push hl
 	push de
 	push bc

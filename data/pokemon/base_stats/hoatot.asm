@@ -6,10 +6,10 @@
 	db POISON, NORMAL ; type
 	db 250 ; catch rate
 	db 45 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	db PNK_APRICORN, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
-	db 17 ; step cycles to hatch
+	db 12 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/hoatot/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

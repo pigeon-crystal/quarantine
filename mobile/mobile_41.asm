@@ -307,7 +307,7 @@ StubbedTrainerRankings_EggsHatched:
 	ld hl, sTrainerRankingEggsHatched
 	jp StubbedTrainerRankings_Increment3Byte
 
-StubbedTrainerRankings_MonsEvolved:
+StubbedTrainerRankings_MonsEvolved::
 	ret
 	ld hl, sTrainerRankingMonsEvolved
 	jp StubbedTrainerRankings_Increment3Byte

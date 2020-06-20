@@ -1,9 +1,9 @@
 GOLDENRODGAMECORNER_TM25_COINS EQU 5500
 GOLDENRODGAMECORNER_TM14_COINS EQU 5500
 GOLDENRODGAMECORNER_TM38_COINS EQU 5500
-GOLDENRODGAMECORNER_ABRA_COINS      EQU 100
-GOLDENRODGAMECORNER_CUBONE_COINS    EQU 800
-GOLDENRODGAMECORNER_WOBBUFFET_COINS EQU 1500
+GOLDENRODGAMECORNER_ABRA_COINS      EQU 111
+GOLDENRODGAMECORNER_CUBONE_COINS    EQU 1000
+GOLDENRODGAMECORNER_WOBBUFFET_COINS EQU 1998
 
 	object_const_def ; object_event constants
 	const GOLDENRODGAMECORNER_CLERK
@@ -191,16 +191,16 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
 	readvar VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	getmonname STRING_BUFFER_3, DUSMAUS
+	getmonname STRING_BUFFER_3, DUMBLOON
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	setval DUSMAUS
+	setval DUMBLOON
 	special GameCornerPrizeMonCheckDex
-	givepoke DUSMAUS, 5
+	givepoke DUMBLOON, 15
 	takecoins GOLDENRODGAMECORNER_ABRA_COINS
 	sjump .loop
 
@@ -209,16 +209,16 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
 	readvar VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	getmonname STRING_BUFFER_3, CUBONE
+	getmonname STRING_BUFFER_3, RESPECTRE
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	setval CUBONE
+	setval RESPECTRE
 	special GameCornerPrizeMonCheckDex
-	givepoke CUBONE, 15
+	givepoke RESPECTRE, 20
 	takecoins GOLDENRODGAMECORNER_CUBONE_COINS
 	sjump .loop
 
@@ -234,9 +234,9 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	setval RESPECTRE
+	setval POLYRO
 	special GameCornerPrizeMonCheckDex
-	givepoke RESPECTRE, 20
+	givepoke POLYRO, 20
 	takecoins GOLDENRODGAMECORNER_WOBBUFFET_COINS
 	sjump .loop
 
@@ -249,9 +249,9 @@ GoldenrodGameCornerPrizeMonVendorScript:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "DUSMAUS     100@"
-	db "CUBONE      800@"
-	db "RESPECTRE  1500@"
+	db "DUMBLOON    111@"
+	db "RESPECTRE  1000@"
+	db "POLYRO     1998@"
 	db "CANCEL@"
 
 GoldenrodGameCornerPharmacistScript:
@@ -325,10 +325,30 @@ GoldenrodGameCornerLuckySlotsMachineScript:
 	end
 
 GoldenrodGameCornerCardFlipMachineScript:
+	random 11
+	ifequal 0, GoldenrodGameCornerPilfoardEvent
 	refreshscreen
 	special CardFlip
 	closetext
 	end
+
+GoldenrodGameCornerPilfoardEvent:
+	opentext
+	writetext GoldenrodPilfoardIntroText
+	pause 10
+	cry PILFOARD
+	closetext
+	loadwildmon PILFOARD, 22
+	startbattle
+	reloadmapafterbattle
+	end 
+	
+GoldenrodPilfoardIntroText:
+	text "Huh?!?"
+	
+	para "There's something"
+	line "in the machine!"
+	done
 
 GoldenrodGameCornerPrizeVendorIntroText:
 	text "Welcome!"
@@ -395,22 +415,20 @@ else
 endc
 
 GoldenrodGameCornerPokefanM1Text:
-if DEF(_CRYSTAL_AU)
-	text "These machines"
-	line "seem different"
+	text "I got enough coins"
+	line "to get my kid a"
+	cont "DUMBLOON for"
+	cont "their birthday"
+	cont "party."
 
-	para "from the ones at"
-	line "CELADON CITY!"
+	para "Now they want"
+	line "a full team of"
+	cont "them as a"
+	cont "battle party!"
+	
+	para "Being a parent is"
+	line "tough, I tell ya."
 	done
-else
-	text "I just love this"
-	line "new slot machine."
-
-	para "It's more of a"
-	line "challenge than the"
-	cont "ones in CELADON."
-	done
-endc
 
 GoldenrodGameCornerCooltrainerMText:
 if DEF(_CRYSTAL_AU)
@@ -444,8 +462,12 @@ else
 endc
 
 GoldenrodGameCornerCooltrainerFText:
-	text "I won't quit until"
-	line "I win!"
+	text "I thought I"
+	line "heard something"
+	cont "by the card flip"
+	cont "machines…"
+	
+	para "Probably nothing!"
 	done
 
 GoldenrodGameCornerGentlemanText:

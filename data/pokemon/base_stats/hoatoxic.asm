@@ -6,10 +6,10 @@
 	db POISON, FLYING ; type
 	db 123 ; catch rate
 	db 123 ; base exp
-	db NO_ITEM, BERRY ; items
+	db RED_APRICORN, PNK_APRICORN ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
-	db 17 ; step cycles to hatch
+	db 12 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/hoatoxic/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

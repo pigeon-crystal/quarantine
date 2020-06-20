@@ -1146,7 +1146,7 @@ BattleCommand_Critical:
 .Item:
 	ld c, 0
 
-	cp CHANSEY
+	cp CALARMOURI
 	jr nz, .Farfetchd
 	ld a, [hl]
 	cp LUCKY_PUNCH
@@ -2534,11 +2534,11 @@ DittoMetalPowder:
 	ldh a, [hBattleTurn]
 	and a
 	ld a, [hl]
-	jr nz, .Ditto
+	jr nz, .Helactal
 	ld a, [wTempEnemyMonSpecies]
 
-.Ditto:
-	cp DITTO
+.Helactal:
+	cp HELACTAL
 	ret nz
 
 	push bc

@@ -1605,4 +1605,50 @@ _MoveReminderNoMoves::
 	para "It's either young"
 	line "or a good student."
 	done
+
+_FlowerShopIntroText::
+	text "Welcome to our"
+	line "little shop!"
 	
+	para "We have natural"
+	line "REPELs and home-"
+	cont "grown berries!"
+	done
+	
+_FlowerShopComeAgainText::
+	text "Thank you, sweetie!"
+	line "Come back anytime!"
+	done
+	
+_FlowerShopHowManyText::
+	text "How many?"
+	done
+
+_FlowerShopFinalPriceText::
+	text "Let me ring you"
+	line "up real quick…"
+	
+	para "OK! It'll be"
+	line "¥@"
+	text_decimal hMoneyTemp, 3, 6
+	text ". 'Kay?"
+	done
+	
+_FlowerShopNoMoneyText::
+	text "As much as I'd"
+	line "like to give you"
+	cont "a freebie, I"
+	cont "can't!"
+	done
+	
+_FlowerShopBagFullText::
+	text "Your bag is full!"
+	
+	para "Where'd you put"
+	line "these, silly?"
+	done
+	
+_FlowerShopThankYouText::
+	text "Here you go!"
+	line "Enjoy!"
+	done

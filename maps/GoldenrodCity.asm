@@ -32,7 +32,7 @@ GoldenrodCity_MapScripts:
 	return
 
 .MoveTutor:
-	checkevent EVENT_BEAT_ELITE_FOUR
+	checkevent EVENT_BEAT_PRYCE
 	iffalse .MoveTutorDone
 	checkitem COIN_CASE
 	iffalse .MoveTutorDisappear
@@ -474,12 +474,6 @@ GoldenrodCityUndergroundSignNorthText:
 GoldenrodCityUndergroundSignSouthText:
 	text "UNDERGROUND"
 	line "ENTRANCE"
-	done
-
-GoldenrodCityPokeComCenterSignText:
-; unused
-	text "For Mobile Tips!"
-	line "#COM CENTER"
 	done
 
 GoldenrodCityFlowerShopSignText:

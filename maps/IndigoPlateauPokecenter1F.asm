@@ -170,7 +170,7 @@ TeleportGuyScript:
 AbraScript:
 	opentext
 	writetext AbraText
-	cry DUSMAUS
+	cry SAPPURA
 	waitbutton
 	closetext
 	end
@@ -275,8 +275,8 @@ TeleportGuyText1:
 	para "If you need to"
 	line "train some more,"
 
-	para "my ABRA can help"
-	line "you."
+	para "my SAPPURA can"
+	line "help you."
 
 	para "It can TELEPORT"
 	line "you home."
@@ -297,7 +297,7 @@ TeleportGuyNoText:
 	done
 
 AbraText:
-	text "ABRA: Aabra…"
+	text "SAPPURA: Shaa~!"
 	done
 
 IndigoPlateauPokecenter1F_MapEvents:
