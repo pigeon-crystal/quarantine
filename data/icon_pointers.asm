@@ -143,4 +143,7 @@ IconPointers:
 	dw VoltingerIcon
 	dw PekoiIcon
 	dw WyrmometerIcon
+	dw FluffruitIcon
+	dw ScruffruitIcon
+	dw PitayrantIcon
 	

@@ -99,8 +99,13 @@ ArnieHurryText:
 	line "coming or what?"
 
 	para "You're missing out"
-	line "on seeing YANMA!"
+	line "on seeing some"
+	cont "ARASBESTOS!"
 
 	para "Get down to ROUTE"
 	line "35 right now!"
+	
+	para "On the other hand,"
+	line "this is kinda"
+	cont "scary."
 	done

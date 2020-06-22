@@ -363,6 +363,7 @@ Route36Sign:
 	jumptext Route36SignText
 
 RuinsOfAlphNorthSign:
+	givepoke PITAYRANT, 5
 	jumptext RuinsOfAlphNorthSignText
 
 Route36TrainerTips1:

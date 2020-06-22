@@ -1,5 +1,5 @@
 BeverlyAskNumber1Text:
-	text "Your MARILL is so"
+	text "Your AMBINNI is"
 	line "cute and adorable!"
 
 	para "You love #MON"
@@ -13,7 +13,7 @@ BeverlyAskNumber1Text:
 	done
 
 BeverlyAskNumber2Text:
-	text "Your MARILL is so"
+	text "Your AMBINNI is"
 	line "cute and adorable!"
 
 	para "We should chat, it"
@@ -25,17 +25,17 @@ BeverlyAskNumber2Text:
 
 BeverlyNumberAcceptedText:
 	text "To be honest, I"
-	line "want a MARILL."
+	line "want an AMBINNI."
 
 	para "But I make do with"
-	line "my cute SNUBBULL."
+	line "my cute MOPERDOR."
 	done
 
 BeverlyNumberDeclinedText:
 	text "Oh… That's"
 	line "disappointing…"
 
-	para "Goodbye, MARILL…"
+	para "Goodbye, AMBINNI…"
 	done
 
 BeverlyPhoneFullText:

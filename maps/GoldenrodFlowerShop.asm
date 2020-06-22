@@ -19,7 +19,7 @@ FlowerShopTeacherScript:
 	iffalse .Lalala
 	checkflag ENGINE_PLAINBADGE
 	iffalse .NoPlainBadge
-	checkflag EVENT_GOT_BICYCLE
+	checkevent EVENT_GOT_BICYCLE
 	iffalse .GoHelpHim
 	faceplayer
 	opentext
@@ -142,6 +142,8 @@ GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
 	line "BIKE SHOP, but"
 	cont "has been too"
 	cont "mopey lately."
+	
+	para "What's that?"
 	
 	para "Oh, you have"
 	line "one of his"

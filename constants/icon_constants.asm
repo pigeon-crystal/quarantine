@@ -143,6 +143,9 @@
 	const ICON_VOLTINGER
 	const ICON_PEKOI
 	const ICON_WYRMOMETER
+	const ICON_FLUFFRUIT
+	const ICON_SCRUFFRUIT
+	const ICON_PITAYRANT
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

@@ -11,9 +11,9 @@ BeverlyMadeMonEvenCuterText:
 BeverlyDefeatedMonText:
 	text "I happened to come"
 	line "across a wild"
-	cont "SNUBBULL recently."
+	cont "MOPERDOR recently."
 
-	para "My SNUBBULL, I"
+	para "My MOPERDOR, I"
 	line "assure you, was"
 
 	para "far cuter than the"
@@ -22,7 +22,7 @@ BeverlyDefeatedMonText:
 
 BeverlyLostAMonText:
 	text "I happened to see"
-	line "a wild MARILL the"
+	line "a wild SMUCIOUS the"
 
 	para "other day."
 	line "Or so I thought."

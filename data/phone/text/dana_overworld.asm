@@ -31,7 +31,7 @@ DanaNumberAcceptedText:
 	line "I'll share some!"
 
 	para "Does that make me"
-	line "bad?"
+	line "naughty?"
 	done
 
 DanaNumberDeclinedText:

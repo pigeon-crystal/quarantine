@@ -95,7 +95,8 @@ BrentRoute25GossipText:
 
 BrentAbraGossipText:
 	text "Did you know…?"
-	line "ABRA was the first"
+	line "CREMIGO was the"
+	cont "very first"
 
 	para "#MON that BILL"
 	line "ostensibly caught."
@@ -131,6 +132,10 @@ BrentFlowerShopGossipText:
 
 	para "like the lady at"
 	line "the FLOWER SHOP."
+	
+	para "Too bad for him!"
+	line "She's with that"
+	cont "BIKE SHOP guy."
 	done
 
 BrentKimonoGirlGossipText:

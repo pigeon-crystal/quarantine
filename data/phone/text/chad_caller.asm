@@ -201,6 +201,14 @@ ChadDaisyTeaGossipText:
 
 	para "and chat about"
 	line "PROF.OAK."
+	
+	para "On the other hand,"
+	line "talking with a"
+	cont "girl about her"
+	
+	para "grandfather is"
+	line "a great way to"
+	cont "turn her off."
 	done
 
 ChadProfOakTravelingGossipText:
