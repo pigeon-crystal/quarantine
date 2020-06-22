@@ -43,12 +43,12 @@ TreeMonSet_Town:
 	db  5, GWUBBY,      20
 	db -1
 ; rare
-	db 50, WYRMOMETER,         21
-	db 15, WYRMOMETER,     21
-	db 15, WYRMOMETER,  	  21
-	db 10, WYRMOMETER,      21
-	db  5, HOPLAQUE,      22
+	db 50, WYRMOMETER,  21
+	db 15, WYRMOMETER,  21
+	db 15, WYRMOMETER,  21
+	db 10, WYRMOMETER,  21
 	db  5, KOAGAN,      22
+	db  5, HOPLAQUE,    22
 	db -1
 
 TreeMonSet_Route:

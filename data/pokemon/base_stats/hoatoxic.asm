@@ -5,7 +5,7 @@
 
 	db POISON, FLYING ; type
 	db 123 ; catch rate
-	db 123 ; base exp
+	db 139 ; base exp
 	db RED_APRICORN, PNK_APRICORN ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

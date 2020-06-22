@@ -4,9 +4,9 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, BUG ; type
-	db 230 ; catch rate
-	db 50 ; base exp
-	db NO_ITEM, MIRACLEBERRY ; items
+	db 211 ; catch rate
+	db 60 ; base exp
+	db RED_APRICORN, MIRACLEBERRY ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 15 ; step cycles to hatch

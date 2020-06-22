@@ -33,21 +33,21 @@ WhitneyGroup:
 	; WHITNEY (1)
 	db "WHITNEY@", TRAINERTYPE_NICKNAME | TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 23, NYALLEY
-		db "@"
+		db "NYALLEY@"
 		db PERFECT_DV, $de
-		dw $a011, $a91a, $c201, $a2c1, $97fa
+		dw $a011, $a91a, $c201, $a2c1, $e7fa
 		db BERRY
 		db CONFUSION, EMBER, ENCORE, METRONOME
 	db 23, ATTACKO
-		db "@"
+		db "ATTACKO@"
 		db PERFECT_DV, $19
-		dw $72fa, $92fa, $62fa, $72fa, $82fa
+		dw $e2fa, $92fa, $f2fa, $72fa, $c2fa
 		db BERRY
 		db COMET_PUNCH, DRAININGKISS, DISABLE, GLARE
 	db 25, PURRDLE
-		db "@"
+		db "PURRDLE@"
 		db $fa, $de 														    					;DVs: atk|def, spd|spc
-		dw $42fa, $52fa, $62fa, $42fa, $72fa 	;Stat exp: hp, atk, def, spd, spc
+		dw $62fa, $82fa, $e2fa, $e2fa, $92fa 	;Stat exp: hp, atk, def, spd, spc
 		db BERRY 																						;item
 		db QUICK_ATTACK, FAINT_ATTACK, REFLECT, NO_MOVE															;moves
 	db 26, MAULZER  
@@ -67,12 +67,12 @@ BugsyGroup:
 		db EVIOLITE
 		db DOUBLE_TEAM, TOXIC, FURY_CUTTER, NO_MOVE
 	db 20, SAPPURA
-		db PERFECT_DV, $ab 
-		dw $f1ef, $a2fa, $f1ef, $9a9f, $9a2f
+		db $9b, $ab 
+		dw $c1ea, $a2fa, $c1ec, $9a9d, $9a2c
 		db BERRY
 		db RAZOR_LEAF, POUND, PAIN_SPLIT, TOXIC
 	db 19, EELKIE	   
-		db $fb, $ec 
+		db $ab, $ec 
 		dw PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, $8a2f, $5bcf
 		db BERRY
 		db LICK, LEECH_SEED, CONFUSE_RAY, PROTECT
@@ -80,7 +80,7 @@ BugsyGroup:
 		db PERFECT_DV, PERFECT_DV
 		dw PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, $2f7a
 		db BERRY
-	    dw BUBBLEBEAM, MEGA_DRAIN, MUD_SLAP, GROWTH
+	    db BUBBLEBEAM, MEGA_DRAIN, MUD_SLAP, GROWTH
 	db -1 ; end
 
 MortyGroup:
@@ -1306,10 +1306,10 @@ PokemaniacGroup:
 	db 23, PHANGUARD
 	db -1 ; end
 
-	; POKEMANIAC (12) underground nonstory
-	db "DONALD@", TRAINERTYPE_NORMAL
-	db 23, VOYAPOD
-	db 23, TENDRILL
+	; POKEMANIAC (12) underground nonstory HORRIBLY BUGGED
+	db "DONALD@", TRAINERTYPE_ITEM
+	db 23, VOYAPOD, BERRY
+	db 23, TENDRILL, BERSERK_GENE
 	db -1 ; end
 
 	; POKEMANIAC (13)
@@ -2877,9 +2877,9 @@ PicnickerGroup:
 
 	; PICNICKER (3) route 35
 	db "BROOKE@", TRAINERTYPE_ITEM
-	db 24, AMBINNI
-	db 25, SMUCIOUS
-	db 24, BUNDEGRAF
+	db 24, AMBINNI, BERRY
+	db 25, SMUCIOUS, NO_ITEM
+	db 24, BUNDEGRAF, NO_ITEM
 	db -1 ; end
 
 	; PICNICKER (4) route 35
@@ -3378,9 +3378,9 @@ PokefanMGroup:
 
 	; POKEFANM (8)
 	db "JEREMY@", TRAINERTYPE_ITEM
-	db 28, MEOWTH,     BERRY
-	db 28, MEOWTH,     BERRY
-	db 28, MEOWTH,     BERRY
+	db 28, TODESCOOL,     BERRY
+	db 28, TODESCOOL,     BERRY
+	db 28, TODESCOOL,     BERRY
 	db -1 ; end
 
 	; POKEFANM (9)
@@ -3543,7 +3543,7 @@ PokefanFGroup:
 
 	; POKEFANF (6)
 	db "JAIME@", TRAINERTYPE_ITEM
-	db 16, MEOWTH,     BERRY
+	db 16, TODESCOOL,     BERRY
 	db -1 ; end
 
 RedGroup:

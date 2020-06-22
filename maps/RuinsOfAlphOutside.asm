@@ -128,8 +128,6 @@ RuinsOfAlphSign:
 	jumptext RuinsOfAlphSignText
 
 RuinsOfAlphResearchCenterSign:
-	giveitem SCALE_FOSSIL
-	giveitem BEAK_FOSSIL
 	jumptext RuinsOfAlphResearchCenterSignText
 
 MovementData_0x580ba:

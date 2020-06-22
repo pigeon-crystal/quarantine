@@ -367,7 +367,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 16, SHABBYCAT
-	db 16, WORMEEK
+	db 16, MOPERDOR
 	db 16, WORMEEK
 	db 16, FURDOBA
 	db 16, BUZZLING
@@ -376,22 +376,22 @@ JohtoGrassWildMons:
 	db 20, MAULZER
 	; day
 	db 16, SHABBYCAT
-	db 16, WORMEEK
+	db 16, MOPERDOR
 	db 16, SHABBYCAT
 	db 16, FURDOBA
 	db 16, BUZZLING
-	db 16, HOATOT
+	db 16, MOPERDOR
 	db 16, HOATOT
 	db 20, MAULZER
 	; nite
-	db 16, NYALLEY
+	db 16, MOPERDOR
 	db 16, SHABBYCAT
 	db 16, GWUBBY
-	db 16, FURDOBA
+	db 16, NYALLEY
 	db 16, NYALLEY
 	db 16, SHABBYCAT
 	db 16, JUNOBE
-	db 20, BISMUTT
+	db 20, MAULZER
 
 	map_id RUINS_OF_ALPH_OUTSIDE ;done
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -609,7 +609,7 @@ JohtoGrassWildMons:
 	db 14, CREMIGO
 	db 15, HOATOT
 	db 14, EUKUB
-	db 13, EELKIE
+	db 14, EELKIE
 	db 13, CREMIGO
 	db 15, EELKIE
 	db 14, EUKUB
@@ -618,7 +618,7 @@ JohtoGrassWildMons:
 	db 15, CREMIGO
 	db 14, HOATOT
 	db 14, EELKIE
-	db 13, EUKUB
+	db 14, EUKUB
 	db 13, CREMIGO
 	db 14, EELKIE
 	db 15, EELKIE
@@ -627,10 +627,10 @@ JohtoGrassWildMons:
 	db 15, CREMIGO
 	db 13, CREMIGO
 	db 17, CREMIGO
-	db 14, EELKIE
-	db 13, EELKIE
-	db 14, EELKIE
+	db 14, CREMIGO
+	db 14, CREMIGO
 	db 57, YUGGROMI
+	db 15, TODESCOOL
 	db 57, YUGGROMI
 
 	map_id MOUNT_MORTAR_1F_OUTSIDE ;done
@@ -1446,29 +1446,29 @@ JohtoGrassWildMons:
 	map_id ROUTE_33 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 10, NOMSTER
+	db 11, NOMSTER
 	db 11, QWAIL
 	db 11, DOLMITE
-	db 12, SHABBYCAT
-	db 12, SHABBYCAT
-	db 11, SHABBYCAT
+	db 12, WORMEEK
+	db 12, QWAIL
+	db 11, FLUFFRUIT
 	db 12, SHABBYCAT
 	db 13, SHABBYCAT
 	; day
-	db 10, NOMSTER
-	db 11, QWAIL
 	db 11, DOLMITE
-	db 12, SHABBYCAT
 	db 11, QWAIL
-	db 12, SHABBYCAT
+	db 11, NOMSTER
+	db 12, QWAIL
+	db 11, WORMEEK
+	db 12, FLUFFRUIT
 	db 12, SHABBYCAT
 	db 13, SHABBYCAT
 	; nite
 	db 11, DOLMITE
-	db 10, NOMSTER
+	db 11, NOMSTER
 	db 11, FLUFFRUIT
-	db 12, SHABBYCAT
-	db 12, SHABBYCAT
+	db 12, NOMSTER
+	db 12, FLUFFRUIT
 	db 12, SHABBYCAT
 	db 12, SHABBYCAT
 	db 13, JUNOBE
@@ -1476,30 +1476,30 @@ JohtoGrassWildMons:
 	map_id ROUTE_34 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, NOMSTER
-	db 13, NOMSTER
+	db 14, NOMSTER
+	db 14, NOMSTER
 	db 14, SAPPURA
 	db 14, AMBINNI
-	db 13, SAPPURA
+	db 15, SAPPURA
 	db 14, AMBINNI
 	db 15, MANDELBLOB
 	db 16, MANDELBLOB
 	; day
-	db 13, NOMSTER
-	db 13, NOMSTER
+	db 14, NOMSTER
+	db 14, NOMSTER
 	db 14, SAPPURA
 	db 14, AMBINNI
-	db 13, SAPPURA
+	db 15, SAPPURA
 	db 14, AMBINNI
 	db 15, MANDELBLOB
 	db 16, MANDELBLOB
 	; nite
-	db 13, NOMSTER
-	db 13, FLUFFRUIT
+	db 14, NOMSTER
+	db 14, FLUFFRUIT
 	db 14, SAPPURA
 	db 14, AMBINNI
-	db 13, SAPPURA
-	db 14, MANDELBLOB
+	db 15, SAPPURA
+	db 15, FLUFFRUIT
 	db 15, MANDELBLOB
 	db 16, JUNOBE
 
@@ -1571,8 +1571,8 @@ JohtoGrassWildMons:
 	db 15, FURNIT
 	db 16, HIVEMAIM
 	db 17, FURDOBA
-	db 16, FURDOBA
-	db 17, PEAUTY
+	db 16, PEAUTY
+	db 17, HOATOXIC
 	db 18, HOATOXIC
 	; day
 	db 17, FURNIT
@@ -1580,8 +1580,8 @@ JohtoGrassWildMons:
 	db 15, FURNIT
 	db 16, WORMEEK
 	db 17, FURDOBA
-	db 16, FURDOBA
-	db 17, PEAUTY
+	db 16, PEAUTY
+	db 17, HOATOXIC
 	db 18, HOATOXIC
 	; nite
 	db 17, GWUBBY
@@ -1614,13 +1614,13 @@ JohtoGrassWildMons:
 	db 13, MILTANK
 	db 15, MILTANK
 	; nite
-	db 16, MEOWTH
+	db 16, TODESCOOL
 	db 16, NOMSABRE
 	db 16, MAGNEMITE
 	db 16, NOCTOWL
-	db 16, MEOWTH
-	db 16, MEOWTH
-	db 16, MEOWTH
+	db 16, TODESCOOL
+	db 16, TODESCOOL
+	db 16, TODESCOOL
 	db 18, MAGNEMITE
 
 	map_id ROUTE_39 ;done
@@ -1644,13 +1644,13 @@ JohtoGrassWildMons:
 	db 15, TAUROS
 	db 18, TAUROS
 	; nite
-	db 16, MEOWTH
+	db 16, TODESCOOL
 	db 16, NOMSABRE
 	db 16, MAGNEMITE
 	db 16, NOCTOWL
-	db 18, MEOWTH
-	db 18, MEOWTH
-	db 18, MEOWTH
+	db 18, TODESCOOL
+	db 18, TODESCOOL
+	db 18, TODESCOOL
 	db 19, NOCTOWL
 
 	map_id ROUTE_42 ;done

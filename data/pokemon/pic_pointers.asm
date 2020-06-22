@@ -104,8 +104,8 @@ PokemonPicPointers::
 	dba_pic MuminiBackpic
 	dba_pic MumagnusFrontpic
 	dba_pic MumagnusBackpic
-	dba_pic MeowthFrontpic
-	dba_pic MeowthBackpic
+	dba_pic TodescoolFrontpic
+	dba_pic TodescoolBackpic
 	dba_pic JunobeFrontpic
 	dba_pic JunobeBackpic
 	dba_pic VoyapodFrontpic

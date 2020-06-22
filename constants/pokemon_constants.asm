@@ -70,7 +70,7 @@
 	const VENOMOTH   ; 31
 	const MUMINI     ; 32
 	const MUMAGNUS   ; 33
-	const MEOWTH     ; 34
+	const TODESCOOL     ; 34
 	const JUNOBE     ; 35persian
 	const VOYAPOD    ; 36psyduck
 	const EXOTUNITY  ; 37golduck

@@ -10,6 +10,7 @@ AsleepTreeMonsDay:
 	db KOAGAN
 	db FLUFFRUIT
 	db GWUBBY
+	db HOPLAQUE
 	db -1 ; end
 
 AsleepTreeMonsMorn:
@@ -17,4 +18,5 @@ AsleepTreeMonsMorn:
 	db EUKUB
 	db KOAGAN
 	db GWUBBY
+	db HOPLAQUE
 	db -1 ; end

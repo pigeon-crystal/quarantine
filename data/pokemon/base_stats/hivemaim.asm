@@ -5,8 +5,8 @@
 
 	db BUG, BUG ; type
 	db 111 ; catch rate
-	db 55 ; base exp
-	db NO_ITEM, SILVERPOWDER ; items
+	db 77 ; base exp
+	db GRN_APRICORN, SILVERPOWDER ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 15 ; step cycles to hatch

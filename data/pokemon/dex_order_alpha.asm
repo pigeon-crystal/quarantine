@@ -122,7 +122,7 @@ AlphabeticalPokedexOrder:
 	db MAROWAK
 	db MAULZER
 	db MEOWTAIN
-	db MEOWTH
+	db TODESCOOL
 	db MEW
 	db MEWTWO
 	db MILTANK

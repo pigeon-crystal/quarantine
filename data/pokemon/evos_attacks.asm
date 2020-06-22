@@ -796,16 +796,25 @@ MumagnusEvosAttacks:
 	db 55, CALM_MIND
 	db 0 ; no more level-up moves
 
-MeowthEvosAttacks:
+TodescoolEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SCRATCH
+	db 1, BUBBLE
 	db 1, GROWL
-	db 11, BITE
-	db 20, PAY_DAY
-	db 28, FAINT_ATTACK
-	db 35, SCREECH
-	db 41, FURY_SWIPES
-	db 46, SLASH
+	db 7, SLEEP_POWDER
+	db 10, MOONLIGHT
+	db 11, LICK
+	db 13, SWAGGER
+	db 15, POISONPOWDER
+	db 17, CONFUSION
+	db 18, ACID
+	db 24, SPORE
+	db 33, DRAININGKISS
+	db 37, LIGHT_SCREEN
+	db 37, REFLECT
+	db 41, MOONBLAST
+	db 46, SLUDGE_BOMB
+	db 49, RECOVER
+	db 53, PERISH_SONG
 	db 0 ; no more level-up moves
 
 JunobeEvosAttacks:
@@ -1845,7 +1854,7 @@ GanzerkerEvosAttacks:
 	db 14, SUPERSONIC
 	db 18, ROCK_THROW
 	db 24, MEAN_LOOK
-	db 27, BUBBLEBEAM
+	db 25, BUBBLEBEAM
 	db 29, WING_ATTACK
 	db 30, TWISTER
 	db 37, POWER_GEM
@@ -3576,16 +3585,19 @@ MiltankEvosAttacks:
 
 OdditullyEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POUND
-	db 4, GROWL
-	db 7, TAIL_WHIP
-	db 10, SOFTBOILED
-	db 13, DOUBLESLAP
-	db 18, MINIMIZE
-	db 23, SING
-	db 33, DEFENSE_CURL
-	db 40, LIGHT_SCREEN
-	db 47, DOUBLE_EDGE
+	db 1, BUBBLE
+	db 1, WITHDRAW
+	db 6, BITE
+	db 11, TWISTER
+	db 19, ACCELEROCK
+	db 24, CLAMP
+	db 28, DRAGONBREATH
+	db 35, ANCIENTPOWER
+	db 40, LIQUIDATION
+	db 43, ROCK_SLIDE
+	db 47, DRAGON_DANCE
+	db 53, SOFTBOILED
+	db 58, OUTRAGE
 	db 0 ; no more level-up moves
 
 RaikouEvosAttacks:

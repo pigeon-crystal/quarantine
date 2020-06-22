@@ -36,6 +36,7 @@ SpriteMons:
 	db LUGIA
 	db HO_OH
 	db GANZERKER
+	db CUTTLE
 	db TIDO
 	db MAULZER
 	db BISMUTT

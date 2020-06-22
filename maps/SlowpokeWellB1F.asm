@@ -264,7 +264,7 @@ GruntM2SeenText:
 	done
 
 GruntM2BeatenText:
-	text "Just…"
+	text "Oof…"
 	line "Too strong…"
 	done
 
@@ -278,8 +278,9 @@ GruntM2AfterBattleText:
 	done
 
 GruntF1SeenText:
-	text "Bahaha! These CUTTLE"
-	line "are so dumb!"
+	text "Bahaha! These dumb"
+	line "CUTTLE are the"
+	cont "best!"
 	
 	para "Before we started"
 	line "chopping their"

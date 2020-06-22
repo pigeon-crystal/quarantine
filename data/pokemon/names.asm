@@ -50,7 +50,7 @@ PokemonNames::
 	db "VENOMOTH@@"
 	db "MUMINI@@@@"
 	db "MUMAGNUS@@"
-	db "MEOWTH@@@@"
+	db "TODESCOOL@"
 	db "JUNOBE@@@@"
 	db "VOYAPOD@@@"
 	db "EXOTUNITY@"

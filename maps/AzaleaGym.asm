@@ -290,7 +290,7 @@ BugCatcherAlAfterBattleText:
 
 BugCatcherJoshSeenText:
 	text "You saved all the"
-	line "SLOWPOKE? Whew,"
+	line "CUTTLE? Whew,"
 	cont "you're mighty!"
 
 	para "But my grass"

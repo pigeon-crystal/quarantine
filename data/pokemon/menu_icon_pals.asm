@@ -44,18 +44,18 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; NINETAILS
 	icon_pals BROWN,   YELLOW  ; JIGGLYPUFF
 	icon_pals BROWN,   YELLOW  ; WIGGLYTUFF
-	icon_pals PINK,   YELLOW   ; STINPEON
-	icon_pals YELLOW,   YELLOW ; SCORPEROR
+	icon_pals PINK,    YELLOW  ; STINPEON
+	icon_pals YELLOW,  PINK    ; SCORPEROR
 	icon_pals GREEN,   YELLOW  ; EUKUB
 	icon_pals GREEN,   YELLOW  ; KOAGAN
-	icon_pals RED,   YELLOW	   ; POCALYPTUS
+	icon_pals RED,     YELLOW	   ; POCALYPTUS
 	icon_pals BROWN,   YELLOW  ; PARAS
 	icon_pals BROWN,   YELLOW  ; PARASECT
 	icon_pals BROWN,   YELLOW  ; VENONAT
 	icon_pals BROWN,   YELLOW  ; VENOMOTH
 	icon_pals PURPLE,   YELLOW ; MUMINI
 	icon_pals BROWN,   YELLOW  ; MUMAGNUS
-	icon_pals BROWN,   YELLOW  ; MEOWTH
+	icon_pals RED,     PURPLE  ; TODESCOOL
 	icon_pals GREEN,   YELLOW  ; JUNOBE
 	icon_pals GREEN,   YELLOW  ; VOYAPOD
 	icon_pals GREEN,   YELLOW  ; EXOTUNITY
@@ -81,7 +81,7 @@ MonMenuIconPals:
 	icon_pals GRAY,   YELLOW   ; DOLMESA
 	icon_pals GRAY,   YELLOW   ; CAIRNIVORE
 	icon_pals BROWN,   YELLOW  ; MOPERDOR
-	icon_pals BROWN,   YELLOW  ; MAJESDOR
+	icon_pals BLUE,   YELLOW  ; MAJESDOR
 	icon_pals BROWN,   YELLOW  ; SLOWPOKE
 	icon_pals BROWN,   YELLOW  ; SLOWBRO
 	icon_pals BROWN,   YELLOW  ; MAGNEMITE
@@ -168,7 +168,7 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; FURRET 
 	icon_pals BROWN,   YELLOW  ; HOOTHOOT
 	icon_pals BROWN,   YELLOW  ; NOCTOWL
-	icon_pals PURPLE,   YELLOW ; WORMEEK
+	icon_pals BROWN,   YELLOW  ; WORMEEK
 	icon_pals BROWN,   YELLOW  ; WORMACHO
 	icon_pals PINK,   YELLOW   ; GWUBBY
 	icon_pals RED,   YELLOW    ; GRUBBOID

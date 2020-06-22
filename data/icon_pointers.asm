@@ -73,6 +73,12 @@ IconPointers:
 	dw StiklbratIcon
 	dw SidficiousIcon
 	dw SlaatelIcon
+	dw WormeekIcon
+	dw StinpeonIcon
+	dw ScorperorIcon
+	dw EukubIcon
+	dw KoaganIcon
+	dw PocalyptusIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon

@@ -1,12 +1,12 @@
 	db ORGNOME ; 
 
-	db  76,  50,  85,  41, 79,  59
+	db  76,  51,  85,  41, 79,  59
 	;   hp  atk  def  spd  sat  sdf
 
 	db DARK, WATER ; type
 	db 111 ; catch rate
-	db 119 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	db 133 ; base exp
+	db GRN_APRICORN, GRN_APRICORN ; items
 	db GENDER_F12_5 ; gender ratio
 	db 100 ; unknown 1
 	db 20 ; step cycles to hatch

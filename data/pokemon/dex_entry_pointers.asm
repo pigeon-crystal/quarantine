@@ -51,7 +51,7 @@ PokedexDataPointerTable:
 	dw VenomothPokedexEntry
 	dw MuminiPokedexEntry
 	dw MumagnusPokedexEntry
-	dw MeowthPokedexEntry
+	dw TodescoolPokedexEntry
 	dw JunobePokedexEntry
 	dw VoyapodPokedexEntry
 	dw ExotunityPokedexEntry

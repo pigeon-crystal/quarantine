@@ -15,7 +15,7 @@ CeladonMansionManager:
 CeladonMansion1FMeowth:
 	opentext
 	writetext CeladonMansion1FMeowthText
-	cry MEOWTH
+	cry TODESCOOL
 	waitbutton
 	closetext
 	end

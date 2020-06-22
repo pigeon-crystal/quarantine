@@ -22,11 +22,11 @@ FishGroups:
 	fishgroup 50 percent + 1, .Pekoi_NoSwarm_Old, .Pekoi_NoSwarm_Good, .Pekoi_NoSwarm_Super
 
 .Shore_Old:
-	db  70 percent + 1, MAGIKARP,   10
-	db  85 percent + 1, MAGIKARP,   10
+	db  70 percent + 1, LANATUN,   10
+	db  85 percent + 1, LANATUN,   10
 	db 100 percent,     LANATUN,     10
 .Shore_Good:
-	db  35 percent,     MAGIKARP,   20
+	db  35 percent,     LANATUN,   20
 	db  70 percent,     LANATUN,     20
 	db  90 percent + 1, LANATUN,     20
 	db 100 percent,     time_group 0
@@ -37,9 +37,9 @@ FishGroups:
 	db 100 percent,     PEPOFFER,    40
 
 .Ocean_Old:
-	db  70 percent + 1, MAGIKARP,   10
-	db  85 percent + 1, MAGIKARP,   10
-	db 100 percent,     TENTACOOL,  10
+	db  70 percent + 1, STRANGLURE,   10
+	db  85 percent + 1, STRANGLURE,   10
+	db 100 percent,     STRANGLURE,  10
 .Ocean_Good:
 	db  35 percent,     MAGIKARP,   20
 	db  70 percent,     TENTACOOL,  20
@@ -82,9 +82,9 @@ FishGroups:
 	db 100 percent,     PEPOFFER,    50
 
 .Dratini_Old:
-	db  70 percent + 1, MAGIKARP,   10
-	db  85 percent + 1, MAGIKARP,   10
-	db 100 percent,     MAGIKARP,   10
+	db  70 percent + 1, LANATUN,   10
+	db  85 percent + 1, LANATUN,   10
+	db 100 percent,     HOPLAQUE,   10
 .Dratini_Good:
 	db  35 percent,     MAGIKARP,   20
 	db  70 percent,     MAGIKARP,   20
@@ -112,8 +112,8 @@ FishGroups:
 	db 100 percent,     PEKOI,   40
 
 .Stiklbrat_Swarm_Old:
-	db  70 percent + 1, MAGIKARP,   10
-	db  85 percent + 1, MAGIKARP,   10
+	db  70 percent + 1, LANATUN,   10
+	db  85 percent + 1, LANATUN,   10
 	db 100 percent,     STIKLBRAT,   10
 .Stiklbrat_Swarm_Good:
 	db  35 percent,     MAGIKARP,   20
@@ -127,9 +127,9 @@ FishGroups:
 	db 100 percent,     STIKLBRAT,   40
 
 .Gyarados_Old:
-	db  70 percent + 1, MAGIKARP,   10
-	db  85 percent + 1, MAGIKARP,   10
-	db 100 percent,     MAGIKARP,   10
+	db  70 percent + 1, LANATUN,   10
+	db  85 percent + 1, LANATUN,   10
+	db 100 percent,     LANATUN,   10
 .Gyarados_Good:
 	db  35 percent,     MAGIKARP,   20
 	db  70 percent,     MAGIKARP,   20
@@ -142,9 +142,9 @@ FishGroups:
 	db 100 percent,     MAGIKARP,   40
 
 .Dratini_2_Old:
-	db  70 percent + 1, MAGIKARP,   10
-	db  85 percent + 1, MAGIKARP,   10
-	db 100 percent,     MAGIKARP,   10
+	db  70 percent + 1, LANATUN,   10
+	db  85 percent + 1, LANATUN,   10
+	db 100 percent,     HOPLAQUE,   10
 .Dratini_2_Good:
 	db  35 percent,     MAGIKARP,   10
 	db  70 percent,     MAGIKARP,   10
@@ -190,9 +190,9 @@ FishGroups:
 	db 100 percent,     PEKOI,   40
 
 .Stiklbrat_Old:
-	db  70 percent + 1, MAGIKARP,   10
-	db  85 percent + 1, MAGIKARP,   10
-	db 100 percent,     CREMIGO,    10
+	db  70 percent + 1, LANATUN,   10
+	db  85 percent + 1, LANATUN,   10
+	db 100 percent,     LANATUN,    10
 .Stiklbrat_Good:
 	db  35 percent,     MAGIKARP,   20
 	db  70 percent,     STIKLBRAT,    20

@@ -52,7 +52,7 @@ EvosAttacksPointers::
 	dw VenomothEvosAttacks
 	dw MuminiEvosAttacks
 	dw MumagnusEvosAttacks
-	dw MeowthEvosAttacks
+	dw TodescoolEvosAttacks
 	dw JunobeEvosAttacks
 	dw VoyapodEvosAttacks
 	dw ExotunityEvosAttacks

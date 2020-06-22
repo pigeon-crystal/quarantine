@@ -69,7 +69,6 @@ VioletCityYoungsterScript:
 	jumptextfaceplayer VioletCityYoungsterText
 
 VioletCitySign:
-	givepoke MANDELBLOB, 5
 	jumptext VioletCitySignText
 
 VioletGymSign:

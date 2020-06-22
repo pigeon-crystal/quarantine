@@ -138,7 +138,7 @@ NewPokedexOrder:
 	db MUMAGNUS
 	db MANKEY
 	db PRIMEAPE
-	db MEOWTH
+	db TODESCOOL
 	db JUNOBE
 	db VOYAPOD
 	db EXOTUNITY

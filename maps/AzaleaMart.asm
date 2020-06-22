@@ -33,14 +33,15 @@ AzaleaMartCooltrainerMText:
 	done
 
 AzaleaMartBugCatcherText:
-	text "A GREAT BALL is"
-	line "better for catch-"
-	cont "ing #MON than a"
-	cont "# BALL."
+	text "I'm stocking up"
+	line "on # DOLLS"
+	cont "before I head"
+	cont "to ILEX FOREST."
 
-	para "But KURT's might"
-	line "be better some-"
-	cont "times."
+	para "Why, you ask?"
+	
+	para "Hope you don't"
+	line "have to find out."
 	done
 
 AzaleaMart_MapEvents:

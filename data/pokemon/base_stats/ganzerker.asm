@@ -6,7 +6,7 @@
 	db WATER, FLYING ; type
 	db 11 ; catch rate
 	db 145 ; base exp
-	db NO_ITEM, BERSERK_GENE ; items
+	db MIRACLEBERRY, MIRACLEBERRY ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 20 ; step cycles to hatch

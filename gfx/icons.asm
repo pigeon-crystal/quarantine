@@ -73,6 +73,12 @@ WirigibleIcon:    INCBIN "gfx/icons/wirigible.2bpp"
 StiklbratIcon:    INCBIN "gfx/icons/stiklbrat.2bpp"
 SidficiousIcon:   INCBIN "gfx/icons/sidficious.2bpp"
 SlaatelIcon:      INCBIN "gfx/icons/slaatel.2bpp"
+WormeekIcon:      INCBIN "gfx/icons/wormeek.2bpp"
+StinpeonIcon:     INCBIN "gfx/icons/stinpeon.2bpp"
+ScorperorIcon:    INCBIN "gfx/icons/scorperor.2bpp"
+EukubIcon:        INCBIN "gfx/icons/eukub.2bpp"
+KoaganIcon:       INCBIN "gfx/icons/koagan.2bpp"
+PocalyptusIcon:   INCBIN "gfx/icons/pocalyptus.2bpp"
 
 SECTION "Mon Icons 2", ROMX
 
@@ -140,6 +146,3 @@ BundegrafIcon:    INCBIN "gfx/icons/bundegraf.2bpp"
 VoltingerIcon:    INCBIN "gfx/icons/voltinger.2bpp"
 PekoiIcon:        INCBIN "gfx/icons/pekoi.2bpp"
 WyrmometerIcon:   INCBIN "gfx/icons/wyrmometer.2bpp"
-
-
-

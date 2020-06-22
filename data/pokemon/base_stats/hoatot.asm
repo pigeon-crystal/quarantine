@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db POISON, NORMAL ; type
-	db 250 ; catch rate
-	db 45 ; base exp
+	db 250  ; catch rate
+	db 55   ; base exp
 	db PNK_APRICORN, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

@@ -1,11 +1,11 @@
 	db WORMEEK ;
 
-	db  46,  54,  54,  29, 25,  50
+	db  47,  55,  55,  29, 26,  51
 	;   hp  atk  def  spd  sat  sdf
 
 	db GROUND, BUG ; type
-	db 242 ; catch rate
-	db 50 ; base exp
+	db 240 ; catch rate
+	db 53 ; base exp
 	db NO_ITEM, BRIGHTPOWDER ; items
 	db GENDER_F25 ; gender ratio
 	db 100 ; unknown 1

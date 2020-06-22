@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db POISON, ROCK ; type
-	db 109 ; catch rate
-	db 95 ; base exp
+	db 100 ; catch rate
+	db 111 ; base exp
 	db POISON_BARB, BERRY ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

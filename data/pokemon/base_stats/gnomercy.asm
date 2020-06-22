@@ -6,7 +6,7 @@
 	db DARK, GRASS ; type
 	db 45 ; catch rate
 	db 221 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	db GRN_APRICORN, GRN_APRICORN ; items
 	db GENDER_F12_5 ; gender ratio
 	db 100 ; unknown 1
 	db 20 ; step cycles to hatch

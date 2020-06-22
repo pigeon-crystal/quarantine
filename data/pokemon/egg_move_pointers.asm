@@ -50,7 +50,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw MuminiEggMoves
 	dw NoEggMoves
-	dw MeowthEggMoves
+	dw TodescoolEggMoves
 	dw JunobeEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

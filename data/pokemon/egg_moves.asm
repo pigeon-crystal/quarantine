@@ -144,11 +144,12 @@ MuminiEggMoves:
 	db ACCELEROCK
 	db -1 ; end
 
-MeowthEggMoves:
+TodescoolEggMoves:
 	db SPITE
 	db CHARM
 	db HYPNOSIS
 	db AMNESIA
+	db SELFDESTRUCT
 	db -1 ; end
 
 JunobeEggMoves:

@@ -121,7 +121,7 @@ INCBIN "gfx/footprints/venonat.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/venomoth.1bpp",   footprint_top
 INCBIN "gfx/footprints/mumini.1bpp",    footprint_top
 INCBIN "gfx/footprints/mumagnus.1bpp",    footprint_top
-INCBIN "gfx/footprints/meowth.1bpp",     footprint_top
+INCBIN "gfx/footprints/todescool.1bpp",     footprint_top
 INCBIN "gfx/footprints/junobe.1bpp",    footprint_top
 INCBIN "gfx/footprints/voyapod.1bpp",    footprint_top
 INCBIN "gfx/footprints/exotunity.1bpp",    footprint_top
@@ -130,7 +130,7 @@ INCBIN "gfx/footprints/mankey.1bpp",     footprint_top
 INCBIN "gfx/footprints/venomoth.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/mumini.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/mumagnus.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/meowth.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/todescool.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/junobe.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/voyapod.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/exotunity.1bpp",    footprint_bottom

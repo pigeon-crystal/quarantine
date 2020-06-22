@@ -56,7 +56,7 @@ PokemonCries::
 	mon_cry CRY_VENONAT,      41,  256 ; VENOMOTH
 	mon_cry CRY_CLEFFA,       14,  229 ; MUMINI
 	mon_cry CRY_GROWLITHE,    -4,  392 ; MUMAGNUS
-	mon_cry CRY_CLEFAIRY,    119,  144 ; MEOWTH
+	mon_cry CRY_BULBASAUR,    39,  144 ; TODESCOOL
 	mon_cry CRY_DIGLETT,     275,  383 ; JUNOBE
 	mon_cry CRY_DIGLETT,     300,  400 ; VOYAPOD
 	mon_cry CRY_DIGLETT,     185,  400 ; EXOTUNITY
@@ -116,8 +116,8 @@ PokemonCries::
 	mon_cry CRY_MARILL,       200, 420 ; LEAFFIGY
 	mon_cry CRY_MARILL,       122, 500 ; SAKURONNA
 	mon_cry CRY_CHARMANDER,    0,  256 ; CUTTLE
-	mon_cry CRY_RHYDON,        0,  256 ; TENDRILL
-	mon_cry CRY_PIDGEOTTO,    10,  320 ; CALARMOURI
+	mon_cry CRY_RHYDON,        1,  256 ; TENDRILL
+	mon_cry CRY_RHYDON,      -10,  320 ; CALARMOURI
 	mon_cry CRY_GOLEM,         0,  256 ; TANGELA
 	mon_cry CRY_KANGASKHAN,    0,  256 ; KANGASKHAN
 	mon_cry CRY_CLEFAIRY,    153,  144 ; HORSEA

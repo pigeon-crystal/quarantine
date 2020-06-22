@@ -1,6 +1,6 @@
 	db TENDRILL ; 096
 
-	db  70,  67,  70,  76,  84,  45
+	db  70,  68,  70,  76,  84,  45
 	;   hp  atk  def  spd  sat  sdf
 
 	db STEEL, GROUND ; type
@@ -14,7 +14,7 @@
 	INCBIN "gfx/pokemon/tendrill/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_WATER_3, EGG_WATER_1 ; egg groups
+	dn EGG_WATER_1, EGG_WATER_3 ; egg groups
 
 	; tm/hm learnset
 	tmhm HEADBUTT, CURSE, ROLLOUT, ROCK_SMASH, HIDDEN_POWER, SWEET_SCENT, SNORE, PROTECT, RAIN_DANCE, ENDURE, FRUSTRATION, EARTHQUAKE, RETURN, DIG, MUD_SLAP, DOUBLE_TEAM, SLEEP_TALK, SANDSTORM, SWIFT, DETECT, REST, ATTRACT, SURF, WHIRLPOOL

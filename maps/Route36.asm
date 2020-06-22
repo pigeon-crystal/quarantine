@@ -83,6 +83,7 @@ WateredWeirdTreeScript:: ; export (for when you use Squirtbottle from pack)
 	writetext SudowoodoAttackedText
 	waitbutton
 	closetext
+	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
 	loadwildmon GANZERKER, 26
 	startbattle
 	setevent EVENT_FOUGHT_SUDOWOODO
@@ -362,8 +363,6 @@ Route36Sign:
 	jumptext Route36SignText
 
 RuinsOfAlphNorthSign:
-	givepoke MOSSARRE, 50
-	givepoke ZEPPLIUM, 50
 	jumptext RuinsOfAlphNorthSignText
 
 Route36TrainerTips1:

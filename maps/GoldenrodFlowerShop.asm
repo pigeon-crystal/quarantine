@@ -149,6 +149,7 @@ GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
 	
 	para "In that case,"
 	line "here you go!"
+	done
 
 GoldenrodFlowerShopTeacherDontDoAnythingDangerousText:
 	text "My boyfriend got"

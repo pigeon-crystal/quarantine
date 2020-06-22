@@ -161,14 +161,14 @@ Moves:: ; 41afb
 	move SPORE,        EFFECT_SLEEP,               0, GRASS,    	STATUS,   100, 15,   0
 	move FLASH,        EFFECT_ACCURACY_DOWN_HIT,  22, ELECTRIC, 	SPECIAL,  100, 10, 100
 	move PSYWAVE,      EFFECT_PSYWAVE,             1, PSYCHIC_TYPE, SPECIAL,  100, 15,   0
-	move ICICLE_CRASH, EFFECT_FLINCH_HIT,         85, ICE,      	PHYSICAL, 90,  10,  30
+	move ICICLE_CRASH, EFFECT_FLINCH_HIT,         85, ICE,      	PHYSICAL,  90, 10,  31
 	move WILL_O_WISP,  EFFECT_BURN,           	   0, FIRE,     	STATUS,    85, 15,   0
 	move CRABHAMMER,   EFFECT_NORMAL_HIT,        100, WATER,    	PHYSICAL,  90, 10,   0
 	move EXPLOSION,    EFFECT_SELFDESTRUCT,      250, NORMAL,   	PHYSICAL, 100,  5,   0
 	move FURY_SWIPES,  EFFECT_MULTI_HIT,          18, NORMAL,   	PHYSICAL,  90, 15,   0
 	move BONEMERANG,   EFFECT_DOUBLE_HIT,         53, GROUND,   	PHYSICAL,  90, 10,   0
 	move REST,         EFFECT_HEAL,                0, PSYCHIC_TYPE, STATUS,   100, 10,   0
-	move ROCK_SLIDE,   EFFECT_FLINCH_HIT,         75, ROCK,     	PHYSICAL,  90, 10,  30
+	move ROCK_SLIDE,   EFFECT_FLINCH_HIT,         75, ROCK,     	PHYSICAL,  92, 10,  30
 	move HYPER_FANG,   EFFECT_FLINCH_HIT,         80, NORMAL,   	PHYSICAL,  95, 15,  15
 	move SHARPEN,      EFFECT_ATTACK_UP,           0, NORMAL,   	STATUS,   100, 30,   0
 	move CONVERSION,   EFFECT_CONVERSION,         20, NORMAL,   	PHYSICAL, 100, 30,   0
@@ -216,9 +216,9 @@ Moves:: ; 41afb
 	move GIGA_DRAIN,   EFFECT_LEECH_HIT,          75, GRASS,    	SPECIAL,  100,  5,   0
 	move ENDURE,       EFFECT_ENDURE,              0, NORMAL,   	STATUS,   100, 10,   0
 	move CHARM,        EFFECT_ATTACK_DOWN_2,       0, FAIRY,    	STATUS,   100, 20,   0
-	move ROLLOUT,      EFFECT_ROLLOUT,            30, ROCK,     	PHYSICAL,  90, 20,   0
+	move ROLLOUT,      EFFECT_ROLLOUT,            31, ROCK,     	PHYSICAL,  92, 20,   0
 	move FALSE_SWIPE,  EFFECT_FALSE_SWIPE,        45, NORMAL,   	PHYSICAL, 100, 40,   0
-	move SWAGGER,      EFFECT_SWAGGER,             0, NORMAL,   	STATUS,    90, 15, 100
+	move SWAGGER,      EFFECT_SWAGGER,             0, NORMAL,   	STATUS,    95, 15, 100
 	move MILK_DRINK,   EFFECT_HEAL,                0, NORMAL,   	STATUS,   100, 10,   0
 	move SPARK,        EFFECT_PARALYZE_HIT,       65, ELECTRIC, 	PHYSICAL, 100, 20,  35
 	move FURY_CUTTER,  EFFECT_FURY_CUTTER,        40, BUG,      	PHYSICAL,  95, 20,   0

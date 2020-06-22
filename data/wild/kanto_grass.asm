@@ -324,7 +324,7 @@ KantoGrassWildMons:
 	db 18, JIGGLYPUFF
 	; nite
 	db 13, HOOTHOOT
-	db 13, MEOWTH
+	db 13, TODESCOOL
 	db 15, NOCTOWL
 	db 12, AMBINNI
 	db 14, JIGGLYPUFF
@@ -353,7 +353,7 @@ KantoGrassWildMons:
 	db 15, GRIMPACT
 	db 20, MAGNEMITE
 	; nite
-	db 13, MEOWTH
+	db 13, TODESCOOL
 	db 13, EELKIE
 	db 14, MAGNEMITE
 	db 15, VOYAPOD
@@ -383,7 +383,7 @@ KantoGrassWildMons:
 	db 16, AMBINNI
 	db 20, JIGGLYPUFF
 	; nite
-	db 17, MEOWTH
+	db 17, TODESCOOL
 	db 17, BISMUTT
 	db 18, HOUNDOUR
 	db 18, JUNOBE
@@ -413,7 +413,7 @@ KantoGrassWildMons:
 	db 18, BUNDEGRAF
 	db 20, BUNDEGRAF
 	; nite
-	db 17, MEOWTH
+	db 17, TODESCOOL
 	db 20, NOCTOWL
 	db 16, AMBINNI
 	db 17, SCRUFFRUIT
@@ -504,7 +504,7 @@ KantoGrassWildMons:
 	db 20, MAGNEMITE
 	; nite
 	db 14, EELKIE
-	db 13, MEOWTH
+	db 13, TODESCOOL
 	db 15, MAGNEMITE
 	db 16, NOCTOWL
 	db 16, NOMSABRE

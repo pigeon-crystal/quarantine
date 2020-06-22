@@ -33,24 +33,24 @@ JohtoWaterWildMons:
 
 	map_id SLOWPOKE_WELL_B1F ;done
 	db 2 percent ; encounter rate
-	db 15, SLOWPOKE
-	db 20, SLOWPOKE
-	db 10, SLOWPOKE
-	db 25, SLOWBRO
+	db 15, CUTTLE
+	db 20, CUTTLE
+	db 10, TENDRILL
+	db 25, TENDRILL
 
 	map_id SLOWPOKE_WELL_B2F ;done
 	db 2 percent ; encounter rate
-	db 15, SLOWPOKE
-	db 20, SLOWPOKE
-	db 20, SLOWBRO
-	db 25, SLOWBRO
+	db 15, CUTTLE
+	db 20, CUTTLE
+	db 10, TENDRILL
+	db 25, TENDRILL
 
 	map_id ILEX_FOREST ;done
-	db 2 percent ; encounter rate
-	db 15, VOYAPOD
-	db 10, VOYAPOD
-	db 15, EXOTUNITY
-	db 25, GOOSAPLING
+	db 3 percent ; encounter rate
+	db 25, LANATUN
+	db 25, STIKLBRAT
+	db 25, TODESCOOL
+	db 25, TODESCOOL
 
 	map_id MOUNT_MORTAR_1F_OUTSIDE ;done
 	db 4 percent ; encounter rate

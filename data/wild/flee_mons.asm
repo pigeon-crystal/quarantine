@@ -14,5 +14,5 @@ OftenFleeMons:
 
 AlwaysFleeMons:
 	db RAIKOU
-	db SLAATEL
+	;db SLAATEL
 	db -1
