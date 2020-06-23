@@ -1,6 +1,6 @@
 	db CIGERILLAR ; 
 	
-    db  50,  30,  40,  70,  60,  55
+    db  50,  30,  40,  70,  65,  55
     ;   hp  atk  def  spd  sat  sdf
  
     db GRASS, BUG ; type

@@ -124,6 +124,6 @@ TreeMonSet_Forest:
 	db -1
 
 TreeMonSet_Rock:
-	db 90, DOLMESA,      34
-	db 10, RESPECTRE,    35
+	db 90, DOLMESA,      27
+	db 10, RESPECTRE,    27
 	db -1

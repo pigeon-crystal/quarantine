@@ -608,6 +608,8 @@ TidoEggMoves:
 	db -1 ;end
 
 MaulzerEggMoves:
+	db BITE
+	db QUICK_ATTACK
 	db SCREECH
 	db HACKLES_UP
 	db BONE_RUSH

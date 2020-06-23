@@ -19,12 +19,12 @@ FalknerGroup:
 	db "FALKNER@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 13, HOATOXIC
 		db $ec, $dc
-		dw $9099, $9099, $f0af, $f0aa, $90aa
+		dw $a099, $9099, $90af, $f0aa, $a0aa
 		db  BERRY
 		db  PECK, MUD_SLAP, ACID, POISON_STING
 	db 14, FURDOBA
 		db $ed, $de
-		dw $f1ef, $9100, $f1ef, $911f, $961f
+		dw $91ef, $9100, $91ef, $a11f, $a61f
 		db BERRY
 		db MUD_SLAP, GUST, SANDSTORM, PROTECT
 	db -1 ; end
@@ -32,53 +32,53 @@ FalknerGroup:
 WhitneyGroup:
 	; WHITNEY (1)
 	db "WHITNEY@", TRAINERTYPE_NICKNAME | TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
-	db 23, NYALLEY
+	db 25, NYALLEY
 		db "NYALLEY@"
 		db PERFECT_DV, $de
-		dw $a011, $a91a, $c201, $a2c1, $e7fa
+		dw $ac11, $a91a, $c201, $a2c1, $e7fa
 		db BERRY
-		db CONFUSION, EMBER, ENCORE, METRONOME
-	db 23, ATTACKO
+		db CONFUSION, ATTRACT, ENCORE, METRONOME
+	db 24, ATTACKO
 		db "ATTACKO@"
-		db PERFECT_DV, $19
-		dw $e2fa, $92fa, $f2fa, $72fa, $c2fa
+		db PERFECT_DV, PERFECT_DV
+		dw $e2fa, $a2fa, $f2fa, $a2fa, $c2fa
 		db BERRY
 		db COMET_PUNCH, DRAININGKISS, DISABLE, GLARE
 	db 25, PURRDLE
 		db "PURRDLE@"
 		db $fa, $de 														    					;DVs: atk|def, spd|spc
-		dw $62fa, $82fa, $e2fa, $e2fa, $92fa 	;Stat exp: hp, atk, def, spd, spc
+		dw $f2fa, $82fa, $e2fa, $e2fa, $92fa 	;Stat exp: hp, atk, def, spd, spc
 		db BERRY 																						;item
-		db QUICK_ATTACK, FAINT_ATTACK, REFLECT, NO_MOVE															;moves
+		db QUICK_ATTACK, FAINT_ATTACK, REFLECT, BITE															;moves
 	db 26, MAULZER  
 		db "SNUGGLES@"
 		db ATKDEFDV_SHINY, SPDSPCDV_SHINY
 		dw PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP 	;Stat exp: hp, atk, def, spd, spc
-		db BERRY 																					
-		db FORESIGHT, HACKLES_UP, BITE, NO_MOVE
+		db MIRACLEBERRY 																					
+		db FORESIGHT, HACKLES_UP, BITE, REST
 	db -1 ; end
 
 BugsyGroup:
 	; BUGSY (1)
 	db "BUGSY@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
+	db 20, SAPPURA
+		db $9b, $ab 
+		dw $c1ea, $a2fa, $c1ec, $fa9d, $fa2c
+		db BERRY
+		db RAZOR_LEAF, POUND, PAIN_SPLIT, TOXIC
 	db 25, BUZZLING  
 		db PERFECT_DV, PERFECT_DV
 		dw PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP
 		db EVIOLITE
 		db DOUBLE_TEAM, TOXIC, FURY_CUTTER, NO_MOVE
-	db 20, SAPPURA
-		db $9b, $ab 
-		dw $c1ea, $a2fa, $c1ec, $9a9d, $9a2c
-		db BERRY
-		db RAZOR_LEAF, POUND, PAIN_SPLIT, TOXIC
-	db 19, EELKIE	   
-		db $ab, $ec 
-		dw PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, $8a2f, $5bcf
+	db 20, EELKIE	   
+		db $9b, $e9 
+		dw PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, $4a2f, $4bcf
 		db BERRY
 		db LICK, LEECH_SEED, CONFUSE_RAY, PROTECT
 	db 21, ORGNOME
 		db PERFECT_DV, PERFECT_DV
-		dw PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, $2f7a
+		dw PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, $5f7a
 		db BERRY
 	    db BUBBLEBEAM, MEGA_DRAIN, MUD_SLAP, GROWTH
 	db -1 ; end
@@ -2431,13 +2431,14 @@ HikerGroup:
 	db 27, MUMAGNUS,    MAGNITUDE, DIG, SAND_ATTACK, SLASH
 	db -1 ; end
 
-	; HIKER (11)
+	; HIKER (11) route 46
 	db "BAILEY@", TRAINERTYPE_NORMAL
-	db 13, DOLMITE
-	db 13, DOLMITE
-	db 13, DOLMITE
-	db 13, DOLMITE
-	db 13, DOLMITE
+	db 25, DOLMITE
+	db 25, DOLMITE
+	db 25, DOLMITE
+	db 25, DOLMITE
+	db 25, DOLMITE
+	db 27, DOLMESA
 	db -1 ; end
 
 	; HIKER (12) Anthony 3
@@ -2916,10 +2917,11 @@ PicnickerGroup:
 	db 17, IVYSAUR
 	db -1 ; end
 
-	; PICNICKER (10)
+	; PICNICKER (10) route 46
 	db "ERIN@", TRAINERTYPE_NORMAL
-	db 16, MOPERDOR
-	db 16, MOPERDOR
+	db 25, MOPERDOR
+	db 25, MOPERDOR
+	db 27, LEAFFIGY
 	db -1 ; end
 
 	; PICNICKER (11) Liz 2
@@ -3079,9 +3081,9 @@ CamperGroup:
 	db 15, NIDORINO
 	db -1 ; end
 
-	; CAMPER (11)
+	; CAMPER (11) route 46
 	db "TED@", TRAINERTYPE_NORMAL
-	db 17, MANKEY
+	db 29, BISMUTT
 	db -1 ; end
 
 	; CAMPER (12) Todd 2
@@ -3238,11 +3240,11 @@ SageGroup:
 	; SAGE (9) ;sprout boss
 	db "LI@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 11, LAWNIE
-		dw $11F1, $1F11, $666A, $E190, $710D
+		dw $F1F1, $1F11, $696A, $E190, $710D
 		db BERRY
-		db BEAT_UP, MUD_SLAP, DIG, SWIFT
+		db BEAT_UP, DIG, SWIFT, NO_MOVE
 	db 11, FLUFFRUIT
-		dw $BF1D, $AF6F, $7D1D, $B710, $710D
+		dw $7F1D, $7F6F, $7D1D, $9710, $710D
 		db MIRACLE_SEED
 		db ABSORB, GROWTH, GUST, ATTRACT
 	db 12, LAWNIE

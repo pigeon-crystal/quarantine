@@ -1,6 +1,6 @@
 	db TOBACOON ;
 	
-    db 76,  55,  71,   66,  76,  71
+    db 76,  55,  70,   66,  80,  70
     ;   hp  atk  def  spd  sat  sdf
  
     db GRASS, BUG ; type

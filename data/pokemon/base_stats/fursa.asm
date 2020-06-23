@@ -1,6 +1,6 @@
 	db FURSA ;
 	
-    db  61,  61,  61,  43,  30,  49
+    db  61,  61,  61,  43,  35,  49
     ;   hp  atk  def  spd  sat  sdf
  
     db WATER, WATER ; type
