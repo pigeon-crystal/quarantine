@@ -3,7 +3,7 @@
 	db  49,  54,  44,  86,  44,  46
 	;   hp  atk  def  spd  sat  sdf
 
-	db GROUND, ELECTRIC ; type
+	db ELECTRIC, GROUND ; type
 	db 120 ; catch rate
 	db 64 ; base exp
 	db YLW_APRICORN, YLW_APRICORN ; items

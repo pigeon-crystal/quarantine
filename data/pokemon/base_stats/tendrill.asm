@@ -1,6 +1,6 @@
 	db TENDRILL ; 096
 
-	db  70,  68,  70,  76,  84,  45
+	db  70,  68,  70,  45,  76,  84
 	;   hp  atk  def  spd  sat  sdf
 
 	db STEEL, GROUND ; type
@@ -13,7 +13,7 @@
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/tendrill/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_WATER_1, EGG_WATER_3 ; egg groups
 
 	; tm/hm learnset

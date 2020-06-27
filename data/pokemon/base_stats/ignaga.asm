@@ -1,11 +1,11 @@
 	db IGNAGA ; 190
 
-	db  95,  60,  77,  92,  108,  93
+	db  95,  60,  77,  90,  108,  95
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, NORMAL ; type
 	db 61 ; catch rate
-	db 152 ; base exp
+	db 184 ; base exp
 	db RED_APRICORN, GOLD_BERRY ; items
 	db GENDER_F75 ; gender ratio
 	db 100 ; unknown 1

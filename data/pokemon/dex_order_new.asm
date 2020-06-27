@@ -149,7 +149,7 @@ NewPokedexOrder:
 	db HITMONLEE
 	db HITMONCHAN
 	db HITMONTOP
-	db GIRAFARIG
+	db SWAZZAGE
 	db TAUROS
 	db MILTANK
 	db MAGBY
@@ -197,7 +197,7 @@ NewPokedexOrder:
 	db PILOSWINE
 	db PHANPY
 	db DONPHAN
-	db MANTINE
+	db KRAKENTOA
 	db SKARMORY
 	db DODUO
 	db DODRIO
@@ -222,7 +222,7 @@ NewPokedexOrder:
 	db ODDITULLY
 	db OMANYTE
 	db OMASTAR
-	db KABUTO
+	db BELLOCEROS
 	db KABUTOPS
 	db AERODACTYL
 	db SNORLAX

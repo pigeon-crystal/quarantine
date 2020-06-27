@@ -1,6 +1,6 @@
 	db TODESCOOL ; 142
 
-	db  137, 55,  77, 52,  77,  77
+	db  140, 55,  77, 50,  77,  77
 	;   hp  atk  def  spd  sat  sdf
 
 	db POISON, FAIRY ; type

@@ -144,7 +144,7 @@ PokemonCries::
 	mon_cry CRY_WEEPINBELL,  170,  383 ; PORYGON
 	mon_cry CRY_GROWLITHE,   240,  129 ; OMANYTE
 	mon_cry CRY_GROWLITHE,   255,  192 ; OMASTAR
-	mon_cry CRY_CATERPIE,    187,  192 ; KABUTO
+	mon_cry CRY_CATERPIE,    187,  192 ; BELLOCEROS
 	mon_cry CRY_FEAROW,      238,  129 ; KABUTOPS
 	mon_cry CRY_VILEPLUME,    32,  368 ; AERODACTYL
 	mon_cry CRY_GRIMER,       85,  129 ; SNORLAX
@@ -207,7 +207,7 @@ PokemonCries::
 	mon_cry CRY_TYPHLOSION, -700,  270 ; MAULZER
 	mon_cry CRY_HOOTHOOT,    354,  256 ; UNOWN
 	mon_cry CRY_DUNSPARCE,   273,  369 ; RESPECTRE
-	mon_cry CRY_GIRAFARIG,    65,  512 ; GIRAFARIG
+	mon_cry CRY_GIRAFARIG,    65,  512 ; SWAZZAGE
 	mon_cry CRY_SLOWKING,    128,  256 ; PINECO
 	mon_cry CRY_SLOWKING,      0,  384 ; FORRETRESS
 	mon_cry CRY_DUNSPARCE,   420,  355 ; ATTACKO
@@ -230,7 +230,7 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,    410,  300 ; STIKLBRAT
 	mon_cry CRY_SLOWKING,     27,  300 ; SIDFICIOUS
 	mon_cry CRY_SLOWKING,      2,  300 ; DELIBIRD
-	mon_cry CRY_MANTINE,    -190,  240 ; MANTINE
+	mon_cry CRY_MANTINE,    -377,  292 ; KRAKENTOA
 	mon_cry CRY_AMPHAROS,   2217,  384 ; SKARMORY
 	mon_cry CRY_CYNDAQUIL,    57,  320 ; HOUNDOUR
 	mon_cry CRY_TOTODILE,   -266,  256 ; HOUNDOOM

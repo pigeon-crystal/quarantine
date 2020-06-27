@@ -1,6 +1,6 @@
 	db PHANGUARD ; 063
 
-	db  69,  101,  65,  65,   57,  80
+	db  69,  101,  65,  65,   63,  85
 	;   hp   atk   def   spd   sat  sdf
 
 	db GHOST, DRAGON ; type

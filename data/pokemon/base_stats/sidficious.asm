@@ -1,6 +1,6 @@
 	db SIDFICIOUS ; 223
 
-	db  52,  114,  84,  114,  52, 84
+	db  55,  115,  84,  115, 55, 84
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, DARK ; type

@@ -1,6 +1,6 @@
 	db NYALLEY ; 063
 
-	db  50,  35,  45,  88,  75,  55
+	db  50,  35,  48,  90,  75,  55
 	;   hp   atk  def  spd   sat  sdf
 
 	db PSYCHIC_TYPE, FIRE ; type

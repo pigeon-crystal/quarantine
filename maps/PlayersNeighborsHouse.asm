@@ -57,8 +57,9 @@ PlayersNeighborsDaughterText:
 	cont "about #MON!"
 
 	para "That's why I"
-	line "want to just"
-	cont "like him!"
+	line "want to be a"
+	cont "#MON PROF.,"
+	cont "just like him!"
 	done
 
 PlayersNeighborText:

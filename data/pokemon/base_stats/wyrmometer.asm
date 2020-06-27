@@ -1,11 +1,11 @@
 	db WYRMOMETER ; 190
 
-	db  46,  54,  44,  86,  44,  46
+	db  50,  55,  47,  86,  47,  50
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, NORMAL ; type
-	db 100 ; catch rate
-	db 60 ; base exp
+	db 88 ; catch rate
+	db 88 ; base exp
 	db RED_APRICORN, GOLD_BERRY ; items
 	db GENDER_F75 ; gender ratio
 	db 100 ; unknown 1

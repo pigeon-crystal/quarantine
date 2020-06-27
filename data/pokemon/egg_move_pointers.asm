@@ -138,7 +138,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw OmanyteEggMoves
 	dw NoEggMoves
-	dw KabutoEggMoves
+	dw BellocerosEggMoves
 	dw NoEggMoves
 	dw AerodactylEggMoves
 	dw SnorlaxEggMoves
@@ -201,7 +201,7 @@ EggMovePointers::
 	dw MaulzerEggMoves
 	dw NoEggMoves
 	dw RespectreEggMoves
-	dw GirafarigEggMoves
+	dw SwazzageEggMoves
 	dw PinecoEggMoves
 	dw NoEggMoves
 	dw AttackoEggMoves
@@ -224,7 +224,7 @@ EggMovePointers::
 	dw StiklbratEggMoves
 	dw NoEggMoves
 	dw DelibirdEggMoves
-	dw MantineEggMoves
+	dw KrakentoaEggMoves
 	dw SkarmoryEggMoves
 	dw HoundourEggMoves
 	dw NoEggMoves

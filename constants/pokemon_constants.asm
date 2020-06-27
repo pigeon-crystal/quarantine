@@ -158,7 +158,7 @@
 	const PORYGON    ; 89
 	const OMANYTE    ; 8a
 	const OMASTAR    ; 8b
-	const KABUTO     ; 8c
+	const BELLOCEROS     ; 8c
 	const KABUTOPS   ; 8d
 	const AERODACTYL ; 8e
 	const SNORLAX    ; 8f
@@ -222,7 +222,7 @@ JOHTO_POKEMON EQU const_value
 	const MAULZER 	 ; c8
 	const UNOWN      ; c9
 	const RESPECTRE  ; ca
-	const GIRAFARIG  ; cb
+	const SWAZZAGE  ; cb
 	const PINECO     ; cc
 	const FORRETRESS ; cd
 	const ATTACKO    ; ce dunsparce
@@ -245,7 +245,7 @@ JOHTO_POKEMON EQU const_value
 	const STIKLBRAT  ; df
 	const SIDFICIOUS ; e0
 	const DELIBIRD   ; e1
-	const MANTINE    ; e2
+	const KRAKENTOA    ; e2
 	const SKARMORY   ; e3
 	const HOUNDOUR   ; e4
 	const HOUNDOOM   ; e5

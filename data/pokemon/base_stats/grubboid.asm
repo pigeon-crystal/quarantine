@@ -1,12 +1,12 @@
 	db GRUBBOID ; 
 
-	db   103, 101, 103,  45,  103,  45
+	db   107, 103, 107,  46,  46,  106
 	;   hp   atk   def   spd  sat  sdf
 
 	db BUG, DARK ; type
 	db 86 ; catch rate
 	db 166 ; base exp
-	db NO_ITEM, MIRACLEBERRY ; items
+	db RED_APRICORN, MIRACLEBERRY ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 15 ; step cycles to hatch

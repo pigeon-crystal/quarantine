@@ -6,14 +6,14 @@
 	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
 	db 89 ; catch rate
 	db 113 ; base exp
-	db MAGNET, GRN_APRICORN ; items
+	db MAGNET, TWISTEDSPOON ; items
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1
 	db 11 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/voyapod/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
-	db GROWTH_SLIGHTLY_FAST ; growth rate
+	db GROWTH_SLIGHTLY_SLOW ; growth rate
 	dn EGG_WATER_2, EGG_WATER_3 ; egg groups
 
 	; tm/hm learnset

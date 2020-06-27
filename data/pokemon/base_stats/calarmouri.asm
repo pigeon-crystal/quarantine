@@ -1,6 +1,6 @@
 	db CALARMOURI ; 096
 
-	db  82,  80,  82,  65,  102,  106
+	db  82,  80,  82,  65,  102,  109
 	;   hp  atk  def  spd  sat  sdf
 
 	db STEEL, GROUND ; type
@@ -13,7 +13,7 @@
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/calarmouri/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_WATER_1, EGG_WATER_3 ; egg groups
 
 	; tm/hm learnset

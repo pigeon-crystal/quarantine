@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, WATER ; type
-	db 195 ; catch rate
-	db 53 ; base exp
+	db 185 ; catch rate
+	db 60 ; base exp
 	db BLU_APRICORN, GRN_APRICORN ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

@@ -1,12 +1,12 @@
 	db CLIBBLE ; 190
 
-	db  61,  60,  60,  54,  45,  50
+	db  65,  60,  60,  54,  45,  51
 	;   hp  atk  def  spd  sat  sdf
 
 	db STEEL, STEEL ; type
-	db 120 ; catch rate
-	db 40 ; base exp
-	db BLK_APRICORN, NO_ITEM ; items
+	db 89 ; catch rate
+	db 69 ; base exp
+	db BLK_APRICORN, BLK_APRICORN ; items
 	db GENDER_F75 ; gender ratio
 	db 100 ; unknown 1
 	db 11 ; step cycles to hatch

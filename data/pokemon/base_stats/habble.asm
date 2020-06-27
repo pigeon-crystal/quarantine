@@ -1,6 +1,6 @@
 	db HABBLE ; 063
 
-	db  56,  55,   83,   52,   91,  81
+	db  57,  56,   83,   53,   100,  81
 	;   hp   atk   def   spd   sat  sdf
 
 	db PSYCHIC_TYPE, ELECTRIC ; type

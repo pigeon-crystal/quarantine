@@ -1,6 +1,6 @@
 	db SHAMSEL ; 063
 
-	db  99,  99,  79,  79,   49,  99
+	db  99,  99,  89,  89,   49,  99
 	;   hp   atk   def   spd   sat  sdf
 
 	db ELECTRIC, DARK ; type

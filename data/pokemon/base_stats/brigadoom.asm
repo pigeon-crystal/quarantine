@@ -1,6 +1,6 @@
 	db BRIGADOOM ; 063
 
-	db  85,  130,  81,  73,   75,  110
+	db  85,  130,  81,  70,   79,  110
 	;   hp   atk   def   spd   sat  sdf
 
 	db GHOST, DRAGON ; type

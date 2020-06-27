@@ -1,19 +1,19 @@
 	db POCALYPTUS ; 063
 
-	db  117,  117,  105,  30,  56,  70
+	db  120,  120,  105,  30,  55,  70
 	;   hp   atk   def   spd   sat  sdf
 
 	db GRASS, FIRE ; type
 	db 50 ; catch rate
 	db 203 ; base exp
-	db CHARCOAL, MIRACLE_SEED ; items
+	db CHARCOAL, CHARCOAL ; items
 	db GENDER_F25 ; gender ratio
 	db 100 ; unknown 1
 	db 20 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/pocalyptus/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_PLANT ; egg groups
 
 	; tm/hm learnset

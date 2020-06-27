@@ -363,7 +363,6 @@ Route36Sign:
 	jumptext Route36SignText
 
 RuinsOfAlphNorthSign:
-	givepoke TENDRILL, 5
 	jumptext RuinsOfAlphNorthSignText
 
 Route36TrainerTips1:

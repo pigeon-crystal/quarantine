@@ -1,11 +1,11 @@
 	db STIKLBRAT ; 223
 
-	db  52,  52,  52,  52,  52,  52
+	db  55,  55,  55,  55,  55,  55
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type
 	db 130 ; catch rate
-	db 52 ; base exp
+	db 55 ; base exp
 	db BLU_APRICORN, BLU_APRICORN ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

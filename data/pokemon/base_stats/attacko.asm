@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db FAIRY, FAIRY ; type
-	db 121 ; catch rate
-	db 76 ; base exp
+	db 100 ; catch rate
+	db 90 ; base exp
 	db YLW_APRICORN, YLW_APRICORN ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

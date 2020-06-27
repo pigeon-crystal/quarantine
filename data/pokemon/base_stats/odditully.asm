@@ -1,6 +1,6 @@
 	db ODDITULLY ; 142
 
-	db  60, 115,  96, 75,  80,  96
+	db  60, 115,  96, 70,  96,  96
 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, DRAGON ; type
@@ -9,7 +9,7 @@
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
-	db 26 ; step cycles to hatch
+	db 25 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/odditully/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

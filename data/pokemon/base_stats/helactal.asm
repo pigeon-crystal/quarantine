@@ -1,6 +1,6 @@
 	db HELACTAL ; 142
 
-	db  202, 92,  88, 86,  92,  88
+	db  202, 76,  65, 51,  76,  65
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type
@@ -13,7 +13,7 @@
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/helactal/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
-	db GROWTH_SLIGHTLY_FAST ; growth rate
+	db GROWTH_SLIGHTLY_SLOW	; growth rate
 	dn EGG_DITTO, EGG_DITTO ; egg groups
 
 	; tm/hm learnset

@@ -19,12 +19,12 @@ FalknerGroup:
 	db "FALKNER@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 13, HOATOXIC
 		db $ec, $dc
-		dw $a099, $9099, $90af, $f0aa, $a0aa
+		dw $ca99, $e099, $e0af, $e0aa, $e0aa
 		db  BERRY
 		db  PECK, MUD_SLAP, ACID, POISON_STING
-	db 14, FURDOBA
+	db 13, FURDOBA
 		db $ed, $de
-		dw $91ef, $9100, $91ef, $a11f, $a61f
+		dw $cfef, $d1e0, $c1ef, $ae1f, $ae1f
 		db BERRY
 		db MUD_SLAP, GUST, SANDSTORM, PROTECT
 	db -1 ; end
@@ -41,13 +41,13 @@ WhitneyGroup:
 	db 24, ATTACKO
 		db "ATTACKO@"
 		db PERFECT_DV, PERFECT_DV
-		dw $e2fa, $a2fa, $f2fa, $a2fa, $c2fa
+		dw $a2fa, $a2fa, $a2fa, $a2fa, $a2fa
 		db BERRY
 		db COMET_PUNCH, DRAININGKISS, DISABLE, GLARE
 	db 25, PURRDLE
 		db "PURRDLE@"
 		db $fa, $de 														    					;DVs: atk|def, spd|spc
-		dw $f2fa, $82fa, $e2fa, $e2fa, $92fa 	;Stat exp: hp, atk, def, spd, spc
+		dw $f2fa, $82fa, $e2fa, $e2fa, $a2fa 	;Stat exp: hp, atk, def, spd, spc
 		db BERRY 																						;item
 		db QUICK_ATTACK, FAINT_ATTACK, REFLECT, BITE															;moves
 	db 26, MAULZER  
@@ -72,7 +72,7 @@ BugsyGroup:
 		db EVIOLITE
 		db DOUBLE_TEAM, TOXIC, FURY_CUTTER, NO_MOVE
 	db 20, EELKIE	   
-		db $9b, $e9 
+		db $9a, $a9 
 		dw PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, $4a2f, $4bcf
 		db BERRY
 		db LICK, LEECH_SEED, CONFUSE_RAY, PROTECT
@@ -143,7 +143,7 @@ Rival1Group:
 	; RIVAL1 (4) Azalea, chose Fursa
 	db "?@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 20, ARASBESTOS
-		dw $df69, $7f69, $7f69, $7f69, $7f69
+		dw $af69, $7f69, $7f69, $7f69, $7f69
 		db POISON_BARB
 		db SPIKES, ROCK_THROW, CONSTRICT, POISON_STING
 	db 20, GOOSAPLING
@@ -159,7 +159,7 @@ Rival1Group:
 	; RIVAL1 (5) Azalea, chose cigerillar
 	db "?@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 20, ARASBESTOS
-		dw $df69, $7f69, $7f69, $7f69, $7f69
+		dw $af69, $7f69, $7f69, $7f69, $7f69
 		db POISON_BARB
 		db SPIKES, ROCK_THROW, CONSTRICT, POISON_STING
 	db 20, KOAGAN
@@ -175,7 +175,7 @@ Rival1Group:
 	; RIVAL1 (6) Azalea, chose Radeon
 	db "?@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 20, ARASBESTOS
-		dw $df69, $7f69, $7f69, $7f69, $7f69
+		dw $af69, $7f69, $7f69, $7f69, $7f69
 		db POISON_BARB
 		db SPIKES, ROCK_THROW, CONSTRICT, POISON_STING
 	db 20, WYRMOMETER
@@ -654,15 +654,15 @@ SchoolboyGroup:
 BirdKeeperGroup:
 	; BIRD_KEEPER (1) ;violet gym 2
 	db "ROD@", TRAINERTYPE_ITEM
-	db 11, QWAIL, 	   BERRY
+	db 12, QWAIL, 	   BERRY
 	db 11, GOOSAPLING, NO_ITEM
 	db 12, FLUFFRUIT,  BERRY
 	db -1 ; end
 
 	; BIRD_KEEPER (2) ;violet gym
 	db "ABE@", TRAINERTYPE_ITEM 
-	db 11, FURNIT, 		NO_ITEM
-	db 11, HOATOT,		BERRY
+	db 12, FURNIT, 		NO_ITEM
+	db 12, HOATOT,		BERRY
 	db -1 ; end
 
 	; BIRD_KEEPER (3) route 35
@@ -774,8 +774,8 @@ BirdKeeperGroup:
 LassGroup:
 	; LASS (1) Goldenrod gym
 	db "CARRIE@", TRAINERTYPE_ITEM
-	db 24, BUNDEGRAF, GOLD_BERRY
-	db 24, TIDO, POLKADOT_BOW
+	db 23, BUNDEGRAF, GOLD_BERRY
+	db 25, TIDO, POLKADOT_BOW
 	db -1 ; end
 
 	; LASS (2) Goldenrod gym
@@ -783,7 +783,7 @@ LassGroup:
 	db 23, DUMBLOON
 	db 23, DUMBLOON
 	db 23, DUMBLOON
-	db 23, DUMBLOON
+	db 24, DUMBLOON
 	db -1 ; end
 
 	; LASS (3)
@@ -1154,13 +1154,13 @@ BeautyGroup:
 	db "VICTORIA@", TRAINERTYPE_NORMAL
 	db 25, NOMSTER
 	db 23, NOMSABRE
-	db 25, MOPERDOR ;replace w dog
+	db 25, MOPERDOR
 	db -1 ; end
 
 	; BEAUTY (2) Goldenrod gym
 	db "SAMANTHA@", TRAINERTYPE_ITEM
 	db 24, SHABBYCAT,     BERRY
-	db 24, SHABBYCAT,     BERRY
+	db 25, SHABBYCAT,     BERRY
 	db 24, SHABBYCAT,     BERRY
 	db -1 ; end
 
@@ -1306,7 +1306,7 @@ PokemaniacGroup:
 	db 23, PHANGUARD
 	db -1 ; end
 
-	; POKEMANIAC (12) underground nonstory HORRIBLY BUGGED
+	; POKEMANIAC (12) underground nonstory
 	db "DONALD@", TRAINERTYPE_ITEM
 	db 23, VOYAPOD, BERRY
 	db 23, TENDRILL, BERSERK_GENE
@@ -2790,7 +2790,7 @@ ExecutiveMGroup:
 PsychicGroup:
 	; PSYCHIC_T (1)
 	db "NATHAN@", TRAINERTYPE_NORMAL
-	db 26, GIRAFARIG
+	db 26, SWAZZAGE
 	db -1 ; end
 
 	; PSYCHIC_T (2)
@@ -2846,7 +2846,7 @@ PsychicGroup:
 	db "GILBERT@", TRAINERTYPE_NORMAL
 	db 30, PEEKEYE
 	db 30, EXEGGCUTE
-	db 34, GIRAFARIG
+	db 34, SWAZZAGE
 	db -1 ; end
 
 	; PSYCHIC_T (11)

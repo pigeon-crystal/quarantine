@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db STEEL, GROUND ; type
-	db 170 ; catch rate
-	db 40 ; base exp
+	db 142 ; catch rate
+	db 48 ; base exp
 	db BLU_APRICORN, BLU_APRICORN ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
@@ -13,7 +13,7 @@
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/cuttle/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_WATER_1, EGG_WATER_3 ; egg groups
 
 	; tm/hm learnset

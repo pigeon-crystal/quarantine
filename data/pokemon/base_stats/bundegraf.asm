@@ -1,11 +1,11 @@
 	db BUNDEGRAF ; 190
 
-	db  69,  83,  59,  99,  59,  69
+	db  69,  85,  59,  99,  59,  69
 	;   hp  atk  def  spd  sat  sdf
 
-	db GROUND, ELECTRIC ; type
-	db 45 ; catch rate
-	db 203 ; base exp
+	db ELECTRIC, GROUND ; type
+	db 69 ; catch rate
+	db 120 ; base exp
 	db YLW_APRICORN, YLW_APRICORN ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

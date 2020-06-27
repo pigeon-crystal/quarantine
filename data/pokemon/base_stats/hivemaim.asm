@@ -1,11 +1,11 @@
 	db HIVEMAIM ; 011
 
-	db  54,  70,  57,  30,  40,  65
+	db  56,  88,  59,  56,  50,  68
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, BUG ; type
 	db 111 ; catch rate
-	db 77 ; base exp
+	db 85 ; base exp
 	db GRN_APRICORN, SILVERPOWDER ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

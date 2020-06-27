@@ -1,11 +1,11 @@
 	db PEPOFFER ; 063
 
-	db  180,  55,  59,  55, 81,  70
+	db  180,  55,  59,  55, 85,  71
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, WATER ; type
-	db 90 ; catch rate
-	db 165 ; base exp
+	db 80 ; catch rate
+	db 188 ; base exp
 	db MYSTIC_WATER, BLU_APRICORN ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

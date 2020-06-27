@@ -99,8 +99,8 @@ MonMenuIconPals:
 	icon_pals PINK,   YELLOW   ; SCRUFFRUIT
 	icon_pals PINK,   YELLOW   ; PITAYRANT
 	icon_pals BROWN,   YELLOW  ; ONIX
-	icon_pals GREEN,   YELLOW  ; EELKIE
-	icon_pals GREEN,   YELLOW  ; MOSSARRE
+	icon_pals GREEN,   PINK  ; EELKIE
+	icon_pals GREEN,   PINK  ; MOSSARRE
 	icon_pals GREEN,   YELLOW  ; LANATUN
 	icon_pals GREEN,   YELLOW  ; PEPOFFER
 	icon_pals BROWN,   YELLOW  ; VOLTORB
@@ -143,7 +143,7 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; PORYGON
 	icon_pals BROWN,   YELLOW  ; OMANYTE
 	icon_pals BROWN,   YELLOW  ; OMASTAR
-	icon_pals BROWN,   YELLOW  ; KABUTO
+	icon_pals BROWN,   YELLOW  ; BELLOCEROS
 	icon_pals BROWN,   YELLOW  ; KABUTOPS
 	icon_pals BROWN,   YELLOW  ; AERODACTYL
 	icon_pals BROWN,   YELLOW  ; SNORLAX
@@ -206,7 +206,7 @@ MonMenuIconPals:
 	icon_pals BROWN,   RED    ; MAULZER
 	icon_pals RED,   YELLOW    ; UNOWN
 	icon_pals BROWN,   YELLOW  ; RESPECTRE
-	icon_pals RED,   YELLOW    ; GIRAFARIG
+	icon_pals BLUE,   YELLOW    ; SWAZZAGE
 	icon_pals RED,   YELLOW    ; PINECO
 	icon_pals RED,   YELLOW    ; FORTRESS
 	icon_pals PINK,   YELLOW   ; ATTACKO
@@ -229,7 +229,7 @@ MonMenuIconPals:
 	icon_pals BLUE,   YELLOW    ; STIKLBRAT
 	icon_pals RED,   YELLOW    ; SIDFICIOUS
 	icon_pals RED,   YELLOW    ; DELIBIRD
-	icon_pals RED,   YELLOW    ; MANTINE
+	icon_pals RED,   PINK    ; KRAKENTOA
 	icon_pals RED,   YELLOW    ; SKARMORY
 	icon_pals RED,   YELLOW    ; HOUNDOUR
 	icon_pals RED,   YELLOW    ; HOUNDOOM

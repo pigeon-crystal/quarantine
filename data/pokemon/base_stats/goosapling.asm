@@ -1,15 +1,15 @@
 	db GOOSAPLING ; 184
 
-	db 69,  34,  44,  48,  69,  31
+	db 89,  35,  55,  48,  69,  31
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type
 	db 202 ; catch rate
-	db 60 ; base exp
-	db NO_ITEM, BERSERK_GENE ; items
+	db 56 ; base exp
+	db BLU_APRICORN, BERSERK_GENE ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
-	db 20 ; step cycles to hatch
+	db 10 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/goosapling/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

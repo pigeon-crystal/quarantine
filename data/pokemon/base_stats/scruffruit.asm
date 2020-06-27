@@ -1,6 +1,6 @@
 	db SCRUFFRUIT ; 063
 
-	db  77,  40,  60,  77, 77,  54
+	db  77,  40,  60,  77, 77,  60
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, FLYING ; type

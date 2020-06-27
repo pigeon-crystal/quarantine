@@ -5,7 +5,7 @@
 
 	db DARK, GROUND ; type
 	db 200 ; catch rate
-	db 57 ; base exp
+	db 50 ; base exp
 	db GRN_APRICORN, GRN_APRICORN ; items
 	db GENDER_F12_5 ; gender ratio
 	db 100 ; unknown 1

@@ -373,7 +373,7 @@ CarbosDesc:
 
 LuckyPunchDesc:
 	db   "Ups crit ratio"
-	next "of CALARMOURI.@"
+	next "of SWAZZAGE.@"
 
 CalciumDesc:
 	db   "Ups SPECIAL stats"

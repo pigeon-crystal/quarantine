@@ -31,7 +31,7 @@ Route30BerrySpeechHouseMonEatBerriesText:
 	line "eat BERRIES."
 	
 	para "They must like"
-	line "them BERRY much"
+	line "them BERRY much."
 
 	para "My #MON got"
 	line "healthier by"
@@ -42,7 +42,7 @@ Route30BerrySpeechHouseMonEatBerriesText:
 	
 	para "… … …"
 
-	para "Anyways, I'll share"
+	para "Anyway, I'll share"
 	line "one with you!"
 	done
 

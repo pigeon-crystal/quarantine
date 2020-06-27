@@ -10,6 +10,7 @@ AlphabeticalPokedexOrder:
 	db ARCANINE
 	db ARTICUNO
 	db ATTACKO
+	db BELLOCEROS
 	db BISMUTT
 	db BLASTOISE
 	db BRIGADOOM
@@ -65,7 +66,6 @@ AlphabeticalPokedexOrder:
 	db GANZERKER
 	db GIGERATOR
 	db GIGUARD
-	db GIRAFARIG
 	db GNOMERCY
 	db GOOSAPLING
 	db GRIMPACT
@@ -96,12 +96,12 @@ AlphabeticalPokedexOrder:
 	db JIGGLYPUFF
 	db JOLTEON
 	db JUNOBE
-	db KABUTO
 	db KABUTOPS
 	db KANGASKHAN
 	db KINGDRA
 	db KOAGAN
 	db KODOROYAH
+	db KRAKENTOA
 	db LANATUN
 	db LARVITAR
 	db LAWNIE
@@ -117,12 +117,10 @@ AlphabeticalPokedexOrder:
 	db MAJESDOR
 	db MANDELBLOB
 	db MANKEY
-	db MANTINE
 	db MAREEP
 	db MAROWAK
 	db MAULZER
 	db MEOWTAIN
-	db TODESCOOL
 	db MEW
 	db MEWTWO
 	db MILTANK
@@ -217,6 +215,7 @@ AlphabeticalPokedexOrder:
 	db STRANGLURE
 	db SUDOWOODO
 	db SUICUNE
+	db SWAZZAGE
 	db SWINUB
 	db TANGELA
 	db TAUROS
@@ -225,6 +224,7 @@ AlphabeticalPokedexOrder:
 	db TENTACRUEL
 	db TIDO
 	db TOBACOON
+	db TODESCOOL
 	db TRANQUIEL
 	db TYRANITAR
 	db TYROGUE

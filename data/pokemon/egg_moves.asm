@@ -413,8 +413,7 @@ OmanyteEggMoves:
 	db HAZE
 	db -1 ; end
 
-KabutoEggMoves:
-	db BUBBLEBEAM
+BellocerosEggMoves:
 	db AURORA_BEAM
 	db RAPID_SPIN
 	db DIG
@@ -620,7 +619,7 @@ RespectreEggMoves:
 	db DESTINY_BOND
 	db -1 ; end
 
-GirafarigEggMoves:
+SwazzageEggMoves:
 	db DOUBLE_EDGE
 	db AMNESIA
 	db FORESIGHT
@@ -725,7 +724,7 @@ DelibirdEggMoves:
 	db RAPID_SPIN
 	db -1 ; end
 
-MantineEggMoves:
+KrakentoaEggMoves:
 	db TWISTER
 	db HYDRO_PUMP
 	db HAZE

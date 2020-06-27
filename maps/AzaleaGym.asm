@@ -163,9 +163,9 @@ BugsyText_INeverLose:
 
 	para "Bugs for the"
 	line "soil, landscaping"
-	cont "for aesthetics, and"
-	cont "#MON to help"
-	cont "spread seeds!"
+	cont "for aesthetics,"
+	cont "and #MON to"
+	cont "help spread seeds!"
 
 	para "Can you face the"
 	line "perfect garden"

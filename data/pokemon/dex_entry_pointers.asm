@@ -139,7 +139,7 @@ PokedexDataPointerTable:
 	dw PorygonPokedexEntry
 	dw OmanytePokedexEntry
 	dw OmastarPokedexEntry
-	dw KabutoPokedexEntry
+	dw BellocerosPokedexEntry
 	dw KabutopsPokedexEntry
 	dw AerodactylPokedexEntry
 	dw SnorlaxPokedexEntry
@@ -202,7 +202,7 @@ PokedexDataPointerTable:
 	dw MaulzerPokedexEntry
 	dw UnownPokedexEntry
 	dw RespectrePokedexEntry
-	dw GirafarigPokedexEntry
+	dw SwazzagePokedexEntry
 	dw PinecoPokedexEntry
 	dw ForretressPokedexEntry
 	dw AttackoPokedexEntry
@@ -225,7 +225,7 @@ PokedexDataPointerTable:
 	dw StiklbratPokedexEntry
 	dw SidficiousPokedexEntry
 	dw DelibirdPokedexEntry
-	dw MantinePokedexEntry
+	dw KrakentoaPokedexEntry
 	dw SkarmoryPokedexEntry
 	dw HoundourPokedexEntry
 	dw HoundoomPokedexEntry

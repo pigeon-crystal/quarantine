@@ -1,9 +1,9 @@
 	db VOLTINGER ; 190
 
-	db  75,  99,  70,  125,  70,  75
+	db  75, 100,  70,  125,  70,  75
 	;   hp  atk  def  spd  sat  sdf
 
-	db FLYING, ELECTRIC ; type
+	db ELECTRIC, FLYING ; type
 	db 45 ; catch rate
 	db 203 ; base exp
 	db MAGNET, YLW_APRICORN ; items

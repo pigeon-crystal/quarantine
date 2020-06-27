@@ -341,7 +341,7 @@ BattleTowerMons1:
 	bigdw 22 ; SDef
 	db "DERUBIRU@@@"
 
-	db GIRAFARIG
+	db SWAZZAGE
 	db KINGS_ROCK
 	db PSYBEAM, MUD_SLAP, SHADOW_BALL, AGILITY
 	dw 0 ; OT ID
@@ -2667,7 +2667,7 @@ BattleTowerMons5:
 	bigdw 109 ; SDef
 	db "HAGANE-RU@@"
 
-	db GIRAFARIG
+	db SWAZZAGE
 	db SCOPE_LENS
 	db DREAM_EATER, CRUNCH, PSYCHIC_M, EARTHQUAKE
 	dw 0 ; OT ID
@@ -3687,7 +3687,7 @@ BattleTowerMons7:
 	bigdw 162 ; SDef
 	db "OKORIZARU@@"
 
-	db GIRAFARIG
+	db SWAZZAGE
 	db GOLD_BERRY
 	db AGILITY, BATON_PASS, CRUNCH, EARTHQUAKE
 	dw 0 ; OT ID
@@ -4158,7 +4158,7 @@ BattleTowerMons8:
 	bigdw 225 ; SDef
 	db "RU-ZIyuRA@@"
 
-	db MANTINE
+	db KRAKENTOA
 	db GOLD_BERRY
 	db SURF, CONFUSE_RAY, BLIZZARD, WING_ATTACK
 	dw 0 ; OT ID

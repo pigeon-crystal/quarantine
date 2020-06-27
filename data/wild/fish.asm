@@ -97,11 +97,11 @@ FishGroups:
 	db 100 percent,     DRAGONAIR,  40
 
 .Pekoi_Swarm_Old:
-	db  70 percent + 1, LANATUN,   5
-	db  85 percent + 1, GOOSAPLING,   5
-	db 100 percent,     LANATUN,   5
+	db  70 percent + 1, LANATUN,    10
+	db  85 percent + 1, GOOSAPLING, 10
+	db 100 percent,     LANATUN,    10
 .Pekoi_Swarm_Good:
-	db  35 percent,     MAGIKARP,   20
+	db  35 percent,     GOOSAPLING,   20
 	db  70 percent,     PEKOI,   20
 	db  90 percent + 1, PEKOI,   20
 	db 100 percent,     time_group 10

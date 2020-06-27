@@ -1,15 +1,15 @@
 	db GANZERKER ; 184
 
-	db 96,  68,  88,  96,  96,  62
+	db 98,  70,  88,  96,  96,  62
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, FLYING ; type
-	db 11 ; catch rate
-	db 145 ; base exp
+	db 9 ; catch rate
+	db 190 ; base exp
 	db MIRACLEBERRY, MIRACLEBERRY ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
-	db 20 ; step cycles to hatch
+	db 10 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/ganzerker/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

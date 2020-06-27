@@ -1,6 +1,6 @@
 	db WIRIGIBLE ; 142
 
-	db  95, 95,  62, 111,  50,  95
+	db  95, 95,  60, 113,  50,  95
 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, FLYING ; type
@@ -9,7 +9,7 @@
 	db HARD_STONE, HARD_STONE ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
-	db 21 ; step cycles to hatch
+	db 15 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/wirigible/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

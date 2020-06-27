@@ -140,7 +140,7 @@ EvosAttacksPointers::
 	dw PorygonEvosAttacks
 	dw OmanyteEvosAttacks
 	dw OmastarEvosAttacks
-	dw KabutoEvosAttacks
+	dw BellocerosEvosAttacks
 	dw KabutopsEvosAttacks
 	dw AerodactylEvosAttacks
 	dw SnorlaxEvosAttacks
@@ -203,7 +203,7 @@ EvosAttacksPointers::
 	dw MaulzerEvosAttacks
 	dw UnownEvosAttacks
 	dw RespectreEvosAttacks
-	dw GirafarigEvosAttacks
+	dw SwazzageEvosAttacks
 	dw PinecoEvosAttacks
 	dw ForretressEvosAttacks
 	dw AttackoEvosAttacks
@@ -226,7 +226,7 @@ EvosAttacksPointers::
 	dw StiklbratEvosAttacks
 	dw SidficiousEvosAttacks
 	dw DelibirdEvosAttacks
-	dw MantineEvosAttacks
+	dw KrakentoaEvosAttacks
 	dw SkarmoryEvosAttacks
 	dw HoundourEvosAttacks
 	dw HoundoomEvosAttacks

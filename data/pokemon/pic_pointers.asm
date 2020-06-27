@@ -280,8 +280,8 @@ PokemonPicPointers::
 	dba_pic OmanyteBackpic
 	dba_pic OmastarFrontpic
 	dba_pic OmastarBackpic
-	dba_pic KabutoFrontpic
-	dba_pic KabutoBackpic
+	dba_pic BellocerosFrontpic
+	dba_pic BellocerosBackpic
 	dba_pic KabutopsFrontpic
 	dba_pic KabutopsBackpic
 	dba_pic AerodactylFrontpic
@@ -409,8 +409,8 @@ PokemonPicPointers::
 
 	dba_pic RespectreFrontpic
 	dba_pic RespectreBackpic
-	dba_pic GirafarigFrontpic
-	dba_pic GirafarigBackpic
+	dba_pic SwazzageFrontpic
+	dba_pic SwazzageBackpic
 	dba_pic PinecoFrontpic
 	dba_pic PinecoBackpic
 	dba_pic ForretressFrontpic
@@ -455,8 +455,8 @@ PokemonPicPointers::
 	dba_pic SidficiousBackpic
 	dba_pic DelibirdFrontpic
 	dba_pic DelibirdBackpic
-	dba_pic MantineFrontpic
-	dba_pic MantineBackpic
+	dba_pic KrakentoaFrontpic
+	dba_pic KrakentoaBackpic
 	dba_pic SkarmoryFrontpic
 	dba_pic SkarmoryBackpic
 	dba_pic HoundourFrontpic

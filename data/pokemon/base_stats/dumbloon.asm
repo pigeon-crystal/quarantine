@@ -1,11 +1,11 @@
 	db DUMBLOON ; 063
 
-	db  70,  70,  60,  51,  45,  60
+	db  71,  71,  63,  51,  45,  63
 	;   hp   atk  def  spd   sat  sdf
 
 	db NORMAL, NORMAL ; type
 	db 120 ; catch rate
-	db 65 ; base exp
+	db 70 ; base exp
 	db PNK_APRICORN, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

@@ -1,11 +1,11 @@
 	db FLUFFRUIT ; 063
 
-	db  55,  30,  45,  55, 55,  40
+	db  55,  30,  45,  55, 55,  45
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, FLYING ; type
-	db 160 ; catch rate
-	db 52 ; base exp
+	db 140 ; catch rate
+	db 53 ; base exp
 	db BERRY, PNK_APRICORN ; items
 	db GENDER_F25 ; gender ratio
 	db 100 ; unknown 1

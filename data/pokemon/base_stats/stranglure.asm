@@ -1,6 +1,6 @@
 	db STRANGLURE ; 063
 
-	db  68,  68,  58,  58,   38,  68
+	db  78,  78,  68,  68,   38,  78
 	;   hp   atk   def   spd   sat  sdf
 
 	db ELECTRIC, DARK ; type

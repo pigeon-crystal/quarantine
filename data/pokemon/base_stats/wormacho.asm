@@ -1,15 +1,15 @@
 	db WORMACHO ;
 
-	db  85,  122,  90,  65, 48,  75
+	db  85,  123,  90,  63, 48,  76
 	;   hp  atk  def  spd  sat  sdf
 
 	db GROUND, FIGHTING ; type
-	db 55 ; catch rate
-	db 195 ; base exp
+	db 60 ; catch rate
+	db 179 ; base exp
 	db NO_ITEM, BRIGHTPOWDER ; items
 	db GENDER_F25 ; gender ratio
 	db 100 ; unknown 1
-	db 20 ; step cycles to hatch
+	db 10 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/wormacho/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

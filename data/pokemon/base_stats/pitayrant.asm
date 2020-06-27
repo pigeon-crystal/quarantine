@@ -1,6 +1,6 @@
 	db PITAYRANT ; 063
 
-	db  105,  60,  80, 105, 105,  75
+	db  105,  60,  80, 105, 105,  80
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, FLYING ; type

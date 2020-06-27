@@ -175,8 +175,8 @@ JohtoWaterWildMons:
 	db 6 percent ; encounter rate
 	db 20, TENTACOOL
 	db 20, TENTACRUEL
-	db 20, MANTINE
-	db 25, MANTINE
+	db 20, KRAKENTOA
+	db 25, KRAKENTOA
 
 	map_id ROUTE_42 ;done
 	db 4 percent ; encounter rate

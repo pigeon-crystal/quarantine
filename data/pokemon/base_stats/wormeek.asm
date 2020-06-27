@@ -5,11 +5,11 @@
 
 	db GROUND, BUG ; type
 	db 240 ; catch rate
-	db 53 ; base exp
-	db NO_ITEM, BRIGHTPOWDER ; items
+	db 49 ; base exp
+	db BLK_APRICORN, BRIGHTPOWDER ; items
 	db GENDER_F25 ; gender ratio
 	db 100 ; unknown 1
-	db 20 ; step cycles to hatch
+	db 10 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/wormeek/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

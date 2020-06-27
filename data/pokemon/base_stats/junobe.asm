@@ -5,7 +5,7 @@
 
 	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
 	db 117 ; catch rate
-	db 37 ; base exp
+	db 57 ; base exp
 	db GRN_APRICORN, TWISTEDSPOON ; items
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1
@@ -13,7 +13,7 @@
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/junobe/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
-	db GROWTH_SLIGHTLY_FAST ; growth rate
+	db GROWTH_SLIGHTLY_SLOW ; growth rate
 	dn EGG_WATER_2, EGG_WATER_3 ; egg groups
 
 	; tm/hm learnset

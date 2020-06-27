@@ -185,7 +185,7 @@ RuinsOfAlphResearchCenterPrinter:
 	scall FossilMachineItsAMonScript
 	setval MISSINGNO
 	special GameCornerPrizeMonCheckDex
-	givepoke MISSINGNO, 10
+	givepoke BELLOCEROS, 10
 	takeitem HORN_FOSSIL
 	sjump FossilMachineEndTransaction
 	
