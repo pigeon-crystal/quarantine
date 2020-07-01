@@ -79,6 +79,7 @@ ScorperorIcon:    INCBIN "gfx/icons/scorperor.2bpp"
 EukubIcon:        INCBIN "gfx/icons/eukub.2bpp"
 KoaganIcon:       INCBIN "gfx/icons/koagan.2bpp"
 PocalyptusIcon:   INCBIN "gfx/icons/pocalyptus.2bpp"
+WormachoIcon:     INCBIN "gfx/icons/wormacho.2bpp"
 
 SECTION "Mon Icons 2", ROMX
 

@@ -66,7 +66,7 @@ EvolveAfterBattle_MasterLoop::
 	ld b, a
 
 	cp EVOLVE_TRADE
-	jr z, .trade
+	jp z, .trade
 
 	ld a, [wLinkMode]
 	and a
@@ -89,6 +89,12 @@ EvolveAfterBattle_MasterLoop::
 
 	cp EVOLVE_FISH
 	jp z, .fish
+	
+	cp EVOLVE_TAXO1
+	jp z, .taxo1
+	
+	cp EVOLVE_TAXO2
+	jp z, .taxo2
 	
 ; EVOLVE_STAT
 	ld a, [wTempMonLevel]
@@ -128,7 +134,7 @@ EvolveAfterBattle_MasterLoop::
 
 	ld a, [hli]
 	cp TR_ANYTIME
-	jr z, .proceed
+	jp z, .proceed
 	cp TR_MORNDAY
 	jr z, .happiness_daylight
 
@@ -136,13 +142,13 @@ EvolveAfterBattle_MasterLoop::
 	ld a, [wTimeOfDay]
 	cp NITE_F
 	jp nz, .dont_evolve_3
-	jr .proceed
+	jp .proceed
 
 .happiness_daylight
 	ld a, [wTimeOfDay]
 	cp NITE_F
 	jp z, .dont_evolve_3
-	jr .proceed
+	jp .proceed
 	
 .trade
 	ld a, [wLinkMode]
@@ -155,7 +161,7 @@ EvolveAfterBattle_MasterLoop::
 	ld a, [hli]
 	ld b, a
 	inc a
-	jr z, .proceed
+	jp z, .proceed
 
 	ld a, [wLinkMode]
 	cp LINK_TIMECAPSULE
@@ -167,7 +173,7 @@ EvolveAfterBattle_MasterLoop::
 
 	xor a
 	ld [wTempMonItem], a
-	jr .proceed
+	jp .proceed
 
 .item
 	ld a, [hli]
@@ -189,6 +195,58 @@ EvolveAfterBattle_MasterLoop::
 	and CAUGHT_LOCATION_MASK
 	cp a, LANDMARK_FISHING
 	jr .proceed
+	
+.taxo1
+	ld a, [wTempMonLevel]
+	cp [hl]
+	jp c, .dont_evolve_1
+
+	call IsMonHoldingEverstone
+	jp z, .dont_evolve_1
+
+	push hl
+	ld de, wTempMonSpeed
+	ld hl, wTempMonDefense
+	ld c, 2
+	call CompareBytes
+	ld a, SPD_LT_DEF
+	jr c, .got_taxo1_evo
+	ld a, SPD_GT_DEF
+.got_taxo1_evo
+	pop hl
+
+	inc hl
+	cp [hl]
+	jp nz, .dont_evolve_2
+
+	inc hl
+	jp .proceed
+	
+.taxo2
+	ld a, [wTempMonLevel]
+	cp [hl]
+	jp c, .dont_evolve_1
+
+	call IsMonHoldingEverstone
+	jp z, .dont_evolve_1
+
+	push hl
+	ld de, wTempMonAttack
+	ld hl, wTempMonSpeed
+	ld c, 2
+	call CompareBytes
+	ld a, ATK_LT_SPD
+	jr c, .got_taxo1_evo
+	ld a, ATK_GT_SPD
+.got_taxo2_evo
+	pop hl
+
+	inc hl
+	cp [hl]
+	jp nz, .dont_evolve_2
+
+	inc hl
+	jp .proceed
 
 .level
 	ld a, [hli]

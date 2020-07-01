@@ -259,9 +259,7 @@ MrPokemonsHouse_OakText1:
 	para "Oh! What's this?"
 	line "A rare #MON!"
 
-	para "Let's see…"
-
-	para "Hm, I see!"
+	para "Ah… Hm, I see!"
 
 	para "I understand why"
 	line "PROF.ELM gave you"
@@ -281,8 +279,6 @@ MrPokemonsHouse_OakText1:
 	para "#MON with love"
 	line "and care."
 
-	para "…Ah!"
-
 	para "You seem to be"
 	line "dependable."
 
@@ -291,7 +287,7 @@ MrPokemonsHouse_OakText1:
 
 	para "See? This is the"
 	line "latest version of"
-	cont "#DEX."
+	cont "the #DEX."
 
 	para "It automatically"
 	line "records data on"
@@ -310,10 +306,7 @@ MrPokemonsHouse_GetDexText:
 
 MrPokemonsHouse_OakText2:
 	text "Go meet many kinds"
-	line "of #MON and"
-
-	para "complete that"
-	line "#DEX!"
+	line "of #MON!"
 
 	para "But I've stayed"
 	line "too long."

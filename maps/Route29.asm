@@ -192,7 +192,7 @@ TuscanyTuesdayScript:
 	waitbutton
 TuscanyDoneScript:
 	closetext
-	end
+	end	
 
 TuscanyNotTuesdayScript:
 	writetext TuscanyNotTuesdayText

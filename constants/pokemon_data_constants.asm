@@ -136,6 +136,8 @@ NUM_HOF_TEAMS EQU 30
 	const EVOLVE_HAPPINESS
 	const EVOLVE_STAT
 	const EVOLVE_FISH
+	const EVOLVE_TAXO1
+	const EVOLVE_TAXO2
 
 ; EVOLVE_HAPPINESS triggers
 	const_def 1
@@ -148,6 +150,16 @@ NUM_HOF_TEAMS EQU 30
 	const ATK_GT_DEF
 	const ATK_LT_DEF
 	const ATK_EQ_DEF
+	
+; EVOLVE_TAXO1 triggers
+	const_def 1
+	const SPD_GT_DEF
+	const SPD_LT_DEF
+	
+; EVOLVE_TAXO2 triggers
+	const_def 1
+	const ATK_GT_SPD
+	const ATK_LT_SPD
 
 ; wild data
 

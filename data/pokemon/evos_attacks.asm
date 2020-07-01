@@ -2009,7 +2009,6 @@ TaurosEvosAttacks:
 	db 0 ; no more level-up moves
 
 MagikarpEvosAttacks:
-	db EVOLVE_LEVEL, 20, GYARADOS
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 15, POUND
@@ -2558,8 +2557,8 @@ WormeekEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, DEFENSE_CURL
 	db 1, STRING_SHOT
-	db 2, WRAP
-	db 7, CONSTRICT
+	db 2, CONSTRICT
+	db 6, WRAP
 	db 10, FLAIL
 	db 16, DIG
 	db 22, ROCK_SMASH

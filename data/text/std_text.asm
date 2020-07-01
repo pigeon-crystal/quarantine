@@ -60,11 +60,8 @@ NurseTakePokemonText:
 	done
 
 NurseReturnPokemonText:
-	text "Thank you for"
-	line "waiting."
-
-	para "Your #MON are"
-	line "fully healed."
+	text "Your #MON are"
+	line "now fully healed."
 	done
 
 NurseGoodbyeText:

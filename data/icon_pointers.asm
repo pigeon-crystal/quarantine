@@ -79,6 +79,7 @@ IconPointers:
 	dw EukubIcon
 	dw KoaganIcon
 	dw PocalyptusIcon
+	dw WormachoIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon

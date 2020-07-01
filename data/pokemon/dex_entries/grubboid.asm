@@ -6,5 +6,5 @@
 	next "tween humans and"
 
 	page "#MON. Seen as a"
-	next "mistake of nature,"
-	next "born from horror.@"
+	next "mistake of nature."
+	next "@"

@@ -380,7 +380,7 @@ ShowElmTogepiScript:
 ElmGiveEverstoneScript:
 	writetext ElmGiveEverstoneText1
 	promptbutton
-	verbosegiveitem EVERSTONE
+	verbosegiveitem EVIOLITE
 	iffalse ElmScript_NoRoomForEverstone
 	writetext ElmGiveEverstoneText2
 	waitbutton
@@ -739,16 +739,12 @@ ElmText_Intro:
 	para "could help me with"
 	line "it, <PLAY_G>."
 
-	para "You see…"
-
 	para "I'm writing a"
 	line "paper that I want"
 
-	para "to present at a"
-	line "conference."
-
-	para "But there are some"
-	line "things I don't"
+	para "to present, but"
+	line "there are some"
+	cont "things I don't"
 
 	para "quite understand"
 	line "yet."
@@ -792,8 +788,7 @@ ElmText_GotAnEmail:
 	text "Oh, hey! I got an"
 	line "e-mail!"
 
-	para "<……><……><……>"
-	line "Hm… Uh-huh…"
+	para "Hm… Uh-huh…"
 
 	para "Okay…"
 	done
@@ -1009,11 +1004,7 @@ ElmAfterTheftText5:
 
 	para "takes to become"
 	line "the CHAMPION."
-
-	para "You seem to be"
-	line "getting on great"
-	cont "with #MON too."
-
+	
 	para "You should take"
 	line "the #MON GYM"
 	cont "challenge."
@@ -1109,7 +1100,7 @@ ElmGiveEverstoneText1:
 
 ElmGiveEverstoneText2:
 	text "That's an"
-	line "EVERSTONE."
+	line "EVIOLITE."
 
 	para "Some species of"
 	line "#MON evolve"
@@ -1118,12 +1109,12 @@ ElmGiveEverstoneText2:
 	line "certain levels."
 
 	para "A #MON holding"
-	line "the EVERSTONE"
-	cont "won't evolve."
+	line "the EVIOLITE"
+	cont "gets stronger"
 
-	para "Give it to a #-"
-	line "MON you don't want"
-	cont "to evolve."
+	para "if it still has"
+	line "evolutionary"
+	cont "potential."
 	done
 
 ElmText_CallYou:

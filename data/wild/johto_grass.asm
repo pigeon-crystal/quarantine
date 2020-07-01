@@ -1349,14 +1349,14 @@ JohtoGrassWildMons:
 	db 3, FURNIT
 	db 3, HOATOT
 	db 3, NOMSTER
-	db 3, WORMEEK
+	db 3, LAWNIE
 	db 3, LAWNIE
 	db 5, FURNIT
 
 	map_id ROUTE_30 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 4, QWAIL
+	db 4, HOATOT
 	db 4, BUZZLING
 	db 4, BUZZLING
 	db 4, FURNIT
@@ -1368,50 +1368,50 @@ JohtoGrassWildMons:
 	db 3, FURNIT
 	db 3, BUZZLING
 	db 4, BUZZLING
-	db 4, QWAIL
+	db 4, WORMEEK
 	db 3, HOATOT
 	db 4, LAWNIE
-	db 4, QWAIL
+	db 4, WORMEEK
 	db 5, HOATOT
 	; nite
 	db 4, BUZZLING
-	db 4, BUZZLING
+	db 4, HOATOT
 	db 4, LAWNIE
 	db 4, GWUBBY
 	db 4, LAWNIE
 	db 4, FURNIT
-	db 4, QWAIL
-	db 5, QWAIL
+	db 4, LAWNIE
+	db 5, LAWNIE
 
 	map_id ROUTE_31 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, WORMEEK
-	db 5, BUZZLING
+	db 4, WORMEEK
+	db 4, BUZZLING
 	db 5, FURNIT
 	db 5, HOATOT
-	db 6, BUZZLING
-	db 5, LAWNIE
+	db 5, BUZZLING
+	db 4, LAWNIE
 	db 6, LAWNIE
-	db 7, WORMEEK
+	db 6, WORMEEK
 	; day
+	db 4, FURNIT
+	db 4, BUZZLING
 	db 5, FURNIT
 	db 5, BUZZLING
-	db 5, FURNIT
-	db 5, BUZZLING
-	db 6, HOATOT
-	db 5, LAWNIE
+	db 5, HOATOT
+	db 4, LAWNIE
 	db 6, LAWNIE
-	db 7, LAWNIE
+	db 6, LAWNIE
 	; nite
-	db 5, BUZZLING
-	db 5, FLUFFRUIT
+	db 4, BUZZLING
+	db 4, FLUFFRUIT
 	db 5, LAWNIE
-	db 6, GWUBBY
+	db 5, GWUBBY
 	db 5, FURNIT
-	db 5, LAWNIE
+	db 4, LAWNIE
 	db 6, FLUFFRUIT
-	db 7, GWUBBY
+	db 6, GWUBBY
 
 	map_id ROUTE_32 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1446,27 +1446,27 @@ JohtoGrassWildMons:
 	map_id ROUTE_33 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 11, NOMSTER
+	db 12, NOMSTER
 	db 11, QWAIL
-	db 11, DOLMITE
+	db 12, DOLMITE
 	db 12, WORMEEK
 	db 12, QWAIL
-	db 11, FLUFFRUIT
+	db 12, FLUFFRUIT
 	db 12, SHABBYCAT
 	db 13, SHABBYCAT
 	; day
-	db 11, DOLMITE
+	db 12, DOLMITE
 	db 11, QWAIL
-	db 11, NOMSTER
+	db 12, NOMSTER
 	db 12, QWAIL
 	db 11, WORMEEK
 	db 12, FLUFFRUIT
 	db 12, SHABBYCAT
 	db 13, SHABBYCAT
 	; nite
-	db 11, DOLMITE
+	db 12, DOLMITE
 	db 11, NOMSTER
-	db 11, FLUFFRUIT
+	db 12, FLUFFRUIT
 	db 12, NOMSTER
 	db 12, FLUFFRUIT
 	db 12, SHABBYCAT
@@ -1537,11 +1537,11 @@ JohtoGrassWildMons:
 	db 12 percent, 12 percent, 12 percent ; encounter rates: morn/day/nite
 	; morn
 	db 6, WORMEEK
-	db 6, HOATOT
-	db 6, HOATOT
+	db 6, QWAIL
+	db 6, QWAIL
 	db 7, GOOSAPLING
-	db 6, EUKUB
-	db 7, EUKUB
+	db 7, AMBINNI
+	db 7, AMBINNI
 	db 7, GOOSAPLING
 	db 8, WORMEEK
 	; day
@@ -1549,17 +1549,17 @@ JohtoGrassWildMons:
 	db 6, WORMEEK
 	db 6, LAWNIE
 	db 7, GOOSAPLING
-	db 6, EUKUB
-	db 7, HOATOT
+	db 6, AMBINNI
+	db 7, QWAIL
 	db 7, GOOSAPLING
-	db 8, EUKUB
+	db 8, AMBINNI
 	; nite
 	db 6, GWUBBY
-	db 6, EUKUB
+	db 7, EUKUB
 	db 6, EUKUB
 	db 7, FLUFFRUIT
-	db 6, FURNIT
-	db 7, EUKUB
+	db 7, GOOSAPLING
+	db 7, AMBINNI
 	db 7, FLUFFRUIT
 	db 8, GWUBBY
 
@@ -1568,30 +1568,30 @@ JohtoGrassWildMons:
 	; morn
 	db 17, WORMEEK
 	db 16, NOMSTER
-	db 15, FURNIT
+	db 15, FURDOBA
 	db 16, HIVEMAIM
-	db 17, FURDOBA
+	db 17, PEAUTY
 	db 16, PEAUTY
 	db 17, HOATOXIC
 	db 18, HOATOXIC
 	; day
 	db 17, FURNIT
 	db 16, NOMSTER
-	db 15, FURNIT
-	db 16, WORMEEK
 	db 17, FURDOBA
+	db 16, WORMEEK
+	db 17, PEAUTY
 	db 16, PEAUTY
 	db 17, HOATOXIC
 	db 18, HOATOXIC
 	; nite
 	db 17, GWUBBY
 	db 16, NOMSTER
-	db 15, HOATOT
+	db 17, HOATOXIC
 	db 16, NOMSTER
 	db 17, FURDOBA
-	db 16, HOATOXIC
+	db 18, PEAUTY
 	db 17, PEAUTY
-	db 16, JUNOBE
+	db 19, JUNOBE
 
 	map_id ROUTE_38 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

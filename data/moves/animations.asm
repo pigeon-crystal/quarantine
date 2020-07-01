@@ -1730,17 +1730,17 @@ BattleAnim_Softboiled:
 	anim_call BattleAnim_TargetObj_1Row
 	anim_sound 0, 0, SFX_SWITCH_POKEMON
 	anim_obj ANIM_OBJ_EGG, 44, 104, $6
-	anim_wait 128
+	anim_wait 60
 	anim_incobj 2
 	anim_obj ANIM_OBJ_EGG, 76, 104, $b
-	anim_wait 16
+	anim_wait 8
 	anim_bgeffect ANIM_BG_18, $0, $1, $40
 	anim_sound 0, 0, SFX_METRONOME
 .loop
 	anim_obj ANIM_OBJ_RECOVER, 44, 88, $20
 	anim_wait 8
 	anim_loop 8, .loop
-	anim_wait 128
+	anim_wait 60
 	anim_incbgeffect ANIM_BG_18
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
@@ -1778,7 +1778,7 @@ BattleAnim_Bide:
 	anim_call BattleAnim_TargetObj_1Row
 	anim_sound 0, 0, SFX_ESCAPE_ROPE
 	anim_bgeffect ANIM_BG_1A, $0, $1, $20
-	anim_wait 72
+	anim_wait 52
 	anim_incbgeffect ANIM_BG_1A
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
@@ -1791,12 +1791,12 @@ BattleAnim_Bind:
 	anim_obj ANIM_OBJ_49, 132, 56, $0
 	anim_wait 8
 	anim_obj ANIM_OBJ_48, 132, 48, $0
-	anim_wait 64
+	anim_wait 32
 	anim_sound 0, 1, SFX_BIND
 	anim_incobj 1
 	anim_incobj 2
 	anim_incobj 3
-	anim_wait 96
+	anim_wait 32
 	anim_ret
 
 BattleAnim_Wrap:
@@ -1807,12 +1807,12 @@ BattleAnim_Wrap:
 	anim_obj ANIM_OBJ_48, 132, 56, $0
 	anim_wait 8
 	anim_obj ANIM_OBJ_48, 132, 48, $0
-	anim_wait 64
+	anim_wait 32
 	anim_sound 0, 1, SFX_BIND
 	anim_incobj 1
 	anim_incobj 2
 	anim_incobj 3
-	anim_wait 96
+	anim_wait 32
 	anim_ret
 
 BattleAnim_Confusion:
@@ -2087,7 +2087,7 @@ BattleAnim_StringShot:
 	anim_wait 4
 	anim_sound 0, 1, SFX_MENU
 	anim_obj ANIM_OBJ_STRING_SHOT, 132, 56, $2
-	anim_wait 64
+	anim_wait 30
 	anim_ret
 
 BattleAnim_IronHead:

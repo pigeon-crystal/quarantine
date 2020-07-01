@@ -1,10 +1,10 @@
 	db "VOLCANIC@" ; species name
 	dw 907, 4001 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "KRAKENTOA live in"
+	next "island chains in"
+	next "southern seas."
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "The intense heat"
+	next "of KRAKENTOA's lava"
+	next "disrupts currents.@"
