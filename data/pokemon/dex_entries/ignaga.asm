@@ -1,10 +1,10 @@
 	db "SPICY@" ; species name
-	dw 702, 1005 ; height, weight
+	dw 704, 1005 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "IGNAGA tails serve"
+	next "as a warning of"
+	next "their internal"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "capsaicin stores"
+	next "that they can fire"
+	next "more than 20 feet.@"

@@ -1,10 +1,10 @@
 	db "GROWTH@" ; species name
-	dw 100, 009 ; height, weight
+	dw 100, 019 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "Rumored to be of"
+	next "human origin, this"
+	next "#MON escaped"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "from labs and now"
+	next "proliferatres in"
+	next "the wild.@"

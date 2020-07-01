@@ -1,10 +1,10 @@
-	db "DUST@" ; species name
+	db "STATIC@" ; species name
 	dw 105, 529 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "BUNDEGRAF cause"
+	next "serious dust"
+	next "allergies. When"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "their electricity"
+	next "discharges, their"
+	next "fur falls flat.@"

@@ -1,10 +1,10 @@
 	db "DUST@" ; species name
 	dw 009, 110 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "Often seen rolling"
+	next "in dust, which"
+	next "clings to its body"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "due to static"
+	next "electricity. Shocks"
+	next "when touching.@"

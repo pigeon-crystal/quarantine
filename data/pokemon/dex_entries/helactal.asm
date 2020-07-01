@@ -1,10 +1,10 @@
 	db "GROWTH@" ; species name
-	dw 300, 501 ; height, weight
+	dw 409, 575 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "The MANDELBLOB"
+	next "constantly budding"
+	next "off of HELACTAL"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "begin twitching"
+	next "as they develop"
+	next "consciousness.@"

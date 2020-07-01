@@ -1,10 +1,10 @@
-	db "STATIC@" ; species name
+	db "SHOCKING@" ; species name
 	dw 201, 645 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "During storms this"
+	next "#MON may be"
+	next "seen on lightning"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "rods. It happily"
+	next "tries to get"
+	next "struck.@"
