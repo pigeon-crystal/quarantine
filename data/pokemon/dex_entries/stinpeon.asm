@@ -5,6 +5,6 @@
 	next "STINPEON will"
 	next "pummel rocks"
 
-	page "to harder their"
+	page "to harden their"
 	next "soft shells and"
 	next "build endurance.@"

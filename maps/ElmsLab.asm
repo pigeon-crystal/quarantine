@@ -380,7 +380,7 @@ ShowElmTogepiScript:
 ElmGiveEverstoneScript:
 	writetext ElmGiveEverstoneText1
 	promptbutton
-	verbosegiveitem EVIOLITE
+	verbosegiveitem EXP_SHARE
 	iffalse ElmScript_NoRoomForEverstone
 	writetext ElmGiveEverstoneText2
 	waitbutton
@@ -1100,21 +1100,15 @@ ElmGiveEverstoneText1:
 
 ElmGiveEverstoneText2:
 	text "That's an"
-	line "EVIOLITE."
+	line "EXP. SHARE!."
 
-	para "Some species of"
-	line "#MON evolve"
-
-	para "when they grow to"
-	line "certain levels."
-
-	para "A #MON holding"
-	line "the EVIOLITE"
-	cont "gets stronger"
-
-	para "if it still has"
-	line "evolutionary"
-	cont "potential."
+	para "It should help"
+	line "with raising"
+	cont "that #MON."
+	
+	para "Hope it'll help"
+	line "with filling out"
+	cont "your #DEX!"
 	done
 
 ElmText_CallYou:

@@ -1,5 +1,5 @@
 	db "SMOKEPLUME@" ; species name
-	dw 410, 975 ; height, weight
+	dw 509, 1005 ; height, weight
 
 	db   "It is drawn to"
 	next "fire, leaving it-"

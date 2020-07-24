@@ -4,7 +4,7 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, BUG ; type
-	db 200 ; catch rate
+	db 205 ; catch rate
 	db 55 ; base exp
 	db PNK_APRICORN, MIRACLEBERRY ; items
 	db GENDER_F50 ; gender ratio

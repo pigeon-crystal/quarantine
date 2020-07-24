@@ -1,11 +1,11 @@
 	db TODESCOOL ; 142
 
-	db  140, 55,  77, 50,  77,  77
+	db  141, 55,  77, 50,  77,  77
 	;   hp  atk  def  spd  sat  sdf
 
 	db POISON, FAIRY ; type
-	db 50 ; catch rate
-	db 169 ; base exp
+	db 45 ; catch rate
+	db 222 ; base exp
 	db BIG_MUSHROOM, BIG_MUSHROOM ; items
 	db GENDER_F75 ; gender ratio
 	db 100 ; unknown 1

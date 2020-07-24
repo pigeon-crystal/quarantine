@@ -3185,15 +3185,15 @@ ExecutiveFGroup:
 SageGroup:
 	; SAGE (1) ;sprout
 	db "CHOW@", TRAINERTYPE_NORMAL
-	db  6, LAWNIE
 	db  7, LAWNIE
+	db  7, EUKUB
+	db  7, HOATOT
 	db -1 ; end
 
 	; SAGE (2) ;sprout
 	db "NICO@", TRAINERTYPE_NORMAL
+	db  6, LAWNIE
 	db  7, LAWNIE
-	db  7, EUKUB
-	db  7, HOATOT
 	db -1 ; end
 
 	; SAGE (3) ;sprout
@@ -3204,8 +3204,8 @@ SageGroup:
 
 	; SAGE (4) ;sprout
 	db "TROY@", TRAINERTYPE_NORMAL
-	db  10, LAWNIE
-	db 	 8, BUZZLING
+	db   9, LAWNIE
+	db 	 9, BUZZLING
 	db  10, LAWNIE
 	db -1 ; end
 
@@ -3239,16 +3239,16 @@ SageGroup:
 
 	; SAGE (9) ;sprout boss
 	db "LI@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
-	db 11, LAWNIE
-		dw $F1F1, $1F11, $696A, $E190, $710D
+	db 10, LAWNIE
+		dw $71F1, $5211, $626A, $9190, $510D
 		db BERRY
 		db BEAT_UP, DIG, SWIFT, NO_MOVE
 	db 11, FLUFFRUIT
-		dw $7F1D, $7F6F, $7D1D, $9710, $710D
+		dw $7F1D, $7F6F, $7D1D, $7710, $710D
 		db MIRACLE_SEED
 		db ABSORB, GROWTH, GUST, ATTRACT
 	db 12, LAWNIE
-		dw $9EBA, $7EBA, $7EBA, $7EBA, $DEBA
+		dw $7EBA, $7EBA, $7EBA, $7EBA, $7EBA
 		db BERRY
 		db REST, SNORE, FLASH, DIG
 	db -1 ; end

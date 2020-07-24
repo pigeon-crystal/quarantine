@@ -1,5 +1,5 @@
 	db "APEXHUNTER@" ; species name
-	dw 705, 7420 ; height, weight
+	dw 708, 7420 ; height, weight
 
 	db   "It will ford even"
 	next "frozen rivers to"

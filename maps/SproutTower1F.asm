@@ -85,11 +85,7 @@ SproutTower1FSage1Text:
 	done
 
 SproutTower1FSage2Text:
-	text "All of us SAGES"
-	line "train with our"
-	cont "LAWNIE."
-
-	para "Even #MON some"
+	text "Even #MON some"
 	line "people think of"
 	cont "as pests deserve"
 	cont "love and respect."
@@ -124,11 +120,11 @@ SproutTower1FGrannyText:
 	done
 
 SproutTower1FTeacherText:
-	text "See the pillar"
-	line "shaking?"
+	text "Good luck with"
+	line "the SAGES!"
 
-	para "People are train-"
-	line "ing upstairs."
+	para "Hmm… what type"
+	line "is LAWNIE, again?"
 	done
 
 SproutTower1FStatueText:

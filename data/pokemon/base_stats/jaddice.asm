@@ -4,7 +4,7 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, ICE ; type
-	db 70 ; catch rate
+	db 71 ; catch rate
 	db 200 ; base exp
 	db SILVERPOWDER, SILVERPOWDER ; items
 	db GENDER_F75 ; gender ratio

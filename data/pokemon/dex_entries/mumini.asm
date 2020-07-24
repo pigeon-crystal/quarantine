@@ -6,5 +6,5 @@
 	next "frolic outside of"
 
 	page "their caves, but"
-	next "the sunlight turns"
+	next "sunlight turns"
 	next "them to stone.@"

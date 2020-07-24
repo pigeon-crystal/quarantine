@@ -1,10 +1,10 @@
 	db CADDISICLE ; 063
 
-	db  45,  59,  61,  50, 44,  61
+	db  52,  62,  61,  50, 44,  61
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, ICE ; type
-	db 120 ; catch rate
+	db 150 ; catch rate
 	db 66 ; base exp
 	db NO_ITEM, SILVERPOWDER ; items
 	db GENDER_F75 ; gender ratio

@@ -203,11 +203,11 @@ HoatotEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 1, POUND
-	db 8, POISON_STING
-	db 12, PECK
-	db 17, SMOG
-	db 23, POISON_GAS
-	db 27, FAINT_ATTACK
+	db 7, POISON_STING
+	db 11, PECK
+	db 16, SMOG
+	db 21, POISON_GAS
+	db 25, FAINT_ATTACK
 	db 31, SLASH
 	db 35, POISON_JAB
 	db 39, NASTY_PLOT
@@ -2590,14 +2590,16 @@ GwubbyEvosAttacks:
 	db EVOLVE_LEVEL, 35, GRUBBOID
 	db 0 ; no more evolutions
 	db 1, POISON_STING
-	db 1, STRING_SHOT
-	db 6, CONSTRICT
-	db 8, BIDE
+	db 1, CHARM
+	db 6, STRING_SHOT
+	db 7, CONSTRICT
 	db 10, FURY_CUTTER
-	db 15, CONFUSE_RAY
-	db 19, FAINT_ATTACK
-	db 22, DEFENSE_CURL
-	db 29, FLAIL
+	db 13, ATTRACT
+	db 17, FAINT_ATTACK
+	db 20, DEFENSE_CURL
+	db 24, FLAIL
+	db 28, SAFEGUARD
+	db 33, PLAY_ROUGH
 	db 40, LEECH_LIFE
 	db 0 ; no more level-up moves
 
@@ -2605,6 +2607,8 @@ GrubboidEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POISON_STING
 	db 1, STRING_SHOT
+	db 1, PLAY_ROUGH
+	db 1, CHARM
 	db 6, CONSTRICT
 	db 8, BIDE
 	db 10, FURY_CUTTER
@@ -3090,8 +3094,8 @@ MaulzerEvosAttacks:
 	db 1, SNARL
 	db 1, BITE
 	db 6, POUND
-	db 9, FORESIGHT
-	db 12, ROAR
+	db 9, ROAR
+	db 12, FORESIGHT
 	db 15, FURY_SWIPES
 	db 15, BEAT_UP
 	db 19, MEAN_LOOK
@@ -3103,6 +3107,7 @@ MaulzerEvosAttacks:
 	db 36, HACKLES_UP
 	db 42, CRUNCH
 	db 46, THRASH
+	db 49, PLAY_ROUGH
 	db 0 ; no more level-up moves
 
 UnownEvosAttacks:
@@ -3144,7 +3149,7 @@ SwazzageEvosAttacks:
 	db 26, HEART_STAMP
 	db 30, SLASH
 	db 35, NASTY_PLOT
-	db 37, SHADOW_CLAW
+	db 39, SHADOW_CLAW
 	db 41, IRON_HEAD
 	db 43, BELLY_DRUM
 	db 44, MACH_PUNCH

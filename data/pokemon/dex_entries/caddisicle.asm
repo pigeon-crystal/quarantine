@@ -1,5 +1,5 @@
 	db "SNOWSHELL@" ; species name
-	dw 102, 284 ; height, weight
+	dw 102, 484 ; height, weight
 
 	db   "CADDISICLE dress"
 	next "themselves in only"

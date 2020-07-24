@@ -1,10 +1,10 @@
 	db "SPOREFROG@" ; species name
 	dw 207, 1305 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "Folk tales say"
+	next "that trainers who"
+	next "mistake TODESCOOL"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "for a #BALL"
+	next "end up with warts"
+	next "on their hands.@"
