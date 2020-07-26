@@ -106,10 +106,10 @@ PokemonCries::
 	mon_cry CRY_CYNDAQUIL,   308,  211 ; PEPOFFER
 	mon_cry CRY_VOLTORB,     237,  256 ; VOLTORB
 	mon_cry CRY_VOLTORB,     168,  272 ; ELECTRODE
-	mon_cry CRY_DIGLETT,       0,  256 ; EXEGGCUTE
-	mon_cry CRY_DROWZEE,       0,  256 ; EXEGGUTOR
-	mon_cry CRY_CLEFAIRY,      0,  256 ; CUBONE
-	mon_cry CRY_ODDISH,       79,  224 ; MAROWAK
+	mon_cry CRY_DIGLETT,       0,  256 ; CANTALONE
+	mon_cry CRY_DROWZEE,       0,  256 ; CANTOGETHA
+	mon_cry CRY_CLEFAIRY,      0,  256 ; COCACOBRA
+	mon_cry CRY_ODDISH,       79,  224 ; KALKOLA
 	mon_cry CRY_GOLEM,       128,  320 ; HITMONLEE
 	mon_cry CRY_SEEL,        238,  320 ; HITMONCHAN
 	mon_cry CRY_CLEFFA,       200, 340 ; SAPPURA
@@ -120,8 +120,8 @@ PokemonCries::
 	mon_cry CRY_RHYDON,      -10,  320 ; CALARMOURI
 	mon_cry CRY_GOLEM,         0,  256 ; TANGELA
 	mon_cry CRY_KANGASKHAN,    0,  256 ; KANGASKHAN
-	mon_cry CRY_CLEFAIRY,    153,  144 ; HORSEA
-	mon_cry CRY_CLEFAIRY,     60,  129 ; SEADRA
+	mon_cry CRY_CLEFAIRY,    153,  144 ; OSCURASA
+	mon_cry CRY_CLEFAIRY,     60,  129 ; MADRUGASA
 	mon_cry CRY_SEEL,       1128,  200 ; GOOSAPLING
 	mon_cry CRY_SEEL,        126,  100 ; GANZERKER
 	mon_cry CRY_PARAS,        50,  160 ; PEAUTY

@@ -102,10 +102,10 @@ EvosAttacksPointers::
 	dw PepofferEvosAttacks
 	dw VoltorbEvosAttacks
 	dw ElectrodeEvosAttacks
-	dw ExeggcuteEvosAttacks
-	dw ExeggutorEvosAttacks
-	dw CuboneEvosAttacks
-	dw MarowakEvosAttacks
+	dw CantaloneEvosAttacks
+	dw CantogethaEvosAttacks
+	dw CocacobraEvosAttacks
+	dw KalkolaEvosAttacks
 	dw HitmonleeEvosAttacks
 	dw HitmonchanEvosAttacks
 	dw SappuraEvosAttacks
@@ -116,7 +116,7 @@ EvosAttacksPointers::
 	dw CalarmouriEvosAttacks
 	dw TangelaEvosAttacks
 	dw KangaskhanEvosAttacks
-	dw HorseaEvosAttacks
+	dw OscurasaEvosAttacks
 	dw SeadraEvosAttacks
 	dw GoosaplingEvosAttacks
 	dw GanzerkerEvosAttacks

@@ -80,6 +80,7 @@ IconPointers:
 	dw KoaganIcon
 	dw PocalyptusIcon
 	dw WormachoIcon
+	dw TodescoolIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon

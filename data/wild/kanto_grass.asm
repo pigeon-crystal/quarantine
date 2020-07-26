@@ -65,23 +65,23 @@ KantoGrassWildMons:
 	map_id ROCK_TUNNEL_1F ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 10, CUBONE
+	db 10, COCACOBRA
 	db 11, DOLMITE
 	db 12, MACHOP
 	db 12, STINPEON
 	db 15, MACHOKE
-	db 12, MAROWAK
-	db 12, MAROWAK
-	db 20, MAROWAK
+	db 12, KALKOLA
+	db 12, KALKOLA
+	db 20, KALKOLA
 	; day
-	db 10, CUBONE
+	db 10, COCACOBRA
 	db 11, DOLMITE
 	db 12, MACHOP
 	db 12, STINPEON
 	db 15, MACHOKE
-	db 12, MAROWAK
-	db 12, MAROWAK
-	db 20, MAROWAK
+	db 12, KALKOLA
+	db 12, KALKOLA
+	db 20, KALKOLA
 	; nite
 	db 12, STINPEON
 	db 11, DOLMITE
@@ -95,20 +95,20 @@ KantoGrassWildMons:
 	map_id ROCK_TUNNEL_B1F ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 12, CUBONE
+	db 12, COCACOBRA
 	db 14, DOLMITE
 	db 16, ONIX
 	db 12, STINPEON
-	db 15, MAROWAK
+	db 15, KALKOLA
 	db 15, KANGASKHAN
 	db 15, KANGASKHAN
 	db 19, KANGASKHAN
 	; day
-	db 12, CUBONE
+	db 12, COCACOBRA
 	db 14, DOLMITE
 	db 16, ONIX
 	db 12, STINPEON
-	db 15, MAROWAK
+	db 15, KALKOLA
 	db 15, KANGASKHAN
 	db 15, KANGASKHAN
 	db 19, KANGASKHAN
@@ -430,8 +430,8 @@ KantoGrassWildMons:
 	db 15, NOMSABRE
 	db 15, QWALLOP
 	db 15, QWALLOP
-	db 18, MAROWAK
-	db 18, MAROWAK
+	db 18, KALKOLA
+	db 18, KALKOLA
 	db 20, QWALLOP
 	; day
 	db 15, NOMSTER
@@ -439,8 +439,8 @@ KantoGrassWildMons:
 	db 15, NOMSABRE
 	db 15, QWALLOP
 	db 15, QWALLOP
-	db 18, MAROWAK
-	db 18, MAROWAK
+	db 18, KALKOLA
+	db 18, KALKOLA
 	db 20, QWALLOP
 	; nite
 	db 15, NOMSTER
@@ -459,7 +459,7 @@ KantoGrassWildMons:
 	db 17, VOLTORB
 	db 15, NOMSABRE
 	db 15, QWALLOP
-	db 15, MAROWAK
+	db 15, KALKOLA
 	db 16, GIGUARD
 	db 16, GIGUARD
 	db 20, GIGUARD
@@ -468,7 +468,7 @@ KantoGrassWildMons:
 	db 17, VOLTORB
 	db 15, NOMSABRE
 	db 15, QWALLOP
-	db 15, MAROWAK
+	db 15, KALKOLA
 	db 18, GIGUARD
 	db 18, GIGUARD
 	db 20, GIGUARD

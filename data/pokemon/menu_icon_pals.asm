@@ -105,10 +105,10 @@ MonMenuIconPals:
 	icon_pals GREEN,   YELLOW  ; PEPOFFER
 	icon_pals BROWN,   YELLOW  ; VOLTORB
 	icon_pals BROWN,   YELLOW  ; ELECTRODE
-	icon_pals BROWN,   YELLOW  ; EXEGGCUTE
-	icon_pals BROWN,   YELLOW  ; EXEGGUTOR
-	icon_pals BROWN,   YELLOW  ; CUBONE
-	icon_pals BROWN,   YELLOW  ; MAROWAK
+	icon_pals BLUE,   YELLOW  ; CANTALONE
+	icon_pals BLUE,   YELLOW  ; CANTOGETHA
+	icon_pals BROWN,   YELLOW  ; COCACOBRA
+	icon_pals BROWN,   YELLOW  ; KALKOLA
 	icon_pals BROWN,   YELLOW  ; HITMONLEE
 	icon_pals BROWN,   YELLOW  ; HITMONCHAN
 	icon_pals PINK,   PINK     ; SAPPURA
@@ -119,8 +119,8 @@ MonMenuIconPals:
 	icon_pals GRAY,   PINK      ; CALARMOURI
 	icon_pals BROWN,   YELLOW  ; TANGELA
 	icon_pals BROWN,   YELLOW  ; KANGASKHAN
-	icon_pals BROWN,   YELLOW  ; HORSEA
-	icon_pals BROWN,   YELLOW  ; SEADRA
+	icon_pals BLUE,   YELLOW  ; OSCURASA
+	icon_pals BLUE,   YELLOW  ; MADRUGASA
 	icon_pals GRAY,   YELLOW   ; GOOSAPLING
 	icon_pals BROWN,   YELLOW  ; GANZERKER
 	icon_pals BLUE,     YELLOW ; PEAUTY

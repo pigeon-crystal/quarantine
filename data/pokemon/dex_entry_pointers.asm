@@ -101,10 +101,10 @@ PokedexDataPointerTable:
 	dw PepofferPokedexEntry
 	dw VoltorbPokedexEntry
 	dw ElectrodePokedexEntry
-	dw ExeggcutePokedexEntry
-	dw ExeggutorPokedexEntry
-	dw CubonePokedexEntry
-	dw MarowakPokedexEntry
+	dw CantalonePokedexEntry
+	dw CantogethaPokedexEntry
+	dw CocacobraPokedexEntry
+	dw KalkolaPokedexEntry
 	dw HitmonleePokedexEntry
 	dw HitmonchanPokedexEntry
 	dw SappuraPokedexEntry
@@ -115,7 +115,7 @@ PokedexDataPointerTable:
 	dw CalarmouriPokedexEntry
 	dw TangelaPokedexEntry
 	dw KangaskhanPokedexEntry
-	dw HorseaPokedexEntry
+	dw OscurasaPokedexEntry
 	dw SeadraPokedexEntry
 	dw GoosaplingPokedexEntry
 	dw GanzerkerPokedexEntry

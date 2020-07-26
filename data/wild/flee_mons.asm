@@ -8,11 +8,11 @@ SometimesFleeMons:
 	db -1
 
 OftenFleeMons:
-	db CUBONE
+	db COCACOBRA
 	db SHABBYCAT
 	db -1
 
 AlwaysFleeMons:
 	db RAIKOU
-	;db SLAATEL
+	db SLAATEL
 	db -1

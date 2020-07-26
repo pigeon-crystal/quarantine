@@ -20,6 +20,8 @@ AlphabeticalPokedexOrder:
 	db CAIRNIVORE
 	db CADDISICLE
 	db CALARMOURI
+	db CANTALONE
+	db CANTOGETHA
 	db CASANOCTE
 	db CELEBI
 	db CHARIZARD
@@ -29,10 +31,10 @@ AlphabeticalPokedexOrder:
 	db CLEFFA
 	db CLIBBLE
 	db CLOYSTER
+	db COCACOBRA
 	db CORSOLA
 	db CREMIGO
 	db CROBAT
-	db CUBONE
 	db CUTTLE
 	db DELIBIRD
 	db DODRIO
@@ -50,8 +52,6 @@ AlphabeticalPokedexOrder:
 	db ELEKID
 	db ESPEON
 	db EUKUB
-	db EXEGGCUTE
-	db EXEGGUTOR
 	db EXOTUNITY
 	db FARFETCH_D
 	db FELIORITTE
@@ -86,7 +86,7 @@ AlphabeticalPokedexOrder:
 	db HOOTHOOT
 	db HOPLAQUE
 	db HORNAMPA
-	db HORSEA
+	db OSCURASA
 	db HOUNDOOM
 	db HOUNDOUR
 	db IGGLYBUFF
@@ -97,6 +97,7 @@ AlphabeticalPokedexOrder:
 	db JOLTEON
 	db JUNOBE
 	db KABUTOPS
+	db KALKOLA
 	db KANGASKHAN
 	db KINGDRA
 	db KOAGAN
@@ -118,7 +119,6 @@ AlphabeticalPokedexOrder:
 	db MANDELBLOB
 	db MANKEY
 	db MAREEP
-	db MAROWAK
 	db MAULZER
 	db MEOWTAIN
 	db MEW
@@ -192,7 +192,7 @@ AlphabeticalPokedexOrder:
 	db SCORPEROR
 	db SCRUFFRUIT
 	db SCYTHER
-	db SEADRA
+	db MADRUGASA
 	db SENTRET
 	db SHABBYCAT
 	db SHAMSEL

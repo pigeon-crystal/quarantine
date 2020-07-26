@@ -231,20 +231,20 @@ INCBIN "gfx/footprints/lanatun.1bpp",     footprint_top
 INCBIN "gfx/footprints/pepoffer.1bpp",    footprint_top
 INCBIN "gfx/footprints/voltorb.1bpp",    footprint_top
 INCBIN "gfx/footprints/electrode.1bpp",  footprint_top
-INCBIN "gfx/footprints/exeggcute.1bpp",  footprint_top
-INCBIN "gfx/footprints/exeggutor.1bpp",  footprint_top
-INCBIN "gfx/footprints/cubone.1bpp",     footprint_top
+INCBIN "gfx/footprints/cantalone.1bpp",  footprint_top
+INCBIN "gfx/footprints/cantogetha.1bpp",  footprint_top
+INCBIN "gfx/footprints/cocacobra.1bpp",     footprint_top
 ; 097-104 bottom halves
 INCBIN "gfx/footprints/mossarre.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/lanatun.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/pepoffer.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/voltorb.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/electrode.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/exeggcute.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/exeggutor.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/cubone.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/cantalone.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/cantogetha.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/cocacobra.1bpp",     footprint_bottom
 ; 105-112 top halves
-INCBIN "gfx/footprints/marowak.1bpp",    footprint_top
+INCBIN "gfx/footprints/kalkola.1bpp",    footprint_top
 INCBIN "gfx/footprints/hitmonlee.1bpp",  footprint_top
 INCBIN "gfx/footprints/hitmonchan.1bpp", footprint_top
 INCBIN "gfx/footprints/sappura.1bpp",  footprint_top
@@ -253,7 +253,7 @@ INCBIN "gfx/footprints/sakuronna.1bpp",    footprint_top
 INCBIN "gfx/footprints/cuttle.1bpp",    footprint_top
 INCBIN "gfx/footprints/tendrill.1bpp",     footprint_top
 ; 105-112 bottom halves
-INCBIN "gfx/footprints/marowak.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/kalkola.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/hitmonlee.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/hitmonchan.1bpp", footprint_bottom
 INCBIN "gfx/footprints/sappura.1bpp",  footprint_bottom
@@ -265,8 +265,8 @@ INCBIN "gfx/footprints/tendrill.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/calarmouri.1bpp",    footprint_top
 INCBIN "gfx/footprints/tangela.1bpp",    footprint_top
 INCBIN "gfx/footprints/kangaskhan.1bpp", footprint_top
-INCBIN "gfx/footprints/horsea.1bpp",     footprint_top
-INCBIN "gfx/footprints/seadra.1bpp",     footprint_top
+INCBIN "gfx/footprints/oscurasa.1bpp",     footprint_top
+INCBIN "gfx/footprints/madrugasa.1bpp",     footprint_top
 INCBIN "gfx/footprints/goosapling.1bpp",    footprint_top
 INCBIN "gfx/footprints/ganzerker.1bpp",    footprint_top
 INCBIN "gfx/footprints/peauty.1bpp",     footprint_top
@@ -274,8 +274,8 @@ INCBIN "gfx/footprints/peauty.1bpp",     footprint_top
 INCBIN "gfx/footprints/calarmouri.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/tangela.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/kangaskhan.1bpp", footprint_bottom
-INCBIN "gfx/footprints/horsea.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/seadra.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/oscurasa.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/madrugasa.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/goosapling.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/ganzerker.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/peauty.1bpp",     footprint_bottom

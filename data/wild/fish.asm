@@ -169,7 +169,7 @@ FishGroups:
 	db  40 percent,     LANATUN,     40
 	db  70 percent,     time_group 19
 	db  90 percent + 1, PEPOFFER,    40
-	db 100 percent,     SEADRA,     40
+	db 100 percent,     MADRUGASA,     40
 
 .Pekoi_NoSwarm_Old:
 .Pekoi_Old:
@@ -224,7 +224,7 @@ TimeFishGroups:
 	db GYARADOS,   40,  GYARADOS,   40 ; 15
 	db DRATINI,    10,  DRATINI,    10 ; 16
 	db DRATINI,    10,  DRATINI,    10 ; 17
-	db HORSEA,     20,  HORSEA,     20 ; 18
-	db HORSEA,     40,  HORSEA,     40 ; 19
+	db OSCURASA,     20,  OSCURASA,     20 ; 18
+	db OSCURASA,     40,  OSCURASA,     40 ; 19
 	db TENTACOOL,  20,  TENTACOOL,  20 ; 20
 	db TENTACOOL,  40,  TENTACOOL,  40 ; 21

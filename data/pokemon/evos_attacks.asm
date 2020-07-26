@@ -1602,8 +1602,8 @@ ElectrodeEvosAttacks:
 	db 48, MIRROR_COAT
 	db 0 ; no more level-up moves
 
-ExeggcuteEvosAttacks:
-	db EVOLVE_ITEM, LEAF_STONE, EXEGGUTOR
+CantaloneEvosAttacks:
+	db EVOLVE_LEVEL, 26, CANTOGETHA
 	db 0 ; no more evolutions
 	db 1, HYPNOSIS
 	db 7, REFLECT
@@ -1615,7 +1615,7 @@ ExeggcuteEvosAttacks:
 	db 43, SOLARBEAM
 	db 0 ; no more level-up moves
 
-ExeggutorEvosAttacks:
+CantogethaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, HYPNOSIS
 	db 1, CONFUSION
@@ -1623,8 +1623,8 @@ ExeggutorEvosAttacks:
 	db 31, PSYCHIC_M
 	db 0 ; no more level-up moves
 
-CuboneEvosAttacks:
-	db EVOLVE_LEVEL, 28, MAROWAK
+CocacobraEvosAttacks:
+	db EVOLVE_LEVEL, 28, KALKOLA
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 5, TAIL_WHIP
@@ -1637,7 +1637,7 @@ CuboneEvosAttacks:
 	db 41, BONE_RUSH
 	db 0 ; no more level-up moves
 
-MarowakEvosAttacks:
+KalkolaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 1, TAIL_WHIP
@@ -1812,8 +1812,8 @@ KangaskhanEvosAttacks:
 	db 49, FLAIL
 	db 0 ; no more level-up moves
 
-HorseaEvosAttacks:
-	db EVOLVE_LEVEL, 32, SEADRA
+OscurasaEvosAttacks:
+	db EVOLVE_LEVEL, 32, MADRUGASA
 	db 0 ; no more evolutions
 	db 1, BUBBLE
 	db 8, SMOKESCREEN

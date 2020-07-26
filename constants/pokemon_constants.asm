@@ -120,10 +120,10 @@
 	const PEPOFFER   ; 63
 	const VOLTORB    ; 64
 	const ELECTRODE  ; 65
-	const EXEGGCUTE  ; 66
-	const EXEGGUTOR  ; 67
-	const CUBONE     ; 68
-	const MAROWAK    ; 69
+	const CANTALONE  ; 66
+	const CANTOGETHA ; 67
+	const COCACOBRA  ; 68
+	const KALKOLA    ; 69
 	const HITMONLEE  ; 6a
 	const HITMONCHAN ; 6b
 	const SAPPURA    ; 6c
@@ -134,8 +134,8 @@
 	const CALARMOURI ; 71 
 	const TANGELA    ; 72
 	const KANGASKHAN ; 73
-	const HORSEA     ; 74
-	const SEADRA     ; 75
+	const OSCURASA   ; 74
+	const MADRUGASA  ; 75
 	const GOOSAPLING ; 76
 	const GANZERKER  ; 77
 	const PEAUTY     ; 78

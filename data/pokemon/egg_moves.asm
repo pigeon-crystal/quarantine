@@ -301,20 +301,16 @@ LanatunEggMoves:
 	db POISONPOWDER
 	db -1 ; end
 
-ExeggcuteEggMoves:
-	db SYNTHESIS
-	db MOONLIGHT
+CantaloneEggMoves:
 	db REFLECT
 	db MEGA_DRAIN
-	db ANCIENTPOWER
+	db PLAY_ROUGH
 	db -1 ; end
 
-CuboneEggMoves:
-	db ROCK_SLIDE
+CocacobraEggMoves:
 	db ANCIENTPOWER
-	db BELLY_DRUM
 	db PERISH_SONG
-	db SWORDS_DANCE
+	db PAIN_SPLIT
 	db -1 ; end
 
 SappuraEggMoves:
@@ -349,7 +345,7 @@ KangaskhanEggMoves:
 	db DISABLE
 	db -1 ; end
 
-HorseaEggMoves:
+OscurasaEggMoves:
 	db FLAIL
 	db AURORA_BEAM
 	db ZAP_CANNON
