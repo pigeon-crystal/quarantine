@@ -116,7 +116,7 @@ PokedexDataPointerTable:
 	dw TangelaPokedexEntry
 	dw KangaskhanPokedexEntry
 	dw OscurasaPokedexEntry
-	dw SeadraPokedexEntry
+	dw MadrugasaPokedexEntry
 	dw GoosaplingPokedexEntry
 	dw GanzerkerPokedexEntry
 	dw PeautyPokedexEntry

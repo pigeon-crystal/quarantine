@@ -1831,7 +1831,7 @@ OscurasaEvosAttacks:
 	db 50, PERISH_SONG
 	db 0 ; no more level-up moves
 
-SeadraEvosAttacks:
+MadrugasaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, DRAGON_DANCE
 	db 1, SWORDS_DANCE

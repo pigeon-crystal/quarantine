@@ -117,7 +117,7 @@ EvosAttacksPointers::
 	dw TangelaEvosAttacks
 	dw KangaskhanEvosAttacks
 	dw OscurasaEvosAttacks
-	dw SeadraEvosAttacks
+	dw MadrugasaEvosAttacks
 	dw GoosaplingEvosAttacks
 	dw GanzerkerEvosAttacks
 	dw PeautyEvosAttacks

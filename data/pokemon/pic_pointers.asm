@@ -234,8 +234,8 @@ PokemonPicPointers::
 	dba_pic KangaskhanBackpic
 	dba_pic OscurasaFrontpic
 	dba_pic OscurasaBackpic
-	dba_pic SeadraFrontpic
-	dba_pic SeadraBackpic
+	dba_pic MadrugasaFrontpic
+	dba_pic MadrugasaBackpic
 	dba_pic GoosaplingFrontpic
 	dba_pic GoosaplingBackpic
 	dba_pic GanzerkerFrontpic
