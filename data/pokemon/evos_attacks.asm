@@ -915,8 +915,8 @@ PrimeapeEvosAttacks:
 	db 63, THRASH
 	db 0 ; no more level-up moves
 
-GrowlitheEvosAttacks:
-	db EVOLVE_ITEM, FIRE_STONE, ARCANINE
+HappigEvosAttacks:
+	db EVOLVE_ITEM, FIRE_STONE, BIPORKAR
 	db 0 ; no more evolutions
 	db 1, BITE
 	db 1, ROAR
@@ -928,7 +928,7 @@ GrowlitheEvosAttacks:
 	db 50, FLAMETHROWER
 	db 0 ; no more level-up moves
 
-ArcanineEvosAttacks:
+BiporkarEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, ROAR
 	db 1, LEER
@@ -1813,30 +1813,43 @@ KangaskhanEvosAttacks:
 	db 0 ; no more level-up moves
 
 OscurasaEvosAttacks:
-	db EVOLVE_LEVEL, 32, MADRUGASA
+	db EVOLVE_LEVEL, 40, MADRUGASA
 	db 0 ; no more evolutions
-	db 1, BUBBLE
-	db 8, SMOKESCREEN
-	db 15, LEER
-	db 22, WATER_GUN
-	db 29, TWISTER
+	db 1, POUND
+	db 1, SPITE
+	db 7, GUST
+	db 10, QUICK_ATTACK
+	db 15, ENCORE
+	db 20, SUBSTITUTE
+	db 24, ATTRACT
+	db 29, PURSUIT
+	db 31, SWAGGER
 	db 36, AGILITY
-	db 43, HYDRO_PUMP
+	db 40, DESTINY_BOND
+	db 43, DARK_PULSE
+	db 45, RAZOR_WIND
+	db 50, PERISH_SONG
 	db 0 ; no more level-up moves
 
 SeadraEvosAttacks:
-	db EVOLVE_TRADE, DRAGON_SCALE, KINGDRA
 	db 0 ; no more evolutions
-	db 1, BUBBLE
-	db 1, SMOKESCREEN
-	db 1, LEER
-	db 1, WATER_GUN
-	db 8, SMOKESCREEN
-	db 15, LEER
-	db 22, WATER_GUN
-	db 29, TWISTER
-	db 40, AGILITY
-	db 51, HYDRO_PUMP
+	db 1, DRAGON_DANCE
+	db 1, SWORDS_DANCE
+	db 1, RAIN_DANCE
+	db 1, PETAL_DANCE
+	db 7, GUST
+	db 10, QUICK_ATTACK
+	db 15, ENCORE
+	db 20, SUBSTITUTE
+	db 24, ATTRACT
+	db 29, PURSUIT
+	db 31, SWAGGER
+	db 36, AGILITY
+	db 40, DESTINY_BOND
+	db 43, DARK_PULSE
+	db 45, RAZOR_WIND
+	db 50, PERISH_SONG
+	db 51, PETAL_DANCE
 	db 0 ; no more level-up moves
 
 GoosaplingEvosAttacks:
@@ -2133,8 +2146,8 @@ PorygonEvosAttacks:
 	db 44, ZAP_CANNON
 	db 0 ; no more level-up moves
 
-OmanyteEvosAttacks:
-	db EVOLVE_LEVEL, 40, OMASTAR
+MammothraEvosAttacks:
+	db EVOLVE_LEVEL, 40, BEHEMOTHRA
 	db 0 ; no more evolutions
 	db 1, CONSTRICT
 	db 1, WITHDRAW
@@ -3534,13 +3547,13 @@ KingdraEvosAttacks:
 	db 51, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-PhanpyEvosAttacks:
-	db EVOLVE_LEVEL, 25, DONPHAN
+ObelithEvosAttacks:
+	db EVOLVE_LEVEL, 25, MONEUMENN
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves
 
-DonphanEvosAttacks:
+MoneumennEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, HORN_ATTACK
 	db 0 ; no more level-up moves

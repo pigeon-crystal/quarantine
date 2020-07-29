@@ -58,8 +58,8 @@ EvosAttacksPointers::
 	dw ExotunityEvosAttacks
 	dw MankeyEvosAttacks
 	dw PrimeapeEvosAttacks
-	dw GrowlitheEvosAttacks
-	dw ArcanineEvosAttacks
+	dw HappigEvosAttacks
+	dw BiporkarEvosAttacks
 	dw CremigoEvosAttacks
 	dw AmanigoEvosAttacks
 	dw YuggromiEvosAttacks
@@ -138,7 +138,7 @@ EvosAttacksPointers::
 	dw JolteonEvosAttacks
 	dw FlareonEvosAttacks
 	dw PorygonEvosAttacks
-	dw OmanyteEvosAttacks
+	dw MammothraEvosAttacks
 	dw OmastarEvosAttacks
 	dw BellocerosEvosAttacks
 	dw KabutopsEvosAttacks
@@ -231,8 +231,8 @@ EvosAttacksPointers::
 	dw HoundourEvosAttacks
 	dw HoundoomEvosAttacks
 	dw KingdraEvosAttacks
-	dw PhanpyEvosAttacks
-	dw DonphanEvosAttacks
+	dw ObelithEvosAttacks
+	dw MoneumennEvosAttacks
 	dw PolyroEvosAttacks
 	dw MissingnoEvosAttacks ;stantler
 	dw SmeargleEvosAttacks

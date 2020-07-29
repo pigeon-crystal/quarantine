@@ -116,10 +116,10 @@ PokemonPicPointers::
 	dba_pic MankeyBackpic
 	dba_pic PrimeapeFrontpic
 	dba_pic PrimeapeBackpic
-	dba_pic GrowlitheFrontpic
-	dba_pic GrowlitheBackpic
-	dba_pic ArcanineFrontpic
-	dba_pic ArcanineBackpic
+	dba_pic HappigFrontpic
+	dba_pic HappigBackpic
+	dba_pic BiporkarFrontpic
+	dba_pic BiporkarBackpic
 	dba_pic CremigoFrontpic
 	dba_pic CremigoBackpic
 	dba_pic AmanigoFrontpic
@@ -276,8 +276,8 @@ PokemonPicPointers::
 	dba_pic FlareonBackpic
 	dba_pic PorygonFrontpic
 	dba_pic PorygonBackpic
-	dba_pic OmanyteFrontpic
-	dba_pic OmanyteBackpic
+	dba_pic MammothraFrontpic
+	dba_pic MammothraBackpic
 	dba_pic OmastarFrontpic
 	dba_pic OmastarBackpic
 	dba_pic BellocerosFrontpic
@@ -465,10 +465,10 @@ PokemonPicPointers::
 	dba_pic HoundoomBackpic
 	dba_pic KingdraFrontpic
 	dba_pic KingdraBackpic
-	dba_pic PhanpyFrontpic
-	dba_pic PhanpyBackpic
-	dba_pic DonphanFrontpic
-	dba_pic DonphanBackpic
+	dba_pic ObelithFrontpic
+	dba_pic ObelithBackpic
+	dba_pic MoneumennFrontpic
+	dba_pic MoneumennBackpic
 	dba_pic PolyroFrontpic
 	dba_pic PolyroBackpic
 	dba_pic MissingnoFrontpic ;stantler

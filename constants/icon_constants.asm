@@ -81,6 +81,10 @@
 	const ICON_POCALYPTUS
 	const ICON_WORMACHO
 	const ICON_TODESCOOL
+	const ICON_COCACOBRA
+	const ICON_KALKOLA
+	const ICON_CANTALONE
+	const ICON_CANTOGETHA
 	const ICON_SQUIRTLE ;START OF BANK 2
 	const ICON_BULBASAUR
 	const ICON_CHARMANDER
@@ -148,6 +152,8 @@
 	const ICON_FLUFFRUIT
 	const ICON_SCRUFFRUIT
 	const ICON_PITAYRANT
+	const ICON_OBELITH
+	const ICON_MONEUMENN
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

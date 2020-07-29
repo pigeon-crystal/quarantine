@@ -76,8 +76,8 @@
 	const EXOTUNITY  ; 37golduck
 	const MANKEY     ; 38
 	const PRIMEAPE   ; 39
-	const GROWLITHE  ; 3a
-	const ARCANINE   ; 3b
+	const HAPPIG  ; 3a
+	const BIPORKAR   ; 3b
 	const CREMIGO    ; 3c
 	const AMANIGO    ; 3d
 	const YUGGROMI   ; 3e
@@ -95,7 +95,7 @@
 	const DOLMITE    ; 4a
 	const DOLMESA    ; 4b
 	const CAIRNIVORE ; 4c
-	const MOPERDOR     ; 4d
+	const MOPERDOR   ; 4d
 	const MAJESDOR   ; 4e
 	const SLOWPOKE   ; 4f
 	const SLOWBRO    ; 50
@@ -156,9 +156,9 @@
 	const JOLTEON    ; 87
 	const FLAREON    ; 88
 	const PORYGON    ; 89
-	const OMANYTE    ; 8a
-	const OMASTAR    ; 8b
-	const BELLOCEROS     ; 8c
+	const MAMMOTHRA  ; 8a
+	const BEHEMOTHRA ; 8b
+	const BELLOCEROS ; 8c
 	const KABUTOPS   ; 8d
 	const AERODACTYL ; 8e
 	const SNORLAX    ; 8f
@@ -245,13 +245,13 @@ JOHTO_POKEMON EQU const_value
 	const STIKLBRAT  ; df
 	const SIDFICIOUS ; e0
 	const DELIBIRD   ; e1
-	const KRAKENTOA    ; e2
+	const KRAKENTOA  ; e2
 	const SKARMORY   ; e3
 	const HOUNDOUR   ; e4
 	const HOUNDOOM   ; e5
 	const KINGDRA    ; e6
-	const PHANPY     ; e7
-	const DONPHAN    ; e8
+	const OBELITH    ; e7
+	const MONEUMENN    ; e8
 	const POLYRO     ; e9
 	const MISSINGNO  ; ea orig stantler
 	const SMEARGLE   ; eb

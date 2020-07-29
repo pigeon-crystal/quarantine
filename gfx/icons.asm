@@ -81,6 +81,10 @@ KoaganIcon:       INCBIN "gfx/icons/koagan.2bpp"
 PocalyptusIcon:   INCBIN "gfx/icons/pocalyptus.2bpp"
 WormachoIcon:     INCBIN "gfx/icons/wormacho.2bpp"
 TodescoolIcon:    INCBIN "gfx/icons/todescool.2bpp"
+CocacobraIcon:    INCBIN "gfx/icons/cocacobra.2bpp"
+KalkolaIcon:      INCBIN "gfx/icons/kalkola.2bpp"
+CantaloneIcon:    INCBIN "gfx/icons/cantalone.2bpp"
+CantogethaIcon:   INCBIN "gfx/icons/cantogetha.2bpp"
 
 SECTION "Mon Icons 2", ROMX
 
@@ -151,3 +155,5 @@ WyrmometerIcon:   INCBIN "gfx/icons/wyrmometer.2bpp"
 FluffruitIcon:    INCBIN "gfx/icons/fluffruit.2bpp"
 ScruffruitIcon:   INCBIN "gfx/icons/scruffruit.2bpp"
 PitayrantIcon:    INCBIN "gfx/icons/pitayrant.2bpp"
+ObelithIcon:      INCBIN "gfx/icons/obelith.2bpp"
+MoneumennIcon:    INCBIN "gfx/icons/moneumenn.2bpp"

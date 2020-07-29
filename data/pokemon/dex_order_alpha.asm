@@ -7,10 +7,11 @@ AlphabeticalPokedexOrder:
 	db AMBINNI
 	db AMPHAROS
 	db ARASBESTOS
-	db ARCANINE
 	db ARTICUNO
 	db ATTACKO
+	db BEHEMOTHRA
 	db BELLOCEROS
+	db BIPORKAR
 	db BISMUTT
 	db BLASTOISE
 	db BRIGADOOM
@@ -41,7 +42,7 @@ AlphabeticalPokedexOrder:
 	db DODUO
 	db DOLMESA
 	db DOLMITE
-	db DONPHAN
+	db MONEUMENN
 	db DRAGONAIR
 	db DRAGONITE
 	db DRATINI
@@ -69,11 +70,11 @@ AlphabeticalPokedexOrder:
 	db GNOMERCY
 	db GOOSAPLING
 	db GRIMPACT
-	db GROWLITHE
 	db GRUBBOID
 	db GWUBBY
 	db GYARADOS
 	db HABBLE
+	db HAPPIG
 	db HELACTAL
 	db HERACROSS
 	db HITMONCHAN
@@ -86,7 +87,6 @@ AlphabeticalPokedexOrder:
 	db HOOTHOOT
 	db HOPLAQUE
 	db HORNAMPA
-	db OSCURASA
 	db HOUNDOOM
 	db HOUNDOUR
 	db IGGLYBUFF
@@ -111,6 +111,7 @@ AlphabeticalPokedexOrder:
 	db MACHAMP
 	db MACHOKE
 	db MACHOP
+	db MADRUGASA
 	db MAGBY
 	db MAGIKARP
 	db MAGNEMITE
@@ -146,10 +147,11 @@ AlphabeticalPokedexOrder:
 	db NYALLEY
 	db ODDITULLY
 	db OKAMIKAZE
-	db OMANYTE
-	db OMASTAR
+	db MAMMOTHRA
+	db OBELITH
 	db ONIX
 	db ORGNOME
+	db OSCURASA
 	db PARAS
 	db PARASECT
 	db PEACOLDER
@@ -157,7 +159,6 @@ AlphabeticalPokedexOrder:
 	db PEEKEYE
 	db PEKOI
 	db PEPOFFER
-	db PHANPY
 	db PHANGUARD
 	db PICHU
 	db PIKACHU
@@ -192,7 +193,6 @@ AlphabeticalPokedexOrder:
 	db SCORPEROR
 	db SCRUFFRUIT
 	db SCYTHER
-	db MADRUGASA
 	db SENTRET
 	db SHABBYCAT
 	db SHAMSEL

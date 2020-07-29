@@ -1,10 +1,10 @@
 	db "FIZZY@" ; species name
 	dw 506, 71 ; height, weight
 
-	db   "The can they live"
-	next "in is stationary."
-	next "The COCACOBRA can"
+	db   "Hearing catchy"
+	next "jingles will cause"
+	next "COCACOBRA to rise"
 
-	page "be coaxed out by"
-	next "playing catchy"
-	next "jingles.@"
+	page "from its can and"
+	next "dance with a rush"
+	next "of sugary energy.@"

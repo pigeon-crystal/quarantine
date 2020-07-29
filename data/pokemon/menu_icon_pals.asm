@@ -61,8 +61,8 @@ MonMenuIconPals:
 	icon_pals GREEN,   YELLOW  ; EXOTUNITY
 	icon_pals BROWN,   YELLOW  ; MANKEY
 	icon_pals BROWN,   YELLOW  ; PRIMEAPE
-	icon_pals BROWN,   YELLOW  ; GROWLITHE
-	icon_pals BROWN,   YELLOW  ; ARCANINE
+	icon_pals BROWN,   YELLOW  ; HAPPIG
+	icon_pals BROWN,   YELLOW  ; BIPORKAR
 	icon_pals PINK,   YELLOW   ; CREMIGO
 	icon_pals GRAY,   YELLOW   ; AMANIGO
 	icon_pals PURPLE,   YELLOW ; YUGGROMI
@@ -141,8 +141,8 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; JOLTEON
 	icon_pals BROWN,   YELLOW  ; FLAREON
 	icon_pals BROWN,   YELLOW  ; PORYGON
-	icon_pals BROWN,   YELLOW  ; OMANYTE
-	icon_pals BROWN,   YELLOW  ; OMASTAR
+	icon_pals BROWN,   YELLOW  ; MAMMOTHRA
+	icon_pals BROWN,   YELLOW  ; BEHEMOTHRA
 	icon_pals BROWN,   YELLOW  ; BELLOCEROS
 	icon_pals BROWN,   YELLOW  ; KABUTOPS
 	icon_pals BROWN,   YELLOW  ; AERODACTYL
@@ -234,8 +234,8 @@ MonMenuIconPals:
 	icon_pals RED,   YELLOW    ; HOUNDOUR
 	icon_pals RED,   YELLOW    ; HOUNDOOM
 	icon_pals RED,   YELLOW    ; KINGDRA
-	icon_pals RED,   YELLOW    ; PHANPHY
-	icon_pals RED,   YELLOW    ; DONPHAN
+	icon_pals PURPLE,   YELLOW    ; OBELITH
+	icon_pals YELLOW,   PURPLE    ; MONEUMENN
 	icon_pals PURPLE,   YELLOW    ; POLYRO
 	icon_pals RED,   YELLOW    ; MISSINGNO
 	icon_pals RED,   YELLOW    ; SMEARGLE

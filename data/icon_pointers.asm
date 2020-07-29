@@ -81,6 +81,10 @@ IconPointers:
 	dw PocalyptusIcon
 	dw WormachoIcon
 	dw TodescoolIcon
+	dw CocacobraIcon
+	dw KalkolaIcon
+	dw CantaloneIcon
+	dw CantogethaIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon
@@ -148,4 +152,6 @@ IconPointers:
 	dw FluffruitIcon
 	dw ScruffruitIcon
 	dw PitayrantIcon
+	dw ObelithIcon
+	dw MoneumennIcon
 	

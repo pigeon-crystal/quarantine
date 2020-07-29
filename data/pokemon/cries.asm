@@ -62,8 +62,8 @@ PokemonCries::
 	mon_cry CRY_DIGLETT,     185,  400 ; EXOTUNITY
 	mon_cry CRY_NIDOQUEEN,   221,  224 ; MANKEY
 	mon_cry CRY_NIDOQUEEN,   175,  192 ; PRIMEAPE
-	mon_cry CRY_GROWLITHE,    32,  192 ; GROWLITHE
-	mon_cry CRY_WEEDLE,        0,  256 ; ARCANINE
+	mon_cry CRY_GROWLITHE,    32,  192 ; HAPPIG
+	mon_cry CRY_WEEDLE,        0,  256 ; BIPORKAR
 	mon_cry CRY_AMPHAROS,   1751,  221 ; CREMIGO
 	mon_cry CRY_AMPHAROS,   2791,  331 ; AMANIGO
 	mon_cry CRY_PIDGEY,     3111,  391 ; YUGGROMI
@@ -142,8 +142,8 @@ PokemonCries::
 	mon_cry CRY_VENONAT,      61,  256 ; JOLTEON
 	mon_cry CRY_VENONAT,      16,  160 ; FLAREON
 	mon_cry CRY_WEEPINBELL,  170,  383 ; PORYGON
-	mon_cry CRY_GROWLITHE,   240,  129 ; OMANYTE
-	mon_cry CRY_GROWLITHE,   255,  192 ; OMASTAR
+	mon_cry CRY_GROWLITHE,   240,  129 ; MAMMOTHRA
+	mon_cry CRY_GROWLITHE,   255,  192 ; BEHEMOTHRA
 	mon_cry CRY_CATERPIE,    187,  192 ; BELLOCEROS
 	mon_cry CRY_FEAROW,      238,  129 ; KABUTOPS
 	mon_cry CRY_VILEPLUME,    32,  368 ; AERODACTYL
@@ -235,8 +235,8 @@ PokemonCries::
 	mon_cry CRY_CYNDAQUIL,    57,  320 ; HOUNDOUR
 	mon_cry CRY_TOTODILE,   -266,  256 ; HOUNDOOM
 	mon_cry CRY_SLUGMA,      763,  256 ; KINGDRA
-	mon_cry CRY_SENTRET,      72,  560 ; PHANPY
-	mon_cry CRY_DONPHAN,       0,  416 ; DONPHAN
+	mon_cry CRY_SENTRET,      72,  560 ; OBELITH
+	mon_cry CRY_DONPHAN,       0,  416 ; MONEUMENN
 	mon_cry CRY_SPINARAK,   -399,  400 ; POLYRO
 	mon_cry CRY_NIDORAN_M,  -255,    0 ; MISSINGNO
 	mon_cry CRY_PICHU,      -538,  496 ; SMEARGLE

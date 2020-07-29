@@ -165,7 +165,7 @@ MankeyEggMoves:
 	db BEAT_UP
 	db -1 ; end
 
-GrowlitheEggMoves:
+HappigEggMoves:
 	db BODY_SLAM
 	db SAFEGUARD
 	db CRUNCH
@@ -401,7 +401,7 @@ EeveeEggMoves:
 	db CHARM
 	db -1 ; end
 
-OmanyteEggMoves:
+MammothraEggMoves:
 	db BUBBLEBEAM
 	db AURORA_BEAM
 	db BODY_SLAM
@@ -738,7 +738,7 @@ HoundourEggMoves:
 	db FIRE_SPIN
 	db -1 ; end
 
-PhanpyEggMoves:
+ObelithEggMoves:
 	db FOCUS_ENERGY
 	db BODY_SLAM
 	db ANCIENTPOWER

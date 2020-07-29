@@ -2,7 +2,7 @@ SpriteMons:
 ; entries correspond to SPRITE_* constants past SPRITE_POKEMON
 	db UNOWN
 	db DOLMITE
-	db GROWLITHE
+	db HAPPIG
 	db HOATOT
 	db SHELLDER
 	db EUKUB

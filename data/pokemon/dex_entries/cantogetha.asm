@@ -5,6 +5,6 @@
 	next "together as a unit"
 	next "makes them strong,"
 
-	page "each one still eats"
+	page "each one eats"
 	next "individually. An"
 	next "unsettling sight.@"

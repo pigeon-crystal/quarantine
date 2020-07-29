@@ -56,7 +56,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw MankeyEggMoves
 	dw NoEggMoves
-	dw GrowlitheEggMoves
+	dw HappigEggMoves
 	dw NoEggMoves
 	dw CremigoEggMoves
 	dw NoEggMoves
@@ -136,7 +136,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw OmanyteEggMoves
+	dw MammothraEggMoves
 	dw NoEggMoves
 	dw BellocerosEggMoves
 	dw NoEggMoves
@@ -229,7 +229,7 @@ EggMovePointers::
 	dw HoundourEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw PhanpyEggMoves
+	dw ObelithEggMoves
 	dw NoEggMoves
 	dw PolyroEggMoves
 	dw NoEggMoves

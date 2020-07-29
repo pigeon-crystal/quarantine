@@ -57,8 +57,8 @@ PokedexDataPointerTable:
 	dw ExotunityPokedexEntry
 	dw MankeyPokedexEntry
 	dw PrimeapePokedexEntry
-	dw GrowlithePokedexEntry
-	dw ArcaninePokedexEntry
+	dw HappigPokedexEntry
+	dw BiporkarPokedexEntry
 	dw CremigoPokedexEntry
 	dw AmanigoPokedexEntry
 	dw YuggromiPokedexEntry
@@ -137,7 +137,7 @@ PokedexDataPointerTable:
 	dw JolteonPokedexEntry
 	dw FlareonPokedexEntry
 	dw PorygonPokedexEntry
-	dw OmanytePokedexEntry
+	dw MammothraPokedexEntry
 	dw OmastarPokedexEntry
 	dw BellocerosPokedexEntry
 	dw KabutopsPokedexEntry
@@ -230,8 +230,8 @@ PokedexDataPointerTable:
 	dw HoundourPokedexEntry
 	dw HoundoomPokedexEntry
 	dw KingdraPokedexEntry
-	dw PhanpyPokedexEntry
-	dw DonphanPokedexEntry
+	dw ObelithPokedexEntry
+	dw MoneumennPokedexEntry
 	dw PolyroPokedexEntry
 	dw MissingnoPokedexEntry
 	dw SmearglePokedexEntry

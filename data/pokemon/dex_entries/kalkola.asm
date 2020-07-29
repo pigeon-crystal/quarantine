@@ -1,10 +1,10 @@
 	db "ENLIGHTENED@" ; species name
 	dw 606, 108 ; height, weight
 
-	db   "KALKOLA bursts"
-	next "out of its can"
-	next "in a graceful"
+	db   "Having mastered"
+	next "the flow of energy"
+	next "through its body,"
 
-	page "and fizzy display."
-	next "Often sought for"
-	next "their wisdom.@"
+	page "nothing can shake"
+	next "up KALKOLA's"
+	next "state of zen.@"

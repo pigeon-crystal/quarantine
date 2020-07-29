@@ -398,7 +398,7 @@ KantoGrassWildMons:
 	db 17, ZASTER
 	db 19, FURDOBA
 	db 16, AMBINNI
-	db 17, GROWLITHE
+	db 17, HAPPIG
 	db 16, JIGGLYPUFF
 	db 18, BUNDEGRAF
 	db 18, BUNDEGRAF
@@ -407,7 +407,7 @@ KantoGrassWildMons:
 	db 17, ZASTER
 	db 19, FURDOBA
 	db 16, AMBINNI
-	db 17, GROWLITHE
+	db 17, HAPPIG
 	db 16, JIGGLYPUFF
 	db 18, BUNDEGRAF
 	db 18, BUNDEGRAF

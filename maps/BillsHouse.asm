@@ -81,7 +81,7 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special BillsGrandfather
 	iffalse .SaidNo
-	ifnotequal GROWLITHE, .WrongPokemon
+	ifnotequal HAPPIG, .WrongPokemon
 	scall .CorrectPokemon
 	setevent EVENT_SHOWED_GROWLITHE_VULPIX_TO_BILLS_GRANDPA
 	sjump .ShowedGrowlitheVulpix

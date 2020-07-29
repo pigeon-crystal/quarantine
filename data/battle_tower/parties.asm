@@ -682,7 +682,7 @@ BattleTowerMons2:
 	bigdw 55 ; SDef
 	db "HU-DEiN@@@@"
 
-	db ARCANINE
+	db BIPORKAR
 	db BRIGHTPOWDER
 	db FLAMETHROWER, ROAR, HYPER_BEAM, IRON_TAIL
 	dw 0 ; OT ID
@@ -1988,7 +1988,7 @@ BattleTowerMons4:
 	bigdw 115 ; SDef
 	db "PORIGON2@@@"
 
-	db ARCANINE
+	db BIPORKAR
 	db CHARCOAL
 	db FLAME_WHEEL, LEER, BODY_SLAM, ROAR
 	dw 0 ; OT ID
@@ -2040,7 +2040,7 @@ BattleTowerMons4:
 	bigdw 87 ; SDef
 	db "HUoRETOSU@@"
 
-	db OMASTAR
+	db BEHEMOTHRA
 	db GOLD_BERRY
 	db CURSE, WATER_GUN, ANCIENTPOWER, ROCK_SMASH
 	dw 0 ; OT ID
@@ -3008,7 +3008,7 @@ BattleTowerMons6:
 	bigdw 212 ; SDef
 	db "BURAtuKI-@@"
 
-	db ARCANINE
+	db BIPORKAR
 	db CHARCOAL
 	db FLAMETHROWER, CRUNCH, EXTREMESPEED, IRON_TAIL
 	dw 0 ; OT ID
@@ -4707,7 +4707,7 @@ BattleTowerMons9:
 	bigdw 275 ; SDef
 	db "KABIGON@@@@"
 
-	db ARCANINE
+	db BIPORKAR
 	db MINT_BERRY
 	db SUNNY_DAY, FLAMETHROWER, EXTREMESPEED, REST
 	dw 0 ; OT ID
@@ -5074,7 +5074,7 @@ BattleTowerMons10:
 	bigdw 230 ; SDef
 	db "KENTAROSU@@"
 
-	db ARCANINE
+	db BIPORKAR
 	db LEFTOVERS
 	db FLAMETHROWER, EXTREMESPEED, IRON_TAIL, HYPER_BEAM
 	dw 0 ; OT ID
@@ -5386,7 +5386,7 @@ BattleTowerMons10:
 	bigdw 218 ; SDef
 	db "NAtuSI-@@@@"
 
-	db OMASTAR
+	db BEHEMOTHRA
 	db LEFTOVERS
 	db SURF, ANCIENTPOWER, BLIZZARD, TOXIC
 	dw 0 ; OT ID

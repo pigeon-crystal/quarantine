@@ -137,8 +137,8 @@ INCBIN "gfx/footprints/exotunity.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/mankey.1bpp",     footprint_bottom
 ; 057-064 top halves
 INCBIN "gfx/footprints/primeape.1bpp",   footprint_top
-INCBIN "gfx/footprints/growlithe.1bpp",  footprint_top
-INCBIN "gfx/footprints/arcanine.1bpp",   footprint_top
+INCBIN "gfx/footprints/happig.1bpp",  footprint_top
+INCBIN "gfx/footprints/biporkar.1bpp",   footprint_top
 INCBIN "gfx/footprints/cremigo.1bpp",    footprint_top
 INCBIN "gfx/footprints/amanigo.1bpp",  footprint_top
 INCBIN "gfx/footprints/yuggromi.1bpp",  footprint_top
@@ -146,8 +146,8 @@ INCBIN "gfx/footprints/ambinni.1bpp",       footprint_top
 INCBIN "gfx/footprints/bundegraf.1bpp",    footprint_top
 ; 057-064 bottom halves
 INCBIN "gfx/footprints/primeape.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/growlithe.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/arcanine.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/happig.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/biporkar.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/cremigo.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/amanigo.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/yuggromi.1bpp",  footprint_bottom
@@ -317,8 +317,8 @@ INCBIN "gfx/footprints/jolteon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/flareon.1bpp",    footprint_bottom
 ; 137-144 top halves
 INCBIN "gfx/footprints/porygon.1bpp",    footprint_top
-INCBIN "gfx/footprints/omanyte.1bpp",    footprint_top
-INCBIN "gfx/footprints/omastar.1bpp",    footprint_top
+INCBIN "gfx/footprints/mammothra.1bpp",    footprint_top
+INCBIN "gfx/footprints/behemothra.1bpp",    footprint_top
 INCBIN "gfx/footprints/belloceros.1bpp",     footprint_top
 INCBIN "gfx/footprints/kabutops.1bpp",   footprint_top
 INCBIN "gfx/footprints/aerodactyl.1bpp", footprint_top
@@ -326,8 +326,8 @@ INCBIN "gfx/footprints/snorlax.1bpp",    footprint_top
 INCBIN "gfx/footprints/articuno.1bpp",   footprint_top
 ; 137-144 bottom halves
 INCBIN "gfx/footprints/porygon.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/omanyte.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/omastar.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/mammothra.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/behemothra.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/belloceros.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/kabutops.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/aerodactyl.1bpp", footprint_bottom
@@ -520,8 +520,8 @@ INCBIN "gfx/footprints/skarmory.1bpp",   footprint_top
 INCBIN "gfx/footprints/houndour.1bpp",   footprint_top
 INCBIN "gfx/footprints/houndoom.1bpp",   footprint_top
 INCBIN "gfx/footprints/kingdra.1bpp",    footprint_top
-INCBIN "gfx/footprints/phanpy.1bpp",     footprint_top
-INCBIN "gfx/footprints/donphan.1bpp",    footprint_top
+INCBIN "gfx/footprints/obelith.1bpp",     footprint_top
+INCBIN "gfx/footprints/moneumenn.1bpp",    footprint_top
 ; 225-232 bottom halves
 INCBIN "gfx/footprints/delibird.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/krakentoa.1bpp",    footprint_bottom
@@ -529,8 +529,8 @@ INCBIN "gfx/footprints/skarmory.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/houndour.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/houndoom.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/kingdra.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/phanpy.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/donphan.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/obelith.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/moneumenn.1bpp",    footprint_bottom
 ; 233-240 top halves
 INCBIN "gfx/footprints/polyro.1bpp",   footprint_top
 INCBIN "gfx/footprints/missingno.1bpp",  footprint_top
