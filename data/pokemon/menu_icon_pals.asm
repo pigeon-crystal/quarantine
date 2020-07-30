@@ -51,8 +51,8 @@ MonMenuIconPals:
 	icon_pals RED,     YELLOW	   ; POCALYPTUS
 	icon_pals BROWN,   YELLOW  ; PARAS
 	icon_pals BROWN,   YELLOW  ; PARASECT
-	icon_pals BROWN,   YELLOW  ; VENONAT
-	icon_pals BROWN,   YELLOW  ; VENOMOTH
+	icon_pals GREEN,   YELLOW  ; ELEPHOOT
+	icon_pals GREEN,   YELLOW  ; PRIPYDERM
 	icon_pals PURPLE,   YELLOW ; MUMINI
 	icon_pals BROWN,   YELLOW  ; MUMAGNUS
 	icon_pals RED,     PURPLE  ; TODESCOOL

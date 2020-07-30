@@ -107,7 +107,7 @@ INCBIN "gfx/footprints/koagan.1bpp",      footprint_top
 INCBIN "gfx/footprints/pocalyptus.1bpp",  footprint_top
 INCBIN "gfx/footprints/paras.1bpp",      footprint_top
 INCBIN "gfx/footprints/parasect.1bpp",   footprint_top
-INCBIN "gfx/footprints/venonat.1bpp",    footprint_top
+INCBIN "gfx/footprints/elephoot.1bpp",    footprint_top
 ; 041-048 bottom halves
 INCBIN "gfx/footprints/stinpeon.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/scorperor.1bpp",     footprint_bottom
@@ -116,9 +116,9 @@ INCBIN "gfx/footprints/koagan.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/pocalyptus.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/paras.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/parasect.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/venonat.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/elephoot.1bpp",    footprint_bottom
 ; 049-056 top halves
-INCBIN "gfx/footprints/venomoth.1bpp",   footprint_top
+INCBIN "gfx/footprints/pripyderm.1bpp",   footprint_top
 INCBIN "gfx/footprints/mumini.1bpp",    footprint_top
 INCBIN "gfx/footprints/mumagnus.1bpp",    footprint_top
 INCBIN "gfx/footprints/todescool.1bpp",     footprint_top
@@ -127,7 +127,7 @@ INCBIN "gfx/footprints/voyapod.1bpp",    footprint_top
 INCBIN "gfx/footprints/exotunity.1bpp",    footprint_top
 INCBIN "gfx/footprints/mankey.1bpp",     footprint_top
 ; 049-056 bottom halves
-INCBIN "gfx/footprints/venomoth.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/pripyderm.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/mumini.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/mumagnus.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/todescool.1bpp",     footprint_bottom

@@ -1704,14 +1704,14 @@ JohtoGrassWildMons:
 	db 17, FURRET
 	db 18, FURRET
 	; nite
-	db 15, VENONAT
+	db 15, ELEPHOOT
 	db 16, NOCTOWL
 	db 16, NOMSABRE
-	db 17, VENONAT
+	db 17, ELEPHOOT
 	db 17, NOMSABRE
-	db 17, VENOMOTH
-	db 17, VENOMOTH
-	db 19, VENOMOTH
+	db 17, PRIPYDERM
+	db 17, PRIPYDERM
+	db 19, PRIPYDERM
 
 	map_id ROUTE_44 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

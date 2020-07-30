@@ -444,13 +444,13 @@ KantoGrassWildMons:
 	db 20, QWALLOP
 	; nite
 	db 15, NOMSTER
-	db 15, VENONAT
+	db 15, ELEPHOOT
 	db 15, NOMSABRE
-	db 15, VENOMOTH
+	db 15, PRIPYDERM
 	db 15, STINPEON
 	db 18, NOMSABRE
 	db 18, NOMSABRE
-	db 20, VENOMOTH
+	db 20, PRIPYDERM
 
 	map_id ROUTE_10_NORTH ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -473,10 +473,10 @@ KantoGrassWildMons:
 	db 18, GIGUARD
 	db 20, GIGUARD
 	; nite
-	db 15, VENONAT
+	db 15, ELEPHOOT
 	db 17, VOLTORB
 	db 15, NOMSABRE
-	db 15, VENOMOTH
+	db 15, PRIPYDERM
 	db 15, STINPEON
 	db 16, GIGUARD
 	db 16, GIGUARD
@@ -533,10 +533,10 @@ KantoGrassWildMons:
 	db 25, CALARMOURI
 	db 26, CALARMOURI
 	; nite
-	db 23, VENONAT
+	db 23, ELEPHOOT
 	db 23, QUAGSIRE
 	db 25, NOCTOWL
-	db 25, VENOMOTH
+	db 25, PRIPYDERM
 	db 25, QUAGSIRE
 	db 25, QUAGSIRE
 	db 25, CALARMOURI
@@ -563,10 +563,10 @@ KantoGrassWildMons:
 	db 28, CALARMOURI
 	db 30, CALARMOURI
 	; nite
-	db 26, VENONAT
+	db 26, ELEPHOOT
 	db 26, QUAGSIRE
 	db 28, NOCTOWL
-	db 28, VENOMOTH
+	db 28, PRIPYDERM
 	db 28, QUAGSIRE
 	db 28, QUAGSIRE
 	db 28, CALARMOURI
@@ -593,10 +593,10 @@ KantoGrassWildMons:
 	db 25, CALARMOURI
 	db 30, CALARMOURI
 	; nite
-	db 23, VENONAT
+	db 23, ELEPHOOT
 	db 23, QUAGSIRE
 	db 25, NOCTOWL
-	db 25, VENOMOTH
+	db 25, PRIPYDERM
 	db 25, QUAGSIRE
 	db 25, QUAGSIRE
 	db 25, CALARMOURI
@@ -773,7 +773,7 @@ KantoGrassWildMons:
 	db 14, VAZZINATE
 	db 15, AMBINNI
 	; nite
-	db 10, VENONAT
+	db 10, ELEPHOOT
 	db 10, EUKUB
 	db 12, EUKUB
 	db 12, AMBINNI
@@ -805,7 +805,7 @@ KantoGrassWildMons:
 	; nite
 	db 10, EUKUB
 	db 10, HOOTHOOT
-	db 10, VENONAT
+	db 10, ELEPHOOT
 	db 12, NOCTOWL
 	db 10, LAWNIE
 	db 14, NOCTOWL

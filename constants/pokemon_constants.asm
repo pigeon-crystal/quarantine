@@ -66,8 +66,8 @@
 	const POCALYPTUS ; 2d
 	const PARAS      ; 2e
 	const PARASECT   ; 2f
-	const VENONAT    ; 30
-	const VENOMOTH   ; 31
+	const ELEPHOOT    ; 30
+	const PRIPYDERM   ; 31
 	const MUMINI     ; 32
 	const MUMAGNUS   ; 33
 	const TODESCOOL     ; 34

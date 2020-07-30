@@ -48,8 +48,8 @@ EvosAttacksPointers::
 	dw PocalyptusEvosAttacks
 	dw ParasEvosAttacks
 	dw ParasectEvosAttacks
-	dw VenonatEvosAttacks
-	dw VenomothEvosAttacks
+	dw ElephootEvosAttacks
+	dw PripydermEvosAttacks
 	dw MuminiEvosAttacks
 	dw MumagnusEvosAttacks
 	dw TodescoolEvosAttacks

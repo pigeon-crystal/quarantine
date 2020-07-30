@@ -723,8 +723,8 @@ ParasectEvosAttacks:
 	db 55, GIGA_DRAIN
 	db 0 ; no more level-up moves
 
-VenonatEvosAttacks:
-	db EVOLVE_LEVEL, 31, VENOMOTH
+ElephootEvosAttacks:
+	db EVOLVE_LEVEL, 31, PRIPYDERM
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, DISABLE
@@ -739,7 +739,7 @@ VenonatEvosAttacks:
 	db 41, PSYCHIC_M
 	db 0 ; no more level-up moves
 
-VenomothEvosAttacks:
+PripydermEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, DISABLE
@@ -3606,7 +3606,6 @@ ObelithEvosAttacks:
 	db 40, FUTURE_SIGHT
 	db 45, EARTH_POWER
 	db 50, PSYCHIC_M
-	db 55, FISSURE
 	db 0 ; no more level-up moves
 
 MoneumennEvosAttacks:
@@ -3627,7 +3626,9 @@ MoneumennEvosAttacks:
 	db 40, FUTURE_SIGHT
 	db 45, EARTH_POWER
 	db 50, PSYCHIC_M
-	db 55, FISSURE	db 0 ; no more level-up moves
+	db 55, FISSURE
+	db 65, RECOVER	
+	db 0 ; no more level-up moves
 
 PolyroEvosAttacks:
 	db 0 ; no more evolutions

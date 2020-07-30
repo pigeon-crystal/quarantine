@@ -233,8 +233,8 @@ AlphabeticalPokedexOrder:
 	db URSKIMO
 	db VAPOREON
 	db VAZZINATE
-	db VENOMOTH
-	db VENONAT
+	db PRIPYDERM
+	db ELEPHOOT
 	db VENUSAUR
 	db VOLTINGER
 	db VOLTORB

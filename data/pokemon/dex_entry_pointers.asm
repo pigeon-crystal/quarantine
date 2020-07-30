@@ -47,8 +47,8 @@ PokedexDataPointerTable:
 	dw PocalyptusPokedexEntry
 	dw ParasPokedexEntry
 	dw ParasectPokedexEntry
-	dw VenonatPokedexEntry
-	dw VenomothPokedexEntry
+	dw ElephootPokedexEntry
+	dw PripydermPokedexEntry
 	dw MuminiPokedexEntry
 	dw MumagnusPokedexEntry
 	dw TodescoolPokedexEntry

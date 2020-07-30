@@ -52,8 +52,8 @@ PokemonCries::
 	mon_cry CRY_VILEPLUME,    34,  383 ; POCALYPTUS
 	mon_cry CRY_PARAS,        32,  352 ; PARAS
 	mon_cry CRY_PARAS,        66,  383 ; PARASECT
-	mon_cry CRY_VENONAT,      68,  192 ; VENONAT
-	mon_cry CRY_VENONAT,      41,  256 ; VENOMOTH
+	mon_cry CRY_VENONAT,      68,  192 ; ELEPHOOT
+	mon_cry CRY_VENONAT,      41,  256 ; PRIPYDERM
 	mon_cry CRY_CLEFFA,       14,  229 ; MUMINI
 	mon_cry CRY_GROWLITHE,    -4,  392 ; MUMAGNUS
 	mon_cry CRY_BULBASAUR,    39,  144 ; TODESCOOL
