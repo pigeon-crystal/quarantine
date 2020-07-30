@@ -916,25 +916,42 @@ PrimeapeEvosAttacks:
 	db 0 ; no more level-up moves
 
 HappigEvosAttacks:
-	db EVOLVE_ITEM, FIRE_STONE, BIPORKAR
+	db EVOLVE_LEVEL, 37, BIPORKAR
 	db 0 ; no more evolutions
-	db 1, BITE
-	db 1, ROAR
-	db 9, EMBER
-	db 18, LEER
-	db 26, DOUBLE_EDGE
-	db 34, FLAME_WHEEL
-	db 42, AGILITY
-	db 50, FLAMETHROWER
+	db 1, POUND
+	db 1, TAIL_WHIP
+	db 9, LICK
+	db 12, CURSE
+	db 17, NIGHT_SHADE
+	db 20, SPITE
+	db 24, GLARE
+	db 28, SNARL
+	db 31, SHADOW_CLAW
+	db 36, MINIMIZE
+	db 40, BODY_SLAM
+	db 43, IRON_TAIL
 	db 0 ; no more level-up moves
 
 BiporkarEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, ROAR
-	db 1, LEER
-	db 1, DOUBLE_EDGE
-	db 1, FLAME_WHEEL
-	db 50, EXTREMESPEED
+	db 1, POUND
+	db 1, QUICK_ATTACK
+	db 1, TAIL_WHIP
+	db 9, LICK
+	db 12, CURSE
+	db 17, NIGHT_SHADE
+	db 20, SPITE
+	db 24, GLARE
+	db 28, SNARL
+	db 31, SHADOW_CLAW
+	db 36, MINIMIZE
+	db 36, NASTY_PLOT
+	db 38, CRUNCH
+	db 40, BODY_SLAM
+	db 43, IRON_TAIL
+	db 44, BELLY_DRUM
+	db 47, PLAY_ROUGH
+	db 50, THRASH
 	db 0 ; no more level-up moves
 
 CremigoEvosAttacks:
@@ -1603,53 +1620,76 @@ ElectrodeEvosAttacks:
 	db 0 ; no more level-up moves
 
 CantaloneEvosAttacks:
-	db EVOLVE_LEVEL, 26, CANTOGETHA
+	db EVOLVE_HAPPINESS, TR_ANYTIME, CANTOGETHA
 	db 0 ; no more evolutions
-	db 1, HYPNOSIS
-	db 7, REFLECT
-	db 13, LEECH_SEED
-	db 19, CONFUSION
-	db 25, STUN_SPORE
-	db 31, POISONPOWDER
-	db 37, SLEEP_POWDER
-	db 43, SOLARBEAM
+	db 1, POUND
+	db 5, HARDEN
+	db 5, SHARPEN
+	db 11, BUBBLEBEAM
+	db 17, DOUBLE_KICK
+	db 23, RAPID_SPIN
+	db 24, BEAT_UP
+	db 30, VITAL_THROW
+	db 33, BATON_PASS
+	db 37, MIRROR_COAT
+	db 40, LIQUIDATION
+	db 43, IRON_HEAD
 	db 0 ; no more level-up moves
 
 CantogethaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, HYPNOSIS
-	db 1, CONFUSION
-	db 19, STOMP
-	db 31, PSYCHIC_M
+	db 1, POUND
+	db 1, MACH_PUNCH
+	db 5, HARDEN
+	db 5, SHARPEN
+	db 11, BUBBLEBEAM
+	db 17, DOUBLE_KICK
+	db 23, RAPID_SPIN
+	db 24, BEAT_UP
+	db 30, VITAL_THROW
+	db 33, BATON_PASS
+	db 37, MIRROR_COAT
+	db 43, IRON_HEAD
+	db 46, CROSS_CHOP
+	db 49, LIQUIDATION
 	db 0 ; no more level-up moves
 
 CocacobraEvosAttacks:
-	db EVOLVE_LEVEL, 28, KALKOLA
+	db EVOLVE_ITEM, WATER_STONE, KALKOLA
 	db 0 ; no more evolutions
-	db 1, GROWL
-	db 5, TAIL_WHIP
-	db 13, HEADBUTT
-	db 17, LEER
-	db 21, FOCUS_ENERGY
-	db 25, BONEMERANG
-	db 33, FALSE_SWIPE
-	db 37, THRASH
-	db 41, BONE_RUSH
+	db 1, BUBBLE
+	db 1, AGILITY
+	db 5, WITHDRAW
+	db 9, WRAP
+	db 12, SCARY_FACE
+	db 15, CONFUSION
+	db 17, WATER_GUN
+	db 22, TWISTER
+	db 25, CONFUSE_RAY
+	db 33, EXPLOSION
+	db 37, LIQUIDATION
+	db 43, RAIN_DANCE
+	db 50, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 KalkolaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, GROWL
-	db 1, TAIL_WHIP
-	db 1, HEADBUTT
-	db 5, TAIL_WHIP
-	db 13, HEADBUTT
-	db 17, LEER
-	db 21, FOCUS_ENERGY
-	db 25, BONEMERANG
-	db 39, FALSE_SWIPE
-	db 46, THRASH
-	db 53, BONE_RUSH
+	db 1, BUBBLE
+	db 1, AGILITY
+	db 1, CALM_MIND
+	db 1, FOCUS_BLAST
+	db 5, WITHDRAW
+	db 9, WRAP
+	db 12, SCARY_FACE
+	db 15, CONFUSION
+	db 17, WATER_GUN
+	db 22, TWISTER
+	db 25, CONFUSE_RAY
+	db 33, EXPLOSION
+	db 37, LIQUIDATION
+	db 40, PAIN_SPLIT
+	db 43, RAIN_DANCE
+	db 50, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 HitmonleeEvosAttacks:
@@ -3548,15 +3588,46 @@ KingdraEvosAttacks:
 	db 0 ; no more level-up moves
 
 ObelithEvosAttacks:
-	db EVOLVE_LEVEL, 25, MONEUMENN
+	db EVOLVE_LEVEL, 38, MONEUMENN
 	db 0 ; no more evolutions
 	db 1, POUND
+	db 1, HARDEN
+	db 10, CONFUSE_RAY
+	db 10, CONFUSION
+	db 15, BIDE
+	db 20, ROCK_THROW
+	db 25, LIGHT_SCREEN
+	db 25, REFLECT
+	db 30, BARRIER
+	db 30, PSYBEAM
+	db 35, CALM_MIND
+	db 35, ANCIENTPOWER
+	db 40, SUBSTITUTE
+	db 40, FUTURE_SIGHT
+	db 45, EARTH_POWER
+	db 50, PSYCHIC_M
+	db 55, FISSURE
 	db 0 ; no more level-up moves
 
 MoneumennEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, HORN_ATTACK
-	db 0 ; no more level-up moves
+	db 1, POWER_GEM
+	db 1, HARDEN
+	db 10, CONFUSE_RAY
+	db 10, CONFUSION
+	db 15, BIDE
+	db 20, ROCK_THROW
+	db 25, LIGHT_SCREEN
+	db 25, REFLECT
+	db 30, BARRIER
+	db 30, PSYBEAM
+	db 35, CALM_MIND
+	db 35, ANCIENTPOWER
+	db 40, SUBSTITUTE
+	db 40, FUTURE_SIGHT
+	db 45, EARTH_POWER
+	db 50, PSYCHIC_M
+	db 55, FISSURE	db 0 ; no more level-up moves
 
 PolyroEvosAttacks:
 	db 0 ; no more evolutions
