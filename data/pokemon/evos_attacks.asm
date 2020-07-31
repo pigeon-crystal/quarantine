@@ -724,36 +724,43 @@ ParasectEvosAttacks:
 	db 0 ; no more level-up moves
 
 ElephootEvosAttacks:
-	db EVOLVE_LEVEL, 31, PRIPYDERM
+	db EVOLVE_LEVEL, 35, PRIPYDERM
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, DISABLE
-	db 1, FORESIGHT
-	db 9, SUPERSONIC
-	db 17, CONFUSION
-	db 20, POISONPOWDER
-	db 25, LEECH_LIFE
-	db 28, STUN_SPORE
-	db 33, PSYBEAM
-	db 36, SLEEP_POWDER
-	db 41, PSYCHIC_M
+	db 9, SMOKESCREEN
+	db 12, EMBER
+	db 15, SMOG
+	db 20, ACID
+	db 25, AMNESIA
+	db 29, EXPLOSION
+	db 32, HAZE
+	db 38, FLASH_CANNON
+	db 41, TOXIC
+	db 46, SLUDGE_BOMB
+	db 50, SELFDESTRUCT
+	db 51, DARK_PULSE
+	db 65, RECOVER
 	db 0 ; no more level-up moves
 
 PripydermEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, DISABLE
-	db 1, FORESIGHT
-	db 1, SUPERSONIC
-	db 9, SUPERSONIC
-	db 17, CONFUSION
-	db 20, POISONPOWDER
-	db 25, LEECH_LIFE
-	db 28, STUN_SPORE
-	db 31, GUST
-	db 36, PSYBEAM
-	db 42, SLEEP_POWDER
-	db 52, PSYCHIC_M
+	db 9, SMOKESCREEN
+	db 12, EMBER
+	db 15, SMOG
+	db 20, ACID
+	db 25, AMNESIA
+	db 29, EXPLOSION
+	db 32, HAZE
+	db 33, STOMP
+	db 38, FLASH_CANNON
+	db 41, TOXIC
+	db 46, SLUDGE_BOMB
+	db 50, SELFDESTRUCT
+	db 51, DARK_PULSE
+	db 65, RECOVER
 	db 0 ; no more level-up moves
 
 MuminiEvosAttacks:
