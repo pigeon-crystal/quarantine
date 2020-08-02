@@ -385,12 +385,12 @@ KantoGrassWildMons:
 	; nite
 	db 17, TODESCOOL
 	db 17, BISMUTT
-	db 18, HOUNDOUR
+	db 18, SNOWUP
 	db 18, JUNOBE
 	db 18, JIGGLYPUFF
 	db 16, AMBINNI
 	db 16, AMBINNI
-	db 20, HOUNDOUR
+	db 20, SNOWUP
 
 	map_id ROUTE_8 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

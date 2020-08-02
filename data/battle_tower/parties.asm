@@ -315,7 +315,7 @@ BattleTowerMons1:
 	bigdw 29 ; SDef
 	db "MUUMA@@@@@@"
 
-	db HOUNDOUR
+	db SNOWUP
 	db GOLD_BERRY
 	db FAINT_ATTACK, SOLARBEAM, ROAR, SUNNY_DAY
 	dw 0 ; OT ID
@@ -1283,7 +1283,7 @@ BattleTowerMons3:
 	bigdw 109 ; SDef
 	db "HAPINASU@@@"
 
-	db HOUNDOOM
+	db SNOVERDOSE
 	db CHARCOAL
 	db FLAMETHROWER, CRUNCH, SHADOW_BALL, DREAM_EATER
 	dw 0 ; OT ID
@@ -2225,7 +2225,7 @@ BattleTowerMons5:
 	bigdw 144 ; SDef
 	db "KINGUDORA@@"
 
-	db HOUNDOOM
+	db SNOVERDOSE
 	db MIRACLEBERRY
 	db REST, CRUNCH, DREAM_EATER, FLAMETHROWER
 	dw 0 ; OT ID
@@ -2589,7 +2589,7 @@ BattleTowerMons5:
 	bigdw 136 ; SDef
 	db "SANDA-@@@@@"
 
-	db SKARMORY
+	db SNOSEBLEED
 	db GOLD_BERRY
 	db SANDSTORM, FLY, STEEL_WING, TOXIC
 	dw 0 ; OT ID
@@ -2800,7 +2800,7 @@ BattleTowerMons6:
 	bigdw 175 ; SDef
 	db "BANGIRASU@@"
 
-	db HOUNDOOM
+	db SNOVERDOSE
 	db MIRACLEBERRY
 	db FLAMETHROWER, CRUNCH, DREAM_EATER, REST
 	dw 0 ; OT ID
@@ -3034,7 +3034,7 @@ BattleTowerMons6:
 	bigdw 149 ; SDef
 	db "UINDEi@@@@@"
 
-	db SKARMORY
+	db SNOSEBLEED
 	db MIRACLEBERRY
 	db STEEL_WING, FLY, TOXIC, PROTECT
 	dw 0 ; OT ID
@@ -3427,7 +3427,7 @@ BattleTowerMons7:
 	bigdw 215 ; SDef
 	db "KABIGON@@@@"
 
-	db HOUNDOOM
+	db SNOVERDOSE
 	db KINGS_ROCK
 	db CRUNCH, FLAMETHROWER, FAINT_ATTACK, ROAR
 	dw 0 ; OT ID
@@ -3898,7 +3898,7 @@ BattleTowerMons8:
 	bigdw 250 ; SDef
 	db "KABIGON@@@@"
 
-	db HOUNDOOM
+	db SNOVERDOSE
 	db MINT_BERRY
 	db REST, CRUNCH, FLAMETHROWER, SUNNY_DAY
 	dw 0 ; OT ID
@@ -4184,7 +4184,7 @@ BattleTowerMons8:
 	bigdw 292 ; SDef
 	db "MANTAIN@@@@"
 
-	db SKARMORY
+	db SNOSEBLEED
 	db QUICK_CLAW
 	db STEEL_WING, FLY, MUD_SLAP, TOXIC
 	dw 0 ; OT ID
@@ -4759,7 +4759,7 @@ BattleTowerMons9:
 	bigdw 322 ; SDef
 	db "HAPINASU@@@"
 
-	db HOUNDOOM
+	db SNOVERDOSE
 	db BRIGHTPOWDER
 	db FLAMETHROWER, CRUNCH, SUNNY_DAY, SOLARBEAM
 	dw 0 ; OT ID
@@ -4785,7 +4785,7 @@ BattleTowerMons9:
 	bigdw 223 ; SDef
 	db "HERUGA-@@@@"
 
-	db SKARMORY
+	db SNOSEBLEED
 	db QUICK_CLAW
 	db SANDSTORM, STEEL_WING, TOXIC, RETURN
 	dw 0 ; OT ID
@@ -4944,7 +4944,7 @@ BattleTowerMons9:
 
 BattleTowerMons10:
 
-	db HOUNDOOM
+	db SNOVERDOSE
 	db MINT_BERRY
 	db CRUNCH, FLAMETHROWER, ROAR, REST
 	dw 0 ; OT ID

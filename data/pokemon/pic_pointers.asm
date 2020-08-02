@@ -457,12 +457,12 @@ PokemonPicPointers::
 	dba_pic DelibirdBackpic
 	dba_pic KrakentoaFrontpic
 	dba_pic KrakentoaBackpic
-	dba_pic SkarmoryFrontpic
-	dba_pic SkarmoryBackpic
-	dba_pic HoundourFrontpic
-	dba_pic HoundourBackpic
-	dba_pic HoundoomFrontpic
-	dba_pic HoundoomBackpic
+	dba_pic SnosebleedFrontpic
+	dba_pic SnosebleedBackpic
+	dba_pic SnowupFrontpic
+	dba_pic SnowupBackpic
+	dba_pic SnoverdoseFrontpic
+	dba_pic SnoverdoseBackpic
 	dba_pic KingdraFrontpic
 	dba_pic KingdraBackpic
 	dba_pic ObelithFrontpic

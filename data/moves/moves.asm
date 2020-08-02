@@ -99,7 +99,7 @@ Moves:: ; 41afb
 	move THUNDERBOLT,  EFFECT_PARALYZE_HIT,       90, ELECTRIC, 	SPECIAL,  100, 15,  10
 	move THUNDER_WAVE, EFFECT_PARALYZE,            0, ELECTRIC, 	STATUS,   100, 20,   0
 	move THUNDER,      EFFECT_THUNDER,           120, ELECTRIC, 	SPECIAL,   75, 10,  30
-	move ROCK_THROW,   EFFECT_ACCURACY_DOWN_HIT,  50, ROCK,     	PHYSICAL,  91, 20,  11
+	move ROCK_THROW,   EFFECT_ACCURACY_DOWN_HIT,  51, ROCK,     	PHYSICAL,  92, 20,  13
 	move EARTHQUAKE,   EFFECT_EARTHQUAKE,         95, GROUND,   	PHYSICAL, 100, 10,   0
 	move FISSURE,      EFFECT_OHKO,                1, GROUND,   	PHYSICAL,  30,  5,   0
 	move DIG,          EFFECT_FLY,                70, GROUND,   	PHYSICAL, 100, 10,   0
@@ -211,7 +211,7 @@ Moves:: ; 41afb
 	move DETECT,       EFFECT_PROTECT,             0, FIGHTING, 	STATUS,   100,  5,   0
 	move BONE_RUSH,    EFFECT_MULTI_HIT,          24, GROUND,   	PHYSICAL,  90, 10,   0
 	move LOCK_ON,      EFFECT_LOCK_ON,             0, NORMAL,   	STATUS,   100,  5,   0
-	move OUTRAGE,      EFFECT_RAMPAGE,           110, DRAGON,   	PHYSICAL, 100, 15,   0
+	move OUTRAGE,      EFFECT_RAMPAGE,           111, DRAGON,   	PHYSICAL, 100, 15,   0
 	move SANDSTORM,    EFFECT_SANDSTORM,           0, ROCK,     	STATUS,   100, 10,   0
 	move GIGA_DRAIN,   EFFECT_LEECH_HIT,          75, GRASS,    	SPECIAL,  100,  5,   0
 	move ENDURE,       EFFECT_ENDURE,              0, NORMAL,   	STATUS,   100, 10,   0

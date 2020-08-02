@@ -154,6 +154,9 @@
 	const ICON_PITAYRANT
 	const ICON_OBELITH
 	const ICON_MONEUMENN
+	const ICON_SNOSEBLEED
+	const ICON_SNOWUP
+	const ICON_SNOVERDOSE
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

@@ -154,4 +154,7 @@ IconPointers:
 	dw PitayrantIcon
 	dw ObelithIcon
 	dw MoneumennIcon
+	dw SnosebleedIcon
+	dw SnowupIcon
+	dw SnoverdoseIcon
 	

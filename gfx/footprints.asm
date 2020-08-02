@@ -516,18 +516,18 @@ INCBIN "gfx/footprints/sidficious.1bpp",  footprint_bottom
 ; 225-232 top halves
 INCBIN "gfx/footprints/delibird.1bpp",   footprint_top
 INCBIN "gfx/footprints/krakentoa.1bpp",    footprint_top
-INCBIN "gfx/footprints/skarmory.1bpp",   footprint_top
-INCBIN "gfx/footprints/houndour.1bpp",   footprint_top
-INCBIN "gfx/footprints/houndoom.1bpp",   footprint_top
+INCBIN "gfx/footprints/snosebleed.1bpp",   footprint_top
+INCBIN "gfx/footprints/snowup.1bpp",   footprint_top
+INCBIN "gfx/footprints/snoverdose.1bpp",   footprint_top
 INCBIN "gfx/footprints/kingdra.1bpp",    footprint_top
 INCBIN "gfx/footprints/obelith.1bpp",     footprint_top
 INCBIN "gfx/footprints/moneumenn.1bpp",    footprint_top
 ; 225-232 bottom halves
 INCBIN "gfx/footprints/delibird.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/krakentoa.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/skarmory.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/houndour.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/houndoom.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/snosebleed.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/snowup.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/snoverdose.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/kingdra.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/obelith.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/moneumenn.1bpp",    footprint_bottom

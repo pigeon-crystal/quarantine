@@ -231,9 +231,9 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,     27,  300 ; SIDFICIOUS
 	mon_cry CRY_SLOWKING,      2,  300 ; DELIBIRD
 	mon_cry CRY_MANTINE,    -377,  292 ; KRAKENTOA
-	mon_cry CRY_AMPHAROS,   2217,  384 ; SKARMORY
-	mon_cry CRY_CYNDAQUIL,    57,  320 ; HOUNDOUR
-	mon_cry CRY_TOTODILE,   -266,  256 ; HOUNDOOM
+	mon_cry CRY_AMPHAROS,   2217,  384 ; SNOSEBLEED
+	mon_cry CRY_CYNDAQUIL,    57,  320 ; SNOWUP
+	mon_cry CRY_TOTODILE,   -266,  256 ; SNOVERDOSE
 	mon_cry CRY_SLUGMA,      763,  256 ; KINGDRA
 	mon_cry CRY_SENTRET,      72,  560 ; OBELITH
 	mon_cry CRY_DONPHAN,       0,  416 ; MONEUMENN

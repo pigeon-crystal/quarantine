@@ -3558,7 +3558,8 @@ KrakentoaEvosAttacks:
 	db 52, PAIN_SPLIT
 	db 0 ; no more level-up moves
 
-SkarmoryEvosAttacks:
+SnosebleedEvosAttacks:
+	db EVOLVE_LEVEL, 24, SNOWUP
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, PECK
@@ -3569,13 +3570,13 @@ SkarmoryEvosAttacks:
 	db 49, STEEL_WING
 	db 0 ; no more level-up moves
 
-HoundourEvosAttacks:
-	db EVOLVE_LEVEL, 24, HOUNDOOM
+SnowupEvosAttacks:
+	db EVOLVE_LEVEL, 44, SNOVERDOSE
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 0 ; no more level-up moves
 
-HoundoomEvosAttacks:
+SnoverdoseEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 0 ; no more level-up moves

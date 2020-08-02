@@ -226,9 +226,9 @@ PokedexDataPointerTable:
 	dw SidficiousPokedexEntry
 	dw DelibirdPokedexEntry
 	dw KrakentoaPokedexEntry
-	dw SkarmoryPokedexEntry
-	dw HoundourPokedexEntry
-	dw HoundoomPokedexEntry
+	dw SnosebleedPokedexEntry
+	dw SnowupPokedexEntry
+	dw SnoverdosePokedexEntry
 	dw KingdraPokedexEntry
 	dw ObelithPokedexEntry
 	dw MoneumennPokedexEntry

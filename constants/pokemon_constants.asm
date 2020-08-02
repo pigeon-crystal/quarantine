@@ -246,12 +246,12 @@ JOHTO_POKEMON EQU const_value
 	const SIDFICIOUS ; e0
 	const DELIBIRD   ; e1
 	const KRAKENTOA  ; e2
-	const SKARMORY   ; e3
-	const HOUNDOUR   ; e4
-	const HOUNDOOM   ; e5
+	const SNOSEBLEED ; e3
+	const SNOWUP     ; e4
+	const SNOVERDOSE ; e5
 	const KINGDRA    ; e6
 	const OBELITH    ; e7
-	const MONEUMENN    ; e8
+	const MONEUMENN  ; e8
 	const POLYRO     ; e9
 	const MISSINGNO  ; ea orig stantler
 	const SMEARGLE   ; eb

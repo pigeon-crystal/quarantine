@@ -87,8 +87,8 @@ AlphabeticalPokedexOrder:
 	db HOOTHOOT
 	db HOPLAQUE
 	db HORNAMPA
-	db HOUNDOOM
-	db HOUNDOUR
+	db SNOVERDOSE
+	db SNOWUP
 	db IGGLYBUFF
 	db IGNAGA
 	db IVYSAUR
@@ -199,7 +199,7 @@ AlphabeticalPokedexOrder:
 	db SHELLDER
 	db SHUCKLE
 	db SIDFICIOUS
-	db SKARMORY
+	db SNOSEBLEED
 	db SLAATEL
 	db SLOWBRO
 	db SLOWPOKE

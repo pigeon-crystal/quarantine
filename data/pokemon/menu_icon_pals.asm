@@ -48,7 +48,7 @@ MonMenuIconPals:
 	icon_pals YELLOW,  PINK    ; SCORPEROR
 	icon_pals GREEN,   YELLOW  ; EUKUB
 	icon_pals GREEN,   YELLOW  ; KOAGAN
-	icon_pals RED,     YELLOW	   ; POCALYPTUS
+	icon_pals RED,     YELLOW  ; POCALYPTUS
 	icon_pals BROWN,   YELLOW  ; PARAS
 	icon_pals BROWN,   YELLOW  ; PARASECT
 	icon_pals GREEN,   YELLOW  ; ELEPHOOT
@@ -229,10 +229,10 @@ MonMenuIconPals:
 	icon_pals BLUE,   YELLOW    ; STIKLBRAT
 	icon_pals RED,   YELLOW    ; SIDFICIOUS
 	icon_pals RED,   YELLOW    ; DELIBIRD
-	icon_pals RED,   PINK    ; KRAKENTOA
-	icon_pals RED,   YELLOW    ; SKARMORY
-	icon_pals RED,   YELLOW    ; HOUNDOUR
-	icon_pals RED,   YELLOW    ; HOUNDOOM
+	icon_pals BROWN,   PINK    ; KRAKENTOA
+	icon_pals RED,   YELLOW    ; SNOSEBLEED
+	icon_pals RED,   YELLOW    ; SNOWUP
+	icon_pals RED,   YELLOW    ; SNOVERDOSE
 	icon_pals RED,   YELLOW    ; KINGDRA
 	icon_pals PURPLE,   YELLOW    ; OBELITH
 	icon_pals YELLOW,   PURPLE    ; MONEUMENN

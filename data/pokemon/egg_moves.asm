@@ -727,15 +727,10 @@ KrakentoaEggMoves:
 	db BODY_SLAM
 	db -1 ; end
 
-SkarmoryEggMoves:
-	db DRILL_PECK
+SnosebleedEggMoves:
 	db PURSUIT
 	db WHIRLWIND
-	db SKY_ATTACK
-	db -1 ; end
-
-HoundourEggMoves:
-	db FIRE_SPIN
+	db HAZE
 	db -1 ; end
 
 ObelithEggMoves:

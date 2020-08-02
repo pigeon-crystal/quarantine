@@ -227,9 +227,9 @@ EvosAttacksPointers::
 	dw SidficiousEvosAttacks
 	dw DelibirdEvosAttacks
 	dw KrakentoaEvosAttacks
-	dw SkarmoryEvosAttacks
-	dw HoundourEvosAttacks
-	dw HoundoomEvosAttacks
+	dw SnosebleedEvosAttacks
+	dw SnowupEvosAttacks
+	dw SnoverdoseEvosAttacks
 	dw KingdraEvosAttacks
 	dw ObelithEvosAttacks
 	dw MoneumennEvosAttacks
