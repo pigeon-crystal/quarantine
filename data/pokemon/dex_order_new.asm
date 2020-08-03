@@ -56,8 +56,8 @@ NewPokedexOrder:
 	db WYRMOMETER
 	db IGNAGA
 	db ATTACKO
-	db MAREEP
-	db FLAAFFY
+	db YUESBI
+	db YUEFOE
 	db AMPHAROS
 	db WOOPER
 	db QUAGSIRE

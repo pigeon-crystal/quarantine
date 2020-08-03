@@ -56,7 +56,7 @@ AlphabeticalPokedexOrder:
 	db EXOTUNITY
 	db FARFETCH_D
 	db FELIORITTE
-	db FLAAFFY
+	db YUEFOE
 	db FLAREON
 	db FLUFFRUIT
 	db FORRETRESS
@@ -119,7 +119,7 @@ AlphabeticalPokedexOrder:
 	db MAJESDOR
 	db MANDELBLOB
 	db MANKEY
-	db MAREEP
+	db YUESBI
 	db MAULZER
 	db MEOWTAIN
 	db MEW

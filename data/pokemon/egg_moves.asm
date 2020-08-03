@@ -536,7 +536,7 @@ NatuEggMoves:
 	db STEEL_WING
 	db -1 ; end
 
-MareepEggMoves:
+YuesbiEggMoves:
 	db THUNDERBOLT
 	db DOUBLE_EDGE
 	db BODY_SLAM

@@ -1,6 +1,6 @@
 	db HELACTAL ; 142
 
-	db  202, 76,  65, 51,  76,  65
+	db  202, 76,  65, 46,  76,  65
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type

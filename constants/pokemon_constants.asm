@@ -198,8 +198,8 @@ JOHTO_POKEMON EQU const_value
 	const ALLSEERAPH ; b0
 	const NATU       ; b1
 	const XATU       ; b2
-	const MAREEP     ; b3
-	const FLAAFFY    ; b4
+	const YUESBI     ; b3
+	const YUEFOE    ; b4
 	const AMPHAROS   ; b5
 	const PLANTENNA  ; b6
 	const HABBLE     ; b7

@@ -179,8 +179,8 @@ MonMenuIcons:
 	db ICON_BIRD        ; ALLSEERAPH
 	db ICON_BIRD        ; NATU
 	db ICON_BIRD        ; XATU
-	db ICON_FOX         ; MAREEP
-	db ICON_MONSTER     ; FLAAFFY
+	db ICON_FOX         ; YUESBI
+	db ICON_MONSTER     ; YUEFOE
 	db ICON_MONSTER     ; AMPHAROS
 	db ICON_PLANTENNA   ; PLANTENNA
 	db ICON_HABBLE      ; HABBLE

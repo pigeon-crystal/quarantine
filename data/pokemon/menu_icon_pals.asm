@@ -182,8 +182,8 @@ MonMenuIconPals:
 	icon_pals YELLOW,   YELLOW ; ALLSEERAPH
 	icon_pals BROWN,   YELLOW  ; NATU
 	icon_pals BROWN,   YELLOW  ; XATU
-	icon_pals BROWN,   YELLOW  ; MAREEP
-	icon_pals BROWN,   YELLOW  ; FLAAFY
+	icon_pals BROWN,   YELLOW  ; YUESBI
+	icon_pals BROWN,   YELLOW  ; YUEFOE
 	icon_pals BROWN,   YELLOW  ; AMPHAROS
 	icon_pals GRAY,   YELLOW   ; PLANTENNA
 	icon_pals GRAY,   YELLOW   ; HABBLE

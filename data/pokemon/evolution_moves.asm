@@ -177,8 +177,8 @@ EvolutionMoves::
 	db GLARE		; ALLSEERAPH
 	db NO_MOVE		; NATU
 	db NO_MOVE		; XATU
-	db NO_MOVE		; MAREEP
-	db NO_MOVE		; FLAAFY
+	db NO_MOVE		; YUESBI
+	db NO_MOVE		; YUEFOE
 	db NO_MOVE		; AMPHAROS
 	db NO_MOVE		; PLANTENNA
 	db BUG_BUZZ		; HABBLE

@@ -2820,8 +2820,8 @@ XatuEvosAttacks:
 	db 65, PSYCHIC_M
 	db 0 ; no more level-up moves
 
-MareepEvosAttacks:
-	db EVOLVE_LEVEL, 15, FLAAFFY
+YuesbiEvosAttacks:
+	db EVOLVE_LEVEL, 15, YUEFOE
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, GROWL
@@ -2832,7 +2832,7 @@ MareepEvosAttacks:
 	db 37, THUNDER
 	db 0 ; no more level-up moves
 
-FlaaffyEvosAttacks:
+YuefoeEvosAttacks:
 	db EVOLVE_LEVEL, 30, AMPHAROS
 	db 0 ; no more evolutions
 	db 1, POUND
@@ -3561,24 +3561,69 @@ KrakentoaEvosAttacks:
 SnosebleedEvosAttacks:
 	db EVOLVE_LEVEL, 24, SNOWUP
 	db 0 ; no more evolutions
-	db 1, LEER
-	db 1, PECK
-	db 13, SAND_ATTACK
-	db 19, SWIFT
-	db 25, AGILITY
-	db 37, FURY_SWIPES
-	db 49, STEEL_WING
+	db 1, LICK
+	db 1, MIST
+	db 6, LEER
+	db 10, SMOG
+	db 12, ICE_SHARD
+	db 16, WATER_GUN
+	db 18, ACID
+	db 22, ICY_WIND
+	db 27, HAZE
+	db 33, AURORA_BEAM
+	db 35, REST
+	db 40, AMNESIA
+	db 42, ICE_BEAM
+	db 48, SLUDGE_BOMB
+	db 50, HYDRO_PUMP
+	db 55, SELFDESTRUCT
+	db 60, FOCUS_BLAST
 	db 0 ; no more level-up moves
 
 SnowupEvosAttacks:
 	db EVOLVE_LEVEL, 44, SNOVERDOSE
 	db 0 ; no more evolutions
-	db 1, LEER
+	db 1, LICK
+	db 1, MIST
+	db 6, LEER
+	db 10, SMOG
+	db 12, ICE_SHARD
+	db 16, WATER_GUN
+	db 18, ACID
+	db 22, ICY_WIND
+	db 23, ICE_PUNCH
+	db 27, HAZE
+	db 33, AURORA_BEAM
+	db 35, REST
+	db 40, AMNESIA
+	db 42, ICE_BEAM
+	db 48, SLUDGE_BOMB
+	db 50, HYDRO_PUMP
+	db 55, SELFDESTRUCT
+	db 60, FOCUS_BLAST	
 	db 0 ; no more level-up moves
 
 SnoverdoseEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, LEER
+	db 1, LICK
+	db 1, MIST
+	db 6, LEER
+	db 10, SMOG
+	db 13, ICE_SHARD
+	db 16, WATER_GUN
+	db 18, ACID
+	db 22, ICY_WIND
+	db 23, ICE_PUNCH
+	db 27, HAZE
+	db 33, AURORA_BEAM
+	db 35, REST
+	db 40, AMNESIA
+	db 42, ICE_BEAM
+	db 43, SELFDESTRUCT
+	db 48, SLUDGE_BOMB
+	db 50, HYDRO_PUMP
+	db 55, BLIZZARD
+	db 60, FOCUS_BLAST
 	db 0 ; no more level-up moves
 
 KingdraEvosAttacks:

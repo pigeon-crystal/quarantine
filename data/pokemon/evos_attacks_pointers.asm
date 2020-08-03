@@ -179,8 +179,8 @@ EvosAttacksPointers::
 	dw AllseeraphEvosAttacks
 	dw NatuEvosAttacks
 	dw XatuEvosAttacks
-	dw MareepEvosAttacks
-	dw FlaaffyEvosAttacks
+	dw YuesbiEvosAttacks
+	dw YuefoeEvosAttacks
 	dw AmpharosEvosAttacks
 	dw PlantennaEvosAttacks
 	dw HabbleEvosAttacks

@@ -217,8 +217,8 @@ Pokered_MonIndices:
 	db ALLSEERAPH
 	db NATU
 	db XATU
-	db MAREEP
-	db FLAAFFY
+	db YUESBI
+	db YUEFOE
 	db AMPHAROS
 	db PLANTENNA
 	db HABBLE

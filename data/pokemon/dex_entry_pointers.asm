@@ -178,8 +178,8 @@ PokedexDataPointerTable:
 	dw AllseeraphPokedexEntry
 	dw NatuPokedexEntry
 	dw XatuPokedexEntry
-	dw MareepPokedexEntry
-	dw FlaaffyPokedexEntry
+	dw YuesbiPokedexEntry
+	dw YuefoePokedexEntry
 	dw AmpharosPokedexEntry
 	dw PlantennaPokedexEntry
 	dw HabblePokedexEntry

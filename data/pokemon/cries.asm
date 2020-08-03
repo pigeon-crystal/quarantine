@@ -106,10 +106,10 @@ PokemonCries::
 	mon_cry CRY_CYNDAQUIL,   308,  211 ; PEPOFFER
 	mon_cry CRY_VOLTORB,     237,  256 ; VOLTORB
 	mon_cry CRY_VOLTORB,     168,  272 ; ELECTRODE
-	mon_cry CRY_DIGLETT,       0,  256 ; CANTALONE
-	mon_cry CRY_DROWZEE,       0,  256 ; CANTOGETHA
-	mon_cry CRY_CLEFAIRY,      0,  256 ; COCACOBRA
-	mon_cry CRY_ODDISH,       79,  224 ; KALKOLA
+	mon_cry CRY_DIGLETT,     99,  256  ; CANTALONE
+	mon_cry CRY_DIGLETT,     1,  256   ; CANTOGETHA
+	mon_cry CRY_EKANS,       229,  271 ; COCACOBRA
+	mon_cry CRY_EKANS,       333,  345 ; KALKOLA
 	mon_cry CRY_GOLEM,       128,  320 ; HITMONLEE
 	mon_cry CRY_SEEL,        238,  320 ; HITMONCHAN
 	mon_cry CRY_CLEFFA,       200, 340 ; SAPPURA
@@ -120,8 +120,8 @@ PokemonCries::
 	mon_cry CRY_RHYDON,      -10,  320 ; CALARMOURI
 	mon_cry CRY_GOLEM,         0,  256 ; TANGELA
 	mon_cry CRY_KANGASKHAN,    0,  256 ; KANGASKHAN
-	mon_cry CRY_CLEFAIRY,    153,  144 ; OSCURASA
-	mon_cry CRY_CLEFAIRY,     60,  129 ; MADRUGASA
+	mon_cry CRY_AMPHAROS,   3000,  292 ; OSCURASA
+	mon_cry CRY_AMPHAROS,   2069,  420 ; MADRUGASA
 	mon_cry CRY_SEEL,       1128,  200 ; GOOSAPLING
 	mon_cry CRY_SEEL,        126,  100 ; GANZERKER
 	mon_cry CRY_PARAS,        50,  160 ; PEAUTY
@@ -142,8 +142,8 @@ PokemonCries::
 	mon_cry CRY_VENONAT,      61,  256 ; JOLTEON
 	mon_cry CRY_VENONAT,      16,  160 ; FLAREON
 	mon_cry CRY_WEEPINBELL,  170,  383 ; PORYGON
-	mon_cry CRY_GROWLITHE,   240,  129 ; MAMMOTHRA
-	mon_cry CRY_GROWLITHE,   255,  192 ; BEHEMOTHRA
+	mon_cry CRY_CYNDAQUIL,   444,  380 ; MAMMOTHRA
+	mon_cry CRY_MAGCARGO,    55,   350 ; BEHEMOTHRA
 	mon_cry CRY_CATERPIE,    187,  192 ; BELLOCEROS
 	mon_cry CRY_FEAROW,      238,  129 ; KABUTOPS
 	mon_cry CRY_VILEPLUME,    32,  368 ; AERODACTYL
@@ -183,8 +183,8 @@ PokemonCries::
 	mon_cry CRY_TOGETIC,    -177,  444 ; ALLSEERAPH
 	mon_cry CRY_NATU,       -103,  256 ; NATU
 	mon_cry CRY_NATU,       -167,  360 ; XATU
-	mon_cry CRY_MAREEP,       34,  216 ; MAREEP
-	mon_cry CRY_MAREEP,       -7,  384 ; FLAAFFY
+	mon_cry CRY_MAREEP,       34,  216 ; YUESBI
+	mon_cry CRY_MAREEP,       -7,  384 ; YUEFOE
 	mon_cry CRY_AMPHAROS,   -124,  232 ; AMPHAROS
 	mon_cry CRY_NATU,        100,  111 ; PLANTENNA
 	mon_cry CRY_NATU,        180,  333 ; HABBLE
