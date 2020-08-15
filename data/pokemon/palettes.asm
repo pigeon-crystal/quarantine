@@ -238,10 +238,10 @@ INCBIN "gfx/pokemon/tendrill/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/tendrill/shiny.pal"
 INCBIN "gfx/pokemon/calarmouri/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/calarmouri/shiny.pal"
-INCBIN "gfx/pokemon/tangela/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/tangela/shiny.pal"
-INCBIN "gfx/pokemon/kangaskhan/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/kangaskhan/shiny.pal"
+INCBIN "gfx/pokemon/antpyre/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/antpyre/shiny.pal"
+INCBIN "gfx/pokemon/generopsis/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/generopsis/shiny.pal"
 INCBIN "gfx/pokemon/oscurasa/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/oscurasa/shiny.pal"
 INCBIN "gfx/pokemon/madrugasa/front.gbcpal", middle_colors
@@ -332,12 +332,12 @@ INCBIN "gfx/pokemon/nanuqua/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/nanuqua/shiny.pal"
 INCBIN "gfx/pokemon/urskimo/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/urskimo/shiny.pal"
-INCBIN "gfx/pokemon/sentret/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/sentret/shiny.pal"							;sentret
+INCBIN "gfx/pokemon/wendigaunt/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/wendigaunt/shiny.pal"							;wendigaunt
 INCBIN "gfx/pokemon/furret/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/furret/shiny.pal"
-INCBIN "gfx/pokemon/hoothoot/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/hoothoot/shiny.pal"
+INCBIN "gfx/pokemon/nuckawheez/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/nuckawheez/shiny.pal"
 INCBIN "gfx/pokemon/noctowl/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/noctowl/shiny.pal"
 INCBIN "gfx/pokemon/wormeek/front.gbcpal", middle_colors

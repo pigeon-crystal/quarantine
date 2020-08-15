@@ -15,11 +15,11 @@ NewPokedexOrder:
 	db HORNAMPA
 	db QWAIL
 	db QWALLOP
-	db HOOTHOOT
+	db NUCKAWHEEZ
 	db NOCTOWL
 	db NOMSTER ;orig rattata
 	db NOMSABRE ;orig raticate
-	db SENTRET
+	db WENDIGAUNT
 	db FURRET
 	db PICHU
 	db PIKACHU
@@ -180,7 +180,7 @@ NewPokedexOrder:
 	db SHAMSEL
 	db CADDISICLE
 	db JADDICE
-	db TANGELA
+	db ANTPYRE
 	db EEVEE
 	db VAPOREON
 	db JOLTEON
@@ -205,7 +205,7 @@ NewPokedexOrder:
 	db MAJESDOR
 	db COCACOBRA
 	db KALKOLA
-	db KANGASKHAN
+	db GENEROPSIS
 	db BISMUTT
 	db TIDO
 	db MAULZER

@@ -45,8 +45,8 @@
 	const IGNAGA     ; 18
 	const PIKACHU    ; 19
 	const RAICHU     ; 1a
-	const SANDOLPH  ; 1b
-	const DUNEFIN  ; 1c
+	const SANDOLPH   ; 1b
+	const DUNEFIN    ; 1c
 	const NIDORAN_F  ; 1d
 	const NIDORINA   ; 1e
 	const NIDOQUEEN  ; 1f
@@ -132,8 +132,8 @@
 	const CUTTLE     ; 6f 
 	const TENDRILL   ; 70 
 	const CALARMOURI ; 71 
-	const TANGELA    ; 72
-	const KANGASKHAN ; 73
+	const ANTPYRE    ; 72
+	const GENEROPSIS ; 73
 	const OSCURASA   ; 74
 	const MADRUGASA  ; 75
 	const GOOSAPLING ; 76
@@ -180,9 +180,9 @@ JOHTO_POKEMON EQU const_value
 	const FURSA      ; 9e orig Totodile
 	const NANUQUA  	 ; 9f
 	const URSKIMO    ; a0
-	const SENTRET    ; a1 orig Sentret
+	const WENDIGAUNT ; a1 orig 
 	const FURRET     ; a2
-	const HOOTHOOT   ; a3
+	const NUCKAWHEEZ ; a3
 	const NOCTOWL    ; a4
 	const WORMEEK    ; a5 ledyba
 	const WORMACHO   ; a6

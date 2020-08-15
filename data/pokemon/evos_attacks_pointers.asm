@@ -114,8 +114,8 @@ EvosAttacksPointers::
 	dw CuttleEvosAttacks
 	dw TendrillEvosAttacks
 	dw CalarmouriEvosAttacks
-	dw TangelaEvosAttacks
-	dw KangaskhanEvosAttacks
+	dw AntpyreEvosAttacks
+	dw GeneropsisEvosAttacks
 	dw OscurasaEvosAttacks
 	dw MadrugasaEvosAttacks
 	dw GoosaplingEvosAttacks
@@ -161,9 +161,9 @@ EvosAttacksPointers::
 	dw FursaEvosAttacks			;orig totodile
 	dw NanuquaEvosAttacks
 	dw UrskimoEvosAttacks
-	dw SentretEvosAttacks		;orig sentret
+	dw WendigauntEvosAttacks		;orig wendigaunt
 	dw FurretEvosAttacks
-	dw HoothootEvosAttacks
+	dw NuckawheezEvosAttacks
 	dw NoctowlEvosAttacks
 	dw WormeekEvosAttacks
 	dw WormachoEvosAttacks

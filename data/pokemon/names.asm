@@ -112,8 +112,8 @@ PokemonNames::
 	db "CUTTLE@@@@"
 	db "TENDRILL@@"
 	db "CALARMOURI"
-	db "TANGELA@@@"
-	db "KANGASKHAN"
+	db "ANTPYRE@@@"
+	db "GENEROPSIS"
 	db "OSCURASA@@"
 	db "MADRUGASA@"
 	db "GOOSAPLING"
@@ -159,9 +159,9 @@ PokemonNames::
 	db "FURSA@@@@@" ;totodile
 	db "NANUQUA@@@"
 	db "URSKIMO@@@"
-	db "SENTRET@@@" ;sentret
+	db "WENDIGAUNT" 
 	db "FURRET@@@@"
-	db "HOOTHOOT@@"
+	db "NUCKAWHEEZ"
 	db "NOCTOWL@@@"
 	db "WORMEEK@@@" ;ledyba
 	db "WORMACHO@@"

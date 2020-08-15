@@ -228,10 +228,10 @@ PokemonPicPointers::
 	dba_pic TendrillBackpic
 	dba_pic CalarmouriFrontpic
 	dba_pic CalarmouriBackpic
-	dba_pic TangelaFrontpic
-	dba_pic TangelaBackpic
-	dba_pic KangaskhanFrontpic
-	dba_pic KangaskhanBackpic
+	dba_pic AntpyreFrontpic
+	dba_pic AntpyreBackpic
+	dba_pic GeneropsisFrontpic
+	dba_pic GeneropsisBackpic
 	dba_pic OscurasaFrontpic
 	dba_pic OscurasaBackpic
 	dba_pic MadrugasaFrontpic
@@ -322,12 +322,12 @@ PokemonPicPointers::
 	dba_pic NanuquaBackpic
 	dba_pic UrskimoFrontpic
 	dba_pic UrskimoBackpic
-	dba_pic SentretFrontpic	   ;orig sentret
-	dba_pic SentretBackpic
+	dba_pic WendigauntFrontpic	   ;orig wendigaunt
+	dba_pic WendigauntBackpic
 	dba_pic FurretFrontpic
 	dba_pic FurretBackpic
-	dba_pic HoothootFrontpic
-	dba_pic HoothootBackpic
+	dba_pic NuckawheezFrontpic
+	dba_pic NuckawheezBackpic
 	dba_pic NoctowlFrontpic
 	dba_pic NoctowlBackpic
 	dba_pic WormeekFrontpic

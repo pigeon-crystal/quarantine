@@ -117,8 +117,8 @@ MonMenuIconPals:
 	icon_pals GRAY,   RED      ; CUTTLE
 	icon_pals GRAY,   RED      ; TENDRILL
 	icon_pals GRAY,   PINK      ; CALARMOURI
-	icon_pals BROWN,   YELLOW  ; TANGELA
-	icon_pals BROWN,   YELLOW  ; KANGASKHAN
+	icon_pals GREEN,   YELLOW  ; ANTPYRE
+	icon_pals GREEN,   YELLOW  ; GENEROPSIS
 	icon_pals BLUE,   YELLOW  ; OSCURASA
 	icon_pals BLUE,   YELLOW  ; MADRUGASA
 	icon_pals GRAY,   YELLOW   ; GOOSAPLING
@@ -164,9 +164,9 @@ MonMenuIconPals:
 	icon_pals BLUE,   YELLOW   ; FURSA
 	icon_pals BLUE,   YELLOW   ; NANUQUA
 	icon_pals BLUE,   YELLOW   ; URSKIMO
-	icon_pals BROWN,   YELLOW  ; SENTRET
+	icon_pals BROWN,   YELLOW  ; WENDIGAUNT
 	icon_pals BROWN,   YELLOW  ; FURRET 
-	icon_pals BROWN,   YELLOW  ; HOOTHOOT
+	icon_pals BROWN,   YELLOW  ; NUCKAWHEEZ
 	icon_pals BROWN,   YELLOW  ; NOCTOWL
 	icon_pals BROWN,   YELLOW  ; WORMEEK
 	icon_pals BROWN,   YELLOW  ; WORMACHO

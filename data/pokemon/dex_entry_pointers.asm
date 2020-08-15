@@ -113,8 +113,8 @@ PokedexDataPointerTable:
 	dw CuttlePokedexEntry
 	dw TendrillPokedexEntry
 	dw CalarmouriPokedexEntry
-	dw TangelaPokedexEntry
-	dw KangaskhanPokedexEntry
+	dw AntpyrePokedexEntry
+	dw GeneropsisPokedexEntry
 	dw OscurasaPokedexEntry
 	dw MadrugasaPokedexEntry
 	dw GoosaplingPokedexEntry
@@ -160,9 +160,9 @@ PokedexDataPointerTable:
 	dw FursaPokedexEntry		;orig totodile
 	dw NanuquaPokedexEntry
 	dw UrskimoPokedexEntry
-	dw SentretPokedexEntry 		;orig sentret
+	dw WendigauntPokedexEntry 		;orig wendigaunt
 	dw FurretPokedexEntry
-	dw HoothootPokedexEntry
+	dw NuckawheezPokedexEntry
 	dw NoctowlPokedexEntry
 	dw WormeekPokedexEntry
 	dw WormachoPokedexEntry

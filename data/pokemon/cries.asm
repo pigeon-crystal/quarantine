@@ -118,8 +118,8 @@ PokemonCries::
 	mon_cry CRY_CHARMANDER,    0,  256 ; CUTTLE
 	mon_cry CRY_RHYDON,        1,  256 ; TENDRILL
 	mon_cry CRY_RHYDON,      -10,  320 ; CALARMOURI
-	mon_cry CRY_GOLEM,         0,  256 ; TANGELA
-	mon_cry CRY_KANGASKHAN,    0,  256 ; KANGASKHAN
+	mon_cry CRY_GOLEM,         0,  256 ; ANTPYRE
+	mon_cry CRY_KANGASKHAN,    0,  256 ; GENEROPSIS
 	mon_cry CRY_AMPHAROS,   3000,  292 ; OSCURASA
 	mon_cry CRY_AMPHAROS,   2069,  420 ; MADRUGASA
 	mon_cry CRY_SEEL,       1128,  200 ; GOOSAPLING
@@ -165,9 +165,9 @@ PokemonCries::
 	mon_cry CRY_TEDDIURSA,  1954,  110 ; FURSA, orig TOTODILE
 	mon_cry CRY_TEDDIURSA,  1555,  269 ; NANUQUA
 	mon_cry CRY_TEDDIURSA,  1001,  269 ; URSKIMO
-	mon_cry CRY_SENTRET,     138,  184 ; SENTRET, orig SENTRET
+	mon_cry CRY_SENTRET,     138,  184 ; WENDIGAUNT, orig WENDIGAUNT
 	mon_cry CRY_SENTRET,     107,  258 ; FURRET
-	mon_cry CRY_HOOTHOOT,    145,  216 ; HOOTHOOT
+	mon_cry CRY_HOOTHOOT,    145,  216 ; NUCKAWHEEZ
 	mon_cry CRY_HOOTHOOT,      0,  416 ; NOCTOWL
 	mon_cry CRY_LEDYBA,      444,  104 ; WORMEEK ;ORIG ledyba
 	mon_cry CRY_GROWLITHE,   -77,  104 ; WORMACHO

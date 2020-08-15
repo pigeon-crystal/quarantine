@@ -3,7 +3,7 @@
 
 	db   "Its strong tail"
 	next "lets it swim"
-	next "through sand, mouth"
+	next "through sand mouth"
 
 	page "open, catching"
 	next "prey. Exhales sand"

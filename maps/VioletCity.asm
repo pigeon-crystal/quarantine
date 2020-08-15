@@ -72,6 +72,7 @@ VioletCitySign:
 	jumptext VioletCitySignText
 
 VioletGymSign:
+	givepoke GENEROPSIS, 42
 	jumptext VioletGymSignText
 
 SproutTowerSign:

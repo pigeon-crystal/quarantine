@@ -145,8 +145,8 @@ INCLUDE "data/pokemon/base_stats/sakuronna.asm"
 INCLUDE "data/pokemon/base_stats/cuttle.asm"
 INCLUDE "data/pokemon/base_stats/tendrill.asm"
 INCLUDE "data/pokemon/base_stats/calarmouri.asm"
-INCLUDE "data/pokemon/base_stats/tangela.asm"
-INCLUDE "data/pokemon/base_stats/kangaskhan.asm"
+INCLUDE "data/pokemon/base_stats/antpyre.asm"
+INCLUDE "data/pokemon/base_stats/generopsis.asm"
 INCLUDE "data/pokemon/base_stats/oscurasa.asm"
 INCLUDE "data/pokemon/base_stats/madrugasa.asm"
 INCLUDE "data/pokemon/base_stats/goosapling.asm"
@@ -192,9 +192,9 @@ INCLUDE "data/pokemon/base_stats/scorchoppr.asm"
 INCLUDE "data/pokemon/base_stats/fursa.asm"           ;orig totodile
 INCLUDE "data/pokemon/base_stats/nanuqua.asm"
 INCLUDE "data/pokemon/base_stats/urskimo.asm"
-INCLUDE "data/pokemon/base_stats/sentret.asm" 		  ;sentret
+INCLUDE "data/pokemon/base_stats/wendigaunt.asm" 		  ;wendigaunt
 INCLUDE "data/pokemon/base_stats/furret.asm"
-INCLUDE "data/pokemon/base_stats/hoothoot.asm"
+INCLUDE "data/pokemon/base_stats/nuckawheez.asm"
 INCLUDE "data/pokemon/base_stats/noctowl.asm"
 INCLUDE "data/pokemon/base_stats/wormeek.asm" 			;ledyba
 INCLUDE "data/pokemon/base_stats/wormacho.asm"

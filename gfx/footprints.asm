@@ -263,8 +263,8 @@ INCBIN "gfx/footprints/cuttle.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/tendrill.1bpp",     footprint_bottom
 ; 113-120 top halves
 INCBIN "gfx/footprints/calarmouri.1bpp",    footprint_top
-INCBIN "gfx/footprints/tangela.1bpp",    footprint_top
-INCBIN "gfx/footprints/kangaskhan.1bpp", footprint_top
+INCBIN "gfx/footprints/antpyre.1bpp",    footprint_top
+INCBIN "gfx/footprints/generopsis.1bpp", footprint_top
 INCBIN "gfx/footprints/oscurasa.1bpp",     footprint_top
 INCBIN "gfx/footprints/madrugasa.1bpp",     footprint_top
 INCBIN "gfx/footprints/goosapling.1bpp",    footprint_top
@@ -272,8 +272,8 @@ INCBIN "gfx/footprints/ganzerker.1bpp",    footprint_top
 INCBIN "gfx/footprints/peauty.1bpp",     footprint_top
 ; 113-120 bottom halves
 INCBIN "gfx/footprints/calarmouri.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/tangela.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/kangaskhan.1bpp", footprint_bottom
+INCBIN "gfx/footprints/antpyre.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/generopsis.1bpp", footprint_bottom
 INCBIN "gfx/footprints/oscurasa.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/madrugasa.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/goosapling.1bpp",    footprint_bottom
@@ -370,18 +370,18 @@ INCBIN "gfx/footprints/fursa.1bpp",      footprint_bottom ;orig totodile
 INCBIN "gfx/footprints/nanuqua.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/urskimo.1bpp",    footprint_bottom
 ; 161-168 top halves
-INCBIN "gfx/footprints/sentret.1bpp",    footprint_top
+INCBIN "gfx/footprints/wendigaunt.1bpp",    footprint_top
 INCBIN "gfx/footprints/furret.1bpp",     footprint_top
-INCBIN "gfx/footprints/hoothoot.1bpp",   footprint_top
+INCBIN "gfx/footprints/nuckawheez.1bpp",   footprint_top
 INCBIN "gfx/footprints/noctowl.1bpp",    footprint_top
 INCBIN "gfx/footprints/wormeek.1bpp",     footprint_top
 INCBIN "gfx/footprints/wormacho.1bpp",     footprint_top
 INCBIN "gfx/footprints/gwubby.1bpp",   footprint_top
 INCBIN "gfx/footprints/grubboid.1bpp",    footprint_top
 ; 161-168 bottom halves
-INCBIN "gfx/footprints/sentret.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/wendigaunt.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/furret.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/hoothoot.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/nuckawheez.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/noctowl.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/wormeek.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/wormacho.1bpp",     footprint_bottom

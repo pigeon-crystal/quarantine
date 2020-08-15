@@ -70,6 +70,7 @@ WyrmometerEggMoves:
 	db -1 ; end
 
 SandolphEggMoves:
+	db OUTRAGE
 	db FLAIL
 	db SAFEGUARD
 	db COUNTER
@@ -329,20 +330,11 @@ CuttleEggMoves:
 	db MAGNITUDE
 	db -1 ; end
 
-TangelaEggMoves:
-	db FLAIL
-	db CONFUSION
+AntpyreEggMoves:
+	db FIRE_BLAST
 	db MEGA_DRAIN
 	db REFLECT
 	db AMNESIA
-	db -1 ; end
-
-KangaskhanEggMoves:
-	db STOMP
-	db FORESIGHT
-	db FOCUS_ENERGY
-	db SAFEGUARD
-	db DISABLE
 	db -1 ; end
 
 OscurasaEggMoves:
@@ -461,7 +453,7 @@ FursaEggMoves:
 	db ROCK_SLIDE
 	db -1 ; end
 
-SentretEggMoves:
+WendigauntEggMoves:
 	db DOUBLE_EDGE
 	db PURSUIT
 	db SLASH
@@ -469,7 +461,7 @@ SentretEggMoves:
 	db FLAIL
 	db -1 ; end
 
-HoothootEggMoves:
+NuckawheezEggMoves:
 	db MIRROR_MOVE
 	db SUPERSONIC
 	db FAINT_ATTACK

@@ -84,7 +84,7 @@ AlphabeticalPokedexOrder:
 	db HOATOT
 	db HOATOXIC
 	db HO_OH
-	db HOOTHOOT
+	db NUCKAWHEEZ
 	db HOPLAQUE
 	db HORNAMPA
 	db SNOVERDOSE
@@ -98,7 +98,7 @@ AlphabeticalPokedexOrder:
 	db JUNOBE
 	db KABUTOPS
 	db KALKOLA
-	db KANGASKHAN
+	db GENEROPSIS
 	db KINGDRA
 	db KOAGAN
 	db KODOROYAH
@@ -191,7 +191,7 @@ AlphabeticalPokedexOrder:
 	db SCORPEROR
 	db SCRUFFRUIT
 	db SCYTHER
-	db SENTRET
+	db WENDIGAUNT
 	db SHABBYCAT
 	db SHAMSEL
 	db SHELLDER
@@ -215,7 +215,7 @@ AlphabeticalPokedexOrder:
 	db SUICUNE
 	db SWAZZAGE
 	db SWINUB
-	db TANGELA
+	db ANTPYRE
 	db TAUROS
 	db TENDRILL
 	db TENTACOOL

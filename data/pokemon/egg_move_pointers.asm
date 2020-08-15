@@ -112,8 +112,8 @@ EggMovePointers::
 	dw CuttleEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw TangelaEggMoves
-	dw KangaskhanEggMoves
+	dw AntpyreEggMoves
+	dw NoEggMoves
 	dw OscurasaEggMoves
 	dw NoEggMoves
 	dw GoosaplingEggMoves
@@ -159,9 +159,9 @@ EggMovePointers::
 	dw FursaEggMoves       ;Totodile
 	dw NoEggMoves
 	dw NoEggMoves
-	dw SentretEggMoves	   ;Sentret
+	dw WendigauntEggMoves	   ;Wendigaunt
 	dw NoEggMoves
-	dw HoothootEggMoves
+	dw NuckawheezEggMoves
 	dw NoEggMoves
 	dw WormeekEggMoves
 	dw NoEggMoves

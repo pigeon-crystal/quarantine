@@ -1,6 +1,6 @@
 Pokered_MonIndices:
 	db TENDRILL
-	db KANGASKHAN
+	db GENEROPSIS
 	db NIDORAN_M
 	db NYALLEY
 	db QWAIL
@@ -28,7 +28,7 @@ Pokered_MonIndices:
 	db PEAUTY
 	db BLASTOISE
 	db PINSIR
-	db TANGELA
+	db ANTPYRE
 	db SCIZOR ; MISSINGNO.
 	db SHUCKLE ; MISSINGNO.
 	db HAPPIG
@@ -199,9 +199,9 @@ Pokered_MonIndices:
 	db FURSA
 	db NANUQUA
 	db URSKIMO
-	db SENTRET
+	db WENDIGAUNT
 	db FURRET
-	db HOOTHOOT
+	db NUCKAWHEEZ
 	db NOCTOWL
 	db WORMEEK
 	db WORMACHO

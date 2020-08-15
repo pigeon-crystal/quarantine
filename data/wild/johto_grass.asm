@@ -1686,7 +1686,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_43 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 15, SENTRET
+	db 15, WENDIGAUNT
 	db 16, FURDOBA
 	db 16, FARFETCH_D
 	db 15, FURRET
@@ -1695,7 +1695,7 @@ JohtoGrassWildMons:
 	db 17, FURRET
 	db 18, FURRET
 	; day
-	db 15, SENTRET
+	db 15, WENDIGAUNT
 	db 16, FURDOBA
 	db 16, FARFETCH_D
 	db 15, FURRET
@@ -1716,7 +1716,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_44 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, TANGELA
+	db 23, ANTPYRE
 	db 22, SAPPURA
 	db 22, LAWNIE
 	db 24, ORGNOME
@@ -1725,7 +1725,7 @@ JohtoGrassWildMons:
 	db 26, SAPPURA
 	db 28, SAPPURA
 	; day
-	db 23, TANGELA
+	db 23, ANTPYRE
 	db 22, SAPPURA
 	db 22, LAWNIE
 	db 24, ORGNOME
@@ -1734,7 +1734,7 @@ JohtoGrassWildMons:
 	db 26, SAPPURA
 	db 28, SAPPURA
 	; nite
-	db 23, TANGELA
+	db 23, ANTPYRE
 	db 22, CREMIGO
 	db 22, LAWNIE
 	db 24, ORGNOME
@@ -1806,31 +1806,31 @@ JohtoGrassWildMons:
 	map_id SILVER_CAVE_OUTSIDE ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 41, TANGELA
+	db 41, ANTPYRE
 	db 42, MOPERDOR
 	db 42, IGNAGA
 	db 44, MAJESDOR
 	db 41, DODUO
 	db 43, DODRIO
 	db 43, DODRIO
-	db 45, TANGELA
+	db 45, ANTPYRE
 	; day
-	db 41, TANGELA
+	db 41, ANTPYRE
 	db 42, MOPERDOR
 	db 42, IGNAGA
 	db 44, MAJESDOR
 	db 41, DODUO
 	db 43, DODRIO
 	db 43, DODRIO
-	db 45, TANGELA
+	db 45, ANTPYRE
 	; nite
-	db 41, TANGELA
+	db 41, ANTPYRE
 	db 42, AMANIGO
 	db 42, SCORPEROR
 	db 44, AMANIGO
 	db 40, SCORPEROR
 	db 44, SCORPEROR
 	db 44, SCORPEROR
-	db 45, TANGELA
+	db 45, ANTPYRE
 
 	db -1 ; end

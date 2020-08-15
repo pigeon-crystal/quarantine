@@ -434,30 +434,46 @@ RaichuEvosAttacks:
 	db 0 ; no more level-up moves
 
 SandolphEvosAttacks:
-	db EVOLVE_LEVEL, 22, DUNEFIN
+	db EVOLVE_LEVEL, 38, DUNEFIN
 	db 0 ; no more evolutions
-	db 1, SCRATCH
-	db 6, DEFENSE_CURL
-	db 11, SAND_ATTACK
-	db 17, POISON_STING
-	db 23, SLASH
-	db 30, SWIFT
-	db 37, FURY_SWIPES
-	db 45, SANDSTORM
+	db 1, SHARPEN
+	db 1, SCREECH
+	db 6, SCRATCH
+	db 10, SAND_ATTACK
+	db 14, SUPERSONIC
+	db 17, DIG
+	db 21, BITE
+	db 24, SCREECH
+	db 24, SANDSTORM
+	db 27, ROCK_SLIDE
+	db 30, MAGNITUDE
+	db 31, SUPER_FANG
+	db 39, CRUNCH
+	db 42, EARTHQUAKE
+	db 49, BODY_SLAM
+	db 55, OUTRAGE
 	db 0 ; no more level-up moves
 
 DunefinEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SCRATCH
-	db 1, DEFENSE_CURL
-	db 1, SAND_ATTACK
-	db 6, DEFENSE_CURL
-	db 11, SAND_ATTACK
-	db 17, POISON_STING
-	db 24, SLASH
-	db 33, SWIFT
-	db 42, FURY_SWIPES
-	db 52, SANDSTORM
+	db 1, SHARPEN
+	db 1, SCREECH
+	db 6, SCRATCH
+	db 10, SAND_ATTACK
+	db 14, SUPERSONIC
+	db 17, DIG
+	db 21, BITE
+	db 24, SCREECH
+	db 24, SANDSTORM
+	db 27, ROCK_SLIDE
+	db 30, MAGNITUDE
+	db 31, SUPER_FANG
+	db 37, HYPER_FANG
+	db 39, CRUNCH
+	db 42, EARTHQUAKE
+	db 49, BODY_SLAM
+	db 55, OUTRAGE
+	db 60, FISSURE
 	db 0 ; no more level-up moves
 
 NidoranFEvosAttacks:
@@ -1833,7 +1849,7 @@ CalarmouriEvosAttacks:
 	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-TangelaEvosAttacks:
+AntpyreEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CONSTRICT
 	db 4, SLEEP_POWDER
@@ -1847,7 +1863,7 @@ TangelaEvosAttacks:
 	db 46, GROWTH
 	db 0 ; no more level-up moves
 
-KangaskhanEvosAttacks:
+GeneropsisEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, COMET_PUNCH
 	db 7, LEER
@@ -2560,8 +2576,7 @@ UrskimoEvosAttacks:
 	db 60, BELLY_DRUM
 	db 0 ; no more level-up moves
 
-SentretEvosAttacks:
-	db EVOLVE_LEVEL, 15, FURRET
+WendigauntEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 5, DEFENSE_CURL
@@ -2585,8 +2600,7 @@ FurretEvosAttacks:
 	db 48, AMNESIA
 	db 0 ; no more level-up moves
 
-HoothootEvosAttacks:
-	db EVOLVE_LEVEL, 20, NOCTOWL
+NuckawheezEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, RAIN_DANCE
 	db 11, PECK
