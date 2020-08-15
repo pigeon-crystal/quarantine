@@ -30,8 +30,8 @@ MonMenuIconPals:
 	icon_pals RED,   BLUE      ; IGNAGA
 	icon_pals BROWN,   YELLOW  ; PIKACHU
 	icon_pals BROWN,   YELLOW  ; RAICHU
-	icon_pals BROWN,   YELLOW  ; SANDSHREW
-	icon_pals YELLOW,  BROWN   ; SANDSLASH
+	icon_pals YELLOW,   PINK  ; SANDOLPH
+	icon_pals YELLOW,  PINK   ; DUNEFIN
 	icon_pals BROWN,   YELLOW  ; NIDORAN_F
 	icon_pals BROWN,   YELLOW  ; NIDORINA
 	icon_pals BROWN,   YELLOW  ; NIDOQUEEN

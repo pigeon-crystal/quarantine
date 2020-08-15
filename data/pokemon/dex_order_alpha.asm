@@ -47,6 +47,7 @@ AlphabeticalPokedexOrder:
 	db DRAGONITE
 	db DRATINI
 	db DUMBLOON
+	db DUNEFIN
 	db EELKIE
 	db EEVEE
 	db ELECTRODE
@@ -56,7 +57,6 @@ AlphabeticalPokedexOrder:
 	db EXOTUNITY
 	db FARFETCH_D
 	db FELIORITTE
-	db YUEFOE
 	db FLAREON
 	db FLUFFRUIT
 	db FORRETRESS
@@ -119,7 +119,6 @@ AlphabeticalPokedexOrder:
 	db MAJESDOR
 	db MANDELBLOB
 	db MANKEY
-	db YUESBI
 	db MAULZER
 	db MEOWTAIN
 	db MEW
@@ -183,8 +182,7 @@ AlphabeticalPokedexOrder:
 	db RADEON
 	db RESPECTRE
 	db SAKURONNA
-	db SANDSHREW
-	db SANDSLASH
+	db SANDOLPH
 	db SAPPURA
 	db SATELISK
 	db SCAULTER
@@ -249,6 +247,8 @@ AlphabeticalPokedexOrder:
 	db WORMEEK
 	db WYRMOMETER
 	db XATU
+	db YUEFOE
+	db YUESBI
 	db YUGGROMI
 	db ZAPDOS
 	db ZASTER

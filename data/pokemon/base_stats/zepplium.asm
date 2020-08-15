@@ -1,4 +1,4 @@
-	db DUMBLOON ; 063
+	db ZEPPLIUM ; 063
 
 	db  91,  91,  80,  105,  60,  80
 	;   hp   atk  def  spd   sat  sdf
@@ -11,7 +11,7 @@
 	db 100 ; unknown 1
 	db 12 ; step cycles to hatch
 	db 5 ; unknown 2
-	INCBIN "gfx/pokemon/dumbloon/front.dimensions"
+	INCBIN "gfx/pokemon/zepplium/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_SLIGHTLY_FAST ; growth rate
 	dn EGG_GROUND, EGG_INDETERMINATE ; egg groups

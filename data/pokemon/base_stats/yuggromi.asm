@@ -3,9 +3,9 @@
 	db  73,  59,  73,  73, 131,  97
 	;   hp  atk  def  spd  sat  sdf
 
-	db POISON, POISON ; type
-	db 2 ; catch rate
-	db 178 ; base exp
+	db POISON, DARK ; type
+	db 1 ; catch rate
+	db 179 ; base exp
 	db BLK_APRICORN, BLK_APRICORN ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

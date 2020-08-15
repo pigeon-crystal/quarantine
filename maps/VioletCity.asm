@@ -72,9 +72,6 @@ VioletCitySign:
 	jumptext VioletCitySignText
 
 VioletGymSign:
-	givepoke SNOSEBLEED, 5
-	givepoke SNOWUP, 30
-	givepoke SNOVERDOSE, 50
 	jumptext VioletGymSignText
 
 SproutTowerSign:

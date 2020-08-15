@@ -3216,7 +3216,7 @@ BattleTowerMons6:
 	bigdw 104 ; SDef
 	db "SAIDON@@@@@"
 
-	db SANDSLASH
+	db DUNEFIN
 	db SCOPE_LENS
 	db EARTHQUAKE, SLASH, HYPER_BEAM, SNORE
 	dw 0 ; OT ID

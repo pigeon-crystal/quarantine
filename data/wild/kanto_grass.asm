@@ -37,7 +37,7 @@ KantoGrassWildMons:
 	; morn
 	db 6, STINPEON
 	db 8, DOLMITE
-	db 8, SANDSHREW
+	db 8, SANDOLPH
 	db 12, PARAS
 	db 10, DOLMITE
 	db 8, NYALLEY
@@ -46,7 +46,7 @@ KantoGrassWildMons:
 	; day
 	db 6, STINPEON
 	db 8, DOLMITE
-	db 8, SANDSHREW
+	db 8, SANDOLPH
 	db 12, PARAS
 	db 10, DOLMITE
 	db 8, NYALLEY
@@ -129,7 +129,7 @@ KantoGrassWildMons:
 	db 32, CUTTLE
 	db 33, ONIX
 	db 34, SCORPEROR
-	db 35, SANDSLASH
+	db 35, DUNEFIN
 	db 35, TENDRILL
 	db 35, TENDRILL
 	db 40, TENDRILL
@@ -138,7 +138,7 @@ KantoGrassWildMons:
 	db 32, CUTTLE
 	db 33, ONIX
 	db 34, SCORPEROR
-	db 35, SANDSLASH
+	db 35, DUNEFIN
 	db 35, TENDRILL
 	db 35, TENDRILL
 	db 40, TENDRILL
@@ -250,8 +250,8 @@ KantoGrassWildMons:
 	db 8, WYRMOMETER
 	db 10, NOMSABRE
 	db 10, IGNAGA
-	db 10, SANDSHREW
-	db 10, SANDSHREW
+	db 10, SANDOLPH
+	db 10, SANDOLPH
 	db 15, IGNAGA
 	; day
 	db 5, QWAIL
@@ -259,8 +259,8 @@ KantoGrassWildMons:
 	db 8, WYRMOMETER
 	db 10, NOMSABRE
 	db 10, IGNAGA
-	db 10, SANDSHREW
-	db 10, SANDSHREW
+	db 10, SANDOLPH
+	db 10, SANDOLPH
 	db 15, IGNAGA
 	; nite
 	db 5, NOMSTER
@@ -280,8 +280,8 @@ KantoGrassWildMons:
 	db 8, WYRMOMETER
 	db 10, NOMSABRE
 	db 10, IGNAGA
-	db 10, SANDSHREW
-	db 10, SANDSHREW
+	db 10, SANDOLPH
+	db 10, SANDOLPH
 	db 20, IGNAGA
 	; day
 	db 5, QWAIL
@@ -289,8 +289,8 @@ KantoGrassWildMons:
 	db 8, WYRMOMETER
 	db 10, NOMSABRE
 	db 10, IGNAGA
-	db 10, SANDSHREW
-	db 10, SANDSHREW
+	db 10, SANDOLPH
+	db 10, SANDOLPH
 	db 20, IGNAGA
 	; nite
 	db 5, NOMSTER
@@ -816,7 +816,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 28, DODUO
-	db 28, SANDSLASH
+	db 28, DUNEFIN
 	db 32, MOPERDOR
 	db 30, NOMSABRE
 	db 30, DODUO
@@ -825,7 +825,7 @@ KantoGrassWildMons:
 	db 34, IGNAGA
 	; day
 	db 28, DODUO
-	db 28, SANDSLASH
+	db 28, DUNEFIN
 	db 32, MOPERDOR
 	db 30, NOMSABRE
 	db 30, DODUO

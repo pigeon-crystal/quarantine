@@ -69,7 +69,7 @@ WyrmometerEggMoves:
 	db BEAT_UP
 	db -1 ; end
 
-SandshrewEggMoves:
+SandolphEggMoves:
 	db FLAIL
 	db SAFEGUARD
 	db COUNTER

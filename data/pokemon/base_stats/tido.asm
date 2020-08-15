@@ -1,6 +1,6 @@
 	db TIDO ; 063
 
-	db  91,  101, 75, 110,  60,  64
+	db  91,  101, 75, 111,  61,  64
 	;   hp   atk  def  spd   sat  sdf
 
 	db WATER, FAIRY ; type

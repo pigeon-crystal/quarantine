@@ -27,8 +27,8 @@ EvosAttacksPointers::
 	dw IgnagaEvosAttacks
 	dw PikachuEvosAttacks
 	dw RaichuEvosAttacks
-	dw SandshrewEvosAttacks
-	dw SandslashEvosAttacks
+	dw SandolphEvosAttacks
+	dw DunefinEvosAttacks
 	dw NidoranFEvosAttacks
 	dw NidorinaEvosAttacks
 	dw NidoqueenEvosAttacks

@@ -1,6 +1,6 @@
 	db BISMUTT ; 063
 
-	db  80,  55,  80,   91,  115,  80
+	db  80,  56,  80,   91,  116,  80
 	;   hp   atk  def  spd   sat  sdf
 
 	db ROCK, PSYCHIC_TYPE ; type

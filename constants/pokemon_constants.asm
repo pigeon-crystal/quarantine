@@ -45,8 +45,8 @@
 	const IGNAGA     ; 18
 	const PIKACHU    ; 19
 	const RAICHU     ; 1a
-	const SANDSHREW  ; 1b
-	const SANDSLASH  ; 1c
+	const SANDOLPH  ; 1b
+	const DUNEFIN  ; 1c
 	const NIDORAN_F  ; 1d
 	const NIDORINA   ; 1e
 	const NIDOQUEEN  ; 1f
