@@ -1,5 +1,5 @@
-	db "baby@" ; species name
-	dw 1210, 49011 ; height, weight
+	db "ZOOPHYTE@" ; species name
+	dw 604, 2081 ; height, weight
 
 	db   "This is an"
 	next "undiscovered"

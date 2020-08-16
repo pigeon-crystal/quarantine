@@ -85,7 +85,7 @@ JaddiceFrontpic:     INCBIN "gfx/pokemon/jaddice/front.animated.2bpp.lz"
 GnomercyFrontpic:  INCBIN "gfx/pokemon/gnomercy/front.animated.2bpp.lz"
 RaichuFrontpic:      INCBIN "gfx/pokemon/raichu/front.animated.2bpp.lz"
 PrimeapeFrontpic:    INCBIN "gfx/pokemon/primeape/front.animated.2bpp.lz"
-OmastarBackpic:      INCBIN "gfx/pokemon/behemothra/back.2bpp.lz"
+BehemothraBackpic:      INCBIN "gfx/pokemon/behemothra/back.2bpp.lz"
 
 
 SECTION "Pics 4", ROMX
@@ -191,7 +191,7 @@ PeekeyeFrontpic:     INCBIN "gfx/pokemon/peekeye/front.animated.2bpp.lz"
 FurdobaFrontpic:   INCBIN "gfx/pokemon/furdoba/front.animated.2bpp.lz"
 WormeekFrontpic:      INCBIN "gfx/pokemon/wormeek/front.animated.2bpp.lz"
 PitayrantFrontpic:      INCBIN "gfx/pokemon/pitayrant/front.animated.2bpp.lz"
-OmastarFrontpic:     INCBIN "gfx/pokemon/behemothra/front.animated.2bpp.lz"
+BehemothraFrontpic:     INCBIN "gfx/pokemon/behemothra/front.animated.2bpp.lz"
 VegetebaaFrontpic:   INCBIN "gfx/pokemon/vegetebaa/front.animated.2bpp.lz"
 MumagnusFrontpic:     INCBIN "gfx/pokemon/mumagnus/front.animated.2bpp.lz"
 MagnetonFrontpic:    INCBIN "gfx/pokemon/magneton/front.animated.2bpp.lz"

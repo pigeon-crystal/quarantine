@@ -1,6 +1,6 @@
 	db YUESBI ; 142
 
-	db  70, 45,  30,  70,  70,  30
+	db  70, 54,  31,  70,  70,  31
 	;   hp  atk  def  spd  sat  sdf
 
 	db ELECTRIC, ELECTRIC ; type
@@ -17,5 +17,5 @@
 	dn EGG_MINERAL, EGG_INDETERMINATE ; egg groups
 
 	; tm/hm learnset
-	tmhm 
+	tmhm CURSE, ROLLOUT, TOXIC, ZAP_CANNON, PSYCH_UP, HIDDEN_POWER, SNORE, PROTECT, GIGA_DRAIN, ENDURE, FRUSTRATION, THUNDER, DOUBLE_TEAM, SWAGGER, SWIFT, DEFENSE_CURL, REST, THIEF, FURY_CUTTER, FLASH, THUNDERBOLT
 	; end

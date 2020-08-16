@@ -139,7 +139,7 @@ EvosAttacksPointers::
 	dw FlareonEvosAttacks
 	dw PorygonEvosAttacks
 	dw MammothraEvosAttacks
-	dw OmastarEvosAttacks
+	dw BehemothraEvosAttacks
 	dw BellocerosEvosAttacks
 	dw KabutopsEvosAttacks
 	dw AerodactylEvosAttacks

@@ -278,8 +278,8 @@ PokemonPicPointers::
 	dba_pic PorygonBackpic
 	dba_pic MammothraFrontpic
 	dba_pic MammothraBackpic
-	dba_pic OmastarFrontpic
-	dba_pic OmastarBackpic
+	dba_pic BehemothraFrontpic
+	dba_pic BehemothraBackpic
 	dba_pic BellocerosFrontpic
 	dba_pic BellocerosBackpic
 	dba_pic KabutopsFrontpic

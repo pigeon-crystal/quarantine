@@ -1,5 +1,5 @@
 	db "WEAPON@" ; species name
-	dw 4200, 99999 ; height, weight
+	dw 4200, 61108 ; height, weight
 
 	db   "An ancient and"
 	next "seemingly artifical"

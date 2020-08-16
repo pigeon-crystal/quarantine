@@ -138,7 +138,7 @@ PokedexDataPointerTable:
 	dw FlareonPokedexEntry
 	dw PorygonPokedexEntry
 	dw MammothraPokedexEntry
-	dw OmastarPokedexEntry
+	dw BehemothraPokedexEntry
 	dw BellocerosPokedexEntry
 	dw KabutopsPokedexEntry
 	dw AerodactylPokedexEntry
