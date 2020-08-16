@@ -2384,19 +2384,32 @@ DragoniteEvosAttacks:
 	db 75, HYPER_BEAM
 	db 0 ; no more level-up moves
 
-MewtwoEvosAttacks:
+Ma_0EvosAttacks:
 	db 0 ; no more evolutions
-	db 1, CONFUSION
-	db 1, DISABLE
-	db 11, BARRIER
-	db 22, SWIFT
-	db 33, PSYCH_UP
-	db 44, FUTURE_SIGHT
-	db 55, MIST
-	db 66, PSYCHIC_M
-	db 77, AMNESIA
-	db 88, RECOVER
-	db 99, SAFEGUARD
+	db 1, BARRIER
+	db 1, TELEPORT
+	db 1, CONVERSION
+	db 1, RECOVER
+	db 5, THUNDER_WAVE
+	db 10, AURORA_BEAM
+	db 15, PSYBEAM
+	db 20, FLASH_CANNON
+	db 25, FOCUS_BLAST
+	db 30, ICE_BEAM
+	db 35, THUNDERBOLT
+	db 40, FLAMETHROWER
+	db 45, HYDRO_PUMP
+	db 50, DARK_PULSE
+	db 55, MOONBLAST
+	db 60, EARTH_POWER
+	db 65, POWER_GEM
+	db 70, CONVERSION
+	db 75, FIRE_BLAST
+	db 80, BLIZZARD
+	db 85, THUNDER
+	db 90, FISSURE
+	db 95, SLUDGE_BOMB
+	db 100, SELFDESTRUCT
 	db 0 ; no more level-up moves
 
 MewEvosAttacks:
@@ -3478,8 +3491,8 @@ CasanocteEvosAttacks:
 	db 52, BODY_SLAM
 	db 0 ; no more level-up moves
 
-SwinubEvosAttacks:
-	db EVOLVE_LEVEL, 33, PILOSWINE
+LamseedEvosAttacks:
+	db EVOLVE_LEVEL, 33, VEGETEBAA
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 10, ICY_WIND
@@ -3490,7 +3503,7 @@ SwinubEvosAttacks:
 	db 55, AMNESIA
 	db 0 ; no more level-up moves
 
-PiloswineEvosAttacks:
+VegetebaaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, HORN_ATTACK
 	db 1, ICY_WIND
@@ -3504,7 +3517,7 @@ PiloswineEvosAttacks:
 	db 70, AMNESIA
 	db 0 ; no more level-up moves
 
-CorsolaEvosAttacks:
+BaafometEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 7, HARDEN

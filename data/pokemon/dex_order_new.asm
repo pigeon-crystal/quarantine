@@ -173,7 +173,7 @@ NewPokedexOrder:
 	db PEACOLDER
 	db SHELLDER
 	db CLOYSTER
-	db CORSOLA
+	db BAAFOMET
 	db STIKLBRAT
 	db SIDFICIOUS
 	db STRANGLURE
@@ -193,8 +193,8 @@ NewPokedexOrder:
 	db WIWRIGHT
 	db WIRIGIBLE
 	db DELIBIRD
-	db SWINUB
-	db PILOSWINE
+	db LAMSEED
+	db VEGETEBAA
 	db OBELITH
 	db MONEUMENN
 	db KRAKENTOA
@@ -249,7 +249,7 @@ NewPokedexOrder:
 	db TYRANITAR
 	db LUGIA
 	db HO_OH
-	db MEWTWO
+	db MA_0
 	db MEW
 	db CELEBI
 	db MISSINGNO

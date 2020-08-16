@@ -150,7 +150,7 @@ EvosAttacksPointers::
 	dw DratiniEvosAttacks
 	dw DragonairEvosAttacks
 	dw DragoniteEvosAttacks
-	dw MewtwoEvosAttacks
+	dw Ma_0EvosAttacks
 	dw MewEvosAttacks
 	dw CigerillarEvosAttacks  ;chiko
 	dw TobacoonEvosAttacks
@@ -220,9 +220,9 @@ EvosAttacksPointers::
 	dw SmothereneEvosAttacks
 	dw KodoroyahEvosAttacks
 	dw CasanocteEvosAttacks
-	dw SwinubEvosAttacks
-	dw PiloswineEvosAttacks
-	dw CorsolaEvosAttacks
+	dw LamseedEvosAttacks
+	dw VegetebaaEvosAttacks
+	dw BaafometEvosAttacks
 	dw StiklbratEvosAttacks
 	dw SidficiousEvosAttacks
 	dw DelibirdEvosAttacks

@@ -33,7 +33,7 @@ AlphabeticalPokedexOrder:
 	db CLIBBLE
 	db CLOYSTER
 	db COCACOBRA
-	db CORSOLA
+	db BAAFOMET
 	db CREMIGO
 	db CROBAT
 	db CUTTLE
@@ -122,7 +122,7 @@ AlphabeticalPokedexOrder:
 	db MAULZER
 	db MEOWTAIN
 	db MEW
-	db MEWTWO
+	db MA_0
 	db MILTANK
 	db MISSINGNO
 	db MOLTRES
@@ -162,7 +162,7 @@ AlphabeticalPokedexOrder:
 	db PICHU
 	db PIKACHU
 	db PILFOARD
-	db PILOSWINE
+	db VEGETEBAA
 	db PINECO
 	db PINSIR
 	db PITAYRANT
@@ -214,7 +214,7 @@ AlphabeticalPokedexOrder:
 	db SUDOWOODO
 	db SUICUNE
 	db SWAZZAGE
-	db SWINUB
+	db LAMSEED
 	db ANTPYRE
 	db TAUROS
 	db TENDRILL

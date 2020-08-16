@@ -218,12 +218,12 @@ EggMovePointers::
 	dw NoEggMoves
 	dw KodoroyahEggMoves
 	dw NoEggMoves
-	dw SwinubEggMoves
+	dw LamseedEggMoves
 	dw NoEggMoves
-	dw CorsolaEggMoves
+	dw NoEggMoves
 	dw StiklbratEggMoves
 	dw NoEggMoves
-	dw DelibirdEggMoves
+	dw NoEggMoves
 	dw KrakentoaEggMoves
 	dw SnosebleedEggMoves
 	dw NoEggMoves

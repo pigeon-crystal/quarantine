@@ -168,7 +168,7 @@
 	const DRATINI    ; 93
 	const DRAGONAIR  ; 94
 	const DRAGONITE  ; 95
-	const MEWTWO     ; 96
+	const MA_0     ; 96
 	const MEW        ; 97
 JOHTO_POKEMON EQU const_value
 	const CIGERILLAR ; 98 chikorita
@@ -239,9 +239,9 @@ JOHTO_POKEMON EQU const_value
 	const SMOTHERENE ; d9
 	const KODOROYAH  ; da
 	const CASANOCTE  ; db
-	const SWINUB     ; dc
-	const PILOSWINE  ; dd
-	const CORSOLA    ; de
+	const LAMSEED     ; dc
+	const VEGETEBAA  ; dd
+	const BAAFOMET    ; de
 	const STIKLBRAT  ; df
 	const SIDFICIOUS ; e0
 	const DELIBIRD   ; e1

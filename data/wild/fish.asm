@@ -206,8 +206,8 @@ FishGroups:
 
 TimeFishGroups:
 	;  day              nite
-	db CORSOLA,    20,  GOOSAPLING,     20 ; 0
-	db CORSOLA,    40,  GOOSAPLING,     40 ; 1
+	db BAAFOMET,    20,  GOOSAPLING,     20 ; 0
+	db BAAFOMET,    40,  GOOSAPLING,     40 ; 1
 	db SHELLDER,   20,  SHELLDER,   20 ; 2
 	db SHELLDER,   40,  SHELLDER,   40 ; 3
 	db GOOSAPLING,    20,  GOOSAPLING,    20 ; 4

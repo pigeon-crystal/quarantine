@@ -149,7 +149,7 @@ PokedexDataPointerTable:
 	dw DratiniPokedexEntry
 	dw DragonairPokedexEntry
 	dw DragonitePokedexEntry
-	dw MewtwoPokedexEntry
+	dw Ma_0PokedexEntry
 	dw MewPokedexEntry
 	dw CigerillarPokedexEntry   ;orig chikorita
 	dw TobacoonPokedexEntry
@@ -219,9 +219,9 @@ PokedexDataPointerTable:
 	dw SmotherenePokedexEntry
 	dw KodoroyahPokedexEntry
 	dw CasanoctePokedexEntry
-	dw SwinubPokedexEntry
-	dw PiloswinePokedexEntry
-	dw CorsolaPokedexEntry
+	dw LamseedPokedexEntry
+	dw VegetebaaPokedexEntry
+	dw BaafometPokedexEntry
 	dw StiklbratPokedexEntry
 	dw SidficiousPokedexEntry
 	dw DelibirdPokedexEntry

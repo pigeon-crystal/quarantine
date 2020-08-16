@@ -756,19 +756,19 @@ JohtoGrassWildMons:
 	map_id ICE_PATH_1F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 21, SWINUB
+	db 21, LAMSEED
 	db 22, STINPEON
 	db 22, SCORPEROR
-	db 23, SWINUB
+	db 23, LAMSEED
 	db 24, SCORPEROR
 	db 22, SCORPEROR
 	db 22, SCORPEROR
 	db 23, SCORPEROR
 	; day
-	db 21, SWINUB
+	db 21, LAMSEED
 	db 22, STINPEON
 	db 22, SCORPEROR
-	db 23, SWINUB
+	db 23, LAMSEED
 	db 24, SCORPEROR
 	db 22, SCORPEROR
 	db 22, SCORPEROR
@@ -786,19 +786,19 @@ JohtoGrassWildMons:
 	map_id ICE_PATH_B1F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, SWINUB
+	db 22, LAMSEED
 	db 23, STINPEON
 	db 23, SCORPEROR
-	db 24, SWINUB
+	db 24, LAMSEED
 	db 25, SCORPEROR
 	db 23, SCORPEROR
 	db 22, CLIBBLE
 	db 23, CLIBBLE
 	; day
-	db 22, SWINUB
+	db 22, LAMSEED
 	db 23, STINPEON
 	db 23, SCORPEROR
-	db 24, SWINUB
+	db 24, LAMSEED
 	db 25, SCORPEROR
 	db 23, SCORPEROR
 	db 22, CLIBBLE
@@ -816,19 +816,19 @@ JohtoGrassWildMons:
 	map_id ICE_PATH_B2F_MAHOGANY_SIDE ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, SWINUB
+	db 23, LAMSEED
 	db 24, STINPEON
 	db 24, SCORPEROR
-	db 25, SWINUB
+	db 25, LAMSEED
 	db 26, SCORPEROR
 	db 22, CLIBBLE
 	db 24, CLIBBLE
 	db 25, CLIBBLE
 	; day
-	db 23, SWINUB
+	db 23, LAMSEED
 	db 24, STINPEON
 	db 24, SCORPEROR
-	db 25, SWINUB
+	db 25, LAMSEED
 	db 26, SCORPEROR
 	db 22, CLIBBLE
 	db 24, CLIBBLE
@@ -846,19 +846,19 @@ JohtoGrassWildMons:
 	map_id ICE_PATH_B2F_BLACKTHORN_SIDE ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, SWINUB
+	db 23, LAMSEED
 	db 24, STINPEON
 	db 24, SCORPEROR
-	db 25, SWINUB
+	db 25, LAMSEED
 	db 22, CADDISICLE
 	db 24, CADDISICLE
 	db 26, JADDICE
 	db 28, JADDICE
 	; day
-	db 23, SWINUB
+	db 23, LAMSEED
 	db 24, STINPEON
 	db 24, SCORPEROR
-	db 25, SWINUB
+	db 25, LAMSEED
 	db 22, CADDISICLE
 	db 24, CADDISICLE
 	db 26, JADDICE
@@ -876,19 +876,19 @@ JohtoGrassWildMons:
 	map_id ICE_PATH_B3F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 24, SWINUB
+	db 24, LAMSEED
 	db 25, STINPEON
 	db 25, SCORPEROR
-	db 26, SWINUB
+	db 26, LAMSEED
 	db 22, CADDISICLE
 	db 24, CADDISICLE
 	db 26, JADDICE
 	db 28, JADDICE
 	; day
-	db 24, SWINUB
+	db 24, LAMSEED
 	db 25, STINPEON
 	db 25, SCORPEROR
-	db 26, SWINUB
+	db 26, LAMSEED
 	db 22, CADDISICLE
 	db 24, CADDISICLE
 	db 26, JADDICE

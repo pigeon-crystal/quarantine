@@ -680,20 +680,12 @@ KodoroyahEggMoves:
 	db ANCIENTPOWER
 	db -1 ; end
 
-SwinubEggMoves:
+LamseedEggMoves:
 	db DOUBLE_EDGE
 	db BITE
 	db BODY_SLAM
 	db ROCK_SLIDE
 	db ANCIENTPOWER
-	db -1 ; end
-
-CorsolaEggMoves:
-	db ROCK_SLIDE
-	db SAFEGUARD
-	db SCREECH
-	db MIST
-	db AMNESIA
 	db -1 ; end
 
 StiklbratEggMoves:
@@ -702,14 +694,7 @@ StiklbratEggMoves:
 	db SUPERSONIC
 	db HAZE
 	db SCREECH
-	db -1 ; end
-
-DelibirdEggMoves:
-	db AURORA_BEAM
-	db QUICK_ATTACK
-	db FUTURE_SIGHT
-	db POUND
-	db RAPID_SPIN
+	db OUTRAGE
 	db -1 ; end
 
 KrakentoaEggMoves:

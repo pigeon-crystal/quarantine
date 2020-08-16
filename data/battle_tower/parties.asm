@@ -133,7 +133,7 @@ BattleTowerMons1:
 	bigdw 28 ; SDef
 	db "GARU-RA@@@@"
 
-	db CORSOLA
+	db BAAFOMET
 	db SCOPE_LENS
 	db SURF, PSYCHIC_M, RECOVER, ANCIENTPOWER
 	dw 0 ; OT ID
@@ -5334,7 +5334,7 @@ BattleTowerMons10:
 	bigdw 346 ; SDef
 	db "HAPINASU@@@"
 
-	db PILOSWINE
+	db VEGETEBAA
 	db MINT_BERRY
 	db REST, BLIZZARD, HYPER_BEAM, EARTHQUAKE
 	dw 0 ; OT ID

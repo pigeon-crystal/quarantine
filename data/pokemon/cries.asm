@@ -154,7 +154,7 @@ PokemonCries::
 	mon_cry CRY_BULBASAUR,    96,  192 ; DRATINI
 	mon_cry CRY_BULBASAUR,    64,  256 ; DRAGONAIR
 	mon_cry CRY_BULBASAUR,    60,  320 ; DRAGONITE
-	mon_cry CRY_PARAS,       153,  383 ; MEWTWO
+	mon_cry CRY_PARAS,       153,  383 ; MA_0
 	mon_cry CRY_PARAS,       238,  383 ; MEW
 	mon_cry CRY_PARAS,  	 -16,  176 ; CIGERILLAR, orig CHIKORITA
 	mon_cry CRY_PARAS,       -34,  288 ; TOBACOON, 
@@ -224,9 +224,9 @@ PokemonCries::
 	mon_cry CRY_MARILL,  	  77,  301 ; SMOTHERENE
 	mon_cry CRY_SLUGMA,     -200,  444 ; KODOROYAH
 	mon_cry CRY_NIDOQUEEN,  -256,  304 ; CASANOCTE
-	mon_cry CRY_CYNDAQUIL,   510,  320 ; SWINUB
-	mon_cry CRY_MAGCARGO,   -265,  256 ; PILOSWINE
-	mon_cry CRY_MAGCARGO,    161,  232 ; CORSOLA
+	mon_cry CRY_CYNDAQUIL,   510,  320 ; LAMSEED
+	mon_cry CRY_MAGCARGO,   -265,  256 ; VEGETEBAA
+	mon_cry CRY_MAGCARGO,    161,  232 ; BAAFOMET
 	mon_cry CRY_SLOWKING,    410,  300 ; STIKLBRAT
 	mon_cry CRY_SLOWKING,     27,  300 ; SIDFICIOUS
 	mon_cry CRY_SLOWKING,      2,  300 ; DELIBIRD

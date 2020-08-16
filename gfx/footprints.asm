@@ -339,7 +339,7 @@ INCBIN "gfx/footprints/moltres.1bpp",    footprint_top
 INCBIN "gfx/footprints/dratini.1bpp",    footprint_top
 INCBIN "gfx/footprints/dragonair.1bpp",  footprint_top
 INCBIN "gfx/footprints/dragonite.1bpp",  footprint_top
-INCBIN "gfx/footprints/mewtwo.1bpp",     footprint_top
+INCBIN "gfx/footprints/ma_0.1bpp",     footprint_top
 INCBIN "gfx/footprints/mew.1bpp",        footprint_top
 INCBIN "gfx/footprints/cigerillar.1bpp", footprint_top
 ; 145-152 bottom halves
@@ -348,7 +348,7 @@ INCBIN "gfx/footprints/moltres.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/dratini.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/dragonair.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/dragonite.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/mewtwo.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/ma_0.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/mew.1bpp",        footprint_bottom
 INCBIN "gfx/footprints/cigerillar.1bpp", footprint_bottom
 ; 153-160 top halves
@@ -499,18 +499,18 @@ INCBIN "gfx/footprints/smucious.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/smotherene.1bpp",   footprint_top
 INCBIN "gfx/footprints/kodoroyah.1bpp",     footprint_top
 INCBIN "gfx/footprints/casanocte.1bpp",   footprint_top
-INCBIN "gfx/footprints/swinub.1bpp",     footprint_top
-INCBIN "gfx/footprints/piloswine.1bpp",  footprint_top
-INCBIN "gfx/footprints/corsola.1bpp",    footprint_top
+INCBIN "gfx/footprints/lamseed.1bpp",     footprint_top
+INCBIN "gfx/footprints/vegetebaa.1bpp",  footprint_top
+INCBIN "gfx/footprints/baafomet.1bpp",    footprint_top
 INCBIN "gfx/footprints/stiklbrat.1bpp",   footprint_top
 INCBIN "gfx/footprints/sidficious.1bpp",  footprint_top
 ; 217-224 bottom halves
 INCBIN "gfx/footprints/smotherene.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/kodoroyah.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/casanocte.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/swinub.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/piloswine.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/corsola.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/lamseed.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/vegetebaa.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/baafomet.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/stiklbrat.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/sidficious.1bpp",  footprint_bottom
 ; 225-232 top halves

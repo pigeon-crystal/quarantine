@@ -300,8 +300,8 @@ PokemonPicPointers::
 	dba_pic DragonairBackpic
 	dba_pic DragoniteFrontpic
 	dba_pic DragoniteBackpic
-	dba_pic MewtwoFrontpic
-	dba_pic MewtwoBackpic
+	dba_pic Ma_0Frontpic
+	dba_pic Ma_0Backpic
 	dba_pic MewFrontpic
 	dba_pic MewBackpic
 	dba_pic CigerillarFrontpic ;orig chiko
@@ -443,12 +443,12 @@ PokemonPicPointers::
 	dba_pic KodoroyahBackpic
 	dba_pic CasanocteFrontpic
 	dba_pic CasanocteBackpic
-	dba_pic SwinubFrontpic
-	dba_pic SwinubBackpic
-	dba_pic PiloswineFrontpic
-	dba_pic PiloswineBackpic
-	dba_pic CorsolaFrontpic
-	dba_pic CorsolaBackpic
+	dba_pic LamseedFrontpic
+	dba_pic LamseedBackpic
+	dba_pic VegetebaaFrontpic
+	dba_pic VegetebaaBackpic
+	dba_pic BaafometFrontpic
+	dba_pic BaafometBackpic
 	dba_pic StiklbratFrontpic
 	dba_pic StiklbratBackpic
 	dba_pic SidficiousFrontpic

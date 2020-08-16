@@ -153,7 +153,7 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; DRATINI
 	icon_pals BROWN,   YELLOW  ; DRAGONAIR
 	icon_pals BROWN,   YELLOW  ; DRAGONITE
-	icon_pals BROWN,   YELLOW  ; MEWTWO
+	icon_pals BROWN,   YELLOW  ; MA_0
 	icon_pals BROWN,   YELLOW  ; MEW  						END OF "KANTOMONS"
 	icon_pals GREEN,   YELLOW  ; CIGERILLAR
 	icon_pals GREEN,   YELLOW  ; TOBACOON
@@ -223,9 +223,9 @@ MonMenuIconPals:
 	icon_pals PINK,   YELLOW    ; SMOTHERENE
 	icon_pals RED,   YELLOW    ; KODOROYAH
 	icon_pals RED,   YELLOW    ; CASANOCTE
-	icon_pals RED,   YELLOW    ; SWINUB
-	icon_pals RED,   YELLOW    ; PILOSWINE
-	icon_pals RED,   YELLOW    ; CORSOLA
+	icon_pals RED,   YELLOW    ; LAMSEED
+	icon_pals RED,   YELLOW    ; VEGETEBAA
+	icon_pals RED,   YELLOW    ; BAAFOMET
 	icon_pals BLUE,   YELLOW    ; STIKLBRAT
 	icon_pals RED,   YELLOW    ; SIDFICIOUS
 	icon_pals RED,   YELLOW    ; DELIBIRD
