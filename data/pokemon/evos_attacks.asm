@@ -3640,7 +3640,7 @@ SnoverdoseEvosAttacks:
 	db 60, FOCUS_BLAST
 	db 0 ; no more level-up moves
 
-KingdraEvosAttacks:
+NavigazerEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BUBBLE
 	db 1, SMOKESCREEN

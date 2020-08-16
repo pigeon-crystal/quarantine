@@ -230,7 +230,7 @@ EvosAttacksPointers::
 	dw SnosebleedEvosAttacks
 	dw SnowupEvosAttacks
 	dw SnoverdoseEvosAttacks
-	dw KingdraEvosAttacks
+	dw NavigazerEvosAttacks
 	dw ObelithEvosAttacks
 	dw MoneumennEvosAttacks
 	dw PolyroEvosAttacks

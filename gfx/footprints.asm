@@ -519,7 +519,7 @@ INCBIN "gfx/footprints/krakentoa.1bpp",    footprint_top
 INCBIN "gfx/footprints/snosebleed.1bpp",   footprint_top
 INCBIN "gfx/footprints/snowup.1bpp",   footprint_top
 INCBIN "gfx/footprints/snoverdose.1bpp",   footprint_top
-INCBIN "gfx/footprints/kingdra.1bpp",    footprint_top
+INCBIN "gfx/footprints/navigazer.1bpp",    footprint_top
 INCBIN "gfx/footprints/obelith.1bpp",     footprint_top
 INCBIN "gfx/footprints/moneumenn.1bpp",    footprint_top
 ; 225-232 bottom halves
@@ -528,7 +528,7 @@ INCBIN "gfx/footprints/krakentoa.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/snosebleed.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/snowup.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/snoverdose.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/kingdra.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/navigazer.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/obelith.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/moneumenn.1bpp",    footprint_bottom
 ; 233-240 top halves

@@ -249,7 +249,7 @@ JOHTO_POKEMON EQU const_value
 	const SNOSEBLEED ; e3
 	const SNOWUP     ; e4
 	const SNOVERDOSE ; e5
-	const KINGDRA    ; e6
+	const NAVIGAZER    ; e6
 	const OBELITH    ; e7
 	const MONEUMENN  ; e8
 	const POLYRO     ; e9

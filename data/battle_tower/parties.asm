@@ -1676,7 +1676,7 @@ BattleTowerMons4:
 	bigdw 94 ; SDef
 	db "KENTAROSU@@"
 
-	db KINGDRA
+	db NAVIGAZER
 	db LEFTOVERS
 	db SURF, DRAGONBREATH, HYPER_BEAM, BLIZZARD
 	dw 0 ; OT ID
@@ -2199,7 +2199,7 @@ BattleTowerMons4:
 
 BattleTowerMons5:
 
-	db KINGDRA
+	db NAVIGAZER
 	db GOLD_BERRY
 	db SURF, HYPER_BEAM, BLIZZARD, DRAGONBREATH
 	dw 0 ; OT ID
@@ -2748,7 +2748,7 @@ BattleTowerMons5:
 
 BattleTowerMons6:
 
-	db KINGDRA
+	db NAVIGAZER
 	db LEFTOVERS
 	db DRAGONBREATH, SURF, HYPER_BEAM, BLIZZARD
 	dw 0 ; OT ID
@@ -4054,7 +4054,7 @@ BattleTowerMons8:
 	bigdw 165 ; SDef
 	db "HUoRETOSU@@"
 
-	db KINGDRA
+	db NAVIGAZER
 	db MINT_BERRY
 	db REST, SURF, BLIZZARD, DRAGONBREATH
 	dw 0 ; OT ID
@@ -4551,7 +4551,7 @@ BattleTowerMons9:
 	bigdw 248 ; SDef
 	db "PORIGON2@@@"
 
-	db KINGDRA
+	db NAVIGAZER
 	db LEFTOVERS
 	db DRAGONBREATH, SURF, HYPER_BEAM, BLIZZARD
 	dw 0 ; OT ID
@@ -4996,7 +4996,7 @@ BattleTowerMons10:
 	bigdw 266 ; SDef
 	db "KAIRIKI-@@@"
 
-	db KINGDRA
+	db NAVIGAZER
 	db LEFTOVERS
 	db SURF, DRAGONBREATH, REST, TOXIC
 	dw 0 ; OT ID

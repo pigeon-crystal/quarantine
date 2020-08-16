@@ -229,7 +229,7 @@ PokedexDataPointerTable:
 	dw SnosebleedPokedexEntry
 	dw SnowupPokedexEntry
 	dw SnoverdosePokedexEntry
-	dw KingdraPokedexEntry
+	dw NavigazerPokedexEntry
 	dw ObelithPokedexEntry
 	dw MoneumennPokedexEntry
 	dw PolyroPokedexEntry

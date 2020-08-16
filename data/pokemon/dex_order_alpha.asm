@@ -99,7 +99,7 @@ AlphabeticalPokedexOrder:
 	db KABUTOPS
 	db KALKOLA
 	db GENEROPSIS
-	db KINGDRA
+	db NAVIGAZER
 	db KOAGAN
 	db KODOROYAH
 	db KRAKENTOA

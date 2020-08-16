@@ -228,7 +228,7 @@ PokemonNames::
 	db "SNOSEBLEED"
 	db "SNOWUP@@@@"
 	db "SNOVERDOSE"
-	db "KINGDRA@@@"
+	db "NAVIGAZER@"
 	db "OBELITH@@@"
 	db "MONEUMENN@"
 	db "POLYRO@@@@"

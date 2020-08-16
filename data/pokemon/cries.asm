@@ -234,7 +234,7 @@ PokemonCries::
 	mon_cry CRY_AMPHAROS,   2217,  384 ; SNOSEBLEED
 	mon_cry CRY_CYNDAQUIL,    57,  320 ; SNOWUP
 	mon_cry CRY_TOTODILE,   -266,  256 ; SNOVERDOSE
-	mon_cry CRY_SLUGMA,      763,  256 ; KINGDRA
+	mon_cry CRY_SLUGMA,      763,  256 ; NAVIGAZER
 	mon_cry CRY_SENTRET,      72,  560 ; OBELITH
 	mon_cry CRY_DONPHAN,       0,  416 ; MONEUMENN
 	mon_cry CRY_SPINARAK,   -399,  400 ; POLYRO

@@ -463,8 +463,8 @@ PokemonPicPointers::
 	dba_pic SnowupBackpic
 	dba_pic SnoverdoseFrontpic
 	dba_pic SnoverdoseBackpic
-	dba_pic KingdraFrontpic
-	dba_pic KingdraBackpic
+	dba_pic NavigazerFrontpic
+	dba_pic NavigazerBackpic
 	dba_pic ObelithFrontpic
 	dba_pic ObelithBackpic
 	dba_pic MoneumennFrontpic

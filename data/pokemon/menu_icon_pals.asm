@@ -233,7 +233,7 @@ MonMenuIconPals:
 	icon_pals RED,   YELLOW    ; SNOSEBLEED
 	icon_pals RED,   YELLOW    ; SNOWUP
 	icon_pals RED,   YELLOW    ; SNOVERDOSE
-	icon_pals RED,   YELLOW    ; KINGDRA
+	icon_pals YELLOW,   GRAY    ; NAVIGAZER
 	icon_pals PURPLE,   YELLOW    ; OBELITH
 	icon_pals YELLOW,   PURPLE    ; MONEUMENN
 	icon_pals PURPLE,   YELLOW    ; POLYRO
