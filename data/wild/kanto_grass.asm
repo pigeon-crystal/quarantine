@@ -97,7 +97,7 @@ KantoGrassWildMons:
 	; morn
 	db 12, COCACOBRA
 	db 14, DOLMITE
-	db 16, ONIX
+	db 16, MORADAY
 	db 12, STINPEON
 	db 15, KALKOLA
 	db 15, GENEROPSIS
@@ -106,7 +106,7 @@ KantoGrassWildMons:
 	; day
 	db 12, COCACOBRA
 	db 14, DOLMITE
-	db 16, ONIX
+	db 16, MORADAY
 	db 12, STINPEON
 	db 15, KALKOLA
 	db 15, GENEROPSIS
@@ -115,7 +115,7 @@ KantoGrassWildMons:
 	; nite
 	db 12, STINPEON
 	db 14, DOLMITE
-	db 16, ONIX
+	db 16, MORADAY
 	db 15, STINPEON
 	db 15, SCRUFFRUIT
 	db 15, SCORPEROR
@@ -127,7 +127,7 @@ KantoGrassWildMons:
 	; morn
 	db 34, DOLMESA
 	db 32, CUTTLE
-	db 33, ONIX
+	db 33, MORADAY
 	db 34, SCORPEROR
 	db 35, DUNEFIN
 	db 35, TENDRILL
@@ -136,7 +136,7 @@ KantoGrassWildMons:
 	; day
 	db 34, DOLMESA
 	db 32, CUTTLE
-	db 33, ONIX
+	db 33, MORADAY
 	db 34, SCORPEROR
 	db 35, DUNEFIN
 	db 35, TENDRILL
@@ -145,12 +145,12 @@ KantoGrassWildMons:
 	; nite
 	db 34, SCORPEROR
 	db 34, DOLMESA
-	db 32, ONIX
+	db 32, MORADAY
 	db 36, DOLMESA
 	db 38, DOLMESA
 	db 40, DOLMESA
 	db 40, DOLMESA
-	db 44, ONIX
+	db 44, MORADAY
 
 	map_id TOHJO_FALLS ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite

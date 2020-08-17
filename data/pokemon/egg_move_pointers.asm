@@ -93,7 +93,7 @@ EggMovePointers::
 	dw FluffruitEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw OnixEggMoves
+	dw MoradayEggMoves
 	dw EelkieEggMoves
 	dw NoEggMoves
 	dw LanatunEggMoves

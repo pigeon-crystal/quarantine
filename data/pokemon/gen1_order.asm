@@ -32,7 +32,7 @@ Pokered_MonIndices:
 	db SCIZOR ; MISSINGNO.
 	db SHUCKLE ; MISSINGNO.
 	db HAPPIG
-	db ONIX
+	db MORADAY
 	db QWALLOP
 	db FURNIT
 	db SLOWPOKE

@@ -190,8 +190,8 @@ PokemonPicPointers::
 	dba_pic ScruffruitBackpic
 	dba_pic PitayrantFrontpic
 	dba_pic PitayrantBackpic
-	dba_pic OnixFrontpic
-	dba_pic OnixBackpic
+	dba_pic MoradayFrontpic
+	dba_pic MoradayBackpic
 	dba_pic EelkieFrontpic
 	dba_pic EelkieBackpic
 	dba_pic MossarreFrontpic

@@ -214,7 +214,7 @@ INCBIN "gfx/footprints/cloyster.1bpp",   footprint_top
 INCBIN "gfx/footprints/fluffruit.1bpp",     footprint_top
 INCBIN "gfx/footprints/scruffruit.1bpp",    footprint_top
 INCBIN "gfx/footprints/pitayrant.1bpp",     footprint_top
-INCBIN "gfx/footprints/onix.1bpp",       footprint_top
+INCBIN "gfx/footprints/moraday.1bpp",       footprint_top
 INCBIN "gfx/footprints/eelkie.1bpp",    footprint_top
 ; 089-096 bottom halves
 INCBIN "gfx/footprints/zepplium.1bpp",        footprint_bottom
@@ -223,7 +223,7 @@ INCBIN "gfx/footprints/cloyster.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/fluffruit.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/scruffruit.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/pitayrant.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/onix.1bpp",       footprint_bottom
+INCBIN "gfx/footprints/moraday.1bpp",       footprint_bottom
 INCBIN "gfx/footprints/eelkie.1bpp",    footprint_bottom
 ; 097-104 top halves
 INCBIN "gfx/footprints/mossarre.1bpp",      footprint_top

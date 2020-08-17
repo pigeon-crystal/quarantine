@@ -93,7 +93,7 @@ PokemonNames::
 	db "FLUFFRUIT@"
 	db "SCRUFFRUIT"
 	db "PITAYRANT@"
-	db "ONIX@@@@@@"
+	db "MORADAY@@@"
 	db "EELKIE@@@@"
 	db "MOSSARRE@@"
 	db "LANATUN@@@"

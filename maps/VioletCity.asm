@@ -7,6 +7,7 @@
 	const VIOLETCITY_FRUIT_TREE
 	const VIOLETCITY_POKE_BALL1
 	const VIOLETCITY_POKE_BALL2
+	const VIOLETCITY_WIZARD_CROWLEY
 
 VioletCity_MapScripts:
 	db 0 ; scene scripts
@@ -18,6 +19,34 @@ VioletCity_MapScripts:
 	setflag ENGINE_FLYPOINT_VIOLET
 	return
 
+VioletCityWizardScript:
+	faceplayer
+	opentext
+	checkevent EVENT_BEAT_WIZARD_CROWLEY
+	iftrue .FightDone
+	checkevent EVENT_BEAT_WHITNEY
+	iftrue .FightStart
+	writetext CrowleyIntroShooText
+	waitbutton
+	closetext
+	end
+	
+.FightStart
+	writetext CrowleyIntroBattleText
+	waitbutton
+	closetext
+	winlosstext CrowleyWinLossText, 0
+	loadtrainer, WIZARD, CROWLEY
+	startbattle
+	reloadmapafterbattle
+	setevent EVENT_BEAT_WIZARD_CROWLEY
+	opentext
+.FightDone
+	writetext CrowleyAfterText
+	waitbutton
+	closetext
+	end
+	
 VioletCityEarlScript:
 	applymovement VIOLETCITY_EARL, VioletCitySpinningEarl_MovementData
 	faceplayer
@@ -72,7 +101,6 @@ VioletCitySign:
 	jumptext VioletCitySignText
 
 VioletGymSign:
-	givepoke MA_0, 75
 	jumptext VioletGymSignText
 
 SproutTowerSign:
@@ -298,6 +326,42 @@ EarlsPokemonAcademySignText:
 	line "ACADEMY"
 	done
 
+CrowleyIntroShooText:
+	text "I'm CROWLEY the"
+	line "WIZARD!"
+	
+	para "I would do battle"
+	line "with you, child,"
+	cont "but you are"
+	cont "just no match."
+	
+	para "Come back when"
+	line "you have defeated"
+	cont "WHITNEY of"
+	cont "GOLDENROD."
+	done
+	
+CrowleyIntroBattleText:
+	text "I'm CROWLEY the"
+	line "WIZARD!"
+	
+	para "You look like"
+	line "a plucky one!"
+	
+	para "Dare you enter"
+	line "my magical realm?"
+	done
+	
+CrowleyWinLossText:
+	text "Hehehe!"
+	line "Good, good!"
+	done
+	
+CrowleyAfterText:
+	text "You're one tough"
+	line "cookie!"
+	done
+	
 VioletCity_MapEvents:
 	db 0, 0 ; filler
 
@@ -323,7 +387,7 @@ VioletCity_MapEvents:
 	bg_event 10, 17, BGEVENT_READ, VioletCityMartSign
 	bg_event 37, 14, BGEVENT_ITEM, VioletCityHiddenHyperPotion
 
-	db 8 ; object events
+	db 9 ; object events
 	object_event 13, 16, SPRITE_FISHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, VioletCityEarlScript, EVENT_VIOLET_CITY_EARL
 	object_event 28, 28, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, VioletCityLassScript, -1
 	object_event 24, 14, SPRITE_SUPER_NERD, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, VioletCitySuperNerdScript, -1
@@ -332,3 +396,5 @@ VioletCity_MapEvents:
 	object_event 14, 29, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VioletCityFruitTree, -1
 	object_event  4,  1, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VioletCityPPUp, EVENT_VIOLET_CITY_PP_UP
 	object_event 35,  5, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VioletCityRareCandy, EVENT_VIOLET_CITY_RARE_CANDY
+	object_event 24, 27, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 0, 0 , -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, VioletCityWizardScript, -1
+	

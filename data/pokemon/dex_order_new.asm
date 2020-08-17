@@ -65,7 +65,7 @@ NewPokedexOrder:
 	db SCRUFFRUIT
 	db PITAYRANT
 	db UNOWN
-	db ONIX
+	db MORADAY
 	db LAWNIE
 	db ORGNOME
 	db GNOMERCY

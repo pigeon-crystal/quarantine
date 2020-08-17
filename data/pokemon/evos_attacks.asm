@@ -1531,7 +1531,7 @@ PitayrantEvosAttacks:
 	db 60, MIRROR_COAT
 	db 0 ; no more level-up moves
 
-OnixEvosAttacks:
+MoradayEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, SCREECH

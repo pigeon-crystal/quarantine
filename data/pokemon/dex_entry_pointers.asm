@@ -94,7 +94,7 @@ PokedexDataPointerTable:
 	dw FluffruitPokedexEntry
 	dw ScruffruitPokedexEntry
 	dw PitayrantPokedexEntry
-	dw OnixPokedexEntry
+	dw MoradayPokedexEntry
 	dw EelkiePokedexEntry
 	dw MossarrePokedexEntry
 	dw LanatunPokedexEntry

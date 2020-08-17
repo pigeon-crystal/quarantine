@@ -99,7 +99,7 @@ PokemonCries::
 	mon_cry CRY_METAPOD,       0,  256 ; FLUFFRUIT
 	mon_cry CRY_METAPOD,      48,  192 ; SCRUFFRUIT
 	mon_cry CRY_MUK,           0,  383 ; PITAYRANT
-	mon_cry CRY_EKANS,       255,  320 ; ONIX
+	mon_cry CRY_EKANS,       255,  320 ; MORADAY
 	mon_cry CRY_DROWZEE,      45,  230 ; EELKIE
 	mon_cry CRY_DROWZEE,     -84,  352 ; MOSSARRE
 	mon_cry CRY_CYNDAQUIL,  1080,  211 ; LANATUN

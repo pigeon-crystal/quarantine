@@ -339,7 +339,7 @@ TrainerClassAttributes:
 
 ; Medium
 	db NO_ITEM, NO_ITEM ; items
-	db 10 ; base reward
+	db 11 ; base reward
 	dw AI_BASIC | AI_SETUP | AI_TYPES | AI_CAUTIOUS | AI_STATUS | AI_RISKY
 	dw CONTEXT_USE | SWITCH_SOMETIMES
 
@@ -400,5 +400,11 @@ TrainerClassAttributes:
 ; Mysticalman
 	db NO_ITEM, NO_ITEM ; items
 	db 25 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+
+; Wizard
+	db NO_ITEM, NO_ITEM ; items
+	db 21 ; base reward
 	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
 	dw CONTEXT_USE | SWITCH_SOMETIMES

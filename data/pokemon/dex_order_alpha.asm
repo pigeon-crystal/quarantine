@@ -148,7 +148,7 @@ AlphabeticalPokedexOrder:
 	db OKAMIKAZE
 	db MAMMOTHRA
 	db OBELITH
-	db ONIX
+	db MORADAY
 	db ORGNOME
 	db OSCURASA
 	db PARAS

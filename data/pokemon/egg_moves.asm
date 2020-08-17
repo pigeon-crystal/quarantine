@@ -283,7 +283,7 @@ FluffruitEggMoves:
 	db PETAL_DANCE
 	db -1 ; end
 
-OnixEggMoves:
+MoradayEggMoves:
 	db ROCK_SLIDE
 	db FLAIL
 	db -1 ; end

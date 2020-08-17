@@ -98,7 +98,7 @@ MonMenuIconPals:
 	icon_pals PINK,   YELLOW   ; FLUFFRUIT
 	icon_pals PINK,   YELLOW   ; SCRUFFRUIT
 	icon_pals PINK,   YELLOW   ; PITAYRANT
-	icon_pals BROWN,   YELLOW  ; ONIX
+	icon_pals BLUE,   PINK  ; MORADAY
 	icon_pals GREEN,   PINK  ; EELKIE
 	icon_pals GREEN,   PINK  ; MOSSARRE
 	icon_pals GREEN,   YELLOW  ; LANATUN

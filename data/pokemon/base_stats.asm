@@ -126,7 +126,7 @@ INCLUDE "data/pokemon/base_stats/cloyster.asm"
 INCLUDE "data/pokemon/base_stats/fluffruit.asm"    ;fluffruit
 INCLUDE "data/pokemon/base_stats/scruffruit.asm"
 INCLUDE "data/pokemon/base_stats/pitayrant.asm"
-INCLUDE "data/pokemon/base_stats/onix.asm"
+INCLUDE "data/pokemon/base_stats/moraday.asm"
 INCLUDE "data/pokemon/base_stats/eelkie.asm"
 INCLUDE "data/pokemon/base_stats/mossarre.asm"
 INCLUDE "data/pokemon/base_stats/lanatun.asm"

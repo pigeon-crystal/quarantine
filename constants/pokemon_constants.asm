@@ -113,7 +113,7 @@
 	const FLUFFRUIT  ; 5c gastly
 	const SCRUFFRUIT ; 5d
 	const PITAYRANT  ; 5e
-	const ONIX       ; 5f
+	const MORADAY       ; 5f
 	const EELKIE     ; 60
 	const MOSSARRE   ; 61
 	const LANATUN    ; 62

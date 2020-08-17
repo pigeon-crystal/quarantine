@@ -521,27 +521,27 @@ JohtoGrassWildMons:
 	db 22, STINPEON
 	db 21, NOMSABRE
 	db 20, DOLMITE
-	db 23, ONIX
-	db 23, ONIX
-	db 25, ONIX
+	db 23, MORADAY
+	db 23, MORADAY
+	db 25, MORADAY
 	; day
 	db 22, STINPEON
 	db 22, SCORPEROR
 	db 22, STINPEON
 	db 21, NOMSABRE
 	db 20, DOLMITE
-	db 23, ONIX
-	db 23, ONIX
-	db 25, ONIX
+	db 23, MORADAY
+	db 23, MORADAY
+	db 25, MORADAY
 	; nite
 	db 22, STINPEON
 	db 22, SCORPEROR
 	db 22, QUAGSIRE
 	db 21, NOMSABRE
 	db 20, DOLMITE
-	db 23, ONIX
-	db 23, ONIX
-	db 25, ONIX
+	db 23, MORADAY
+	db 23, MORADAY
+	db 25, MORADAY
 
 	map_id SLOWPOKE_WELL_B1F ;done
 	db 3 percent, 3 percent, 5 percent ; encounter rates: morn/day/nite
@@ -1148,7 +1148,7 @@ JohtoGrassWildMons:
 	; morn
 	db 43, DOLMESA
 	db 44, SMOTHERENE
-	db 42, ONIX
+	db 42, MORADAY
 	db 45, GIGERATOR
 	db 45, SCORPEROR
 	db 20, LARVITAR
@@ -1157,7 +1157,7 @@ JohtoGrassWildMons:
 	; day
 	db 43, DOLMESA
 	db 44, SMOTHERENE
-	db 42, ONIX
+	db 42, MORADAY
 	db 45, GIGERATOR
 	db 45, SCORPEROR
 	db 20, LARVITAR
@@ -1166,7 +1166,7 @@ JohtoGrassWildMons:
 	; nite
 	db 43, DOLMESA
 	db 44, SCORPEROR
-	db 42, ONIX
+	db 42, MORADAY
 	db 42, SCORPEROR
 	db 45, EXOTUNITY
 	db 46, SCORPEROR
@@ -1207,7 +1207,7 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 51, SCORPEROR
-	db 48, ONIX
+	db 48, MORADAY
 	db 48, DOLMESA
 	db 50, SMOTHERENE
 	db 20, LARVITAR
@@ -1216,7 +1216,7 @@ JohtoGrassWildMons:
 	db 30, PUPITAR
 	; day
 	db 51, SCORPEROR
-	db 48, ONIX
+	db 48, MORADAY
 	db 48, DOLMESA
 	db 50, SMOTHERENE
 	db 20, LARVITAR
@@ -1225,7 +1225,7 @@ JohtoGrassWildMons:
 	db 30, PUPITAR
 	; nite
 	db 51, SCORPEROR
-	db 48, ONIX
+	db 48, MORADAY
 	db 48, DOLMESA
 	db 49, SCORPEROR
 	db 45, EXOTUNITY

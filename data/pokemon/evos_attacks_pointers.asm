@@ -95,7 +95,7 @@ EvosAttacksPointers::
 	dw FluffruitEvosAttacks
 	dw ScruffruitEvosAttacks
 	dw PitayrantEvosAttacks
-	dw OnixEvosAttacks
+	dw MoradayEvosAttacks
 	dw EelkieEvosAttacks
 	dw MossarreEvosAttacks
 	dw LanatunEvosAttacks
