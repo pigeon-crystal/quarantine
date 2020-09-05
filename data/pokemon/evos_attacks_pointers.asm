@@ -177,7 +177,7 @@ EvosAttacksPointers::
 	dw IgglybuffEvosAttacks
 	dw TranquielEvosAttacks
 	dw AllseeraphEvosAttacks
-	dw NatuEvosAttacks
+	dw SqwuckyEvosAttacks
 	dw XatuEvosAttacks
 	dw YuesbiEvosAttacks
 	dw YuefoeEvosAttacks

@@ -175,7 +175,7 @@ EggMovePointers::
 	dw IgglybuffEggMoves
 	dw TranquielEggMoves
 	dw NoEggMoves
-	dw NatuEggMoves
+	dw SqwuckyEggMoves
 	dw NoEggMoves
 	dw YuesbiEggMoves
 	dw NoEggMoves

@@ -180,7 +180,7 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; IGGLYBUFF
 	icon_pals YELLOW,   YELLOW ; TRANQUIEL
 	icon_pals YELLOW,   YELLOW ; ALLSEERAPH
-	icon_pals BROWN,   YELLOW  ; NATU
+	icon_pals BROWN,   YELLOW  ; SQWUCKY
 	icon_pals BROWN,   YELLOW  ; XATU
 	icon_pals BROWN,   YELLOW  ; YUESBI
 	icon_pals BROWN,   YELLOW  ; YUEFOE

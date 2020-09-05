@@ -196,7 +196,7 @@ JOHTO_POKEMON EQU const_value
 	const IGGLYBUFF  ; ae
 	const TRANQUIEL  ; af
 	const ALLSEERAPH ; b0
-	const NATU       ; b1
+	const SQWUCKY       ; b1
 	const XATU       ; b2
 	const YUESBI     ; b3
 	const YUEFOE    ; b4

@@ -160,7 +160,7 @@ NewPokedexOrder:
 	db ELEKID
 	db SMEARGLE
 	db FARFETCH_D
-	db NATU
+	db SQWUCKY
 	db XATU
 	db PEKOI
 	db TENTACOOL

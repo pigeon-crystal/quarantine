@@ -175,7 +175,7 @@ PokemonNames::
 	db "IGGLYBUFF@"
 	db "TRANQUIEL@" ;TOGEPI
 	db "ALLSEERAPH"
-	db "NATU@@@@@@"
+	db "SQWUCKY@@@"
 	db "XATU@@@@@@"
 	db "YUESBI@@@@"
 	db "YUEFOE@@@@"

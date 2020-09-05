@@ -176,7 +176,7 @@ PokedexDataPointerTable:
 	dw IgglybuffPokedexEntry
 	dw TranquielPokedexEntry
 	dw AllseeraphPokedexEntry
-	dw NatuPokedexEntry
+	dw SqwuckyPokedexEntry
 	dw XatuPokedexEntry
 	dw YuesbiPokedexEntry
 	dw YuefoePokedexEntry

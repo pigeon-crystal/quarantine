@@ -131,7 +131,6 @@ AlphabeticalPokedexOrder:
 	db MUMAGNUS
 	db MUMINI
 	db NANUQUA
-	db NATU
 	db NIDOKING
 	db NIDOQUEEN
 	db NIDORAN_F
@@ -208,6 +207,7 @@ AlphabeticalPokedexOrder:
 	db SNEASEL
 	db SNORLAX
 	db SQUIRTLE
+	db SQWUCKY
 	db STIKLBRAT
 	db STINPEON
 	db STRANGLURE

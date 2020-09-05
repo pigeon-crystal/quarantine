@@ -215,7 +215,7 @@ Pokered_MonIndices:
 	db IGGLYBUFF
 	db TRANQUIEL
 	db ALLSEERAPH
-	db NATU
+	db SQWUCKY
 	db XATU
 	db YUESBI
 	db YUEFOE

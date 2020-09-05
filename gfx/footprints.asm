@@ -406,7 +406,7 @@ INCBIN "gfx/footprints/igglybuff.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/tranquiel.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/allseeraph.1bpp",    footprint_bottom
 ; 177-184 top halves
-INCBIN "gfx/footprints/natu.1bpp",       footprint_top
+INCBIN "gfx/footprints/sqwucky.1bpp",       footprint_top
 INCBIN "gfx/footprints/xatu.1bpp",       footprint_top
 INCBIN "gfx/footprints/yuesbi.1bpp",     footprint_top
 INCBIN "gfx/footprints/yuefoe.1bpp",    footprint_top
@@ -415,7 +415,7 @@ INCBIN "gfx/footprints/plantenna.1bpp",  footprint_top
 INCBIN "gfx/footprints/habble.1bpp",     footprint_top
 INCBIN "gfx/footprints/satelisk.1bpp",  footprint_top
 ; 177-184 bottom halves
-INCBIN "gfx/footprints/natu.1bpp",       footprint_bottom
+INCBIN "gfx/footprints/sqwucky.1bpp",       footprint_bottom
 INCBIN "gfx/footprints/xatu.1bpp",       footprint_bottom
 INCBIN "gfx/footprints/yuesbi.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/yuefoe.1bpp",    footprint_bottom

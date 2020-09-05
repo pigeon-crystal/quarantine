@@ -1533,13 +1533,24 @@ PitayrantEvosAttacks:
 
 MoradayEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POUND
-	db 1, SCREECH
-	db 10, WRAP
-	db 14, ROCK_THROW
-	db 23, HARDEN
-	db 36, SANDSTORM
+	db 1, SAND_ATTACK
+	db 1, WRAP
+	db 3, BITE
+	db 6, DRAGON_DANCE
+	db 10, SPARK
+	db 15, ROCK_THROW
+	db 17, THUNDERSHOCK
+	db 24, SANDSTORM
+	db 27, DRAGONBREATH
+	db 30, THUNDERBOLT
+	db 35, CRUNCH
+	db 36, GLARE
 	db 40, BODY_SLAM
+	db 41, MEAN_LOOK
+	db 44, EARTH_POWER
+	db 47, THUNDERBOLT
+	db 49, FLAMETHROWER
+	db 55, FISSURE
 	db 0 ; no more level-up moves
 
 EelkieEvosAttacks:
@@ -1861,29 +1872,42 @@ CalarmouriEvosAttacks:
 	db 0 ; no more level-up moves
 
 AntpyreEvosAttacks:
+	db EVOLVE_LEVEL, 40, GENEROPSIS
 	db 0 ; no more evolutions
 	db 1, CONSTRICT
-	db 4, SLEEP_POWDER
-	db 10, ABSORB
-	db 13, POISONPOWDER
-	db 19, VINE_WHIP
-	db 25, WRAP
-	db 31, MEGA_DRAIN
-	db 34, STUN_SPORE
-	db 40, BODY_SLAM
-	db 46, GROWTH
+	db 4, EMBER
+	db 4, STRING_SHOT
+	db 7, POISON_STING
+	db 13, BITE
+	db 19, FIRE_SPIN
+	db 22, FURY_CUTTER
+	db 25, MEGA_DRAIN
+	db 30, EXPLOSION
+	db 33, POISON_JAB
+	db 39, LEECH_LIFE
+	db 42, SLUDGE_BOMB
+	db 46, FLAMETHROWER
+	db 50, SELFDESTRUCT
 	db 0 ; no more level-up moves
 
 GeneropsisEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, COMET_PUNCH
-	db 7, LEER
+	db 1, ATTRACT
+	db 1, CONSTRICT
+	db 4, EMBER
+	db 4, STRING_SHOT
+	db 7, POISON_STING
 	db 13, BITE
-	db 19, TAIL_WHIP
-	db 25, COMET_PUNCH
-	db 37, ENDURE
-	db 43, DIZZY_PUNCH
-	db 49, FLAIL
+	db 19, FIRE_SPIN
+	db 22, FURY_CUTTER
+	db 25, MEGA_DRAIN
+	db 30, EXPLOSION
+	db 33, POISON_JAB
+	db 39, LEECH_LIFE
+	db 42, SLUDGE_BOMB
+	db 46, FLAMETHROWER
+	db 50, SELFDESTRUCT
+	db 55, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 OscurasaEvosAttacks:
@@ -2277,7 +2301,7 @@ BellocerosEvosAttacks:
 	db 45, MEGAHORN
 	db 47, ROCK_SLIDE
 	db 55, HORN_DRILL
-	db 55, ICICLE_CRASH
+	db 57, ICICLE_CRASH
 	db 0 ; no more level-up moves
 
 KabutopsEvosAttacks:
@@ -2866,16 +2890,22 @@ AllseeraphEvosAttacks:
 	db 57, RAZOR_WIND
 	db 0 ; no more level-up moves
 
-NatuEvosAttacks:
+SqwuckyEvosAttacks:
 	db EVOLVE_LEVEL, 25, XATU
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, LEER
-	db 10, NIGHT_SHADE
-	db 20, TELEPORT
-	db 30, FUTURE_SIGHT
-	db 40, CONFUSE_RAY
-	db 50, PSYCHIC_M
+	db 10, ATTRACT
+	db 14, WATER_GUN
+	db 19, HEART_STAMP
+	db 23, MIST
+	db 25, LOVELY_KISS
+	db 27, BUBBLEBEAM
+	db 30, ATTRACT
+	db 33, MINIMIZE
+	db 37, SWEET_KISS
+	db 44, DRILL_PECK
+	db 50, LIQUIDATION
 	db 0 ; no more level-up moves
 
 XatuEvosAttacks:

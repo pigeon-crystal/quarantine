@@ -175,7 +175,7 @@ EvolutionMoves::
 	db NO_MOVE		; IGGLYBUFF
 	db NO_MOVE		; TRANQUIEL
 	db GLARE		; ALLSEERAPH
-	db NO_MOVE		; NATU
+	db NO_MOVE		; SQWUCKY
 	db NO_MOVE		; XATU
 	db NO_MOVE		; YUESBI
 	db NO_MOVE		; YUEFOE

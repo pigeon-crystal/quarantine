@@ -987,7 +987,7 @@ BlueSkyMailDesc:
 	next "(HOLD)@"
 
 MusicMailDesc:
-	db   "NATU-print MAIL."
+	db   "SQWUCKY-print MAIL."
 	next "(HOLD)@"
 
 MirageMailDesc:

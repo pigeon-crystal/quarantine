@@ -177,7 +177,7 @@ MonMenuIcons:
 	db ICON_JIGGLYPUFF  ; IGGLYBUFF
 	db ICON_CLEFAIRY    ; TRANQUIEL
 	db ICON_BIRD        ; ALLSEERAPH
-	db ICON_BIRD        ; NATU
+	db ICON_BIRD        ; SQWUCKY
 	db ICON_BIRD        ; XATU
 	db ICON_FOX         ; YUESBI
 	db ICON_MONSTER     ; YUEFOE

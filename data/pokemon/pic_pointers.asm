@@ -354,8 +354,8 @@ PokemonPicPointers::
 	dba_pic TranquielBackpic
 	dba_pic AllseeraphFrontpic
 	dba_pic AllseeraphBackpic
-	dba_pic NatuFrontpic
-	dba_pic NatuBackpic
+	dba_pic SqwuckyFrontpic
+	dba_pic SqwuckyBackpic
 	dba_pic XatuFrontpic
 	dba_pic XatuBackpic
 	dba_pic YuesbiFrontpic

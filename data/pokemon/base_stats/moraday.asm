@@ -1,6 +1,6 @@
 	db MORADAY ; 190
 
-	db  70,  71,  123,  85,  95,  70
+	db  71,  70,  124,  85,  95,  70
 	;   hp  atk  def  spd  sat  sdf
 
 	db GROUND, ELECTRIC ; type

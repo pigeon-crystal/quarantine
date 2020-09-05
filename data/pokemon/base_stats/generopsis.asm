@@ -1,6 +1,6 @@
 	db GENEROPSIS ; 142
 
-	db  83, 51,  83, 77,  130,  83
+	db  83, 61,  83, 77,  130,  83
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, FIRE ; type
@@ -17,5 +17,5 @@
 	dn EGG_BUG, EGG_BUG ; egg groups
 
 	; tm/hm learnset
-	tmhm 
+	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, PROTECT, GIGA_DRAIN, ENDURE, SOLARBEAM, RETURN, DIG, MUD_SLAP, SWAGGER, SLUDGE_BOMB, FIRE_BLAST, SWIFT, DEFENSE_CURL, REST, ATTRACT, THIEF, FURY_CUTTER, CUT, FLASH, FLAMETHROWER
 	; end

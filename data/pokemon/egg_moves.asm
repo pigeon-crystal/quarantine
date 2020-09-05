@@ -520,7 +520,7 @@ TranquielEggMoves:
 	db TELEPORT
 	db -1 ; end
 
-NatuEggMoves:
+SqwuckyEggMoves:
 	db HAZE
 	db DRILL_PECK
 	db QUICK_ATTACK
