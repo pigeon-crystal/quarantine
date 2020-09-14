@@ -7,12 +7,14 @@ MoveReminder:
 	call PrintText
 	call JoyWaitAorB
 
+; check for currency
 	ld a, POKE_DOLL
 	ld [wCurItem], a
 	ld hl, wNumItems
 	call CheckItem
-	jp nc, .no_gold_leaf
+	jp nc, .no_payment
 
+; basic prompt stuff
 	ld hl, Text_MoveReminderPrompt
 	call PrintText
 	call YesNoBox
@@ -22,6 +24,7 @@ MoveReminder:
 	call PrintText
 	call JoyWaitAorB
 
+; choose the pokemon
 	ld b, $6
 	callba SelectMonFromParty
 	jr c, .cancel
@@ -82,7 +85,7 @@ MoveReminder:
 	call PrintText
 	ret
 
-.no_gold_leaf
+.no_payment
 	ld hl, Text_MoveReminderNoGoldLeaf
 	call PrintText
 	ret
@@ -120,6 +123,7 @@ GetRemindableMoves:
 
 	ld b, 0
 	ld de, wd002 + 1
+
 ; based on GetEggMove in engine/breeding/egg.asm
 .loop
 	ld a, [wCurPartySpecies]
@@ -219,7 +223,6 @@ CheckPokemonAlreadyKnowsMove:
 	scf
 	ret
 
-
 ChooseMoveToLearn:
 	; Number of items stored in wd002
 	; List of items stored in wd002 + 1
@@ -271,7 +274,7 @@ ChooseMoveToLearn:
 	ret
 
 .PrintDetails
-;Initialize menu (bugged)
+;Initialize menu
 	ld hl, wStringBuffer1
 	ld bc, wStringBuffer2 - wStringBuffer1
 	ld a, " "
@@ -282,7 +285,7 @@ ChooseMoveToLearn:
 	push de
 	dec a
 	
-;print move type (bugged)
+;print move type
 	ld bc, MOVE_LENGTH
 	ld hl, Moves + MOVE_TYPE
 	call AddNTimes
@@ -306,15 +309,14 @@ ChooseMoveToLearn:
 	ld hl, .Types
 	add hl, bc
 
-;print / between move type and category (works)
+;print / between move type and category
 	ld de, wStringBuffer1
 	ld bc, 6
 	call CopyBytes
 	ld a, "/"
 	ld [de], a
 	
-;attempt to use the phys/spec split code to print category (bugged but at least prints a category)
-;get the category
+;get the category (phys/spe/status)
 	ld a, [wd265]
 	and $ff ^ TYPE_MASK
 	rlc a
