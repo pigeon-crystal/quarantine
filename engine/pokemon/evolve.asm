@@ -80,12 +80,12 @@ EvolveAfterBattle_MasterLoop::
 	and a
 	jp nz, .dont_evolve_2
 
-	cp EVOLVE_GENDER
-	jp z, .gender
-
 	ld a, b
 	cp EVOLVE_LEVEL
 	jp z, .level
+	
+	cp EVOLVE_GENDER
+	jp z, .gender
 
 	cp EVOLVE_HAPPINESS
 	jr z, .happiness
