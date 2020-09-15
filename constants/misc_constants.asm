@@ -6,6 +6,10 @@ TRUE  EQU 1
 MALE   EQU 0
 FEMALE EQU 1
 
+; mon genders for evolution
+MON_MALE EQU 1
+MON_FEMALE EQU 0
+
 ; FlagAction arguments (see home/flag.asm)
 	const_def
 	const RESET_FLAG

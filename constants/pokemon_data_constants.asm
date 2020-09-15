@@ -138,6 +138,7 @@ NUM_HOF_TEAMS EQU 30
 	const EVOLVE_FISH
 	const EVOLVE_TAXO1
 	const EVOLVE_TAXO2
+	const EVOLVE_GENDER
 
 ; EVOLVE_HAPPINESS triggers
 	const_def 1

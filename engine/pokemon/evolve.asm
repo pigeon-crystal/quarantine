@@ -80,6 +80,9 @@ EvolveAfterBattle_MasterLoop::
 	and a
 	jp nz, .dont_evolve_2
 
+	cp EVOLVE_GENDER
+	jp z, .gender
+
 	ld a, b
 	cp EVOLVE_LEVEL
 	jp z, .level
@@ -247,6 +250,16 @@ EvolveAfterBattle_MasterLoop::
 
 	inc hl
 	jp .proceed
+
+.gender
+	push hl
+    farcall GetGender
+    pop hl
+    jp c, .dont_evolve_3 ; Genderless
+    cp [hl]
+    inc hl
+    jp nz, .dont_evolve_3
+    ; fallthrough
 
 .level
 	ld a, [hli]

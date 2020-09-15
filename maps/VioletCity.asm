@@ -101,9 +101,7 @@ VioletCitySign:
 	jumptext VioletCitySignText
 
 VioletGymSign:
-	;jumptext VioletGymSignText
-	giveitem COIN_CASE
-	warp GOLDENROD_GAME_CORNER, 0, 13
+	jumptext VioletGymSignText
 
 SproutTowerSign:
 	jumptext SproutTowerSignText

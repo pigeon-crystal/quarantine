@@ -9,6 +9,7 @@ SECTION "Evolutions and Attacks", ROMX
 ;    * db EVOLVE_TRADE, held item (or -1 for none), species
 ;    * db EVOLVE_HAPPINESS, TR_* constant (ANYTIME, MORNDAY, NITE), species
 ;    * db EVOLVE_STAT, level, ATK_*_DEF constant (LT, GT, EQ), species
+;    * db EVOLVE_GENDER, level, MON_MALE or MON_FEMALE, species
 ; - db 0 ; no more evolutions
 ; - Learnset (in increasing level order):
 ;    * db level, move
@@ -3568,7 +3569,8 @@ CasanocteEvosAttacks:
 	db 0 ; no more level-up moves
 
 LamseedEvosAttacks:
-	db EVOLVE_LEVEL, 33, VEGETEBAA
+	db EVOLVE_GENDER, MON_FEMALE, 33, VEGETEBAA
+	db EVOLVE_GENDER, MON_MALE, 33, BAAFOMET
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 10, ICY_WIND

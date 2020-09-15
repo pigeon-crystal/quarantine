@@ -6,7 +6,7 @@
 	db NORMAL, GRASS ; type
 	db 101 ; catch rate
 	db 55 ; base exp
-	db MIRACLE_SEED, NO_ITEM ; items
+	db MIRACLE_SEED, GRN_APRICORN ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 11 ; step cycles to hatch

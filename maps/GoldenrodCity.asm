@@ -262,7 +262,14 @@ GoldenrodCityUndergroundSignSouth:
 	jumptext GoldenrodCityUndergroundSignSouthText
 
 GoldenrodCityPokecenterSign:
-	jumpstd pokecentersign
+	giveitem RARE_CANDY
+	giveitem RARE_CANDY
+	giveitem RARE_CANDY
+	giveitem RARE_CANDY
+	givepoke LAMSEED, 32
+	givepoke LAMSEED, 32
+	givepoke LAMSEED, 32
+	;jumpstd pokecentersign
 
 GoldenrodCityFlowerShopSign:
 	jumptext GoldenrodCityFlowerShopSignText
