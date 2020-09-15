@@ -193,12 +193,13 @@ EvolveAfterBattle_MasterLoop::
 	ld a, [wLinkMode]
 	and a
 	jp nz, .dont_evolve_3
-	jr .proceed
+	jp .proceed
 	
-.fish 
+.fish ;Thanks to Electro!
 	ld a, [wTempMonCaughtLocation]
 	and CAUGHT_LOCATION_MASK
 	cp a, LANDMARK_FISHING
+	jp nz, .dont_evolve_3
 	jr .proceed
 	
 .taxo1
@@ -253,13 +254,17 @@ EvolveAfterBattle_MasterLoop::
 	inc hl
 	jp .proceed
 
-.gender
+.gender ;thanks to IssoTM!!!!
 	push af
 	push hl
 	farcall GetGender
 	pop hl
 	pop bc
 	jp c, .dont_evolve_2 ; Genderless
+	ld a, 1
+	jr nz, .male
+	xor a
+.male
 	cp b
 	jp nz, .dont_evolve_2
 	; fallthrough

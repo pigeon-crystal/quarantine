@@ -1873,7 +1873,7 @@ CalarmouriEvosAttacks:
 	db 0 ; no more level-up moves
 
 AntpyreEvosAttacks:
-	db EVOLVE_LEVEL, 40, GENEROPSIS
+	db EVOLVE_FEMALE, 40, GENEROPSIS
 	db 0 ; no more evolutions
 	db 1, CONSTRICT
 	db 4, EMBER
@@ -3576,7 +3576,7 @@ LamseedEvosAttacks:
 	db 10, ICY_WIND
 	db 19, ENDURE
 	db 28, DOUBLE_EDGE
-	db 37, MIST
+	db 35, MIST
 	db 46, BLIZZARD
 	db 55, AMNESIA
 	db 0 ; no more level-up moves
