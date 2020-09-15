@@ -86,7 +86,7 @@ EvolveAfterBattle_MasterLoop::
 	
 	cp EVOLVE_GENDER
 	jp z, .gender
-
+	
 	cp EVOLVE_HAPPINESS
 	jr z, .happiness
 
@@ -253,14 +253,14 @@ EvolveAfterBattle_MasterLoop::
 
 .gender
 	push hl
-    farcall GetGender
-    pop hl
-    jp c, .dont_evolve_3 ; Genderless
-    cp [hl]
-    inc hl
-    jp nz, .dont_evolve_3
-    ; fallthrough
-
+	farcall GetGender
+	pop hl
+	jp c, .dont_evolve_3 ; Genderless
+	cp [hl]
+	inc hl
+	jp nz, .dont_evolve_3
+	; fallthrough
+	
 .level
 	ld a, [hli]
 	ld b, a
