@@ -223,9 +223,9 @@ MonMenuIconPals:
 	icon_pals PINK,   YELLOW    ; SMOTHERENE
 	icon_pals RED,   YELLOW    ; KODOROYAH
 	icon_pals RED,   YELLOW    ; CASANOCTE
-	icon_pals RED,   YELLOW    ; LAMSEED
-	icon_pals RED,   YELLOW    ; VEGETEBAA
-	icon_pals RED,   YELLOW    ; BAAFOMET
+	icon_pals GREEN,   YELLOW    ; LAMSEED
+	icon_pals YELLOW,   GREEN    ; VEGETEBAA
+	icon_pals GREEN,   YELLOW    ; BAAFOMET
 	icon_pals BLUE,   YELLOW    ; STIKLBRAT
 	icon_pals RED,   YELLOW    ; SIDFICIOUS
 	icon_pals RED,   YELLOW    ; DELIBIRD
