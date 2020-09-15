@@ -84,9 +84,6 @@ EvolveAfterBattle_MasterLoop::
 	cp EVOLVE_LEVEL
 	jp z, .level
 	
-	cp EVOLVE_GENDER
-	jp z, .gender
-	
 	cp EVOLVE_HAPPINESS
 	jr z, .happiness
 
@@ -98,6 +95,11 @@ EvolveAfterBattle_MasterLoop::
 	
 	cp EVOLVE_TAXO2
 	jp z, .taxo2
+
+	sub EVOLVE_FEMALE
+	assert EVOLVE_FEMALE + 1 == EVOLVE_MALE
+	cp 2
+	jp c, .gender
 	
 ; EVOLVE_STAT
 	ld a, [wTempMonLevel]
@@ -252,12 +254,13 @@ EvolveAfterBattle_MasterLoop::
 	jp .proceed
 
 .gender
+	push af
 	push hl
 	farcall GetGender
 	pop hl
-	jp c, .dont_evolve_1 ; Genderless
-	cp [hl]
-	inc hl
+	pop bc
+	jp c, .dont_evolve_2 ; Genderless
+	cp b
 	jp nz, .dont_evolve_2
 	; fallthrough
 	

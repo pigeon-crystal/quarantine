@@ -3569,8 +3569,8 @@ CasanocteEvosAttacks:
 	db 0 ; no more level-up moves
 
 LamseedEvosAttacks:
-	db EVOLVE_GENDER, MON_FEMALE, 33, VEGETEBAA
-	db EVOLVE_GENDER, MON_MALE, 33, BAAFOMET
+	db EVOLVE_FEMALE, 33, VEGETEBAA
+	db EVOLVE_MALE, 33, BAAFOMET
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 10, ICY_WIND
