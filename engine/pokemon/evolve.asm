@@ -255,10 +255,10 @@ EvolveAfterBattle_MasterLoop::
 	push hl
 	farcall GetGender
 	pop hl
-	jp c, .dont_evolve_3 ; Genderless
+	jp c, .dont_evolve_1 ; Genderless
 	cp [hl]
 	inc hl
-	jp nz, .dont_evolve_3
+	jp nz, .dont_evolve_2
 	; fallthrough
 	
 .level
