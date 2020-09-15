@@ -6382,6 +6382,11 @@ LoadEnemyMon:
 	call CheckSleepingTreeMon
 	ld a, TREEMON_SLEEP_TURNS
 	jr c, .UpdateStatus
+	; Otherwise, if we're in the Lake of Rage and the Rocket signal
+; is active, the wild Pokémon will start the battle poisoned
+    call CheckRocketSignalEffect
+    ld a, 1 << PSN
+    jr c, .UpdateStatus
 ; Otherwise, no status
 	xor a
 
@@ -6592,6 +6597,32 @@ CheckSleepingTreeMon:
 
 INCLUDE "data/wild/treemons_asleep.asm"
 
+CheckRocketSignalEffect:
+  ; Return TRUE (c) if the rocket signal is active and
+  ; the player is on Route 43.
+  ; Otherwise, return FALSE (nc).
+  ld de, ENGINE_ROCKET_SIGNAL_ON_CH20
+  ld b, CHECK_FLAG
+  farcall EngineFlagAction
+  ld a, c
+  and a
+  jr z, .no
+  ld hl, wMapGroup
+  ld a, [hli]
+  cp GROUP_ROUTE_43 ; aka GROUP_LAKE_OF_RAGE
+  jr nz, .no
+  ld a, [hl] ; wMapNumber
+  cp MAP_LAKE_OF_RAGE
+  jr z, .yes
+  cp MAP_ROUTE_43
+  jr nz, .no
+.yes
+  scf
+  ret
+.no:
+  and a
+  ret
+ 
 CheckUnownLetter:
 ; Return carry if the Unown letter hasn't been unlocked yet
 
