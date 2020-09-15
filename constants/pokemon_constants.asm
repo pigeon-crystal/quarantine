@@ -239,9 +239,9 @@ JOHTO_POKEMON EQU const_value
 	const SMOTHERENE ; d9
 	const KODOROYAH  ; da
 	const CASANOCTE  ; db
-	const LAMSEED     ; dc
+	const LAMSEED    ; dc
 	const VEGETEBAA  ; dd
-	const BAAFOMET    ; de
+	const BAAFOMET   ; de
 	const STIKLBRAT  ; df
 	const SIDFICIOUS ; e0
 	const DELIBIRD   ; e1
