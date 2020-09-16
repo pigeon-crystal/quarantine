@@ -29,6 +29,7 @@ OutdoorSprites:
 	dw NewBarkGroupSprites
 	dw SaffronGroupSprites
 	dw CherrygroveGroupSprites
+	dw CianwoodDunesGroupSprites
 
 PalletGroupSprites:
 	db SPRITE_SUICUNE
@@ -480,6 +481,7 @@ GoldenrodGroupSprites:
 	db SPRITE_FRUIT_TREE
 	db SPRITE_SLOWPOKE
 
+CianwoodDunesGroupSprites:
 CianwoodGroupSprites:
 	db SPRITE_SUICUNE
 	db SPRITE_SILVER_TROPHY

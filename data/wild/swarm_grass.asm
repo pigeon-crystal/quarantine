@@ -44,7 +44,7 @@ SwarmGrassWildMons:
 	db 17, ARASBESTOS
 	db 16, MANDELBLOB
 	db 15, ZASTER
-	db 16, ARASBESTOS
+	db 19, ARASBESTOS
 	; day
 	db 14, AMBINNI
 	db 14, WORMEEK
@@ -53,7 +53,7 @@ SwarmGrassWildMons:
 	db 14, ARASBESTOS
 	db 16, MANDELBLOB
 	db 15, ZASTER
-	db 16, ARASBESTOS
+	db 19, ARASBESTOS
 	; nite
 	db 14, AMBINNI
 	db 15, GWUBBY
@@ -62,6 +62,6 @@ SwarmGrassWildMons:
 	db 17, ARASBESTOS
 	db 16, MANDELBLOB
 	db 15, ZASTER
-	db 17, ARASBESTOS
+	db 19, ARASBESTOS
 
 	db -1 ; end

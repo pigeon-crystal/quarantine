@@ -126,6 +126,7 @@ CianwoodCitySign:
 	jumptext CianwoodCitySignText
 
 CianwoodGymSign:
+	warp CIANWOOD_DUNES, 17, 35
 	jumptext CianwoodGymSignText
 
 CianwoodPharmacySign:
@@ -382,7 +383,7 @@ CianwoodPokeSeerSignText:
 CianwoodCity_MapEvents:
 	db 0, 0 ; filler
 
-	db 7 ; warp events
+	db 8 ; warp events
 	warp_event 17, 41, MANIAS_HOUSE, 1
 	warp_event  8, 43, CIANWOOD_GYM, 1
 	warp_event 23, 43, CIANWOOD_POKECENTER_1F, 1
@@ -390,6 +391,7 @@ CianwoodCity_MapEvents:
 	warp_event  9, 31, CIANWOOD_PHOTO_STUDIO, 1
 	warp_event 15, 37, CIANWOOD_LUGIA_SPEECH_HOUSE, 1
 	warp_event  5, 17, POKE_SEERS_HOUSE, 1
+	warp_event  6, 37, CIANWOOD_DUNES_CAVE, 1
 
 	db 1 ; coord events
 	coord_event 11, 16, SCENE_CIANWOODCITY_SUICUNE_AND_EUSINE, CianwoodCitySuicuneAndEusine

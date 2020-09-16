@@ -1045,3 +1045,11 @@ BetaBlank_Blocks:
 
 GoldenrodDeptStoreRoof_Blocks:
 	INCBIN "maps/GoldenrodDeptStoreRoof.blk"
+	
+SECTION "Map Blocks 4", ROMX
+
+CianwoodDunesCave_Blocks:
+	INCBIN "maps/CianwoodDunesCave.blk"
+	
+CianwoodDunes_Blocks:
+	INCBIN "maps/CianwoodDunes.blk"

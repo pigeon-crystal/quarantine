@@ -549,20 +549,20 @@ JohtoGrassWildMons:
 	db 11, STINPEON
 	db 11, CUTTLE
 	db 11, CUTTLE
-	db 11, CUTTLE
-	db 11, STINPEON
-	db 12, MUMINI
 	db 11, MUMINI
-	db 14, CUTTLE
+	db 11, STINPEON
+	db 12, CUTTLE
+	db 14, MORADAY
+	db 15, MORADAY
 	; day
 	db 11, STINPEON
 	db 11, CUTTLE
 	db 11, CUTTLE
 	db 11, CUTTLE
-	db 11, STINPEON
+	db 12, STINPEON
 	db 11, MUMINI
-	db 12, MUMINI
-	db 14, CUTTLE
+	db 14, MORADAY
+	db 15, MORADAY
 	; nite
 	db 11, STINPEON
 	db 11, CUTTLE
@@ -570,7 +570,7 @@ JohtoGrassWildMons:
 	db 11, MUMINI
 	db 12, CUTTLE
 	db 11, MUMINI
-	db 11, MUMINI
+	db 11, MORADAY
 	db 14, RESPECTRE
 
 	map_id SLOWPOKE_WELL_B2F ;done
@@ -1273,7 +1273,7 @@ JohtoGrassWildMons:
 	db 6, FLUFFRUIT
 	db 6, ATTACKO
 	db 6, ATTACKO
-	db 7, ARASBESTOS
+	db 7, FLUFFRUIT
 	; day
 	db 4, DOLMITE
 	db 4, FLUFFRUIT
@@ -1282,7 +1282,7 @@ JohtoGrassWildMons:
 	db 6, FLUFFRUIT
 	db 6, ATTACKO
 	db 7, ATTACKO
-	db 6, ARASBESTOS
+	db 6, FLUFFRUIT
 	; nite
 	db 4, DOLMITE
 	db 4, FLUFFRUIT
@@ -1291,9 +1291,9 @@ JohtoGrassWildMons:
 	db 6, FLUFFRUIT
 	db 6, ATTACKO
 	db 6, ATTACKO
-	db 7, ARASBESTOS
+	db 7, RESPECTRE
 
-	map_id DARK_CAVE_BLACKTHORN_ENTRANCE ;done
+	map_id DARK_CAVE_BLACKTHORN_ENTRANCE
 	db 5 percent, 5 percent, 5 percent ; encounter rates: morn/day/nite
 	; morn
 	db 23, DOLMITE
@@ -1303,7 +1303,7 @@ JohtoGrassWildMons:
 	db 20, ARASBESTOS
 	db 23, SCORPEROR
 	db 23, SCORPEROR
-	db 25, ARASBESTOS
+	db 25, SMUCIOUS
 	; day
 	db 23, DOLMITE
 	db 23, STINPEON
@@ -1312,7 +1312,7 @@ JohtoGrassWildMons:
 	db 30, ARASBESTOS
 	db 23, SCORPEROR
 	db 23, SCORPEROR
-	db 25, ARASBESTOS
+	db 25, KODOROYAH
 	; nite
 	db 23, DOLMITE
 	db 23, STINPEON
@@ -1321,7 +1321,7 @@ JohtoGrassWildMons:
 	db 25, ARASBESTOS
 	db 23, SCORPEROR
 	db 23, SCORPEROR
-	db 25, ARASBESTOS
+	db 25, SMUCIOUS
 
 	map_id ROUTE_29 ;done
 	db 11 percent, 11 percent, 11 percent ; encounter rates: morn/day/nite
@@ -1452,8 +1452,8 @@ JohtoGrassWildMons:
 	db 12, WORMEEK
 	db 12, QWAIL
 	db 12, FLUFFRUIT
-	db 12, SHABBYCAT
-	db 13, SHABBYCAT
+	db 12, HAPPIG
+	db 13, HAPPIG
 	; day
 	db 12, DOLMITE
 	db 11, QWAIL
@@ -1461,16 +1461,16 @@ JohtoGrassWildMons:
 	db 12, QWAIL
 	db 11, WORMEEK
 	db 12, FLUFFRUIT
-	db 12, SHABBYCAT
-	db 13, SHABBYCAT
+	db 12, HAPPIG
+	db 13, HAPPIG
 	; nite
 	db 12, DOLMITE
 	db 11, NOMSTER
 	db 12, FLUFFRUIT
 	db 12, NOMSTER
 	db 12, FLUFFRUIT
-	db 12, SHABBYCAT
-	db 12, SHABBYCAT
+	db 12, HAPPIG
+	db 12, HAPPIG
 	db 13, JUNOBE
 
 	map_id ROUTE_34 ;done
@@ -1510,8 +1510,8 @@ JohtoGrassWildMons:
 	db 14, WORMEEK
 	db 13, GOOSAPLING
 	db 14, SAPPURA
-	db 14, MANDELBLOB
-	db 16, MANDELBLOB
+	db 14, HAPPIG
+	db 16, HAPPIG
 	db 15, ZASTER
 	db 16, ARASBESTOS
 	; day
@@ -1519,8 +1519,8 @@ JohtoGrassWildMons:
 	db 14, WORMEEK
 	db 13, GOOSAPLING
 	db 14, SAPPURA
-	db 14, MANDELBLOB
-	db 16, MANDELBLOB
+	db 14, HAPPIG
+	db 16, HAPPIG
 	db 15, ZASTER
 	db 16, ARASBESTOS
 	; nite
@@ -1528,7 +1528,7 @@ JohtoGrassWildMons:
 	db 14, GWUBBY
 	db 13, GOOSAPLING
 	db 14, SAPPURA
-	db 14, MANDELBLOB
+	db 14, HAPPIG
 	db 16, SAPPURA
 	db 15, ZASTER
 	db 16, ARASBESTOS
@@ -1691,27 +1691,27 @@ JohtoGrassWildMons:
 	db 16, FARFETCH_D
 	db 15, FURRET
 	db 17, NOMSABRE
-	db 17, FURRET
-	db 17, FURRET
-	db 18, FURRET
+	db 17, NOMSABRE
+	db 17, ELEPHOOT
+	db 18, ELEPHOOT
 	; day
 	db 15, WENDIGAUNT
 	db 16, FURDOBA
 	db 16, FARFETCH_D
 	db 15, FURRET
 	db 17, NOMSABRE
-	db 17, FURRET
-	db 17, FURRET
-	db 18, FURRET
+	db 17, NOMSABRE
+	db 17, ELEPHOOT
+	db 18, ELEPHOOT
 	; nite
 	db 15, ELEPHOOT
 	db 16, NOCTOWL
 	db 16, NOMSABRE
 	db 17, ELEPHOOT
 	db 17, NOMSABRE
-	db 17, PRIPYDERM
-	db 17, PRIPYDERM
-	db 19, PRIPYDERM
+	db 17, NOMSABRE
+	db 17, ELEPHOOT
+	db 19, ELEPHOOT
 
 	map_id ROUTE_44 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

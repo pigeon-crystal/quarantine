@@ -262,17 +262,7 @@ GoldenrodCityUndergroundSignSouth:
 	jumptext GoldenrodCityUndergroundSignSouthText
 
 GoldenrodCityPokecenterSign:
-	giveitem RARE_CANDY
-	giveitem RARE_CANDY
-	giveitem RARE_CANDY
-	giveitem RARE_CANDY
-	giveitem RARE_CANDY
-	giveitem RARE_CANDY
-	giveitem RARE_CANDY
-	giveitem RARE_CANDY
-	giveitem RARE_CANDY
-	givepoke STIKLBRAT, 5
-	;jumpstd pokecentersign
+	jumpstd pokecentersign
 
 GoldenrodCityFlowerShopSign:
 	jumptext GoldenrodCityFlowerShopSignText
