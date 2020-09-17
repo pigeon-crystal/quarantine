@@ -18,7 +18,7 @@ CianwoodCity_MapScripts:
 	scene_script .DummyScene1 ; SCENE_CIANWOODCITY_SUICUNE_AND_EUSINE
 
 	db 1 ; callbacks
-	callback MAPCALLBACK_NEWMAP, .FlyPointAndSuicune
+	callback MAPCALLBACK_NEWMAP, .FlyPointAndRyunari
 
 .DummyScene0:
 	end
@@ -26,7 +26,7 @@ CianwoodCity_MapScripts:
 .DummyScene1:
 	end
 
-.FlyPointAndSuicune:
+.FlyPointAndRyunari:
 	setflag ENGINE_FLYPOINT_CIANWOOD
 	setevent EVENT_EUSINE_IN_BURNED_TOWER
 	checkevent EVENT_FOUGHT_EUSINE
@@ -35,16 +35,16 @@ CianwoodCity_MapScripts:
 .Done:
 	return
 
-CianwoodCitySuicuneAndEusine:
+CianwoodCityRyunariAndEusine:
 	turnobject PLAYER, UP
 	showemote EMOTE_SHOCK, PLAYER, 15
 	pause 15
 	playsound SFX_WARP_FROM
-	applymovement CIANWOODCITY_SUICUNE, CianwoodCitySuicuneApproachMovement
+	applymovement CIANWOODCITY_SUICUNE, CianwoodCityRyunariApproachMovement
 	turnobject PLAYER, DOWN
 	pause 15
 	playsound SFX_WARP_FROM
-	applymovement CIANWOODCITY_SUICUNE, CianwoodCitySuicuneDepartMovement
+	applymovement CIANWOODCITY_SUICUNE, CianwoodCityRyunariDepartMovement
 	disappear CIANWOODCITY_SUICUNE
 	pause 10
 	setscene SCENE_CIANWOODCITY_NOTHING
@@ -57,7 +57,7 @@ CianwoodCitySuicuneAndEusine:
 	appear CIANWOODCITY_EUSINE
 	applymovement CIANWOODCITY_EUSINE, CianwoodCityEusineApproachMovement
 	opentext
-	writetext EusineSuicuneText
+	writetext EusineRyunariText
 	waitbutton
 	closetext
 	winlosstext EusineBeatenText, 0
@@ -126,7 +126,6 @@ CianwoodCitySign:
 	jumptext CianwoodCitySignText
 
 CianwoodGymSign:
-	warp CIANWOOD_DUNES, 17, 35
 	jumptext CianwoodGymSignText
 
 CianwoodPharmacySign:
@@ -150,7 +149,7 @@ CianwoodCityHiddenRevive:
 CianwoodCityHiddenMaxEther:
 	hiddenitem MAX_ETHER, EVENT_CIANWOOD_CITY_HIDDEN_MAX_ETHER
 
-CianwoodCitySuicuneApproachMovement:
+CianwoodCityRyunariApproachMovement:
 	set_sliding
 	fast_jump_step DOWN
 	fast_jump_step DOWN
@@ -158,7 +157,7 @@ CianwoodCitySuicuneApproachMovement:
 	remove_sliding
 	step_end
 
-CianwoodCitySuicuneDepartMovement:
+CianwoodCityRyunariDepartMovement:
 	set_sliding
 	fast_jump_step RIGHT
 	fast_jump_step UP
@@ -277,21 +276,21 @@ CianwoodCityUnusedText:
 	cont "ly lives there."
 	done
 
-EusineSuicuneText:
+EusineRyunariText:
 	text "EUSINE: Yo,"
 	line "<PLAYER>."
 
 	para "Wasn't that"
-	line "SUICUNE just now?"
+	line "RYUNARI just now?"
 
 	para "I only caught a"
 	line "quick glimpse, but"
 
 	para "I thought I saw"
-	line "SUICUNE running on"
+	line "RYUNARI running on"
 	cont "the waves."
 
-	para "SUICUNE is beau-"
+	para "RYUNARI is beau-"
 	line "tiful and grand."
 
 	para "And it races"
@@ -303,13 +302,13 @@ EusineSuicuneText:
 	para "It's wonderful…"
 
 	para "I want to see"
-	line "SUICUNE up close…"
+	line "RYUNARI up close…"
 
 	para "I've decided."
 
 	para "I'll battle you as"
 	line "a trainer to earn"
-	cont "SUICUNE's respect!"
+	cont "RYUNARI's respect!"
 
 	para "Come on, <PLAYER>."
 	line "Let's battle now!"
@@ -331,7 +330,7 @@ EusineAfterText:
 
 	para "I'm going to keep"
 	line "searching for"
-	cont "SUICUNE."
+	cont "RYUNARI."
 
 	para "I'm sure we'll see"
 	line "each other again."
@@ -394,7 +393,7 @@ CianwoodCity_MapEvents:
 	warp_event  6, 37, CIANWOOD_DUNES_CAVE, 1
 
 	db 1 ; coord events
-	coord_event 11, 16, SCENE_CIANWOODCITY_SUICUNE_AND_EUSINE, CianwoodCitySuicuneAndEusine
+	coord_event 11, 16, SCENE_CIANWOODCITY_SUICUNE_AND_EUSINE, CianwoodCityRyunariAndEusine
 
 	db 8 ; bg events
 	bg_event 20, 34, BGEVENT_READ, CianwoodCitySign

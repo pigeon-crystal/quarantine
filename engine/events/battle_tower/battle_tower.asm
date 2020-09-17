@@ -403,7 +403,7 @@ endr
 	jr nz, .valid
 
 .invalid
-	ld a, SMEARGLE
+	ld a, EYECHOSIS
 	ld [hl], a
 
 .valid

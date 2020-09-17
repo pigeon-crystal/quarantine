@@ -234,7 +234,7 @@ PokedexDataPointerTable:
 	dw MoneumennPokedexEntry
 	dw PolyroPokedexEntry
 	dw MissingnoPokedexEntry
-	dw SmearglePokedexEntry
+	dw EyechosisPokedexEntry
 	dw TyroguePokedexEntry
 	dw HitmontopPokedexEntry
 	dw SmoochumPokedexEntry
@@ -244,7 +244,7 @@ PokedexDataPointerTable:
 	dw OdditullyPokedexEntry
 	dw RaikouPokedexEntry
 	dw SlaatelPokedexEntry
-	dw SuicunePokedexEntry
+	dw RyunariPokedexEntry
 	dw LarvitarPokedexEntry
 	dw PupitarPokedexEntry
 	dw TyranitarPokedexEntry

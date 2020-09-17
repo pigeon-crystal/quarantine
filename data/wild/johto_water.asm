@@ -268,5 +268,19 @@ JohtoWaterWildMons:
 	db 40, AMANIGO
 	db 35, CREMIGO
 	db 44, AMANIGO
+	
+	map_id CIANWOOD_DUNES_CAVE ;done
+	db 4 percent ; encounter rate
+	db 35, STIKLBRAT
+	db 40, OSCURASA
+	db 35, STIKLBRAT
+	db 44, KRAKENTOA
 
+	map_id CIANWOOD_DUNES ;done
+	db 6 percent ; encounter rate
+	db 35, STIKLBRAT
+	db 40, STRANGLURE
+	db 35, CREMIGO
+	db 44, KRAKENTOA
+	
 	db -1 ; end

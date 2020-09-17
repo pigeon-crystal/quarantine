@@ -473,8 +473,8 @@ PokemonPicPointers::
 	dba_pic PolyroBackpic
 	dba_pic MissingnoFrontpic ;stantler
 	dba_pic MissingnoBackpic
-	dba_pic SmeargleFrontpic
-	dba_pic SmeargleBackpic
+	dba_pic EyechosisFrontpic
+	dba_pic EyechosisBackpic
 	dba_pic TyrogueFrontpic
 	dba_pic TyrogueBackpic
 	dba_pic HitmontopFrontpic
@@ -493,8 +493,8 @@ PokemonPicPointers::
 	dba_pic RaikouBackpic
 	dba_pic SlaatelFrontpic
 	dba_pic SlaatelBackpic
-	dba_pic SuicuneFrontpic
-	dba_pic SuicuneBackpic
+	dba_pic RyunariFrontpic
+	dba_pic RyunariBackpic
 	dba_pic LarvitarFrontpic
 	dba_pic LarvitarBackpic
 	dba_pic PupitarFrontpic

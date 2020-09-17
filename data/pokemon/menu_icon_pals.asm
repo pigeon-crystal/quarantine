@@ -238,7 +238,7 @@ MonMenuIconPals:
 	icon_pals YELLOW,   PURPLE    ; MONEUMENN
 	icon_pals PURPLE,   YELLOW    ; POLYRO
 	icon_pals RED,   YELLOW    ; MISSINGNO
-	icon_pals RED,   YELLOW    ; SMEARGLE
+	icon_pals PURPLE,   YELLOW    ; EYECHOSIS
 	icon_pals RED,   YELLOW    ; TYROGUE
 	icon_pals RED,   YELLOW    ; HITMONTOP
 	icon_pals RED,   YELLOW    ; SMOOCHUM
@@ -248,7 +248,7 @@ MonMenuIconPals:
 	icon_pals BLUE,   YELLOW   ; ODDITULLY
 	icon_pals RED,   YELLOW    ; RAIKOU
 	icon_pals GRAY,   YELLOW    ; SLAATEL
-	icon_pals RED,   YELLOW    ; SUICUNE
+	icon_pals RED,   YELLOW    ; RYUNARI
 	icon_pals RED,   YELLOW    ; LARVITAR
 	icon_pals RED,   YELLOW    ; PUPITAR
 	icon_pals RED,   YELLOW    ; TYRANITAR

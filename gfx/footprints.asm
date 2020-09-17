@@ -534,7 +534,7 @@ INCBIN "gfx/footprints/moneumenn.1bpp",    footprint_bottom
 ; 233-240 top halves
 INCBIN "gfx/footprints/polyro.1bpp",   footprint_top
 INCBIN "gfx/footprints/missingno.1bpp",  footprint_top
-INCBIN "gfx/footprints/smeargle.1bpp",   footprint_top
+INCBIN "gfx/footprints/eyechosis.1bpp",   footprint_top
 INCBIN "gfx/footprints/tyrogue.1bpp",    footprint_top
 INCBIN "gfx/footprints/hitmontop.1bpp",  footprint_top
 INCBIN "gfx/footprints/smoochum.1bpp",   footprint_top
@@ -543,7 +543,7 @@ INCBIN "gfx/footprints/magby.1bpp",      footprint_top
 ; 233-240 bottom halves
 INCBIN "gfx/footprints/polyro.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/missingno.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/smeargle.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/eyechosis.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/tyrogue.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/hitmontop.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/smoochum.1bpp",   footprint_bottom
@@ -554,7 +554,7 @@ INCBIN "gfx/footprints/miltank.1bpp",    footprint_top
 INCBIN "gfx/footprints/odditully.1bpp",    footprint_top
 INCBIN "gfx/footprints/raikou.1bpp",     footprint_top
 INCBIN "gfx/footprints/slaatel.1bpp",      footprint_top
-INCBIN "gfx/footprints/suicune.1bpp",    footprint_top
+INCBIN "gfx/footprints/ryunari.1bpp",    footprint_top
 INCBIN "gfx/footprints/larvitar.1bpp",   footprint_top
 INCBIN "gfx/footprints/pupitar.1bpp",    footprint_top
 INCBIN "gfx/footprints/tyranitar.1bpp",  footprint_top
@@ -563,7 +563,7 @@ INCBIN "gfx/footprints/miltank.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/odditully.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/raikou.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/slaatel.1bpp",      footprint_bottom
-INCBIN "gfx/footprints/suicune.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/ryunari.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/larvitar.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/pupitar.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/tyranitar.1bpp",  footprint_bottom

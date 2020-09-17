@@ -239,7 +239,7 @@ PokemonCries::
 	mon_cry CRY_DONPHAN,       0,  416 ; MONEUMENN
 	mon_cry CRY_SPINARAK,   -399,  400 ; POLYRO
 	mon_cry CRY_NIDORAN_M,  -255,    0 ; MISSINGNO
-	mon_cry CRY_PICHU,      -538,  496 ; SMEARGLE
+	mon_cry CRY_PICHU,      -538,  496 ; EYECHOSIS
 	mon_cry CRY_AIPOM,        44,  264 ; TYROGUE
 	mon_cry CRY_SLUGMA,        0,  256 ; HITMONTOP
 	mon_cry CRY_MARILL,      104,  256 ; SMOOCHUM
@@ -249,7 +249,7 @@ PokemonCries::
 	mon_cry CRY_VILEPLUME,   133,  455 ; ODDITULLY
 	mon_cry CRY_RAIKOU,      558,  288 ; RAIKOU
 	mon_cry CRY_ENTEI,         0,  416 ; SLAATEL
-	mon_cry CRY_MAGCARGO,      0,  384 ; SUICUNE
+	mon_cry CRY_MAGCARGO,      0,  384 ; RYUNARI
 	mon_cry CRY_RAIKOU,       95,  208 ; LARVITAR
 	mon_cry CRY_SPINARAK,   -475,  336 ; PUPITAR
 	mon_cry CRY_RAIKOU,     -256,  384 ; TYRANITAR

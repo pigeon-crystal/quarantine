@@ -400,18 +400,18 @@ JohtoGrassWildMons:
 	db 22, SQWUCKY
 	db 18, SQWUCKY
 	db 24, SQWUCKY
-	db 20, SMEARGLE
-	db 22, SMEARGLE
-	db 22, SMEARGLE
+	db 20, EYECHOSIS
+	db 22, EYECHOSIS
+	db 22, EYECHOSIS
 	db 22, SQWUCKY
 	; day
 	db 20, SQWUCKY
 	db 22, SQWUCKY
 	db 18, SQWUCKY
 	db 24, SQWUCKY
-	db 20, SMEARGLE
-	db 22, SMEARGLE
-	db 22, SMEARGLE
+	db 20, EYECHOSIS
+	db 22, EYECHOSIS
+	db 22, EYECHOSIS
 	db 22, SQWUCKY
 	; nite
 	db 20, SQWUCKY
@@ -1833,4 +1833,64 @@ JohtoGrassWildMons:
 	db 44, SCORPEROR
 	db 45, ANTPYRE
 
+	map_id CIANWOOD_DUNES_CAVE ;done
+	db 7 percent, 7 percent, 7 percent ; encounter rates: morn/day/nite
+	; morn
+	db 35, EYECHOSIS
+	db 35, EYECHOSIS
+	db 35, DOLMESA
+	db 36, MORADAY
+	db 35, MORADAY
+	db 35, CLIBBLE
+	db 37, OSCURASA
+	db 37, CLIBBLE
+	; day
+	db 35, DOLMESA
+	db 35, OSCURASA
+	db 35, DOLMESA
+	db 36, MORADAY
+	db 35, MORADAY
+	db 35, CLIBBLE
+	db 37, OSCURASA
+	db 37, CLIBBLE
+	; nite
+	db 35, DOLMESA
+	db 35, OSCURASA
+	db 35, DOLMESA
+	db 36, MORADAY
+	db 35, MORADAY
+	db 35, CLIBBLE
+	db 37, OSCURASA
+	db 37, RESPECTRE	
+	
+	map_id CIANWOOD_DUNES ;done
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 35, SANDOLPH
+	db 35, DOLMESA
+	db 35, IGNAGA
+	db 36, SANDOLPH
+	db 35, DOLMESA
+	db 35, SANDOLPH
+	db 37, CANTALONE
+	db 37, COCACOBRA
+	; day
+	db 35, SANDOLPH
+	db 35, DOLMESA
+	db 35, IGNAGA
+	db 36, SANDOLPH
+	db 35, DOLMESA
+	db 35, SANDOLPH
+	db 37, CANTALONE
+	db 37, COCACOBRA
+	; nite
+	db 35, SANDOLPH
+	db 35, DOLMESA
+	db 35, IGNAGA
+	db 36, SANDOLPH
+	db 35, DOLMESA
+	db 35, SANDOLPH
+	db 37, CANTALONE
+	db 37, COCACOBRA
+	
 	db -1 ; end

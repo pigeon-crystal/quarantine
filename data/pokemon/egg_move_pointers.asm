@@ -233,7 +233,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw PolyroEggMoves
 	dw NoEggMoves
-	dw NoEggMoves
+	dw EyechosisEggMoves
 	dw TyrogueEggMoves
 	dw NoEggMoves
 	dw SmoochumEggMoves

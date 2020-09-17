@@ -127,7 +127,6 @@ INCLUDE "engine/events/kurt_selectquantity_interpretjoypad.asm"
 SECTION "bankA", ROMX
 
 INCLUDE "engine/link/link.asm"
-INCLUDE "engine/overworld/wildmons.asm"
 INCLUDE "engine/battle/link_result.asm"
 
 ChrisBackpic:
@@ -136,6 +135,9 @@ INCBIN "gfx/player/chris_back.2bpp.lz"
 DudeBackpic:
 INCBIN "gfx/battle/dude.2bpp.lz"
 
+SECTION "Wildmons", ROMX
+
+INCLUDE "engine/overworld/wildmons.asm"
 
 SECTION "bankB", ROMX
 

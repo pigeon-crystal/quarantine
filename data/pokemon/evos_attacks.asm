@@ -3569,42 +3569,59 @@ CasanocteEvosAttacks:
 	db 0 ; no more level-up moves
 
 LamseedEvosAttacks:
-	db EVOLVE_FEMALE, 33, VEGETEBAA
-	db EVOLVE_MALE, 33, BAAFOMET
+	db EVOLVE_FEMALE, 35, VEGETEBAA
+	db EVOLVE_MALE, 35, BAAFOMET
 	db 0 ; no more evolutions
 	db 1, POUND
-	db 10, ICY_WIND
-	db 19, ENDURE
-	db 28, DOUBLE_EDGE
-	db 35, MIST
-	db 46, BLIZZARD
-	db 55, AMNESIA
+	db 7, ABSORB
+	db 9, CHARM
+	db 14, SYNTHESIS
+	db 18, VINE_WHIP
+	db 25, LEECH_SEED
+	db 29, COTTON_SPORE
+	db 36, FLAIL
+	db 40, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 VegetebaaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, HORN_ATTACK
-	db 1, ICY_WIND
-	db 1, ENDURE
-	db 10, ICY_WIND
-	db 19, ENDURE
-	db 28, DOUBLE_EDGE
-	db 33, FURY_SWIPES
-	db 42, MIST
-	db 56, BLIZZARD
-	db 70, AMNESIA
+	db 1, POUND
+	db 7, ABSORB
+	db 9, CHARM
+	db 14, SYNTHESIS
+	db 18, VINE_WHIP
+	db 25, LEECH_SEED
+	db 29, COTTON_SPORE
+	db 34, GROWTH
+	db 36, ATTRACT
+	db 37, MEGA_DRAIN
+	db 40, SUBSTITUTE
+	db 43, SPORE
+	db 46, GIGA_DRAIN
+	db 49, HEAL_BELL
+	db 52, CALM_MIND
+	db 55, SOLARBEAM
 	db 0 ; no more level-up moves
 
 BaafometEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
-	db 7, HARDEN
-	db 13, BUBBLE
-	db 19, RECOVER
-	db 25, BUBBLEBEAM
-	db 31, SPIKE_CANNON
-	db 37, MIRROR_COAT
-	db 43, ANCIENTPOWER
+	db 1, POISON_STING
+	db 7, ABSORB
+	db 9, CHARM
+	db 14, SYNTHESIS
+	db 18, VINE_WHIP
+	db 25, LEECH_SEED
+	db 29, COTTON_SPORE
+	db 34, SWORDS_DANCE
+	db 36, HORN_ATTACK
+	db 37, MEGAHORN
+	db 40, CURSE
+	db 43, POISON_JAB
+	db 46, TOXIC
+	db 49, LEAF_BLADE
+	db 52, SWAGGER
+	db 55, PETAL_DANCE
 	db 0 ; no more level-up moves
 
 StiklbratEvosAttacks:
@@ -3815,10 +3832,20 @@ MissingnoEvosAttacks:
 	db 1, PAY_DAY
 	db 0 ; no more level-up moves
 
-SmeargleEvosAttacks:
+EyechosisEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SKETCH
-	db 91, SKETCH
+	db 1, KARATE_CHOP
+	db 6, PSYCHO_CUT
+	db 11, CONFUSION
+	db 15, PSYBEAM
+	db 23, PSYWAVE
+	db 33, MACH_PUNCH
+	db 42, PSYCHO_CUT
+	db 45, HI_JUMP_KICK
+	db 47, CROSS_CHOP
+	db 50, PSYCHIC_M
+	db 52, FOCUS_BLAST
+	db 99, FISSURE
 	db 0 ; no more level-up moves
 
 TyrogueEvosAttacks:
@@ -3937,7 +3964,7 @@ SlaatelEvosAttacks:
 	db 100, LOCK_ON
 	db 0 ; no more level-up moves
 
-SuicuneEvosAttacks:
+RyunariEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BITE
 	db 1, LEER

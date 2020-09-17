@@ -13,7 +13,7 @@ BeastsCheck:
 	call CheckOwnMonAnywhere
 	jr nc, .notexist
 
-	ld a, SUICUNE
+	ld a, RYUNARI
 	ld [wScriptVar], a
 	call CheckOwnMonAnywhere
 	jr nc, .notexist

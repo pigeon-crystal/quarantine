@@ -6,6 +6,7 @@ AlphabeticalPokedexOrder:
 	db AMANIGO
 	db AMBINNI
 	db AMPHAROS
+	db ANTPYRE
 	db ARASBESTOS
 	db ARTICUNO
 	db ATTACKO
@@ -42,7 +43,6 @@ AlphabeticalPokedexOrder:
 	db DODUO
 	db DOLMESA
 	db DOLMITE
-	db MONEUMENN
 	db DRAGONAIR
 	db DRAGONITE
 	db DRATINI
@@ -52,9 +52,11 @@ AlphabeticalPokedexOrder:
 	db EEVEE
 	db ELECTRODE
 	db ELEKID
+	db ELEPHOOT
 	db ESPEON
 	db EUKUB
 	db EXOTUNITY
+	db EYECHOSIS
 	db FARFETCH_D
 	db FELIORITTE
 	db FLAREON
@@ -87,8 +89,6 @@ AlphabeticalPokedexOrder:
 	db NUCKAWHEEZ
 	db HOPLAQUE
 	db HORNAMPA
-	db SNOVERDOSE
-	db SNOWUP
 	db IGGLYBUFF
 	db IGNAGA
 	db IVYSAUR
@@ -99,15 +99,16 @@ AlphabeticalPokedexOrder:
 	db KABUTOPS
 	db KALKOLA
 	db GENEROPSIS
-	db NAVIGAZER
 	db KOAGAN
 	db KODOROYAH
 	db KRAKENTOA
+	db LAMSEED
 	db LANATUN
 	db LARVITAR
 	db LAWNIE
 	db LEAFFIGY
 	db LUGIA
+	db MA_0
 	db MACHAMP
 	db MACHOKE
 	db MACHOP
@@ -117,20 +118,23 @@ AlphabeticalPokedexOrder:
 	db MAGNEMITE
 	db MAGNETON
 	db MAJESDOR
+	db MAMMOTHRA
 	db MANDELBLOB
 	db MANKEY
 	db MAULZER
 	db MEOWTAIN
 	db MEW
-	db MA_0
 	db MILTANK
 	db MISSINGNO
 	db MOLTRES
+	db MONEUMENN
 	db MOPERDOR
+	db MORADAY
 	db MOSSARRE
 	db MUMAGNUS
 	db MUMINI
 	db NANUQUA
+	db NAVIGAZER
 	db NIDOKING
 	db NIDOQUEEN
 	db NIDORAN_F
@@ -145,9 +149,7 @@ AlphabeticalPokedexOrder:
 	db NYALLEY
 	db ODDITULLY
 	db OKAMIKAZE
-	db MAMMOTHRA
 	db OBELITH
-	db MORADAY
 	db ORGNOME
 	db OSCURASA
 	db PARAS
@@ -161,7 +163,6 @@ AlphabeticalPokedexOrder:
 	db PICHU
 	db PIKACHU
 	db PILFOARD
-	db VEGETEBAA
 	db PINECO
 	db PINSIR
 	db PITAYRANT
@@ -171,6 +172,7 @@ AlphabeticalPokedexOrder:
 	db PORYGON
 	db POLYRO
 	db PRIMEAPE
+	db PRIPYDERM
 	db PURRDLE
 	db PUPITAR
 	db QUAGSIRE
@@ -190,7 +192,6 @@ AlphabeticalPokedexOrder:
 	db SCORPEROR
 	db SCRUFFRUIT
 	db SCYTHER
-	db WENDIGAUNT
 	db SHABBYCAT
 	db SHAMSEL
 	db SHELLDER
@@ -200,22 +201,21 @@ AlphabeticalPokedexOrder:
 	db SLAATEL
 	db SLOWBRO
 	db SLOWPOKE
-	db SMEARGLE
 	db SMOOCHUM
 	db SMOTHERENE
 	db SMUCIOUS
 	db SNEASEL
 	db SNORLAX
+	db SNOVERDOSE
+	db SNOWUP
 	db SQUIRTLE
 	db SQWUCKY
 	db STIKLBRAT
 	db STINPEON
 	db STRANGLURE
 	db SUDOWOODO
-	db SUICUNE
+	db RYUNARI
 	db SWAZZAGE
-	db LAMSEED
-	db ANTPYRE
 	db TAUROS
 	db TENDRILL
 	db TENTACOOL
@@ -231,8 +231,7 @@ AlphabeticalPokedexOrder:
 	db URSKIMO
 	db VAPOREON
 	db VAZZINATE
-	db PRIPYDERM
-	db ELEPHOOT
+	db VEGETEBAA
 	db VENUSAUR
 	db VOLTINGER
 	db VOLTORB
@@ -242,6 +241,7 @@ AlphabeticalPokedexOrder:
 	db WIGGLYTUFF
 	db WIRIGIBLE
 	db WIWRIGHT
+	db WENDIGAUNT
 	db WOOPER
 	db WORMACHO
 	db WORMEEK

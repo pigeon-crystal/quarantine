@@ -235,7 +235,7 @@ EvosAttacksPointers::
 	dw MoneumennEvosAttacks
 	dw PolyroEvosAttacks
 	dw MissingnoEvosAttacks ;stantler
-	dw SmeargleEvosAttacks
+	dw EyechosisEvosAttacks
 	dw TyrogueEvosAttacks
 	dw HitmontopEvosAttacks
 	dw SmoochumEvosAttacks
@@ -245,7 +245,7 @@ EvosAttacksPointers::
 	dw OdditullyEvosAttacks
 	dw RaikouEvosAttacks
 	dw SlaatelEvosAttacks
-	dw SuicuneEvosAttacks
+	dw RyunariEvosAttacks
 	dw LarvitarEvosAttacks
 	dw PupitarEvosAttacks
 	dw TyranitarEvosAttacks

@@ -249,12 +249,12 @@ JOHTO_POKEMON EQU const_value
 	const SNOSEBLEED ; e3
 	const SNOWUP     ; e4
 	const SNOVERDOSE ; e5
-	const NAVIGAZER    ; e6
+	const NAVIGAZER  ; e6
 	const OBELITH    ; e7
 	const MONEUMENN  ; e8
 	const POLYRO     ; e9
-	const MISSINGNO  ; ea orig stantler
-	const SMEARGLE   ; eb
+	const MISSINGNO  ; ea
+	const EYECHOSIS  ; eb
 	const TYROGUE    ; ec
 	const HITMONTOP  ; ed
 	const SMOOCHUM   ; ee
@@ -263,8 +263,8 @@ JOHTO_POKEMON EQU const_value
 	const MILTANK    ; f1
 	const ODDITULLY  ; f2
 	const RAIKOU     ; f3
-	const SLAATEL      ; f4
-	const SUICUNE    ; f5
+	const SLAATEL    ; f4
+	const RYUNARI    ; f5
 	const LARVITAR   ; f6
 	const PUPITAR    ; f7
 	const TYRANITAR  ; f8

@@ -21,6 +21,15 @@ CianwoodDunesSignText:
 	line "bit is scrawled"
 	cont "on roughly."
 	done
+
+CianwoodDunesKingsRock:
+	itemball KINGS_ROCK
+	
+CianwoodDunesSodaPop:
+	itemball SODA_POP
+	
+CianwoodDunesMaxElixer:
+	itemball MAX_ELIXER
 	
 CianwoodDunes_MapEvents:
 	db 0, 0 ; filler
@@ -33,4 +42,7 @@ CianwoodDunes_MapEvents:
 	db 1 ; bg events
 	bg_event 10, 34, BGEVENT_READ, CianwoodDunesSign
 
-	db 0 ; obj events
+	db 3 ; obj events
+	object_event 4, 29, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, CianwoodDunesKingsRock, EVENT_CIANWOOD_DUNES_KINGS_ROCK
+	object_event 12, 12, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, CianwoodDunesSodaPop, EVENT_CIANWOOD_DUNES_SODA_POP
+	object_event, 25, 35, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, CianwoodDunesMaxElixer, EVENT_CIANWOOD_DUNES_MAX_ELIXER

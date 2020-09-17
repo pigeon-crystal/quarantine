@@ -724,6 +724,19 @@ PolyroEggMoves:
 	db THRASH
 	db -1 ; end
 
+EyechosisEggMoves:
+	db PAIN_SPLIT
+	db PROTECT
+	db REST
+	db BARRIER
+	db BEAT_UP
+	db HYPNOSIS
+	db NASTY_PLOT
+	db DIZZY_PUNCH
+	db TRI_ATTACK
+	db PLAY_ROUGH
+	db -1 ; end
+
 TyrogueEggMoves:
 	db RAPID_SPIN
 	db HI_JUMP_KICK

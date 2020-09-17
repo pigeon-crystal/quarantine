@@ -114,9 +114,9 @@ TinTower1F_MapScripts:
 	pause 10
 	applymovement PLAYER, TinTowerPlayerMovement2
 	applymovement TINTOWER1F_SUICUNE, TinTowerSuicuneMovement
-	cry SUICUNE
+	cry RYUNARI
 	pause 20
-	loadwildmon SUICUNE, 40
+	loadwildmon RYUNARI, 40
 	loadvar VAR_BATTLETYPE, BATTLETYPE_SUICUNE
 	startbattle
 	dontrestartmapmusic
@@ -317,13 +317,13 @@ TinTowerEusineSuicuneText:
 	para "That was truly"
 	line "inspiring to see."
 
-	para "SUICUNE was tough,"
+	para "RYUNARI was tough,"
 	line "but you were even"
 
 	para "more incredible,"
 	line "<PLAYER>."
 
-	para "I heard SUICUNE's"
+	para "I heard RYUNARI's"
 	line "mystic power"
 
 	para "summons a rainbow-"
@@ -390,7 +390,7 @@ TinTower1FSage2Text:
 
 	para "They are…"
 
-	para "SUICUNE, ENTEI and"
+	para "RYUNARI, ENTEI and"
 	line "RAIKOU."
 
 	para "That is what they"
@@ -502,7 +502,7 @@ TinTower1FSage5Text3:
 
 TinTower1FSage6Text2:
 	text "Of the legendary"
-	line "#MON, SUICUNE"
+	line "#MON, RYUNARI"
 
 	para "is said to be the"
 	line "closest to HO-OH."
@@ -517,7 +517,7 @@ TinTower1FSage6Text2:
 	line "must be sharing a"
 
 	para "cooperative bond"
-	line "with SUICUNE."
+	line "with RYUNARI."
 	done
 
 TinTower1F_MapEvents:

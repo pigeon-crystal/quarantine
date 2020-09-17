@@ -17,5 +17,5 @@
 	dn EGG_PLANT, EGG_GROUND ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm PSYCH_UP, HIDDEN_POWER, SWEET_SCENT, PROTECT, ENDURE, FRUSTRATION, RETURN, SWIFT, DEFENSE_CURL, REST
 	; end

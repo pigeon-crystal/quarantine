@@ -158,7 +158,7 @@ NewPokedexOrder:
 	db GIGUARD
 	db GIGERATOR
 	db ELEKID
-	db SMEARGLE
+	db EYECHOSIS
 	db FARFETCH_D
 	db SQWUCKY
 	db XATU
@@ -240,7 +240,7 @@ NewPokedexOrder:
 	db MOLTRES
 	db RAIKOU
 	db SLAATEL
-	db SUICUNE
+	db RYUNARI
 	db DRATINI
 	db DRAGONAIR
 	db DRAGONITE
