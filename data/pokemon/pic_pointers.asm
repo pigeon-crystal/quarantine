@@ -388,10 +388,10 @@ PokemonPicPointers::
 	dba_pic BrigadoomBackpic
 	dba_pic ArasbestosFrontpic
 	dba_pic ArasbestosBackpic
-	dba_pic WooperFrontpic
-	dba_pic WooperBackpic
-	dba_pic QuagsireFrontpic
-	dba_pic QuagsireBackpic
+	dba_pic OddittenFrontpic
+	dba_pic OddittenBackpic
+	dba_pic AstrotomFrontpic
+	dba_pic AstrotomBackpic
 	dba_pic EspeonFrontpic
 	dba_pic EspeonBackpic
 	dba_pic UmbreonFrontpic

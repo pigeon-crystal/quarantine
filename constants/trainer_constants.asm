@@ -703,4 +703,8 @@ KRIS EQU __enum__
 	trainerclass WIZARD ; 44
 	const CROWLEY
 
+	trainerclass GURU ; 45
+	const LI_GURU
+	const GOJEE
+	
 NUM_TRAINER_CLASSES EQU __enum__

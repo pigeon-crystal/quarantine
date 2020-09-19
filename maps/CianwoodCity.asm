@@ -138,6 +138,7 @@ CianwoodPokeSeerSign:
 	jumptext CianwoodPokeSeerSignText
 
 CianwoodPokecenterSign:
+	warp CIANWOOD_DUNES_CAVE, 18, 11
 	jumpstd pokecentersign
 
 CianwoodCityRock:

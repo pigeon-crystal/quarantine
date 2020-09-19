@@ -208,8 +208,8 @@ BrigadoomPokedexEntry::   INCLUDE "data/pokemon/dex_entries/brigadoom.asm"
 SECTION "Pokedex Entries 193-251", ROMX
 
 ArasbestosPokedexEntry::      INCLUDE "data/pokemon/dex_entries/arasbestos.asm"
-WooperPokedexEntry::     INCLUDE "data/pokemon/dex_entries/wooper.asm"
-QuagsirePokedexEntry::   INCLUDE "data/pokemon/dex_entries/quagsire.asm"
+OddittenPokedexEntry::     INCLUDE "data/pokemon/dex_entries/odditten.asm"
+AstrotomPokedexEntry::   INCLUDE "data/pokemon/dex_entries/astrotom.asm"
 EspeonPokedexEntry::     INCLUDE "data/pokemon/dex_entries/espeon.asm"
 UmbreonPokedexEntry::    INCLUDE "data/pokemon/dex_entries/umbreon.asm"
 BismuttPokedexEntry::    INCLUDE "data/pokemon/dex_entries/bismutt.asm"

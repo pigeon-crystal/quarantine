@@ -157,4 +157,5 @@ IconPointers:
 	dw SnosebleedIcon
 	dw SnowupIcon
 	dw SnoverdoseIcon
+	dw RyunariIcon
 	

@@ -69,3 +69,5 @@ TrainerGroups:
 	dba GruntFGroup
 	dba MysticalmanGroup
 	dba WizardGroup
+	dba GuruGroup
+

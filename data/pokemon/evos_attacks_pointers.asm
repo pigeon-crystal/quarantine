@@ -194,8 +194,8 @@ EvosAttacksPointers::
 	dw PhanguardEvosAttacks
 	dw BrigadoomEvosAttacks
 	dw ArasbestosEvosAttacks
-	dw WooperEvosAttacks
-	dw QuagsireEvosAttacks
+	dw OddittenEvosAttacks
+	dw AstrotomEvosAttacks
 	dw EspeonEvosAttacks
 	dw UmbreonEvosAttacks
 	dw BismuttEvosAttacks

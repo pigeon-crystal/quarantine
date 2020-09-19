@@ -573,7 +573,7 @@ ArasbestosEggMoves:
 	db WILL_O_WISP
 	db -1 ; end
 
-WooperEggMoves:
+OddittenEggMoves:
 	db BODY_SLAM
 	db ANCIENTPOWER
 	db SAFEGUARD

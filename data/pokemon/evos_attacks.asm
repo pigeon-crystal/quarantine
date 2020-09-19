@@ -3165,8 +3165,8 @@ ArasbestosEvosAttacks:
 	db 53, SAFEGUARD
 	db 0 ; no more level-up moves
 
-WooperEvosAttacks:
-	db EVOLVE_LEVEL, 20, QUAGSIRE
+OddittenEvosAttacks:
+	db EVOLVE_ITEM, MOON_STONE, ASTROTOM
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
 	db 1, TAIL_WHIP
@@ -3178,7 +3178,7 @@ WooperEvosAttacks:
 	db 51, HAZE
 	db 0 ; no more level-up moves
 
-QuagsireEvosAttacks:
+AstrotomEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
 	db 1, TAIL_WHIP

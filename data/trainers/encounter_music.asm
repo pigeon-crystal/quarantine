@@ -71,3 +71,4 @@ TrainerEncounterMusic::
 	db MUSIC_ROCKET_ENCOUNTER      ; gruntf
 	db MUSIC_HIKER_ENCOUNTER       ; mysticalman
 	db MUSIC_POKEMANIAC_ENCOUNTER  ; wizard
+	db MUSIC_SAGE_ENCOUNTER	 	   ; guru

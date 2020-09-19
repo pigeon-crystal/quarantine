@@ -232,8 +232,8 @@ Pokered_MonIndices:
 	db PHANGUARD
 	db BRIGADOOM
 	db ARASBESTOS
-	db WOOPER
-	db QUAGSIRE
+	db ODDITTEN
+	db ASTROTOM
 	db ESPEON
 	db UMBREON
 	db BISMUTT

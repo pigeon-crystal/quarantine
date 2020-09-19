@@ -160,3 +160,5 @@ MoneumennIcon:    INCBIN "gfx/icons/moneumenn.2bpp"
 SnosebleedIcon:   INCBIN "gfx/icons/snosebleed.2bpp"
 SnowupIcon:       INCBIN "gfx/icons/snowup.2bpp"
 SnoverdoseIcon:   INCBIN "gfx/icons/snoverdose.2bpp"
+RyunariIcon:	  INCBIN "gfx/icons/ryunari.2bpp"
+

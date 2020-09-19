@@ -196,10 +196,10 @@ JOHTO_POKEMON EQU const_value
 	const IGGLYBUFF  ; ae
 	const TRANQUIEL  ; af
 	const ALLSEERAPH ; b0
-	const SQWUCKY       ; b1
+	const SQWUCKY    ; b1
 	const XATU       ; b2
 	const YUESBI     ; b3
-	const YUEFOE    ; b4
+	const YUEFOE     ; b4
 	const AMPHAROS   ; b5
 	const PLANTENNA  ; b6
 	const HABBLE     ; b7
@@ -213,8 +213,8 @@ JOHTO_POKEMON EQU const_value
 	const PHANGUARD  ; bf
 	const BRIGADOOM  ; c0
 	const ARASBESTOS ; c1
-	const WOOPER     ; c2
-	const QUAGSIRE   ; c3
+	const ODDITTEN   ; c2
+	const ASTROTOM   ; c3
 	const ESPEON     ; c4
 	const UMBREON    ; c5
 	const BISMUTT    ; c6
@@ -222,7 +222,7 @@ JOHTO_POKEMON EQU const_value
 	const MAULZER 	 ; c8
 	const UNOWN      ; c9
 	const RESPECTRE  ; ca
-	const SWAZZAGE  ; cb
+	const SWAZZAGE   ; cb
 	const PINECO     ; cc
 	const FORRETRESS ; cd
 	const ATTACKO    ; ce dunsparce

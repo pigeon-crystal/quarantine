@@ -534,11 +534,11 @@ KantoGrassWildMons:
 	db 26, CALARMOURI
 	; nite
 	db 23, ELEPHOOT
-	db 23, QUAGSIRE
+	db 23, ASTROTOM
 	db 25, NOCTOWL
 	db 25, PRIPYDERM
-	db 25, QUAGSIRE
-	db 25, QUAGSIRE
+	db 25, ASTROTOM
+	db 25, ASTROTOM
 	db 25, CALARMOURI
 	db 26, CALARMOURI
 
@@ -564,11 +564,11 @@ KantoGrassWildMons:
 	db 30, CALARMOURI
 	; nite
 	db 26, ELEPHOOT
-	db 26, QUAGSIRE
+	db 26, ASTROTOM
 	db 28, NOCTOWL
 	db 28, PRIPYDERM
-	db 28, QUAGSIRE
-	db 28, QUAGSIRE
+	db 28, ASTROTOM
+	db 28, ASTROTOM
 	db 28, CALARMOURI
 	db 30, CALARMOURI
 
@@ -594,11 +594,11 @@ KantoGrassWildMons:
 	db 30, CALARMOURI
 	; nite
 	db 23, ELEPHOOT
-	db 23, QUAGSIRE
+	db 23, ASTROTOM
 	db 25, NOCTOWL
 	db 25, PRIPYDERM
-	db 25, QUAGSIRE
-	db 25, QUAGSIRE
+	db 25, ASTROTOM
+	db 25, ASTROTOM
 	db 25, CALARMOURI
 	db 30, CALARMOURI
 
@@ -837,10 +837,10 @@ KantoGrassWildMons:
 	db 28, NOMSABRE
 	db 32, NOCTOWL
 	db 30, NOMSABRE
-	db 30, QUAGSIRE
-	db 30, QUAGSIRE
-	db 30, QUAGSIRE
-	db 40, QUAGSIRE
+	db 30, ASTROTOM
+	db 30, ASTROTOM
+	db 30, ASTROTOM
+	db 40, ASTROTOM
 
 	map_id ROUTE_27 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -863,14 +863,14 @@ KantoGrassWildMons:
 	db 30, DODRIO
 	db 40, MOPERDOR
 	; nite
-	db 28, QUAGSIRE
+	db 28, ASTROTOM
 	db 28, NOCTOWL
 	db 30, NOMSABRE
-	db 30, QUAGSIRE
+	db 30, ASTROTOM
 	db 32, NOCTOWL
 	db 32, NOCTOWL
 	db 32, NOCTOWL
-	db 40, QUAGSIRE
+	db 40, ASTROTOM
 
 	map_id ROUTE_28 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

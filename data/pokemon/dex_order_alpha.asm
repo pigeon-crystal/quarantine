@@ -175,7 +175,7 @@ AlphabeticalPokedexOrder:
 	db PRIPYDERM
 	db PURRDLE
 	db PUPITAR
-	db QUAGSIRE
+	db ASTROTOM
 	db QWAIL
 	db QWALLOP
 	db RAICHU
@@ -242,7 +242,7 @@ AlphabeticalPokedexOrder:
 	db WIRIGIBLE
 	db WIWRIGHT
 	db WENDIGAUNT
-	db WOOPER
+	db ODDITTEN
 	db WORMACHO
 	db WORMEEK
 	db WYRMOMETER

@@ -5,31 +5,31 @@ JohtoWaterWildMons:
 
 	map_id RUINS_OF_ALPH_OUTSIDE ;done
 	db 2 percent ; encounter rate
-	db 15, WOOPER
-	db 20, QUAGSIRE
-	db 15, QUAGSIRE
-	db 25, QUAGSIRE
+	db 15, ODDITTEN
+	db 20, ASTROTOM
+	db 15, ASTROTOM
+	db 25, ASTROTOM
 
 	map_id UNION_CAVE_1F ;done
 	db 2 percent ; encounter rate
-	db 15, WOOPER
-	db 20, QUAGSIRE
-	db 15, QUAGSIRE
-	db 25, QUAGSIRE
+	db 15, ODDITTEN
+	db 20, ASTROTOM
+	db 15, ASTROTOM
+	db 25, ASTROTOM
 
 	map_id UNION_CAVE_B1F ;done
 	db 2 percent ; encounter rate
-	db 15, WOOPER
-	db 20, QUAGSIRE
-	db 15, QUAGSIRE
-	db 25, QUAGSIRE
+	db 15, ODDITTEN
+	db 20, ASTROTOM
+	db 15, ASTROTOM
+	db 25, ASTROTOM
 
 	map_id UNION_CAVE_B2F ;done
 	db 4 percent ; encounter rate
 	db 15, TENTACOOL
-	db 20, QUAGSIRE
+	db 20, ASTROTOM
 	db 20, TENTACRUEL
-	db 25, QUAGSIRE
+	db 25, ASTROTOM
 
 	map_id SLOWPOKE_WELL_B1F ;done
 	db 2 percent ; encounter rate
@@ -146,9 +146,9 @@ JohtoWaterWildMons:
 	map_id ROUTE_32 ;done
 	db 6 percent ; encounter rate
 	db 15, TENTACOOL
-	db 20, QUAGSIRE
+	db 20, ASTROTOM
 	db 20, TENTACRUEL
-	db 25, QUAGSIRE
+	db 25, ASTROTOM
 
 	map_id ROUTE_34 ;done
 	db 6 percent ; encounter rate

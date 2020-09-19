@@ -229,7 +229,7 @@ IvysaurFrontpic:     INCBIN "gfx/pokemon/ivysaur/front.animated.2bpp.lz"
 FurretFrontpic:      INCBIN "gfx/pokemon/furret/front.animated.2bpp.lz"
 RadeonFrontpic:      INCBIN "gfx/pokemon/radeon/front.animated.2bpp.lz"
 HitmonchanFrontpic:  INCBIN "gfx/pokemon/hitmonchan/front.animated.2bpp.lz"
-QuagsireFrontpic:    INCBIN "gfx/pokemon/quagsire/front.animated.2bpp.lz"
+AstrotomFrontpic:    INCBIN "gfx/pokemon/astrotom/front.animated.2bpp.lz"
 
 
 SECTION "Pics 9", ROMX
@@ -346,6 +346,7 @@ CelebiBackpic:       INCBIN "gfx/pokemon/celebi/back.2bpp.lz"
 LanatunBackpic:       INCBIN "gfx/pokemon/lanatun/back.2bpp.lz"
 BugCatcherPic:       INCBIN "gfx/trainers/bug_catcher.2bpp.lz"
 SnorlaxBackpic:      INCBIN "gfx/pokemon/snorlax/back.2bpp.lz"
+GuruPic: 			INCBIN "gfx/trainers/guru.2bpp.lz"
 
 
 SECTION "Pics 12", ROMX
@@ -482,7 +483,7 @@ StiklbratBackpic:     INCBIN "gfx/pokemon/stiklbrat/back.2bpp.lz"
 HelactalFrontpic:       INCBIN "gfx/pokemon/helactal/front.animated.2bpp.lz"
 NavigazerBackpic:      INCBIN "gfx/pokemon/navigazer/back.2bpp.lz"
 CamperPic:           INCBIN "gfx/trainers/camper.2bpp.lz"
-WooperFrontpic:      INCBIN "gfx/pokemon/wooper/front.animated.2bpp.lz"
+OddittenFrontpic:      INCBIN "gfx/pokemon/odditten/front.animated.2bpp.lz"
 NyalleyBackpic:     INCBIN "gfx/pokemon/nyalley/back.2bpp.lz"
 ElephootBackpic:      INCBIN "gfx/pokemon/elephoot/back.2bpp.lz"
 PlantennaBackpic:    INCBIN "gfx/pokemon/plantenna/back.2bpp.lz"
@@ -553,7 +554,7 @@ JasminePic:          INCBIN "gfx/trainers/jasmine.2bpp.lz"
 PinecoBackpic:       INCBIN "gfx/pokemon/pineco/back.2bpp.lz"
 HivemaimFrontpic:    INCBIN "gfx/pokemon/hivemaim/front.animated.2bpp.lz"
 CaddisicleBackpic:   INCBIN "gfx/pokemon/caddisicle/back.2bpp.lz"
-QuagsireBackpic:     INCBIN "gfx/pokemon/quagsire/back.2bpp.lz"
+AstrotomBackpic:     INCBIN "gfx/pokemon/astrotom/back.2bpp.lz"
 WhitneyPic:          INCBIN "gfx/trainers/whitney.2bpp.lz"
 JolteonBackpic:      INCBIN "gfx/pokemon/jolteon/back.2bpp.lz"
 BuzzlingFrontpic:    INCBIN "gfx/pokemon/buzzling/front.animated.2bpp.lz"
@@ -638,7 +639,7 @@ HoatotBackpic:       INCBIN "gfx/pokemon/hoatot/back.2bpp.lz"
 
 SECTION "Pics 18", ROMX
 
-WooperBackpic:       INCBIN "gfx/pokemon/wooper/back.2bpp.lz"
+OddittenBackpic:       INCBIN "gfx/pokemon/odditten/back.2bpp.lz"
 TaurosBackpic:       INCBIN "gfx/pokemon/tauros/back.2bpp.lz"
 UnownXFrontpic:      INCBIN "gfx/pokemon/unown_x/front.animated.2bpp.lz"
 UnownNFrontpic:      INCBIN "gfx/pokemon/unown_n/front.animated.2bpp.lz"

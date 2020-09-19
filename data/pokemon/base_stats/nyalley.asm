@@ -4,8 +4,8 @@
 	;   hp   atk  def  spd   sat  sdf
 
 	db PSYCHIC_TYPE, FIRE ; type
-	db 150 ; catch rate
-	db 60 ; base exp
+	db 100 ; catch rate
+	db 66 ; base exp
 	db YLW_APRICORN, STARDUST ; items
 	db GENDER_F75 ; gender ratio
 	db 100 ; unknown 1

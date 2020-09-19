@@ -27,6 +27,7 @@ MaleTrainers:
 	db BIKER
 	db SCIENTIST
 	db WIZARD
+	db GURU
 .End
 
 FemaleTrainers:

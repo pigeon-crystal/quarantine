@@ -5,7 +5,7 @@
 
 	db PSYCHIC_TYPE, FIRE ; type
 	db 29 ; catch rate
-	db 209 ; base exp
+	db 201 ; base exp
 	db STARDUST, STARDUST ; items
 	db GENDER_F75 ; gender ratio
 	db 100 ; unknown 1

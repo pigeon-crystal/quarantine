@@ -418,10 +418,10 @@ JohtoGrassWildMons:
 	db 22, SQWUCKY
 	db 18, SQWUCKY
 	db 24, SQWUCKY
-	db 22, WOOPER
-	db 22, QUAGSIRE
-	db 22, QUAGSIRE
-	db 24, QUAGSIRE
+	db 22, ODDITTEN
+	db 22, ASTROTOM
+	db 22, ASTROTOM
+	db 24, ASTROTOM
 
 	map_id RUINS_OF_ALPH_INNER_CHAMBER ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -536,7 +536,7 @@ JohtoGrassWildMons:
 	; nite
 	db 22, STINPEON
 	db 22, SCORPEROR
-	db 22, QUAGSIRE
+	db 22, ASTROTOM
 	db 21, NOMSABRE
 	db 20, DOLMITE
 	db 23, MORADAY

@@ -22,8 +22,8 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; FURNIT
 	icon_pals BROWN,   YELLOW  ; FURDOBA
 	icon_pals BROWN,   YELLOW  ; HORNAMPA
-	icon_pals BROWN,   YELLOW  ; NOMSTER
-	icon_pals PURPLE,   YELLOW ; NOMSABRE
+	icon_pals BROWN,   GREEN  ; NOMSTER
+	icon_pals PURPLE,   GREEN ; NOMSABRE
 	icon_pals BROWN,   YELLOW  ; QWAIL
 	icon_pals BROWN,   YELLOW  ; QWALLOP
 	icon_pals RED,   BLUE      ; WYRMOMETER
@@ -192,13 +192,13 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; POLITOED
 	icon_pals RED,   YELLOW    ; SHABBYCAT
 	icon_pals RED,   YELLOW    ; PURRDLE
-	icon_pals RED,   YELLOW    ; MEOWTAIN
+	icon_pals RED,   PURPLE    ; MEOWTAIN
 	icon_pals GRAY,   YELLOW   ; HOPLAQUE
 	icon_pals GRAY,   YELLOW   ; PHANGUARD
 	icon_pals GRAY,   YELLOW   ; BRIGADOOM
 	icon_pals PURPLE,   YELLOW ; ARASBESTOS
-	icon_pals RED,   YELLOW    ; WOOPER
-	icon_pals RED,   YELLOW    ; QUAGSIRE
+	icon_pals RED,   YELLOW    ; ODDITTEN
+	icon_pals RED,   YELLOW    ; ASTROTOM
 	icon_pals RED,   YELLOW    ; ESPEON
 	icon_pals RED,   YELLOW    ; UMBREON
 	icon_pals BROWN,   YELLOW    ; BISMUTT
@@ -209,7 +209,7 @@ MonMenuIconPals:
 	icon_pals BLUE,   YELLOW    ; SWAZZAGE
 	icon_pals RED,   YELLOW    ; PINECO
 	icon_pals RED,   YELLOW    ; FORTRESS
-	icon_pals PINK,   YELLOW   ; ATTACKO
+	icon_pals YELLOW,   PINK   ; ATTACKO
 	icon_pals BROWN,   YELLOW  ; WIWRIGHT
 	icon_pals BROWN,   YELLOW    ; WIRIGIBLE
 	icon_pals RED,   YELLOW    ; ZASTER

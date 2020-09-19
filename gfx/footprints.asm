@@ -443,8 +443,8 @@ INCBIN "gfx/footprints/phanguard.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/brigadoom.1bpp",   footprint_bottom
 ; 193-200 top halves
 INCBIN "gfx/footprints/arasbestos.1bpp",      footprint_top
-INCBIN "gfx/footprints/wooper.1bpp",     footprint_top
-INCBIN "gfx/footprints/quagsire.1bpp",   footprint_top
+INCBIN "gfx/footprints/odditten.1bpp",     footprint_top
+INCBIN "gfx/footprints/astrotom.1bpp",   footprint_top
 INCBIN "gfx/footprints/espeon.1bpp",     footprint_top
 INCBIN "gfx/footprints/umbreon.1bpp",    footprint_top
 INCBIN "gfx/footprints/bismutt.1bpp",    footprint_top
@@ -452,8 +452,8 @@ INCBIN "gfx/footprints/tido.1bpp",   footprint_top
 INCBIN "gfx/footprints/maulzer.1bpp", footprint_top
 ; 193-200 bottom halves
 INCBIN "gfx/footprints/arasbestos.1bpp",      footprint_bottom
-INCBIN "gfx/footprints/wooper.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/quagsire.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/odditten.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/astrotom.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/espeon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/umbreon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/bismutt.1bpp",    footprint_bottom

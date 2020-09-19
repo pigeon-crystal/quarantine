@@ -193,8 +193,8 @@ PokedexDataPointerTable:
 	dw PhanguardPokedexEntry
 	dw BrigadoomPokedexEntry
 	dw ArasbestosPokedexEntry
-	dw WooperPokedexEntry
-	dw QuagsirePokedexEntry
+	dw OddittenPokedexEntry
+	dw AstrotomPokedexEntry
 	dw EspeonPokedexEntry
 	dw UmbreonPokedexEntry
 	dw BismuttPokedexEntry

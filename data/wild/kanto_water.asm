@@ -48,16 +48,16 @@ KantoWaterWildMons:
 	map_id ROUTE_12
 	db 6 percent ; encounter rate
 	db 25, TENTACOOL
-	db 25, QUAGSIRE
+	db 25, ASTROTOM
 	db 25, TENTACRUEL
 	db 26, TENTACRUEL
 
 	map_id ROUTE_13
 	db 6 percent ; encounter rate
 	db 25, TENTACOOL
-	db 25, QUAGSIRE
+	db 25, ASTROTOM
 	db 25, TENTACRUEL
-	db 30, QUAGSIRE
+	db 30, ASTROTOM
 
 	map_id ROUTE_19
 	db 6 percent ; encounter rate
