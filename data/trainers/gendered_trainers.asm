@@ -28,6 +28,8 @@ MaleTrainers:
 	db SCIENTIST
 	db WIZARD
 	db GURU
+	db CHEATER
+	db ENFORCER
 .End
 
 FemaleTrainers:

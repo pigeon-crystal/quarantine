@@ -70,4 +70,5 @@ TrainerGroups:
 	dba MysticalmanGroup
 	dba WizardGroup
 	dba GuruGroup
-
+	dba CheaterGroup
+	dba EnforcerGroup

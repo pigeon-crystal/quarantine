@@ -70,3 +70,5 @@ BTTrainerClassGenders:
 	db FEMALE ; GRUNTF
 	db MALE   ; MYSTICALMAN
 	db MALE   ; WIZARD
+	db MALE	  ; CHEATER
+	db MALE   ; ENFORCER

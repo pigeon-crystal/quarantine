@@ -707,4 +707,9 @@ KRIS EQU __enum__
 	const LI_GURU
 	const GOJEE
 	
+	trainerclass CHEATER ; 46
+	
+	trainerclass ENFORCER ; 47
+	const ENFORCER_1
+		
 NUM_TRAINER_CLASSES EQU __enum__

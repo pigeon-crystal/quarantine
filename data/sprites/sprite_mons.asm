@@ -45,3 +45,4 @@ SpriteMons:
 	db SHABBYCAT
 	db SLAATEL
 	db WORMACHO
+	

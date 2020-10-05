@@ -69,5 +69,7 @@ TrainerClassDVs:
 	dn  7, 14, 10,  8 ; GRUNTF
 	dn  9,  8,  8,  8 ; MYSTICALMAN
 	dn 11, 14, 15, 15 ; WIZARD
-	dn 15, 13, 13, 14 ; GURU
+	dn 13, 13, 13, 14 ; GURU
+	dn 15, 14, 15, 15 ; CHEATER
+	dn 11,  7, 10,  9 ; ENFORCER
 	

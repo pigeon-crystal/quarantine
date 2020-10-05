@@ -109,5 +109,9 @@ OverworldSprites:
 	overworld_sprite RaikouSpriteGFX, 4, STILL_SPRITE, PAL_OW_RED
 	overworld_sprite StandingYoungsterSpriteGFX, 12, STANDING_SPRITE, PAL_OW_BLUE
 	overworld_sprite BigMeowtainSpriteGFX, 12, STANDING_SPRITE, PAL_OW_RED
-	overworld_sprite NyalleyOWSpriteGFX, 12, STANDING_SPRITE, PAL_OW_PINK
-	overworld_sprite TidoswimSpriteGFX, 12, STANDING_SPRITE, PAL_OW_BLUE
+	overworld_sprite NyalleyOWSpriteGFX, 12, WALKING_SPRITE, PAL_OW_PINK
+	overworld_sprite TidoswimSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite WizardSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite CheaterSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
+	overworld_sprite EnforcerSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite GuruSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN

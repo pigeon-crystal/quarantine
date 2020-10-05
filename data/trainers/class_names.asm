@@ -65,7 +65,9 @@ TrainerClassNames::
 	db "<PKMN> TRAINER@"
 	db "LEADER@"
 	db "OFFICER@"
-	db "ROCKET@"
+	db "ROCKET@" ;GRUNT F
 	db "MYSTICALMAN@"
 	db "WIZARD@"
 	db "GURU@"
+	db "CHEATER@"
+	db "ROCKET@" ;enforcers

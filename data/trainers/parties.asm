@@ -3680,3 +3680,14 @@ GuruGroup:
 		db SUNNY_DAY, SOLARBEAM, SUBSTITUTE, SPORE
 	db -1 ; end
 	
+CheaterGroup:
+
+EnforcerGroup:
+	; GRUNTM (1) Well Boss
+	db "ENFORCER@", TRAINERTYPE_ITEM
+	db 17, NOMSTER, BERRY
+	db 17, CUTTLE, NO_ITEM
+	db 19, CLIBBLE, NO_ITEM
+	db 18, STRANGLURE, BERRY
+	db -1 ; end
+	

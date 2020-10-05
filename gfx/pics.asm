@@ -719,6 +719,8 @@ JigglypuffBackpic:   INCBIN "gfx/pokemon/jigglypuff/back.2bpp.lz"
 EukubBackpic:       INCBIN "gfx/pokemon/eukub/back.2bpp.lz"
 UnownDBackpic:       INCBIN "gfx/pokemon/unown_d/back.2bpp.lz"
 WizardPic:        INCBIN "gfx/trainers/wizard.2bpp.lz"
+CheaterPic:       INCBIN "gfx/trainers/cheater.2bpp.lz"
+EnforcerPic:	  INCBIN "gfx/trainers/enforcer.2bpp.lz"
 
 ; Sections "Pics 20" to "Pics 24" are not used for any graphics,
 ; but entries for their banks exist in FixPicBank (see engine/gfx/load_pics.asm).

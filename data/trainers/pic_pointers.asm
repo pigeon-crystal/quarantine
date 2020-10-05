@@ -71,3 +71,5 @@ TrainerPicPointers::
 	dba_pic MysticalmanPic
 	dba_pic WizardPic
 	dba_pic GuruPic
+	dba_pic CheaterPic
+	dba_pic EnforcerPic

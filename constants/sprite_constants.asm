@@ -107,6 +107,10 @@
 	const SPRITE_BIG_MEOWTAIN ; 67
 	const SPRITE_NYALLEY_OW ; 68
 	const SPRITE_TIDOSWIM ; 69
+	const SPRITE_WIZARD ; 6a
+	const SPRITE_CHEATER ; 6b
+	const SPRITE_ENFORCER ; 6c
+	const SPRITE_GURU	; 6d
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)
 	const_def $80

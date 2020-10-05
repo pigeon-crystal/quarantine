@@ -112,3 +112,7 @@ SECTION "Sprites 3", ROMX
 BigMeowtainSpriteGFX:: 		   INCBIN "gfx/sprites/big_meowtain.2bpp"
 NyalleyOWSpriteGFX::           INCBIN "gfx/sprites/nyalley_ow.2bpp"
 TidoswimSpriteGFX::            INCBIN "gfx/sprites/tidoswim.2bpp"
+WizardSpriteGFX::			   INCBIN "gfx/sprites/wizard.2bpp"
+CheaterSpriteGFX::			   INCBIN "gfx/sprites/cheater.2bpp"
+EnforcerSpriteGFX::			   INCBIN "gfx/sprites/enforcer.2bpp"
+GuruSpriteGFX::				   INCBIN "gfx/sprites/guru.2bpp"
