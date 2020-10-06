@@ -115,7 +115,7 @@ NewPokedexOrder:
 	db RESPECTRE
 	db ELEPHOOT
 	db PRIPYDERM
-	db SCYTHER
+	db BOWLIDE
 	db SCIZOR
 	db PINSIR
 	db HERACROSS

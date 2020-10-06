@@ -121,7 +121,7 @@ PokemonNames::
 	db "PEAUTY@@@@"
 	db "PEEKEYE@@@"
 	db "PEACOLDER@"
-	db "SCYTHER@@@"
+	db "BOWLIDE@@@"
 	db "CLIBBLE@@@"
 	db "GIGUARD@@@"
 	db "GIGERATOR@"

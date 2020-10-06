@@ -73,3 +73,7 @@ TrainerPicPointers::
 	dba_pic GuruPic
 	dba_pic CheaterPic
 	dba_pic EnforcerPic
+	dba_pic AthleteFPic
+	dba_pic AthleteMPic
+	dba_pic FanaticRedPic
+	dba_pic FanaticBluePic

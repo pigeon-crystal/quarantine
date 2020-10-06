@@ -72,3 +72,7 @@ BTTrainerClassGenders:
 	db MALE   ; WIZARD
 	db MALE	  ; CHEATER
 	db MALE   ; ENFORCER
+	db FEMALE ; ATHLETE_F
+	db MALE	  ; ATHLETE_M
+	db FEMALE ; FANATIC_RED
+	db FEMALE ; FAANTIC_BLUE

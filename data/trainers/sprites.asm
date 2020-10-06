@@ -71,4 +71,8 @@ BTTrainerClassSprites:
 	db SPRITE_GURU
 	db SPRITE_CHEATER
 	db SPRITE_ENFORCER
+	db SPRITE_BUENA ; athlete F
+	db SPRITE_COOLTRAINER_M ; athlete M
+	db SPRITE_LASS ; FanaticRed
+	db SPRITE_LASS ; FanaticBlue
 	

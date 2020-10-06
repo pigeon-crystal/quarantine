@@ -362,7 +362,7 @@ PeautyEggMoves:
 	db SPITE
 	db -1 ; end
 
-ScytherEggMoves:
+BowlideEggMoves:
 	db COUNTER
 	db SAFEGUARD
 	db BATON_PASS

@@ -191,7 +191,7 @@ AlphabeticalPokedexOrder:
 	db SCORCHOPPR
 	db SCORPEROR
 	db SCRUFFRUIT
-	db SCYTHER
+	db BOWLIDE
 	db SHABBYCAT
 	db SHAMSEL
 	db SHELLDER

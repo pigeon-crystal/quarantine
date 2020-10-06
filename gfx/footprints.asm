@@ -282,7 +282,7 @@ INCBIN "gfx/footprints/peauty.1bpp",     footprint_bottom
 ; 121-128 top halves
 INCBIN "gfx/footprints/peekeye.1bpp",    footprint_top
 INCBIN "gfx/footprints/peacolder.1bpp",   footprint_top
-INCBIN "gfx/footprints/scyther.1bpp",    footprint_top
+INCBIN "gfx/footprints/bowlide.1bpp",    footprint_top
 INCBIN "gfx/footprints/clibble.1bpp",       footprint_top
 INCBIN "gfx/footprints/giguard.1bpp", footprint_top
 INCBIN "gfx/footprints/gigerator.1bpp",     footprint_top
@@ -291,7 +291,7 @@ INCBIN "gfx/footprints/tauros.1bpp",     footprint_top
 ; 121-128 bottom halves
 INCBIN "gfx/footprints/peekeye.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/peacolder.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/scyther.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/bowlide.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/clibble.1bpp",       footprint_bottom
 INCBIN "gfx/footprints/giguard.1bpp", footprint_bottom
 INCBIN "gfx/footprints/gigerator.1bpp",     footprint_bottom

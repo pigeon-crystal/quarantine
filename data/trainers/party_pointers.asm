@@ -72,3 +72,8 @@ TrainerGroups:
 	dba GuruGroup
 	dba CheaterGroup
 	dba EnforcerGroup
+	dba AthleteFGroup
+	dba AthleteMGroup
+	dba FanaticRedGroup
+	dba FanaticBlueGroup
+	

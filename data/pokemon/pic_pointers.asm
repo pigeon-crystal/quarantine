@@ -246,8 +246,8 @@ PokemonPicPointers::
 	dba_pic PeekeyeBackpic
 	dba_pic PeacolderFrontpic
 	dba_pic PeacolderBackpic
-	dba_pic ScytherFrontpic
-	dba_pic ScytherBackpic
+	dba_pic BowlideFrontpic
+	dba_pic BowlideBackpic
 	dba_pic ClibbleFrontpic
 	dba_pic ClibbleBackpic
 	dba_pic GiguardFrontpic

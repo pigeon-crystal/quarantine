@@ -711,5 +711,13 @@ KRIS EQU __enum__
 	
 	trainerclass ENFORCER ; 47
 	const ENFORCER_1
+	
+	trainerclass ATHLETE_F ; 48
+	
+	trainerclass ATHLETE_M ; 49
+	
+	trainerclass FANATIC_RED ; 4a
+	
+	trainerclass FANATIC_BLUE ; 4b
 		
 NUM_TRAINER_CLASSES EQU __enum__

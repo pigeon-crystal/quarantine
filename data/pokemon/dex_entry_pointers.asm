@@ -122,7 +122,7 @@ PokedexDataPointerTable:
 	dw PeautyPokedexEntry
 	dw PeekeyePokedexEntry
 	dw PeacolderPokedexEntry
-	dw ScytherPokedexEntry
+	dw BowlidePokedexEntry
 	dw ClibblePokedexEntry
 	dw GiguardPokedexEntry
 	dw GigeratorPokedexEntry

@@ -72,4 +72,8 @@ TrainerClassDVs:
 	dn 13, 13, 13, 14 ; GURU
 	dn 15, 14, 15, 15 ; CHEATER
 	dn 11,  7, 10,  9 ; ENFORCER
+	dn  7, 12, 12,  8 ; ATHLETEF
+	dn 13,  8, 12,  8 ; ATHLETEM	
+	dn  7, 12, 12,  8 ; FANATICRED
+	dn  7, 12, 12,  8 ; FANATICBLUE
 	

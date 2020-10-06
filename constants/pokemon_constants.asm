@@ -141,7 +141,7 @@
 	const PEAUTY     ; 78
 	const PEEKEYE    ; 79
 	const PEACOLDER  ; 7a
-	const SCYTHER    ; 7b
+	const BOWLIDE    ; 7b
 	const CLIBBLE    ; 7c
 	const GIGUARD    ; 7d
 	const GIGERATOR  ; 7e

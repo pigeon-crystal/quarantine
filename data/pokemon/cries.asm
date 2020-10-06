@@ -127,7 +127,7 @@ PokemonCries::
 	mon_cry CRY_PARAS,        50,  160 ; PEAUTY
 	mon_cry CRY_PARAS,        53,  256 ; PEEKEYE
 	mon_cry CRY_KRABBY,      200,  192 ; PEACOLDER
-	mon_cry CRY_CATERPIE,      0,  256 ; SCYTHER
+	mon_cry CRY_CATERPIE,      0,  256 ; BOWLIDE
 	mon_cry CRY_DROWZEE,     500,  176 ; CLIBBLE
 	mon_cry CRY_VOLTORB,     100,  333 ; GIGUARD   ;orig electabuzz
 	mon_cry CRY_VOLTORB,      50,  333 ; GIGERATOR ;orig magmar

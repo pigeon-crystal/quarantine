@@ -126,7 +126,7 @@ MonMenuIconPals:
 	icon_pals BLUE,     YELLOW ; PEAUTY
 	icon_pals BLUE,     YELLOW ; PEEKEYE
 	icon_pals PURPLE,   YELLOW ; PEACOLDER
-	icon_pals BROWN,   YELLOW  ; SCYTHER
+	icon_pals BROWN,   YELLOW  ; BOWLIDE
 	icon_pals GRAY,   YELLOW  ; CLIBBLE
 	icon_pals GRAY,   YELLOW  ; GIGUARD
 	icon_pals GRAY,   YELLOW  ; GIGERATOR

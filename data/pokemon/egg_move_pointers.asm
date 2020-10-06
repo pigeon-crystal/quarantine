@@ -121,7 +121,7 @@ EggMovePointers::
 	dw PeautyEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw ScytherEggMoves
+	dw BowlideEggMoves
 	dw ClibbleEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

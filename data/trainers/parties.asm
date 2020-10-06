@@ -3647,15 +3647,15 @@ GuruGroup:
 	; GURU (1) ;sprout boss
 	db "LI@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 10, LAWNIE
-		dw $71F1, $5211, $626A, $9190, $510D
+		dw $71F1, $5211, $626A, $9190, $F10D
 		db BERRY
 		db BEAT_UP, DIG, SWIFT, NO_MOVE
 	db 10, FLUFFRUIT
-		dw $7F1D, $7F6F, $7D1D, $7710, $710D
+		dw $7F1D, $7F6F, $7D3D, $7710, $710D
 		db MIRACLE_SEED
 		db ABSORB, GROWTH, GUST, ATTRACT
 	db 12, LAWNIE
-		dw $7EBA, $7EBA, $7EBA, $7EBA, $7EBA
+		dw $9EBA, $9EBA, $7EBA, $7EBA, $7EBA
 		db BERRY
 		db REST, SNORE, FLASH, DIG
 	db -1 ; end
@@ -3690,4 +3690,12 @@ EnforcerGroup:
 	db 19, CLIBBLE, NO_ITEM
 	db 18, STRANGLURE, BERRY
 	db -1 ; end
-	
+
+AthleteFGroup:
+
+AthleteMGroup:
+
+FanaticRedGroup:
+
+FanaticBlueGroup:
+

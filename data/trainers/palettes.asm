@@ -78,3 +78,8 @@ INCBIN "gfx/trainers/wizard.gbcpal", middle_colors
 INCBIN "gfx/trainers/guru.gbcpal", middle_colors
 INCBIN "gfx/trainers/cheater.gbcpal", middle_colors
 INCBIN "gfx/trainers/enforcer.gbcpal", middle_colors
+INCBIN "gfx/trainers/athlete_f.gbcpal", middle_colors
+INCBIN "gfx/trainers/athlete_m.gbcpal", middle_colors
+INCBIN "gfx/trainers/fanatic_red.gbcpal", middle_colors
+INCBIN "gfx/trainers/fanatic_blue.gbcpal", middle_colors
+

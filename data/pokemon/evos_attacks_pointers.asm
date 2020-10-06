@@ -123,7 +123,7 @@ EvosAttacksPointers::
 	dw PeautyEvosAttacks
 	dw PeekeyeEvosAttacks
 	dw PeacolderEvosAttacks
-	dw ScytherEvosAttacks
+	dw BowlideEvosAttacks
 	dw ClibbleEvosAttacks
 	dw GiguardEvosAttacks
 	dw GigeratorEvosAttacks

@@ -30,6 +30,7 @@ MaleTrainers:
 	db GURU
 	db CHEATER
 	db ENFORCER
+	db ATHLETE_M
 .End
 
 FemaleTrainers:
@@ -43,4 +44,7 @@ FemaleTrainers:
 	db KIMONO_GIRL
 	db POKEFANF
 	db COOLTRAINERF
+	db ATHLETE_F
+	db FANATIC_RED
+	db FANATIC_BLUE
 .End

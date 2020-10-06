@@ -74,3 +74,8 @@ TrainerEncounterMusic::
 	db MUSIC_SAGE_ENCOUNTER	 	   ; guru
 	db MUSIC_POKEMANIAC_ENCOUNTER  ; cheater
 	db MUSIC_ROCKET_ENCOUNTER		; enforcer
+	db MUSIC_BEAUTY_ENCOUNTER      ; athletef
+	db MUSIC_HIKER_ENCOUNTER		; athletem
+	db MUSIC_LASS_ENCOUNTER			; fanatic red
+	db MUSIC_LASS_ENCOUNTER			; fanatic blue
+	

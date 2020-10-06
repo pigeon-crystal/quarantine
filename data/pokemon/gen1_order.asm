@@ -24,7 +24,7 @@ Pokered_MonIndices:
 	db SHELLDER
 	db TENTACOOL
 	db FLUFFRUIT
-	db SCYTHER
+	db BOWLIDE
 	db PEAUTY
 	db BLASTOISE
 	db PINSIR

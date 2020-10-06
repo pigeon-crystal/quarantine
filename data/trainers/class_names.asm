@@ -71,3 +71,8 @@ TrainerClassNames::
 	db "GURU@"
 	db "CHEATER@"
 	db "ROCKET@" ;enforcers
+	db "ATHLETE@" ; F
+	db "ATHLETE@" ; M
+	db "#FANATIC@" ; red
+	db "#FANATIC@" ; blue
+	

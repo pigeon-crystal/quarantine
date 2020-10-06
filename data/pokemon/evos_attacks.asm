@@ -2039,7 +2039,7 @@ PeacolderEvosAttacks:
 	db 55, PSYCHIC_M
 	db 0 ; no more level-up moves
 
-ScytherEvosAttacks:
+BowlideEvosAttacks:
 	db EVOLVE_TRADE, METAL_COAT, SCIZOR
 	db 0 ; no more evolutions
 	db 1, QUICK_ATTACK
