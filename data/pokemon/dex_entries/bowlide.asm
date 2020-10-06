@@ -1,10 +1,10 @@
 	db "ESPER FISH@" ; species name
 	dw 511, 010 ; height, weight
 
-	db   "Filler"
-	next "filler"
-	next "filler"
+	db   "BOWLIDE seek"
+	next "solitude in the"
+	next "depths of caves"
 
-	page "filler"
-	next "filler"
-	next "filler.@"
+	page "as they hone their"
+	next "psychokinetic"
+	next "powers.@"

@@ -118,10 +118,6 @@ CianwoodCityPokefanM:
 CianwoodCityLass:
 	jumptextfaceplayer CianwoodCityLassText
 
-CianwoodCityUnusedScript:
-; unreferenced
-	jumptextfaceplayer CianwoodCityUnusedText
-
 CianwoodCitySign:
 	jumptext CianwoodCitySignText
 
@@ -138,7 +134,6 @@ CianwoodPokeSeerSign:
 	jumptext CianwoodPokeSeerSignText
 
 CianwoodPokecenterSign:
-	warp SLOWPOKE_WELL_B1F, 6, 3
 	jumpstd pokecentersign
 
 CianwoodCityRock:
