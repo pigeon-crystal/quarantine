@@ -213,7 +213,7 @@ AlphabeticalPokedexOrder:
 	db STIKLBRAT
 	db STINPEON
 	db STRANGLURE
-	db SUDOWOODO
+	db PARDNER
 	db RYUNARI
 	db SWAZZAGE
 	db TAUROS

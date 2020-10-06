@@ -223,7 +223,7 @@ Pokered_MonIndices:
 	db PLANTENNA
 	db HABBLE
 	db SATELISK
-	db SUDOWOODO
+	db PARDNER
 	db POLITOED
 	db SHABBYCAT
 	db PURRDLE

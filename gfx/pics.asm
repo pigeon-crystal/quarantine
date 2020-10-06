@@ -235,7 +235,7 @@ AstrotomFrontpic:    INCBIN "gfx/pokemon/astrotom/front.animated.2bpp.lz"
 SECTION "Pics 9", ROMX
 
 WyrmometerFrontpic:       INCBIN "gfx/pokemon/wyrmometer/front.animated.2bpp.lz"
-SudowoodoFrontpic:   INCBIN "gfx/pokemon/sudowoodo/front.animated.2bpp.lz"
+PardnerFrontpic:   INCBIN "gfx/pokemon/pardner/front.animated.2bpp.lz"
 PikachuFrontpic:     INCBIN "gfx/pokemon/pikachu/front.animated.2bpp.lz"
 MadrugasaFrontpic:      INCBIN "gfx/pokemon/madrugasa/front.animated.2bpp.lz"
 MagbyFrontpic:       INCBIN "gfx/pokemon/magby/front.animated.2bpp.lz"
@@ -443,7 +443,7 @@ ElectrodeFrontpic:   INCBIN "gfx/pokemon/electrode/front.animated.2bpp.lz"
 
 SECTION "Pics 14", ROMX
 
-SudowoodoBackpic:    INCBIN "gfx/pokemon/sudowoodo/back.2bpp.lz"
+PardnerBackpic:    INCBIN "gfx/pokemon/pardner/back.2bpp.lz"
 YuefoeBackpic:      INCBIN "gfx/pokemon/yuefoe/back.2bpp.lz"
 WendigauntFrontpic:     INCBIN "gfx/pokemon/wendigaunt/front.animated.2bpp.lz"
 AllseeraphBackpic:      INCBIN "gfx/pokemon/allseeraph/back.2bpp.lz"

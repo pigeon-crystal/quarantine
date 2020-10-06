@@ -204,7 +204,7 @@ JOHTO_POKEMON EQU const_value
 	const PLANTENNA  ; b6
 	const HABBLE     ; b7
 	const SATELISK   ; b8
-	const SUDOWOODO  ; b9
+	const PARDNER  ; b9
 	const POLITOED   ; ba
 	const SHABBYCAT  ; bb
 	const PURRDLE    ; bc

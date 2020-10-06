@@ -188,7 +188,7 @@ MonMenuIconPals:
 	icon_pals GRAY,   YELLOW   ; PLANTENNA
 	icon_pals GRAY,   YELLOW   ; HABBLE
 	icon_pals GRAY,   YELLOW   ; SATELISK
-	icon_pals BROWN,   YELLOW  ; SUDOWOODO
+	icon_pals BROWN,   YELLOW  ; PARDNER
 	icon_pals BROWN,   YELLOW  ; POLITOED
 	icon_pals RED,   YELLOW    ; SHABBYCAT
 	icon_pals RED,   YELLOW    ; PURRDLE

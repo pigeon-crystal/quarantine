@@ -3015,7 +3015,7 @@ SateliskEvosAttacks:
 	db 51, PSYCHIC_M
 	db 0 ; no more level-up moves
 
-SudowoodoEvosAttacks:
+PardnerEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, ROCK_THROW
 	db 1, MIMIC

@@ -183,7 +183,7 @@ EggMovePointers::
 	dw PlantennaEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw SudowoodoEggMoves
+	dw PardnerEggMoves
 	dw NoEggMoves
 	dw ShabbycatEggMoves
 	dw NoEggMoves

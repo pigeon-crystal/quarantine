@@ -185,7 +185,7 @@ EvosAttacksPointers::
 	dw PlantennaEvosAttacks
 	dw HabbleEvosAttacks
 	dw SateliskEvosAttacks
-	dw SudowoodoEvosAttacks
+	dw PardnerEvosAttacks
 	dw PolitoedEvosAttacks
 	dw ShabbycatEvosAttacks
 	dw PurrdleEvosAttacks

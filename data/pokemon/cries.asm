@@ -189,7 +189,7 @@ PokemonCries::
 	mon_cry CRY_NATU,        100,  111 ; PLANTENNA
 	mon_cry CRY_NATU,        180,  333 ; HABBLE
 	mon_cry CRY_NATU,       -229,  455 ; SATELISK
-	mon_cry CRY_CLEFFA,     3904,  384 ; SUDOWOODO
+	mon_cry CRY_CLEFFA,     3904,  384 ; PARDNER
 	mon_cry CRY_CLEFFA,     -675,  456 ; POLITOED
 	mon_cry CRY_CLEFAIRY,    199,  169 ; SHABBYCAT orig HOPPIP
 	mon_cry CRY_CLEFAIRY,    100,  169 ; PURRDLE

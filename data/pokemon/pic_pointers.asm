@@ -370,8 +370,8 @@ PokemonPicPointers::
 	dba_pic HabbleBackpic
 	dba_pic SateliskFrontpic
 	dba_pic SateliskBackpic
-	dba_pic SudowoodoFrontpic
-	dba_pic SudowoodoBackpic
+	dba_pic PardnerFrontpic
+	dba_pic PardnerBackpic
 	dba_pic PolitoedFrontpic
 	dba_pic PolitoedBackpic
 	dba_pic ShabbycatFrontpic

@@ -545,7 +545,7 @@ PlantennaEggMoves:
 	db SPITE
 	db -1 ; end
 
-SudowoodoEggMoves:
+PardnerEggMoves:
 	db SELFDESTRUCT
 	db -1 ; end
 

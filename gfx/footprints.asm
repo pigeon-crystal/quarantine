@@ -424,7 +424,7 @@ INCBIN "gfx/footprints/plantenna.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/habble.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/satelisk.1bpp",  footprint_bottom
 ; 185-192 top halves
-INCBIN "gfx/footprints/sudowoodo.1bpp",  footprint_top
+INCBIN "gfx/footprints/pardner.1bpp",  footprint_top
 INCBIN "gfx/footprints/politoed.1bpp",   footprint_top
 INCBIN "gfx/footprints/shabbycat.1bpp",     footprint_top
 INCBIN "gfx/footprints/purrdle.1bpp",   footprint_top
@@ -433,7 +433,7 @@ INCBIN "gfx/footprints/hoplaque.1bpp",      footprint_top
 INCBIN "gfx/footprints/phanguard.1bpp",    footprint_top
 INCBIN "gfx/footprints/brigadoom.1bpp",   footprint_top
 ; 185-192 bottom halves
-INCBIN "gfx/footprints/sudowoodo.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/pardner.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/politoed.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/shabbycat.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/purrdle.1bpp",   footprint_bottom

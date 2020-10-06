@@ -184,7 +184,7 @@ PokedexDataPointerTable:
 	dw PlantennaPokedexEntry
 	dw HabblePokedexEntry
 	dw SateliskPokedexEntry
-	dw SudowoodoPokedexEntry
+	dw PardnerPokedexEntry
 	dw PolitoedPokedexEntry
 	dw ShabbycatPokedexEntry
 	dw PurrdlePokedexEntry
