@@ -77,3 +77,4 @@ TrainerPicPointers::
 	dba_pic AthleteMPic
 	dba_pic FanaticRedPic
 	dba_pic FanaticBluePic
+	dba_pic WarriorPic

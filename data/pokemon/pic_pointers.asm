@@ -254,8 +254,8 @@ PokemonPicPointers::
 	dba_pic GiguardBackpic
 	dba_pic GigeratorFrontpic
 	dba_pic GigeratorBackpic
-	dba_pic PinsirFrontpic
-	dba_pic PinsirBackpic
+	dba_pic BermudantFrontpic
+	dba_pic BermudantBackpic
 	dba_pic TaurosFrontpic
 	dba_pic TaurosBackpic
 	dba_pic MagikarpFrontpic

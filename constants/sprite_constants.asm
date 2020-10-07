@@ -111,6 +111,8 @@
 	const SPRITE_CHEATER ; 6b
 	const SPRITE_ENFORCER ; 6c
 	const SPRITE_GURU	; 6d
+	const SPRITE_FANATIC ; 6e
+	const SPRITE_ATHLETE_M ; 6f
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)
 	const_def $80

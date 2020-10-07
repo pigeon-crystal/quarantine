@@ -27,7 +27,7 @@ Pokered_MonIndices:
 	db BOWLIDE
 	db PEAUTY
 	db BLASTOISE
-	db PINSIR
+	db BERMUDANT
 	db ANTPYRE
 	db SCIZOR ; MISSINGNO.
 	db SHUCKLE ; MISSINGNO.

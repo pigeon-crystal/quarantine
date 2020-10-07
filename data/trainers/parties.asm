@@ -1644,7 +1644,7 @@ BugCatcherGroup:
 	; BUG_CATCHER (9)
 	db "KEN@", TRAINERTYPE_NORMAL
 	db 30, GRUBBOID
-	db 32, PINSIR
+	db 32, BERMUDANT
 	db -1 ; end
 
 	; BUG_CATCHER (10)

@@ -108,7 +108,7 @@ NidorinoFrontpic:    INCBIN "gfx/pokemon/nidorino/front.animated.2bpp.lz"
 DunefinFrontpic:   INCBIN "gfx/pokemon/dunefin/front.animated.2bpp.lz"
 JolteonFrontpic:     INCBIN "gfx/pokemon/jolteon/front.animated.2bpp.lz"
 MoneumennFrontpic:     INCBIN "gfx/pokemon/moneumenn/front.animated.2bpp.lz"
-PinsirFrontpic:      INCBIN "gfx/pokemon/pinsir/front.animated.2bpp.lz"
+BermudantFrontpic:      INCBIN "gfx/pokemon/bermudant/front.animated.2bpp.lz"
 UnownEFrontpic:      INCBIN "gfx/pokemon/unown_e/front.animated.2bpp.lz"
 
 
@@ -331,7 +331,7 @@ CleffaFrontpic:      INCBIN "gfx/pokemon/cleffa/front.animated.2bpp.lz"
 GyaradosBackpic:     INCBIN "gfx/pokemon/gyarados/back.2bpp.lz"
 NinetalesBackpic:    INCBIN "gfx/pokemon/ninetales/back.2bpp.lz"
 ArasbestosBackpic:        INCBIN "gfx/pokemon/arasbestos/back.2bpp.lz"
-PinsirBackpic:       INCBIN "gfx/pokemon/pinsir/back.2bpp.lz"
+BermudantBackpic:       INCBIN "gfx/pokemon/bermudant/back.2bpp.lz"
 LassPic:             INCBIN "gfx/trainers/lass.2bpp.lz"
 FelioritteBackpic:     INCBIN "gfx/pokemon/felioritte/back.2bpp.lz"
 DoduoFrontpic:       INCBIN "gfx/pokemon/doduo/front.animated.2bpp.lz"
@@ -725,6 +725,7 @@ AthleteFPic:	  INCBIN "gfx/trainers/athlete_f.2bpp.lz"
 AthleteMPic:	  INCBIN "gfx/trainers/athlete_m.2bpp.lz"
 FanaticRedPic:	  INCBIN "gfx/trainers/fanatic_red.2bpp.lz"
 FanaticBluePic:   INCBIN "gfx/trainers/fanatic_blue.2bpp.lz"
+WarriorPic:       INCBIN "gfx/trainers/warrior.2bpp.lz"
 
 ; Sections "Pics 20" to "Pics 24" are not used for any graphics,
 ; but entries for their banks exist in FixPicBank (see engine/gfx/load_pics.asm).

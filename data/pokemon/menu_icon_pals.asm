@@ -130,7 +130,7 @@ MonMenuIconPals:
 	icon_pals GRAY,   YELLOW  ; CLIBBLE
 	icon_pals GRAY,   YELLOW  ; GIGUARD
 	icon_pals GRAY,   YELLOW  ; GIGERATOR
-	icon_pals BROWN,   YELLOW  ; PINSIR
+	icon_pals BROWN,   YELLOW  ; BERMUDANT
 	icon_pals BROWN,   YELLOW  ; TAUROS
 	icon_pals BROWN,   YELLOW  ; MAGIKARP
 	icon_pals BROWN,   YELLOW  ; GYARADOS

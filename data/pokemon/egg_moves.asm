@@ -379,7 +379,7 @@ ClibbleEggMoves:
 	db PLAY_ROUGH
 	db -1 ; end
 
-PinsirEggMoves:
+BermudantEggMoves:
 	db FLAIL
 	db -1 ; end
 

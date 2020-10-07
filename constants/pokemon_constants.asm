@@ -145,7 +145,7 @@
 	const CLIBBLE    ; 7c
 	const GIGUARD    ; 7d
 	const GIGERATOR  ; 7e
-	const PINSIR     ; 7f
+	const BERMUDANT  ; 7f
 	const TAUROS     ; 80
 	const MAGIKARP   ; 81
 	const GYARADOS   ; 82

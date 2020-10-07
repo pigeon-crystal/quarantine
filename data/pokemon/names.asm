@@ -125,7 +125,7 @@ PokemonNames::
 	db "CLIBBLE@@@"
 	db "GIGUARD@@@"
 	db "GIGERATOR@"
-	db "PINSIR@@@@"
+	db "BERMUDANT@"
 	db "TAUROS@@@@"
 	db "MAGIKARP@@"
 	db "GYARADOS@@"

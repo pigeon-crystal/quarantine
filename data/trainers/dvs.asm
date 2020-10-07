@@ -76,4 +76,5 @@ TrainerClassDVs:
 	dn 13,  8, 12,  8 ; ATHLETEM	
 	dn  7, 12, 12,  8 ; FANATICRED
 	dn  7, 12, 12,  8 ; FANATICBLUE
+	dn 15,  8, 10,  8 ; WARRIOR
 	

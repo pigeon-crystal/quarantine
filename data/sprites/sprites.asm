@@ -115,3 +115,6 @@ OverworldSprites:
 	overworld_sprite CheaterSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite EnforcerSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite GuruSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
+	overworld_sprite FanaticSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite AthleteMSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
+	

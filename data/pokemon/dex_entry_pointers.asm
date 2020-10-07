@@ -126,7 +126,7 @@ PokedexDataPointerTable:
 	dw ClibblePokedexEntry
 	dw GiguardPokedexEntry
 	dw GigeratorPokedexEntry
-	dw PinsirPokedexEntry
+	dw BermudantPokedexEntry
 	dw TaurosPokedexEntry
 	dw MagikarpPokedexEntry
 	dw GyaradosPokedexEntry

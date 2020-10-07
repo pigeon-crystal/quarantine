@@ -286,7 +286,7 @@ INCBIN "gfx/footprints/bowlide.1bpp",    footprint_top
 INCBIN "gfx/footprints/clibble.1bpp",       footprint_top
 INCBIN "gfx/footprints/giguard.1bpp", footprint_top
 INCBIN "gfx/footprints/gigerator.1bpp",     footprint_top
-INCBIN "gfx/footprints/pinsir.1bpp",     footprint_top
+INCBIN "gfx/footprints/bermudant.1bpp",     footprint_top
 INCBIN "gfx/footprints/tauros.1bpp",     footprint_top
 ; 121-128 bottom halves
 INCBIN "gfx/footprints/peekeye.1bpp",    footprint_bottom
@@ -295,7 +295,7 @@ INCBIN "gfx/footprints/bowlide.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/clibble.1bpp",       footprint_bottom
 INCBIN "gfx/footprints/giguard.1bpp", footprint_bottom
 INCBIN "gfx/footprints/gigerator.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/pinsir.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/bermudant.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/tauros.1bpp",     footprint_bottom
 ; 129-136 top halves
 INCBIN "gfx/footprints/magikarp.1bpp",   footprint_top

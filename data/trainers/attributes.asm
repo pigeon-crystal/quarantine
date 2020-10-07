@@ -429,25 +429,30 @@ TrainerClassAttributes:
 	
 ; Athlete F
 	db DIRE_HIT, NO_ITEM ; items
-	db 17 ; base reward
+	db 15 ; base reward
 	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
 	dw CONTEXT_USE | SWITCH_SOMETIMES	
 	
 ; Athlete M
 	db DIRE_HIT, NO_ITEM ; items
-	db 17 ; base reward
+	db 15 ; base reward
 	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
 	dw CONTEXT_USE | SWITCH_SOMETIMES	
 
 ; Pokefanatic Red
 	db NO_ITEM, NO_ITEM ; items
-	db 15 ; base reward
+	db 14 ; base reward
 	dw AI_BASIC | AI_SETUP | AI_OFFENSIVE | AI_AGGRESSIVE | AI_STATUS
 	dw CONTEXT_USE | SWITCH_SOMETIMES
 	
 ; Pokefanatic Blue
 	db NO_ITEM, NO_ITEM ; items
-	db 15 ; base reward
+	db 14 ; base reward
 	dw AI_BASIC | AI_SETUP | AI_OFFENSIVE | AI_AGGRESSIVE | AI_STATUS
 	dw CONTEXT_USE | SWITCH_SOMETIMES
 	
+; Warrior
+	db NO_ITEM, NO_ITEM ; items
+	db 10 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_OFFENSIVE | AI_OPPORTUNIST | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES

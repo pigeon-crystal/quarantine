@@ -117,7 +117,7 @@ NewPokedexOrder:
 	db PRIPYDERM
 	db BOWLIDE
 	db SCIZOR
-	db PINSIR
+	db BERMUDANT
 	db HERACROSS
 	db SAPPURA
 	db LEAFFIGY

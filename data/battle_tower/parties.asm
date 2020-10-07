@@ -4340,7 +4340,7 @@ BattleTowerMons8:
 	bigdw 143 ; SDef
 	db "UTUBOtuTO@@"
 
-	db PINSIR
+	db BERMUDANT
 	db GOLD_BERRY
 	db HYPER_BEAM, DOUBLE_EDGE, STRENGTH, TOXIC
 	dw 0 ; OT ID

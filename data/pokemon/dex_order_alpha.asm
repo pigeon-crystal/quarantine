@@ -164,7 +164,7 @@ AlphabeticalPokedexOrder:
 	db PIKACHU
 	db PILFOARD
 	db PINECO
-	db PINSIR
+	db BERMUDANT
 	db PITAYRANT
 	db PLANTENNA
 	db POCALYPTUS

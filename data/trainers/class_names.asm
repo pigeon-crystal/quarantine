@@ -75,4 +75,4 @@ TrainerClassNames::
 	db "ATHLETE@" ; M
 	db "#FANATIC@" ; red
 	db "#FANATIC@" ; blue
-	
+	DB "WARRIOR@"

@@ -1,11 +1,11 @@
 	db PEACOLDER ; 142
 
-	db  85, 72,  77, 77,  111,  133
+	db  80, 70,  70, 74,  111,  133
 	;   hp  atk  def  spd  sat  sdf
 
 	db PSYCHIC_TYPE, FLYING ; type
 	db 66 ; catch rate
-	db 133 ; base exp
+	db 199 ; base exp
 	db BLU_APRICORN, BLU_APRICORN ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

@@ -78,4 +78,5 @@ TrainerEncounterMusic::
 	db MUSIC_HIKER_ENCOUNTER		; athletem
 	db MUSIC_LASS_ENCOUNTER			; fanatic red
 	db MUSIC_LASS_ENCOUNTER			; fanatic blue
+	db MUSIC_SAGE_ENCOUNTER			; warrior
 	

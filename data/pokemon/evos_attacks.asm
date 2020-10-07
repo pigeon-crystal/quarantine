@@ -2096,7 +2096,7 @@ GigeratorEvosAttacks:
 	db 60, GUILLOTINE
 	db 0 ; no more level-up moves
 
-PinsirEvosAttacks:
+BermudantEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CLAMP
 	db 7, FOCUS_ENERGY

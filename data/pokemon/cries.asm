@@ -127,11 +127,11 @@ PokemonCries::
 	mon_cry CRY_PARAS,        50,  160 ; PEAUTY
 	mon_cry CRY_PARAS,        53,  256 ; PEEKEYE
 	mon_cry CRY_KRABBY,      200,  192 ; PEACOLDER
-	mon_cry CRY_CATERPIE,      0,  256 ; BOWLIDE
+	mon_cry CRY_SLOWKING,    411,  300 ; BOWLIDE
 	mon_cry CRY_DROWZEE,     500,  176 ; CLIBBLE
 	mon_cry CRY_VOLTORB,     100,  333 ; GIGUARD   ;orig electabuzz
 	mon_cry CRY_VOLTORB,      50,  333 ; GIGERATOR ;orig magmar
-	mon_cry CRY_PIDGEOTTO,     0,  256 ; PINSIR
+	mon_cry CRY_EKANS,     	   7,  316 ; BERMUDANT
 	mon_cry CRY_SQUIRTLE,     17,  192 ; TAUROS
 	mon_cry CRY_EKANS,       128,  128 ; MAGIKARP
 	mon_cry CRY_EKANS,         0,  256 ; GYARADOS
@@ -189,7 +189,7 @@ PokemonCries::
 	mon_cry CRY_NATU,        100,  111 ; PLANTENNA
 	mon_cry CRY_NATU,        180,  333 ; HABBLE
 	mon_cry CRY_NATU,       -229,  455 ; SATELISK
-	mon_cry CRY_CLEFFA,     3904,  384 ; PARDNER
+	mon_cry CRY_CLEFFA,     4279,  213 ; PARDNER
 	mon_cry CRY_CLEFFA,     -675,  456 ; POLITOED
 	mon_cry CRY_CLEFAIRY,    199,  169 ; SHABBYCAT orig HOPPIP
 	mon_cry CRY_CLEFAIRY,    100,  169 ; PURRDLE
@@ -210,7 +210,7 @@ PokemonCries::
 	mon_cry CRY_GIRAFARIG,    65,  512 ; SWAZZAGE
 	mon_cry CRY_SLOWKING,    128,  256 ; PINECO
 	mon_cry CRY_SLOWKING,      0,  384 ; FORRETRESS
-	mon_cry CRY_DUNSPARCE,   420,  355 ; ATTACKO
+	mon_cry CRY_DUNSPARCE,   841,  206 ; ATTACKO
 	mon_cry CRY_GLIGAR,       69,  231 ; WIWRIGHT
 	mon_cry CRY_GLIGAR,  	  51,  247 ; WIRIGIBLE
 	mon_cry CRY_DUNSPARCE,   274,  232 ; ZASTER
@@ -239,7 +239,7 @@ PokemonCries::
 	mon_cry CRY_DONPHAN,       0,  416 ; MONEUMENN
 	mon_cry CRY_SPINARAK,   -399,  400 ; POLYRO
 	mon_cry CRY_NIDORAN_M,  -255,    0 ; MISSINGNO
-	mon_cry CRY_PICHU,      -538,  496 ; EYECHOSIS
+	mon_cry CRY_AMPHAROS,     -1,  303 ; EYECHOSIS
 	mon_cry CRY_AIPOM,        44,  264 ; TYROGUE
 	mon_cry CRY_SLUGMA,        0,  256 ; HITMONTOP
 	mon_cry CRY_MARILL,      104,  256 ; SMOOCHUM

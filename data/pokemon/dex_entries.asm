@@ -133,7 +133,7 @@ BowlidePokedexEntry::    INCLUDE "data/pokemon/dex_entries/bowlide.asm"
 ClibblePokedexEntry::       INCLUDE "data/pokemon/dex_entries/clibble.asm"
 GiguardPokedexEntry:: INCLUDE "data/pokemon/dex_entries/giguard.asm"
 GigeratorPokedexEntry::     INCLUDE "data/pokemon/dex_entries/gigerator.asm"
-PinsirPokedexEntry::     INCLUDE "data/pokemon/dex_entries/pinsir.asm"
+BermudantPokedexEntry::     INCLUDE "data/pokemon/dex_entries/bermudant.asm"
 TaurosPokedexEntry::     INCLUDE "data/pokemon/dex_entries/tauros.asm"
 
 

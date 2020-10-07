@@ -127,7 +127,7 @@ EvosAttacksPointers::
 	dw ClibbleEvosAttacks
 	dw GiguardEvosAttacks
 	dw GigeratorEvosAttacks
-	dw PinsirEvosAttacks
+	dw BermudantEvosAttacks
 	dw TaurosEvosAttacks
 	dw MagikarpEvosAttacks
 	dw GyaradosEvosAttacks
