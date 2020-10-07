@@ -134,11 +134,8 @@ CianwoodPokeSeerSign:
 	jumptext CianwoodPokeSeerSignText
 
 CianwoodPokecenterSign:
-	givepoke BERMUDANT, 50
-	givepoke BOWLIDE, 50
-	givepoke PARDNER, 50
-	givepoke EYECHOSIS, 50
-	givepoke NAVIGAZER, 50
+	givepoke WENDIGAUNT, 50
+	givepoke NUCKAWHEEZ, 50
 	jumpstd pokecentersign
 
 CianwoodCityRock:

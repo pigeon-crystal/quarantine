@@ -165,9 +165,9 @@ PokemonCries::
 	mon_cry CRY_TEDDIURSA,  1954,  110 ; FURSA, orig TOTODILE
 	mon_cry CRY_TEDDIURSA,  1555,  269 ; NANUQUA
 	mon_cry CRY_TEDDIURSA,  1001,  269 ; URSKIMO
-	mon_cry CRY_SENTRET,     138,  184 ; WENDIGAUNT, orig WENDIGAUNT
+	mon_cry CRY_METAPOD,     138,  410 ; WENDIGAUNT
 	mon_cry CRY_SENTRET,     107,  258 ; FURRET
-	mon_cry CRY_HOOTHOOT,    145,  216 ; NUCKAWHEEZ
+	mon_cry CRY_VENONAT,     400,  400 ; NUCKAWHEEZ
 	mon_cry CRY_HOOTHOOT,      0,  416 ; NOCTOWL
 	mon_cry CRY_LEDYBA,      444,  104 ; WORMEEK ;ORIG ledyba
 	mon_cry CRY_GROWLITHE,   -77,  104 ; WORMACHO
@@ -189,7 +189,7 @@ PokemonCries::
 	mon_cry CRY_NATU,        100,  111 ; PLANTENNA
 	mon_cry CRY_NATU,        180,  333 ; HABBLE
 	mon_cry CRY_NATU,       -229,  455 ; SATELISK
-	mon_cry CRY_CLEFFA,     4279,  213 ; PARDNER
+	mon_cry CRY_CLEFFA,     3170,  213 ; PARDNER
 	mon_cry CRY_CLEFFA,     -675,  456 ; POLITOED
 	mon_cry CRY_CLEFAIRY,    199,  169 ; SHABBYCAT orig HOPPIP
 	mon_cry CRY_CLEFAIRY,    100,  169 ; PURRDLE
@@ -224,22 +224,22 @@ PokemonCries::
 	mon_cry CRY_MARILL,  	  77,  301 ; SMOTHERENE
 	mon_cry CRY_SLUGMA,     -200,  444 ; KODOROYAH
 	mon_cry CRY_NIDOQUEEN,  -256,  304 ; CASANOCTE
-	mon_cry CRY_CYNDAQUIL,   510,  320 ; LAMSEED
-	mon_cry CRY_MAGCARGO,   -265,  256 ; VEGETEBAA
-	mon_cry CRY_MAGCARGO,    161,  232 ; BAAFOMET
+	mon_cry CRY_MAGCARGO,    151,  259 ; LAMSEED
+	mon_cry CRY_MAGCARGO,   -165,  277 ; VEGETEBAA
+	mon_cry CRY_CYNDAQUIL,   531,  420 ; BAAFOMET
 	mon_cry CRY_SLOWKING,    410,  300 ; STIKLBRAT
 	mon_cry CRY_SLOWKING,     27,  300 ; SIDFICIOUS
 	mon_cry CRY_SLOWKING,      2,  300 ; DELIBIRD
 	mon_cry CRY_MANTINE,    -377,  292 ; KRAKENTOA
-	mon_cry CRY_AMPHAROS,   2217,  384 ; SNOSEBLEED
-	mon_cry CRY_CYNDAQUIL,    57,  320 ; SNOWUP
-	mon_cry CRY_TOTODILE,   -266,  256 ; SNOVERDOSE
-	mon_cry CRY_SLUGMA,      763,  256 ; NAVIGAZER
-	mon_cry CRY_SENTRET,      72,  560 ; OBELITH
-	mon_cry CRY_DONPHAN,       0,  416 ; MONEUMENN
+	mon_cry CRY_AMPHAROS,   2017,  384 ; SNOSEBLEED
+	mon_cry CRY_AMPHAROS,   1619,  409 ; SNOWUP
+	mon_cry CRY_AMPHAROS,   1420,  428 ; SNOVERDOSE
+	mon_cry CRY_SLUGMA,      193,  400 ; NAVIGAZER
+	mon_cry CRY_METAPOD,     -10,  437 ; OBELITH
+	mon_cry CRY_METAPOD,      99,  395 ; MONEUMENN
 	mon_cry CRY_SPINARAK,   -399,  400 ; POLYRO
 	mon_cry CRY_NIDORAN_M,  -255,    0 ; MISSINGNO
-	mon_cry CRY_AMPHAROS,     -1,  303 ; EYECHOSIS
+	mon_cry CRY_AMPHAROS,    -91,  303 ; EYECHOSIS
 	mon_cry CRY_AIPOM,        44,  264 ; TYROGUE
 	mon_cry CRY_SLUGMA,        0,  256 ; HITMONTOP
 	mon_cry CRY_MARILL,      104,  256 ; SMOOCHUM
