@@ -6,7 +6,7 @@
 	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
 	db 100 ; catch rate
 	db 66 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	db RED_APRICORN, STARDUST ; items
 	db GENDER_F25 ; gender ratio
 	db 100 ; unknown 1
 	db 15 ; step cycles to hatch
@@ -17,5 +17,5 @@
 	dn EGG_GROUND, EGG_FAIRY; egg groups
 
 	; tm/hm learnset
-	tmhm 
+	tmhm HEADBUTT, CURSE, ROAR, PSYCH_UP, HIDDEN_POWER, SNORE, PROTECT, FRUSTRATION, IRON_TAIL, RETURN, DIG, PSYCHIC_M, MUD_SLAP, SWAGGER, SWIFT, DEFENSE_CURL, DREAM_EATER, REST, ATTRACT, THIEF, FURY_CUTTER, NIGHTMARE, FALSE_SWIPE, SNARL, CUT, FLASH
 	; end

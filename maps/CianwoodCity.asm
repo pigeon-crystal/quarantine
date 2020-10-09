@@ -134,7 +134,7 @@ CianwoodPokeSeerSign:
 	jumptext CianwoodPokeSeerSignText
 
 CianwoodPokecenterSign:
-	givepoke NAVIGAZER, 50	
+	givepoke STELLOCEAN, 50	
 	jumpstd pokecentersign
 
 CianwoodCityRock:
