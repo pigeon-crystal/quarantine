@@ -170,9 +170,9 @@ PokemonNames::
 	db "CROBAT@@@@"
 	db "STRANGLURE"
 	db "SHAMSEL@@@"
-	db "PICHU@@@@@"
-	db "CLEFFA@@@@"
-	db "IGGLYBUFF@"
+	db "WANDULUS@@"
+	db "NIMBOREM@@"
+	db "STRATOWAR@"
 	db "TRANQUIEL@" ;TOGEPI
 	db "ALLSEERAPH"
 	db "SQWUCKY@@@"

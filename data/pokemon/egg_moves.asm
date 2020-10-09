@@ -487,29 +487,14 @@ StranglureEggMoves:
 	db FLAIL
 	db SUPERSONIC
 	db SCREECH
+	db HEART_STAMP
 	db -1 ; end
 
-PichuEggMoves:
+WandelusEggMoves:
 	db FLAIL
-	db BIDE
 	db PRESENT
 	db ENCORE
-	db DOUBLESLAP
-	db -1 ; end
-
-CleffaEggMoves:
-	db PRESENT
-	db METRONOME
-	db AMNESIA
-	db BELLY_DRUM
-	db POUND
-	db MIMIC
-	db -1 ; end
-
-IgglybuffEggMoves:
-	db PERISH_SONG
-	db PRESENT
-	db FAINT_ATTACK
+	db BATON_PASS
 	db -1 ; end
 
 TranquielEggMoves:

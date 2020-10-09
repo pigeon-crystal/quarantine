@@ -391,18 +391,18 @@ INCBIN "gfx/footprints/grubboid.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/crobat.1bpp",     footprint_top
 INCBIN "gfx/footprints/stranglure.1bpp",   footprint_top
 INCBIN "gfx/footprints/shamsel.1bpp",    footprint_top
-INCBIN "gfx/footprints/pichu.1bpp",      footprint_top
-INCBIN "gfx/footprints/cleffa.1bpp",     footprint_top
-INCBIN "gfx/footprints/igglybuff.1bpp",  footprint_top
+INCBIN "gfx/footprints/wandelus.1bpp",      footprint_top
+INCBIN "gfx/footprints/nimborem.1bpp",     footprint_top
+INCBIN "gfx/footprints/stratowar.1bpp",  footprint_top
 INCBIN "gfx/footprints/tranquiel.1bpp",     footprint_top
 INCBIN "gfx/footprints/allseeraph.1bpp",    footprint_top
 ; 169-176 bottom halves
 INCBIN "gfx/footprints/crobat.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/stranglure.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/shamsel.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/pichu.1bpp",      footprint_bottom
-INCBIN "gfx/footprints/cleffa.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/igglybuff.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/wandelus.1bpp",      footprint_bottom
+INCBIN "gfx/footprints/nimborem.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/stratowar.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/tranquiel.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/allseeraph.1bpp",    footprint_bottom
 ; 177-184 top halves

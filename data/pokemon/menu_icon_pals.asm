@@ -175,9 +175,9 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; CROBAT
 	icon_pals PINK,   YELLOW   ; STRANGLURE
 	icon_pals RED,   YELLOW    ; SHAMSEL
-	icon_pals BROWN,   YELLOW  ; PICHU
-	icon_pals BROWN,   YELLOW  ; CLEFFA
-	icon_pals BROWN,   YELLOW  ; IGGLYBUFF
+	icon_pals BLUE,   YELLOW  ; WANDELUS
+	icon_pals BLUE,   YELLOW  ; NIMBOREM
+	icon_pals BLUE,   YELLOW  ; STRATOWAR
 	icon_pals YELLOW,   YELLOW ; TRANQUIEL
 	icon_pals YELLOW,   YELLOW ; ALLSEERAPH
 	icon_pals BROWN,   YELLOW  ; SQWUCKY

@@ -172,9 +172,9 @@ EvosAttacksPointers::
 	dw CrobatEvosAttacks
 	dw StranglureEvosAttacks
 	dw ShamselEvosAttacks
-	dw PichuEvosAttacks
-	dw CleffaEvosAttacks
-	dw IgglybuffEvosAttacks
+	dw WandelusEvosAttacks
+	dw NimboremEvosAttacks
+	dw StratowarEvosAttacks
 	dw TranquielEvosAttacks
 	dw AllseeraphEvosAttacks
 	dw SqwuckyEvosAttacks

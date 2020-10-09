@@ -21,7 +21,7 @@ NewPokedexOrder:
 	db NOMSABRE ;orig raticate
 	db WENDIGAUNT
 	db FURRET
-	db PICHU
+	db WANDELUS
 	db PIKACHU
 	db RAICHU
 	db BUZZLING
@@ -43,10 +43,10 @@ NewPokedexOrder:
 	db CUTTLE
 	db TENDRILL
 	db CALARMOURI
-	db CLEFFA
+	db NIMBOREM
 	db NYALLEY
 	db FELIORITTE
-	db IGGLYBUFF
+	db STRATOWAR
 	db JIGGLYPUFF
 	db WIGGLYTUFF
 	db TRANQUIEL

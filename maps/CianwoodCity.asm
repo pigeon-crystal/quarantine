@@ -134,7 +134,7 @@ CianwoodPokeSeerSign:
 	jumptext CianwoodPokeSeerSignText
 
 CianwoodPokecenterSign:
-	warp SPROUT_TOWER_1F, 11, 15	
+	givepoke NAVIGAZER, 50	
 	jumpstd pokecentersign
 
 CianwoodCityRock:

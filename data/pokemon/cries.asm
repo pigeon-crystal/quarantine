@@ -176,9 +176,9 @@ PokemonCries::
 	mon_cry CRY_SQUIRTLE,    -16,  320 ; CROBAT
 	mon_cry CRY_CYNDAQUIL,   512,  205 ; STRANGLURE
 	mon_cry CRY_CYNDAQUIL,   666,  466 ; SHAMSEL
-	mon_cry CRY_PICHU,         0,  320 ; PICHU
-	mon_cry CRY_CLEFFA,       97,  145 ; CLEFFA
-	mon_cry CRY_CHIKORITA,   232,  232 ; IGGLYBUFF
+	mon_cry CRY_PICHU,         0,  320 ; WANDELUS
+	mon_cry CRY_CLEFFA,       97,  145 ; NIMBOREM
+	mon_cry CRY_CHIKORITA,   232,  232 ; STRATOWAR
 	mon_cry CRY_TOGEPI,      777,  222 ; TRANQUIEL orig togepi
 	mon_cry CRY_TOGETIC,    -177,  444 ; ALLSEERAPH
 	mon_cry CRY_NATU,       -103,  256 ; SQWUCKY

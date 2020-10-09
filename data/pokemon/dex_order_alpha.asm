@@ -30,7 +30,7 @@ AlphabeticalPokedexOrder:
 	db CHARMANDER
 	db CHARMELEON
 	db CIGERILLAR
-	db CLEFFA
+	db NIMBOREM
 	db CLIBBLE
 	db CLOYSTER
 	db COCACOBRA
@@ -89,7 +89,7 @@ AlphabeticalPokedexOrder:
 	db NUCKAWHEEZ
 	db HOPLAQUE
 	db HORNAMPA
-	db IGGLYBUFF
+	db STRATOWAR
 	db IGNAGA
 	db IVYSAUR
 	db JADDICE
@@ -160,7 +160,7 @@ AlphabeticalPokedexOrder:
 	db PEKOI
 	db PEPOFFER
 	db PHANGUARD
-	db PICHU
+	db WANDELUS
 	db PIKACHU
 	db PILFOARD
 	db PINECO

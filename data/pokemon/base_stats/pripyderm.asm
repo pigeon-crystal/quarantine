@@ -1,6 +1,6 @@
 	db PRIPYDERM ; 142
 
-	db  68, 67,  117, 34,  95,  133
+	db  68, 67,  116, 34,  96,  133
 	;   hp  atk  def  spd  sat  sdf
 
 	db POISON, POISON ; type

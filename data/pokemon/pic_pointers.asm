@@ -344,12 +344,12 @@ PokemonPicPointers::
 	dba_pic StranglureBackpic
 	dba_pic ShamselFrontpic
 	dba_pic ShamselBackpic
-	dba_pic PichuFrontpic
-	dba_pic PichuBackpic
-	dba_pic CleffaFrontpic
-	dba_pic CleffaBackpic
-	dba_pic IgglybuffFrontpic
-	dba_pic IgglybuffBackpic
+	dba_pic WandelusFrontpic
+	dba_pic WandelusBackpic
+	dba_pic NimboremFrontpic
+	dba_pic NimboremBackpic
+	dba_pic StratowarFrontpic
+	dba_pic StratowarBackpic
 	dba_pic TranquielFrontpic
 	dba_pic TranquielBackpic
 	dba_pic AllseeraphFrontpic

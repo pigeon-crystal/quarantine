@@ -171,9 +171,9 @@ PokedexDataPointerTable:
 	dw CrobatPokedexEntry
 	dw StranglurePokedexEntry
 	dw ShamselPokedexEntry
-	dw PichuPokedexEntry
-	dw CleffaPokedexEntry
-	dw IgglybuffPokedexEntry
+	dw WandelusPokedexEntry
+	dw NimboremPokedexEntry
+	dw StratowarPokedexEntry
 	dw TranquielPokedexEntry
 	dw AllseeraphPokedexEntry
 	dw SqwuckyPokedexEntry

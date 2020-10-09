@@ -1,6 +1,6 @@
 	db ELEPHOOT ; 142
 
-	db  52, 51,  70, 16,  67,  87
+	db  59, 58,  75, 16,  71,  85
 	;   hp  atk  def  spd  sat  sdf
 
 	db POISON, POISON ; type

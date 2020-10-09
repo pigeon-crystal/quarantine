@@ -1,6 +1,6 @@
 	db GENEROPSIS ; 142
 
-	db  83, 61,  83, 77,  130,  83
+	db  80, 61,  82, 77,  130,  80
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, FIRE ; type

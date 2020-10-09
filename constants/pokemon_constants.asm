@@ -66,17 +66,17 @@
 	const POCALYPTUS ; 2d
 	const PARAS      ; 2e
 	const PARASECT   ; 2f
-	const ELEPHOOT    ; 30
-	const PRIPYDERM   ; 31
+	const ELEPHOOT   ; 30
+	const PRIPYDERM  ; 31
 	const MUMINI     ; 32
 	const MUMAGNUS   ; 33
-	const TODESCOOL     ; 34
+	const TODESCOOL  ; 34
 	const JUNOBE     ; 35persian
 	const VOYAPOD    ; 36psyduck
 	const EXOTUNITY  ; 37golduck
 	const MANKEY     ; 38
 	const PRIMEAPE   ; 39
-	const HAPPIG  ; 3a
+	const HAPPIG  	 ; 3a
 	const BIPORKAR   ; 3b
 	const CREMIGO    ; 3c
 	const AMANIGO    ; 3d
@@ -191,9 +191,9 @@ JOHTO_POKEMON EQU const_value
 	const CROBAT     ; a9
 	const STRANGLURE ; aa
 	const SHAMSEL    ; ab
-	const PICHU      ; ac
-	const CLEFFA     ; ad
-	const IGGLYBUFF  ; ae
+	const WANDELUS   ; acpichu
+	const NIMBOREM   ; adcleffa
+	const STRATOWAR  ; aeigglybuff
 	const TRANQUIEL  ; af
 	const ALLSEERAPH ; b0
 	const SQWUCKY    ; b1

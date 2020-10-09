@@ -170,9 +170,9 @@ EggMovePointers::
 	dw NoEggMoves
 	dw StranglureEggMoves
 	dw NoEggMoves
-	dw PichuEggMoves
-	dw CleffaEggMoves
-	dw IgglybuffEggMoves
+	dw WandelusEggMoves
+	dw NoEggMoves
+	dw NoEggMoves
 	dw TranquielEggMoves
 	dw NoEggMoves
 	dw SqwuckyEggMoves

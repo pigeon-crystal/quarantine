@@ -1,6 +1,6 @@
 	db ANTPYRE ; 142
 
-	db  60, 40,  60, 42,  105,  60
+	db  60, 40,  62, 42,  105,  60
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, FIRE ; type

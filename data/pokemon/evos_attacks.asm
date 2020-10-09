@@ -2826,7 +2826,7 @@ ShamselEvosAttacks:
 	db 50, CROSS_CHOP
 	db 0 ; no more level-up moves
 
-PichuEvosAttacks:
+WandelusEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, PIKACHU
 	db 0 ; no more evolutions
 	db 1, THUNDERSHOCK
@@ -2836,7 +2836,7 @@ PichuEvosAttacks:
 	db 11, SWEET_KISS
 	db 0 ; no more level-up moves
 
-CleffaEvosAttacks:
+NimboremEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, NYALLEY
 	db 0 ; no more evolutions
 	db 1, POUND
@@ -2846,7 +2846,7 @@ CleffaEvosAttacks:
 	db 13, SWEET_KISS
 	db 0 ; no more level-up moves
 
-IgglybuffEvosAttacks:
+StratowarEvosAttacks:
 	db EVOLVE_HAPPINESS, TR_ANYTIME, JIGGLYPUFF
 	db 0 ; no more evolutions
 	db 1, SING
