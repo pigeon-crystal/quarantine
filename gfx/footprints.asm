@@ -155,18 +155,18 @@ INCBIN "gfx/footprints/ambinni.1bpp",       footprint_bottom
 INCBIN "gfx/footprints/bundegraf.1bpp",    footprint_bottom
 ; 065-072 top halves
 INCBIN "gfx/footprints/voltinger.1bpp",   footprint_top
-INCBIN "gfx/footprints/machop.1bpp",     footprint_top
-INCBIN "gfx/footprints/machoke.1bpp",    footprint_top
-INCBIN "gfx/footprints/machamp.1bpp",    footprint_top
+INCBIN "gfx/footprints/upwhale.1bpp",     footprint_top
+INCBIN "gfx/footprints/nimbocetus.1bpp",    footprint_top
+INCBIN "gfx/footprints/stellocean.1bpp",    footprint_top
 INCBIN "gfx/footprints/lawnie.1bpp", 	 footprint_top
 INCBIN "gfx/footprints/orgnome.1bpp", footprint_top
 INCBIN "gfx/footprints/gnomercy.1bpp",   footprint_top
 INCBIN "gfx/footprints/tentacool.1bpp",  footprint_top
 ; 065-072 bottom halves
 INCBIN "gfx/footprints/voltinger.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/machop.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/machoke.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/machamp.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/upwhale.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/nimbocetus.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/stellocean.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/lawnie.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/orgnome.1bpp", footprint_bottom
 INCBIN "gfx/footprints/gnomercy.1bpp",   footprint_bottom

@@ -638,7 +638,7 @@ JohtoGrassWildMons:
 	; morn
 	db 14, NOMSTER
 	db 13, STINPEON
-	db 14, MACHOP
+	db 14, UPWHALE
 	db 13, SCORPEROR
 	db 14, DOLMITE
 	db 16, NOMSABRE
@@ -647,7 +647,7 @@ JohtoGrassWildMons:
 	; day
 	db 14, NOMSTER
 	db 13, STINPEON
-	db 14, MACHOP
+	db 14, UPWHALE
 	db 13, SCORPEROR
 	db 14, DOLMITE
 	db 16, NOMSABRE
@@ -668,7 +668,7 @@ JohtoGrassWildMons:
 	; morn
 	db 13, DOLMITE
 	db 14, NOMSTER
-	db 15, MACHOP
+	db 15, UPWHALE
 	db 14, NOMSABRE
 	db 15, STINPEON
 	db 15, SCORPEROR
@@ -677,7 +677,7 @@ JohtoGrassWildMons:
 	; day
 	db 13, DOLMITE
 	db 14, NOMSTER
-	db 15, MACHOP
+	db 15, UPWHALE
 	db 14, NOMSABRE
 	db 15, STINPEON
 	db 15, SCORPEROR
@@ -697,7 +697,7 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 31, DOLMESA
-	db 32, MACHOKE
+	db 32, NIMBOCETUS
 	db 31, DOLMITE
 	db 30, NOMSABRE
 	db 28, FURSA
@@ -706,7 +706,7 @@ JohtoGrassWildMons:
 	db 33, FURSA
 	; day
 	db 31, DOLMESA
-	db 32, MACHOKE
+	db 32, NIMBOCETUS
 	db 31, DOLMITE
 	db 30, NOMSABRE
 	db 28, FURSA
@@ -729,7 +729,7 @@ JohtoGrassWildMons:
 	db 15, STINPEON
 	db 17, STINPEON
 	db 17, SCORPEROR
-	db 16, MACHOP
+	db 16, UPWHALE
 	db 16, DOLMITE
 	db 18, NOMSABRE
 	db 18, NOMSABRE
@@ -738,7 +738,7 @@ JohtoGrassWildMons:
 	db 15, STINPEON
 	db 17, STINPEON
 	db 17, SCORPEROR
-	db 16, MACHOP
+	db 16, UPWHALE
 	db 16, DOLMITE
 	db 18, NOMSABRE
 	db 18, NOMSABRE
@@ -1177,7 +1177,7 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 48, SCORPEROR
-	db 48, MACHOKE
+	db 48, NIMBOCETUS
 	db 47, SMOTHERENE
 	db 46, PARASECT
 	db 48, PARASECT
@@ -1186,7 +1186,7 @@ JohtoGrassWildMons:
 	db 21, LARVITAR
 	; day
 	db 48, SCORPEROR
-	db 48, MACHOKE
+	db 48, NIMBOCETUS
 	db 47, SMOTHERENE
 	db 46, PARASECT
 	db 48, PARASECT

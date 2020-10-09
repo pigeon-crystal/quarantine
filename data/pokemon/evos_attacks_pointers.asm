@@ -66,9 +66,9 @@ EvosAttacksPointers::
 	dw AmbinniEvosAttacks
 	dw BundegrafEvosAttacks
 	dw VoltingerEvosAttacks
-	dw MachopEvosAttacks
-	dw MachokeEvosAttacks
-	dw MachampEvosAttacks
+	dw UpwhaleEvosAttacks
+	dw NimbocetusEvosAttacks
+	dw StelloceanEvosAttacks
 	dw LawnieEvosAttacks
 	dw OrgnomeEvosAttacks
 	dw GnomercyEvosAttacks

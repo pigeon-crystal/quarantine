@@ -25,7 +25,7 @@ VermilionMachopOwner:
 VermilionMachop:
 	opentext
 	writetext VermilionMachopText1
-	cry MACHOP
+	cry EYECHOSIS
 	waitbutton
 	closetext
 	earthquake 30

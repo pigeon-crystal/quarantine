@@ -70,9 +70,9 @@ PokemonCries::
 	mon_cry CRY_PICHU,       -49,  121 ; AMBINNI
 	mon_cry CRY_METAPOD,     168,  320 ; BUNDEGRAF
 	mon_cry CRY_METAPOD,     152,  383 ; VOLTINGER
-	mon_cry CRY_GROWLITHE,   238,  129 ; MACHOP
-	mon_cry CRY_GROWLITHE,    72,  224 ; MACHOKE
-	mon_cry CRY_GROWLITHE,     8,  320 ; MACHAMP
+	mon_cry CRY_GROWLITHE,   238,  129 ; UPWHALE
+	mon_cry CRY_GROWLITHE,    72,  224 ; NIMBOCETUS
+	mon_cry CRY_GROWLITHE,     8,  320 ; STELLOCEAN
 	mon_cry CRY_PSYDUCK,    1111,  129 ; LAWNIE
 	mon_cry CRY_PSYDUCK,      68,  160 ; ORGNOME
 	mon_cry CRY_PSYDUCK,    -102,  333 ; VICTREEBEL
@@ -118,8 +118,8 @@ PokemonCries::
 	mon_cry CRY_CHARMANDER,    0,  256 ; CUTTLE
 	mon_cry CRY_RHYDON,        1,  256 ; TENDRILL
 	mon_cry CRY_RHYDON,      -10,  320 ; CALARMOURI
-	mon_cry CRY_GOLEM,         0,  256 ; ANTPYRE
-	mon_cry CRY_KANGASKHAN,    0,  256 ; GENEROPSIS
+	mon_cry CRY_PIDGEOTTO,    80,  256 ; ANTPYRE
+	mon_cry CRY_PIDGEOTTO,   222,  328 ; GENEROPSIS
 	mon_cry CRY_AMPHAROS,   3000,  292 ; OSCURASA
 	mon_cry CRY_AMPHAROS,   2069,  420 ; MADRUGASA
 	mon_cry CRY_SEEL,       1128,  200 ; GOOSAPLING

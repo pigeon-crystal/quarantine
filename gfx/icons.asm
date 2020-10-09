@@ -161,4 +161,6 @@ SnosebleedIcon:   INCBIN "gfx/icons/snosebleed.2bpp"
 SnowupIcon:       INCBIN "gfx/icons/snowup.2bpp"
 SnoverdoseIcon:   INCBIN "gfx/icons/snoverdose.2bpp"
 RyunariIcon:	  INCBIN "gfx/icons/ryunari.2bpp"
-
+LamseedIcon:	  INCBIN "gfx/icons/lamseed.2bpp"
+VegetebaaIcon:	  INCBIN "gfx/icons/vegetebaa.2bpp"
+BaafometIcon:     INCBIN "gfx/icons/baafomet.2bpp"

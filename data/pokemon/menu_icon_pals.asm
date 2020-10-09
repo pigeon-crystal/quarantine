@@ -69,9 +69,9 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; AMBINNI
 	icon_pals BROWN,   YELLOW  ; BUNDEGRAF
 	icon_pals BROWN,   YELLOW  ; VOLTINGER
-	icon_pals BROWN,   YELLOW  ; MACHOP
-	icon_pals BROWN,   YELLOW  ; MACHOKE
-	icon_pals BROWN,   YELLOW  ; MACHAMP
+	icon_pals BROWN,   YELLOW  ; UPWHALE
+	icon_pals BROWN,   YELLOW  ; NIMBOCETUS
+	icon_pals BROWN,   YELLOW  ; STELLOCEAN
 	icon_pals GREEN,   YELLOW  ; LAWNIE
 	icon_pals GREEN,   YELLOW  ; ORGNOME
 	icon_pals GREEN, BROWN	   ; GNOMERCY

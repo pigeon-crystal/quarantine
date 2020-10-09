@@ -1309,7 +1309,7 @@ BattleTowerMons3:
 	bigdw 76 ; SDef
 	db "HERUGA-@@@@"
 
-	db MACHAMP
+	db STELLOCEAN
 	db MIRACLEBERRY
 	db CROSS_CHOP, ICE_PUNCH, EARTHQUAKE, FIRE_BLAST
 	dw 0 ; OT ID
@@ -2407,7 +2407,7 @@ BattleTowerMons5:
 	bigdw 156 ; SDef
 	db "YADOKINGU@@"
 
-	db MACHAMP
+	db STELLOCEAN
 	db GOLD_BERRY
 	db CROSS_CHOP, EARTHQUAKE, FIRE_BLAST, THUNDERPUNCH
 	dw 0 ; OT ID
@@ -2852,7 +2852,7 @@ BattleTowerMons6:
 	bigdw 170 ; SDef
 	db "PORIGON2@@@"
 
-	db MACHAMP
+	db STELLOCEAN
 	db QUICK_CLAW
 	db FIRE_PUNCH, CROSS_CHOP, THUNDERPUNCH, EARTHQUAKE
 	dw 0 ; OT ID
@@ -4655,7 +4655,7 @@ BattleTowerMons9:
 	bigdw 250 ; SDef
 	db "E-HUi@@@@@@"
 
-	db MACHAMP
+	db STELLOCEAN
 	db QUICK_CLAW
 	db CROSS_CHOP, VITAL_THROW, FIRE_BLAST, EARTHQUAKE
 	dw 0 ; OT ID
@@ -4970,7 +4970,7 @@ BattleTowerMons10:
 	bigdw 252 ; SDef
 	db "HERUGA-@@@@"
 
-	db MACHAMP
+	db STELLOCEAN
 	db QUICK_CLAW
 	db CROSS_CHOP, EARTHQUAKE, HYPER_BEAM, VITAL_THROW
 	dw 0 ; OT ID

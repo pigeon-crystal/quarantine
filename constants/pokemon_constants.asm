@@ -84,9 +84,9 @@
 	const AMBINNI    ; 3f
 	const BUNDEGRAF  ; 40
 	const VOLTINGER  ; 41
-	const MACHOP     ; 42
-	const MACHOKE    ; 43
-	const MACHAMP    ; 44
+	const UPWHALE    ; 42
+	const NIMBOCETUS ; 43
+	const STELLOCEAN ; 44
 	const LAWNIE     ; 45
 	const ORGNOME 	 ; 46
 	const GNOMERCY   ; 47

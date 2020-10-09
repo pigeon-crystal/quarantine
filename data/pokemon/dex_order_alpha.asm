@@ -109,9 +109,9 @@ AlphabeticalPokedexOrder:
 	db LEAFFIGY
 	db LUGIA
 	db MA_0
-	db MACHAMP
-	db MACHOKE
-	db MACHOP
+	db STELLOCEAN
+	db NIMBOCETUS
+	db UPWHALE
 	db MADRUGASA
 	db MAGBY
 	db MAGIKARP

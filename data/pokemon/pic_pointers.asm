@@ -132,12 +132,12 @@ PokemonPicPointers::
 	dba_pic BundegrafBackpic
 	dba_pic VoltingerFrontpic
 	dba_pic VoltingerBackpic
-	dba_pic MachopFrontpic
-	dba_pic MachopBackpic
-	dba_pic MachokeFrontpic
-	dba_pic MachokeBackpic
-	dba_pic MachampFrontpic
-	dba_pic MachampBackpic
+	dba_pic UpwhaleFrontpic
+	dba_pic UpwhaleBackpic
+	dba_pic NimbocetusFrontpic
+	dba_pic NimbocetusBackpic
+	dba_pic StelloceanFrontpic
+	dba_pic StelloceanBackpic
 	dba_pic LawnieFrontpic
 	dba_pic LawnieBackpic
 	dba_pic OrgnomeFrontpic

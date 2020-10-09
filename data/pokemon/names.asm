@@ -64,9 +64,9 @@ PokemonNames::
 	db "AMBINNI@@@" ;abra
 	db "BUNDEGRAF@"
 	db "VOLTINGER@"
-	db "MACHOP@@@@" ;machop
-	db "MACHOKE@@@"
-	db "MACHAMP@@@"
+	db "UPWHALE@@@" ;upwhale
+	db "NIMBOCETUS"
+	db "STELLOCEAN"
 	db "LAWNIE@@@@" ;bellsprout
 	db "ORGNOME@@@"
 	db "GNOMERCY@@" 

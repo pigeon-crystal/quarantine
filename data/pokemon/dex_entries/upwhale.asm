@@ -1,5 +1,5 @@
 	db "BREACHING@" ; species name >>43706333
-	dw 407, 9.5 ; height, weight
+	dw 407, 95 ; height, weight
 
 	db   "Despite having"
 	next "more than enough"

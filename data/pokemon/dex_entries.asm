@@ -72,9 +72,9 @@ BundegrafPokedexEntry::    INCLUDE "data/pokemon/dex_entries/bundegraf.asm"
 SECTION "Pokedex Entries 065-128", ROMX
 
 VoltingerPokedexEntry::   INCLUDE "data/pokemon/dex_entries/voltinger.asm"
-MachopPokedexEntry::     INCLUDE "data/pokemon/dex_entries/machop.asm"
-MachokePokedexEntry::    INCLUDE "data/pokemon/dex_entries/machoke.asm"
-MachampPokedexEntry::    INCLUDE "data/pokemon/dex_entries/machamp.asm"
+UpwhalePokedexEntry::     INCLUDE "data/pokemon/dex_entries/upwhale.asm"
+NimbocetusPokedexEntry::    INCLUDE "data/pokemon/dex_entries/nimbocetus.asm"
+StelloceanPokedexEntry::    INCLUDE "data/pokemon/dex_entries/stellocean.asm"
 LawniePokedexEntry::     INCLUDE "data/pokemon/dex_entries/lawnie.asm"
 OrgnomePokedexEntry:: INCLUDE "data/pokemon/dex_entries/orgnome.asm"
 GnomercyPokedexEntry::   INCLUDE "data/pokemon/dex_entries/gnomercy.asm"

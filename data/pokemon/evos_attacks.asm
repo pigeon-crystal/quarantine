@@ -1094,8 +1094,8 @@ VoltingerEvosAttacks:
 	db 55, SKY_ATTACK
 	db 0 ; no more level-up moves
 
-MachopEvosAttacks:
-	db EVOLVE_LEVEL, 28, MACHOKE
+UpwhaleEvosAttacks:
+	db EVOLVE_LEVEL, 28, NIMBOCETUS
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 7, FOCUS_ENERGY
@@ -1108,8 +1108,8 @@ MachopEvosAttacks:
 	db 49, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
-MachokeEvosAttacks:
-	db EVOLVE_TRADE, -1, MACHAMP
+NimbocetusEvosAttacks:
+	db EVOLVE_TRADE, -1, STELLOCEAN
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, FOCUS_ENERGY
@@ -1123,7 +1123,7 @@ MachokeEvosAttacks:
 	db 61, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
-MachampEvosAttacks:
+StelloceanEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, FOCUS_ENERGY

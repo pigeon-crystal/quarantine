@@ -26,7 +26,7 @@ SpriteMons:
 	db PARAS
 	db TENTACOOL
 	db TAUROS
-	db MACHOP
+	db UPWHALE
 	db VOLTORB
 	db MANDELBLOB
 	db TENDRILL

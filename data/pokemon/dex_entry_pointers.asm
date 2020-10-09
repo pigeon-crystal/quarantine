@@ -65,9 +65,9 @@ PokedexDataPointerTable:
 	dw AmbinniPokedexEntry
 	dw BundegrafPokedexEntry
 	dw VoltingerPokedexEntry
-	dw MachopPokedexEntry
-	dw MachokePokedexEntry
-	dw MachampPokedexEntry
+	dw UpwhalePokedexEntry
+	dw NimbocetusPokedexEntry
+	dw StelloceanPokedexEntry
 	dw LawniePokedexEntry
 	dw OrgnomePokedexEntry
 	dw GnomercyPokedexEntry

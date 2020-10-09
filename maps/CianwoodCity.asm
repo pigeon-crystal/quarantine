@@ -134,8 +134,7 @@ CianwoodPokeSeerSign:
 	jumptext CianwoodPokeSeerSignText
 
 CianwoodPokecenterSign:
-	givepoke WENDIGAUNT, 50
-	givepoke NUCKAWHEEZ, 50
+	warp SPROUT_TOWER_1F, 11, 15	
 	jumpstd pokecentersign
 
 CianwoodCityRock:

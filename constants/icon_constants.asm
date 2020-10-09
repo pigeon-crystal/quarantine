@@ -158,6 +158,9 @@
 	const ICON_SNOWUP
 	const ICON_SNOVERDOSE
 	const ICON_RYUNARI
+	const ICON_LAMSEED
+	const ICON_VEGETEBAA
+	const ICON_BAAFOMET
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

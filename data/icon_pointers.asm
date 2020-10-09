@@ -158,4 +158,7 @@ IconPointers:
 	dw SnowupIcon
 	dw SnoverdoseIcon
 	dw RyunariIcon
+	dw LamseedIcon
+	dw VegetebaaIcon
+	dw BaafometIcon
 	

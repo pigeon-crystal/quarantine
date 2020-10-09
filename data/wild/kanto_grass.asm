@@ -67,18 +67,18 @@ KantoGrassWildMons:
 	; morn
 	db 10, COCACOBRA
 	db 11, DOLMITE
-	db 12, MACHOP
+	db 12, UPWHALE
 	db 12, STINPEON
-	db 15, MACHOKE
+	db 15, NIMBOCETUS
 	db 12, KALKOLA
 	db 12, KALKOLA
 	db 20, KALKOLA
 	; day
 	db 10, COCACOBRA
 	db 11, DOLMITE
-	db 12, MACHOP
+	db 12, UPWHALE
 	db 12, STINPEON
-	db 15, MACHOKE
+	db 15, NIMBOCETUS
 	db 12, KALKOLA
 	db 12, KALKOLA
 	db 20, KALKOLA

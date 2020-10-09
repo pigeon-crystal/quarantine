@@ -188,7 +188,7 @@ AmbinniEggMoves:
 	db AMNESIA
 	db -1 ; end
 
-MachopEggMoves:
+UpwhaleEggMoves:
 	db LIGHT_SCREEN
 	db BARRIER
 	db MEGA_KICK

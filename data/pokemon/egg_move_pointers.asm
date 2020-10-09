@@ -64,7 +64,7 @@ EggMovePointers::
 	dw AmbinniEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw MachopEggMoves
+	dw UpwhaleEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw LawnieEggMoves
