@@ -1,10 +1,10 @@
 	db SNOSEBLEED ; 142
 
-	db  66, 41,  31, 65,  66,  31
+	db  66, 42,  40, 65,  66,  39
 	;   hp  atk  def  spd  sat  sdf
 
 	db ICE, POISON ; type
-	db 170 ; catch rate
+	db 140 ; catch rate
 	db 50 ; base exp
 	db WHT_APRICORN, POISON_BARB ; items
 	db GENDER_F50 ; gender ratio

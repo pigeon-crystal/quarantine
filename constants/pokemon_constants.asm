@@ -204,7 +204,7 @@ JOHTO_POKEMON EQU const_value
 	const PLANTENNA  ; b6
 	const HABBLE     ; b7
 	const SATELISK   ; b8
-	const PARDNER  ; b9
+	const PARDNER    ; b9
 	const POLITOED   ; ba
 	const SHABBYCAT  ; bb
 	const PURRDLE    ; bc
@@ -231,7 +231,7 @@ JOHTO_POKEMON EQU const_value
 	const ZASTER     ; d1
 	const GRIMPACT   ; d2
 	const PEKOI      ; d3
-	const SCIZOR     ; d4
+	const YAGAGARASU     ; d4
 	const SHUCKLE    ; d5
 	const HERACROSS  ; d6
 	const SNEASEL    ; d7

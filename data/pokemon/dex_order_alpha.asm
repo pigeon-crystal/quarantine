@@ -187,7 +187,7 @@ AlphabeticalPokedexOrder:
 	db SAPPURA
 	db SATELISK
 	db SCAULTER
-	db SCIZOR
+	db YAGAGARASU
 	db SCORCHOPPR
 	db SCORPEROR
 	db SCRUFFRUIT

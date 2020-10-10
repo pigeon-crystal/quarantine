@@ -216,7 +216,7 @@ PokemonCries::
 	mon_cry CRY_DUNSPARCE,   274,  232 ; ZASTER
 	mon_cry CRY_DUNSPARCE,     0,  384 ; GRIMPACT
 	mon_cry CRY_SLOWKING,    252,  234 ; PEKOI
-	mon_cry CRY_AMPHAROS,      0,  352 ; SCIZOR
+	mon_cry CRY_AMPHAROS,      0,  352 ; YAGAGARASU
 	mon_cry CRY_DUNSPARCE,   656,  168 ; SHUCKLE
 	mon_cry CRY_AMPHAROS,     53,  224 ; HERACROSS
 	mon_cry CRY_WOOPER,       83,  175 ; SNEASEL

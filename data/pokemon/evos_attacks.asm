@@ -2040,7 +2040,7 @@ PeacolderEvosAttacks:
 	db 0 ; no more level-up moves
 
 BowlideEvosAttacks:
-	db EVOLVE_TRADE, METAL_COAT, SCIZOR
+	db EVOLVE_TRADE, METAL_COAT, YAGAGARASU
 	db 0 ; no more evolutions
 	db 1, QUICK_ATTACK
 	db 1, TELEPORT
@@ -2827,33 +2827,42 @@ ShamselEvosAttacks:
 	db 0 ; no more level-up moves
 
 WandelusEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, PIKACHU
+	db EVOLVE_LEVEL, 24, NIMBOREM
 	db 0 ; no more evolutions
-	db 1, THUNDERSHOCK
-	db 1, CHARM
-	db 6, TAIL_WHIP
-	db 8, THUNDER_WAVE
-	db 11, SWEET_KISS
+	db 1, WHIRLWIND
+	db 1, GUST
+	db 6, RAIN_DANCE
+	db 11, WATER_GUN
+	db 15, MIST
+	db 18, HAZE
+	db 20, AMNESIA
+	db 26, SPARK
 	db 0 ; no more level-up moves
 
 NimboremEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, NYALLEY
+	db EVOLVE_LEVEL, 45, STRATOWAR
 	db 0 ; no more evolutions
-	db 1, POUND
-	db 1, CHARM
-	db 4, ENCORE
-	db 8, SING
-	db 13, SWEET_KISS
+	db 1, THUNDERSHOCK
+	db 1, WHIRLWIND
+	db 1, GUST
+	db 6, RAIN_DANCE
+	db 11, WATER_GUN
+	db 15, MIST
+	db 18, HAZE
+	db 20, AMNESIA
+	db 23, SPARK
+	db 26, RAPID_SPIN
+	db 29, BUBBLEBEAM
+	db 33, ICY_WIND
 	db 0 ; no more level-up moves
 
 StratowarEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, JIGGLYPUFF
 	db 0 ; no more evolutions
 	db 1, SING
 	db 1, CHARM
 	db 4, DEFENSE_CURL
 	db 9, POUND
-	db 14, SWEET_KISS
+	db 44, RAZOR_WIND
 	db 0 ; no more level-up moves
 
 TranquielEvosAttacks:
@@ -3454,18 +3463,25 @@ PekoiEvosAttacks:
 	db 48, PETAL_DANCE
 	db 0 ; no more level-up moves
 
-ScizorEvosAttacks:
+YagagarasuEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, QUICK_ATTACK
+	db 1, MEAN_LOOK
+	db 1, MIMIC
 	db 1, LEER
 	db 6, FOCUS_ENERGY
-	db 12, PURSUIT
+	db 10, PURSUIT
+	db 15, BEAT_UP
 	db 18, FALSE_SWIPE
-	db 24, AGILITY
-	db 30, METAL_CLAW
-	db 36, SLASH
-	db 42, SWORDS_DANCE
-	db 48, DOUBLE_TEAM
+	db 24, CURSE
+	db 27, MEAN_LOOK
+	db 29, METAL_CLAW
+	db 35, DARK_PULSE
+	db 36, AGILITY
+	db 39, DESTINY_BOND
+	db 40, SHADOW_CLAW
+	db 45, EARTHQUAKE
+	db 49, SWORDS_DANCE
+	db 49, RECOVER
 	db 0 ; no more level-up moves
 
 ShuckleEvosAttacks:
@@ -3681,18 +3697,18 @@ KrakentoaEvosAttacks:
 	db 0 ; no more level-up moves
 
 SnosebleedEvosAttacks:
-	db EVOLVE_LEVEL, 24, SNOWUP
+	db EVOLVE_LEVEL, 25, SNOWUP
 	db 0 ; no more evolutions
 	db 1, LICK
 	db 1, MIST
 	db 6, LEER
-	db 10, SMOG
+	db 9, SMOG
 	db 12, ICE_SHARD
-	db 16, WATER_GUN
+	db 15, WATER_GUN
 	db 18, ACID
 	db 22, ICY_WIND
 	db 27, HAZE
-	db 33, AURORA_BEAM
+	db 30, AURORA_BEAM
 	db 35, REST
 	db 40, AMNESIA
 	db 42, ICE_BEAM
@@ -3703,7 +3719,7 @@ SnosebleedEvosAttacks:
 	db 0 ; no more level-up moves
 
 SnowupEvosAttacks:
-	db EVOLVE_LEVEL, 46, SNOVERDOSE
+	db EVOLVE_LEVEL, 50, SNOVERDOSE
 	db 0 ; no more evolutions
 	db 1, LICK
 	db 1, MIST
@@ -3713,20 +3729,21 @@ SnowupEvosAttacks:
 	db 16, WATER_GUN
 	db 18, ACID
 	db 22, ICY_WIND
-	db 23, ICE_PUNCH
+	db 24, ICE_PUNCH
 	db 27, HAZE
 	db 33, AURORA_BEAM
 	db 35, REST
 	db 40, AMNESIA
 	db 42, ICE_BEAM
 	db 48, SLUDGE_BOMB
-	db 50, HYDRO_PUMP
+	db 52, HYDRO_PUMP
 	db 55, SELFDESTRUCT
 	db 60, FOCUS_BLAST	
 	db 0 ; no more level-up moves
 
 SnoverdoseEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, EXPLOSION
 	db 1, LICK
 	db 1, MIST
 	db 6, LEER
@@ -3743,7 +3760,7 @@ SnoverdoseEvosAttacks:
 	db 42, ICE_BEAM
 	db 43, SELFDESTRUCT
 	db 48, SLUDGE_BOMB
-	db 50, HYDRO_PUMP
+	db 52, HYDRO_PUMP
 	db 55, BLIZZARD
 	db 60, FOCUS_BLAST
 	db 0 ; no more level-up moves

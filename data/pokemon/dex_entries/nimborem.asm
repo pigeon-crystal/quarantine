@@ -1,10 +1,10 @@
-	db "CLOUD@" ; species name
-	dw 409, 975 ; height, weight
+	db "STORMCLOUD@" ; species name
+	dw 472, 81 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "Ill tempered"
+	next "NIMBOREM colonies""
+	next "will cause strong"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "thundestorms"
+	next "for weeks until"
+	next "they calm down.@"

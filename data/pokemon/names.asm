@@ -210,7 +210,7 @@ PokemonNames::
 	db "ZASTER@@@@"
 	db "GRIMPACT@@"
 	db "PEKOI@@@@@"
-	db "SCIZOR@@@@"
+	db "YAGAGARASU"
 	db "SHUCKLE@@@"
 	db "HERACROSS@"
 	db "SNEASEL@@@"

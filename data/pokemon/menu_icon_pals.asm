@@ -69,9 +69,9 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; AMBINNI
 	icon_pals BROWN,   YELLOW  ; BUNDEGRAF
 	icon_pals BROWN,   YELLOW  ; VOLTINGER
-	icon_pals BROWN,   YELLOW  ; UPWHALE
-	icon_pals BROWN,   YELLOW  ; NIMBOCETUS
-	icon_pals BROWN,   YELLOW  ; STELLOCEAN
+	icon_pals BLUE,   YELLOW  ; UPWHALE
+	icon_pals BLUE,   YELLOW  ; NIMBOCETUS
+	icon_pals BLUE,   YELLOW  ; STELLOCEAN
 	icon_pals GREEN,   YELLOW  ; LAWNIE
 	icon_pals GREEN,   YELLOW  ; ORGNOME
 	icon_pals GREEN, BROWN	   ; GNOMERCY
@@ -215,7 +215,7 @@ MonMenuIconPals:
 	icon_pals RED,   YELLOW    ; ZASTER
 	icon_pals GRAY,   YELLOW   ; GRIMPACT
 	icon_pals BROWN,   GREEN    ; PEKOI
-	icon_pals RED,   YELLOW    ; SCIZOR
+	icon_pals RED,   YELLOW    ; YAGAGARASU
 	icon_pals RED,   YELLOW    ; SHUCKLE
 	icon_pals RED,   YELLOW    ; HERACROSS
 	icon_pals RED,   YELLOW    ; SNEASAL

@@ -1,12 +1,12 @@
 	db PEPOFFER ; 063
 
-	db  180,  55,  59,  55, 85,  71
+	db  186,  55,  59,  55, 85,  71
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, WATER ; type
 	db 80 ; catch rate
 	db 188 ; base exp
-	db MYSTIC_WATER, BLU_APRICORN ; items
+	db MYSTIC_WATER, GRN_APRICORN ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 20 ; step cycles to hatch

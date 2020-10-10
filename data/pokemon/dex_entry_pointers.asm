@@ -211,7 +211,7 @@ PokedexDataPointerTable:
 	dw ZasterPokedexEntry
 	dw GrimpactPokedexEntry
 	dw PekoiPokedexEntry
-	dw ScizorPokedexEntry
+	dw YagagarasuPokedexEntry
 	dw ShucklePokedexEntry
 	dw HeracrossPokedexEntry
 	dw SneaselPokedexEntry

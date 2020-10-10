@@ -212,7 +212,7 @@ EvosAttacksPointers::
 	dw ZasterEvosAttacks
 	dw GrimpactEvosAttacks
 	dw PekoiEvosAttacks
-	dw ScizorEvosAttacks
+	dw YagagarasuEvosAttacks
 	dw ShuckleEvosAttacks
 	dw HeracrossEvosAttacks
 	dw SneaselEvosAttacks

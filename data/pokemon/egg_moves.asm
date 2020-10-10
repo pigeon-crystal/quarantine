@@ -632,6 +632,18 @@ PekoiEggMoves:
 	db BUBBLEBEAM
 	db SUPERSONIC
 	db -1 ; end
+	
+YagagarasuEggMoves:
+	db SCREECH
+	db HI_JUMP_KICK
+	db DIZZY_PUNCH
+	db DOUBLE_EDGE
+	db DOUBLE_KICK
+	db DRAININGKISS
+	db PSYCHO_CUT
+	db BRAVE_BIRD
+	db MACH_PUNCH
+	db -1 ; end
 
 ShuckleEggMoves:
 	db SWEET_SCENT

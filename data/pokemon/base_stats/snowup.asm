@@ -1,6 +1,6 @@
 	db SNOWUP ; 142
 
-	db  99, 55,  65, 55,  105,  66
+	db  99, 60,  65, 55,  99,  66
 	;   hp  atk  def  spd  sat  sdf
 
 	db ICE, POISON ; type

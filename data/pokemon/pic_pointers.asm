@@ -427,8 +427,8 @@ PokemonPicPointers::
 	dba_pic GrimpactBackpic
 	dba_pic PekoiFrontpic
 	dba_pic PekoiBackpic
-	dba_pic ScizorFrontpic
-	dba_pic ScizorBackpic
+	dba_pic YagagarasuFrontpic
+	dba_pic YagagarasuBackpic
 	dba_pic ShuckleFrontpic
 	dba_pic ShuckleBackpic
 	dba_pic HeracrossFrontpic

@@ -864,7 +864,7 @@ BattleTowerMons2:
 	bigdw 37 ; SDef
 	db "PIKATIyuU@@"
 
-	db SCIZOR
+	db YAGAGARASU
 	db FOCUS_BAND
 	db STEEL_WING, SLASH, TOXIC, SANDSTORM
 	dw 0 ; OT ID
@@ -1884,7 +1884,7 @@ BattleTowerMons4:
 	bigdw 88 ; SDef
 	db "GORO-NIya@@"
 
-	db SCIZOR
+	db YAGAGARASU
 	db SCOPE_LENS
 	db SLASH, STEEL_WING, PURSUIT, HYPER_BEAM
 	dw 0 ; OT ID
@@ -2355,7 +2355,7 @@ BattleTowerMons5:
 	bigdw 144 ; SDef
 	db "SANDA-SU@@@"
 
-	db SCIZOR
+	db YAGAGARASU
 	db LEFTOVERS
 	db HYPER_BEAM, SLASH, AGILITY, METAL_CLAW
 	dw 0 ; OT ID
@@ -5282,7 +5282,7 @@ BattleTowerMons10:
 	bigdw 240 ; SDef
 	db "NIyu-RA@@@@"
 
-	db SCIZOR
+	db YAGAGARASU
 	db QUICK_CLAW
 	db STEEL_WING, HYPER_BEAM, SLASH, TOXIC
 	dw 0 ; OT ID

@@ -1,10 +1,10 @@
 	db "CLOUD@" ; species name
-	dw 409, 975 ; height, weight
+	dw 212, 24 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "Rarely seen on"
+	next "land, it lives in"
+	next "the stratosphere."
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "The winds carry it"
+	next "to distant skies"
+	next "unwillingly.@"

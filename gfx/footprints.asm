@@ -481,7 +481,7 @@ INCBIN "gfx/footprints/wirigible.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/zaster.1bpp",   footprint_top
 INCBIN "gfx/footprints/grimpact.1bpp",   footprint_top
 INCBIN "gfx/footprints/pekoi.1bpp",   footprint_top
-INCBIN "gfx/footprints/scizor.1bpp",     footprint_top
+INCBIN "gfx/footprints/yagagarasu.1bpp",     footprint_top
 INCBIN "gfx/footprints/shuckle.1bpp",    footprint_top
 INCBIN "gfx/footprints/heracross.1bpp",  footprint_top
 INCBIN "gfx/footprints/sneasel.1bpp",    footprint_top
@@ -490,7 +490,7 @@ INCBIN "gfx/footprints/smucious.1bpp",  footprint_top
 INCBIN "gfx/footprints/zaster.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/grimpact.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/pekoi.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/scizor.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/yagagarasu.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/shuckle.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/heracross.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/sneasel.1bpp",    footprint_bottom
