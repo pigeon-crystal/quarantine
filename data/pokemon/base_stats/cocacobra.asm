@@ -1,6 +1,6 @@
 	db COCACOBRA ; 190
 
-	db  55,  66,  101,  5,  66,  77
+	db  55,  66,  101,  5,  77,  66
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type

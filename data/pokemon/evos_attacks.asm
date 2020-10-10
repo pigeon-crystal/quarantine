@@ -2834,7 +2834,7 @@ WandelusEvosAttacks:
 	db 6, RAIN_DANCE
 	db 11, WATER_GUN
 	db 15, MIST
-	db 18, HAZE
+	db 18, SMOG
 	db 20, AMNESIA
 	db 26, SPARK
 	db 0 ; no more level-up moves
@@ -2848,21 +2848,37 @@ NimboremEvosAttacks:
 	db 6, RAIN_DANCE
 	db 11, WATER_GUN
 	db 15, MIST
-	db 18, HAZE
+	db 18, SMOG
 	db 20, AMNESIA
 	db 23, SPARK
 	db 26, RAPID_SPIN
 	db 29, BUBBLEBEAM
 	db 33, ICY_WIND
+	db 36, HAZE
+	db 40, TWISTER
+	db 46, RAZOR_WIND
 	db 0 ; no more level-up moves
 
 StratowarEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SING
-	db 1, CHARM
-	db 4, DEFENSE_CURL
-	db 9, POUND
+	db 1, THUNDERSHOCK
+	db 1, WHIRLWIND
+	db 1, GUST
+	db 6, RAIN_DANCE
+	db 11, WATER_GUN
+	db 15, MIST
+	db 18, SMOG
+	db 20, AMNESIA
+	db 23, SPARK
+	db 26, RAPID_SPIN
+	db 29, BUBBLEBEAM
+	db 33, ICY_WIND
+	db 36, HAZE
+	db 40, TWISTER
 	db 44, RAZOR_WIND
+	db 48, THUNDERBOLT
+	db 52, THUNDER
+	db 56, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 TranquielEvosAttacks:

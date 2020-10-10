@@ -1,6 +1,6 @@
 	db NIMBOCETUS ; 063
 
-	db  77,  35,  61,  47,   90,  95
+	db  115,  35,  61,  50,   90,  65
 	;   hp   atk   def   spd   sat  sdf
 
 	db WATER, FLYING ; type

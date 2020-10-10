@@ -1,12 +1,12 @@
 	db BOWLIDE ; 
 
-	db  85,  40,  55,  70,  125,  125
+	db  80,  40,  55,  90,  110,  105
 	;   hp  atk  def  spd  sat  sdf
 
 	db PSYCHIC_TYPE, WATER ; type
 	db 33 ; catch rate
 	db 193 ; base exp
-	db TWISTEDSPOON, MYSTIC_WATER ; items
+	db TWISTEDSPOON, TWISTEDSPOON ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 20 ; step cycles to hatch

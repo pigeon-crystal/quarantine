@@ -1,6 +1,6 @@
 	db KALKOLA ; 190
 
-	db  66,  88,  125,  6,  138,  88
+	db  66,  99,  111,  5,  130,  80
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, PSYCHIC_TYPE ; type
