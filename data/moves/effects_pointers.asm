@@ -161,3 +161,4 @@ MoveEffectsPointers:
 	dw DragonDance
 	dw CalmMind
 	dw SpeedUpHit
+	dw Rest

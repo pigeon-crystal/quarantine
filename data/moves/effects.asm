@@ -2161,3 +2161,9 @@ SpeedUpHit:
 	statupmessage
 	endmove
 	
+Rest:
+	checkobedience
+	usedmovetext
+	doturn
+	heal
+	endmove

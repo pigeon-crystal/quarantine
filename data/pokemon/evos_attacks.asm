@@ -2469,7 +2469,8 @@ MewEvosAttacks:
 	db 20, COMET_PUNCH
 	db 30, METRONOME
 	db 40, PSYCHIC_M
-	db 50, ANCIENTPOWER
+	db 50, REST
+	db 50, SLEEP_TALK
 	db 0 ; no more level-up moves
 
 CigerillarEvosAttacks:

@@ -134,7 +134,7 @@ CianwoodPokeSeerSign:
 	jumptext CianwoodPokeSeerSignText
 
 CianwoodPokecenterSign:
-	givepoke MA_0, 50	
+	givepoke MEW, 50	
 	jumpstd pokecentersign
 
 CianwoodCityRock:
