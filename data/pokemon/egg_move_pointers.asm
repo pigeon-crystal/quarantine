@@ -202,7 +202,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw RespectreEggMoves
 	dw SwazzageEggMoves
-	dw PinecoEggMoves
+	dw ShreddrakeEggMoves
 	dw NoEggMoves
 	dw AttackoEggMoves
 	dw WiwrightEggMoves

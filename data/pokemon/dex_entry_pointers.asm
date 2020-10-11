@@ -203,7 +203,7 @@ PokedexDataPointerTable:
 	dw UnownPokedexEntry
 	dw RespectrePokedexEntry
 	dw SwazzagePokedexEntry
-	dw PinecoPokedexEntry
+	dw ShreddrakePokedexEntry
 	dw ForretressPokedexEntry
 	dw AttackoPokedexEntry
 	dw WiwrightPokedexEntry

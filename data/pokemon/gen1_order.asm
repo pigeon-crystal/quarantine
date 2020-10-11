@@ -242,7 +242,7 @@ Pokered_MonIndices:
 	db UNOWN
 	db RESPECTRE
 	db SWAZZAGE
-	db PINECO
+	db SHREDDRAKE
 	db FORRETRESS
 	db ATTACKO
 	db WIWRIGHT

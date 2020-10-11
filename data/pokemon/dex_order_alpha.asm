@@ -163,7 +163,7 @@ AlphabeticalPokedexOrder:
 	db WANDELUS
 	db PIKACHU
 	db PILFOARD
-	db PINECO
+	db SHREDDRAKE
 	db BERMUDANT
 	db PITAYRANT
 	db PLANTENNA

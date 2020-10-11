@@ -600,7 +600,7 @@ SwazzageEggMoves:
 	db BEAT_UP
 	db -1 ; end
 
-PinecoEggMoves:
+ShreddrakeEggMoves:
 	db REFLECT
 	db FLAIL
 	db SWIFT

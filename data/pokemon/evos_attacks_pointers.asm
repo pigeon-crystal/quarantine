@@ -204,7 +204,7 @@ EvosAttacksPointers::
 	dw UnownEvosAttacks
 	dw RespectreEvosAttacks
 	dw SwazzageEvosAttacks
-	dw PinecoEvosAttacks
+	dw ShreddrakeEvosAttacks
 	dw ForretressEvosAttacks
 	dw AttackoEvosAttacks
 	dw WiwrightEvosAttacks

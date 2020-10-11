@@ -1,10 +1,10 @@
 	db "PUNK@" ; species name
 	dw 401, 562 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "After getting an"
+	next "involuntary pier-"
+	next "cing, SIDFISHOUS"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "now feels really"
+	next "cool. Almost too"
+	next "cool for you, too!@"

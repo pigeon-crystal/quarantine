@@ -134,8 +134,8 @@ CianwoodPokeSeerSign:
 	jumptext CianwoodPokeSeerSignText
 
 CianwoodPokecenterSign:
-	givepoke ANTPYRE, 50
-	givepoke GENEROPSIS, 50
+	givepoke RADEON, 50
+	givepoke SCORCHOPPR, 50
 	jumpstd pokecentersign
 
 CianwoodCityRock:

@@ -235,7 +235,7 @@ INCLUDE "data/pokemon/base_stats/maulzer.asm"
 INCLUDE "data/pokemon/base_stats/unown.asm"
 INCLUDE "data/pokemon/base_stats/respectre.asm"
 INCLUDE "data/pokemon/base_stats/swazzage.asm"
-INCLUDE "data/pokemon/base_stats/pineco.asm"
+INCLUDE "data/pokemon/base_stats/shreddrake.asm"
 INCLUDE "data/pokemon/base_stats/forretress.asm"
 INCLUDE "data/pokemon/base_stats/attacko.asm" ;'sparce
 INCLUDE "data/pokemon/base_stats/wiwright.asm"

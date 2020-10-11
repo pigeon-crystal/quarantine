@@ -463,7 +463,7 @@ INCBIN "gfx/footprints/maulzer.1bpp", footprint_bottom
 INCBIN "gfx/footprints/unown.1bpp",      footprint_top
 INCBIN "gfx/footprints/respectre.1bpp",  footprint_top
 INCBIN "gfx/footprints/swazzage.1bpp",  footprint_top
-INCBIN "gfx/footprints/pineco.1bpp",     footprint_top
+INCBIN "gfx/footprints/shreddrake.1bpp",     footprint_top
 INCBIN "gfx/footprints/forretress.1bpp", footprint_top
 INCBIN "gfx/footprints/attacko.1bpp",  footprint_top
 INCBIN "gfx/footprints/wiwright.1bpp",     footprint_top
@@ -472,7 +472,7 @@ INCBIN "gfx/footprints/wirigible.1bpp",    footprint_top
 INCBIN "gfx/footprints/unown.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/respectre.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/swazzage.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/pineco.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/shreddrake.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/forretress.1bpp", footprint_bottom
 INCBIN "gfx/footprints/attacko.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/wiwright.1bpp",     footprint_bottom

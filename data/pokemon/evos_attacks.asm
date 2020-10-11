@@ -3355,7 +3355,7 @@ SwazzageEvosAttacks:
 	db 46, ICE_PUNCH
 	db 0 ; no more level-up moves
 
-PinecoEvosAttacks:
+ShreddrakeEvosAttacks:
 	db EVOLVE_LEVEL, 31, FORRETRESS
 	db 0 ; no more evolutions
 	db 1, POUND

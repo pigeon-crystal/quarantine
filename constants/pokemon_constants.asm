@@ -223,7 +223,7 @@ JOHTO_POKEMON EQU const_value
 	const UNOWN      ; c9
 	const RESPECTRE  ; ca
 	const SWAZZAGE   ; cb
-	const PINECO     ; cc
+	const SHREDDRAKE     ; cc
 	const FORRETRESS ; cd
 	const ATTACKO    ; ce dunsparce
 	const WIWRIGHT   ; cf
@@ -231,7 +231,7 @@ JOHTO_POKEMON EQU const_value
 	const ZASTER     ; d1
 	const GRIMPACT   ; d2
 	const PEKOI      ; d3
-	const YAGAGARASU     ; d4
+	const YAGAGARASU ; d4
 	const SHUCKLE    ; d5
 	const HERACROSS  ; d6
 	const SNEASEL    ; d7

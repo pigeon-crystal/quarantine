@@ -411,8 +411,8 @@ PokemonPicPointers::
 	dba_pic RespectreBackpic
 	dba_pic SwazzageFrontpic
 	dba_pic SwazzageBackpic
-	dba_pic PinecoFrontpic
-	dba_pic PinecoBackpic
+	dba_pic ShreddrakeFrontpic
+	dba_pic ShreddrakeBackpic
 	dba_pic ForretressFrontpic
 	dba_pic ForretressBackpic
 	dba_pic AttackoFrontpic

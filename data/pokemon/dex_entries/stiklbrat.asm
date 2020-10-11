@@ -1,10 +1,10 @@
 	db "RECEPTIVE@" ; species name
 	dw 102, 130 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "When in peril"
+	next "STIKLBRAT can"
+	next "only put up its"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "spines and try to"
+	next "look dangerous, to"
+	next "usually no avail.@"

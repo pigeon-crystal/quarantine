@@ -207,7 +207,7 @@ MonMenuIconPals:
 	icon_pals RED,   YELLOW    ; UNOWN
 	icon_pals BROWN,   YELLOW  ; RESPECTRE
 	icon_pals BLUE,   YELLOW    ; SWAZZAGE
-	icon_pals RED,   YELLOW    ; PINECO
+	icon_pals RED,   YELLOW    ; SHREDDRAKE
 	icon_pals RED,   YELLOW    ; FORTRESS
 	icon_pals YELLOW,   PINK   ; ATTACKO
 	icon_pals BROWN,   YELLOW  ; WIWRIGHT

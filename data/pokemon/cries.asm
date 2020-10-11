@@ -159,9 +159,9 @@ PokemonCries::
 	mon_cry CRY_PARAS,  	 -16,  176 ; CIGERILLAR, orig CHIKORITA
 	mon_cry CRY_PARAS,       -34,  288 ; TOBACOON, 
 	mon_cry CRY_CHIKORITA,  -183,  420 ; OKAMIKAZE,
-	mon_cry CRY_CYNDAQUIL,  1111,  288 ; RADEON, orig CYNDAQUIL
+	mon_cry $17, 		 $096c,  $0068 ; RADEON, orig CYNDAQUIL
 	mon_cry CRY_TYPHLOSION,  420,  288 ; SCAULTER
-	mon_cry CRY_TYPHLOSION, -183,  420 ; SCORCHOPPR
+	mon_cry $17,		   $08da,  $020a ; SCORCHOPPR
 	mon_cry CRY_TEDDIURSA,  1954,  110 ; FURSA, orig TOTODILE
 	mon_cry CRY_TEDDIURSA,  1555,  269 ; NANUQUA
 	mon_cry CRY_TEDDIURSA,  1001,  269 ; URSKIMO
@@ -208,7 +208,7 @@ PokemonCries::
 	mon_cry CRY_HOOTHOOT,    354,  256 ; UNOWN
 	mon_cry CRY_DUNSPARCE,   273,  369 ; RESPECTRE
 	mon_cry CRY_GIRAFARIG,    65,  512 ; SWAZZAGE
-	mon_cry CRY_SLOWKING,    128,  256 ; PINECO
+	mon_cry CRY_SLOWKING,    128,  256 ; SHREDDRAKE
 	mon_cry CRY_SLOWKING,      0,  384 ; FORRETRESS
 	mon_cry CRY_DUNSPARCE,   841,  206 ; ATTACKO
 	mon_cry CRY_GLIGAR,       69,  231 ; WIWRIGHT
