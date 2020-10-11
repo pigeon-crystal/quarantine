@@ -1,12 +1,12 @@
 	db PARDNER ; 190
 
-	db  77,  101,  107,  85,  57,  71
+	db  78,  100,  107,  85,  57,  71
 	;   hp  atk  def  spd  sat  sdf
 
 	db GROUND, GROUND ; type
 	db 47 ; catch rate
-	db 123 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	db 129 ; base exp
+	db MINT_BERRY, BITTER_BERRY ; items
 	db GENDER_F25 ; gender ratio
 	db 100 ; unknown 1
 	db 15 ; step cycles to hatch

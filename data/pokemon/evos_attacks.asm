@@ -3043,12 +3043,19 @@ SateliskEvosAttacks:
 
 PardnerEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, ROCK_THROW
-	db 1, MIMIC
-	db 10, FLAIL
-	db 28, ROCK_SLIDE
-	db 37, FAINT_ATTACK
-	db 46, BODY_SLAM
+	db 1, POUND
+	db 1, SAND_ATTACK
+	db 10, RAPID_SPIN
+	db 16, DOUBLE_KICK
+	db 20, QUICK_ATTACK
+	db 25, MAGNITUDE
+	db 28, SPIKES
+	db 31, STOMP
+	db 36, SUPER_FANG
+	db 40, CRUNCH
+	db 42, AGILITY
+	db 47, EARTHQUAKE
+	db 55, THRASH
 	db 0 ; no more level-up moves
 
 PolitoedEvosAttacks:

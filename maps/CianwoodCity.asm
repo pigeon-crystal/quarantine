@@ -134,7 +134,8 @@ CianwoodPokeSeerSign:
 	jumptext CianwoodPokeSeerSignText
 
 CianwoodPokecenterSign:
-	givepoke MEW, 50	
+	givepoke ANTPYRE, 50
+	givepoke GENEROPSIS, 50
 	jumpstd pokecentersign
 
 CianwoodCityRock:

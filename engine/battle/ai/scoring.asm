@@ -388,6 +388,7 @@ AI_Smart:
 	dbw EFFECT_SOLARBEAM,        AI_Smart_Solarbeam
 	dbw EFFECT_THUNDER,          AI_Smart_Thunder
 	dbw EFFECT_FLY,              AI_Smart_Fly
+	dbw EFFECT_REST, 			 AI_Smart_Rest
 	db -1 ; end
 
 AI_Smart_Sleep:
@@ -941,6 +942,7 @@ AI_Smart_Heal:
 AI_Smart_MorningSun:
 AI_Smart_Synthesis:
 AI_Smart_Moonlight:
+AI_Smart_Rest:
 ; 90% chance to greatly encourage this move if enemy's HP is below 25%.
 ; Discourage this move if enemy's HP is higher than 50%.
 ; Do nothing otherwise.

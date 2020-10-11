@@ -118,8 +118,8 @@ PokemonCries::
 	mon_cry CRY_CHARMANDER,    0,  256 ; CUTTLE
 	mon_cry CRY_RHYDON,        1,  256 ; TENDRILL
 	mon_cry CRY_RHYDON,      -10,  320 ; CALARMOURI
-	mon_cry CRY_PIDGEOTTO,    80,  256 ; ANTPYRE
-	mon_cry CRY_PIDGEOTTO,   222,  328 ; GENEROPSIS
+	mon_cry CRY_TOTODILE,  12358,   45 ; ANTPYRE
+	mon_cry CRY_TOTODILE,    22,  48 ; GENEROPSIS
 	mon_cry CRY_AMPHAROS,   3000,  292 ; OSCURASA
 	mon_cry CRY_AMPHAROS,   2069,  420 ; MADRUGASA
 	mon_cry CRY_SEEL,       1128,  200 ; GOOSAPLING
