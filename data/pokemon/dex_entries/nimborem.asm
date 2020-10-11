@@ -2,7 +2,7 @@
 	dw 472, 81 ; height, weight
 
 	db   "Ill tempered"
-	next "NIMBOREM colonies""
+	next "NIMBOREM colonies"
 	next "will cause strong"
 
 	page "thundestorms"

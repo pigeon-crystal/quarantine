@@ -1085,6 +1085,12 @@ Cry_Weepinbell:
 	channel 6, Cry_Weepinbell_Ch6
 	channel 8, Cry_Weepinbell_Ch8
 
+Cry_MA_0:
+	channel_count 3
+	channel 5, Cry_Unused_Ch5
+	channel 6, Cry_Unused_Ch6
+	channel 8, Cry_Unused_Ch8
+	
 Cry_Unused_Ch5:
 	duty_cycle_pattern 3, 3, 0, 0
 	square_note 15, 14, 0, 1920

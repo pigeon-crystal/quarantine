@@ -154,7 +154,7 @@ PokemonCries::
 	mon_cry CRY_BULBASAUR,    96,  192 ; DRATINI
 	mon_cry CRY_BULBASAUR,    64,  256 ; DRAGONAIR
 	mon_cry CRY_BULBASAUR,    60,  320 ; DRAGONITE
-	mon_cry CRY_PARAS,       153,  383 ; MA_0
+	mon_cry CRY_MA_0,          0,  252 ; MA_0
 	mon_cry CRY_PARAS,       238,  383 ; MEW
 	mon_cry CRY_PARAS,  	 -16,  176 ; CIGERILLAR, orig CHIKORITA
 	mon_cry CRY_PARAS,       -34,  288 ; TOBACOON, 

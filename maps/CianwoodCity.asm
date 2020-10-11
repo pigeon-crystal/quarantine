@@ -134,7 +134,7 @@ CianwoodPokeSeerSign:
 	jumptext CianwoodPokeSeerSignText
 
 CianwoodPokecenterSign:
-	givepoke NUCKAWHEEZ, 50	
+	givepoke MA_0, 50	
 	jumpstd pokecentersign
 
 CianwoodCityRock:
