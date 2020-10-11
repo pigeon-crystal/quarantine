@@ -76,3 +76,5 @@ BTTrainerClassGenders:
 	db MALE	  ; ATHLETE_M
 	db FEMALE ; FANATIC_RED
 	db FEMALE ; FAANTIC_BLUE
+	db MALE   ; WARRIOR
+	db MALE   ; RADICAL

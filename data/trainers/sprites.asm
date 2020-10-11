@@ -75,4 +75,6 @@ BTTrainerClassSprites:
 	db SPRITE_ATHLETE_M ; athlete M
 	db SPRITE_FANATIC ; FanaticRed
 	db SPRITE_FANATIC ; FanaticBlue
+	db SPRITE_WARRIOR
+	db SPRITE_RADICAL
 	

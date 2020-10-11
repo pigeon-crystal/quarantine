@@ -78,3 +78,4 @@ TrainerPicPointers::
 	dba_pic FanaticRedPic
 	dba_pic FanaticBluePic
 	dba_pic WarriorPic
+	dba_pic RadicalPic

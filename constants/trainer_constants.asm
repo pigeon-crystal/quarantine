@@ -721,5 +721,7 @@ KRIS EQU __enum__
 	trainerclass FANATIC_BLUE ; 4b
 	
 	trainerclass WARRIOR ; 4c 
+	
+	trainerclass RADICAL ; 4d
 		
 NUM_TRAINER_CLASSES EQU __enum__

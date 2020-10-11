@@ -31,6 +31,8 @@ MaleTrainers:
 	db CHEATER
 	db ENFORCER
 	db ATHLETE_M
+	db WARRIOR
+	db RADICAL
 .End
 
 FemaleTrainers:

@@ -117,4 +117,6 @@ OverworldSprites:
 	overworld_sprite GuruSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite FanaticSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite AthleteMSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite WarriorSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
+	overworld_sprite RadicalSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
 	

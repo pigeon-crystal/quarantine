@@ -453,6 +453,12 @@ TrainerClassAttributes:
 	
 ; Warrior
 	db NO_ITEM, NO_ITEM ; items
-	db 10 ; base reward
+	db 13 ; base reward
 	dw AI_BASIC | AI_SETUP | AI_OFFENSIVE | AI_OPPORTUNIST | AI_STATUS
+	dw CONTEXT_USE | SWITCH_SOMETIMES
+	
+; Radical
+	db FULL_HEAL, NO_ITEM ; items
+	db 10 ; base reward
+	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
 	dw CONTEXT_USE | SWITCH_SOMETIMES

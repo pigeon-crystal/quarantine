@@ -113,6 +113,8 @@
 	const SPRITE_GURU	; 6d
 	const SPRITE_FANATIC ; 6e
 	const SPRITE_ATHLETE_M ; 6f
+	const SPRITE_WARRIOR ; 70
+	const SPRITE_RADICAL ; 71
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)
 	const_def $80

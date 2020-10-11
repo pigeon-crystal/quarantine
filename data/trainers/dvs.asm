@@ -60,21 +60,22 @@ TrainerClassDVs:
 	dn  7,  8,  8,  8 ; MEDIUM
 	dn  9,  8,  8,  8 ; BOARDER
 	dn  9,  8,  8,  8 ; POKEFANM
-	dn  6,  8,  8, 10 ; KIMONO_GIRL
+	dn 10,  8,  8, 10 ; KIMONO_GIRL
 	dn  6,  8, 10,  8 ; TWINS
 	dn  6, 13,  8,  8 ; POKEFANF
-	dn 15, 13, 13, 14 ; RED
-	dn  9, 13, 13, 13 ; BLUE
+	dn 15, 13, 15, 14 ; RED
+	dn  9, 13, 15, 13 ; BLUE
 	dn  9,  8,  8,  8 ; OFFICER
 	dn  7, 14, 10,  8 ; GRUNTF
 	dn  9,  8,  8,  8 ; MYSTICALMAN
 	dn 11, 14, 15, 15 ; WIZARD
 	dn 13, 13, 13, 14 ; GURU
-	dn 15, 14, 15, 15 ; CHEATER
+	dn 15, 15, 15, 15 ; CHEATER
 	dn 11,  7, 10,  9 ; ENFORCER
 	dn  7, 12, 12,  8 ; ATHLETEF
 	dn 13,  8, 12,  8 ; ATHLETEM	
 	dn  7, 12, 12,  8 ; FANATICRED
 	dn  7, 12, 12,  8 ; FANATICBLUE
 	dn 15,  8, 10,  8 ; WARRIOR
+	dn  9,  8, 15,  8 ; RADICAL
 	

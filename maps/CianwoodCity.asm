@@ -134,8 +134,7 @@ CianwoodPokeSeerSign:
 	jumptext CianwoodPokeSeerSignText
 
 CianwoodPokecenterSign:
-	givepoke RADEON, 50
-	givepoke SCORCHOPPR, 50
+	warp SLOWPOKE_WELL_B1F, 2, 15
 	jumpstd pokecentersign
 
 CianwoodCityRock:

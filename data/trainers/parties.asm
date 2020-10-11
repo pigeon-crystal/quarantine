@@ -3700,3 +3700,6 @@ FanaticRedGroup:
 
 FanaticBlueGroup:
 
+WarriorGroup:
+
+RadicalGroup:

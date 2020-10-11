@@ -726,6 +726,7 @@ AthleteMPic:	  INCBIN "gfx/trainers/athlete_m.2bpp.lz"
 FanaticRedPic:	  INCBIN "gfx/trainers/fanatic_red.2bpp.lz"
 FanaticBluePic:   INCBIN "gfx/trainers/fanatic_blue.2bpp.lz"
 WarriorPic:       INCBIN "gfx/trainers/warrior.2bpp.lz"
+RadicalPic:		  INCBIN "gfx/trainers/radical.2bpp.lz"
 
 ; Sections "Pics 20" to "Pics 24" are not used for any graphics,
 ; but entries for their banks exist in FixPicBank (see engine/gfx/load_pics.asm).

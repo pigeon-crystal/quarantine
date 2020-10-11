@@ -76,4 +76,5 @@ TrainerGroups:
 	dba AthleteMGroup
 	dba FanaticRedGroup
 	dba FanaticBlueGroup
-	
+	dba WarriorGroup
+	dba RadicalGroup
