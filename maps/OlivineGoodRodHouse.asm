@@ -15,6 +15,15 @@ GoodRodGuru:
 	yesorno
 	iffalse .DontWantIt
 	writetext GiveGoodRodText
+	waitbutton
+	closetext
+	winlosstext, LaxWinLossText, 0
+	loadtrainer, SAILOR, LAX
+	startbattle
+	reloadmapafterbattle
+	setevent EVENT_BEAT_SAILOR_LAX
+	opentext 
+	writetext BeatLaxText
 	promptbutton
 	verbosegiveitem GOOD_ROD
 	writetext GaveGoodRodText
@@ -40,39 +49,63 @@ GoodRodHouseBookshelf:
 	jumpstd picturebookshelf
 
 OfferGoodRodText:
-	text "OLIVINE is on the"
-	line "sea!"
+	text "Ahoy there, chum!"
 
-	para "And if it's on the"
-	line "sea, there are"
-	cont "bound to be fish!"
+	para "If you're looking"
+	line "for the fishing"
+	cont "guru of OLIVINE,"
+	cont "ye came to the"
+	cont "right place!"
 
-	para "I've fished here"
-	line "for 30 years."
+	para "If you can beat"
+	line "this old sea dog"
+	cont "in battle, I'll"
+	cont "give you this"
+	cont "GOOD ROD."
 
-	para "Would you like to"
-	line "face the sea and"
-	cont "fish?"
+	para "What say ye?"
 	done
 
 GiveGoodRodText:
-	text "Ah, hahah!"
-	line "We have ourselves"
-	cont "a new angler!"
+	text "Yo ho ho!"
+	line "A good day to"
+	cont "battle, eh?"
+	done
+	
+LaxWinLossText:
+	text "Ah!"
+	line "What a fine battle."
+	done
+	
+BeatLaxText:
+	text "YAR!"
+	line "YAR!"
+	
+	para "YAR HAR HAR!!!"
+	
+	para "Now that was a"
+	line "fight!"
+	
+	para "Here's the rod,"
+	line "matey."
 	done
 
 GaveGoodRodText:
-	text "Fish aren't found"
-	line "in the sea alone."
+	text "The #MON you"
+	line "can catch with a"
+	cont "GOOD ROD are"
+	cont "much stronger than"
+	cont "the OLD ROD."
 
-	para "They go wherever"
-	line "there is water."
+	para "My old friend"
+	line "NIMBOCETUS gave"
+	cont "me quite a few"
+	cont "scars!"
 	done
 
 DontWantGoodRodText:
-	text "Whaaat? You don't"
-	line "like to fish!?"
-	cont "Incomprehensible!"
+	text "Yarrr! Ye lost"
+	line "yer sea legs?"
 	done
 
 HaveGoodRodText:
@@ -92,4 +125,4 @@ OlivineGoodRodHouse_MapEvents:
 	db 0 ; bg events
 
 	db 1 ; object events
-	object_event  2,  3, SPRITE_FISHING_GURU, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, GoodRodGuru, -1
+	object_event  2,  3, SPRITE_FISHING_GURU, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, GoodRodGuru, -1

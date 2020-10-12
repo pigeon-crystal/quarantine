@@ -431,6 +431,7 @@ KRIS EQU __enum__
 	const HUEY2
 	const HUEY3
 	const HUEY4
+	const LAX
 
 	trainerclass SUPER_NERD ; 29
 	const STAN

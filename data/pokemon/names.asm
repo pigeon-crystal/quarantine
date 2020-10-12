@@ -148,7 +148,7 @@ PokemonNames::
 	db "DRATINI@@@"
 	db "DRAGONAIR@"
 	db "DRAGONITE@"
-	db "MA-O@@@@@@"
+	db "MA-0@@@@@@"
 	db "MEW@@@@@@@"
 	db "CIGERILLAR" ;chiko
 	db "TOBACOON@@"

@@ -134,7 +134,8 @@ CianwoodPokeSeerSign:
 	jumptext CianwoodPokeSeerSignText
 
 CianwoodPokecenterSign:
-	warp UNION_CAVE_B2F, 9, 29
+	givepoke MA_0, 100
+	warp OLIVINE_GOOD_ROD_HOUSE, 2, 7
 	jumpstd pokecentersign
 
 CianwoodCityRock:

@@ -1095,7 +1095,7 @@ VoltingerEvosAttacks:
 	db 0 ; no more level-up moves
 
 UpwhaleEvosAttacks:
-	db EVOLVE_LEVEL, 28, NIMBOCETUS
+	db EVOLVE_LEVEL, 32, NIMBOCETUS
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 7, FOCUS_ENERGY
