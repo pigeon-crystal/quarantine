@@ -43,10 +43,10 @@ FishGroups:
 .Ocean_Good:
 	db  35 percent,     STRANGLURE,   20
 	db  70 percent,     STRANGLURE,  20
-	db  90 percent + 1, STRANGLURE,   20
+	db  90 percent + 1, UPWHALE,   20
 	db 100 percent,     time_group 2
 .Ocean_Super:
-	db  40 percent,     STRANGLURE,   40
+	db  40 percent,     UPWHALE,   40
 	db  70 percent,     time_group 3
 	db  90 percent + 1, TENTACRUEL, 40
 	db 100 percent,     LANATUN,    40

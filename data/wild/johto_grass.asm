@@ -307,61 +307,61 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	db 13, NOMSTER
-	db 14, LEAFFIGY
+	db 14, SAPPURA
 	db 15, NOMSTER
 	db 14, STINPEON
 	db 15, NOMSTER
-	db 15, NOMSABRE
-	db 15, NOMSABRE
-	db 19, NOMSABRE
+	db 15, STINPEON
+	db 15, HAPPIG
+	db 19, OSCURASA
 	; day
 	db 13, NOMSTER
-	db 14, LEAFFIGY
+	db 14, SAPPURA
 	db 15, NOMSTER
 	db 14, STINPEON
 	db 15, NOMSTER
-	db 15, NOMSABRE
-	db 15, NOMSABRE
-	db 19, NOMSABRE
+	db 15, STINPEON
+	db 15, HAPPIG
+	db 19, OSCURASA
 	; nite
 	db 13, NOMSTER
-	db 14, LEAFFIGY
+	db 14, SAPPURA
 	db 15, NOMSTER
 	db 14, STINPEON
-	db 15, NOMSTER
-	db 15, NOMSABRE
-	db 15, NOMSABRE
-	db 19, NOMSABRE
+	db 15, STINPEON
+	db 15, HAPPIG
+	db 15, OSCURASA
+	db 19, OSCURASA
 
 	map_id BURNED_TOWER_B1F ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 14, NOMSTER
-	db 14, LEAFFIGY
-	db 16, LEAFFIGY
+	db 13, NOMSTER
+	db 14, SAPPURA
+	db 15, NOMSTER
+	db 14, STINPEON
+	db 15, NOMSTER
 	db 15, STINPEON
-	db 12, LEAFFIGY
-	db 16, LEAFFIGY
-	db 16, SAKURONNA
-	db 19, SAKURONNA
+	db 15, HAPPIG
+	db 19, OSCURASA
 	; day
-	db 14, NOMSTER
-	db 14, LEAFFIGY
-	db 16, LEAFFIGY
+	db 13, NOMSTER
+	db 14, SAPPURA
+	db 15, NOMSTER
+	db 14, STINPEON
+	db 15, NOMSTER
 	db 15, STINPEON
-	db 12, LEAFFIGY
-	db 16, LEAFFIGY
-	db 16, SAKURONNA
-	db 19, SAKURONNA
+	db 15, HAPPIG
+	db 19, OSCURASA
 	; nite
-	db 14, NOMSTER
-	db 14, LEAFFIGY
-	db 16, LEAFFIGY
+	db 13, NOMSTER
+	db 14, SAPPURA
+	db 15, NOMSTER
+	db 14, STINPEON
 	db 15, STINPEON
-	db 12, LEAFFIGY
-	db 16, LEAFFIGY
-	db 16, SAKURONNA
-	db 19, SAKURONNA
+	db 15, HAPPIG
+	db 15, OSCURASA
+	db 19, OSCURASA
 
 	map_id NATIONAL_PARK ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -370,58 +370,58 @@ JohtoGrassWildMons:
 	db 16, MOPERDOR
 	db 16, WORMEEK
 	db 16, FURDOBA
-	db 16, BUZZLING
+	db 16, ODDITTEN
 	db 16, SHABBYCAT
-	db 16, HOATOT
+	db 16, ODDITTEN
 	db 20, MAULZER
 	; day
 	db 16, SHABBYCAT
 	db 16, MOPERDOR
 	db 16, SHABBYCAT
 	db 16, FURDOBA
-	db 16, BUZZLING
+	db 16, ODDITTEN
 	db 16, MOPERDOR
-	db 16, HOATOT
+	db 16, ODDITTEN
 	db 20, MAULZER
 	; nite
 	db 16, MOPERDOR
 	db 16, SHABBYCAT
-	db 16, GWUBBY
+	db 16, ODDITTEN
 	db 16, NYALLEY
 	db 16, NYALLEY
-	db 16, SHABBYCAT
+	db 16, FURDOBA
 	db 16, JUNOBE
 	db 20, MAULZER
 
 	map_id RUINS_OF_ALPH_OUTSIDE ;done
-	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
+	db 6 percent, 5 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, SQWUCKY
-	db 22, SQWUCKY
-	db 18, SQWUCKY
-	db 24, SQWUCKY
-	db 20, EYECHOSIS
-	db 22, EYECHOSIS
-	db 22, EYECHOSIS
-	db 22, SQWUCKY
-	; day
-	db 20, SQWUCKY
-	db 22, SQWUCKY
-	db 18, SQWUCKY
-	db 24, SQWUCKY
-	db 20, EYECHOSIS
-	db 22, EYECHOSIS
-	db 22, EYECHOSIS
-	db 22, SQWUCKY
-	; nite
-	db 20, SQWUCKY
-	db 22, SQWUCKY
-	db 18, SQWUCKY
-	db 24, SQWUCKY
+	db 20, HOATOXIC
+	db 22, ANTPYRE
+	db 18, OBELITH
+	db 24, ANTPYRE
+	db 20, ODDITTEN
 	db 22, ODDITTEN
-	db 22, ASTROTOM
-	db 22, ASTROTOM
-	db 24, ASTROTOM
+	db 22, HOATOXIC
+	db 22, NAVIGAZER
+	; day
+	db 20, HOATOXIC
+	db 22, ANTPYRE
+	db 18, OBELITH
+	db 24, ANTPYRE
+	db 20, ODDITTEN
+	db 22, ODDITTEN
+	db 22, PLANTENNA
+	db 22, PLANTENNA
+	; nite
+	db 20, HOATOXIC
+	db 22, ANTPYRE
+	db 18, OBELITH
+	db 24, ANTPYRE
+	db 22, ODDITTEN
+	db 22, ODDITTEN
+	db 22, HOATOXIC
+	db 24, NAVIGAZER
 
 	map_id RUINS_OF_ALPH_INNER_CHAMBER ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -491,7 +491,7 @@ JohtoGrassWildMons:
 	db 10, NOMSTER
 	db 10, STINPEON
 	db 10, DOLMITE
-	db 11, MUMINI
+	db 11, STINPEON
 	db 12, MUMINI
 	db 11, MUMINI
 	; day
@@ -552,7 +552,7 @@ JohtoGrassWildMons:
 	db 11, MUMINI
 	db 11, STINPEON
 	db 12, CUTTLE
-	db 14, MORADAY
+	db 14, MUMINI
 	db 15, MORADAY
 	; day
 	db 11, STINPEON
@@ -637,16 +637,16 @@ JohtoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 14, NOMSTER
-	db 13, STINPEON
+	db 13, OSCURASA
 	db 14, UPWHALE
-	db 13, SCORPEROR
+	db 13, STINPEON
 	db 14, DOLMITE
 	db 16, NOMSABRE
 	db 16, NOMSABRE
 	db 19, NOMSABRE
 	; day
 	db 14, NOMSTER
-	db 13, STINPEON
+	db 13, OSCURASA
 	db 14, UPWHALE
 	db 13, SCORPEROR
 	db 14, DOLMITE
@@ -655,7 +655,7 @@ JohtoGrassWildMons:
 	db 19, NOMSABRE
 	; nite
 	db 14, NOMSTER
-	db 13, STINPEON
+	db 13, OSCURASA
 	db 14, HABBLE
 	db 13, SCORPEROR
 	db 14, DOLMITE
@@ -1151,27 +1151,27 @@ JohtoGrassWildMons:
 	db 42, MORADAY
 	db 45, GIGERATOR
 	db 45, SCORPEROR
-	db 20, LARVITAR
-	db 15, LARVITAR
-	db 20, LARVITAR
+	db 20, SCAULTER
+	db 15, FURSA
+	db 20, CIGERILLAR
 	; day
 	db 43, DOLMESA
 	db 44, SMOTHERENE
 	db 42, MORADAY
 	db 45, GIGERATOR
 	db 45, SCORPEROR
-	db 20, LARVITAR
-	db 15, LARVITAR
-	db 21, LARVITAR
+	db 20, CIGERILLAR
+	db 15, SCAULTER
+	db 21, FURSA
 	; nite
 	db 43, DOLMESA
 	db 44, SCORPEROR
 	db 42, MORADAY
 	db 42, SCORPEROR
 	db 45, EXOTUNITY
-	db 46, SCORPEROR
-	db 46, SCORPEROR
-	db 20, LARVITAR
+	db 46, FURSA
+	db 46, CIGERILLAR
+	db 20, SCAULTER
 
 	map_id SILVER_CAVE_ROOM_2 ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -1181,27 +1181,27 @@ JohtoGrassWildMons:
 	db 47, SMOTHERENE
 	db 46, PARASECT
 	db 48, PARASECT
-	db 15, LARVITAR
-	db 20, LARVITAR
-	db 21, LARVITAR
+	db 15, CIGERILLAR
+	db 20, FURSA
+	db 21, SCAULTER
 	; day
 	db 48, SCORPEROR
 	db 48, NIMBOCETUS
 	db 47, SMOTHERENE
 	db 46, PARASECT
 	db 48, PARASECT
-	db 15, LARVITAR
-	db 20, LARVITAR
-	db 21, LARVITAR
+	db 15, FURSA
+	db 20, SCAULTER
+	db 21, CIGERILLAR
 	; nite
 	db 48, SCORPEROR
 	db 48, EXOTUNITY
 	db 46, SCORPEROR
 	db 46, PARASECT
 	db 48, PARASECT
-	db 45, MAULZER
-	db 45, MAULZER
-	db 21, LARVITAR
+	db 45, SCAULTER
+	db 45, CIGERILLAR
+	db 21, FURSA
 
 	map_id SILVER_CAVE_ROOM_3 ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -1239,9 +1239,9 @@ JohtoGrassWildMons:
 	db 48, SCORPEROR
 	db 46, SCORPEROR
 	db 50, SCORPEROR
-	db 46, PARASECT
+	db 46, TODESCOOL
 	db 48, PARASECT
-	db 50, PARASECT
+	db 50, TIDO
 	db 52, PARASECT
 	db 55, PARASECT
 	; day
@@ -1250,7 +1250,7 @@ JohtoGrassWildMons:
 	db 50, SCORPEROR
 	db 46, PARASECT
 	db 48, PARASECT
-	db 50, PARASECT
+	db 50, TIDO
 	db 52, PARASECT
 	db 55, PARASECT
 	; nite
@@ -1259,7 +1259,7 @@ JohtoGrassWildMons:
 	db 50, SCORPEROR
 	db 46, PARASECT
 	db 48, PARASECT
-	db 50, PARASECT
+	db 50, TIDO
 	db 52, PARASECT
 	db 55, PARASECT
 
@@ -1302,7 +1302,7 @@ JohtoGrassWildMons:
 	db 25, SMOTHERENE
 	db 20, ARASBESTOS
 	db 23, SCORPEROR
-	db 23, SCORPEROR
+	db 23, KODOROYAH
 	db 25, SMUCIOUS
 	; day
 	db 23, DOLMITE
@@ -1311,7 +1311,7 @@ JohtoGrassWildMons:
 	db 25, SMOTHERENE
 	db 30, ARASBESTOS
 	db 23, SCORPEROR
-	db 23, SCORPEROR
+	db 23, SMUCIOUS
 	db 25, KODOROYAH
 	; nite
 	db 23, DOLMITE
@@ -1320,7 +1320,7 @@ JohtoGrassWildMons:
 	db 20, RESPECTRE
 	db 25, ARASBESTOS
 	db 23, SCORPEROR
-	db 23, SCORPEROR
+	db 23, KODOROYAH
 	db 25, SMUCIOUS
 
 	map_id ROUTE_29 ;done
@@ -1597,151 +1597,151 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 16, NOMSTER
-	db 16, NOMSABRE
-	db 16, MAGNEMITE
-	db 16, FURDOBA
-	db 13, TAUROS
-	db 13, MILTANK
-	db 13, MILTANK
+	db 16, ANTPYRE
+	db 16, LAMSEED
+	db 16, PEAUTY
+	db 13, HAPPIG
+	db 13, LAMSEED
+	db 13, LAMSEED
 	db 15, MILTANK
 	; day
 	db 16, NOMSTER
-	db 16, NOMSABRE
-	db 16, MAGNEMITE
-	db 16, FURDOBA
-	db 13, TAUROS
-	db 13, MILTANK
-	db 13, MILTANK
+	db 16, ANTPYRE
+	db 16, LAMSEED
+	db 16, PEAUTY
+	db 13, HAPPIG
+	db 13, HAPPIG
+	db 13, LAMSEED
 	db 15, MILTANK
 	; nite
-	db 16, TODESCOOL
-	db 16, NOMSABRE
-	db 16, MAGNEMITE
-	db 16, NOCTOWL
-	db 16, TODESCOOL
-	db 16, TODESCOOL
-	db 16, TODESCOOL
-	db 18, MAGNEMITE
+	db 16, FLUFFRUIT
+	db 16, NOMSTER
+	db 16, LAMSEED
+	db 16, SCRUFFRUIT
+	db 16, HAPPIG
+	db 16, HAPPIG
+	db 16, LAMSEED
+	db 18, JUNOBE
 
 	map_id ROUTE_39 ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 16, NOMSTER
+	db 16, LAMSEED
 	db 16, NOMSABRE
-	db 16, MAGNEMITE
+	db 16, AMBINNI
 	db 16, FURDOBA
 	db 15, MILTANK
 	db 15, TAUROS
 	db 15, TAUROS
-	db 18, TAUROS
+	db 18, PARDNER
 	; day
-	db 16, NOMSTER
+	db 16, LAMSEED
 	db 16, NOMSABRE
-	db 16, MAGNEMITE
+	db 16, AMBINNI
 	db 16, FURDOBA
 	db 15, MILTANK
 	db 15, TAUROS
-	db 15, TAUROS
-	db 18, TAUROS
+	db 15, PARDNER
+	db 18, PARDNER
 	; nite
 	db 16, TODESCOOL
 	db 16, NOMSABRE
-	db 16, MAGNEMITE
+	db 16, AMBINNI
 	db 16, NOCTOWL
 	db 18, TODESCOOL
 	db 18, TODESCOOL
 	db 18, TODESCOOL
-	db 19, NOCTOWL
+	db 19, PARDNER
 
 	map_id ROUTE_42 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, WYRMOMETER
+	db 13, WORMEEK
 	db 14, QWAIL
 	db 15, NOMSTER
 	db 16, NOMSABRE
-	db 15, IGNAGA
+	db 15, SWAZZAGE
 	db 16, QWALLOP
-	db 16, QWALLOP
-	db 18, QWALLOP
+	db 16, SWAZZAGE
+	db 18, PARDNER
 	; day
-	db 13, WYRMOMETER
+	db 13, WORMEEK
 	db 14, QWAIL
 	db 15, NOMSTER
 	db 16, NOMSABRE
-	db 15, IGNAGA
+	db 15, SWAZZAGE
 	db 16, QWALLOP
-	db 16, QWALLOP
-	db 18, QWALLOP
+	db 16, SWAZZAGE
+	db 18, PARDNER
 	; nite
-	db 13, NOMSTER
-	db 14, STINPEON
+	db 13, WORMEEK
+	db 14, OSCURASA
 	db 15, NOMSABRE
 	db 16, SCORPEROR
-	db 15, HABBLE
+	db 15, SWAZZAGE
 	db 16, SCORPEROR
-	db 16, SCORPEROR
-	db 18, SCORPEROR
+	db 16, SWAZZAGE
+	db 18, PARDNER
 
 	map_id ROUTE_43 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 15, WENDIGAUNT
-	db 16, FURDOBA
+	db 15, NOMSABRE
+	db 16, QWALLOP
 	db 16, FARFETCH_D
 	db 15, FURRET
 	db 17, NOMSABRE
 	db 17, NOMSABRE
-	db 17, ELEPHOOT
+	db 17, WENDIGAUNT
 	db 18, ELEPHOOT
 	; day
-	db 15, WENDIGAUNT
-	db 16, FURDOBA
+	db 15, NOMSABRE
+	db 16, QWALLOP
 	db 16, FARFETCH_D
 	db 15, FURRET
 	db 17, NOMSABRE
 	db 17, NOMSABRE
-	db 17, ELEPHOOT
+	db 17, WENDIGAUNT
 	db 18, ELEPHOOT
 	; nite
-	db 15, ELEPHOOT
-	db 16, NOCTOWL
+	db 15, NOMSABRE
+	db 16, QWALLOP
 	db 16, NOMSABRE
 	db 17, ELEPHOOT
 	db 17, NOMSABRE
 	db 17, NOMSABRE
-	db 17, ELEPHOOT
+	db 17, WENDIGAUNT
 	db 19, ELEPHOOT
 
 	map_id ROUTE_44 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 23, ANTPYRE
-	db 22, SAPPURA
-	db 22, LAWNIE
+	db 22, HIVEMAIM
+	db 22, BUNDEGRAF
 	db 24, ORGNOME
-	db 24, SAPPURA
-	db 26, SAPPURA
-	db 26, SAPPURA
-	db 28, SAPPURA
+	db 24, CADDISICLE
+	db 26, CADDISICLE
+	db 26, YAGAGARASU
+	db 28, JADDICE
 	; day
 	db 23, ANTPYRE
-	db 22, SAPPURA
-	db 22, LAWNIE
+	db 22, HIVEMAIM
+	db 22, BUNDEGRAF
 	db 24, ORGNOME
-	db 24, SAPPURA
-	db 26, SAPPURA
-	db 26, SAPPURA
-	db 28, SAPPURA
+	db 24, CADDISICLE
+	db 26, CADDISICLE
+	db 26, YAGAGARASU
+	db 28, JADDICE
 	; nite
 	db 23, ANTPYRE
-	db 22, CREMIGO
-	db 22, LAWNIE
+	db 22, HIVEMAIM
+	db 22, BUNDEGRAF
 	db 24, ORGNOME
-	db 24, AMANIGO
-	db 26, AMANIGO
-	db 26, AMANIGO
-	db 29, AMANIGO
+	db 24, CADDISICLE
+	db 26, CADDISICLE
+	db 26, YAGAGARASU
+	db 29, VOYAPOD
 
 	map_id ROUTE_45 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1751,7 +1751,7 @@ JohtoGrassWildMons:
 	db 24, WIWRIGHT
 	db 25, MONEUMENN
 	db 20, OBELITH
-	db 27, SNOSEBLEED
+	db 27, YAGAGARASU
 	db 27, SNOSEBLEED
 	db 28, SNOSEBLEED
 	; day
@@ -1760,7 +1760,7 @@ JohtoGrassWildMons:
 	db 24, WIWRIGHT
 	db 25, MONEUMENN
 	db 30, MONEUMENN
-	db 27, SNOSEBLEED
+	db 27, YAGAGARASU
 	db 27, SNOSEBLEED
 	db 28, SNOSEBLEED
 	; nite
@@ -1769,7 +1769,7 @@ JohtoGrassWildMons:
 	db 24, WIWRIGHT
 	db 25, DOLMESA
 	db 27, DOLMESA
-	db 27, DOLMESA
+	db 27, YAGAGARASU
 	db 27, DOLMESA
 	db 28, WIWRIGHT
 
@@ -1836,8 +1836,8 @@ JohtoGrassWildMons:
 	map_id CIANWOOD_DUNES_CAVE ;done
 	db 7 percent, 7 percent, 7 percent ; encounter rates: morn/day/nite
 	; morn
-	db 35, EYECHOSIS
-	db 35, EYECHOSIS
+	db 35, DOLMESA
+	db 35, DOLMESA
 	db 35, DOLMESA
 	db 36, MORADAY
 	db 35, MORADAY
@@ -1868,28 +1868,28 @@ JohtoGrassWildMons:
 	; morn
 	db 35, SANDOLPH
 	db 35, DOLMESA
-	db 35, IGNAGA
+	db 35, SANDOLPH
 	db 36, SANDOLPH
 	db 35, DOLMESA
-	db 35, SANDOLPH
+	db 35, COCACOBRA
 	db 37, CANTALONE
 	db 37, COCACOBRA
 	; day
 	db 35, SANDOLPH
 	db 35, DOLMESA
-	db 35, IGNAGA
+	db 35, SANDOLPH
 	db 36, SANDOLPH
 	db 35, DOLMESA
-	db 35, SANDOLPH
+	db 35, COCACOBRA
 	db 37, CANTALONE
 	db 37, COCACOBRA
 	; nite
 	db 35, SANDOLPH
 	db 35, DOLMESA
-	db 35, IGNAGA
+	db 35, SANDOLPH
 	db 36, SANDOLPH
 	db 35, DOLMESA
-	db 35, SANDOLPH
+	db 35, COCACOBRA
 	db 37, CANTALONE
 	db 37, COCACOBRA
 	

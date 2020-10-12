@@ -1,6 +1,6 @@
 	db POCALYPTUS ; 063
 
-	db  120,  120,  105,  30,  55,  70
+	db  120,  120,  105,  30,  55,  75
 	;   hp   atk   def   spd   sat  sdf
 
 	db GRASS, FIRE ; type

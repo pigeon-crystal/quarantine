@@ -156,9 +156,9 @@ PokemonNames::
 	db "RADEON@@@@" ;cyndaquil
 	db "SCAULTER@@"
 	db "SCORCHOPPR"
-	db "FURSA@@@@@" ;totodile
+	db "NUTANUK@@@" ;totodile
 	db "NANUQUA@@@"
-	db "URSKIMO@@@"
+	db "NANATURUK@"
 	db "WENDIGAUNT" 
 	db "FURRET@@@@"
 	db "NUCKAWHEEZ"

@@ -3356,17 +3356,24 @@ SwazzageEvosAttacks:
 	db 0 ; no more level-up moves
 
 ShreddrakeEvosAttacks:
-	db EVOLVE_LEVEL, 31, FORRETRESS
 	db 0 ; no more evolutions
 	db 1, POUND
-	db 1, PROTECT
-	db 8, SELFDESTRUCT
-	db 15, DOUBLE_EDGE
-	db 22, RAPID_SPIN
-	db 29, BIDE
-	db 36, EXPLOSION
-	db 43, SPIKES
-	db 50, DOUBLE_EDGE
+	db 1, BITE
+	db 1, ROAR
+	db 6, SUPERSONIC
+	db 8, TWISTER
+	db 15, THUNDERSHOCK
+	db 19, METAL_CLAW
+	db 22, SCARY_FACE
+	db 25, SPARK
+	db 29, THUNDER_WAVE
+	db 33, DRAGONBREATH
+	db 36, SCREECH
+	db 40, THRASH
+	db 44, CRUNCH
+	db 47, OUTRAGE
+	db 50, THUNDERPUNCH
+	db 55, DRAGON_DANCE
 	db 0 ; no more level-up moves
 
 ForretressEvosAttacks:

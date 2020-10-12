@@ -423,13 +423,8 @@ AnimateTileset::
 	ldh a, [hMapAnims]
 	and a
 	ret z
-
-; Back out if we're too far into VBlank
-	ldh a, [rLY]
-	cp LY_VBLANK
-	ret c
-	cp LY_VBLANK + 7
-	ret nc
+	
+; deleted to animate tiles even when textbox is open
 
 	ldh a, [hROMBank]
 	push af
