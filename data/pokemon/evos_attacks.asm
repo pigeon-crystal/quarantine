@@ -480,7 +480,7 @@ DunefinEvosAttacks:
 	db 60, FISSURE
 	db 0 ; no more level-up moves
 
-NidoranFEvosAttacks:
+SprunnyEvosAttacks:
 	db EVOLVE_LEVEL, 16, NIDORINA
 	db 0 ; no more evolutions
 	db 1, GROWL
@@ -917,7 +917,7 @@ ExotunityEvosAttacks:
 	db 67, FOCUS_BLAST
 	db 0 ; no more level-up moves
 
-MankeyEvosAttacks:
+BobbiteEvosAttacks:
 	db EVOLVE_LEVEL, 28, PRIMEAPE
 	db 0 ; no more evolutions
 	db 1, SCRATCH

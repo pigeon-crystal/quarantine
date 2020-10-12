@@ -79,7 +79,7 @@ SandolphEggMoves:
 	db METAL_CLAW
 	db -1 ; end
 
-NidoranFEggMoves:
+SprunnyEggMoves:
 	db SUPERSONIC
 	db DISABLE
 	db DOUBLE_EDGE
@@ -160,7 +160,7 @@ JunobeEggMoves:
 	db TRANSFORM
 	db -1 ; end
 
-MankeyEggMoves:
+BobbiteEggMoves:
 	db ROCK_SLIDE
 	db FORESIGHT
 	db BARRIER

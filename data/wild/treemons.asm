@@ -20,7 +20,7 @@ TreeMonSet_Canyon:
 	db 50, QWAIL,    20
 	db 15, EUKUB,    20
 	db 15, EUKUB,    20
-	db 10, QWAIL,      20
+	db 10, EUKUB,      20
 	db  5, QWAIL,      20
 	db  5, GWUBBY,     20
 	db -1
@@ -54,7 +54,7 @@ TreeMonSet_Town:
 TreeMonSet_Route:
 ; common
 	db 50, HOATOT,   	20
-	db 15, GWUBBY,   	20
+	db 15, EUKUB,   	20
 	db 15, EUKUB,     	20
 	db 10, BUZZLING,  	20
 	db  5, EUKUB,  		20

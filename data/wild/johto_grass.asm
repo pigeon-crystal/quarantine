@@ -638,8 +638,8 @@ JohtoGrassWildMons:
 	; morn
 	db 14, NOMSTER
 	db 13, OSCURASA
-	db 14, UPWHALE
-	db 13, STINPEON
+	db 14, BOBBITE
+	db 13, BOBBITE
 	db 14, DOLMITE
 	db 16, NOMSABRE
 	db 16, NOMSABRE
@@ -647,8 +647,8 @@ JohtoGrassWildMons:
 	; day
 	db 14, NOMSTER
 	db 13, OSCURASA
-	db 14, UPWHALE
-	db 13, SCORPEROR
+	db 14, BOBBITE
+	db 13, BOBBITE
 	db 14, DOLMITE
 	db 16, NOMSABRE
 	db 16, NOMSABRE
@@ -656,8 +656,8 @@ JohtoGrassWildMons:
 	; nite
 	db 14, NOMSTER
 	db 13, OSCURASA
-	db 14, HABBLE
-	db 13, SCORPEROR
+	db 14, BOBBITE
+	db 13, BOBBITE
 	db 14, DOLMITE
 	db 16, NOMSABRE
 	db 16, NOMSABRE
@@ -1837,8 +1837,8 @@ JohtoGrassWildMons:
 	db 7 percent, 7 percent, 7 percent ; encounter rates: morn/day/nite
 	; morn
 	db 35, DOLMESA
-	db 35, DOLMESA
-	db 35, DOLMESA
+	db 35, BOBBITE
+	db 35, BOBBITE
 	db 36, MORADAY
 	db 35, MORADAY
 	db 35, CLIBBLE
@@ -1846,8 +1846,8 @@ JohtoGrassWildMons:
 	db 37, CLIBBLE
 	; day
 	db 35, DOLMESA
-	db 35, OSCURASA
 	db 35, DOLMESA
+	db 35, BOBBITE
 	db 36, MORADAY
 	db 35, MORADAY
 	db 35, CLIBBLE
@@ -1855,8 +1855,8 @@ JohtoGrassWildMons:
 	db 37, CLIBBLE
 	; nite
 	db 35, DOLMESA
-	db 35, OSCURASA
-	db 35, DOLMESA
+	db 35, BOBBITE
+	db 35, BOBBITE
 	db 36, MORADAY
 	db 35, MORADAY
 	db 35, CLIBBLE

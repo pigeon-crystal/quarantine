@@ -68,7 +68,7 @@ INCBIN "gfx/footprints/pikachu.1bpp",    footprint_top
 INCBIN "gfx/footprints/raichu.1bpp",     footprint_top
 INCBIN "gfx/footprints/sandolph.1bpp",  footprint_top
 INCBIN "gfx/footprints/dunefin.1bpp",  footprint_top
-INCBIN "gfx/footprints/nidoran_f.1bpp",  footprint_top
+INCBIN "gfx/footprints/sprunny.1bpp",  footprint_top
 INCBIN "gfx/footprints/nidorina.1bpp",   footprint_top
 INCBIN "gfx/footprints/nidoqueen.1bpp",  footprint_top
 INCBIN "gfx/footprints/nidoran_m.1bpp",  footprint_top
@@ -77,7 +77,7 @@ INCBIN "gfx/footprints/pikachu.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/raichu.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/sandolph.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/dunefin.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/nidoran_f.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/sprunny.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/nidorina.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/nidoqueen.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/nidoran_m.1bpp",  footprint_bottom
@@ -125,7 +125,7 @@ INCBIN "gfx/footprints/todescool.1bpp",     footprint_top
 INCBIN "gfx/footprints/junobe.1bpp",    footprint_top
 INCBIN "gfx/footprints/voyapod.1bpp",    footprint_top
 INCBIN "gfx/footprints/exotunity.1bpp",    footprint_top
-INCBIN "gfx/footprints/mankey.1bpp",     footprint_top
+INCBIN "gfx/footprints/bobbite.1bpp",     footprint_top
 ; 049-056 bottom halves
 INCBIN "gfx/footprints/pripyderm.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/mumini.1bpp",    footprint_bottom
@@ -134,7 +134,7 @@ INCBIN "gfx/footprints/todescool.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/junobe.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/voyapod.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/exotunity.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/mankey.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/bobbite.1bpp",     footprint_bottom
 ; 057-064 top halves
 INCBIN "gfx/footprints/primeape.1bpp",   footprint_top
 INCBIN "gfx/footprints/happig.1bpp",  footprint_top

@@ -99,7 +99,7 @@ NewPokedexOrder:
 	db HELACTAL
 	db SHREDDRAKE
 	db FORRETRESS
-	db NIDORAN_F
+	db SPRUNNY
 	db NIDORINA
 	db NIDOQUEEN
 	db NIDORAN_M
@@ -136,7 +136,7 @@ NewPokedexOrder:
 	db BIPORKAR
 	db MUMINI
 	db MUMAGNUS
-	db MANKEY
+	db BOBBITE
 	db PRIMEAPE
 	db TODESCOOL
 	db JUNOBE

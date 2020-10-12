@@ -32,7 +32,7 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; RAICHU
 	icon_pals YELLOW,   PINK  ; SANDOLPH
 	icon_pals YELLOW,  PINK   ; DUNEFIN
-	icon_pals BROWN,   YELLOW  ; NIDORAN_F
+	icon_pals BROWN,   YELLOW  ; SPRUNNY
 	icon_pals BROWN,   YELLOW  ; NIDORINA
 	icon_pals BROWN,   YELLOW  ; NIDOQUEEN
 	icon_pals BROWN,   YELLOW  ; NIDORAN_M
@@ -59,7 +59,7 @@ MonMenuIconPals:
 	icon_pals GREEN,   YELLOW  ; JUNOBE
 	icon_pals GREEN,   YELLOW  ; VOYAPOD
 	icon_pals GREEN,   YELLOW  ; EXOTUNITY
-	icon_pals BROWN,   YELLOW  ; MANKEY
+	icon_pals BROWN,   YELLOW  ; BOBBITE
 	icon_pals BROWN,   YELLOW  ; PRIMEAPE
 	icon_pals BROWN,   YELLOW  ; HAPPIG
 	icon_pals BROWN,   YELLOW  ; BIPORKAR

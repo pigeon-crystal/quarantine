@@ -31,7 +31,7 @@ CeladonMansion1FClefairy:
 CeladonMansion1FNidoranF:
 	opentext
 	writetext CeladonMansion1FNidoranFText
-	cry NIDORAN_F
+	cry SPRUNNY
 	waitbutton
 	closetext
 	end

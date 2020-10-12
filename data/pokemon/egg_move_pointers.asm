@@ -27,7 +27,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw SandolphEggMoves
 	dw NoEggMoves
-	dw NidoranFEggMoves
+	dw SprunnyEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NidoranMEggMoves
@@ -54,7 +54,7 @@ EggMovePointers::
 	dw JunobeEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw MankeyEggMoves
+	dw BobbiteEggMoves
 	dw NoEggMoves
 	dw HappigEggMoves
 	dw NoEggMoves

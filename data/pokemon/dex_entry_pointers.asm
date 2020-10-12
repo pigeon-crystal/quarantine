@@ -28,7 +28,7 @@ PokedexDataPointerTable:
 	dw RaichuPokedexEntry
 	dw SandolphPokedexEntry
 	dw DunefinPokedexEntry
-	dw NidoranFPokedexEntry
+	dw SprunnyPokedexEntry
 	dw NidorinaPokedexEntry
 	dw NidoqueenPokedexEntry
 	dw NidoranMPokedexEntry
@@ -55,7 +55,7 @@ PokedexDataPointerTable:
 	dw JunobePokedexEntry
 	dw VoyapodPokedexEntry
 	dw ExotunityPokedexEntry
-	dw MankeyPokedexEntry
+	dw BobbitePokedexEntry
 	dw PrimeapePokedexEntry
 	dw HappigPokedexEntry
 	dw BiporkarPokedexEntry

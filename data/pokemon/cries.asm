@@ -23,8 +23,8 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,      321,  100 ; FURNIT, orig pidgy
 	mon_cry CRY_PIDGEOTTO,    86,  214 ; FURDOBA
 	mon_cry CRY_PIDGEOTTO,    -1,  300 ; HORNAMPA
-	mon_cry CRY_RATTATA,     444,  192 ; NOMSTER, ORIG RATTATA
-	mon_cry CRY_RATTATA,     -32,  192 ; NOMSABRE, ORIG RATICATE
+	mon_cry CRY_RATTATA,     444,  192 ; NOMSTER
+	mon_cry CRY_RATTATA,     -32,  192 ; NOMSABRE
 	mon_cry CRY_SPEAROW,     310,  129 ; QWAIL
 	mon_cry CRY_FEAROW,      164,  129 ; QWALLOP
 	mon_cry CRY_EKANS,       130,  276 ; WYRMOMETER
@@ -33,7 +33,7 @@ PokemonCries::
 	mon_cry CRY_RAICHU,      238,  136 ; RAICHU
 	mon_cry CRY_NIDORAN_M,    32,  192 ; SANDOLPH
 	mon_cry CRY_NIDORAN_M,   255,  383 ; DUNEFIN
-	mon_cry CRY_NIDORAN_F,     0,  256 ; NIDORAN_F
+	mon_cry CRY_NIDORAN_F,     0,  256 ; SPRUNNY
 	mon_cry CRY_NIDORAN_F,    44,  352 ; NIDORINA
 	mon_cry CRY_NIDOQUEEN,     0,  256 ; NIDOQUEEN
 	mon_cry CRY_NIDORAN_M,     0,  256 ; NIDORAN_M
@@ -60,7 +60,7 @@ PokemonCries::
 	mon_cry CRY_DIGLETT,     275,  383 ; JUNOBE
 	mon_cry CRY_DIGLETT,     300,  400 ; VOYAPOD
 	mon_cry CRY_DIGLETT,     185,  400 ; EXOTUNITY
-	mon_cry CRY_NIDOQUEEN,   221,  224 ; MANKEY
+	mon_cry CRY_NIDOQUEEN,   221,  224 ; BOBBITE
 	mon_cry CRY_NIDOQUEEN,   175,  192 ; PRIMEAPE
 	mon_cry CRY_GROWLITHE,    32,  192 ; HAPPIG
 	mon_cry CRY_WEEDLE,        0,  256 ; BIPORKAR
@@ -159,9 +159,9 @@ PokemonCries::
 	mon_cry CRY_PARAS,  	 -16,  176 ; CIGERILLAR, orig CHIKORITA
 	mon_cry CRY_PARAS,       -34,  288 ; TOBACOON, 
 	mon_cry CRY_CHIKORITA,  -183,  420 ; OKAMIKAZE,
-	mon_cry $17, 		 $096c,  $0068 ; RADEON, orig CYNDAQUIL
+	mon_cry $17, 		   $096c,  $0068 ; RADEON, orig CYNDAQUIL
 	mon_cry CRY_TYPHLOSION,  420,  288 ; SCAULTER
-	mon_cry $17,		   $08da,  $020a ; SCORCHOPPR
+	mon_cry $17,		   	$08da, $020a ; SCORCHOPPR
 	mon_cry CRY_TEDDIURSA,  1954,  110 ; FURSA, orig TOTODILE
 	mon_cry CRY_TEDDIURSA,  1555,  269 ; NANUQUA
 	mon_cry CRY_TEDDIURSA,  1001,  269 ; URSKIMO
@@ -189,7 +189,7 @@ PokemonCries::
 	mon_cry CRY_NATU,        100,  111 ; PLANTENNA
 	mon_cry CRY_NATU,        180,  333 ; HABBLE
 	mon_cry CRY_NATU,       -229,  455 ; SATELISK
-	mon_cry CRY_CLEFFA,     3170,  213 ; PARDNER
+	mon_cry CRY_DONPHAN,    $004e, $000d ; PARDNER
 	mon_cry CRY_CLEFFA,     -675,  456 ; POLITOED
 	mon_cry CRY_CLEFAIRY,    199,  169 ; SHABBYCAT orig HOPPIP
 	mon_cry CRY_CLEFAIRY,    100,  169 ; PURRDLE

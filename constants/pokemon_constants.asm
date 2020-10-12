@@ -47,7 +47,7 @@
 	const RAICHU     ; 1a
 	const SANDOLPH   ; 1b
 	const DUNEFIN    ; 1c
-	const NIDORAN_F  ; 1d
+	const SPRUNNY  ; 1d
 	const NIDORINA   ; 1e
 	const NIDOQUEEN  ; 1f
 	const NIDORAN_M  ; 20
@@ -74,7 +74,7 @@
 	const JUNOBE     ; 35persian
 	const VOYAPOD    ; 36psyduck
 	const EXOTUNITY  ; 37golduck
-	const MANKEY     ; 38
+	const BOBBITE     ; 38
 	const PRIMEAPE   ; 39
 	const HAPPIG  	 ; 3a
 	const BIPORKAR   ; 3b
@@ -223,7 +223,7 @@ JOHTO_POKEMON EQU const_value
 	const UNOWN      ; c9
 	const RESPECTRE  ; ca
 	const SWAZZAGE   ; cb
-	const SHREDDRAKE     ; cc
+	const SHREDDRAKE ; cc
 	const FORRETRESS ; cd
 	const ATTACKO    ; ce dunsparce
 	const WIWRIGHT   ; cf

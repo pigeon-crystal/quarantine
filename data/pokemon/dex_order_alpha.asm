@@ -120,7 +120,7 @@ AlphabeticalPokedexOrder:
 	db MAJESDOR
 	db MAMMOTHRA
 	db MANDELBLOB
-	db MANKEY
+	db BOBBITE
 	db MAULZER
 	db MEOWTAIN
 	db MEW
@@ -137,7 +137,7 @@ AlphabeticalPokedexOrder:
 	db NAVIGAZER
 	db NIDOKING
 	db NIDOQUEEN
-	db NIDORAN_F
+	db SPRUNNY
 	db NIDORAN_M
 	db NIDORINA
 	db NIDORINO

@@ -29,7 +29,7 @@ EvosAttacksPointers::
 	dw RaichuEvosAttacks
 	dw SandolphEvosAttacks
 	dw DunefinEvosAttacks
-	dw NidoranFEvosAttacks
+	dw SprunnyEvosAttacks
 	dw NidorinaEvosAttacks
 	dw NidoqueenEvosAttacks
 	dw NidoranMEvosAttacks
@@ -56,7 +56,7 @@ EvosAttacksPointers::
 	dw JunobeEvosAttacks
 	dw VoyapodEvosAttacks
 	dw ExotunityEvosAttacks
-	dw MankeyEvosAttacks
+	dw BobbiteEvosAttacks
 	dw PrimeapeEvosAttacks
 	dw HappigEvosAttacks
 	dw BiporkarEvosAttacks

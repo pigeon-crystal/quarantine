@@ -48,8 +48,8 @@ FishGroups:
 .Ocean_Super:
 	db  40 percent,     UPWHALE,   40
 	db  70 percent,     time_group 3
-	db  90 percent + 1, TENTACRUEL, 40
-	db 100 percent,     LANATUN,    40
+	db  90 percent + 1, NIMBOCETUS, 40
+	db 100 percent,     STELLOCEAN,    40
 
 .Lake_Old:
 	db  70 percent + 1, GOOSAPLING,   10
@@ -207,13 +207,13 @@ FishGroups:
 TimeFishGroups:
 	;  day              nite
 	db LANATUN,    20,  STRANGLURE,     20 		; 0 shore good
-	db LANATUN,    40,  GOOSAPLING,     40 		; 1 shore super
-	db LANATUN,   20,  STRANGLURE,   20 	   	; 2 ocean good
+	db STRANGLURE,    40,  SHAMSEL,     40 		; 1 shore super
+	db UPWHALE,   20,  STRANGLURE,   20 	   	; 2 ocean good
 	db STRANGLURE,   40,  SHAMSEL,   40 		; 3 ocean super
 	db GOOSAPLING,    20,  GOOSAPLING,    20 	; 4 lake good
 	db GOOSAPLING,    40,  GOOSAPLING,    40 	; 5 lake super
 	db LANATUN,    20,  GOOSAPLING,    20 		; 6 pond good
-	db CREMIGO,    40,  CREMIGO,    40 			; 7 pond super
+	db GOOSAPLING,    40,  PEKOI,    40 			; 7 pond super
 	db HOPLAQUE,    20,  HOPLAQUE,    20 		; 8 dratini good
 	db HOPLAQUE,    40,  HOPLAQUE,    40 		; 9 dratini super
 	db PEKOI,   20,  PEKOI,   20 				; 10 pekoi swarm good

@@ -2741,8 +2741,8 @@ BlackbeltGroup:
 
 	; BLACKBELT_T (7)
 	db "LUNG@", TRAINERTYPE_NORMAL
-	db 23, MANKEY
-	db 23, MANKEY
+	db 23, BOBBITE
+	db 23, BOBBITE
 	db 25, PRIMEAPE
 	db -1 ; end
 

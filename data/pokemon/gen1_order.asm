@@ -13,7 +13,7 @@ Pokered_MonIndices:
 	db CANTALONE
 	db DUMBLOON
 	db PITAYRANT
-	db NIDORAN_F
+	db SPRUNNY
 	db NIDOQUEEN
 	db COCACOBRA
 	db CUTTLE
@@ -55,7 +55,7 @@ Pokered_MonIndices:
 	db MAGNETON
 	db LEAFFIGY
 	db SNEASEL ; MISSINGNO.
-	db MANKEY
+	db BOBBITE
 	db CADDISICLE
 	db MUMINI
 	db TAUROS

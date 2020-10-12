@@ -58,8 +58,8 @@ PokemonPicPointers::
 	dba_pic SandolphBackpic
 	dba_pic DunefinFrontpic
 	dba_pic DunefinBackpic
-	dba_pic NidoranFFrontpic
-	dba_pic NidoranFBackpic
+	dba_pic SprunnyFrontpic
+	dba_pic SprunnyBackpic
 	dba_pic NidorinaFrontpic
 	dba_pic NidorinaBackpic
 	dba_pic NidoqueenFrontpic
@@ -112,8 +112,8 @@ PokemonPicPointers::
 	dba_pic VoyapodBackpic
 	dba_pic ExotunityFrontpic
 	dba_pic ExotunityBackpic
-	dba_pic MankeyFrontpic
-	dba_pic MankeyBackpic
+	dba_pic BobbiteFrontpic
+	dba_pic BobbiteBackpic
 	dba_pic PrimeapeFrontpic
 	dba_pic PrimeapeBackpic
 	dba_pic HappigFrontpic
