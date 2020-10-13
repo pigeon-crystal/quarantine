@@ -86,6 +86,7 @@ IconPointers:
 	dw CantaloneIcon
 	dw CantogethaIcon
 	dw NavigazerIcon
+	dw BermudantIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon

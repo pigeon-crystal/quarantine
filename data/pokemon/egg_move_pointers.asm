@@ -30,14 +30,14 @@ EggMovePointers::
 	dw SprunnyEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw NidoranMEggMoves
+	dw PrawmateEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw VulpixEggMoves
 	dw NoEggMoves
-	dw NoEggMoves
+	dw HexahedEggMoves
 	dw NoEggMoves
 	dw StinpeonEggMoves
 	dw NoEggMoves

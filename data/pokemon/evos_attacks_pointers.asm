@@ -32,14 +32,14 @@ EvosAttacksPointers::
 	dw SprunnyEvosAttacks
 	dw NidorinaEvosAttacks
 	dw NidoqueenEvosAttacks
-	dw NidoranMEvosAttacks
+	dw PrawmateEvosAttacks
 	dw NidorinoEvosAttacks
 	dw NidokingEvosAttacks
 	dw NyalleyEvosAttacks
 	dw FelioritteEvosAttacks
 	dw VulpixEvosAttacks
 	dw NinetalesEvosAttacks
-	dw JigglypuffEvosAttacks
+	dw HexahedEvosAttacks
 	dw WigglytuffEvosAttacks
 	dw StinpeonEvosAttacks
 	dw ScorperorEvosAttacks

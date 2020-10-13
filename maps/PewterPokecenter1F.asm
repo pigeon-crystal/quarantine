@@ -19,7 +19,7 @@ PewterPokecenter1FTeacherScript:
 PewterJigglypuff:
 	opentext
 	writetext PewterJigglypuffText
-	cry JIGGLYPUFF
+	cry HEXAHED
 	waitbutton
 	closetext
 	end

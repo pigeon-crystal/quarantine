@@ -89,7 +89,7 @@ SprunnyEggMoves:
 	db BEAT_UP
 	db -1 ; end
 
-NidoranMEggMoves:
+PrawmateEggMoves:
 	db SUPERSONIC
 	db DISABLE
 	db DOUBLE_EDGE
@@ -107,6 +107,15 @@ VulpixEggMoves:
 	db DISABLE
 	db -1 ; end
 
+HexahedEggMoves:
+	db MAGNITUDE
+	db PSYWAVE
+	db PRESENT
+	db DOUBLE_EDGE
+	db CALM_MIND
+	db MACH_PUNCH
+	db -1 ; end
+	
 StinpeonEggMoves:
 	db QUICK_ATTACK
 	db PURSUIT

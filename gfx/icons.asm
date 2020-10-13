@@ -86,6 +86,7 @@ KalkolaIcon:      INCBIN "gfx/icons/kalkola.2bpp"
 CantaloneIcon:    INCBIN "gfx/icons/cantalone.2bpp"
 CantogethaIcon:   INCBIN "gfx/icons/cantogetha.2bpp"
 NavigazerIcon:    INCBIN "gfx/icons/navigazer.2bpp"
+BermudantIcon:	  INCBIN "gfx/icons/bermudant.2bpp"
 
 SECTION "Mon Icons 2", ROMX
 

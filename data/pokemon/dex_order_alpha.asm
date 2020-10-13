@@ -93,7 +93,7 @@ AlphabeticalPokedexOrder:
 	db IGNAGA
 	db IVYSAUR
 	db JADDICE
-	db JIGGLYPUFF
+	db HEXAHED
 	db JOLTEON
 	db JUNOBE
 	db KABUTOPS
@@ -138,7 +138,7 @@ AlphabeticalPokedexOrder:
 	db NIDOKING
 	db NIDOQUEEN
 	db SPRUNNY
-	db NIDORAN_M
+	db PRAWMATE
 	db NIDORINA
 	db NIDORINO
 	db NINETALES

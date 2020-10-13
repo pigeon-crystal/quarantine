@@ -31,14 +31,14 @@ PokedexDataPointerTable:
 	dw SprunnyPokedexEntry
 	dw NidorinaPokedexEntry
 	dw NidoqueenPokedexEntry
-	dw NidoranMPokedexEntry
+	dw PrawmatePokedexEntry
 	dw NidorinoPokedexEntry
 	dw NidokingPokedexEntry
 	dw NyalleyPokedexEntry
 	dw FeliorittePokedexEntry
 	dw VulpixPokedexEntry
 	dw NinetalesPokedexEntry
-	dw JigglypuffPokedexEntry
+	dw HexahedPokedexEntry
 	dw WigglytuffPokedexEntry
 	dw StinpeonPokedexEntry
 	dw ScorperorPokedexEntry

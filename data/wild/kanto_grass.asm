@@ -309,28 +309,28 @@ KantoGrassWildMons:
 	db 13, ZASTER
 	db 15, FURDOBA
 	db 12, AMBINNI
-	db 14, JIGGLYPUFF
+	db 14, HEXAHED
 	db 14, AMBINNI
 	db 14, AMBINNI
-	db 18, JIGGLYPUFF
+	db 18, HEXAHED
 	; day
 	db 13, FURNIT
 	db 13, ZASTER
 	db 15, FURDOBA
 	db 12, AMBINNI
-	db 14, JIGGLYPUFF
+	db 14, HEXAHED
 	db 14, AMBINNI
 	db 14, AMBINNI
-	db 18, JIGGLYPUFF
+	db 18, HEXAHED
 	; nite
 	db 13, NUCKAWHEEZ
 	db 13, TODESCOOL
 	db 15, NOCTOWL
 	db 12, AMBINNI
-	db 14, JIGGLYPUFF
+	db 14, HEXAHED
 	db 14, AMBINNI
 	db 14, AMBINNI
-	db 18, JIGGLYPUFF
+	db 18, HEXAHED
 
 	map_id ROUTE_6 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -339,7 +339,7 @@ KantoGrassWildMons:
 	db 13, ZASTER
 	db 14, MAGNEMITE
 	db 15, NOMSABRE
-	db 12, JIGGLYPUFF
+	db 12, HEXAHED
 	db 15, GRIMPACT
 	db 15, GRIMPACT
 	db 20, MAGNEMITE
@@ -348,7 +348,7 @@ KantoGrassWildMons:
 	db 13, ZASTER
 	db 14, MAGNEMITE
 	db 15, NOMSABRE
-	db 12, JIGGLYPUFF
+	db 12, HEXAHED
 	db 15, GRIMPACT
 	db 15, GRIMPACT
 	db 20, MAGNEMITE
@@ -357,7 +357,7 @@ KantoGrassWildMons:
 	db 13, EELKIE
 	db 14, MAGNEMITE
 	db 15, VOYAPOD
-	db 12, JIGGLYPUFF
+	db 12, HEXAHED
 	db 15, NOMSABRE
 	db 15, NOMSABRE
 	db 20, MAGNEMITE
@@ -369,25 +369,25 @@ KantoGrassWildMons:
 	db 17, QWAIL
 	db 18, ZASTER
 	db 18, NOMSABRE
-	db 18, JIGGLYPUFF
+	db 18, HEXAHED
 	db 16, AMBINNI
 	db 16, AMBINNI
-	db 20, JIGGLYPUFF
+	db 20, HEXAHED
 	; day
 	db 17, NOMSTER
 	db 17, QWAIL
 	db 18, ZASTER
 	db 18, NOMSABRE
-	db 18, JIGGLYPUFF
+	db 18, HEXAHED
 	db 16, AMBINNI
 	db 16, AMBINNI
-	db 20, JIGGLYPUFF
+	db 20, HEXAHED
 	; nite
 	db 17, TODESCOOL
 	db 17, BISMUTT
 	db 18, SNOWUP
 	db 18, JUNOBE
-	db 18, JIGGLYPUFF
+	db 18, HEXAHED
 	db 16, AMBINNI
 	db 16, AMBINNI
 	db 20, SNOWUP
@@ -399,7 +399,7 @@ KantoGrassWildMons:
 	db 19, FURDOBA
 	db 16, AMBINNI
 	db 17, HAPPIG
-	db 16, JIGGLYPUFF
+	db 16, HEXAHED
 	db 18, BUNDEGRAF
 	db 18, BUNDEGRAF
 	db 20, BUNDEGRAF
@@ -408,7 +408,7 @@ KantoGrassWildMons:
 	db 19, FURDOBA
 	db 16, AMBINNI
 	db 17, HAPPIG
-	db 16, JIGGLYPUFF
+	db 16, HEXAHED
 	db 18, BUNDEGRAF
 	db 18, BUNDEGRAF
 	db 20, BUNDEGRAF
@@ -417,7 +417,7 @@ KantoGrassWildMons:
 	db 20, NOCTOWL
 	db 16, AMBINNI
 	db 17, SCRUFFRUIT
-	db 16, JIGGLYPUFF
+	db 16, HEXAHED
 	db 18, BUNDEGRAF
 	db 18, BUNDEGRAF
 	db 20, SCRUFFRUIT

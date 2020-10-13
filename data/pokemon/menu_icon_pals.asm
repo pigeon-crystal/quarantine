@@ -32,17 +32,17 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; RAICHU
 	icon_pals YELLOW,   PINK  ; SANDOLPH
 	icon_pals YELLOW,  PINK   ; DUNEFIN
-	icon_pals BROWN,   YELLOW  ; SPRUNNY
-	icon_pals BROWN,   YELLOW  ; NIDORINA
-	icon_pals BROWN,   YELLOW  ; NIDOQUEEN
-	icon_pals BROWN,   YELLOW  ; NIDORAN_M
-	icon_pals BROWN,   YELLOW  ; NIDORINO
-	icon_pals BROWN,   YELLOW  ; NIDOKING
+	icon_pals GREEN,   RED  ; SPRUNNY
+	icon_pals YELLOW,   YELLOW  ; NIDORINA
+	icon_pals RED,   GREEN  ; NIDOQUEEN
+	icon_pals PINK,   YELLOW  ; PRAWMATE
+	icon_pals PINK,   YELLOW  ; NIDORINO
+	icon_pals PINK,   YELLOW  ; NIDOKING
 	icon_pals BROWN,   YELLOW  ; NYALLEY
 	icon_pals BROWN,   YELLOW  ; FELIORITTE
 	icon_pals BROWN,   YELLOW  ; VULPIX
 	icon_pals BROWN,   YELLOW  ; NINETAILS
-	icon_pals BROWN,   YELLOW  ; JIGGLYPUFF
+	icon_pals BROWN,   YELLOW  ; HEXAHED
 	icon_pals BROWN,   YELLOW  ; WIGGLYTUFF
 	icon_pals PINK,    YELLOW  ; STINPEON
 	icon_pals YELLOW,  PINK    ; SCORPEROR
@@ -61,8 +61,8 @@ MonMenuIconPals:
 	icon_pals GREEN,   YELLOW  ; EXOTUNITY
 	icon_pals BROWN,   YELLOW  ; BOBBITE
 	icon_pals BROWN,   YELLOW  ; PRIMEAPE
-	icon_pals BROWN,   YELLOW  ; HAPPIG
-	icon_pals BROWN,   YELLOW  ; BIPORKAR
+	icon_pals YELLOW,   YELLOW  ; HAPPIG
+	icon_pals YELLOW,   YELLOW  ; BIPORKAR
 	icon_pals PINK,   YELLOW   ; CREMIGO
 	icon_pals GRAY,   YELLOW   ; AMANIGO
 	icon_pals PURPLE,   YELLOW ; YUGGROMI
@@ -116,21 +116,21 @@ MonMenuIconPals:
 	icon_pals PINK,   PINK     ; SAKURONNA
 	icon_pals GRAY,   RED      ; CUTTLE
 	icon_pals GRAY,   RED      ; TENDRILL
-	icon_pals GRAY,   PINK      ; CALARMOURI
+	icon_pals GRAY,   PINK     ; CALARMOURI
 	icon_pals GREEN,   YELLOW  ; ANTPYRE
 	icon_pals GREEN,   YELLOW  ; GENEROPSIS
-	icon_pals BLUE,   YELLOW  ; OSCURASA
-	icon_pals BLUE,   YELLOW  ; MADRUGASA
+	icon_pals BLUE,   YELLOW   ; OSCURASA
+	icon_pals BLUE,   YELLOW   ; MADRUGASA
 	icon_pals GRAY,   YELLOW   ; GOOSAPLING
 	icon_pals BROWN,   YELLOW  ; GANZERKER
 	icon_pals BLUE,     YELLOW ; PEAUTY
 	icon_pals BLUE,     YELLOW ; PEEKEYE
 	icon_pals PURPLE,   YELLOW ; PEACOLDER
-	icon_pals BROWN,   YELLOW  ; BOWLIDE
+	icon_pals BLUE,   YELLOW  ; BOWLIDE
 	icon_pals GRAY,   YELLOW  ; CLIBBLE
 	icon_pals GRAY,   YELLOW  ; GIGUARD
 	icon_pals GRAY,   YELLOW  ; GIGERATOR
-	icon_pals BROWN,   YELLOW  ; BERMUDANT
+	icon_pals PURPLE,   YELLOW  ; BERMUDANT
 	icon_pals BROWN,   YELLOW  ; TAUROS
 	icon_pals BROWN,   YELLOW  ; MAGIKARP
 	icon_pals BROWN,   YELLOW  ; GYARADOS
@@ -141,8 +141,8 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; JOLTEON
 	icon_pals BROWN,   YELLOW  ; FLAREON
 	icon_pals BROWN,   YELLOW  ; PORYGON
-	icon_pals BROWN,   YELLOW  ; MAMMOTHRA
-	icon_pals BROWN,   YELLOW  ; BEHEMOTHRA
+	icon_pals RED,   YELLOW  ; MAMMOTHRA
+	icon_pals RED,   YELLOW  ; BEHEMOTHRA
 	icon_pals BROWN,   YELLOW  ; BELLOCEROS
 	icon_pals BROWN,   YELLOW  ; KABUTOPS
 	icon_pals BROWN,   YELLOW  ; AERODACTYL
@@ -153,7 +153,7 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; DRATINI
 	icon_pals BROWN,   YELLOW  ; DRAGONAIR
 	icon_pals BROWN,   YELLOW  ; DRAGONITE
-	icon_pals BROWN,   YELLOW  ; MA_0
+	icon_pals GRAY,   YELLOW  ; MA_0
 	icon_pals BROWN,   YELLOW  ; MEW  						END OF "KANTOMONS"
 	icon_pals GREEN,   YELLOW  ; CIGERILLAR
 	icon_pals GREEN,   YELLOW  ; TOBACOON

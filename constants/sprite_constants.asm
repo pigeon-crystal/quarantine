@@ -164,6 +164,9 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_SHABBYCAT ; aa
 	const SPRITE_SLAATEL ; ab
 	const SPRITE_WORMACHO ; ac
+	const SPRITE_NAVIGAZER ; ad
+	const SPRITE_RYUNARI ; ae
+	const SPRITE_BERMUDANT ; af
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)
 	const_def $e0

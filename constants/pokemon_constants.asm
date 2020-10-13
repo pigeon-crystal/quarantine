@@ -19,13 +19,13 @@
 ; - FramesPointers (see gfx/pokemon/frame_pointers.asm)
 ; - Footprints (see gfx/footprints.asm)
 	const_def 1
-	const BULBASAUR  ; 01
-	const IVYSAUR    ; 02
-	const VENUSAUR   ; 03
-	const CHARMANDER ; 04
-	const CHARMELEON ; 05
-	const CHARIZARD  ; 06
-	const SQUIRTLE   ; 07
+	const BULBASAUR  ; 01 baby taxo
+	const IVYSAUR    ; 02 taxo A
+	const VENUSAUR   ; 03 taxo A1
+	const CHARMANDER ; 04 taxo A2
+	const CHARMELEON ; 05 taxo B
+	const CHARIZARD  ; 06 taxo B1
+	const SQUIRTLE   ; 07 taxo B2
 	const WARTORTLE  ; 08
 	const BLASTOISE  ; 09
 	const BUZZLING   ; 0a
@@ -47,17 +47,17 @@
 	const RAICHU     ; 1a
 	const SANDOLPH   ; 1b
 	const DUNEFIN    ; 1c
-	const SPRUNNY  ; 1d
+	const SPRUNNY     ; 1d
 	const NIDORINA   ; 1e
 	const NIDOQUEEN  ; 1f
-	const NIDORAN_M  ; 20
+	const PRAWMATE  ; 20
 	const NIDORINO   ; 21
 	const NIDOKING   ; 22
 	const NYALLEY    ; 23
 	const FELIORITTE ; 24
 	const VULPIX     ; 25
 	const NINETALES  ; 26
-	const JIGGLYPUFF ; 27
+	const HEXAHED ; 27
 	const WIGGLYTUFF ; 28
 	const STINPEON   ; 29
 	const SCORPEROR  ; 2a

@@ -1,7 +1,7 @@
 Pokered_MonIndices:
 	db TENDRILL
 	db GENEROPSIS
-	db NIDORAN_M
+	db PRAWMATE
 	db NYALLEY
 	db QWAIL
 	db VOLTORB
@@ -98,7 +98,7 @@ Pokered_MonIndices:
 	db DUNEFIN
 	db MAMMOTHRA
 	db BEHEMOTHRA
-	db JIGGLYPUFF
+	db HEXAHED
 	db WIGGLYTUFF
 	db EEVEE
 	db FLAREON

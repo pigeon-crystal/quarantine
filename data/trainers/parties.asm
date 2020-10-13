@@ -461,7 +461,7 @@ YoungsterGroup:
 	db 25, NOMSABRE,   TAIL_WHIP, QUICK_ATTACK, HYPER_FANG, SCARY_FACE
 	db -1 ; end
 
-	; YOUNGSTER (9)
+	; YOUNGSTER (9) Route 3
 	db "WARREN@", TRAINERTYPE_NORMAL
 	db 35, QWALLOP
 	db -1 ; end
@@ -554,7 +554,7 @@ SchoolboyGroup:
 	db 35, HELACTAL
 	db -1 ; end
 
-	; SCHOOLBOY (10)
+	; SCHOOLBOY (10) Route 38 Chad 1
 	db "CHAD@", TRAINERTYPE_NORMAL
 	db 19, PEACOLDER
 	db -1 ; end
@@ -597,13 +597,13 @@ SchoolboyGroup:
 	db 25, ARASBESTOS
 	db -1 ; end
 
-	; SCHOOLBOY (17)
+	; SCHOOLBOY (17) Chad 2
 	db "CHAD@", TRAINERTYPE_NORMAL
 	db 19, PEACOLDER
 	db 19, MAGNEMITE
 	db -1 ; end
 
-	; SCHOOLBOY (18)
+	; SCHOOLBOY (18) Chad 3
 	db "CHAD@", TRAINERTYPE_NORMAL
 	db 27, PEACOLDER
 	db 31, MAGNETON
@@ -639,13 +639,13 @@ SchoolboyGroup:
 	db 35, ASTROTOM,   TAIL_WHIP, BODY_SLAM, AMNESIA, EARTHQUAKE
 	db -1 ; end
 
-	; SCHOOLBOY (23)
+	; SCHOOLBOY (23) Chad 4
 	db "CHAD@", TRAINERTYPE_NORMAL
 	db 30, PEACOLDER
 	db 34, MAGNETON
 	db -1 ; end
 
-	; SCHOOLBOY (24)
+	; SCHOOLBOY (24) Chad 5
 	db "CHAD@", TRAINERTYPE_MOVES
 	db 34, PEACOLDER,   PSYCHIC_M, LIGHT_SCREEN, REFLECT, ENCORE
 	db 38, MAGNETON,   ZAP_CANNON, THUNDER_WAVE, LOCK_ON, SWIFT
@@ -695,7 +695,7 @@ BirdKeeperGroup:
 	db 18, QWAIL
 	db -1 ; end
 
-	; BIRD_KEEPER (7)
+	; BIRD_KEEPER (7) Route 44
 	db "VANCE@", TRAINERTYPE_NORMAL
 	db 25, FURDOBA
 	db 25, FURDOBA
@@ -832,7 +832,7 @@ LassGroup:
 	db 34, MEOWTAIN
 	db -1 ; end
 
-	; LASS (10)
+	; LASS (10) Route 38
 	db "DANA@", TRAINERTYPE_MOVES
 	db 18, YUEFOE,    POUND, GROWL, THUNDERSHOCK, THUNDER_WAVE
 	db 18, VOYAPOD,    SCRATCH, TAIL_WHIP, DISABLE, CONFUSION
@@ -896,27 +896,27 @@ CooltrainerMGroup:
 	db 26, BULBASAUR,  LEECH_SEED, POISONPOWDER, SLEEP_POWDER, RAZOR_LEAF
 	db -1 ; end
 
-	; COOLTRAINERM (2)
+	; COOLTRAINERM (2) Lake of Rage
 	db "AARON@", TRAINERTYPE_NORMAL
 	db 24, IVYSAUR
 	db 24, CHARMELEON
 	db 24, WARTORTLE
 	db -1 ; end
 
-	; COOLTRAINERM (3)
+	; COOLTRAINERM (3) Blackthorn Gym
 	db "PAUL@", TRAINERTYPE_NORMAL
 	db 34, DRATINI
 	db 34, DRATINI
 	db 34, DRATINI
 	db -1 ; end
 
-	; COOLTRAINERM (4)
+	; COOLTRAINERM (4) Blackthron Gym
 	db "CODY@", TRAINERTYPE_NORMAL
 	db 34, OSCURASA
 	db 36, MADRUGASA
 	db -1 ; end
 
-	; COOLTRAINERM (5)
+	; COOLTRAINERM (5) Blackthron Gym
 	db "MIKE@", TRAINERTYPE_NORMAL
 	db 37, DRAGONAIR
 	db -1 ; end
@@ -935,7 +935,7 @@ CooltrainerMGroup:
 	db 39, FLAREON,    NO_ITEM,      FLAMETHROWER, QUICK_ATTACK, BITE, FIRE_SPIN
 	db -1 ; end
 
-	; COOLTRAINERM (8)
+	; COOLTRAINERM (8) Route 45
 	db "RYAN@", TRAINERTYPE_MOVES
 	db 25, HORNAMPA,    SAND_ATTACK, QUICK_ATTACK, WHIRLWIND, WING_ATTACK
 	db 27, GIGUARD, THUNDERPUNCH, LIGHT_SCREEN, SWIFT, SCREECH
@@ -1008,7 +1008,7 @@ CooltrainerMGroup:
 	db 14, SQUIRTLE
 	db -1 ; end
 
-	; COOLTRAINERM (19)
+	; COOLTRAINERM (19) Route 44
 	db "ALLEN@", TRAINERTYPE_MOVES
 	db 27, CHARMELEON, EMBER, SMOKESCREEN, FLAMETHROWER, SCARY_FACE
 	db -1 ; end
@@ -1027,36 +1027,36 @@ CooltrainerFGroup:
 	db 22, JOLTEON
 	db -1 ; end
 
-	; COOLTRAINERF (2)
+	; COOLTRAINERF (2) Lake of Rage
 	db "LOIS@", TRAINERTYPE_MOVES
 	db 25, PURRDLE,   SYNTHESIS, POISONPOWDER, MEGA_DRAIN, LEECH_SEED
 	db 25, NINETALES,  EMBER, QUICK_ATTACK, CONFUSE_RAY, SAFEGUARD
 	db -1 ; end
 
-	; COOLTRAINERF (3)
+	; COOLTRAINERF (3) Blackthron Gym
 	db "FRAN@", TRAINERTYPE_NORMAL
 	db 37, MADRUGASA
 	db -1 ; end
 
-	; COOLTRAINERF (4)
+	; COOLTRAINERF (4) Blackthron Gym
 	db "LOLA@", TRAINERTYPE_NORMAL
 	db 34, DRATINI
 	db 36, DRAGONAIR
 	db -1 ; end
 
-	; COOLTRAINERF (5)
+	; COOLTRAINERF (5) Route 34 Sisters
 	db "KATE@", TRAINERTYPE_NORMAL
 	db 26, SHELLDER
 	db 28, CLOYSTER
 	db -1 ; end
 
-	; COOLTRAINERF (6)
+	; COOLTRAINERF (6) Route 34 Sisters
 	db "IRENE@", TRAINERTYPE_NORMAL
 	db 22, GOOSAPLING
 	db 24, GANZERKER
 	db -1 ; end
 
-	; COOLTRAINERF (7)
+	; COOLTRAINERF (7) Route 45
 	db "KELLY@", TRAINERTYPE_NORMAL
 	db 27, HABBLE
 	db 24, WARTORTLE
@@ -1111,13 +1111,13 @@ CooltrainerFGroup:
 	db 28, AMANIGO
 	db -1 ; end
 
-	; COOLTRAINERF (16)
+	; COOLTRAINERF (16) Route 44
 	db "CYBIL@", TRAINERTYPE_MOVES
 	db 25, VAZZINATE, CONFUSION, SLEEP_POWDER, WHIRLWIND, GUST
 	db 25, PLANTENNA,  ABSORB, STUN_SPORE, ACID, SOLARBEAM
 	db -1 ; end
 
-	; COOLTRAINERF (17)
+	; COOLTRAINERF (17) Route 34 Sisters
 	db "JENN@", TRAINERTYPE_NORMAL
 	db 24, PEAUTY
 	db 26, PEEKEYE
@@ -1234,13 +1234,13 @@ BeautyGroup:
 	db 15, WENDIGAUNT
 	db -1 ; end
 
-	; BEAUTY (16)
+	; BEAUTY (16) Route 38
 	db "VALERIE@", TRAINERTYPE_MOVES
 	db 17, SHABBYCAT,     SYNTHESIS, TAIL_WHIP, POUND, POISONPOWDER
 	db 17, PURRDLE,   SYNTHESIS, TAIL_WHIP, POUND, STUN_SPORE
 	db -1 ; end
 
-	; BEAUTY (17)
+	; BEAUTY (17) Route 38
 	db "OLIVIA@", TRAINERTYPE_NORMAL
 	db 19, BAAFOMET
 	db -1 ; end
@@ -1252,7 +1252,7 @@ PokemaniacGroup:
 	db 15, RESPECTRE, BERRY
 	db -1 ; end
 
-	; POKEMANIAC (2)
+	; POKEMANIAC (2) Lake of Rage
 	db "ANDREW@", TRAINERTYPE_NORMAL
 	db 24, KALKOLA
 	db 24, KALKOLA
@@ -1263,23 +1263,23 @@ PokemaniacGroup:
 	db 26, GENEROPSIS
 	db -1 ; end
 
-	; POKEMANIAC (4)
+	; POKEMANIAC (4) Route 42
 	db "SHANE@", TRAINERTYPE_NORMAL
 	db 16, NIDORINA
 	db 16, NIDORINO
 	db -1 ; end
 
-	; POKEMANIAC (5)
+	; POKEMANIAC (5) Route 43
 	db "BEN@", TRAINERTYPE_NORMAL
 	db 19, SLOWBRO
 	db -1 ; end
 
-	; POKEMANIAC (6)
+	; POKEMANIAC (6) Route 43 Brent 1
 	db "BRENT@", TRAINERTYPE_NORMAL
 	db 19, SAPPURA
 	db -1 ; end
 
-	; POKEMANIAC (7)
+	; POKEMANIAC (7) Route 43
 	db "RON@", TRAINERTYPE_NORMAL
 	db 19, NIDOKING
 	db -1 ; end
@@ -1312,7 +1312,7 @@ PokemaniacGroup:
 	db 23, TENDRILL, BERSERK_GENE
 	db -1 ; end
 
-	; POKEMANIAC (13)
+	; POKEMANIAC (13) Route 44
 	db "ZACH@", TRAINERTYPE_NORMAL
 	db 27, CUTTLE
 	db -1 ; end
@@ -1322,7 +1322,7 @@ PokemaniacGroup:
 	db 41, CALARMOURI,    ROLLOUT, ATTRACT, METRONOME, SOFTBOILED
 	db -1 ; end
 
-	; POKEMANIAC (15)
+	; POKEMANIAC (15) Mount Mortar
 	db "MILLER@", TRAINERTYPE_NORMAL
 	db 17, NIDOKING
 	db 17, NIDOQUEEN
@@ -1576,7 +1576,7 @@ TeacherGroup:
 
 	; TEACHER (3)
 	db "SHIRLEY@", TRAINERTYPE_NORMAL
-	db 35, JIGGLYPUFF
+	db 35, HEXAHED
 	db -1 ; end
 
 SabrinaGroup:
@@ -1743,7 +1743,7 @@ FisherGroup:
 	db  15, LANATUN
 	db -1 ; end
 
-	; FISHER (6)
+	; FISHER (6) Route 43
 	db "MARVIN@", TRAINERTYPE_NORMAL
 	db 10, MAGIKARP
 	db 10, GYARADOS
@@ -1751,7 +1751,7 @@ FisherGroup:
 	db 15, GYARADOS
 	db -1 ; end
 
-	; FISHER (7)
+	; FISHER (7) ; Route 42
 	db "TULLY@", TRAINERTYPE_NORMAL
 	db 18, PEKOI
 	db -1 ; end
@@ -1761,7 +1761,7 @@ FisherGroup:
 	db 27, GYARADOS
 	db -1 ; end
 
-	; FISHER (9)
+	; FISHER (9) Lake of Rage
 	db "RAYMOND@", TRAINERTYPE_NORMAL
 	db 22, MAGIKARP
 	db 22, MAGIKARP
@@ -1769,14 +1769,14 @@ FisherGroup:
 	db 22, MAGIKARP
 	db -1 ; end
 
-	; FISHER (10)
+	; FISHER (10) Route 44
 	db "WILTON@", TRAINERTYPE_NORMAL
 	db 23, GOOSAPLING
 	db 23, GOOSAPLING
 	db 25, GANZERKER
 	db -1 ; end
 
-	; FISHER (11)
+	; FISHER (11) Route 44
 	db "EDGAR@", TRAINERTYPE_MOVES
 	db 25, STIKLBRAT,   LOCK_ON, PSYBEAM, AURORA_BEAM, BUBBLEBEAM
 	db 25, STIKLBRAT,   LOCK_ON, PSYBEAM, AURORA_BEAM, BUBBLEBEAM
@@ -1881,27 +1881,27 @@ SwimmerMGroup:
 	db 30, MADRUGASA
 	db -1 ; end
 
-	; SWIMMERM (2)
+	; SWIMMERM (2) Route 40
 	db "SIMON@", TRAINERTYPE_NORMAL
 	db 20, TENTACOOL
 	db 20, TENTACOOL
 	db -1 ; end
 
-	; SWIMMERM (3)
+	; SWIMMERM (3) Route 40
 	db "RANDALL@", TRAINERTYPE_NORMAL
 	db 18, SHELLDER
 	db 20, WARTORTLE
 	db 18, SHELLDER
 	db -1 ; end
 
-	; SWIMMERM (4)
+	; SWIMMERM (4) Route 41
 	db "CHARLIE@", TRAINERTYPE_NORMAL
 	db 21, SHELLDER
 	db 19, TENTACOOL
 	db 19, TENTACRUEL
 	db -1 ; end
 
-	; SWIMMERM (5)
+	; SWIMMERM (5) Route 41
 	db "GEORGE@", TRAINERTYPE_NORMAL
 	db 16, TENTACOOL
 	db 17, TENTACOOL
@@ -1911,18 +1911,18 @@ SwimmerMGroup:
 	db 19, STIKLBRAT
 	db -1 ; end
 
-	; SWIMMERM (6)
+	; SWIMMERM (6) Route 41
 	db "BERKE@", TRAINERTYPE_NORMAL
 	db 23, PEKOI
 	db -1 ; end
 
-	; SWIMMERM (7)
+	; SWIMMERM (7) Route 41
 	db "KIRK@", TRAINERTYPE_NORMAL
 	db 20, GYARADOS
 	db 20, GYARADOS
 	db -1 ; end
 
-	; SWIMMERM (8)
+	; SWIMMERM (8) Route 41
 	db "MATHEW@", TRAINERTYPE_NORMAL
 	db 23, LANATUN
 	db -1 ; end
@@ -2016,42 +2016,42 @@ SwimmerMGroup:
 	db -1 ; end
 
 SwimmerFGroup:
-	; SWIMMERF (1)
+	; SWIMMERF (1) Route 40
 	db "ELAINE@", TRAINERTYPE_NORMAL
 	db 21, PEAUTY
 	db -1 ; end
 
-	; SWIMMERF (2)
+	; SWIMMERF (2) Route 40
 	db "PAULA@", TRAINERTYPE_NORMAL
 	db 19, PEAUTY
 	db 19, SHELLDER
 	db -1 ; end
 
-	; SWIMMERF (3)
+	; SWIMMERF (3) Route 41
 	db "KAYLEE@", TRAINERTYPE_NORMAL
 	db 18, GOOSAPLING
 	db 20, GOOSAPLING
 	db 20, GANZERKER
 	db -1 ; end
 
-	; SWIMMERF (4)
+	; SWIMMERF (4) Route 41
 	db "SUSIE@", TRAINERTYPE_MOVES
 	db 20, VOYAPOD,    SCRATCH, TAIL_WHIP, DISABLE, CONFUSION
 	db 22, GOOSAPLING,    PECK, TAIL_WHIP, SUPERSONIC, HORN_ATTACK
 	db -1 ; end
 
-	; SWIMMERF (5)
+	; SWIMMERF (5) Route 41
 	db "DENISE@", TRAINERTYPE_NORMAL
 	db 22, CADDISICLE
 	db -1 ; end
 
-	; SWIMMERF (6)
+	; SWIMMERF (6) Route 41
 	db "KARA@", TRAINERTYPE_NORMAL
 	db 20, PEAUTY
 	db 20, PEEKEYE
 	db -1 ; end
 
-	; SWIMMERF (7)
+	; SWIMMERF (7) Route 41
 	db "WENDY@", TRAINERTYPE_MOVES
 	db 21, OSCURASA,     BUBBLE, SMOKESCREEN, LEER, WATER_GUN
 	db 21, OSCURASA,     SONICBOOM, SMOKESCREEN, LEER, WATER_GUN
@@ -2125,7 +2125,7 @@ SwimmerFGroup:
 	db -1 ; end
 
 SailorGroup:
-	; SAILOR (1)
+	; SAILOR (1) Route 39
 	db "EUGENE@", TRAINERTYPE_NORMAL
 	db 17, AMANIGO
 	db 17, NOMSABRE
@@ -2182,7 +2182,7 @@ SailorGroup:
 	db 26, VOYAPOD
 	db -1 ; end
 
-	; SAILOR (10)
+	; SAILOR (10) Route 38
 	db "HARRY@", TRAINERTYPE_NORMAL
 	db 19, ODDITTEN
 	db -1 ; end
@@ -2296,12 +2296,12 @@ SuperNerdGroup:
 	db 30, PORYGON,    CONVERSION, CONVERSION, RECOVER, TRI_ATTACK
 	db -1 ; end
 
-	; SUPER_NERD (13)
+	; SUPER_NERD (13) Mount Mortar 2F
 	db "HUGH@", TRAINERTYPE_MOVES
 	db 39, MADRUGASA,     SMOKESCREEN, TWISTER, SURF, WATERFALL
 	db -1 ; end
 
-	; SUPER_NERD (14)
+	; SUPER_NERD (14) Mt. Mortar
 	db "MARKUS@", TRAINERTYPE_MOVES
 	db 19, SLOWPOKE,   CURSE, WATER_GUN, GROWL, STRENGTH
 	db -1 ; end
@@ -2415,34 +2415,34 @@ HikerGroup:
 	db 16, CUTTLE
 	db -1 ; end
 
-	; HIKER (6)
+	; HIKER (6) Route 42
 	db "BENJAMIN@", TRAINERTYPE_NORMAL
 	db 14, MUMINI
 	db 14, DOLMITE
 	db 16, MUMAGNUS
 	db -1 ; end
 
-	; HIKER (7)
+	; HIKER (7) Route 45
 	db "ERIK@", TRAINERTYPE_NORMAL
 	db 24, UPWHALE
 	db 27, DOLMESA
 	db 27, UPWHALE
 	db -1 ; end
 
-	; HIKER (8)
+	; HIKER (8) Route 45
 	db "MICHAEL@", TRAINERTYPE_NORMAL
 	db 25, DOLMITE
 	db 25, DOLMESA
 	db 25, CAIRNIVORE
 	db -1 ; end
 
-	; HIKER (9)
+	; HIKER (9) Parry 2
 	db "PARRY@", TRAINERTYPE_NORMAL
 	db 35, MORADAY
 	db 33, LAMSEED
 	db -1 ; end
 
-	; HIKER (10)
+	; HIKER (10) Route 45
 	db "TIMOTHY@", TRAINERTYPE_MOVES
 	db 27, MUMINI,    MAGNITUDE, DIG, SAND_ATTACK, SLASH
 	db 27, MUMAGNUS,    MAGNITUDE, DIG, SAND_ATTACK, SLASH
@@ -2503,14 +2503,14 @@ HikerGroup:
 	db 14, MUMINI
 	db -1 ; end
 
-	; HIKER (19)
+	; HIKER (19) Parry 3
 	db "PARRY@", TRAINERTYPE_MOVES
 	db 35, VEGETEBAA,  EARTHQUAKE, BLIZZARD, REST, DOUBLE_EDGE
 	db 35, MUMAGNUS,    MAGNITUDE, DIG, MUD_SLAP, SLASH
 	db 38, WIRIGIBLE,    DIG, IRON_TAIL, SANDSTORM, BODY_SLAM
 	db -1 ; end
 
-	; HIKER (20)
+	; HIKER (20) Route 45 Parry 1
 	db "PARRY@", TRAINERTYPE_NORMAL
 	db 29, MORADAY
 	db -1 ; end
@@ -2717,7 +2717,7 @@ JugglerGroup:
 	db -1 ; end
 
 BlackbeltGroup:
-	; BLACKBELT_T (1)
+	; BLACKBELT_T (1) Kenji 2
 	db "KENJI@", TRAINERTYPE_NORMAL
 	db 27, MORADAY
 	db 30, HITMONLEE
@@ -2731,7 +2731,7 @@ BlackbeltGroup:
 	db 27, HITMONLEE,  DOUBLE_KICK, BARRIER, HI_JUMP_KICK, FOCUS_ENERGY
 	db -1 ; end
 
-	; BLACKBELT_T (3)
+	; BLACKBELT_T (3) Kenji 3 FINAL
 	db "KENJI@", TRAINERTYPE_MOVES
 	db 33, MORADAY,       WRAP, ROCK_THROW, TOXIC, DIG
 	db 38, STELLOCEAN,    HEADBUTT, SWAGGER, THUNDERPUNCH, VITAL_THROW
@@ -2739,31 +2739,31 @@ BlackbeltGroup:
 	db 36, HITMONLEE,  DOUBLE_TEAM, HI_JUMP_KICK, MUD_SLAP, SWIFT
 	db -1 ; end
 
-	; BLACKBELT_T (4)
+	; BLACKBELT_T (4) Cianwood Gym, first pair right
 	db "LAO@", TRAINERTYPE_MOVES
 	db 27, HITMONCHAN, COMET_PUNCH, THUNDERPUNCH, ICE_PUNCH, FIRE_PUNCH
 	db -1 ; end
 
-	; BLACKBELT_T (5)
+	; BLACKBELT_T (5) Cianwood Gym middle
 	db "NOB@", TRAINERTYPE_MOVES
 	db 25, UPWHALE,     LEER, FOCUS_ENERGY, KARATE_CHOP, SEISMIC_TOSS
 	db 25, NIMBOCETUS,    LEER, KARATE_CHOP, SEISMIC_TOSS, ROCK_SLIDE
 	db -1 ; end
 
-	; BLACKBELT_T (6)
+	; BLACKBELT_T (6) Mount Mortar KARATE KING
 	db "KIYO@", TRAINERTYPE_NORMAL
 	db 34, HITMONLEE
 	db 34, HITMONCHAN
 	db -1 ; end
 
-	; BLACKBELT_T (7)
+	; BLACKBELT_T (7) Cianwood Gym end
 	db "LUNG@", TRAINERTYPE_NORMAL
 	db 23, BOBBITE
 	db 23, BOBBITE
 	db 25, PRIMEAPE
 	db -1 ; end
 
-	; BLACKBELT_T (8)
+	; BLACKBELT_T (8) Route 45 Kenji 1
 	db "KENJI@", TRAINERTYPE_NORMAL
 	db 28, NIMBOCETUS
 	db -1 ; end
@@ -2828,7 +2828,7 @@ PsychicGroup:
 	db 34, XATU
 	db -1 ; end
 
-	; PSYCHIC_T (5)
+	; PSYCHIC_T (5) Route 37
 	db "GREG@", TRAINERTYPE_ITEM
 	db 25, PEAUTY, BERRY
 	db 27, JUNOBE, EVIOLITE
@@ -2836,7 +2836,7 @@ PsychicGroup:
 	db 27, TRANQUIEL, BERRY
 	db -1 ; end
 
-	; PSYCHIC_T (6)
+	; PSYCHIC_T (6) Route 39
 	db "NORMAN@", TRAINERTYPE_MOVES
 	db 17, SLOWPOKE,   POUND, GROWL, WATER_GUN, NO_MOVE
 	db 20, SLOWPOKE,   CURSE, BODY_SLAM, WATER_GUN, CONFUSION
@@ -2849,7 +2849,7 @@ PsychicGroup:
 	db 25, LEAFFIGY,     MIRACLEBERRY
 	db -1 ; end
 
-	; PSYCHIC_T (8)
+	; PSYCHIC_T (8) Route 44
 	db "PHIL@", TRAINERTYPE_MOVES
 	db 24, SQWUCKY,       LEER, NIGHT_SHADE, FUTURE_SIGHT, CONFUSE_RAY
 	db 26, BUNDEGRAF,    DISABLE, PSYBEAM, RECOVER, FUTURE_SIGHT
@@ -2974,7 +2974,7 @@ PicnickerGroup:
 	db 29, IVYSAUR
 	db -1 ; end
 
-	; PICNICKER (16)
+	; PICNICKER (16) Route 43
 	db "TIFFANY@", TRAINERTYPE_MOVES
 	db 31, NYALLEY,   ENCORE, SING, DOUBLESLAP, MINIMIZE
 	db -1 ; end
@@ -3155,7 +3155,7 @@ CamperGroup:
 	db 37, DUNEFIN
 	db -1 ; end
 
-	; CAMPER (19)
+	; CAMPER (19) Route 43
 	db "SPENCER@", TRAINERTYPE_NORMAL
 	db 17, SANDOLPH
 	db 17, DUNEFIN
@@ -3178,7 +3178,7 @@ CamperGroup:
 	db 34, EXOTUNITY,    DISABLE, PSYCHIC_M, SURF, PSYCH_UP
 	db -1 ; end
 
-	; CAMPER (22)
+	; CAMPER (22) Route 45
 	db "QUENTIN@", TRAINERTYPE_NORMAL
 	db 30, QWALLOP
 	db 30, PRIMEAPE
@@ -3227,12 +3227,12 @@ SageGroup:
 	db  10, LAWNIE
 	db -1 ; end
 
-	; SAGE (5)
+	; SAGE (5) ; ecruteak gym
 	db "JEFFREY@", TRAINERTYPE_NORMAL
 	db 22, SCRUFFRUIT
 	db -1 ; end
 
-	; SAGE (6)
+	; SAGE (6) ; ecruteak gym 
 	db "PING@", TRAINERTYPE_NORMAL
 	db 16, FLUFFRUIT
 	db 16, FLUFFRUIT
@@ -3290,14 +3290,14 @@ SageGroup:
 	db -1 ; end
 
 MediumGroup:
-	; MEDIUM (1)
+	; MEDIUM (1) ; Ecruteak Gym
 	db "MARTHA@", TRAINERTYPE_NORMAL
 	db 18, FLUFFRUIT
 	db 20, SCRUFFRUIT
 	db 20, FLUFFRUIT
 	db -1 ; end
 
-	; MEDIUM (2)
+	; MEDIUM (2) ; Ecruteak Gym
 	db "GRACE@", TRAINERTYPE_NORMAL
 	db 20, SCRUFFRUIT
 	db 20, SCRUFFRUIT
@@ -3359,7 +3359,7 @@ PokefanMGroup:
 	db 23, MOPERDOR, BERRY
 	db -1 ; end
 
-	; POKEFANM (2)
+	; POKEFANM (2) Route 39
 	db "DEREK@", TRAINERTYPE_ITEM
 	db 17, PIKACHU,    BERRY
 	db -1 ; end
@@ -3391,7 +3391,7 @@ PokefanMGroup:
 	db 33, VOYAPOD,    BERRY
 	db -1 ; end
 
-	; POKEFANM (7)
+	; POKEFANM (7) Route 34
 	db "BRANDON@", TRAINERTYPE_ITEM
 	db 22, TIDO,   POLKADOT_BOW
 	db -1 ; end
@@ -3535,7 +3535,7 @@ PokefanFGroup:
 	db 25, MOPERDOR,   BERRY
 	db -1 ; end
 
-	; POKEFANF (2)
+	; POKEFANF (2) Route 39
 	db "RUTH@", TRAINERTYPE_ITEM
 	db 17, PIKACHU,    BERRY
 	db -1 ; end
@@ -3561,7 +3561,7 @@ PokefanFGroup:
 	db 23, WENDIGAUNT,    BERRY
 	db -1 ; end
 
-	; POKEFANF (6)
+	; POKEFANF (6) Route 39
 	db "JAIME@", TRAINERTYPE_ITEM
 	db 16, TODESCOOL,     BERRY
 	db -1 ; end

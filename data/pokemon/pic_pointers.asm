@@ -64,8 +64,8 @@ PokemonPicPointers::
 	dba_pic NidorinaBackpic
 	dba_pic NidoqueenFrontpic
 	dba_pic NidoqueenBackpic
-	dba_pic NidoranMFrontpic
-	dba_pic NidoranMBackpic
+	dba_pic PrawmateFrontpic
+	dba_pic PrawmateBackpic
 	dba_pic NidorinoFrontpic
 	dba_pic NidorinoBackpic
 	dba_pic NidokingFrontpic
@@ -78,8 +78,8 @@ PokemonPicPointers::
 	dba_pic VulpixBackpic
 	dba_pic NinetalesFrontpic
 	dba_pic NinetalesBackpic
-	dba_pic JigglypuffFrontpic
-	dba_pic JigglypuffBackpic
+	dba_pic HexahedFrontpic
+	dba_pic HexahedBackpic
 	dba_pic WigglytuffFrontpic
 	dba_pic WigglytuffBackpic
 	dba_pic StinpeonFrontpic

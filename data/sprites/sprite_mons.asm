@@ -20,7 +20,7 @@ SpriteMons:
 	db CLIBBLE
 	db PEEKEYE
 	db BULBASAUR
-	db JIGGLYPUFF
+	db HEXAHED
 	db DUMBLOON
 	db WYRMOMETER
 	db PARAS
@@ -45,4 +45,7 @@ SpriteMons:
 	db SHABBYCAT
 	db SLAATEL
 	db WORMACHO
+	db NAVIGAZER
+	db RYUNARI
+	db BERMUDANT
 	
