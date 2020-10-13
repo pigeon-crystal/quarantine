@@ -134,8 +134,9 @@ CianwoodPokeSeerSign:
 	jumptext CianwoodPokeSeerSignText
 
 CianwoodPokecenterSign:
-	givepoke MA_0, 100
-	warp OLIVINE_GOOD_ROD_HOUSE, 2, 7
+	givepoke PILFOARD, 100
+	givepoke ZASTER, 100
+	givepoke GRIMPACT, 100
 	jumpstd pokecentersign
 
 CianwoodCityRock:

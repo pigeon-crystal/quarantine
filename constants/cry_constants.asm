@@ -40,7 +40,6 @@
 	const CRY_VILEPLUME
 	const CRY_VULPIX
 	const CRY_WEEPINBELL
-	const CRY_MA_0
 
 ; gen 2
 	const CRY_MARILL
@@ -73,3 +72,5 @@
 	const CRY_AIPOM
 	const CRY_DUNSPARCE
 	const CRY_DONPHAN
+	const CRY_MA_0
+

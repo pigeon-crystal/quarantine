@@ -51,6 +51,8 @@ GuruGojeeAfterBattleText:
 	para "………"
 	done
 	
+CianwoodDunesSurfer:
+	
 CianwoodDunesCave_MapEvents:
 	db 0, 0 ; filler
 
