@@ -292,8 +292,8 @@ PokemonPicPointers::
 	dba_pic ArticunoBackpic
 	dba_pic ZapdosFrontpic
 	dba_pic ZapdosBackpic
-	dba_pic MoltresFrontpic
-	dba_pic MoltresBackpic
+	dba_pic BlazenbullFrontpic
+	dba_pic BlazenbullBackpic
 	dba_pic DratiniFrontpic
 	dba_pic DratiniBackpic
 	dba_pic DragonairFrontpic
@@ -495,12 +495,12 @@ PokemonPicPointers::
 	dba_pic SlaatelBackpic
 	dba_pic RyunariFrontpic
 	dba_pic RyunariBackpic
-	dba_pic LarvitarFrontpic
-	dba_pic LarvitarBackpic
-	dba_pic PupitarFrontpic
-	dba_pic PupitarBackpic
-	dba_pic TyranitarFrontpic
-	dba_pic TyranitarBackpic
+	dba_pic YukittenFrontpic
+	dba_pic YukittenBackpic
+	dba_pic FlurikenFrontpic
+	dba_pic FlurikenBackpic
+	dba_pic SnokageFrontpic
+	dba_pic SnokageBackpic
 	dba_pic LugiaFrontpic
 	dba_pic LugiaBackpic
 	dba_pic HoOhFrontpic

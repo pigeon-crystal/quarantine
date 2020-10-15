@@ -87,6 +87,10 @@ IconPointers:
 	dw CantogethaIcon
 	dw NavigazerIcon
 	dw BermudantIcon
+	dw YukittenIcon
+	dw FlurikenIcon
+	dw SnokageIcon
+	dw BlazenbullIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon

@@ -146,7 +146,7 @@ EvosAttacksPointers::
 	dw SnorlaxEvosAttacks
 	dw ArticunoEvosAttacks
 	dw ZapdosEvosAttacks
-	dw MoltresEvosAttacks
+	dw BlazenbullEvosAttacks
 	dw DratiniEvosAttacks
 	dw DragonairEvosAttacks
 	dw DragoniteEvosAttacks
@@ -246,9 +246,9 @@ EvosAttacksPointers::
 	dw RaikouEvosAttacks
 	dw SlaatelEvosAttacks
 	dw RyunariEvosAttacks
-	dw LarvitarEvosAttacks
-	dw PupitarEvosAttacks
-	dw TyranitarEvosAttacks
+	dw YukittenEvosAttacks
+	dw FlurikenEvosAttacks
+	dw SnokageEvosAttacks
 	dw LugiaEvosAttacks
 	dw HoOhEvosAttacks
 	dw CelebiEvosAttacks

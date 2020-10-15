@@ -30,7 +30,7 @@ SpriteMons:
 	db VOLTORB
 	db MANDELBLOB
 	db TENDRILL
-	db MOLTRES
+	db BLAZENBULL
 	db SNORLAX
 	db GYARADOS
 	db LUGIA

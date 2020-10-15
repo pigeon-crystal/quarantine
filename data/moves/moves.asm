@@ -161,7 +161,7 @@ Moves:: ; 41afb
 	move SPORE,        EFFECT_SLEEP,               0, GRASS,    	STATUS,   100, 15,   0
 	move FLASH,        EFFECT_ACCURACY_DOWN_HIT,  22, ELECTRIC, 	SPECIAL,  100, 10, 100
 	move PSYWAVE,      EFFECT_PSYWAVE,             1, PSYCHIC_TYPE, SPECIAL,  100, 15,   0
-	move ICICLE_CRASH, EFFECT_FLINCH_HIT,         85, ICE,      	PHYSICAL,  90, 10,  31
+	move ICICLE_CRASH, EFFECT_FLINCH_HIT,         85, ICE,      	PHYSICAL,  90, 10,  30
 	move WILL_O_WISP,  EFFECT_BURN,           	   0, FIRE,     	STATUS,    85, 15,   0
 	move CRABHAMMER,   EFFECT_NORMAL_HIT,        100, WATER,    	PHYSICAL,  90, 10,   0
 	move EXPLOSION,    EFFECT_SELFDESTRUCT,      250, NORMAL,   	PHYSICAL, 100,  5,   0

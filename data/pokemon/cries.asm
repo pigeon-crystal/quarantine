@@ -150,7 +150,7 @@ PokemonCries::
 	mon_cry CRY_GRIMER,       85,  129 ; SNORLAX
 	mon_cry CRY_RAICHU,      128,  192 ; ARTICUNO
 	mon_cry CRY_FEAROW,      255,  256 ; ZAPDOS
-	mon_cry CRY_RAICHU,      248,  192 ; MOLTRES
+	mon_cry CRY_RAICHU,      248,  192 ; BLAZENBULL
 	mon_cry CRY_BULBASAUR,    96,  192 ; DRATINI
 	mon_cry CRY_BULBASAUR,    64,  256 ; DRAGONAIR
 	mon_cry CRY_BULBASAUR,    60,  320 ; DRAGONITE
@@ -250,9 +250,9 @@ PokemonCries::
 	mon_cry CRY_RAIKOU,      558,  288 ; RAIKOU
 	mon_cry CRY_ENTEI,         0,  416 ; SLAATEL
 	mon_cry CRY_MAGCARGO,      0,  384 ; RYUNARI
-	mon_cry CRY_RAIKOU,       95,  208 ; LARVITAR
-	mon_cry CRY_SPINARAK,   -475,  336 ; PUPITAR
-	mon_cry CRY_RAIKOU,     -256,  384 ; TYRANITAR
+	mon_cry CRY_RAIKOU,       95,  208 ; YUKITTEN
+	mon_cry CRY_SPINARAK,   -475,  336 ; FLURIKEN
+	mon_cry CRY_RAIKOU,     -256,  384 ; SNOKAGE
 	mon_cry CRY_TYPHLOSION,    0,  256 ; LUGIA
 	mon_cry CRY_AIPOM,         0,  384 ; HO_OH
 	mon_cry CRY_ENTEI,       330,  273 ; CELEBI

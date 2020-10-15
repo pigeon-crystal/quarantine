@@ -145,7 +145,7 @@ PokedexDataPointerTable:
 	dw SnorlaxPokedexEntry
 	dw ArticunoPokedexEntry
 	dw ZapdosPokedexEntry
-	dw MoltresPokedexEntry
+	dw BlazenbullPokedexEntry
 	dw DratiniPokedexEntry
 	dw DragonairPokedexEntry
 	dw DragonitePokedexEntry
@@ -245,9 +245,9 @@ PokedexDataPointerTable:
 	dw RaikouPokedexEntry
 	dw SlaatelPokedexEntry
 	dw RyunariPokedexEntry
-	dw LarvitarPokedexEntry
-	dw PupitarPokedexEntry
-	dw TyranitarPokedexEntry
+	dw YukittenPokedexEntry
+	dw FlurikenPokedexEntry
+	dw SnokagePokedexEntry
 	dw LugiaPokedexEntry
 	dw HoOhPokedexEntry
 	dw CelebiPokedexEntry

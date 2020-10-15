@@ -806,7 +806,7 @@ MiltankEggMoves:
 	db SEISMIC_TOSS
 	db -1 ; end
 
-LarvitarEggMoves:
+YukittenEggMoves:
 	db PURSUIT
 	db -1 ; end
 

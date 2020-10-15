@@ -335,7 +335,7 @@ INCBIN "gfx/footprints/snorlax.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/articuno.1bpp",   footprint_bottom
 ; 145-152 top halves
 INCBIN "gfx/footprints/zapdos.1bpp",     footprint_top
-INCBIN "gfx/footprints/moltres.1bpp",    footprint_top
+INCBIN "gfx/footprints/blazenbull.1bpp",    footprint_top
 INCBIN "gfx/footprints/dratini.1bpp",    footprint_top
 INCBIN "gfx/footprints/dragonair.1bpp",  footprint_top
 INCBIN "gfx/footprints/dragonite.1bpp",  footprint_top
@@ -344,7 +344,7 @@ INCBIN "gfx/footprints/mew.1bpp",        footprint_top
 INCBIN "gfx/footprints/cigerillar.1bpp", footprint_top
 ; 145-152 bottom halves
 INCBIN "gfx/footprints/zapdos.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/moltres.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/blazenbull.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/dratini.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/dragonair.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/dragonite.1bpp",  footprint_bottom
@@ -555,18 +555,18 @@ INCBIN "gfx/footprints/odditully.1bpp",    footprint_top
 INCBIN "gfx/footprints/raikou.1bpp",     footprint_top
 INCBIN "gfx/footprints/slaatel.1bpp",      footprint_top
 INCBIN "gfx/footprints/ryunari.1bpp",    footprint_top
-INCBIN "gfx/footprints/larvitar.1bpp",   footprint_top
-INCBIN "gfx/footprints/pupitar.1bpp",    footprint_top
-INCBIN "gfx/footprints/tyranitar.1bpp",  footprint_top
+INCBIN "gfx/footprints/yukitten.1bpp",   footprint_top
+INCBIN "gfx/footprints/fluriken.1bpp",    footprint_top
+INCBIN "gfx/footprints/snokage.1bpp",  footprint_top
 ; 241-248 bottom halves
 INCBIN "gfx/footprints/miltank.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/odditully.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/raikou.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/slaatel.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/ryunari.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/larvitar.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/pupitar.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/tyranitar.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/yukitten.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/fluriken.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/snokage.1bpp",  footprint_bottom
 ; 249-256 top halves
 INCBIN "gfx/footprints/lugia.1bpp",      footprint_top
 INCBIN "gfx/footprints/ho_oh.1bpp",      footprint_top

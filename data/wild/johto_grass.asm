@@ -1210,19 +1210,19 @@ JohtoGrassWildMons:
 	db 48, MORADAY
 	db 48, DOLMESA
 	db 50, SMOTHERENE
-	db 20, LARVITAR
-	db 15, LARVITAR
-	db 20, PUPITAR
-	db 30, PUPITAR
+	db 20, YUKITTEN
+	db 15, YUKITTEN
+	db 20, FLURIKEN
+	db 30, FLURIKEN
 	; day
 	db 51, SCORPEROR
 	db 48, MORADAY
 	db 48, DOLMESA
 	db 50, SMOTHERENE
-	db 20, LARVITAR
-	db 15, LARVITAR
-	db 20, PUPITAR
-	db 30, PUPITAR
+	db 20, YUKITTEN
+	db 15, YUKITTEN
+	db 20, FLURIKEN
+	db 30, FLURIKEN
 	; nite
 	db 51, SCORPEROR
 	db 48, MORADAY
@@ -1231,7 +1231,7 @@ JohtoGrassWildMons:
 	db 45, EXOTUNITY
 	db 53, SCORPEROR
 	db 53, SCORPEROR
-	db 30, PUPITAR
+	db 30, FLURIKEN
 
 	map_id SILVER_CAVE_ITEM_ROOMS ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -1381,7 +1381,7 @@ JohtoGrassWildMons:
 	db 4, LAWNIE
 	db 4, FURNIT
 	db 4, LAWNIE
-	db 5, LAWNIE
+	db 5, GWUBBY
 
 	map_id ROUTE_31 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1418,29 +1418,29 @@ JohtoGrassWildMons:
 	; morn
 	db 9, WORMEEK
 	db 9, NOMSTER
-	db 9, NOMSTER
+	db 9, SPRUNNY
 	db 9, EUKUB
 	db 10, FURNIT
-	db 10, GWUBBY
+	db 10, WORMEEK
 	db 10, FURNIT
 	db 11, GOOSAPLING
 	; day
 	db 9, NOMSTER
-	db 9, WORMEEK
+	db 9, GWUBBY
+	db 9, SPRUNNY
 	db 9, GOOSAPLING
-	db 9, NOMSTER
 	db 10, FURNIT
 	db 10, FURNIT
 	db 10, GWUBBY
-	db 11, GWUBBY
+	db 11, SPRUNNY
 	; nite
 	db 9, GWUBBY
 	db 9, FLUFFRUIT
-	db 9, NOMSTER
+	db 9, SPRUNNY
 	db 8, EUKUB
 	db 10, GOOSAPLING
 	db 8, FLUFFRUIT
-	db 10, JUNOBE
+	db 10, FLUFFRUIT
 	db 10, JUNOBE
 
 	map_id ROUTE_33 ;done
@@ -1507,29 +1507,29 @@ JohtoGrassWildMons:
 	db 11 percent, 11 percent, 11 percent ; encounter rates: morn/day/nite
 	; morn
 	db 14, AMBINNI
-	db 14, WORMEEK
-	db 13, GOOSAPLING
-	db 14, SAPPURA
 	db 14, HAPPIG
-	db 16, HAPPIG
-	db 15, ZASTER
-	db 16, ARASBESTOS
-	; day
-	db 14, AMBINNI
-	db 14, WORMEEK
-	db 13, GOOSAPLING
-	db 14, SAPPURA
-	db 14, HAPPIG
-	db 16, HAPPIG
-	db 15, ZASTER
-	db 16, ARASBESTOS
-	; nite
-	db 14, AMBINNI
-	db 14, GWUBBY
 	db 13, GOOSAPLING
 	db 14, SAPPURA
 	db 14, HAPPIG
 	db 16, SAPPURA
+	db 15, ZASTER
+	db 16, ARASBESTOS
+	; day
+	db 14, AMBINNI
+	db 14, HAPPIG
+	db 13, GOOSAPLING
+	db 14, SAPPURA
+	db 14, HAPPIG
+	db 16, SAPPURA
+	db 15, ZASTER
+	db 16, ARASBESTOS
+	; nite
+	db 14, AMBINNI
+	db 14, HAPPIG
+	db 13, GOOSAPLING
+	db 14, SAPPURA
+	db 14, HAPPIG
+	db 16, ZASTER
 	db 15, ZASTER
 	db 16, ARASBESTOS
 
@@ -1567,121 +1567,121 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 17, WORMEEK
-	db 16, NOMSTER
+	db 16, HOATOXIC
 	db 15, FURDOBA
 	db 16, HIVEMAIM
 	db 17, PEAUTY
 	db 16, PEAUTY
-	db 17, HOATOXIC
-	db 18, HOATOXIC
+	db 17, HEXAHED
+	db 18, HEXAHED
 	; day
 	db 17, FURNIT
-	db 16, NOMSTER
+	db 16, HOATOT
 	db 17, FURDOBA
 	db 16, WORMEEK
 	db 17, PEAUTY
 	db 16, PEAUTY
-	db 17, HOATOXIC
-	db 18, HOATOXIC
+	db 17, HEXAHED
+	db 18, HEXAHED
 	; nite
 	db 17, GWUBBY
-	db 16, NOMSTER
-	db 17, HOATOXIC
-	db 16, NOMSTER
+	db 16, HOATOT
 	db 17, FURDOBA
-	db 18, PEAUTY
+	db 16, HOATOXIC
+	db 17, PEAUTY
+	db 18, HEXAHED
 	db 17, PEAUTY
 	db 19, JUNOBE
 
 	map_id ROUTE_38 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 16, NOMSTER
-	db 16, ANTPYRE
+	db 17, SPRUNNY
+	db 17, ANTPYRE
 	db 16, LAMSEED
-	db 16, PEAUTY
-	db 13, HAPPIG
-	db 13, LAMSEED
-	db 13, LAMSEED
-	db 15, MILTANK
+	db 17, PEAUTY
+	db 18, HAPPIG
+	db 18, LAMSEED
+	db 18, LAMSEED
+	db 19, MILTANK
 	; day
-	db 16, NOMSTER
-	db 16, ANTPYRE
+	db 17, SPRUNNY
+	db 17, ANTPYRE
 	db 16, LAMSEED
-	db 16, PEAUTY
-	db 13, HAPPIG
-	db 13, HAPPIG
-	db 13, LAMSEED
-	db 15, MILTANK
+	db 17, PEAUTY
+	db 18, HAPPIG
+	db 18, HAPPIG
+	db 16, LAMSEED
+	db 19, MILTANK
 	; nite
-	db 16, FLUFFRUIT
-	db 16, NOMSTER
+	db 17, FLUFFRUIT
+	db 17, SPRUNNY
 	db 16, LAMSEED
-	db 16, SCRUFFRUIT
-	db 16, HAPPIG
-	db 16, HAPPIG
+	db 17, SCRUFFRUIT
+	db 18, HAPPIG
+	db 18, HAPPIG
 	db 16, LAMSEED
-	db 18, JUNOBE
+	db 25, WENDIGAUNT
 
 	map_id ROUTE_39 ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 16, LAMSEED
-	db 16, NOMSABRE
-	db 16, AMBINNI
-	db 16, FURDOBA
-	db 15, MILTANK
-	db 15, TAUROS
-	db 15, TAUROS
-	db 18, PARDNER
+	db 18, LAMSEED
+	db 22, NOMSABRE
+	db 19, AMBINNI
+	db 19, FURDOBA
+	db 19, SPRUNNY
+	db 19, SPRUNNY
+	db 19, AMBINNI
+	db 25, PARDNER
 	; day
 	db 16, LAMSEED
 	db 16, NOMSABRE
 	db 16, AMBINNI
 	db 16, FURDOBA
-	db 15, MILTANK
-	db 15, TAUROS
-	db 15, PARDNER
-	db 18, PARDNER
+	db 15, SPRUNNY
+	db 15, SPRUNNY
+	db 25, PARDNER
+	db 25, PARDNER
 	; nite
-	db 16, TODESCOOL
+	db 16, AMBINNI
 	db 16, NOMSABRE
 	db 16, AMBINNI
-	db 16, NOCTOWL
-	db 18, TODESCOOL
-	db 18, TODESCOOL
-	db 18, TODESCOOL
-	db 19, PARDNER
+	db 16, SPRUNNY
+	db 18, SPRUNNY
+	db 18, AMBINNI
+	db 18, AMBINNI
+	db 25, PARDNER
 
 	map_id ROUTE_42 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, WORMEEK
-	db 14, QWAIL
-	db 15, NOMSTER
-	db 16, NOMSABRE
-	db 15, SWAZZAGE
-	db 16, QWALLOP
-	db 16, SWAZZAGE
-	db 18, PARDNER
+	db 23, WORMEEK
+	db 23, QWAIL
+	db 23, NOMSTER
+	db 23, NOMSABRE
+	db 25, SWAZZAGE
+	db 23, QWALLOP
+	db 25, SWAZZAGE
+	db 26, PARDNER
 	; day
-	db 13, WORMEEK
-	db 14, QWAIL
-	db 15, NOMSTER
-	db 16, NOMSABRE
-	db 15, SWAZZAGE
-	db 16, QWALLOP
-	db 16, SWAZZAGE
-	db 18, PARDNER
+	db 23, WORMEEK
+	db 23, QWAIL
+	db 23, NOMSTER
+	db 23, NOMSABRE
+	db 25, SWAZZAGE
+	db 25, QWALLOP
+	db 25, SWAZZAGE
+	db 26, PARDNER
 	; nite
-	db 13, WORMEEK
-	db 14, OSCURASA
-	db 15, NOMSABRE
-	db 16, SCORPEROR
-	db 15, SWAZZAGE
-	db 16, SCORPEROR
-	db 16, SWAZZAGE
-	db 18, PARDNER
+	db 23, WORMEEK
+	db 23, OSCURASA
+	db 25, NOMSABRE
+	db 25, SCORPEROR
+	db 25, SWAZZAGE
+	db 24, SCORPEROR
+	db 25, SWAZZAGE
+	db 26, PARDNER
 
 	map_id ROUTE_43 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1799,8 +1799,8 @@ JohtoGrassWildMons:
 	db 3, DOLMITE
 	db 3, QWAIL
 	db 3, QWAIL
+	db 3, QWAIL
 	db 3, JUNOBE
-	db 3, DOLMITE
 	db 5, JUNOBE
 
 	map_id SILVER_CAVE_OUTSIDE ;done

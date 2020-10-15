@@ -134,9 +134,7 @@ CianwoodPokeSeerSign:
 	jumptext CianwoodPokeSeerSignText
 
 CianwoodPokecenterSign:
-	givepoke PILFOARD, 100
-	givepoke ZASTER, 100
-	givepoke GRIMPACT, 100
+	givepoke BLAZENBULL, 100
 	jumpstd pokecentersign
 
 CianwoodCityRock:

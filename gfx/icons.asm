@@ -87,6 +87,10 @@ CantaloneIcon:    INCBIN "gfx/icons/cantalone.2bpp"
 CantogethaIcon:   INCBIN "gfx/icons/cantogetha.2bpp"
 NavigazerIcon:    INCBIN "gfx/icons/navigazer.2bpp"
 BermudantIcon:	  INCBIN "gfx/icons/bermudant.2bpp"
+YukittenIcon:	  INCBIN "gfx/icons/yukitten.2bpp"
+FlurikenIcon:     INCBIN "gfx/icons/fluriken.2bpp"
+SnokageIcon:	  INCBIN "gfx/icons/snokage.2bpp"
+BlazenbullIcon:   INCBIN "gfx/icons/blazenbull.2bpp"
 
 SECTION "Mon Icons 2", ROMX
 

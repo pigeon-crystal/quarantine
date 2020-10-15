@@ -149,7 +149,7 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; SNORLAX
 	icon_pals BROWN,   YELLOW  ; ARTICUNO
 	icon_pals BROWN,   YELLOW  ; ZAPDOS
-	icon_pals BROWN,   YELLOW  ; MOLTRES
+	icon_pals GRAY,   PURPLE  ; BLAZENBULL
 	icon_pals BROWN,   YELLOW  ; DRATINI
 	icon_pals BROWN,   YELLOW  ; DRAGONAIR
 	icon_pals BROWN,   YELLOW  ; DRAGONITE
@@ -249,9 +249,9 @@ MonMenuIconPals:
 	icon_pals RED,   YELLOW    ; RAIKOU
 	icon_pals GRAY,   YELLOW    ; SLAATEL
 	icon_pals RED,   YELLOW    ; RYUNARI
-	icon_pals RED,   YELLOW    ; LARVITAR
-	icon_pals RED,   YELLOW    ; PUPITAR
-	icon_pals RED,   YELLOW    ; TYRANITAR
+	icon_pals BLUE,   PURPLE    ; YUKITTEN
+	icon_pals BLUE,   PURPLE    ; FLURIKEN
+	icon_pals BLUE,   PURPLE    ; SNOKAGE
 	icon_pals RED,   YELLOW    ; LUGIA
 	icon_pals RED,   YELLOW    ; HO_OH
 	icon_pals RED,   YELLOW    ; CELEBI

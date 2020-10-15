@@ -104,7 +104,7 @@ AlphabeticalPokedexOrder:
 	db KRAKENTOA
 	db LAMSEED
 	db LANATUN
-	db LARVITAR
+	db YUKITTEN
 	db LAWNIE
 	db LEAFFIGY
 	db LUGIA
@@ -126,7 +126,7 @@ AlphabeticalPokedexOrder:
 	db MEW
 	db MILTANK
 	db MISSINGNO
-	db MOLTRES
+	db BLAZENBULL
 	db MONEUMENN
 	db MOPERDOR
 	db MORADAY
@@ -174,7 +174,7 @@ AlphabeticalPokedexOrder:
 	db PRIMEAPE
 	db PRIPYDERM
 	db PURRDLE
-	db PUPITAR
+	db FLURIKEN
 	db ASTROTOM
 	db QWAIL
 	db QWALLOP
@@ -224,7 +224,7 @@ AlphabeticalPokedexOrder:
 	db TOBACOON
 	db TODESCOOL
 	db TRANQUIEL
-	db TYRANITAR
+	db SNOKAGE
 	db TYROGUE
 	db UMBREON
 	db UNOWN

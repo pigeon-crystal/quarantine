@@ -12,6 +12,6 @@ Unreferenced_MonPicBanks:
 	db GRUBBOID,   $15 + 6 ; JARANRA in pokegold-spaceworld
 	db ESPEON,    $15 + 7 ; KOUNYA in pokegold-spaceworld
 	db SIDFICIOUS, $15 + 8 ; BOMBSEEKER in pokegold-spaceworld
-	db LARVITAR,  $15 + 9 ; NYULA in pokegold-spaceworld
+	db YUKITTEN,  $15 + 9 ; NYULA in pokegold-spaceworld
 	db $ff,       $15 + 10
 	db $ff,       $15 + 11

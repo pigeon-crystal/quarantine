@@ -164,7 +164,7 @@
 	const SNORLAX    ; 8f
 	const ARTICUNO   ; 90
 	const ZAPDOS     ; 91
-	const MOLTRES    ; 92
+	const BLAZENBULL    ; 92
 	const DRATINI    ; 93
 	const DRAGONAIR  ; 94
 	const DRAGONITE  ; 95
@@ -265,9 +265,9 @@ JOHTO_POKEMON EQU const_value
 	const RAIKOU     ; f3
 	const SLAATEL    ; f4
 	const RYUNARI    ; f5
-	const LARVITAR   ; f6
-	const PUPITAR    ; f7
-	const TYRANITAR  ; f8
+	const YUKITTEN   ; f6
+	const FLURIKEN   ; f7
+	const SNOKAGE    ; f8
 	const LUGIA      ; f9
 	const HO_OH      ; fa
 	const CELEBI     ; fb
