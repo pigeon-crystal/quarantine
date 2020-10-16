@@ -65,7 +65,6 @@ EcruteakCityYoungsterScript:
 	jumptextfaceplayer EcruteakCityYoungsterText
 
 EcruteakCitySign:
-	setevent EVENT_BEAT_PRYCE
 	jumptext EcruteakCitySignText
 
 TinTowerSign:
