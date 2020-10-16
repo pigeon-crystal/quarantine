@@ -134,7 +134,7 @@ CianwoodPokeSeerSign:
 	jumptext CianwoodPokeSeerSignText
 
 CianwoodPokecenterSign:
-	givepoke BLAZENBULL, 100
+	warp ECRUTEAK_CITY, 1, 19	
 	jumpstd pokecentersign
 
 CianwoodCityRock:

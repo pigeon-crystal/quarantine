@@ -48,4 +48,5 @@ SpriteMons:
 	db NAVIGAZER
 	db RYUNARI
 	db BERMUDANT
+	db BAAFOMET
 	

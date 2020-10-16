@@ -6,7 +6,6 @@
 	const ECRUTEAKCITY_FISHER
 	const ECRUTEAKCITY_YOUNGSTER
 	const ECRUTEAKCITY_GRAMPS3
-	const ECRUTEAKCITY_SLAATEL_MEME
 
 EcruteakCity_MapScripts:
 	db 0 ; scene scripts
@@ -18,21 +17,6 @@ EcruteakCity_MapScripts:
 	setflag ENGINE_FLYPOINT_ECRUTEAK
 	return
 
-EcruteakCitySlaatelScript: ;23/28
-	opentext
-	writetext SlaatelScold
-	waitbutton
-	loadwildmon SLAATEL, 100
-	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM	
-	startbattle
-	dontrestartmapmusic
-	reloadmapafterbattle
-	writetext SlaatelShock
-	waitbutton
-	closetext
-	disappear ECRUTEAKCITY_SLAATEL_MEME
-	end
-	
 EcruteakCityGramps1Script:
 	jumptextfaceplayer EcruteakCityGramps1Text
 
@@ -81,6 +65,7 @@ EcruteakCityYoungsterScript:
 	jumptextfaceplayer EcruteakCityYoungsterText
 
 EcruteakCitySign:
+	setevent EVENT_BEAT_PRYCE
 	jumptext EcruteakCitySignText
 
 TinTowerSign:
@@ -349,7 +334,7 @@ EcruteakCity_MapEvents:
 	bg_event 30, 21, BGEVENT_READ, EcruteakCityMartSign
 	bg_event 23, 14, BGEVENT_ITEM, EcruteakCityHiddenHyperPotion
 
-	db 8 ; object events EDIT THIS FOR NEXT DEMO FFS
+	db 7 ; object events EDIT THIS FOR NEXT DEMO FFS
 	object_event 18, 15, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakCityGramps1Script, -1
 	object_event 20, 21, SPRITE_GRAMPS, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakCityGramps2Script, -1
 	object_event 21, 29, SPRITE_LASS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, EcruteakCityLass1Script, -1
@@ -357,4 +342,3 @@ EcruteakCity_MapEvents:
 	object_event  9, 22, SPRITE_FISHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, EcruteakCityFisherScript, -1
 	object_event 10, 14, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, EcruteakCityYoungsterScript, -1
 	object_event  3,  7, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, EcruteakCityGramps3Script, EVENT_ECRUTEAK_CITY_GRAMPS
-	object_event  6, 28, SPRITE_SLAATEL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, EcruteakCitySlaatelScript, -1

@@ -376,10 +376,10 @@ DunefinEvosAttacks:
 	db 27, ROCK_SLIDE
 	db 30, MAGNITUDE
 	db 31, SUPER_FANG
-	db 37, HYPER_FANG
+	db 37, HYPER_FANG ; evo move
 	db 39, CRUNCH
-	db 42, EARTHQUAKE
-	db 49, BODY_SLAM
+	db 42, BODY_SLAM
+	db 46, EARTHQUAKE
 	db 55, OUTRAGE
 	db 60, FISSURE
 	db 0 ; no more level-up moves
@@ -939,20 +939,54 @@ VoltingerEvosAttacks:
 	db 0 ; no more level-up moves
 
 UpwhaleEvosAttacks:
-	db EVOLVE_LEVEL, 32, NIMBOCETUS
+	db EVOLVE_LEVEL, 31, NIMBOCETUS
 	db 0 ; no more evolutions
-	db 1, LEER
+	db 1, GROWL
+	db 1, WATER_GUN
+	db 10, BUBBLE
+	db 16, MIST
+	db 20, ROLLOUT
+	db 22, FORESIGHT
+	db 25, SUPERSONIC
+	db 35, BODY_SLAM
+	db 35, BUBBLEBEAM
 	db 0 ; no more level-up moves
 
 NimbocetusEvosAttacks:
-	db EVOLVE_TRADE, -1, STELLOCEAN
+	db EVOLVE_LEVEL, 46, STELLOCEAN
 	db 0 ; no more evolutions
-	db 1, LEER
+	db 1, GROWL
+	db 1, WATER_GUN
+	db 10, BUBBLE
+	db 16, MIST
+	db 20, ROLLOUT
+	db 22, FORESIGHT
+	db 25, SUPERSONIC
+	db 30, BODY_SLAM
+	db 35, BUBBLEBEAM
+	db 40, SKY_ATTACK
+	db 42, SAFEGUARD
+	db 50, RAIN_DANCE
+	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 StelloceanEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, LEER
+	db 1, GROWL
+	db 1, WATER_GUN
+	db 10, BUBBLE
+	db 16, MIST
+	db 20, ROLLOUT
+	db 22, FORESIGHT
+	db 25, SUPERSONIC
+	db 30, BODY_SLAM
+	db 35, BUBBLEBEAM
+	db 42, SAFEGUARD
+	db 45, AMNESIA
+	db 48, PSYBEAM
+	db 50, RAIN_DANCE
+	db 54, REST
+	db 57, HYDRO_PUMP	
 	db 0 ; no more level-up moves
 
 LawnieEvosAttacks:
@@ -3463,7 +3497,8 @@ SlaatelEvosAttacks:
 
 RyunariEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, BITE
+	db 1, FORESIGHT
+	db 1, TWISTER
 	db 0 ; no more level-up moves
 
 YukittenEvosAttacks:
@@ -3472,6 +3507,7 @@ YukittenEvosAttacks:
 	db 1, SCRATCH
 	db 1, FALSE_SWIPE
 	db 1, GROWL 
+	db 1, FORESIGHT
 	db 9, QUICK_ATTACK
 	db 13, KARATE_CHOP
 	db 16, MIST
@@ -3489,7 +3525,8 @@ FlurikenEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, FALSE_SWIPE
-	db 1, GROWL 
+	db 1, GROWL
+	db 1, FORESIGHT
 	db 9, QUICK_ATTACK
 	db 13, KARATE_CHOP
 	db 16, MIST
@@ -3511,6 +3548,7 @@ SnokageEvosAttacks:
 	db 1, SCRATCH
 	db 1, FALSE_SWIPE
 	db 1, GROWL 
+	db 1, FORESIGHT
 	db 9, QUICK_ATTACK
 	db 13, KARATE_CHOP
 	db 16, MIST
