@@ -501,6 +501,8 @@ Route32UnionCaveSign:
 	jumptext Route32UnionCaveSignText
 
 Route32PokecenterSign:
+	givepoke STELLOCEAN, 50
+	givepoke SHREDDRAKE, 50
 	jumpstd pokecentersign
 
 Route32HiddenGreatBall:

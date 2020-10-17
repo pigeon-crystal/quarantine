@@ -6,7 +6,7 @@
 	db STEEL, GHOST ; type
 	db 85 ; catch rate
 	db 80 ; base exp
-	db METAL_COAT, NO_ITEM ; items
+	db METAL_COAT, BLK_APRICORN ; items
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1
 	db 12 ; step cycles to hatch

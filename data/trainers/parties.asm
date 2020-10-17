@@ -85,11 +85,27 @@ BugsyGroup:
 
 MortyGroup:
 	; MORTY (1)
-	db "MORTY@", TRAINERTYPE_MOVES
-	db 21, FLUFFRUIT,     LICK, SPITE, MEAN_LOOK, CURSE
-	db 21, SCRUFFRUIT,    HYPNOSIS, MIMIC, CURSE, NIGHT_SHADE
-	db 25, PITAYRANT,     HYPNOSIS, SHADOW_BALL, MEAN_LOOK, DREAM_EATER
-	db 23, SCRUFFRUIT,    SPITE, MEAN_LOOK, MIMIC, NIGHT_SHADE
+	db "MORTY@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
+	db 28, MISSTERIA
+		dw $c1ea, $a2fa, $c1ec, $fa9d, $fa2c
+		db CLEANSE_TAG
+		db CURSE, MEAN_LOOK, REST, SLEEP_TALK
+	db 21, WENDIGAUNT
+		dw $c1ea, $a2fa, $c1ec, $fa9d, $fa2c
+		db NO_ITEM
+		db SPIKES, GIGA_DRAIN, SHADOW_BALL, PROTECT
+	db 21, MISSTERIA ; filler for iron maiden 2
+		dw $c1ea, $a2fa, $c1ec, $fa9d, $fa2c
+		db GOLD_BERRY
+		db HYPNOSIS, MIMIC, CURSE, NIGHT_SHADE
+	db 25, SWAZZAGE
+		dw $c1ea, $a2fa, $c1ec, $fa9d, $fa2c
+		db SPELL_TAG
+		db SHADOW_BALL, FIRE_PUNCH, THUNDERPUNCH, SCREECH
+	db 30, BIPORKAR
+		dw $c1ea, $a2fa, $c1ec, $fa9d, $fa2c
+		db PINK_BOW
+		db HEADBUTT, SHADOW_BALL, NASTY_PLOT, BITE
 	db -1 ; end
 
 PryceGroup:
@@ -374,18 +390,18 @@ LtSurgeGroup:
 	db -1 ; end
 
 ScientistGroup:
-	; SCIENTIST (1)
+	; SCIENTIST (1) Rocket Mahogany Base B3F
 	db "ROSS@", TRAINERTYPE_NORMAL
 	db 22, LEAFFIGY
 	db 22, LEAFFIGY
 	db -1 ; end
 
-	; SCIENTIST (2)
+	; SCIENTIST (2) Rocket Mahogany Base 3F
 	db "MITCH@", TRAINERTYPE_NORMAL
 	db 24, HELACTAL
 	db -1 ; end
 
-	; SCIENTIST (3)
+	; SCIENTIST (3) Rocket Mahogany Base B1F
 	db "JEB@", TRAINERTYPE_NORMAL
 	db 20, MAGNEMITE
 	db 20, MAGNEMITE
@@ -732,6 +748,7 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (13) ;route 32
 	db "PETER@", TRAINERTYPE_NORMAL
+	db 50, BLAZENBULL
 	db  13, FURNIT
 	db  13, HOATOT
 	db  15, PEAUTY
@@ -1427,7 +1444,7 @@ GruntMGroup:
 	db 23, SAKURONNA
 	db -1 ; end
 
-	; GRUNTM (16)
+	; GRUNTM (16) Mahogany Base B1F
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 16, NOMSTER
 	db 16, NOMSTER
@@ -1435,31 +1452,31 @@ GruntMGroup:
 	db 16, NOMSTER
 	db -1 ; end
 
-	; GRUNTM (17)
+	; GRUNTM (17) Rocket Mahogany Base B2F
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 18, SCORPEROR
 	db -1 ; end
 
-	; GRUNTM (18)
+	; GRUNTM (18) Rocket Mahogany Base B2F
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 17, NOMSTER
 	db 17, STINPEON
 	db 17, NOMSTER
 	db -1 ; end
 
-	; GRUNTM (19)
+	; GRUNTM (19) Rocket Mahogany Base B2F
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 18, ELEPHOOT
 	db 18, ELEPHOOT
 	db -1 ; end
 
-	; GRUNTM (20)
+	; GRUNTM (20) Rocket Mahogany Base B1F Camera
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 17, EELKIE
 	db 19, STINPEON
 	db -1 ; end
 
-	; GRUNTM (21)
+	; GRUNTM (21) Rocket Mahogany Base B1F Camera
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 16, STINPEON
 	db 17, DUMBLOON
@@ -1499,7 +1516,7 @@ GruntMGroup:
 	db 22, STINPEON
 	db -1 ; end
 
-	; GRUNTM (28)
+	; GRUNTM (28) Mahogany Rocket Base B3F
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 19, NOMSABRE
 	db -1 ; end
@@ -2802,7 +2819,7 @@ ExecutiveMGroup:
 	db 30, LEAFFIGY,    POUND, SMOG, SLUDGE_BOMB, SMOKESCREEN
 	db -1 ; end
 
-	; EXECUTIVEM (4)
+	; EXECUTIVEM (4) Mahogany Base B3F
 	db "EXECUTIVE@", TRAINERTYPE_NORMAL
 	db 22, STINPEON
 	db 24, NOMSABRE
@@ -2836,7 +2853,7 @@ PsychicGroup:
 	db "GREG@", TRAINERTYPE_ITEM
 	db 25, PEAUTY, BERRY
 	db 27, JUNOBE, EVIOLITE
-	db 25, PLANTENNA, NO_ITEM
+	db 25, PLANTENNA, MAGNET
 	db 27, TRANQUIEL, BERRY
 	db -1 ; end
 
@@ -3197,7 +3214,7 @@ ExecutiveFGroup:
 	db 32, BISMUTT,    PECK, PURSUIT, HAZE, NIGHT_SHADE
 	db -1 ; end
 
-	; EXECUTIVEF (2)
+	; EXECUTIVEF (2) Rocket Mahogany Base B2F
 	db "EXECUTIVE@", TRAINERTYPE_MOVES
 	db 23, IGNAGA,      WRAP, LEER, POISON_STING, BITE
 	db 23, KOAGAN,      ABSORB, SWEET_SCENT, SLEEP_POWDER, ACID
@@ -3231,18 +3248,20 @@ SageGroup:
 	db  10, LAWNIE
 	db -1 ; end
 
-	; SAGE (5) ; ecruteak gym
+	; SAGE (5) ; ecruteak gym, ayylmao
 	db "JEFFREY@", TRAINERTYPE_NORMAL
-	db 22, SCRUFFRUIT
+	db 26, UNOWN ; glythic placeholder	
+	db 29, OBELITH
+	db 27, ODDITTEN
+	db 28, HABBLE
 	db -1 ; end
 
-	; SAGE (6) ; ecruteak gym 
+	; SAGE (6) ; ecruteak gym , movie monsters
 	db "PING@", TRAINERTYPE_NORMAL
-	db 16, FLUFFRUIT
-	db 16, FLUFFRUIT
-	db 16, FLUFFRUIT
-	db 16, FLUFFRUIT
-	db 16, FLUFFRUIT
+	db 29, KODOROYAH
+	db 28, VOYAPOD
+	db 26, DRAGONAIR ;placeholder for chainsaw
+	db 26, DRATINI ; placeholder for croc
 	db -1 ; end
 
 	; SAGE (7) ;sprout
@@ -3294,17 +3313,21 @@ SageGroup:
 	db -1 ; end
 
 MediumGroup:
-	; MEDIUM (1) ; Ecruteak Gym
-	db "MARTHA@", TRAINERTYPE_NORMAL
-	db 18, FLUFFRUIT
-	db 20, SCRUFFRUIT
-	db 20, FLUFFRUIT
+	; MEDIUM (1) ; Ecruteak Gym, formerly Martha, Macabre dead body theme
+	db "ELVIRA@", TRAINERTYPE_NORMAL
+	db 27, GWUBBY
+	db 26, WORMEEK
+	db 27, PHANGUARD
+	db 26, GWUBBY
+	db 27, RESPECTRE
+	db 27, WORMEEK
 	db -1 ; end
 
-	; MEDIUM (2) ; Ecruteak Gym
+	; MEDIUM (2) ; Ecruteak Gym, formerly Grace, cryptid and myth theme
 	db "GRACE@", TRAINERTYPE_NORMAL
-	db 20, SCRUFFRUIT
-	db 20, SCRUFFRUIT
+	db 28, SNOWUP
+	db 27, YAGAGARASU
+	db 28, BEHEMOTHRA ;placeholder for mothman
 	db -1 ; end
 
 	; MEDIUM (3)
@@ -3440,14 +3463,14 @@ PokefanMGroup:
 	db -1 ; end
 
 KimonoGirlGroup:
-	; KIMONO_GIRL (1)
+	; KIMONO_GIRL (1) The first Kimono
 	db "NAOKO@", TRAINERTYPE_NORMAL
 	db 20, PURRDLE
 	db 20, VULPIX
 	db 18, PURRDLE
 	db -1 ; end
 
-	; KIMONO_GIRL (2)
+	; KIMONO_GIRL (2) first  kimono
 	db "NAOKO@", TRAINERTYPE_NORMAL
 	db 17, FLAREON
 	db -1 ; end
@@ -3634,7 +3657,7 @@ GruntFGroup:
 	db 24, KOAGAN
 	db -1 ; end
 
-	; GRUNTF (5)
+	; GRUNTF (5) Mahogany Base B3F
 	db "GRUNT@", TRAINERTYPE_MOVES
 	db 18, WYRMOMETER,      WRAP, LEER, POISON_STING, BITE
 	db 18, KOAGAN,      ABSORB, SWEET_SCENT, STUN_SPORE, SLEEP_POWDER
@@ -3705,7 +3728,7 @@ GuruGroup:
 CheaterGroup:
 
 EnforcerGroup:
-	; GRUNTM (1) Well Boss
+	; ENFORCER (1) Well Boss
 	db "ENFORCER@", TRAINERTYPE_ITEM
 	db 17, NOMSTER, BERRY
 	db 17, CUTTLE, NO_ITEM

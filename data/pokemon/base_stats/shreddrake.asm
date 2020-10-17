@@ -1,6 +1,6 @@
 	db SHREDDRAKE ; 
 
-	db  87, 105,  79, 94,  70,  60
+	db  87, 105,  79, 96,  72,  61
 	;   hp  atk  def  spd  sat  sdf
 
 	db DRAGON, ELECTRIC ; type

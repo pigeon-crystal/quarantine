@@ -134,7 +134,6 @@ CianwoodPokeSeerSign:
 	jumptext CianwoodPokeSeerSignText
 
 CianwoodPokecenterSign:
-	warp ECRUTEAK_CITY, 1, 19	
 	jumpstd pokecentersign
 
 CianwoodCityRock:
