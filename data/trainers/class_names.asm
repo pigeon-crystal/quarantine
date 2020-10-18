@@ -77,4 +77,7 @@ TrainerClassNames::
 	db "#FANATIC@" ; blue
 	db "WARRIOR@"
 	db "RADICAL@"
+	db "SALARYMAN@"
+	db "ROCKET@" ; engineer
+	db "SKEPTIC@" 
 	

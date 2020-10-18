@@ -33,6 +33,9 @@ MaleTrainers:
 	db ATHLETE_M
 	db WARRIOR
 	db RADICAL
+	db SALARYMAN
+	db ENGINEER
+	db SKEPTIC
 .End
 
 FemaleTrainers:

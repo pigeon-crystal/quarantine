@@ -1,4 +1,4 @@
-GOLDENRODUNDERGROUND_OLDER_HAIRCUT_PRICE   EQU 500
+GOLDENRODUNDERGROUND_OLDER_HAIRCUT_PRICE   EQU 600
 GOLDENRODUNDERGROUND_YOUNGER_HAIRCUT_PRICE EQU 300
 
 	object_const_def ; object_event constants
@@ -11,6 +11,7 @@ GOLDENRODUNDERGROUND_YOUNGER_HAIRCUT_PRICE EQU 300
 	const GOLDENRODUNDERGROUND_OLDER_HAIRCUT_BROTHER
 	const GOLDENRODUNDERGROUND_YOUNGER_HAIRCUT_BROTHER
 	const GOLDENRODUNDERGROUND_GRANNY
+	const GOLDENRODUNDERGROUND_SALARYMAN_GORO
 
 GoldenrodUnderground_MapScripts:
 	db 0 ; scene scripts
@@ -111,6 +112,17 @@ GoldenrodUnderground_MapScripts:
 	appear GOLDENRODUNDERGROUND_GRANNY
 	return
 
+TrainerSalarymanGoro:
+	trainer SALARYMAN, GORO, EVENT_BEAT_SALARYMAN_GORO, SalarymanGoroSeenText, SalarymanGoroBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext SalarymanGoroAfterBattleText
+	waitbutton
+	closetext
+	end
+	
 TrainerSupernerdEric:
 	trainer SUPER_NERD, ERIC, EVENT_BEAT_SUPER_NERD_ERIC, SupernerdEricSeenText, SupernerdEricBeatenText, 0, .Script
 
@@ -509,6 +521,28 @@ PokemaniacDonaldAfterBattleText:
 	cont "#MON."
 	done
 
+SalarymanGoroSeenText:
+	text "I just botched"
+	line "the biggest deal"
+	cont "in my company's"
+	cont "history!"
+	
+	para "I'll take my"
+	line "failure out on"
+	cont "you! GAHHH!"
+	done
+	
+SalarymanGoroBeatenText:
+	text "I guess I'm"
+	line "bad at everything."
+	done
+	
+SalarymanGoroAfterBattleText:
+	text "I'm going to"
+	line "need to drink"
+	cont "away my failure."
+	done
+
 GoldenrodUndergroundTheDoorsLockedText:
 	text "The door's locked…"
 	done
@@ -667,7 +701,7 @@ GoldenrodUnderground_MapEvents:
 	bg_event  4, 18, BGEVENT_ITEM, GoldenrodUndergroundHiddenSuperPotion
 	bg_event 17,  8, BGEVENT_ITEM, GoldenrodUndergroundHiddenAntidote
 
-	db 9 ; object events
+	db 10 ; object events
 	object_event  5, 31, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerSupernerdEric, -1
 	object_event  6,  9, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 2, TrainerSupernerdTeru, -1
 	object_event  3, 27, SPRITE_SUPER_NERD, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 2, TrainerPokemaniacIssac, -1
@@ -677,3 +711,4 @@ GoldenrodUnderground_MapEvents:
 	object_event  7, 14, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, OlderHaircutBrotherScript, EVENT_GOLDENROD_UNDERGROUND_OLDER_HAIRCUT_BROTHER
 	object_event  7, 15, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, YoungerHaircutBrotherScript, EVENT_GOLDENROD_UNDERGROUND_YOUNGER_HAIRCUT_BROTHER
 	object_event  7, 21, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, BitterMerchantScript, EVENT_GOLDENROD_UNDERGROUND_GRANNY
+	object_event  6, 19, SPRITE_SUPER_NERD, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerSalarymanGoro, -1

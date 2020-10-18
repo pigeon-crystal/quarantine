@@ -3747,3 +3747,16 @@ FanaticBlueGroup:
 WarriorGroup:
 
 RadicalGroup:
+
+SalarymanGroup:
+; SALARYMAN (1) underground nonstory
+	db "GORO@", TRAINERTYPE_NORMAL
+	db 23, PILFOARD
+	db 23, SQWUCKY
+	db 22, HAPPIG
+	db -1 ; end
+
+
+EngineerGroup:
+
+SkepticGroup:

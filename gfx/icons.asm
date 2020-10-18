@@ -91,6 +91,7 @@ YukittenIcon:	  INCBIN "gfx/icons/yukitten.2bpp"
 FlurikenIcon:     INCBIN "gfx/icons/fluriken.2bpp"
 SnokageIcon:	  INCBIN "gfx/icons/snokage.2bpp"
 BlazenbullIcon:   INCBIN "gfx/icons/blazenbull.2bpp"
+AvatriceIcon:	  INCBIN "gfx/icons/avatrice.2bpp"
 
 SECTION "Mon Icons 2", ROMX
 

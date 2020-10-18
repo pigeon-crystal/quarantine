@@ -80,4 +80,6 @@ TrainerEncounterMusic::
 	db MUSIC_LASS_ENCOUNTER			; fanatic blue
 	db MUSIC_SAGE_ENCOUNTER			; warrior
 	db MUSIC_YOUNGSTER_ENCOUNTER	; radical
-	
+	db MUSIC_HIKER_ENCOUNTER		; salaryman
+	db MUSIC_ROCKET_ENCOUNTER	   	; engineer
+	db MUSIC_HIKER_ENCOUNTER		; skeptic

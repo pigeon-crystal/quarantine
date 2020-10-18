@@ -77,4 +77,7 @@ BTTrainerClassSprites:
 	db SPRITE_FANATIC ; FanaticBlue
 	db SPRITE_WARRIOR
 	db SPRITE_RADICAL
+	db SPRITE_SUPER_NERD ; salaryman
+	db SPRITE_ENGINEER
+	db SPRITE_OFFICER ; skeptic
 	

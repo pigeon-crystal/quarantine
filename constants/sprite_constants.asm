@@ -115,6 +115,8 @@
 	const SPRITE_ATHLETE_M ; 6f
 	const SPRITE_WARRIOR ; 70
 	const SPRITE_RADICAL ; 71
+	const SPRITE_ENGINEER ; 72
+	const SPRITE_IMAKUNI
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)
 	const_def $80
@@ -152,7 +154,7 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_MOLTRES ; 9e
 	const SPRITE_SNORLAX ; 9f
 	const SPRITE_GYARADOS ; a0
-	const SPRITE_LUGIA ; a1
+	const SPRITE_AVATRICE ; a1
 	const SPRITE_HO_OH ; a2
 	const SPRITE_GANZERKER ; a3
 	const SPRITE_CUTTLE ; a4

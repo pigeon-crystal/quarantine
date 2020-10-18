@@ -79,3 +79,6 @@ TrainerPicPointers::
 	dba_pic FanaticBluePic
 	dba_pic WarriorPic
 	dba_pic RadicalPic
+	dba_pic SalarymanPic
+	dba_pic EngineerPic
+	dba_pic SkepticPic

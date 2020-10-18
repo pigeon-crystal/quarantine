@@ -724,5 +724,12 @@ KRIS EQU __enum__
 	trainerclass WARRIOR ; 4c 
 	
 	trainerclass RADICAL ; 4d
+	
+	trainerclass SALARYMAN ; 4e
+	const GORO
+	
+	trainerclass ENGINEER ; 4f
+	
+	trainerclass SKEPTIC ; 50
 		
 NUM_TRAINER_CLASSES EQU __enum__

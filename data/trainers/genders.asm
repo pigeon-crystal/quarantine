@@ -78,3 +78,6 @@ BTTrainerClassGenders:
 	db FEMALE ; FAANTIC_BLUE
 	db MALE   ; WARRIOR
 	db MALE   ; RADICAL
+	db MALE	  ; SALARYMAN
+	db MALE   ; ENGINEER
+	db MALE   ; SKEPTIC

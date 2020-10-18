@@ -78,3 +78,6 @@ TrainerGroups:
 	dba FanaticBlueGroup
 	dba WarriorGroup
 	dba RadicalGroup
+	dba SalarymanGroup
+	dba EngineerGroup
+	dba SkepticGroup

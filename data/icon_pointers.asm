@@ -91,6 +91,7 @@ IconPointers:
 	dw FlurikenIcon
 	dw SnokageIcon
 	dw BlazenbullIcon
+	dw AvatriceIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon
