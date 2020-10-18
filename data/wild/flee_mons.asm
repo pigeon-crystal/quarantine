@@ -8,7 +8,6 @@ SometimesFleeMons:
 	db -1
 
 OftenFleeMons:
-	db COCACOBRA
 	db SHABBYCAT
 	db -1
 

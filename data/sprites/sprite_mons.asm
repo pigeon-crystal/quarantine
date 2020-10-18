@@ -33,7 +33,7 @@ SpriteMons:
 	db BLAZENBULL
 	db SNORLAX
 	db GYARADOS
-	db LUGIA
+	db AVATRICE
 	db HO_OH
 	db GANZERKER
 	db CUTTLE

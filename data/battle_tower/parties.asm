@@ -890,7 +890,7 @@ BattleTowerMons2:
 	bigdw 53 ; SDef
 	db "HAtuSAMU@@@"
 
-	db HITMONCHAN
+	db MOTHOMEN
 	db GOLD_BERRY
 	db THUNDERPUNCH, ICE_PUNCH, FIRE_PUNCH, COMET_PUNCH
 	dw 0 ; OT ID
@@ -3713,7 +3713,7 @@ BattleTowerMons7:
 	bigdw 152 ; SDef
 	db "KIRINRIKI@@"
 
-	db HITMONLEE
+	db MOTHO
 	db FOCUS_BAND
 	db FLAIL, ENDURE, BODY_SLAM, MEGA_KICK
 	dw 0 ; OT ID
@@ -5438,7 +5438,7 @@ BattleTowerMons10:
 	bigdw 190 ; SDef
 	db "GORO-NIya@@"
 
-	db HITMONCHAN
+	db MOTHOMEN
 	db FOCUS_BAND
 	db COUNTER, FIRE_PUNCH, THUNDERPUNCH, ICE_PUNCH
 	dw 0 ; OT ID

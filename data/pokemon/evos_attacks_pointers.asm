@@ -106,8 +106,8 @@ EvosAttacksPointers::
 	dw CantogethaEvosAttacks
 	dw CocacobraEvosAttacks
 	dw KalkolaEvosAttacks
-	dw HitmonleeEvosAttacks
-	dw HitmonchanEvosAttacks
+	dw MothoEvosAttacks
+	dw MothomenEvosAttacks
 	dw SappuraEvosAttacks
 	dw LeaffigyEvosAttacks
 	dw SakuronnaEvosAttacks
@@ -249,7 +249,7 @@ EvosAttacksPointers::
 	dw YukittenEvosAttacks
 	dw FlurikenEvosAttacks
 	dw SnokageEvosAttacks
-	dw LugiaEvosAttacks
+	dw AvatriceEvosAttacks
 	dw HoOhEvosAttacks
 	dw CelebiEvosAttacks
 	dw PilfoardEvosAttacks

@@ -1502,12 +1502,12 @@ KalkolaEvosAttacks:
 	db 60, RECOVER
 	db 0 ; no more level-up moves
 
-HitmonleeEvosAttacks:
+MothoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, DOUBLE_KICK
 	db 0 ; no more level-up moves
 
-HitmonchanEvosAttacks:
+MothomenEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, COMET_PUNCH
 	db 0 ; no more level-up moves
@@ -3428,7 +3428,7 @@ EyechosisEvosAttacks:
 	db 0 ; no more level-up moves
 
 TyrogueEvosAttacks:
-	db EVOLVE_STAT, 20, ATK_LT_DEF, HITMONCHAN
+	db EVOLVE_STAT, 20, ATK_LT_DEF, MOTHOMEN
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves
@@ -3567,7 +3567,7 @@ SnokageEvosAttacks:
 	db 65, CROSS_CHOP
 	db 0 ; no more level-up moves
 
-LugiaEvosAttacks:
+AvatriceEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 0 ; no more level-up moves

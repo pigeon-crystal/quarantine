@@ -110,8 +110,8 @@ PokemonCries::
 	mon_cry CRY_DIGLETT,     1,  256   ; CANTOGETHA
 	mon_cry CRY_EKANS,       229,  271 ; COCACOBRA
 	mon_cry CRY_EKANS,       333,  345 ; KALKOLA
-	mon_cry CRY_GOLEM,       128,  320 ; HITMONLEE
-	mon_cry CRY_SEEL,        238,  320 ; HITMONCHAN
+	mon_cry CRY_GOLEM,       128,  320 ; MOTHO
+	mon_cry CRY_SEEL,        238,  320 ; MOTHOMEN
 	mon_cry CRY_CLEFFA,       200, 340 ; SAPPURA
 	mon_cry CRY_MARILL,       200, 420 ; LEAFFIGY
 	mon_cry CRY_MARILL,       122, 500 ; SAKURONNA
@@ -253,7 +253,7 @@ PokemonCries::
 	mon_cry CRY_RAIKOU,       95,  208 ; YUKITTEN
 	mon_cry CRY_SPINARAK,   -475,  336 ; FLURIKEN
 	mon_cry CRY_RAIKOU,     -256,  384 ; SNOKAGE
-	mon_cry CRY_TYPHLOSION,    0,  256 ; LUGIA
+	mon_cry CRY_TYPHLOSION,    0,  256 ; AVATRICE
 	mon_cry CRY_AIPOM,         0,  384 ; HO_OH
 	mon_cry CRY_ENTEI,       330,  273 ; CELEBI
 	mon_cry $B5,      		$083E,  $0057 ; PILFOARD

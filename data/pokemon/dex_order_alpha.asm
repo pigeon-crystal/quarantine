@@ -79,8 +79,8 @@ AlphabeticalPokedexOrder:
 	db HAPPIG
 	db HELACTAL
 	db HERACROSS
-	db HITMONCHAN
-	db HITMONLEE
+	db MOTHOMEN
+	db MOTHO
 	db HITMONTOP
 	db HIVEMAIM
 	db HOATOT
@@ -107,7 +107,7 @@ AlphabeticalPokedexOrder:
 	db YUKITTEN
 	db LAWNIE
 	db LEAFFIGY
-	db LUGIA
+	db AVATRICE
 	db MA_0
 	db STELLOCEAN
 	db NIMBOCETUS

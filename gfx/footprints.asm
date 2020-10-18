@@ -245,8 +245,8 @@ INCBIN "gfx/footprints/cantogetha.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/cocacobra.1bpp",     footprint_bottom
 ; 105-112 top halves
 INCBIN "gfx/footprints/kalkola.1bpp",    footprint_top
-INCBIN "gfx/footprints/hitmonlee.1bpp",  footprint_top
-INCBIN "gfx/footprints/hitmonchan.1bpp", footprint_top
+INCBIN "gfx/footprints/motho.1bpp",  footprint_top
+INCBIN "gfx/footprints/mothomen.1bpp", footprint_top
 INCBIN "gfx/footprints/sappura.1bpp",  footprint_top
 INCBIN "gfx/footprints/leaffigy.1bpp",    footprint_top
 INCBIN "gfx/footprints/sakuronna.1bpp",    footprint_top
@@ -254,8 +254,8 @@ INCBIN "gfx/footprints/cuttle.1bpp",    footprint_top
 INCBIN "gfx/footprints/tendrill.1bpp",     footprint_top
 ; 105-112 bottom halves
 INCBIN "gfx/footprints/kalkola.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/hitmonlee.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/hitmonchan.1bpp", footprint_bottom
+INCBIN "gfx/footprints/motho.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/mothomen.1bpp", footprint_bottom
 INCBIN "gfx/footprints/sappura.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/leaffigy.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/sakuronna.1bpp",    footprint_bottom
@@ -568,7 +568,7 @@ INCBIN "gfx/footprints/yukitten.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/fluriken.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/snokage.1bpp",  footprint_bottom
 ; 249-256 top halves
-INCBIN "gfx/footprints/lugia.1bpp",      footprint_top
+INCBIN "gfx/footprints/avatrice.1bpp",      footprint_top
 INCBIN "gfx/footprints/ho_oh.1bpp",      footprint_top
 INCBIN "gfx/footprints/celebi.1bpp",     footprint_top
 INCBIN "gfx/footprints/pilfoard.1bpp",   footprint_top
@@ -577,7 +577,7 @@ INCBIN "gfx/footprints/254.1bpp",        footprint_top
 INCBIN "gfx/footprints/255.1bpp",        footprint_top
 INCBIN "gfx/footprints/256.1bpp",        footprint_top
 ; 249-256 bottom halves
-INCBIN "gfx/footprints/lugia.1bpp",      footprint_bottom
+INCBIN "gfx/footprints/avatrice.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/ho_oh.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/celebi.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/pilfoard.1bpp",   footprint_bottom

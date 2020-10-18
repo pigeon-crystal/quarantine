@@ -212,10 +212,10 @@ PokemonPicPointers::
 	dba_pic CocacobraBackpic
 	dba_pic KalkolaFrontpic
 	dba_pic KalkolaBackpic
-	dba_pic HitmonleeFrontpic
-	dba_pic HitmonleeBackpic
-	dba_pic HitmonchanFrontpic
-	dba_pic HitmonchanBackpic
+	dba_pic MothoFrontpic
+	dba_pic MothoBackpic
+	dba_pic MothomenFrontpic
+	dba_pic MothomenBackpic
 	dba_pic SappuraFrontpic
 	dba_pic SappuraBackpic
 	dba_pic LeaffigyFrontpic
@@ -501,8 +501,8 @@ PokemonPicPointers::
 	dba_pic FlurikenBackpic
 	dba_pic SnokageFrontpic
 	dba_pic SnokageBackpic
-	dba_pic LugiaFrontpic
-	dba_pic LugiaBackpic
+	dba_pic AvatriceFrontpic
+	dba_pic AvatriceBackpic
 	dba_pic HoOhFrontpic
 	dba_pic HoOhBackpic
 	dba_pic CelebiFrontpic

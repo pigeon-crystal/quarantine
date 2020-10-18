@@ -3956,7 +3956,7 @@ BattleTower_UbersCheck:
 	jr z, .uber
 	cp MEW
 	jr z, .uber
-	cp LUGIA
+	cp AVATRICE
 	jr c, .next
 	cp NUM_POKEMON + 1
 	jr nc, .next

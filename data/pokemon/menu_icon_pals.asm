@@ -109,8 +109,8 @@ MonMenuIconPals:
 	icon_pals BLUE,   YELLOW  ; CANTOGETHA
 	icon_pals BROWN,   YELLOW  ; COCACOBRA
 	icon_pals BROWN,   YELLOW  ; KALKOLA
-	icon_pals BROWN,   YELLOW  ; HITMONLEE
-	icon_pals BROWN,   YELLOW  ; HITMONCHAN
+	icon_pals BROWN,   YELLOW  ; MOTHO
+	icon_pals PURPLE,   YELLOW ; MOTHOMEN
 	icon_pals PINK,   PINK     ; SAPPURA
 	icon_pals PINK,   PINK     ; LEAFFIGY
 	icon_pals PINK,   PINK     ; SAKURONNA
@@ -252,7 +252,7 @@ MonMenuIconPals:
 	icon_pals BLUE,   PURPLE    ; YUKITTEN
 	icon_pals BLUE,   PURPLE    ; FLURIKEN
 	icon_pals BLUE,   PURPLE    ; SNOKAGE
-	icon_pals RED,   YELLOW    ; LUGIA
+	icon_pals YELLOW,   GRAY    ; AVATRICE
 	icon_pals RED,   YELLOW    ; HO_OH
 	icon_pals RED,   YELLOW    ; CELEBI
 	icon_pals YELLOW,YELLOW ; PILFOARD

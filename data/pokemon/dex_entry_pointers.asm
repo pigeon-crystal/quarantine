@@ -105,8 +105,8 @@ PokedexDataPointerTable:
 	dw CantogethaPokedexEntry
 	dw CocacobraPokedexEntry
 	dw KalkolaPokedexEntry
-	dw HitmonleePokedexEntry
-	dw HitmonchanPokedexEntry
+	dw MothoPokedexEntry
+	dw MothomenPokedexEntry
 	dw SappuraPokedexEntry
 	dw LeaffigyPokedexEntry
 	dw SakuronnaPokedexEntry
@@ -248,7 +248,7 @@ PokedexDataPointerTable:
 	dw YukittenPokedexEntry
 	dw FlurikenPokedexEntry
 	dw SnokagePokedexEntry
-	dw LugiaPokedexEntry
+	dw AvatricePokedexEntry
 	dw HoOhPokedexEntry
 	dw CelebiPokedexEntry
 	dw PilfoardPokedexEntry

@@ -113,7 +113,7 @@
 	const FLUFFRUIT  ; 5c gastly
 	const SCRUFFRUIT ; 5d
 	const PITAYRANT  ; 5e
-	const MORADAY       ; 5f
+	const MORADAY    ; 5f
 	const EELKIE     ; 60
 	const MOSSARRE   ; 61
 	const LANATUN    ; 62
@@ -124,8 +124,8 @@
 	const CANTOGETHA ; 67
 	const COCACOBRA  ; 68
 	const KALKOLA    ; 69
-	const HITMONLEE  ; 6a
-	const HITMONCHAN ; 6b
+	const MOTHO  	 ; 6a for Motho
+	const MOTHOMEN 	 ; 6b
 	const SAPPURA    ; 6c
 	const LEAFFIGY   ; 6d
 	const SAKURONNA  ; 6e
@@ -268,7 +268,7 @@ JOHTO_POKEMON EQU const_value
 	const YUKITTEN   ; f6
 	const FLURIKEN   ; f7
 	const SNOKAGE    ; f8
-	const LUGIA      ; f9
+	const AVATRICE   ; f9
 	const HO_OH      ; fa
 	const CELEBI     ; fb
 	const PILFOARD	 ; fc

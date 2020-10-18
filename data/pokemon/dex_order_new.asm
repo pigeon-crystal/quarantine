@@ -146,8 +146,8 @@ NewPokedexOrder:
 	db NIMBOCETUS
 	db STELLOCEAN
 	db TYROGUE
-	db HITMONLEE
-	db HITMONCHAN
+	db MOTHO
+	db MOTHOMEN
 	db HITMONTOP
 	db SWAZZAGE
 	db TAUROS
@@ -247,7 +247,7 @@ NewPokedexOrder:
 	db YUKITTEN
 	db FLURIKEN
 	db SNOKAGE
-	db LUGIA
+	db AVATRICE
 	db HO_OH
 	db MA_0
 	db MEW
