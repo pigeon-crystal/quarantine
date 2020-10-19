@@ -1,10 +1,10 @@
-	db "ILL OMEN@" ; species name
-	dw 511, 1300 ; height, weight
+	db "ILL OMEN@" ; species name >>45135022
+	dw 211, 418 ; height, weight
 
-	db   "A sighting of"
-	next "this #MON is"
-	next "enough to evacuate"
+	db   "Drawn to your"
+	next "flashlight, the"
+	next "pair of eyes"
 
-	page "a township, as"
-	next "calamity inevitably"
-	next "follows.@"
+	page "following you at"
+	next "night probably be-"
+	next "long to a MOTHO.@"

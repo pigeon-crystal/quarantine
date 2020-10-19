@@ -1,10 +1,10 @@
 	db "SHERRIF@" ; species name
 	dw 207, 917 ; height, weight
 
-	db   "This #MON"
-	next "patrols the edges"
-	next "of its habitat."
+	db   "PARDNER is often"
+	next "seen dueling its"
+	next "shadow. This"
 
-	page "It swiftly deals"
-	next "with threats to"
-	next "the ecosystem.@"
+	page "honorable fellow"
+	next "protects the weak"
+	next "against injustice.@"

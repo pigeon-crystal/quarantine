@@ -19,15 +19,15 @@
 ; - FramesPointers (see gfx/pokemon/frame_pointers.asm)
 ; - Footprints (see gfx/footprints.asm)
 	const_def 1
-	const BULBASAUR  ; 01 baby taxo
-	const IVYSAUR    ; 02 taxo A
-	const VENUSAUR   ; 03 taxo A1
-	const CHARMANDER ; 04 taxo A2
-	const CHARMELEON ; 05 taxo B
-	const CHARIZARD  ; 06 taxo B1
-	const SQUIRTLE   ; 07 taxo B2
-	const WARTORTLE  ; 08
-	const BLASTOISE  ; 09
+	const BULBASAUR  ; 01 taxo chordate
+	const IVYSAUR    ; 02 taxo reptile
+	const VENUSAUR   ; 03 taxo saur
+	const CHARMANDER ; 04 taxo bird
+	const CHARMELEON ; 05 taxo mammal
+	const CHARIZARD  ; 06 taxo ungulate
+	const SQUIRTLE   ; 07 taxo primate
+	const WARTORTLE  ; 08 strandbeest
+	const BLASTOISE  ; 09 strandbeest
 	const BUZZLING   ; 0a
 	const HIVEMAIM   ; 0b
 	const VAZZINATE  ; 0c
@@ -43,39 +43,39 @@
 	const QWALLOP    ; 16
 	const WYRMOMETER ; 17 
 	const IGNAGA     ; 18
-	const PIKACHU    ; 19
-	const RAICHU     ; 1a
+	const PIKACHU    ; 19 pirate parrot
+	const RAICHU     ; 1a pirate parrot
 	const SANDOLPH   ; 1b
 	const DUNEFIN    ; 1c
-	const SPRUNNY     ; 1d
-	const NIDORINA   ; 1e
-	const NIDOQUEEN  ; 1f
-	const PRAWMATE  ; 20
-	const NIDORINO   ; 21
-	const NIDOKING   ; 22
+	const SPRUNNY    ; 1d
+	const ONIONI   	 ; 1e
+	const NIDOQUEEN  ; 1f onionion
+	const PRAWMATE   ; 20
+	const NIDORINO   ; 21 shrimpanzi
+	const NIDOKING   ; 22 swimian
 	const NYALLEY    ; 23
 	const FELIORITTE ; 24
-	const VULPIX     ; 25
-	const NINETALES  ; 26
-	const HEXAHED ; 27
-	const WIGGLYTUFF ; 28
+	const VULPIX     ; 25 veil shroom
+	const MT_NOOT  	 ; 26 penguin
+	const HEXAHED 	 ; 27
+	const WIGGLYTUFF ; 28 icosahed
 	const STINPEON   ; 29
 	const SCORPEROR  ; 2a
 	const EUKUB      ; 2b
 	const KOAGAN     ; 2c
 	const POCALYPTUS ; 2d
-	const PARAS      ; 2e
-	const PARASECT   ; 2f
+	const PARAS      ; 2e GAC
+	const PARASECT   ; 2f CAG
 	const ELEPHOOT   ; 30
 	const PRIPYDERM  ; 31
 	const MUMINI     ; 32
 	const MUMAGNUS   ; 33
 	const TODESCOOL  ; 34
-	const JUNOBE     ; 35persian
-	const VOYAPOD    ; 36psyduck
-	const EXOTUNITY  ; 37golduck
-	const BOBBITE     ; 38
-	const PRIMEAPE   ; 39
+	const JUNOBE     ; 35
+	const VOYAPOD    ; 36
+	const EXOTUNITY  ; 37
+	const BOBBITE    ; 38
+	const PRIMEAPE   ; 39 bobbitrap
 	const HAPPIG  	 ; 3a
 	const BIPORKAR   ; 3b
 	const CREMIGO    ; 3c
@@ -90,27 +90,27 @@
 	const LAWNIE     ; 45
 	const ORGNOME 	 ; 46
 	const GNOMERCY   ; 47
-	const TENTACOOL  ; 48
-	const TENTACRUEL ; 49
+	const TENTACOOL  ; 48 barberfish
+	const TENTACRUEL ; 49 barberfish
 	const DOLMITE    ; 4a
 	const DOLMESA    ; 4b
 	const CAIRNIVORE ; 4c
 	const MOPERDOR   ; 4d
 	const MAJESDOR   ; 4e
-	const SLOWPOKE   ; 4f
-	const SLOWBRO    ; 50
-	const MAGNEMITE  ; 51
-	const MAGNETON   ; 52
-	const FARFETCH_D ; 53
-	const DODUO      ; 54
-	const DODRIO     ; 55
+	const SLOWPOKE   ; 4f missteria
+	const SLOWBRO    ; 50 missteria2
+	const MAGNEMITE  ; 51 missteria3
+	const MAGNETON   ; 52 antelope
+	const FARFETCH_D ; 53 fire antelope
+	const DODUO      ; 54 elec antelope
+	const DODRIO     ; 55 otter
 	const CADDISICLE ; 56
 	const JADDICE    ; 57
 	const DUMBLOON   ; 58
 	const ZEPPLIUM   ; 59
-	const SHELLDER   ; 5a
-	const CLOYSTER   ; 5b
-	const FLUFFRUIT  ; 5c gastly
+	const SHELLDER   ; 5a panda
+	const CLOYSTER   ; 5b panda2
+	const FLUFFRUIT  ; 5c 
 	const SCRUFFRUIT ; 5d
 	const PITAYRANT  ; 5e
 	const MORADAY    ; 5f
@@ -118,13 +118,13 @@
 	const MOSSARRE   ; 61
 	const LANATUN    ; 62
 	const PEPOFFER   ; 63
-	const VOLTORB    ; 64
-	const ELECTRODE  ; 65
+	const VOLTORB    ; 64 trip llama
+	const ELECTRODE  ; 65 jam dj
 	const CANTALONE  ; 66
 	const CANTOGETHA ; 67
 	const COCACOBRA  ; 68
 	const KALKOLA    ; 69
-	const MOTHO  	 ; 6a for Motho
+	const MOTHO  	 ; 6a
 	const MOTHOMEN 	 ; 6b
 	const SAPPURA    ; 6c
 	const LEAFFIGY   ; 6d
@@ -146,66 +146,66 @@
 	const GIGUARD    ; 7d
 	const GIGERATOR  ; 7e
 	const BERMUDANT  ; 7f
-	const TAUROS     ; 80
-	const MAGIKARP   ; 81
-	const GYARADOS   ; 82
+	const TAUROS     ; 80 Wallarior
+	const MAGIKARP   ; 81 Snail 1
+	const GYARADOS   ; 82 Snail 2
 	const MANDELBLOB ; 83
 	const HELACTAL   ; 84
-	const EEVEE      ; 85
-	const VAPOREON   ; 86
-	const JOLTEON    ; 87
-	const FLAREON    ; 88
-	const PORYGON    ; 89
+	const EEVEE      ; 85 Noomsday
+	const VAPOREON   ; 86 Ghoose
+	const JOLTEON    ; 87 Mist Moomin
+	const FLAREON    ; 88 Mist Rando
+	const PORYGON    ; 89 Dr Scorp
 	const MAMMOTHRA  ; 8a
 	const BEHEMOTHRA ; 8b
 	const BELLOCEROS ; 8c
-	const KABUTOPS   ; 8d
-	const AERODACTYL ; 8e
-	const SNORLAX    ; 8f
-	const ARTICUNO   ; 90
-	const ZAPDOS     ; 91
-	const BLAZENBULL    ; 92
-	const DRATINI    ; 93
-	const DRAGONAIR  ; 94
-	const DRAGONITE  ; 95
-	const MA_0     ; 96
-	const MEW        ; 97
+	const KABUTOPS   ; 8d Subceros
+	const AERODACTYL ; 8e Wellwitchsia
+	const SNORLAX    ; 8f therazor
+	const ARTICUNO   ; 90 horn trio
+	const ZAPDOS     ; 91 horn trio
+	const BLAZENBULL ; 92
+	const DRATINI    ; 93 nuke turtle
+	const DRAGONAIR  ; 94 nuke turtle
+	const DRAGONITE  ; 95 nuke turtle
+	const MA_0     	 ; 96
+	const MEW        ; 97 dress waifu
 JOHTO_POKEMON EQU const_value
-	const CIGERILLAR ; 98 chikorita
+	const CIGERILLAR ; 98 
 	const TOBACOON   ; 99
 	const OKAMIKAZE  ; 9a
-	const RADEON     ; 9b cyndaquild
+	const RADEON     ; 9b 
 	const SCAULTER   ; 9c
 	const SCORCHOPPR ; 9d
-	const FURSA      ; 9e orig Totodile
+	const FURSA      ; 9e 
 	const NANUQUA  	 ; 9f
 	const URSKIMO    ; a0
-	const WENDIGAUNT ; a1 orig 
-	const FURRET     ; a2
+	const WENDIGAUNT ; a1  
+	const FURRET     ; a2 space for purraatzle
 	const NUCKAWHEEZ ; a3
-	const NOCTOWL    ; a4
-	const WORMEEK    ; a5 ledyba
+	const NOCTOWL    ; a4 scarecrow
+	const WORMEEK    ; a5 
 	const WORMACHO   ; a6
 	const GWUBBY     ; a7
 	const GRUBBOID   ; a8
-	const CROBAT     ; a9
+	const CROBAT     ; a9 crab?
 	const STRANGLURE ; aa
 	const SHAMSEL    ; ab
-	const WANDELUS   ; acpichu
-	const NIMBOREM   ; adcleffa
-	const STRATOWAR  ; aeigglybuff
+	const WANDELUS   ; ac
+	const NIMBOREM   ; ad
+	const STRATOWAR  ; ae
 	const TRANQUIEL  ; af
 	const ALLSEERAPH ; b0
 	const SQWUCKY    ; b1
-	const XATU       ; b2
+	const XATU       ; b2 squeenie
 	const YUESBI     ; b3
 	const YUEFOE     ; b4
-	const AMPHAROS   ; b5
+	const AMPHAROS   ; b5 computer
 	const PLANTENNA  ; b6
 	const HABBLE     ; b7
 	const SATELISK   ; b8
 	const PARDNER    ; b9
-	const POLITOED   ; ba
+	const POLITOED   ; ba evil hat!
 	const SHABBYCAT  ; bb
 	const PURRDLE    ; bc
 	const MEOWTAIN   ; bd
@@ -215,26 +215,26 @@ JOHTO_POKEMON EQU const_value
 	const ARASBESTOS ; c1
 	const ODDITTEN   ; c2
 	const ASTROTOM   ; c3
-	const ESPEON     ; c4
-	const UMBREON    ; c5
+	const ESPEON     ; c4 ice ghost 1
+	const UMBREON    ; c5 ice ghost 2
 	const BISMUTT    ; c6
 	const TIDO   	 ; c7
 	const MAULZER 	 ; c8
-	const UNOWN      ; c9
+	const UNOWN      ; c9 glythic
 	const RESPECTRE  ; ca
 	const SWAZZAGE   ; cb
 	const SHREDDRAKE ; cc
-	const FORRETRESS ; cd
-	const ATTACKO    ; ce dunsparce
+	const FORRETRESS ; cd flute genie
+	const ATTACKO    ; ce 
 	const WIWRIGHT   ; cf
 	const WIRIGIBLE  ; d0
 	const ZASTER     ; d1
 	const GRIMPACT   ; d2
 	const PEKOI      ; d3
 	const YAGAGARASU ; d4
-	const SHUCKLE    ; d5
-	const HERACROSS  ; d6
-	const SNEASEL    ; d7
+	const SHUCKLE    ; d5 murderer1
+	const HERACROSS  ; d6 murderer2
+	const SNEASEL    ; d7 murderer3
 	const SMUCIOUS   ; d8
 	const SMOTHERENE ; d9
 	const KODOROYAH  ; da
@@ -244,7 +244,7 @@ JOHTO_POKEMON EQU const_value
 	const BAAFOMET   ; de
 	const STIKLBRAT  ; df
 	const SIDFICIOUS ; e0
-	const DELIBIRD   ; e1
+	const DELIBIRD   ; e1 stiklbrat surf evo
 	const KRAKENTOA  ; e2
 	const SNOSEBLEED ; e3
 	const SNOWUP     ; e4
@@ -255,22 +255,22 @@ JOHTO_POKEMON EQU const_value
 	const POLYRO     ; e9
 	const MISSINGNO  ; ea
 	const EYECHOSIS  ; eb
-	const TYROGUE    ; ec
-	const HITMONTOP  ; ed
-	const SMOOCHUM   ; ee
-	const ELEKID     ; ef
-	const MAGBY      ; f0
-	const MILTANK    ; f1
+	const TYROGUE    ; ec direwolf
+	const HITMONTOP  ; ed cat
+	const SMOOCHUM   ; ee mosquito
+	const ELEKID     ; ef buzzling
+	const MAGBY      ; f0 cane kong
+	const DRASSAL    ; f1
 	const ODDITULLY  ; f2
-	const RAIKOU     ; f3
+	const RAIKOU     ; f3 vortex
 	const SLAATEL    ; f4
 	const RYUNARI    ; f5
 	const YUKITTEN   ; f6
 	const FLURIKEN   ; f7
 	const SNOKAGE    ; f8
 	const AVATRICE   ; f9
-	const HO_OH      ; fa
-	const CELEBI     ; fb
+	const HO_OH      ; fa donchan
+	const CELEBI     ; fb tentaquil
 	const PILFOARD	 ; fc
 NUM_POKEMON EQU const_value - 1
 	const EGG        ; fd

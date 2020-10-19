@@ -30,7 +30,7 @@ EvosAttacksPointers::
 	dw SandolphEvosAttacks
 	dw DunefinEvosAttacks
 	dw SprunnyEvosAttacks
-	dw NidorinaEvosAttacks
+	dw OnioniEvosAttacks
 	dw NidoqueenEvosAttacks
 	dw PrawmateEvosAttacks
 	dw NidorinoEvosAttacks
@@ -38,7 +38,7 @@ EvosAttacksPointers::
 	dw NyalleyEvosAttacks
 	dw FelioritteEvosAttacks
 	dw VulpixEvosAttacks
-	dw NinetalesEvosAttacks
+	dw MtNootEvosAttacks
 	dw HexahedEvosAttacks
 	dw WigglytuffEvosAttacks
 	dw StinpeonEvosAttacks
@@ -241,7 +241,7 @@ EvosAttacksPointers::
 	dw SmoochumEvosAttacks
 	dw ElekidEvosAttacks
 	dw MagbyEvosAttacks
-	dw MiltankEvosAttacks
+	dw DrassalEvosAttacks
 	dw OdditullyEvosAttacks
 	dw RaikouEvosAttacks
 	dw SlaatelEvosAttacks

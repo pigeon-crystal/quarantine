@@ -36,7 +36,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw VulpixEggMoves
-	dw NoEggMoves
+	dw MtNootEggMoves
 	dw HexahedEggMoves
 	dw NoEggMoves
 	dw StinpeonEggMoves
@@ -239,7 +239,7 @@ EggMovePointers::
 	dw SmoochumEggMoves
 	dw ElekidEggMoves
 	dw MagbyEggMoves
-	dw MiltankEggMoves
+	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

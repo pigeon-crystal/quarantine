@@ -18,7 +18,7 @@ Route39_MapScripts:
 Route39Miltank:
 	opentext
 	writetext Route39MiltankText
-	cry MILTANK
+	cry VEGETEBAA
 	waitbutton
 	closetext
 	end
@@ -181,7 +181,7 @@ Route39HiddenNugget:
 	hiddenitem NUGGET, EVENT_ROUTE_39_HIDDEN_NUGGET
 
 Route39MiltankText:
-	text "MILTANK: Mooo!"
+	text "VEGETEBAA: Mooo!"
 	done
 
 SailorEugeneSeenText:

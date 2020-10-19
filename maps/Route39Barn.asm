@@ -49,7 +49,7 @@ MoomooScript:
 	checkevent EVENT_HEALED_MOOMOO
 	iftrue .HappyCow
 	writetext MoomooWeakMooText
-	setval MILTANK
+	setval VEGETEBAA
 	special PlaySlowCry
 	promptbutton
 	writetext Route39BarnItsCryIsWeakText
@@ -120,7 +120,7 @@ MoomooScript:
 
 .HappyCow:
 	writetext MoomooHappyMooText
-	cry MILTANK
+	cry VEGETEBAA
 	waitbutton
 	closetext
 	end
@@ -138,7 +138,7 @@ Route39BarnTwinWereFeedingMoomooText:
 	done
 
 MoomooWeakMooText:
-	text "MILTANK: …Moo…"
+	text "VEGETEBAA: …Moo…"
 	done
 
 Route39BarnItsCryIsWeakText:
@@ -146,31 +146,31 @@ Route39BarnItsCryIsWeakText:
 	done
 
 MoomooHappyMooText:
-	text "MILTANK: Mooo!"
+	text "VEGETEBAA: Mooo!"
 	done
 
 Route39BarnAskGiveBerryText:
 	text "Give a BERRY to"
-	line "MILTANK?"
+	line "VEGETEBAA?"
 	done
 
 Route39BarnGaveBerryText:
 	text "<PLAYER> gave a"
-	line "BERRY to MILTANK."
+	line "BERRY to VEGETEBAA."
 	done
 
 Route39BarnLittleHealthierText:
-	text "MILTANK became a"
+	text "VEGETEBAA became a"
 	line "little healthier!"
 	done
 
 Route39BarnQuiteHealthyText:
-	text "MILTANK became"
+	text "VEGETEBAA became"
 	line "quite healthy!"
 	done
 
 Route39BarnTotallyHealthyText:
-	text "MILTANK became"
+	text "VEGETEBAA became"
 	line "totally healthy!"
 	done
 
@@ -183,7 +183,7 @@ Route39BarnRefusedBerryText:
 	text "<PLAYER> wouldn't"
 	line "give a BERRY."
 
-	para "MILTANK looks sad."
+	para "VEGETEBAA looks sad."
 	done
 
 Route39Barn_MapEvents:

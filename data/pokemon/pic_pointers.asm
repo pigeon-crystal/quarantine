@@ -60,8 +60,8 @@ PokemonPicPointers::
 	dba_pic DunefinBackpic
 	dba_pic SprunnyFrontpic
 	dba_pic SprunnyBackpic
-	dba_pic NidorinaFrontpic
-	dba_pic NidorinaBackpic
+	dba_pic OnioniFrontpic
+	dba_pic OnioniBackpic
 	dba_pic NidoqueenFrontpic
 	dba_pic NidoqueenBackpic
 	dba_pic PrawmateFrontpic
@@ -76,8 +76,8 @@ PokemonPicPointers::
 	dba_pic FelioritteBackpic
 	dba_pic VulpixFrontpic
 	dba_pic VulpixBackpic
-	dba_pic NinetalesFrontpic
-	dba_pic NinetalesBackpic
+	dba_pic MtNootFrontpic
+	dba_pic MtNootBackpic
 	dba_pic HexahedFrontpic
 	dba_pic HexahedBackpic
 	dba_pic WigglytuffFrontpic
@@ -485,8 +485,8 @@ PokemonPicPointers::
 	dba_pic ElekidBackpic
 	dba_pic MagbyFrontpic
 	dba_pic MagbyBackpic
-	dba_pic MiltankFrontpic
-	dba_pic MiltankBackpic
+	dba_pic DrassalFrontpic
+	dba_pic DrassalBackpic
 	dba_pic OdditullyFrontpic
 	dba_pic OdditullyBackpic
 	dba_pic RaikouFrontpic

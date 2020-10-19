@@ -29,7 +29,7 @@ PokedexDataPointerTable:
 	dw SandolphPokedexEntry
 	dw DunefinPokedexEntry
 	dw SprunnyPokedexEntry
-	dw NidorinaPokedexEntry
+	dw OnioniPokedexEntry
 	dw NidoqueenPokedexEntry
 	dw PrawmatePokedexEntry
 	dw NidorinoPokedexEntry
@@ -37,7 +37,7 @@ PokedexDataPointerTable:
 	dw NyalleyPokedexEntry
 	dw FeliorittePokedexEntry
 	dw VulpixPokedexEntry
-	dw NinetalesPokedexEntry
+	dw MtNootPokedexEntry
 	dw HexahedPokedexEntry
 	dw WigglytuffPokedexEntry
 	dw StinpeonPokedexEntry
@@ -240,7 +240,7 @@ PokedexDataPointerTable:
 	dw SmoochumPokedexEntry
 	dw ElekidPokedexEntry
 	dw MagbyPokedexEntry
-	dw MiltankPokedexEntry
+	dw DrassalPokedexEntry
 	dw OdditullyPokedexEntry
 	dw RaikouPokedexEntry
 	dw SlaatelPokedexEntry

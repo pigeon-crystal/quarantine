@@ -385,13 +385,13 @@ DunefinEvosAttacks:
 	db 0 ; no more level-up moves
 
 SprunnyEvosAttacks:
-	db EVOLVE_LEVEL, 16, NIDORINA
+	db EVOLVE_LEVEL, 16, ONIONI
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 0 ; no more level-up moves
 
-NidorinaEvosAttacks:
-	db EVOLVE_ITEM, MOON_STONE, NIDOQUEEN
+OnioniEvosAttacks:
+	db EVOLVE_ITEM, LEAF_STONE, NIDOQUEEN
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 0 ; no more level-up moves
@@ -449,14 +449,13 @@ FelioritteEvosAttacks:
 	db 0 ; no more level-up moves
 
 VulpixEvosAttacks:
-	db EVOLVE_ITEM, FIRE_STONE, NINETALES
 	db 0 ; no more evolutions
 	db 1, EMBER
 	db 0 ; no more level-up moves
 
-NinetalesEvosAttacks:
+MtNootEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, EMBER
+	db 1, ICY_WIND
 	db 0 ; no more level-up moves
 
 HexahedEvosAttacks:
@@ -3453,7 +3452,7 @@ MagbyEvosAttacks:
 	db 1, EMBER
 	db 0 ; no more level-up moves
 
-MiltankEvosAttacks:
+DrassalEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves

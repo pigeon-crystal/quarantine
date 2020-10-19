@@ -100,7 +100,7 @@ NewPokedexOrder:
 	db SHREDDRAKE
 	db FORRETRESS
 	db SPRUNNY
-	db NIDORINA
+	db ONIONI
 	db NIDOQUEEN
 	db PRAWMATE
 	db NIDORINO
@@ -131,7 +131,7 @@ NewPokedexOrder:
 	db ZASTER
 	db GRIMPACT
 	db VULPIX
-	db NINETALES
+	db MT_NOOT
 	db HAPPIG
 	db BIPORKAR
 	db MUMINI
@@ -151,7 +151,7 @@ NewPokedexOrder:
 	db HITMONTOP
 	db SWAZZAGE
 	db TAUROS
-	db MILTANK
+	db DRASSAL
 	db MAGBY
 	db SMOOCHUM
 	db CLIBBLE

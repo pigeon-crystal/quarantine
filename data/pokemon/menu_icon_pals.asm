@@ -33,7 +33,7 @@ MonMenuIconPals:
 	icon_pals YELLOW,   PINK  ; SANDOLPH
 	icon_pals YELLOW,  PINK   ; DUNEFIN
 	icon_pals GREEN,   RED  ; SPRUNNY
-	icon_pals YELLOW,   YELLOW  ; NIDORINA
+	icon_pals YELLOW,   YELLOW  ; ONIONI
 	icon_pals RED,   GREEN  ; NIDOQUEEN
 	icon_pals PINK,   YELLOW  ; PRAWMATE
 	icon_pals PINK,   YELLOW  ; NIDORINO
@@ -41,7 +41,7 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; NYALLEY
 	icon_pals BROWN,   YELLOW  ; FELIORITTE
 	icon_pals BROWN,   YELLOW  ; VULPIX
-	icon_pals BROWN,   YELLOW  ; NINETAILS
+	icon_pals BLUE,   BROWN  ; MT NOOT
 	icon_pals BROWN,   YELLOW  ; HEXAHED
 	icon_pals BROWN,   YELLOW  ; WIGGLYTUFF
 	icon_pals PINK,    YELLOW  ; STINPEON
@@ -244,7 +244,7 @@ MonMenuIconPals:
 	icon_pals RED,   YELLOW    ; SMOOCHUM
 	icon_pals RED,   YELLOW    ; ELEKID
 	icon_pals RED,   YELLOW    ; MAGBY
-	icon_pals RED,   YELLOW    ; MILTANK
+	icon_pals RED,   YELLOW    ; DRASSAL
 	icon_pals BLUE,   YELLOW   ; ODDITULLY
 	icon_pals RED,   YELLOW    ; RAIKOU
 	icon_pals GRAY,   YELLOW    ; SLAATEL

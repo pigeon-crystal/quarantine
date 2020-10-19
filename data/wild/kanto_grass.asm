@@ -516,7 +516,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 23, NIDORINO
-	db 23, NIDORINA
+	db 23, ONIONI
 	db 25, FURDOBA
 	db 25, SHABBYCAT
 	db 27, SHABBYCAT
@@ -525,7 +525,7 @@ KantoGrassWildMons:
 	db 26, CALARMOURI
 	; day
 	db 23, NIDORINO
-	db 23, NIDORINA
+	db 23, ONIONI
 	db 25, FURDOBA
 	db 25, SHABBYCAT
 	db 27, SHABBYCAT
@@ -546,7 +546,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 26, NIDORINO
-	db 26, NIDORINA
+	db 26, ONIONI
 	db 28, FURDOBA
 	db 28, SHABBYCAT
 	db 30, PURRDLE
@@ -555,7 +555,7 @@ KantoGrassWildMons:
 	db 30, CALARMOURI
 	; day
 	db 26, NIDORINO
-	db 26, NIDORINA
+	db 26, ONIONI
 	db 28, FURDOBA
 	db 28, SHABBYCAT
 	db 30, PURRDLE
@@ -576,7 +576,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 23, NIDORINO
-	db 23, NIDORINA
+	db 23, ONIONI
 	db 25, FURDOBA
 	db 25, SHABBYCAT
 	db 27, SHABBYCAT
@@ -585,7 +585,7 @@ KantoGrassWildMons:
 	db 30, CALARMOURI
 	; day
 	db 23, NIDORINO
-	db 23, NIDORINA
+	db 23, ONIONI
 	db 25, FURDOBA
 	db 25, SHABBYCAT
 	db 27, SHABBYCAT

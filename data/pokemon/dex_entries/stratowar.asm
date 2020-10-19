@@ -1,10 +1,10 @@
-	db "CLOUD@" ; species name
-	dw 409, 975 ; height, weight
+	db "STORM@" ; species name >>45135243
+	dw 909, 975 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "Any unfortunate"
+	next "soul that touches"
+	next "one of STRATOWAR's"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "tentacles will get"
+	next "electrocuted and"
+	next "dragged skywards.@"

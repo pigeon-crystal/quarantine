@@ -1603,7 +1603,7 @@ JohtoGrassWildMons:
 	db 18, HAPPIG
 	db 18, LAMSEED
 	db 18, LAMSEED
-	db 19, MILTANK
+	db 19, DRASSAL
 	; day
 	db 17, SPRUNNY
 	db 17, ANTPYRE
@@ -1612,7 +1612,7 @@ JohtoGrassWildMons:
 	db 18, HAPPIG
 	db 18, HAPPIG
 	db 16, LAMSEED
-	db 19, MILTANK
+	db 19, DRASSAL
 	; nite
 	db 17, FLUFFRUIT
 	db 17, SPRUNNY

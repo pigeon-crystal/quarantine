@@ -1,4 +1,4 @@
-	db "WEALTH@" ; species name
+	db "HOARD@" ; species name
 	dw 5501, 61003 ; height, weight
 
 	db   "This titanic dragon"

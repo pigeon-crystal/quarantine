@@ -107,6 +107,11 @@ VulpixEggMoves:
 	db DISABLE
 	db -1 ; end
 
+MtNootEggMoves:
+	db ICY_WIND
+	db PRESENT
+	db -1 ;end
+
 HexahedEggMoves:
 	db MAGNITUDE
 	db PSYWAVE
@@ -798,12 +803,6 @@ MagbyEggMoves:
 	db BARRIER
 	db SCREECH
 	db CROSS_CHOP
-	db -1 ; end
-
-MiltankEggMoves:
-	db PRESENT
-	db FLAIL
-	db SEISMIC_TOSS
 	db -1 ; end
 
 YukittenEggMoves:

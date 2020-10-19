@@ -159,7 +159,7 @@ BattleTowerMons1:
 	bigdw 28 ; SDef
 	db "SANI-GO@@@@"
 
-	db MILTANK
+	db DRASSAL
 	db GOLD_BERRY
 	db BLIZZARD, EARTHQUAKE, HYPER_BEAM, TOXIC
 	dw 0 ; OT ID
@@ -968,7 +968,7 @@ BattleTowerMons2:
 	bigdw 49 ; SDef
 	db "MARIRURI@@@"
 
-	db MILTANK
+	db DRASSAL
 	db KINGS_ROCK
 	db EARTHQUAKE, THUNDER, ATTRACT, SURF
 	dw 0 ; OT ID
@@ -4863,7 +4863,7 @@ BattleTowerMons9:
 	bigdw 265 ; SDef
 	db "BU-SUTA-@@@"
 
-	db MILTANK
+	db DRASSAL
 	db LEFTOVERS
 	db MILK_DRINK, EARTHQUAKE, ATTRACT, BODY_SLAM
 	dw 0 ; OT ID

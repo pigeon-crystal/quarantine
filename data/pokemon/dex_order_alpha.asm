@@ -124,7 +124,7 @@ AlphabeticalPokedexOrder:
 	db MAULZER
 	db MEOWTAIN
 	db MEW
-	db MILTANK
+	db DRASSAL
 	db MISSINGNO
 	db BLAZENBULL
 	db MONEUMENN
@@ -139,9 +139,9 @@ AlphabeticalPokedexOrder:
 	db NIDOQUEEN
 	db SPRUNNY
 	db PRAWMATE
-	db NIDORINA
+	db ONIONI
 	db NIDORINO
-	db NINETALES
+	db MT_NOOT
 	db NOCTOWL
 	db NOMSABRE
 	db NOMSTER
