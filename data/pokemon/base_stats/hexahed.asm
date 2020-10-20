@@ -1,6 +1,6 @@
 	db HEXAHED ; 
 
-	db  51,  105,  71,  103,  71,  114
+	db  47,  77,  57,  67,  77,  87
 	;   hp   atk  def  spd   sat  sdf
 
 	db DARK, PSYCHIC_TYPE ; type

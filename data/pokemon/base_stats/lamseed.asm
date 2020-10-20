@@ -1,6 +1,6 @@
 	db LAMSEED ; baby...
 
-	db  86, 61,  61, 40,  61,  61
+	db  76, 61,  61, 40,  61,  61
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, GRASS ; type

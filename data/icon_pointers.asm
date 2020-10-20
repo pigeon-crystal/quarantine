@@ -92,6 +92,11 @@ IconPointers:
 	dw SnokageIcon
 	dw BlazenbullIcon
 	dw AvatriceIcon
+	dw HexahedIcon
+	dw IcosahedIcon
+	dw EyechosisIcon
+	dw TendrillIcon
+	dw CalarmouriIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon
@@ -168,4 +173,16 @@ IconPointers:
 	dw LamseedIcon
 	dw VegetebaaIcon
 	dw BaafometIcon
+	dw UpwhaleIcon
+	dw NimbocetusIcon
+	dw StelloceanIcon
+	dw MtNootIcon
+	dw OddittenIcon
+	dw AstrotomIcon
+	dw SprunnyIcon
+	dw OnioniIcon
+	dw OnionionIcon
+	dw DrassalIcon
+	dw WandelusIcon
+	dw NimboremIcon
 	

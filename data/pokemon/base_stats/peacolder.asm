@@ -1,6 +1,6 @@
 	db PEACOLDER ; 142
 
-	db  80, 70,  70, 74,  111,  133
+	db  80, 70,  70, 74,  111,  122
 	;   hp  atk  def  spd  sat  sdf
 
 	db PSYCHIC_TYPE, FLYING ; type

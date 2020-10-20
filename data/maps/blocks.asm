@@ -168,6 +168,7 @@ GoldenrodHappinessRater_Blocks:
 BillsFamilysHouse_Blocks:
 GoldenrodPPSpeechHouse_Blocks:
 GoldenrodNameRater_Blocks:
+GoldenrodMtNootHouse_Blocks:
 VermilionFishingSpeechHouse_Blocks:
 VermilionMagnetTrainSpeechHouse_Blocks:
 VermilionDiglettsCaveSpeechHouse_Blocks:

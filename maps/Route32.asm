@@ -501,7 +501,7 @@ Route32UnionCaveSign:
 	jumptext Route32UnionCaveSignText
 
 Route32PokecenterSign:
-	warp GOLDENROD_UNDERGROUND, 2, 	16
+	warp GOLDENROD_CITY, 26, 16
 	jumpstd pokecentersign
 
 Route32HiddenGreatBall:

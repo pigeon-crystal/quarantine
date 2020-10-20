@@ -141,8 +141,8 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; JOLTEON
 	icon_pals BROWN,   YELLOW  ; FLAREON
 	icon_pals BROWN,   YELLOW  ; PORYGON
-	icon_pals RED,   YELLOW  ; MAMMOTHRA
-	icon_pals RED,   YELLOW  ; BEHEMOTHRA
+	icon_pals RED,   YELLOW    ; MAMMOTHRA
+	icon_pals RED,   YELLOW    ; BEHEMOTHRA
 	icon_pals BROWN,   YELLOW  ; BELLOCEROS
 	icon_pals BROWN,   YELLOW  ; KABUTOPS
 	icon_pals BROWN,   YELLOW  ; AERODACTYL
@@ -244,7 +244,7 @@ MonMenuIconPals:
 	icon_pals RED,   YELLOW    ; SMOOCHUM
 	icon_pals RED,   YELLOW    ; ELEKID
 	icon_pals RED,   YELLOW    ; MAGBY
-	icon_pals RED,   YELLOW    ; DRASSAL
+	icon_pals GREEN,   YELLOW    ; DRASSAL
 	icon_pals BLUE,   YELLOW   ; ODDITULLY
 	icon_pals RED,   YELLOW    ; RAIKOU
 	icon_pals GRAY,   YELLOW    ; SLAATEL

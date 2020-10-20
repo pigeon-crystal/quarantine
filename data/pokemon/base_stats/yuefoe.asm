@@ -1,6 +1,6 @@
 	db YUEFOE ; 142
 
-	db  122, 66,  55,  111,  111,  55
+	db  122, 65,  56,  111,  111,  56
 	;   hp  atk  def  spd  sat  sdf
 
 	db ELECTRIC, FLYING ; type

@@ -3,10 +3,10 @@
 	db  73, 53,  103, 23,  101,  181
 	;   hp  atk  def  spd  sat  sdf
 
-	db ROCK, PSYCHIC_TYPE ; type
+	db ROCK, ELECTRIC ; type
 	db 53 ; catch rate
 	db 211 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	db MAGNET, KINGS_ROCK ; items
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1
 	db 35 ; step cycles to hatch

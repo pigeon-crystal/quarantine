@@ -1,11 +1,11 @@
 	db ONIONI ; 
 
-	db  75, 90,  75, 75,  50,  60
+	db  75, 90,  76, 75,  50,  59
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, FIGHTING ; type
 	db 95 ; catch rate
-	db 120 ; base exp
+	db 109 ; base exp
 	db GRN_APRICORN, GRN_APRICORN ; items
 	db GENDER_F25 ; gender ratio
 	db 100 ; unknown 1

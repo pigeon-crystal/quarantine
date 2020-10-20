@@ -1,6 +1,6 @@
 	db UPWHALE ; 063
 
-	db  80,  25,  52,  35,   70,  55
+	db  95,  25,  52,  35,   70,  45
 	;   hp   atk   def   spd   sat  sdf
 
 	db WATER, WATER ; type

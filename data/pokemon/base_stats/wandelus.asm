@@ -4,8 +4,8 @@
 	;   hp   atk  def  spd   sat  sdf
 
 	db FLYING, FLYING ; type
-	db 147 ; catch rate
-	db 60 ; base exp
+	db 165 ; catch rate
+	db 51 ; base exp
 	db NO_ITEM, WHT_APRICORN ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

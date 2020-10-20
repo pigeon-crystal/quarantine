@@ -92,6 +92,11 @@
 	const ICON_SNOKAGE
 	const ICON_BLAZENBULL
 	const ICON_AVATRICE
+	const ICON_HEXAHED
+	const ICON_ICOSAHED
+	const ICON_EYECHOSIS
+	const ICON_TENDRILL
+	const ICON_CALARMOURI
 	const ICON_SQUIRTLE ;START OF BANK 2
 	const ICON_BULBASAUR
 	const ICON_CHARMANDER
@@ -168,6 +173,18 @@
 	const ICON_LAMSEED
 	const ICON_VEGETEBAA
 	const ICON_BAAFOMET
+	const ICON_UPWHALE
+	const ICON_NIMBOCETUS
+	const ICON_STELLOCEAN
+	const ICON_MT_NOOT
+	const ICON_ODDITTEN
+	const ICON_ASTROTOM
+	const ICON_SPRUNNY
+	const ICON_ONIONI
+	const ICON_ONIONION
+	const ICON_DRASSAL
+	const ICON_WANDELUS
+	const ICON_NIMBOREM
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

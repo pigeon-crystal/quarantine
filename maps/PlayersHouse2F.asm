@@ -51,24 +51,32 @@ PosterScript:
 	describedecoration DECODESC_POSTER
 
 PlayersHouseRadioScript:
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
-	iftrue .NormalRadio
-	checkevent EVENT_LISTENED_TO_INITIAL_RADIO
-	iftrue .AbbreviatedRadio
-	playmusic MUSIC_POKEMON_TALK
-	opentext
-	writetext PlayersRadioText1
-	pause 45
-	writetext PlayersRadioText2
-	pause 45
-	writetext PlayersRadioText3
-	pause 45
-	musicfadeout MUSIC_NEW_BARK_TOWN, 16
-	writetext PlayersRadioText4
-	pause 45
-	closetext
-	setevent EVENT_LISTENED_TO_INITIAL_RADIO
+	givepoke DRASSAL, 50
+	givepoke UPWHALE, 50
+	givepoke NIMBOCETUS, 50
+	givepoke STELLOCEAN, 50
+	givepoke TENDRILL, 50
+	givepoke CALARMOURI, 50
 	end
+;PlayersHouseRadioScript:
+;	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+;	iftrue .NormalRadio
+;	checkevent EVENT_LISTENED_TO_INITIAL_RADIO
+;	iftrue .AbbreviatedRadio
+;	playmusic MUSIC_POKEMON_TALK
+;	opentext
+;	writetext PlayersRadioText1
+;	pause 45
+;	writetext PlayersRadioText2
+;	pause 45
+;	writetext PlayersRadioText3
+;	pause 45
+;	musicfadeout MUSIC_NEW_BARK_TOWN, 16
+;	writetext PlayersRadioText4
+;	pause 45
+;	closetext
+;	setevent EVENT_LISTENED_TO_INITIAL_RADIO
+;	end
 
 .NormalRadio:
 	jumpstd radio1

@@ -1,6 +1,6 @@
 	db STELLOCEAN ; 063
 
-	db  175,  45,  70,  65,   105,  75
+	db  180,  45,  70,  65,   105,  65
 	;   hp   atk   def   spd   sat  sdf
 
 	db WATER, PSYCHIC_TYPE ; type

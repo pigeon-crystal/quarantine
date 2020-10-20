@@ -1,10 +1,10 @@
 	db SPRUNNY ; 142
 
-	db  50, 60,  55, 80,  40,  45
+	db  50, 60,  56, 80,  40,  44
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, FIGHTING ; type
-	db 135 ; catch rate
+	db 145 ; catch rate
 	db 45 ; base exp
 	db GRN_APRICORN, GRN_APRICORN ; items
 	db GENDER_F25 ; gender ratio

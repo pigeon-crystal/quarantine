@@ -1,6 +1,6 @@
 	db SNOVERDOSE ; 142
 
-	db  100, 140,  75, 45,  100,  77
+	db  100, 135,  75, 44,  100,  76
 	;   hp  atk  def  spd  sat  sdf
 
 	db ICE, POISON ; type

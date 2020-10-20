@@ -3,13 +3,13 @@
 	db  53, 43,  71, 11,  71,  109
 	;   hp  atk  def  spd  sat  sdf
 
-	db ROCK, PSYCHIC_TYPE ; type
+	db ROCK, ELECTRIC ; type
 	db 53 ; catch rate
 	db 211 ; base exp
-	db NO_ITEM, NO_ITEM ; items
+	db NO_ITEM, KINGS_ROCK ; items
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1
-	db 35 ; step cycles to hatch
+	db 17 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/obelith/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
