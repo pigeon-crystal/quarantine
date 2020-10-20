@@ -1,12 +1,12 @@
 	db SANDOLPH ; 063
 
-	db  56,  62, 60,   88,  45,  60
+	db  65,  62, 60,   88,  45,  60
 	;   hp   atk  def  spd   sat  sdf
 
 	db GROUND, GROUND ; type
 	db 100 ; catch rate
 	db 88 ; base exp
-	db SOFT_SAND, YLW_APRICORN ; items
+	db YLW_APRICORN, SOFT_SAND ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 14 ; step cycles to hatch

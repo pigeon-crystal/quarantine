@@ -1,6 +1,6 @@
 	db POLYRO ; 059
 
-	db  70, 100,  65,  100, 100,  65
+	db  70, 98,  61,  100, 98,  61
 	;   hp  atk  def  spd  sat  sdf
 
 	db DRAGON, FIRE ; type

@@ -1,6 +1,6 @@
 	db SHREDDRAKE ; 
 
-	db  87, 105,  79, 96,  72,  61
+	db  87, 105,  79, 96,  71,  60
 	;   hp  atk  def  spd  sat  sdf
 
 	db DRAGON, ELECTRIC ; type
@@ -13,8 +13,8 @@
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/shreddrake/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
-	db GROWTH_SLOW ; growth rate
-	dn EGG_DRAGON, EGG_FLYING ; egg groups
+	db GROWTH_MEDIUM_SLOW ; growth rate
+	dn EGG_DRAGON, EGG_DRAGON ; egg groups
 
 	; tm/hm learnset
 	tmhm HEADBUTT, CURSE, ROAR, ROCK_SMASH, HIDDEN_POWER, SNORE, HYPER_BEAM, PROTECT, RAIN_DANCE, ENDURE, FRUSTRATION, IRON_TAIL, DRAGONBREATH, THUNDER, EARTHQUAKE, RETURN, DIG, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, SANDSTORM, FIRE_BLAST, SWIFT, THUNDERPUNCH, DETECT, REST, ATTRACT, THIEF, STEEL_WING, FIRE_PUNCH, SNARL, FLY, STRENGTH, FLAMETHROWER

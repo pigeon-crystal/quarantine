@@ -1,6 +1,6 @@
 	db EXOTUNITY ; 190
 
-	db  41,  107,  61,  113,  127,  103
+	db  43,  103,  59,  113,  127,  103
 	;   hp  atk  def  spd  sat  sdf
 
 	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type

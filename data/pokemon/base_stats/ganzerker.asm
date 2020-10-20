@@ -1,6 +1,6 @@
 	db GANZERKER ; 184
 
-	db 80,  68,  88,  96,  96,  54
+	db 80,  70,  88,  98,  96,  54
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, FLYING ; type

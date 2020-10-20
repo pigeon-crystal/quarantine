@@ -1,10 +1,10 @@
 	db BERMUDANT ; 
 
-	db  81,  55,  121,  60, 92,  121
+	db  79,  57,  121,  50, 92,  121
 	;   hp  atk  def  spd  sat  sdf
 
 	db POISON, FIRE ; type
-	db 45 ; catch rate
+	db 30 ; catch rate
 	db 159 ; base exp
 	db POISON_BARB, POISON_BARB ; items
 	db GENDER_F50 ; gender ratio

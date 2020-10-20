@@ -1,6 +1,6 @@
 	db ZEPPLIUM ; 063
 
-	db  94,  94,  80,  105,  61,  80
+	db  94,  94,  77,  105,  61,  77
 	;   hp   atk  def  spd   sat  sdf
 
 	db NORMAL, NORMAL ; type

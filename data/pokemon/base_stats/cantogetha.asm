@@ -1,6 +1,6 @@
 	db CANTOGETHA ; 142
 
-	db  76, 128,  97, 72,  63,  90
+	db  76, 129,  90, 72,  63,  90
 	;   hp  atk  def  spd  sat  sdf
 
 	db STEEL, FIGHTING ; type

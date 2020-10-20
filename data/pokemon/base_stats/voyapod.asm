@@ -1,6 +1,6 @@
 	db VOYAPOD ; 190
 
-	db  29,  67,  47,  83,  89,  73
+	db  31,  71,  47,  83,  89,  73
 	;   hp  atk  def  spd  sat  sdf
 
 	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type

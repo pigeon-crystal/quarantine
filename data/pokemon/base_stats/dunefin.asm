@@ -1,6 +1,6 @@
 	db DUNEFIN ; 063
 
-	db  79,  101, 80,  110,  60,  80
+	db  80,  103, 75,  110,  61,  75
 	;   hp   atk  def  spd   sat  sdf
 
 	db GROUND, GROUND ; type
