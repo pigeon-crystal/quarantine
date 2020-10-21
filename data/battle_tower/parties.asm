@@ -1621,7 +1621,7 @@ BattleTowerMons3:
 	bigdw 58 ; SDef
 	db "ONIDORIRU@@"
 
-	db PRIMEAPE
+	db BOBBITRAP
 	db MIRACLEBERRY
 	db CROSS_CHOP, KARATE_CHOP, FLAIL, FOCUS_ENERGY
 	dw 0 ; OT ID
@@ -3661,7 +3661,7 @@ BattleTowerMons7:
 	bigdw 226 ; SDef
 	db "BARIYA-DO@@"
 
-	db PRIMEAPE
+	db BOBBITRAP
 	db QUICK_CLAW
 	db CROSS_CHOP, ICE_PUNCH, THUNDERPUNCH, ROCK_SLIDE
 	dw 0 ; OT ID

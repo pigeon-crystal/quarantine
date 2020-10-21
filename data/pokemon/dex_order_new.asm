@@ -137,7 +137,7 @@ NewPokedexOrder:
 	db MUMINI
 	db MUMAGNUS
 	db BOBBITE
-	db PRIMEAPE
+	db BOBBITRAP
 	db TODESCOOL
 	db JUNOBE
 	db VOYAPOD
@@ -161,7 +161,7 @@ NewPokedexOrder:
 	db EYECHOSIS
 	db FARFETCH_D
 	db SQWUCKY
-	db XATU
+	db SQUEENIE
 	db PEKOI
 	db TENTACOOL
 	db TENTACRUEL

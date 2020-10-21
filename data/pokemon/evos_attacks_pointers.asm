@@ -57,7 +57,7 @@ EvosAttacksPointers::
 	dw VoyapodEvosAttacks
 	dw ExotunityEvosAttacks
 	dw BobbiteEvosAttacks
-	dw PrimeapeEvosAttacks
+	dw BobbitrapEvosAttacks
 	dw HappigEvosAttacks
 	dw BiporkarEvosAttacks
 	dw CremigoEvosAttacks
@@ -178,7 +178,7 @@ EvosAttacksPointers::
 	dw TranquielEvosAttacks
 	dw AllseeraphEvosAttacks
 	dw SqwuckyEvosAttacks
-	dw XatuEvosAttacks
+	dw SqueenieEvosAttacks
 	dw YuesbiEvosAttacks
 	dw YuefoeEvosAttacks
 	dw AmpharosEvosAttacks

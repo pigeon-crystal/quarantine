@@ -115,7 +115,7 @@ Pokered_MonIndices:
 	db NOXROMAEUS
 	db SNOVERDOSE ; MISSINGNO.
 	db DODRIO
-	db PRIMEAPE
+	db BOBBITRAP
 	db MUMAGNUS
 	db PRIPYDERM
 	db JADDICE
@@ -216,7 +216,7 @@ Pokered_MonIndices:
 	db TRANQUIEL
 	db ALLSEERAPH
 	db SQWUCKY
-	db XATU
+	db SQUEENIE
 	db YUESBI
 	db YUEFOE
 	db AMPHAROS

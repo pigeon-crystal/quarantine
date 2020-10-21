@@ -777,12 +777,12 @@ ExotunityEvosAttacks:
 	db 0 ; no more level-up moves
 
 BobbiteEvosAttacks:
-	db EVOLVE_LEVEL, 28, PRIMEAPE
+	db EVOLVE_LEVEL, 28, BOBBITRAP
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 0 ; no more level-up moves
 
-PrimeapeEvosAttacks:
+BobbitrapEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 0 ; no more level-up moves
@@ -2506,7 +2506,7 @@ AllseeraphEvosAttacks:
 	db 0 ; no more level-up moves
 
 SqwuckyEvosAttacks:
-	db EVOLVE_LEVEL, 25, XATU
+	db EVOLVE_LEVEL, 25, SQUEENIE
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, LEER
@@ -2523,7 +2523,7 @@ SqwuckyEvosAttacks:
 	db 50, LIQUIDATION
 	db 0 ; no more level-up moves
 
-XatuEvosAttacks:
+SqueenieEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 0 ; no more level-up moves

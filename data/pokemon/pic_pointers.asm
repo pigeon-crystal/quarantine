@@ -114,8 +114,8 @@ PokemonPicPointers::
 	dba_pic ExotunityBackpic
 	dba_pic BobbiteFrontpic
 	dba_pic BobbiteBackpic
-	dba_pic PrimeapeFrontpic
-	dba_pic PrimeapeBackpic
+	dba_pic BobbitrapFrontpic
+	dba_pic BobbitrapBackpic
 	dba_pic HappigFrontpic
 	dba_pic HappigBackpic
 	dba_pic BiporkarFrontpic
@@ -356,8 +356,8 @@ PokemonPicPointers::
 	dba_pic AllseeraphBackpic
 	dba_pic SqwuckyFrontpic
 	dba_pic SqwuckyBackpic
-	dba_pic XatuFrontpic
-	dba_pic XatuBackpic
+	dba_pic SqueenieFrontpic
+	dba_pic SqueenieBackpic
 	dba_pic YuesbiFrontpic
 	dba_pic YuesbiBackpic
 	dba_pic YuefoeFrontpic

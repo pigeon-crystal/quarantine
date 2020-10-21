@@ -61,7 +61,7 @@ PokemonCries::
 	mon_cry CRY_DIGLETT,     300,  400 ; VOYAPOD
 	mon_cry CRY_DIGLETT,     185,  400 ; EXOTUNITY
 	mon_cry CRY_NIDOQUEEN,   221,  224 ; BOBBITE
-	mon_cry CRY_NIDOQUEEN,   175,  192 ; PRIMEAPE
+	mon_cry CRY_NIDOQUEEN,   175,  192 ; BOBBITRAP
 	mon_cry CRY_GROWLITHE,    32,  192 ; HAPPIG
 	mon_cry CRY_WEEDLE,        0,  256 ; BIPORKAR
 	mon_cry $0E,			$0156,  $0218 ; CREMIGO
@@ -182,7 +182,7 @@ PokemonCries::
 	mon_cry CRY_TOGEPI,      777,  222 ; TRANQUIEL orig togepi
 	mon_cry CRY_TOGETIC,    -177,  444 ; ALLSEERAPH
 	mon_cry CRY_NATU,       -103,  256 ; SQWUCKY
-	mon_cry CRY_NATU,       -167,  360 ; XATU
+	mon_cry CRY_NATU,       -167,  360 ; SQUEENIE
 	mon_cry CRY_MAREEP,       34,  216 ; YUESBI
 	mon_cry CRY_MAREEP,       -7,  384 ; YUEFOE
 	mon_cry CRY_AMPHAROS,   -124,  232 ; AMPHAROS

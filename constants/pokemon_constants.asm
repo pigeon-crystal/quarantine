@@ -75,7 +75,7 @@
 	const VOYAPOD    ; 36
 	const EXOTUNITY  ; 37
 	const BOBBITE    ; 38
-	const PRIMEAPE   ; 39 bobbitrap
+	const BOBBITRAP  ; 39 bobbitrap
 	const HAPPIG  	 ; 3a
 	const BIPORKAR   ; 3b
 	const CREMIGO    ; 3c
@@ -97,7 +97,7 @@
 	const CAIRNIVORE ; 4c
 	const MOPERDOR   ; 4d
 	const MAJESDOR   ; 4e
-	const MISSTERIA   ; 4f missteria
+	const MISSTERIA  ; 4f missteria
 	const SLOWBRO    ; 50 missteria2
 	const MAGNEMITE  ; 51 missteria3
 	const MAGNETON   ; 52 antelope
@@ -197,7 +197,7 @@ JOHTO_POKEMON EQU const_value
 	const TRANQUIEL  ; af
 	const ALLSEERAPH ; b0
 	const SQWUCKY    ; b1
-	const XATU       ; b2 squeenie
+	const SQUEENIE   ; b2 squeenie
 	const YUESBI     ; b3
 	const YUEFOE     ; b4
 	const AMPHAROS   ; b5 computer

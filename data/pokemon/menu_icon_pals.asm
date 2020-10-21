@@ -60,7 +60,7 @@ MonMenuIconPals:
 	icon_pals GREEN,   YELLOW  ; VOYAPOD
 	icon_pals GREEN,   YELLOW  ; EXOTUNITY
 	icon_pals BROWN,   YELLOW  ; BOBBITE
-	icon_pals BROWN,   YELLOW  ; PRIMEAPE
+	icon_pals BROWN,   YELLOW  ; BOBBITRAP
 	icon_pals YELLOW,   YELLOW  ; HAPPIG
 	icon_pals YELLOW,   YELLOW  ; BIPORKAR
 	icon_pals PINK,   YELLOW   ; CREMIGO
@@ -181,7 +181,7 @@ MonMenuIconPals:
 	icon_pals YELLOW,   YELLOW ; TRANQUIEL
 	icon_pals YELLOW,   YELLOW ; ALLSEERAPH
 	icon_pals BROWN,   YELLOW  ; SQWUCKY
-	icon_pals BROWN,   YELLOW  ; XATU
+	icon_pals BROWN,   YELLOW  ; SQUEENIE
 	icon_pals BROWN,   YELLOW  ; YUESBI
 	icon_pals BROWN,   YELLOW  ; YUEFOE
 	icon_pals BROWN,   YELLOW  ; AMPHAROS

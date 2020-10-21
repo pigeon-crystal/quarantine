@@ -171,7 +171,7 @@ AlphabeticalPokedexOrder:
 	db POLITOED
 	db PORYGON
 	db POLYRO
-	db PRIMEAPE
+	db BOBBITRAP
 	db PRIPYDERM
 	db PURRDLE
 	db FLURIKEN
@@ -246,7 +246,7 @@ AlphabeticalPokedexOrder:
 	db WORMACHO
 	db WORMEEK
 	db WYRMOMETER
-	db XATU
+	db SQUEENIE
 	db YUEFOE
 	db YUESBI
 	db YUGGROMI

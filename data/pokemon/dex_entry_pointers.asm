@@ -56,7 +56,7 @@ PokedexDataPointerTable:
 	dw VoyapodPokedexEntry
 	dw ExotunityPokedexEntry
 	dw BobbitePokedexEntry
-	dw PrimeapePokedexEntry
+	dw BobbitrapPokedexEntry
 	dw HappigPokedexEntry
 	dw BiporkarPokedexEntry
 	dw CremigoPokedexEntry
@@ -177,7 +177,7 @@ PokedexDataPointerTable:
 	dw TranquielPokedexEntry
 	dw AllseeraphPokedexEntry
 	dw SqwuckyPokedexEntry
-	dw XatuPokedexEntry
+	dw SqueeniePokedexEntry
 	dw YuesbiPokedexEntry
 	dw YuefoePokedexEntry
 	dw AmpharosPokedexEntry

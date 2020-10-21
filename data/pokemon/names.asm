@@ -55,7 +55,7 @@ PokemonNames::
 	db "VOYAPOD@@@"
 	db "EXOTUNITY@"
 	db "BOBBITE@@@"
-	db "PRIMEAPE@@"
+	db "BOBBITRAP@"
 	db "HAPPIG@@@@"
 	db "BIPORKAR@@"
 	db "CREMIGO@@@"
@@ -176,7 +176,7 @@ PokemonNames::
 	db "TRANQUIEL@" ;TOGEPI
 	db "ALLSEERAPH"
 	db "SQWUCKY@@@"
-	db "XATU@@@@@@"
+	db "SQUEENIE@@"
 	db "YUESBI@@@@"
 	db "YUEFOE@@@@"
 	db "AMPHAROS@@"
