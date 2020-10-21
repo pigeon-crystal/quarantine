@@ -89,7 +89,7 @@ INCBIN "gfx/footprints/felioritte.1bpp",   footprint_top
 INCBIN "gfx/footprints/vulpix.1bpp",     footprint_top
 INCBIN "gfx/footprints/mt_noot.1bpp",  footprint_top
 INCBIN "gfx/footprints/hexahed.1bpp", footprint_top
-INCBIN "gfx/footprints/wigglytuff.1bpp", footprint_top
+INCBIN "gfx/footprints/icosahed.1bpp", footprint_top
 ; 033-040 bottom halves
 INCBIN "gfx/footprints/nidorino.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/nidoking.1bpp",   footprint_bottom
@@ -98,7 +98,7 @@ INCBIN "gfx/footprints/felioritte.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/vulpix.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/mt_noot.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/hexahed.1bpp", footprint_bottom
-INCBIN "gfx/footprints/wigglytuff.1bpp", footprint_bottom
+INCBIN "gfx/footprints/icosahed.1bpp", footprint_bottom
 ; 041-048 top halves
 INCBIN "gfx/footprints/stinpeon.1bpp",      footprint_top
 INCBIN "gfx/footprints/scorperor.1bpp",     footprint_top
@@ -178,7 +178,7 @@ INCBIN "gfx/footprints/dolmesa.1bpp",   footprint_top
 INCBIN "gfx/footprints/cairnivore.1bpp",      footprint_top
 INCBIN "gfx/footprints/moperdor.1bpp",     footprint_top
 INCBIN "gfx/footprints/majesdor.1bpp",   footprint_top
-INCBIN "gfx/footprints/slowpoke.1bpp",   footprint_top
+INCBIN "gfx/footprints/missteria.1bpp",   footprint_top
 INCBIN "gfx/footprints/slowbro.1bpp",    footprint_top
 ; 073-080 bottom halves
 INCBIN "gfx/footprints/tentacruel.1bpp", footprint_bottom
@@ -187,7 +187,7 @@ INCBIN "gfx/footprints/dolmesa.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/cairnivore.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/moperdor.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/majesdor.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/slowpoke.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/missteria.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/slowbro.1bpp",    footprint_bottom
 ; 081-088 top halves
 INCBIN "gfx/footprints/magnemite.1bpp",  footprint_top

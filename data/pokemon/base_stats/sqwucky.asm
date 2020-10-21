@@ -3,11 +3,11 @@
 	db  67,  67,  53,  53,  67,  53
 	;   hp  atk  def  spd  sat  sdf
 
-	db WATER, NORMAL ; type
-	db 88 ; catch rate
+	db WATER, WATER ; type
+	db 101 ; catch rate
 	db 88 ; base exp
-	db NO_ITEM, NO_ITEM ; items
-	db GENDER_F100 ; gender ratio
+	db NO_ITEM, YLW_APRICORN ; items
+	db 98 ; gender ratio
 	db 100 ; unknown 1
 	db 13 ; step cycles to hatch
 	db 5 ; unknown 2

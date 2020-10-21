@@ -200,7 +200,7 @@ AlphabeticalPokedexOrder:
 	db SNOSEBLEED
 	db SLAATEL
 	db SLOWBRO
-	db SLOWPOKE
+	db MISSTERIA
 	db SMOOCHUM
 	db SMOTHERENE
 	db SMUCIOUS
@@ -238,7 +238,7 @@ AlphabeticalPokedexOrder:
 	db VOYAPOD
 	db VULPIX
 	db WARTORTLE
-	db WIGGLYTUFF
+	db ICOSAHED
 	db WIRIGIBLE
 	db WIWRIGHT
 	db WENDIGAUNT

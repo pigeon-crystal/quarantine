@@ -246,7 +246,7 @@ MoperdorEggMoves:
 	db SHADOW_BONE
 	db -1 ; end
 
-SlowpokeEggMoves:
+MissteriaEggMoves:
 	db SAFEGUARD
 	db BELLY_DRUM
 	db FUTURE_SIGHT

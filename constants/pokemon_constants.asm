@@ -56,9 +56,9 @@
 	const NYALLEY    ; 23
 	const FELIORITTE ; 24
 	const VULPIX     ; 25 veil shroom
-	const MT_NOOT  	 ; 26 penguin
+	const MT_NOOT  	 ; 26 
 	const HEXAHED 	 ; 27
-	const WIGGLYTUFF ; 28 icosahed
+	const ICOSAHED 	 ; 28 
 	const STINPEON   ; 29
 	const SCORPEROR  ; 2a
 	const EUKUB      ; 2b
@@ -97,7 +97,7 @@
 	const CAIRNIVORE ; 4c
 	const MOPERDOR   ; 4d
 	const MAJESDOR   ; 4e
-	const SLOWPOKE   ; 4f missteria
+	const MISSTERIA   ; 4f missteria
 	const SLOWBRO    ; 50 missteria2
 	const MAGNEMITE  ; 51 missteria3
 	const MAGNETON   ; 52 antelope

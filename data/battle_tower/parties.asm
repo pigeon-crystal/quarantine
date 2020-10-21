@@ -994,7 +994,7 @@ BattleTowerMons2:
 	bigdw 48 ; SDef
 	db "MIRUTANKU@@"
 
-	db WIGGLYTUFF
+	db ICOSAHED
 	db GOLD_BERRY
 	db HYPER_BEAM, BLIZZARD, FIRE_BLAST, ATTRACT
 	dw 0 ; OT ID
@@ -1020,7 +1020,7 @@ BattleTowerMons2:
 	bigdw 40 ; SDef
 	db "PUKURIN@@@@"
 
-	db WIGGLYTUFF
+	db ICOSAHED
 	db PINK_BOW
 	db PSYCHIC_M, SWAGGER, PSYCH_UP, HEADBUTT
 	dw 0 ; OT ID

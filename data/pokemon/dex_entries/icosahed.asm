@@ -1,5 +1,5 @@
-	db "DEALER@" ; species name
-	dw 207, 777 ; height, weight
+	db "LUCK@" ; species name
+	dw 404, 1044 ; height, weight
 
 	db   "This is an"
 	next "undiscovered"

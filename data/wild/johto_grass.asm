@@ -579,29 +579,29 @@ JohtoGrassWildMons:
 	db 21, STINPEON
 	db 23, STINPEON
 	db 19, STINPEON
-	db 21, SLOWPOKE
+	db 21, MISSTERIA
 	db 23, SCORPEROR
-	db 23, SLOWPOKE
-	db 23, SLOWPOKE
-	db 24, SLOWPOKE
+	db 23, MISSTERIA
+	db 23, MISSTERIA
+	db 24, MISSTERIA
 	; day
 	db 21, STINPEON
 	db 23, STINPEON
 	db 19, STINPEON
-	db 21, SLOWPOKE
+	db 21, MISSTERIA
 	db 23, SCORPEROR
-	db 23, SLOWPOKE
-	db 23, SLOWPOKE
-	db 24, SLOWPOKE
+	db 23, MISSTERIA
+	db 23, MISSTERIA
+	db 24, MISSTERIA
 	; nite
 	db 21, STINPEON
 	db 23, STINPEON
 	db 19, STINPEON
-	db 21, SLOWPOKE
+	db 21, MISSTERIA
 	db 23, SCORPEROR
-	db 23, SLOWPOKE
-	db 23, SLOWPOKE
-	db 24, SLOWPOKE
+	db 23, MISSTERIA
+	db 23, MISSTERIA
+	db 24, MISSTERIA
 
 	map_id ILEX_FOREST ;done
 	db 4 percent, 4 percent, 5 percent ; encounter rates: morn/day/nite

@@ -1,6 +1,6 @@
 	db PURRAATZLE ; 
 
-	db  55,  70,  55,  85,  40,  55
+	db  63,  80,  92,  108,  80,  92
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, FAIRY ; type
@@ -14,8 +14,8 @@
 	INCBIN "gfx/pokemon/purraatzle/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_SLOW ; growth rate
-	dn EGG_GROUND, EGG_GROUND ; egg groups
+	dn EGG_GROUND, EGG_FAIRY ; egg groups
 
 	; tm/hm learnset
-	tmhm 
+	tmhm HEADBUTT, CURSE, ROLLOUT, ROAR, PSYCH_UP, HIDDEN_POWER, SUNNY_DAY, SNORE, HYPER_BEAM, PROTECT, ENDURE, FRUSTRATION, SOLARBEAM, IRON_TAIL, RETURN, DIG, PSYCHIC_M, MUD_SLAP, DOUBLE_TEAM, SLEEP_TALK, FIRE_BLAST, SWIFT, DEFENSE_CURL, DETECT, REST, ATTRACT, THIEF, FALSE_SWIPE, SNARL, CUT, FLASH, WATERFALL, FLAMETHROWER
 	; end

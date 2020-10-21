@@ -80,8 +80,8 @@ PokemonPicPointers::
 	dba_pic MtNootBackpic
 	dba_pic HexahedFrontpic
 	dba_pic HexahedBackpic
-	dba_pic WigglytuffFrontpic
-	dba_pic WigglytuffBackpic
+	dba_pic IcosahedFrontpic
+	dba_pic IcosahedBackpic
 	dba_pic StinpeonFrontpic
 	dba_pic StinpeonBackpic
 	dba_pic ScorperorFrontpic
@@ -158,8 +158,8 @@ PokemonPicPointers::
 	dba_pic MoperdorBackpic
 	dba_pic MajesdorFrontpic
 	dba_pic MajesdorBackpic
-	dba_pic SlowpokeFrontpic
-	dba_pic SlowpokeBackpic
+	dba_pic MissteriaFrontpic
+	dba_pic MissteriaBackpic
 	dba_pic SlowbroFrontpic
 	dba_pic SlowbroBackpic
 	dba_pic MagnemiteFrontpic

@@ -39,7 +39,7 @@ PokedexDataPointerTable:
 	dw VulpixPokedexEntry
 	dw MtNootPokedexEntry
 	dw HexahedPokedexEntry
-	dw WigglytuffPokedexEntry
+	dw IcosahedPokedexEntry
 	dw StinpeonPokedexEntry
 	dw ScorperorPokedexEntry
 	dw EukubPokedexEntry
@@ -78,7 +78,7 @@ PokedexDataPointerTable:
 	dw CairnivorePokedexEntry
 	dw MoperdorPokedexEntry
 	dw MajesdorPokedexEntry
-	dw SlowpokePokedexEntry
+	dw MissteriaPokedexEntry
 	dw SlowbroPokedexEntry
 	dw MagnemitePokedexEntry
 	dw MagnetonPokedexEntry

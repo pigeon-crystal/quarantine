@@ -43,7 +43,7 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; VULPIX
 	icon_pals BLUE,   BROWN    ; MT NOOT
 	icon_pals BROWN,   YELLOW  ; HEXAHED
-	icon_pals BROWN,   YELLOW  ; WIGGLYTUFF
+	icon_pals BROWN,   YELLOW  ; ICOSAHED
 	icon_pals PINK,    YELLOW  ; STINPEON
 	icon_pals YELLOW,  PINK    ; SCORPEROR
 	icon_pals GREEN,   YELLOW  ; EUKUB
@@ -82,7 +82,7 @@ MonMenuIconPals:
 	icon_pals GRAY,   YELLOW   ; CAIRNIVORE
 	icon_pals BROWN,   YELLOW  ; MOPERDOR
 	icon_pals BLUE,   YELLOW  ; MAJESDOR
-	icon_pals BROWN,   YELLOW  ; SLOWPOKE
+	icon_pals BROWN,   YELLOW  ; MISSTERIA
 	icon_pals BROWN,   YELLOW  ; SLOWBRO
 	icon_pals BROWN,   YELLOW  ; MAGNEMITE
 	icon_pals BROWN,   YELLOW  ; MAGNETON

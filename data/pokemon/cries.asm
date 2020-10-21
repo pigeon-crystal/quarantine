@@ -44,7 +44,7 @@ PokemonCries::
 	mon_cry CRY_VULPIX,       79,  144 ; VULPIX
 	mon_cry CRY_VULPIX,      136,  224 ; MT_NOOT
 	mon_cry CRY_PIDGEY,      255,  181 ; HEXAHED
-	mon_cry CRY_PIDGEY,      104,  224 ; WIGGLYTUFF
+	mon_cry CRY_PIDGEY,      104,  224 ; ICOSAHED
 	mon_cry CRY_SQUIRTLE,    120,  125 ; STINPEON
 	mon_cry CRY_SQUIRTLE,    18,    127 ; SCORPEROR
 	mon_cry CRY_ODDISH,      221,  129 ; EUKUB
@@ -83,7 +83,7 @@ PokemonCries::
 	mon_cry $13,      		$0CAA,  $0184 ; CAIRNIVORE
 	mon_cry CRY_MAGCARGO,      7,  247 ; MOPERDOR
 	mon_cry CRY_WEEDLE,        2,  300 ; MAJESDOR
-	mon_cry CRY_SLOWPOKE,      0,  256 ; SLOWPOKE
+	mon_cry CRY_SLOWPOKE,      0,  256 ; MISSTERIA
 	mon_cry CRY_GROWLITHE,     0,  256 ; SLOWBRO
 	mon_cry CRY_METAPOD,     128,  224 ; MAGNEMITE
 	mon_cry CRY_METAPOD,      32,  320 ; MAGNETON

@@ -6,7 +6,7 @@ KantoWaterWildMons:
 	map_id TOHJO_FALLS
 	db 4 percent ; encounter rate
 	db 20, GOOSAPLING
-	db 20, SLOWPOKE
+	db 20, MISSTERIA
 	db 20, GANZERKER
 	db 25, GANZERKER
 

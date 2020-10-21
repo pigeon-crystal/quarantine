@@ -77,7 +77,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw MoperdorEggMoves
 	dw NoEggMoves
-	dw SlowpokeEggMoves
+	dw MissteriaEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

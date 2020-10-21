@@ -40,7 +40,7 @@ EvosAttacksPointers::
 	dw VulpixEvosAttacks
 	dw MtNootEvosAttacks
 	dw HexahedEvosAttacks
-	dw WigglytuffEvosAttacks
+	dw IcosahedEvosAttacks
 	dw StinpeonEvosAttacks
 	dw ScorperorEvosAttacks
 	dw EukubEvosAttacks
@@ -79,7 +79,7 @@ EvosAttacksPointers::
 	dw CairnivoreEvosAttacks
 	dw MoperdorEvosAttacks
 	dw MajesdorEvosAttacks
-	dw SlowpokeEvosAttacks
+	dw MissteriaEvosAttacks
 	dw SlowbroEvosAttacks
 	dw MagnemiteEvosAttacks
 	dw MagnetonEvosAttacks

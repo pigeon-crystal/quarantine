@@ -459,7 +459,7 @@ MtNootEvosAttacks:
 	db 0 ; no more level-up moves
 
 HexahedEvosAttacks:
-	db EVOLVE_LEVEL, 44, WIGGLYTUFF
+	db EVOLVE_LEVEL, 44, ICOSAHED
 	db 0 ; no more evolutions
 	db 1, DOUBLESLAP
 	db 1, PAY_DAY
@@ -477,7 +477,7 @@ HexahedEvosAttacks:
 	db 57, BATON_PASS
 	db 0 ; no more level-up moves
 
-WigglytuffEvosAttacks:
+IcosahedEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, DOUBLESLAP
 	db 1, PAY_DAY
@@ -1138,7 +1138,7 @@ MajesdorEvosAttacks:
 	db 53, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
-SlowpokeEvosAttacks:
+MissteriaEvosAttacks:
 	db EVOLVE_LEVEL, 37, SLOWBRO
 	db 0 ; no more evolutions
 	db 1, CURSE

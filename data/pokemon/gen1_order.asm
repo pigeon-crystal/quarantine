@@ -35,7 +35,7 @@ Pokered_MonIndices:
 	db MORADAY
 	db QWALLOP
 	db FURNIT
-	db SLOWPOKE
+	db MISSTERIA
 	db BUNDEGRAF
 	db DOLMESA
 	db CALARMOURI
@@ -99,7 +99,7 @@ Pokered_MonIndices:
 	db MAMMOTHRA
 	db BEHEMOTHRA
 	db HEXAHED
-	db WIGGLYTUFF
+	db ICOSAHED
 	db EEVEE
 	db FLAREON
 	db JOLTEON
