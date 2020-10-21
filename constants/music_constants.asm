@@ -107,6 +107,10 @@
 	const MUSIC_SUICUNE_BATTLE               ; 64
 	const MUSIC_BATTLE_TOWER_LOBBY           ; 65
 	const MUSIC_MOBILE_CENTER                ; 66
+	
+; new to QuarantineCrystal!
+	const MUSIC_KRAID						 ; 67
+	const MUSIC_DONCHAN					     ; 68
 
 ; GetMapMusic picks music for this value (see home/map.asm)
 MUSIC_MAHOGANY_MART EQU $64

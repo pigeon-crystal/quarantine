@@ -52,11 +52,8 @@ PosterScript:
 
 PlayersHouseRadioScript:
 	givepoke DRASSAL, 50
-	givepoke UPWHALE, 50
-	givepoke NIMBOCETUS, 50
-	givepoke STELLOCEAN, 50
-	givepoke TENDRILL, 50
-	givepoke CALARMOURI, 50
+	loadwildmon HO_OH, 50
+	startbattle
 	end
 ;PlayersHouseRadioScript:
 ;	checkevent EVENT_GOT_A_POKEMON_FROM_ELM

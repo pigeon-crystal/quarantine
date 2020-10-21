@@ -5217,3 +5217,104 @@ Sfx_GlassTing2_Ch6:
 	duty_cycle 2
 	square_note 16, 13, 1, 2013
 	sound_ret
+	
+Sfx_CaughtLeg:
+    channel_count 4
+    channel 5, Sfx_CaughtLeg_Ch5
+    channel 6, Sfx_CaughtLeg_Ch6
+    channel 7, Sfx_CaughtLeg_Ch7
+    channel 8, Sfx_CaughtLeg_Ch8
+
+Sfx_CaughtLeg_Ch5:
+    toggle_sfx
+    tempo 112
+    volume 7, 7
+    vibrato 8, 2, 7
+    duty_cycle 2
+    note_type 8, 11, 3
+    octave 4
+    note D_, 6
+    octave 3
+    note B_, 6
+    note G_, 12
+    volume_envelope 11, 1
+    octave 4
+    note F_, 2
+    note F_, 2
+    note F_, 2
+    note F_, 2
+    note F_, 2
+    note A_, 2
+    note G_, 2
+    note G_, 2
+    note G_, 2
+    note G_, 2
+    note G_, 2
+    note B_, 2
+    volume_envelope 11, 3
+    note A_, 12
+    sound_ret
+
+Sfx_CaughtLeg_Ch6:
+    toggle_sfx
+    duty_cycle 2
+    vibrato 8, 2, 7
+    note_type 8, 12, 3
+    octave 4
+    note B_, 6
+    note G_, 6
+    note D_, 12
+    volume_envelope 12, 1
+    octave 5
+    note C_, 2
+    note C_, 2
+    note C_, 2
+    octave 4
+    note A_, 2
+    note A_, 2
+    octave 5
+    note C_, 2
+    note D_, 2
+    note D_, 2
+    note D_, 2
+    octave 4
+    note B_, 2
+    note B_, 2
+    octave 5
+    note D_, 2
+    volume_envelope 12, 3
+    note E_, 12
+    sound_ret
+
+Sfx_CaughtLeg_Ch7:
+    toggle_sfx
+    note_type 8, 2, 5
+    octave 3
+    note D_, 12
+    note D_, 6
+    octave 2
+    note B_, 2
+    octave 3
+    note D_, 2
+    note G_, 2
+    note A_, 6
+    octave 4
+    note C_, 6
+    octave 3
+    note B_, 6
+    octave 4
+    note D_, 6
+    note C#, 6
+    volume_envelope 3, 5
+    note C#, 3
+    rest 3
+    sound_ret
+
+Sfx_CaughtLeg_Ch8:
+    toggle_sfx
+    sfx_toggle_noise 4
+    drum_speed 12
+    note C_, 16
+    rest 12
+    rest 16
+    sound_ret

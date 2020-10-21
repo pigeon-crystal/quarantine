@@ -106,3 +106,6 @@ Music:
 	dba Music_SuicuneBattle
 	dba Music_BattleTowerLobby
 	dba Music_MobileCenter
+; new to Quarantine Crystal
+	dba Music_Kraid
+	dba Music_Donchan

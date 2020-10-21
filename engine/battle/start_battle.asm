@@ -65,23 +65,40 @@ PlayBattleMusic:
 	cp BATTLETYPE_ROAMING
 	jp z, .done
 
+	; Legendary Check Time
+	ld a, [wTempEnemyMonSpecies]
+	cp MISSINGNO
+	jr z, .missingnomusic
+	
+	ld a, [wTempEnemyMonSpecies]
+	cp HO_OH
+	jr z, .donchanmusic
+
 	; Are we fighting a trainer?
 	ld a, [wOtherTrainerClass]
 	and a
-	jr nz, .trainermusic
+	jp nz, .trainermusic
 
 	farcall RegionCheck
 	ld a, e
 	and a
-	jr nz, .kantowild
+	jp nz, .kantowild
 
 	ld de, MUSIC_JOHTO_WILD_BATTLE
 	ld a, [wTimeOfDay]
 	cp NITE_F
-	jr nz, .done
+	jp nz, .done
 	ld de, MUSIC_JOHTO_WILD_BATTLE_NIGHT
-	jr .done
+	jp .done
 
+.missingnomusic
+	ld de, MUSIC_KRAID
+	jr .done 
+	
+.donchanmusic
+	ld de, MUSIC_DONCHAN
+	jr .done
+	
 .kantowild
 	ld de, MUSIC_KANTO_WILD_BATTLE
 	jr .done
@@ -102,6 +119,10 @@ PlayBattleMusic:
 	cp EXECUTIVEM
 	jr z, .done
 	cp EXECUTIVEF
+	jr z, .done
+	cp ENGINEER
+	jr z, .done
+	cp ENFORCER
 	jr z, .done
 
 	ld de, MUSIC_KANTO_GYM_LEADER_BATTLE

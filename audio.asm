@@ -20,7 +20,6 @@ INCLUDE "audio/music/elmslab.asm"
 INCLUDE "audio/music/darkcave.asm"
 INCLUDE "audio/music/johtogymbattle.asm"
 INCLUDE "audio/music/championbattle.asm"
-INCLUDE "audio/music/ssaqua.asm"
 INCLUDE "audio/music/newbarktown.asm"
 INCLUDE "audio/music/goldenrodcity.asm"
 INCLUDE "audio/music/vermilioncity.asm"
@@ -73,7 +72,6 @@ INCLUDE "audio/music/route29.asm"
 INCLUDE "audio/music/halloffame.asm"
 INCLUDE "audio/music/healpokemon.asm"
 INCLUDE "audio/music/evolution.asm"
-INCLUDE "audio/music/printer.asm"
 
 
 SECTION "Songs 4", ROMX
@@ -140,6 +138,12 @@ SECTION "Extra Songs 2", ROMX
 
 INCLUDE "audio/music/postcredits.asm"
 
+SECTION "QTDex Songs", ROMX
+
+INCLUDE "audio/music/printer.asm"
+INCLUDE "audio/music/kraid.asm"
+INCLUDE "audio/music/ssaqua.asm"
+INCLUDE "audio/music/donchan.asm"
 
 SECTION "Sound Effects", ROMX
 
