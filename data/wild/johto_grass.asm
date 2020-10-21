@@ -1291,7 +1291,7 @@ JohtoGrassWildMons:
 	db 6, FLUFFRUIT
 	db 6, DOLMITE
 	db 6, ATTACKO
-	db 7, RESPECTRE
+	db 7, ATTACKO
 
 	map_id DARK_CAVE_BLACKTHORN_ENTRANCE
 	db 5 percent, 5 percent, 5 percent ; encounter rates: morn/day/nite
@@ -1300,7 +1300,7 @@ JohtoGrassWildMons:
 	db 23, STINPEON
 	db 25, DOLMESA
 	db 25, SMOTHERENE
-	db 20, ARASBESTOS
+	db 20, DOLMESA
 	db 23, SCORPEROR
 	db 23, KODOROYAH
 	db 25, SMUCIOUS
@@ -1309,7 +1309,7 @@ JohtoGrassWildMons:
 	db 23, STINPEON
 	db 25, DOLMESA
 	db 25, SMOTHERENE
-	db 30, ARASBESTOS
+	db 30, DOLMESA
 	db 23, SCORPEROR
 	db 23, SMUCIOUS
 	db 25, KODOROYAH
@@ -1318,7 +1318,7 @@ JohtoGrassWildMons:
 	db 23, STINPEON
 	db 25, DOLMESA
 	db 20, RESPECTRE
-	db 25, ARASBESTOS
+	db 25, DOLMESA
 	db 23, SCORPEROR
 	db 23, KODOROYAH
 	db 25, SMUCIOUS
@@ -1420,7 +1420,7 @@ JohtoGrassWildMons:
 	db 9, NOMSTER
 	db 9, SPRUNNY
 	db 9, EUKUB
-	db 10, FURNIT
+	db 10, SPRUNNY
 	db 10, WORMEEK
 	db 10, FURNIT
 	db 11, GOOSAPLING
@@ -1429,7 +1429,7 @@ JohtoGrassWildMons:
 	db 9, GWUBBY
 	db 9, SPRUNNY
 	db 9, GOOSAPLING
-	db 10, FURNIT
+	db 10, SPRUNNY
 	db 10, FURNIT
 	db 10, GWUBBY
 	db 11, SPRUNNY
@@ -1437,11 +1437,11 @@ JohtoGrassWildMons:
 	db 9, GWUBBY
 	db 9, FLUFFRUIT
 	db 9, SPRUNNY
-	db 8, EUKUB
+	db 10, EUKUB
 	db 10, GOOSAPLING
-	db 8, FLUFFRUIT
+	db 9, FLUFFRUIT
 	db 10, FLUFFRUIT
-	db 10, JUNOBE
+	db 11, JUNOBE
 
 	map_id ROUTE_33 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1540,19 +1540,19 @@ JohtoGrassWildMons:
 	db 6, QWAIL
 	db 6, QWAIL
 	db 7, GOOSAPLING
-	db 7, AMBINNI
-	db 7, AMBINNI
-	db 7, GOOSAPLING
+	db 7, LAWNIE
+	db 7, LAWNIE
+	db 8, GOOSAPLING
 	db 8, WORMEEK
 	; day
 	db 6, FURNIT
 	db 6, WORMEEK
 	db 6, LAWNIE
 	db 7, GOOSAPLING
-	db 6, AMBINNI
+	db 6, LAWNIE
 	db 7, QWAIL
-	db 7, GOOSAPLING
-	db 8, AMBINNI
+	db 8, GOOSAPLING
+	db 8, LAWNIE
 	; nite
 	db 6, GWUBBY
 	db 7, EUKUB
@@ -1560,7 +1560,7 @@ JohtoGrassWildMons:
 	db 7, FLUFFRUIT
 	db 7, GOOSAPLING
 	db 7, AMBINNI
-	db 7, FLUFFRUIT
+	db 8, FLUFFRUIT
 	db 8, GWUBBY
 
 	map_id ROUTE_37 ;done

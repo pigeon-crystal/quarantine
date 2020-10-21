@@ -303,7 +303,7 @@ INCBIN "gfx/footprints/gyarados.1bpp",   footprint_top
 INCBIN "gfx/footprints/mandelblob.1bpp",     footprint_top
 INCBIN "gfx/footprints/helactal.1bpp",      footprint_top
 INCBIN "gfx/footprints/eevee.1bpp",      footprint_top
-INCBIN "gfx/footprints/vaporeon.1bpp",   footprint_top
+INCBIN "gfx/footprints/ganzorah.1bpp",   footprint_top
 INCBIN "gfx/footprints/jolteon.1bpp",    footprint_top
 INCBIN "gfx/footprints/flareon.1bpp",    footprint_top
 ; 129-136 bottom halves
@@ -312,7 +312,7 @@ INCBIN "gfx/footprints/gyarados.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/mandelblob.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/helactal.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/eevee.1bpp",      footprint_bottom
-INCBIN "gfx/footprints/vaporeon.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/ganzorah.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/jolteon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/flareon.1bpp",    footprint_bottom
 ; 137-144 top halves

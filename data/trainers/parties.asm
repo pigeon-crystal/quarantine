@@ -18,13 +18,13 @@ FalknerGroup:
 	; FALKNER (1)
 	db "FALKNER@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 13, HOATOXIC
-		db $ec, $dc
-		dw $ca99, $e099, $e0af, $e0aa, $e0aa
-		db  BERRY
+		db $da, $da
+		dw $4a99, $5099, $601f, $70aa, $80aa
+		db  NO_ITEM
 		db  PECK, MUD_SLAP, ACID, POISON_STING
 	db 13, FURDOBA
-		db $ed, $de
-		dw $cfef, $d1e0, $c1ef, $ae1f, $ae1f
+		db $da, $da
+		dw $40e1, $50e0, $61e1, $7e1f, $8600
 		db BERRY
 		db MUD_SLAP, GUST, SANDSTORM, PROTECT
 	db -1 ; end
@@ -35,19 +35,19 @@ WhitneyGroup:
 	db 25, NYALLEY
 		db "NYALLEY@"
 		db PERFECT_DV, $de
-		dw $ac11, $a91a, $c201, $a2c1, $e7fa
+		dw $6c11, $691a, $6201, $62c1, $e7fa
 		db BERRY
 		db CONFUSION, ATTRACT, ENCORE, METRONOME
 	db 24, ATTACKO
 		db "ATTACKO@"
 		db PERFECT_DV, PERFECT_DV
-		dw $a2fa, $a2fa, $a2fa, $a2fa, $a2fa
+		dw $62fa, $62fa, $62fa, $62fa, $a2fa
 		db BERRY
 		db COMET_PUNCH, DRAININGKISS, DISABLE, GLARE
 	db 25, PURRDLE
 		db "PURRDLE@"
-		db $fa, $de 														    					;DVs: atk|def, spd|spc
-		dw $f2fa, $82fa, $e2fa, $e2fa, $a2fa 	;Stat exp: hp, atk, def, spd, spc
+		db $9a, $9e 														    					;DVs: atk|def, spd|spc
+		dw $92fa, $82fa, $72fa, $703a, $920a 	;Stat exp: hp, atk, def, spd, spc
 		db BERRY 																						;item
 		db QUICK_ATTACK, FAINT_ATTACK, REFLECT, BITE															;moves
 	db 26, MAULZER  
@@ -63,7 +63,7 @@ BugsyGroup:
 	db "BUGSY@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 20, SAPPURA
 		db $9b, $ab 
-		dw $c1ea, $a2fa, $c1ec, $fa9d, $fa2c
+		dw $51ea, $52fa, $51ec, $6a9d, $8a2c
 		db BERRY
 		db RAZOR_LEAF, POUND, PAIN_SPLIT, TOXIC
 	db 25, BUZZLING  
@@ -72,13 +72,13 @@ BugsyGroup:
 		db EVIOLITE
 		db DOUBLE_TEAM, TOXIC, FURY_CUTTER, NO_MOVE
 	db 20, EELKIE	   
-		db $9a, $a9 
-		dw PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, $4a2f, $4bcf
+		db $5a, $79 
+		dw $703a, $703a, $703a, $4a2f, $4bcf
 		db BERRY
 		db LICK, LEECH_SEED, CONFUSE_RAY, PROTECT
 	db 21, ORGNOME
 		db PERFECT_DV, PERFECT_DV
-		dw PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, $5f7a
+		dw $703a, $703a, $703a, $703a, $5f7a
 		db BERRY
 	    db BUBBLEBEAM, MEGA_DRAIN, MUD_SLAP, GROWTH
 	db -1 ; end
@@ -559,7 +559,7 @@ SchoolboyGroup:
 	; SCHOOLBOY (8)
 	db "JOE@", TRAINERTYPE_NORMAL
 	db 33, ANTPYRE
-	db 33, VAPOREON
+	db 33, GANZORAH
 	db -1 ; end
 
 	; SCHOOLBOY (9)
@@ -1040,7 +1040,7 @@ CooltrainerFGroup:
 	db "GWEN@", TRAINERTYPE_NORMAL
 	db 26, EEVEE
 	db 22, FLAREON
-	db 22, VAPOREON
+	db 22, GANZORAH
 	db 22, JOLTEON
 	db -1 ; end
 
@@ -3309,7 +3309,7 @@ SageGroup:
 	; SAGE (12)
 	db "KOJI@", TRAINERTYPE_NORMAL
 	db 32, NOCTOWL
-	db 32, VAPOREON
+	db 32, GANZORAH
 	db -1 ; end
 
 MediumGroup:
@@ -3487,7 +3487,7 @@ KimonoGirlGroup:
 
 	; KIMONO_GIRL (5)
 	db "KUNI@", TRAINERTYPE_NORMAL
-	db 17, VAPOREON
+	db 17, GANZORAH
 	db -1 ; end
 
 	; KIMONO_GIRL (6)

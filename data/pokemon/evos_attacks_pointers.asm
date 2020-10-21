@@ -134,7 +134,7 @@ EvosAttacksPointers::
 	dw MandelblobEvosAttacks
 	dw HelactalEvosAttacks
 	dw EeveeEvosAttacks
-	dw VaporeonEvosAttacks
+	dw GanzorahEvosAttacks
 	dw JolteonEvosAttacks
 	dw FlareonEvosAttacks
 	dw PorygonEvosAttacks

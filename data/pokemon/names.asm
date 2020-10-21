@@ -132,7 +132,7 @@ PokemonNames::
 	db "MANDELBLOB"
 	db "HELACTAL@@"
 	db "EEVEE@@@@@"
-	db "VAPOREON@@"
+	db "GANZORAH@@"
 	db "JOLTEON@@@"
 	db "FLAREON@@@"
 	db "PORYGON@@@"

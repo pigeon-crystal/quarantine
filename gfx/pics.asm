@@ -174,7 +174,7 @@ MagnemiteBackpic:    INCBIN "gfx/pokemon/magnemite/back.2bpp.lz"
 
 SECTION "Pics 7", ROMX
 
-VaporeonFrontpic:    INCBIN "gfx/pokemon/vaporeon/front.animated.2bpp.lz"
+GanzorahFrontpic:    INCBIN "gfx/pokemon/ganzorah/front.animated.2bpp.lz"
 SwazzageFrontpic:   INCBIN "gfx/pokemon/swazzage/front.animated.2bpp.lz"
 EelkieFrontpic:     INCBIN "gfx/pokemon/eelkie/front.animated.2bpp.lz"
 SneaselFrontpic:     INCBIN "gfx/pokemon/sneasel/front.animated.2bpp.lz"
@@ -588,7 +588,7 @@ BlainePic:           INCBIN "gfx/trainers/blaine.2bpp.lz"
 SECTION "Pics 17", ROMX
 
 ParasBackpic:        INCBIN "gfx/pokemon/paras/back.2bpp.lz"
-VaporeonBackpic:     INCBIN "gfx/pokemon/vaporeon/back.2bpp.lz"
+GanzorahBackpic:     INCBIN "gfx/pokemon/ganzorah/back.2bpp.lz"
 TentacoolBackpic:    INCBIN "gfx/pokemon/tentacool/back.2bpp.lz"
 ExecutivefPic:       INCBIN "gfx/trainers/executive_f.2bpp.lz"
 BulbasaurBackpic:    INCBIN "gfx/pokemon/bulbasaur/back.2bpp.lz"

@@ -268,8 +268,8 @@ PokemonPicPointers::
 	dba_pic HelactalBackpic
 	dba_pic EeveeFrontpic
 	dba_pic EeveeBackpic
-	dba_pic VaporeonFrontpic
-	dba_pic VaporeonBackpic
+	dba_pic GanzorahFrontpic
+	dba_pic GanzorahBackpic
 	dba_pic JolteonFrontpic
 	dba_pic JolteonBackpic
 	dba_pic FlareonFrontpic

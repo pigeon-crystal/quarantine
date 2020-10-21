@@ -103,7 +103,7 @@ Pokered_MonIndices:
 	db EEVEE
 	db FLAREON
 	db JOLTEON
-	db VAPOREON
+	db GANZORAH
 	db UPWHALE
 	db STINPEON
 	db WYRMOMETER

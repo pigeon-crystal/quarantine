@@ -182,7 +182,7 @@ NewPokedexOrder:
 	db JADDICE
 	db ANTPYRE
 	db EEVEE
-	db VAPOREON
+	db GANZORAH
 	db JOLTEON
 	db FLAREON
 	db ESPEON

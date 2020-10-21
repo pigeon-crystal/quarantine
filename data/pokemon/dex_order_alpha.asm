@@ -229,7 +229,7 @@ AlphabeticalPokedexOrder:
 	db UMBREON
 	db UNOWN
 	db URSKIMO
-	db VAPOREON
+	db GANZORAH
 	db VAZZINATE
 	db VEGETEBAA
 	db VENUSAUR
