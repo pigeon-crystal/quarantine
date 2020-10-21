@@ -371,7 +371,7 @@ INCBIN "gfx/footprints/nanuqua.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/urskimo.1bpp",    footprint_bottom
 ; 161-168 top halves
 INCBIN "gfx/footprints/wendigaunt.1bpp",    footprint_top
-INCBIN "gfx/footprints/furret.1bpp",     footprint_top
+INCBIN "gfx/footprints/purraatzle.1bpp",     footprint_top
 INCBIN "gfx/footprints/nuckawheez.1bpp",   footprint_top
 INCBIN "gfx/footprints/noctowl.1bpp",    footprint_top
 INCBIN "gfx/footprints/wormeek.1bpp",     footprint_top
@@ -380,7 +380,7 @@ INCBIN "gfx/footprints/gwubby.1bpp",   footprint_top
 INCBIN "gfx/footprints/grubboid.1bpp",    footprint_top
 ; 161-168 bottom halves
 INCBIN "gfx/footprints/wendigaunt.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/furret.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/purraatzle.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/nuckawheez.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/noctowl.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/wormeek.1bpp",     footprint_bottom

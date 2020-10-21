@@ -1271,7 +1271,7 @@ JohtoGrassWildMons:
 	db 4, DOLMITE
 	db 4, DOLMITE
 	db 6, FLUFFRUIT
-	db 6, ATTACKO
+	db 6, FLUFFRUIT
 	db 6, ATTACKO
 	db 7, FLUFFRUIT
 	; day
@@ -1280,7 +1280,7 @@ JohtoGrassWildMons:
 	db 4, DOLMITE
 	db 3, DOLMITE
 	db 6, FLUFFRUIT
-	db 6, ATTACKO
+	db 6, DOLMITE
 	db 7, ATTACKO
 	db 6, FLUFFRUIT
 	; nite
@@ -1289,7 +1289,7 @@ JohtoGrassWildMons:
 	db 4, DOLMITE
 	db 4, FLUFFRUIT
 	db 6, FLUFFRUIT
-	db 6, ATTACKO
+	db 6, DOLMITE
 	db 6, ATTACKO
 	db 7, RESPECTRE
 
@@ -1689,7 +1689,7 @@ JohtoGrassWildMons:
 	db 15, NOMSABRE
 	db 16, QWALLOP
 	db 16, FARFETCH_D
-	db 15, FURRET
+	db 15, PURRAATZLE
 	db 17, NOMSABRE
 	db 17, NOMSABRE
 	db 17, WENDIGAUNT
@@ -1698,7 +1698,7 @@ JohtoGrassWildMons:
 	db 15, NOMSABRE
 	db 16, QWALLOP
 	db 16, FARFETCH_D
-	db 15, FURRET
+	db 15, PURRAATZLE
 	db 17, NOMSABRE
 	db 17, NOMSABRE
 	db 17, WENDIGAUNT

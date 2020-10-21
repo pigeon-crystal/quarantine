@@ -189,19 +189,19 @@ KantoGrassWildMons:
 	db 2, NOMSTER
 	db 3, WENDIGAUNT
 	db 3, FURNIT
-	db 6, FURRET
+	db 6, PURRAATZLE
 	db 4, FURNIT
 	db 4, FURNIT
-	db 10, FURRET
+	db 10, PURRAATZLE
 	; day
 	db 2, RADEON
 	db 2, NOMSTER
 	db 3, WENDIGAUNT
 	db 3, FURNIT
-	db 6, FURRET
+	db 6, PURRAATZLE
 	db 4, FURNIT
 	db 4, FURNIT
-	db 10, FURRET
+	db 10, PURRAATZLE
 	; nite
 	db 2, FURSA
 	db 2, NOMSTER

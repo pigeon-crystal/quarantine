@@ -64,7 +64,7 @@ AlphabeticalPokedexOrder:
 	db FORRETRESS
 	db FURDOBA
 	db FURNIT
-	db FURRET
+	db PURRAATZLE
 	db FURSA
 	db GANZERKER
 	db GIGERATOR

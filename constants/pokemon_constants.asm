@@ -181,7 +181,7 @@ JOHTO_POKEMON EQU const_value
 	const NANUQUA  	 ; 9f
 	const URSKIMO    ; a0
 	const WENDIGAUNT ; a1  
-	const FURRET     ; a2 space for purraatzle
+	const PURRAATZLE ; a2 
 	const NUCKAWHEEZ ; a3
 	const NOCTOWL    ; a4 scarecrow
 	const WORMEEK    ; a5 

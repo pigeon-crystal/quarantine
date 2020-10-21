@@ -162,7 +162,7 @@ EvosAttacksPointers::
 	dw NanuquaEvosAttacks
 	dw UrskimoEvosAttacks
 	dw WendigauntEvosAttacks		;orig wendigaunt
-	dw FurretEvosAttacks
+	dw PurraatzleEvosAttacks
 	dw NuckawheezEvosAttacks
 	dw NoctowlEvosAttacks
 	dw WormeekEvosAttacks

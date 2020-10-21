@@ -41,7 +41,7 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; NYALLEY
 	icon_pals BROWN,   YELLOW  ; FELIORITTE
 	icon_pals BROWN,   YELLOW  ; VULPIX
-	icon_pals BLUE,   BROWN  ; MT NOOT
+	icon_pals BLUE,   BROWN    ; MT NOOT
 	icon_pals BROWN,   YELLOW  ; HEXAHED
 	icon_pals BROWN,   YELLOW  ; WIGGLYTUFF
 	icon_pals PINK,    YELLOW  ; STINPEON
@@ -165,7 +165,7 @@ MonMenuIconPals:
 	icon_pals BLUE,   YELLOW   ; NANUQUA
 	icon_pals BLUE,   YELLOW   ; URSKIMO
 	icon_pals BROWN,   YELLOW  ; WENDIGAUNT
-	icon_pals BROWN,   YELLOW  ; FURRET 
+	icon_pals BROWN,   YELLOW  ; PURRAATZLE 
 	icon_pals BROWN,   YELLOW  ; NUCKAWHEEZ
 	icon_pals BROWN,   YELLOW  ; NOCTOWL
 	icon_pals BROWN,   YELLOW  ; WORMEEK

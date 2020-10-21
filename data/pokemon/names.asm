@@ -11,15 +11,15 @@ PokemonNames::
 	db "BUZZLING@@"
 	db "HIVEMAIM@@"
 	db "VAZZINATE@"
-	db "HOATOT@@@@" ;weedle
+	db "HOATOT@@@@" 
 	db "HOATOXIC@@"
 	db "NOXROMAEUS"
-	db "FURNIT@@@@" ;pidgey
+	db "FURNIT@@@@"
 	db "FURDOBA@@@"
 	db "HORNAMPA@@"
-	db "NOMSTER@@@" ;orig rattata
-	db "NOMSABRE@@" ;orig raticate
-	db "QWAIL@@@@@" ;spearow
+	db "NOMSTER@@@"
+	db "NOMSABRE@@"
+	db "QWAIL@@@@@"
 	db "QWALLOP@@@"
 	db "WYRMOMETER"
 	db "IGNAGA@@@@"
@@ -160,7 +160,7 @@ PokemonNames::
 	db "NANUQUA@@@"
 	db "NANATURUK@"
 	db "WENDIGAUNT" 
-	db "FURRET@@@@"
+	db "PURRAATZLE"
 	db "NUCKAWHEEZ"
 	db "NOCTOWL@@@"
 	db "WORMEEK@@@" ;ledyba

@@ -20,7 +20,7 @@ NewPokedexOrder:
 	db NOMSTER ;orig rattata
 	db NOMSABRE ;orig raticate
 	db WENDIGAUNT
-	db FURRET
+	db PURRAATZLE
 	db WANDELUS
 	db PIKACHU
 	db RAICHU

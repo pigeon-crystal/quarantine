@@ -324,8 +324,8 @@ PokemonPicPointers::
 	dba_pic UrskimoBackpic
 	dba_pic WendigauntFrontpic	   ;orig wendigaunt
 	dba_pic WendigauntBackpic
-	dba_pic FurretFrontpic
-	dba_pic FurretBackpic
+	dba_pic PurraatzleFrontpic
+	dba_pic PurraatzleBackpic
 	dba_pic NuckawheezFrontpic
 	dba_pic NuckawheezBackpic
 	dba_pic NoctowlFrontpic

@@ -1,4 +1,4 @@
-	db AIPOM ; 190
+	db AIPOM ; 
 
 	db  55,  70,  55,  85,  40,  55
 	;   hp  atk  def  spd  sat  sdf

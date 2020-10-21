@@ -11,8 +11,8 @@ SwarmGrassWildMons:
 	db 4, DOLMITE
 	db 4, DOLMITE
 	db 4, ATTACKO
-	db 7, DOLMITE
-	db 6, ARASBESTOS
+	db 7, FLUFFRUIT
+	db 6, ATTACKO
 	db 6, ATTACKO
 	; day
 	db 4, DOLMITE
@@ -20,8 +20,8 @@ SwarmGrassWildMons:
 	db 6, ATTACKO
 	db 4, DOLMITE
 	db 6, ATTACKO
-	db 7, DOLMITE
-	db 6, ARASBESTOS
+	db 7, FLUFFRUIT
+	db 6, ATTACKO
 	db 6, ATTACKO
 	; nite
 	db 4, DOLMITE
@@ -30,7 +30,7 @@ SwarmGrassWildMons:
 	db 4, DOLMITE
 	db 6, ATTACKO
 	db 7, FLUFFRUIT
-	db 6, ARASBESTOS
+	db 6, ATTACKO
 	db 6, ATTACKO
 
 ; Arasbestos swarm

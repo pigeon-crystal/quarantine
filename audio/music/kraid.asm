@@ -169,8 +169,11 @@ Music_Kraid_Ch1:
 	octave 3
 	sound_call .sub4
 	sound_call .sub5
+	note __, 1
 	sound_call .sub5
+	note __, 1
 	sound_call .sub5
+	note __, 1
 	sound_call .sub5
 	sound_loop 0, .mainloop
 .sub1:
@@ -278,7 +281,6 @@ Music_Kraid_Ch1:
 	note F#, 1
 	note __, 1
 	note G_, 1
-	note __, 1
 	sound_ret
 
 ; ============================================================================================================

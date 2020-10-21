@@ -4,7 +4,7 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, GHOST ; type
-	db 45 ; catch rate
+	db 47 ; catch rate
 	db 199 ; base exp
 	db MIRACLE_SEED, CHARCOAL ; items
 	db GENDER_F50 ; gender ratio

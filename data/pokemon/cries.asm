@@ -166,7 +166,7 @@ PokemonCries::
 	mon_cry $1F,  			$07b0,  $01ae ; NANUQUA
 	mon_cry $1F,  			$0590,  $02ce ; URSKIMO
 	mon_cry CRY_METAPOD,     138,  410 ; WENDIGAUNT
-	mon_cry CRY_SENTRET,     107,  258 ; FURRET
+	mon_cry CRY_SENTRET,     107,  258 ; PURRAATZLE
 	mon_cry CRY_VENONAT,     400,  400 ; NUCKAWHEEZ
 	mon_cry CRY_HOOTHOOT,      0,  416 ; NOCTOWL
 	mon_cry $36,      		$0F00,  $01DE ; WORMEEK

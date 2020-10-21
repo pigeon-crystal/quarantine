@@ -161,7 +161,7 @@ PokedexDataPointerTable:
 	dw NanuquaPokedexEntry
 	dw UrskimoPokedexEntry
 	dw WendigauntPokedexEntry 		;orig wendigaunt
-	dw FurretPokedexEntry
+	dw PurraatzlePokedexEntry
 	dw NuckawheezPokedexEntry
 	dw NoctowlPokedexEntry
 	dw WormeekPokedexEntry

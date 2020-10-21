@@ -2266,7 +2266,7 @@ WendigauntEvosAttacks:
 	db 55, SPIKES
 	db 0 ; no more level-up moves
 
-FurretEvosAttacks:
+PurraatzleEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 0 ; no more level-up moves

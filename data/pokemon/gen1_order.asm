@@ -200,7 +200,7 @@ Pokered_MonIndices:
 	db NANUQUA
 	db URSKIMO
 	db WENDIGAUNT
-	db FURRET
+	db PURRAATZLE
 	db NUCKAWHEEZ
 	db NOCTOWL
 	db WORMEEK

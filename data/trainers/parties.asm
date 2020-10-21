@@ -1193,7 +1193,7 @@ BeautyGroup:
 
 	; BEAUTY (5)
 	db "BRENDA@", TRAINERTYPE_NORMAL
-	db 16, FURRET
+	db 16, PURRAATZLE
 	db -1 ; end
 
 	; BEAUTY (6)
@@ -2940,7 +2940,7 @@ PicnickerGroup:
 
 	; PICNICKER (7)
 	db "SHARON@", TRAINERTYPE_NORMAL
-	db 31, FURRET
+	db 31, PURRAATZLE
 	db 33, MAJESDOR
 	db -1 ; end
 
@@ -3584,7 +3584,7 @@ PokefanFGroup:
 	db 23, WENDIGAUNT,    BERRY
 	db 23, WENDIGAUNT,    BERRY
 	db 23, WENDIGAUNT,    BERRY
-	db 28, FURRET,     BERRY
+	db 28, PURRAATZLE,     BERRY
 	db 23, WENDIGAUNT,    BERRY
 	db -1 ; end
 

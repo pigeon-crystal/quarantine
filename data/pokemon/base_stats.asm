@@ -193,7 +193,7 @@ INCLUDE "data/pokemon/base_stats/fursa.asm"           ;orig totodile
 INCLUDE "data/pokemon/base_stats/nanuqua.asm"
 INCLUDE "data/pokemon/base_stats/urskimo.asm"
 INCLUDE "data/pokemon/base_stats/wendigaunt.asm" 		  ;wendigaunt
-INCLUDE "data/pokemon/base_stats/furret.asm"
+INCLUDE "data/pokemon/base_stats/purraatzle.asm"
 INCLUDE "data/pokemon/base_stats/nuckawheez.asm"
 INCLUDE "data/pokemon/base_stats/noctowl.asm"
 INCLUDE "data/pokemon/base_stats/wormeek.asm" 			;ledyba
