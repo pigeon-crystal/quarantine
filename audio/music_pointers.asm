@@ -109,3 +109,9 @@ Music:
 ; new to Quarantine Crystal
 	dba Music_Kraid
 	dba Music_Donchan
+	dba Music_Forge
+	dba Music_Taps
+	dba Music_LookTCGMaster
+	dba Music_LookCheater
+	dba Music_LookEnforcer
+	dba Music_Legendary

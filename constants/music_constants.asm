@@ -111,6 +111,12 @@
 ; new to QuarantineCrystal!
 	const MUSIC_KRAID						 ; 67
 	const MUSIC_DONCHAN					     ; 68
+	const MUSIC_FORGE						 ; 69
+	const MUSIC_TAPS						 ; 6a
+	const MUSIC_LOOK_TCG_MASTER				 ; 6b
+	const MUSIC_LOOK_CHEATER				 ; 6c
+	const MUSIC_LOOK_ENFORCER				 ; 6d
+	const MUSIC_LEGENDARY					 ; 6f
 
 ; GetMapMusic picks music for this value (see home/map.asm)
 MUSIC_MAHOGANY_MART EQU $64

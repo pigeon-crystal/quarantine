@@ -144,6 +144,12 @@ INCLUDE "audio/music/printer.asm"
 INCLUDE "audio/music/kraid.asm"
 INCLUDE "audio/music/ssaqua.asm"
 INCLUDE "audio/music/donchan.asm"
+INCLUDE "audio/music/forge.asm"
+INCLUDE "audio/music/taps.asm"
+INCLUDE "audio/music/looktcgmaster.asm"
+INCLUDE "audio/music/lookcheater.asm"
+INCLUDE "audio/music/lookenforcer.asm"
+INCLUDE "audio/music/legendary.asm"
 
 SECTION "Sound Effects", ROMX
 
