@@ -162,4 +162,6 @@
 	const EFFECT_CALM_MIND
 	const EFFECT_SPEED_UP_HIT
 	const EFFECT_REST
+	const EFFECT_DETECT
+	
 	

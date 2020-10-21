@@ -2167,3 +2167,14 @@ Rest:
 	doturn
 	heal
 	endmove
+	
+DetectEffect:
+	checkobedience
+	usedmovetext
+	doturn
+	protect
+	accuracyup
+	statupanim
+	statupmessage
+	statupfailtext
+	endmove

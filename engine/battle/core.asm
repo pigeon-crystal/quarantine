@@ -657,7 +657,7 @@ ParsePlayerAction:
 .not_encored
 	ld a, [wBattlePlayerAction]
 	cp BATTLEPLAYERACTION_SWITCH
-	jr z, .reset_rage
+	jp z, .reset_rage
 	and a
 	jr nz, .reset_bide
 	ld a, [wPlayerSubStatus3]
@@ -705,6 +705,8 @@ ParsePlayerAction:
 .continue_rage
 	ld a, [wPlayerMoveStruct + MOVE_EFFECT]
 	cp EFFECT_PROTECT
+	jr z, .continue_protect
+	cp EFFECT_DETECT
 	jr z, .continue_protect
 	cp EFFECT_ENDURE
 	jr z, .continue_protect
@@ -6030,6 +6032,8 @@ ParseEnemyAction:
 .no_rage
 	ld a, [wEnemyMoveStruct + MOVE_EFFECT]
 	cp EFFECT_PROTECT
+	ret z
+	cp EFFECT_DETECT
 	ret z
 	cp EFFECT_ENDURE
 	ret z

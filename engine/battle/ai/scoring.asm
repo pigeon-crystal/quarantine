@@ -389,6 +389,7 @@ AI_Smart:
 	dbw EFFECT_THUNDER,          AI_Smart_Thunder
 	dbw EFFECT_FLY,              AI_Smart_Fly
 	dbw EFFECT_REST, 			 AI_Smart_Rest
+	dbw EFFECT_DETECT, 		     AI_Smart_Protect
 	db -1 ; end
 
 AI_Smart_Sleep:

@@ -162,3 +162,4 @@ MoveEffectsPointers:
 	dw CalmMind
 	dw SpeedUpHit
 	dw Rest
+	dw DetectEffect

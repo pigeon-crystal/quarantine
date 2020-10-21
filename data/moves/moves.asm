@@ -208,7 +208,7 @@ Moves:: ; 41afb
 	move DESTINY_BOND, EFFECT_DESTINY_BOND,        0, GHOST,    	STATUS,   100,  5,   0
 	move PERISH_SONG,  EFFECT_PERISH_SONG,         0, NORMAL,   	STATUS,   100,  5,   0
 	move ICY_WIND,     EFFECT_SPEED_DOWN_HIT,     55, ICE,      	SPECIAL,   95, 15, 100
-	move DETECT,       EFFECT_PROTECT,             0, FIGHTING, 	STATUS,   100,  5,   0
+	move DETECT,       EFFECT_DETECT,              0, FIGHTING, 	STATUS,   100,  5,   0
 	move BONE_RUSH,    EFFECT_MULTI_HIT,          24, GROUND,   	PHYSICAL,  90, 10,   0
 	move LOCK_ON,      EFFECT_LOCK_ON,             0, NORMAL,   	STATUS,   100,  5,   0
 	move OUTRAGE,      EFFECT_RAMPAGE,           111, DRAGON,   	PHYSICAL, 100, 15,   0
