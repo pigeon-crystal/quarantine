@@ -1,10 +1,10 @@
-	db "TRAP@" ; species name
+	db "LURE@" ; species name
 	dw 201, 195 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "BOBBITE bury"
+	next "themselves with"
+	next "their lure above"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "ground. Gullible"
+	next "trainers recieve"
+	next "a nasty nip.@"

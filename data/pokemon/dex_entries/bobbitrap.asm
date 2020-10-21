@@ -1,10 +1,10 @@
-	db "LURE@" ; species name
+	db "TRAP@" ; species name
 	dw 910, 2044 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "A hungry worm that"
+	next "decieves unwary"
+	next "explorers into dead"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "end crevasses"
+	next "from which they"
+	next "may not emerge.@"

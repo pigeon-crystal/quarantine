@@ -145,7 +145,7 @@ PokemonCries::
 	mon_cry CRY_CYNDAQUIL,   444,  380 ; MAMMOTHRA
 	mon_cry CRY_MAGCARGO,    55,   350 ; BEHEMOTHRA
 	mon_cry CRY_CATERPIE,    187,  192 ; BELLOCEROS
-	mon_cry CRY_FEAROW,      238,  129 ; KABUTOPS
+	mon_cry CRY_FEAROW,      238,  129 ; SUBCEROS
 	mon_cry CRY_VILEPLUME,    32,  368 ; AERODACTYL
 	mon_cry CRY_GRIMER,       85,  129 ; SNORLAX
 	mon_cry CRY_RAICHU,      128,  192 ; ARTICUNO

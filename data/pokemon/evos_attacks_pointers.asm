@@ -141,7 +141,7 @@ EvosAttacksPointers::
 	dw MammothraEvosAttacks
 	dw BehemothraEvosAttacks
 	dw BellocerosEvosAttacks
-	dw KabutopsEvosAttacks
+	dw SubcerosEvosAttacks
 	dw AerodactylEvosAttacks
 	dw SnorlaxEvosAttacks
 	dw ArticunoEvosAttacks

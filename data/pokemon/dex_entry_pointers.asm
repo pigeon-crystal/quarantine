@@ -140,7 +140,7 @@ PokedexDataPointerTable:
 	dw MammothraPokedexEntry
 	dw BehemothraPokedexEntry
 	dw BellocerosPokedexEntry
-	dw KabutopsPokedexEntry
+	dw SubcerosPokedexEntry
 	dw AerodactylPokedexEntry
 	dw SnorlaxPokedexEntry
 	dw ArticunoPokedexEntry

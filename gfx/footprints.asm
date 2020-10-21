@@ -320,7 +320,7 @@ INCBIN "gfx/footprints/porygon.1bpp",    footprint_top
 INCBIN "gfx/footprints/mammothra.1bpp",    footprint_top
 INCBIN "gfx/footprints/behemothra.1bpp",    footprint_top
 INCBIN "gfx/footprints/belloceros.1bpp",     footprint_top
-INCBIN "gfx/footprints/kabutops.1bpp",   footprint_top
+INCBIN "gfx/footprints/subceros.1bpp",   footprint_top
 INCBIN "gfx/footprints/aerodactyl.1bpp", footprint_top
 INCBIN "gfx/footprints/snorlax.1bpp",    footprint_top
 INCBIN "gfx/footprints/articuno.1bpp",   footprint_top
@@ -329,7 +329,7 @@ INCBIN "gfx/footprints/porygon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/mammothra.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/behemothra.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/belloceros.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/kabutops.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/subceros.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/aerodactyl.1bpp", footprint_bottom
 INCBIN "gfx/footprints/snorlax.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/articuno.1bpp",   footprint_bottom

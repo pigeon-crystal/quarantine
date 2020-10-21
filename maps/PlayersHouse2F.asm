@@ -51,9 +51,9 @@ PosterScript:
 	describedecoration DECODESC_POSTER
 
 PlayersHouseRadioScript:
-	givepoke DRASSAL, 50
-	loadwildmon HO_OH, 50
-	startbattle
+	givepoke BOBBITRAP, 50
+	givepoke SQUEENIE, 50
+	warp SLOWPOKE_WELL_B1F, 6, 3
 	end
 ;PlayersHouseRadioScript:
 ;	checkevent EVENT_GOT_A_POKEMON_FROM_ELM

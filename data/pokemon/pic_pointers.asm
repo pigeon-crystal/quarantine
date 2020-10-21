@@ -282,8 +282,8 @@ PokemonPicPointers::
 	dba_pic BehemothraBackpic
 	dba_pic BellocerosFrontpic
 	dba_pic BellocerosBackpic
-	dba_pic KabutopsFrontpic
-	dba_pic KabutopsBackpic
+	dba_pic SubcerosFrontpic
+	dba_pic SubcerosBackpic
 	dba_pic AerodactylFrontpic
 	dba_pic AerodactylBackpic
 	dba_pic SnorlaxFrontpic

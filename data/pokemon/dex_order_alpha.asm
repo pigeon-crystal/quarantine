@@ -96,7 +96,7 @@ AlphabeticalPokedexOrder:
 	db HEXAHED
 	db JOLTEON
 	db JUNOBE
-	db KABUTOPS
+	db SUBCEROS
 	db KALKOLA
 	db GENEROPSIS
 	db KOAGAN

@@ -1956,7 +1956,7 @@ BehemothraEvosAttacks:
 	db 0 ; no more level-up moves
 
 BellocerosEvosAttacks:
-	db EVOLVE_LEVEL, 39, KABUTOPS
+	db EVOLVE_LEVEL, 39, SUBCEROS
 	db 0 ; no more evolutions
 	db 1, ENDURE
 	db 1, ICY_WIND
@@ -1974,7 +1974,7 @@ BellocerosEvosAttacks:
 	db 57, ICICLE_CRASH
 	db 0 ; no more level-up moves
 
-KabutopsEvosAttacks:
+SubcerosEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, ENDURE
 	db 1, ICY_WIND

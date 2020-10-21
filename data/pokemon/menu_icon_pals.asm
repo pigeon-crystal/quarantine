@@ -144,7 +144,7 @@ MonMenuIconPals:
 	icon_pals RED,   YELLOW    ; MAMMOTHRA
 	icon_pals RED,   YELLOW    ; BEHEMOTHRA
 	icon_pals BROWN,   YELLOW  ; BELLOCEROS
-	icon_pals BROWN,   YELLOW  ; KABUTOPS
+	icon_pals BROWN,   YELLOW  ; SUBCEROS
 	icon_pals BROWN,   YELLOW  ; AERODACTYL
 	icon_pals BROWN,   YELLOW  ; SNORLAX
 	icon_pals BROWN,   YELLOW  ; ARTICUNO

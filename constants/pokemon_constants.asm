@@ -159,7 +159,7 @@
 	const MAMMOTHRA  ; 8a
 	const BEHEMOTHRA ; 8b
 	const BELLOCEROS ; 8c
-	const KABUTOPS   ; 8d Subceros
+	const SUBCEROS   ; 8d 
 	const AERODACTYL ; 8e Wellwitchsia
 	const SNORLAX    ; 8f therazor
 	const ARTICUNO   ; 90 horn trio

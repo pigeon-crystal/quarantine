@@ -2582,10 +2582,20 @@ UnevolvedEviolite:
 	ldh a, [hBattleTurn]
 	and a
 	ld a, [hl]
-	jr nz, .Unevolved
+	jr nz, .got_species
 	ld a, [wTempEnemyMonSpecies]
 
-.Unevolved:
+.got_species:
+; say "no eviolite to you" for special monsters :)
+	cp NOMSABRE
+	jr z, .done
+	cp GANZERKER
+	jr z, .done
+	cp MUMAGNUS
+	jr z, .done
+	cp SCORPEROR
+	jr z, .done
+	
 ; check if the defender has any evolutions
 ; hl := EvosAttacksPointers + (species - 1) * 2
 	dec a

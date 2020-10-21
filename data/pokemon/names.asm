@@ -139,7 +139,7 @@ PokemonNames::
 	db "MAMMOTHRA@"
 	db "BEHEMOTHRA"
 	db "BELLOCEROS"
-	db "KABUTOPS@@"
+	db "SUBCEROS@@"
 	db "AERODACTYL"
 	db "SNORLAX@@@"
 	db "ARTICUNO@@"
