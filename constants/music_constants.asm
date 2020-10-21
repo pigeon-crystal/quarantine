@@ -113,10 +113,15 @@
 	const MUSIC_DONCHAN					     ; 68
 	const MUSIC_FORGE						 ; 69
 	const MUSIC_TAPS						 ; 6a
-	const MUSIC_LOOK_TCG_MASTER				 ; 6b
-	const MUSIC_LOOK_CHEATER				 ; 6c
-	const MUSIC_LOOK_ENFORCER				 ; 6d
+	const MUSIC_TCG_MASTER_ENCOUNTER		 ; 6b
+	const MUSIC_CHEATER_ENCOUNTER			 ; 6c
+	const MUSIC_ENFORCER_ENCOUNTER			 ; 6d
 	const MUSIC_LEGENDARY					 ; 6f
+	const MUSIC_CHAMPION_VICTORY			 ; 70
+	const MUSIC_TENSION						 ; 71
+	const MUSIC_IMAKUNI_ENCOUNTER		     ; 72
+	const MUSIC_DJ							 ; 73
+	const MUSIC_FINAL_HOURS					 ; 74
 
 ; GetMapMusic picks music for this value (see home/map.asm)
 MUSIC_MAHOGANY_MART EQU $64

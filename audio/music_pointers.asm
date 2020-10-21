@@ -115,3 +115,9 @@ Music:
 	dba Music_LookCheater
 	dba Music_LookEnforcer
 	dba Music_Legendary
+	dba Music_ChampionVictory
+	dba Music_Tension
+	dba Music_LookImakuni
+	dba Music_DJ
+	dba Music_FinalHours
+	

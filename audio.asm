@@ -150,6 +150,11 @@ INCLUDE "audio/music/looktcgmaster.asm"
 INCLUDE "audio/music/lookcheater.asm"
 INCLUDE "audio/music/lookenforcer.asm"
 INCLUDE "audio/music/legendary.asm"
+INCLUDE "audio/music/championvictory.asm"
+INCLUDE "audio/music/tension.asm"
+INCLUDE "audio/music/lookimakuni.asm"
+INCLUDE "audio/music/dj.asm"
+INCLUDE "audio/music/finalhours.asm"
 
 SECTION "Sound Effects", ROMX
 
