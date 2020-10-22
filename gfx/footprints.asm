@@ -82,8 +82,8 @@ INCBIN "gfx/footprints/onioni.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/nidoqueen.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/prawmate.1bpp",  footprint_bottom
 ; 033-040 top halves
-INCBIN "gfx/footprints/nidorino.1bpp",   footprint_top
-INCBIN "gfx/footprints/nidoking.1bpp",   footprint_top
+INCBIN "gfx/footprints/shrimpanzi.1bpp",   footprint_top
+INCBIN "gfx/footprints/swimian.1bpp",   footprint_top
 INCBIN "gfx/footprints/nyalley.1bpp",   footprint_top
 INCBIN "gfx/footprints/felioritte.1bpp",   footprint_top
 INCBIN "gfx/footprints/vulpix.1bpp",     footprint_top
@@ -91,8 +91,8 @@ INCBIN "gfx/footprints/mt_noot.1bpp",  footprint_top
 INCBIN "gfx/footprints/hexahed.1bpp", footprint_top
 INCBIN "gfx/footprints/icosahed.1bpp", footprint_top
 ; 033-040 bottom halves
-INCBIN "gfx/footprints/nidorino.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/nidoking.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/shrimpanzi.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/swimian.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/nyalley.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/felioritte.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/vulpix.1bpp",     footprint_bottom
@@ -322,7 +322,7 @@ INCBIN "gfx/footprints/behemothra.1bpp",    footprint_top
 INCBIN "gfx/footprints/belloceros.1bpp",     footprint_top
 INCBIN "gfx/footprints/subceros.1bpp",   footprint_top
 INCBIN "gfx/footprints/aerodactyl.1bpp", footprint_top
-INCBIN "gfx/footprints/snorlax.1bpp",    footprint_top
+INCBIN "gfx/footprints/therazor.1bpp",    footprint_top
 INCBIN "gfx/footprints/articuno.1bpp",   footprint_top
 ; 137-144 bottom halves
 INCBIN "gfx/footprints/porygon.1bpp",    footprint_bottom
@@ -331,7 +331,7 @@ INCBIN "gfx/footprints/behemothra.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/belloceros.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/subceros.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/aerodactyl.1bpp", footprint_bottom
-INCBIN "gfx/footprints/snorlax.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/therazor.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/articuno.1bpp",   footprint_bottom
 ; 145-152 top halves
 INCBIN "gfx/footprints/zapdos.1bpp",     footprint_top

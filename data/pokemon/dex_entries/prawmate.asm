@@ -1,10 +1,10 @@
-	db "GLAM STAR@" ; species name
-	dw 409, 975 ; height, weight
+	db "YEARLING@" ; species name >>45144804
+	dw 200, 215 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "For its size PRAW-"
+	next "MATE is highly in-"
+	next "telligent. They"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "require intense"
+	next "care by their"
+	next "parents, however.@"

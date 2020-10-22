@@ -402,18 +402,18 @@ NidoqueenEvosAttacks:
 	db 0 ; no more level-up moves
 
 PrawmateEvosAttacks:
-	db EVOLVE_LEVEL, 16, NIDORINO
+	db EVOLVE_LEVEL, 16, SHRIMPANZI
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 0 ; no more level-up moves
 
-NidorinoEvosAttacks:
-	db EVOLVE_ITEM, MOON_STONE, NIDOKING
+ShrimpanziEvosAttacks:
+	db EVOLVE_ITEM, MOON_STONE, SWIMIAN
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 0 ; no more level-up moves
 
-NidokingEvosAttacks:
+SwimianEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves
@@ -1993,7 +1993,7 @@ AerodactylEvosAttacks:
 	db 1, WING_ATTACK
 	db 0 ; no more level-up moves
 
-SnorlaxEvosAttacks:
+TherazorEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves

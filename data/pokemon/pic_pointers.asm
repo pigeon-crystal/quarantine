@@ -66,10 +66,10 @@ PokemonPicPointers::
 	dba_pic NidoqueenBackpic
 	dba_pic PrawmateFrontpic
 	dba_pic PrawmateBackpic
-	dba_pic NidorinoFrontpic
-	dba_pic NidorinoBackpic
-	dba_pic NidokingFrontpic
-	dba_pic NidokingBackpic
+	dba_pic ShrimpanziFrontpic
+	dba_pic ShrimpanziBackpic
+	dba_pic SwimianFrontpic
+	dba_pic SwimianBackpic
 	dba_pic NyalleyFrontpic
 	dba_pic NyalleyBackpic
 	dba_pic FelioritteFrontpic
@@ -286,8 +286,8 @@ PokemonPicPointers::
 	dba_pic SubcerosBackpic
 	dba_pic AerodactylFrontpic
 	dba_pic AerodactylBackpic
-	dba_pic SnorlaxFrontpic
-	dba_pic SnorlaxBackpic
+	dba_pic TherazorFrontpic
+	dba_pic TherazorBackpic
 	dba_pic ArticunoFrontpic
 	dba_pic ArticunoBackpic
 	dba_pic ZapdosFrontpic

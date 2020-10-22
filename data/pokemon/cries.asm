@@ -37,8 +37,8 @@ PokemonCries::
 	mon_cry CRY_NIDORAN_F,    44,  352 ; ONIONI
 	mon_cry CRY_NIDOQUEEN,     0,  256 ; NIDOQUEEN
 	mon_cry CRY_NIDORAN_M,     0,  256 ; PRAWMATE
-	mon_cry CRY_NIDORAN_M,    44,  320 ; NIDORINO
-	mon_cry CRY_RAICHU,        0,  256 ; NIDOKING
+	mon_cry CRY_NIDORAN_M,    44,  320 ; SHRIMPANZI
+	mon_cry CRY_RAICHU,        0,  256 ; SWIMIAN
 	mon_cry CRY_CLEFAIRY,    204,  129 ; NYALLEY
 	mon_cry CRY_CLEFAIRY,    170,  160 ; FELIORITTE
 	mon_cry CRY_VULPIX,       79,  144 ; VULPIX
@@ -147,7 +147,7 @@ PokemonCries::
 	mon_cry CRY_CATERPIE,    187,  192 ; BELLOCEROS
 	mon_cry CRY_FEAROW,      238,  129 ; SUBCEROS
 	mon_cry CRY_VILEPLUME,    32,  368 ; AERODACTYL
-	mon_cry CRY_GRIMER,       85,  129 ; SNORLAX
+	mon_cry CRY_GRIMER,       85,  129 ; THERAZOR
 	mon_cry CRY_RAICHU,      128,  192 ; ARTICUNO
 	mon_cry CRY_FEAROW,      255,  256 ; ZAPDOS
 	mon_cry CRY_RAICHU,      248,  192 ; BLAZENBULL

@@ -515,7 +515,7 @@ KantoGrassWildMons:
 	map_id ROUTE_13 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, NIDORINO
+	db 23, SHRIMPANZI
 	db 23, ONIONI
 	db 25, FURDOBA
 	db 25, SHABBYCAT
@@ -524,7 +524,7 @@ KantoGrassWildMons:
 	db 25, CALARMOURI
 	db 26, CALARMOURI
 	; day
-	db 23, NIDORINO
+	db 23, SHRIMPANZI
 	db 23, ONIONI
 	db 25, FURDOBA
 	db 25, SHABBYCAT
@@ -545,7 +545,7 @@ KantoGrassWildMons:
 	map_id ROUTE_14 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 26, NIDORINO
+	db 26, SHRIMPANZI
 	db 26, ONIONI
 	db 28, FURDOBA
 	db 28, SHABBYCAT
@@ -554,7 +554,7 @@ KantoGrassWildMons:
 	db 28, CALARMOURI
 	db 30, CALARMOURI
 	; day
-	db 26, NIDORINO
+	db 26, SHRIMPANZI
 	db 26, ONIONI
 	db 28, FURDOBA
 	db 28, SHABBYCAT
@@ -575,7 +575,7 @@ KantoGrassWildMons:
 	map_id ROUTE_15
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, NIDORINO
+	db 23, SHRIMPANZI
 	db 23, ONIONI
 	db 25, FURDOBA
 	db 25, SHABBYCAT
@@ -584,7 +584,7 @@ KantoGrassWildMons:
 	db 25, CALARMOURI
 	db 30, CALARMOURI
 	; day
-	db 23, NIDORINO
+	db 23, SHRIMPANZI
 	db 23, ONIONI
 	db 25, FURDOBA
 	db 25, SHABBYCAT

@@ -31,7 +31,7 @@ SpriteMons:
 	db MANDELBLOB
 	db TENDRILL
 	db BLAZENBULL
-	db SNORLAX
+	db THERAZOR
 	db GYARADOS
 	db AVATRICE
 	db HO_OH

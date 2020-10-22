@@ -36,8 +36,8 @@ MonMenuIconPals:
 	icon_pals YELLOW,   YELLOW  ; ONIONI
 	icon_pals RED,   GREEN  ; NIDOQUEEN
 	icon_pals PINK,   YELLOW  ; PRAWMATE
-	icon_pals PINK,   YELLOW  ; NIDORINO
-	icon_pals PINK,   YELLOW  ; NIDOKING
+	icon_pals PINK,   YELLOW  ; SHRIMPANZI
+	icon_pals PINK,   YELLOW  ; SWIMIAN
 	icon_pals BROWN,   YELLOW  ; NYALLEY
 	icon_pals BROWN,   YELLOW  ; FELIORITTE
 	icon_pals BROWN,   YELLOW  ; VULPIX
@@ -146,7 +146,7 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; BELLOCEROS
 	icon_pals BROWN,   YELLOW  ; SUBCEROS
 	icon_pals BROWN,   YELLOW  ; AERODACTYL
-	icon_pals BROWN,   YELLOW  ; SNORLAX
+	icon_pals BROWN,   YELLOW  ; THERAZOR
 	icon_pals BROWN,   YELLOW  ; ARTICUNO
 	icon_pals BROWN,   YELLOW  ; ZAPDOS
 	icon_pals GRAY,   PURPLE  ; BLAZENBULL

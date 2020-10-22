@@ -33,8 +33,8 @@ EvosAttacksPointers::
 	dw OnioniEvosAttacks
 	dw NidoqueenEvosAttacks
 	dw PrawmateEvosAttacks
-	dw NidorinoEvosAttacks
-	dw NidokingEvosAttacks
+	dw ShrimpanziEvosAttacks
+	dw SwimianEvosAttacks
 	dw NyalleyEvosAttacks
 	dw FelioritteEvosAttacks
 	dw VulpixEvosAttacks
@@ -143,7 +143,7 @@ EvosAttacksPointers::
 	dw BellocerosEvosAttacks
 	dw SubcerosEvosAttacks
 	dw AerodactylEvosAttacks
-	dw SnorlaxEvosAttacks
+	dw TherazorEvosAttacks
 	dw ArticunoEvosAttacks
 	dw ZapdosEvosAttacks
 	dw BlazenbullEvosAttacks

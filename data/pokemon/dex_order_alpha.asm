@@ -135,12 +135,12 @@ AlphabeticalPokedexOrder:
 	db MUMINI
 	db NANUQUA
 	db NAVIGAZER
-	db NIDOKING
+	db SWIMIAN
 	db NIDOQUEEN
 	db SPRUNNY
 	db PRAWMATE
 	db ONIONI
-	db NIDORINO
+	db SHRIMPANZI
 	db MT_NOOT
 	db NOCTOWL
 	db NOMSABRE
@@ -205,7 +205,7 @@ AlphabeticalPokedexOrder:
 	db SMOTHERENE
 	db SMUCIOUS
 	db SNEASEL
-	db SNORLAX
+	db THERAZOR
 	db SNOVERDOSE
 	db SNOWUP
 	db SQUIRTLE

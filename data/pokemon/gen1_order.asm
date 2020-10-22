@@ -5,7 +5,7 @@ Pokered_MonIndices:
 	db NYALLEY
 	db QWAIL
 	db VOLTORB
-	db NIDOKING
+	db SWIMIAN
 	db SLOWBRO
 	db IVYSAUR
 	db CANTOGETHA
@@ -130,7 +130,7 @@ Pokered_MonIndices:
 	db MOSSARRE
 	db SCORPEROR
 	db MA_0
-	db SNORLAX
+	db THERAZOR
 	db MAGIKARP
 	db POLYRO ; MISSINGNO.
 	db MISSINGNO ; MISSINGNO.
@@ -165,7 +165,7 @@ Pokered_MonIndices:
 	db MAJESDOR
 	db NOMSTER
 	db NOMSABRE
-	db NIDORINO
+	db SHRIMPANZI
 	db ONIONI
 	db DOLMITE
 	db PORYGON

@@ -32,8 +32,8 @@ PokedexDataPointerTable:
 	dw OnioniPokedexEntry
 	dw NidoqueenPokedexEntry
 	dw PrawmatePokedexEntry
-	dw NidorinoPokedexEntry
-	dw NidokingPokedexEntry
+	dw ShrimpanziPokedexEntry
+	dw SwimianPokedexEntry
 	dw NyalleyPokedexEntry
 	dw FeliorittePokedexEntry
 	dw VulpixPokedexEntry
@@ -142,7 +142,7 @@ PokedexDataPointerTable:
 	dw BellocerosPokedexEntry
 	dw SubcerosPokedexEntry
 	dw AerodactylPokedexEntry
-	dw SnorlaxPokedexEntry
+	dw TherazorPokedexEntry
 	dw ArticunoPokedexEntry
 	dw ZapdosPokedexEntry
 	dw BlazenbullPokedexEntry

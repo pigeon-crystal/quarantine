@@ -393,7 +393,7 @@ BattleTowerMons1:
 	bigdw 39 ; SDef
 	db "HAPINASU@@@"
 
-	db SNORLAX
+	db THERAZOR
 	db MIRACLEBERRY
 	db HEADBUTT, PROTECT, SNORE, SURF
 	dw 0 ; OT ID
@@ -1046,7 +1046,7 @@ BattleTowerMons2:
 	bigdw 36 ; SDef
 	db "PUKURIN@@@@"
 
-	db NIDOKING
+	db SWIMIAN
 	db BERRY
 	db BLIZZARD, EARTHQUAKE, SURF, THUNDERPUNCH
 	dw 0 ; OT ID
@@ -1702,7 +1702,7 @@ BattleTowerMons4:
 	bigdw 115 ; SDef
 	db "KINGUDORA@@"
 
-	db SNORLAX
+	db THERAZOR
 	db QUICK_CLAW
 	db ATTRACT, BODY_SLAM, PSYCH_UP, EARTHQUAKE
 	dw 0 ; OT ID
@@ -2277,7 +2277,7 @@ BattleTowerMons5:
 	bigdw 279 ; SDef
 	db "TUBOTUBO@@@"
 
-	db SNORLAX
+	db THERAZOR
 	db LEFTOVERS
 	db HYPER_BEAM, EARTHQUAKE, SURF, PSYCH_UP
 	dw 0 ; OT ID
@@ -3086,7 +3086,7 @@ BattleTowerMons6:
 	bigdw 215 ; SDef
 	db "HAPINASU@@@"
 
-	db SNORLAX
+	db THERAZOR
 	db PINK_BOW
 	db ROCK_SLIDE, SURF, BODY_SLAM, EARTHQUAKE
 	dw 0 ; OT ID
@@ -3401,7 +3401,7 @@ BattleTowerMons7:
 	bigdw 250 ; SDef
 	db "HAPINASU@@@"
 
-	db SNORLAX
+	db THERAZOR
 	db LEFTOVERS
 	db ROCK_SLIDE, EARTHQUAKE, BLIZZARD, SHADOW_BALL
 	dw 0 ; OT ID
@@ -3872,7 +3872,7 @@ BattleTowerMons8:
 	bigdw 221 ; SDef
 	db "SANDA-SU@@@"
 
-	db SNORLAX
+	db THERAZOR
 	db LEFTOVERS
 	db REST, BELLY_DRUM, SNORE, EARTHQUAKE
 	dw 0 ; OT ID
@@ -4681,7 +4681,7 @@ BattleTowerMons9:
 	bigdw 230 ; SDef
 	db "KAIRIKI-@@@"
 
-	db SNORLAX
+	db THERAZOR
 	db MIRACLEBERRY
 	db FIRE_BLAST, SURF, EARTHQUAKE, HYPER_BEAM
 	dw 0 ; OT ID

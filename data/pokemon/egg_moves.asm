@@ -440,7 +440,7 @@ AerodactylEggMoves:
 	db FORESIGHT
 	db -1 ; end
 
-SnorlaxEggMoves:
+TherazorEggMoves:
 	db LICK
 	db -1 ; end
 

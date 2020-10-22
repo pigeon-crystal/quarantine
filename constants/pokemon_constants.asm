@@ -51,8 +51,8 @@
 	const ONIONI   	 ; 1e
 	const NIDOQUEEN  ; 1f onionion
 	const PRAWMATE   ; 20
-	const NIDORINO   ; 21 shrimpanzi
-	const NIDOKING   ; 22 swimian
+	const SHRIMPANZI ; 21 shrimpanzi
+	const SWIMIAN    ; 22 swimian
 	const NYALLEY    ; 23
 	const FELIORITTE ; 24
 	const VULPIX     ; 25 veil shroom
@@ -161,7 +161,7 @@
 	const BELLOCEROS ; 8c
 	const SUBCEROS   ; 8d 
 	const AERODACTYL ; 8e Wellwitchsia
-	const SNORLAX    ; 8f therazor
+	const THERAZOR    ; 8f therazor
 	const ARTICUNO   ; 90 horn trio
 	const ZAPDOS     ; 91 horn trio
 	const BLAZENBULL ; 92
