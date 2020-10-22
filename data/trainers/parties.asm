@@ -3244,7 +3244,7 @@ SageGroup:
 	; SAGE (4) ;sprout
 	db "TROY@", TRAINERTYPE_NORMAL
 	db   9, LAWNIE
-	db 	 9, LAMSEED
+	db 	 9, SPRUNNY
 	db  10, LAWNIE
 	db -1 ; end
 
@@ -3281,16 +3281,16 @@ SageGroup:
 	; SAGE (9) ;sprout boss
 	db "LI@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 10, LAWNIE
-		dw $71F1, $5211, $626A, $9190, $510D
+		dw $71F1, $5211, $626A, $4190, $510D
 		db BERRY
 		db BEAT_UP, DIG, SWIFT, NO_MOVE
 	db 11, FLUFFRUIT
-		dw $7F1D, $7F6F, $7D1D, $7710, $710D
+		dw $4F1D, $6F6F, $7D1D, $4710, $710D
 		db MIRACLE_SEED
 		db ABSORB, GROWTH, GUST, ATTRACT
 	db 12, LAWNIE
-		dw $7EBA, $7EBA, $7EBA, $7EBA, $7EBA
-		db BERRY
+		dw $60BA, $60BA, $70BA, $60BA, $52BA
+		db NO_ITEM
 		db REST, SNORE, FLASH, DIG
 	db -1 ; end
 
@@ -3315,19 +3315,19 @@ SageGroup:
 MediumGroup:
 	; MEDIUM (1) ; Ecruteak Gym, formerly Martha, Macabre dead body theme
 	db "ELVIRA@", TRAINERTYPE_NORMAL
-	db 27, GWUBBY
+	db 25, GWUBBY
 	db 26, WORMEEK
 	db 27, PHANGUARD
 	db 26, GWUBBY
 	db 27, RESPECTRE
-	db 27, WORMEEK
+	db 26, WORMEEK
 	db -1 ; end
 
 	; MEDIUM (2) ; Ecruteak Gym, formerly Grace, cryptid and myth theme
-	db "GRACE@", TRAINERTYPE_NORMAL
+	db "SCULLY@", TRAINERTYPE_NORMAL
 	db 28, SNOWUP
-	db 27, YAGAGARASU
-	db 28, BEHEMOTHRA ;placeholder for mothman
+	db 25, YAGAGARASU
+	db 29, MOTHO ;placeholder for mothman
 	db -1 ; end
 
 	; MEDIUM (3)

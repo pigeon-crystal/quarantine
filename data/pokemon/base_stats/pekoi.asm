@@ -1,10 +1,10 @@
 	db PEKOI ; 190
 
-	db  81,  81,  42,  85,  99,  99
+	db  81,  79,  42,  85,  99,  99
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, GRASS ; type
-	db 45 ; catch rate
+	db 57 ; catch rate
 	db 111 ; base exp
 	db MIRACLE_SEED, GRN_APRICORN ; items
 	db GENDER_F50 ; gender ratio

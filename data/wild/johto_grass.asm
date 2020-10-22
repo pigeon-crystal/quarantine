@@ -307,61 +307,61 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	db 13, NOMSTER
-	db 14, SAPPURA
+	db 14, HAPPIG
 	db 15, NOMSTER
-	db 14, STINPEON
-	db 15, NOMSTER
-	db 15, STINPEON
-	db 15, HAPPIG
-	db 19, OSCURASA
-	; day
-	db 13, NOMSTER
-	db 14, SAPPURA
-	db 15, NOMSTER
-	db 14, STINPEON
-	db 15, NOMSTER
-	db 15, STINPEON
-	db 15, HAPPIG
-	db 19, OSCURASA
-	; nite
-	db 13, NOMSTER
-	db 14, SAPPURA
-	db 15, NOMSTER
-	db 14, STINPEON
-	db 15, STINPEON
+	db 14, OSCURASA
 	db 15, HAPPIG
 	db 15, OSCURASA
-	db 19, OSCURASA
+	db 15, OSCURASA
+	db 19, MOTHO
+	; day
+	db 13, NOMSTER
+	db 14, HAPPIG
+	db 15, NOMSTER
+	db 14, STINPEON
+	db 15, NOMSTER
+	db 15, STINPEON
+	db 15, OSCURASA
+	db 19, MOTHO
+	; nite
+	db 13, NOMSTER
+	db 14, HAPPIG
+	db 15, OSCURASA
+	db 14, OSCURASA
+	db 15, NOMSTER
+	db 15, HAPPIG
+	db 15, OSCURASA
+	db 19, MOTHO
 
 	map_id BURNED_TOWER_B1F ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 13, NOMSTER
-	db 14, SAPPURA
+	db 14, HAPPIG
 	db 15, NOMSTER
-	db 14, STINPEON
+	db 14, OSCURASA
 	db 15, NOMSTER
-	db 15, STINPEON
-	db 15, HAPPIG
-	db 19, OSCURASA
+	db 15, OSCURASA
+	db 15, MOTHO
+	db 19, MOTHO
 	; day
 	db 13, NOMSTER
-	db 14, SAPPURA
+	db 14, HAPPIG
 	db 15, NOMSTER
-	db 14, STINPEON
+	db 14, OSCURASA
 	db 15, NOMSTER
-	db 15, STINPEON
-	db 15, HAPPIG
-	db 19, OSCURASA
+	db 15, OSCURASA
+	db 15, MOTHO
+	db 19, MOTHO
 	; nite
 	db 13, NOMSTER
-	db 14, SAPPURA
+	db 14, HAPPIG
 	db 15, NOMSTER
-	db 14, STINPEON
-	db 15, STINPEON
-	db 15, HAPPIG
+	db 14, OSCURASA
 	db 15, OSCURASA
-	db 19, OSCURASA
+	db 15, HAPPIG
+	db 15, MOTHO
+	db 19, MOTHO
 
 	map_id NATIONAL_PARK ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -402,7 +402,7 @@ JohtoGrassWildMons:
 	db 24, ANTPYRE
 	db 20, ODDITTEN
 	db 22, ODDITTEN
-	db 22, HOATOXIC
+	db 22, PLANTENNA
 	db 22, NAVIGAZER
 	; day
 	db 20, HOATOXIC
@@ -420,7 +420,7 @@ JohtoGrassWildMons:
 	db 24, ANTPYRE
 	db 22, ODDITTEN
 	db 22, ODDITTEN
-	db 22, HOATOXIC
+	db 22, PLANTENNA
 	db 24, NAVIGAZER
 
 	map_id RUINS_OF_ALPH_INNER_CHAMBER ;done
@@ -1326,8 +1326,8 @@ JohtoGrassWildMons:
 	map_id ROUTE_29 ;done
 	db 11 percent, 11 percent, 11 percent ; encounter rates: morn/day/nite
 	; morn
-	db 3, NOMSTER
-	db 2, WORMEEK
+	db 3, WORMEEK
+	db 2, NOMSTER
 	db 3, FURNIT
 	db 3, HOATOT
 	db 3, NOMSTER
@@ -1344,14 +1344,14 @@ JohtoGrassWildMons:
 	db 3, QWAIL
 	db 5, QWAIL
 	; nite
-	db 2, WORMEEK
-	db 3, NOMSTER
+	db 2, NOMSTER
+	db 3, WORMEEK
 	db 3, FURNIT
 	db 3, HOATOT
 	db 3, NOMSTER
 	db 3, LAWNIE
 	db 3, LAWNIE
-	db 5, FURNIT
+	db 5, QWAIL
 
 	map_id ROUTE_30 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1405,7 +1405,7 @@ JohtoGrassWildMons:
 	db 6, LAWNIE
 	; nite
 	db 4, BUZZLING
-	db 4, FLUFFRUIT
+	db 4, HOATOT
 	db 5, LAWNIE
 	db 5, GWUBBY
 	db 5, FURNIT
@@ -1422,8 +1422,8 @@ JohtoGrassWildMons:
 	db 9, EUKUB
 	db 10, SPRUNNY
 	db 10, WORMEEK
-	db 10, FURNIT
-	db 11, GOOSAPLING
+	db 10, GWUBBY
+	db 11, GWUBBY
 	; day
 	db 9, NOMSTER
 	db 9, GWUBBY
@@ -1435,7 +1435,7 @@ JohtoGrassWildMons:
 	db 11, SPRUNNY
 	; nite
 	db 9, GWUBBY
-	db 9, FLUFFRUIT
+	db 9, NOMSTER
 	db 9, SPRUNNY
 	db 10, EUKUB
 	db 10, GOOSAPLING
@@ -1451,26 +1451,26 @@ JohtoGrassWildMons:
 	db 12, DOLMITE
 	db 12, WORMEEK
 	db 12, QWAIL
-	db 12, FLUFFRUIT
-	db 12, HAPPIG
-	db 13, HAPPIG
+	db 12, WORMEEK
+	db 12, SHABBYCAT
+	db 13, SHABBYCAT
 	; day
 	db 12, DOLMITE
 	db 11, QWAIL
 	db 12, NOMSTER
 	db 12, QWAIL
 	db 11, WORMEEK
-	db 12, FLUFFRUIT
-	db 12, HAPPIG
-	db 13, HAPPIG
+	db 12, WORMEEK
+	db 12, SHABBYCAT
+	db 13, SHABBYCAT
 	; nite
 	db 12, DOLMITE
 	db 11, NOMSTER
-	db 12, FLUFFRUIT
+	db 12, WORMEEK
 	db 12, NOMSTER
 	db 12, FLUFFRUIT
-	db 12, HAPPIG
-	db 12, HAPPIG
+	db 12, SHABBYCAT
+	db 12, SHABBYCAT
 	db 13, JUNOBE
 
 	map_id ROUTE_34 ;done
@@ -1538,7 +1538,7 @@ JohtoGrassWildMons:
 	; morn
 	db 6, WORMEEK
 	db 6, QWAIL
-	db 6, QWAIL
+	db 7, QWAIL
 	db 7, GOOSAPLING
 	db 7, LAWNIE
 	db 7, LAWNIE
@@ -1547,20 +1547,20 @@ JohtoGrassWildMons:
 	; day
 	db 6, FURNIT
 	db 6, WORMEEK
-	db 6, LAWNIE
+	db 7, LAWNIE
 	db 7, GOOSAPLING
-	db 6, LAWNIE
+	db 7, LAWNIE
 	db 7, QWAIL
 	db 8, GOOSAPLING
 	db 8, LAWNIE
 	; nite
 	db 6, GWUBBY
-	db 7, EUKUB
 	db 6, EUKUB
-	db 7, FLUFFRUIT
 	db 7, GOOSAPLING
-	db 7, AMBINNI
-	db 8, FLUFFRUIT
+	db 7, QWAIL
+	db 7, EUKUB
+	db 7, LAWNIE
+	db 8, GOOSAPLING
 	db 8, GWUBBY
 
 	map_id ROUTE_37 ;done
@@ -1569,7 +1569,7 @@ JohtoGrassWildMons:
 	db 17, WORMEEK
 	db 16, HOATOXIC
 	db 15, FURDOBA
-	db 16, HIVEMAIM
+	db 16, GWUBBY
 	db 17, PEAUTY
 	db 16, PEAUTY
 	db 17, HEXAHED

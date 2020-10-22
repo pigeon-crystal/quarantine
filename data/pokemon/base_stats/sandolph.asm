@@ -1,6 +1,6 @@
 	db SANDOLPH ; 063
 
-	db  65,  62, 60,   88,  45,  60
+	db  67,  77, 63,   90,  45,  63
 	;   hp   atk  def  spd   sat  sdf
 
 	db GROUND, GROUND ; type
