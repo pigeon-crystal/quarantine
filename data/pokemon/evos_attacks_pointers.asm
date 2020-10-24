@@ -164,7 +164,7 @@ EvosAttacksPointers::
 	dw WendigauntEvosAttacks		;orig wendigaunt
 	dw PurraatzleEvosAttacks
 	dw NuckawheezEvosAttacks
-	dw NoctowlEvosAttacks
+	dw MurdermisEvosAttacks
 	dw WormeekEvosAttacks
 	dw WormachoEvosAttacks
 	dw GwubbyEvosAttacks

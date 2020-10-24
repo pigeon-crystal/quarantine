@@ -160,9 +160,9 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw WendigauntEggMoves	   ;Wendigaunt
-	dw NoEggMoves
+	dw PurraatzleEggMoves
 	dw NuckawheezEggMoves
-	dw NoEggMoves
+	dw MurdermisEggMoves
 	dw WormeekEggMoves
 	dw NoEggMoves
 	dw GwubbyEggMoves

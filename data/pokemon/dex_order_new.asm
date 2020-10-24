@@ -16,7 +16,7 @@ NewPokedexOrder:
 	db QWAIL
 	db QWALLOP
 	db NUCKAWHEEZ
-	db NOCTOWL
+	db MURDERMIS
 	db NOMSTER ;orig rattata
 	db NOMSABRE ;orig raticate
 	db WENDIGAUNT

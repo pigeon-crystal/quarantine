@@ -1,11 +1,11 @@
 	db EYECHOSIS ; 065
 
-	db  50,  110,  50, 105, 100,  75
+	db  48,  111,  48, 105, 101,  77
 	;   hp  atk  def  spd  sat  sdf
 
 	db PSYCHIC_TYPE, FIGHTING ; type
-	db 38 ; catch rate
-	db 189 ; base exp
+	db 51 ; catch rate
+	db 159 ; base exp
 	db BLACKBELT_I, TWISTEDSPOON ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

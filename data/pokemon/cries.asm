@@ -156,24 +156,24 @@ PokemonCries::
 	mon_cry CRY_BULBASAUR,    60,  320 ; DRAGONITE
 	mon_cry CRY_MA_0,          0,  252 ; MA_0
 	mon_cry CRY_PARAS,       238,  383 ; MEW
-	mon_cry $14,  	 		$0046,  $0082 ; CIGERILLAR, orig CHIKORITA
-	mon_cry $14,       		$0069,  $0299 ; TOBACOON, 
-	mon_cry $14,  			$2ffd,  $0217 ; OKAMIKAZE,
-	mon_cry $17, 		    $096c,  $0068 ; RADEON, orig CYNDAQUIL
-	mon_cry $17,  			$086c,  $0118 ; SCAULTER
-	mon_cry $17,		   	$08da,  $020a ; SCORCHOPPR
-	mon_cry $1F,			$0875,  $00ae ; FURSA, orig TOTODILE
-	mon_cry $1F,  			$07b0,  $01ae ; NANUQUA
-	mon_cry $1F,  			$0590,  $02ce ; URSKIMO
-	mon_cry CRY_METAPOD,     138,  410 ; WENDIGAUNT
-	mon_cry CRY_SENTRET,     107,  258 ; PURRAATZLE
-	mon_cry CRY_VENONAT,     400,  400 ; NUCKAWHEEZ
-	mon_cry CRY_HOOTHOOT,      0,  416 ; NOCTOWL
-	mon_cry $36,      		$0F00,  $01DE ; WORMEEK
-	mon_cry $3E,  			$0F40,  $0180 ; WORMACHO
-	mon_cry CRY_WEEDLE,      444,  166 ; GWUBBY   ;orig spinarak
-	mon_cry CRY_SPINARAK,   -166,  444 ; GRUBBOID
-	mon_cry CRY_SQUIRTLE,    -16,  320 ; CROBAT
+	mon_cry $14,  	 		$0046,  $0082 	; CIGERILLAR, orig CHIKORITA
+	mon_cry $14,       		$0069,  $0299 	; TOBACOON, 
+	mon_cry $14,  			$2ffd,  $0217 	; OKAMIKAZE,
+	mon_cry $17, 		    $096c,  $0068 	; RADEON, orig CYNDAQUIL
+	mon_cry $17,  			$086c,  $0118 	; SCAULTER
+	mon_cry $17,		   	$08da,  $020a 	; SCORCHOPPR
+	mon_cry $1F,			$0875,  $00ae 	; FURSA, orig TOTODILE
+	mon_cry $1F,  			$07b0,  $01ae 	; NANUQUA
+	mon_cry $1F,  			$0590,  $02ce 	; URSKIMO
+	mon_cry CRY_METAPOD,     138,  410 		; WENDIGAUNT
+	mon_cry CRY_SENTRET,     44,   298 		; PURRAATZLE
+	mon_cry CRY_VENONAT,     400,  410 		; NUCKAWHEEZ
+	mon_cry CRY_HOOTHOOT,   -100,  466 		; MURDERMIS
+	mon_cry $36,      		$0F00,  $01DE 	; WORMEEK
+	mon_cry $3E,  			$0F40,  $0180 	; WORMACHO
+	mon_cry CRY_WEEDLE,      444,  166 		; GWUBBY   ;orig spinarak
+	mon_cry CRY_SPINARAK,   -166,  444 		; GRUBBOID
+	mon_cry CRY_SQUIRTLE,    -16,  320 		; CROBAT
 	mon_cry $28,   			$003B,  $01E2 ; STRANGLURE
 	mon_cry $28,   			$05C7,  $0362 ; SHAMSEL
 	mon_cry CRY_PICHU,         0,  320 ; WANDELUS
@@ -210,12 +210,12 @@ PokemonCries::
 	mon_cry CRY_GIRAFARIG,    65,  512 ; SWAZZAGE
 	mon_cry CRY_SLOWKING,    128,  256 ; SHREDDRAKE
 	mon_cry CRY_SLOWKING,      0,  384 ; FORRETRESS
-	mon_cry CRY_DUNSPARCE,   841,  206 ; ATTACKO
-	mon_cry CRY_GLIGAR,       69,  231 ; WIWRIGHT
-	mon_cry CRY_GLIGAR,  	  51,  247 ; WIRIGIBLE
-	mon_cry $3E,  			$007B, $0044 ; ZASTER
-	mon_cry $3E,     		$057B, $0144 ; GRIMPACT
-	mon_cry CRY_SLOWKING,    252,  234 ; PEKOI
+	mon_cry CRY_DUNSPARCE,   841,  206 		; ATTACKO
+	mon_cry CRY_GLIGAR,       69,  231 		; WIWRIGHT
+	mon_cry CRY_GLIGAR,  	  51,  247 		; WIRIGIBLE
+	mon_cry $3E,  			$007B, $0044 	; ZASTER
+	mon_cry $3E,     		$057B, $0144 	; GRIMPACT
+	mon_cry CRY_SLOWKING,    252,  234 		; PEKOI
 	mon_cry CRY_AMPHAROS,      0,  352 ; YAGAGARASU
 	mon_cry CRY_DUNSPARCE,   656,  168 ; SHUCKLE
 	mon_cry CRY_AMPHAROS,     53,  224 ; HERACROSS
@@ -238,7 +238,7 @@ PokemonCries::
 	mon_cry CRY_METAPOD,     -10,  437 ; OBELITH
 	mon_cry CRY_METAPOD,      99,  395 ; MONEUMENN
 	mon_cry CRY_SPINARAK,   -399,  400 ; POLYRO
-	mon_cry CRY_NIDORAN_M,  -255,    0 ; MISSINGNO
+	mon_cry CRY_MA_0,       -255,    1 ; MISSINGNO
 	mon_cry CRY_AMPHAROS,    -91,  303 ; EYECHOSIS
 	mon_cry CRY_AIPOM,        44,  264 ; TYROGUE
 	mon_cry CRY_SLUGMA,        0,  256 ; HITMONTOP

@@ -1,6 +1,6 @@
 	db WENDIGAUNT ; 190
 
-	db  90,  108,  49,  66,  72,  130
+	db  90,  108,  49,  62,  72,  128
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, GHOST ; type

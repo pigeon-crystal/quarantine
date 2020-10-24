@@ -338,8 +338,8 @@ INCBIN "gfx/pokemon/purraatzle/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/purraatzle/shiny.pal"
 INCBIN "gfx/pokemon/nuckawheez/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/nuckawheez/shiny.pal"
-INCBIN "gfx/pokemon/noctowl/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/noctowl/shiny.pal"
+INCBIN "gfx/pokemon/murdermis/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/murdermis/shiny.pal"
 INCBIN "gfx/pokemon/wormeek/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/wormeek/shiny.pal"
 INCBIN "gfx/pokemon/wormacho/front.gbcpal", middle_colors

@@ -142,7 +142,7 @@ AlphabeticalPokedexOrder:
 	db ONIONI
 	db SHRIMPANZI
 	db MT_NOOT
-	db NOCTOWL
+	db MURDERMIS
 	db NOMSABRE
 	db NOMSTER
 	db NOXROMAEUS

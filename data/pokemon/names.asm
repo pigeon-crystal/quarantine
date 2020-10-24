@@ -162,7 +162,7 @@ PokemonNames::
 	db "WENDIGAUNT" 
 	db "PURRAATZLE"
 	db "NUCKAWHEEZ"
-	db "NOCTOWL@@@"
+	db "MURDERMIS@"
 	db "WORMEEK@@@" ;ledyba
 	db "WORMACHO@@"
 	db "GWUBBY@@@@"

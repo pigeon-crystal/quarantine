@@ -155,32 +155,32 @@ KantoGrassWildMons:
 	map_id TOHJO_FALLS ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, STINPEON
 	db 22, NOMSABRE
-	db 24, SCORPEROR
-	db 21, MISSTERIA
-	db 20, NOMSTER
-	db 23, MISSTERIA
-	db 23, MISSTERIA
-	db 25, SLOWBRO
+	db 22, SCORPEROR
+	db 24, TENDRILL
+	db 21, SNOSEBLEED
+	db 20, TENDRILL
+	db 23, SNOSEBLEED
+	db 23, SNOSEBLEED
+	db 25, TENDRILL
 	; day
-	db 22, STINPEON
 	db 22, NOMSABRE
-	db 24, SCORPEROR
-	db 21, MISSTERIA
-	db 20, NOMSTER
-	db 23, MISSTERIA
-	db 23, MISSTERIA
-	db 24, SLOWBRO
+	db 22, SCORPEROR
+	db 24, TENDRILL
+	db 21, SNOSEBLEED
+	db 20, TENDRILL
+	db 23, SNOSEBLEED
+	db 23, SNOSEBLEED
+	db 25, TENDRILL
 	; nite
-	db 22, STINPEON
 	db 22, NOMSABRE
-	db 24, SCORPEROR
-	db 21, MISSTERIA
-	db 20, NOMSTER
-	db 23, MISSTERIA
-	db 23, MISSTERIA
-	db 25, SCORPEROR
+	db 22, SCORPEROR
+	db 24, TENDRILL
+	db 21, SNOSEBLEED
+	db 20, TENDRILL
+	db 23, SNOSEBLEED
+	db 23, SNOSEBLEED
+	db 25, TENDRILL
 
 	map_id ROUTE_1 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -236,10 +236,10 @@ KantoGrassWildMons:
 	db 3, NUCKAWHEEZ
 	db 3, GWUBBY
 	db 5, NUCKAWHEEZ
-	db 7, NOCTOWL
+	db 7, MURDERMIS
 	db 7, GRUBBOID
-	db 4, NOCTOWL
-	db 4, NOCTOWL
+	db 4, MURDERMIS
+	db 4, MURDERMIS
 	db 10, GRUBBOID
 
 	map_id ROUTE_3 ;done
@@ -325,7 +325,7 @@ KantoGrassWildMons:
 	; nite
 	db 13, NUCKAWHEEZ
 	db 13, TODESCOOL
-	db 15, NOCTOWL
+	db 15, MURDERMIS
 	db 12, AMBINNI
 	db 14, HEXAHED
 	db 14, AMBINNI
@@ -414,7 +414,7 @@ KantoGrassWildMons:
 	db 20, BUNDEGRAF
 	; nite
 	db 17, TODESCOOL
-	db 20, NOCTOWL
+	db 20, MURDERMIS
 	db 16, AMBINNI
 	db 17, SCRUFFRUIT
 	db 16, HEXAHED
@@ -506,7 +506,7 @@ KantoGrassWildMons:
 	db 14, EELKIE
 	db 13, TODESCOOL
 	db 15, MAGNEMITE
-	db 16, NOCTOWL
+	db 16, MURDERMIS
 	db 16, NOMSABRE
 	db 16, MOSSARRE
 	db 16, MOSSARRE
@@ -535,7 +535,7 @@ KantoGrassWildMons:
 	; nite
 	db 23, ELEPHOOT
 	db 23, ASTROTOM
-	db 25, NOCTOWL
+	db 25, MURDERMIS
 	db 25, PRIPYDERM
 	db 25, ASTROTOM
 	db 25, ASTROTOM
@@ -565,7 +565,7 @@ KantoGrassWildMons:
 	; nite
 	db 26, ELEPHOOT
 	db 26, ASTROTOM
-	db 28, NOCTOWL
+	db 28, MURDERMIS
 	db 28, PRIPYDERM
 	db 28, ASTROTOM
 	db 28, ASTROTOM
@@ -595,7 +595,7 @@ KantoGrassWildMons:
 	; nite
 	db 23, ELEPHOOT
 	db 23, ASTROTOM
-	db 25, NOCTOWL
+	db 25, MURDERMIS
 	db 25, PRIPYDERM
 	db 25, ASTROTOM
 	db 25, ASTROTOM
@@ -806,11 +806,11 @@ KantoGrassWildMons:
 	db 10, EUKUB
 	db 10, NUCKAWHEEZ
 	db 10, ELEPHOOT
-	db 12, NOCTOWL
+	db 12, MURDERMIS
 	db 10, LAWNIE
-	db 14, NOCTOWL
-	db 14, NOCTOWL
-	db 15, NOCTOWL
+	db 14, MURDERMIS
+	db 14, MURDERMIS
+	db 15, MURDERMIS
 
 	map_id ROUTE_26 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -833,9 +833,9 @@ KantoGrassWildMons:
 	db 30, IGNAGA
 	db 34, IGNAGA
 	; nite
-	db 28, NOCTOWL
+	db 28, MURDERMIS
 	db 28, NOMSABRE
-	db 32, NOCTOWL
+	db 32, MURDERMIS
 	db 30, NOMSABRE
 	db 30, ASTROTOM
 	db 30, ASTROTOM
@@ -864,12 +864,12 @@ KantoGrassWildMons:
 	db 40, MOPERDOR
 	; nite
 	db 28, ASTROTOM
-	db 28, NOCTOWL
+	db 28, MURDERMIS
 	db 30, NOMSABRE
 	db 30, ASTROTOM
-	db 32, NOCTOWL
-	db 32, NOCTOWL
-	db 32, NOCTOWL
+	db 32, MURDERMIS
+	db 32, MURDERMIS
+	db 32, MURDERMIS
 	db 40, ASTROTOM
 
 	map_id ROUTE_28 ;done

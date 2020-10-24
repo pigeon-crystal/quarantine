@@ -1,12 +1,12 @@
 	db NUCKAWHEEZ ; 190
 
-	db  88,  66,  88,  77,  108,  88
+	db  88,  60,  88,  77,  108,  88
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, POISON ; type
 	db 47 ; catch rate
 	db 199 ; base exp
-	db POISON_BARB, BLK_APRICORN ; items
+	db NO_ITEM, BLK_APRICORN ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 17 ; step cycles to hatch

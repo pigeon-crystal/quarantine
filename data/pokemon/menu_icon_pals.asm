@@ -167,7 +167,7 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; WENDIGAUNT
 	icon_pals BROWN,   YELLOW  ; PURRAATZLE 
 	icon_pals BROWN,   YELLOW  ; NUCKAWHEEZ
-	icon_pals BROWN,   YELLOW  ; NOCTOWL
+	icon_pals BROWN,   YELLOW  ; MURDERMIS
 	icon_pals BROWN,   YELLOW  ; WORMEEK
 	icon_pals BROWN,   YELLOW  ; WORMACHO
 	icon_pals PINK,   YELLOW   ; GWUBBY

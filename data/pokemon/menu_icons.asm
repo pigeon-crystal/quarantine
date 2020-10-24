@@ -164,7 +164,7 @@ MonMenuIcons:
 	db ICON_FOX         ; WENDIGAUNT, orig WENDIGAUNT
 	db ICON_FOX         ; PURRAATZLE
 	db ICON_BIRD        ; NUCKAWHEEZ
-	db ICON_BIRD        ; NOCTOWL
+	db ICON_BIRD        ; MURDERMIS
 	db ICON_WORMEEK     ; WORMEEK orig LEDYBA
 	db ICON_WORMACHO    ; WORMACHO
 	db ICON_GWUBBY      ; GWUBBY

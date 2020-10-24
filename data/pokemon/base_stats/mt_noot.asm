@@ -1,6 +1,6 @@
 	db MT_NOOT ; 
 
-	db  80, 49,  132, 40,  84,  106
+	db  80, 51,  132, 40,  84,  102
 	;   hp  atk  def  spd  sat  sdf
 
 	db ICE, ICE ; type
@@ -9,11 +9,11 @@
 	db NEVERMELTICE, NEVERMELTICE ; items
 	db GENDER_F75 ; gender ratio
 	db 100 ; unknown 1
-	db 35 ; step cycles to hatch
+	db 15 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/mt_noot/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
-	db GROWTH_SLOW ; growth rate
+	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_GROUND, EGG_WATER_1 ; egg groups
 
 	; tm/hm learnset

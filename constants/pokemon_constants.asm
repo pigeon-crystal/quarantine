@@ -75,7 +75,7 @@
 	const VOYAPOD    ; 36
 	const EXOTUNITY  ; 37
 	const BOBBITE    ; 38
-	const BOBBITRAP  ; 39 bobbitrap
+	const BOBBITRAP  ; 39 
 	const HAPPIG  	 ; 3a
 	const BIPORKAR   ; 3b
 	const CREMIGO    ; 3c
@@ -183,7 +183,7 @@ JOHTO_POKEMON EQU const_value
 	const WENDIGAUNT ; a1  
 	const PURRAATZLE ; a2 
 	const NUCKAWHEEZ ; a3
-	const NOCTOWL    ; a4 scarecrow
+	const MURDERMIS  ; a4
 	const WORMEEK    ; a5 
 	const WORMACHO   ; a6
 	const GWUBBY     ; a7

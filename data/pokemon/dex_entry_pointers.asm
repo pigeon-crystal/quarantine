@@ -163,7 +163,7 @@ PokedexDataPointerTable:
 	dw WendigauntPokedexEntry 		;orig wendigaunt
 	dw PurraatzlePokedexEntry
 	dw NuckawheezPokedexEntry
-	dw NoctowlPokedexEntry
+	dw MurdermisPokedexEntry
 	dw WormeekPokedexEntry
 	dw WormachoPokedexEntry
 	dw GwubbyPokedexEntry

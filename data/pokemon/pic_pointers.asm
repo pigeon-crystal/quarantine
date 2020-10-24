@@ -328,8 +328,8 @@ PokemonPicPointers::
 	dba_pic PurraatzleBackpic
 	dba_pic NuckawheezFrontpic
 	dba_pic NuckawheezBackpic
-	dba_pic NoctowlFrontpic
-	dba_pic NoctowlBackpic
+	dba_pic MurdermisFrontpic
+	dba_pic MurdermisBackpic
 	dba_pic WormeekFrontpic
 	dba_pic WormeekBackpic
 	dba_pic WormachoFrontpic

@@ -486,6 +486,14 @@ WendigauntEggMoves:
 	db FOCUS_ENERGY
 	db SCREECH
 	db -1 ; end
+	
+PurraatzleEggMoves:
+	db CONSTRICT
+	db MORNING_SUN
+	db SLASH
+	db SHADOW_CLAW
+	db SCREECH
+	db -1 ; end
 
 NuckawheezEggMoves:
 	db EARTH_POWER
@@ -494,6 +502,11 @@ NuckawheezEggMoves:
 	db SUPERSONIC
 	db FAINT_ATTACK
 	db WHIRLWIND
+	db -1 ; end
+	
+MurdermisEggMoves:
+	db WHIRLWIND
+	db EXPLOSION 
 	db -1 ; end
 
 WormeekEggMoves:

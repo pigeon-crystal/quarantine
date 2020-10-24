@@ -738,7 +738,7 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (11)
 	db "BOB@", TRAINERTYPE_NORMAL
-	db 34, NOCTOWL
+	db 34, MURDERMIS
 	db -1 ; end
 
 	; BIRD_KEEPER (12) Route 27, hidden by the Solarbeam TM
@@ -1565,7 +1565,7 @@ GentlemanGroup:
 
 	; GENTLEMAN (5)
 	db "ALFRED@", TRAINERTYPE_NORMAL
-	db 20, NOCTOWL
+	db 20, MURDERMIS
 	db -1 ; end
 
 SkierGroup:
@@ -3296,19 +3296,19 @@ SageGroup:
 
 	; SAGE (10)
 	db "GAKU@", TRAINERTYPE_NORMAL
-	db 32, NOCTOWL
+	db 32, MURDERMIS
 	db 32, FLAREON
 	db -1 ; end
 
 	; SAGE (11)
 	db "MASA@", TRAINERTYPE_NORMAL
-	db 32, NOCTOWL
+	db 32, MURDERMIS
 	db 32, JOLTEON
 	db -1 ; end
 
 	; SAGE (12)
 	db "KOJI@", TRAINERTYPE_NORMAL
-	db 32, NOCTOWL
+	db 32, MURDERMIS
 	db 32, GANZORAH
 	db -1 ; end
 

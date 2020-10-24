@@ -10,4 +10,4 @@ ContestMons:
 	db 10, CADDISICLE, 20, 21
 	db  5, CADDISICLE, 18, 24
 	db  5, ANTPYRE,    23, 24 
-	db -1, VAZZINATE,  20, 25  
+	db -1, MOTHO,	   20, 25  

@@ -1,11 +1,11 @@
 	db SATELISK ; 063
 
-	db  63,  62,   94,   107,   117,  92
+	db  63,  61,   92,   107,   118,  85
 	;   hp   atk   def   spd   sat  sdf
 
 	db PSYCHIC_TYPE, ELECTRIC ; type
 	db 49 ; catch rate
-	db 220 ; base exp
+	db 200 ; base exp
 	db WHT_APRICORN, MYSTERYBERRY ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

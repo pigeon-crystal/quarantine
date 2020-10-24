@@ -1,6 +1,6 @@
 	db STINPEON ; 063
 
-	db  42,  110,  93,  20,  40,  20
+	db  42,  90,  77,  21,  40,  21
 	;   hp   atk  def  spd   sat  sdf
 
 	db POISON, POISON ; type

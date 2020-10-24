@@ -1,6 +1,6 @@
 	db PURRAATZLE ; 
 
-	db  63,  80,  92,  108,  80,  92
+	db  61,  80,  90,  108,  80,  90
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, FAIRY ; type

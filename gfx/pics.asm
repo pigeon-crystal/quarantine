@@ -61,7 +61,7 @@ QwallopFrontpic:     INCBIN "gfx/pokemon/qwallop/front.animated.2bpp.lz"
 CharizardFrontpic:   INCBIN "gfx/pokemon/charizard/front.animated.2bpp.lz"
 ScaulterFrontpic:    INCBIN "gfx/pokemon/scaulter/front.animated.2bpp.lz"
 NuckawheezBackpic:     INCBIN "gfx/pokemon/nuckawheez/back.2bpp.lz"
-NoctowlBackpic:      INCBIN "gfx/pokemon/noctowl/back.2bpp.lz"
+MurdermisBackpic:      INCBIN "gfx/pokemon/murdermis/back.2bpp.lz"
 MortyPic:            INCBIN "gfx/trainers/morty.2bpp.lz"
 KodoroyahBackpic:       INCBIN "gfx/pokemon/kodoroyah/back.2bpp.lz"
 
@@ -140,7 +140,7 @@ HeracrossFrontpic:   INCBIN "gfx/pokemon/heracross/front.animated.2bpp.lz"
 SECTION "Pics 6", ROMX
 
 GrubboidFrontpic:     INCBIN "gfx/pokemon/grubboid/front.animated.2bpp.lz"
-NoctowlFrontpic:     INCBIN "gfx/pokemon/noctowl/front.animated.2bpp.lz"
+MurdermisFrontpic:     INCBIN "gfx/pokemon/murdermis/front.animated.2bpp.lz"
 WartortleFrontpic:   INCBIN "gfx/pokemon/wartortle/front.animated.2bpp.lz"
 MandelblobFrontpic:      INCBIN "gfx/pokemon/mandelblob/front.animated.2bpp.lz"
 CairnivoreFrontpic:       INCBIN "gfx/pokemon/cairnivore/front.animated.2bpp.lz"

@@ -1,6 +1,6 @@
 	db PARDNER ; 190
 
-	db  75,  100,  107,  85,  55,  70
+	db  70,  100,  107,  85,  55,  72
 	;   hp  atk  def  spd  sat  sdf
 
 	db GROUND, GROUND ; type

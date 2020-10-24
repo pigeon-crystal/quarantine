@@ -195,7 +195,7 @@ INCLUDE "data/pokemon/base_stats/urskimo.asm"
 INCLUDE "data/pokemon/base_stats/wendigaunt.asm" 		  ;wendigaunt
 INCLUDE "data/pokemon/base_stats/purraatzle.asm"
 INCLUDE "data/pokemon/base_stats/nuckawheez.asm"
-INCLUDE "data/pokemon/base_stats/noctowl.asm"
+INCLUDE "data/pokemon/base_stats/murdermis.asm"
 INCLUDE "data/pokemon/base_stats/wormeek.asm" 			;ledyba
 INCLUDE "data/pokemon/base_stats/wormacho.asm"
 INCLUDE "data/pokemon/base_stats/gwubby.asm"

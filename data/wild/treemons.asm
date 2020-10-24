@@ -15,7 +15,7 @@ TreeMons:
 ;	db  %, species, level
 
 TreeMonSet_City:
-TreeMonSet_Canyon:
+TreeMonSet_Canyon:  ; TODO add panda
 ; common
 	db 50, QWAIL,    20
 	db 15, EUKUB,    20
@@ -46,7 +46,7 @@ TreeMonSet_Town:
 	db 50, WYRMOMETER,  21
 	db 15, WYRMOMETER,  21
 	db 15, WYRMOMETER,  21
-	db 10, WYRMOMETER,  21
+	db 10, KOAGAN,  21
 	db  5, KOAGAN,      22
 	db  5, HOPLAQUE,    22
 	db -1
@@ -64,9 +64,9 @@ TreeMonSet_Route:
 	db 50, WYRMOMETER,  21
 	db 15, WYRMOMETER,  21
 	db 15, WYRMOMETER,  21
-	db 10, WYRMOMETER,  21
+	db 10, KOAGAN,  21
 	db  5, KOAGAN,  	22
-	db  5, KOAGAN,  	22
+	db  5, HOPLAQUE,  	22
 	db -1
 
 TreeMonSet_Kanto:
@@ -82,9 +82,9 @@ TreeMonSet_Kanto:
 	db 50, WYRMOMETER,  21
 	db 15, WYRMOMETER,  21
 	db 15, WYRMOMETER,  21
-	db 10, WYRMOMETER,  21
+	db 10, KOAGAN,  21
 	db  5, KOAGAN,  	22
-	db  5, KOAGAN,  	22
+	db  5, HOPLAQUE,  	22
 	db -1
 
 TreeMonSet_Lake:

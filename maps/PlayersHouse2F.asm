@@ -51,9 +51,10 @@ PosterScript:
 	describedecoration DECODESC_POSTER
 
 PlayersHouseRadioScript:
-	givepoke BOBBITRAP, 50
-	givepoke SQUEENIE, 50
-	warp SLOWPOKE_WELL_B1F, 6, 3
+	givepoke MURDERMIS, 50
+	loadwildmon MURDERMIS, 50
+	loadvar VAR_BATTLETYPE, BATTLETYPE_SHINY
+	startbattle
 	end
 ;PlayersHouseRadioScript:
 ;	checkevent EVENT_GOT_A_POKEMON_FROM_ELM

@@ -2287,7 +2287,7 @@ NuckawheezEvosAttacks:
 	db 57, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-NoctowlEvosAttacks:
+MurdermisEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves
