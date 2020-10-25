@@ -33,35 +33,35 @@ SwarmGrassWildMons:
 	db 6, ATTACKO
 	db 6, ATTACKO
 
-; Arasbestos swarm
+; Nyalley swarm
 	map_id ROUTE_35
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 14, AMBINNI
-	db 14, WORMEEK
-	db 17, ARASBESTOS
-	db 14, SAPPURA
-	db 17, ARASBESTOS
-	db 16, MANDELBLOB
-	db 15, ZASTER
-	db 19, ARASBESTOS
+	db 14, HAPPIG
+	db 15, SAPPURA
+	db 15, HEXAHED
+	db 15, NYALLEY
+	db 16, NYALLEY
+	db 16, ZASTER
+	db 17, NYALLEY
 	; day
 	db 14, AMBINNI
-	db 14, WORMEEK
-	db 13, ARASBESTOS
-	db 14, SAPPURA
-	db 14, ARASBESTOS
-	db 16, MANDELBLOB
-	db 15, ZASTER
-	db 19, ARASBESTOS
+	db 14, HAPPIG
+	db 15, SAPPURA
+	db 15, HEXAHED
+	db 15, NYALLEY
+	db 16, NYALLEY
+	db 16, ZASTER
+	db 17, NYALLEY
 	; nite
 	db 14, AMBINNI
-	db 15, GWUBBY
-	db 17, ARASBESTOS
-	db 14, SAPPURA
-	db 17, ARASBESTOS
-	db 16, MANDELBLOB
-	db 15, ZASTER
-	db 19, ARASBESTOS
+	db 14, HAPPIG
+	db 15, NYALLEY
+	db 15, NYALLEY
+	db 15, HEXAHED
+	db 16, SAPPURA
+	db 17, NYALLEY
+	db 16, ZASTER
 
 	db -1 ; end
