@@ -70,7 +70,7 @@ INCBIN "gfx/footprints/sandolph.1bpp",  footprint_top
 INCBIN "gfx/footprints/dunefin.1bpp",  footprint_top
 INCBIN "gfx/footprints/sprunny.1bpp",  footprint_top
 INCBIN "gfx/footprints/onioni.1bpp",   footprint_top
-INCBIN "gfx/footprints/nidoqueen.1bpp",  footprint_top
+INCBIN "gfx/footprints/onionion.1bpp",  footprint_top
 INCBIN "gfx/footprints/prawmate.1bpp",  footprint_top
 ; 025-032 bottom halves
 INCBIN "gfx/footprints/pikachu.1bpp",    footprint_bottom
@@ -79,7 +79,7 @@ INCBIN "gfx/footprints/sandolph.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/dunefin.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/sprunny.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/onioni.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/nidoqueen.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/onionion.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/prawmate.1bpp",  footprint_bottom
 ; 033-040 top halves
 INCBIN "gfx/footprints/shrimpanzi.1bpp",   footprint_top
@@ -302,7 +302,7 @@ INCBIN "gfx/footprints/magikarp.1bpp",   footprint_top
 INCBIN "gfx/footprints/gyarados.1bpp",   footprint_top
 INCBIN "gfx/footprints/mandelblob.1bpp",     footprint_top
 INCBIN "gfx/footprints/helactal.1bpp",      footprint_top
-INCBIN "gfx/footprints/eevee.1bpp",      footprint_top
+INCBIN "gfx/footprints/noomsday.1bpp",      footprint_top
 INCBIN "gfx/footprints/ganzorah.1bpp",   footprint_top
 INCBIN "gfx/footprints/jolteon.1bpp",    footprint_top
 INCBIN "gfx/footprints/flareon.1bpp",    footprint_top
@@ -311,7 +311,7 @@ INCBIN "gfx/footprints/magikarp.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/gyarados.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/mandelblob.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/helactal.1bpp",      footprint_bottom
-INCBIN "gfx/footprints/eevee.1bpp",      footprint_bottom
+INCBIN "gfx/footprints/noomsday.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/ganzorah.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/jolteon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/flareon.1bpp",    footprint_bottom
