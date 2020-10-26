@@ -51,9 +51,11 @@ PosterScript:
 	describedecoration DECODESC_POSTER
 
 PlayersHouseRadioScript:
-	givepoke MA_0, 100
+	givepoke CELEBI, 100
 	giveitem MASTER_BALL
-	warp DRAGONS_DEPTHS_B3F, 17, 12
+	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
+	loadwildmon MA_0, 60
+	startbattle
 	end
 ;PlayersHouseRadioScript:
 ;	checkevent EVENT_GOT_A_POKEMON_FROM_ELM

@@ -3574,7 +3574,7 @@ HoOhEvosAttacks:
 
 CelebiEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, LEECH_SEED
+	db 1, PUKE_BLOOD
 	db 0 ; no more level-up moves
 	
 PilfoardEvosAttacks:
