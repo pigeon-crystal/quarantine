@@ -22,19 +22,19 @@ FishGroups:
 	fishgroup 50 percent + 1, .Pekoi_NoSwarm_Old, .Pekoi_NoSwarm_Good, .Pekoi_NoSwarm_Super
 
 .Shore_Old:
-	db  70 percent + 1, LANATUN,   10
-	db  85 percent + 1, LANATUN,   10
-	db 100 percent,     LANATUN,     10
+	db  70 percent + 1, TENTACOOL,   10		; barberfish placeholder
+	db  85 percent + 1, TENTACOOL,   10
+	db 100 percent,     STRANGLURE,     10
 .Shore_Good:
-	db  35 percent,     LANATUN,   20
-	db  70 percent,     LANATUN,     20
-	db  90 percent + 1, LANATUN,     20
+	db  35 percent,     TENTACOOL,   20
+	db  70 percent,     STRANGLURE,     20
+	db  90 percent + 1, PRAWMATE,     20
 	db 100 percent,     time_group 0
 .Shore_Super:
-	db  40 percent,     LANATUN,     40
+	db  40 percent,     TENTACOOL,     40
 	db  70 percent,     time_group 1
-	db  90 percent + 1, LANATUN,     40
-	db 100 percent,     PEPOFFER,    40
+	db  90 percent + 1, SHRIMPANZI,     40
+	db 100 percent,     NIMBOCETUS,    40
 
 .Ocean_Old:
 	db  70 percent + 1, STRANGLURE,   10
@@ -42,14 +42,14 @@ FishGroups:
 	db 100 percent,     COCACOBRA,  10
 .Ocean_Good:
 	db  35 percent,     STRANGLURE,   20
-	db  70 percent,     STRANGLURE,  20
+	db  70 percent,     COCACOBRA,  20
 	db  90 percent + 1, UPWHALE,   20
 	db 100 percent,     time_group 2
 .Ocean_Super:
 	db  40 percent,     UPWHALE,   40
 	db  70 percent,     time_group 3
 	db  90 percent + 1, NIMBOCETUS, 40
-	db 100 percent,     STELLOCEAN,    40
+	db 100 percent,     CANTALONE,    40
 
 .Lake_Old:
 	db  70 percent + 1, GOOSAPLING,   10
@@ -116,7 +116,7 @@ FishGroups:
 	db  85 percent + 1, LANATUN,   10
 	db 100 percent,     STIKLBRAT,   10
 .Stiklbrat_Swarm_Good:
-	db  35 percent,     MAGIKARP,   20
+	db  35 percent,     STIKLBRAT,   20
 	db  70 percent,     STIKLBRAT,   20
 	db  90 percent + 1, STIKLBRAT,   20
 	db 100 percent,     time_group 12
@@ -157,18 +157,18 @@ FishGroups:
 	db 100 percent,     HOPLAQUE,  10
 
 .WhirlIslands_Old:
-	db  70 percent + 1, MAGIKARP,   10
-	db  85 percent + 1, MAGIKARP,   10
-	db 100 percent,     LANATUN,     10
+	db  70 percent + 1, PRAWMATE,   10
+	db  85 percent + 1, PRAWMATE,   10
+	db 100 percent,     PRAWMATE,     10
 .WhirlIslands_Good:
-	db  35 percent,     MAGIKARP,   20
-	db  70 percent,     LANATUN,     20
-	db  90 percent + 1, LANATUN,     20
+	db  35 percent,     PRAWMATE,   20
+	db  70 percent,     PRAWMATE,     20
+	db  90 percent + 1, UPWHALE,     20
 	db 100 percent,     time_group 18
 .WhirlIslands_Super:
 	db  40 percent,     LANATUN,     40
 	db  70 percent,     time_group 19
-	db  90 percent + 1, PEPOFFER,    40
+	db  90 percent + 1, KRAKENTOA,    40
 	db 100 percent,     KRAKENTOA,     40
 
 .Pekoi_NoSwarm_Old:
@@ -194,20 +194,20 @@ FishGroups:
 	db  85 percent + 1, LANATUN,   10
 	db 100 percent,     LANATUN,    10
 .Stiklbrat_Good:
-	db  35 percent,     MAGIKARP,   20
+	db  35 percent,     STIKLBRAT,   20
 	db  70 percent,     STIKLBRAT,    20
 	db  90 percent + 1, LANATUN,    20
 	db 100 percent,     time_group 6
 .Stiklbrat_Super:
 	db  40 percent,     STIKLBRAT,    40
 	db  70 percent,     time_group 7
-	db  90 percent + 1, MAGIKARP,   40
+	db  90 percent + 1, STIKLBRAT,   40
 	db 100 percent,     STIKLBRAT,   40
 
 TimeFishGroups:
 	;  day              nite
-	db LANATUN,    20,  STRANGLURE,     20 		; 0 shore good
-	db STRANGLURE,    40,  SHAMSEL,     40 		; 1 shore super
+	db PRAWMATE,    20,  STRANGLURE,     20 		; 0 shore good
+	db SHRIMPANZI,    40,  SHAMSEL,     40 		; 1 shore super
 	db UPWHALE,   20,  STRANGLURE,   20 	   	; 2 ocean good
 	db STRANGLURE,   40,  SHAMSEL,   40 		; 3 ocean super
 	db GOOSAPLING,    20,  GOOSAPLING,    20 	; 4 lake good
@@ -220,11 +220,11 @@ TimeFishGroups:
 	db PEKOI,   40,  PEKOI,   40 				; 11 pekoi swarm super
 	db STIKLBRAT,   20,  STIKLBRAT,   20 		; 12 stiklbrat swarm good
 	db STIKLBRAT,   40,  STIKLBRAT,   40 		; 13 stiklbrat swarm super
-	db GYARADOS,   20,  GYARADOS,   20 			; 14 gyarados good
-	db GYARADOS,   40,  GYARADOS,   40 			; 15 gyarados super
+	db PEPOFFER,   20,  PEPOFFER,   20 			; 14 gyarados good
+	db PEPOFFER,   40,  PEPOFFER,   40 			; 15 gyarados super
 	db HOPLAQUE,    10,  HOPLAQUE,    10 		; 16 dratini 2 good
 	db HOPLAQUE,    10,  HOPLAQUE,    10 		; 17 dratini 2 super
 	db STRANGLURE,     20,  KRAKENTOA,     20 		; 18 whirl isles good
 	db KRAKENTOA,     40,  KRAKENTOA,     40 		; 19 whirl isles super
-	db LANATUN,  20,  LANATUN,  20 			; 20 pekoi no swarm good
+	db PEPOFFER,  20,  LANATUN,  20 			; 20 pekoi no swarm good
 	db PEPOFFER,  40,  PEKOI,  40 			; 21 pekoi no swarm super

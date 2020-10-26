@@ -51,10 +51,9 @@ PosterScript:
 	describedecoration DECODESC_POSTER
 
 PlayersHouseRadioScript:
-	givepoke MURDERMIS, 50
-	loadwildmon MURDERMIS, 50
-	loadvar VAR_BATTLETYPE, BATTLETYPE_SHINY
-	startbattle
+	givepoke MA_0, 100
+	giveitem MASTER_BALL
+	warp DRAGONS_DEPTHS_B3F, 17, 19
 	end
 ;PlayersHouseRadioScript:
 ;	checkevent EVENT_GOT_A_POKEMON_FROM_ELM

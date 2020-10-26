@@ -50,6 +50,7 @@ Landmarks:
 	landmark 130,  38, IcePathName
 	landmark 132,  44, BlackthornCityName
 	landmark 132,  36, DragonsDenName
+	landmark 132,  34, DragonsDepthsName
 	landmark 132,  64, Route45Name
 	landmark 112,  72, DarkCaveName
 	landmark 124,  88, Route46Name
@@ -207,3 +208,4 @@ UndergroundName:     db "UNDERGROUND@"
 BattleTowerName:     db "BATTLE¯TOWER@"
 SpecialMapName:      db "SPECIAL@"
 CianwoodDunesName:   db "CIANWOOD¯DUNES@"
+DragonsDepthsName:   db "DRAGON'S¯DEPTHS@"

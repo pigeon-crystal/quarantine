@@ -1054,3 +1054,18 @@ CianwoodDunesCave_Blocks:
 	
 CianwoodDunes_Blocks:
 	INCBIN "maps/CianwoodDunes.blk"
+	
+DragonsDepths1F_Blocks:
+	INCBIN "maps/DragonsDepths1F.blk"
+	
+DragonsDepthsB1F_Blocks:
+	INCBIN "maps/DragonsDepthsB1F.blk"
+	
+DragonsDepthsB2F_Blocks:
+	INCBIN "maps/DragonsDepthsB2F.blk"
+	
+DragonsDepthsB3F_Blocks:
+	INCBIN "maps/DragonsDepthsB3F.blk"
+	
+DragonsDepthsItemRoom_Blocks:
+	INCBIN "maps/DragonsDepthsItemRoom.blk"

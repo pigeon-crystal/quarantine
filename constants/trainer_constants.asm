@@ -503,6 +503,7 @@ KRIS EQU __enum__
 	const DUNCAN
 	const EDDIE
 	const COREY
+	const TSUCHIYA
 
 	trainerclass FIREBREATHER ; 30
 	const OTIS
@@ -707,6 +708,7 @@ KRIS EQU __enum__
 	trainerclass GURU ; 45
 	const LI_GURU
 	const GOJEE
+	const SHOICHI
 	
 	trainerclass CHEATER ; 46
 	
@@ -722,6 +724,12 @@ KRIS EQU __enum__
 	trainerclass FANATIC_BLUE ; 4b
 	
 	trainerclass WARRIOR ; 4c 
+	const MURAI
+	const SHINDO
+	const MALMESS
+	const KAZUO
+	const TETSUO
+	const GLENN_W
 	
 	trainerclass RADICAL ; 4d
 	

@@ -1924,154 +1924,154 @@ JohtoGrassWildMons:
 	db 37, AERODACTYL ; stand-in for Wellwitchsia
 	db 37, CANTALONE  
 	
-;	map_id DRAGONS_DEPTHS_1F
-;	db 5 percent, 5 percent, 5 percent
+	map_id DRAGONS_DEPTHS_1F
+	db 5 percent, 5 percent, 5 percent
 	; morn
-;	db 40, MAGIKARP ; dragon snail 1
-;	db 40, TENDRILL
-;	db 40, SHREDDRAKE 
-;   db 40, MAGIKARP ; dragon snail 1
-;	db 40, KODOROYAH
-; 	db 40, SMUCIOUS
-;	db 40, MAGIKARP ; dragon snail 1
-;	db 40, KODOROYAH
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, TENDRILL
+	db 40, SHREDDRAKE 
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, KODOROYAH
+ 	db 40, SMUCIOUS
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, KODOROYAH
 	; day
-;	db 40, MAGIKARP ; dragon snail 1
-;	db 40, TENDRILL
-;	db 40, SHREDDRAKE 
-;   db 40, MAGIKARP ; dragon snail 1
-;	db 40, KODOROYAH
-; 	db 40, SMUCIOUS
-;	db 40, MAGIKARP ; dragon snail 1
-;	db 40, KODOROYAH
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, TENDRILL
+	db 40, SHREDDRAKE 
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, KODOROYAH
+ 	db 40, SMUCIOUS
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, KODOROYAH
 	; nite
-;	db 40, MAGIKARP ; dragon snail 1
-;	db 40, TENDRILL
-;	db 40, SHREDDRAKE 
-;   db 40, MAGIKARP ; dragon snail 1
-;	db 40, KODOROYAH
-; 	db 40, SMUCIOUS
-;	db 40, MAGIKARP ; dragon snail 1
-;	db 40, KODOROYAH
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, TENDRILL
+	db 40, SHREDDRAKE 
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, KODOROYAH
+ 	db 40, SMUCIOUS
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, KODOROYAH
 
-;	map_id DRAGONS_DEPTHS_B1F
-;	db 5 percent, 5 percent, 5 percent
+	map_id DRAGONS_DEPTHS_B1F
+	db 5 percent, 5 percent, 5 percent
 	; morn
-;	db 40, MAGIKARP ; dragon snail 1
-;	db 40, TENDRILL
-;	db 40, SHREDDRAKE 
-;   db 40, MAGIKARP ; dragon snail 1
-;	db 40, SMUCIOUS
-; 	db 40, KODOROYAH
-;	db 40, GYARADOS ; dragon snail 2
-;	db 40, SHREDDRAKE
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, TENDRILL
+	db 40, SHREDDRAKE 
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, SMUCIOUS
+ 	db 40, KODOROYAH
+	db 40, GYARADOS ; dragon snail 2
+	db 40, SHREDDRAKE
 	; day
-;	db 40, MAGIKARP ; dragon snail 1
-;	db 40, TENDRILL
-;	db 40, SHREDDRAKE 
-;   db 40, MAGIKARP ; dragon snail 1
-;	db 40, SMUCIOUS
-; 	db 40, KODOROYAH
-;	db 40, GYARADOS ; dragon snail 2
-;	db 40, SHREDDRAKE
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, TENDRILL
+	db 40, SHREDDRAKE 
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, SMUCIOUS
+ 	db 40, KODOROYAH
+	db 40, GYARADOS ; dragon snail 2
+	db 40, SHREDDRAKE
 	; nite
-;	db 40, MAGIKARP ; dragon snail 1
-;	db 40, TENDRILL
-;	db 40, SHREDDRAKE 
-;   db 40, MAGIKARP ; dragon snail 1
-;	db 40, SMUCIOUS
-; 	db 40, KODOROYAH
-;	db 40, GYARADOS ; dragon snail 2
-;	db 40, SHREDDRAKE
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, TENDRILL
+	db 40, SHREDDRAKE 
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, SMUCIOUS
+ 	db 40, KODOROYAH
+	db 40, GYARADOS ; dragon snail 2
+	db 40, SHREDDRAKE
 
-;	map_id DRAGONS_DEPTHS_ITEM_ROOM
-;	db 3 percent, 3 percent, 3 percent
+	map_id DRAGONS_DEPTHS_ITEM_ROOM
+	db 3 percent, 3 percent, 3 percent
 	; morn
-;	db 40, MAGIKARP ; dragon snail 1
-;	db 40, TENDRILL
-;	db 40, SHREDDRAKE 
-;   db 40, MAGIKARP ; dragon snail 1
-;	db 40, SMUCIOUS
-; 	db 40, KODOROYAH
-;	db 40, GYARADOS ; dragon snail 2
-;	db 40, SHREDDRAKE
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, TENDRILL
+	db 40, SHREDDRAKE 
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, SMUCIOUS
+ 	db 40, KODOROYAH
+	db 40, GYARADOS ; dragon snail 2
+	db 40, SHREDDRAKE
 	; day
-;	db 40, MAGIKARP ; dragon snail 1
-;	db 40, TENDRILL
-;	db 40, SHREDDRAKE 
-;   db 40, MAGIKARP ; dragon snail 1
-;	db 40, SMUCIOUS
-; 	db 40, KODOROYAH
-;	db 40, GYARADOS ; dragon snail 2
-;	db 40, SHREDDRAKE
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, TENDRILL
+	db 40, SHREDDRAKE 
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, SMUCIOUS
+ 	db 40, KODOROYAH
+	db 40, GYARADOS ; dragon snail 2
+	db 40, SHREDDRAKE
 	; nite
-;	db 40, MAGIKARP ; dragon snail 1
-;	db 40, TENDRILL
-;	db 40, SHREDDRAKE 
-;   db 40, MAGIKARP ; dragon snail 1
-;	db 40, SMUCIOUS
-; 	db 40, KODOROYAH
-;	db 40, GYARADOS ; dragon snail 2
-;	db 40, SHREDDRAKE
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, TENDRILL
+	db 40, SHREDDRAKE 
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, SMUCIOUS
+ 	db 40, KODOROYAH
+	db 40, GYARADOS ; dragon snail 2
+	db 40, SHREDDRAKE
 	
-;	map_id DRAGONS_DEPTHS_B2F
-;	db 5 percent, 5 percent, 5 percent
+	map_id DRAGONS_DEPTHS_B2F
+	db 5 percent, 5 percent, 5 percent
 	; morn
-;	db 40, MAGIKARP ; dragon snail 1
-;	db 40, TENDRILL
-;	db 40, SHREDDRAKE 
-;   db 40, GYARADOS ; dragon snail 2
-;	db 40, SMUCIOUS
-; 	db 40, KODOROYAH
-;	db 40, GYARADOS ; dragon snail 2
-;	db 40, SHREDDRAKE
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, TENDRILL
+	db 40, SHREDDRAKE 
+	db 40, GYARADOS ; dragon snail 2
+	db 40, SMUCIOUS
+ 	db 40, KODOROYAH
+	db 40, GYARADOS ; dragon snail 2
+	db 40, SHREDDRAKE
 	; day
-;	db 40, MAGIKARP ; dragon snail 1
-;	db 40, TENDRILL
-;	db 40, SHREDDRAKE 
-;   db 40, GYARADOS ; dragon snail 2
-;	db 40, SMUCIOUS
-; 	db 40, KODOROYAH
-;	db 40, GYARADOS ; dragon snail 2
-;	db 40, SHREDDRAKE
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, TENDRILL
+	db 40, SHREDDRAKE 
+	db 40, GYARADOS ; dragon snail 2
+	db 40, SMUCIOUS
+ 	db 40, KODOROYAH
+	db 40, GYARADOS ; dragon snail 2
+	db 40, SHREDDRAKE
 	; nite
-;	db 40, MAGIKARP ; dragon snail 1
-;	db 40, TENDRILL
-;	db 40, SHREDDRAKE 
-;   db 40, GYARADOS ; dragon snail 2
-;	db 40, SMUCIOUS
-; 	db 40, KODOROYAH
-;	db 40, GYARADOS ; dragon snail 2
-;	db 40, SHREDDRAKE
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, TENDRILL
+	db 40, SHREDDRAKE 
+	db 40, GYARADOS ; dragon snail 2
+	db 40, SMUCIOUS
+ 	db 40, KODOROYAH
+	db 40, GYARADOS ; dragon snail 2
+	db 40, SHREDDRAKE
 
-;	map_id DRAGONS_DEPTHS_B3F
-;	db 3 percent, 3 percent, 3 percent
+	map_id DRAGONS_DEPTHS_B3F
+	db 3 percent, 3 percent, 3 percent
 	; morn
-;	db 40, MAGIKARP ; dragon snail 1
-;	db 40, SHREDDRAKE
-;	db 40, KODOROYAH 
-;   db 40, GYARADOS ; dragon snail 2
-;	db 40, SMUCIOUS
-; 	db 40, KODOROYAH
-;	db 40, GYARADOS ; dragon snail 2
-;	db 40, SHREDDRAKE
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, SHREDDRAKE
+	db 40, KODOROYAH 
+	db 40, GYARADOS ; dragon snail 2
+	db 40, SMUCIOUS
+ 	db 40, KODOROYAH
+	db 40, GYARADOS ; dragon snail 2
+	db 40, SHREDDRAKE
 	; day
-;	db 40, MAGIKARP ; dragon snail 1
-;	db 40, SHREDDRAKE
-;	db 40, KODOROYAH 
-;   db 40, GYARADOS ; dragon snail 2
-;	db 40, SMUCIOUS
-; 	db 40, KODOROYAH
-;	db 40, GYARADOS ; dragon snail 2
-;	db 40, SHREDDRAKE
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, SHREDDRAKE
+	db 40, KODOROYAH 
+	db 40, GYARADOS ; dragon snail 2
+	db 40, SMUCIOUS
+ 	db 40, KODOROYAH
+	db 40, GYARADOS ; dragon snail 2
+	db 40, SHREDDRAKE
 	; nite
-;	db 40, MAGIKARP ; dragon snail 1
-;	db 40, SHREDDRAKE
-;	db 40, KODOROYAH 
-;   db 40, GYARADOS ; dragon snail 2
-;	db 40, SMUCIOUS
-; 	db 40, KODOROYAH
-;	db 40, GYARADOS ; dragon snail 2
-;	db 40, SHREDDRAKE
-
+	db 40, MAGIKARP ; dragon snail 1
+	db 40, SHREDDRAKE
+	db 40, KODOROYAH 
+	db 40, GYARADOS ; dragon snail 2
+	db 40, SMUCIOUS
+ 	db 40, KODOROYAH
+	db 40, GYARADOS ; dragon snail 2
+	db 40, SHREDDRAKE
+	
 	db -1 ; end

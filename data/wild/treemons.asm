@@ -15,17 +15,34 @@ TreeMons:
 ;	db  %, species, level
 
 TreeMonSet_City:
+; common
+	db 50, EUKUB,   	20
+	db 15, FLUFFRUIT,   20
+	db 15, FLUFFRUIT,   20
+	db 10, GWUBBY,  	20
+	db  5, GWUBBY,  	20
+	db  5, GWUBBY,  	20
+	db -1
+; rare
+	db 50, WYRMOMETER,  21
+	db 15, WYRMOMETER,  21
+	db 15, WYRMOMETER,  21
+	db 10, WYRMOMETER,  21
+	db  5, KOAGAN,      22
+	db  5, KOAGAN,      22
+	db -1
+
 TreeMonSet_Canyon:  ; TODO add panda
 ; common
 	db 50, QWAIL,    20
 	db 15, EUKUB,    20
 	db 15, EUKUB,    20
-	db 10, EUKUB,      20
-	db  5, QWAIL,      20
-	db  5, GWUBBY,     20
+	db 10, QWAIL,      20
+	db  5, SHELLDER,      20	; panda standin
+	db  5, SHELLDER,     20		; panda standin
 	db -1
 ; rare
-	db 50, WYRMOMETER, 21
+	db 50, SHELLDER, 21			; panda standin
 	db 15, WYRMOMETER, 21
 	db 15, WYRMOMETER, 21
 	db 10, WYRMOMETER, 21
@@ -35,11 +52,11 @@ TreeMonSet_Canyon:  ; TODO add panda
 
 TreeMonSet_Town:
 ; common
-	db 50, QWAIL,    	20
+	db 50, GWUBBY,    	20
 	db 15, QWAIL,    	20
 	db 15, QWAIL,    	20
 	db 10, GWUBBY,      20
-	db  5, GWUBBY,      20
+	db  5, QWAIL,      20
 	db  5, GWUBBY,      20
 	db -1
 ; rare
@@ -66,7 +83,7 @@ TreeMonSet_Route:
 	db 15, WYRMOMETER,  21
 	db 10, KOAGAN,  21
 	db  5, KOAGAN,  	22
-	db  5, HOPLAQUE,  	22
+	db  5, KOAGAN,  	22
 	db -1
 
 TreeMonSet_Kanto:
@@ -75,15 +92,15 @@ TreeMonSet_Kanto:
 	db 15, FLUFFRUIT,  20
 	db 15, EUKUB,      20
 	db 10, HOATOT,     20
-	db  5, HOATOT,     20
-	db  5, HOATOT,     20
+	db  5, KOAGAN,     20
+	db  5, HOPLAQUE,     20
 	db -1
 ; rare
 	db 50, WYRMOMETER,  21
 	db 15, WYRMOMETER,  21
 	db 15, WYRMOMETER,  21
 	db 10, KOAGAN,  21
-	db  5, KOAGAN,  	22
+	db  5, HOPLAQUE,  	22
 	db  5, HOPLAQUE,  	22
 	db -1
 
@@ -109,9 +126,9 @@ TreeMonSet_Forest:
 ; common
 	db 50, EUKUB,   	20
 	db 15, BUZZLING,    20
-	db 15, FLUFFRUIT,   20
-	db 10, EUKUB,       20
-	db  5, HIVEMAIM, 	20
+	db 15, EUKUB,   20
+	db 10, HIVEMAIM,       20
+	db  5, EUKUB, 	20
 	db  5, WYRMOMETER,  20
 	db -1
 ; rare
@@ -124,6 +141,6 @@ TreeMonSet_Forest:
 	db -1
 
 TreeMonSet_Rock:
-	db 90, DOLMESA,      27
+	db 90, DOLMESA,      23
 	db 10, RESPECTRE,    27
 	db -1

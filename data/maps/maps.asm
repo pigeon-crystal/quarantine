@@ -16,33 +16,34 @@ ENDM
 
 MapGroupPointers::
 ; pointers to the first map of each map group
-	dw MapGroup_Olivine     ;  1
-	dw MapGroup_Mahogany    ;  2
-	dw MapGroup_Dungeons    ;  3
-	dw MapGroup_Ecruteak    ;  4
-	dw MapGroup_Blackthorn  ;  5
-	dw MapGroup_Cinnabar    ;  6
-	dw MapGroup_Cerulean    ;  7
-	dw MapGroup_Azalea      ;  8
-	dw MapGroup_LakeOfRage  ;  9
-	dw MapGroup_Violet      ; 10
-	dw MapGroup_Goldenrod   ; 11
-	dw MapGroup_Vermilion   ; 12
-	dw MapGroup_Pallet      ; 13
-	dw MapGroup_Pewter      ; 14
-	dw MapGroup_FastShip    ; 15
-	dw MapGroup_Indigo      ; 16
-	dw MapGroup_Fuchsia     ; 17
-	dw MapGroup_Lavender    ; 18
-	dw MapGroup_Silver      ; 19
-	dw MapGroup_CableClub   ; 20
-	dw MapGroup_Celadon     ; 21
-	dw MapGroup_Cianwood    ; 22
-	dw MapGroup_Viridian    ; 23
-	dw MapGroup_NewBark     ; 24
-	dw MapGroup_Saffron     ; 25
-	dw MapGroup_Cherrygrove ; 26
-	dw MapGroup_CianwoodDunes ;27
+	dw MapGroup_Olivine     	;  1
+	dw MapGroup_Mahogany    	;  2
+	dw MapGroup_Dungeons    	;  3
+	dw MapGroup_Ecruteak    	;  4
+	dw MapGroup_Blackthorn  	;  5
+	dw MapGroup_Cinnabar    	;  6
+	dw MapGroup_Cerulean    	;  7
+	dw MapGroup_Azalea      	;  8
+	dw MapGroup_LakeOfRage  	;  9
+	dw MapGroup_Violet      	; 10
+	dw MapGroup_Goldenrod   	; 11
+	dw MapGroup_Vermilion   	; 12
+	dw MapGroup_Pallet      	; 13
+	dw MapGroup_Pewter      	; 14
+	dw MapGroup_FastShip    	; 15
+	dw MapGroup_Indigo      	; 16
+	dw MapGroup_Fuchsia     	; 17
+	dw MapGroup_Lavender    	; 18
+	dw MapGroup_Silver      	; 19
+	dw MapGroup_CableClub   	; 20
+	dw MapGroup_Celadon     	; 21
+	dw MapGroup_Cianwood    	; 22
+	dw MapGroup_Viridian    	; 23
+	dw MapGroup_NewBark     	; 24
+	dw MapGroup_Saffron     	; 25
+	dw MapGroup_Cherrygrove 	; 26
+	dw MapGroup_CianwoodDunes 	; 27
+	dw MapGroup_DragonsDepths 	; 28
 
 MapGroup_Olivine:
 	map OlivinePokecenter1F, TILESET_POKECENTER, INDOOR, LANDMARK_OLIVINE_CITY, MUSIC_POKEMON_CENTER, FALSE, PALETTE_DAY, FISHGROUP_SHORE
@@ -486,5 +487,12 @@ MapGroup_Cherrygrove:
 	map Route31VioletGate, TILESET_GATE, GATE, LANDMARK_ROUTE_31, MUSIC_ROUTE_30, FALSE, PALETTE_DAY, FISHGROUP_SHORE
 
 MapGroup_CianwoodDunes:
-	map CianwoodDunesCave, TILESET_CAVE, CAVE, LANDMARK_CIANWOOD_DUNES, MUSIC_LIGHTHOUSE, TRUE, PALETTE_AUTO, FISHGROUP_OCEAN
+	map CianwoodDunesCave, TILESET_CAVE, CAVE, LANDMARK_CIANWOOD_DUNES, MUSIC_LIGHTHOUSE, TRUE, PALETTE_DAY, FISHGROUP_OCEAN
 	map CianwoodDunes, TILESET_JOHTO, ROUTE, LANDMARK_CIANWOOD_DUNES, MUSIC_ECRUTEAK_CITY, FALSE, PALETTE_AUTO, FISHGROUP_OCEAN	
+
+MapGroup_DragonsDepths:
+	map DragonsDepths1F, TILESET_CAVE, CAVE, LANDMARK_DRAGONS_DEPTHS, MUSIC_DRAGONS_DEN, TRUE, PALETTE_NITE, FISHGROUP_DRATINI
+	map DragonsDepthsB1F, TILESET_CAVE, CAVE, LANDMARK_DRAGONS_DEPTHS, MUSIC_DRAGONS_DEN, TRUE, PALETTE_NITE, FISHGROUP_DRATINI
+	map DragonsDepthsB2F, TILESET_CAVE, CAVE, LANDMARK_DRAGONS_DEPTHS, MUSIC_DRAGONS_DEN, TRUE, PALETTE_NITE, FISHGROUP_DRATINI
+	map DragonsDepthsB3F, TILESET_CAVE, CAVE, LANDMARK_DRAGONS_DEPTHS, MUSIC_TENSION, TRUE, PALETTE_NITE, FISHGROUP_DRATINI
+	map DragonsDepthsItemRoom, TILESET_CAVE, CAVE, LANDMARK_DRAGONS_DEPTHS, MUSIC_DRAGONS_DEN, TRUE, PALETTE_NITE, FISHGROUP_DRATINI

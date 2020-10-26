@@ -487,3 +487,12 @@ INCLUDE "maps/SilverCaveOutside.asm"
 INCLUDE "maps/Route10North.asm"
 INCLUDE "maps/CianwoodDunesCave.asm"
 INCLUDE "maps/CianwoodDunes.asm"
+
+SECTION "Map Scripts 26", ROMX
+
+INCLUDE "maps/DragonsDepths1F.asm"
+INCLUDE "maps/DragonsDepthsB1F.asm"
+INCLUDE "maps/DragonsDepthsB2F.asm"
+INCLUDE "maps/DragonsDepthsB3F.asm"
+INCLUDE "maps/DragonsDepthsItemRoom.asm"
+

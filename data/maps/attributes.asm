@@ -696,4 +696,9 @@ ENDM
 	map_attributes MrPokemonsHouse, MR_POKEMONS_HOUSE, $00, 0
 	map_attributes Route31VioletGate, ROUTE_31_VIOLET_GATE, $00, 0
 	map_attributes CianwoodDunesCave, CIANWOOD_DUNES_CAVE, $09, 0
-	map_attributes CianwoodDunes, CIANWOOD_DUNES, $35, 0	
+	map_attributes CianwoodDunes, CIANWOOD_DUNES, $35, 0
+	map_attributes DragonsDepths1F, DRAGONS_DEPTHS_1F, $09, 0
+	map_attributes DragonsDepthsB1F, DRAGONS_DEPTHS_B1F, $09, 0
+	map_attributes DragonsDepthsB2F, DRAGONS_DEPTHS_B2F, $09, 0 
+	map_attributes DragonsDepthsB3F, DRAGONS_DEPTHS_B3F, $09, 0
+	map_attributes DragonsDepthsItemRoom, DRAGONS_DEPTHS_ITEM_ROOM, $09, 0

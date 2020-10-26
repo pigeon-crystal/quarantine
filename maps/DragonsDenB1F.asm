@@ -8,6 +8,7 @@
 	const DRAGONSDENB1F_TWIN2
 	const DRAGONSDENB1F_POKE_BALL2
 	const DRAGONSDENB1F_POKE_BALL3
+	const DRAGONSDENB1F_GUARD
 
 DragonsDenB1F_MapScripts:
 	db 2 ; scene scripts
@@ -187,6 +188,14 @@ DragonsDenB1FHiddenMaxPotion:
 
 DragonsDenB1FHiddenMaxElixer:
 	hiddenitem MAX_ELIXER, EVENT_DRAGONS_DEN_B1F_HIDDEN_MAX_ELIXER
+	
+DragonsDenB1FGuardScript:
+	faceplayer
+	opentext
+	writetext DragonsDenB1FGuardText
+	waitbutton
+	closetext
+	end
 
 MovementDragonsDen_ClairWalksToYou:
 	slow_step RIGHT
@@ -201,6 +210,16 @@ MovementDragonsDen_ClairWalksAway:
 	slow_step LEFT
 	slow_step LEFT
 	step_end
+
+DragonsDenB1FGuardText:
+	text "Sorry, trainer."
+	
+	para "I cannot let you"
+	line "pass into the"
+	cont "DRAGON'S DEPTHS"
+	
+	para "without the consent"
+	line "of the MASTER."
 
 ClairText_Wait:
 	text "Wait!"
@@ -406,9 +425,10 @@ Text_NoRoomForDragonFang:
 DragonsDenB1F_MapEvents:
 	db 0, 0 ; filler
 
-	db 2 ; warp events
+	db 3 ; warp events
 	warp_event 20,  3, DRAGONS_DEN_1F, 3
 	warp_event 19, 29, DRAGON_SHRINE, 1
+	warp_event 34, 15, DRAGONS_DEPTHS_1F, 1
 
 	db 1 ; coord events
 	coord_event 19, 30, SCENE_DRAGONSDENB1F_CLAIR_GIVES_TM, DragonsDenB1F_ClairScene
@@ -419,7 +439,7 @@ DragonsDenB1F_MapEvents:
 	bg_event 21, 17, BGEVENT_ITEM, DragonsDenB1FHiddenMaxPotion
 	bg_event 31, 15, BGEVENT_ITEM, DragonsDenB1FHiddenMaxElixer
 
-	db 9 ; object events
+	db 10 ; object events
 	object_event 35, 16, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DragonsDenB1FDragonFangScript, EVENT_DRAGONS_DEN_B1F_DRAGON_FANG
 	object_event 14, 30, SPRITE_CLAIR, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_DRAGONS_DEN_CLAIR
 	object_event 20, 23, SPRITE_SILVER, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DragonsDenB1FSilverScript, EVENT_RIVAL_DRAGONS_DEN
@@ -429,3 +449,4 @@ DragonsDenB1F_MapEvents:
 	object_event  4, 18, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 1, TrainerTwinsLeaandpia2, -1
 	object_event 30,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DragonsDenB1FCalcium, EVENT_DRAGONS_DEN_B1F_CALCIUM
 	object_event  5, 20, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DragonsDenB1FMaxElixer, EVENT_DRAGONS_DEN_B1F_MAX_ELIXER
+	object_event 34, 16, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, DragonsDenB1FGuardScript, EVENT_GOT_DRATINI

@@ -493,7 +493,16 @@ ENDM
 	map_const MR_POKEMONS_HOUSE,                            4,  4 ; 10
 	map_const ROUTE_31_VIOLET_GATE,                         5,  4 ; 11
 	
-	newgroup
+	newgroup														; 27
 	
 	map_const CIANWOOD_DUNES_CAVE,							18, 14 ; 1
 	map_const CIANWOOD_DUNES,								15, 20 ; 2
+
+	newgroup
+	
+	map_const DRAGONS_DEPTHS_1F,							10, 10 ; 1
+	map_const DRAGONS_DEPTHS_B1F,							17, 25 ; 2
+	map_const DRAGONS_DEPTHS_B2F,							20, 14 ; 3
+	map_const DRAGONS_DEPTHS_B3F,							19,	19 ; 4
+	map_const DRAGONS_DEPTHS_ITEM_ROOM,						10, 10 ; 5
+	

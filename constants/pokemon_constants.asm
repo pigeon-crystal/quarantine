@@ -152,7 +152,7 @@
 	const MANDELBLOB ; 83
 	const HELACTAL   ; 84
 	const EEVEE      ; 85 Noomsday
-	const GANZORAH   ; 86 Ghoose
+	const GANZORAH   ; 86 
 	const JOLTEON    ; 87 Mist Moomin
 	const FLAREON    ; 88 Mist Rando
 	const PORYGON    ; 89 Dr Scorp

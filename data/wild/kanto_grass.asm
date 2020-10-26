@@ -815,91 +815,91 @@ KantoGrassWildMons:
 	map_id ROUTE_26 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 28, DODUO
-	db 28, DUNEFIN
-	db 32, MOPERDOR
-	db 30, NOMSABRE
-	db 30, DODUO
-	db 30, IGNAGA
-	db 30, IGNAGA
-	db 34, IGNAGA
+	db 28, QWALLOP
+	db 28, HOATOXIC
+	db 30, PARASECT
+	db 30, WORMACHO
+	db 32, YAGAGARASU
+	db 30, YAGAGARASU
+	db 30, AERODACTYL ; standin for Wellwitchsia
+	db 40, AERODACTYL ; standin for Wellwitchsia
 	; day
-	db 28, DODUO
-	db 28, DUNEFIN
-	db 32, MOPERDOR
-	db 30, NOMSABRE
-	db 30, DODUO
-	db 30, IGNAGA
-	db 30, IGNAGA
-	db 34, IGNAGA
+	db 28, QWALLOP
+	db 28, HOATOXIC
+	db 30, PARASECT
+	db 30, WORMACHO
+	db 32, YAGAGARASU
+	db 30, YAGAGARASU
+	db 30, AERODACTYL ; standin for Wellwitchsia
+	db 40, AERODACTYL ; standin for Wellwitchsia
 	; nite
-	db 28, MURDERMIS
-	db 28, NOMSABRE
-	db 32, MURDERMIS
-	db 30, NOMSABRE
-	db 30, ASTROTOM
-	db 30, ASTROTOM
-	db 30, ASTROTOM
-	db 40, ASTROTOM
+	db 28, QWALLOP
+	db 28, HOATOXIC
+	db 30, PARASECT
+	db 30, WORMACHO
+	db 32, YAGAGARASU
+	db 30, YAGAGARASU
+	db 30, AERODACTYL ; standin for Wellwitchsia
+	db 40, AERODACTYL ; standin for Wellwitchsia
 
 	map_id ROUTE_27 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 28, DODUO
-	db 28, IGNAGA
-	db 30, NOMSABRE
-	db 30, DODUO
-	db 32, MOPERDOR
-	db 30, DODRIO
-	db 30, DODRIO
-	db 40, MOPERDOR
+	db 28, QWALLOP
+	db 28, HORNAMPA
+	db 30, HOATOXIC
+	db 30, WORMACHO
+	db 32, HOATOXIC
+	db 30, AERODACTYL ; standin for Wellwitchsia
+	db 30, AERODACTYL ; standin for Wellwitchsia
+	db 40, AERODACTYL ; standin for Wellwitchsia
 	; day
-	db 28, DODUO
-	db 28, IGNAGA
-	db 30, NOMSABRE
-	db 30, DODUO
-	db 32, MOPERDOR
-	db 30, DODRIO
-	db 30, DODRIO
-	db 40, MOPERDOR
+	db 28, QWALLOP
+	db 28, HORNAMPA
+	db 30, HOATOXIC
+	db 30, WORMACHO
+	db 32, HOATOXIC
+	db 30, AERODACTYL ; standin for Wellwitchsia
+	db 30, AERODACTYL ; standin for Wellwitchsia
+	db 40, AERODACTYL ; standin for Wellwitchsia
 	; nite
-	db 28, ASTROTOM
-	db 28, MURDERMIS
-	db 30, NOMSABRE
-	db 30, ASTROTOM
-	db 32, MURDERMIS
-	db 32, MURDERMIS
-	db 32, MURDERMIS
-	db 40, ASTROTOM
+	db 28, QWALLOP
+	db 28, HORNAMPA
+	db 30, HOATOXIC
+	db 30, WORMACHO
+	db 32, HOATOXIC
+	db 30, AERODACTYL ; standin for Wellwitchsia
+	db 30, AERODACTYL ; standin for Wellwitchsia
+	db 40, AERODACTYL ; standin for Wellwitchsia	
 
 	map_id ROUTE_28 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 39, ANTPYRE
-	db 40, MOPERDOR
-	db 40, MAJESDOR
-	db 42, IGNAGA
-	db 41, DODUO
-	db 43, DODRIO
-	db 43, DODRIO
+	db 39, PILFOARD
+	db 40, YAGAGARASU
+	db 40, YAGAGARASU
+	db 42, MAULZER
+	db 41, NAVIGAZER
+	db 43, MAGIKARP  ; standin for snail 1
+	db 43, MAGIKARP
 	db 42, MAJESDOR
 	; day
-	db 39, ANTPYRE
-	db 40, MOPERDOR
-	db 40, MAJESDOR
-	db 42, IGNAGA
-	db 41, DODUO
-	db 43, DODRIO
-	db 43, DODRIO
+	db 39, PILFOARD
+	db 40, YAGAGARASU
+	db 40, YAGAGARASU
+	db 42, BULBASAUR
+	db 41, BULBASAUR
+	db 43, MAGIKARP  ; standin for snail 1
+	db 43, MAGIKARP
 	db 42, MAJESDOR
 	; nite
-	db 39, ANTPYRE
-	db 40, AMANIGO
-	db 40, SCORPEROR
-	db 40, AMANIGO
-	db 42, SCORPEROR
-	db 42, SCORPEROR
-	db 42, SCORPEROR
-	db 42, AMANIGO
+	db 39, PILFOARD
+	db 40, YAGAGARASU
+	db 40, YAGAGARASU
+	db 40, MOTHO
+	db 42, NAVIGAZER
+	db 42, NYALLEY
+	db 42, NYALLEY
+	db 42, NYALLEY
 
 	db -1 ; end
