@@ -132,7 +132,7 @@ PokedexDataPointerTable:
 	dw GyaradosPokedexEntry
 	dw MandelblobPokedexEntry
 	dw HelactalPokedexEntry
-	dw EeveePokedexEntry
+	dw NoomsdayPokedexEntry
 	dw GanzorahPokedexEntry
 	dw JolteonPokedexEntry
 	dw FlareonPokedexEntry

@@ -131,7 +131,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw MandelblobEggMoves
 	dw NoEggMoves
-	dw EeveeEggMoves
+	dw NoomsdayEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

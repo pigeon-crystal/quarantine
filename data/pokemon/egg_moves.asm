@@ -413,7 +413,7 @@ MandelblobEggMoves:
 	db GIGA_DRAIN
 	db -1 ; end
 
-EeveeEggMoves:
+NoomsdayEggMoves:
 	db FLAIL
 	db CHARM
 	db -1 ; end

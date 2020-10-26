@@ -49,7 +49,7 @@ AlphabeticalPokedexOrder:
 	db DUMBLOON
 	db DUNEFIN
 	db EELKIE
-	db EEVEE
+	db NOOMSDAY
 	db ELECTRODE
 	db ELEKID
 	db ELEPHOOT

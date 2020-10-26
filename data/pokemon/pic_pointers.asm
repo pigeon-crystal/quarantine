@@ -266,8 +266,8 @@ PokemonPicPointers::
 	dba_pic MandelblobBackpic
 	dba_pic HelactalFrontpic
 	dba_pic HelactalBackpic
-	dba_pic EeveeFrontpic
-	dba_pic EeveeBackpic
+	dba_pic NoomsdayFrontpic
+	dba_pic NoomsdayBackpic
 	dba_pic GanzorahFrontpic
 	dba_pic GanzorahBackpic
 	dba_pic JolteonFrontpic

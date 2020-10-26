@@ -4,12 +4,12 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type
-	db 254 ; catch rate
-	db 48 ; base exp
+	db 249 ; catch rate
+	db 42 ; base exp
 	db BERRY, GOLD_BERRY ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
-	db 19 ; step cycles to hatch
+	db 11 ; step cycles to hatch
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/nomster/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)

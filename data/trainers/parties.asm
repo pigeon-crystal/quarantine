@@ -1038,7 +1038,7 @@ CooltrainerMGroup:
 CooltrainerFGroup:
 	; COOLTRAINERF (1)
 	db "GWEN@", TRAINERTYPE_NORMAL
-	db 26, EEVEE
+	db 26, NOOMSDAY
 	db 22, FLAREON
 	db 22, GANZORAH
 	db 22, JOLTEON

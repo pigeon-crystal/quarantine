@@ -136,7 +136,7 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; GYARADOS
 	icon_pals PINK,   YELLOW   ; MANDELBLOB
 	icon_pals PINK,   YELLOW   ; HELACTAL
-	icon_pals BROWN,   YELLOW  ; EEVEE
+	icon_pals BROWN,   YELLOW  ; NOOMSDAY
 	icon_pals BROWN,   YELLOW  ; GANZORAH
 	icon_pals BROWN,   YELLOW  ; JOLTEON
 	icon_pals BROWN,   YELLOW  ; FLAREON

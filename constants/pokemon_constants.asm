@@ -151,7 +151,7 @@
 	const GYARADOS   ; 82 Snail 2
 	const MANDELBLOB ; 83
 	const HELACTAL   ; 84
-	const EEVEE      ; 85 Noomsday
+	const NOOMSDAY      ; 85 Noomsday
 	const GANZORAH   ; 86 
 	const JOLTEON    ; 87 Mist Moomin
 	const FLAREON    ; 88 Mist Rando

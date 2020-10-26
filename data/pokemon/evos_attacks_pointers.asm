@@ -133,7 +133,7 @@ EvosAttacksPointers::
 	dw GyaradosEvosAttacks
 	dw MandelblobEvosAttacks
 	dw HelactalEvosAttacks
-	dw EeveeEvosAttacks
+	dw NoomsdayEvosAttacks
 	dw GanzorahEvosAttacks
 	dw JolteonEvosAttacks
 	dw FlareonEvosAttacks

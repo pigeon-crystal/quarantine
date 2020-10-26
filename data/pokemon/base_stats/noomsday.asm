@@ -1,17 +1,17 @@
-	db NOMSABRE ; 020
+	db NOOMSDAY ; 
 
-	db  115, 93,  95, 40,  30,  75
+	db  139,  95,  115,  41,  95,  115
 	;   hp  atk  def  spd  sat  sdf
 
-	db NORMAL, NORMAL ; type
-	db 111 ; catch rate
-	db 111 ; base exp
-	db GOLD_BERRY, MYSTERYBERRY ; items
+	db DARK, FAIRY ; type
+	db 0 ; catch rate
+	db 255 ; base exp
+	db MYSTERYBERRY, MYSTERYBERRY ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 11 ; step cycles to hatch
 	db 5 ; unknown 2
-	INCBIN "gfx/pokemon/nomsabre/front.dimensions"
+	INCBIN "gfx/pokemon/noomsday/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups

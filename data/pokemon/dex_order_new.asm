@@ -181,7 +181,7 @@ NewPokedexOrder:
 	db CADDISICLE
 	db JADDICE
 	db ANTPYRE
-	db EEVEE
+	db NOOMSDAY
 	db GANZORAH
 	db JOLTEON
 	db FLAREON

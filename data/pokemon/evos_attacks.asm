@@ -1884,7 +1884,7 @@ HelactalEvosAttacks:
 	db 66, NASTY_PLOT
 	db 0 ; no more level-up moves
 
-EeveeEvosAttacks:
+NoomsdayEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves

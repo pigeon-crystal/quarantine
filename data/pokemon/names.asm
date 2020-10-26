@@ -131,7 +131,7 @@ PokemonNames::
 	db "GYARADOS@@"
 	db "MANDELBLOB"
 	db "HELACTAL@@"
-	db "EEVEE@@@@@"
+	db "NOOMSDAY@@"
 	db "GANZORAH@@"
 	db "JOLTEON@@@"
 	db "FLAREON@@@"

@@ -100,7 +100,7 @@ Pokered_MonIndices:
 	db BEHEMOTHRA
 	db HEXAHED
 	db ICOSAHED
-	db EEVEE
+	db NOOMSDAY
 	db FLAREON
 	db JOLTEON
 	db GANZORAH

@@ -137,7 +137,7 @@ PokemonCries::
 	mon_cry CRY_EKANS,         0,  256 ; GYARADOS
 	mon_cry CRY_PIDGEY,      272,  310 ; MANDELBLOB
 	mon_cry CRY_PIDGEY,      172,  310 ; HELACTAL
-	mon_cry CRY_VENONAT,     136,  224 ; EEVEE
+	mon_cry CRY_VENONAT,     136,  224 ; NOOMSDAY
 	mon_cry CRY_VENONAT,     170,  383 ; GANZORAH
 	mon_cry CRY_VENONAT,      61,  256 ; JOLTEON
 	mon_cry CRY_VENONAT,      16,  160 ; FLAREON
