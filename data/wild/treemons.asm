@@ -65,7 +65,7 @@ TreeMonSet_Town:
 	db 15, WYRMOMETER,  21
 	db 10, KOAGAN,  21
 	db  5, KOAGAN,      22
-	db  5, HOPLAQUE,    22
+	db  5, KOAGAN,    22
 	db -1
 
 TreeMonSet_Route:

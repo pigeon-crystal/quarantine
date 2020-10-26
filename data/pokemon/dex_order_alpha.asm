@@ -136,7 +136,7 @@ AlphabeticalPokedexOrder:
 	db NANUQUA
 	db NAVIGAZER
 	db SWIMIAN
-	db NIDOQUEEN
+	db ONIONION
 	db SPRUNNY
 	db PRAWMATE
 	db ONIONI

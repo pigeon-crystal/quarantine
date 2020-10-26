@@ -49,7 +49,7 @@
 	const DUNEFIN    ; 1c
 	const SPRUNNY    ; 1d
 	const ONIONI   	 ; 1e
-	const NIDOQUEEN  ; 1f onionion
+	const ONIONION  ; 1f onionion
 	const PRAWMATE   ; 20
 	const SHRIMPANZI ; 21 shrimpanzi
 	const SWIMIAN    ; 22 swimian

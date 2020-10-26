@@ -29,7 +29,7 @@ PokemonNames::
 	db "DUNEFIN@@@"
 	db "SPRUNNY@@@"
 	db "ONIONI@@@@"
-	db "NIDOQUEEN@"
+	db "ONIONION@@"
 	db "PRAWMATE@@"
 	db "SHRIMPANZI"
 	db "SWIMIAN@@@"

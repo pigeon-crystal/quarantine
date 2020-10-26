@@ -391,12 +391,12 @@ SprunnyEvosAttacks:
 	db 0 ; no more level-up moves
 
 OnioniEvosAttacks:
-	db EVOLVE_ITEM, LEAF_STONE, NIDOQUEEN
+	db EVOLVE_ITEM, LEAF_STONE, ONIONION
 	db 0 ; no more evolutions
 	db 1, GROWL
 	db 0 ; no more level-up moves
 
-NidoqueenEvosAttacks:
+OnionionEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves

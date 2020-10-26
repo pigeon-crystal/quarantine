@@ -34,7 +34,7 @@ MonMenuIconPals:
 	icon_pals YELLOW,  PINK   ; DUNEFIN
 	icon_pals GREEN,   RED  ; SPRUNNY
 	icon_pals YELLOW,   YELLOW  ; ONIONI
-	icon_pals RED,   GREEN  ; NIDOQUEEN
+	icon_pals RED,   GREEN  ; ONIONION
 	icon_pals PINK,   YELLOW  ; PRAWMATE
 	icon_pals PINK,   YELLOW  ; SHRIMPANZI
 	icon_pals PINK,   YELLOW  ; SWIMIAN

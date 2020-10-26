@@ -30,7 +30,7 @@ PokedexDataPointerTable:
 	dw DunefinPokedexEntry
 	dw SprunnyPokedexEntry
 	dw OnioniPokedexEntry
-	dw NidoqueenPokedexEntry
+	dw OnionionPokedexEntry
 	dw PrawmatePokedexEntry
 	dw ShrimpanziPokedexEntry
 	dw SwimianPokedexEntry

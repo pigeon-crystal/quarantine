@@ -156,7 +156,7 @@ KantoGrassWildMons:
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
 	db 22, NOMSABRE
-	db 22, SCORPEROR
+	db 22, OSCURASA
 	db 24, TENDRILL
 	db 21, SNOSEBLEED
 	db 20, TENDRILL
@@ -165,7 +165,7 @@ KantoGrassWildMons:
 	db 25, TENDRILL
 	; day
 	db 22, NOMSABRE
-	db 22, SCORPEROR
+	db 22, OSCURASA
 	db 24, TENDRILL
 	db 21, SNOSEBLEED
 	db 20, TENDRILL
@@ -174,7 +174,7 @@ KantoGrassWildMons:
 	db 25, TENDRILL
 	; nite
 	db 22, NOMSABRE
-	db 22, SCORPEROR
+	db 22, OSCURASA
 	db 24, TENDRILL
 	db 21, SNOSEBLEED
 	db 20, TENDRILL

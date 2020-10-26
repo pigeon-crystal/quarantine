@@ -35,7 +35,7 @@ PokemonCries::
 	mon_cry CRY_NIDORAN_M,   255,  383 ; DUNEFIN
 	mon_cry CRY_NIDORAN_F,     0,  256 ; SPRUNNY
 	mon_cry CRY_NIDORAN_F,    44,  352 ; ONIONI
-	mon_cry CRY_NIDOQUEEN,     0,  256 ; NIDOQUEEN
+	mon_cry CRY_NIDOQUEEN,     0,  256 ; ONIONION
 	mon_cry CRY_NIDORAN_M,     0,  256 ; PRAWMATE
 	mon_cry CRY_NIDORAN_M,    44,  320 ; SHRIMPANZI
 	mon_cry CRY_RAICHU,        0,  256 ; SWIMIAN

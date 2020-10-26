@@ -62,8 +62,8 @@ PokemonPicPointers::
 	dba_pic SprunnyBackpic
 	dba_pic OnioniFrontpic
 	dba_pic OnioniBackpic
-	dba_pic NidoqueenFrontpic
-	dba_pic NidoqueenBackpic
+	dba_pic OnionionFrontpic
+	dba_pic OnionionBackpic
 	dba_pic PrawmateFrontpic
 	dba_pic PrawmateBackpic
 	dba_pic ShrimpanziFrontpic

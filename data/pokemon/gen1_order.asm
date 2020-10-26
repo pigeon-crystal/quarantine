@@ -14,7 +14,7 @@ Pokered_MonIndices:
 	db DUMBLOON
 	db PITAYRANT
 	db SPRUNNY
-	db NIDOQUEEN
+	db ONIONION
 	db COCACOBRA
 	db CUTTLE
 	db MANDELBLOB

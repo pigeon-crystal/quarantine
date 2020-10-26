@@ -167,7 +167,7 @@ JohtoWaterWildMons:
 	map_id ROUTE_40 ;done
 	db 6 percent ; encounter rate
 	db 20, PRAWMATE
-	db 15, PRAWMATE
+	db 15, SQWUCKY
 	db 20, TENTACOOL ; barberfish standin
 	db 25, UPWHALE
 
@@ -175,7 +175,7 @@ JohtoWaterWildMons:
 	db 6 percent ; encounter rate
 	db 20, PRAWMATE
 	db 20, PIKACHU ; parrot standin
-	db 20, UPWHALE
+	db 20, SQWUCKY
 	db 25, UPWHALE
 
 	map_id ROUTE_42 ;done
@@ -210,7 +210,7 @@ JohtoWaterWildMons:
 	db 6 percent ; encounter rate
 	db 20, PRAWMATE
 	db 15, PRAWMATE
-	db 20, STRANGLURE
+	db 20, SQWUCKY
 	db 22, STRANGLURE
 
 	map_id CHERRYGROVE_CITY ;done
@@ -218,7 +218,7 @@ JohtoWaterWildMons:
 	db 20, PRAWMATE
 	db 15, PRAWMATE
 	db 20, STRANGLURE
-	db 22, PRAWMATE
+	db 22, SQWUCKY
 
 	map_id VIOLET_CITY ;done
 	db 2 percent ; encounter rate
@@ -271,16 +271,23 @@ JohtoWaterWildMons:
 	
 	map_id CIANWOOD_DUNES_CAVE ;done
 	db 4 percent ; encounter rate
-	db 35, SWIMIAN
-	db 40, SWIMIAN
-	db 35, SWIMIAN
+	db 35, PRAWMATE
+	db 40, SQWUCKY
+	db 35, PRAWMATE
 	db 44, BOWLIDE
 
 	map_id CIANWOOD_DUNES ;done
 	db 6 percent ; encounter rate
-	db 35, STRANGLURE
-	db 40, SWIMIAN
-	db 35, UPWHALE
+	db 35, PRAWMATE
+	db 40, STRANGLURE
+	db 35, SQWUCKY
 	db 44, UPWHALE
+	
+	map_id DRAGONS_DEPTHS_B1F
+	db 5 percent ; encounter rate
+	db 40, OSCURASA
+	db 40, KODOROYAH
+	db 40, SMUCIOUS
+	db 40, HOPLAQUE
 	
 	db -1 ; end

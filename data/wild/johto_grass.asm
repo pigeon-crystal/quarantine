@@ -66,242 +66,242 @@ JohtoGrassWildMons:
 	map_id TIN_TOWER_2F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, NOMSTER
-	db 21, NOMSTER
-	db 22, NOMSTER
-	db 22, NOMSTER
-	db 23, NOMSTER
-	db 24, NOMSTER
+	db 20, NOMSABRE
+	db 21, OSCURASA
+	db 22, FLUFFRUIT
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
 	db 24, NOMSTER
 	db 26, NOMSTER
 	; day
-	db 20, NOMSTER
-	db 21, NOMSTER
-	db 22, NOMSTER
-	db 22, NOMSTER
-	db 23, NOMSTER
-	db 24, NOMSTER
+	db 20, NOMSABRE
+	db 21, OSCURASA
+	db 22, FLUFFRUIT
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
 	db 24, NOMSTER
 	db 26, NOMSTER
 	; nite
-	db 20, FLUFFRUIT
-	db 21, FLUFFRUIT
+	db 20, NOMSABRE
+	db 21, OSCURASA
 	db 22, FLUFFRUIT
-	db 22, NOMSTER
-	db 23, NOMSTER
-	db 24, NOMSTER
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
 	db 24, NOMSTER
 	db 26, NOMSTER
 
 	map_id TIN_TOWER_3F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, NOMSTER
-	db 21, NOMSTER
-	db 22, NOMSTER
-	db 22, NOMSTER
-	db 23, NOMSTER
-	db 24, NOMSTER
+	db 20, NOMSABRE
+	db 21, OSCURASA
+	db 22, FLUFFRUIT
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
 	db 24, NOMSTER
 	db 26, NOMSTER
 	; day
-	db 20, NOMSTER
-	db 21, NOMSTER
-	db 22, NOMSTER
-	db 22, NOMSTER
-	db 23, NOMSTER
-	db 24, NOMSTER
-	db 24, NOMSTER
-	db 26, NOMSABRE
-	; nite
-	db 20, FLUFFRUIT
-	db 21, FLUFFRUIT
+	db 20, NOMSABRE
+	db 21, OSCURASA
 	db 22, FLUFFRUIT
-	db 22, NOMSTER
-	db 23, NOMSTER
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
 	db 24, NOMSTER
+	db 26, NOMSTER
+	; nite
+	db 20, NOMSABRE
+	db 21, OSCURASA
+	db 22, FLUFFRUIT
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
 	db 24, NOMSTER
-	db 26, NOMSABRE
+	db 26, NOMSTER
 
 	map_id TIN_TOWER_4F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, NOMSTER
-	db 21, NOMSTER
-	db 22, NOMSTER
-	db 22, NOMSTER
-	db 23, NOMSTER
-	db 24, NOMSTER
-	db 24, NOMSTER
-	db 26, NOMSABRE
-	; day
-	db 20, NOMSTER
-	db 21, NOMSTER
-	db 22, NOMSTER
-	db 22, NOMSTER
-	db 23, NOMSTER
-	db 24, NOMSTER
-	db 24, NOMSTER
-	db 26, NOMSABRE
-	; nite
-	db 20, FLUFFRUIT
-	db 21, FLUFFRUIT
+	db 20, NOMSABRE
+	db 21, OSCURASA
 	db 22, FLUFFRUIT
-	db 22, NOMSTER
-	db 23, NOMSTER
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
 	db 24, NOMSTER
+	db 26, NOMSTER
+	; day
+	db 20, NOMSABRE
+	db 21, OSCURASA
+	db 22, FLUFFRUIT
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
 	db 24, NOMSTER
-	db 26, NOMSABRE
+	db 26, NOMSTER
+	; nite
+	db 20, NOMSABRE
+	db 21, OSCURASA
+	db 22, FLUFFRUIT
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
+	db 24, NOMSTER
+	db 26, NOMSTER
 
 	map_id TIN_TOWER_5F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, NOMSTER
-	db 21, NOMSTER
-	db 22, NOMSTER
-	db 22, NOMSTER
-	db 23, NOMSTER
-	db 24, NOMSTER
-	db 24, NOMSTER
-	db 27, NOMSABRE
-	; day
-	db 20, NOMSTER
-	db 21, NOMSTER
-	db 22, NOMSTER
-	db 22, NOMSTER
-	db 23, NOMSTER
-	db 24, NOMSTER
-	db 24, NOMSTER
-	db 27, NOMSABRE
-	; nite
-	db 20, FLUFFRUIT
-	db 21, FLUFFRUIT
+	db 20, NOMSABRE
+	db 21, OSCURASA
 	db 22, FLUFFRUIT
-	db 22, NOMSTER
-	db 23, NOMSTER
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
 	db 24, NOMSTER
+	db 26, NOMSTER
+	; day
+	db 20, NOMSABRE
+	db 21, OSCURASA
+	db 22, FLUFFRUIT
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
 	db 24, NOMSTER
-	db 27, NOMSABRE
+	db 26, NOMSTER
+	; nite
+	db 20, NOMSABRE
+	db 21, OSCURASA
+	db 22, FLUFFRUIT
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
+	db 24, NOMSTER
+	db 26, NOMSTER
 
 	map_id TIN_TOWER_6F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, NOMSTER
-	db 21, NOMSTER
-	db 22, NOMSTER
-	db 22, NOMSTER
-	db 23, NOMSTER
-	db 24, NOMSTER
-	db 24, NOMSTER
-	db 29, NOMSABRE
-	; day
-	db 20, NOMSTER
-	db 21, NOMSTER
-	db 22, NOMSTER
-	db 22, NOMSTER
-	db 23, NOMSTER
-	db 24, NOMSTER
-	db 24, NOMSTER
-	db 29, NOMSABRE
-	; nite
-	db 20, FLUFFRUIT
-	db 21, FLUFFRUIT
+	db 20, NOMSABRE
+	db 21, OSCURASA
 	db 22, FLUFFRUIT
-	db 22, NOMSTER
-	db 23, NOMSTER
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
 	db 24, NOMSTER
+	db 26, NOMSTER
+	; day
+	db 20, NOMSABRE
+	db 21, OSCURASA
+	db 22, FLUFFRUIT
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
 	db 24, NOMSTER
-	db 29, SCRUFFRUIT
+	db 26, NOMSTER
+	; nite
+	db 20, NOMSABRE
+	db 21, OSCURASA
+	db 22, FLUFFRUIT
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
+	db 24, NOMSTER
+	db 26, NOMSTER
 
 	map_id TIN_TOWER_7F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, NOMSTER
-	db 21, NOMSTER
-	db 22, NOMSTER
-	db 22, NOMSTER
-	db 23, NOMSTER
-	db 24, NOMSTER
-	db 24, NOMSTER
-	db 29, NOMSABRE
-	; day
-	db 20, NOMSTER
-	db 21, NOMSTER
-	db 22, NOMSTER
-	db 22, NOMSTER
-	db 23, NOMSTER
-	db 24, NOMSTER
-	db 24, NOMSTER
-	db 29, NOMSABRE
-	; nite
-	db 20, FLUFFRUIT
-	db 21, FLUFFRUIT
+	db 20, NOMSABRE
+	db 21, OSCURASA
 	db 22, FLUFFRUIT
-	db 22, NOMSTER
-	db 23, NOMSTER
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
 	db 24, NOMSTER
+	db 26, NOMSTER
+	; day
+	db 20, NOMSABRE
+	db 21, OSCURASA
+	db 22, FLUFFRUIT
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
 	db 24, NOMSTER
-	db 29, NOMSABRE
+	db 26, NOMSTER
+	; nite
+	db 20, NOMSABRE
+	db 21, OSCURASA
+	db 22, FLUFFRUIT
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
+	db 24, NOMSTER
+	db 26, NOMSTER
 
 	map_id TIN_TOWER_8F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, NOMSTER
-	db 21, NOMSTER
-	db 22, NOMSTER
-	db 22, NOMSTER
-	db 23, NOMSTER
-	db 24, NOMSTER
-	db 24, NOMSTER
-	db 29, NOMSABRE
-	; day
-	db 20, NOMSTER
-	db 21, NOMSTER
-	db 22, NOMSTER
-	db 22, NOMSTER
-	db 23, NOMSTER
-	db 24, NOMSTER
-	db 24, NOMSTER
-	db 29, NOMSABRE
-	; nite
-	db 20, FLUFFRUIT
-	db 21, FLUFFRUIT
+	db 20, NOMSABRE
+	db 21, OSCURASA
 	db 22, FLUFFRUIT
-	db 22, NOMSTER
-	db 23, NOMSTER
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
 	db 24, NOMSTER
+	db 26, NOMSTER
+	; day
+	db 20, NOMSABRE
+	db 21, OSCURASA
+	db 22, FLUFFRUIT
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
 	db 24, NOMSTER
-	db 30, SCRUFFRUIT
+	db 26, NOMSTER
+	; nite
+	db 20, NOMSABRE
+	db 21, OSCURASA
+	db 22, FLUFFRUIT
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
+	db 24, NOMSTER
+	db 26, NOMSTER
 
 	map_id TIN_TOWER_9F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, NOMSTER
-	db 21, NOMSTER
-	db 22, NOMSTER
-	db 22, NOMSTER
-	db 23, NOMSTER
-	db 24, NOMSTER
-	db 24, NOMSTER
-	db 29, NOMSABRE
-	; day
-	db 20, NOMSTER
-	db 21, NOMSTER
-	db 22, NOMSTER
-	db 22, NOMSTER
-	db 23, NOMSTER
-	db 24, NOMSTER
-	db 24, NOMSTER
-	db 29, NOMSABRE
-	; nite
-	db 20, FLUFFRUIT
-	db 21, FLUFFRUIT
+	db 20, NOMSABRE
+	db 21, OSCURASA
 	db 22, FLUFFRUIT
-	db 22, NOMSTER
-	db 23, NOMSTER
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
 	db 24, NOMSTER
+	db 26, NOMSTER
+	; day
+	db 20, NOMSABRE
+	db 21, OSCURASA
+	db 22, FLUFFRUIT
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
 	db 24, NOMSTER
-	db 30, SCRUFFRUIT
+	db 26, NOMSTER
+	; nite
+	db 20, NOMSABRE
+	db 21, OSCURASA
+	db 22, FLUFFRUIT
+	db 22, FLUFFRUIT
+	db 23, MISSTERIA
+	db 24, MISSTERIA
+	db 24, NOMSTER
+	db 26, NOMSTER
 
 	map_id BURNED_TOWER_1F ;done
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -360,7 +360,7 @@ JohtoGrassWildMons:
 	db 14, ANTPYRE
 	db 15, MOTHO
 	db 15, MOTHO
-	db 15, MISSTERIA
+	db 15, MOTHO
 	db 19, MISSTERIA
 	
 
@@ -1569,7 +1569,7 @@ JohtoGrassWildMons:
 	; morn
 	db 18, AMBINNI
 	db 18, FURDOBA
-	db 18, HOATOXIC
+	db 18, HEXAHED
 	db 17, PEAUTY
 	db 17, ESPEON ; ice ghost stand-in
 	db 18, SWAZZAGE
@@ -1578,7 +1578,7 @@ JohtoGrassWildMons:
 	; day
 	db 18, AMBINNI
 	db 18, FURDOBA
-	db 18, HOATOXIC
+	db 18, HEXAHED
 	db 17, PEAUTY
 	db 17, ESPEON ; ice ghost stand-in
 	db 18, SWAZZAGE
@@ -1586,8 +1586,8 @@ JohtoGrassWildMons:
 	db 18, PEAUTY
 	; nite
 	db 18, AMBINNI
-	db 18, HOATOXIC
 	db 18, FURDOBA
+	db 18, HEXAHED
 	db 17, PEAUTY
 	db 17, ESPEON ; ice ghost stand-in
 	db 18, SWAZZAGE
@@ -1748,27 +1748,27 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 23, ANTPYRE
-	db 22, HIVEMAIM
+	db 22, ORGNOME
 	db 22, PARAS		; CAG 
-	db 24, ORGNOME
+	db 24, ARASBESTOS
 	db 24, PURRAATZLE
 	db 26, ESPEON 		; Stand-in for llama
 	db 26, ESPEON		; Stand-in for llama
 	db 28, PURRAATZLE
 	; day
 	db 23, ANTPYRE
-	db 22, HIVEMAIM
+	db 22, ORGNOME
 	db 22, PARAS		; CAG 
-	db 24, ORGNOME
+	db 24, ARASBESTOS
 	db 24, PURRAATZLE
 	db 26, VOLTORB 		; Stand-in for llama
 	db 26, VOLTORB		; Stand-in for llama
 	db 28, PURRAATZLE
 	; nite
 	db 23, ANTPYRE
-	db 22, HIVEMAIM
+	db 22, ORGNOME
 	db 22, PARAS		; CAG 
-	db 24, ORGNOME
+	db 24, ARASBESTOS
 	db 24, PURRAATZLE
 	db 26, ESPEON 		; Stand-in for ice ghost 1
 	db 26, ESPEON		; Stand-in for ice ghost 1

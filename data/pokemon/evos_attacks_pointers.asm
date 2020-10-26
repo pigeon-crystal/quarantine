@@ -31,7 +31,7 @@ EvosAttacksPointers::
 	dw DunefinEvosAttacks
 	dw SprunnyEvosAttacks
 	dw OnioniEvosAttacks
-	dw NidoqueenEvosAttacks
+	dw OnionionEvosAttacks
 	dw PrawmateEvosAttacks
 	dw ShrimpanziEvosAttacks
 	dw SwimianEvosAttacks

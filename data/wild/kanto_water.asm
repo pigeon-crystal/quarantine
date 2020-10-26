@@ -5,8 +5,8 @@ KantoWaterWildMons:
 
 	map_id TOHJO_FALLS
 	db 4 percent ; encounter rate
+	db 20, OSCURASA
 	db 20, GOOSAPLING
-	db 20, MISSTERIA
 	db 20, GANZERKER
 	db 25, GANZERKER
 
@@ -103,17 +103,17 @@ KantoWaterWildMons:
 
 	map_id ROUTE_26
 	db 6 percent ; encounter rate
-	db 30, TENTACOOL
-	db 25, TENTACOOL
-	db 30, TENTACRUEL
-	db 35, TENTACRUEL
+	db 30, SQWUCKY
+	db 25, SHRIMPANZI
+	db 30, SWIMIAN
+	db 35, STRANGLURE
 
 	map_id ROUTE_27
 	db 6 percent ; encounter rate
-	db 20, TENTACOOL
-	db 15, TENTACOOL
-	db 20, TENTACRUEL
-	db 25, TENTACOOL
+	db 20, PRAWMATE
+	db 15, PRAWMATE
+	db 20, STRANGLURE
+	db 25, SQWUCKY
 
 	map_id ROUTE_28
 	db 2 percent ; encounter rate
