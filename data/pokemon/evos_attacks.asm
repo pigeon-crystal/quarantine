@@ -2350,7 +2350,7 @@ GrubboidEvosAttacks:
 	db 1, PLAY_ROUGH
 	db 1, CHARM
 	db 6, CONSTRICT
-	db 8, BIDE
+	db 8, FOCUS_ENERGY
 	db 10, FURY_CUTTER
 	db 15, CONFUSE_RAY
 	db 20, FAINT_ATTACK
@@ -2662,7 +2662,7 @@ PurrdleEvosAttacks:
 	db EVOLVE_LEVEL, 48, MEOWTAIN
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 1, BIDE
+	db 1, FOCUS_ENERGY
 	db 6, TAIL_WHIP
 	db 12, FURY_SWIPES
 	db 17, FAINT_ATTACK
@@ -3344,7 +3344,7 @@ ObelithEvosAttacks:
 	db 1, HARDEN
 	db 10, CONFUSE_RAY
 	db 10, CONFUSION
-	db 15, BIDE
+	db 15, FOCUS_ENERGY
 	db 20, ROCK_THROW
 	db 25, LIGHT_SCREEN
 	db 25, REFLECT
@@ -3364,7 +3364,7 @@ MoneumennEvosAttacks:
 	db 1, HARDEN
 	db 10, CONFUSE_RAY
 	db 10, CONFUSION
-	db 15, BIDE
+	db 15, FOCUS_ENERGY
 	db 20, ROCK_THROW
 	db 25, LIGHT_SCREEN
 	db 25, REFLECT

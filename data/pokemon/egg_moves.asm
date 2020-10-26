@@ -510,7 +510,7 @@ MurdermisEggMoves:
 	db -1 ; end
 
 WormeekEggMoves:
-	db BIDE
+	db FOCUS_ENERGY
 	db LIGHT_SCREEN
 	db COUNTER
 	db VITAL_THROW
@@ -708,7 +708,7 @@ ShuckleEggMoves:
 
 HeracrossEggMoves:
 	db HARDEN
-	db BIDE
+	db FOCUS_ENERGY
 	db FLAIL
 	db -1 ; end
 

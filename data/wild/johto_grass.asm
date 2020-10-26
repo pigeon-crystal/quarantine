@@ -2045,7 +2045,7 @@ JohtoGrassWildMons:
 	db 40, SHREDDRAKE
 
 	map_id DRAGONS_DEPTHS_B3F
-	db 3 percent, 3 percent, 3 percent
+	db 2 percent, 3 percent, 2 percent
 	; morn
 	db 40, MAGIKARP ; dragon snail 1
 	db 40, SHREDDRAKE

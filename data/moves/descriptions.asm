@@ -116,7 +116,7 @@ MoveDescriptions::
 	dw HazeDescription
 	dw ReflectDescription
 	dw FocusEnergyDescription
-	dw BideDescription
+	dw PukeBloodDescription
 	dw MetronomeDescription
 	dw MirrorMoveDescription
 	dw SelfdestructDescription
@@ -725,9 +725,9 @@ FocusEnergyDescription:
 	db   "Raises the criti-"
 	next "cal hit ratio.@"
 
-BideDescription:
-	db   "Waits 2-3 turns &"
-	next "hits back double.@"
+PukeBloodDescription:
+	db   "User pukes blood."
+	next "Damages user.@"
 
 MetronomeDescription:
 	db   "Randomly uses any"

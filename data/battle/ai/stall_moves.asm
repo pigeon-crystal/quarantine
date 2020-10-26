@@ -23,13 +23,10 @@ StallMoves:
 	db HAZE
 	db REFLECT
 	db FOCUS_ENERGY
-	db BIDE
 	db NASTY_PLOT
 	db AMNESIA
 	db TRANSFORM
 	db WILL_O_WISP
 	db SHARPEN
-	db CONVERSION
 	db SUBSTITUTE
-	db FLAME_WHEEL
 	db -1 ; end

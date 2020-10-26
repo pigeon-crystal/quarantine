@@ -115,7 +115,7 @@ MoveNames::
 	db "HAZE@"
 	db "REFLECT@"
 	db "FOCUS ENERGY@"
-	db "BIDE@"
+	db "PUKE BLOOD@"
 	db "METRONOME@"
 	db "MIRROR MOVE@"
 	db "SELFDESTRUCT@"
