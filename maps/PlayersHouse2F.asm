@@ -53,7 +53,7 @@ PosterScript:
 PlayersHouseRadioScript:
 	givepoke MA_0, 100
 	giveitem MASTER_BALL
-	warp DRAGONS_DEPTHS_B3F, 17, 19
+	warp ROUTE_41, 6, 46
 	end
 ;PlayersHouseRadioScript:
 ;	checkevent EVENT_GOT_A_POKEMON_FROM_ELM

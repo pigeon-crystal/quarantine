@@ -1654,35 +1654,35 @@ JohtoGrassWildMons:
 	db 19, ONIONI
 	db 25, MURDERMIS
 	
-; map_id ROUTE_41 
-; db 10 percent, 10 percent, 10 percent 
-; ; morn
-;	db 30 PIKACHU ; sub for parrot
-; 	db 30 NIMBOREM ; 
-;   db 30 PIKACHU ; sub for parrot
-;   db 30 NIMBOREM ; 
-;   db 30 NUCKAWHEEZ 
-;   db 30 NUCKAWHEEZ 
-;   db 30 NAVIGAZER
-;   db 30 NAVIGAZER
-; ; day
-;	db 30 PIKACHU ; sub for parrot
-; 	db 30 NIMBOREM ; 
-;   db 30 PIKACHU ; sub for parrot
-;   db 30 NIMBOREM ; 
-;   db 30 NUCKAWHEEZ 
-;   db 30 NUCKAWHEEZ 
-;   db 30 NAVIGAZER
-;   db 30 NAVIGAZER
-; ; nite
-;	db 30 PIKACHU ; sub for parrot
-; 	db 30 NIMBOREM ; 
-;   db 30 PIKACHU ; sub for parrot
-;   db 30 NIMBOREM ; 
-;   db 30 NUCKAWHEEZ 
-;   db 30 NUCKAWHEEZ 
-;   db 30 NUCKAWHEEZ
-;   db 30 NIMBOREM
+	map_id ROUTE_41 
+	db 10 percent, 10 percent, 10 percent 
+	; morn
+	db 30, PIKACHU ; sub for parrot
+ 	db 30, NIMBOREM ; 
+	db 30, PIKACHU ; sub for parrot
+	db 30, NIMBOREM ; 
+	db 30, NIMBOREM 
+	db 30, NUCKAWHEEZ 
+	db 30, NUCKAWHEEZ
+	db 30, NIMBOREM
+ ; day
+	db 30, PIKACHU ; sub for parrot
+ 	db 30, NIMBOREM ; 
+	db 30, PIKACHU ; sub for parrot
+	db 30, NIMBOREM ; 
+	db 30, NUCKAWHEEZ 
+	db 30, NUCKAWHEEZ 
+	db 30, NUCKAWHEEZ
+	db 30, NIMBOREM
+ ; nite
+	db 30, PIKACHU ; sub for parrot
+ 	db 30, NIMBOREM ; 
+	db 30, PIKACHU ; sub for parrot
+	db 30, NIMBOREM ; 
+	db 30, NUCKAWHEEZ 
+	db 30, NUCKAWHEEZ 
+	db 30, NAVIGAZER
+	db 30, NAVIGAZER
 
 	map_id ROUTE_42 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

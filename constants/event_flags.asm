@@ -1548,7 +1548,7 @@
 	const EVENT_BEAT_SAGE_GAKU
 	const EVENT_BEAT_SAGE_MASA
 	const EVENT_BEAT_SAGE_KOJI
-; qtdex events HOWEWVER i wasnt very organized yet.
+; qtdex events HOWEWVER i wasnt very organized yet...
 	const EVENT_BEAT_WIZARD_CROWLEY
 	const EVENT_CIANWOOD_DUNES_KINGS_ROCK
 	const EVENT_CIANWOOD_DUNES_SODA_POP
