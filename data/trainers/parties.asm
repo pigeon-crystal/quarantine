@@ -3828,12 +3828,40 @@ RadicalGroup:
 SalarymanGroup:
 ; SALARYMAN (1) underground nonstory
 	db "GORO@", TRAINERTYPE_NORMAL
-	db 23, PILFOARD
+	db 23, HAPPIG
 	db 23, SQWUCKY
-	db 22, HAPPIG
+	db 22, LEAFFIGY
 	db -1 ; end
 
-
+; SALARYMAN (2) rocket captive
+;	db "CHOTARO@" TRAINERTYPE_NORMAL
+;	db 30, PILFOARD
+;	db 32, PURRDLE
+;	db 30, CLIBBLE
+;	db -1 ; end
+	
 EngineerGroup:
+; ENGINEER (1) rocket base b1f
+;	db "ROCKET@", TRAINERTYPE_NORMAL
+;	db 32, ELEPHOOT
+;	db 32, HABBLE
+;	db 32, HEXAHED
+;	db -1 ; end
+
+; ENGINEER (2) rocket base b2f
+;	db "ROCKET@", TRAINERTYPE_NORMAL
+;	db 32, PLANTENNA
+;	db 32, PLANTENNA
+; 	db 32, PLANTENNA
+;	db 32, NUCKAWHEEZ
+;	db -1 ; end
+
+; ENGINEER (3) rocket base b3f
+;	db "ROCKET@", TRAINERTYPE_ITEM
+;	db 32, CANTALONE, NO_ITEM
+;	db 32, PARAS, BERSERK_GENE
+;	db 32, PARAS, BERSERK_GENE
+;	db 32, YUEFOE, MAGNET
+;	db -1 ; end
 
 SkepticGroup:

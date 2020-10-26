@@ -93,7 +93,7 @@ RocketBaseBossRight:
 RocketBaseBoss:
 	pause 30
 	showemote EMOTE_SHOCK, TEAMROCKETBASEB3F_ROCKET1, 15
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_ENFORCER_ENCOUNTER
 	turnobject TEAMROCKETBASEB3F_ROCKET1, DOWN
 	opentext
 	writetext ExecutiveM4BeforeText

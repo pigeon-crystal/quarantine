@@ -30,7 +30,7 @@ FakeDirectorScript:
 	waitbutton
 	closetext
 	applymovement RADIOTOWER5F_DIRECTOR, FakeDirectorMovement
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_ENFORCER_ENCOUNTER
 	opentext
 	writetext FakeDirectorTextBefore2
 	waitbutton
@@ -78,7 +78,7 @@ TrainerExecutivef1:
 
 RadioTower5FRocketBossScene:
 	applymovement PLAYER, RadioTower5FPlayerTwoStepsLeftMovement
-	playmusic MUSIC_ROCKET_ENCOUNTER
+	playmusic MUSIC_ENFORCER_ENCOUNTER
 	turnobject RADIOTOWER5F_ROCKET, RIGHT
 	opentext
 	writetext RadioTower5FRocketBossBeforeText
