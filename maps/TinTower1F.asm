@@ -46,7 +46,7 @@ TinTower1F_MapScripts:
 	checkevent EVENT_FOUGHT_SUICUNE
 	iftrue .FoughtSuicune
 	appear TINTOWER1F_SUICUNE
-	setval RAIKOU
+	setval ZAPDOS
 	special MonCheck
 	iftrue .NoRaikou
 	appear TINTOWER1F_RAIKOU
@@ -55,7 +55,7 @@ TinTower1F_MapScripts:
 .NoRaikou:
 	disappear TINTOWER1F_RAIKOU
 .CheckEntei:
-	setval SLAATEL
+	setval ZAPDOS
 	special MonCheck
 	iftrue .NoEntei
 	appear TINTOWER1F_ENTEI
@@ -84,12 +84,12 @@ TinTower1F_MapScripts:
 .SuicuneBattle:
 	applymovement PLAYER, TinTowerPlayerMovement1
 	pause 15
-	setval RAIKOU
+	setval ZAPDOS
 	special MonCheck
 	iftrue .Next1 ; if player caught Raikou, he doesn't appear in Tin Tower
 	applymovement TINTOWER1F_RAIKOU, TinTowerRaikouMovement1
 	turnobject PLAYER, LEFT
-	cry RAIKOU
+	cry ZAPDOS
 	pause 10
 	playsound SFX_WARP_FROM
 	applymovement TINTOWER1F_RAIKOU, TinTowerRaikouMovement2
@@ -97,12 +97,12 @@ TinTower1F_MapScripts:
 	playsound SFX_EXIT_BUILDING
 	waitsfx
 .Next1:
-	setval SLAATEL
+	setval ARTICUNO
 	special MonCheck
 	iftrue .Next2 ; if player caught Entei, he doesn't appear in Tin Tower
 	applymovement TINTOWER1F_ENTEI, TinTowerEnteiMovement1
 	turnobject PLAYER, RIGHT
-	cry SLAATEL
+	cry ARTICUNO
 	pause 10
 	playsound SFX_WARP_FROM
 	applymovement TINTOWER1F_ENTEI, TinTowerEnteiMovement2

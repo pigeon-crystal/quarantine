@@ -23,6 +23,14 @@ TrainerGuruShoichi:
 .Script
 	endifjustbattled
 	opentext
+	checkevent EVENT_DRAGONS_DEPTHS_SLAATTEL
+	iffalse .MainAfterBattle
+	writetext AmazingTrainer
+	waitbutton
+	closetext
+	end
+	
+.MainAfterBattle
 	writetext LikeToHearWhy
 	yesorno
 	iffalse .GoodLuck
@@ -36,6 +44,21 @@ TrainerGuruShoichi:
 	waitbutton
 	closetext
 	end
+
+AmazingTrainer:
+	text "You have caught"
+	line "the beast. Truly,"
+	
+	para "you are an"
+	line "amazing trainer."
+	
+	para "I will likely"
+	line "remain down here"
+	cont "to meditate. I"
+	cont "assume most of"
+	cont "the WARRIORS will"
+	cont "stay to train, too."
+	done
 
 GuruShoichiSeenText:
 	text "Hello. I am the"

@@ -73,6 +73,16 @@ PlayBattleMusic:
 	ld a, [wTempEnemyMonSpecies]
 	cp HO_OH
 	jr z, .donchanmusic
+	
+	ld a, [wTempEnemyMonSpecies]
+	cp SLAATEL
+	jr z, .legendmusic
+	cp BLAZENBULL
+	jr z, .legendmusic
+	cp DRASSAL
+	jr z, .legendmusic
+	cp RAIKOU
+	jr z, .legendmusic
 
 	; Are we fighting a trainer?
 	ld a, [wOtherTrainerClass]
@@ -98,6 +108,10 @@ PlayBattleMusic:
 .donchanmusic
 	ld de, MUSIC_DONCHAN
 	jr .done
+	
+.legendmusic
+	ld de, MUSIC_LEGENDARY
+	jr .done 
 	
 .kantowild
 	ld de, MUSIC_KANTO_WILD_BATTLE

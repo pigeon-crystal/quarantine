@@ -12,6 +12,6 @@ OftenFleeMons:
 	db -1
 
 AlwaysFleeMons:
-	db RAIKOU
-	db SLAATEL
+	db ARTICUNO
+	db ZAPDOS
 	db -1
