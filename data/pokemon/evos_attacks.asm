@@ -2776,19 +2776,35 @@ OddittenEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, TAIL_WHIP
-	db 8, SAND_ATTACK
+	db 8, CHARM
 	db 16, PURSUIT
-	db 23, QUICK_ATTACK
-	db 30, CONFUSE_RAY
-	db 36, FAINT_ATTACK
-	db 42, MEAN_LOOK
-	db 47, SCREECH
+	db 20, ATTRACT
+	db 23, CONFUSION
+	db 25, SING
+	db 31, FAINT_ATTACK
+	db 33, ENCORE
+	db 37, PSYBEAM
+	db 42, PERISH_SONG
+	db 47, PSYCHO_CUT
 	db 52, MOONLIGHT
 	db 0 ; no more level-up moves
 
 AstrotomEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, WATER_GUN
+	db 1, POUND
+	db 1, TAIL_WHIP
+	db 8, CHARM
+	db 16, PURSUIT
+	db 20, ATTRACT
+	db 23, CONFUSION
+	db 25, SING
+	db 31, FAINT_ATTACK
+	db 33, ENCORE
+	db 37, PSYBEAM
+	db 42, PERISH_SONG
+	db 47, PSYCHO_CUT
+	db 52, MOONLIGHT
+	db 57, MOONBLAST	
 	db 0 ; no more level-up moves
 
 EspeonEvosAttacks:
@@ -2859,10 +2875,12 @@ MaulzerEvosAttacks:
 UnownEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, HIDDEN_POWER
-	db 1, ANCIENTPOWER
-	db 1, EARTH_POWER
-	db 1, CONFUSION
-	db 35, PSYCHIC_M
+	db 25, CONFUSE_RAY
+	db 30, MAGNITUDE
+	db 35, PSYBEAM
+	db 40, MAGNITUDE
+	db 45, EARTH_POWER
+	db 50, SKETCH
 	db 0 ; no more level-up moves
 
 RespectreEvosAttacks:

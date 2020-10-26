@@ -1,6 +1,9 @@
 	object_const_def ; object_event constants
-	const GOLDENRODPPSPEECHHOUSE_POPPER
-	const GOLDENRODPPSPEECHHOUSE_GRANNY
+	const GOLDENRODNOOTHOUSE_POPPER
+	const GOLDENRODNOOTHHOUSE_GRANNY
+	const GOLDENRODNOOTHOUSE_NOOT1
+	const GOLDENRODNOOTHOUSE_NOOT2
+	const GOLDENRODNOOTHOUSE_NOOT3
 
 GoldenrodMtNootHouse_MapScripts:
 	db 0 ; scene scripts
@@ -128,7 +131,46 @@ PopperScript:
 	waitbutton
 	closetext
 	end
+	
+HouseNoot1:
+	opentext
+	writetext NootText1
+	cry MT_NOOT
+	waitbutton
+	closetext
+	end
 
+HouseNoot2:
+	opentext
+	writetext NootText2
+	cry MT_NOOT
+	waitbutton
+	closetext
+	end
+
+HouseNoot3:	
+	opentext
+	writetext NootText3
+	cry MT_NOOT
+	waitbutton
+	closetext
+	end
+	
+NootText1:
+	text "ROCKHOPPER: Noot"
+	line "noot!"
+	done
+	
+NootText2:
+	text "ADELE: Noo?"
+	done
+	
+NootText3:
+	text "EMPEROR: Noot."
+	
+	para "…This MT. NOOT"
+	line "seems haughty."
+	done
 GoldenrodMtNootHouse_MapEvents:
 	db 0, 0 ; filler
 
@@ -143,6 +185,9 @@ GoldenrodMtNootHouse_MapEvents:
 	bg_event  1,  1, BGEVENT_READ, GoldenrodMtNootHouseBookshelf2
 	bg_event  7,  1, BGEVENT_READ, GoldenrodMtNootHouseRadio
 
-	db 2 ; object events
+	db 5 ; object events
 	object_event  2,  4, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, PopperScript, -1
-	object_event  5,  3, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_LEFT, 0, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodMtNootHouseGrannyScript, -1
+	object_event  5,  3, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodMtNootHouseGrannyScript, -1
+	object_event  4,  2, SPRITE_MT_NOOT, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, HouseNoot1, -1
+	object_event  0,  4, SPRITE_MT_NOOT, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, HouseNoot2, -1
+	object_event  5,  6, SPRITE_MT_NOOT, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, HouseNoot3, -1

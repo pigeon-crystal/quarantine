@@ -726,8 +726,8 @@ FocusEnergyDescription:
 	next "cal hit ratio.@"
 
 PukeBloodDescription:
-	db   "User pukes blood."
-	next "Damages user.@"
+	db   "Pukes blood on"
+	next "foe. Damages user.@"
 
 MetronomeDescription:
 	db   "Randomly uses any"

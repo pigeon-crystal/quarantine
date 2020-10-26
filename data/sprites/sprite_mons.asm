@@ -49,4 +49,5 @@ SpriteMons:
 	db RYUNARI
 	db BERMUDANT
 	db BAAFOMET
+	db MT_NOOT
 	
