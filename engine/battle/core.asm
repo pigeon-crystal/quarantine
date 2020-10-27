@@ -2650,10 +2650,18 @@ PlayVictoryMusic:
 	jr z, .lost
 	jr .play_music
 
-.trainer_victory
+.trainer_victory ; TODO add champion jingle
+	;gym leader check
 	ld de, MUSIC_GYM_VICTORY
 	call IsGymLeader
 	jr c, .play_music
+	
+	;champion check
+	ld de, MUSIC_CHAMPION_VICTORY
+	call IsChampion
+	jr c, .play_music
+	
+	;else
 	ld de, MUSIC_TRAINER_VICTORY
 
 .play_music
@@ -2676,8 +2684,18 @@ IsGymLeaderCommon:
 	call IsInArray
 	pop de
 	ret
+	
+IsChampion:
+	ld hl, Champions
+	push de
+	ld a, [wOtherTrainerClass]
+	ld de, 1
+	call IsInArray
+	pop de
+	ret
 
 INCLUDE "data/trainers/leaders.asm"
+INCLUDE "data/trainers/champions.asm"
 
 HandlePlayerMonFaint:
 	call FaintYourPokemon

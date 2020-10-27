@@ -124,7 +124,7 @@ PlayBattleMusic:
 	cp RED
 	jr z, .done
 
-	; They should have included EXECUTIVEM, EXECUTIVEF, and SCIENTIST too...
+;rockets!
 	ld de, MUSIC_ROCKET_BATTLE
 	cp GRUNTM
 	jr z, .done
