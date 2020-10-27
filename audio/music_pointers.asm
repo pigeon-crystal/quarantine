@@ -120,4 +120,5 @@ Music:
 	dba Music_LookImakuni
 	dba Music_DJ
 	dba Music_FinalHours
+	dba Music_ChampionPinch
 	

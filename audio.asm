@@ -155,6 +155,7 @@ INCLUDE "audio/music/tension.asm"
 INCLUDE "audio/music/lookimakuni.asm"
 INCLUDE "audio/music/dj.asm"
 INCLUDE "audio/music/finalhours.asm"
+INCLUDE "audio/music/championpinch.asm"
 
 SECTION "Sound Effects", ROMX
 

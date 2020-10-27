@@ -122,6 +122,7 @@
 	const MUSIC_IMAKUNI_ENCOUNTER		     ; 72
 	const MUSIC_DJ							 ; 73
 	const MUSIC_FINAL_HOURS					 ; 74
+	const MUSIC_CHAMPION_PINCH				 ; 75
 
 ; GetMapMusic picks music for this value (see home/map.asm)
 MUSIC_MAHOGANY_MART EQU $64
