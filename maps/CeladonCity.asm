@@ -256,7 +256,7 @@ CeladonCity_MapEvents:
 	warp_event 29,  9, CELADON_POKECENTER_1F, 1
 	warp_event 18, 19, CELADON_GAME_CORNER, 1
 	warp_event 23, 19, CELADON_GAME_CORNER_PRIZE_ROOM, 1
-	warp_event 10, 29, CELADON_GYM, 1
+	warp_event 10, 29, KAIJU_GYM, 1
 	warp_event 25, 29, CELADON_CAFE, 1
 
 	db 0 ; coord events

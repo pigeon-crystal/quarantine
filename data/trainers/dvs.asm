@@ -81,4 +81,5 @@ TrainerClassDVs:
 	dn 13,  8, 10,  8 ; SALARYMAN
 	dn  8,  9, 10, 14 ; ENGINEER
 	dn 11,  8,  8, 13 ; SKEPTIC
+	dn 15,  8, 10,  8 ; KAIJU
 

@@ -673,6 +673,8 @@ KRIS EQU __enum__
 	const MEGANDPEG2
 	const LEAANDPIA1
 	const LEAANDPIA2
+	const TOANDHO1
+	const TOANDHO2
 
 	trainerclass POKEFANF ; 3e
 	const BEVERLY1
@@ -739,5 +741,8 @@ KRIS EQU __enum__
 	trainerclass ENGINEER ; 4f
 	
 	trainerclass SKEPTIC ; 50
+	
+	trainerclass KAIJU ; 51
+	const NOTZILLA
 		
 NUM_TRAINER_CLASSES EQU __enum__

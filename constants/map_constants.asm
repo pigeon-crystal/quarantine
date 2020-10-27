@@ -506,3 +506,7 @@ ENDM
 	map_const DRAGONS_DEPTHS_B3F,							19,	19 ; 4
 	map_const DRAGONS_DEPTHS_ITEM_ROOM,						10, 10 ; 5
 	
+	newgroup													; 28
+	
+	map_const KAIJU_GYM,									5,  9 ; 1
+	

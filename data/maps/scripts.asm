@@ -495,4 +495,5 @@ INCLUDE "maps/DragonsDepthsB1F.asm"
 INCLUDE "maps/DragonsDepthsB2F.asm"
 INCLUDE "maps/DragonsDepthsB3F.asm"
 INCLUDE "maps/DragonsDepthsItemRoom.asm"
+INCLUDE "maps/KaijuGym.asm"
 

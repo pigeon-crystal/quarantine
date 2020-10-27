@@ -81,3 +81,4 @@ TrainerGroups:
 	dba SalarymanGroup
 	dba EngineerGroup
 	dba SkepticGroup
+	dba KaijuGroup

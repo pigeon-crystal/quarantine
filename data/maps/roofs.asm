@@ -37,7 +37,8 @@ MapGroupRoofs:
 	db -1             ; 25
 	db ROOF_NEW_BARK  ; 26 (Cherrygrove)
 	db ROOF_OLIVINE	  ; 27 (Cianwood Dunes)
-	db ROOF_AZALEA    ; 28 (Dragon Depths)
+	db ROOF_NEW_BARK  ; 28 (Dragon Depths)
+	db -1			  ; 29 (Kaiju Gym?)
 
 Roofs:
 ; entries correspond to ROOF_* constants

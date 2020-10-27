@@ -337,3 +337,12 @@ INCBIN "data/tilesets/omanyte_word_room_metatiles.bin"
 
 TilesetAerodactylWordRoomMeta::
 INCBIN "data/tilesets/aerodactyl_word_room_metatiles.bin"
+
+TilesetCeladonGymGFX::
+INCBIN "gfx/tilesets/celadon_gym.2bpp.lz"
+
+TilesetCeladonGymMeta::
+INCBIN "data/tilesets/celadon_gym_metatiles.bin"
+
+TilesetCeladonGymColl::
+INCLUDE "data/tilesets/celadon_gym_collision.asm"

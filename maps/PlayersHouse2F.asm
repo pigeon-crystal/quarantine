@@ -52,9 +52,11 @@ PosterScript:
 
 PlayersHouseRadioScript:
 	givepoke MA_0, 100
+	givepoke BRIGADOOM, 100
 	giveitem MASTER_BALL
-	warp GOLDENROD_MT_NOOT_HOUSE, 2, 7
+	warp CELADON_CITY, 10, 30
 	end
+	
 ;PlayersHouseRadioScript:
 ;	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 ;	iftrue .NormalRadio

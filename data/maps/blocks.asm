@@ -1069,3 +1069,6 @@ DragonsDepthsB3F_Blocks:
 	
 DragonsDepthsItemRoom_Blocks:
 	INCBIN "maps/DragonsDepthsItemRoom.blk"
+	
+KaijuGym_Blocks:
+	INCBIN "maps/KaijuGym.blk"

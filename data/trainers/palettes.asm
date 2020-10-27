@@ -87,5 +87,5 @@ INCBIN "gfx/trainers/radical.gbcpal", middle_colors
 INCBIN "gfx/trainers/salaryman.gbcpal", middle_colors
 INCBIN "gfx/trainers/engineer.gbcpal", middle_colors
 INCBIN "gfx/trainers/skeptic.gbcpal", middle_colors
-
+INCBIN "gfx/trainers/kaiju.gbcpal", middle_colors
 

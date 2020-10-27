@@ -114,3 +114,7 @@
 	RGB 15,10,31, 07,05,15 ; morn/day
 	RGB 06,05,17, 02,02,08 ; nite
 	
+; group 29 (Kaiju Gym)
+	RGB 15,31,31, 05,17,31 ; roof
+	RGB 15,31,31, 05,17,31 ; roof
+	

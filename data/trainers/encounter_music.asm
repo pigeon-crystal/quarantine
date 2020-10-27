@@ -83,3 +83,5 @@ TrainerEncounterMusic::
 	db MUSIC_HIKER_ENCOUNTER		; salaryman
 	db MUSIC_ROCKET_ENCOUNTER	   	; engineer
 	db MUSIC_HIKER_ENCOUNTER		; skeptic
+	db MUSIC_POKEMANIAC_ENCOUNTER	; Kaiju
+	

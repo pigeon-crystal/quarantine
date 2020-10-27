@@ -304,6 +304,7 @@ HitmontopBackpic:    INCBIN "gfx/pokemon/hitmontop/back.2bpp.lz"
 CloysterBackpic:     INCBIN "gfx/pokemon/cloyster/back.2bpp.lz"
 NuckawheezFrontpic:    INCBIN "gfx/pokemon/nuckawheez/front.animated.2bpp.lz"
 UnownFBackpic:       INCBIN "gfx/pokemon/unown_f/back.2bpp.lz"
+KaijuPic:			INCBIN "gfx/trainers/kaiju.2bpp.lz"
 
 
 SECTION "Pics 11", ROMX

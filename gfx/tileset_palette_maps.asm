@@ -108,4 +108,7 @@ INCLUDE "gfx/tilesets/battle_tower_inside_palette_map.asm"
 TilesetBattleTowerOutsidePalMap:
 INCLUDE "gfx/tilesets/battle_tower_outside_palette_map.asm"
 
+TilesetCeladonGymPalMap:
+INCLUDE "gfx/tilesets/celadon_gym_palette_map.asm"
+
 	ds 26, $06 ; unused

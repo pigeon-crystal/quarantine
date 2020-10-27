@@ -702,3 +702,4 @@ ENDM
 	map_attributes DragonsDepthsB2F, DRAGONS_DEPTHS_B2F, $09, 0 
 	map_attributes DragonsDepthsB3F, DRAGONS_DEPTHS_B3F, $09, 0
 	map_attributes DragonsDepthsItemRoom, DRAGONS_DEPTHS_ITEM_ROOM, $09, 0
+	map_attributes KaijuGym, KAIJU_GYM, $00, 0

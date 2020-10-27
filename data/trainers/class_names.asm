@@ -80,4 +80,6 @@ TrainerClassNames::
 	db "SALARYMAN@"
 	db "ROCKET@" ; engineer
 	db "SKEPTIC@" 
+	db "KAIJU@"
+	
 	

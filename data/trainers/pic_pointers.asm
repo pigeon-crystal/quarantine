@@ -82,3 +82,5 @@ TrainerPicPointers::
 	dba_pic SalarymanPic
 	dba_pic EngineerPic
 	dba_pic SkepticPic
+	dba_pic KaijuPic
+	
