@@ -2064,10 +2064,10 @@ Ma_0EvosAttacks:
 	db 70, CONVERSION
 	db 75, FIRE_BLAST
 	db 80, BLIZZARD
-	db 85, THUNDER
+	db 85, SLUDGE_BOMB
 	db 90, FISSURE
-	db 95, SLUDGE_BOMB
-	db 100, SELFDESTRUCT
+	db 95, THUNDER
+	db 100, SPIKES
 	db 0 ; no more level-up moves
 
 MewEvosAttacks:

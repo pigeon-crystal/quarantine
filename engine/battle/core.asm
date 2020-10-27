@@ -2415,6 +2415,7 @@ EnemyPartyMonEntrance:
 .set
 	call EnemySwitch_SetMode
 .done_switch
+	call FinalPkmnMusic
 	call ResetBattleParticipants
 	call SetEnemyTurn
 	call SpikesDamage
@@ -9213,6 +9214,28 @@ CopyBackpic:
 	ld e, a
 	dec b
 	jr nz, .outer_loop
+	ret
+
+FinalPkmnMusic:
+	; this is just for the Champion!
+	; if this is not a link battle...
+	ld a, [wLinkMode]
+	and a
+	ret nz
+	; ...and this trainer is the champion...
+	ld a, [wOtherTrainerClass]
+	cp CHAMPION
+	ret nz
+	; ...and this is their last Pokémon...
+	farcall CheckAnyOtherAliveEnemyMons
+	ret nz
+	; ...play the final Pokémon music.
+	ld [wMusicFade], a
+	ld de, MUSIC_NONE
+	call PlayMusic
+	call DelayFrame
+	ld de, MUSIC_CHAMPION_PINCH
+	call PlayMusic
 	ret
 
 BattleStartMessage:

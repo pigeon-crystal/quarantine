@@ -54,7 +54,8 @@ PlayersHouseRadioScript:
 	givepoke MA_0, 100
 	givepoke BRIGADOOM, 100
 	giveitem MASTER_BALL
-	warp CELADON_CITY, 10, 30
+	loadtrainer CHAMPION, LANCE
+	startbattle
 	end
 	
 ;PlayersHouseRadioScript:
