@@ -9,6 +9,7 @@ SometimesFleeMons:
 
 OftenFleeMons:
 	db SHABBYCAT
+	db DRASSAL
 	db -1
 
 AlwaysFleeMons:

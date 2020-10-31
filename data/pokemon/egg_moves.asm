@@ -537,7 +537,8 @@ WandelusEggMoves:
 	db PRESENT
 	db ENCORE
 	db BATON_PASS
-	db GIGA_DRAIN
+	db MOONLIGHT
+	db MORNING_SUN
 	db -1 ; end
 
 TranquielEggMoves:

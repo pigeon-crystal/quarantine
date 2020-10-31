@@ -50,32 +50,31 @@ PosterScript:
 .Script:
 	describedecoration DECODESC_POSTER
 
-;PlayersHouseRadioScript:
-;	givepoke MA_0, 100
-;	givepoke BRIGADOOM, 100
-;	giveitem MASTER_BALL
-;	loadtrainer SCIENTIST, MITCH
-;	startbattle
-;	end
-	
 PlayersHouseRadioScript:
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
-	iftrue .NormalRadio
-	checkevent EVENT_LISTENED_TO_INITIAL_RADIO
-	iftrue .AbbreviatedRadio
-	playmusic MUSIC_POKEMON_TALK
-	opentext
-	writetext PlayersRadioText1
-	pause 45
-	writetext PlayersRadioText2
-	pause 45
-	writetext PlayersRadioText3
-	pause 45
-	musicfadeout MUSIC_NEW_BARK_TOWN, 16
-	writetext PlayersRadioText4
-	pause 45
-	closetext
-	setevent EVENT_LISTENED_TO_INITIAL_RADIO
+	givepoke MA_0, 100
+	givepoke BRIGADOOM, 100
+	giveitem MASTER_BALL
+	warp SLOWPOKE_WELL_B1F, 6, 3
+	end
+	
+;PlayersHouseRadioScript:
+;	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+;	iftrue .NormalRadio
+;	checkevent EVENT_LISTENED_TO_INITIAL_RADIO
+;	iftrue .AbbreviatedRadio
+;	playmusic MUSIC_POKEMON_TALK
+;	opentext
+;	writetext PlayersRadioText1
+;	pause 45
+;	writetext PlayersRadioText2
+;	pause 45
+;	writetext PlayersRadioText3
+;	pause 45
+;	musicfadeout MUSIC_NEW_BARK_TOWN, 16
+;	writetext PlayersRadioText4
+;	pause 45
+;	closetext
+;	setevent EVENT_LISTENED_TO_INITIAL_RADIO
 	end
 
 .NormalRadio:

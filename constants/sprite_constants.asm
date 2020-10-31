@@ -122,16 +122,16 @@
 	const_def $80
 SPRITE_POKEMON EQU const_value
 	const SPRITE_UNOWN ; 80
-	const SPRITE_GEODUDE ; 81
-	const SPRITE_GROWLITHE ; 82
-	const SPRITE_WEEDLE ; 83
+	const SPRITE_GEODUDE ; 81   	dolmite
+	const SPRITE_GROWLITHE ; 82   	happig
+	const SPRITE_WEEDLE ; 83   		hoatot
 	const SPRITE_SHELLDER ; 84
-	const SPRITE_ODDISH ; 85
-	const SPRITE_GENGAR ; 86
-	const SPRITE_ZUBAT ; 87
+	const SPRITE_ODDISH ; 85   		eukub
+	const SPRITE_GENGAR ; 86		pitayrant
+	const SPRITE_ZUBAT ; 87			stinpeon
 	const SPRITE_MAGIKARP ; 88
 	const SPRITE_SQUIRTLE ; 89
-	const SPRITE_TOGEPI ; 8a
+	const SPRITE_TOGEPI ; 8a		tranquiel
 	const SPRITE_BUTTERFREE ; 8b
 	const SPRITE_DIGLETT ; 8c
 	const SPRITE_POLIWAG ; 8d

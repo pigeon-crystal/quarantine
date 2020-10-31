@@ -51,8 +51,8 @@ Moves:: ; 41afb
 	move THRASH,       EFFECT_RAMPAGE,           125, NORMAL,   	PHYSICAL, 100, 20,   0
 	move DOUBLE_EDGE,  EFFECT_RECOIL_HIT,        120, NORMAL,   	PHYSICAL, 100, 15,   0
 	move TAIL_WHIP,    EFFECT_DEFENSE_DOWN,        0, NORMAL,   	STATUS,   100, 30,   0
-	move POISON_STING, EFFECT_POISON_HIT,         30, POISON,   	PHYSICAL, 100, 35,  23
-	move VAPOR_PULSE,  EFFECT_POISON_MULTI_HIT,   44, GRASS,    	SPECIAL,  100, 10,  35
+	move POISON_STING, EFFECT_POISON_HIT,         22, POISON,   	PHYSICAL, 100, 35,  30
+	move VAPOR_PULSE,  EFFECT_POISON_MULTI_HIT,   44, GRASS,    	SPECIAL,  100, 10,  33
 	move FLASH_CANNON, EFFECT_SP_DEF_DOWN_HIT,    80, STEEL,    	SPECIAL,  100, 10,  10
 	move LEER,         EFFECT_DEFENSE_DOWN,        0, NORMAL,   	STATUS,   100, 30,   0
 	move BITE,         EFFECT_FLINCH_HIT,         60, DARK,     	PHYSICAL, 100, 25,  30
@@ -68,7 +68,7 @@ Moves:: ; 41afb
 	move MIST,         EFFECT_MIST,                0, ICE,      	STATUS,   100, 30,   0
 	move WATER_GUN,    EFFECT_NORMAL_HIT,         45, WATER,    	SPECIAL,  100, 25,   0
 	move HYDRO_PUMP,   EFFECT_NORMAL_HIT,        120, WATER,    	SPECIAL,   80,  5,   0
-	move SURF,         EFFECT_NORMAL_HIT,         90, WATER,    	SPECIAL,  100, 15,   0
+	move SURF,         EFFECT_NORMAL_HIT,         80, WATER,    	SPECIAL,  100, 10,   0
 	move ICE_BEAM,     EFFECT_FREEZE_HIT,         90, ICE,      	SPECIAL,  100, 10,  10
 	move BLIZZARD,     EFFECT_FREEZE_HIT,        120, ICE,      	SPECIAL,   75,  5,  10
 	move PSYBEAM,      EFFECT_CONFUSE_HIT,        65, PSYCHIC_TYPE, SPECIAL,  100, 20,  10

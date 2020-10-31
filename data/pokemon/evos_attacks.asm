@@ -1214,6 +1214,7 @@ DumbloonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, HAZE
+	db 1, DOUBLE_TEAM
 	db 11, QUICK_ATTACK
 	db 16, POISON_GAS
 	db 20, SPARK
@@ -1227,7 +1228,9 @@ DumbloonEvosAttacks:
 
 ZeppliumEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, POUND
 	db 1, HAZE
+	db 1, DOUBLE_TEAM
 	db 1, QUICK_ATTACK
 	db 16, POISON_GAS
 	db 20, SPARK
@@ -1704,8 +1707,8 @@ GoosaplingEvosAttacks:
 	db 13, BUBBLE
 	db 15, SUPERSONIC
 	db 18, ROCK_THROW
-	db 24, MEAN_LOOK
-	db 27, BUBBLEBEAM
+	db 22, MEAN_LOOK
+	db 26, BUBBLEBEAM
 	db 37, POWER_GEM
 	db 52, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -2143,6 +2146,8 @@ RadeonEvosAttacks:
 	db 19, QUICK_ATTACK
 	db 27, FLAME_WHEEL
 	db 36, SWIFT
+	db 42, CRUNCH
+	db 45, IRON_TAIL
 	db 0 ; no more level-up moves
 
 ScaulterEvosAttacks:
@@ -2157,6 +2162,7 @@ ScaulterEvosAttacks:
 	db 20, QUICK_ATTACK
 	db 24, BEAT_UP
 	db 30, SNARL
+	db 37, SWIFT
 	db 39, FLAME_WHEEL
 	db 42, CRUNCH
 	db 45, IRON_TAIL
@@ -2766,7 +2772,7 @@ ArasbestosEvosAttacks:
 	db 34, ROCK_SLIDE
 	db 39, PAIN_SPLIT
 	db 44, LEECH_LIFE
-	db 47, POISON_JAB
+	db 46, POISON_JAB
 	db 50, SUBSTITUTE
 	db 53, SAFEGUARD
 	db 0 ; no more level-up moves
@@ -2885,6 +2891,7 @@ UnownEvosAttacks:
 
 RespectreEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, SPIDER_WEB
 	db 1, SPITE
 	db 1, LICK
 	db 8, ROCK_THROW
@@ -3060,6 +3067,7 @@ PekoiEvosAttacks:
 
 YagagarasuEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, DOUBLE_TEAM
 	db 1, MEAN_LOOK
 	db 1, MIMIC
 	db 1, LEER
@@ -3071,12 +3079,14 @@ YagagarasuEvosAttacks:
 	db 27, MEAN_LOOK
 	db 29, METAL_CLAW
 	db 35, DARK_PULSE
+	db 35, MIMIC
 	db 36, AGILITY
 	db 39, DESTINY_BOND
 	db 40, SHADOW_CLAW
 	db 45, EARTHQUAKE
 	db 49, SWORDS_DANCE
 	db 55, THRASH
+	db 60, BATON_PASS
 	db 0 ; no more level-up moves
 
 ShuckleEvosAttacks:
@@ -3103,6 +3113,7 @@ SmuciousEvosAttacks:
 	db 13, WING_ATTACK
 	db 15, DRAININGKISS
 	db 22, BITE
+	db 27, HEART_STAMP
 	db 29, MILK_DRINK
 	db 35, RAZOR_WIND
 	db 44, PLAY_ROUGH
@@ -3117,11 +3128,12 @@ SmothereneEvosAttacks:
 	db 13, WING_ATTACK
 	db 15, DRAININGKISS
 	db 22, BITE
+	db 27, HEART_STAMP
 	db 29, MILK_DRINK
 	db 33, CRUNCH
 	db 36, RAZOR_WIND
-	db 40, POISON_JAB
-	db 45, PLAY_ROUGH
+	db 42, POISON_JAB
+	db 47, PLAY_ROUGH
 	db 52, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
