@@ -1,10 +1,10 @@
 	db "MELTDOWN@" ; species name
 	dw 701, 40902 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "Its life can only"
+	next "end when the en-"
+	next "ergy in their body"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "is completely used"
+	next "up. PRIPYDERM will"
+	next "outlive us all.@"

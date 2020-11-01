@@ -2,7 +2,7 @@ TrainerPalettes:
 ; entries correspond to trainer classes
 
 ; Each .gbcpal is generated from the corresponding .png, and
-; only the middle two colors are included, not black or white.
+; only the inbetween two colors are included, not black or white (hence middle_colors)
 
 PlayerPalette: ; Chris uses the same colors as Cal
 INCBIN "gfx/trainers/cal.gbcpal", middle_colors
@@ -88,4 +88,8 @@ INCBIN "gfx/trainers/salaryman.gbcpal", middle_colors
 INCBIN "gfx/trainers/engineer.gbcpal", middle_colors
 INCBIN "gfx/trainers/skeptic.gbcpal", middle_colors
 INCBIN "gfx/trainers/kaiju.gbcpal", middle_colors
+INCBIN "gfx/trainers/imakuni.gbcpal", middle_colors
+INCBIN "gfx/trainers/delinquent_m.gbcpal", middle_colors
+INCBIN "gfx/trainers/delinquent_f.gbcpal", middle_colors
+INCBIN "gfx/trainers/ultraman.gbcpal", middle_colors
 

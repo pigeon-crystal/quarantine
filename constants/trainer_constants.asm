@@ -745,4 +745,13 @@ KRIS EQU __enum__
 	trainerclass KAIJU ; 51
 	const NOTZILLA
 		
+	trainerclass IMAKUNI ; 52
+	
+	trainerclass DELINQUENT_M ; 53
+	
+	trainerclass DELINQUENT_F ; 54
+	
+	trainerclass ULTRAMAN ; 55
+	
+	
 NUM_TRAINER_CLASSES EQU __enum__

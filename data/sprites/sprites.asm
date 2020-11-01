@@ -121,4 +121,10 @@ OverworldSprites:
 	overworld_sprite RadicalSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite EngineerSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite ImakuniSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite AthleteFSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite SalarymanSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite SkepticSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
+	overworld_sprite DelinquentMSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
+	overworld_sprite DelinquentFSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
+	overworld_sprite UltramanSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
 	

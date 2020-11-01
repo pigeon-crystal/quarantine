@@ -116,7 +116,13 @@
 	const SPRITE_WARRIOR ; 70
 	const SPRITE_RADICAL ; 71
 	const SPRITE_ENGINEER ; 72
-	const SPRITE_IMAKUNI
+	const SPRITE_IMAKUNI ; 73
+	const SPRITE_ATHLETE_F ; 74
+	const SPRITE_SALARYMAN ; 75
+	const SPRITE_SKEPTIC ; 76
+	const SPRITE_DELINQUENT_M ; 77
+	const SPRITE_DELINQUENT_F ; 78
+	const SPRITE_ULTRAMAN ; 79
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)
 	const_def $80

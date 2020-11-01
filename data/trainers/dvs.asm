@@ -16,11 +16,11 @@ TrainerClassDVs:
 	dn 13, 12, 13, 13 ; BRUNO
 	dn  7, 15, 13, 15 ; KAREN
 	dn 13, 12, 13, 13 ; KOGA
-	dn 13, 12, 13, 13 ; CHAMPION
-	dn  9,  8,  8,  8 ; BROCK
+	dn 14, 13, 15, 14 ; CHAMPION
+	dn  9, 15,  8,  8 ; BROCK
 	dn  7,  8,  8,  8 ; MISTY
-	dn  9,  8,  8,  8 ; LT_SURGE
-	dn  9,  8,  8,  8 ; SCIENTIST
+	dn  9,  8, 15,  8 ; LT_SURGE
+	dn  9,  8,  8, 10 ; SCIENTIST
 	dn  7,  8,  8,  8 ; ERIKA
 	dn  9,  8,  8,  8 ; YOUNGSTER
 	dn  9,  8,  8,  8 ; SCHOOLBOY
@@ -46,7 +46,7 @@ TrainerClassDVs:
 	dn  9,  8,  8,  8 ; GUITARIST
 	dn 10,  8,  8,  8 ; HIKER
 	dn  9,  8,  8,  8 ; BIKER
-	dn  9,  8,  8,  8 ; BLAINE
+	dn 10,  8, 10,  8 ; BLAINE
 	dn  9,  8,  8,  8 ; BURGLAR
 	dn  9,  8,  8,  8 ; FIREBREATHER
 	dn  9,  8,  8,  8 ; JUGGLER
@@ -63,11 +63,11 @@ TrainerClassDVs:
 	dn 10,  8,  8, 10 ; KIMONO_GIRL
 	dn  6,  8, 10,  8 ; TWINS
 	dn  6, 13,  8,  8 ; POKEFANF
-	dn 15, 13, 15, 14 ; RED
-	dn  9, 13, 15, 13 ; BLUE
+	dn 15, 15, 15, 15 ; RED
+	dn 15, 13, 15, 13 ; BLUE
 	dn  9,  8,  8,  8 ; OFFICER
-	dn  7, 14, 10,  8 ; GRUNTF
-	dn  9,  8,  8,  8 ; MYSTICALMAN
+	dn  7, 13, 10,  8 ; GRUNTF
+	dn  9, 10, 11, 12 ; MYSTICALMAN
 	dn 11, 14, 15, 15 ; WIZARD
 	dn 13, 13, 13, 14 ; GURU
 	dn 15, 15, 15, 15 ; CHEATER
@@ -82,4 +82,7 @@ TrainerClassDVs:
 	dn  8,  9, 10, 14 ; ENGINEER
 	dn 11,  8,  8, 13 ; SKEPTIC
 	dn 15,  8, 10,  8 ; KAIJU
-
+	dn  7,  7,  7,  7 ; IMAKUNI
+	dn 13,  8,  8,  7 ; DELINQUENT M
+	dn 13,  8,  7,  9 ; DELINQUENT F 
+	dn 13, 13, 13, 13 ; ULTRAMAN 

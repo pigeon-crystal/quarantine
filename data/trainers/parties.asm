@@ -3987,3 +3987,12 @@ KaijuGroup:
 	db 60, CAIRNIVORE, SOFT_SAND, 	EARTHQUAKE, STOMP, NO_MOVE, NO_MOVE
 	db -1 ; end
 	
+ImakuniGroup:
+
+DelinquentMGroup:
+
+DelinquentFGroup:
+
+UltramanGroup:
+
+	

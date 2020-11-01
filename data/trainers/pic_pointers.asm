@@ -83,4 +83,8 @@ TrainerPicPointers::
 	dba_pic EngineerPic
 	dba_pic SkepticPic
 	dba_pic KaijuPic
+	dba_pic ImakuniPic
+	dba_pic DelinquentMPic
+	dba_pic DelinquentFPic
+	dba_pic UltramanPic
 	

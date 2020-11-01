@@ -82,3 +82,7 @@ TrainerGroups:
 	dba EngineerGroup
 	dba SkepticGroup
 	dba KaijuGroup
+	dba ImakuniGroup
+	dba DelinquentMGroup
+	dba DelinquentFGroup
+	dba UltramanGroup

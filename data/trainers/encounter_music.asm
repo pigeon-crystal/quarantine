@@ -84,4 +84,8 @@ TrainerEncounterMusic::
 	db MUSIC_ROCKET_ENCOUNTER	   	; engineer
 	db MUSIC_HIKER_ENCOUNTER		; skeptic
 	db MUSIC_POKEMANIAC_ENCOUNTER	; Kaiju
+	db MUSIC_IMAKUNI_ENCOUNTER		; Imakuni
+	db MUSIC_POKEMANIAC_ENCOUNTER	; Delinquent M
+	db MUSIC_POKEMANIAC_ENCOUNTER   ; Delinquent F
+	db MUSIC_OFFICER_ENCOUNTER		; Ultraman
 	

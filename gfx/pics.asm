@@ -348,6 +348,8 @@ LanatunBackpic:       INCBIN "gfx/pokemon/lanatun/back.2bpp.lz"
 BugCatcherPic:       INCBIN "gfx/trainers/bug_catcher.2bpp.lz"
 TherazorBackpic:      INCBIN "gfx/pokemon/therazor/back.2bpp.lz"
 GuruPic: 			INCBIN "gfx/trainers/guru.2bpp.lz"
+DelinquentMPic:		  INCBIN "gfx/trainers/delinquent_m.2bpp.lz"
+DelinquentFPic:		  INCBIN "gfx/trainers/delinquent_f.2bpp.lz"
 
 
 SECTION "Pics 12", ROMX
@@ -440,11 +442,11 @@ ShrimpanziBackpic:     INCBIN "gfx/pokemon/shrimpanzi/back.2bpp.lz"
 MysticalmanPic:      INCBIN "gfx/trainers/mysticalman.2bpp.lz"
 CooltrainerfPic:     INCBIN "gfx/trainers/cooltrainer_f.2bpp.lz"
 ElectrodeFrontpic:   INCBIN "gfx/pokemon/electrode/front.animated.2bpp.lz"
+PardnerBackpic:    INCBIN "gfx/pokemon/pardner/back.2bpp.lz"
 
 
 SECTION "Pics 14", ROMX
 
-PardnerBackpic:    INCBIN "gfx/pokemon/pardner/back.2bpp.lz"
 YuefoeBackpic:      INCBIN "gfx/pokemon/yuefoe/back.2bpp.lz"
 WendigauntFrontpic:     INCBIN "gfx/pokemon/wendigaunt/front.animated.2bpp.lz"
 AllseeraphBackpic:      INCBIN "gfx/pokemon/allseeraph/back.2bpp.lz"
@@ -491,7 +493,6 @@ PlantennaBackpic:    INCBIN "gfx/pokemon/plantenna/back.2bpp.lz"
 Rival1Pic:           INCBIN "gfx/trainers/rival1.2bpp.lz"
 LamseedBackpic:       INCBIN "gfx/pokemon/lamseed/back.2bpp.lz"
 
-
 SECTION "Pics 15", ROMX
 
 Ma_0Backpic:       INCBIN "gfx/pokemon/ma_0/back.2bpp.lz"
@@ -535,6 +536,7 @@ FursaBackpic:        INCBIN "gfx/pokemon/fursa/back.2bpp.lz"   ;orig totodile
 ZasterBackpic:     INCBIN "gfx/pokemon/zaster/back.2bpp.lz"
 PepofferBackpic:     INCBIN "gfx/pokemon/pepoffer/back.2bpp.lz"
 PitayrantBackpic:    INCBIN "gfx/pokemon/pitayrant/back.2bpp.lz"
+UltramanPic:		INCBIN "gfx/trainers/ultraman.2bpp.lz"
 
 
 SECTION "Pics 16", ROMX
@@ -714,23 +716,24 @@ QwallopBackpic:       INCBIN "gfx/pokemon/qwallop/back.2bpp.lz"
 HabbleBackpic:       INCBIN "gfx/pokemon/habble/back.2bpp.lz"
 DratiniBackpic:      INCBIN "gfx/pokemon/dratini/back.2bpp.lz"
 ElectrodeBackpic:    INCBIN "gfx/pokemon/electrode/back.2bpp.lz"
-SnosebleedBackpic:     INCBIN "gfx/pokemon/snosebleed/back.2bpp.lz"
-HivemaimBackpic:      INCBIN "gfx/pokemon/hivemaim/back.2bpp.lz"
-HexahedBackpic:   INCBIN "gfx/pokemon/hexahed/back.2bpp.lz"
+SnosebleedBackpic:  INCBIN "gfx/pokemon/snosebleed/back.2bpp.lz"
+HivemaimBackpic:    INCBIN "gfx/pokemon/hivemaim/back.2bpp.lz"
+HexahedBackpic:   	INCBIN "gfx/pokemon/hexahed/back.2bpp.lz"
 EukubBackpic:       INCBIN "gfx/pokemon/eukub/back.2bpp.lz"
-UnownDBackpic:       INCBIN "gfx/pokemon/unown_d/back.2bpp.lz"
-WizardPic:        INCBIN "gfx/trainers/wizard.2bpp.lz"
-CheaterPic:       INCBIN "gfx/trainers/cheater.2bpp.lz"
-EnforcerPic:	  INCBIN "gfx/trainers/enforcer.2bpp.lz"
-AthleteFPic:	  INCBIN "gfx/trainers/athlete_f.2bpp.lz"
-AthleteMPic:	  INCBIN "gfx/trainers/athlete_m.2bpp.lz"
-FanaticRedPic:	  INCBIN "gfx/trainers/fanatic_red.2bpp.lz"
-FanaticBluePic:   INCBIN "gfx/trainers/fanatic_blue.2bpp.lz"
-WarriorPic:       INCBIN "gfx/trainers/warrior.2bpp.lz"
-RadicalPic:		  INCBIN "gfx/trainers/radical.2bpp.lz"
+UnownDBackpic:      INCBIN "gfx/pokemon/unown_d/back.2bpp.lz"
+WizardPic:        	INCBIN "gfx/trainers/wizard.2bpp.lz"
+CheaterPic:       	INCBIN "gfx/trainers/cheater.2bpp.lz"
+EnforcerPic:	  	INCBIN "gfx/trainers/enforcer.2bpp.lz"
+AthleteFPic:	  	INCBIN "gfx/trainers/athlete_f.2bpp.lz"
+AthleteMPic:	  	INCBIN "gfx/trainers/athlete_m.2bpp.lz"
+FanaticRedPic:	  	INCBIN "gfx/trainers/fanatic_red.2bpp.lz"
+FanaticBluePic:   	INCBIN "gfx/trainers/fanatic_blue.2bpp.lz"
+WarriorPic:       	INCBIN "gfx/trainers/warrior.2bpp.lz"
+RadicalPic:		  	INCBIN "gfx/trainers/radical.2bpp.lz"
 SalarymanPic: 		INCBIN "gfx/trainers/salaryman.2bpp.lz"
 EngineerPic:		INCBIN "gfx/trainers/engineer.2bpp.lz"
 SkepticPic:			INCBIN "gfx/trainers/skeptic.2bpp.lz"
+ImakuniPic:			INCBIN "gfx/trainers/imakuni.2bpp.lz"
 
 
 ; Sections "Pics 20" to "Pics 24" are not used for any graphics,

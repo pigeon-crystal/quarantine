@@ -37,8 +37,8 @@ TrainerClassNames::
 	db "LEADER@"
 	db "BUG CATCHER@"
 	db "FISHER@"
-	db "SWIMMER♂@"
-	db "SWIMMER♀@"
+	db "SWIMMER@" ; male
+	db "SWIMMER@" ; female
 	db "SAILOR@"
 	db "SUPER NERD@"
 	db "RIVAL@"
@@ -81,5 +81,8 @@ TrainerClassNames::
 	db "ROCKET@" ; engineer
 	db "SKEPTIC@" 
 	db "KAIJU@"
-	
+	db "LIFEFORM@" ; imakuni
+	db "DELINQUENT@" ; M
+	db "DELINQUENT@" ; F 
+	db "HERO@"		; Ultraman
 	
