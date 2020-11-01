@@ -3995,4 +3995,13 @@ DelinquentFGroup:
 
 UltramanGroup:
 
+DemonGroup:
+
+MastermindGroup:
+
+BreederMGroup:
+
+BreederFGroup:
+
+NurseGroup:
 	

@@ -86,3 +86,9 @@ TrainerGroups:
 	dba DelinquentMGroup
 	dba DelinquentFGroup
 	dba UltramanGroup
+	dba DemonGroup
+	dba MastermindGroup
+	dba BreederMGroup
+	dba BreederFGroup
+	dba NurseGroup
+	

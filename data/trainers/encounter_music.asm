@@ -88,4 +88,9 @@ TrainerEncounterMusic::
 	db MUSIC_POKEMANIAC_ENCOUNTER	; Delinquent M
 	db MUSIC_POKEMANIAC_ENCOUNTER   ; Delinquent F
 	db MUSIC_OFFICER_ENCOUNTER		; Ultraman
+	db MUSIC_SAGE_ENCOUNTER			; Demon
+	db MUSIC_ENFORCER_ENCOUNTER		; Mastermind
+	db MUSIC_HIKER_ENCOUNTER		; breeder m
+	db MUSIC_SAGE_ENCOUNTER			; breeder f
+	db MUSIC_BEAUTY_ENCOUNTER		; nurse
 	

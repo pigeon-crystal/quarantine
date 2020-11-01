@@ -42,6 +42,7 @@ PorygonBackpic:      INCBIN "gfx/pokemon/porygon/back.2bpp.lz"
 UnownHBackpic:       INCBIN "gfx/pokemon/unown_h/back.2bpp.lz"
 
 
+
 SECTION "Pics 2", ROMX
 
 BlastoiseFrontpic:   INCBIN "gfx/pokemon/blastoise/front.animated.2bpp.lz"
@@ -64,6 +65,8 @@ NuckawheezBackpic:     INCBIN "gfx/pokemon/nuckawheez/back.2bpp.lz"
 MurdermisBackpic:      INCBIN "gfx/pokemon/murdermis/back.2bpp.lz"
 MortyPic:            INCBIN "gfx/trainers/morty.2bpp.lz"
 KodoroyahBackpic:       INCBIN "gfx/pokemon/kodoroyah/back.2bpp.lz"
+BreederMPic:			INCBIN "gfx/trainers/breeder_m.2bpp.lz"
+DemonPic:				INCBIN "gfx/trainers/demon.2bpp.lz"
 
 
 SECTION "Pics 3", ROMX
@@ -97,19 +100,19 @@ MoradayFrontpic:        INCBIN "gfx/pokemon/moraday/front.animated.2bpp.lz"
 OdditullyFrontpic:     INCBIN "gfx/pokemon/odditully/front.animated.2bpp.lz"
 NimbocetusFrontpic:     INCBIN "gfx/pokemon/nimbocetus/front.animated.2bpp.lz"
 DragoniteFrontpic:   INCBIN "gfx/pokemon/dragonite/front.animated.2bpp.lz"
-YuggromiFrontpic:   INCBIN "gfx/pokemon/yuggromi/front.animated.2bpp.lz"
-BowlideFrontpic:     INCBIN "gfx/pokemon/bowlide/front.animated.2bpp.lz"
-AerodactylFrontpic:  INCBIN "gfx/pokemon/aerodactyl/front.animated.2bpp.lz"
-GanzerkerFrontpic:     INCBIN "gfx/pokemon/ganzerker/front.animated.2bpp.lz"
-ZeppliumFrontpic:         INCBIN "gfx/pokemon/zepplium/front.animated.2bpp.lz"
-NanuquaFrontpic:     INCBIN "gfx/pokemon/nanuqua/front.animated.2bpp.lz"
-MossarreFrontpic:       INCBIN "gfx/pokemon/mossarre/front.animated.2bpp.lz"
-ShrimpanziFrontpic:    INCBIN "gfx/pokemon/shrimpanzi/front.animated.2bpp.lz"
-DunefinFrontpic:   INCBIN "gfx/pokemon/dunefin/front.animated.2bpp.lz"
-JolteonFrontpic:     INCBIN "gfx/pokemon/jolteon/front.animated.2bpp.lz"
-MoneumennFrontpic:     INCBIN "gfx/pokemon/moneumenn/front.animated.2bpp.lz"
-BermudantFrontpic:      INCBIN "gfx/pokemon/bermudant/front.animated.2bpp.lz"
-UnownEFrontpic:      INCBIN "gfx/pokemon/unown_e/front.animated.2bpp.lz"
+YuggromiFrontpic:   		INCBIN "gfx/pokemon/yuggromi/front.animated.2bpp.lz"
+BowlideFrontpic:     		INCBIN "gfx/pokemon/bowlide/front.animated.2bpp.lz"
+AerodactylFrontpic:  		INCBIN "gfx/pokemon/aerodactyl/front.animated.2bpp.lz"
+GanzerkerFrontpic:     		INCBIN "gfx/pokemon/ganzerker/front.animated.2bpp.lz"
+ZeppliumFrontpic:         	INCBIN "gfx/pokemon/zepplium/front.animated.2bpp.lz"
+NanuquaFrontpic:     		INCBIN "gfx/pokemon/nanuqua/front.animated.2bpp.lz"
+MossarreFrontpic:       	INCBIN "gfx/pokemon/mossarre/front.animated.2bpp.lz"
+ShrimpanziFrontpic:    		INCBIN "gfx/pokemon/shrimpanzi/front.animated.2bpp.lz"
+DunefinFrontpic:   			INCBIN "gfx/pokemon/dunefin/front.animated.2bpp.lz"
+JolteonFrontpic:     		INCBIN "gfx/pokemon/jolteon/front.animated.2bpp.lz"
+MoneumennFrontpic:     		INCBIN "gfx/pokemon/moneumenn/front.animated.2bpp.lz"
+BermudantFrontpic:      	INCBIN "gfx/pokemon/bermudant/front.animated.2bpp.lz"
+UnownEFrontpic:     	 	INCBIN "gfx/pokemon/unown_e/front.animated.2bpp.lz"
 
 
 SECTION "Pics 5", ROMX
@@ -120,7 +123,7 @@ CantaloneFrontpic:   INCBIN "gfx/pokemon/cantalone/front.animated.2bpp.lz"
 CasanocteFrontpic:    INCBIN "gfx/pokemon/casanocte/front.animated.2bpp.lz"
 JunobeFrontpic:     INCBIN "gfx/pokemon/junobe/front.animated.2bpp.lz"
 MissingnoFrontpic:   INCBIN "gfx/pokemon/missingno/front.animated.2bpp.lz"
-NomsabreFrontpic:    INCBIN "gfx/pokemon/nomsabre/front.animated.2bpp.lz" ;orig raticate
+NomsabreFrontpic:    INCBIN "gfx/pokemon/nomsabre/front.animated.2bpp.lz"
 PripydermFrontpic:    INCBIN "gfx/pokemon/pripyderm/front.animated.2bpp.lz"
 PolitoedFrontpic:    INCBIN "gfx/pokemon/politoed/front.animated.2bpp.lz"
 GiguardFrontpic:  INCBIN "gfx/pokemon/giguard/front.animated.2bpp.lz"
@@ -135,6 +138,7 @@ SateliskFrontpic:   INCBIN "gfx/pokemon/satelisk/front.animated.2bpp.lz"
 ParasectFrontpic:    INCBIN "gfx/pokemon/parasect/front.animated.2bpp.lz"
 PeacolderFrontpic:      INCBIN "gfx/pokemon/peacolder/front.animated.2bpp.lz"
 HeracrossFrontpic:   INCBIN "gfx/pokemon/heracross/front.animated.2bpp.lz"
+NursePic:			INCBIN "gfx/trainers/nurse.2bpp.lz"
 
 
 SECTION "Pics 6", ROMX
@@ -170,6 +174,7 @@ MagnemiteFrontpic:   INCBIN "gfx/pokemon/magnemite/front.animated.2bpp.lz"
 ErikaPic:            INCBIN "gfx/trainers/erika.2bpp.lz"
 JaninePic:           INCBIN "gfx/trainers/janine.2bpp.lz"
 MagnemiteBackpic:    INCBIN "gfx/pokemon/magnemite/back.2bpp.lz"
+MastermindPic:			INCBIN "gfx/trainers/mastermind.2bpp.lz"
 
 
 SECTION "Pics 7", ROMX
@@ -199,6 +204,7 @@ DragonairFrontpic:   INCBIN "gfx/pokemon/dragonair/front.animated.2bpp.lz"
 ForretressFrontpic:  INCBIN "gfx/pokemon/forretress/front.animated.2bpp.lz"
 AllseeraphFrontpic:     INCBIN "gfx/pokemon/allseeraph/front.animated.2bpp.lz"
 GeneropsisBackpic:   INCBIN "gfx/pokemon/generopsis/back.2bpp.lz"
+BreederFPic:			INCBIN "gfx/trainers/breeder_f.2bpp.lz"
 
 
 SECTION "Pics 8", ROMX

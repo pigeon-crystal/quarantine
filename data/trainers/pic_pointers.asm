@@ -87,4 +87,9 @@ TrainerPicPointers::
 	dba_pic DelinquentMPic
 	dba_pic DelinquentFPic
 	dba_pic UltramanPic
+	dba_pic DemonPic
+	dba_pic MastermindPic
+	dba_pic BreederMPic
+	dba_pic BreederFPic
+	dba_pic NursePic
 	

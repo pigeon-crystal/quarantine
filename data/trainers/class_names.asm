@@ -85,4 +85,9 @@ TrainerClassNames::
 	db "DELINQUENT@" ; M
 	db "DELINQUENT@" ; F 
 	db "HERO@"		; Ultraman
+	db "DEMON@"
+	db "MASTERMIND@"
+	db "<PKMN> BREEDER@" ; breeder male
+	db "<PKMN> BREEDER@" ; breeder female
+	db "NURSE@"
 	

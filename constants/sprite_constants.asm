@@ -123,6 +123,9 @@
 	const SPRITE_DELINQUENT_M ; 77
 	const SPRITE_DELINQUENT_F ; 78
 	const SPRITE_ULTRAMAN ; 79
+	const SPRITE_DEMON		; 7a
+	const SPRITE_MASTERMIND	; 7b
+	const SPRITE_BREEDER_M	; 7c
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)
 	const_def $80

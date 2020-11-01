@@ -753,5 +753,14 @@ KRIS EQU __enum__
 	
 	trainerclass ULTRAMAN ; 55
 	
+	trainerclass DEMON ; 56
+	
+	trainerclass MASTERMIND ; 57
+	
+	trainerclass BREEDER_M ; 58
+	
+	trainerclass BREEDER_F ; 59
+	
+	trainerclass NURSE_T ; 5a
 	
 NUM_TRAINER_CLASSES EQU __enum__

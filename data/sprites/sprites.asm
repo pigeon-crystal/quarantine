@@ -127,4 +127,8 @@ OverworldSprites:
 	overworld_sprite DelinquentMSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite DelinquentFSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite UltramanSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite DemonSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite MastermindSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite BreederMSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
+	
 	

@@ -92,4 +92,9 @@ INCBIN "gfx/trainers/imakuni.gbcpal", middle_colors
 INCBIN "gfx/trainers/delinquent_m.gbcpal", middle_colors
 INCBIN "gfx/trainers/delinquent_f.gbcpal", middle_colors
 INCBIN "gfx/trainers/ultraman.gbcpal", middle_colors
+INCBIN "gfx/trainers/demon.gbcpal", middle_colors
+INCBIN "gfx/trainers/mastermind.gbcpal", middle_colors
+INCBIN "gfx/trainers/breeder_m.gbcpal", middle_colors
+INCBIN "gfx/trainers/breeder_f.gbcpal", middle_colors
+INCBIN "gfx/trainers/nurse.gbcpal", middle_colors
 

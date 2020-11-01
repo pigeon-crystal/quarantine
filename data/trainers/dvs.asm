@@ -86,3 +86,8 @@ TrainerClassDVs:
 	dn 13,  8,  8,  7 ; DELINQUENT M
 	dn 13,  8,  7,  9 ; DELINQUENT F 
 	dn 13, 13, 13, 13 ; ULTRAMAN 
+	dn 10, 7,  14, 15 ; DEMON
+	dn 11, 11, 12, 12 ; MASTERMIND
+	dn 15, 15, 15, 15 ; BREEDER M 		note on the breeders:
+	dn 15, 15, 15, 15 ; BREEDER F 		of course the pure breeders are gonna have perf IVs - not evs tho :)
+	dn  9,  9,  9,  9 ; NURSE
