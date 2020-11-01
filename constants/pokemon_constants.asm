@@ -49,7 +49,7 @@
 	const DUNEFIN    ; 1c
 	const SPRUNNY    ; 1d
 	const ONIONI   	 ; 1e
-	const ONIONION  ; 1f onionion
+	const ONIONION   ; 1f 
 	const PRAWMATE   ; 20
 	const SHRIMPANZI ; 21 shrimpanzi
 	const SWIMIAN    ; 22 swimian
@@ -151,7 +151,7 @@
 	const GYARADOS   ; 82 Snail 2
 	const MANDELBLOB ; 83
 	const HELACTAL   ; 84
-	const NOOMSDAY      ; 85 Noomsday
+	const NOOMSDAY   ; 85 Noomsday
 	const GANZORAH   ; 86 
 	const JOLTEON    ; 87 Mist Moomin
 	const FLAREON    ; 88 Mist Rando
@@ -161,7 +161,7 @@
 	const BELLOCEROS ; 8c
 	const SUBCEROS   ; 8d 
 	const AERODACTYL ; 8e Wellwitchsia
-	const THERAZOR    ; 8f therazor
+	const THERAZOR   ; 8f therazor
 	const ARTICUNO   ; 90 horn trio
 	const ZAPDOS     ; 91 horn trio
 	const BLAZENBULL ; 92

@@ -12,16 +12,7 @@ BulbasaurEggMoves:
 	db PETAL_DANCE
 	db -1 ; end
 
-CharmanderEggMoves:
-	db BELLY_DRUM
-	db ANCIENTPOWER
-	db ROCK_SLIDE
-	db BITE
-	db OUTRAGE
-	db BEAT_UP
-	db -1 ; end
-
-SquirtleEggMoves:
+WartortleEggMoves:
 	db MIRROR_COAT
 	db HAZE
 	db MIST
@@ -30,6 +21,11 @@ SquirtleEggMoves:
 	db FLAIL
 	db -1 ; end
 
+BuzzlingEggMoves:
+	db BATON_PASS
+	db GRIMNEEDLE
+	db -1 ; end
+	
 HoatotEggMoves:
 	db RAZOR_WIND
 	db ACID
@@ -70,6 +66,11 @@ WyrmometerEggMoves:
 	db BEAT_UP
 	db -1 ; end
 
+PikachuEggMoves:
+	db TWISTER
+	db FLAIL
+	db -1 ; end
+	
 SandolphEggMoves:
 	db OUTRAGE
 	db FLAIL
@@ -98,6 +99,13 @@ PrawmateEggMoves:
 	db COUNTER
 	db BEAT_UP
 	db -1 ; end
+	
+NyalleyEggMoves:
+	db DISABLE
+	db DESTINY_BOND
+	db SWEET_KISS
+	db DRAININGKISS
+	db -1 ;end
 
 VulpixEggMoves:
 	db FAINT_ATTACK
@@ -236,10 +244,8 @@ DolmiteEggMoves:
 	db -1 ; end
 
 MoperdorEggMoves:
-	db FLAME_WHEEL
 	db THRASH
 	db DOUBLE_KICK
-	db HYPNOSIS
 	db CHARM
 	db QUICK_ATTACK
 	db BONE_RUSH
@@ -248,31 +254,22 @@ MoperdorEggMoves:
 
 MissteriaEggMoves:
 	db SAFEGUARD
-	db BELLY_DRUM
 	db FUTURE_SIGHT
-	db STOMP
+	db ENCORE
 	db -1 ; end
 
-FarfetchDEggMoves:
-	db FORESIGHT
-	db MIRROR_MOVE
-	db GUST
-	db QUICK_ATTACK
-	db FLAIL
-	db -1 ; end
-
-DoduoEggMoves:
-	db QUICK_ATTACK
-	db SUPERSONIC
-	db HAZE
-	db FAINT_ATTACK
-	db FLAIL
-	db -1 ; end
+MagnetonEggMoves: ; antelope
+	db SNARL
+	db -1 
+	
+DodrioEggMoves: ; otter
+	db LIQUIDATION
+	db DETECT
+	db -1
 
 CaddisicleEggMoves:
 	db PERISH_SONG
 	db DISABLE
-	db BODY_SLAM
 	db ENCORE
 	db -1 ; end
 
@@ -321,6 +318,14 @@ LanatunEggMoves:
 	db POISONPOWDER
 	db -1 ; end
 
+VoltorbEggMoves:
+	db PSYCHO_CUT
+	db -1 ; end
+	
+ElectrodeEggMoves:
+	db REFLECT 
+	db -1; end
+
 CantaloneEggMoves:
 	db REFLECT
 	db MEGA_DRAIN
@@ -331,6 +336,11 @@ CocacobraEggMoves:
 	db ANCIENTPOWER
 	db PERISH_SONG
 	db PAIN_SPLIT
+	db -1 ; end
+
+MothoEggMoves:
+	db BUG_BUZZ
+	db PERISH_SONG
 	db -1 ; end
 
 SappuraEggMoves:
@@ -407,15 +417,20 @@ BermudantEggMoves:
 	db CALM_MIND
 	db -1 ; end
 
+TaurosEggMoves:
+	db SLASH
+	db PRESENT
+	db -1 ; end
+	
+MagikarpEggMoves:
+	db EXPLOSION
+	db ZAP_CANNON
+	db -1 ; end
+
 MandelblobEggMoves:
 	db FORESIGHT
 	db MEGA_DRAIN
 	db GIGA_DRAIN
-	db -1 ; end
-
-NoomsdayEggMoves:
-	db FLAIL
-	db CHARM
 	db -1 ; end
 
 MammothraEggMoves:
@@ -442,6 +457,7 @@ AerodactylEggMoves:
 
 TherazorEggMoves:
 	db LICK
+	db AGILITY
 	db -1 ; end
 
 DratiniEggMoves:
@@ -524,6 +540,12 @@ GwubbyEggMoves:
 	db BATON_PASS
 	db PURSUIT
 	db -1 ; end
+	
+CrobatEggMoves:
+	db SPARK
+	db EXPLOSION
+	db SELFDESTRUCT
+	db -1 ; end 
 
 StranglureEggMoves:
 	db FLAIL
@@ -584,6 +606,11 @@ PardnerEggMoves:
 	db SUBSTITUTE
 	db -1 ; end
 
+PolitoedEggMoves:
+	db PLAY_ROUGH
+	db SUBSTITUTE
+	db -1 ; end 
+
 ShabbycatEggMoves:
 	db PAY_DAY
 	db PLAY_ROUGH
@@ -614,11 +641,18 @@ OddittenEggMoves:
 	db SAFEGUARD
 	db -1 ; end
 
+EspeonEggMoves:
+	db ICE_BEAM
+	db PRESENT
+	db RETURN
+	db FORESIGHT
+	db -1
+
 BismuttEggMoves:
 	db HACKLES_UP
 	db SHADOW_BONE
 	db BONE_RUSH
-	db MINIMIZE
+	db FORESIGHT
 	db -1 ; end
 
 TidoEggMoves:
@@ -639,6 +673,7 @@ MaulzerEggMoves:
 	
 RespectreEggMoves:
 	db GRIMNEEDLE
+	db SPIDER_WEB
 	db DESTINY_BOND
 	db -1 ; end
 
@@ -656,11 +691,13 @@ ShreddrakeEggMoves:
 	db HYPER_FANG
 	db FIRE_SPIN
 	db PURSUIT
-	db LIQUIDATION
 	db FLASH_CANNON
-	db MACH_PUNCH
 	db DRAGON_DANCE
 	db -1 ; end
+
+ForretressEggMoves:
+	db ANCIENTPOWER
+	db -1
 
 AttackoEggMoves:
 	db ANCIENTPOWER
@@ -707,20 +744,6 @@ ShuckleEggMoves:
 	db SWEET_SCENT
 	db -1 ; end
 
-HeracrossEggMoves:
-	db HARDEN
-	db FOCUS_ENERGY
-	db FLAIL
-	db -1 ; end
-
-SneaselEggMoves:
-	db COUNTER
-	db SPITE
-	db FORESIGHT
-	db REFLECT
-	db BITE
-	db -1 ; end
-
 SmuciousEggMoves:
 	db CRUNCH
 	db SPITE
@@ -764,6 +787,10 @@ SnosebleedEggMoves:
 	db EARTH_POWER
 	db -1 ; end
 
+NavigazerEggMoves:
+	db ANCIENTPOWER
+	db -1 ; end
+
 ObelithEggMoves:
 	db FOCUS_ENERGY
 	db BODY_SLAM
@@ -798,25 +825,13 @@ TyrogueEggMoves:
 	db MACH_PUNCH
 	db LOCK_ON
 	db -1 ; end
+	
+HitmontopEggMoves:
+	db BITE 
+	db -1 ; end
 
 SmoochumEggMoves:
 	db BARRIER
-	db -1 ; end
-
-ElekidEggMoves:
-	db KARATE_CHOP
-	db BARRIER
-	db MEGA_KICK
-	db BARRIER
-	db CROSS_CHOP
-	db -1 ; end
-
-MagbyEggMoves:
-	db KARATE_CHOP
-	db COMET_PUNCH
-	db BARRIER
-	db SCREECH
-	db CROSS_CHOP
 	db -1 ; end
 
 YukittenEggMoves:
