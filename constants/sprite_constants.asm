@@ -81,7 +81,7 @@
 	const SPRITE_FAIRY ; 4d
 	const SPRITE_BIRD ; 4e
 	const SPRITE_DRAGON ; 4f
-	const SPRITE_BIG_ONIX ; 50
+	const SPRITE_BIG_MORADAY ; 50
 	const SPRITE_N64 ; 51
 	const SPRITE_SUDOWOODO ; 52
 	const SPRITE_SURF ; 53
@@ -104,28 +104,29 @@
 	const SPRITE_ENTEI ; 64
 	const SPRITE_RAIKOU ; 65
 	const SPRITE_STANDING_YOUNGSTER ; 66
-	const SPRITE_BIG_MEOWTAIN ; 67
-	const SPRITE_NYALLEY_OW ; 68
-	const SPRITE_TIDOSWIM ; 69
-	const SPRITE_WIZARD ; 6a
-	const SPRITE_CHEATER ; 6b
-	const SPRITE_ENFORCER ; 6c
-	const SPRITE_GURU	; 6d
-	const SPRITE_FANATIC ; 6e
-	const SPRITE_ATHLETE_M ; 6f
-	const SPRITE_WARRIOR ; 70
-	const SPRITE_RADICAL ; 71
-	const SPRITE_ENGINEER ; 72
-	const SPRITE_IMAKUNI ; 73
-	const SPRITE_ATHLETE_F ; 74
-	const SPRITE_SALARYMAN ; 75
-	const SPRITE_SKEPTIC ; 76
-	const SPRITE_DELINQUENT_M ; 77
-	const SPRITE_DELINQUENT_F ; 78
-	const SPRITE_ULTRAMAN ; 79
-	const SPRITE_DEMON		; 7a
-	const SPRITE_MASTERMIND	; 7b
-	const SPRITE_BREEDER_M	; 7c
+	const SPRITE_BIG_MEOWTAIN 	; 67
+	const SPRITE_NYALLEY_OW 	; 68
+	const SPRITE_TIDOSWIM 		; 69
+	const SPRITE_WIZARD 		; 6a
+	const SPRITE_CHEATER 		; 6b
+	const SPRITE_ENFORCER 		; 6c
+	const SPRITE_GURU			; 6d
+	const SPRITE_FANATIC 		; 6e
+	const SPRITE_ATHLETE_M 		; 6f
+	const SPRITE_WARRIOR 		; 70
+	const SPRITE_RADICAL 		; 71
+	const SPRITE_ENGINEER 		; 72
+	const SPRITE_IMAKUNI 		; 73
+	const SPRITE_ATHLETE_F 		; 74
+	const SPRITE_SALARYMAN 		; 75
+	const SPRITE_SKEPTIC 		; 76
+	const SPRITE_DELINQUENT_M 	; 77
+	const SPRITE_DELINQUENT_F 	; 78
+	const SPRITE_ULTRAMAN 		; 79
+	const SPRITE_DEMON			; 7a
+	const SPRITE_MASTERMIND		; 7b
+	const SPRITE_BREEDER_M		; 7c
+	const SPRITE_MUTANT			; 7d
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)
 	const_def $80
