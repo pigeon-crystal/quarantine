@@ -91,3 +91,5 @@ TrainerClassDVs:
 	dn 15, 15, 15, 15 ; BREEDER M 		note on the breeders:
 	dn 15, 15, 15, 15 ; BREEDER F 		of course the pure breeders are gonna have perf IVs - not evs tho :)
 	dn  9,  9,  9,  9 ; NURSE
+	dn 15, 15, 15, 15 ; MUTANT			mutants and bill are the
+	dn 15, 15, 15, 15 ; BILL 			postgame bosses so why not 15 dvs? fuck you.

@@ -92,4 +92,5 @@ TrainerPicPointers::
 	dba_pic BreederMPic
 	dba_pic BreederFPic
 	dba_pic NursePic
-	
+	dba_pic MutantPic
+	dba_pic BillPic

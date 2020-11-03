@@ -139,6 +139,8 @@ ParasectFrontpic:    INCBIN "gfx/pokemon/parasect/front.animated.2bpp.lz"
 PeacolderFrontpic:      INCBIN "gfx/pokemon/peacolder/front.animated.2bpp.lz"
 HeracrossFrontpic:   INCBIN "gfx/pokemon/heracross/front.animated.2bpp.lz"
 NursePic:			INCBIN "gfx/trainers/nurse.2bpp.lz"
+BillPic:			INCBIN "gfx/trainers/bill.2bpp.lz"
+MutantPic:			INCBIN "gfx/trainers/mutant.2bpp.lz"
 
 
 SECTION "Pics 6", ROMX

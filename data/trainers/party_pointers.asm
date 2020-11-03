@@ -91,4 +91,6 @@ TrainerGroups:
 	dba BreederMGroup
 	dba BreederFGroup
 	dba NurseGroup
+	dba MutantGroup
+	dba BillGroup
 	

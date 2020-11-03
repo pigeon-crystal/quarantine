@@ -93,4 +93,6 @@ TrainerEncounterMusic::
 	db MUSIC_HIKER_ENCOUNTER		; breeder m
 	db MUSIC_SAGE_ENCOUNTER			; breeder f
 	db MUSIC_BEAUTY_ENCOUNTER		; nurse
+	db MUSIC_POKEMANIAC_ENCOUNTER   ; mutant
+	db MUSIC_POKEMANIAC_ENCOUNTER   ; bill
 	

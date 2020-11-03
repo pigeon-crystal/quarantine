@@ -90,4 +90,6 @@ TrainerClassNames::
 	db "<PKMN> BREEDER@" ; breeder male
 	db "<PKMN> BREEDER@" ; breeder female
 	db "NURSE@"
+	db "MUTANT@"
+	db "RESEARCHER@" ; bill
 	

@@ -763,4 +763,9 @@ KRIS EQU __enum__
 	
 	trainerclass NURSE_T ; 5a
 	
+	trainerclass MUTANT ; 5b
+	
+	trainerclass BILL_CLASS ; 5c
+	
+	
 NUM_TRAINER_CLASSES EQU __enum__

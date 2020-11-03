@@ -4004,4 +4004,7 @@ BreederMGroup:
 BreederFGroup:
 
 NurseGroup:
-	
+
+MutantGroup:
+
+BillGroup:
