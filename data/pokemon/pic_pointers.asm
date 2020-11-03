@@ -505,8 +505,8 @@ PokemonPicPointers::
 	dba_pic AvatriceBackpic
 	dba_pic HoOhFrontpic
 	dba_pic HoOhBackpic
-	dba_pic CelebiFrontpic
-	dba_pic CelebiBackpic
+	dba_pic TentaquilFrontpic
+	dba_pic TentaquilBackpic
 	dba_pic PilfoardFrontpic
 	dba_pic PilfoardBackpic
 	dba_pic EggPic

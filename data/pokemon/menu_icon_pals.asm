@@ -254,7 +254,7 @@ MonMenuIconPals:
 	icon_pals BLUE,   PURPLE    ; SNOKAGE
 	icon_pals YELLOW,   GRAY    ; AVATRICE
 	icon_pals RED,   YELLOW    ; HO_OH
-	icon_pals RED,   YELLOW    ; CELEBI
+	icon_pals YELLOW,   BLUE    ; TENTAQUIL
 	icon_pals YELLOW,YELLOW ; PILFOARD
 	icon_pals RED,   BLUE      ; EGG
 	icon_pals RED,   YELLOW    ; 254

@@ -249,7 +249,7 @@ PokemonNames::
 	db "SNOKAGE@@@"
 	db "AVATRICE@@"
 	db "HO-OH@@@@@"
-	db "CELEBI@@@@"
+	db "TENTAQUIL@"
 	db "PILFOARD@@"
 	db "EGG@@@@@@@"
 	db "?????@@@@@"

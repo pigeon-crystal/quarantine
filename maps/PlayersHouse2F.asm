@@ -51,10 +51,12 @@ PosterScript:
 	describedecoration DECODESC_POSTER
 
 PlayersHouseRadioScript:
-	givepoke MA_0, 100
-	givepoke BRIGADOOM, 100
+	givepoke SQUEENIE, 52
+	givepoke MT_NOOT, 54
 	giveitem MASTER_BALL
-	warp SLOWPOKE_WELL_B1F, 6, 3
+	loadwildmon TENTAQUIL, 65
+	loadvar VAR_BATTLETYPE, BATTLETYPE_SHINY
+	startbattle
 	end
 	
 ;PlayersHouseRadioScript:

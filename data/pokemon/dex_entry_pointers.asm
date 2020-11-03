@@ -250,5 +250,5 @@ PokedexDataPointerTable:
 	dw SnokagePokedexEntry
 	dw AvatricePokedexEntry
 	dw HoOhPokedexEntry
-	dw CelebiPokedexEntry
+	dw TentaquilPokedexEntry
 	dw PilfoardPokedexEntry

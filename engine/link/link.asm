@@ -1892,10 +1892,10 @@ LinkTrade:
 	jr z, .loop
 	ld b, $2
 	ld a, c
-	cp CELEBI
+	cp TENTAQUIL
 	jr z, .loop
 	ld a, [wCurPartySpecies]
-	cp CELEBI
+	cp TENTAQUIL
 	jr z, .loop
 	ld b, $0
 

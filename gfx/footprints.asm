@@ -570,7 +570,7 @@ INCBIN "gfx/footprints/snokage.1bpp",  footprint_bottom
 ; 249-256 top halves
 INCBIN "gfx/footprints/avatrice.1bpp",      footprint_top
 INCBIN "gfx/footprints/ho_oh.1bpp",      footprint_top
-INCBIN "gfx/footprints/celebi.1bpp",     footprint_top
+INCBIN "gfx/footprints/tentaquil.1bpp",     footprint_top
 INCBIN "gfx/footprints/pilfoard.1bpp",   footprint_top
 INCBIN "gfx/footprints/253.1bpp",        footprint_top
 INCBIN "gfx/footprints/254.1bpp",        footprint_top
@@ -579,7 +579,7 @@ INCBIN "gfx/footprints/256.1bpp",        footprint_top
 ; 249-256 bottom halves
 INCBIN "gfx/footprints/avatrice.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/ho_oh.1bpp",      footprint_bottom
-INCBIN "gfx/footprints/celebi.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/tentaquil.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/pilfoard.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/253.1bpp",        footprint_bottom
 INCBIN "gfx/footprints/254.1bpp",        footprint_bottom

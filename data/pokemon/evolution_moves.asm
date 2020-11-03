@@ -249,6 +249,6 @@ EvolutionMoves::
 	db NO_MOVE		; SNOKAGE
 	db NO_MOVE		; AVATRICE
 	db NO_MOVE		; HO_OH
-	db NO_MOVE		; CELEBI
+	db NO_MOVE		; TENTAQUIL
 	db NO_MOVE		; PILFOARD
 	

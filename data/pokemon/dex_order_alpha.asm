@@ -25,7 +25,7 @@ AlphabeticalPokedexOrder:
 	db CANTALONE
 	db CANTOGETHA
 	db CASANOCTE
-	db CELEBI
+	db TENTAQUIL
 	db CHARIZARD
 	db CHARMANDER
 	db CHARMELEON

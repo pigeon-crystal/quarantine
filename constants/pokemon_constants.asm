@@ -270,7 +270,7 @@ JOHTO_POKEMON EQU const_value
 	const SNOKAGE    ; f8
 	const AVATRICE   ; f9
 	const HO_OH      ; fa donchan
-	const CELEBI     ; fb tentaquil
+	const TENTAQUIL     ; fb tentaquil
 	const PILFOARD	 ; fc
 NUM_POKEMON EQU const_value - 1
 	const EGG        ; fd

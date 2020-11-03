@@ -251,5 +251,5 @@ EvosAttacksPointers::
 	dw SnokageEvosAttacks
 	dw AvatriceEvosAttacks
 	dw HoOhEvosAttacks
-	dw CelebiEvosAttacks
+	dw TentaquilEvosAttacks
 	dw PilfoardEvosAttacks

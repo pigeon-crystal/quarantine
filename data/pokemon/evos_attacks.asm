@@ -3602,7 +3602,7 @@ HoOhEvosAttacks:
 	db 1, SAFEGUARD
 	db 0 ; no more level-up moves
 
-CelebiEvosAttacks:
+TentaquilEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PUKE_BLOOD
 	db 0 ; no more level-up moves

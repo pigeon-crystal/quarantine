@@ -187,7 +187,7 @@ Moves:: ; 41afb
 	move SNORE,        EFFECT_SNORE,              80, NORMAL,   	SPECIAL,  100, 15,  30
 	move CURSE,        EFFECT_CURSE,               0, GHOST,    	STATUS,   100, 10,   0
 	move FLAIL,        EFFECT_REVERSAL,            1, NORMAL,   	PHYSICAL, 100, 15,   0
-	move GRIMNEEDLE,   EFFECT_PARALYZE_HIT,       77, GHOST,    	PHYSICAL,  77, 15,  77
+	move GRIMNEEDLE,   EFFECT_PARALYZE_HIT,       77, BUG,    		PHYSICAL,  77, 10,  77
 	move FROSTBITE,    EFFECT_SPEED_DOWN_HIT,     80, ICE,      	PHYSICAL, 100, 10,  20
 	move COTTON_SPORE, EFFECT_SPEED_DOWN_2,        0, GRASS,    	STATUS,   100, 40,   0
 	move FOCUS_BLAST,  EFFECT_SP_DEF_DOWN_HIT,   120, FIGHTING, 	SPECIAL,   70,  5,  35

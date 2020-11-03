@@ -436,7 +436,7 @@ Function39990:
 	ret
 
 INCLUDE "data/trainers/party_pointers.asm"
-
+; below code added as part of bugfix
 SetTrainerBattleLevel:
 	ld a, 255
 	ld [wCurPartyLevel], a

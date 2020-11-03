@@ -255,7 +255,7 @@ PokemonCries::
 	mon_cry CRY_RAIKOU,     -256,  384 ; SNOKAGE
 	mon_cry CRY_TYPHLOSION,    0,  256 ; AVATRICE
 	mon_cry CRY_AIPOM,         0,  384 ; HO_OH
-	mon_cry CRY_ENTEI,       330,  273 ; CELEBI
+	mon_cry CRY_CLEFFA,     -685,  457 ; TENTAQUIL
 	mon_cry $B5,      		$083E,  $0057 ; PILFOARD
 	mon_cry CRY_NIDORAN_M,     0,    0 ; 253
 	mon_cry CRY_NIDORAN_M,     0,    0 ; 254

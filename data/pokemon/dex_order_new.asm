@@ -251,6 +251,6 @@ NewPokedexOrder:
 	db HO_OH
 	db MA_0
 	db MEW
-	db CELEBI
+	db TENTAQUIL
 	db MISSINGNO
 	
