@@ -1,6 +1,6 @@
 	db NOXROMAEUS ; 
 
-	db  102,  109,  45,  83,   91,  56
+	db  102,  109,  45,  84,  90,  56
 	;   hp    atk  def  spd  sat  sdf
 
 	db POISON, FLYING ; type

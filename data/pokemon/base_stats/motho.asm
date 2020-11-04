@@ -1,6 +1,6 @@
 	db MOTHO ; 
 
-	db  46, 69,  45, 88,  69,  64
+	db  47, 69,  45, 88,  69,  64
 	;   hp  atk  def  spd  sat  sdf
 
 	db DARK, BUG ; type

@@ -1,6 +1,6 @@
 	db DUMBLOON ; 063
 
-	db  71,  71,  63,  51,  45,  63
+	db  73,  70,  63,  51,  45,  63
 	;   hp   atk  def  spd   sat  sdf
 
 	db NORMAL, NORMAL ; type

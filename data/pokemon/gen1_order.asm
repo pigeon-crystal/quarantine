@@ -21,7 +21,7 @@ Pokered_MonIndices:
 	db BIPORKAR
 	db MEW
 	db GYARADOS
-	db SHELLDER
+	db BAMBABY
 	db TENTACOOL
 	db FLUFFRUIT
 	db BOWLIDE
@@ -44,7 +44,7 @@ Pokered_MonIndices:
 	db MOTHO
 	db MOTHOMEN
 	db IGNAGA
-	db PARASECT
+	db BLASPHERMY
 	db VOYAPOD
 	db EELKIE
 	db CAIRNIVORE
@@ -107,7 +107,7 @@ Pokered_MonIndices:
 	db UPWHALE
 	db STINPEON
 	db WYRMOMETER
-	db PARAS
+	db MESSMASH
 	db AMANIGO
 	db AMANIGO
 	db HOATOT
@@ -137,7 +137,7 @@ Pokered_MonIndices:
 	db ZEPPLIUM
 	db EYECHOSIS ; MISSINGNO.
 	db PEPOFFER
-	db CLOYSTER
+	db PIPENDA
 	db TYROGUE ; MISSINGNO.
 	db ELECTRODE
 	db FELIORITTE

@@ -1,6 +1,6 @@
 	db MT_NOOT ; 
 
-	db  80, 51,  132, 40,  84,  102
+	db  80, 50,  133, 40,  84,  102
 	;   hp  atk  def  spd  sat  sdf
 
 	db ICE, ICE ; type

@@ -1,6 +1,6 @@
 	db GIGERATOR ; 142
 
-	db  95, 137,  75, 61,  54,  95
+	db  99, 128,  72, 69,  54,  95
 	;   hp  atk  def  spd  sat  sdf
 
 	db STEEL, DARK ; type

@@ -1,7 +1,7 @@
 	db SUBCEROS ; 140
 
-	db  66,  134,  105,  83,  35,  90
-	;   hp  atk  def  spd  sat  sdf
+	db  66,  131, 105,  82,  40,  90
+	;   hp   atk  def  spd  sat  sdf
 
 	db ROCK, ICE ; type
 	db 45 ; catch rate

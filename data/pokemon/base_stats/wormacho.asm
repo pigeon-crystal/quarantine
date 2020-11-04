@@ -1,6 +1,6 @@
 	db WORMACHO ;
 
-	db  85,  123,  90,  64, 48,  70
+	db  85,  120, 90, 65, 50,  70
 	;   hp  atk  def  spd  sat  sdf
 
 	db GROUND, FIGHTING ; type

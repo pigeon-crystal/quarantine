@@ -1,6 +1,6 @@
 	db MAULZER ; 063
 
-	db  102,  121, 105, 58,  58,  59
+	db  100,  117, 105, 58,  61,  62
 	;   hp   atk  def  spd   sat  sdf
 
 	db FIGHTING, NORMAL ; type

@@ -1,11 +1,11 @@
 	db DUNEFIN ; 063
 
-	db  80,  103, 75,  110,  61,  75
+	db  80,  100, 76,  110,  63,  76
 	;   hp   atk  def  spd   sat  sdf
 
 	db GROUND, GROUND ; type
-	db 55 ; catch rate
-	db 194 ; base exp
+	db 62 ; catch rate
+	db 179 ; base exp
 	db SOFT_SAND, YLW_APRICORN ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

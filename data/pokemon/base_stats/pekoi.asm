@@ -1,6 +1,6 @@
 	db PEKOI ; 190
 
-	db  81,  79,  42,  85,  99,  99
+	db  81,  75,  46,  85,  99,  99
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, GRASS ; type

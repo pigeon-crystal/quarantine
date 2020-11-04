@@ -1,6 +1,6 @@
 	db CASANOCTE ; 142
 
-	db  117, 61,  85, 61,  134,  82
+	db  111, 64,  85, 64,  133,  83
 	;   hp  atk  def  spd  sat  sdf
 
 	db DARK, DRAGON ; type

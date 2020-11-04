@@ -51,8 +51,8 @@
 	const ONIONI   	 ; 1e
 	const ONIONION   ; 1f 
 	const PRAWMATE   ; 20
-	const SHRIMPANZI ; 21 shrimpanzi
-	const SWIMIAN    ; 22 swimian
+	const SHRIMPANZI ; 21 
+	const SWIMIAN    ; 22 
 	const NYALLEY    ; 23
 	const FELIORITTE ; 24
 	const VULPIX     ; 25 veil shroom
@@ -64,8 +64,8 @@
 	const EUKUB      ; 2b
 	const KOAGAN     ; 2c
 	const POCALYPTUS ; 2d
-	const PARAS      ; 2e GAC
-	const PARASECT   ; 2f CAG
+	const MESSMASH   ; 2e GAC
+	const BLASPHERMY   ; 2f CAG
 	const ELEPHOOT   ; 30
 	const PRIPYDERM  ; 31
 	const MUMINI     ; 32
@@ -108,8 +108,8 @@
 	const JADDICE    ; 57
 	const DUMBLOON   ; 58
 	const ZEPPLIUM   ; 59
-	const SHELLDER   ; 5a panda
-	const CLOYSTER   ; 5b panda2
+	const BAMBABY   ; 5a panda
+	const PIPENDA   ; 5b panda2
 	const FLUFFRUIT  ; 5c 
 	const SCRUFFRUIT ; 5d
 	const PITAYRANT  ; 5e

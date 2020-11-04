@@ -1,6 +1,6 @@
 	db MUMAGNUS ; 050
 
-	db  75,  71,  105,  52,  104,  105
+	db  75,  71,  106,  52,  106,  106
 	;   hp  atk  def  spd  sat  sdf
 
 	db FAIRY, ROCK ; type

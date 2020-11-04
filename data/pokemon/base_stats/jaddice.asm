@@ -1,6 +1,6 @@
 	db JADDICE ; 063
 
-	db  75,  115, 77,  111, 55,  77
+	db  70,  110, 77,  113, 55,  77
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, ICE ; type

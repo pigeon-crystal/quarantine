@@ -1,6 +1,6 @@
 	db SCORPEROR ; 063
 
-	db  80,  130,  115,  42,   80,  42
+	db  80,  125,  115,  44,   80,  44
 	;   hp   atk   def   spd   sat  sdf
 
 	db POISON, FIGHTING ; type

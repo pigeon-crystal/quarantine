@@ -38,7 +38,7 @@ KantoGrassWildMons:
 	db 6, STINPEON
 	db 8, DOLMITE
 	db 8, SANDOLPH
-	db 12, PARAS
+	db 12, MESSMASH
 	db 10, DOLMITE
 	db 8, NYALLEY
 	db 8, NYALLEY
@@ -47,7 +47,7 @@ KantoGrassWildMons:
 	db 6, STINPEON
 	db 8, DOLMITE
 	db 8, SANDOLPH
-	db 12, PARAS
+	db 12, MESSMASH
 	db 10, DOLMITE
 	db 8, NYALLEY
 	db 8, NYALLEY
@@ -56,7 +56,7 @@ KantoGrassWildMons:
 	db 6, STINPEON
 	db 8, DOLMITE
 	db 8, NYALLEY
-	db 12, PARAS
+	db 12, MESSMASH
 	db 10, DOLMITE
 	db 12, NYALLEY
 	db 12, NYALLEY
@@ -817,7 +817,7 @@ KantoGrassWildMons:
 	; morn
 	db 28, QWALLOP
 	db 28, HOATOXIC
-	db 30, PARASECT
+	db 30, BLASPHERMY
 	db 30, WORMACHO
 	db 32, YAGAGARASU
 	db 30, YAGAGARASU
@@ -826,7 +826,7 @@ KantoGrassWildMons:
 	; day
 	db 28, QWALLOP
 	db 28, HOATOXIC
-	db 30, PARASECT
+	db 30, BLASPHERMY
 	db 30, WORMACHO
 	db 32, YAGAGARASU
 	db 30, YAGAGARASU
@@ -835,7 +835,7 @@ KantoGrassWildMons:
 	; nite
 	db 28, QWALLOP
 	db 28, HOATOXIC
-	db 30, PARASECT
+	db 30, BLASPHERMY
 	db 30, WORMACHO
 	db 32, YAGAGARASU
 	db 30, YAGAGARASU

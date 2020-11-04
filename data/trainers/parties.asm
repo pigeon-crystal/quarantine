@@ -671,8 +671,8 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (9)
 	db "BILLY@", TRAINERTYPE_NORMAL
-	db 27, PARAS
-	db 27, PARAS
+	db 27, MESSMASH
+	db 27, MESSMASH
 	db 27, AMANIGO
 	db 35, HELACTAL
 	db -1 ; end
@@ -944,9 +944,9 @@ LassGroup:
 
 	; LASS (8)
 	db "SHANNON@", TRAINERTYPE_NORMAL
-	db 29, PARAS
-	db 29, PARAS
-	db 32, PARASECT
+	db 29, MESSMASH
+	db 29, MESSMASH
+	db 32, BLASPHERMY
 	db -1 ; end
 
 	; LASS (9)
@@ -1067,7 +1067,7 @@ CooltrainerMGroup:
 
 	; COOLTRAINERM (9) Route 46
 	db "JAKE@", TRAINERTYPE_MOVES
-	db 33, PARASECT,   LEECH_LIFE, SPORE, SLASH, SWORDS_DANCE
+	db 33, BLASPHERMY,   LEECH_LIFE, SPORE, SLASH, SWORDS_DANCE
 	db 35, EXOTUNITY,    CONFUSION, SCREECH, PSYCH_UP, FURY_SWIPES
 	db -1 ; end
 
@@ -1170,8 +1170,8 @@ CooltrainerFGroup:
 
 	; COOLTRAINERF (5) Route 34 Sisters
 	db "KATE@", TRAINERTYPE_NORMAL
-	db 26, SHELLDER
-	db 28, CLOYSTER
+	db 26, BAMBABY
+	db 28, PIPENDA
 	db -1 ; end
 
 	; COOLTRAINERF (6) Route 34 Sisters
@@ -1348,9 +1348,9 @@ BeautyGroup:
 
 	; BEAUTY (14)
 	db "JULIA@", TRAINERTYPE_NORMAL
-	db 32, PARAS
+	db 32, MESSMASH
 	db 32, CANTALONE
-	db 35, PARASECT
+	db 35, BLASPHERMY
 	db -1 ; end
 
 	; BEAUTY (15)
@@ -1908,10 +1908,10 @@ FisherGroup:
 
 	; FISHER (12)
 	db "JONAH@", TRAINERTYPE_NORMAL
-	db 25, SHELLDER
+	db 25, BAMBABY
 	db 29, SIDFICIOUS
 	db 25, STIKLBRAT
-	db 29, CLOYSTER
+	db 29, PIPENDA
 	db -1 ; end
 
 	; FISHER (13)
@@ -2013,14 +2013,14 @@ SwimmerMGroup:
 
 	; SWIMMERM (3) Route 40
 	db "RANDALL@", TRAINERTYPE_NORMAL
-	db 18, SHELLDER
+	db 18, BAMBABY
 	db 20, WARTORTLE
-	db 18, SHELLDER
+	db 18, BAMBABY
 	db -1 ; end
 
 	; SWIMMERM (4) Route 41
 	db "CHARLIE@", TRAINERTYPE_NORMAL
-	db 21, SHELLDER
+	db 21, BAMBABY
 	db 19, TENTACOOL
 	db 19, TENTACRUEL
 	db -1 ; end
@@ -2066,9 +2066,9 @@ SwimmerMGroup:
 
 	; SWIMMERM (11)
 	db "DARYL@", TRAINERTYPE_NORMAL
-	db 24, SHELLDER
-	db 25, CLOYSTER
-	db 24, SHELLDER
+	db 24, BAMBABY
+	db 25, PIPENDA
+	db 24, BAMBABY
 	db -1 ; end
 
 	; SWIMMERM (12)
@@ -2095,8 +2095,8 @@ SwimmerMGroup:
 
 	; SWIMMERM (15)
 	db "TUCKER@", TRAINERTYPE_NORMAL
-	db 30, SHELLDER
-	db 34, CLOYSTER
+	db 30, BAMBABY
+	db 34, PIPENDA
 	db -1 ; end
 
 	; SWIMMERM (16)
@@ -2148,7 +2148,7 @@ SwimmerFGroup:
 	; SWIMMERF (2) Route 40
 	db "PAULA@", TRAINERTYPE_NORMAL
 	db 19, PEAUTY
-	db 19, SHELLDER
+	db 19, BAMBABY
 	db -1 ; end
 
 	; SWIMMERF (3) Route 41
@@ -3487,9 +3487,9 @@ BoarderGroup:
 
 	; BOARDER (3)
 	db "DOUGLAS@", TRAINERTYPE_NORMAL
-	db 24, SHELLDER
-	db 25, CLOYSTER
-	db 24, SHELLDER
+	db 24, BAMBABY
+	db 25, PIPENDA
+	db 24, BAMBABY
 	db -1 ; end
 
 PokefanMGroup:
@@ -3909,7 +3909,7 @@ WarriorGroup:
 	db 40, POLITOED, GOLD_BERRY ;placeholder for dark hat
 	db 40, KRAKENTOA, BURNT_BERRY
 	db 40, YUGGROMI, BURNT_BERRY
-	db 40, PARASECT, BLACKBELT_I ;placeholder for CAG
+	db 40, BLASPHERMY, BLACKBELT_I ;placeholder for CAG
 	db -1 ; end
 
 ; WARRIOR (4) Dragon's Depths B1F
@@ -3972,8 +3972,8 @@ EngineerGroup:
 ; ENGINEER (3) rocket base b3f
 ;	db "ROCKET@", TRAINERTYPE_ITEM
 ;	db 32, CANTALONE, NO_ITEM
-;	db 32, PARAS, BERSERK_GENE
-;	db 32, PARAS, BERSERK_GENE
+;	db 32, MESSMASH, BERSERK_GENE
+;	db 32, MESSMASH, BERSERK_GENE
 ;	db 32, YUEFOE, MAGNET
 ;	db -1 ; end
 

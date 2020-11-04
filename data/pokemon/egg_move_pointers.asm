@@ -44,7 +44,7 @@ EggMovePointers::
 	dw EukubEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw ParasEggMoves ; GAC
+	dw MessmashEggMoves ; GAC
 	dw NoEggMoves
 	dw ElephootEggMoves
 	dw NoEggMoves
@@ -88,7 +88,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw DumbloonEggMoves
 	dw NoEggMoves
-	dw ShellderEggMoves
+	dw BambabyEggMoves
 	dw NoEggMoves
 	dw FluffruitEggMoves
 	dw NoEggMoves

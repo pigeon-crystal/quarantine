@@ -1,6 +1,6 @@
 	db RESPECTRE ; 063
 
-	db  79,  80,  110,  22,  66,  110
+	db  80,  77,  110,  33,  66,  110
 	;   hp   atk  def  spd   sat  sdf
 
 	db GHOST, ROCK ; type

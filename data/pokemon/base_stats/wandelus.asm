@@ -1,6 +1,6 @@
 	db WANDELUS ; 
 
-	db  41,  41,  35,  80,  55,  49
+	db  41,  40,  35,  80,  55,  49
 	;   hp   atk  def  spd   sat  sdf
 
 	db FLYING, FLYING ; type

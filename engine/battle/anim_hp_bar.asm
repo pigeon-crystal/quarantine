@@ -368,7 +368,7 @@ ShortHPBar_CalcPixelFrame:
 	call AddNTimes
 
 	ld b, 0
-
+	
 .loop
 	ld a, l
 	sub HP_BAR_LENGTH_PX

@@ -1,6 +1,6 @@
 	db SNOKAGE ; 
 
-	db  86, 110,  80, 115,  129,  80
+	db  84, 106,  83, 115,  129,  83
 	;   hp  atk  def  spd  sat  sdf
 
 	db ICE, FIGHTING ; type

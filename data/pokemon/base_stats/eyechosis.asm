@@ -1,6 +1,6 @@
 	db EYECHOSIS ; 065
 
-	db  48,  111,  48, 105, 101,  77
+	db  48,  100,  49, 105, 111,  77
 	;   hp  atk  def  spd  sat  sdf
 
 	db PSYCHIC_TYPE, FIGHTING ; type

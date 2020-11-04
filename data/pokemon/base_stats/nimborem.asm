@@ -1,6 +1,6 @@
 	db NIMBOREM ; 
 
-	db  55,  55,  46,  103,  78,  69
+	db  55,  50,  46,  103,  78,  69
 	;   hp   atk  def  spd   sat  sdf
 
 	db FLYING, ELECTRIC ; type

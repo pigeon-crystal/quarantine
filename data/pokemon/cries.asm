@@ -50,8 +50,8 @@ PokemonCries::
 	mon_cry CRY_ODDISH,      221,  129 ; EUKUB
 	mon_cry CRY_ODDISH,      170,  192 ; KOAGAN
 	mon_cry CRY_VILEPLUME,    34,  383 ; POCALYPTUS
-	mon_cry CRY_PARAS,        32,  352 ; PARAS
-	mon_cry CRY_PARAS,        66,  383 ; PARASECT
+	mon_cry CRY_PARAS,        32,  352 ; MESSMASH
+	mon_cry CRY_PARAS,        66,  383 ; BLASPHERMY
 	mon_cry CRY_VENONAT,      68,  192 ; ELEPHOOT
 	mon_cry CRY_VENONAT,      41,  256 ; PRIPYDERM
 	mon_cry CRY_CLEFFA,       14,  229 ; MUMINI
@@ -94,8 +94,8 @@ PokemonCries::
 	mon_cry CRY_TOTODILE,    100,  200 ; JADDICE
 	mon_cry CRY_GRIMER,      787,  256 ; DUMBLOON
 	mon_cry CRY_CYNDAQUIL,   999,  383 ; ZEPPLIUM
-	mon_cry CRY_FEAROW,        0,  256 ; SHELLDER
-	mon_cry CRY_FEAROW,      111,  352 ; CLOYSTER
+	mon_cry CRY_FEAROW,        0,  256 ; BAMBABY
+	mon_cry CRY_FEAROW,      111,  352 ; PIPENDA
 	mon_cry CRY_METAPOD,       0,  256 ; FLUFFRUIT
 	mon_cry CRY_METAPOD,      48,  192 ; SCRUFFRUIT
 	mon_cry CRY_MUK,           0,  383 ; PITAYRANT

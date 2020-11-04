@@ -1,6 +1,6 @@
 	db PURRDLE ; 063
 
-	db  80,  94,  75,  73, 49,  69
+	db  82,  94,  75,  73, 49,  69
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type

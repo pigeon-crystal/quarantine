@@ -1,10 +1,10 @@
 	db CANTOGETHA ; 142
 
-	db  76, 129,  90, 72,  63,  90
+	db  76, 125,  90, 73,  63,  90
 	;   hp  atk  def  spd  sat  sdf
 
 	db STEEL, FIGHTING ; type
-	db 30 ; catch rate
+	db 33 ; catch rate
 	db 209 ; base exp
 	db METAL_COAT, METAL_COAT ; items
 	db GENDER_UNKNOWN ; gender ratio

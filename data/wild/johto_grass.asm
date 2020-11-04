@@ -1180,8 +1180,8 @@ JohtoGrassWildMons:
 	db 48, SCORPEROR
 	db 48, NIMBOCETUS
 	db 47, SMOTHERENE
-	db 46, PARASECT
-	db 48, PARASECT
+	db 46, BLASPHERMY
+	db 48, BLASPHERMY
 	db 15, CIGERILLAR
 	db 20, FURSA
 	db 21, SCAULTER
@@ -1189,8 +1189,8 @@ JohtoGrassWildMons:
 	db 48, SCORPEROR
 	db 48, NIMBOCETUS
 	db 47, SMOTHERENE
-	db 46, PARASECT
-	db 48, PARASECT
+	db 46, BLASPHERMY
+	db 48, BLASPHERMY
 	db 15, FURSA
 	db 20, SCAULTER
 	db 21, CIGERILLAR
@@ -1198,8 +1198,8 @@ JohtoGrassWildMons:
 	db 48, SCORPEROR
 	db 48, EXOTUNITY
 	db 46, SCORPEROR
-	db 46, PARASECT
-	db 48, PARASECT
+	db 46, BLASPHERMY
+	db 48, BLASPHERMY
 	db 45, SCAULTER
 	db 45, CIGERILLAR
 	db 21, FURSA
@@ -1241,28 +1241,28 @@ JohtoGrassWildMons:
 	db 46, SCORPEROR
 	db 50, SCORPEROR
 	db 46, TODESCOOL
-	db 48, PARASECT
+	db 48, BLASPHERMY
 	db 50, TIDO
-	db 52, PARASECT
-	db 55, PARASECT
+	db 52, BLASPHERMY
+	db 55, BLASPHERMY
 	; day
 	db 48, SCORPEROR
 	db 46, SCORPEROR
 	db 50, SCORPEROR
-	db 46, PARASECT
-	db 48, PARASECT
+	db 46, BLASPHERMY
+	db 48, BLASPHERMY
 	db 50, TIDO
-	db 52, PARASECT
-	db 55, PARASECT
+	db 52, BLASPHERMY
+	db 55, BLASPHERMY
 	; nite
 	db 45, MAULZER
 	db 48, SCORPEROR
 	db 50, SCORPEROR
-	db 46, PARASECT
-	db 48, PARASECT
+	db 46, BLASPHERMY
+	db 48, BLASPHERMY
 	db 50, TIDO
-	db 52, PARASECT
-	db 55, PARASECT
+	db 52, BLASPHERMY
+	db 55, BLASPHERMY
 
 	map_id DARK_CAVE_VIOLET_ENTRANCE ;done
 	db 5 percent, 5 percent, 5 percent ; encounter rates: morn/day/nite
@@ -1719,8 +1719,8 @@ JohtoGrassWildMons:
 	; morn
 	db 15, HOATOXIC
 	db 16, HOATOXIC
-	db 16, PARAS		; CAG
-	db 15, PARAS		; CAG
+	db 16, MESSMASH		; CAG
+	db 15, MESSMASH		; CAG
 	db 17, ELEPHOOT
 	db 17, PLANTENNA
 	db 17, ELEPHOOT
@@ -1728,8 +1728,8 @@ JohtoGrassWildMons:
 	; day
 	db 15, HOATOXIC
 	db 16, HOATOXIC
-	db 16, PARAS		; CAG
-	db 15, PARAS		; CAG
+	db 16, MESSMASH		; CAG
+	db 15, MESSMASH		; CAG
 	db 17, ELEPHOOT
 	db 17, PLANTENNA
 	db 17, ELEPHOOT
@@ -1737,8 +1737,8 @@ JohtoGrassWildMons:
 	; nite
 	db 15, HOATOXIC
 	db 16, HOATOXIC
-	db 16, PARAS		; CAG
-	db 15, PARAS		; CAG
+	db 16, MESSMASH		; CAG
+	db 15, MESSMASH		; CAG
 	db 17, ELEPHOOT
 	db 17, WENDIGAUNT
 	db 17, WENDIGAUNT
@@ -1749,7 +1749,7 @@ JohtoGrassWildMons:
 	; morn
 	db 23, ANTPYRE
 	db 22, ORGNOME
-	db 22, PARAS		; CAG 
+	db 22, MESSMASH		; CAG 
 	db 24, ARASBESTOS
 	db 24, PURRAATZLE
 	db 26, ESPEON 		; Stand-in for llama
@@ -1758,7 +1758,7 @@ JohtoGrassWildMons:
 	; day
 	db 23, ANTPYRE
 	db 22, ORGNOME
-	db 22, PARAS		; CAG 
+	db 22, MESSMASH		; CAG 
 	db 24, ARASBESTOS
 	db 24, PURRAATZLE
 	db 26, VOLTORB 		; Stand-in for llama
@@ -1767,7 +1767,7 @@ JohtoGrassWildMons:
 	; nite
 	db 23, ANTPYRE
 	db 22, ORGNOME
-	db 22, PARAS		; CAG 
+	db 22, MESSMASH		; CAG 
 	db 24, ARASBESTOS
 	db 24, PURRAATZLE
 	db 26, ESPEON 		; Stand-in for ice ghost 1

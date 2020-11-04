@@ -1,6 +1,6 @@
 	db VAZZINATE ; 011
 
-	db  65,  100,  61,  95,  95,  72
+	db  65,  99,  61,  96,  95,  72
 	;   hp  atk   def  spd  sat  sdf
 
 	db BUG, GHOST ; type

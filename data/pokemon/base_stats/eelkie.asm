@@ -1,6 +1,6 @@
 	db EELKIE ; 063
 
-	db  91,  51,  61,  25, 51,  61
+	db  91,  51,  61,  26, 51,  61
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, GHOST ; type

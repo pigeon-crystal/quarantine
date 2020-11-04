@@ -1,6 +1,6 @@
 	db MOTHOMEN ; 142
 
-	db  56, 102,  55, 120,  102,  90
+	db  57, 100,  55, 120,  100,  94
 	;   hp  atk  def  spd  sat  sdf
 
 	db DARK, BUG ; type

@@ -3,8 +3,8 @@
 
 	db   "This #MON grows"
 	next "sharp needles from"
-	next "eating crystals. The"
+	next "eating crystals."
 
-	page "needles' venom"
+	page "The needles' venom"
 	next "causes violent"
 	next "skin irritation.@"

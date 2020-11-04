@@ -4,7 +4,7 @@ SpriteMons:
 	db DOLMITE
 	db HAPPIG
 	db HOATOT
-	db SHELLDER
+	db BAMBABY
 	db EUKUB
 	db PITAYRANT
 	db STINPEON
@@ -23,7 +23,7 @@ SpriteMons:
 	db HEXAHED
 	db DUMBLOON
 	db WYRMOMETER
-	db PARAS
+	db MESSMASH
 	db TENTACOOL
 	db TAUROS
 	db UPWHALE

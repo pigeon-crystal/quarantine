@@ -45,8 +45,8 @@ PokedexDataPointerTable:
 	dw EukubPokedexEntry
 	dw KoaganPokedexEntry
 	dw PocalyptusPokedexEntry
-	dw ParasPokedexEntry
-	dw ParasectPokedexEntry
+	dw MessmashPokedexEntry
+	dw BlasphermyPokedexEntry
 	dw ElephootPokedexEntry
 	dw PripydermPokedexEntry
 	dw MuminiPokedexEntry
@@ -89,8 +89,8 @@ PokedexDataPointerTable:
 	dw JaddicePokedexEntry
 	dw DumbloonPokedexEntry
 	dw ZeppliumPokedexEntry
-	dw ShellderPokedexEntry
-	dw CloysterPokedexEntry
+	dw BambabyPokedexEntry
+	dw PipendaPokedexEntry
 	dw FluffruitPokedexEntry
 	dw ScruffruitPokedexEntry
 	dw PitayrantPokedexEntry

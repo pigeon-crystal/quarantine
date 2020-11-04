@@ -32,7 +32,7 @@ AlphabeticalPokedexOrder:
 	db CIGERILLAR
 	db NIMBOREM
 	db CLIBBLE
-	db CLOYSTER
+	db PIPENDA
 	db COCACOBRA
 	db BAAFOMET
 	db CREMIGO
@@ -152,8 +152,8 @@ AlphabeticalPokedexOrder:
 	db OBELITH
 	db ORGNOME
 	db OSCURASA
-	db PARAS
-	db PARASECT
+	db MESSMASH
+	db BLASPHERMY
 	db PEACOLDER
 	db PEAUTY
 	db PEEKEYE
@@ -194,7 +194,7 @@ AlphabeticalPokedexOrder:
 	db BOWLIDE
 	db SHABBYCAT
 	db SHAMSEL
-	db SHELLDER
+	db BAMBABY
 	db SHUCKLE
 	db SIDFICIOUS
 	db SNOSEBLEED

@@ -38,11 +38,11 @@ TreeMonSet_Canyon:  ; TODO add panda
 	db 15, EUKUB,    20
 	db 15, EUKUB,    20
 	db 10, QWAIL,      20
-	db  5, SHELLDER,      20	; panda standin
-	db  5, SHELLDER,     20		; panda standin
+	db  5, BAMBABY,      20	; panda standin
+	db  5, BAMBABY,     20		; panda standin
 	db -1
 ; rare
-	db 50, SHELLDER, 21			; panda standin
+	db 50, BAMBABY, 21			; panda standin
 	db 15, WYRMOMETER, 21
 	db 15, WYRMOMETER, 21
 	db 10, WYRMOMETER, 21

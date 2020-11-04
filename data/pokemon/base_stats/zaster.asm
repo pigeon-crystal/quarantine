@@ -1,6 +1,6 @@
 	db ZASTER ; 145
 
-	db  59,  59,  69, 14, 69,  69
+	db  61,  60,  69, 14, 69,  69
 	;   hp  atk  def  spd  sat  sdf
 
 	db STEEL, GHOST ; type

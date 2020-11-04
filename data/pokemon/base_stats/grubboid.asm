@@ -1,6 +1,6 @@
 	db GRUBBOID ; 
 
-	db   107, 103, 107,  46,  46,  106
+	db   107, 100, 107,  46,  46,  104
 	;   hp   atk   def   spd  sat  sdf
 
 	db BUG, DARK ; type

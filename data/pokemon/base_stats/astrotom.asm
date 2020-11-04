@@ -1,6 +1,6 @@
 	db ASTROTOM ; 063
 
-	db  51,  105,  71,  103,  71,  114
+	db  51,  100,  71,  103,  71,  115
 	;   hp   atk  def  spd   sat  sdf
 
 	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type

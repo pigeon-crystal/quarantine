@@ -1,6 +1,6 @@
 	db THERAZOR ; 143
 
-	db 103, 155,  111,  3,  45, 111
+	db 103, 147,  111,  3,  50, 111
 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, NORMAL ; type

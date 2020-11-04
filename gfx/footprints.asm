@@ -105,8 +105,8 @@ INCBIN "gfx/footprints/scorperor.1bpp",     footprint_top
 INCBIN "gfx/footprints/eukub.1bpp",     footprint_top
 INCBIN "gfx/footprints/koagan.1bpp",      footprint_top
 INCBIN "gfx/footprints/pocalyptus.1bpp",  footprint_top
-INCBIN "gfx/footprints/paras.1bpp",      footprint_top
-INCBIN "gfx/footprints/parasect.1bpp",   footprint_top
+INCBIN "gfx/footprints/messmash.1bpp",      footprint_top
+INCBIN "gfx/footprints/blasphermy.1bpp",   footprint_top
 INCBIN "gfx/footprints/elephoot.1bpp",    footprint_top
 ; 041-048 bottom halves
 INCBIN "gfx/footprints/stinpeon.1bpp",      footprint_bottom
@@ -114,8 +114,8 @@ INCBIN "gfx/footprints/scorperor.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/eukub.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/koagan.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/pocalyptus.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/paras.1bpp",      footprint_bottom
-INCBIN "gfx/footprints/parasect.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/messmash.1bpp",      footprint_bottom
+INCBIN "gfx/footprints/blasphermy.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/elephoot.1bpp",    footprint_bottom
 ; 049-056 top halves
 INCBIN "gfx/footprints/pripyderm.1bpp",   footprint_top
@@ -209,8 +209,8 @@ INCBIN "gfx/footprints/jaddice.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/dumbloon.1bpp",     footprint_bottom
 ; 089-096 top halves
 INCBIN "gfx/footprints/zepplium.1bpp",        footprint_top
-INCBIN "gfx/footprints/shellder.1bpp",   footprint_top
-INCBIN "gfx/footprints/cloyster.1bpp",   footprint_top
+INCBIN "gfx/footprints/bambaby.1bpp",   footprint_top
+INCBIN "gfx/footprints/pipenda.1bpp",   footprint_top
 INCBIN "gfx/footprints/fluffruit.1bpp",     footprint_top
 INCBIN "gfx/footprints/scruffruit.1bpp",    footprint_top
 INCBIN "gfx/footprints/pitayrant.1bpp",     footprint_top
@@ -218,8 +218,8 @@ INCBIN "gfx/footprints/moraday.1bpp",       footprint_top
 INCBIN "gfx/footprints/eelkie.1bpp",    footprint_top
 ; 089-096 bottom halves
 INCBIN "gfx/footprints/zepplium.1bpp",        footprint_bottom
-INCBIN "gfx/footprints/shellder.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/cloyster.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/bambaby.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/pipenda.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/fluffruit.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/scruffruit.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/pitayrant.1bpp",     footprint_bottom

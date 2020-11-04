@@ -592,13 +592,13 @@ PocalyptusEvosAttacks:
 	db 56, MORNING_SUN
 	db 0 ; no more level-up moves
 
-ParasEvosAttacks:
-	db EVOLVE_LEVEL, 24, PARASECT
+MessmashEvosAttacks:
+	db EVOLVE_LEVEL, 24, BLASPHERMY
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 0 ; no more level-up moves
 
-ParasectEvosAttacks:
+BlasphermyEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 0 ; no more level-up moves
@@ -1245,13 +1245,13 @@ ZeppliumEvosAttacks:
 	db 50, THRASH
 	db 0 ; no more level-up moves
 
-ShellderEvosAttacks:
-	db EVOLVE_ITEM, WATER_STONE, CLOYSTER
+BambabyEvosAttacks:
+	db EVOLVE_ITEM, WATER_STONE, PIPENDA
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves
 
-CloysterEvosAttacks:
+PipendaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WITHDRAW
 	db 0 ; no more level-up moves
@@ -3604,7 +3604,24 @@ HoOhEvosAttacks:
 
 TentaquilEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, PUKE_BLOOD
+	db 1, POUND
+	db 1, LEER
+	db 5, FLAIL
+	db 7, ROCK_THROW
+	db 12, PUKE_BLOOD
+	db 15, SURF
+	db 19, SKETCH
+	db 25, GIGA_DRAIN
+	db 27, POUND
+	db 30, SCRATCH
+	db 31, FURY_SWIPES
+	db 34, FALSE_SWIPE
+	db 39, EARTHQUAKE
+	db 46, FLY
+	db 50, WATERFALL
+	db 55, GRIMNEEDLE
+	db 75, FISSURE
+;	db 99, STRUGGLE	
 	db 0 ; no more level-up moves
 	
 PilfoardEvosAttacks:

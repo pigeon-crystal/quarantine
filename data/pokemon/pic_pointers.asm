@@ -92,10 +92,10 @@ PokemonPicPointers::
 	dba_pic KoaganBackpic
 	dba_pic PocalyptusFrontpic
 	dba_pic PocalyptusBackpic
-	dba_pic ParasFrontpic
-	dba_pic ParasBackpic
-	dba_pic ParasectFrontpic
-	dba_pic ParasectBackpic
+	dba_pic MessmashFrontpic
+	dba_pic MessmashBackpic
+	dba_pic BlasphermyFrontpic
+	dba_pic BlasphermyBackpic
 	dba_pic ElephootFrontpic
 	dba_pic ElephootBackpic
 	dba_pic PripydermFrontpic
@@ -180,10 +180,10 @@ PokemonPicPointers::
 	dba_pic DumbloonBackpic
 	dba_pic ZeppliumFrontpic
 	dba_pic ZeppliumBackpic
-	dba_pic ShellderFrontpic
-	dba_pic ShellderBackpic
-	dba_pic CloysterFrontpic
-	dba_pic CloysterBackpic
+	dba_pic BambabyFrontpic
+	dba_pic BambabyBackpic
+	dba_pic PipendaFrontpic
+	dba_pic PipendaBackpic
 	dba_pic FluffruitFrontpic
 	dba_pic FluffruitBackpic
 	dba_pic ScruffruitFrontpic

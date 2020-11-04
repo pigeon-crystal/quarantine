@@ -1,6 +1,6 @@
 	db GRIMPACT ; 145
 
-	db  81,  81,  108, 28, 108,  108
+	db  81,  80,  108, 28, 108,  108
 	;   hp  atk  def  spd  sat  sdf
 
 	db STEEL, GHOST ; type

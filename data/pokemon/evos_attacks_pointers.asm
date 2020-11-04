@@ -46,8 +46,8 @@ EvosAttacksPointers::
 	dw EukubEvosAttacks
 	dw KoaganEvosAttacks
 	dw PocalyptusEvosAttacks
-	dw ParasEvosAttacks
-	dw ParasectEvosAttacks
+	dw MessmashEvosAttacks
+	dw BlasphermyEvosAttacks
 	dw ElephootEvosAttacks
 	dw PripydermEvosAttacks
 	dw MuminiEvosAttacks
@@ -90,8 +90,8 @@ EvosAttacksPointers::
 	dw JaddiceEvosAttacks
 	dw DumbloonEvosAttacks
 	dw ZeppliumEvosAttacks
-	dw ShellderEvosAttacks
-	dw CloysterEvosAttacks
+	dw BambabyEvosAttacks
+	dw PipendaEvosAttacks
 	dw FluffruitEvosAttacks
 	dw ScruffruitEvosAttacks
 	dw PitayrantEvosAttacks

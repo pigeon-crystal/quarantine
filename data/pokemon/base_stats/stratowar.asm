@@ -1,6 +1,6 @@
 	db STRATOWAR ; 
 
-	db  77,  77,  57,  126,  102,  81
+	db  77,  70,  57,  126,  102,  81
 	;   hp   atk  def  spd   sat  sdf
 
 	db FLYING, ELECTRIC ; type

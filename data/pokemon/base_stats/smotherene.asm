@@ -1,6 +1,6 @@
 	db SMOTHERENE ; 142
 
-	db  82, 117,  61, 134,  61,  85
+	db  83, 111,  64, 134,  64,  85
 	;   hp  atk  def  spd  sat  sdf
 
 	db DARK, FAIRY ; type

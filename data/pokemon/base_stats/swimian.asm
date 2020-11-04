@@ -1,6 +1,6 @@
 	db SWIMIAN ; 
 
-	db  75,  110,  75,  75,  80,  110
+	db  77,  105,  77,  77,  80,  110
 	;   hp   atk  def  spd   sat  sdf
 
 	db WATER, WATER ; type

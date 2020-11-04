@@ -1,6 +1,6 @@
 	db BEHEMOTHRA ; 190
 
-	db  106,  55,  72,  72,  124,  84
+	db  106,  55,  72,  72,  124,  85
 	;   hp  atk  def  spd  sat  sdf
 
 	db ICE, FAIRY ; type

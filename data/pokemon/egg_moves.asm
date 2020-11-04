@@ -144,7 +144,7 @@ EukubEggMoves:
 	db SEISMIC_TOSS
 	db -1 ; end
 
-ParasEggMoves:
+MessmashEggMoves:
 	db FALSE_SWIPE
 	db SCREECH
 	db COUNTER
@@ -281,7 +281,7 @@ DumbloonEggMoves:
 	db LICK
 	db -1 ; end
 
-ShellderEggMoves:
+BambabyEggMoves:
 	db BUBBLEBEAM
 	db DOUBLE_EDGE
 	db BARRIER
