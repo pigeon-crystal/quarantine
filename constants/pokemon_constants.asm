@@ -258,8 +258,8 @@ JOHTO_POKEMON EQU const_value
 	const TYROGUE    ; ec direwolf
 	const HITMONTOP  ; ed cat
 	const SMOOCHUM   ; ee mosquito
-	const ELEKID     ; ef buzzling
-	const MAGBY      ; f0 cane kong
+	const ELEKID     ; ef cured buzzling
+	const MAGBY      ; f0 kaikong
 	const DRASSAL    ; f1
 	const ODDITULLY  ; f2
 	const RAIKOU     ; f3 vortex
@@ -270,7 +270,7 @@ JOHTO_POKEMON EQU const_value
 	const SNOKAGE    ; f8
 	const AVATRICE   ; f9
 	const HO_OH      ; fa donchan
-	const TENTAQUIL     ; fb tentaquil
+	const TENTAQUIL  ; fb 
 	const PILFOARD	 ; fc
 NUM_POKEMON EQU const_value - 1
 	const EGG        ; fd

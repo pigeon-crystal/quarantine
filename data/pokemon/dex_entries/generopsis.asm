@@ -2,9 +2,9 @@
 	dw 211, 427 ; height, weight
 
 	db   "GENEROPSIS command"
-	next "its troops with no"
-	next "regards for casual-"
+	next "its troops with"
+	next "recklessness,"
 
-	page "ties, as a fallen"
+	page "as each fallen"
 	next "soldier hides a"
 	next "volatile surprise!@"

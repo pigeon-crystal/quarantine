@@ -3,8 +3,8 @@
 
 	db   "A hungry worm that"
 	next "decieves unwary"
-	next "explorers into dead"
+	next "explorers into"
 
-	page "end crevasses"
+	page "empty crevasses"
 	next "from which they"
 	next "may not emerge.@"

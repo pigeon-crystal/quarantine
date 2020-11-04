@@ -5,6 +5,6 @@
 	next "island chains in"
 	next "southern seas."
 
-	page "The intense heat"
-	next "of KRAKENTOA's lava"
-	next "disrupts currents.@"
+	page "The harsh heat of"
+	next "its lava disrupts"
+	next "ocean currents.@"

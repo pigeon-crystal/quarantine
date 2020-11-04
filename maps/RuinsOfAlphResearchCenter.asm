@@ -173,8 +173,9 @@ RuinsOfAlphResearchCenterPrinter:
 	ifequal 4, .Scale
 	ifequal 5, .Page1
 	sjump FossilMachineCancelScript
-;here we fucking go, switch the mons as they get added!!!
-.Horn
+;here we fucking go, switch the mons as they get added!!! 
+
+.Horn ; Belloceros
 	checkitem HORN_FOSSIL
 	iffalse .NoFossil
 	scall FossilReviveConfirmScript
@@ -183,13 +184,13 @@ RuinsOfAlphResearchCenterPrinter:
 	waitsfx
 	playsound SFX_TRANSACTION
 	scall FossilMachineItsAMonScript
-	setval MISSINGNO
+	setval BELLOCEROS
 	special GameCornerPrizeMonCheckDex
 	givepoke BELLOCEROS, 10
 	takeitem HORN_FOSSIL
 	sjump FossilMachineEndTransaction
 	
-.Ivory
+.Ivory ; Mammothra 
 	checkitem OLD_IVORY
 	iffalse .NoFossil
 	scall FossilReviveConfirmScript
@@ -198,13 +199,13 @@ RuinsOfAlphResearchCenterPrinter:
 	waitsfx
 	playsound SFX_TRANSACTION
 	scall FossilMachineItsAMonScript
-	setval MISSINGNO
+	setval MAMMOTHRA
 	special GameCornerPrizeMonCheckDex
-	givepoke MISSINGNO, 10
+	givepoke MAMMOTHRA, 10
 	takeitem OLD_IVORY
 	sjump FossilMachineEndTransaction
 	
-.Scythe
+.Scythe ; Therazor
 	checkitem SCYTHEFOSSIL
 	iffalse .NoFossil
 	scall FossilReviveConfirmScript
@@ -213,9 +214,9 @@ RuinsOfAlphResearchCenterPrinter:
 	waitsfx
 	playsound SFX_TRANSACTION
 	scall FossilMachineItsAMonScript
-	setval MISSINGNO
+	setval THERAZOR
 	special GameCornerPrizeMonCheckDex
-	givepoke MISSINGNO, 10
+	givepoke THERAZOR, 10
 	takeitem SCYTHEFOSSIL
 	sjump FossilMachineEndTransaction
 	
@@ -234,7 +235,7 @@ RuinsOfAlphResearchCenterPrinter:
 	takeitem ODD_AMBER
 	sjump FossilMachineEndTransaction
 	
-.Bone
+.Bone ; placeholder for wolf
 	checkitem MYSTERY_BONE
 	iffalse .NoFossil
 	scall FossilReviveConfirmScript
@@ -243,9 +244,9 @@ RuinsOfAlphResearchCenterPrinter:
 	waitsfx
 	playsound SFX_TRANSACTION
 	scall FossilMachineItsAMonScript
-	setval MISSINGNO
+	setval TYROGUE
 	special GameCornerPrizeMonCheckDex
-	givepoke MISSINGNO, 10
+	givepoke TYROGUE, 10
 	takeitem MYSTERY_BONE
 	sjump FossilMachineEndTransaction
 	
@@ -264,7 +265,7 @@ RuinsOfAlphResearchCenterPrinter:
 	takeitem BEAK_FOSSIL
 	sjump FossilMachineEndTransaction
 	
-.Fang
+.Fang ; placeholder for cat
 	checkitem ANCIENT_FANG
 	iffalse .NoFossil
 	scall FossilReviveConfirmScript
@@ -273,9 +274,9 @@ RuinsOfAlphResearchCenterPrinter:
 	waitsfx
 	playsound SFX_TRANSACTION
 	scall FossilMachineItsAMonScript
-	setval MISSINGNO
+	setval HITMONTOP
 	special GameCornerPrizeMonCheckDex
-	givepoke MISSINGNO, 10
+	givepoke HITMONTOP, 10
 	takeitem ANCIENT_FANG
 	sjump FossilMachineEndTransaction
 	

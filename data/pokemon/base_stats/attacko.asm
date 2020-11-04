@@ -1,6 +1,6 @@
 	db  ATTACKO ; 206
 
-	db 71,  75,  71,  99,  61,  71
+	db 71,  61,  71,  99,  75,  71
 	;   hp  atk  def  spd  sat  sdf
 
 	db FAIRY, FAIRY ; type
