@@ -6405,7 +6405,7 @@ LoadEnemyMon:
 	call CheckSleepingTreeMon
 	ld a, TREEMON_SLEEP_TURNS
 	jr c, .UpdateStatus
-	; Otherwise, if we're in the Lake of Rage and the Rocket signal
+; Otherwise, if we're in the Lake of Rage and the Rocket signal
 ; is active, the wild Pokémon will start the battle poisoned
     call CheckRocketSignalEffect
     ld a, 1 << PSN

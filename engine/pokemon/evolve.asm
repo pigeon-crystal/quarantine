@@ -332,8 +332,8 @@ EvolveAfterBattle_MasterLoop::
 	call PrintTextboxText
 	farcall StubbedTrainerRankings_MonsEvolved
 
-	ld de, MUSIC_NONE
-	call PlayMusic
+;	ld de, MUSIC_NONE
+;	call PlayMusic
 	ld de, SFX_CAUGHT_MON
 	call PlaySFX
 	call WaitSFX
@@ -380,15 +380,23 @@ EvolveAfterBattle_MasterLoop::
 	ld bc, PARTYMON_STRUCT_LENGTH
 	call CopyBytes
 
+	ld a, [wTempSpecies]
+	dec a
+	call CheckCaughtMon
+	jr nz, .no_dex
+	ld a, [wTempSpecies]
+	dec a
+	call SetSeenAndCaughtMon
+	farcall NewPokedexEntry
+
+.no_dex
 	ld a, [wCurSpecies]
 	ld [wTempSpecies], a
 	xor a
 	ld [wMonType], a
 	call LearnEvolutionMove
 	call LearnLevelMoves
-	ld a, [wTempSpecies]
-	dec a
-	call SetSeenAndCaughtMon
+	
 
 	ld a, [wTempSpecies]
 	cp UNOWN
@@ -777,3 +785,13 @@ GetPreEvolution::
 	ld [wCurPartySpecies], a
 	scf
 	ret
+	
+ShowDexEntryAfterEvo: ; TODO, shit is broken man...
+	ld a, [wTempSpecies]
+	call CheckCaughtMon
+	ret nz
+	ld a, [wTempSpecies]
+	dec a
+	call SetSeenAndCaughtMon
+	farcall NewPokedexEntry
+	ret 
