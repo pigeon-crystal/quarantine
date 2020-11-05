@@ -1,11 +1,11 @@
 	db "PRIZEFIGHT@"	;species name
-	dw 200, 79			;height/weight
+	dw 201, 89			;height/weight
 	
 	db 	 "A QWAIL that"
 	next "has trained"
-    next "tirelessly. Battles"
+    next "tirelessly."
  
-	page "with utterly un-"
-	next "matched vigor"
+	page "Battles with"
+	next "unrivaled vigor"
 	next "and gumption."
 	

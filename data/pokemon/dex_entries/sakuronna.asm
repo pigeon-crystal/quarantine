@@ -6,5 +6,5 @@
 	next "puppetting it in"
 
 	page "an imitation of"
-	next "human body lang-"
-	next "uage.@"
+	next "human body"
+	next "language.@"

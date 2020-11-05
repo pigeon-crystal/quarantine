@@ -1,4 +1,4 @@
-NewPokedexEntry:
+NewPokedexEntry::
 	ldh a, [hMapAnims]
 	push af
 	xor a

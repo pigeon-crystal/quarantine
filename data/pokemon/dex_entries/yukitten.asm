@@ -1,7 +1,7 @@
 	db "GENIN@" ; species name 43973797 
 	dw 303, 371 ; height, weight
 
-	db   "They create weapons"
+	db   "Creates weapons"
 	next "from compact snow."
 	next "YUKITTEN require"
 

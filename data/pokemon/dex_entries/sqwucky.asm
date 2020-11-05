@@ -1,10 +1,10 @@
 	db "RUBBERDUCK@" ; species name
 	dw 109, 005 ; height, weight
 
-	db   "SQWUCKY drift ac-"
-	next "ross the open seas"
-	next "in flocks of a few"
+	db   "SQWUCKY drift "
+	next "along the open sea"
+	next "in large flocks"
 
-	page "hundred. Their ca-"
-	next "cophonous quack is"
+	page "Their cacophonous"
+	next "quacks can be"
 	next "heard for miles.@"

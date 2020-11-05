@@ -51,12 +51,15 @@ PosterScript:
 	describedecoration DECODESC_POSTER
 
 PlayersHouseRadioScript:
-	givepoke SQUEENIE, 52
-	givepoke MT_NOOT, 54
-	giveitem MASTER_BALL
-	loadwildmon TENTAQUIL, 65
-	loadvar VAR_BATTLETYPE, BATTLETYPE_SHINY
-	startbattle
+	setflag ENGINE_POKEDEX
+	givepoke SANDOLPH, 37
+	givepoke SANDOLPH, 37
+	giveitem RARE_CANDY
+	giveitem IRON
+	giveitem RARE_CANDY
+	giveitem RARE_CANDY
+	giveitem RARE_CANDY
+	giveitem RARE_CANDY
 	end
 	
 ;PlayersHouseRadioScript:

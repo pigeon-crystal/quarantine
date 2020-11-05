@@ -1,8 +1,8 @@
 	db "BURROWING@" ; species name
 	dw 1409, 3236 ; height, weight
 
-	db   "It gets many nu-"
-	next "trients from the"
+	db   "It gets many "
+	next "nutrients from the"
 	next "dirt it carries."
 
 	page "Often has terri-"

@@ -2,8 +2,8 @@
 	dw 409, 108	    		;height/weight
 	
 	db 	 "A horrid #MON"
-	next "that uses its ovi-"
-    next "positor to"
+	next "that uses its"
+    next "ovipositor to"
  
 	page "possess others."
 	next "Woe befalls those"
