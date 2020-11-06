@@ -1,6 +1,6 @@
 	db SWAZZAGE ; 190
 
-	db  75,  106,  81,  96,  99,  41
+	db  70,  106,  81,  96,  95,  41
 	;   hp  atk  def  spd  sat  sdf
 
 	db GHOST, GHOST ; type

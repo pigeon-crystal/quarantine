@@ -1,6 +1,6 @@
 	db CALARMOURI ; 096
 
-	db  82,  80,  82,  65,  102,  109
+	db  80,  79,  80,  65,  102,  109
 	;   hp  atk  def  spd  sat  sdf
 
 	db STEEL, GROUND ; type

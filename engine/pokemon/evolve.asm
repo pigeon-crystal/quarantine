@@ -388,6 +388,8 @@ EvolveAfterBattle_MasterLoop::
 	dec a
 	call SetSeenAndCaughtMon
 	farcall NewPokedexEntry
+	call ClearTilemap
+	farcall Pokedex_PlaceFrontpicPostEvolution
 
 .no_dex
 	ld a, [wCurSpecies]
@@ -785,13 +787,3 @@ GetPreEvolution::
 	ld [wCurPartySpecies], a
 	scf
 	ret
-	
-ShowDexEntryAfterEvo: ; TODO, shit is broken man...
-	ld a, [wTempSpecies]
-	call CheckCaughtMon
-	ret nz
-	ld a, [wTempSpecies]
-	dec a
-	call SetSeenAndCaughtMon
-	farcall NewPokedexEntry
-	ret 

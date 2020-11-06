@@ -1,6 +1,6 @@
 	db PIPENDA ; 
 
-	db  82, 85,  115, 61,  70,  107
+	db  80, 85,  115, 80,  70,  107
 	;   hp  atk  def  spd  sat  sdf
 
 	db GHOST, GHOST ; type

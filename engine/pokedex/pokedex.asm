@@ -1381,6 +1381,9 @@ Pokedex_FillBackgroundColor2:
 	call ByteFill
 	ret
 
+Pokedex_PlaceFrontpicPostEvolution::
+	hlcoord 7, 2
+	jr Pokedex_PlaceFrontpicAtHL
 Pokedex_PlaceFrontpicTopLeftCorner:
 	hlcoord 1, 1
 Pokedex_PlaceFrontpicAtHL:

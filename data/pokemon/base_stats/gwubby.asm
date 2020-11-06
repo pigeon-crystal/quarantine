@@ -1,11 +1,11 @@
 	db GWUBBY ; 
 
-	db  70, 43,  67,  32,  32,  66
+	db  60, 46,  58,  32,  32,  56
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, BUG ; type
 	db 205 ; catch rate
-	db 55 ; base exp
+	db 49 ; base exp
 	db PNK_APRICORN, MIRACLEBERRY ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

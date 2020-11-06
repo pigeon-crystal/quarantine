@@ -1,10 +1,10 @@
-	db "SOFTSCALE@" ; species name
+	db "FLOAT@" ; species name
 	dw 302, 1232 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "Somehow, WIRIGIBLE"
+	next "can fly using its"
+	next "spines. Despite"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "science's best"
+	next "efforts, we cannot"
+	next "explain this fact.@"

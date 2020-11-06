@@ -1,6 +1,6 @@
 	db ALLSEERAPH ; 063
 
-	db  87,  47,  77,  77, 117,  117
+	db  77,  47,  77,  77, 117,  117
 	;   hp  atk  def  spd  sat  sdf
 
 	db FAIRY, FAIRY ; type

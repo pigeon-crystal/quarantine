@@ -1,10 +1,10 @@
 	db "SOFTSCALE@" ; species name
 	dw 009, 319 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "An ocean herbivore"
+	next "that bit back."
+	next "Its smug smile"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "defies scientists"
+	next "who doubted"
+	next "its existence.@"

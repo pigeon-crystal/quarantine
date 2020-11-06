@@ -1,12 +1,12 @@
 	db HELACTAL ; 142
 
-	db  202, 76,  65, 46,  76,  65
+	db  202, 75,  65, 45,  75,  65
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type
 	db 20 ; catch rate
 	db 202 ; base exp
-	db LEFTOVERS, LEFTOVERS ; items
+	db NO_ITEM, NO_ITEM ; items
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1
 	db 1 ; step cycles to hatch

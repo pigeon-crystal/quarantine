@@ -1,6 +1,6 @@
 	db SAKURONNA ; 142
 
-	db  81, 110,  79, 69,  81,  110
+	db  80, 106,  77, 69,  82,  106
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, PSYCHIC_TYPE ; type

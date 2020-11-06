@@ -1,6 +1,6 @@
 	db IGNAGA ; 190
 
-	db  90,  60,  83,  89,  108,  95
+	db  91,  60,  95,  89,  105,  80
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, NORMAL ; type

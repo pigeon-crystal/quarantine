@@ -1,6 +1,6 @@
 	db SQUEENIE ; 
 
-	db  113,  97,  68,  90,  70,  68
+	db  113,  97,  68,  90,  69,  68
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type

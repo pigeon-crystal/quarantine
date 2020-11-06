@@ -1,10 +1,10 @@
-	db "WARM@" ; species name
-	dw 410, 299 ; height, weight
+	db "WARMTH@" ; species name
+	dw 510, 299 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "Once a fearsome"
+	next "hunter of the"
+	next "mountains, the now"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "domesticated"
+	next "PURRAATZLE"
+	next "loves to cuddle.@"
