@@ -36,7 +36,7 @@ AlphabeticalPokedexOrder:
 	db COCACOBRA
 	db BAAFOMET
 	db CREMIGO
-	db CROBAT
+	db CRUSTAZER
 	db CUTTLE
 	db DELIBIRD
 	db DODRIO
@@ -50,7 +50,7 @@ AlphabeticalPokedexOrder:
 	db DUNEFIN
 	db EELKIE
 	db NOOMSDAY
-	db ELECTRODE
+	db DJAMM
 	db ELEKID
 	db ELEPHOOT
 	db ESPEON
@@ -201,7 +201,7 @@ AlphabeticalPokedexOrder:
 	db SLAATEL
 	db SLOWBRO
 	db MISSTERIA
-	db SMOOCHUM
+	db AMBIONIC
 	db SMOTHERENE
 	db SMUCIOUS
 	db SNEASEL
@@ -218,7 +218,7 @@ AlphabeticalPokedexOrder:
 	db SWAZZAGE
 	db TAUROS
 	db TENDRILL
-	db TENTACOOL
+	db SLISCES
 	db TENTACRUEL
 	db TIDO
 	db TOBACOON

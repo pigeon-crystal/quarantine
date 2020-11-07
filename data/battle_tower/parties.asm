@@ -1335,7 +1335,7 @@ BattleTowerMons3:
 	bigdw 80 ; SDef
 	db "KAIRIKI-@@@"
 
-	db CROBAT
+	db CRUSTAZER
 	db GOLD_BERRY
 	db ATTRACT, CONFUSE_RAY, TOXIC, WING_ATTACK
 	dw 0 ; OT ID
@@ -1413,7 +1413,7 @@ BattleTowerMons3:
 	bigdw 72 ; SDef
 	db "GARAGARA@@@"
 
-	db ELECTRODE
+	db DJAMM
 	db BRIGHTPOWDER
 	db LIGHT_SCREEN, THUNDERBOLT, PROTECT, THUNDER
 	dw 0 ; OT ID
@@ -2485,7 +2485,7 @@ BattleTowerMons5:
 	bigdw 116 ; SDef
 	db "DAGUTORIO@@"
 
-	db ELECTRODE
+	db DJAMM
 	db MIRACLEBERRY
 	db THUNDERBOLT, EXPLOSION, MIRROR_COAT, REST
 	dw 0 ; OT ID
@@ -2537,7 +2537,7 @@ BattleTowerMons5:
 	bigdw 119 ; SDef
 	db "PUTERA@@@@@"
 
-	db CROBAT
+	db CRUSTAZER
 	db LEFTOVERS
 	db CONFUSE_RAY, ATTRACT, HYPER_BEAM, TOXIC
 	dw 0 ; OT ID
@@ -4262,7 +4262,7 @@ BattleTowerMons8:
 	bigdw 189 ; SDef
 	db "PUTERA@@@@@"
 
-	db ELECTRODE
+	db DJAMM
 	db KINGS_ROCK
 	db THUNDERBOLT, EXPLOSION, MIRROR_COAT, TOXIC
 	dw 0 ; OT ID
@@ -4499,7 +4499,7 @@ BattleTowerMons9:
 	bigdw 162 ; SDef
 	db "PARUSIeN@@@"
 
-	db CROBAT
+	db CRUSTAZER
 	db GOLD_BERRY
 	db WING_ATTACK, HAZE, HYPER_BEAM, GIGA_DRAIN
 	dw 0 ; OT ID
@@ -5126,7 +5126,7 @@ BattleTowerMons10:
 	bigdw 263 ; SDef
 	db "RIZA-DON@@@"
 
-	db ELECTRODE
+	db DJAMM
 	db BRIGHTPOWDER
 	db THUNDER_WAVE, THUNDERBOLT, EXPLOSION, MIRROR_COAT
 	dw 0 ; OT ID

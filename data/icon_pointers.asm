@@ -97,6 +97,11 @@ IconPointers:
 	dw EyechosisIcon
 	dw TendrillIcon
 	dw CalarmouriIcon
+	dw TentaquilIcon
+	dw DjammIcon
+	dw MurdermisIcon
+	dw AndromegaIcon	
+	dw CrustazerIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon

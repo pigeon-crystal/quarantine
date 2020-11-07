@@ -71,7 +71,7 @@ PokedexDataPointerTable:
 	dw LawniePokedexEntry
 	dw OrgnomePokedexEntry
 	dw GnomercyPokedexEntry
-	dw TentacoolPokedexEntry
+	dw SliscesPokedexEntry
 	dw TentacruelPokedexEntry
 	dw DolmitePokedexEntry
 	dw DolmesaPokedexEntry
@@ -100,7 +100,7 @@ PokedexDataPointerTable:
 	dw LanatunPokedexEntry
 	dw PepofferPokedexEntry
 	dw VoltorbPokedexEntry
-	dw ElectrodePokedexEntry
+	dw DjammPokedexEntry
 	dw CantalonePokedexEntry
 	dw CantogethaPokedexEntry
 	dw CocacobraPokedexEntry
@@ -168,7 +168,7 @@ PokedexDataPointerTable:
 	dw WormachoPokedexEntry
 	dw GwubbyPokedexEntry
 	dw GrubboidPokedexEntry
-	dw CrobatPokedexEntry
+	dw CrustazerPokedexEntry
 	dw StranglurePokedexEntry
 	dw ShamselPokedexEntry
 	dw WandelusPokedexEntry
@@ -237,7 +237,7 @@ PokedexDataPointerTable:
 	dw EyechosisPokedexEntry
 	dw TyroguePokedexEntry
 	dw HitmontopPokedexEntry
-	dw SmoochumPokedexEntry
+	dw AmbionicPokedexEntry
 	dw ElekidPokedexEntry
 	dw MagbyPokedexEntry
 	dw DrassalPokedexEntry

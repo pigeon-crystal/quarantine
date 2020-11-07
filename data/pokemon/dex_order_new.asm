@@ -39,7 +39,7 @@ NewPokedexOrder:
 	db CAIRNIVORE
 	db STINPEON
 	db SCORPEROR
-	db CROBAT
+	db CRUSTAZER
 	db CUTTLE
 	db TENDRILL
 	db CALARMOURI
@@ -127,7 +127,7 @@ NewPokedexOrder:
 	db MAGNEMITE
 	db MAGNETON
 	db VOLTORB
-	db ELECTRODE
+	db DJAMM
 	db ZASTER
 	db GRIMPACT
 	db VULPIX
@@ -153,7 +153,7 @@ NewPokedexOrder:
 	db TAUROS
 	db DRASSAL
 	db MAGBY
-	db SMOOCHUM
+	db AMBIONIC
 	db CLIBBLE
 	db GIGUARD
 	db GIGERATOR
@@ -163,7 +163,7 @@ NewPokedexOrder:
 	db SQWUCKY
 	db SQUEENIE
 	db PEKOI
-	db TENTACOOL
+	db SLISCES
 	db TENTACRUEL
 	db LANATUN
 	db PEPOFFER

@@ -229,9 +229,9 @@ RuinsOfAlphResearchCenterPrinter:
 	waitsfx
 	playsound SFX_TRANSACTION
 	scall FossilMachineItsAMonScript
-	setval MISSINGNO
+	setval AMBIONIC
 	special GameCornerPrizeMonCheckDex
-	givepoke MISSINGNO, 10
+	givepoke AMBIONIC, 10
 	takeitem ODD_AMBER
 	sjump FossilMachineEndTransaction
 	

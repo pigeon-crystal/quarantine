@@ -64,8 +64,8 @@
 	const EUKUB      ; 2b
 	const KOAGAN     ; 2c
 	const POCALYPTUS ; 2d
-	const MESSMASH   ; 2e GAC
-	const BLASPHERMY   ; 2f CAG
+	const MESSMASH   ; 2e 
+	const BLASPHERMY ; 2f 
 	const ELEPHOOT   ; 30
 	const PRIPYDERM  ; 31
 	const MUMINI     ; 32
@@ -90,14 +90,14 @@
 	const LAWNIE     ; 45
 	const ORGNOME 	 ; 46
 	const GNOMERCY   ; 47
-	const TENTACOOL  ; 48 barberfish
-	const TENTACRUEL ; 49 barberfish
+	const SLISCES    ; 48 
+	const TENTACRUEL ; 49 barberfish2
 	const DOLMITE    ; 4a
 	const DOLMESA    ; 4b
 	const CAIRNIVORE ; 4c
 	const MOPERDOR   ; 4d
 	const MAJESDOR   ; 4e
-	const MISSTERIA  ; 4f missteria
+	const MISSTERIA  ; 4f 
 	const SLOWBRO    ; 50 missteria2
 	const MAGNEMITE  ; 51 missteria3
 	const MAGNETON   ; 52 antelope
@@ -108,8 +108,8 @@
 	const JADDICE    ; 57
 	const DUMBLOON   ; 58
 	const ZEPPLIUM   ; 59
-	const BAMBABY   ; 5a panda
-	const PIPENDA   ; 5b panda2
+	const BAMBABY    ; 5a 
+	const PIPENDA    ; 5b 
 	const FLUFFRUIT  ; 5c 
 	const SCRUFFRUIT ; 5d
 	const PITAYRANT  ; 5e
@@ -119,7 +119,7 @@
 	const LANATUN    ; 62
 	const PEPOFFER   ; 63
 	const VOLTORB    ; 64 trip llama
-	const ELECTRODE  ; 65 jam dj
+	const DJAMM  	 ; 65 jj
 	const CANTALONE  ; 66
 	const CANTOGETHA ; 67
 	const COCACOBRA  ; 68
@@ -161,7 +161,7 @@
 	const BELLOCEROS ; 8c
 	const SUBCEROS   ; 8d 
 	const AERODACTYL ; 8e Wellwitchsia
-	const THERAZOR   ; 8f therazor
+	const THERAZOR   ; 8f 
 	const ARTICUNO   ; 90 horn trio
 	const ZAPDOS     ; 91 horn trio
 	const BLAZENBULL ; 92
@@ -188,7 +188,7 @@ JOHTO_POKEMON EQU const_value
 	const WORMACHO   ; a6
 	const GWUBBY     ; a7
 	const GRUBBOID   ; a8
-	const CROBAT     ; a9 crab?
+	const CRUSTAZER  ; a9 crab?
 	const STRANGLURE ; aa
 	const SHAMSEL    ; ab
 	const WANDELUS   ; ac
@@ -197,7 +197,7 @@ JOHTO_POKEMON EQU const_value
 	const TRANQUIEL  ; af
 	const ALLSEERAPH ; b0
 	const SQWUCKY    ; b1
-	const SQUEENIE   ; b2 squeenie
+	const SQUEENIE   ; b2 
 	const YUESBI     ; b3
 	const YUEFOE     ; b4
 	const AMPHAROS   ; b5 computer
@@ -257,7 +257,7 @@ JOHTO_POKEMON EQU const_value
 	const EYECHOSIS  ; eb
 	const TYROGUE    ; ec direwolf
 	const HITMONTOP  ; ed cat
-	const SMOOCHUM   ; ee mosquito
+	const AMBIONIC   ; ee mosquito
 	const ELEKID     ; ef cured buzzling
 	const MAGBY      ; f0 kaikong
 	const DRASSAL    ; f1

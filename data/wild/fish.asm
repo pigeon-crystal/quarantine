@@ -22,16 +22,16 @@ FishGroups:
 	fishgroup 50 percent + 1, .Pekoi_NoSwarm_Old, .Pekoi_NoSwarm_Good, .Pekoi_NoSwarm_Super
 
 .Shore_Old:
-	db  70 percent + 1, TENTACOOL,   10		; barberfish placeholder
-	db  85 percent + 1, TENTACOOL,   10
+	db  70 percent + 1, SLISCES,   10		; barberfish placeholder
+	db  85 percent + 1, SLISCES,   10
 	db 100 percent,     STRANGLURE,     10
 .Shore_Good:
-	db  35 percent,     TENTACOOL,   20
+	db  35 percent,     SLISCES,   20
 	db  70 percent,     STRANGLURE,     20
 	db  90 percent + 1, PRAWMATE,     20
 	db 100 percent,     time_group 0
 .Shore_Super:
-	db  40 percent,     TENTACOOL,     40
+	db  40 percent,     SLISCES,     40
 	db  70 percent,     time_group 1
 	db  90 percent + 1, SHRIMPANZI,     40
 	db 100 percent,     NIMBOCETUS,    40

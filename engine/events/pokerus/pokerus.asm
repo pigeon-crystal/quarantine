@@ -136,7 +136,7 @@ ConvertBerriesToBerryJuice:
 	push af
 	push hl
 	ld a, [hl]
-	cp SHUCKLE
+	cp DJAMM
 	jr nz, .loopMon
 	ld bc, MON_ITEM
 	add hl, bc

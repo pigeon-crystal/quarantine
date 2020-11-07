@@ -228,7 +228,7 @@ LawnieEggMoves:
 	db LEECH_LIFE
 	db -1 ; end
 
-TentacoolEggMoves:
+SliscesEggMoves:
 	db AURORA_BEAM
 	db MIRROR_COAT
 	db RAPID_SPIN
@@ -322,7 +322,7 @@ VoltorbEggMoves:
 	db PSYCHO_CUT
 	db -1 ; end
 	
-ElectrodeEggMoves:
+DjammEggMoves:
 	db REFLECT 
 	db -1; end
 
@@ -541,7 +541,7 @@ GwubbyEggMoves:
 	db PURSUIT
 	db -1 ; end
 	
-CrobatEggMoves:
+CrustazerEggMoves:
 	db SPARK
 	db EXPLOSION
 	db SELFDESTRUCT
@@ -830,7 +830,7 @@ HitmontopEggMoves:
 	db BITE 
 	db -1 ; end
 
-SmoochumEggMoves:
+AmbionicEggMoves:
 	db BARRIER
 	db -1 ; end
 

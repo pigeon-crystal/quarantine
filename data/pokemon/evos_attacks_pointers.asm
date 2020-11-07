@@ -72,7 +72,7 @@ EvosAttacksPointers::
 	dw LawnieEvosAttacks
 	dw OrgnomeEvosAttacks
 	dw GnomercyEvosAttacks
-	dw TentacoolEvosAttacks
+	dw SliscesEvosAttacks
 	dw TentacruelEvosAttacks
 	dw DolmiteEvosAttacks
 	dw DolmesaEvosAttacks
@@ -101,7 +101,7 @@ EvosAttacksPointers::
 	dw LanatunEvosAttacks
 	dw PepofferEvosAttacks
 	dw VoltorbEvosAttacks
-	dw ElectrodeEvosAttacks
+	dw DjammEvosAttacks
 	dw CantaloneEvosAttacks
 	dw CantogethaEvosAttacks
 	dw CocacobraEvosAttacks
@@ -169,7 +169,7 @@ EvosAttacksPointers::
 	dw WormachoEvosAttacks
 	dw GwubbyEvosAttacks
 	dw GrubboidEvosAttacks
-	dw CrobatEvosAttacks
+	dw CrustazerEvosAttacks
 	dw StranglureEvosAttacks
 	dw ShamselEvosAttacks
 	dw WandelusEvosAttacks
@@ -238,7 +238,7 @@ EvosAttacksPointers::
 	dw EyechosisEvosAttacks
 	dw TyrogueEvosAttacks
 	dw HitmontopEvosAttacks
-	dw SmoochumEvosAttacks
+	dw AmbionicEvosAttacks
 	dw ElekidEvosAttacks
 	dw MagbyEvosAttacks
 	dw DrassalEvosAttacks

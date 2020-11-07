@@ -52,18 +52,14 @@ PosterScript:
 
 PlayersHouseRadioScript:
 	setflag ENGINE_POKEDEX
-	givepoke EELKIE, 29
-	givepoke EELKIE, 29
-	givepoke SANDOLPH, 37
-	givepoke SANDOLPH, 37
-	giveitem RARE_CANDY
-	giveitem IRON
+	givepoke EELKIE, 50
+	givepoke EELKIE, 50
 	giveitem RARE_CANDY
 	giveitem RARE_CANDY
 	giveitem RARE_CANDY
 	giveitem RARE_CANDY
 	giveitem RARE_CANDY
-	giveitem RARE_CANDY
+	warp CIANWOOD_PHARMACY, 4,7
 	end
 	
 ;PlayersHouseRadioScript:

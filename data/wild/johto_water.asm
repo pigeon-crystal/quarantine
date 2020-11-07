@@ -126,7 +126,7 @@ JohtoWaterWildMons:
 	db 2 percent ; encounter rate
 	db 20, PRAWMATE
 	db 15, PIKACHU 		;parrot standin
-	db 20, TENTACOOL	; barberfish standin
+	db 20, SLISCES	; barberfish standin
 	db 25, UPWHALE
 
 	map_id ROUTE_30 ;done
@@ -168,7 +168,7 @@ JohtoWaterWildMons:
 	db 6 percent ; encounter rate
 	db 20, PRAWMATE
 	db 15, SQWUCKY
-	db 20, TENTACOOL ; barberfish standin
+	db 20, SLISCES ; barberfish standin
 	db 25, UPWHALE
 
 	map_id ROUTE_41 ;done
@@ -231,14 +231,14 @@ JohtoWaterWildMons:
 	db 6 percent ; encounter rate
 	db 20, PRAWMATE
 	db 15, PIKACHU 		;parrot standin
-	db 20, TENTACOOL	; barberfish standin
+	db 20, SLISCES	; barberfish standin
 	db 25, UPWHALE
 
 	map_id OLIVINE_CITY ;done
 	db 6 percent ; encounter rate
 	db 20, PRAWMATE
 	db 15, PIKACHU 		;parrot standin
-	db 20, TENTACOOL	; barberfish standin
+	db 20, SLISCES	; barberfish standin
 	db 25, UPWHALE
 
 	map_id ECRUTEAK_CITY ;done

@@ -220,8 +220,8 @@ TrainerGruntM19:
 	end
 
 RocketElectrode1:
-	cry ELECTRODE
-	loadwildmon ELECTRODE, 23
+	cry CRUSTAZER
+	loadwildmon CRUSTAZER, 23
 	startbattle
 	iftrue TeamRocketBaseB2FReloadMap
 	disappear TEAMROCKETBASEB2F_ELECTRODE1
@@ -238,8 +238,8 @@ RocketElectrode1:
 	sjump RocketBaseElectrodeScript
 
 RocketElectrode2:
-	cry ELECTRODE
-	loadwildmon ELECTRODE, 23
+	cry CRUSTAZER
+	loadwildmon CRUSTAZER, 23
 	startbattle
 	iftrue TeamRocketBaseB2FReloadMap
 	disappear TEAMROCKETBASEB2F_ELECTRODE2
@@ -256,8 +256,8 @@ RocketElectrode2:
 	sjump RocketBaseElectrodeScript
 
 RocketElectrode3:
-	cry ELECTRODE
-	loadwildmon ELECTRODE, 23
+	cry CRUSTAZER
+	loadwildmon CRUSTAZER, 23
 	startbattle
 	iftrue TeamRocketBaseB2FReloadMap
 	disappear TEAMROCKETBASEB2F_ELECTRODE3
@@ -685,7 +685,7 @@ RockerBaseLanceElectrodeFaintText:
 	para "We have no choice."
 	line "We have to make"
 
-	para "all the ELECTRODE"
+	para "all the CRUSTAZER"
 	line "faint."
 
 	para "That should stop"

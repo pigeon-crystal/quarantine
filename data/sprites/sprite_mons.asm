@@ -24,7 +24,7 @@ SpriteMons:
 	db DUMBLOON
 	db WYRMOMETER
 	db MESSMASH
-	db TENTACOOL
+	db SLISCES
 	db TAUROS
 	db UPWHALE
 	db VOLTORB

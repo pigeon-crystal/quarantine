@@ -1044,7 +1044,7 @@ GnomercyEvosAttacks:
 	db 59, DARK_PULSE
 	db 0 ; no more level-up moves
 
-TentacoolEvosAttacks:
+SliscesEvosAttacks:
 	db EVOLVE_LEVEL, 30, TENTACRUEL
 	db 0 ; no more evolutions
 	db 1, POISON_STING
@@ -1419,12 +1419,12 @@ PepofferEvosAttacks:
 	db 0 ; no more level-up moves
 
 VoltorbEvosAttacks:
-	db EVOLVE_LEVEL, 30, ELECTRODE
+	db EVOLVE_LEVEL, 30, DJAMM
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves
 
-ElectrodeEvosAttacks:
+DjammEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves
@@ -2370,7 +2370,7 @@ GrubboidEvosAttacks:
 	db 52, MEGAHORN
 	db 0 ; no more level-up moves
 
-CrobatEvosAttacks:
+CrustazerEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCREECH
 	db 1, LEECH_LIFE
@@ -3463,7 +3463,7 @@ HitmontopEvosAttacks:
 	db 1, MEGA_KICK
 	db 0 ; no more level-up moves
 
-SmoochumEvosAttacks:
+AmbionicEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves

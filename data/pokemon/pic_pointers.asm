@@ -144,8 +144,8 @@ PokemonPicPointers::
 	dba_pic OrgnomeBackpic
 	dba_pic GnomercyFrontpic
 	dba_pic GnomercyBackpic
-	dba_pic TentacoolFrontpic
-	dba_pic TentacoolBackpic
+	dba_pic SliscesFrontpic
+	dba_pic SliscesBackpic
 	dba_pic TentacruelFrontpic
 	dba_pic TentacruelBackpic
 	dba_pic DolmiteFrontpic
@@ -202,8 +202,8 @@ PokemonPicPointers::
 	dba_pic PepofferBackpic
 	dba_pic VoltorbFrontpic
 	dba_pic VoltorbBackpic
-	dba_pic ElectrodeFrontpic
-	dba_pic ElectrodeBackpic
+	dba_pic DjammFrontpic
+	dba_pic DjammBackpic
 	dba_pic CantaloneFrontpic
 	dba_pic CantaloneBackpic
 	dba_pic CantogethaFrontpic
@@ -338,8 +338,8 @@ PokemonPicPointers::
 	dba_pic GwubbyBackpic
 	dba_pic GrubboidFrontpic
 	dba_pic GrubboidBackpic
-	dba_pic CrobatFrontpic
-	dba_pic CrobatBackpic
+	dba_pic CrustazerFrontpic
+	dba_pic CrustazerBackpic
 	dba_pic StranglureFrontpic
 	dba_pic StranglureBackpic
 	dba_pic ShamselFrontpic
@@ -479,8 +479,8 @@ PokemonPicPointers::
 	dba_pic TyrogueBackpic
 	dba_pic HitmontopFrontpic
 	dba_pic HitmontopBackpic
-	dba_pic SmoochumFrontpic
-	dba_pic SmoochumBackpic
+	dba_pic AmbionicFrontpic
+	dba_pic AmbionicBackpic
 	dba_pic ElekidFrontpic
 	dba_pic ElekidBackpic
 	dba_pic MagbyFrontpic

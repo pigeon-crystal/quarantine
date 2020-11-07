@@ -12,8 +12,8 @@ KantoWaterWildMons:
 
 	map_id VERMILION_PORT
 	db 2 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
+	db 35, SLISCES
+	db 30, SLISCES
 	db 35, TENTACRUEL
 	db 40, TENTACRUEL
 
@@ -47,36 +47,36 @@ KantoWaterWildMons:
 
 	map_id ROUTE_12
 	db 6 percent ; encounter rate
-	db 25, TENTACOOL
+	db 25, SLISCES
 	db 25, ASTROTOM
 	db 25, TENTACRUEL
 	db 26, TENTACRUEL
 
 	map_id ROUTE_13
 	db 6 percent ; encounter rate
-	db 25, TENTACOOL
+	db 25, SLISCES
 	db 25, ASTROTOM
 	db 25, TENTACRUEL
 	db 30, ASTROTOM
 
 	map_id ROUTE_19
 	db 6 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
+	db 35, SLISCES
+	db 30, SLISCES
 	db 35, TENTACRUEL
 	db 40, TENTACRUEL
 
 	map_id ROUTE_20
 	db 6 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
+	db 35, SLISCES
+	db 30, SLISCES
 	db 35, TENTACRUEL
 	db 40, TENTACRUEL
 
 	map_id ROUTE_21
 	db 6 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
+	db 35, SLISCES
+	db 30, SLISCES
 	db 35, TENTACRUEL
 	db 40, TENTACRUEL
 
@@ -124,8 +124,8 @@ KantoWaterWildMons:
 
 	map_id PALLET_TOWN
 	db 6 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
+	db 35, SLISCES
+	db 30, SLISCES
 	db 35, TENTACRUEL
 	db 40, TENTACRUEL
 
@@ -145,8 +145,8 @@ KantoWaterWildMons:
 
 	map_id VERMILION_CITY
 	db 6 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
+	db 35, SLISCES
+	db 30, SLISCES
 	db 35, TENTACRUEL
 	db 40, TENTACRUEL
 
@@ -166,8 +166,8 @@ KantoWaterWildMons:
 
 	map_id CINNABAR_ISLAND
 	db 6 percent ; encounter rate
-	db 35, TENTACOOL
-	db 30, TENTACOOL
+	db 35, SLISCES
+	db 30, SLISCES
 	db 35, TENTACRUEL
 	db 40, MISSINGNO
 

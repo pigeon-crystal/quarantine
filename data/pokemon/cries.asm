@@ -76,7 +76,7 @@ PokemonCries::
 	mon_cry $38,    		$0f9f,  $00af ; LAWNIE
 	mon_cry $38,      		$0ef2,  $01af ; ORGNOME
 	mon_cry $38,    		$0bf1,  $01af ; GNOMERCY
-	mon_cry CRY_VENONAT,       0,  256 ; TENTACOOL
+	mon_cry CRY_VENONAT,       0,  256 ; SLISCES
 	mon_cry CRY_VENONAT,     238,  383 ; TENTACRUEL
 	mon_cry $12,       		$01E0,  $00C0 ; DOLMITE
 	mon_cry $12,      		$0EE0,  $01D4 ; DOLMESA
@@ -105,7 +105,7 @@ PokemonCries::
 	mon_cry CRY_CYNDAQUIL,  1080,  211 ; LANATUN
 	mon_cry CRY_CYNDAQUIL,   308,  211 ; PEPOFFER
 	mon_cry CRY_VOLTORB,     237,  256 ; VOLTORB
-	mon_cry CRY_VOLTORB,     168,  272 ; ELECTRODE
+	mon_cry CRY_VOLTORB,     168,  272 ; DJAMM
 	mon_cry CRY_DIGLETT,     99,  256  ; CANTALONE
 	mon_cry CRY_DIGLETT,     1,  256   ; CANTOGETHA
 	mon_cry CRY_EKANS,       229,  271 ; COCACOBRA
@@ -173,7 +173,7 @@ PokemonCries::
 	mon_cry $3E,  			$0F40,  $0180 	; WORMACHO
 	mon_cry CRY_WEEDLE,      444,  166 		; GWUBBY   ;orig spinarak
 	mon_cry CRY_SPINARAK,   -166,  444 		; GRUBBOID
-	mon_cry CRY_SQUIRTLE,    -16,  320 		; CROBAT
+	mon_cry CRY_SQUIRTLE,    -16,  320 		; CRUSTAZER
 	mon_cry $28,   			$003B,  $01E2 ; STRANGLURE
 	mon_cry $28,   			$05C7,  $0362 ; SHAMSEL
 	mon_cry CRY_PICHU,         0,  320 ; WANDELUS
@@ -242,7 +242,7 @@ PokemonCries::
 	mon_cry CRY_AMPHAROS,    -91,  303 ; EYECHOSIS
 	mon_cry CRY_AIPOM,        44,  264 ; TYROGUE
 	mon_cry CRY_SLUGMA,        0,  256 ; HITMONTOP
-	mon_cry CRY_MARILL,      104,  256 ; SMOOCHUM
+	mon_cry CRY_MARILL,      104,  256 ; AMBIONIC
 	mon_cry CRY_SUNFLORA,   -728,  180 ; ELEKID
 	mon_cry CRY_TEDDIURSA,   374,   58 ; MAGBY
 	mon_cry CRY_GLIGAR,     -461,  416 ; DRASSAL

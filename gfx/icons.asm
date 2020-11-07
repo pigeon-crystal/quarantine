@@ -97,6 +97,11 @@ IcosahedIcon:	  INCBIN "gfx/icons/icosahed.2bpp"
 EyechosisIcon:    INCBIN "gfx/icons/eyechosis.2bpp"
 TendrillIcon:	  INCBIN "gfx/icons/tendrill.2bpp"
 CalarmouriIcon:   INCBIN "gfx/icons/calarmouri.2bpp"
+TentaquilIcon:	  INCBIN "gfx/icons/tentaquil.2bpp"
+DjammIcon:		  INCBIN "gfx/icons/djamm.2bpp"
+MurdermisIcon:	  INCBIN "gfx/icons/murdermis.2bpp"
+AndromegaIcon:	  INCBIN "gfx/icons/andromega.2bpp"
+CrustazerIcon:	  INCBIN "gfx/icons/crustazer.2bpp"
 
 SECTION "Mon Icons 2", ROMX
 

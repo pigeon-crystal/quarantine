@@ -70,7 +70,7 @@ PokemonNames::
 	db "LAWNIE@@@@" ;bellsprout
 	db "ORGNOME@@@"
 	db "GNOMERCY@@" 
-	db "TENTACOOL@" ;tentacool
+	db "SLISCES@@@" ;slisces
 	db "TENTACRUEL"
 	db "DOLMITE@@@" ;geodude
 	db "DOLMESA@@@"
@@ -99,7 +99,7 @@ PokemonNames::
 	db "LANATUN@@@"
 	db "PEPOFFER@@"
 	db "VOLTORB@@@"
-	db "ELECTRODE@"
+	db "DJAMM@@@@@"
 	db "CANTALONE@"
 	db "CANTOGETHA"
 	db "COCACOBRA@"
@@ -167,7 +167,7 @@ PokemonNames::
 	db "WORMACHO@@"
 	db "GWUBBY@@@@"
 	db "GRUBBOID@@"
-	db "CROBAT@@@@"
+	db "CRUSTAZER@"
 	db "STRANGLURE"
 	db "SHAMSEL@@@"
 	db "WANDULUS@@"
@@ -236,7 +236,7 @@ PokemonNames::
 	db "EYECHOSIS@"
 	db "TYROGUE@@@"
 	db "HITMONTOP@"
-	db "SMOOCHUM@@"
+	db "AMBIONIC@@"
 	db "ELEKID@@@@"
 	db "MAGBY@@@@@"
 	db "DRASSAL@@@"

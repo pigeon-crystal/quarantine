@@ -70,7 +70,7 @@ EggMovePointers::
 	dw LawnieEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw TentacoolEggMoves
+	dw SliscesEggMoves
 	dw NoEggMoves
 	dw DolmiteEggMoves
 	dw NoEggMoves
@@ -99,7 +99,7 @@ EggMovePointers::
 	dw LanatunEggMoves
 	dw NoEggMoves
 	dw VoltorbEggMoves ; trip llama
-	dw ElectrodeEggMoves ; jam dj
+	dw DjammEggMoves ; jam dj
 	dw CantaloneEggMoves
 	dw NoEggMoves
 	dw CocacobraEggMoves
@@ -167,7 +167,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw GwubbyEggMoves
 	dw NoEggMoves
-	dw CrobatEggMoves ; crab
+	dw CrustazerEggMoves ; crab
 	dw StranglureEggMoves
 	dw NoEggMoves
 	dw WandelusEggMoves
@@ -236,7 +236,7 @@ EggMovePointers::
 	dw EyechosisEggMoves
 	dw TyrogueEggMoves
 	dw HitmontopEggMoves
-	dw SmoochumEggMoves
+	dw AmbionicEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

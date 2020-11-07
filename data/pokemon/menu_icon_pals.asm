@@ -75,7 +75,7 @@ MonMenuIconPals:
 	icon_pals GREEN,   YELLOW  ; LAWNIE
 	icon_pals GREEN,   YELLOW  ; ORGNOME
 	icon_pals GREEN, BROWN	   ; GNOMERCY
-	icon_pals BROWN,   YELLOW  ; TENTACOOL
+	icon_pals GRAY,    YELLOW  ; SLISCES
 	icon_pals BROWN,   YELLOW  ; TENTACRUEL
 	icon_pals GRAY,   YELLOW   ; DOLMITE
 	icon_pals GRAY,   YELLOW   ; DOLMESA
@@ -104,7 +104,7 @@ MonMenuIconPals:
 	icon_pals GREEN,   YELLOW  ; LANATUN
 	icon_pals GREEN,   YELLOW  ; PEPOFFER
 	icon_pals BROWN,   YELLOW  ; VOLTORB
-	icon_pals BROWN,   YELLOW  ; ELECTRODE
+	icon_pals PINK,   RED  ; DJAMM
 	icon_pals BLUE,   YELLOW  ; CANTALONE
 	icon_pals BLUE,   YELLOW  ; CANTOGETHA
 	icon_pals BROWN,   YELLOW  ; COCACOBRA
@@ -172,7 +172,7 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; WORMACHO
 	icon_pals PINK,   YELLOW   ; GWUBBY
 	icon_pals RED,   YELLOW    ; GRUBBOID
-	icon_pals BROWN,   YELLOW  ; CROBAT
+	icon_pals RED,   BLUE  ; CRUSTAZER
 	icon_pals PINK,   YELLOW   ; STRANGLURE
 	icon_pals RED,   YELLOW    ; SHAMSEL
 	icon_pals BLUE,   YELLOW  ; WANDELUS
@@ -241,7 +241,7 @@ MonMenuIconPals:
 	icon_pals PURPLE,   YELLOW    ; EYECHOSIS
 	icon_pals RED,   YELLOW    ; TYROGUE
 	icon_pals RED,   YELLOW    ; HITMONTOP
-	icon_pals RED,   YELLOW    ; SMOOCHUM
+	icon_pals YELLOW,   RED    ; AMBIONIC
 	icon_pals RED,   YELLOW    ; ELEKID
 	icon_pals RED,   YELLOW    ; MAGBY
 	icon_pals GREEN,   YELLOW    ; DRASSAL

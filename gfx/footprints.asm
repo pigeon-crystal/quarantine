@@ -161,7 +161,7 @@ INCBIN "gfx/footprints/stellocean.1bpp",    footprint_top
 INCBIN "gfx/footprints/lawnie.1bpp", 	 footprint_top
 INCBIN "gfx/footprints/orgnome.1bpp", footprint_top
 INCBIN "gfx/footprints/gnomercy.1bpp",   footprint_top
-INCBIN "gfx/footprints/tentacool.1bpp",  footprint_top
+INCBIN "gfx/footprints/slisces.1bpp",  footprint_top
 ; 065-072 bottom halves
 INCBIN "gfx/footprints/voltinger.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/upwhale.1bpp",     footprint_bottom
@@ -170,7 +170,7 @@ INCBIN "gfx/footprints/stellocean.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/lawnie.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/orgnome.1bpp", footprint_bottom
 INCBIN "gfx/footprints/gnomercy.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/tentacool.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/slisces.1bpp",  footprint_bottom
 ; 073-080 top halves
 INCBIN "gfx/footprints/tentacruel.1bpp", footprint_top
 INCBIN "gfx/footprints/dolmite.1bpp",    footprint_top
@@ -230,7 +230,7 @@ INCBIN "gfx/footprints/mossarre.1bpp",      footprint_top
 INCBIN "gfx/footprints/lanatun.1bpp",     footprint_top
 INCBIN "gfx/footprints/pepoffer.1bpp",    footprint_top
 INCBIN "gfx/footprints/voltorb.1bpp",    footprint_top
-INCBIN "gfx/footprints/electrode.1bpp",  footprint_top
+INCBIN "gfx/footprints/djamm.1bpp",  footprint_top
 INCBIN "gfx/footprints/cantalone.1bpp",  footprint_top
 INCBIN "gfx/footprints/cantogetha.1bpp",  footprint_top
 INCBIN "gfx/footprints/cocacobra.1bpp",     footprint_top
@@ -239,7 +239,7 @@ INCBIN "gfx/footprints/mossarre.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/lanatun.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/pepoffer.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/voltorb.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/electrode.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/djamm.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/cantalone.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/cantogetha.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/cocacobra.1bpp",     footprint_bottom
@@ -388,7 +388,7 @@ INCBIN "gfx/footprints/wormacho.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/gwubby.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/grubboid.1bpp",    footprint_bottom
 ; 169-176 top halves
-INCBIN "gfx/footprints/crobat.1bpp",     footprint_top
+INCBIN "gfx/footprints/crustazer.1bpp",     footprint_top
 INCBIN "gfx/footprints/stranglure.1bpp",   footprint_top
 INCBIN "gfx/footprints/shamsel.1bpp",    footprint_top
 INCBIN "gfx/footprints/wandelus.1bpp",      footprint_top
@@ -397,7 +397,7 @@ INCBIN "gfx/footprints/stratowar.1bpp",  footprint_top
 INCBIN "gfx/footprints/tranquiel.1bpp",     footprint_top
 INCBIN "gfx/footprints/allseeraph.1bpp",    footprint_top
 ; 169-176 bottom halves
-INCBIN "gfx/footprints/crobat.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/crustazer.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/stranglure.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/shamsel.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/wandelus.1bpp",      footprint_bottom
@@ -537,7 +537,7 @@ INCBIN "gfx/footprints/missingno.1bpp",  footprint_top
 INCBIN "gfx/footprints/eyechosis.1bpp",   footprint_top
 INCBIN "gfx/footprints/tyrogue.1bpp",    footprint_top
 INCBIN "gfx/footprints/hitmontop.1bpp",  footprint_top
-INCBIN "gfx/footprints/smoochum.1bpp",   footprint_top
+INCBIN "gfx/footprints/ambionic.1bpp",   footprint_top
 INCBIN "gfx/footprints/elekid.1bpp",     footprint_top
 INCBIN "gfx/footprints/magby.1bpp",      footprint_top
 ; 233-240 bottom halves
@@ -546,7 +546,7 @@ INCBIN "gfx/footprints/missingno.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/eyechosis.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/tyrogue.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/hitmontop.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/smoochum.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/ambionic.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/elekid.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/magby.1bpp",      footprint_bottom
 ; 241-248 top halves
