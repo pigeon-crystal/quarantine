@@ -1,6 +1,6 @@
 	db MADRUGASA ; 142
 
-	db  81, 72,  72, 106,  103,  85
+	db  81, 73,  72, 106,  103,  85
 	;   hp  atk  def  spd  sat  sdf
 
 	db FLYING, DARK ; type

@@ -403,7 +403,7 @@ FlareonBackpic:      INCBIN "gfx/pokemon/flareon/back.2bpp.lz"
 GoosaplingBackpic:      INCBIN "gfx/pokemon/goosapling/back.2bpp.lz"
 BulbasaurFrontpic:   INCBIN "gfx/pokemon/bulbasaur/front.animated.2bpp.lz"
 PeekeyeBackpic:      INCBIN "gfx/pokemon/peekeye/back.2bpp.lz"
-
+YotsubaPic:			INCBIN "gfx/trainers/yotsuba.2bpp.lz"
 
 SECTION "Pics 13", ROMX
 
@@ -451,6 +451,8 @@ MysticalmanPic:      INCBIN "gfx/trainers/mysticalman.2bpp.lz"
 CooltrainerfPic:     INCBIN "gfx/trainers/cooltrainer_f.2bpp.lz"
 DjammFrontpic:   INCBIN "gfx/pokemon/djamm/front.animated.2bpp.lz"
 PardnerBackpic:    INCBIN "gfx/pokemon/pardner/back.2bpp.lz"
+SpellcasterPic:		INCBIN "gfx/trainers/spellcaster.2bpp.lz"
+SukebanPic:			INCBIN "gfx/trainers/sukeban.2bpp.lz"
 
 
 SECTION "Pics 14", ROMX

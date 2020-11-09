@@ -93,3 +93,8 @@ TrainerClassDVs:
 	dn  9,  9,  9,  9 ; NURSE
 	dn 15, 15, 15, 15 ; MUTANT			mutants and bill are the
 	dn 15, 15, 15, 15 ; BILL 			postgame bosses so why not 15 dvs? fuck you.
+	dn 15, 10, 10, 11 ; SUKEBAN
+	dn  7,  8,  7, 15 ; SPELLCASTER
+	dn 15, 15, 15, 15 ; YOTSUBA 		lategame bonus boss, fuck you, etc
+
+ 

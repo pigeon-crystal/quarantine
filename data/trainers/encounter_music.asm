@@ -95,4 +95,7 @@ TrainerEncounterMusic::
 	db MUSIC_BEAUTY_ENCOUNTER		; nurse
 	db MUSIC_POKEMANIAC_ENCOUNTER   ; mutant
 	db MUSIC_POKEMANIAC_ENCOUNTER   ; bill
+	db MUSIC_ROCKET_ENCOUNTER		; sukeban
+	db MUSIC_SAGE_ENCOUNTER			; spellcaster
+	db MUSIC_LASS_ENCOUNTER			; yotsuba
 	

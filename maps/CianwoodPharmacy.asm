@@ -10,6 +10,20 @@ CianwoodPharmacy_MapScripts:
 .DummyScene:
 	end
 
+CianwoodPotion:
+	opentext
+	writetext CianwoodPotionText
+	waitbutton
+	closetext
+	end
+	
+CianwoodPotionText:
+	text "It's a some type"
+	line "of homemade salve."
+	
+	para "Looks viscous!"
+	done
+
 CianwoodPharmacist:
 	faceplayer
 	opentext
@@ -83,5 +97,9 @@ CianwoodPharmacy_MapEvents:
 	bg_event  0,  1, BGEVENT_READ, CianwoodPharmacyBookshelf
 	bg_event  1,  1, BGEVENT_READ, CianwoodPharmacyBookshelf
 
-	db 1 ; object events
+	db 5 ; object events
 	object_event  2,  3, SPRITE_PHARMACIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CianwoodPharmacist, -1
+	object_event  3,  3, SPRITE_DJAMM, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CianwoodPotion, -1
+	object_event  4,  3, SPRITE_DJAMM, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CianwoodPotion, -1
+	object_event  4,  1, SPRITE_DJAMM, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, CianwoodPotion, -1 ; TODO make this the encounterable djamm
+	object_event  6,  1, SPRITE_DJAMM, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CianwoodPotion, -1

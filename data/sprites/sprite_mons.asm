@@ -50,4 +50,7 @@ SpriteMons:
 	db BERMUDANT
 	db BAAFOMET
 	db MT_NOOT
+	db DJAMM
+	db MURDERMIS
+	db VEGETEBAA
 	

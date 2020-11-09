@@ -19,12 +19,12 @@ FalknerGroup:
 	db "FALKNER@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 13, HOATOXIC
 		db $da, $da
-		dw $4a99, $5099, $601f, $70aa, $80aa
+		dw $4a99, $4009, $401f, $40aa, $40aa
 		db  NO_ITEM
 		db  PECK, MUD_SLAP, ACID, POISON_STING
 	db 13, FURDOBA
 		db $da, $da
-		dw $40e1, $50e0, $61e1, $7e1f, $8600
+		dw $40e1, $50e0, $41e1, $4e1f, $4600
 		db BERRY
 		db MUD_SLAP, GUST, SANDSTORM, PROTECT
 	db -1 ; end
@@ -34,20 +34,20 @@ WhitneyGroup:
 	db "WHITNEY@", TRAINERTYPE_NICKNAME | TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 25, NYALLEY
 		db "NYALLEY@"
-		db PERFECT_DV, $de
-		dw $6c11, $691a, $6201, $62c1, $e7fa
+		db PERFECT_DV, $9b
+		dw $5c11, $591a, $5201, $62c1, PERFECT_STAT_EXP
 		db BERRY
 		db CONFUSION, ATTRACT, ENCORE, METRONOME
 	db 24, ATTACKO
 		db "ATTACKO@"
 		db PERFECT_DV, PERFECT_DV
-		dw $62fa, $62fa, $62fa, $62fa, $a2fa
+		dw $62fa, $620a, $62fa, $62fa, $a2fa
 		db BERRY
 		db COMET_PUNCH, DRAININGKISS, DISABLE, GLARE
 	db 25, PURRDLE
 		db "PURRDLE@"
-		db $9a, $9e 														    					;DVs: atk|def, spd|spc
-		dw $92fa, $82fa, $72fa, $703a, $920a 	;Stat exp: hp, atk, def, spd, spc
+		db $96, $98 														    					;DVs: atk|def, spd|spc
+		dw $b2fa, $42fa, $52fa, $603a, $3f0a 	;Stat exp: hp, atk, def, spd, spc
 		db BERRY 																						;item
 		db QUICK_ATTACK, FAINT_ATTACK, REFLECT, BITE															;moves
 	db 26, MAULZER  
@@ -62,8 +62,8 @@ BugsyGroup:
 	; BUGSY (1)
 	db "BUGSY@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 20, SAPPURA
-		db $9b, $ab 
-		dw $51ea, $52fa, $51ec, $6a9d, $8a2c
+		db $9b, $88 
+		dw $51ea, $520a, $51ec, $6a9d, $6001
 		db BERRY
 		db RAZOR_LEAF, POUND, PAIN_SPLIT, TOXIC
 	db 25, BUZZLING  
@@ -73,12 +73,12 @@ BugsyGroup:
 		db DOUBLE_TEAM, TOXIC, FURY_CUTTER, NO_MOVE
 	db 20, EELKIE	   
 		db $5a, $79 
-		dw $703a, $303a, $703a, $4a2f, $4bcf
+		dw $703c, $f03a, $303a, $4a2f, $3c0f
 		db BERRY
 		db LICK, LEECH_SEED, CONFUSE_RAY, PROTECT
 	db 21, ORGNOME
 		db PERFECT_DV, PERFECT_DV
-		dw $603a, $403a, $703a, $703a, $5f7a
+		dw $603c, $403c, $703a, $703a, $5c0c
 		db BERRY
 	    db BUBBLEBEAM, MEGA_DRAIN, MUD_SLAP, GROWTH
 	db -1 ; end
@@ -3812,15 +3812,15 @@ GuruGroup:
 	; GURU (1) ;sprout boss
 	db "LI@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 10, LAWNIE
-		dw $61F1, $5211, $626A, $9190, $710D
-		db BERRY
+		dw $51F1, $5211, $626A, $4190, $710D
+		db NO_ITEM
 		db BEAT_UP, DIG, SWIFT, NO_MOVE
 	db 10, FLUFFRUIT
-		dw $7F1D, $7F6F, $7D3D, $7710, $710D
+		dw $5F1D, $5F6F, $4D3D, $4410, $710D
 		db MIRACLE_SEED
 		db ABSORB, GROWTH, GUST, ATTRACT
 	db 12, LAWNIE
-		dw $71BA, $72BA, $73BA, $74BA, $75BA
+		dw $61BA, $52BA, $5601, $400A, $551A
 		db BERRY
 		db REST, SNORE, FLASH, DIG
 	db -1 ; end
@@ -3866,7 +3866,7 @@ GuruGroup:
 	db 40, EYECHOSIS
 		dw $DEBA, $FEBA, $7EBA, $7EBA, $FEBA
 		db BERRY
-		db EARTHQUAKE, STRENGTH, DETECT, NO_MOVE
+		db EARTHQUAKE, STRENGTH, DETECT, PSYCHIC_M
 	db -1 ; end
 	
 CheaterGroup:
@@ -4008,3 +4008,17 @@ NurseGroup:
 MutantGroup:
 
 BillGroup:
+
+SukebanGroup:
+
+SpellcasterGroup:
+
+YotsubaGroup:
+; YOTSUBA (1) 
+	db "YOTSUBA@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
+	db 65, TENTAQUIL
+		db ATKDEFDV_SHINY, SPDSPCDV_SHINY
+		dw $4a99, $4009, $401f, $40aa, $40aa
+		db  FOCUS_BAND
+		db  PUKE_BLOOD, PSYCHIC_M, GRIMNEEDLE, RECOVER
+	db -1 ; end

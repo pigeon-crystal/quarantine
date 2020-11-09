@@ -1,6 +1,6 @@
 	db MURDERMIS ; 
 
-	db  106,  90,  50,  70,  103,  81
+	db  111,  90,  38,  71,  108,  81
 	;   hp   atk  def  spd   sat  sdf
 
 	db GHOST, DARK ; type

@@ -87,11 +87,11 @@ PlayBattleMusic:
 
 .missingnomusic
 	ld de, MUSIC_KRAID
-	jr .done 
+	jp .done 
 	
 .donchanmusic
 	ld de, MUSIC_DONCHAN
-	jr .done
+	jp .done
 	
 .legendmusic
 	ld de, MUSIC_LEGENDARY
@@ -108,6 +108,10 @@ PlayBattleMusic:
 	cp RED
 	jr z, .done
 
+	ld de, MUSIC_YOTSUBA
+	cp YOTSUBA_CLASS
+	jr z, .done
+	
 ;rockets!
 	ld de, MUSIC_ROCKET_BATTLE
 	cp GRUNTM
@@ -121,6 +125,8 @@ PlayBattleMusic:
 	cp ENGINEER
 	jr z, .done
 	cp ENFORCER
+	jr z, .done
+	cp SCIENTIST
 	jr z, .done
 
 	ld de, MUSIC_KANTO_GYM_LEADER_BATTLE

@@ -94,3 +94,7 @@ TrainerPicPointers::
 	dba_pic NursePic
 	dba_pic MutantPic
 	dba_pic BillPic
+	dba_pic SukebanPic
+	dba_pic SpellcasterPic
+	dba_pic YotsubaPic
+	

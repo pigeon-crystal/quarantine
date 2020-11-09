@@ -767,5 +767,11 @@ KRIS EQU __enum__
 	
 	trainerclass BILL_CLASS ; 5c
 	
+	trainerclass SUKEBAN ; 5d
+	
+	trainerclass SPELLCASTER ; 5e
+	
+	trainerclass YOTSUBA_CLASS ; 5f
+	const YOTSUBA_TRAINER
 	
 NUM_TRAINER_CLASSES EQU __enum__

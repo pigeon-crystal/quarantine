@@ -157,6 +157,10 @@ INCLUDE "audio/music/dj.asm"
 INCLUDE "audio/music/finalhours.asm"
 INCLUDE "audio/music/championpinch.asm"
 
+SECTION "QTDex Songs 2", ROMX
+
+INCLUDE "audio/music/yotsuba.asm"
+
 SECTION "Sound Effects", ROMX
 
 INCLUDE "audio/sfx.asm"

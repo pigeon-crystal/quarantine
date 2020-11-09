@@ -99,3 +99,7 @@ INCBIN "gfx/trainers/breeder_f.gbcpal", middle_colors
 INCBIN "gfx/trainers/nurse.gbcpal", middle_colors
 INCBIN "gfx/trainers/mutant.gbcpal", middle_colors
 INCBIN "gfx/trainers/bill.gbcpal", middle_colors
+INCBIN "gfx/trainers/sukeban.gbcpal", middle_colors
+INCBIN "gfx/trainers/spellcaster.gbcpal", middle_colors
+INCBIN "gfx/trainers/yotsuba.gbcpal", middle_colors
+

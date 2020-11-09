@@ -92,4 +92,7 @@ TrainerClassNames::
 	db "NURSE@"
 	db "MUTANT@"
 	db "RESEARCHER@" ; bill
+	db "SUKEBAN@" 
+	db "SPELLCASTER@"
+	db "YOUNGSTER@" ; Yotsuba
 	

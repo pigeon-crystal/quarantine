@@ -93,4 +93,8 @@ TrainerGroups:
 	dba NurseGroup
 	dba MutantGroup
 	dba BillGroup
+	dba SukebanGroup
+	dba SpellcasterGroup
+	dba YotsubaGroup
+	
 	
