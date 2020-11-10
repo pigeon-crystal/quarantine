@@ -52,9 +52,9 @@ PosterScript:
 
 PlayersHouseRadioScript:
 	setflag ENGINE_POKEDEX
-	givepoke SQUEENIE, 60
+	givepoke MA_0, 100
 	givepoke EELKIE, 50
-	warp KAIJU_GYM, 5, 5
+	warp NATIONAL_PARK, 10, 45
 	end
 	
 ;PlayersHouseRadioScript:

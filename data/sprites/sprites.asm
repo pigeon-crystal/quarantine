@@ -103,11 +103,9 @@ OverworldSprites:
 	overworld_sprite SilverTrophySpriteGFX, 4, STILL_SPRITE, PAL_OW_SILVER
 	overworld_sprite KrisSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite KrisBikeSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
-	overworld_sprite KurtOutsideSpriteGFX, 12, STANDING_SPRITE, PAL_OW_BROWN
 	overworld_sprite SuicuneSpriteGFX, 4, STILL_SPRITE, PAL_OW_BLUE
 	overworld_sprite EnteiSpriteGFX, 4, STILL_SPRITE, PAL_OW_RED
 	overworld_sprite RaikouSpriteGFX, 4, STILL_SPRITE, PAL_OW_RED
-	overworld_sprite StandingYoungsterSpriteGFX, 12, STANDING_SPRITE, PAL_OW_BLUE
 	overworld_sprite BigMeowtainSpriteGFX, 12, STANDING_SPRITE, PAL_OW_RED
 	overworld_sprite NyalleyOWSpriteGFX, 12, WALKING_SPRITE, PAL_OW_PINK
 	overworld_sprite TidoswimSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
@@ -131,4 +129,10 @@ OverworldSprites:
 	overworld_sprite MastermindSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite BreederMSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite MutantSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite MoradayChunk1GFX, 4, STILL_SPRITE, PAL_OW_BLUE
+	overworld_sprite MoradayChunk2GFX, 4, STILL_SPRITE, PAL_OW_BLUE
+	overworld_sprite MoradayChunk3GFX, 4, STILL_SPRITE, PAL_OW_BLUE
+	overworld_sprite MoradayChunk4GFX, 4, STILL_SPRITE, PAL_OW_BLUE
+	overworld_sprite MintSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite MarkSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
 	

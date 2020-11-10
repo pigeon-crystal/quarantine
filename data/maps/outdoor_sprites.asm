@@ -168,10 +168,11 @@ EcruteakGroupSprites:
 	db SPRITE_SUPER_NERD
 	db SPRITE_WIZARD
 	; 9 of max 9 walking sprites
-	db SPRITE_WEIRD_TREE ; variable sprite: becomes SPRITE_SUDOWOODO and SPRITE_TWIN
+	db SPRITE_GANZERKER ; variable sprite: becomes SPRITE_SUDOWOODO and SPRITE_TWIN
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db SPRITE_SUICUNE
+	db SPRITE_TWIN
 	db 0 ; end
 
 AzaleaGroupSprites:
@@ -185,7 +186,7 @@ AzaleaGroupSprites:
 	; 6 of max 9 walking sprites
 	db SPRITE_FRUIT_TREE
 	db SPRITE_SLOWPOKE
-	db SPRITE_KURT_OUTSIDE ; non-walking version of SPRITE_KURT
+	db SPRITE_KURT ; non-walking version of SPRITE_KURT
 	db SPRITE_CUTTLE
 	db SPRITE_POKE_BALL
 	db 0 ; end
@@ -238,7 +239,7 @@ CianwoodGroupSprites:
 	db SPRITE_TAUROS
 	db SPRITE_FRUIT_TREE
 	db SPRITE_ROCK
-	db SPRITE_STANDING_YOUNGSTER ; non-walking version of SPRITE_YOUNGSTER
+	db SPRITE_YOUNGSTER ; non-walking version of SPRITE_YOUNGSTER
 	db SPRITE_SUICUNE
 	db SPRITE_VEGETEBAA
 	db SPRITE_MURDERMIS
@@ -305,7 +306,7 @@ DungeonsGroupSprites:
 	db SPRITE_BUENA
 	; 9 of max 9 walking sprites
 	db SPRITE_GAMEBOY_KID
-	db SPRITE_GROWLITHE
+	db SPRITE_HAPPIG
 	db SPRITE_POKE_BALL
 	db SPRITE_CUTTLE
 	db SPRITE_TIDO
@@ -349,7 +350,10 @@ KaijuGymGroupSprites:
 	db SPRITE_SCIENTIST
 	; 5 of 9 max walking sprites
 	db SPRITE_GYM_GUY
-	db SPRITE_BIG_MORADAY
 	db SPRITE_BIG_MEOWTAIN
 	db SPRITE_TWIN
+	db SPRITE_MORADAY_CHUNK1 
+	db SPRITE_MORADAY_CHUNK2
+	db SPRITE_MORADAY_CHUNK3
+	db SPRITE_MORADAY_CHUNK4
 	db 0 ; end
