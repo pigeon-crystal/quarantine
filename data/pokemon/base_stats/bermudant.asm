@@ -1,6 +1,6 @@
 	db BERMUDANT ; 
 
-	db  79,  57,  121,  50, 92,  121
+	db  79,  57,  119,  50, 92,  119
 	;   hp  atk  def  spd  sat  sdf
 
 	db POISON, FIRE ; type
