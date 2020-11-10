@@ -192,6 +192,21 @@ TwinsToAndHo2AfterBattleText:
 	cont "lines!"
 	done
 
+KaijuGymMoraday:
+	opentext 
+	writetext KaijuGymMoradayText
+	waitbutton
+	closetext
+	end
+
+
+KaijuGymMoradayText:
+	text "MORADAY: Gwaaah!"
+	
+	para "This MORADAY seems"
+	line "to be an actor."
+	done
+
 KaijuGym_MapEvents:
 	db 0, 0 ; filler
 
@@ -209,9 +224,10 @@ KaijuGym_MapEvents:
 	bg_event  1, 13, BGEVENT_READ, MiniHospital
 	bg_event  7, 10, BGEVENT_READ, CameraRolling
 
-	db 4 ; object events
-	object_event  7, 15, SPRITE_GYM_GUY, 	SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 1, KaijuGymGuyScript, -1
+	db 5 ; object events
+	object_event  7, 15, SPRITE_GYM_GUY, 	SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, KaijuGymGuyScript, -1
 	object_event  4, 10, SPRITE_TWIN, 		SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 1, TrainerTwinsToAndHo1, -1
 	object_event  5, 10, SPRITE_TWIN, 		SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 1, TrainerTwinsToAndHo2, -1
 	object_event  7,  7, SPRITE_MONSTER, 	SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, TrainerKaijuNotzilla, -1
+	object_event  2,  3, SPRITE_BIG_MORADAY, SPRITEMOVEDATA_BIGDOLLASYM, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, KaijuGymMoraday, -1
 		

@@ -52,14 +52,9 @@ PosterScript:
 
 PlayersHouseRadioScript:
 	setflag ENGINE_POKEDEX
+	givepoke SQUEENIE, 60
 	givepoke EELKIE, 50
-	givepoke EELKIE, 50
-	giveitem RARE_CANDY
-	giveitem RARE_CANDY
-	giveitem RARE_CANDY
-	giveitem RARE_CANDY
-	giveitem RARE_CANDY
-	warp CIANWOOD_PHARMACY, 4,7
+	warp KAIJU_GYM, 5, 5
 	end
 	
 ;PlayersHouseRadioScript:
@@ -80,7 +75,7 @@ PlayersHouseRadioScript:
 ;	pause 45
 ;	closetext
 ;	setevent EVENT_LISTENED_TO_INITIAL_RADIO
-	end
+;	end
 
 .NormalRadio:
 	jumpstd radio1
