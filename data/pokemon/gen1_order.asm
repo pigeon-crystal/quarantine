@@ -234,8 +234,8 @@ Pokered_MonIndices:
 	db ARASBESTOS
 	db ODDITTEN
 	db ASTROTOM
-	db ESPEON
-	db UMBREON
+	db HAUNTLET
+	db GLOST
 	db BISMUTT
 	db TIDO
 	db MAULZER

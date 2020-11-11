@@ -194,7 +194,7 @@ EggMovePointers::
 	dw ArasbestosEggMoves
 	dw OddittenEggMoves
 	dw NoEggMoves
-	dw EspeonEggMoves ; ICE GHOST
+	dw HauntletEggMoves ; ICE GHOST
 	dw NoEggMoves
 	dw BismuttEggMoves
 	dw TidoEggMoves

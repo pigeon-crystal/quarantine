@@ -215,8 +215,8 @@ JOHTO_POKEMON EQU const_value
 	const ARASBESTOS ; c1
 	const ODDITTEN   ; c2
 	const ASTROTOM   ; c3
-	const ESPEON     ; c4 ice ghost 1
-	const UMBREON    ; c5 ice ghost 2
+	const HAUNTLET   ; c4 
+	const GLOST      ; c5
 	const BISMUTT    ; c6
 	const TIDO   	 ; c7
 	const MAULZER 	 ; c8

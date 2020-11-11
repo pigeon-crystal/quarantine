@@ -199,8 +199,8 @@ MonMenuIconPals:
 	icon_pals PURPLE,   YELLOW ; ARASBESTOS
 	icon_pals RED,   YELLOW    ; ODDITTEN
 	icon_pals RED,   YELLOW    ; ASTROTOM
-	icon_pals RED,   YELLOW    ; ESPEON
-	icon_pals RED,   YELLOW    ; UMBREON
+	icon_pals BLUE,   RED    ; HAUNTLET
+	icon_pals BLUE,   RED    ; GLOST
 	icon_pals BROWN,   YELLOW    ; BISMUTT
 	icon_pals BLUE,   YELLOW   ; TIDO
 	icon_pals BROWN,   RED    ; MAULZER

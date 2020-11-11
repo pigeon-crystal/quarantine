@@ -185,8 +185,8 @@ NewPokedexOrder:
 	db GANZORAH
 	db JOLTEON
 	db FLAREON
-	db ESPEON
-	db UMBREON
+	db HAUNTLET
+	db GLOST
 	db OSCURASA
 	db MADRUGASA
 	db NAVIGAZER

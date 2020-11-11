@@ -1,6 +1,6 @@
 	db GLOST ; 
 
-	db  46,  61,  44,  121, 116,  111
+	db  46,  31,  41,  121, 116,  111
 	;   hp  atk  def  spd  sat  sdf
 
 	db ICE, GHOST ; type

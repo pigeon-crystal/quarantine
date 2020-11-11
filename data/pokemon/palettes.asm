@@ -402,10 +402,10 @@ INCBIN "gfx/pokemon/odditten/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/odditten/shiny.pal"
 INCBIN "gfx/pokemon/astrotom/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/astrotom/shiny.pal"
-INCBIN "gfx/pokemon/espeon/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/espeon/shiny.pal"
-INCBIN "gfx/pokemon/umbreon/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/umbreon/shiny.pal"
+INCBIN "gfx/pokemon/hauntlet/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/hauntlet/shiny.pal"
+INCBIN "gfx/pokemon/glost/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/glost/shiny.pal"
 INCBIN "gfx/pokemon/bismutt/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/bismutt/shiny.pal"
 INCBIN "gfx/pokemon/tido/front.gbcpal", middle_colors

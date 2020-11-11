@@ -760,27 +760,27 @@ JohtoGrassWildMons:
 	db 24, CADDISICLE
 	db 25, SNOSEBLEED
 	db 25, CADDISICLE
-	db 26, ESPEON ; ice ghost 1
-	db 22, ESPEON ; ice ghost 1
-	db 24, ESPEON ; ice ghost 1
+	db 26, HAUNTLET ; ice ghost 1
+	db 22, HAUNTLET ; ice ghost 1
+	db 24, HAUNTLET ; ice ghost 1
 	db 26, SNOWUP
 	db 28, JADDICE
 	; day
 	db 24, CADDISICLE
 	db 25, SNOSEBLEED
 	db 25, CADDISICLE
-	db 26, ESPEON ; ice ghost 1
-	db 22, ESPEON ; ice ghost 1
-	db 24, ESPEON ; ice ghost 1
+	db 26, HAUNTLET ; ice ghost 1
+	db 22, HAUNTLET ; ice ghost 1
+	db 24, HAUNTLET ; ice ghost 1
 	db 26, SNOWUP
 	db 28, JADDICE
 	; nite
 	db 24, CADDISICLE
 	db 25, SNOSEBLEED
 	db 25, CADDISICLE
-	db 26, ESPEON ; ice ghost 1
-	db 22, ESPEON ; ice ghost 1
-	db 24, ESPEON ; ice ghost 1
+	db 26, HAUNTLET ; ice ghost 1
+	db 22, HAUNTLET ; ice ghost 1
+	db 24, HAUNTLET ; ice ghost 1
 	db 26, SNOWUP
 	db 28, JADDICE
 
@@ -790,27 +790,27 @@ JohtoGrassWildMons:
 	db 24, CADDISICLE
 	db 25, SNOSEBLEED
 	db 25, CADDISICLE
-	db 26, ESPEON ; ice ghost 1
-	db 22, ESPEON ; ice ghost 1
-	db 24, ESPEON ; ice ghost 1
+	db 26, HAUNTLET ; ice ghost 1
+	db 22, HAUNTLET ; ice ghost 1
+	db 24, HAUNTLET ; ice ghost 1
 	db 26, YUKITTEN
 	db 28, SNOWUP
 	; day
 	db 24, CADDISICLE
 	db 25, SNOSEBLEED
 	db 25, CADDISICLE
-	db 26, ESPEON ; ice ghost 1
-	db 22, ESPEON ; ice ghost 1
-	db 24, ESPEON ; ice ghost 1
+	db 26, HAUNTLET ; ice ghost 1
+	db 22, HAUNTLET ; ice ghost 1
+	db 24, HAUNTLET ; ice ghost 1
 	db 26, YUKITTEN
 	db 28, SNOWUP
 	; nite
 	db 24, CADDISICLE
 	db 25, SNOSEBLEED
 	db 25, CADDISICLE
-	db 26, ESPEON ; ice ghost 1
-	db 22, ESPEON ; ice ghost 1
-	db 24, ESPEON ; ice ghost 1
+	db 26, HAUNTLET ; ice ghost 1
+	db 22, HAUNTLET ; ice ghost 1
+	db 24, HAUNTLET ; ice ghost 1
 	db 26, YUKITTEN
 	db 28, SNOWUP
 
@@ -820,27 +820,27 @@ JohtoGrassWildMons:
 	db 24, CADDISICLE
 	db 25, SNOSEBLEED
 	db 25, CADDISICLE
-	db 26, ESPEON ; ice ghost 1
-	db 22, ESPEON ; ice ghost 1
-	db 24, ESPEON ; ice ghost 1
+	db 26, HAUNTLET ; ice ghost 1
+	db 22, HAUNTLET ; ice ghost 1
+	db 24, HAUNTLET ; ice ghost 1
 	db 26, YUKITTEN
 	db 28, SNOWUP
 	; day
 	db 24, CADDISICLE
 	db 25, SNOSEBLEED
 	db 25, CADDISICLE
-	db 26, ESPEON ; ice ghost 1
-	db 22, ESPEON ; ice ghost 1
-	db 24, ESPEON ; ice ghost 1
+	db 26, HAUNTLET ; ice ghost 1
+	db 22, HAUNTLET ; ice ghost 1
+	db 24, HAUNTLET ; ice ghost 1
 	db 26, YUKITTEN
 	db 28, SNOWUP
 	; nite
 	db 24, CADDISICLE
 	db 25, SNOSEBLEED
 	db 25, CADDISICLE
-	db 26, ESPEON ; ice ghost 1
-	db 22, ESPEON ; ice ghost 1
-	db 24, ESPEON ; ice ghost 1
+	db 26, HAUNTLET ; ice ghost 1
+	db 22, HAUNTLET ; ice ghost 1
+	db 24, HAUNTLET ; ice ghost 1
 	db 26, YUKITTEN
 	db 28, SNOWUP
 
@@ -850,8 +850,8 @@ JohtoGrassWildMons:
 	db 24, CADDISICLE
 	db 25, SNOSEBLEED
 	db 25, SNOSEBLEED
-	db 26, ESPEON ; ice ghost 1
-	db 22, ESPEON ; ice ghost 1
+	db 26, HAUNTLET ; ice ghost 1
+	db 22, HAUNTLET ; ice ghost 1
 	db 24, YUKITTEN
 	db 26, SNOWUP
 	db 28, SNOWUP
@@ -859,8 +859,8 @@ JohtoGrassWildMons:
 	db 24, CADDISICLE
 	db 25, SNOSEBLEED
 	db 25, SNOSEBLEED
-	db 26, ESPEON ; ice ghost 1
-	db 22, ESPEON ; ice ghost 1
+	db 26, HAUNTLET ; ice ghost 1
+	db 22, HAUNTLET ; ice ghost 1
 	db 24, YUKITTEN
 	db 26, SNOWUP
 	db 28, SNOWUP
@@ -868,8 +868,8 @@ JohtoGrassWildMons:
 	db 24, CADDISICLE
 	db 25, SNOSEBLEED
 	db 25, SNOSEBLEED
-	db 26, ESPEON ; ice ghost 1
-	db 22, ESPEON ; ice ghost 1
+	db 26, HAUNTLET ; ice ghost 1
+	db 22, HAUNTLET ; ice ghost 1
 	db 24, YUKITTEN
 	db 26, SNOWUP
 	db 28, SNOWUP
@@ -880,27 +880,27 @@ JohtoGrassWildMons:
 	db 24, CADDISICLE
 	db 25, SNOSEBLEED
 	db 25, SNOSEBLEED
-	db 26, ESPEON ; ice ghost 1
+	db 26, HAUNTLET ; ice ghost 1
 	db 22, YUKITTEN
-	db 24, ESPEON ; ice ghost 1
+	db 24, HAUNTLET ; ice ghost 1
 	db 26, SNOWUP
 	db 28, SNOWUP
 	; day
 	db 24, CADDISICLE
 	db 25, SNOSEBLEED
 	db 25, SNOSEBLEED
-	db 26, ESPEON ; ice ghost 1
+	db 26, HAUNTLET ; ice ghost 1
 	db 22, YUKITTEN
-	db 24, ESPEON ; ice ghost 1
+	db 24, HAUNTLET ; ice ghost 1
 	db 26, SNOWUP
 	db 28, SNOWUP
 	; nite
 	db 24, CADDISICLE
 	db 25, SNOSEBLEED
 	db 25, SNOSEBLEED
-	db 26, ESPEON ; ice ghost 1
+	db 26, HAUNTLET ; ice ghost 1
 	db 22, YUKITTEN
-	db 24, ESPEON ; ice ghost 1
+	db 24, HAUNTLET ; ice ghost 1
 	db 26, SNOWUP
 	db 28, SNOWUP
 
@@ -1571,7 +1571,7 @@ JohtoGrassWildMons:
 	db 18, FURDOBA
 	db 18, HEXAHED
 	db 17, PEAUTY
-	db 17, ESPEON ; ice ghost stand-in
+	db 17, HAUNTLET ; ice ghost stand-in
 	db 18, SWAZZAGE
 	db 18, SWAZZAGE
 	db 18, PEAUTY
@@ -1580,7 +1580,7 @@ JohtoGrassWildMons:
 	db 18, FURDOBA
 	db 18, HEXAHED
 	db 17, PEAUTY
-	db 17, ESPEON ; ice ghost stand-in
+	db 17, HAUNTLET ; ice ghost stand-in
 	db 18, SWAZZAGE
 	db 18, SWAZZAGE
 	db 18, PEAUTY
@@ -1589,7 +1589,7 @@ JohtoGrassWildMons:
 	db 18, FURDOBA
 	db 18, HEXAHED
 	db 17, PEAUTY
-	db 17, ESPEON ; ice ghost stand-in
+	db 17, HAUNTLET ; ice ghost stand-in
 	db 18, SWAZZAGE
 	db 18, SWAZZAGE
 	db 18, PEAUTY
@@ -1752,8 +1752,8 @@ JohtoGrassWildMons:
 	db 22, MESSMASH		; CAG 
 	db 24, ARASBESTOS
 	db 24, PURRAATZLE
-	db 26, ESPEON 		; Stand-in for llama
-	db 26, ESPEON		; Stand-in for llama
+	db 26, HAUNTLET 		; Stand-in for llama
+	db 26, HAUNTLET		; Stand-in for llama
 	db 28, PURRAATZLE
 	; day
 	db 23, ANTPYRE
@@ -1770,8 +1770,8 @@ JohtoGrassWildMons:
 	db 22, MESSMASH		; CAG 
 	db 24, ARASBESTOS
 	db 24, PURRAATZLE
-	db 26, ESPEON 		; Stand-in for ice ghost 1
-	db 26, ESPEON		; Stand-in for ice ghost 1
+	db 26, HAUNTLET 		; Stand-in for ice ghost 1
+	db 26, HAUNTLET		; Stand-in for ice ghost 1
 	db 28, VOYAPOD
 
 	map_id ROUTE_45 ;done

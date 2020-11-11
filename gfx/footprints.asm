@@ -445,8 +445,8 @@ INCBIN "gfx/footprints/brigadoom.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/arasbestos.1bpp",      footprint_top
 INCBIN "gfx/footprints/odditten.1bpp",     footprint_top
 INCBIN "gfx/footprints/astrotom.1bpp",   footprint_top
-INCBIN "gfx/footprints/espeon.1bpp",     footprint_top
-INCBIN "gfx/footprints/umbreon.1bpp",    footprint_top
+INCBIN "gfx/footprints/hauntlet.1bpp",     footprint_top
+INCBIN "gfx/footprints/glost.1bpp",    footprint_top
 INCBIN "gfx/footprints/bismutt.1bpp",    footprint_top
 INCBIN "gfx/footprints/tido.1bpp",   footprint_top
 INCBIN "gfx/footprints/maulzer.1bpp", footprint_top
@@ -454,8 +454,8 @@ INCBIN "gfx/footprints/maulzer.1bpp", footprint_top
 INCBIN "gfx/footprints/arasbestos.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/odditten.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/astrotom.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/espeon.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/umbreon.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/hauntlet.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/glost.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/bismutt.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/tido.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/maulzer.1bpp", footprint_bottom

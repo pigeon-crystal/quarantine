@@ -2813,12 +2813,12 @@ AstrotomEvosAttacks:
 	db 57, MOONBLAST	
 	db 0 ; no more level-up moves
 
-EspeonEvosAttacks:
+HauntletEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves
 
-UmbreonEvosAttacks:
+GlostEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves

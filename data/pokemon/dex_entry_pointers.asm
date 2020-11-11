@@ -195,8 +195,8 @@ PokedexDataPointerTable:
 	dw ArasbestosPokedexEntry
 	dw OddittenPokedexEntry
 	dw AstrotomPokedexEntry
-	dw EspeonPokedexEntry
-	dw UmbreonPokedexEntry
+	dw HauntletPokedexEntry
+	dw GlostPokedexEntry
 	dw BismuttPokedexEntry
 	dw TidoPokedexEntry
 	dw MaulzerPokedexEntry

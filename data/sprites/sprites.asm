@@ -135,4 +135,5 @@ OverworldSprites:
 	overworld_sprite MoradayChunk4GFX, 4, STILL_SPRITE, PAL_OW_BLUE
 	overworld_sprite MintSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite MarkSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite PotionSpriteGFX, 4, STILL_SPRITE, PAL_OW_RED
 	

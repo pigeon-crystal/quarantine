@@ -200,8 +200,8 @@ PokemonCries::
 	mon_cry CRY_VENONAT,     -49,  304 ; ARASBESTOS
 	mon_cry CRY_WOOPER,      147,  175 ; ODDITTEN
 	mon_cry CRY_WOOPER,     -198,  320 ; ASTROTOM
-	mon_cry CRY_AIPOM,       162,  320 ; ESPEON
-	mon_cry CRY_VENONAT,    -233,  240 ; UMBREON
+	mon_cry CRY_AIPOM,       162,  320 ; HAUNTLET
+	mon_cry CRY_VENONAT,    -233,  240 ; GLOST
 	mon_cry CRY_MARILL,      -50,  222 ; BISMUTT
 	mon_cry CRY_CYNDAQUIL,   145,  120 ; TIDO
 	mon_cry $32,			$0DF6, $01F0 ; MAULZER

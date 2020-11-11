@@ -196,8 +196,8 @@ EvosAttacksPointers::
 	dw ArasbestosEvosAttacks
 	dw OddittenEvosAttacks
 	dw AstrotomEvosAttacks
-	dw EspeonEvosAttacks
-	dw UmbreonEvosAttacks
+	dw HauntletEvosAttacks
+	dw GlostEvosAttacks
 	dw BismuttEvosAttacks
 	dw TidoEvosAttacks
 	dw MaulzerEvosAttacks

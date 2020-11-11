@@ -131,6 +131,7 @@
 	const SPRITE_MORADAY_CHUNK4
 	const SPRITE_MINT
 	const SPRITE_MARK
+	const SPRITE_POTION
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm) TODO cleanup Spritemons
 ;	const_def $a0

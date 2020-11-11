@@ -637,15 +637,17 @@ ArasbestosEggMoves:
 
 OddittenEggMoves:
 	db BODY_SLAM
-	db ANCIENTPOWER
+	db POWER_GEM
+	db BUG_BUZZ
 	db SAFEGUARD
 	db -1 ; end
 
-EspeonEggMoves:
+HauntletEggMoves:
 	db ICE_BEAM
 	db PRESENT
 	db RETURN
 	db FORESIGHT
+	db MACH_PUNCH
 	db -1
 
 BismuttEggMoves:
@@ -693,6 +695,7 @@ ShreddrakeEggMoves:
 	db PURSUIT
 	db FLASH_CANNON
 	db DRAGON_DANCE
+	db FROSTBITE
 	db -1 ; end
 
 ForretressEggMoves:

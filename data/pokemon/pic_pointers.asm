@@ -392,10 +392,10 @@ PokemonPicPointers::
 	dba_pic OddittenBackpic
 	dba_pic AstrotomFrontpic
 	dba_pic AstrotomBackpic
-	dba_pic EspeonFrontpic
-	dba_pic EspeonBackpic
-	dba_pic UmbreonFrontpic
-	dba_pic UmbreonBackpic
+	dba_pic HauntletFrontpic
+	dba_pic HauntletBackpic
+	dba_pic GlostFrontpic
+	dba_pic GlostBackpic
 	dba_pic BismuttFrontpic
 	dba_pic BismuttBackpic
 	dba_pic TidoFrontpic

@@ -53,7 +53,7 @@ AlphabeticalPokedexOrder:
 	db DJAMM
 	db ELEKID
 	db ELEPHOOT
-	db ESPEON
+	db HAUNTLET
 	db EUKUB
 	db EXOTUNITY
 	db EYECHOSIS
@@ -226,7 +226,7 @@ AlphabeticalPokedexOrder:
 	db TRANQUIEL
 	db SNOKAGE
 	db TYROGUE
-	db UMBREON
+	db GLOST
 	db UNOWN
 	db URSKIMO
 	db GANZORAH
