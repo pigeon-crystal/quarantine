@@ -46,7 +46,7 @@ CinnabarIslandBlueText:
 	line "to see that you're"
 	cont "a trainer…"
 
-	para "My name's BLUE."
+	para "My name's GREEN."
 
 	para "I was once the"
 	line "CHAMPION, although"

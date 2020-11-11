@@ -748,8 +748,10 @@ KRIS EQU __enum__
 	trainerclass IMAKUNI ; 52
 	
 	trainerclass DELINQUENT_M ; 53
+	const CHUSUKE
 	
 	trainerclass DELINQUENT_F ; 54
+	const CHERRY
 	
 	trainerclass ULTRAMAN ; 55
 	

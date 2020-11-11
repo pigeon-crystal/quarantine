@@ -199,6 +199,7 @@ CherrygroveGymSpeechHouse_Blocks:
 GuideGentsHouse_Blocks:
 CherrygroveEvolutionSpeechHouse_Blocks:
 Route30BerryHouse_Blocks:
+YotsubasHouse_Blocks:
 	INCBIN "maps/House1.blk"
 
 SafariZoneFuchsiaGateBeta_Blocks:
@@ -1054,6 +1055,12 @@ CianwoodDunesCave_Blocks:
 	
 CianwoodDunes_Blocks:
 	INCBIN "maps/CianwoodDunes.blk"
+	
+CianwoodDunesCoast_Blocks:
+	INCBIN "maps/CianwoodDunesCoast.blk"
+	
+CianwoodDunesCoastCave_Blocks:
+	INCBIN "maps/CianwoodDunesCoastCave.blk"
 	
 DragonsDepths1F_Blocks:
 	INCBIN "maps/DragonsDepths1F.blk"

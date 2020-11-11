@@ -52,9 +52,15 @@ PosterScript:
 
 PlayersHouseRadioScript:
 	setflag ENGINE_POKEDEX
-	givepoke MA_0, 100
-	givepoke EELKIE, 50
-	warp NATIONAL_PARK, 10, 45
+	givepoke SQUEENIE, 60
+	givepoke NOXROMAEUS, 40
+	setflag ENGINE_FOGBADGE
+	setflag ENGINE_RISINGBADGE
+	giveitem TM_TWISTER
+	giveitem TM_REST
+	giveitem HM_SURF
+	giveitem HM_WATERFALL
+	warp CIANWOOD_DUNES_COAST, 17, 28
 	end
 	
 ;PlayersHouseRadioScript:

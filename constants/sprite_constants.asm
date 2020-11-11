@@ -137,26 +137,26 @@
 ;	const_def $a0
 SPRITE_POKEMON EQU const_value
 	const SPRITE_UNOWN ; a0
-	const SPRITE_DOLMITE ; 81   	dolmite
-	const SPRITE_HAPPIG ; 82   	happig
-	const SPRITE_WEEDLE ; 83   		hoatot
-	const SPRITE_SHELLDER ; 84
-	const SPRITE_EUKUB ; 85   		eukub
-	const SPRITE_GENGAR ; 86		pitayrant
+	const SPRITE_DOLMITE ;    	
+	const SPRITE_HAPPIG ;    	
+	const SPRITE_HOATOT ; 83   		
+	const SPRITE_SHELLDER ; 
+	const SPRITE_EUKUB ; 85   		
+	const SPRITE_PITAYRANT ; 86		
 	const SPRITE_ZUBAT ; 87			stinpeon
 	const SPRITE_MAGIKARP ; 88
 	const SPRITE_SQUIRTLE ; 89
 	const SPRITE_TOGEPI ; 8a		tranquiel
-	const SPRITE_BUTTERFREE ; 8b
-	const SPRITE_DIGLETT ; 8c
-	const SPRITE_POLIWAG ; 8d
+	const SPRITE_BUTTERFREE ; 8b    vazzinate
+	const SPRITE_DIGLETT ; 8c		mumini
+	const SPRITE_POLIWAG ; 8d		cremigo
 	const SPRITE_PIKACHU ; 8e
-	const SPRITE_CLEFAIRY ; 8f
-	const SPRITE_CHARMANDER ; 90
-	const SPRITE_JYNX ; 91
+	const SPRITE_NYALLEY ; 		
+	const SPRITE_CHARMANDER ; b0
+	const SPRITE_JYNX ; 
 	const SPRITE_STARMIE ; 92
 	const SPRITE_BULBASAUR ; 93
-	const SPRITE_JIGGLYPUFF ; 94
+	const SPRITE_HEXAHED ; 94
 	const SPRITE_GRIMER ; 95
 	const SPRITE_EKANS ; 96
 	const SPRITE_PARAS ; 97
@@ -166,7 +166,7 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_VOLTORB ; 9b
 	const SPRITE_LAPRAS ; 9c
 	const SPRITE_RHYDON ; 9d
-	const SPRITE_MOLTRES ; 9e
+	const SPRITE_BLAZENBULL ; 9e
 	const SPRITE_SNORLAX ; 9f
 	const SPRITE_GYARADOS ; a0
 	const SPRITE_AVATRICE ; a1
@@ -184,11 +184,14 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_NAVIGAZER ; ad
 	const SPRITE_RYUNARI ; ae
 	const SPRITE_BERMUDANT ; af
-	const SPRITE_BAAFOMET ; b0
+	const SPRITE_BAAFOMET ; d0
 	const SPRITE_MT_NOOT ; b1
 	const SPRITE_DJAMM ; b2
 	const SPRITE_MURDERMIS ; b3
 	const SPRITE_VEGETEBAA ; d4
+	const SPRITE_CRUSTAZER ; d5
+	const SPRITE_FURNIT
+	const SPRITE_EYECHOSIS
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)
 	const_def $ee

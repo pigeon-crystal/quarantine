@@ -53,4 +53,7 @@ SpriteMons:
 	db DJAMM
 	db MURDERMIS
 	db VEGETEBAA
+	db CRUSTAZER
+	db FURNIT
+	db EYECHOSIS
 	

@@ -53,6 +53,8 @@ TMHMMoves:
 	db NIGHTMARE
 	db FALSE_SWIPE
 	db SNARL
+	db SPARK
+	db TWISTER
 ; HMs
 	db CUT
 	db FLY

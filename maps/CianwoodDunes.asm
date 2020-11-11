@@ -1,4 +1,7 @@
 	object_const_def
+	const CIANWOODDUNES_POKE_BALL_1
+	const CIANWOODDUNES_POKE_BALL_2
+	const CIANWOODDUNES_POKE_BALL_3
 	
 
 CianwoodDunes_MapScripts:

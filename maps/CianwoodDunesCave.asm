@@ -2,6 +2,11 @@
 	const CIANWOODDUNESCAVE_GURU_GOJEE
 	const CIANWOODDUNESCAVE_ROCK1
 	const CIANWOODDUNESCAVE_ROCK2
+	const CIANWOODDUNESCAVE_DELINQUENT_M
+	const CIANWOODDUNESCAVE_DELINQUENT_F
+	const CIANWOODDUNESCAVE_POKE_BALL_1
+	const CIANWOODDUNESCAVE_POKE_BALL_2
+	const CIANWOODDUNESCAVE_ROCK3
 
 CianwoodDunesCave_MapScripts:
 	db 0 ;scene scripts
@@ -33,7 +38,7 @@ GuruGojeeSeenText:
 	
 	para "But my #MON…"
 	line "will help me…"
-	line "see the sun…"
+	next "see the sun…"
 	done
 	
 GuruGojeeBeatenText:
@@ -51,7 +56,75 @@ GuruGojeeAfterBattleText:
 	para "………"
 	done
 	
-CianwoodDunesSurfer:
+TrainerDelinquentFCherry:
+	trainer DELINQUENT_F, CHERRY, EVENT_BEAT_DELINQUENT_F_CHERRY, CherrySeenText, CherryBeatenText, 0, .Script
+
+.Script
+	endifjustbattled
+	opentext
+	writetext CherryAfterBattleText
+	closetext
+	end
+	
+CherrySeenText:
+	text "Hey, punk!"
+	
+	para "Whaddya think "
+	line "you're doin' here?"
+	done
+	
+CherryBeatenText:
+	text "WHAT? No way!"
+	done
+	
+CherryAfterBattleText:
+	text "CHUSUKE and I"
+	line "act tough, but"
+	
+	para "quite a few people"
+	line "get past us on"
+	
+	para "the way to the"
+	line "DUNES proper…"
+	done
+	
+TrainerDelinquentMChusuke:
+	trainer DELINQUENT_M, CHUSUKE, EVENT_BEAT_DELINQUENT_M_CHUSUKE, ChusukeSeenText, ChusukeBeatenText, 0, .Script
+	
+.Script
+	endifjustbattled
+	opentext
+	writetext ChusukeAfterBattleText
+	closetext
+	end
+
+ChusukeSeenText:
+	text "Oi! You!"
+	line "Yeah, you!"
+	
+	para "You're on my"
+	line "turf!"
+	done
+	
+ChusukeBeatenText:
+	text "What a wallop!"
+	done
+	
+ChusukeAfterBattleText:
+	text "You're not bad."
+	
+	para "But get outta my"
+	line "sight before I"
+	cont "lose my cool."
+
+CianwoodDunesCaveOddAmber:
+	itemball ODD_AMBER
+	
+CianwoodDunesCaveSunStone:
+	itemball SUN_STONE
+	
+DunesCaveHiddenMoonStone:
+	hiddenitem MOON_STONE, EVENT_CIANWOOD_DUNES_CAVE_HIDDEN_MOON_STONE
 	
 CianwoodDunesCave_MapEvents:
 	db 0, 0 ; filler
@@ -62,10 +135,15 @@ CianwoodDunesCave_MapEvents:
 
 	db 0 ; coord_events 
 
-	db 0 ; bg events 
+	db 1 ; bg events 
+	bg_event 6, 2, BGEVENT_ITEM, DunesCaveHiddenMoonStone
 
-	db 3 ;obj events
+	db 8 ;obj events
 	object_event	21, 10, SPRITE_GURU, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 2, TrainerGuruGojee, -1
 	object_event  	20, 24, SPRITE_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CianwoodDunesCaveRock, -1
 	object_event  	19, 11, SPRITE_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CianwoodDunesCaveRock, -1
-
+	object_event	18, 20, SPRITE_DELINQUENT_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, TrainerDelinquentMChusuke, -1
+	object_event	 4, 24, SPRITE_DELINQUENT_F, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, TrainerDelinquentFCherry, -1
+	object_event    26, 17, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CianwoodDunesCaveOddAmber, EVENT_CIANWOOD_DUNES_CAVE_ODD_AMBER 
+	object_event     3, 10, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CianwoodDunesCaveSunStone, EVENT_CIANWOOD_DUNES_CAVE_SUN_STONE
+	object_event	 7,  4, SPRITE_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CianwoodDunesCaveRock, -1

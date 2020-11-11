@@ -497,6 +497,9 @@ ENDM
 	
 	map_const CIANWOOD_DUNES_CAVE,							18, 14 ; 1
 	map_const CIANWOOD_DUNES,								15, 20 ; 2
+	map_const CIANWOOD_DUNES_COAST,							13, 20 ; 3
+	map_const CIANWOOD_DUNES_COAST_CAVE,					11, 13 ; 4
+	map_const YOTSUBAS_HOUSE, 								 4,  4 ; 5	
 
 	newgroup
 	
