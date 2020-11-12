@@ -160,6 +160,7 @@ INCLUDE "audio/music/championpinch.asm"
 SECTION "QTDex Songs 2", ROMX
 
 INCLUDE "audio/music/yotsuba.asm"
+INCLUDE "audio/music/lookdemonlady.asm"
 
 SECTION "Sound Effects", ROMX
 

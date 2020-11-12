@@ -124,6 +124,7 @@
 	const MUSIC_FINAL_HOURS					 ; 74
 	const MUSIC_CHAMPION_PINCH				 ; 75
 	const MUSIC_YOTSUBA						 ; 76
+	const MUSIC_DEMON_ENCOUNTER				 ; 77
 
 ; GetMapMusic picks music for these values (see home/map.asm)
 MUSIC_MAHOGANY_MART EQU $fc

@@ -122,4 +122,5 @@ Music:
 	dba Music_FinalHours
 	dba Music_ChampionPinch
 	dba Music_Yotsuba
+	dba Music_LookDemonLady
 	

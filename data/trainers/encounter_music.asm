@@ -58,18 +58,18 @@ TrainerEncounterMusic::
 	db MUSIC_LASS_ENCOUNTER        ; picnicker
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; camper
 	db MUSIC_ENFORCER_ENCOUNTER      ; executivef
-	db MUSIC_SAGE_ENCOUNTER        ; sage
-	db MUSIC_SAGE_ENCOUNTER        ; medium
-	db MUSIC_HIKER_ENCOUNTER       ; boarder
-	db MUSIC_HIKER_ENCOUNTER       ; pokefanm
-	db MUSIC_KIMONO_ENCOUNTER      ; kimono_girl
-	db MUSIC_LASS_ENCOUNTER        ; twins
-	db MUSIC_BEAUTY_ENCOUNTER      ; pokefanf
-	db MUSIC_HIKER_ENCOUNTER       ; red
-	db MUSIC_RIVAL_ENCOUNTER       ; blue
-	db MUSIC_HIKER_ENCOUNTER       ; officer
-	db MUSIC_ROCKET_ENCOUNTER      ; gruntf
-	db MUSIC_HIKER_ENCOUNTER       ; mysticalman
+	db MUSIC_SAGE_ENCOUNTER        	; sage
+	db MUSIC_SAGE_ENCOUNTER        	; medium
+	db MUSIC_HIKER_ENCOUNTER       	; boarder
+	db MUSIC_HIKER_ENCOUNTER       	; pokefanm
+	db MUSIC_KIMONO_ENCOUNTER      	; kimono_girl
+	db MUSIC_LASS_ENCOUNTER        	; twins
+	db MUSIC_BEAUTY_ENCOUNTER      	; pokefanf
+	db MUSIC_HIKER_ENCOUNTER       	; red
+	db MUSIC_RIVAL_ENCOUNTER       	; blue
+	db MUSIC_HIKER_ENCOUNTER       	; officer
+	db MUSIC_ROCKET_ENCOUNTER      	; gruntf
+	db MUSIC_HIKER_ENCOUNTER       	; mysticalman
 	db MUSIC_POKEMANIAC_ENCOUNTER  	; wizard
 	db MUSIC_SAGE_ENCOUNTER	 	   	; guru
 	db MUSIC_CHEATER_ENCOUNTER  	; cheater
@@ -86,16 +86,16 @@ TrainerEncounterMusic::
 	db MUSIC_POKEMANIAC_ENCOUNTER	; Kaiju
 	db MUSIC_IMAKUNI_ENCOUNTER		; Imakuni
 	db MUSIC_POKEMANIAC_ENCOUNTER	; Delinquent M
-	db MUSIC_POKEMANIAC_ENCOUNTER   ; Delinquent F
+	db MUSIC_DEMON_ENCOUNTER   		; Delinquent F
 	db MUSIC_OFFICER_ENCOUNTER		; Ultraman
-	db MUSIC_SAGE_ENCOUNTER			; Demon
+	db MUSIC_DEMON_ENCOUNTER		; Demon
 	db MUSIC_ENFORCER_ENCOUNTER		; Mastermind
 	db MUSIC_HIKER_ENCOUNTER		; breeder m
 	db MUSIC_SAGE_ENCOUNTER			; breeder f
 	db MUSIC_BEAUTY_ENCOUNTER		; nurse
 	db MUSIC_POKEMANIAC_ENCOUNTER   ; mutant
 	db MUSIC_POKEMANIAC_ENCOUNTER   ; bill
-	db MUSIC_ROCKET_ENCOUNTER		; sukeban
-	db MUSIC_SAGE_ENCOUNTER			; spellcaster
+	db MUSIC_DEMON_ENCOUNTER		; sukeban
+	db MUSIC_DEMON_ENCOUNTER		; spellcaster
 	db MUSIC_LASS_ENCOUNTER			; yotsuba
 	
