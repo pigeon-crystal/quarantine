@@ -2139,6 +2139,14 @@ SwimmerMGroup:
 	db 35, MADRUGASA
 	db -1 ; end
 
+	; SWIMMERM (22) Cianwood Dunes
+	db "DALTON@", TRAINERTYPE_NORMAL
+	db 35, SQWUCKY
+	db 35, VAZZINATE
+	db 35, BOBBITRAP
+	db -1 ; end
+	
+
 SwimmerFGroup:
 	; SWIMMERF (1) Route 40
 	db "ELAINE@", TRAINERTYPE_NORMAL
@@ -2248,6 +2256,13 @@ SwimmerFGroup:
 	db 35, GANZERKER
 	db -1 ; end
 
+	; SWIMMERF (20)
+	db "WILLOW@", TRAINERTYPE_NORMAL
+	db 35, PIKACHU
+	db 35, SHRIMPANZI
+	db 35, DOLMESA
+	db -1 ; end
+	
 SailorGroup:
 	; SAILOR (1) Route 39
 	db "EUGENE@", TRAINERTYPE_NORMAL
@@ -3874,20 +3889,40 @@ CheaterGroup:
 EnforcerGroup:
 	; ENFORCER (1) Well Boss
 	db "ENFORCER@", TRAINERTYPE_ITEM
-	db 17, NOMSTER, BERRY
+	db 17, NOMSTER, NO_ITEM
 	db 17, CUTTLE, NO_ITEM
-	db 19, CLIBBLE, NO_ITEM
+	db 19, CLIBBLE, BERRY
 	db 18, STRANGLURE, BERRY
 	db -1 ; end
 
 AthleteFGroup:
-
+; ATHELETE F (1) Cianwood Dunes
+	db "AVA@", TRAINERTYPE_ITEM	
+	db 40, MORADAY, KINGS_ROCK
+	db 40, ASTROTOM, KINGS_ROCK
+	db 40, TODESCOOL, NO_ITEM
+	db -1 ;end 
+	
 AthleteMGroup:
 
 FanaticRedGroup:
+; FANATIC_RED (1) Cianwood Dunes
+	db "YAMATO@", TRAINERTYPE_ITEM
+	db 40, LEAFFIGY, PINK_BOW
+	db 40, ZEPPLIUM, PINK_BOW
+	db 40, FELIORITTE, POLKADOT_BOW
+	db 40, MT_NOOT, POLKADOT_BOW
+	db -1
 
 FanaticBlueGroup:
-
+; FANATIC_BLUE (1) Cianwood Dunes
+	db "SAIJO@", TRAINERTYPE_NORMAL
+	db 40, BUNDEGRAF
+	db 40, NANUQUA
+	db 40, HELACTAL
+	db 40, NIMBOCETUS
+	db -1 ; end
+	
 WarriorGroup:
 ; WARRIOR (1) Dragon's Depths 1F
 	db "MURAI@", TRAINERTYPE_ITEM
@@ -3909,7 +3944,7 @@ WarriorGroup:
 	db 40, POLITOED, GOLD_BERRY ;placeholder for dark hat
 	db 40, KRAKENTOA, BURNT_BERRY
 	db 40, YUGGROMI, BURNT_BERRY
-	db 40, BLASPHERMY, BLACKBELT_I ;placeholder for CAG
+	db 40, BLASPHERMY, BLACKBELT_I
 	db -1 ; end
 
 ; WARRIOR (4) Dragon's Depths B1F
@@ -3995,6 +4030,14 @@ DelinquentMGroup:
 	db 40, NOXROMAEUS, 	POISON_BARB, 	NASTY_PLOT, SLUDGE_BOMB, TOXIC, TWISTER
 	db 40, MESSMASH, 	BLACKBELT_I, 	KARATE_CHOP, BITE, DETECT, COMET_PUNCH
 	db 40, HORNAMPA,    SHARP_BEAK,		WING_ATTACK, BARRIER, MUD_SLAP, STEEL_WING
+	db -1 ; end
+	
+; DELINQUENT M (2) Cianwood Dunes
+	db "TAKEO@", TRAINERTYPE_ITEM
+	db 40, EYECHOSIS, BLACKBELT_I
+	db 40, BLASPHERMY, PINK_BOW
+	db 40, ONIONI, PINK_BOW
+	db 40, POCALYPTUS, PINK_BOW
 	db -1 ; end
 	
 DelinquentFGroup:

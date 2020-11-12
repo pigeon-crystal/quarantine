@@ -395,6 +395,7 @@ KRIS EQU __enum__
 	const JAMES
 	const LEWIS
 	const PARKER
+	const DALTON
 
 	trainerclass SWIMMERF ; 27
 	const ELAINE
@@ -416,6 +417,7 @@ KRIS EQU __enum__
 	const NIKKI
 	const DIANA
 	const BRIANA
+	const WILLOW
 
 	trainerclass SAILOR ; 28
 	const EUGENE
@@ -718,12 +720,15 @@ KRIS EQU __enum__
 	const ENFORCER_1
 	
 	trainerclass ATHLETE_F ; 48
+	const AVA
 	
 	trainerclass ATHLETE_M ; 49
 	
 	trainerclass FANATIC_RED ; 4a
+	const YAMATO_TRAINER
 	
 	trainerclass FANATIC_BLUE ; 4b
+	const SAIJO
 	
 	trainerclass WARRIOR ; 4c 
 	const MURAI
@@ -749,6 +754,7 @@ KRIS EQU __enum__
 	
 	trainerclass DELINQUENT_M ; 53
 	const CHUSUKE
+	const TAKEO
 	
 	trainerclass DELINQUENT_F ; 54
 	const CHERRY

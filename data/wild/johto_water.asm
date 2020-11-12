@@ -274,7 +274,7 @@ JohtoWaterWildMons:
 	db 35, PRAWMATE
 	db 40, SQWUCKY
 	db 35, PRAWMATE
-	db 44, BOWLIDE
+	db 44, SQWUCKY
 
 	map_id CIANWOOD_DUNES ;done
 	db 6 percent ; encounter rate
@@ -282,6 +282,20 @@ JohtoWaterWildMons:
 	db 40, STRANGLURE
 	db 35, SQWUCKY
 	db 44, UPWHALE
+	
+	map_id CIANWOOD_DUNES_COAST ;done
+	db 6 percent ; encounter rate
+	db 35, PRAWMATE
+	db 40, STRANGLURE
+	db 35, SQWUCKY
+	db 44, UPWHALE
+	
+	map_id CIANWOOD_DUNES_COAST_CAVE ;done
+	db 4 percent ; encounter rate
+	db 35, PRAWMATE
+	db 40, SQWUCKY
+	db 35, BOWLIDE
+	db 44, BOWLIDE
 	
 	map_id DRAGONS_DEPTHS_B1F
 	db 5 percent ; encounter rate

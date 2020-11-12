@@ -1924,6 +1924,36 @@ JohtoGrassWildMons:
 	db 37, AERODACTYL ; stand-in for Wellwitchsia
 	db 37, CANTALONE  
 	
+	map_id CIANWOOD_DUNES_COAST_CAVE ; done
+	db 7 percent, 7 percent, 7 percent ; encounter rates: morn/day/nite
+	; morn
+	db 35, DOLMESA
+	db 35, BOBBITE
+	db 35, BISMUTT
+	db 36, BISMUTT
+	db 35, EYECHOSIS
+	db 35, EYECHOSIS
+	db 37, EYECHOSIS
+	db 37, EYECHOSIS
+	; day
+	db 35, DOLMESA
+	db 35, BOBBITE
+	db 35, BISMUTT
+	db 36, BISMUTT
+	db 35, EYECHOSIS
+	db 35, EYECHOSIS
+	db 37, EYECHOSIS
+	db 37, EYECHOSIS
+	; nite
+	db 35, DOLMESA
+	db 35, BOBBITE
+	db 35, BISMUTT
+	db 36, EYECHOSIS
+	db 35, BISMUTT
+	db 35, RESPECTRE
+	db 37, RESPECTRE
+	db 37, RESPECTRE
+	
 	map_id DRAGONS_DEPTHS_1F
 	db 5 percent, 5 percent, 5 percent
 	; morn

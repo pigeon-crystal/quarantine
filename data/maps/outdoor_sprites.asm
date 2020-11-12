@@ -214,10 +214,9 @@ CianwoodDunesGroupSprites:
 	db SPRITE_BUENA
 	db SPRITE_SWIMMER_GIRL
 	db SPRITE_FANATIC
-	db SPRITE_POKEFAN_F
-	db SPRITE_GURU
 	db SPRITE_DELINQUENT_F
 	db SPRITE_DELINQUENT_M
+	db SPRITE_ATHLETE_F
 	; 8 of max 9 walking sprites
 	db SPRITE_ROCK
 	db SPRITE_POKE_BALL
@@ -273,7 +272,8 @@ MahoganyGroupSprites:
 	db SPRITE_POKEFAN_M
 	db SPRITE_COOLTRAINER_F
 	db SPRITE_FISHER
-	; 8 of max 9 walking sprites
+	db SPRITE_ATHLETE_M
+	; 9 of max 9 walking sprites
 	db SPRITE_FRUIT_TREE
 	db SPRITE_POKE_BALL
 	db SPRITE_SUICUNE
