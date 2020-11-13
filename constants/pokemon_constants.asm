@@ -160,7 +160,7 @@
 	const BEHEMOTHRA ; 8b
 	const BELLOCEROS ; 8c
 	const SUBCEROS   ; 8d 
-	const AERODACTYL ; 8e Wellwitchsia
+	const WELLWITCH ; 8e Wellwitchsia
 	const THERAZOR   ; 8f 
 	const ARTICUNO   ; 90 horn trio
 	const ZAPDOS     ; 91 horn trio
@@ -269,7 +269,7 @@ JOHTO_POKEMON EQU const_value
 	const FLURIKEN   ; f7
 	const SNOKAGE    ; f8
 	const AVATRICE   ; f9
-	const HO_OH      ; fa donchan
+	const DONUKAME      ; fa donchan
 	const TENTAQUIL  ; fb 
 	const PILFOARD	 ; fc
 NUM_POKEMON EQU const_value - 1

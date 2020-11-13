@@ -140,7 +140,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw BellocerosEggMoves
 	dw NoEggMoves
-	dw AerodactylEggMoves
+	dw WellwitchEggMoves
 	dw TherazorEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

@@ -185,7 +185,7 @@ BattleTowerMons1:
 	bigdw 26 ; SDef
 	db "MIRUTANKU@@"
 
-	db AERODACTYL
+	db WELLWITCH
 	db LEFTOVERS
 	db HYPER_BEAM, SUPERSONIC, EARTHQUAKE, BITE
 	dw 0 ; OT ID
@@ -760,7 +760,7 @@ BattleTowerMons2:
 	bigdw 46 ; SDef
 	db "NAtuSI-@@@@"
 
-	db AERODACTYL
+	db WELLWITCH
 	db GOLD_BERRY
 	db REST, HYPER_BEAM, EARTHQUAKE, SONICBOOM
 	dw 0 ; OT ID
@@ -2511,7 +2511,7 @@ BattleTowerMons5:
 	bigdw 126 ; SDef
 	db "MARUMAIN@@@"
 
-	db AERODACTYL
+	db WELLWITCH
 	db KINGS_ROCK
 	db HYPER_BEAM, EARTHQUAKE, FIRE_BLAST, IRON_TAIL
 	dw 0 ; OT ID
@@ -2930,7 +2930,7 @@ BattleTowerMons6:
 	bigdw 122 ; SDef
 	db "SO-NANSU@@@"
 
-	db AERODACTYL
+	db WELLWITCH
 	db LEFTOVERS
 	db HYPER_BEAM, SUPERSONIC, EARTHQUAKE, BITE
 	dw 0 ; OT ID
@@ -4236,7 +4236,7 @@ BattleTowerMons8:
 	bigdw 207 ; SDef
 	db "HUaIYA-@@@@"
 
-	db AERODACTYL
+	db WELLWITCH
 	db MIRACLEBERRY
 	db HYPER_BEAM, REST, EARTHQUAKE, ROAR
 	dw 0 ; OT ID

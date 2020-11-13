@@ -284,8 +284,8 @@ PokemonPicPointers::
 	dba BellocerosBackpic
 	dba SubcerosFrontpic
 	dba SubcerosBackpic
-	dba AerodactylFrontpic
-	dba AerodactylBackpic
+	dba WellwitchFrontpic
+	dba WellwitchBackpic
 	dba TherazorFrontpic
 	dba TherazorBackpic
 	dba ArticunoFrontpic
@@ -503,8 +503,8 @@ PokemonPicPointers::
 	dba SnokageBackpic
 	dba AvatriceFrontpic
 	dba AvatriceBackpic
-	dba HoOhFrontpic
-	dba HoOhBackpic
+	dba DonukameFrontpic
+	dba DonukameBackpic
 	dba TentaquilFrontpic
 	dba TentaquilBackpic
 	dba PilfoardFrontpic

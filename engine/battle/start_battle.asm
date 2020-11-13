@@ -55,7 +55,7 @@ PlayBattleMusic:
 	jr z, .missingnomusic
 	
 	ld a, [wTempEnemyMonSpecies]
-	cp HO_OH
+	cp DONUKAME
 	jr z, .donchanmusic
 	
 	ld a, [wTempEnemyMonSpecies]

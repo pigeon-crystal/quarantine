@@ -321,7 +321,7 @@ INCBIN "gfx/footprints/mammothra.1bpp",    footprint_top
 INCBIN "gfx/footprints/behemothra.1bpp",    footprint_top
 INCBIN "gfx/footprints/belloceros.1bpp",     footprint_top
 INCBIN "gfx/footprints/subceros.1bpp",   footprint_top
-INCBIN "gfx/footprints/aerodactyl.1bpp", footprint_top
+INCBIN "gfx/footprints/wellwitch.1bpp", footprint_top
 INCBIN "gfx/footprints/therazor.1bpp",    footprint_top
 INCBIN "gfx/footprints/articuno.1bpp",   footprint_top
 ; 137-144 bottom halves
@@ -330,7 +330,7 @@ INCBIN "gfx/footprints/mammothra.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/behemothra.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/belloceros.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/subceros.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/aerodactyl.1bpp", footprint_bottom
+INCBIN "gfx/footprints/wellwitch.1bpp", footprint_bottom
 INCBIN "gfx/footprints/therazor.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/articuno.1bpp",   footprint_bottom
 ; 145-152 top halves
@@ -569,7 +569,7 @@ INCBIN "gfx/footprints/fluriken.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/snokage.1bpp",  footprint_bottom
 ; 249-256 top halves
 INCBIN "gfx/footprints/avatrice.1bpp",      footprint_top
-INCBIN "gfx/footprints/ho_oh.1bpp",      footprint_top
+INCBIN "gfx/footprints/donukame.1bpp",      footprint_top
 INCBIN "gfx/footprints/tentaquil.1bpp",     footprint_top
 INCBIN "gfx/footprints/pilfoard.1bpp",   footprint_top
 INCBIN "gfx/footprints/253.1bpp",        footprint_top
@@ -578,7 +578,7 @@ INCBIN "gfx/footprints/255.1bpp",        footprint_top
 INCBIN "gfx/footprints/256.1bpp",        footprint_top
 ; 249-256 bottom halves
 INCBIN "gfx/footprints/avatrice.1bpp",      footprint_bottom
-INCBIN "gfx/footprints/ho_oh.1bpp",      footprint_bottom
+INCBIN "gfx/footprints/donukame.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/tentaquil.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/pilfoard.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/253.1bpp",        footprint_bottom

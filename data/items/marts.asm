@@ -132,13 +132,12 @@ MartGoldenrod4F:
 	db -1 ; end
 
 MartGoldenrod5F:
-	db 6 ; # items
-	db TM_SNARL
-	db TM_THUNDERPUNCH
-	db TM_FIRE_PUNCH
-	db TM_ICE_PUNCH
+	db 5 ; # items
 	db TM_PSYCH_UP
 	db TM_FALSE_SWIPE
+	db TM_SNARL
+	db TM_SPARK
+	db TM_TWISTER
 	db -1 ; end
 
 MartOlivine:
@@ -290,12 +289,12 @@ MartCeladon2F2:
 
 MartCeladon3F:
 	db 6 ; # items
-	db TM_FIRE_PUNCH
-	db TM_ICE_PUNCH
-	db TM_THUNDERPUNCH
 	db TM_PSYCH_UP
 	db TM_PROTECT
+	db TM_FALSE_SWIPE
 	db TM_SNARL
+	db TM_TWISTER
+	db TM_SPARK
 	db -1 ; end
 
 MartCeladon4F:

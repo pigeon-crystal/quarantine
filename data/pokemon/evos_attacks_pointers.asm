@@ -142,7 +142,7 @@ EvosAttacksPointers::
 	dw BehemothraEvosAttacks
 	dw BellocerosEvosAttacks
 	dw SubcerosEvosAttacks
-	dw AerodactylEvosAttacks
+	dw WellwitchEvosAttacks
 	dw TherazorEvosAttacks
 	dw ArticunoEvosAttacks
 	dw ZapdosEvosAttacks
@@ -250,6 +250,7 @@ EvosAttacksPointers::
 	dw FlurikenEvosAttacks
 	dw SnokageEvosAttacks
 	dw AvatriceEvosAttacks
-	dw HoOhEvosAttacks
+	dw DonukameEvosAttacks
 	dw TentaquilEvosAttacks
 	dw PilfoardEvosAttacks
+	

@@ -1991,7 +1991,7 @@ SubcerosEvosAttacks:
 	db 55, HORN_DRILL
 	db 0 ; no more level-up moves
 
-AerodactylEvosAttacks:
+WellwitchEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WING_ATTACK
 	db 0 ; no more level-up moves
@@ -3597,7 +3597,7 @@ AvatriceEvosAttacks:
 	db 1, PECK
 	db 0 ; no more level-up moves
 
-HoOhEvosAttacks:
+DonukameEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SAFEGUARD
 	db 0 ; no more level-up moves

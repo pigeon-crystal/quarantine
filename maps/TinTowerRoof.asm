@@ -26,12 +26,12 @@ TinTowerHoOh:
 	faceplayer
 	opentext
 	writetext HoOhText
-	cry HO_OH
+	cry DONUKAME
 	pause 15
 	closetext
 	setevent EVENT_FOUGHT_HO_OH
 	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
-	loadwildmon HO_OH, 60
+	loadwildmon DONUKAME, 60
 	startbattle
 	disappear TINTOWERROOF_HO_OH
 	reloadmapafterbattle

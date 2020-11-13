@@ -34,7 +34,7 @@ SpriteMons:
 	db THERAZOR
 	db GYARADOS
 	db AVATRICE
-	db HO_OH
+	db DONUKAME
 	db GANZERKER
 	db CUTTLE
 	db TIDO

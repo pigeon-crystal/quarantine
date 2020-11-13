@@ -141,7 +141,7 @@ PokedexDataPointerTable:
 	dw BehemothraPokedexEntry
 	dw BellocerosPokedexEntry
 	dw SubcerosPokedexEntry
-	dw AerodactylPokedexEntry
+	dw WellwitchPokedexEntry
 	dw TherazorPokedexEntry
 	dw ArticunoPokedexEntry
 	dw ZapdosPokedexEntry
@@ -249,6 +249,6 @@ PokedexDataPointerTable:
 	dw FlurikenPokedexEntry
 	dw SnokagePokedexEntry
 	dw AvatricePokedexEntry
-	dw HoOhPokedexEntry
+	dw DonukamePokedexEntry
 	dw TentaquilPokedexEntry
 	dw PilfoardPokedexEntry

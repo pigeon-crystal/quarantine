@@ -146,7 +146,7 @@ PokemonCries::
 	mon_cry CRY_MAGCARGO,    55,   350 ; BEHEMOTHRA
 	mon_cry CRY_CATERPIE,    187,  192 ; BELLOCEROS
 	mon_cry CRY_FEAROW,      238,  129 ; SUBCEROS
-	mon_cry CRY_VILEPLUME,    32,  368 ; AERODACTYL
+	mon_cry CRY_VILEPLUME,    32,  368 ; WELLWITCH
 	mon_cry CRY_GRIMER,       85,  129 ; THERAZOR
 	mon_cry CRY_RAICHU,      128,  192 ; ARTICUNO
 	mon_cry CRY_FEAROW,      255,  256 ; ZAPDOS
@@ -254,7 +254,7 @@ PokemonCries::
 	mon_cry CRY_SPINARAK,   -475,  336 ; FLURIKEN
 	mon_cry CRY_RAIKOU,     -256,  384 ; SNOKAGE
 	mon_cry CRY_TYPHLOSION,    0,  256 ; AVATRICE
-	mon_cry CRY_AIPOM,         0,  384 ; HO_OH
+	mon_cry CRY_AIPOM,         0,  384 ; DONUKAME
 	mon_cry CRY_CLEFFA,     -685,  457 ; TENTAQUIL
 	mon_cry $B5,      		$083E,  $0057 ; PILFOARD
 	mon_cry CRY_NIDORAN_M,     0,    0 ; 253

@@ -1,7 +1,6 @@
 ; Every Pokémon sorted alphabetically by name.
 
 AlphabeticalPokedexOrder:
-	db AERODACTYL
 	db ALLSEERAPH
 	db AMANIGO
 	db AMBINNI
@@ -85,7 +84,7 @@ AlphabeticalPokedexOrder:
 	db HIVEMAIM
 	db HOATOT
 	db HOATOXIC
-	db HO_OH
+	db DONUKAME
 	db NUCKAWHEEZ
 	db HOPLAQUE
 	db HORNAMPA
@@ -238,6 +237,7 @@ AlphabeticalPokedexOrder:
 	db VOYAPOD
 	db VULPIX
 	db WARTORTLE
+	db WELLWITCH
 	db ICOSAHED
 	db WIRIGIBLE
 	db WIWRIGHT

@@ -224,7 +224,7 @@ NewPokedexOrder:
 	db BEHEMOTHRA
 	db BELLOCEROS
 	db SUBCEROS
-	db AERODACTYL
+	db WELLWITCH
 	db THERAZOR
 	db BULBASAUR
 	db IVYSAUR
@@ -248,7 +248,7 @@ NewPokedexOrder:
 	db FLURIKEN
 	db SNOKAGE
 	db AVATRICE
-	db HO_OH
+	db DONUKAME
 	db MA_0
 	db MEW
 	db TENTAQUIL

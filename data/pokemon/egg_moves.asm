@@ -449,7 +449,7 @@ BellocerosEggMoves:
 	db FLAIL
 	db -1 ; end
 
-AerodactylEggMoves:
+WellwitchEggMoves:
 	db WHIRLWIND
 	db PURSUIT
 	db FORESIGHT

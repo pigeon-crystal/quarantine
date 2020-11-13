@@ -145,7 +145,7 @@ MonMenuIconPals:
 	icon_pals RED,   YELLOW    ; BEHEMOTHRA
 	icon_pals BROWN,   YELLOW  ; BELLOCEROS
 	icon_pals BROWN,   YELLOW  ; SUBCEROS
-	icon_pals BROWN,   YELLOW  ; AERODACTYL
+	icon_pals BROWN,   YELLOW  ; WELLWITCH
 	icon_pals GRAY,   YELLOW  ; THERAZOR
 	icon_pals BROWN,   YELLOW  ; ARTICUNO
 	icon_pals BROWN,   YELLOW  ; ZAPDOS
@@ -253,7 +253,7 @@ MonMenuIconPals:
 	icon_pals BLUE,   PURPLE    ; FLURIKEN
 	icon_pals BLUE,   PURPLE    ; SNOKAGE
 	icon_pals YELLOW,   GRAY    ; AVATRICE
-	icon_pals RED,   YELLOW    ; HO_OH
+	icon_pals RED,   YELLOW    ; DONUKAME
 	icon_pals YELLOW,   BLUE    ; TENTAQUIL
 	icon_pals YELLOW, GRAY ; PILFOARD
 	icon_pals RED,   BLUE      ; EGG

@@ -821,8 +821,8 @@ KantoGrassWildMons:
 	db 30, WORMACHO
 	db 32, YAGAGARASU
 	db 30, YAGAGARASU
-	db 30, AERODACTYL ; standin for Wellwitchsia
-	db 40, AERODACTYL ; standin for Wellwitchsia
+	db 30, WELLWITCH ; standin for Wellwitchsia
+	db 40, WELLWITCH ; standin for Wellwitchsia
 	; day
 	db 28, QWALLOP
 	db 28, HOATOXIC
@@ -830,8 +830,8 @@ KantoGrassWildMons:
 	db 30, WORMACHO
 	db 32, YAGAGARASU
 	db 30, YAGAGARASU
-	db 30, AERODACTYL ; standin for Wellwitchsia
-	db 40, AERODACTYL ; standin for Wellwitchsia
+	db 30, WELLWITCH ; standin for Wellwitchsia
+	db 40, WELLWITCH ; standin for Wellwitchsia
 	; nite
 	db 28, QWALLOP
 	db 28, HOATOXIC
@@ -839,8 +839,8 @@ KantoGrassWildMons:
 	db 30, WORMACHO
 	db 32, YAGAGARASU
 	db 30, YAGAGARASU
-	db 30, AERODACTYL ; standin for Wellwitchsia
-	db 40, AERODACTYL ; standin for Wellwitchsia
+	db 30, WELLWITCH ; standin for Wellwitchsia
+	db 40, WELLWITCH ; standin for Wellwitchsia
 
 	map_id ROUTE_27 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -850,27 +850,27 @@ KantoGrassWildMons:
 	db 30, HOATOXIC
 	db 30, WORMACHO
 	db 32, HOATOXIC
-	db 30, AERODACTYL ; standin for Wellwitchsia
-	db 30, AERODACTYL ; standin for Wellwitchsia
-	db 40, AERODACTYL ; standin for Wellwitchsia
+	db 30, WELLWITCH ; standin for Wellwitchsia
+	db 30, WELLWITCH ; standin for Wellwitchsia
+	db 40, WELLWITCH ; standin for Wellwitchsia
 	; day
 	db 28, QWALLOP
 	db 28, HORNAMPA
 	db 30, HOATOXIC
 	db 30, WORMACHO
 	db 32, HOATOXIC
-	db 30, AERODACTYL ; standin for Wellwitchsia
-	db 30, AERODACTYL ; standin for Wellwitchsia
-	db 40, AERODACTYL ; standin for Wellwitchsia
+	db 30, WELLWITCH ; standin for Wellwitchsia
+	db 30, WELLWITCH ; standin for Wellwitchsia
+	db 40, WELLWITCH ; standin for Wellwitchsia
 	; nite
 	db 28, QWALLOP
 	db 28, HORNAMPA
 	db 30, HOATOXIC
 	db 30, WORMACHO
 	db 32, HOATOXIC
-	db 30, AERODACTYL ; standin for Wellwitchsia
-	db 30, AERODACTYL ; standin for Wellwitchsia
-	db 40, AERODACTYL ; standin for Wellwitchsia	
+	db 30, WELLWITCH ; standin for Wellwitchsia
+	db 30, WELLWITCH ; standin for Wellwitchsia
+	db 40, WELLWITCH ; standin for Wellwitchsia	
 
 	map_id ROUTE_28 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
