@@ -3473,7 +3473,7 @@ ElekidEvosAttacks:
 	db 1, QUICK_ATTACK
 	db 0 ; no more level-up moves
 
-MagbyEvosAttacks:
+GoriathEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, EMBER
 	db 0 ; no more level-up moves
@@ -3500,7 +3500,7 @@ OdditullyEvosAttacks:
 	db 58, OUTRAGE
 	db 0 ; no more level-up moves
 
-RaikouEvosAttacks:
+AndromegaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BITE
 	db 0 ; no more level-up moves

@@ -244,10 +244,10 @@ PokemonCries::
 	mon_cry CRY_SLUGMA,        0,  256 ; HITMONTOP
 	mon_cry CRY_MARILL,      104,  256 ; AMBIONIC
 	mon_cry CRY_SUNFLORA,   -728,  180 ; ELEKID
-	mon_cry CRY_TEDDIURSA,   374,   58 ; MAGBY
+	mon_cry CRY_TEDDIURSA,   374,   58 ; GORIATH
 	mon_cry CRY_GLIGAR,     -461,  416 ; DRASSAL
 	mon_cry CRY_VILEPLUME,   133,  455 ; ODDITULLY
-	mon_cry CRY_RAIKOU,      558,  288 ; RAIKOU
+	mon_cry CRY_RAIKOU,      558,  288 ; ANDROMEGA
 	mon_cry CRY_ENTEI,         0,  416 ; SLAATEL
 	mon_cry CRY_MAGCARGO,      0,  384 ; RYUNARI
 	mon_cry CRY_RAIKOU,       95,  208 ; YUKITTEN

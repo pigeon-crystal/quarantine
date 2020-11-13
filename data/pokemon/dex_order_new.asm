@@ -152,7 +152,7 @@ NewPokedexOrder:
 	db SWAZZAGE
 	db TAUROS
 	db DRASSAL
-	db MAGBY
+	db GORIATH
 	db AMBIONIC
 	db CLIBBLE
 	db GIGUARD
@@ -238,7 +238,7 @@ NewPokedexOrder:
 	db ARTICUNO
 	db ZAPDOS
 	db BLAZENBULL
-	db RAIKOU
+	db ANDROMEGA
 	db SLAATEL
 	db RYUNARI
 	db DRATINI

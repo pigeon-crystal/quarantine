@@ -112,7 +112,7 @@ AlphabeticalPokedexOrder:
 	db NIMBOCETUS
 	db UPWHALE
 	db MADRUGASA
-	db MAGBY
+	db GORIATH
 	db MAGIKARP
 	db MAGNEMITE
 	db MAGNETON
@@ -178,7 +178,7 @@ AlphabeticalPokedexOrder:
 	db QWAIL
 	db QWALLOP
 	db RAICHU
-	db RAIKOU
+	db ANDROMEGA
 	db RADEON
 	db RESPECTRE
 	db SAKURONNA

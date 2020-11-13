@@ -239,10 +239,10 @@ PokedexDataPointerTable:
 	dw HitmontopPokedexEntry
 	dw AmbionicPokedexEntry
 	dw ElekidPokedexEntry
-	dw MagbyPokedexEntry
+	dw GoriathPokedexEntry
 	dw DrassalPokedexEntry
 	dw OdditullyPokedexEntry
-	dw RaikouPokedexEntry
+	dw AndromegaPokedexEntry
 	dw SlaatelPokedexEntry
 	dw RyunariPokedexEntry
 	dw YukittenPokedexEntry

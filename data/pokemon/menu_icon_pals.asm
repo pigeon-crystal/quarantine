@@ -243,17 +243,17 @@ MonMenuIconPals:
 	icon_pals RED,   YELLOW    ; HITMONTOP
 	icon_pals YELLOW,   RED    ; AMBIONIC
 	icon_pals RED,   YELLOW    ; ELEKID
-	icon_pals RED,   YELLOW    ; MAGBY
+	icon_pals GRAY,   RED    ; GORIATH
 	icon_pals GREEN,   YELLOW    ; DRASSAL
 	icon_pals BLUE,   YELLOW   ; ODDITULLY
-	icon_pals RED,   YELLOW    ; RAIKOU
+	icon_pals RED,   BLUE    ; ANDROMEGA
 	icon_pals GRAY,   YELLOW    ; SLAATEL
 	icon_pals RED,   YELLOW    ; RYUNARI
 	icon_pals BLUE,   PURPLE    ; YUKITTEN
 	icon_pals BLUE,   PURPLE    ; FLURIKEN
 	icon_pals BLUE,   PURPLE    ; SNOKAGE
 	icon_pals YELLOW,   GRAY    ; AVATRICE
-	icon_pals RED,   YELLOW    ; DONUKAME
+	icon_pals BLUE,   RED    ; DONUKAME
 	icon_pals YELLOW,   BLUE    ; TENTAQUIL
 	icon_pals YELLOW, GRAY ; PILFOARD
 	icon_pals RED,   BLUE      ; EGG

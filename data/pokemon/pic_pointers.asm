@@ -483,14 +483,14 @@ PokemonPicPointers::
 	dba AmbionicBackpic
 	dba ElekidFrontpic
 	dba ElekidBackpic
-	dba MagbyFrontpic
-	dba MagbyBackpic
+	dba GoriathFrontpic
+	dba GoriathBackpic
 	dba DrassalFrontpic
 	dba DrassalBackpic
 	dba OdditullyFrontpic
 	dba OdditullyBackpic
-	dba RaikouFrontpic
-	dba RaikouBackpic
+	dba AndromegaFrontpic
+	dba AndromegaBackpic
 	dba SlaatelFrontpic
 	dba SlaatelBackpic
 	dba RyunariFrontpic

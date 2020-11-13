@@ -539,7 +539,7 @@ INCBIN "gfx/footprints/tyrogue.1bpp",    footprint_top
 INCBIN "gfx/footprints/hitmontop.1bpp",  footprint_top
 INCBIN "gfx/footprints/ambionic.1bpp",   footprint_top
 INCBIN "gfx/footprints/elekid.1bpp",     footprint_top
-INCBIN "gfx/footprints/magby.1bpp",      footprint_top
+INCBIN "gfx/footprints/goriath.1bpp",      footprint_top
 ; 233-240 bottom halves
 INCBIN "gfx/footprints/polyro.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/missingno.1bpp",   footprint_bottom
@@ -548,11 +548,11 @@ INCBIN "gfx/footprints/tyrogue.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/hitmontop.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/ambionic.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/elekid.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/magby.1bpp",      footprint_bottom
+INCBIN "gfx/footprints/goriath.1bpp",      footprint_bottom
 ; 241-248 top halves
 INCBIN "gfx/footprints/drassal.1bpp",    footprint_top
 INCBIN "gfx/footprints/odditully.1bpp",    footprint_top
-INCBIN "gfx/footprints/raikou.1bpp",     footprint_top
+INCBIN "gfx/footprints/andromega.1bpp",     footprint_top
 INCBIN "gfx/footprints/slaatel.1bpp",      footprint_top
 INCBIN "gfx/footprints/ryunari.1bpp",    footprint_top
 INCBIN "gfx/footprints/yukitten.1bpp",   footprint_top
@@ -561,7 +561,7 @@ INCBIN "gfx/footprints/snokage.1bpp",  footprint_top
 ; 241-248 bottom halves
 INCBIN "gfx/footprints/drassal.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/odditully.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/raikou.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/andromega.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/slaatel.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/ryunari.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/yukitten.1bpp",   footprint_bottom

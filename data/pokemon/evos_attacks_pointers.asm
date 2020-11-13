@@ -240,10 +240,10 @@ EvosAttacksPointers::
 	dw HitmontopEvosAttacks
 	dw AmbionicEvosAttacks
 	dw ElekidEvosAttacks
-	dw MagbyEvosAttacks
+	dw GoriathEvosAttacks
 	dw DrassalEvosAttacks
 	dw OdditullyEvosAttacks
-	dw RaikouEvosAttacks
+	dw AndromegaEvosAttacks
 	dw SlaatelEvosAttacks
 	dw RyunariEvosAttacks
 	dw YukittenEvosAttacks

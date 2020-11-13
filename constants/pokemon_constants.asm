@@ -259,10 +259,10 @@ JOHTO_POKEMON EQU const_value
 	const HITMONTOP  ; ed cat
 	const AMBIONIC   ; ee mosquito
 	const ELEKID     ; ef cured buzzling
-	const MAGBY      ; f0 kaikong
+	const GORIATH      ; f0 
 	const DRASSAL    ; f1
 	const ODDITULLY  ; f2
-	const RAIKOU     ; f3 vortex
+	const ANDROMEGA     ; f3 vortex
 	const SLAATEL    ; f4
 	const RYUNARI    ; f5
 	const YUKITTEN   ; f6

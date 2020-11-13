@@ -65,7 +65,9 @@ PlayBattleMusic:
 	jr z, .legendmusic
 	cp DRASSAL
 	jr z, .legendmusic
-	cp RAIKOU
+	cp ANDROMEGA
+	jr z, .legendmusic
+	cp GORIATH
 	jr z, .legendmusic
 
 	; Are we fighting a trainer?
