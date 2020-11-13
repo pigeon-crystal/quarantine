@@ -7,6 +7,7 @@
 	const CIANWOODDUNESCAVE_POKE_BALL_1
 	const CIANWOODDUNESCAVE_POKE_BALL_2
 	const CIANWOODDUNESCAVE_ROCK3
+	const CIANWOODDUNESCAVE_POKE_BALL_3
 
 CianwoodDunesCave_MapScripts:
 	db 0 ;scene scripts
@@ -123,6 +124,9 @@ CianwoodDunesCaveOddAmber:
 CianwoodDunesCaveSunStone:
 	itemball SUN_STONE
 	
+CianwoodDunesCaveFirePunch:
+	itemball TM_FIRE_PUNCH
+	
 DunesCaveHiddenMoonStone:
 	hiddenitem MOON_STONE, EVENT_CIANWOOD_DUNES_CAVE_HIDDEN_MOON_STONE
 	
@@ -138,7 +142,7 @@ CianwoodDunesCave_MapEvents:
 	db 1 ; bg events 
 	bg_event 6, 2, BGEVENT_ITEM, DunesCaveHiddenMoonStone
 
-	db 8 ;obj events
+	db 9 ;obj events
 	object_event	21, 10, SPRITE_GURU, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 2, TrainerGuruGojee, -1
 	object_event  	20, 24, SPRITE_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CianwoodDunesCaveRock, -1
 	object_event  	19, 11, SPRITE_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CianwoodDunesCaveRock, -1
@@ -147,3 +151,4 @@ CianwoodDunesCave_MapEvents:
 	object_event    26, 17, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CianwoodDunesCaveOddAmber, EVENT_CIANWOOD_DUNES_CAVE_ODD_AMBER 
 	object_event     3, 10, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CianwoodDunesCaveSunStone, EVENT_CIANWOOD_DUNES_CAVE_SUN_STONE
 	object_event	 7,  4, SPRITE_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CianwoodDunesCaveRock, -1
+	object_event    15, 23, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CianwoodDunesCaveFirePunch, EVENT_CIANWOOD_DUNES_CAVE_FIRE_PUNCH

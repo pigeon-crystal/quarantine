@@ -3913,7 +3913,14 @@ FanaticRedGroup:
 	db 40, FELIORITTE, POLKADOT_BOW
 	db 40, MT_NOOT, POLKADOT_BOW
 	db -1
-
+	
+; FANATIC_RED (2) Goldenrod Gym
+	db "CARRIE@", TRAINERTYPE_ITEM
+	db 23, BUNDEGRAF, GOLD_BERRY
+	db 25, TIDO, POLKADOT_BOW
+	db 24, MUMINI, BERRY
+	db -1 ; end
+	
 FanaticBlueGroup:
 ; FANATIC_BLUE (1) Cianwood Dunes
 	db "SAIJO@", TRAINERTYPE_NORMAL
@@ -3921,6 +3928,15 @@ FanaticBlueGroup:
 	db 40, NANUQUA
 	db 40, HELACTAL
 	db 40, NIMBOCETUS
+	db -1 ; end
+	
+; FANATIC_BLUE (2) Goldenrod Gym's Bridget
+	db "BRIDGET@", TRAINERTYPE_ITEM
+	db 23, DUMBLOON, NO_ITEM
+	db 23, DUMBLOON, PINK_BOW
+	db 27, FURSA, 	 BERRY
+	db 23, DUMBLOON, PINK_BOW
+	db 23, DUMBLOON, NO_ITEM
 	db -1 ; end
 	
 WarriorGroup:

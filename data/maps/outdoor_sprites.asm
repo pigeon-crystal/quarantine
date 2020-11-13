@@ -100,7 +100,6 @@ VermilionGroupSprites:
 	db SPRITE_SUPER_NERD
 	; 5 of max 9 walking sprites
 	db SPRITE_BIG_MEOWTAIN
-	db SPRITE_BIG_SNORLAX
 	db SPRITE_MACHOP
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
@@ -166,13 +165,13 @@ EcruteakGroupSprites:
 	db SPRITE_COOLTRAINER_M
 	db SPRITE_BUG_CATCHER
 	db SPRITE_SUPER_NERD
-	db SPRITE_WIZARD
-	; 9 of max 9 walking sprites
-	db SPRITE_GANZERKER ; variable sprite: becomes SPRITE_SUDOWOODO and SPRITE_TWIN
+	; 8 of max 9 walking sprites
+	db SPRITE_GANZERKER
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db SPRITE_SUICUNE
 	db SPRITE_TWIN
+	db SPRITE_WIZARD
 	db 0 ; end
 
 AzaleaGroupSprites:
@@ -186,7 +185,7 @@ AzaleaGroupSprites:
 	; 6 of max 9 walking sprites
 	db SPRITE_FRUIT_TREE
 	db SPRITE_SLOWPOKE
-	db SPRITE_KURT ; non-walking version of SPRITE_KURT
+	db SPRITE_KURT
 	db SPRITE_CUTTLE
 	db SPRITE_POKE_BALL
 	db 0 ; end
@@ -239,7 +238,7 @@ CianwoodGroupSprites:
 	db SPRITE_TAUROS
 	db SPRITE_FRUIT_TREE
 	db SPRITE_ROCK
-	db SPRITE_YOUNGSTER ; non-walking version of SPRITE_YOUNGSTER
+	db SPRITE_YOUNGSTER 
 	db SPRITE_SUICUNE
 	db SPRITE_VEGETEBAA
 	db SPRITE_MURDERMIS

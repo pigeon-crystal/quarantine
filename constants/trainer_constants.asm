@@ -726,9 +726,11 @@ KRIS EQU __enum__
 	
 	trainerclass FANATIC_RED ; 4a
 	const YAMATO_TRAINER
+	const CARRIE_F_R
 	
 	trainerclass FANATIC_BLUE ; 4b
 	const SAIJO
+	const BRIDGET_F_B
 	
 	trainerclass WARRIOR ; 4c 
 	const MURAI

@@ -220,14 +220,14 @@ DragonsDepthsB1FUltraBall:
 	itemball ULTRA_BALL
 	
 DragonsDepthsB1FPotion:
-	itemball POTION
+	itemball TM_ICE_PUNCH
 	
 DragonsDepthsB1F_MapEvents:
 	db 0, 0 ; filler
 
 	db 3 ; warp events
 	warp_event 15, 11, DRAGONS_DEPTHS_1F, 2
-	warp_event 19,  2, DRAGONS_DEPTHS_ITEM_ROOM, 1
+	warp_event 19,  1, DRAGONS_DEPTHS_ITEM_ROOM, 1
 	warp_event 25, 41, DRAGONS_DEPTHS_B2F, 1
 
 	db 0 ; coord events
@@ -245,7 +245,7 @@ DragonsDepthsB1F_MapEvents:
 	object_event 30, 32, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DragonsDepthsB1FMaxElixer, EVENT_DRAGONS_DEPTHS_B1F_MAX_ELIXER
 	object_event  4, 25, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DragonsDepthsB1FUltraBall, EVENT_DRAGONS_DEPTHS_B1F_ULTRA_BALL
 	object_event 15, 41, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DragonsDepthsB1FWaterStone, EVENT_DRAGONS_DEPTHS_B1F_WATER_STONE
-	object_event  6,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DragonsDepthsB1FPotion, EVENT_DRAGONS_DEPTHS_B1F_POTION ; TODO swap out the Goldenrod Shopping Punch TMs, put Ice Punch here
+	object_event  6,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DragonsDepthsB1FPotion, EVENT_DRAGONS_DEPTHS_B1F_POTION ; actually ice punch
 
 
 
