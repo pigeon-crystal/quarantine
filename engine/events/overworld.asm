@@ -1102,7 +1102,7 @@ Jumptable_cdae:
 	dw .FailWhirlpool
 
 .TryWhirlpool:
-	ld de, ENGINE_GLACIERBADGE
+	ld de, ENGINE_MINERALBADGE
 	call CheckBadge
 	jr c, .noglacierbadge
 	call TryWhirlpoolMenu
@@ -1195,7 +1195,7 @@ TryWhirlpoolOW::
 	ld d, WHIRLPOOL
 	call CheckPartyMove
 	jr c, .failed
-	ld de, ENGINE_GLACIERBADGE
+	ld de, ENGINE_MINERALBADGE
 	call CheckEngineFlag
 	jr c, .failed
 	call TryWhirlpoolMenu

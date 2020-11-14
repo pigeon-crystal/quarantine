@@ -47,16 +47,16 @@ TrainerEncounterMusic::
 	db MUSIC_RIVAL_ENCOUNTER       ; rival2
 	db MUSIC_HIKER_ENCOUNTER       ; guitarist
 	db MUSIC_HIKER_ENCOUNTER       ; hiker
-	db MUSIC_HIKER_ENCOUNTER       ; biker
-	db MUSIC_OFFICER_ENCOUNTER     ; blaine
-	db MUSIC_POKEMANIAC_ENCOUNTER  ; burglar
-	db MUSIC_HIKER_ENCOUNTER       ; firebreather
-	db MUSIC_POKEMANIAC_ENCOUNTER  ; juggler
-	db MUSIC_HIKER_ENCOUNTER       ; blackbelt_t
+	db MUSIC_HIKER_ENCOUNTER       	; biker
+	db MUSIC_OFFICER_ENCOUNTER     	; blaine
+	db MUSIC_POKEMANIAC_ENCOUNTER  	; burglar
+	db MUSIC_HIKER_ENCOUNTER       	; firebreather
+	db MUSIC_POKEMANIAC_ENCOUNTER  	; juggler
+	db MUSIC_HIKER_ENCOUNTER       	; blackbelt_t
 	db MUSIC_ENFORCER_ENCOUNTER      ; executivem
-	db MUSIC_YOUNGSTER_ENCOUNTER   ; psychic_t
-	db MUSIC_LASS_ENCOUNTER        ; picnicker
-	db MUSIC_YOUNGSTER_ENCOUNTER   ; camper
+	db MUSIC_YOUNGSTER_ENCOUNTER   	; psychic_t
+	db MUSIC_LASS_ENCOUNTER        	; picnicker
+	db MUSIC_YOUNGSTER_ENCOUNTER   	; camper
 	db MUSIC_ENFORCER_ENCOUNTER      ; executivef
 	db MUSIC_SAGE_ENCOUNTER        	; sage
 	db MUSIC_SAGE_ENCOUNTER        	; medium
