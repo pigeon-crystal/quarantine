@@ -79,13 +79,13 @@ TrainerEncounterMusic::
 	db MUSIC_LASS_ENCOUNTER			; fanatic red
 	db MUSIC_LASS_ENCOUNTER			; fanatic blue
 	db MUSIC_SAGE_ENCOUNTER			; warrior
-	db MUSIC_YOUNGSTER_ENCOUNTER	; radical
+	db MUSIC_RADICAL_ENCOUNTER		; radical
 	db MUSIC_HIKER_ENCOUNTER		; salaryman
 	db MUSIC_ROCKET_ENCOUNTER	   	; engineer
 	db MUSIC_HIKER_ENCOUNTER		; skeptic
 	db MUSIC_POKEMANIAC_ENCOUNTER	; Kaiju
 	db MUSIC_IMAKUNI_ENCOUNTER		; Imakuni
-	db MUSIC_POKEMANIAC_ENCOUNTER	; Delinquent M
+	db MUSIC_RADICAL_ENCOUNTER		; Delinquent M
 	db MUSIC_DEMON_ENCOUNTER   		; Delinquent F
 	db MUSIC_OFFICER_ENCOUNTER		; Ultraman
 	db MUSIC_DEMON_ENCOUNTER		; Demon

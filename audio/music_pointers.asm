@@ -123,4 +123,5 @@ Music:
 	dba Music_ChampionPinch
 	dba Music_Yotsuba
 	dba Music_LookDemonLady
+	dba Music_LookRadical
 	

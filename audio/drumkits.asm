@@ -5,6 +5,7 @@ Drumkits:
 	dw Drumkit3
 	dw Drumkit4
 	dw Drumkit5
+	dw Drumkit6
 
 Drumkit0:
 	dw Drum00
@@ -90,6 +91,20 @@ Drumkit5:
 	dw Snare14
 	dw Snare13
 	dw Kick2
+Drumkit6: ; does not exist
+	dw Drum00
+	dw Kick2
+	dw Drum28
+	dw VocalG
+	dw VocalT
+	dw VocalF
+	dw VocalK
+	dw Drum00
+	dw Drum00
+	dw Drum00
+	dw Drum00
+	dw Drum00
+	dw Drum00
 
 Drum00:
 	noise_note 32, 1, 1, 0
@@ -257,4 +272,21 @@ Drum36:
 Kick2:
 	noise_note 32, 10, 8, 107
 	noise_note 32, 7, 1, 0
+	sound_ret
+
+VocalG:
+	noise_note 32, 6, 1, 55
+	sound_ret
+
+VocalT:
+	noise_note 32, 6, 1, 49
+	sound_ret
+
+VocalF:
+	noise_note 32, 3, -3, 16 ;assume 8x ideal length?
+	noise_note 32, 5, 2, 16
+	sound_ret
+	
+VocalK:
+	noise_note 32, 5, 1, 51
 	sound_ret

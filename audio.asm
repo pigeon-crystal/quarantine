@@ -161,6 +161,7 @@ SECTION "QTDex Songs 2", ROMX
 
 INCLUDE "audio/music/yotsuba.asm"
 INCLUDE "audio/music/lookdemonlady.asm"
+INCLUDE "audio/music/lookradical.asm"
 
 SECTION "Sound Effects", ROMX
 
