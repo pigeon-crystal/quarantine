@@ -1,6 +1,6 @@
 	db LANATUN ; 063
 
-	db  93,  35,  47,  35, 57,  53
+	db  93,  37,  47,  37, 58,  53
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, WATER ; type
