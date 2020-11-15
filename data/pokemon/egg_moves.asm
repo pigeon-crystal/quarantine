@@ -323,7 +323,11 @@ VoltorbEggMoves:
 	db -1 ; end
 	
 DjammEggMoves:
-	db REFLECT 
+    db CLAMP
+    db THUNDER_WAVE
+    db DARK_PULSE
+    db PSYWAVE
+	db REFLECT	
 	db -1; end
 
 CantaloneEggMoves:

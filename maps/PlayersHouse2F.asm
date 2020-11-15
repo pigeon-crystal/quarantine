@@ -54,10 +54,13 @@ PlayersHouseRadioScript:
 	setflag ENGINE_POKEDEX
 	givepoke SQUEENIE, 60
 	givepoke NOXROMAEUS, 40
+	givepoke GANZERKER, 50
 	setflag ENGINE_FOGBADGE
 	setflag ENGINE_RISINGBADGE
+	setflag ENGINE_MINERALBADGE
 	giveitem TM_TWISTER
 	giveitem TM_REST
+	giveitem HM_WHIRLPOOL
 	giveitem HM_SURF
 	giveitem HM_WATERFALL
 	warp CIANWOOD_DUNES_COAST, 17, 28

@@ -802,7 +802,7 @@ CharcoalDesc:
 
 BerryJuiceDesc:
 	db   "Restores #MON"
-	next "HP by 50.@"
+	next "HP by 60.@"
 
 ScopeLensDesc:
 	db   "Raises critical"
@@ -934,7 +934,7 @@ BerryDesc:
 
 GoldBerryDesc:
 	db   "A self-restore"
-	next "item. (40HP, HOLD)@"
+	next "item. (45HP, HOLD)@"
 
 SquirtBottleDesc:
 	db   "A horn that annoys"

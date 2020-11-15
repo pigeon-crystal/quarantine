@@ -137,7 +137,7 @@ ItemNames::
 	db "MYSTERY BONE@"
 	db "SCALE FOSSIL@"
 	db "CHARCOAL@"
-	db "BERRY JUICE@"
+	db "BERRY JAM@"			; berry juice
 	db "SCOPE LENS@"
 	db "OLD IVORY@"
 	db "BEAK FOSSIL@"

@@ -97,9 +97,10 @@ SwimmerDaltonAfterText:
 	
 	para "Honestly, I can't"
 	line "disagree."
+	done
 
 CianwoodDunesWillow:
-	trainer SWIMMERF, DALTON, EVENT_BEAT_SWIMMERF_WILLOW, SwimmerWillowSeenText, SwimmerWillowBeatenText, 0, .Script
+	trainer SWIMMERF, WILLOW, EVENT_BEAT_SWIMMERF_WILLOW, SwimmerWillowSeenText, SwimmerWillowBeatenText, 0, .Script
 
 .Script
 	endifjustbattled
@@ -152,7 +153,8 @@ FanaticYamatoBeatenText:
 	
 YamatoAfterText:
 	text "I love TAKEO"
-	line "more than anything!"
+	line "more than anything"
+	cont "in the world!"
 	
 	para "So can you let"
 	line "us enjoy the"
@@ -193,7 +195,7 @@ TakeoAfterText:
 	line "sweets for this"
 	cont "picnic!"
 	
-	para "…so please"
+	para "…So please"
 	line "let us be."
 	done
 
@@ -229,7 +231,7 @@ SaijoBeatenText:
 	done
 	
 SaijoAfterText:
-	text "WHITNEY always says"
+	text "WHITNEY says"
 	line "a good cry helps."
 	
 	para "So why do I still"
@@ -260,7 +262,7 @@ CianwoodDunes_MapEvents:
 	object_event 4, 29, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, CianwoodDunesKingsRock, EVENT_CIANWOOD_DUNES_KINGS_ROCK
 	object_event 12, 12, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, CianwoodDunesSodaPop, EVENT_CIANWOOD_DUNES_SODA_POP
 	object_event 25, 35, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, CianwoodDunesMaxElixer, EVENT_CIANWOOD_DUNES_MAX_ELIXER
-	object_event 15, 25, SPRITE_ATHLETE_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 4, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, CianwoodDunesTrainerAva, -1
+	object_event 15, 25, SPRITE_ATHLETE_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, CianwoodDunesTrainerAva, -1
 	object_event  3, 18, SPRITE_SWIMMER_GUY, SPRITEMOVEDATA_SWIM_WANDER, 1, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 2, CianwoodDunesTrainerDalton, -1
 	object_event  3, 14, SPRITE_SWIMMER_GIRL, SPRITEMOVEDATA_SPINCOUNTERCLOCKWISE, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, CianwoodDunesWillow, -1
 	object_event 25, 28, SPRITE_FANATIC, 	SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 0, CianwoodDunesYamato, -1
