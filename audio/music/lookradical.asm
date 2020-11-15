@@ -1,8 +1,12 @@
-; why is the gen 1/2 romhack community so afraid to push the limits of the engine while also afraid to be stylistically authentic
-; putting both noise into battle themes and using really basic instrumentation across the board sounds wrong
-; the music engine sucks but surely one of you savvy people can actually try and improve it
-; the shit we could do with stuff like duty cycle kicks, arp kicks, and looping arps would be wild
-; also can somebody document how frequency works for the noise channel rather than just "Note frequency [0, 255]" ty
+; to any musician who's reading this, please try and push the limits of the engine or carve your own style if you don't wanna be authentic in style
+
+; game freak instrumentation is a meme but even they tried to make bells (encounter! kimono girl) and ship horns (s.s. aqua), you can do so much more with this questionable engine than just slapping a noise channel on your battle themes and calling it a day (and i kinda wish that meme would die, imo it rarely sounds very good imo. i think there's a reason why the TCG games, which do use the noise channel for their battle themes, change how they approach battle theme compositions in general to accomodate for the quirky way gameboy noise sounds - you'd NEVER hear a track like grand master duel or gr fort leader duel in mainline pokemon, for example)
+
+; and if you're the sort of person who knows how this engine works, please consider making some upgrades for it - i so desperately wanna make stuff like the cover of Mamorukun Curse's "The Curse Again" i made for Yotsuba without having to resort to dickspeed and ridiculous file sizes (and imagine what ACTUAL musicians could do with shit like universal note slides, looping (or non-looping) arps, and wave channel PWM! perfect ports of more complex gameboy tracks like Mega Man V's Sunstar Battle theme! that hot sexy follin organ lead from tracks like Silver Surfer's High Score without requiring a specific tempo setup! the dumb 12-0 arp kick bass that won't stop infesting the mega man fangame music scene!)
+
+; (i know these are all big words coming from a guy who thinks this botched attempt at voice synthesis is passable but i KNOW you guys can do a ton better than me and i don't get why i rarely see people doing anything more than maybe some pulse channel percussion at best, am i just looking in the wrong places?)
+
+; also can somebody document how frequency works for the noise channel rather than just "Note frequency [0, 255]", i can't really tell how note frequency correlates to standard/periodic noise with my dumb monkey brain, ty
  
 ; ============================================================================================================
 
@@ -85,9 +89,10 @@ Music_LookRadical_Ch1_Loop:
 	note D#, 5
 	octave 1
 	note G#, 3
-	note A#, 5
 	octave 2
-	note C_, 11
+	note C_, 8
+	octave 1
+	note E_, 8
 	loopchannel 0, Music_LookRadical_Ch1_Loop
 
 ; ============================================================================================================
