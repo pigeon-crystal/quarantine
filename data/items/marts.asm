@@ -49,6 +49,7 @@ MartCherrygroveDex:
 	db ANTIDOTE
 	db PARLYZ_HEAL
 	db AWAKENING
+	db X_ACCURACY
 	db -1 ; end
 
 MartViolet:
@@ -79,10 +80,11 @@ MartAzalea:
 	db -1 ; end
 
 MartCianwood:
-	db 5 ; # items
+	db 6 ; # items
 	db POTION
 	db SUPER_POTION
 	db HYPER_POTION
+	db MAX_POTION
 	db FULL_HEAL
 	db REVIVE
 	db -1 ; end
@@ -377,14 +379,12 @@ MartUnderground:
 	db -1 ; end
 	
 MartFlowerShop:
-	db 8 ; # items
+	db 6 ; # items
 	db REPEL
 	db SUPER_REPEL
 	db MAX_REPEL
 	db BERRY
 	db MYSTERYBERRY
-	db MIRACLEBERRY
-	db GOLD_BERRY
 	db MIRACLE_SEED
 	db -1 ; end
 
