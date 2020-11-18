@@ -137,7 +137,7 @@ Moves:: ; 41afb
 	move SMOG,         EFFECT_POISON_HIT,         30, POISON,   	SPECIAL,   90, 20,  40
 	move PSYCHO_CUT,   EFFECT_NORMAL_HIT,         80, PSYCHIC_TYPE, PHYSICAL, 100, 15,  00
 	move EARTH_POWER,  EFFECT_SP_DEF_DOWN_HIT,    90, GROUND,   	SPECIAL,  100, 10,  10
-	move FIRE_BLAST,   EFFECT_BURN_HIT,          120, FIRE,     	SPECIAL,   75,  5,  10
+	move FIRE_BLAST,   EFFECT_BURN_HIT,          120, FIRE,     	SPECIAL,   85,  5,  10
 	move WATERFALL,    EFFECT_FLINCH_HIT,         80, WATER,    	PHYSICAL, 100, 15,  10
 	move CLAMP,        EFFECT_TRAP_TARGET,        45, WATER,    	PHYSICAL,  85, 10,   0
 	move SWIFT,        EFFECT_ALWAYS_HIT,         60, NORMAL,   	SPECIAL,  100, 20,   0
