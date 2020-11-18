@@ -180,7 +180,7 @@ ForgetMove:
 	ld a, [hl]
 	push af
 	push bc
-	;call IsHMMove, make HM moves deletable
+	call IsHMMove
 	pop bc
 	pop de
 	ld a, d

@@ -209,12 +209,12 @@ SailorEugeneAfterBattleText:
 PokefanmDerekSeenText:
 	text "This is a good"
 	line "time to brag about"
-	cont "my PIKACHU!"
+	cont "my WIWRIGHT!"
 	done
 
 PokefanmDerekBeatenText:
 	text "I had no time to"
-	line "show off PIKACHU…"
+	line "show off WIWRIGHT…"
 	done
 
 PokefanMDerekText_NotBragging:
@@ -295,7 +295,7 @@ PokefanfJaimeBeatenText:
 	done
 
 PokefanfJaimeAfterBattleText:
-	text "I met my MEOWTH at"
+	text "I met MAULZER at"
 	line "night, right here"
 	cont "on ROUTE 39."
 
@@ -319,7 +319,7 @@ Route39SignText:
 	line "ECRUTEAK CITY"
 	done
 
-MoomooFarmSignText:
+MoomooFarmSignText:			; TODO change all this jazz
 	text "MOOMOO FARM"
 
 	para "Enjoy Our Fresh"
@@ -335,7 +335,8 @@ Route39TrainerTipsText:
 
 	para "Different kinds of"
 	line "#MON drop out"
-	cont "of trees."
+	cont "of trees depending"
+	cont "on where you are."
 
 	para "Use HEADBUTT on"
 	line "any tree you see!"

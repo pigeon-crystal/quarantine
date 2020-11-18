@@ -117,7 +117,7 @@ EcruteakHistoryBookText:
 	para "Want to read it?"
 	done
 
-EcruteakTwoTowersText:
+EcruteakTwoTowersText:				; TODO change
 	text "In ECRUTEAK, there"
 	line "were two towers."
 

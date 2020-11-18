@@ -154,7 +154,7 @@ MahoganyMart1FLanceGoDownStairsMovement:
 	slow_step RIGHT
 	step_end
 
-UnknownText_0x6c414:
+UnknownText_0x6c414:									; TODO, figure out what to do with Rocket's plan and Dragonite
 	text "Hello, kiddo!"
 
 	para "How would you like"

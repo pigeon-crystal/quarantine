@@ -496,13 +496,12 @@ Phone_CallerTextboxWithName2:
 	ld [hl], "☎"
 	inc hl
 	inc hl
-	ld a, [wPhoneScriptBank]
-	ld b, a
 	ld a, [wPhoneCaller]
 	ld e, a
 	ld a, [wPhoneCaller + 1]
 	ld d, a
-	call FarPlaceString
+	ld a, [wPhoneScriptBank]
+	call Place2DMenuItemName
 	ret
 
 Phone_NoSignal:

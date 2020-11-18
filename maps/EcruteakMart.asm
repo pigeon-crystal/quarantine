@@ -20,19 +20,14 @@ EcruteakMartSuperNerdScript:
 EcruteakMartGrannyScript:
 	jumptextfaceplayer EcruteakMartGrannyText
 
-EcruteakMartSuperNerdText:
-	text "My EEVEE evolved"
-	line "into an ESPEON."
+EcruteakMartSuperNerdText:			; TODO change to 
+	text "My LAMSEED evolved"
+	line "into a BAAFOMET."
 
 	para "But my friend's"
-	line "EEVEE turned into"
-	cont "an UMBREON."
+	line "LAMSEED didn't!"
 
-	para "I wonder why? We"
-	line "both were raising"
-
-	para "our EEVEE in the"
-	line "same way…"
+	para "I wonder why…"
 	done
 
 EcruteakMartGrannyText:
@@ -41,6 +36,14 @@ EcruteakMartGrannyText:
 
 	para "fainted will wake"
 	line "right up."
+	
+	para "However, it won't"
+	line "work in battles."
+	
+	para "In the heat of"
+	line "combat, it takes"
+	cont "too long to take"
+	cont "effect."
 	done
 
 EcruteakMart_MapEvents:

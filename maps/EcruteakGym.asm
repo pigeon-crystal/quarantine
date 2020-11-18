@@ -177,7 +177,7 @@ EcruteakGymGrampsSlowStepDownMovement:
 	slow_step DOWN
 	step_end
 
-MortyIntroText:
+MortyIntroText:					; TODO change legend
 	text "Good of you to"
 	line "have come."
 
@@ -235,7 +235,7 @@ MortyText_FogBadgeSpeech:
 	text "By having FOG-"
 	line "BADGE, #MON up"
 
-	para "to L50 will obey"
+	para "to L66 will obey"
 	line "you."
 
 	para "Also, #MON that"
@@ -296,6 +296,12 @@ SageJeffreyBeatenText:
 SageJeffreyAfterBattleText:
 	text "Where did #MON"
 	line "come from?"
+	
+	para "Where do we"
+	line "come from?"
+	
+	para "How connected is"
+	line "the web of life?"
 	done
 
 SagePingSeenText:
@@ -309,12 +315,16 @@ SagePingBeatenText:
 	done
 
 SagePingAfterBattleText:
-	text "We use only ghost-"
-	line "type #MON."
-
-	para "No normal-type"
-	line "attack can harm"
-	cont "them!"
+	text "Ghost and dark"
+	line "#MON are tricky."
+	
+	para "Ghost #MON are"
+	line "immune to fighting"
+	cont "moves, which dark"
+	cont "is weak to."
+	
+	para "They make a good"
+	line "pair."
 	done
 
 MediumMarthaSeenText:
@@ -354,15 +364,20 @@ MediumGraceAfterBattleText:
 	done
 
 EcruteakGymGuyText:
-	text "The trainers here"
-	line "have secret mo-"
-	cont "tives."
+	text "Yo, <PLAYER>!"
 
-	para "If you win, they"
-	line "may tell you some"
-
-	para "deep secrets about"
-	line "ECRUTEAK."
+	para "Welcome to MORTY'S"
+	line "house of horror!"
+	
+	para "Expect a lot of"
+	line "scary #MON."
+	
+	para "Prepare to face"
+	line "your fears…"
+	
+	para "…Oh, and ghost,"
+	line "dark, and psychic"
+	cont "#MON."
 	done
 
 EcruteakGymGuyWinText:
@@ -381,7 +396,7 @@ EcruteakGymClosedText:
 	para "Sorry, but you'll"
 	line "have to leave."
 
-	para "Hohohoho."
+	para "Hohohoho…"
 	done
 
 EcruteakGym_MapEvents:

@@ -18,7 +18,7 @@ LugiaSpeechHouseRadio:
 
 EcruteakLugiaSpeechHouseGrampsText:
 	text "This happened when"
-	line "I was young."
+	line "I was a sailor."
 
 	para "The sky suddenly"
 	line "turned black. A"
@@ -27,19 +27,23 @@ EcruteakLugiaSpeechHouseGrampsText:
 	line "MON was blocking"
 	cont "out the sun."
 
-	para "I wonder what that"
-	line "#MON was? "
-
-	para "It was like a bird"
-	line "and a dragon."
+	para "Behind it, a"
+	line "great swarm." 
+	
+	para "It was like"
+	line "nothing I've"
+	cont "seen since."
 	done
 
 EcruteakLugiaSpeechHouseYoungsterText:
-	text "Is there really a"
-	line "#MON that big?"
-
-	para "If it exists, it"
-	line "must be powerful."
+	text "Gramps says some"
+	line "weird stuff."
+	
+	para "But those rumors"
+	line "about the WHIRL"
+	cont "ISLANDS…"
+	
+	para "It kinda adds up."
 	done
 
 EcruteakLugiaSpeechHouse_MapEvents:
@@ -56,4 +60,4 @@ EcruteakLugiaSpeechHouse_MapEvents:
 
 	db 2 ; object events
 	object_event  2,  3, SPRITE_GRAMPS, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakLugiaSpeechHouseGrampsScript, -1
-	object_event  5,  4, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakLugiaSpeechHouseYoungsterScript, -1
+	object_event  5,  4, SPRITE_RADICAL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, EcruteakLugiaSpeechHouseYoungsterScript, -1

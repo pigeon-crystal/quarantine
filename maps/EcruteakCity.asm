@@ -88,27 +88,6 @@ EcruteakCityMartSign:
 EcruteakCityHiddenHyperPotion:
 	hiddenitem HYPER_POTION, EVENT_ECRUTEAK_CITY_HIDDEN_HYPER_POTION
 
-UnusedMissingDaughterText:
-; unused
-	text "Oh, no. Oh, no…"
-
-	para "My daughter is"
-	line "missing."
-
-	para "No… She couldn't"
-	line "have gone to the"
-	cont "BURNED TOWER."
-
-	para "I told her not to"
-	line "go near it…"
-
-	para "People seem to"
-	line "disappear there…"
-
-	para "Oh, what should I"
-	line "do…?"
-	done
-
 EcruteakCityGramps1Text:
 	text "ECRUTEAK used to"
 	line "have two towers:"
@@ -181,13 +160,13 @@ EcruteakCityFisherText_JasmineReturned:
 
 EcruteakCityYoungsterText:
 	text "I hear #MON are"
-	line "rampaging at the"
+	line "getting sick at"
 
-	para "LAKE OF RAGE. I'd"
-	line "like to see that."
+	para "LAKE OF RAGE."
+	line "How awful!"
 	done
 
-EcruteakCityGramps3Text:
+EcruteakCityGramps3Text:		; TODO change legend
 	text "In the distant"
 	line "past…"
 
@@ -228,8 +207,8 @@ TinTowerSignText:
 	text "TIN TOWER"
 
 	para "A legendary #-"
-	line "MON is said to"
-	cont "roost here."
+	line "MON once lived"
+	cont "here."
 	done
 
 EcruteakGymSignText:
@@ -255,50 +234,6 @@ BurnedTowerSignText:
 
 	para "Please stay away,"
 	line "as it is unsafe."
-	done
-
-SlaatelScold:
-	text "SLAATEL: Hiss!"
-	line "You cheater!"
-	
-	para "SLAATEL: You"
-	line "naughty thing! You"
-	cont "KNOW you shouldn't"
-	cont "be here!"
-	
-	para "SLAATEL: I"
-	line "guess I'll have"
-	cont "to punish you!"
-	
-	para "SLAATEL: Prepare"
-	line "yourself!"
-	done
-	
-SlaatelShock:
-	text "SLAATEL: HOW?"
-	line "Do you have THAT"
-	cont "much free time?"
-	
-	para "SLAATEL: Well,"
-	line "I shan't be a"
-	cont "sore loser."
-	
-	para "SLAATEL: Hiss."
-	line "I'm actually"
-	cont "a bit impressed."
-	cont "Your dedication"
-	
-	para "SLAATEL: makes me"
-	line "feel rather, well…"
-	
-	para "SLAATEL: Anyways!"
-	line "This demo was"
-	cont "supposed to end"
-	cont "already, so"
-	cont "don't expect much"
-	cont "beyond here."
-	
-	para "SLAATEL: Toodles!"
 	done
 	
 EcruteakCity_MapEvents:
@@ -333,7 +268,7 @@ EcruteakCity_MapEvents:
 	bg_event 30, 21, BGEVENT_READ, EcruteakCityMartSign
 	bg_event 23, 14, BGEVENT_ITEM, EcruteakCityHiddenHyperPotion
 
-	db 7 ; object events EDIT THIS FOR NEXT DEMO FFS
+	db 7 ; object events
 	object_event 18, 15, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakCityGramps1Script, -1
 	object_event 20, 21, SPRITE_GRAMPS, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakCityGramps2Script, -1
 	object_event 21, 29, SPRITE_LASS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, EcruteakCityLass1Script, -1

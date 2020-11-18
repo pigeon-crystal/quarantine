@@ -185,19 +185,20 @@ RageCandyBarMerchantSoldOutText:
 	done
 
 MahoganyTownGrampsText:
-	text "Are you off to see"
-	line "the GYARADOS ram-"
-	cont "page at the LAKE?"
+	text "Oh, all the"
+	line "poor #MON"
+	cont "at the lake…"
+	
+	para "Won't somebody"
+	line "do something?"
 	done
 
 MahoganyTownGrampsText_ClearedRocketHideout:
-	text "MAGIKARP have"
-	line "returned to LAKE"
-	cont "OF RAGE."
-
-	para "That should be"
-	line "good news for the"
-	cont "anglers there."
+	text "The waters of"
+	line "the LAKE OF RAGE"
+	cont "run clean again!"
+	
+	para "Thank goodness."
 	done
 
 MahoganyTownFisherText:
@@ -211,7 +212,12 @@ MahoganyTownFisherText:
 	line "north and check"
 
 	para "out LAKE OF RAGE"
-	line "right now."
+	line "right now………"
+	
+	para "That's what I'd"
+	line "normally say, but"
+	cont "something's not"
+	cont "right."
 	done
 
 MahoganyTownLassText:

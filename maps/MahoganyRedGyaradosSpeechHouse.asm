@@ -35,15 +35,13 @@ MahoganyRedGyaradosSpeechHouseUnusedBookshelf2:
 	jumpstd magazinebookshelf
 
 MahoganyRedGyaradosSpeechHouseBlackBeltText:
-	text "I heard that a red"
-	line "GYARADOS appeared"
-	cont "at the LAKE."
+	text "I heard that a"
+	line "BERMUDANT appeared"
+	cont "at the LAKE!"
 
-	para "That's odd, since"
-	line "even ordinary"
-
-	para "GYARADOS are rare"
-	line "in that lake…"
+	para "Those aren't just"
+	line "an everyday type"
+	cont "of #MON!"
 	done
 
 MahoganyRedGyaradosSpeechHouseTeacherText:
@@ -72,5 +70,5 @@ MahoganyRedGyaradosSpeechHouse_MapEvents:
 	db 0 ; bg events
 
 	db 2 ; object events
-	object_event  2,  3, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MahoganyRedGyaradosSpeechHouseBlackBeltScript, -1
-	object_event  6,  5, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, MahoganyRedGyaradosSpeechHouseTeacherScript, -1
+	object_event  2,  3, SPRITE_BREEDER_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, MahoganyRedGyaradosSpeechHouseBlackBeltScript, -1
+	object_event  6,  5, SPRITE_FANATIC, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, MahoganyRedGyaradosSpeechHouseTeacherScript, -1

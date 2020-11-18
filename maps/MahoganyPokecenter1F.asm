@@ -46,9 +46,11 @@ MahoganyPokecenter1FCooltrainerFText:
 	text "#MON do become"
 	line "stronger when they"
 
-	para "evolve, but they"
-	line "also learn moves"
-	cont "more slowly."
+	para "evolve, but in"
+	line "some cases, they"
+	
+	para "learn moves more"
+	line "slowly."
 	done
 
 MahoganyPokecenter1F_MapEvents:

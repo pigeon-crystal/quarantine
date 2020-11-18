@@ -271,7 +271,7 @@ EcruteakTinTowerEntranceGrampsText:
 	para "But when one"
 	line "burned down, both"
 
-	para "#MON flew away,"
+	para "#MON left,"
 	line "never to return."
 	done
 

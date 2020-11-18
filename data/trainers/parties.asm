@@ -1389,8 +1389,9 @@ PokemaniacGroup:
 
 	; POKEMANIAC (4) Route 42
 	db "SHANE@", TRAINERTYPE_NORMAL
-	db 16, ONIONI
-	db 16, SHRIMPANZI
+	db 26, ONIONI
+	db 26, ODDITTEN
+	db 26, OBELITH
 	db -1 ; end
 
 	; POKEMANIAC (5) Route 43
@@ -3517,7 +3518,10 @@ PokefanMGroup:
 
 	; POKEFANM (2) Route 39
 	db "DEREK@", TRAINERTYPE_ITEM
-	db 17, PIKACHU,    BERRY
+	db 33, WIWRIGHT,    BERRY
+	db 33, WIWRIGHT,	GOLD_BERRY
+	db 33, WIWRIGHT, 	BERRY_JUICE
+	db 33, WIWRIGHT, 	BERSERK_GENE
 	db -1 ; end
 
 	; POKEFANM (3)
@@ -3725,7 +3729,8 @@ PokefanFGroup:
 
 	; POKEFANF (6) Route 39
 	db "JAIME@", TRAINERTYPE_ITEM
-	db 16, TODESCOOL,     BERRY
+	db 38, ONIONI,		GOLD_BERRY
+	db 38, MAULZER,     BERRY
 	db -1 ; end
 
 RedGroup:
