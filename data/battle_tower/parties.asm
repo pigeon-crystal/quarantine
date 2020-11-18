@@ -1,5 +1,5 @@
 BattleTowerMons:
-; 10 groups of 21 mons.
+; 10 groups of 21 mons. ; TODO god fucking help us
 
 BattleTowerMons1:
 

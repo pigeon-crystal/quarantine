@@ -136,4 +136,9 @@ OverworldSprites:
 	overworld_sprite MintSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite MarkSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite PotionSpriteGFX, 4, STILL_SPRITE, PAL_OW_RED
+	overworld_sprite GoriathChunk1GFX, 4, STILL_SPRITE, PAL_OW_RED
+	overworld_sprite GoriathChunk2GFX, 4, STILL_SPRITE, PAL_OW_RED
+	overworld_sprite GoriathChunk3GFX, 4, STILL_SPRITE, PAL_OW_RED
+	overworld_sprite GoriathChunk4GFX, 4, STILL_SPRITE, PAL_OW_RED
+	overworld_sprite BreederFSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
 	

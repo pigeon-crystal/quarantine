@@ -132,6 +132,11 @@
 	const SPRITE_MINT
 	const SPRITE_MARK
 	const SPRITE_POTION
+	const SPRITE_GORIATH_CHUNK_1
+	const SPRITE_GORIATH_CHUNK_2
+	const SPRITE_GORIATH_CHUNK_3
+	const SPRITE_GORIATH_CHUNK_4
+	const SPRITE_BREEDER_F
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm) TODO cleanup Spritemons
 ;	const_def $a0
@@ -195,7 +200,7 @@ SPRITE_POKEMON EQU const_value
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)
 	const_def $ee
-	const SPRITE_DAY_CARE_MON_1 ; ed
+	const SPRITE_DAY_CARE_MON_1 ; ee
 	const SPRITE_DAY_CARE_MON_2 ; ef
 
 ; wVariableSprites indexes (see wram.asm)
