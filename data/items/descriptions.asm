@@ -665,7 +665,7 @@ PinkBowDesc:
 	db   "Powers up normal-"
 	next "type moves. (HOLD)@"
 
-StickDesc:						bouquet
+StickDesc:					;	bouquet
 	db   "A lovely bouquet"
 	next "of flowers.@"
 
