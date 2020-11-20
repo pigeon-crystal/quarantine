@@ -1146,7 +1146,7 @@ BattleCommand_Critical:
 .Item:
 	ld c, 0
 
-	cp SWAZZAGE
+	cp MURDERMIS				
 	jr nz, .Farfetchd
 	ld a, [hl]
 	cp LUCKY_PUNCH
@@ -1157,7 +1157,7 @@ BattleCommand_Critical:
 	jr .Tally
 
 .Farfetchd:
-	cp FARFETCH_D
+	cp RESPECTRE
 	jr nz, .FocusEnergy
 	ld a, [hl]
 	cp STICK
@@ -2766,9 +2766,6 @@ TruncateHL_BC:
 	inc l
 
 .finish
-	ld a, [wLinkMode]
-	cp LINK_COLOSSEUM
-	jr z, .done
 ; If we go back to the loop point,
 ; it's the same as doing this exact
 ; same check twice.
@@ -2776,7 +2773,6 @@ TruncateHL_BC:
 	or b
 	jr nz, .loop
 
-.done
 	ld b, l
 	ret
 
@@ -2829,12 +2825,12 @@ CheckDamageStatsCritical:
 ThickClubBoost:
 ; Return in hl the stat value at hl.
 
-; If the attacking monster is Cubone or Marowak and
-; it's holding a Thick Club, double it.
+; If the attacking monster is Missingno and
+; it's holding a Teru-Sama, double it.
 	push bc
 	push de
-	ld b, MUMAGNUS
-	ld c, MUMINI
+	ld b, MISSINGNO
+	ld c, MISSINGNO
 	ld d, THICK_CLUB
 	call SpeciesItemBoost
 	pop de
@@ -2844,12 +2840,12 @@ ThickClubBoost:
 LightBallBoost:
 ; Return in hl the stat value at hl.
 
-; If the attacking monster is Pikachu and it's
-; holding a Light Ball, double it.
+; If the attacking monster is Attacko and it's
+; holding a Cilantro, double it.
 	push bc
 	push de
-	ld b, PIKACHU
-	ld c, PIKACHU
+	ld b, ATTACKO
+	ld c, ATTACKO
 	ld d, LIGHT_BALL
 	call SpeciesItemBoost
 	pop de

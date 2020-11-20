@@ -371,9 +371,9 @@ CarbosDesc:
 	db   "Raises SPEED of"
 	next "one #MON.@"
 
-LuckyPunchDesc:
-	db   "Ups crit ratio"
-	next "of SWAZZAGE.@"
+LuckyPunchDesc:						; brain
+	db   "It's what MURDERMIS"
+	next "needed! (HOLD)@"
 
 CalciumDesc:
 	db   "Ups SPECIAL stats"
@@ -665,9 +665,9 @@ PinkBowDesc:
 	db   "Powers up normal-"
 	next "type moves. (HOLD)@"
 
-StickDesc:
-	db   "An ordinary stick."
-	next "Sell low.@"
+StickDesc:						bouquet
+	db   "A lovely bouquet"
+	next "of flowers.@"
 
 SmokeBallDesc:
 	db   "Escape from wild"
@@ -717,9 +717,8 @@ MiracleSeedDesc:
 	db   "Powers up grass-"
 	next "type moves. (HOLD)@"
 
-ThickClubDesc:
-	db   "A bone of some"
-	next "sort. Sell low.@"
+ThickClubDesc:					; missingno's teru sama
+	db   "? (HOLD) @"
 
 FocusBandDesc:
 	db   "May prevent faint-"
@@ -889,9 +888,9 @@ FastBallDesc:
 TeruSama21Desc:
 	db   "?@"
 
-LightBallDesc:
-	db   "An odd, electrical"
-	next "orb. (HOLD)@"
+LightBallDesc:					; cilantro
+	db   "Seasoning for"
+	next "ATTACKO. (HOLD)@"
 
 FriendBallDesc:
 	db   "A BALL that makes"

@@ -28,7 +28,7 @@ ItemNames::
 	db "PROTEIN@"
 	db "IRON@"
 	db "CARBOS@"
-	db "LUCKY PUNCH@"
+	db "BRAIN@"			; Lucky Punch
 	db "CALCIUM@"
 	db "RARE CANDY@"
 	db "X ACCURACY@"
@@ -103,7 +103,7 @@ ItemNames::
 	db "BLACKGLASSES@"
 	db "CUTTLETENDER@"
 	db "PINK BOW@"
-	db "STICK@"
+	db "BOUQUET@"				; STICK
 	db "SMOKE BALL@"
 	db "NEVERMELTICE@"
 	db "MAGNET@"
@@ -116,7 +116,7 @@ ItemNames::
 	db "GS BALL@"
 	db "BLUE CARD@"
 	db "MIRACLE SEED@"
-	db "THICK CLUB@"
+	db "TERU-SAMA@"			; thick club
 	db "FOCUS BAND@"
 	db "ODD AMBER@"
 	db "ENERGYPOWDER@"
@@ -161,7 +161,7 @@ ItemNames::
 	db "LURE BALL@"
 	db "FAST BALL@"
 	db "TERU-SAMA@"
-	db "LIGHT BALL@"
+	db "CILANTRO@"		; light ball
 	db "FRIEND BALL@"
 	db "MOON BALL@"
 	db "LOVE BALL@"

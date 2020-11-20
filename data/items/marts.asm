@@ -379,7 +379,8 @@ MartUnderground:
 	db -1 ; end
 	
 MartFlowerShop:
-	db 6 ; # items
+	db 7 ; # items
+	db STICK
 	db REPEL
 	db SUPER_REPEL
 	db MAX_REPEL
