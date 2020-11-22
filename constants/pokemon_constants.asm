@@ -262,19 +262,19 @@ JOHTO_POKEMON EQU const_value
 	const GORIATH      ; f0 
 	const DRASSAL    ; f1
 	const ODDITULLY  ; f2
-	const ANDROMEGA     ; f3 vortex
+	const ANDROMEGA  ; f3 
 	const SLAATEL    ; f4
 	const RYUNARI    ; f5
 	const YUKITTEN   ; f6
 	const FLURIKEN   ; f7
 	const SNOKAGE    ; f8
 	const AVATRICE   ; f9
-	const DONUKAME      ; fa donchan
+	const DONUKAME   ; fa 
 	const TENTAQUIL  ; fb 
 	const PILFOARD	 ; fc
+	const SLOWHOG	 ; fd
 NUM_POKEMON EQU const_value - 1
-	const EGG        ; fd
-	const MON_FE     ; fe
+	const EGG        ; fe
 
 ; Unown forms
 ; indexes for:

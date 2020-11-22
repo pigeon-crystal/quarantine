@@ -252,3 +252,5 @@ PokedexDataPointerTable:
 	dw DonukamePokedexEntry
 	dw TentaquilPokedexEntry
 	dw PilfoardPokedexEntry
+	dw SlowhogPokedexEntry
+	

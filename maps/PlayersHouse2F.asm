@@ -55,6 +55,8 @@ PlayersHouseRadioScript:
 	givepoke SQUEENIE, 60
 	givepoke NOXROMAEUS, 40
 	givepoke GANZERKER, 50
+	givepoke SLOWHOG, 50
+	givepoke PILFOARD, 50
 	setflag ENGINE_FOGBADGE
 	setflag ENGINE_RISINGBADGE
 	setflag ENGINE_MINERALBADGE
@@ -63,7 +65,7 @@ PlayersHouseRadioScript:
 	giveitem HM_WHIRLPOOL
 	giveitem HM_SURF
 	giveitem HM_WATERFALL
-	warp CIANWOOD_DUNES_COAST, 17, 28
+	warp GOLDENROD_CITY, 19, 33
 	end
 	
 ;PlayersHouseRadioScript:

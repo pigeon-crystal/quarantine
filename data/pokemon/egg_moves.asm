@@ -851,6 +851,14 @@ PilfoardEggMoves:
 	db SCREECH
 	db SPIKE_CANNON
 	db -1 ; end
+	
+SlowhogEggMoves:
+	db RECOVER
+	db CURSE
+	db SAND_ATTACK
+	db MINIMIZE
+	db SPIKE_CANNON
+	db -1 ; end
 
 NoEggMoves:
 	db -1 ; end

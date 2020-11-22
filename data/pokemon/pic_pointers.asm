@@ -509,5 +509,7 @@ PokemonPicPointers::
 	dba TentaquilBackpic
 	dba PilfoardFrontpic
 	dba PilfoardBackpic
+	dba SlowhogFrontpic
+	dba SlowhogBackpic
 	dba EggPic
 	dbw -1, -1 ; unused

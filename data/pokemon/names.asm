@@ -251,7 +251,5 @@ PokemonNames::
 	db "DONUKAME@@"
 	db "TENTAQUIL@"
 	db "PILFOARD@@"
+	db "SLOWHOG@@@"
 	db "EGG@@@@@@@"
-	db "?????@@@@@"
-	db "?????@@@@@"
-	db "?????@@@@@"

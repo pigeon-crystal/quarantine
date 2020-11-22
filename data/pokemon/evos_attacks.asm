@@ -4045,3 +4045,22 @@ PilfoardEvosAttacks:
 	db 44, GLARE
 	db 50, SELFDESTRUCT
 	db 0 ; no more level-up moves
+	
+SlowhogEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, POUND
+	db 10, SAND_ATTACK
+	db 15, MUD_SLAP
+	db 20, REST
+	db 25, PROTECT
+	db 25, RECOVER
+	db 30, DEFENSE_CURL
+	db 35, SUBSTITUTE
+	db 40, GROWL
+	db 45, SPIKES
+	db 51, EARTH_POWER
+	db 52, TRI_ATTACK
+	db 53, HYPER_BEAM
+	db 60, FISSURE
+	db 0 ; no more level-up moves 
+	

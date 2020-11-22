@@ -4,6 +4,7 @@ AlphabeticalPokedexOrder:
 	db ALLSEERAPH
 	db AMANIGO
 	db AMBINNI
+	db AMBIONIC
 	db AMPHAROS
 	db ANTPYRE
 	db ARASBESTOS
@@ -198,9 +199,9 @@ AlphabeticalPokedexOrder:
 	db SIDFICIOUS
 	db SNOSEBLEED
 	db SLAATEL
+	db SLOWHOG
 	db SLOWBRO
 	db MISSTERIA
-	db AMBIONIC
 	db SMOTHERENE
 	db SMUCIOUS
 	db SNEASEL

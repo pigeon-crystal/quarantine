@@ -253,4 +253,5 @@ EvosAttacksPointers::
 	dw DonukameEvosAttacks
 	dw TentaquilEvosAttacks
 	dw PilfoardEvosAttacks
+	dw SlowhogEvosAttacks
 	

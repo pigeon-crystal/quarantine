@@ -547,7 +547,8 @@ ZasterBackpic:     INCBIN "gfx/pokemon/zaster/back.2bpp.lz"
 PepofferBackpic:     INCBIN "gfx/pokemon/pepoffer/back.2bpp.lz"
 PitayrantBackpic:    INCBIN "gfx/pokemon/pitayrant/back.2bpp.lz"
 UltramanPic:		INCBIN "gfx/trainers/ultraman.2bpp.lz"
-
+SlowhogFrontpic:		INCBIN "gfx/pokemon/slowhog/front.2bpp.lz"
+SlowhogBackpic:			INCBIN "gfx/pokemon/slowhog/back.2bpp.lz"
 
 SECTION "Pics 16", ROMX
 

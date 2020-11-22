@@ -572,7 +572,7 @@ INCBIN "gfx/footprints/avatrice.1bpp",      footprint_top
 INCBIN "gfx/footprints/donukame.1bpp",      footprint_top
 INCBIN "gfx/footprints/tentaquil.1bpp",     footprint_top
 INCBIN "gfx/footprints/pilfoard.1bpp",   footprint_top
-INCBIN "gfx/footprints/253.1bpp",        footprint_top
+INCBIN "gfx/footprints/slowhog.1bpp",        footprint_top
 INCBIN "gfx/footprints/254.1bpp",        footprint_top
 INCBIN "gfx/footprints/255.1bpp",        footprint_top
 INCBIN "gfx/footprints/256.1bpp",        footprint_top
@@ -581,7 +581,7 @@ INCBIN "gfx/footprints/avatrice.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/donukame.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/tentaquil.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/pilfoard.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/253.1bpp",        footprint_bottom
+INCBIN "gfx/footprints/slowhog.1bpp",        footprint_bottom
 INCBIN "gfx/footprints/254.1bpp",        footprint_bottom
 INCBIN "gfx/footprints/255.1bpp",        footprint_bottom
 INCBIN "gfx/footprints/256.1bpp",        footprint_bottom

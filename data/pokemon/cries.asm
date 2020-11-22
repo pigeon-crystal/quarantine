@@ -257,6 +257,6 @@ PokemonCries::
 	mon_cry CRY_AIPOM,         0,  384 ; DONUKAME
 	mon_cry CRY_CLEFFA,     -685,  457 ; TENTAQUIL
 	mon_cry $B5,      		$083E,  $0057 ; PILFOARD
-	mon_cry CRY_NIDORAN_M,     0,    0 ; 253
+	mon_cry CRY_CYNDAQUIL,   666,  320 ; 253
 	mon_cry CRY_NIDORAN_M,     0,    0 ; 254
 	mon_cry CRY_NIDORAN_M,     0,    0 ; 255

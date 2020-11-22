@@ -267,3 +267,5 @@ AvatricePokedexEntry::      INCLUDE "data/pokemon/dex_entries/avatrice.asm"
 DonukamePokedexEntry::       INCLUDE "data/pokemon/dex_entries/donukame.asm"
 TentaquilPokedexEntry::     INCLUDE "data/pokemon/dex_entries/tentaquil.asm"
 PilfoardPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/pilfoard.asm"
+SlowhogPokedexEntry::		INCLUDE "data/pokemon/dex_entries/slowhog.asm"
+
