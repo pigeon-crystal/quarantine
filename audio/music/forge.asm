@@ -1403,7 +1403,7 @@ Music_Forge_Ch3_loop_B_major:
 ; ============================================================================================================
 
 Music_Forge_Ch4:
-	togglenoise 6
+	togglenoise 3
 	notetype $C
 	callchannel Music_Forge_Ch4_loop_A_opt
 	callchannel Music_Forge_Ch4_loop_A_opt
@@ -1421,29 +1421,29 @@ Music_Forge_Ch4_loop_A:
 	loopchannel 6, Music_Forge_Ch4_loop_A
 	;END
 Music_Forge_Ch4_loop_B:
-	note C#, 2
-	note C#, 2
+	note A#, 2
+	note A#, 2
 	note C_, 4
-	note C#, 4
+	note A#, 4
 	note C_, 4
-	note C#, 4
+	note A#, 4
 	note C_, 4
-	note C#, 4
+	note A#, 4
 	note C_, 2
 	note C_, 2
 	loopchannel 16, Music_Forge_Ch4_loop_B
 	loopchannel 0, Music_Forge_Ch4_loop_A
 	
 Music_Forge_Ch4_loop_A_opt:
-	note D#, 4
+	note A#, 4
 	note C_, 4
 	note C_, 4
 	note C_, 4
 	endchannel
 	
 Music_Forge_Ch4_loop_A_opt2:
-	note D#, 2
-	note D#, 2
+	note A#, 2
+	note A#, 2
 	note C_, 2
 	note C_, 2
 	note C_, 4

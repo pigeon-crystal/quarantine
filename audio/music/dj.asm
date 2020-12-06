@@ -1,5 +1,4 @@
-; ARPS AND PERC SUPPORT IN POKEMON WOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-; i can't think of any funny way to say "if you're doing credits, credit me as toothpaste" so pretend i wrote an absolute zinger
+; remember when i was content with a supershort track that was just arps and square perc haha
  
 ; ============================================================================================================
 
@@ -16,14 +15,14 @@ Music_DJ_Ch1:
 	tempo 64
 Music_DJ_Ch1_Loop:
 ;Bar 1
-	intensity $90
+	intensity $80
 	octave 3
 	slidepitchto 4, 9, C#
 	note C#, 4
 	intensity $09
 	octave 1
 	note C#, 4
-	intensity $90
+	intensity $80
 	octave 3
 	slidepitchto 4, 9, C#
 	note C#, 4
@@ -31,14 +30,14 @@ Music_DJ_Ch1_Loop:
 	octave 1
 	note C#, 4
 ;Bar 2
-	intensity $90
+	intensity $80
 	octave 3
 	slidepitchto 4, 9, C#
 	note C#, 4
 	intensity $09
 	octave 1
 	note C#, 4
-	intensity $90
+	intensity $80
 	octave 3
 	slidepitchto 4, 9, C#
 	note C#, 4
@@ -46,14 +45,14 @@ Music_DJ_Ch1_Loop:
 	octave 1
 	note C#, 4
 ;Bar 3
-	intensity $90
+	intensity $80
 	octave 3
 	slidepitchto 4, 9, C#
 	note C#, 4
 	intensity $09
 	octave 1
 	note C#, 4
-	intensity $90
+	intensity $80
 	octave 3
 	slidepitchto 4, 9, C#
 	note C#, 4
@@ -61,14 +60,14 @@ Music_DJ_Ch1_Loop:
 	octave 1
 	note C#, 4
 ;Bar 4
-	intensity $90
+	intensity $80
 	octave 3
 	slidepitchto 4, 9, C#
 	note C#, 4
 	intensity $09
 	octave 1
 	note C#, 4
-	intensity $90
+	intensity $80
 	octave 3
 	slidepitchto 4, 9, C#
 	note C#, 4
@@ -76,14 +75,14 @@ Music_DJ_Ch1_Loop:
 	octave 1
 	note C#, 4
 ;Bar 5
-	intensity $90
+	intensity $80
 	octave 3
 	slidepitchto 4, 9, C#
 	note C#, 4
 	intensity $09
 	octave 1
 	note C#, 4
-	intensity $90
+	intensity $80
 	octave 3
 	slidepitchto 4, 9, C#
 	note C#, 4
@@ -91,14 +90,14 @@ Music_DJ_Ch1_Loop:
 	octave 1
 	note C#, 4
 ;Bar 6
-	intensity $90
+	intensity $80
 	octave 3
 	slidepitchto 4, 9, C#
 	note C#, 4
 	intensity $09
 	octave 1
 	note C#, 4
-	intensity $90
+	intensity $80
 	octave 3
 	slidepitchto 4, 9, C#
 	note C#, 4
@@ -106,14 +105,14 @@ Music_DJ_Ch1_Loop:
 	octave 1
 	note C#, 4
 ;Bar 7
-	intensity $90
+	intensity $80
 	octave 3
 	slidepitchto 4, 9, C#
 	note C#, 4
 	intensity $09
 	octave 1
 	note C#, 4
-	intensity $90
+	intensity $80
 	octave 3
 	slidepitchto 4, 9, C#
 	note C#, 4
@@ -121,14 +120,14 @@ Music_DJ_Ch1_Loop:
 	octave 1
 	note C#, 4
 ;Bar 8
-	intensity $90
+	intensity $80
 	octave 3
 	slidepitchto 4, 9, C#
 	note C#, 4
 	intensity $09
 	octave 1
 	note C#, 4
-	intensity $90
+	intensity $80
 	octave 3
 	slidepitchto 4, 9, C#
 	note C#, 4
@@ -180,7 +179,7 @@ Music_DJ_Ch2:
 	notetype 12, $80
 Music_DJ_Ch2_Loop:
 ;Bar 1
-	intensity $80
+	intensity $70
 	octave 3
 	note C#, 1
 	note E_, 1
@@ -200,7 +199,7 @@ Music_DJ_Ch2_Loop:
 	note G#, 1
 	octave 4
 	note C#, 1
-	intensity $80
+	intensity $70
 	octave 3
 	note C#, 1
 	note E_, 1
@@ -215,7 +214,7 @@ Music_DJ_Ch2_Loop:
 	note G#, 1
 	octave 4
 	note C#, 1
-	intensity $80
+	intensity $70
 	octave 3
 	note C#, 1
 	note E_, 1
@@ -229,7 +228,7 @@ Music_DJ_Ch2_Loop:
 	note G#, 1
 	octave 4
 	note C#, 1
-	intensity $80
+	intensity $70
 	octave 3
 	note C#, 1
 	note E_, 1
@@ -251,7 +250,7 @@ Music_DJ_Ch2_Loop:
 	note E_, 1
 	note G#, 1
 	note B_, 1
-	intensity $80
+	intensity $70
 	note C#, 1
 	note E_, 1
 	note G#, 1
@@ -262,7 +261,7 @@ Music_DJ_Ch2_Loop:
 	note E_, 1
 	note G#, 1
 	note B_, 1
-	intensity $80
+	intensity $70
 	note C#, 1
 	note E_, 1
 	note G#, 1
@@ -272,7 +271,7 @@ Music_DJ_Ch2_Loop:
 	note E_, 1
 	note G#, 1
 	note B_, 1
-	intensity $80
+	intensity $70
 	note C#, 1
 	note E_, 1
 	note G#, 1
@@ -297,7 +296,7 @@ Music_DJ_Ch2_Loop:
 	note C#, 1
 	note E_, 1
 	note G#, 1
-	intensity $80
+	intensity $70
 	octave 2
 	note A_, 1
 	octave 3
@@ -312,7 +311,7 @@ Music_DJ_Ch2_Loop:
 	note C#, 1
 	note E_, 1
 	note G#, 1
-	intensity $80
+	intensity $70
 	octave 2
 	note A_, 1
 	octave 3
@@ -326,7 +325,7 @@ Music_DJ_Ch2_Loop:
 	note C#, 1
 	note E_, 1
 	note G#, 1
-	intensity $80
+	intensity $70
 	octave 2
 	note A_, 1
 	octave 3
@@ -353,7 +352,7 @@ Music_DJ_Ch2_Loop:
 	note D#, 1
 	note F#, 1
 	note B_, 1
-	intensity $80
+	intensity $70
 	octave 2
 	note B_, 1
 	octave 3
@@ -368,7 +367,7 @@ Music_DJ_Ch2_Loop:
 	note D#, 1
 	note F#, 1
 	note B_, 1
-	intensity $80
+	intensity $70
 	octave 2
 	note B_, 1
 	octave 3
@@ -382,7 +381,7 @@ Music_DJ_Ch2_Loop:
 	note D#, 1
 	note F#, 1
 	note B_, 1
-	intensity $80
+	intensity $70
 	octave 2
 	note B_, 1
 	octave 3

@@ -1,4 +1,6 @@
-; the noise channel is for COWARDS
+; just noticed this track has the same comment as the legendary theme lmao
+; i actually did compose this one so i'm updating it to say that i composed it
+; the drum solo in this has aged surprisingly well over the past few months, it's not winning any awards but i am still happy with it
 
 ; ============================================================================================================
 
@@ -994,7 +996,7 @@ Music_Donchan_Ch2_Loop:
 	note F#, 4
 	note F#, 16
 	note __, 8
-	intensity $C6
+	intensity $C5
 	octave 4
 	note C_, 8
 	octave 3

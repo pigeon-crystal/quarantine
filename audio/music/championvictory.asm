@@ -1,8 +1,4 @@
-; hey this time i actually put effort into optimising this
-; it could definitely be improved but i don't want this to turn into spaghetti
-; you have a direct line of contact to me now so i don't need to say that my name is toothpaste and i made this
-; but for tradition i'll say it anyway
-; also FUCK GB NOTE, FUCK GAME FREAK'S SOUND ENGINE, AND FUCK LOOPS
+; this is still a mess but it's slightly less of a mess
 
 ; ============================================================================================================
 
@@ -193,7 +189,7 @@ Music_ChampionVictory_Ch1_Loop:
 
 Music_ChampionVictory_Ch2:
 	dutycycle $3
-	notetype 12, $D7
+	notetype 12, $D6
 ;Frame 1
 	octave 4
 	note G#, 9
@@ -480,7 +476,7 @@ Music_ChampionVictory_Ch4_LoopB:
 	note D#, 1
 	note D_, 2
 	note G_, 1
-	loopchannel 8, Music_ChampionVictory_Ch4_LoopB
+	loopchannel 8, Music_ChampionVictory_Ch4_LoopB ;crash2 kick1 snare14 drum31
 	loopchannel 0, Music_ChampionVictory_Ch4_LoopA
 
 ; ============================================================================================================

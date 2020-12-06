@@ -47,7 +47,7 @@ Music_LookEnforcer_Ch1:
 	notetype 12, $96
 	octave 3
 	note D#, 3
-	notetype 12, $76
+	notetype 12, $75
 	note C_, 1
 	note G_, 1
 	octave 4
@@ -55,7 +55,7 @@ Music_LookEnforcer_Ch1:
 	notetype 12, $96
 	octave 3
 	note E_, 3
-	notetype 12, $76
+	notetype 12, $75
 	note C#, 1
 	note G#, 1
 	octave 4
@@ -63,7 +63,7 @@ Music_LookEnforcer_Ch1:
 	notetype 12, $96
 	octave 3
 	note F_, 3
-	notetype 12, $76
+	notetype 12, $75
 	note D_, 1
 	note A_, 1
 	octave 4
@@ -71,7 +71,7 @@ Music_LookEnforcer_Ch1:
 	notetype 12, $96
 	octave 3
 	note F#, 3
-	notetype 12, $76
+	notetype 12, $75
 	note D#, 1
 	note A#, 1
 	octave 4

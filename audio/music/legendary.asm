@@ -364,7 +364,7 @@ Music_Legendary_Ch1_loop:
 	note G#, 6
 ;Bar 36
 	note C#, 6
-	intensity $2E
+	intensity $2C
 	note F#, 6
 ;Bar 37
 	intensity $87
@@ -786,7 +786,7 @@ Music_Legendary_Ch2_loop:
 ;Bar 36
 	octave 3
 	note A#, 6
-	intensity $5E
+	intensity $5C
 	vibrato $00, $00
 	octave 4
 	note D#, 6
