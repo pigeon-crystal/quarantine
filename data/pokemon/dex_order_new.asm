@@ -248,10 +248,10 @@ NewPokedexOrder:
 	db SNOKAGE
 	db AVATRICE
 	db DONUKAME
-	db MA_0
 	db MEW
 	db NOOMSDAY
 	db GANZORAH
 	db TENTAQUIL
+	db MA_0
 	db MISSINGNO
 	

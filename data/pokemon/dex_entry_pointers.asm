@@ -233,7 +233,7 @@ PokedexDataPointerTable:
 	dw ObelithPokedexEntry
 	dw MoneumennPokedexEntry
 	dw PolyroPokedexEntry
-	dw MissingnoPokedexEntry
+	dw SlowhogPokedexEntry
 	dw EyechosisPokedexEntry
 	dw TyroguePokedexEntry
 	dw HitmontopPokedexEntry
@@ -252,5 +252,5 @@ PokedexDataPointerTable:
 	dw DonukamePokedexEntry
 	dw TentaquilPokedexEntry
 	dw PilfoardPokedexEntry
-	dw SlowhogPokedexEntry
+	dw MissingnoPokedexEntry
 	

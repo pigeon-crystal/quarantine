@@ -234,7 +234,7 @@ EvosAttacksPointers::
 	dw ObelithEvosAttacks
 	dw MoneumennEvosAttacks
 	dw PolyroEvosAttacks
-	dw MissingnoEvosAttacks ;stantler
+	dw SlowhogEvosAttacks ;stantler
 	dw EyechosisEvosAttacks
 	dw TyrogueEvosAttacks
 	dw HitmontopEvosAttacks
@@ -253,5 +253,5 @@ EvosAttacksPointers::
 	dw DonukameEvosAttacks
 	dw TentaquilEvosAttacks
 	dw PilfoardEvosAttacks
-	dw SlowhogEvosAttacks
+	dw MissingnoEvosAttacks
 	

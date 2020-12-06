@@ -852,7 +852,7 @@ PilfoardEggMoves:
 	db SPIKE_CANNON
 	db -1 ; end
 	
-SlowhogEggMoves:
+MissingnoEggMoves: ;todo slowhog egg move
 	db RECOVER
 	db CURSE
 	db SAND_ATTACK

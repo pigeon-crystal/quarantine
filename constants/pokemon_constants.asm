@@ -253,13 +253,13 @@ JOHTO_POKEMON EQU const_value
 	const OBELITH    ; e7
 	const MONEUMENN  ; e8
 	const POLYRO     ; e9
-	const MISSINGNO  ; ea
+	const SLOWHOG  ; ea
 	const EYECHOSIS  ; eb
 	const TYROGUE    ; ec direwolf
 	const HITMONTOP  ; ed cat
 	const AMBIONIC   ; ee mosquito
 	const ELEKID     ; ef cured buzzling
-	const GORIATH      ; f0 
+	const GORIATH    ; f0 
 	const DRASSAL    ; f1
 	const ODDITULLY  ; f2
 	const ANDROMEGA  ; f3 
@@ -272,7 +272,7 @@ JOHTO_POKEMON EQU const_value
 	const DONUKAME   ; fa 
 	const TENTAQUIL  ; fb 
 	const PILFOARD	 ; fc
-	const SLOWHOG	 ; fd
+	const MISSINGNO	 ; fd
 NUM_POKEMON EQU const_value - 1
 	const EGG        ; fe
 

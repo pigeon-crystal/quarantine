@@ -122,7 +122,7 @@ PepofferFrontpic:     INCBIN "gfx/pokemon/pepoffer/front.animated.2bpp.lz"
 CantaloneFrontpic:   INCBIN "gfx/pokemon/cantalone/front.animated.2bpp.lz"
 CasanocteFrontpic:    INCBIN "gfx/pokemon/casanocte/front.animated.2bpp.lz"
 JunobeFrontpic:     INCBIN "gfx/pokemon/junobe/front.animated.2bpp.lz"
-MissingnoFrontpic:   INCBIN "gfx/pokemon/missingno/front.animated.2bpp.lz"
+SlowhogFrontpic:   INCBIN "gfx/pokemon/slowhog/front.animated.2bpp.lz"
 NomsabreFrontpic:    INCBIN "gfx/pokemon/nomsabre/front.animated.2bpp.lz"
 PripydermFrontpic:    INCBIN "gfx/pokemon/pripyderm/front.animated.2bpp.lz"
 PolitoedFrontpic:    INCBIN "gfx/pokemon/politoed/front.animated.2bpp.lz"
@@ -474,7 +474,7 @@ TyrogueBackpic:      INCBIN "gfx/pokemon/tyrogue/back.2bpp.lz"
 DolmiteFrontpic:     INCBIN "gfx/pokemon/dolmite/front.animated.2bpp.lz"
 YagagarasuBackpic:       INCBIN "gfx/pokemon/yagagarasu/back.2bpp.lz"
 SwazzageBackpic:    INCBIN "gfx/pokemon/swazzage/back.2bpp.lz"
-MissingnoBackpic:    INCBIN "gfx/pokemon/missingno/back.2bpp.lz"
+SlowhogBackpic:    INCBIN "gfx/pokemon/slowhog/back.2bpp.lz"
 EyechosisBackpic:     INCBIN "gfx/pokemon/eyechosis/back.2bpp.lz"
 CharizardBackpic:    INCBIN "gfx/pokemon/charizard/back.2bpp.lz"
 BundegrafBackpic:      INCBIN "gfx/pokemon/bundegraf/back.2bpp.lz"
@@ -547,8 +547,6 @@ ZasterBackpic:     INCBIN "gfx/pokemon/zaster/back.2bpp.lz"
 PepofferBackpic:     INCBIN "gfx/pokemon/pepoffer/back.2bpp.lz"
 PitayrantBackpic:    INCBIN "gfx/pokemon/pitayrant/back.2bpp.lz"
 UltramanPic:		INCBIN "gfx/trainers/ultraman.2bpp.lz"
-SlowhogFrontpic:		INCBIN "gfx/pokemon/slowhog/front.2bpp.lz"
-SlowhogBackpic:			INCBIN "gfx/pokemon/slowhog/back.2bpp.lz"
 
 SECTION "Pics 16", ROMX
 
@@ -701,6 +699,7 @@ UnownYBackpic:       INCBIN "gfx/pokemon/unown_y/back.2bpp.lz"
 UnownPBackpic:       INCBIN "gfx/pokemon/unown_p/back.2bpp.lz"
 UnownIBackpic:       INCBIN "gfx/pokemon/unown_i/back.2bpp.lz"
 UnownRBackpic:       INCBIN "gfx/pokemon/unown_r/back.2bpp.lz"
+MissingnoFrontpic:		INCBIN "gfx/pokemon/missingno/front.2bpp.lz"
 
 
 SECTION "Pics 19", ROMX
@@ -745,6 +744,7 @@ SalarymanPic: 		INCBIN "gfx/trainers/salaryman.2bpp.lz"
 EngineerPic:		INCBIN "gfx/trainers/engineer.2bpp.lz"
 SkepticPic:			INCBIN "gfx/trainers/skeptic.2bpp.lz"
 ImakuniPic:			INCBIN "gfx/trainers/imakuni.2bpp.lz"
+MissingnoBackpic:			INCBIN "gfx/pokemon/missingno/back.2bpp.lz"
 
 
 ; Sections "Pics 20" to "Pics 24" are not used for any graphics,

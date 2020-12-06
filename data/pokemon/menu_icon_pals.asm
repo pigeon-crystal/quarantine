@@ -237,7 +237,7 @@ MonMenuIconPals:
 	icon_pals PURPLE,   YELLOW ; OBELITH
 	icon_pals YELLOW,   PURPLE  ; MONEUMENN
 	icon_pals PURPLE,   RED    ; POLYRO
-	icon_pals RED,   YELLOW    ; MISSINGNO
+	icon_pals RED,   YELLOW    ; SLOWHOG
 	icon_pals PURPLE,   YELLOW    ; EYECHOSIS
 	icon_pals RED,   YELLOW    ; TYROGUE
 	icon_pals RED,   YELLOW    ; HITMONTOP
@@ -256,7 +256,7 @@ MonMenuIconPals:
 	icon_pals BLUE,   RED    	; DONUKAME
 	icon_pals YELLOW,   BLUE    ; TENTAQUIL
 	icon_pals YELLOW, GRAY 		; PILFOARD
-	icon_pals PINK, YELLOW		; SLOWHOG
+	icon_pals PINK, YELLOW		; MISSINGNO
 	icon_pals RED,   BLUE      ; EGG
 
 

@@ -125,7 +125,7 @@ AlphabeticalPokedexOrder:
 	db MEOWTAIN
 	db MEW
 	db DRASSAL
-	db MISSINGNO
+	db SLOWHOG
 	db BLAZENBULL
 	db MONEUMENN
 	db MOPERDOR
@@ -199,7 +199,7 @@ AlphabeticalPokedexOrder:
 	db SIDFICIOUS
 	db SNOSEBLEED
 	db SLAATEL
-	db SLOWHOG
+	db MISSINGNO
 	db SLOWBRO
 	db MISSTERIA
 	db SMOTHERENE

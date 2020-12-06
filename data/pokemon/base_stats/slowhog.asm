@@ -1,11 +1,11 @@
 	db SLOWHOG ; 063
 
-	db  255,  10,  20,  10, 80,  10
+	db  254,  10,  20,  10, 80,  10
 	;   hp   atk  def  spd  sat  sdf
 
 	db NORMAL, GROUND ; type
 	db 75 ; catch rate
-	db 200 ; base exp
+	db 220 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

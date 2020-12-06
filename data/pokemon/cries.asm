@@ -238,7 +238,7 @@ PokemonCries::
 	mon_cry CRY_METAPOD,     -10,  437 ; OBELITH
 	mon_cry CRY_METAPOD,      99,  395 ; MONEUMENN
 	mon_cry CRY_SPINARAK,   -399,  400 ; POLYRO
-	mon_cry CRY_MA_0,       -255,    1 ; MISSINGNO
+	mon_cry CRY_CYNDAQUIL,   666,  320 ; SLOWHOG
 	mon_cry CRY_AMPHAROS,    -91,  303 ; EYECHOSIS
 	mon_cry CRY_AIPOM,        44,  264 ; TYROGUE
 	mon_cry CRY_SLUGMA,        0,  256 ; HITMONTOP
@@ -257,6 +257,6 @@ PokemonCries::
 	mon_cry CRY_AIPOM,         0,  384 ; DONUKAME
 	mon_cry CRY_CLEFFA,     -685,  457 ; TENTAQUIL
 	mon_cry $B5,      		$083E,  $0057 ; PILFOARD
-	mon_cry CRY_CYNDAQUIL,   666,  320 ; 253
+	mon_cry CRY_MA_0,   	-255,    1 ; MISSINGNO
 	mon_cry CRY_NIDORAN_M,     0,    0 ; 254
 	mon_cry CRY_NIDORAN_M,     0,    0 ; 255

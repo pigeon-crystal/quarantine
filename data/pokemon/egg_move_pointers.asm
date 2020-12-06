@@ -251,4 +251,4 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw PilfoardEggMoves
-	dw SlowhogEggMoves
+	dw MissingnoEggMoves

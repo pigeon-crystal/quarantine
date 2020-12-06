@@ -471,8 +471,8 @@ PokemonPicPointers::
 	dba MoneumennBackpic
 	dba PolyroFrontpic
 	dba PolyroBackpic
-	dba MissingnoFrontpic ;stantler
-	dba MissingnoBackpic
+	dba SlowhogFrontpic ;stantler
+	dba SlowhogBackpic
 	dba EyechosisFrontpic
 	dba EyechosisBackpic
 	dba TyrogueFrontpic
@@ -509,7 +509,7 @@ PokemonPicPointers::
 	dba TentaquilBackpic
 	dba PilfoardFrontpic
 	dba PilfoardBackpic
-	dba SlowhogFrontpic
-	dba SlowhogBackpic
+	dba MissingnoFrontpic
+	dba MissingnoBackpic
 	dba EggPic
 	dbw -1, -1 ; unused
