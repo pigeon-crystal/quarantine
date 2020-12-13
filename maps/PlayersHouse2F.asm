@@ -52,9 +52,9 @@ PosterScript:
 
 PlayersHouseRadioScript:
 	setflag ENGINE_POKEDEX
-	givepoke SLOWHOG, 50
-	givepoke MISSINGNO, 50
-	givepoke SQUEENIE, 50
+	givepoke GANZORAH, 50
+	givepoke NOOMSDAY, 50
+	givepoke STRATOWAR, 50
 	setflag ENGINE_FOGBADGE
 	setflag ENGINE_RISINGBADGE
 	setflag ENGINE_MINERALBADGE

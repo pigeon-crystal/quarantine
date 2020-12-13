@@ -102,6 +102,15 @@
 	const ICON_MURDERMIS
 	const ICON_ANDROMEGA
 	const ICON_CRUSTAZER
+	const ICON_MESSMASH
+	const ICON_BLASPHERMY	
+	const ICON_JUNOBE
+	const ICON_VOYAPOD
+	const ICON_EXOTUNITY
+	const ICON_BOWLIDE
+	const ICON_PARDNER
+	const ICON_NOOMSDAY
+	const ICON_GANZORAH
 	const ICON_SQUIRTLE ;START OF BANK 2
 	const ICON_BULBASAUR
 	const ICON_CHARMANDER
@@ -190,6 +199,12 @@
 	const ICON_DRASSAL
 	const ICON_WANDELUS
 	const ICON_NIMBOREM
+	const ICON_STRATOWAR
+	const ICON_NUCKAWHEEZ
+	const ICON_WENDIGAUNT
+	const ICON_YAGAGARASU
+	const ICON_SQWUCKY
+	const ICON_SQUEENIE
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

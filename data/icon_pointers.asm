@@ -102,6 +102,15 @@ IconPointers:
 	dw MurdermisIcon
 	dw AndromegaIcon	
 	dw CrustazerIcon
+	dw MessmashIcon
+	dw BlasphermyIcon
+	dw JunobeIcon
+	dw VoyapodIcon
+	dw ExotunityIcon
+	dw BowlideIcon
+	dw PardnerIcon
+	dw NoomsdayIcon
+	dw GanzorahIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon
@@ -190,4 +199,10 @@ IconPointers:
 	dw DrassalIcon
 	dw WandelusIcon
 	dw NimboremIcon
+	dw StratowarIcon
+	dw NuckawheezIcon
+	dw WendigauntIcon
+	dw YagagarasuIcon
+	dw SqwuckyIcon
+	dw SqueenieIcon
 	
