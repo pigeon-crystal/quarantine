@@ -2958,9 +2958,20 @@ PardnerEvosAttacks:
 	db 55, THRASH
 	db 0 ; no more level-up moves
 
-PolitoedEvosAttacks:
+OlchapEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, WATER_GUN
+	db 1, SHARPEN
+	db 1, WHIRLWIND
+	db 1, RAPID_SPIN
+	db 7, SPIKES
+	db 10, LEER
+	db 14, GUST
+	db 20, SPIKE_CANNON
+	db 29, ENCORE
+	db 32, FLAME_WHEEL
+	db 40, RAZOR_WIND
+	db 54, FLASH_CANNON
+	db 70, GUILLOTINE
 	db 0 ; no more level-up moves
 
 ShabbycatEvosAttacks:
@@ -3291,12 +3302,24 @@ ShreddrakeEvosAttacks:
 	db 44, CRUNCH
 	db 47, OUTRAGE
 	db 52, THUNDERPUNCH
-	db 56, DRAGON_DANCE
+	db 55, DRAGON_DANCE
 	db 0 ; no more level-up moves
 
-ForretressEvosAttacks:
+AligroEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POUND
+	db 1, MIST
+	db 5, EMBER
+	db 9, GUST
+	db 10, HAZE
+	db 20, PERISH_SONG
+	db 25, WILL_O_WISP
+	db 30, SMOKESCREEN
+	db 34, POISON_GAS
+	db 38, FIRE_SPIN
+	db 45, MOONBLAST
+	db 50, FLAMETHROWER
+	db 60, RAZOR_WIND
+	db 70, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 AttackoEvosAttacks:

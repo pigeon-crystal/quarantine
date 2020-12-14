@@ -2,8 +2,8 @@
 	dw 207, 917 ; height, weight
 
 	db   "PARDNER is often"
-	next "seen dueling its"
-	next "shadow. This"
+	next "seen dueling "
+	next "OLCHAP. This"
 
 	page "honorable fellow"
 	next "protects the weak"

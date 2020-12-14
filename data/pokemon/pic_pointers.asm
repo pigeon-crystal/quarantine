@@ -372,8 +372,8 @@ PokemonPicPointers::
 	dba SateliskBackpic
 	dba PardnerFrontpic
 	dba PardnerBackpic
-	dba PolitoedFrontpic
-	dba PolitoedBackpic
+	dba OlchapFrontpic
+	dba OlchapBackpic
 	dba ShabbycatFrontpic
 	dba ShabbycatBackpic
 	dba PurrdleFrontpic
@@ -413,8 +413,8 @@ PokemonPicPointers::
 	dba SwazzageBackpic
 	dba ShreddrakeFrontpic
 	dba ShreddrakeBackpic
-	dba ForretressFrontpic
-	dba ForretressBackpic
+	dba AligroFrontpic
+	dba AligroBackpic
 	dba AttackoFrontpic
 	dba AttackoBackpic
 	dba WiwrightFrontpic

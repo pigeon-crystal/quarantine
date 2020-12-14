@@ -224,7 +224,7 @@ Pokered_MonIndices:
 	db HABBLE
 	db SATELISK
 	db PARDNER
-	db POLITOED
+	db OLCHAP
 	db SHABBYCAT
 	db PURRDLE
 	db MEOWTAIN
@@ -243,7 +243,7 @@ Pokered_MonIndices:
 	db RESPECTRE
 	db SWAZZAGE
 	db SHREDDRAKE
-	db FORRETRESS
+	db ALIGRO
 	db ATTACKO
 	db WIWRIGHT
 	db WIRIGIBLE

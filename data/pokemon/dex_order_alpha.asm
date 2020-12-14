@@ -61,7 +61,7 @@ AlphabeticalPokedexOrder:
 	db FELIORITTE
 	db FLAREON
 	db FLUFFRUIT
-	db FORRETRESS
+	db ALIGRO
 	db FURDOBA
 	db FURNIT
 	db PURRAATZLE
@@ -168,7 +168,7 @@ AlphabeticalPokedexOrder:
 	db PITAYRANT
 	db PLANTENNA
 	db POCALYPTUS
-	db POLITOED
+	db OLCHAP
 	db PORYGON
 	db POLYRO
 	db BOBBITRAP

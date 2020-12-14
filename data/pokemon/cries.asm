@@ -190,7 +190,7 @@ PokemonCries::
 	mon_cry $1C,       		$001B, $0060 ; HABBLE
 	mon_cry $1C,      		$0F1B, $00A0 ; SATELISK
 	mon_cry CRY_DONPHAN,    $004e, $000d ; PARDNER
-	mon_cry CRY_CLEFFA,     -675,  456 ; POLITOED
+	mon_cry CRY_CLEFFA,     -675,  456 ; OLCHAP
 	mon_cry CRY_CLEFAIRY,    199,  169 ; SHABBYCAT orig HOPPIP
 	mon_cry CRY_CLEFAIRY,    100,  169 ; PURRDLE
 	mon_cry CRY_CLEFAIRY,   -104,  399 ; MEOWTAIN
@@ -209,7 +209,7 @@ PokemonCries::
 	mon_cry CRY_DUNSPARCE,   273,  369 ; RESPECTRE
 	mon_cry CRY_GIRAFARIG,    65,  512 ; SWAZZAGE
 	mon_cry CRY_SLOWKING,    128,  256 ; SHREDDRAKE
-	mon_cry CRY_SLOWKING,      0,  384 ; FORRETRESS
+	mon_cry CRY_SLOWKING,      0,  384 ; ALIGRO
 	mon_cry CRY_DUNSPARCE,   841,  206 		; ATTACKO
 	mon_cry CRY_GLIGAR,       69,  231 		; WIWRIGHT
 	mon_cry CRY_GLIGAR,  	  51,  247 		; WIRIGIBLE

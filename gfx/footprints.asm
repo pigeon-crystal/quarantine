@@ -425,7 +425,7 @@ INCBIN "gfx/footprints/habble.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/satelisk.1bpp",  footprint_bottom
 ; 185-192 top halves
 INCBIN "gfx/footprints/pardner.1bpp",  footprint_top
-INCBIN "gfx/footprints/politoed.1bpp",   footprint_top
+INCBIN "gfx/footprints/olchap.1bpp",   footprint_top
 INCBIN "gfx/footprints/shabbycat.1bpp",     footprint_top
 INCBIN "gfx/footprints/purrdle.1bpp",   footprint_top
 INCBIN "gfx/footprints/meowtain.1bpp",   footprint_top
@@ -434,7 +434,7 @@ INCBIN "gfx/footprints/phanguard.1bpp",    footprint_top
 INCBIN "gfx/footprints/brigadoom.1bpp",   footprint_top
 ; 185-192 bottom halves
 INCBIN "gfx/footprints/pardner.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/politoed.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/olchap.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/shabbycat.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/purrdle.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/meowtain.1bpp",   footprint_bottom
@@ -464,7 +464,7 @@ INCBIN "gfx/footprints/unown.1bpp",      footprint_top
 INCBIN "gfx/footprints/respectre.1bpp",  footprint_top
 INCBIN "gfx/footprints/swazzage.1bpp",  footprint_top
 INCBIN "gfx/footprints/shreddrake.1bpp",     footprint_top
-INCBIN "gfx/footprints/forretress.1bpp", footprint_top
+INCBIN "gfx/footprints/aligro.1bpp", footprint_top
 INCBIN "gfx/footprints/attacko.1bpp",  footprint_top
 INCBIN "gfx/footprints/wiwright.1bpp",     footprint_top
 INCBIN "gfx/footprints/wirigible.1bpp",    footprint_top
@@ -473,7 +473,7 @@ INCBIN "gfx/footprints/unown.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/respectre.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/swazzage.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/shreddrake.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/forretress.1bpp", footprint_bottom
+INCBIN "gfx/footprints/aligro.1bpp", footprint_bottom
 INCBIN "gfx/footprints/attacko.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/wiwright.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/wirigible.1bpp",    footprint_bottom

@@ -185,7 +185,7 @@ PokedexDataPointerTable:
 	dw HabblePokedexEntry
 	dw SateliskPokedexEntry
 	dw PardnerPokedexEntry
-	dw PolitoedPokedexEntry
+	dw OlchapPokedexEntry
 	dw ShabbycatPokedexEntry
 	dw PurrdlePokedexEntry
 	dw MeowtainPokedexEntry
@@ -204,7 +204,7 @@ PokedexDataPointerTable:
 	dw RespectrePokedexEntry
 	dw SwazzagePokedexEntry
 	dw ShreddrakePokedexEntry
-	dw ForretressPokedexEntry
+	dw AligroPokedexEntry
 	dw AttackoPokedexEntry
 	dw WiwrightPokedexEntry
 	dw WirigiblePokedexEntry

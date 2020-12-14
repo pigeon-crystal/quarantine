@@ -642,8 +642,8 @@ JohtoGrassWildMons:
 	db 14, BOBBITE
 	db 13, MORADAY
 	db 14, DOLMESA
-	db 16, POLITOED   ; stand-in for bad hat
-	db 16, POLITOED	  ; stand-in for bad hat
+	db 16, OLCHAP   ; stand-in for bad hat
+	db 16, OLCHAP	  ; stand-in for bad hat
 	db 19, PARDNER
 	; day
 	db 14, BOBBITE
@@ -651,8 +651,8 @@ JohtoGrassWildMons:
 	db 14, BOBBITE
 	db 13, MORADAY
 	db 14, DOLMESA
-	db 16, POLITOED   ; stand-in for bad hat
-	db 16, POLITOED   ; stand-in for bad hat
+	db 16, OLCHAP   ; stand-in for bad hat
+	db 16, OLCHAP   ; stand-in for bad hat
 	db 19, PARDNER
 	; nite
 	db 14, BOBBITE
@@ -660,9 +660,9 @@ JohtoGrassWildMons:
 	db 14, BOBBITE
 	db 13, MORADAY
 	db 14, DOLMESA
-	db 16, POLITOED   ; stand-in for bad hat
-	db 16, POLITOED   ; stand-in for bad hat
-	db 19, POLITOED   ; OHONONONO PARDNER BROS HOW COULD WE LOSE TO THE NIGHT
+	db 16, OLCHAP   ; stand-in for bad hat
+	db 16, OLCHAP   ; stand-in for bad hat
+	db 19, OLCHAP   ; OHONONONO PARDNER BROS HOW COULD WE LOSE TO THE NIGHT
 
 	map_id MOUNT_MORTAR_1F_INSIDE ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -673,16 +673,16 @@ JohtoGrassWildMons:
 	db 13, MORADAY
 	db 14, DOLMESA
 	db 16, CLIBBLE
-	db 16, POLITOED  ; stand-in for bad hat
-	db 19, POLITOED  ; stand-in for bad hat
+	db 16, OLCHAP  ; stand-in for bad hat
+	db 19, OLCHAP  ; stand-in for bad hat
 	; day
 	db 14, BOBBITE
 	db 13, SCRUFFRUIT
 	db 14, BOBBITE
 	db 13, MORADAY
 	db 14, DOLMESA
-	db 16, POLITOED   ; stand-in for bad hat
-	db 16, POLITOED   ; stand-in for bad hat
+	db 16, OLCHAP   ; stand-in for bad hat
+	db 16, OLCHAP   ; stand-in for bad hat
 	db 19, PARDNER
 	; nite
 	db 14, BOBBITE
@@ -691,8 +691,8 @@ JohtoGrassWildMons:
 	db 13, MORADAY
 	db 14, DOLMESA
 	db 16, CLIBBLE
-	db 16, POLITOED  ; stand-in for bad hat
-	db 19, POLITOED  ; stand-in for bad hat
+	db 16, OLCHAP  ; stand-in for bad hat
+	db 19, OLCHAP  ; stand-in for bad hat
 
 	map_id MOUNT_MORTAR_2F_INSIDE ; REQUIRES WATERFALL - LATEGAME
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -733,8 +733,8 @@ JohtoGrassWildMons:
 	db 13, MORADAY
 	db 14, CLIBBLE
 	db 16, CLIBBLE
-	db 16, POLITOED  ; stand-in for bad hat
-	db 19, POLITOED  ; stand-in for bad hat
+	db 16, OLCHAP  ; stand-in for bad hat
+	db 19, OLCHAP  ; stand-in for bad hat
 	; day
 	db 14, BOBBITE
 	db 13, SCRUFFRUIT
@@ -742,8 +742,8 @@ JohtoGrassWildMons:
 	db 13, MORADAY
 	db 14, CLIBBLE
 	db 16, CLIBBLE
-	db 16, POLITOED  ; stand-in for bad hat
-	db 19, POLITOED  ; stand-in for bad hat
+	db 16, OLCHAP  ; stand-in for bad hat
+	db 19, OLCHAP  ; stand-in for bad hat
 	; nite
 	db 14, BOBBITE
 	db 13, SCRUFFRUIT
@@ -751,8 +751,8 @@ JohtoGrassWildMons:
 	db 13, MORADAY
 	db 14, CLIBBLE
 	db 16, CLIBBLE
-	db 16, POLITOED  ; stand-in for bad hat
-	db 19, POLITOED  ; stand-in for bad hat
+	db 16, OLCHAP  ; stand-in for bad hat
+	db 19, OLCHAP  ; stand-in for bad hat
 
 	map_id ICE_PATH_1F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite

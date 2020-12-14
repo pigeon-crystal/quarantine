@@ -77,7 +77,7 @@ NewPokedexOrder:
 	db CREMIGO
 	db AMANIGO
 	db YUGGROMI
-	db POLITOED
+	db OLCHAP
 	db MAGIKARP
 	db GYARADOS
 	db GOOSAPLING
@@ -98,7 +98,7 @@ NewPokedexOrder:
 	db MANDELBLOB
 	db HELACTAL
 	db SHREDDRAKE
-	db FORRETRESS
+	db ALIGRO
 	db SPRUNNY
 	db ONIONI
 	db ONIONION

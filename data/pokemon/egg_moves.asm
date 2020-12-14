@@ -610,7 +610,7 @@ PardnerEggMoves:
 	db SUBSTITUTE
 	db -1 ; end
 
-PolitoedEggMoves:
+OlchapEggMoves:
 	db PLAY_ROUGH
 	db SUBSTITUTE
 	db -1 ; end 
@@ -702,8 +702,9 @@ ShreddrakeEggMoves:
 	db FROSTBITE
 	db -1 ; end
 
-ForretressEggMoves:
+AligroEggMoves:
 	db ANCIENTPOWER
+	db MORNING_SUN
 	db -1
 
 AttackoEggMoves:
@@ -852,7 +853,7 @@ PilfoardEggMoves:
 	db SPIKE_CANNON
 	db -1 ; end
 	
-MissingnoEggMoves: ;todo slowhog egg move
+MissingnoEggMoves: ;todo slowhog egg move TODO
 	db RECOVER
 	db CURSE
 	db SAND_ATTACK

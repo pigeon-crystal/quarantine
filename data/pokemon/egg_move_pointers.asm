@@ -184,7 +184,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw PardnerEggMoves
-	dw PolitoedEggMoves ; evil hat
+	dw OlchapEggMoves ; evil hat
 	dw ShabbycatEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
@@ -203,7 +203,7 @@ EggMovePointers::
 	dw RespectreEggMoves
 	dw SwazzageEggMoves
 	dw ShreddrakeEggMoves
-	dw ForretressEggMoves ; Flute Genie
+	dw AligroEggMoves ; Flute Genie
 	dw AttackoEggMoves
 	dw WiwrightEggMoves
 	dw NoEggMoves

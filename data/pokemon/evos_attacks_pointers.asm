@@ -186,7 +186,7 @@ EvosAttacksPointers::
 	dw HabbleEvosAttacks
 	dw SateliskEvosAttacks
 	dw PardnerEvosAttacks
-	dw PolitoedEvosAttacks
+	dw OlchapEvosAttacks
 	dw ShabbycatEvosAttacks
 	dw PurrdleEvosAttacks
 	dw MeowtainEvosAttacks
@@ -205,7 +205,7 @@ EvosAttacksPointers::
 	dw RespectreEvosAttacks
 	dw SwazzageEvosAttacks
 	dw ShreddrakeEvosAttacks
-	dw ForretressEvosAttacks
+	dw AligroEvosAttacks
 	dw AttackoEvosAttacks
 	dw WiwrightEvosAttacks
 	dw WirigibleEvosAttacks

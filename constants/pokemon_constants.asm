@@ -205,7 +205,7 @@ JOHTO_POKEMON EQU const_value
 	const HABBLE     ; b7
 	const SATELISK   ; b8
 	const PARDNER    ; b9
-	const POLITOED   ; ba evil hat!
+	const OLCHAP   ; ba evil hat!
 	const SHABBYCAT  ; bb
 	const PURRDLE    ; bc
 	const MEOWTAIN   ; bd
@@ -224,7 +224,7 @@ JOHTO_POKEMON EQU const_value
 	const RESPECTRE  ; ca
 	const SWAZZAGE   ; cb
 	const SHREDDRAKE ; cc
-	const FORRETRESS ; cd flute genie
+	const ALIGRO 	 ; cd
 	const ATTACKO    ; ce 
 	const WIWRIGHT   ; cf
 	const WIRIGIBLE  ; d0
