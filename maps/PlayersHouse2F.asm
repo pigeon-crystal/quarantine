@@ -52,9 +52,9 @@ PosterScript:
 
 PlayersHouseRadioScript:
 	setflag ENGINE_POKEDEX
-	givepoke GANZORAH, 50
 	givepoke NOOMSDAY, 50
 	givepoke STRATOWAR, 50
+	givepoke GANZORAH, 50
 	setflag ENGINE_FOGBADGE
 	setflag ENGINE_RISINGBADGE
 	setflag ENGINE_MINERALBADGE
@@ -63,7 +63,17 @@ PlayersHouseRadioScript:
 	giveitem HM_WHIRLPOOL
 	giveitem HM_SURF
 	giveitem HM_WATERFALL
-	warp GOLDENROD_CITY, 19, 33
+	giveitem MASTER_BALL
+	giveitem MASTER_BALL
+	giveitem MASTER_BALL
+	giveitem MASTER_BALL
+	giveitem MASTER_BALL
+	giveitem MASTER_BALL
+	giveitem MASTER_BALL
+	giveitem MASTER_BALL
+	giveitem MASTER_BALL
+	giveitem MASTER_BALL
+	warp RUINS_OF_ALPH_OUTSIDE, 3, 18
 	end
 	
 ;PlayersHouseRadioScript:

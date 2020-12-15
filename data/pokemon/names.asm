@@ -199,7 +199,7 @@ PokemonNames::
 	db "BISMUTT@@@"
 	db "TIDO@@@@@@"
 	db "MAULZER@@@"
-	db "UNOWN@@@@@"
+	db "GLYTHIC@@@"
 	db "RESPECTRE@"
 	db "SWAZZAGE@@"
 	db "SHREDDRAKE"

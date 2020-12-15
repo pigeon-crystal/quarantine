@@ -471,7 +471,7 @@ RuinsOfAlphResearchCenterModifiedDexText:
 	para "I added an"
 	line "optional #DEX"
 
-	para "to store UNOWN"
+	para "to store GLYTHIC"
 	line "data."
 
 	para "It records them in"
@@ -505,6 +505,7 @@ RuinsOfAlphResearchCenterScientist3RestingText:
 	line "FOSSIL RESTORATION"
 	cont "MACHINE to see"
 	cont "what I mean."
+	done
 
 RuinsOfAlphResearchCenterScientist3_PrinterAvailable:
 	text "You caught all the"
@@ -625,7 +626,7 @@ RuinsOfAlphResearchCenterUnusedText2:
 
 RuinsOfAlphResearchCenterScientist2Text_GotAllUnown:
 	text "Why did those"
-	line "ancient patterns"
+	line "ancient drawings"
 
 	para "appear on the wall"
 	line "now?"

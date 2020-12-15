@@ -2138,6 +2138,24 @@ HelactalEvosAttacks:
 NoomsdayEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
+	db 1, DRAININGKISS
+	db 1, PERISH_SONG
+	db 4, DEFENSE_CURL
+	db 5, BITE
+	db 9, ROLLOUT
+	db 16, QUICK_ATTACK
+	db 19, ENDURE
+	db 21, HEADBUTT
+	db 22, HAMSTERKAUF
+	db 24, REST
+	db 28, DIG
+	db 34, CRUNCH
+	db 38, HYPER_FANG
+	db 41, SUPER_FANG
+	db 49, CURSE
+	db 52, BODY_SLAM
+	db 60, PLAY_ROUGH
+	db 64, RECOVER
 	db 0 ; no more level-up moves
 
 GanzorahEvosAttacks:
@@ -3234,10 +3252,11 @@ MaulzerEvosAttacks:
 UnownEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, HIDDEN_POWER
-	db 25, CONFUSE_RAY
+	db 20, CONFUSE_RAY
+	db 25, CONFUSION
 	db 30, MAGNITUDE
 	db 35, PSYBEAM
-	db 40, MAGNITUDE
+	db 40, ANCIENTPOWER
 	db 45, EARTH_POWER
 	db 50, SKETCH
 	db 0 ; no more level-up moves
