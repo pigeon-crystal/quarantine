@@ -1,10 +1,10 @@
 	db "GLAM STAR@" ; species name
 	dw 409, 975 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "ASTROTOM's limbs"
+	next "can stretch"
+	next "impossibly long."
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "At night they"
+	next "serenade to the"
+	next "stars, their home.@"

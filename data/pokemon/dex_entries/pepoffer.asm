@@ -1,10 +1,10 @@
-	db "MELONBALL@" ; species name
+	db "MELONBALL@" ; species name >>45688463
 	dw 209, 1004 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "PEPOFFER's scrawny"
+	next "fins are no use"
+	next "for swimming. It"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "bobs down raging"
+	next "rivers to toughen"
+	next "its rubbery rind.@"
