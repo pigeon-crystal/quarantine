@@ -229,7 +229,7 @@ INCBIN "gfx/footprints/eelkie.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/mossarre.1bpp",      footprint_top
 INCBIN "gfx/footprints/lanatun.1bpp",     footprint_top
 INCBIN "gfx/footprints/pepoffer.1bpp",    footprint_top
-INCBIN "gfx/footprints/voltorb.1bpp",    footprint_top
+INCBIN "gfx/footprints/lamyglama.1bpp",    footprint_top
 INCBIN "gfx/footprints/djamm.1bpp",  footprint_top
 INCBIN "gfx/footprints/cantalone.1bpp",  footprint_top
 INCBIN "gfx/footprints/cantogetha.1bpp",  footprint_top
@@ -238,7 +238,7 @@ INCBIN "gfx/footprints/cocacobra.1bpp",     footprint_top
 INCBIN "gfx/footprints/mossarre.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/lanatun.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/pepoffer.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/voltorb.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/lamyglama.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/djamm.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/cantalone.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/cantogetha.1bpp",  footprint_bottom
@@ -535,7 +535,7 @@ INCBIN "gfx/footprints/moneumenn.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/polyro.1bpp",   footprint_top
 INCBIN "gfx/footprints/slowhog.1bpp",  footprint_top
 INCBIN "gfx/footprints/eyechosis.1bpp",   footprint_top
-INCBIN "gfx/footprints/tyrogue.1bpp",    footprint_top
+INCBIN "gfx/footprints/fueghast.1bpp",    footprint_top
 INCBIN "gfx/footprints/hitmontop.1bpp",  footprint_top
 INCBIN "gfx/footprints/ambionic.1bpp",   footprint_top
 INCBIN "gfx/footprints/elekid.1bpp",     footprint_top
@@ -544,7 +544,7 @@ INCBIN "gfx/footprints/goriath.1bpp",      footprint_top
 INCBIN "gfx/footprints/polyro.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/slowhog.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/eyechosis.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/tyrogue.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/fueghast.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/hitmontop.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/ambionic.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/elekid.1bpp",     footprint_bottom

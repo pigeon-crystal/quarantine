@@ -318,7 +318,7 @@ LanatunEggMoves:
 	db POISONPOWDER
 	db -1 ; end
 
-VoltorbEggMoves:
+LamyglamaEggMoves:
 	db PSYCHO_CUT
 	db -1 ; end
 	
@@ -827,7 +827,7 @@ EyechosisEggMoves:
 	db ROCK_SLIDE
 	db -1 ; end
 
-TyrogueEggMoves:
+FueghastEggMoves:
 	db RAPID_SPIN
 	db HI_JUMP_KICK
 	db MACH_PUNCH

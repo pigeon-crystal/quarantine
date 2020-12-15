@@ -456,7 +456,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 15, QWAIL
-	db 17, VOLTORB
+	db 17, LAMYGLAMA
 	db 15, NOMSABRE
 	db 15, QWALLOP
 	db 15, KALKOLA
@@ -465,7 +465,7 @@ KantoGrassWildMons:
 	db 20, GIGUARD
 	; day
 	db 15, QWAIL
-	db 17, VOLTORB
+	db 17, LAMYGLAMA
 	db 15, NOMSABRE
 	db 15, QWALLOP
 	db 15, KALKOLA
@@ -474,7 +474,7 @@ KantoGrassWildMons:
 	db 20, GIGUARD
 	; nite
 	db 15, ELEPHOOT
-	db 17, VOLTORB
+	db 17, LAMYGLAMA
 	db 15, NOMSABRE
 	db 15, PRIPYDERM
 	db 15, STINPEON

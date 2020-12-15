@@ -100,7 +100,7 @@ EvosAttacksPointers::
 	dw MossarreEvosAttacks
 	dw LanatunEvosAttacks
 	dw PepofferEvosAttacks
-	dw VoltorbEvosAttacks
+	dw LamyglamaEvosAttacks
 	dw DjammEvosAttacks
 	dw CantaloneEvosAttacks
 	dw CantogethaEvosAttacks
@@ -236,7 +236,7 @@ EvosAttacksPointers::
 	dw PolyroEvosAttacks
 	dw SlowhogEvosAttacks ;stantler
 	dw EyechosisEvosAttacks
-	dw TyrogueEvosAttacks
+	dw FueghastEvosAttacks
 	dw HitmontopEvosAttacks
 	dw AmbionicEvosAttacks
 	dw ElekidEvosAttacks

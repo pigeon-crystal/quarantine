@@ -1604,7 +1604,7 @@ PepofferEvosAttacks:
 	db 53, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-VoltorbEvosAttacks:
+LamyglamaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves
@@ -2137,7 +2137,8 @@ HelactalEvosAttacks:
 
 NoomsdayEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POUND
+	db 1, FUTURE_SIGHT
+	db 1, FORESIGHT
 	db 1, DRAININGKISS
 	db 1, PERISH_SONG
 	db 4, DEFENSE_CURL
@@ -3727,6 +3728,7 @@ SnoverdoseEvosAttacks:
 	db 42, ICE_BEAM
 	db 43, SELFDESTRUCT
 	db 48, SLUDGE_BOMB
+	db 49, PUKE_BLOOD
 	db 52, HYDRO_PUMP
 	db 55, BLIZZARD
 	db 60, FOCUS_BLAST
@@ -3816,10 +3818,10 @@ SlowhogEvosAttacks:
 	db 35, SUBSTITUTE
 	db 40, GROWL
 	db 45, SPIKES
-	db 51, EARTH_POWER
-	db 52, TRI_ATTACK
-	db 53, HYPER_BEAM
-	db 60, FISSURE
+	db 55, EARTH_POWER
+	db 57, TRI_ATTACK
+	db 59, HYPER_BEAM
+	db 65, FISSURE
 	db 0 ; no more level-up moves
 
 EyechosisEvosAttacks:
@@ -3840,9 +3842,22 @@ EyechosisEvosAttacks:
 	db 99, FISSURE
 	db 0 ; no more level-up moves
 
-TyrogueEvosAttacks:
+FueghastEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POUND
+	db 1, GROWL
+	db 1, SANDSTORM
+	db 1, LICK
+	db 10, SAND_ATTACK
+	db 12, BITE
+	db 17, DISABLE
+	db 22, NIGHT_SHADE
+	db 30, AGILITY
+	db 34, SHADOW_CLAW
+	db 40, CRUNCH
+	db 46, NASTY_PLOT
+	db 50, SUPER_FANG
+	db 62, EARTHQUAKE
+	db 65, SHADOW_BONE
 	db 0 ; no more level-up moves
 
 HitmontopEvosAttacks:

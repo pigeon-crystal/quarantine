@@ -103,7 +103,7 @@ MonMenuIconPals:
 	icon_pals GREEN,   PINK  ; MOSSARRE
 	icon_pals GREEN,   YELLOW  ; LANATUN
 	icon_pals GREEN,   YELLOW  ; PEPOFFER
-	icon_pals BROWN,   YELLOW  ; VOLTORB
+	icon_pals BROWN,   YELLOW  ; LAMYGLAMA
 	icon_pals PINK,   RED  ; DJAMM
 	icon_pals BLUE,   YELLOW  ; CANTALONE
 	icon_pals BLUE,   YELLOW  ; CANTOGETHA
@@ -239,7 +239,7 @@ MonMenuIconPals:
 	icon_pals PURPLE,   RED    ; POLYRO
 	icon_pals PINK,   YELLOW    ; SLOWHOG
 	icon_pals PURPLE,   YELLOW    ; EYECHOSIS
-	icon_pals RED,   YELLOW    ; TYROGUE
+	icon_pals RED,   YELLOW    ; FUEGHAST
 	icon_pals RED,   YELLOW    ; HITMONTOP
 	icon_pals YELLOW,   RED    ; AMBIONIC
 	icon_pals RED,   YELLOW    ; ELEKID

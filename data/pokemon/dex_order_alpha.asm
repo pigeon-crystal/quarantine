@@ -225,7 +225,7 @@ AlphabeticalPokedexOrder:
 	db TODESCOOL
 	db TRANQUIEL
 	db SNOKAGE
-	db TYROGUE
+	db FUEGHAST
 	db GLOST
 	db UNOWN
 	db URSKIMO
@@ -234,7 +234,7 @@ AlphabeticalPokedexOrder:
 	db VEGETEBAA
 	db VENUSAUR
 	db VOLTINGER
-	db VOLTORB
+	db LAMYGLAMA
 	db VOYAPOD
 	db VULPIX
 	db WARTORTLE

@@ -200,8 +200,8 @@ PokemonPicPointers::
 	dba LanatunBackpic
 	dba PepofferFrontpic
 	dba PepofferBackpic
-	dba VoltorbFrontpic
-	dba VoltorbBackpic
+	dba LamyglamaFrontpic
+	dba LamyglamaBackpic
 	dba DjammFrontpic
 	dba DjammBackpic
 	dba CantaloneFrontpic
@@ -475,8 +475,8 @@ PokemonPicPointers::
 	dba SlowhogBackpic
 	dba EyechosisFrontpic
 	dba EyechosisBackpic
-	dba TyrogueFrontpic
-	dba TyrogueBackpic
+	dba FueghastFrontpic
+	dba FueghastBackpic
 	dba HitmontopFrontpic
 	dba HitmontopBackpic
 	dba AmbionicFrontpic

@@ -52,7 +52,7 @@ DecorationAttributes:
 	decoration DECO_DOLL,    PITAYRANT,          SET_UP_DOLL,       EVENT_DECO_GENGAR_DOLL,             SPRITE_PITAYRANT
 	decoration DECO_DOLL,    BAMBABY,        SET_UP_DOLL,       EVENT_DECO_SHELLDER_DOLL,           SPRITE_SHELLDER
 	decoration DECO_DOLL,    DUMBLOON,          SET_UP_DOLL,       EVENT_DECO_GRIMER_DOLL,             SPRITE_GRIMER
-	decoration DECO_DOLL,    VOLTORB,         SET_UP_DOLL,       EVENT_DECO_VOLTORB_DOLL,            SPRITE_VOLTORB
+	decoration DECO_DOLL,    LAMYGLAMA,         SET_UP_DOLL,       EVENT_DECO_VOLTORB_DOLL,            SPRITE_VOLTORB
 	decoration DECO_DOLL,    HOATOT,          SET_UP_DOLL,       EVENT_DECO_WEEDLE_DOLL,             SPRITE_HOATOT
 	decoration DECO_DOLL,    UNOWN,           SET_UP_DOLL,       EVENT_DECO_UNOWN_DOLL,              SPRITE_UNOWN
 	decoration DECO_DOLL,    DOLMITE,         SET_UP_DOLL,       EVENT_DECO_GEODUDE_DOLL,            SPRITE_DOLMITE

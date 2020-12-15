@@ -625,9 +625,9 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (2)
 	db "KIPP@", TRAINERTYPE_NORMAL
-	db 27, VOLTORB
+	db 27, LAMYGLAMA
 	db 27, MAGNEMITE
-	db 31, VOLTORB
+	db 31, LAMYGLAMA
 	db 31, MAGNETON
 	db -1 ; end
 
@@ -697,7 +697,7 @@ SchoolboyGroup:
 	; SCHOOLBOY (13) Jack 2
 	db "JACK@", TRAINERTYPE_NORMAL
 	db 14, EUKUB
-	db 17, VOLTORB
+	db 17, LAMYGLAMA
 	db -1 ; end
 
 	; SCHOOLBOY (14) Jack 3
@@ -2520,7 +2520,7 @@ GuitaristGroup:
 	; GUITARIST (2)
 	db "VINCENT@", TRAINERTYPE_NORMAL
 	db 27, MAGNEMITE
-	db 33, VOLTORB
+	db 33, LAMYGLAMA
 	db 32, MAGNEMITE
 	db 32, MAGNEMITE
 	db -1 ; end

@@ -99,7 +99,7 @@ PokedexDataPointerTable:
 	dw MossarrePokedexEntry
 	dw LanatunPokedexEntry
 	dw PepofferPokedexEntry
-	dw VoltorbPokedexEntry
+	dw LamyglamaPokedexEntry
 	dw DjammPokedexEntry
 	dw CantalonePokedexEntry
 	dw CantogethaPokedexEntry
@@ -235,7 +235,7 @@ PokedexDataPointerTable:
 	dw PolyroPokedexEntry
 	dw SlowhogPokedexEntry
 	dw EyechosisPokedexEntry
-	dw TyroguePokedexEntry
+	dw FueghastPokedexEntry
 	dw HitmontopPokedexEntry
 	dw AmbionicPokedexEntry
 	dw ElekidPokedexEntry

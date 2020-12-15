@@ -113,11 +113,6 @@ RuinsOfAlphHoOhChamberWallPatternLeftText:
 	line "on the walls…"
 	done
 
-RuinsOfAlphHoOhChamberUnownText:
-; unused
-	text "It's UNOWN text!"
-	done
-
 RuinsOfAlphHoOhChamberWallPatternRightText:
 	text "Patterns appeared"
 	line "on the walls…"
@@ -135,10 +130,10 @@ RuinsOfAlphHoOhChamberAncientReplicaText:
 	done
 
 RuinsOfAlphHoOhChamberDescriptionText:
-	text "A #MON that"
-	line "flew gracefully on"
+	text "A beautiful"
+	line "#MON that soars"
 
-	para "rainbow-colored"
+	para "high on its many"
 	line "wings."
 	done
 

@@ -1761,8 +1761,8 @@ JohtoGrassWildMons:
 	db 22, MESSMASH		; CAG 
 	db 24, ARASBESTOS
 	db 24, PURRAATZLE
-	db 26, VOLTORB 		; Stand-in for llama
-	db 26, VOLTORB		; Stand-in for llama
+	db 26, LAMYGLAMA 		; Stand-in for llama
+	db 26, LAMYGLAMA		; Stand-in for llama
 	db 28, PURRAATZLE
 	; nite
 	db 23, ANTPYRE

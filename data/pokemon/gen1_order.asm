@@ -4,7 +4,7 @@ Pokered_MonIndices:
 	db PRAWMATE
 	db NYALLEY
 	db QWAIL
-	db VOLTORB
+	db LAMYGLAMA
 	db SWIMIAN
 	db SLOWBRO
 	db IVYSAUR
@@ -138,7 +138,7 @@ Pokered_MonIndices:
 	db EYECHOSIS ; MISSINGNO.
 	db PEPOFFER
 	db PIPENDA
-	db TYROGUE ; MISSINGNO.
+	db FUEGHAST ; MISSINGNO.
 	db DJAMM
 	db FELIORITTE
 	db SAKURONNA

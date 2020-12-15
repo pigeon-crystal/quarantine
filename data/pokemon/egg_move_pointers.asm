@@ -98,7 +98,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw LanatunEggMoves
 	dw NoEggMoves
-	dw VoltorbEggMoves ; trip llama
+	dw LamyglamaEggMoves ; trip llama
 	dw DjammEggMoves ; jam dj
 	dw CantaloneEggMoves
 	dw NoEggMoves
@@ -234,7 +234,7 @@ EggMovePointers::
 	dw PolyroEggMoves
 	dw NoEggMoves
 	dw EyechosisEggMoves
-	dw TyrogueEggMoves
+	dw FueghastEggMoves
 	dw HitmontopEggMoves
 	dw AmbionicEggMoves
 	dw NoEggMoves

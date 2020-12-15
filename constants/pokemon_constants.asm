@@ -118,7 +118,7 @@
 	const MOSSARRE   ; 61
 	const LANATUN    ; 62
 	const PEPOFFER   ; 63
-	const VOLTORB    ; 64 trip llama
+	const LAMYGLAMA    ; 64 trip llama
 	const DJAMM  	 ; 65 jj
 	const CANTALONE  ; 66
 	const CANTOGETHA ; 67
@@ -255,7 +255,7 @@ JOHTO_POKEMON EQU const_value
 	const POLYRO     ; e9
 	const SLOWHOG  ; ea
 	const EYECHOSIS  ; eb
-	const TYROGUE    ; ec direwolf
+	const FUEGHAST    ; ec direwolf
 	const HITMONTOP  ; ed cat
 	const AMBIONIC   ; ee mosquito
 	const ELEKID     ; ef cured buzzling

@@ -244,9 +244,9 @@ RuinsOfAlphResearchCenterPrinter:
 	waitsfx
 	playsound SFX_TRANSACTION
 	scall FossilMachineItsAMonScript
-	setval TYROGUE
+	setval FUEGHAST
 	special GameCornerPrizeMonCheckDex
-	givepoke TYROGUE, 10
+	givepoke FUEGHAST, 10
 	takeitem MYSTERY_BONE
 	sjump FossilMachineEndTransaction
 	

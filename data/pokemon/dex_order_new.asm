@@ -126,7 +126,7 @@ NewPokedexOrder:
 	db ZEPPLIUM
 	db MAGNEMITE
 	db MAGNETON
-	db VOLTORB
+	db LAMYGLAMA
 	db DJAMM
 	db ZASTER
 	db GRIMPACT
@@ -145,7 +145,7 @@ NewPokedexOrder:
 	db UPWHALE
 	db NIMBOCETUS
 	db STELLOCEAN
-	db TYROGUE
+	db FUEGHAST
 	db MOTHO
 	db MOTHOMEN
 	db HITMONTOP
