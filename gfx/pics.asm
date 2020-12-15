@@ -420,7 +420,6 @@ GiguardBackpic:      INCBIN "gfx/pokemon/giguard/back.2bpp.lz"
 WormachoBackpic:     INCBIN "gfx/pokemon/wormacho/back.2bpp.lz"
 FlurikenBackpic:      INCBIN "gfx/pokemon/fluriken/back.2bpp.lz"
 HeracrossBackpic:    INCBIN "gfx/pokemon/heracross/back.2bpp.lz"
-UnownDFrontpic:      INCBIN "gfx/pokemon/unown_d/front.animated.2bpp.lz"
 DrassalBackpic:      INCBIN "gfx/pokemon/drassal/back.2bpp.lz"
 WirigibleBackpic:    INCBIN "gfx/pokemon/wirigible/back.2bpp.lz"
 JunobeBackpic:       INCBIN "gfx/pokemon/junobe/back.2bpp.lz"
@@ -453,6 +452,7 @@ DjammFrontpic:   INCBIN "gfx/pokemon/djamm/front.animated.2bpp.lz"
 PardnerBackpic:    INCBIN "gfx/pokemon/pardner/back.2bpp.lz"
 SpellcasterPic:		INCBIN "gfx/trainers/spellcaster.2bpp.lz"
 SukebanPic:			INCBIN "gfx/trainers/sukeban.2bpp.lz"
+PrycePic:            INCBIN "gfx/trainers/pryce.2bpp.lz"
 
 
 SECTION "Pics 14", ROMX
@@ -599,6 +599,7 @@ BlainePic:           INCBIN "gfx/trainers/blaine.2bpp.lz"
 
 SECTION "Pics 17", ROMX
 
+UnownDFrontpic:      INCBIN "gfx/pokemon/unown_d/front.animated.2bpp.lz"
 MessmashBackpic:        INCBIN "gfx/pokemon/messmash/back.2bpp.lz"
 GanzorahBackpic:     INCBIN "gfx/pokemon/ganzorah/back.2bpp.lz"
 SliscesBackpic:    INCBIN "gfx/pokemon/slisces/back.2bpp.lz"
@@ -616,7 +617,6 @@ PeacolderBackpic:       INCBIN "gfx/pokemon/peacolder/back.2bpp.lz"
 BuzzlingBackpic:     INCBIN "gfx/pokemon/buzzling/back.2bpp.lz"
 VoltorbFrontpic:     INCBIN "gfx/pokemon/voltorb/front.animated.2bpp.lz"
 AvatriceBackpic:        INCBIN "gfx/pokemon/avatrice/back.2bpp.lz"
-PrycePic:            INCBIN "gfx/trainers/pryce.2bpp.lz"
 BrockPic:            INCBIN "gfx/trainers/brock.2bpp.lz"
 UnownGFrontpic:      INCBIN "gfx/pokemon/unown_g/front.animated.2bpp.lz"
 IgnagaBackpic:        INCBIN "gfx/pokemon/ignaga/back.2bpp.lz"
