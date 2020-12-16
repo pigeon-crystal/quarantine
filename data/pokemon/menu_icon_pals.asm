@@ -150,9 +150,9 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; ARTICUNO
 	icon_pals BROWN,   YELLOW  ; ZAPDOS
 	icon_pals GRAY,   PURPLE  ; BLAZENBULL
-	icon_pals BROWN,   YELLOW  ; DRATINI
-	icon_pals BROWN,   YELLOW  ; DRAGONAIR
-	icon_pals BROWN,   YELLOW  ; DRAGONITE
+	icon_pals BROWN,   YELLOW  ; CHERNOMUSK
+	icon_pals BROWN,   YELLOW  ; CHELYNOBLE
+	icon_pals BROWN,   YELLOW  ; SEABEHEM
 	icon_pals GRAY,   YELLOW  ; MA_0
 	icon_pals BROWN,   YELLOW  ; MEW  						END OF "KANTOMONS"
 	icon_pals GREEN,   YELLOW  ; CIGERILLAR

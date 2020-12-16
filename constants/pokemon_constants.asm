@@ -91,7 +91,7 @@
 	const ORGNOME 	 ; 46
 	const GNOMERCY   ; 47
 	const SLISCES    ; 48 
-	const DREADGE ; 49 barberfish2
+	const DREADGE 	 ; 49 
 	const DOLMITE    ; 4a
 	const DOLMESA    ; 4b
 	const CAIRNIVORE ; 4c
@@ -165,9 +165,9 @@
 	const ARTICUNO   ; 90 horn trio
 	const ZAPDOS     ; 91 horn trio
 	const BLAZENBULL ; 92
-	const DRATINI    ; 93 nuke turtle
-	const DRAGONAIR  ; 94 nuke turtle
-	const DRAGONITE  ; 95 nuke turtle
+	const CHERNOMUSK    ; 93 nuke turtle
+	const CHELYNOBLE  ; 94 nuke turtle
+	const SEABEHEM  ; 95 nuke turtle
 	const MA_0     	 ; 96
 	const MEW        ; 97 dress waifu
 JOHTO_POKEMON EQU const_value

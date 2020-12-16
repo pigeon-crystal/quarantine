@@ -146,9 +146,9 @@ PokedexDataPointerTable:
 	dw ArticunoPokedexEntry
 	dw ZapdosPokedexEntry
 	dw BlazenbullPokedexEntry
-	dw DratiniPokedexEntry
-	dw DragonairPokedexEntry
-	dw DragonitePokedexEntry
+	dw ChernomuskPokedexEntry
+	dw ChelynoblePokedexEntry
+	dw SeabehemPokedexEntry
 	dw Ma_0PokedexEntry
 	dw MewPokedexEntry
 	dw CigerillarPokedexEntry   ;orig chikorita

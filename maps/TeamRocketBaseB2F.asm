@@ -72,7 +72,7 @@ RocketBaseBossFScript:
 	writetext RocketBaseBossFThrashText
 	waitbutton
 	closetext
-	cry DRAGONITE
+	cry SEABEHEM
 	turnobject TEAMROCKETBASEB2F_ROCKET_GIRL, LEFT
 	turnobject PLAYER, LEFT
 	appear TEAMROCKETBASEB2F_DRAGON

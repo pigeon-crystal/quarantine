@@ -43,9 +43,9 @@ AlphabeticalPokedexOrder:
 	db DODUO
 	db DOLMESA
 	db DOLMITE
-	db DRAGONAIR
-	db DRAGONITE
-	db DRATINI
+	db CHELYNOBLE
+	db SEABEHEM
+	db CHERNOMUSK
 	db DUMBLOON
 	db DUNEFIN
 	db EELKIE

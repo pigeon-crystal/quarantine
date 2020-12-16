@@ -6,5 +6,5 @@
 	next "in nets can become"
 
 	page "a DREADGE. They"
-	next "ensnare fishing"
-	next "boats to feast.@"
+	next "feast on ensnared"
+	next "fishing boats.@"

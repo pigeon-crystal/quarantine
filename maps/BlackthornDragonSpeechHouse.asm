@@ -13,20 +13,12 @@ BlackthornDragonSpeechHouseGrannyScript:
 BlackthornDragonSpeechHouseDratiniScript:
 	opentext
 	writetext BlackthornDragonSpeechHouseDratiniText
-	cry DRATINI
+	cry SHREDDRAKE
 	waitbutton
 	closetext
 	end
 
-; unused
-BlackthornDragonSpeechHousePictureBookshelf:
-	jumpstd picturebookshelf
-
-; unused
-BlackthornDragonSpeechHouseMagazineBookshelf:
-	jumpstd magazinebookshelf
-
-BlackthornDragonSpeechHouseGrannyText:
+BlackthornDragonSpeechHouseGrannyText:			; TODO: once we have the snail names do the endangered snail story
 	text "A clan of trainers"
 	line "who can freely"
 
@@ -42,7 +34,7 @@ BlackthornDragonSpeechHouseGrannyText:
 	done
 
 BlackthornDragonSpeechHouseDratiniText:
-	text "DRATINI: Draa!"
+	text "SHREDDRAKE: ROOAR!"
 	done
 
 BlackthornDragonSpeechHouse_MapEvents:

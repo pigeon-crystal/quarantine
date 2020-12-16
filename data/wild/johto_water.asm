@@ -8,7 +8,7 @@ JohtoWaterWildMons:
 	db 15, LANATUN
 	db 20, STIKLBRAT
 	db 15, LANATUN
-	db 25, DRATINI			; chelonukes standin
+	db 25, CHERNOMUSK			; chelonukes standin
 
 	map_id UNION_CAVE_1F ;done
 	db 2 percent ; encounter rate

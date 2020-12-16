@@ -147,9 +147,9 @@ EvosAttacksPointers::
 	dw ArticunoEvosAttacks
 	dw ZapdosEvosAttacks
 	dw BlazenbullEvosAttacks
-	dw DratiniEvosAttacks
-	dw DragonairEvosAttacks
-	dw DragoniteEvosAttacks
+	dw ChernomuskEvosAttacks
+	dw ChelynobleEvosAttacks
+	dw SeabehemEvosAttacks
 	dw Ma_0EvosAttacks
 	dw MewEvosAttacks
 	dw CigerillarEvosAttacks  ;chiko

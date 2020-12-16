@@ -151,9 +151,9 @@ PokemonCries::
 	mon_cry CRY_RAICHU,      128,  192 ; ARTICUNO
 	mon_cry CRY_FEAROW,      255,  256 ; ZAPDOS
 	mon_cry CRY_RAICHU,      248,  192 ; BLAZENBULL
-	mon_cry CRY_BULBASAUR,    96,  192 ; DRATINI
-	mon_cry CRY_BULBASAUR,    64,  256 ; DRAGONAIR
-	mon_cry CRY_BULBASAUR,    60,  320 ; DRAGONITE
+	mon_cry CRY_BULBASAUR,    96,  192 ; CHERNOMUSK
+	mon_cry CRY_BULBASAUR,    64,  256 ; CHELYNOBLE
+	mon_cry CRY_BULBASAUR,    60,  320 ; SEABEHEM
 	mon_cry CRY_MA_0,          0,  252 ; MA_0
 	mon_cry CRY_PARAS,       238,  383 ; MEW
 	mon_cry $14,  	 		$0046,  $0082 	; CIGERILLAR, orig CHIKORITA

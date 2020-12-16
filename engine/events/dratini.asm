@@ -16,7 +16,7 @@ GiveDratini:
 .CheckForDratini:
 ; start at the end of the party and search backwards for a Dratini
 	ld a, [hl]
-	cp DRATINI
+	cp SHREDDRAKE
 	jr z, .GiveMoveset
 	ld a, l
 	sub e
@@ -68,20 +68,20 @@ GiveDratini:
 	inc hl
 	jr .GiveMoves
 
-.Movesets:
+.Movesets:		
 .Moveset0:
-; Dratini does not normally learn Extremespeed. This is a special gift.
-	db WRAP
-	db THUNDER_WAVE
-	db TWISTER
-	db EXTREMESPEED
+; Shreddrake does not normally learn FROSTBITE. This is a special gift.
+	db SCREECH
+	db THRASH
+	db CRUNCH
+	db FROSTBITE
 	db 0
 .Moveset1:
-; This is the normal moveset of a level 15 Dratini
-	db WRAP
-	db LEER
-	db THUNDER_WAVE
-	db TWISTER
+; This is the normal moveset of a level 45 Shreddrake
+	db DRAGONBREATH
+	db SCREECH
+	db THRASH
+	db CRUNCH
 	db 0
 
 .GetNthPartyMon:

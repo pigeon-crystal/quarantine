@@ -145,9 +145,9 @@ PokemonNames::
 	db "ARTICUNO@@"
 	db "ZAPDOS@@@@"
 	db "BLAZENBULL"
-	db "DRATINI@@@"
-	db "DRAGONAIR@"
-	db "DRAGONITE@"
+	db "CHERNOMUSK"
+	db "CHELYNOBLE"
+	db "SEABEHEM@@"
 	db "MA-0@@@@@@"
 	db "MEW@@@@@@@"
 	db "CIGERILLAR" ;chiko

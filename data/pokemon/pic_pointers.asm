@@ -294,12 +294,12 @@ PokemonPicPointers::
 	dba ZapdosBackpic
 	dba BlazenbullFrontpic
 	dba BlazenbullBackpic
-	dba DratiniFrontpic
-	dba DratiniBackpic
-	dba DragonairFrontpic
-	dba DragonairBackpic
-	dba DragoniteFrontpic
-	dba DragoniteBackpic
+	dba ChernomuskFrontpic
+	dba ChernomuskBackpic
+	dba ChelynobleFrontpic
+	dba ChelynobleBackpic
+	dba SeabehemFrontpic
+	dba SeabehemBackpic
 	dba Ma_0Frontpic
 	dba Ma_0Backpic
 	dba MewFrontpic

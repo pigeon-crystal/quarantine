@@ -464,7 +464,7 @@ TherazorEggMoves:
 	db AGILITY
 	db -1 ; end
 
-DratiniEggMoves:
+ChernomuskEggMoves:
 	db LIGHT_SCREEN
 	db MIST
 	db HAZE

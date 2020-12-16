@@ -2349,19 +2349,19 @@ BlazenbullEvosAttacks:
 	db 70, WILL_O_WISP
 	db 0 ; no more level-up moves
 
-DratiniEvosAttacks:
-	db EVOLVE_LEVEL, 30, DRAGONAIR
+ChernomuskEvosAttacks:
+	db EVOLVE_LEVEL, 30, CHELYNOBLE
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 0 ; no more level-up moves
 
-DragonairEvosAttacks:
-	db EVOLVE_LEVEL, 55, DRAGONITE
+ChelynobleEvosAttacks:
+	db EVOLVE_LEVEL, 55, SEABEHEM
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 0 ; no more level-up moves
 
-DragoniteEvosAttacks:
+SeabehemEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 0 ; no more level-up moves
