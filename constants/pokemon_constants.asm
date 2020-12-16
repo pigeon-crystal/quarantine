@@ -118,8 +118,8 @@
 	const MOSSARRE   ; 61
 	const LANATUN    ; 62
 	const PEPOFFER   ; 63
-	const LAMYGLAMA    ; 64 trip llama
-	const DJAMM  	 ; 65 jj
+	const LAMYGLAMA  ; 64 
+	const DJAMM  	 ; 65 
 	const CANTALONE  ; 66
 	const CANTOGETHA ; 67
 	const COCACOBRA  ; 68
@@ -160,14 +160,14 @@
 	const BEHEMOTHRA ; 8b
 	const BELLOCEROS ; 8c
 	const SUBCEROS   ; 8d 
-	const WELLWITCH ; 8e Wellwitchsia
+	const WELLWITCH  ; 8e 
 	const THERAZOR   ; 8f 
 	const ARTICUNO   ; 90 horn trio
 	const ZAPDOS     ; 91 horn trio
 	const BLAZENBULL ; 92
-	const CHERNOMUSK    ; 93 nuke turtle
-	const CHELYNOBLE  ; 94 nuke turtle
-	const SEABEHEM  ; 95 nuke turtle
+	const CHERNOMUSK ; 93
+	const CHELYNOBLE ; 94 nuke turtle
+	const SEABEHEM   ; 95 
 	const MA_0     	 ; 96
 	const MEW        ; 97 dress waifu
 JOHTO_POKEMON EQU const_value
@@ -257,7 +257,7 @@ JOHTO_POKEMON EQU const_value
 	const EYECHOSIS  ; eb
 	const FUEGHAST    ; ec direwolf
 	const HITMONTOP  ; ed cat
-	const AMBIONIC   ; ee mosquito
+	const AMBIONIC   ; ee 
 	const ELEKID     ; ef cured buzzling
 	const GORIATH    ; f0 
 	const DRASSAL    ; f1
