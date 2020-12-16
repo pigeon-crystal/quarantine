@@ -243,6 +243,7 @@ NomsterEvosAttacks:
 	db 0 ; no more level-up moves
 
 NomsabreEvosAttacks:
+	db EVOLVE_ITEM, MIST_STONE, NOOMSDAY
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 4, DEFENSE_CURL
@@ -815,7 +816,6 @@ TodescoolEvosAttacks:
 	db 13, SWAGGER
 	db 15, POISONPOWDER
 	db 17, CONFUSION
-	db 18, ACID
 	db 24, SPORE
 	db 27, BUBBLEBEAM
 	db 29, PERISH_SONG
@@ -1606,7 +1606,18 @@ PepofferEvosAttacks:
 
 LamyglamaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POUND
+	db 1, LICK
+	db 6, CONFUSION
+	db 10, SUBSTITUTE
+	db 17, CONFUSE_RAY
+	db 22, FLAIL
+	db 25, ACID
+	db 30, DOUBLE_KICK
+	db 36, IRON_HEAD
+	db 44, HEAL_BELL
+	db 49, MINIMIZE
+	db 51, DARK_PULSE
+	db 56, SLUDGE_BOMB
 	db 0 ; no more level-up moves
 
 DjammEvosAttacks:
@@ -2597,7 +2608,6 @@ NuckawheezEvosAttacks:
 	db 28, HAZE
 	db 30, SCREECH
 	db 32, TOXIC
-	db 34, ACID
 	db 37, RAIN_DANCE
 	db 42, SLUDGE_BOMB
 	db 45, PERISH_SONG
@@ -2884,11 +2894,13 @@ YuefoeEvosAttacks:
 	db 1, SCREECH
 	db 1, THUNDERSHOCK
 	db 18, THUNDER_WAVE
+	db 29, RECOVER
 	db 36, LIGHT_SCREEN
 	db 39, CONFUSE_RAY
 	db 44, LOCK_ON
 	db 45, ZAP_CANNON
 	db 50, TRI_ATTACK
+	db 60, RAZOR_WIND
 	db 0 ; no more level-up moves
 
 AmpharosEvosAttacks:
@@ -3110,10 +3122,11 @@ ArasbestosEvosAttacks:
 	db 1, POISON_STING
 	db 7, CONSTRICT
 	db 10, ROCK_THROW
-	db 14, POISONPOWDER
-	db 17, SCARY_FACE
-	db 19, SPIKES
-	db 22, GLARE
+	db 14, SAFEGUARD
+	db 17, POISONPOWDER
+	db 19, SCARY_FACE
+	db 22, SPIKES
+	db 27, GLARE
 	db 30, TOXIC
 	db 34, ROCK_SLIDE
 	db 39, PAIN_SPLIT
@@ -3176,6 +3189,7 @@ HauntletEvosAttacks:
 	db 50, SLUDGE_BOMB
 	db 55, BLIZZARD
 	db 60, AGILITY
+	db 65, NASTY_PLOT
 	db 0 ; no more level-up moves
 
 GlostEvosAttacks:
@@ -3673,7 +3687,6 @@ SnosebleedEvosAttacks:
 	db 9, SMOG
 	db 12, ICE_SHARD
 	db 15, WATER_GUN
-	db 18, ACID
 	db 22, ICY_WIND
 	db 27, HAZE
 	db 30, AURORA_BEAM
@@ -3695,7 +3708,6 @@ SnowupEvosAttacks:
 	db 10, SMOG
 	db 12, ICE_SHARD
 	db 16, WATER_GUN
-	db 18, ACID
 	db 22, ICY_WIND
 	db 24, ICE_PUNCH
 	db 27, HAZE
@@ -3718,7 +3730,6 @@ SnoverdoseEvosAttacks:
 	db 10, SMOG
 	db 13, ICE_SHARD
 	db 16, WATER_GUN
-	db 18, ACID
 	db 22, ICY_WIND
 	db 23, ICE_PUNCH
 	db 27, HAZE
@@ -3808,7 +3819,7 @@ PolyroEvosAttacks:
 
 SlowhogEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POUND
+	db 1, BATON_PASS
 	db 10, SAND_ATTACK
 	db 15, MUD_SLAP
 	db 20, REST
@@ -3854,10 +3865,12 @@ FueghastEvosAttacks:
 	db 30, AGILITY
 	db 34, SHADOW_CLAW
 	db 40, CRUNCH
+	db 42, SUBSTITUTE
 	db 46, NASTY_PLOT
 	db 50, SUPER_FANG
 	db 62, EARTHQUAKE
 	db 65, SHADOW_BONE
+	db 70, BATON_PASS
 	db 0 ; no more level-up moves
 
 HitmontopEvosAttacks:
