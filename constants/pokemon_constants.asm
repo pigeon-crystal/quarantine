@@ -91,7 +91,7 @@
 	const ORGNOME 	 ; 46
 	const GNOMERCY   ; 47
 	const SLISCES    ; 48 
-	const TENTACRUEL ; 49 barberfish2
+	const DREADGE ; 49 barberfish2
 	const DOLMITE    ; 4a
 	const DOLMESA    ; 4b
 	const CAIRNIVORE ; 4c
@@ -205,7 +205,7 @@ JOHTO_POKEMON EQU const_value
 	const HABBLE     ; b7
 	const SATELISK   ; b8
 	const PARDNER    ; b9
-	const OLCHAP   ; ba evil hat!
+	const OLCHAP   	 ; ba 
 	const SHABBYCAT  ; bb
 	const PURRDLE    ; bc
 	const MEOWTAIN   ; bd

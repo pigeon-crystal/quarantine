@@ -77,7 +77,7 @@ PokemonCries::
 	mon_cry $38,      		$0ef2,  $01af ; ORGNOME
 	mon_cry $38,    		$0bf1,  $01af ; GNOMERCY
 	mon_cry CRY_VENONAT,       0,  256 ; SLISCES
-	mon_cry CRY_VENONAT,     238,  383 ; TENTACRUEL
+	mon_cry CRY_VENONAT,     238,  383 ; DREADGE
 	mon_cry $12,       		$01E0,  $00C0 ; DOLMITE
 	mon_cry $12,      		$0EE0,  $01D4 ; DOLMESA
 	mon_cry $13,      		$0CAA,  $0184 ; CAIRNIVORE

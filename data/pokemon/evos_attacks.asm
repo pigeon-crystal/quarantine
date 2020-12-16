@@ -1194,7 +1194,7 @@ GnomercyEvosAttacks:
 	db 0 ; no more level-up moves
 
 SliscesEvosAttacks:
-	db EVOLVE_LEVEL, 41, TENTACRUEL
+	db EVOLVE_LEVEL, 41, DREADGE
 	db 0 ; no more evolutions
 	db 1, BITE
 	db 6, LEER
@@ -1207,12 +1207,25 @@ SliscesEvosAttacks:
 	db 39, LIQUIDATION
 	db 45, CRUNCH
 	db 50, HYPER_FANG
+	db 52, X_SCISSOR
 	db 0 ; no more level-up moves
 
-TentacruelEvosAttacks:
+DreadgeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BITE
+	db 6, LEER
+	db 11, HARDEN
+	db 16, BUBBLEBEAM
+	db 20, SPIKES
+	db 28, SPIKE_CANNON
+	db 33, CLAMP
+	db 36, SUPER_FANG
+	db 39, LIQUIDATION
 	db 40, IRON_HEAD
+	db 46, CRUNCH
+	db 52, HYPER_FANG
+	db 55, X_SCISSOR
+	db 63, GUILLOTINE
 	db 0 ; no more level-up moves
 
 DolmiteEvosAttacks:

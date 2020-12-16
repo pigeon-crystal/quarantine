@@ -1851,7 +1851,7 @@ FisherGroup:
 
 	; FISHER (3)
 	db "ARNOLD@", TRAINERTYPE_NORMAL
-	db 34, TENTACRUEL
+	db 34, DREADGE
 	db -1 ; end
 
 	; FISHER (4)
@@ -1926,7 +1926,7 @@ FisherGroup:
 	db 25, MAGIKARP
 	db 25, MAGIKARP
 	db 31, PEKOI
-	db 31, TENTACRUEL
+	db 31, DREADGE
 	db -1 ; end
 
 	; FISHER (15)
@@ -2023,7 +2023,7 @@ SwimmerMGroup:
 	db "CHARLIE@", TRAINERTYPE_NORMAL
 	db 21, BAMBABY
 	db 19, SLISCES
-	db 19, TENTACRUEL
+	db 19, DREADGE
 	db -1 ; end
 
 	; SWIMMERM (5) Route 41
@@ -2090,7 +2090,7 @@ SwimmerMGroup:
 	db "JEROME@", TRAINERTYPE_NORMAL
 	db 26, MADRUGASA
 	db 28, SLISCES
-	db 30, TENTACRUEL
+	db 30, DREADGE
 	db 28, GOOSAPLING
 	db -1 ; end
 

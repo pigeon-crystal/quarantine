@@ -164,7 +164,7 @@ NewPokedexOrder:
 	db SQUEENIE
 	db PEKOI
 	db SLISCES
-	db TENTACRUEL
+	db DREADGE
 	db LANATUN
 	db PEPOFFER
 	db SHUCKLE

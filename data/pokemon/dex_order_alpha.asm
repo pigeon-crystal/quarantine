@@ -219,7 +219,7 @@ AlphabeticalPokedexOrder:
 	db TAUROS
 	db TENDRILL
 	db SLISCES
-	db TENTACRUEL
+	db DREADGE
 	db TIDO
 	db TOBACOON
 	db TODESCOOL

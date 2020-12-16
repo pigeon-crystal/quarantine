@@ -1,11 +1,11 @@
 	db YAGAGARASU ; 
 
-	db  96,  108, 97,  66,  65,  98
+	db  93,  108, 94,  66,  65,  95
 	;   hp  atk  def  spd  sat  sdf
 
 	db DARK, DARK ; type
-	db 40 ; catch rate
-	db 179 ; base exp
+	db 55 ; catch rate
+	db 200 ; base exp
 	db KINGS_ROCK, BERSERK_GENE ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

@@ -1517,7 +1517,7 @@ BattleTowerMons3:
 	bigdw 82 ; SDef
 	db "E-HUi@@@@@@"
 
-	db TENTACRUEL
+	db DREADGE
 	db KINGS_ROCK
 	db WRAP, TOXIC, SLUDGE_BOMB, BUBBLEBEAM
 	dw 0 ; OT ID

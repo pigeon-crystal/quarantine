@@ -72,7 +72,7 @@ PokedexDataPointerTable:
 	dw OrgnomePokedexEntry
 	dw GnomercyPokedexEntry
 	dw SliscesPokedexEntry
-	dw TentacruelPokedexEntry
+	dw DreadgePokedexEntry
 	dw DolmitePokedexEntry
 	dw DolmesaPokedexEntry
 	dw CairnivorePokedexEntry

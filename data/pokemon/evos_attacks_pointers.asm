@@ -73,7 +73,7 @@ EvosAttacksPointers::
 	dw OrgnomeEvosAttacks
 	dw GnomercyEvosAttacks
 	dw SliscesEvosAttacks
-	dw TentacruelEvosAttacks
+	dw DreadgeEvosAttacks
 	dw DolmiteEvosAttacks
 	dw DolmesaEvosAttacks
 	dw CairnivoreEvosAttacks

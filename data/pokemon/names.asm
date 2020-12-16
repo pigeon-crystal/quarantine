@@ -71,7 +71,7 @@ PokemonNames::
 	db "ORGNOME@@@"
 	db "GNOMERCY@@" 
 	db "SLISCES@@@" ;slisces
-	db "TENTACRUEL"
+	db "DREADGE@@@"
 	db "DOLMITE@@@" ;geodude
 	db "DOLMESA@@@"
 	db "CAIRNIVORE"

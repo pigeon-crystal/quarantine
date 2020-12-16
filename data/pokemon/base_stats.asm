@@ -104,7 +104,7 @@ INCLUDE "data/pokemon/base_stats/lawnie.asm" ;bellsprout
 INCLUDE "data/pokemon/base_stats/orgnome.asm"
 INCLUDE "data/pokemon/base_stats/gnomercy.asm"
 INCLUDE "data/pokemon/base_stats/slisces.asm"
-INCLUDE "data/pokemon/base_stats/tentacruel.asm"
+INCLUDE "data/pokemon/base_stats/dreadge.asm"
 INCLUDE "data/pokemon/base_stats/dolmite.asm" ;geodude
 INCLUDE "data/pokemon/base_stats/dolmesa.asm"
 INCLUDE "data/pokemon/base_stats/cairnivore.asm"

@@ -1,17 +1,17 @@
-	db SLISCES ; 142
+	db DREADGE ; 142
 
-	db  75, 70,  55, 70,  42,  50
+	db  100, 95,  75, 105,  60,  70
 	;   hp  atk  def  spd  sat  sdf
 
 	db STEEL, STEEL ; type
-	db 88 ; catch rate
-	db 101 ; base exp
-	db SUPER_REPEL, SUPER_POTION ; items
+	db 50 ; catch rate
+	db 199 ; base exp
+	db MAX_POTION, MAX_REPEL ; items
 	db GENDER_F75 ; gender ratio
 	db 100 ; unknown 1
 	db 15 ; step cycles to hatch
 	db 5 ; unknown 2
-	INCBIN "gfx/pokemon/slisces/front.dimensions"
+	INCBIN "gfx/pokemon/dreadge/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_WATER_2, EGG_WATER_2 ; egg groups

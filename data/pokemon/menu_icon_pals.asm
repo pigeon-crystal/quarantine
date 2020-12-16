@@ -76,7 +76,7 @@ MonMenuIconPals:
 	icon_pals GREEN,   YELLOW  ; ORGNOME
 	icon_pals GREEN, BROWN	   ; GNOMERCY
 	icon_pals GRAY,    YELLOW  ; SLISCES
-	icon_pals BROWN,   YELLOW  ; TENTACRUEL
+	icon_pals BROWN,   YELLOW  ; DREADGE
 	icon_pals GRAY,   YELLOW   ; DOLMITE
 	icon_pals GRAY,   YELLOW   ; DOLMESA
 	icon_pals GRAY,   YELLOW   ; CAIRNIVORE

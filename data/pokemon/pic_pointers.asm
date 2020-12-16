@@ -146,8 +146,8 @@ PokemonPicPointers::
 	dba GnomercyBackpic
 	dba SliscesFrontpic
 	dba SliscesBackpic
-	dba TentacruelFrontpic
-	dba TentacruelBackpic
+	dba DreadgeFrontpic
+	dba DreadgeBackpic
 	dba DolmiteFrontpic
 	dba DolmiteBackpic
 	dba DolmesaFrontpic

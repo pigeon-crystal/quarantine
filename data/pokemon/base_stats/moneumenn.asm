@@ -1,6 +1,6 @@
 	db MONEUMENN ; 142
 
-	db  73, 53,  103, 23,  101,  181
+	db  73, 53,  97, 19,  97,  179
 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, ELECTRIC ; type

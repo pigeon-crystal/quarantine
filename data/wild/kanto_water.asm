@@ -14,8 +14,8 @@ KantoWaterWildMons:
 	db 2 percent ; encounter rate
 	db 35, SLISCES
 	db 30, SLISCES
-	db 35, TENTACRUEL
-	db 40, TENTACRUEL
+	db 35, DREADGE
+	db 40, DREADGE
 
 	map_id ROUTE_4
 	db 4 percent ; encounter rate
@@ -49,36 +49,36 @@ KantoWaterWildMons:
 	db 6 percent ; encounter rate
 	db 25, SLISCES
 	db 25, ASTROTOM
-	db 25, TENTACRUEL
-	db 26, TENTACRUEL
+	db 25, DREADGE
+	db 26, DREADGE
 
 	map_id ROUTE_13
 	db 6 percent ; encounter rate
 	db 25, SLISCES
 	db 25, ASTROTOM
-	db 25, TENTACRUEL
+	db 25, DREADGE
 	db 30, ASTROTOM
 
 	map_id ROUTE_19
 	db 6 percent ; encounter rate
 	db 35, SLISCES
 	db 30, SLISCES
-	db 35, TENTACRUEL
-	db 40, TENTACRUEL
+	db 35, DREADGE
+	db 40, DREADGE
 
 	map_id ROUTE_20
 	db 6 percent ; encounter rate
 	db 35, SLISCES
 	db 30, SLISCES
-	db 35, TENTACRUEL
-	db 40, TENTACRUEL
+	db 35, DREADGE
+	db 40, DREADGE
 
 	map_id ROUTE_21
 	db 6 percent ; encounter rate
 	db 35, SLISCES
 	db 30, SLISCES
-	db 35, TENTACRUEL
-	db 40, TENTACRUEL
+	db 35, DREADGE
+	db 40, DREADGE
 
 	map_id ROUTE_22
 	db 2 percent ; encounter rate
@@ -126,8 +126,8 @@ KantoWaterWildMons:
 	db 6 percent ; encounter rate
 	db 35, SLISCES
 	db 30, SLISCES
-	db 35, TENTACRUEL
-	db 40, TENTACRUEL
+	db 35, DREADGE
+	db 40, DREADGE
 
 	map_id VIRIDIAN_CITY
 	db 2 percent ; encounter rate
@@ -147,8 +147,8 @@ KantoWaterWildMons:
 	db 6 percent ; encounter rate
 	db 35, SLISCES
 	db 30, SLISCES
-	db 35, TENTACRUEL
-	db 40, TENTACRUEL
+	db 35, DREADGE
+	db 40, DREADGE
 
 	map_id CELADON_CITY
 	db 2 percent ; encounter rate
@@ -168,7 +168,7 @@ KantoWaterWildMons:
 	db 6 percent ; encounter rate
 	db 35, SLISCES
 	db 30, SLISCES
-	db 35, TENTACRUEL
+	db 35, DREADGE
 	db 40, MISSINGNO
 
 	db -1 ; end

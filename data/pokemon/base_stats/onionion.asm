@@ -1,6 +1,6 @@
 	db ONIONION ; 
 
-	db  100, 120,  96, 70,  60,  69
+	db  100, 120,  96, 70,  60,  72
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, FIGHTING ; type
