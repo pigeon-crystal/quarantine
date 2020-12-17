@@ -52,7 +52,7 @@ PosterScript:
 
 PlayersHouseRadioScript:
 	setflag ENGINE_POKEDEX
-	givepoke NOOMSDAY, 50
+	givepoke CHELYNOBLE, 50
 	givepoke STRATOWAR, 50
 	givepoke GANZORAH, 50
 	setflag ENGINE_FOGBADGE
@@ -73,7 +73,7 @@ PlayersHouseRadioScript:
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
-	warp RUINS_OF_ALPH_OUTSIDE, 3, 18
+	warp MR_POKEMONS_HOUSE, 5, 7
 	end
 	
 ;PlayersHouseRadioScript:
