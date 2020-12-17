@@ -113,6 +113,8 @@ JolteonFrontpic:     		INCBIN "gfx/pokemon/jolteon/front.animated.2bpp.lz"
 MoneumennFrontpic:     		INCBIN "gfx/pokemon/moneumenn/front.animated.2bpp.lz"
 BermudantFrontpic:      	INCBIN "gfx/pokemon/bermudant/front.animated.2bpp.lz"
 UnownEFrontpic:     	 	INCBIN "gfx/pokemon/unown_e/front.animated.2bpp.lz"
+UnownExclamationFrontpic: INCBIN "gfx/pokemon/unown_exclamation/front.animated.2bpp.lz"
+UnownExclamationBackpic:  INCBIN "gfx/pokemon/unown_exclamation/back.2bpp.lz"
 
 
 SECTION "Pics 5", ROMX
@@ -207,7 +209,8 @@ AligroFrontpic:  INCBIN "gfx/pokemon/aligro/front.animated.2bpp.lz"
 AllseeraphFrontpic:     INCBIN "gfx/pokemon/allseeraph/front.animated.2bpp.lz"
 GeneropsisBackpic:   INCBIN "gfx/pokemon/generopsis/back.2bpp.lz"
 BreederFPic:			INCBIN "gfx/trainers/breeder_f.2bpp.lz"
-
+UnownQuestionFrontpic: INCBIN "gfx/pokemon/unown_question/front.animated.2bpp.lz"
+UnownQuestionBackpic:  INCBIN "gfx/pokemon/unown_question/back.2bpp.lz"
 
 SECTION "Pics 8", ROMX
 
