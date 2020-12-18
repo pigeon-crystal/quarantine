@@ -126,6 +126,7 @@
 	const MUSIC_YOTSUBA						 ; 76
 	const MUSIC_DEMON_ENCOUNTER				 ; 77
 	const MUSIC_RADICAL_ENCOUNTER			 ; 78
+	const MUSIC_ANDROMEGA					 ; 79
 
 ; GetMapMusic picks music for these values (see home/map.asm)
 MUSIC_MAHOGANY_MART EQU $fc
