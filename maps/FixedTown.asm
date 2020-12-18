@@ -8,12 +8,18 @@ FixedTown_MapScripts:
 FixedTownSign:
 	opentext
 	writetext FixedTownSignText
+	
 	yesorno
-	iftrue .TakeMeHome
+	iffalse .nope
+	waitbutton
+	closetext
+	warp DESTROYED_TOWN, 12, 11
 	end
 
-.TakeMeHome
-	warp DESTROYED_TOWN, 12, 11
+.nope
+	waitbutton
+	closetext
+	end
 	
 FixedTownSignText:
 	text "Forever Peaceful"
@@ -23,7 +29,7 @@ FixedTownSignText:
 	
 	para "Will you say"
 	line "goodbye?"
-	
+	done	
 
 FixedTown_MapEvents:
 	db 0, 0 ; filler
@@ -34,6 +40,6 @@ FixedTown_MapEvents:
 	db 0 ; coord events
 
 	db 1 ; bg events
- 	bg_event, BGEVENT_READ, 10, 10, FixedTownSign
+ 	bg_event 10, 10, BGEVENT_READ, FixedTownSign
 	
 	db 0 ; object events

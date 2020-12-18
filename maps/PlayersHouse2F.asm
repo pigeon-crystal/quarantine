@@ -71,7 +71,7 @@ PlayersHouseRadioScript:
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
-	warp DESTROYED_TOWN, 27, 14
+	warp FIXED_TOWN, 13, 13
 	end
 	
 ;PlayersHouseRadioScript:

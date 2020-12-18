@@ -38,6 +38,7 @@ Andromega9F_MapEvents:
 	db 0 ; coord events
 
 	db 1 ; bg events
-	bg_event BGEVENT_READ, 3, 4, Andromega9FDiary
+	bg_event 3, 4, BGEVENT_READ, Andromega9FDiary
  	
 	db 0 ; object events
+	
