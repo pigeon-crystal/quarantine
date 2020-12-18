@@ -171,6 +171,22 @@ ENDM
 	map_const ROUTE_45,                                    10, 45 ;  8
 	map_const ROUTE_46,                                    10, 18 ;  9
 	map_const BLACKTHORN_CITY,                             20, 18 ; 10
+	map_const ROUTE_45_PASSAGE,							   32, 11 ; 11
+	map_const DESTROYED_TOWN, 							   21, 11 ; 12
+
+; Andromega Section
+		
+	map_const ANDROMEGA_1F,									4, 4  ; 1
+	map_const ANDROMEGA_2F,									9, 4  ; 
+	map_const ANDROMEGA_3F,									8, 4 
+	map_const ANDROMEGA_4F, 								9, 5
+	map_const ANDROMEGA_5F,									9, 4
+	map_const ANDROMEGA_6F,									4, 10
+	map_const ANDROMEGA_7F,									4, 10
+	map_const ANDROMEGA_8F,									4, 10
+	map_const ANDROMEGA_9F,									4, 4
+	map_const FIXED_TOWN,									20, 11
+	map_const ANDROMEGA_FINAL,								3, 11 ; jej
 
 	newgroup                                                      ;  6
 
@@ -512,4 +528,3 @@ ENDM
 	newgroup													; 28
 	
 	map_const KAIJU_GYM,									5,  9 ; 1
-	

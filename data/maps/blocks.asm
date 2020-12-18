@@ -1079,3 +1079,39 @@ DragonsDepthsItemRoom_Blocks:
 	
 KaijuGym_Blocks:
 	INCBIN "maps/KaijuGym.blk"
+
+Route45Passage_Blocks:
+	INCBIN "maps/Route45Passage.blk"
+
+DestroyedTown_Blocks:
+	INCBIN "maps/DestroyedTown.blk"
+	
+Andromega1F_Blocks:
+	INCBIN "maps/Andromega1F.blk"
+	
+Andromega2F_Blocks:
+	INCBIN "maps/Andromega2F.blk"
+	
+Andromega3F_Blocks:
+	INCBIN "maps/Andromega3F.blk"
+	
+Andromega4F_Blocks:
+	INCBIN "maps/Andromega4F.blk"
+	
+Andromega5F_Blocks:
+	INCBIN "maps/Andromega5F.blk"
+	
+Andromega6F_Blocks:
+Andromega7F_Blocks:
+Andromega8F_Blocks:
+	INCBIN "maps/Andromega6F.blk"
+	
+Andromega9F_Blocks:
+	INCBIN "maps/Andromega9F.blk"
+	
+FixedTown_Blocks:
+	INCBIN "maps/FixedTown.blk"
+	
+AndromegaFinal_Blocks:
+	INCBIN "maps/AndromegaFinal.blk"
+	

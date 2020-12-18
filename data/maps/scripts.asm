@@ -405,6 +405,7 @@ INCLUDE "maps/Route44.asm"
 INCLUDE "maps/Route45.asm"
 INCLUDE "maps/Route19.asm"
 INCLUDE "maps/Route25.asm"
+INCLUDE "maps/Route45Passage.asm"
 
 
 SECTION "Map Scripts 21", ROMX
@@ -499,5 +500,18 @@ INCLUDE "maps/DragonsDepthsB2F.asm"
 INCLUDE "maps/DragonsDepthsB3F.asm"
 INCLUDE "maps/DragonsDepthsItemRoom.asm"
 INCLUDE "maps/KaijuGym.asm"
+INCLUDE "maps/DestroyedTown.asm"
+INCLUDE "maps/Andromega1F.asm"
+INCLUDE "maps/Andromega2F.asm"
+INCLUDE "maps/Andromega3F.asm"
+INCLUDE "maps/Andromega4F.asm"
+INCLUDE "maps/Andromega5F.asm"
+INCLUDE "maps/AndromegaFinal.asm"
 
+SECTION "Map Scripts 27", ROMX
 
+INCLUDE "maps/Andromega6F.asm"
+INCLUDE "maps/Andromega7F.asm"
+INCLUDE "maps/Andromega8F.asm"
+INCLUDE "maps/Andromega9F.asm"
+INCLUDE "maps/FixedTown.asm"

@@ -52,9 +52,7 @@ PosterScript:
 
 PlayersHouseRadioScript:
 	setflag ENGINE_POKEDEX
-	givepoke CHELYNOBLE, 50
 	givepoke STRATOWAR, 50
-	givepoke GANZORAH, 50
 	setflag ENGINE_FOGBADGE
 	setflag ENGINE_RISINGBADGE
 	setflag ENGINE_MINERALBADGE
@@ -73,7 +71,7 @@ PlayersHouseRadioScript:
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
-	warp MR_POKEMONS_HOUSE, 5, 7
+	warp DESTROYED_TOWN, 27, 14
 	end
 	
 ;PlayersHouseRadioScript:

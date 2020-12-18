@@ -220,9 +220,17 @@ ENDM
 	connection west, MahoganyTown, MAHOGANY_TOWN, 0
 	connection east, BlackthornCity, BLACKTHORN_CITY, -9
 
-	map_attributes Route45, ROUTE_45, $71, NORTH | WEST
+	map_attributes Route45, ROUTE_45, $71, NORTH | WEST | EAST
 	connection north, BlackthornCity, BLACKTHORN_CITY, 0
 	connection west, Route46, ROUTE_46, 36
+	connection east, Route45Passage, ROUTE_45_PASSAGE, 37
+	
+	map_attributes Route45Passage, ROUTE_45_PASSAGE, $05, WEST | EAST
+	connection west, Route45, ROUTE_45, -37
+	connection east, DestroyedTown, DESTROYED_TOWN, 0
+	
+	map_attributes DestroyedTown, DESTROYED_TOWN, $71, WEST
+	connection west, Route45Passage, ROUTE_45_PASSAGE, 0
 
 	map_attributes Route46, ROUTE_46, $05, SOUTH | EAST
 	connection south, Route29, ROUTE_29, -10
@@ -711,3 +719,15 @@ ENDM
 	map_attributes DragonsDepthsB3F, DRAGONS_DEPTHS_B3F, $09, 0
 	map_attributes DragonsDepthsItemRoom, DRAGONS_DEPTHS_ITEM_ROOM, $09, 0
 	map_attributes KaijuGym, KAIJU_GYM, $00, 0
+	map_attributes Andromega1F, ANDROMEGA_1F, $00, 0
+	map_attributes Andromega2F, ANDROMEGA_2F, $00, 0
+	map_attributes Andromega3F, ANDROMEGA_3F, $00, 0
+	map_attributes Andromega4F, ANDROMEGA_4F, $00, 0
+	map_attributes Andromega5F, ANDROMEGA_5F, $00, 0
+	map_attributes Andromega6F, ANDROMEGA_6F, $00, 0
+	map_attributes Andromega7F, ANDROMEGA_7F, $00, 0
+	map_attributes Andromega8F, ANDROMEGA_8F, $00, 0
+	map_attributes Andromega9F, ANDROMEGA_9F, $00, 0
+	map_attributes FixedTown, FIXED_TOWN, $05, 0
+	map_attributes AndromegaFinal, ANDROMEGA_FINAL, $00, 0
+	
