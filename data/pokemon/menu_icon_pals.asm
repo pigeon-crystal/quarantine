@@ -83,8 +83,8 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; MOPERDOR
 	icon_pals BLUE,    YELLOW  ; MAJESDOR
 	icon_pals BLUE,   YELLOW  ; MISSTERIA
-	icon_pals BROWN,   YELLOW  ; SLOWBRO
-	icon_pals BROWN,   YELLOW  ; MAGNEMITE
+	icon_pals BROWN,   YELLOW  ; DISMAIDEN
+	icon_pals BROWN,   YELLOW  ; BEDLAMAM
 	icon_pals BROWN,   YELLOW  ; MAGNETON
 	icon_pals BROWN,   YELLOW  ; FARFETCH'D 
 	icon_pals BROWN,   YELLOW  ; DODUO
@@ -131,7 +131,7 @@ MonMenuIconPals:
 	icon_pals GRAY,   YELLOW  ; GIGUARD
 	icon_pals GRAY,   YELLOW  ; GIGERATOR
 	icon_pals GRAY,   YELLOW  ; BERMUDANT
-	icon_pals BROWN,   YELLOW  ; TAUROS
+	icon_pals BROWN,   YELLOW  ; WALLARRIOR
 	icon_pals BROWN,   YELLOW  ; MAGIKARP
 	icon_pals BROWN,   YELLOW  ; GYARADOS
 	icon_pals PINK,   YELLOW   ; MANDELBLOB
@@ -216,7 +216,7 @@ MonMenuIconPals:
 	icon_pals GRAY,   YELLOW   ; GRIMPACT
 	icon_pals BROWN,   GREEN    ; PEKOI
 	icon_pals RED,   YELLOW    ; YAGAGARASU
-	icon_pals RED,   YELLOW    ; SHUCKLE
+	icon_pals RED,   YELLOW    ; UMBERJERK
 	icon_pals RED,   YELLOW    ; HERACROSS
 	icon_pals RED,   YELLOW    ; SNEASAL
 	icon_pals PINK,   YELLOW    ; SMUCIOUS

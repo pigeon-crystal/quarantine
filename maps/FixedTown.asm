@@ -22,8 +22,10 @@ FixedTownSign:
 	end
 	
 FixedTownSignText:
-	text "Forever Peaceful"
-	line "SILENT TOWN"
+	text "THISMIA TOWN"
+	
+	para "Where the Stars"
+	line "Always Shine"
 	
 	para "…"
 	

@@ -79,8 +79,8 @@ PokedexDataPointerTable:
 	dw MoperdorPokedexEntry
 	dw MajesdorPokedexEntry
 	dw MissteriaPokedexEntry
-	dw SlowbroPokedexEntry
-	dw MagnemitePokedexEntry
+	dw DismaidenPokedexEntry
+	dw BedlamamPokedexEntry
 	dw MagnetonPokedexEntry
 	dw FarfetchDPokedexEntry
 	dw DoduoPokedexEntry
@@ -127,7 +127,7 @@ PokedexDataPointerTable:
 	dw GiguardPokedexEntry
 	dw GigeratorPokedexEntry
 	dw BermudantPokedexEntry
-	dw TaurosPokedexEntry
+	dw WallarriorPokedexEntry
 	dw MagikarpPokedexEntry
 	dw GyaradosPokedexEntry
 	dw MandelblobPokedexEntry
@@ -212,7 +212,7 @@ PokedexDataPointerTable:
 	dw GrimpactPokedexEntry
 	dw PekoiPokedexEntry
 	dw YagagarasuPokedexEntry
-	dw ShucklePokedexEntry
+	dw UmberjerkPokedexEntry
 	dw HeracrossPokedexEntry
 	dw SneaselPokedexEntry
 	dw SmuciousPokedexEntry

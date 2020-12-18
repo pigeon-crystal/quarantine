@@ -337,30 +337,30 @@ KantoGrassWildMons:
 	; morn
 	db 13, NOMSTER
 	db 13, ZASTER
-	db 14, MAGNEMITE
+	db 14, BEDLAMAM
 	db 15, NOMSABRE
 	db 12, HEXAHED
 	db 15, GRIMPACT
 	db 15, GRIMPACT
-	db 20, MAGNEMITE
+	db 20, BEDLAMAM
 	; day
 	db 13, NOMSTER
 	db 13, ZASTER
-	db 14, MAGNEMITE
+	db 14, BEDLAMAM
 	db 15, NOMSABRE
 	db 12, HEXAHED
 	db 15, GRIMPACT
 	db 15, GRIMPACT
-	db 20, MAGNEMITE
+	db 20, BEDLAMAM
 	; nite
 	db 13, TODESCOOL
 	db 13, EELKIE
-	db 14, MAGNEMITE
+	db 14, BEDLAMAM
 	db 15, VOYAPOD
 	db 12, HEXAHED
 	db 15, NOMSABRE
 	db 15, NOMSABRE
-	db 20, MAGNEMITE
+	db 20, BEDLAMAM
 
 	map_id ROUTE_7 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -487,30 +487,30 @@ KantoGrassWildMons:
 	; morn
 	db 14, SHABBYCAT
 	db 13, NOMSABRE
-	db 15, MAGNEMITE
+	db 15, BEDLAMAM
 	db 16, FURDOBA
 	db 16, NOMSTER
 	db 16, SHABBYCAT
 	db 16, SHABBYCAT
-	db 20, MAGNEMITE
+	db 20, BEDLAMAM
 	; day
 	db 14, SHABBYCAT
 	db 13, NOMSABRE
-	db 15, MAGNEMITE
+	db 15, BEDLAMAM
 	db 16, FURDOBA
 	db 16, NOMSTER
 	db 16, SHABBYCAT
 	db 16, SHABBYCAT
-	db 20, MAGNEMITE
+	db 20, BEDLAMAM
 	; nite
 	db 14, EELKIE
 	db 13, TODESCOOL
-	db 15, MAGNEMITE
+	db 15, BEDLAMAM
 	db 16, MURDERMIS
 	db 16, NOMSABRE
 	db 16, MOSSARRE
 	db 16, MOSSARRE
-	db 20, MAGNEMITE
+	db 20, BEDLAMAM
 
 	map_id ROUTE_13 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

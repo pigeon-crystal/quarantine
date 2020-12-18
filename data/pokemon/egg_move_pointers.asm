@@ -126,7 +126,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw BermudantEggMoves
-	dw TaurosEggMoves ; Wallarrior
+	dw WallarriorEggMoves ; Wallarrior
 	dw MagikarpEggMoves ; dragon snail
 	dw NoEggMoves
 	dw MandelblobEggMoves
@@ -211,7 +211,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw PekoiEggMoves
 	dw YagagarasuEggMoves
-	dw ShuckleEggMoves
+	dw UmberjerkEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw SmuciousEggMoves

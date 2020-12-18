@@ -1,4 +1,4 @@
-MANIA_OT_ID EQU 00518
+MANIA_OT_ID EQU 00518			; TODO adjust level value
 
 GiveShuckle:
 ; Adding to the party.
@@ -6,7 +6,7 @@ GiveShuckle:
 	ld [wMonType], a
 
 ; Level 15 Shuckle.
-	ld a, SHUCKLE
+	ld a, EYECHOSIS
 	ld [wCurPartySpecies], a
 	ld a, 15
 	ld [wCurPartyLevel], a
@@ -76,7 +76,7 @@ ReturnShuckle:
 	jr c, .refused
 
 	ld a, [wCurPartySpecies]
-	cp SHUCKLE
+	cp EYECHOSIS
 	jr nz, .DontReturn
 
 	ld a, [wCurPartyMon]

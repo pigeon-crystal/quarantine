@@ -80,8 +80,8 @@ EvosAttacksPointers::
 	dw MoperdorEvosAttacks
 	dw MajesdorEvosAttacks
 	dw MissteriaEvosAttacks
-	dw SlowbroEvosAttacks
-	dw MagnemiteEvosAttacks
+	dw DismaidenEvosAttacks
+	dw BedlamamEvosAttacks
 	dw MagnetonEvosAttacks
 	dw FarfetchDEvosAttacks
 	dw DoduoEvosAttacks
@@ -128,7 +128,7 @@ EvosAttacksPointers::
 	dw GiguardEvosAttacks
 	dw GigeratorEvosAttacks
 	dw BermudantEvosAttacks
-	dw TaurosEvosAttacks
+	dw WallarriorEvosAttacks
 	dw MagikarpEvosAttacks
 	dw GyaradosEvosAttacks
 	dw MandelblobEvosAttacks
@@ -213,7 +213,7 @@ EvosAttacksPointers::
 	dw GrimpactEvosAttacks
 	dw PekoiEvosAttacks
 	dw YagagarasuEvosAttacks
-	dw ShuckleEvosAttacks
+	dw UmberjerkEvosAttacks
 	dw HeracrossEvosAttacks
 	dw SneaselEvosAttacks
 	dw SmuciousEvosAttacks

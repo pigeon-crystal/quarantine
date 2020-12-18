@@ -5,6 +5,17 @@ Andromega8F_MapScripts:
 
 	db 0 ; callbacks
 
+Andromega8FComp:
+	jumptext Andromega8FCompText
+	
+Andromega8FCompText:
+	text "A message is on"
+	line "the screen."
+	
+	para "'ERROR."
+	line "CAN NOT ABORT.'"
+	done
+
 Andromega8F_MapEvents:
 	db 0, 0 ; filler
 
@@ -14,6 +25,7 @@ Andromega8F_MapEvents:
 
 	db 0 ; coord events
 
-	db 0 ; bg events
- 	
+	db 1 ; bg events
+	bg_event 6, 12, BGEVENT_READ, Andromega8FComp
+
 	db 0 ; object events

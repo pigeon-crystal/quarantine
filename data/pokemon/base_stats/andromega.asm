@@ -6,7 +6,7 @@
 	db FLYING, DARK ; type
 	db 27 ; catch rate
 	db 222 ; base exp
-	db MIRACLEBERRY, MIRACLEBERRY ; items
+	db STAR_PIECE, STAR_PIECE ; items
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1
 	db 35 ; step cycles to hatch

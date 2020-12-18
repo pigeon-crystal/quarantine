@@ -29,6 +29,9 @@ Andromega9FDiaryText:
 	para "Won't you join us?"
 	done
 
+Andromega9FBooks:
+	jumpstd difficultbookshelf
+
 Andromega9F_MapEvents:
 	db 0, 0 ; filler
 
@@ -37,8 +40,12 @@ Andromega9F_MapEvents:
 
 	db 0 ; coord events
 
-	db 1 ; bg events
+	db 5 ; bg events
 	bg_event 3, 4, BGEVENT_READ, Andromega9FDiary
+	bg_event 0, 1, BGEVENT_READ, Andromega9FBooks
+	bg_event 1, 1, BGEVENT_READ, Andromega9FBooks
+	bg_event 5, 1, BGEVENT_READ, Andromega9FBooks
+	bg_event 7, 1, BGEVENT_READ, Andromega9FBooks
  	
 	db 0 ; object events
 	

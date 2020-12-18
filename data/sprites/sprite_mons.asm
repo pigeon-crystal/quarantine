@@ -25,7 +25,7 @@ SpriteMons:
 	db WYRMOMETER
 	db MESSMASH
 	db SLISCES
-	db TAUROS
+	db WALLARRIOR
 	db UPWHALE
 	db LAMYGLAMA
 	db MANDELBLOB
@@ -56,4 +56,5 @@ SpriteMons:
 	db CRUSTAZER
 	db FURNIT
 	db EYECHOSIS
+	db ANDROMEGA
 	

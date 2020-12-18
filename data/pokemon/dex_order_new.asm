@@ -83,7 +83,7 @@ NewPokedexOrder:
 	db GOOSAPLING
 	db GANZERKER
 	db MISSTERIA
-	db SLOWBRO
+	db DISMAIDEN
 	db EUKUB
 	db KOAGAN
 	db POCALYPTUS
@@ -124,7 +124,7 @@ NewPokedexOrder:
 	db SAKURONNA
 	db DUMBLOON
 	db ZEPPLIUM
-	db MAGNEMITE
+	db BEDLAMAM
 	db MAGNETON
 	db LAMYGLAMA
 	db DJAMM
@@ -150,7 +150,7 @@ NewPokedexOrder:
 	db MOTHOMEN
 	db HITMONTOP
 	db SWAZZAGE
-	db TAUROS
+	db WALLARRIOR
 	db DRASSAL
 	db GORIATH
 	db AMBIONIC
@@ -167,7 +167,7 @@ NewPokedexOrder:
 	db DREADGE
 	db LANATUN
 	db PEPOFFER
-	db SHUCKLE
+	db UMBERJERK
 	db PEAUTY
 	db PEEKEYE
 	db PEACOLDER

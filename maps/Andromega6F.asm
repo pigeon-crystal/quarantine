@@ -5,6 +5,17 @@ Andromega6F_MapScripts:
 
 	db 0 ; callbacks
 
+Andromega6FComp:
+	jumptext Andromega6FCompText
+	
+Andromega6FCompText:
+	text "The screen is"
+	line "broken."
+	
+	para "You can't make out"
+	line "a thing."
+	done
+
 Andromega6F_MapEvents:
 	db 0, 0 ; filler
 
@@ -14,6 +25,7 @@ Andromega6F_MapEvents:
 
 	db 0 ; coord events
 
-	db 0 ; bg events
- 	
+	db 1 ; bg events
+ 	bg_event 6, 12, BGEVENT_READ, Andromega6FComp
+	
 	db 0 ; object events

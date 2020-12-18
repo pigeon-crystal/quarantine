@@ -197,6 +197,7 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_CRUSTAZER ; d5
 	const SPRITE_FURNIT
 	const SPRITE_EYECHOSIS
+	const SPRITE_ANDROMEGA
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)
 	const_def $ee

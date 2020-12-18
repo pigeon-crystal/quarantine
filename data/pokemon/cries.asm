@@ -84,8 +84,8 @@ PokemonCries::
 	mon_cry CRY_MAGCARGO,      7,  247 ; MOPERDOR
 	mon_cry CRY_WEEDLE,        2,  300 ; MAJESDOR
 	mon_cry CRY_SLOWPOKE,      0,  256 ; MISSTERIA
-	mon_cry CRY_GROWLITHE,     0,  256 ; SLOWBRO
-	mon_cry CRY_METAPOD,     128,  224 ; MAGNEMITE
+	mon_cry CRY_GROWLITHE,     0,  256 ; DISMAIDEN
+	mon_cry CRY_METAPOD,     128,  224 ; BEDLAMAM
 	mon_cry CRY_METAPOD,      32,  320 ; MAGNETON
 	mon_cry CRY_SPEAROW,     221,  129 ; FARFETCH_D
 	mon_cry CRY_DIGLETT,     187,  129 ; DODUO
@@ -132,7 +132,7 @@ PokemonCries::
 	mon_cry CRY_VOLTORB,     100,  333 ; GIGUARD   ;orig electabuzz
 	mon_cry CRY_VOLTORB,      50,  333 ; GIGERATOR ;orig magmar
 	mon_cry CRY_EKANS,     	   7,  316 ; BERMUDANT
-	mon_cry CRY_SQUIRTLE,     17,  192 ; TAUROS
+	mon_cry CRY_SQUIRTLE,     17,  192 ; WALLARRIOR
 	mon_cry CRY_EKANS,       128,  128 ; MAGIKARP
 	mon_cry CRY_EKANS,         0,  256 ; GYARADOS
 	mon_cry CRY_PIDGEY,      272,  310 ; MANDELBLOB
@@ -217,7 +217,7 @@ PokemonCries::
 	mon_cry $3E,     		$057B, $0144 	; GRIMPACT
 	mon_cry CRY_SLOWKING,    252,  234 		; PEKOI
 	mon_cry CRY_AMPHAROS,      0,  352 ; YAGAGARASU
-	mon_cry CRY_DUNSPARCE,   656,  168 ; SHUCKLE
+	mon_cry CRY_DUNSPARCE,   656,  168 ; UMBERJERK
 	mon_cry CRY_AMPHAROS,     53,  224 ; HERACROSS
 	mon_cry CRY_WOOPER,       83,  175 ; SNEASEL
 	mon_cry CRY_MARILL,  	 100,  120 ; SMUCIOUS

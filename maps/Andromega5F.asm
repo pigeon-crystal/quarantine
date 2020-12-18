@@ -1,9 +1,13 @@
 	object_const_def ; object_event constants
+	const ANDROMEGA_5F_SUN_STONE
 
 Andromega5F_MapScripts:
 	db 0 ; scene scripts
 
 	db 0 ; callbacks
+
+AndromegaSunStone:
+	itemball SUN_STONE
 
 Andromega5F_MapEvents:
 	db 0, 0 ; filler
@@ -16,4 +20,5 @@ Andromega5F_MapEvents:
 
 	db 0 ; bg events 
  	
-	db 0 ; object events TODO add an evo stone
+	db 1 ; object events TODO add an evo stone
+	object_event 4, 2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, AndromegaSunStone, EVENT_ANDROMEGA_SUN_STONE

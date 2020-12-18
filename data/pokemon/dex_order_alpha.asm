@@ -115,7 +115,7 @@ AlphabeticalPokedexOrder:
 	db MADRUGASA
 	db GORIATH
 	db MAGIKARP
-	db MAGNEMITE
+	db BEDLAMAM
 	db MAGNETON
 	db MAJESDOR
 	db MAMMOTHRA
@@ -195,12 +195,12 @@ AlphabeticalPokedexOrder:
 	db SHABBYCAT
 	db SHAMSEL
 	db BAMBABY
-	db SHUCKLE
+	db UMBERJERK
 	db SIDFICIOUS
 	db SNOSEBLEED
 	db SLAATEL
 	db MISSINGNO
-	db SLOWBRO
+	db DISMAIDEN
 	db MISSTERIA
 	db SMOTHERENE
 	db SMUCIOUS
@@ -216,7 +216,7 @@ AlphabeticalPokedexOrder:
 	db PARDNER
 	db RYUNARI
 	db SWAZZAGE
-	db TAUROS
+	db WALLARRIOR
 	db TENDRILL
 	db SLISCES
 	db DREADGE

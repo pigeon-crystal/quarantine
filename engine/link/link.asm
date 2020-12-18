@@ -715,9 +715,9 @@ Link_PrepPartyData_Gen1:
 	ld [de], a
 	inc de
 	ld a, [bc]
-	cp MAGNEMITE
+	cp WALLARRIOR
 	jr z, .steel_type
-	cp MAGNETON
+	cp NAVIGAZER
 	jr nz, .skip_steel
 
 .steel_type

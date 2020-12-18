@@ -71,7 +71,7 @@ PlayersHouseRadioScript:
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
-	warp FIXED_TOWN, 13, 13
+	warp ANDROMEGA_1F, 2, 5
 	end
 	
 ;PlayersHouseRadioScript:

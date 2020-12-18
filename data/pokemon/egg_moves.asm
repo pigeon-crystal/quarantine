@@ -421,7 +421,7 @@ BermudantEggMoves:
 	db CALM_MIND
 	db -1 ; end
 
-TaurosEggMoves:
+WallarriorEggMoves:
 	db SLASH
 	db PRESENT
 	db -1 ; end
@@ -748,7 +748,7 @@ YagagarasuEggMoves:
 	db MACH_PUNCH
 	db -1 ; end
 
-ShuckleEggMoves:
+UmberjerkEggMoves:
 	db SWEET_SCENT
 	db -1 ; end
 

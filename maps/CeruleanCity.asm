@@ -38,7 +38,7 @@ CeruleanCitySuperNerdScript:
 CeruleanCitySlowbro:
 	opentext
 	writetext CeruleanCitySlowbroText
-	cry SLOWBRO
+	cry WALLARRIOR
 	waitbutton
 	closetext
 	end
@@ -56,7 +56,7 @@ CeruleanCityCooltrainerFScript:
 	closetext
 	opentext
 	writetext CeruleanCitySlowbroText
-	cry SLOWBRO
+	cry WALLARRIOR
 	waitbutton
 	closetext
 	opentext

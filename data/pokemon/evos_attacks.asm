@@ -1312,17 +1312,17 @@ MajesdorEvosAttacks:
 	db 0 ; no more level-up moves
 
 MissteriaEvosAttacks:
-	db EVOLVE_LEVEL, 29, SLOWBRO
+	db EVOLVE_LEVEL, 29, DISMAIDEN
 	db 0 ; no more evolutions
 	db 1, CURSE
 	db 0 ; no more level-up moves
 
-SlowbroEvosAttacks:
-	db EVOLVE_LEVEL, 46, MAGNEMITE
+DismaidenEvosAttacks:
+	db EVOLVE_LEVEL, 46, BEDLAMAM
 	db 1, CURSE
 	db 0 ; no more level-up moves
 
-MagnemiteEvosAttacks:
+BedlamamEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves
@@ -2111,7 +2111,7 @@ BermudantEvosAttacks:
 	db 55, FLAMETHROWER
 	db 0 ; no more level-up moves
 
-TaurosEvosAttacks:
+WallarriorEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves
@@ -3499,7 +3499,7 @@ YagagarasuEvosAttacks:
 	db 60, BATON_PASS
 	db 0 ; no more level-up moves
 
-ShuckleEvosAttacks:
+UmberjerkEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, CONSTRICT
 	db 0 ; no more level-up moves

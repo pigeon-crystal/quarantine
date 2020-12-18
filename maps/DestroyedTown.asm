@@ -6,6 +6,11 @@ DestroyedTown_MapScripts:
 	db 0 ; callbacks
 
 DestroyedTownSign:
+	checkevent EVENT_GOT_ANDROMEGA
+	iffalse .Destroyed
+	jumptext ThismiaTownSignText
+	
+.Destroyed
 	jumptext DestroyedTownSignText
 	
 DestroyedTownSignText:
@@ -13,7 +18,18 @@ DestroyedTownSignText:
 	line "broken."
 	
 	para "The text is"
-	line "illegible."
+	line "too faded to read."
+	done
+	
+ThismiaTownSignText:
+	text "You can faintly"
+	line "make out the"
+	cont "words here."
+	
+	para "THISMIA TOWN"
+	
+	para "Where the Stars"
+	line "Always Shine"
 	done
 	
 DestroyedTown_MapEvents:

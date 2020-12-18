@@ -1779,29 +1779,29 @@ JohtoGrassWildMons:
 	; morn
 	db 23, DOLMESA
 	db 23, QWALLOP
-	db 24, TAUROS		; Wallarrior
+	db 24, WALLARRIOR		; Wallarrior
 	db 25, QWALLOP
-	db 20, TAUROS		; Wallarrior
+	db 20, WALLARRIOR		; Wallarrior
 	db 27, YAGAGARASU
-	db 27, TAUROS		; Wallarrior
+	db 27, WALLARRIOR		; Wallarrior
 	db 28, MAGIKARP		; Snail 1
 	; day
 	db 23, DOLMESA
 	db 23, QWALLOP
-	db 24, TAUROS		; Wallarrior
+	db 24, WALLARRIOR		; Wallarrior
 	db 25, QWALLOP
-	db 20, TAUROS		; Wallarrior
+	db 20, WALLARRIOR		; Wallarrior
 	db 27, YAGAGARASU
-	db 27, TAUROS		; Wallarrior
+	db 27, WALLARRIOR		; Wallarrior
 	db 28, YAGAGARASU
 	; nite
 	db 23, DOLMESA
 	db 23, QWALLOP
-	db 24, TAUROS		; Wallarrior
+	db 24, WALLARRIOR		; Wallarrior
 	db 25, QWALLOP
-	db 20, TAUROS		; Wallarrior
+	db 20, WALLARRIOR		; Wallarrior
 	db 27, YAGAGARASU
-	db 27, TAUROS		; Wallarrior
+	db 27, WALLARRIOR		; Wallarrior
 	db 28, MAGIKARP		; Snail 1
 
 	map_id ROUTE_46 ;done

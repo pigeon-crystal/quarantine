@@ -98,8 +98,8 @@
 	const MOPERDOR   ; 4d
 	const MAJESDOR   ; 4e
 	const MISSTERIA  ; 4f 
-	const SLOWBRO    ; 50 missteria2
-	const MAGNEMITE  ; 51 missteria3
+	const DISMAIDEN    ; 50 
+	const BEDLAMAM  	; 51 
 	const MAGNETON   ; 52 antelope
 	const FARFETCH_D ; 53 fire antelope
 	const DODUO      ; 54 elec antelope
@@ -146,7 +146,7 @@
 	const GIGUARD    ; 7d
 	const GIGERATOR  ; 7e
 	const BERMUDANT  ; 7f
-	const TAUROS     ; 80 Wallarior
+	const WALLARRIOR ; 80 Wallarior
 	const MAGIKARP   ; 81 Snail 1
 	const GYARADOS   ; 82 Snail 2
 	const MANDELBLOB ; 83
@@ -232,7 +232,7 @@ JOHTO_POKEMON EQU const_value
 	const GRIMPACT   ; d2
 	const PEKOI      ; d3
 	const YAGAGARASU ; d4
-	const SHUCKLE    ; d5 murderer1
+	const UMBERJERK    ; d5 murderer1
 	const HERACROSS  ; d6 murderer2
 	const SNEASEL    ; d7 murderer3
 	const SMUCIOUS   ; d8

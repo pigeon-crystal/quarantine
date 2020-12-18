@@ -160,10 +160,10 @@ PokemonPicPointers::
 	dba MajesdorBackpic
 	dba MissteriaFrontpic
 	dba MissteriaBackpic
-	dba SlowbroFrontpic
-	dba SlowbroBackpic
-	dba MagnemiteFrontpic
-	dba MagnemiteBackpic
+	dba DismaidenFrontpic
+	dba DismaidenBackpic
+	dba BedlamamFrontpic
+	dba BedlamamBackpic
 	dba MagnetonFrontpic
 	dba MagnetonBackpic
 	dba FarfetchDFrontpic
@@ -256,8 +256,8 @@ PokemonPicPointers::
 	dba GigeratorBackpic
 	dba BermudantFrontpic
 	dba BermudantBackpic
-	dba TaurosFrontpic
-	dba TaurosBackpic
+	dba WallarriorFrontpic
+	dba WallarriorBackpic
 	dba MagikarpFrontpic
 	dba MagikarpBackpic
 	dba GyaradosFrontpic
@@ -429,8 +429,8 @@ PokemonPicPointers::
 	dba PekoiBackpic
 	dba YagagarasuFrontpic
 	dba YagagarasuBackpic
-	dba ShuckleFrontpic
-	dba ShuckleBackpic
+	dba UmberjerkFrontpic
+	dba UmberjerkBackpic
 	dba HeracrossFrontpic
 	dba HeracrossBackpic
 	dba SneaselFrontpic

@@ -1,4 +1,4 @@
-	object_const_def ; object_event constants
+	object_const_def ; object_event constants		; TODO fix dialogue
 	const CIANWOODPHARMACY_PHARMACIST
 
 CianwoodPharmacy_MapScripts:
