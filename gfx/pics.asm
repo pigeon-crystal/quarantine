@@ -40,7 +40,10 @@ LamseedFrontpic:      INCBIN "gfx/pokemon/lamseed/front.animated.2bpp.lz"
 YukittenBackpic:     INCBIN "gfx/pokemon/yukitten/back.2bpp.lz"
 PorygonBackpic:      INCBIN "gfx/pokemon/porygon/back.2bpp.lz"
 UnownHBackpic:       INCBIN "gfx/pokemon/unown_h/back.2bpp.lz"
-
+IcosahedBackpic:   INCBIN "gfx/pokemon/icosahed/back.2bpp.lz"
+ArticunoBackpic:     INCBIN "gfx/pokemon/articuno/back.2bpp.lz"
+HelactalBackpic:        INCBIN "gfx/pokemon/helactal/back.2bpp.lz"
+HoatotBackpic:       INCBIN "gfx/pokemon/hoatot/back.2bpp.lz"
 
 
 SECTION "Pics 2", ROMX
@@ -646,10 +649,6 @@ OscurasaBackpic:       INCBIN "gfx/pokemon/oscurasa/back.2bpp.lz"
 WendigauntBackpic:      INCBIN "gfx/pokemon/wendigaunt/back.2bpp.lz"
 UnownOFrontpic:      INCBIN "gfx/pokemon/unown_o/front.animated.2bpp.lz"
 UnownTFrontpic:      INCBIN "gfx/pokemon/unown_t/front.animated.2bpp.lz"
-IcosahedBackpic:   INCBIN "gfx/pokemon/icosahed/back.2bpp.lz"
-ArticunoBackpic:     INCBIN "gfx/pokemon/articuno/back.2bpp.lz"
-HelactalBackpic:        INCBIN "gfx/pokemon/helactal/back.2bpp.lz"
-HoatotBackpic:       INCBIN "gfx/pokemon/hoatot/back.2bpp.lz"
 
 
 SECTION "Pics 18", ROMX
