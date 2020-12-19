@@ -127,7 +127,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw BermudantEggMoves
 	dw WallarriorEggMoves ; Wallarrior
-	dw MagikarpEggMoves ; dragon snail
+	dw FalwodurEggMoves ; dragon snail
 	dw NoEggMoves
 	dw MandelblobEggMoves
 	dw NoEggMoves

@@ -880,8 +880,8 @@ KantoGrassWildMons:
 	db 40, YAGAGARASU
 	db 42, MAULZER
 	db 41, NAVIGAZER
-	db 43, MAGIKARP  ; standin for snail 1
-	db 43, MAGIKARP
+	db 43, FALWODUR  ; standin for snail 1
+	db 43, FALWODUR
 	db 42, MAJESDOR
 	; day
 	db 39, PILFOARD
@@ -889,8 +889,8 @@ KantoGrassWildMons:
 	db 40, YAGAGARASU
 	db 42, BULBASAUR
 	db 41, BULBASAUR
-	db 43, MAGIKARP  ; standin for snail 1
-	db 43, MAGIKARP
+	db 43, FALWODUR  ; standin for snail 1
+	db 43, FALWODUR
 	db 42, MAJESDOR
 	; nite
 	db 39, PILFOARD

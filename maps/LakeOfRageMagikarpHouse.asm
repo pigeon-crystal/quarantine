@@ -1,4 +1,4 @@
-	object_const_def ; object_event constants
+	object_const_def ; object_event constants   TODO: replace lake of rage origin story
 	const LAKEOFRAGEMAGIKARPHOUSE_FISHING_GURU
 
 LakeOfRageMagikarpHouse_MapScripts:
@@ -37,7 +37,7 @@ MagikarpLengthRaterScript:
 	end
 
 .AskedForMagikarp:
-	setval MAGIKARP
+	setval LANATUN
 	special FindPartyMonThatSpecies
 	iffalse .ClearedRocketHideout
 	writetext MagikarpLengthRaterText_YouHaveAMagikarp
@@ -112,7 +112,7 @@ MagikarpLengthRaterText_LakeOfRageHistory:
 	para "It used to be that"
 	line "you could catch"
 
-	para "lively MAGIKARP"
+	para "lively LANATUN"
 	line "there, but…"
 
 	para "I don't understand"
@@ -131,13 +131,13 @@ MagikarpLengthRaterText_WorldsLargestMagikarp:
 	text "LAKE OF RAGE is"
 	line "back to normal."
 
-	para "The MAGIKARP have"
+	para "The LANATUN have"
 	line "returned."
 
 	para "I may yet realize"
 	line "my dream of see-"
 	cont "ing the world's"
-	cont "largest MAGIKARP."
+	cont "largest LANATUN."
 
 	para "Do you have a ROD?"
 	line "Please help me if"
@@ -146,7 +146,7 @@ MagikarpLengthRaterText_WorldsLargestMagikarp:
 
 MagikarpLengthRaterText_YouHaveAMagikarp:
 	text "Ah, you have a"
-	line "MAGIKARP! Let's"
+	line "LANATUN! Let's"
 
 	para "see how big that"
 	line "baby is."
@@ -184,7 +184,7 @@ MagikarpLengthRaterText_TooShort:
 
 MagikarpLengthRaterText_NotMagikarp:
 	text "What? That's not a"
-	line "MAGIKARP!"
+	line "LANATUN!"
 	done
 
 MagikarpLengthRaterText_Refused:

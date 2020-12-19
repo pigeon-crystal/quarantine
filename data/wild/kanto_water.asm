@@ -159,10 +159,10 @@ KantoWaterWildMons:
 
 	map_id FUCHSIA_CITY
 	db 2 percent ; encounter rate
-	db 20, MAGIKARP
-	db 15, MAGIKARP
-	db 10, MAGIKARP
-	db 50, MAGIKARP
+	db 20, FALWODUR
+	db 15, FALWODUR
+	db 10, FALWODUR
+	db 50, FALWODUR
 
 	map_id CINNABAR_ISLAND
 	db 6 percent ; encounter rate

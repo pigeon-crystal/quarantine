@@ -426,7 +426,7 @@ WallarriorEggMoves:
 	db PRESENT
 	db -1 ; end
 	
-MagikarpEggMoves:
+FalwodurEggMoves:
 	db EXPLOSION
 	db ZAP_CANNON
 	db -1 ; end

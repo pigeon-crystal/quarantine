@@ -2116,12 +2116,12 @@ WallarriorEvosAttacks:
 	db 1, POUND
 	db 0 ; no more level-up moves
 
-MagikarpEvosAttacks:
+FalwodurEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves
 
-GyaradosEvosAttacks:
+FalwodraigEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, THRASH
 	db 0 ; no more level-up moves

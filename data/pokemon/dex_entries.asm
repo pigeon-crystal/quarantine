@@ -139,8 +139,8 @@ WallarriorPokedexEntry::     INCLUDE "data/pokemon/dex_entries/wallarrior.asm"
 
 SECTION "Pokedex Entries 129-192", ROMX
 
-MagikarpPokedexEntry::   INCLUDE "data/pokemon/dex_entries/magikarp.asm"
-GyaradosPokedexEntry::   INCLUDE "data/pokemon/dex_entries/gyarados.asm"
+FalwodurPokedexEntry::   INCLUDE "data/pokemon/dex_entries/falwodur.asm"
+FalwodraigPokedexEntry::   INCLUDE "data/pokemon/dex_entries/falwodraig.asm"
 MandelblobPokedexEntry::     INCLUDE "data/pokemon/dex_entries/mandelblob.asm"
 HelactalPokedexEntry::      INCLUDE "data/pokemon/dex_entries/helactal.asm"
 NoomsdayPokedexEntry::      INCLUDE "data/pokemon/dex_entries/noomsday.asm"

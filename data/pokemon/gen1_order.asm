@@ -20,7 +20,7 @@ Pokered_MonIndices:
 	db MANDELBLOB
 	db BIPORKAR
 	db MEW
-	db GYARADOS
+	db FALWODRAIG
 	db BAMBABY
 	db SLISCES
 	db FLUFFRUIT
@@ -131,7 +131,7 @@ Pokered_MonIndices:
 	db SCORPEROR
 	db MA_0
 	db THERAZOR
-	db MAGIKARP
+	db FALWODUR
 	db POLYRO ; MISSINGNO.
 	db MISSINGNO ; MISSINGNO.
 	db ZEPPLIUM

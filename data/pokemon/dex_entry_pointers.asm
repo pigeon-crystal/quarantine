@@ -128,8 +128,8 @@ PokedexDataPointerTable:
 	dw GigeratorPokedexEntry
 	dw BermudantPokedexEntry
 	dw WallarriorPokedexEntry
-	dw MagikarpPokedexEntry
-	dw GyaradosPokedexEntry
+	dw FalwodurPokedexEntry
+	dw FalwodraigPokedexEntry
 	dw MandelblobPokedexEntry
 	dw HelactalPokedexEntry
 	dw NoomsdayPokedexEntry

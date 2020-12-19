@@ -147,8 +147,8 @@
 	const GIGERATOR  ; 7e
 	const BERMUDANT  ; 7f
 	const WALLARRIOR ; 80 Wallarior
-	const MAGIKARP   ; 81 Snail 1
-	const GYARADOS   ; 82 Snail 2
+	const FALWODUR   ; 81 Snail 1
+	const FALWODRAIG   ; 82 Snail 2
 	const MANDELBLOB ; 83
 	const HELACTAL   ; 84
 	const NOOMSDAY   ; 85 Noomsday

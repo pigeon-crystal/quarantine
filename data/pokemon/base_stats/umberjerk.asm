@@ -3,7 +3,7 @@
 	db  44,  90,  47,  77,  22,  46
 	;   hp  atk  def  spd  sat  sdf
 
-	db NORMAL, NORMAL ; type
+	db FIGHTING, FIGHTING ; type
 	db 145 ; catch rate
 	db 64 ; base exp
 	db BERRY, MINT_BERRY ; items

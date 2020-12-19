@@ -132,8 +132,8 @@ MonMenuIconPals:
 	icon_pals GRAY,   YELLOW  ; GIGERATOR
 	icon_pals GRAY,   YELLOW  ; BERMUDANT
 	icon_pals BROWN,   YELLOW  ; WALLARRIOR
-	icon_pals BROWN,   YELLOW  ; MAGIKARP
-	icon_pals BROWN,   YELLOW  ; GYARADOS
+	icon_pals BROWN,   YELLOW  ; FALWODUR
+	icon_pals BROWN,   YELLOW  ; FALWODRAIG
 	icon_pals PINK,   YELLOW   ; MANDELBLOB
 	icon_pals PINK,   YELLOW   ; HELACTAL
 	icon_pals GRAY,   YELLOW  ; NOOMSDAY

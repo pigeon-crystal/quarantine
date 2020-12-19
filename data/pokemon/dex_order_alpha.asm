@@ -74,7 +74,7 @@ AlphabeticalPokedexOrder:
 	db GRIMPACT
 	db GRUBBOID
 	db GWUBBY
-	db GYARADOS
+	db FALWODRAIG
 	db HABBLE
 	db HAPPIG
 	db HELACTAL
@@ -114,7 +114,7 @@ AlphabeticalPokedexOrder:
 	db UPWHALE
 	db MADRUGASA
 	db GORIATH
-	db MAGIKARP
+	db FALWODUR
 	db BEDLAMAM
 	db MAGNETON
 	db MAJESDOR

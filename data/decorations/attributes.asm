@@ -47,7 +47,7 @@ DecorationAttributes:
 	decoration DECO_DOLL,    YUGGROMI,         SET_UP_DOLL,       EVENT_DECO_POLIWAG_DOLL,            SPRITE_POLIWAG
 	decoration DECO_DOLL,    MUMINI,         SET_UP_DOLL,       EVENT_DECO_DIGLETT_DOLL,            SPRITE_DIGLETT
 	decoration DECO_DOLL,    PEAUTY,          SET_UP_DOLL,       EVENT_DECO_STARMIE_DOLL,            SPRITE_STARMIE
-	decoration DECO_DOLL,    MAGIKARP,        SET_UP_DOLL,       EVENT_DECO_MAGIKARP_DOLL,           SPRITE_MAGIKARP
+	decoration DECO_DOLL,    FALWODUR,        SET_UP_DOLL,       EVENT_DECO_MAGIKARP_DOLL,           SPRITE_MAGIKARP
 	decoration DECO_DOLL,    EUKUB,          SET_UP_DOLL,       EVENT_DECO_ODDISH_DOLL,             SPRITE_EUKUB
 	decoration DECO_DOLL,    PITAYRANT,          SET_UP_DOLL,       EVENT_DECO_GENGAR_DOLL,             SPRITE_PITAYRANT
 	decoration DECO_DOLL,    BAMBABY,        SET_UP_DOLL,       EVENT_DECO_SHELLDER_DOLL,           SPRITE_SHELLDER

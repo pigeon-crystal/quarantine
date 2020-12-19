@@ -82,10 +82,9 @@ RedGyarados:
 	opentext
 	writetext LakeOfRageGyaradosCryText
 	pause 15
-	cry GYARADOS
+	cry BERMUDANT
 	closetext
-	loadwildmon GYARADOS, 30
-	loadvar VAR_BATTLETYPE, BATTLETYPE_SHINY
+	loadwildmon BERMUDANT, 30
 	startbattle
 	ifequal LOSE, .NotBeaten
 	disappear LAKEOFRAGE_GYARADOS

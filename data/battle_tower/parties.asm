@@ -604,7 +604,7 @@ BattleTowerMons2:
 	bigdw 54 ; SDef
 	db "SUTA-MI-@@@"
 
-	db GYARADOS
+	db FALWODRAIG
 	db MIRACLEBERRY
 	db HYPER_BEAM, SONICBOOM, THUNDERBOLT, FIRE_BLAST
 	dw 0 ; OT ID
@@ -2693,7 +2693,7 @@ BattleTowerMons5:
 	bigdw 101 ; SDef
 	db "KIRINRIKI@@"
 
-	db GYARADOS
+	db FALWODRAIG
 	db MIRACLEBERRY
 	db HYPER_BEAM, SURF, RAIN_DANCE, ZAP_CANNON
 	dw 0 ; OT ID
@@ -3557,7 +3557,7 @@ BattleTowerMons7:
 	bigdw 240 ; SDef
 	db "BURAtuKI-@@"
 
-	db GYARADOS
+	db FALWODRAIG
 	db BRIGHTPOWDER
 	db SURF, THUNDERBOLT, HYPER_BEAM, ROAR
 	dw 0 ; OT ID

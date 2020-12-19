@@ -258,10 +258,10 @@ PokemonPicPointers::
 	dba BermudantBackpic
 	dba WallarriorFrontpic
 	dba WallarriorBackpic
-	dba MagikarpFrontpic
-	dba MagikarpBackpic
-	dba GyaradosFrontpic
-	dba GyaradosBackpic
+	dba FalwodurFrontpic
+	dba FalwodurBackpic
+	dba FalwodraigFrontpic
+	dba FalwodraigBackpic
 	dba MandelblobFrontpic
 	dba MandelblobBackpic
 	dba HelactalFrontpic

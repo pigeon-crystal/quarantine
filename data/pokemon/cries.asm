@@ -133,8 +133,8 @@ PokemonCries::
 	mon_cry CRY_VOLTORB,      50,  333 ; GIGERATOR ;orig magmar
 	mon_cry CRY_EKANS,     	   7,  316 ; BERMUDANT
 	mon_cry CRY_SQUIRTLE,     17,  192 ; WALLARRIOR
-	mon_cry CRY_EKANS,       128,  128 ; MAGIKARP
-	mon_cry CRY_EKANS,         0,  256 ; GYARADOS
+	mon_cry CRY_EKANS,       128,  128 ; FALWODUR
+	mon_cry CRY_EKANS,         0,  256 ; FALWODRAIG
 	mon_cry CRY_PIDGEY,      272,  310 ; MANDELBLOB
 	mon_cry CRY_PIDGEY,      172,  310 ; HELACTAL
 	mon_cry CRY_VENONAT,     136,  224 ; NOOMSDAY

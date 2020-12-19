@@ -14,7 +14,7 @@ FishGroups:
 	fishgroup 50 percent + 1, .Chernomusk_Old,          .Chernomusk_Good,          .Chernomusk_Super
 	fishgroup 50 percent + 1, .Pekoi_Swarm_Old,   .Pekoi_Swarm_Good,   .Pekoi_Swarm_Super
 	fishgroup 50 percent + 1, .Stiklbrat_Swarm_Old,   .Stiklbrat_Swarm_Good,   .Stiklbrat_Swarm_Super
-	fishgroup 50 percent + 1, .Gyarados_Old,         .Gyarados_Good,         .Gyarados_Super
+	fishgroup 50 percent + 1, .Falwodraig_Old,         .Falwodraig_Good,         .Falwodraig_Super
 	fishgroup 50 percent + 1, .Chernomusk_2_Old,        .Chernomusk_2_Good,        .Chernomusk_2_Super
 	fishgroup 50 percent + 1, .WhirlIslands_Old,     .WhirlIslands_Good,     .WhirlIslands_Super
 	fishgroup 50 percent + 1, .Pekoi_Old,         .Pekoi_Good,         .Pekoi_Super
@@ -126,16 +126,16 @@ FishGroups:
 	db  90 percent + 1, STIKLBRAT,   40
 	db 100 percent,     STIKLBRAT,   40
 
-.Gyarados_Old:
+.Falwodraig_Old:
 	db  70 percent + 1, LANATUN,   10
 	db  85 percent + 1, LANATUN,   10
 	db 100 percent,     LANATUN,   10
-.Gyarados_Good:
+.Falwodraig_Good:
 	db  35 percent,     LANATUN,   20
 	db  70 percent,     LANATUN,   20
 	db  90 percent + 1, PEPOFFER,   20
 	db 100 percent,     time_group 14
-.Gyarados_Super:
+.Falwodraig_Super:
 	db  40 percent,     LANATUN,   40
 	db  70 percent,     time_group 15
 	db  90 percent + 1, PEPOFFER,   40
@@ -220,8 +220,8 @@ TimeFishGroups:
 	db PEKOI,   40,  PEKOI,   40 				; 11 pekoi swarm super
 	db STIKLBRAT,   20,  STIKLBRAT,   20 		; 12 stiklbrat swarm good
 	db STIKLBRAT,   40,  STIKLBRAT,   40 		; 13 stiklbrat swarm super
-	db PEPOFFER,   20,  PEPOFFER,   20 			; 14 gyarados good
-	db PEPOFFER,   40,  PEPOFFER,   40 			; 15 gyarados super
+	db PEPOFFER,   20,  PEPOFFER,   20 			; 14 falwodraig good
+	db PEPOFFER,   40,  PEPOFFER,   40 			; 15 falwodraig super
 	db HOPLAQUE,    10,  HOPLAQUE,    10 		; 16 chernomusk 2 good
 	db HOPLAQUE,    10,  HOPLAQUE,    10 		; 17 chernomusk 2 super
 	db STRANGLURE,     20,  KRAKENTOA,     20 		; 18 whirl isles good

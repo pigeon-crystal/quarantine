@@ -298,8 +298,8 @@ INCBIN "gfx/footprints/gigerator.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/bermudant.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/wallarrior.1bpp",     footprint_bottom
 ; 129-136 top halves
-INCBIN "gfx/footprints/magikarp.1bpp",   footprint_top
-INCBIN "gfx/footprints/gyarados.1bpp",   footprint_top
+INCBIN "gfx/footprints/falwodur.1bpp",   footprint_top
+INCBIN "gfx/footprints/falwodraig.1bpp",   footprint_top
 INCBIN "gfx/footprints/mandelblob.1bpp",     footprint_top
 INCBIN "gfx/footprints/helactal.1bpp",      footprint_top
 INCBIN "gfx/footprints/noomsday.1bpp",      footprint_top
@@ -307,8 +307,8 @@ INCBIN "gfx/footprints/ganzorah.1bpp",   footprint_top
 INCBIN "gfx/footprints/jolteon.1bpp",    footprint_top
 INCBIN "gfx/footprints/flareon.1bpp",    footprint_top
 ; 129-136 bottom halves
-INCBIN "gfx/footprints/magikarp.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/gyarados.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/falwodur.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/falwodraig.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/mandelblob.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/helactal.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/noomsday.1bpp",      footprint_bottom

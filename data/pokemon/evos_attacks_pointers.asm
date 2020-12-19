@@ -129,8 +129,8 @@ EvosAttacksPointers::
 	dw GigeratorEvosAttacks
 	dw BermudantEvosAttacks
 	dw WallarriorEvosAttacks
-	dw MagikarpEvosAttacks
-	dw GyaradosEvosAttacks
+	dw FalwodurEvosAttacks
+	dw FalwodraigEvosAttacks
 	dw MandelblobEvosAttacks
 	dw HelactalEvosAttacks
 	dw NoomsdayEvosAttacks
