@@ -28,7 +28,7 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; QWALLOP
 	icon_pals RED,   BLUE      ; WYRMOMETER
 	icon_pals RED,   BLUE      ; IGNAGA
-	icon_pals BROWN,   YELLOW  ; PIKACHU
+	icon_pals BROWN,   YELLOW  ; BUDGANEER
 	icon_pals BROWN,   YELLOW  ; RAICHU
 	icon_pals YELLOW,   PINK  ; SANDOLPH
 	icon_pals YELLOW,  PINK   ; DUNEFIN

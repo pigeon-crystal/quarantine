@@ -50,8 +50,8 @@ PokemonPicPointers::
 	dba WyrmometerBackpic
 	dba IgnagaFrontpic
 	dba IgnagaBackpic
-	dba PikachuFrontpic
-	dba PikachuBackpic
+	dba BudganeerFrontpic
+	dba BudganeerBackpic
 	dba RaichuFrontpic
 	dba RaichuBackpic
 	dba SandolphFrontpic

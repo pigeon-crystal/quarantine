@@ -161,7 +161,7 @@ AlphabeticalPokedexOrder:
 	db PEPOFFER
 	db PHANGUARD
 	db WANDELUS
-	db PIKACHU
+	db BUDGANEER
 	db PILFOARD
 	db SHREDDRAKE
 	db BERMUDANT

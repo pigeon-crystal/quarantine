@@ -24,7 +24,7 @@ PokedexDataPointerTable:
 	dw QwallopPokedexEntry
 	dw WyrmometerPokedexEntry	;wyrmometer
 	dw IgnagaPokedexEntry
-	dw PikachuPokedexEntry
+	dw BudganeerPokedexEntry
 	dw RaichuPokedexEntry
 	dw SandolphPokedexEntry
 	dw DunefinPokedexEntry

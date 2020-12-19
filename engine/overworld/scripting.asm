@@ -1288,7 +1288,7 @@ EarthquakeMovement:
 Script_loadpikachudata:
 ; script command 0x5a
 
-	ld a, PIKACHU
+	ld a, BUNDEGRAF
 	ld [wTempWildMonSpecies], a
 	ld a, 5
 	ld [wCurPartyLevel], a

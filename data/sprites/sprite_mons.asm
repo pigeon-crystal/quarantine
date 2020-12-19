@@ -14,7 +14,7 @@ SpriteMons:
 	db VAZZINATE
 	db MUMINI
 	db CREMIGO
-	db PIKACHU
+	db BUDGANEER
 	db NYALLEY
 	db CHARMANDER
 	db CLIBBLE

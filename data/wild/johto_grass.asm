@@ -1631,7 +1631,7 @@ JohtoGrassWildMons:
 	db 22, LAMSEED
 	db 19, LAMSEED
 	db 19, MAULZER
-	db 19, PIKACHU		; placeholder for parrot
+	db 19, BUDGANEER		; placeholder for parrot
 	db 19, ONIONI
 	db 19, MURDERMIS
 	db 25, MURDERMIS
@@ -1640,7 +1640,7 @@ JohtoGrassWildMons:
 	db 22, LAMSEED
 	db 19, LAMSEED
 	db 19, MAULZER
-	db 19, PIKACHU		; placeholder for parrot
+	db 19, BUDGANEER		; placeholder for parrot
 	db 19, ONIONI
 	db 19, MURDERMIS
 	db 25, MURDERMIS
@@ -1649,7 +1649,7 @@ JohtoGrassWildMons:
 	db 22, LAMSEED
 	db 19, LAMSEED
 	db 19, MAULZER
-	db 19, PIKACHU		; placeholder for parrot
+	db 19, BUDGANEER		; placeholder for parrot
 	db 19, MURDERMIS
 	db 19, ONIONI
 	db 25, MURDERMIS
@@ -1657,27 +1657,27 @@ JohtoGrassWildMons:
 	map_id ROUTE_41 
 	db 10 percent, 10 percent, 10 percent 
 	; morn
-	db 30, PIKACHU ; sub for parrot
+	db 30, BUDGANEER ; sub for parrot
  	db 30, NIMBOREM ; 
-	db 30, PIKACHU ; sub for parrot
+	db 30, BUDGANEER ; sub for parrot
 	db 30, NIMBOREM ; 
 	db 30, NIMBOREM 
 	db 30, NUCKAWHEEZ 
 	db 30, NUCKAWHEEZ
 	db 30, NIMBOREM
  ; day
-	db 30, PIKACHU ; sub for parrot
+	db 30, BUDGANEER ; sub for parrot
  	db 30, NIMBOREM ; 
-	db 30, PIKACHU ; sub for parrot
+	db 30, BUDGANEER ; sub for parrot
 	db 30, NIMBOREM ; 
 	db 30, NUCKAWHEEZ 
 	db 30, NUCKAWHEEZ 
 	db 30, NUCKAWHEEZ
 	db 30, NIMBOREM
  ; nite
-	db 30, PIKACHU ; sub for parrot
+	db 30, BUDGANEER ; sub for parrot
  	db 30, NIMBOREM ; 
-	db 30, PIKACHU ; sub for parrot
+	db 30, BUDGANEER ; sub for parrot
 	db 30, NIMBOREM ; 
 	db 30, NUCKAWHEEZ 
 	db 30, NUCKAWHEEZ 

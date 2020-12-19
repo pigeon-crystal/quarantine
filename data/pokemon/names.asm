@@ -23,7 +23,7 @@ PokemonNames::
 	db "QWALLOP@@@"
 	db "WYRMOMETER"
 	db "IGNAGA@@@@"
-	db "PIKACHU@@@"
+	db "BUDGANEER@"
 	db "RAICHU@@@@"
 	db "SANDOLPH@@"
 	db "DUNEFIN@@@"

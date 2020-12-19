@@ -23,7 +23,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw WyrmometerEggMoves
 	dw NoEggMoves
-	dw PikachuEggMoves ; pirate parrot
+	dw BudganeerEggMoves ; pirate parrot
 	dw NoEggMoves
 	dw SandolphEggMoves
 	dw NoEggMoves

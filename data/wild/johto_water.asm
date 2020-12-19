@@ -125,7 +125,7 @@ JohtoWaterWildMons:
 	map_id OLIVINE_PORT ;done
 	db 2 percent ; encounter rate
 	db 20, PRAWMATE
-	db 15, PIKACHU 		;parrot standin
+	db 15, BUDGANEER 		;parrot standin
 	db 20, SLISCES	; barberfish standin
 	db 25, UPWHALE
 
@@ -174,7 +174,7 @@ JohtoWaterWildMons:
 	map_id ROUTE_41 ;done
 	db 6 percent ; encounter rate
 	db 20, PRAWMATE
-	db 20, PIKACHU ; parrot standin
+	db 20, BUDGANEER ; parrot standin
 	db 20, SQWUCKY
 	db 25, UPWHALE
 
@@ -230,14 +230,14 @@ JohtoWaterWildMons:
 	map_id CIANWOOD_CITY ;done
 	db 6 percent ; encounter rate
 	db 20, PRAWMATE
-	db 15, PIKACHU 		;parrot standin
+	db 15, BUDGANEER 		;parrot standin
 	db 20, SLISCES	; barberfish standin
 	db 25, UPWHALE
 
 	map_id OLIVINE_CITY ;done
 	db 6 percent ; encounter rate
 	db 20, PRAWMATE
-	db 15, PIKACHU 		;parrot standin
+	db 15, BUDGANEER 		;parrot standin
 	db 20, SLISCES	; barberfish standin
 	db 25, UPWHALE
 

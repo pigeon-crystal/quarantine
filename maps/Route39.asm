@@ -1,4 +1,4 @@
-	object_const_def ; object_event constants
+	object_const_def ; object_event constants TODO: Pikachu text
 	const ROUTE39_SAILOR
 	const ROUTE39_POKEFAN_M
 	const ROUTE39_POKEFAN_F1
@@ -34,8 +34,8 @@ TrainerPokefanmDerek:
 	iftrue .HasNugget
 	checkcellnum PHONE_POKEFANM_DEREK
 	iftrue .NumberAccepted
-	checkpoke PIKACHU
-	iffalse .WantsPikachu
+	checkpoke BUDGANEER
+	iffalse .WantsBudganeer
 	checkevent EVENT_DEREK_ASKED_FOR_PHONE_NUMBER
 	iftrue .AskedAlready
 	writetext PokefanMDerekText_NotBragging
@@ -64,8 +64,8 @@ TrainerPokefanmDerek:
 .NoRoom:
 	sjump .PackFull
 
-.WantsPikachu:
-	writetext PokefanMDerekPikachuIsItText
+.WantsBudganeer:
+	writetext PokefanMDerekBudganeerIsItText
 	waitbutton
 	closetext
 	end
@@ -250,8 +250,8 @@ PokefanfRuthAfterBattleText:
 	line "adorable!"
 	done
 
-PokefanMDerekPikachuIsItText:
-	text "PIKACHU is it!"
+PokefanMDerekBudganeerIsItText:
+	text "BUDGANEER is it!"
 	line "Don't you agree?"
 	done
 

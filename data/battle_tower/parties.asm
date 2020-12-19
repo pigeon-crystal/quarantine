@@ -838,7 +838,7 @@ BattleTowerMons2:
 	bigdw 54 ; SDef
 	db "RAPURASU@@@"
 
-	db PIKACHU
+	db BUDGANEER
 	db LIGHT_BALL
 	db THUNDERBOLT, THUNDER_WAVE, STRENGTH, TOXIC
 	dw 0 ; OT ID

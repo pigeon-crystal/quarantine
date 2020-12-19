@@ -43,7 +43,7 @@
 	const QWALLOP    ; 16
 	const WYRMOMETER ; 17 
 	const IGNAGA     ; 18
-	const PIKACHU    ; 19 pirate parrot
+	const BUDGANEER    ; 19 pirate parrot
 	const RAICHU     ; 1a pirate parrot
 	const SANDOLPH   ; 1b
 	const DUNEFIN    ; 1c
@@ -98,8 +98,8 @@
 	const MOPERDOR   ; 4d
 	const MAJESDOR   ; 4e
 	const MISSTERIA  ; 4f 
-	const DISMAIDEN    ; 50 
-	const BEDLAMAM  	; 51 
+	const DISMAIDEN  ; 50 
+	const BEDLAMAM   ; 51 
 	const MAGNETON   ; 52 antelope
 	const FARFETCH_D ; 53 fire antelope
 	const DODUO      ; 54 elec antelope
@@ -146,12 +146,12 @@
 	const GIGUARD    ; 7d
 	const GIGERATOR  ; 7e
 	const BERMUDANT  ; 7f
-	const WALLARRIOR ; 80 Wallarior
-	const FALWODUR   ; 81 Snail 1
-	const FALWODRAIG   ; 82 Snail 2
+	const WALLARRIOR ; 80 
+	const FALWODUR   ; 81 
+	const FALWODRAIG ; 82 
 	const MANDELBLOB ; 83
 	const HELACTAL   ; 84
-	const NOOMSDAY   ; 85 Noomsday
+	const NOOMSDAY   ; 85 
 	const GANZORAH   ; 86 
 	const JOLTEON    ; 87 Mist Moomin
 	const FLAREON    ; 88 Mist Rando
@@ -166,7 +166,7 @@
 	const ZAPDOS     ; 91 horn trio
 	const BLAZENBULL ; 92
 	const CHERNOMUSK ; 93
-	const CHELYNOBLE ; 94 nuke turtle
+	const CHELYNOBLE ; 94 
 	const SEABEHEM   ; 95 
 	const MA_0     	 ; 96
 	const MEW        ; 97 dress waifu
@@ -188,7 +188,7 @@ JOHTO_POKEMON EQU const_value
 	const WORMACHO   ; a6
 	const GWUBBY     ; a7
 	const GRUBBOID   ; a8
-	const CRUSTAZER  ; a9 crab?
+	const CRUSTAZER  ; a9 
 	const STRANGLURE ; aa
 	const SHAMSEL    ; ab
 	const WANDELUS   ; ac
@@ -232,7 +232,7 @@ JOHTO_POKEMON EQU const_value
 	const GRIMPACT   ; d2
 	const PEKOI      ; d3
 	const YAGAGARASU ; d4
-	const UMBERJERK    ; d5 murderer1
+	const UMBERJERK  ; d5 
 	const HERACROSS  ; d6 murderer2
 	const SNEASEL    ; d7 murderer3
 	const SMUCIOUS   ; d8
@@ -253,9 +253,9 @@ JOHTO_POKEMON EQU const_value
 	const OBELITH    ; e7
 	const MONEUMENN  ; e8
 	const POLYRO     ; e9
-	const SLOWHOG  ; ea
+	const SLOWHOG  	 ; ea
 	const EYECHOSIS  ; eb
-	const FUEGHAST    ; ec direwolf
+	const FUEGHAST   ; ec 
 	const HITMONTOP  ; ed cat
 	const AMBIONIC   ; ee 
 	const ELEKID     ; ef cured buzzling

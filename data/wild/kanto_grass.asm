@@ -220,18 +220,18 @@ KantoGrassWildMons:
 	db 5, FURNIT
 	db 7, VAZZINATE
 	db 7, WORMACHO
-	db 4, PIKACHU
-	db 4, PIKACHU
-	db 10, PIKACHU
+	db 4, BUDGANEER
+	db 4, BUDGANEER
+	db 10, BUDGANEER
 	; day
 	db 3, BUZZLING
 	db 3, FURNIT
 	db 5, FURNIT
 	db 7, VAZZINATE
 	db 7, FURDOBA
-	db 4, PIKACHU
-	db 4, PIKACHU
-	db 10, PIKACHU
+	db 4, BUDGANEER
+	db 4, BUDGANEER
+	db 10, BUDGANEER
 	; nite
 	db 3, NUCKAWHEEZ
 	db 3, GWUBBY

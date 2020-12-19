@@ -25,7 +25,7 @@ EvosAttacksPointers::
 	dw QwallopEvosAttacks
 	dw WyrmometerEvosAttacks		;ekans
 	dw IgnagaEvosAttacks
-	dw PikachuEvosAttacks
+	dw BudganeerEvosAttacks
 	dw RaichuEvosAttacks
 	dw SandolphEvosAttacks
 	dw DunefinEvosAttacks

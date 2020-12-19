@@ -29,7 +29,7 @@ PokemonCries::
 	mon_cry $3B,      		$0f4b, $01b0 ; QWALLOP
 	mon_cry CRY_EKANS,       130,  276 ; WYRMOMETER
 	mon_cry CRY_EKANS,       436,  255 ; IGNAGA
-	mon_cry CRY_BULBASAUR,   238,  129 ; PIKACHU
+	mon_cry CRY_BULBASAUR,   238,  129 ; BUDGANEER
 	mon_cry CRY_RAICHU,      238,  136 ; RAICHU
 	mon_cry CRY_NIDORAN_M,    32,  192 ; SANDOLPH
 	mon_cry CRY_NIDORAN_M,   255,  383 ; DUNEFIN

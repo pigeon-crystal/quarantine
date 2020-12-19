@@ -66,7 +66,7 @@ WyrmometerEggMoves:
 	db BEAT_UP
 	db -1 ; end
 
-PikachuEggMoves:
+BudganeerEggMoves:
 	db TWISTER
 	db FLAIL
 	db -1 ; end
