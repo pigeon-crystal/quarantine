@@ -243,12 +243,11 @@ LakeOfRageLanceTeleportIntoSkyMovement:
 
 LakeOfRageLanceForcedToEvolveText:
 	text "This lake is full"
-	line "of GYARADOS but"
-	cont "nothing else…"
+	line "of noxious waste…"
 
-	para "So the MAGIKARP"
-	line "are being forced"
-	cont "to evolve…"
+	para "There's a BERMUDANT"
+	line "here, but did it"
+	cont "cause all this?"
 	done
 
 LakeOfRageLanceIntroText:
@@ -283,16 +282,28 @@ LakeOfRageLanceRadioSignalText:
 	text "LANCE: Excellent!"
 
 	para "It seems that the"
-	line "LAKE's MAGIKARP"
+	line "LAKE's getting"
 
-	para "are being forced"
-	line "to evolve."
+	para "toxic waste"
+	line "dumped into it."
+	
+	para "I thought that"
+	line "BERMUDANT was the"
+	cont "cause, but it was"
+	cont "a symptom."
 
-	para "A mysterious radio"
-	line "broadcast coming"
+	para "The waste was coming"
+	line "from a pipeline"
+	
+	para "leading to MAHOGANY."
+	
+	para "What's worse is"
+	line "that I think the"
+	cont "BERMUDANT was"
+	cont "being controlled."
 
-	para "from MAHOGANY is"
-	line "the cause."
+	para "Let's meet in"
+	line "MAHOGANY."
 
 	para "I'll be waiting"
 	line "for you, <PLAY_G>."
@@ -310,48 +321,40 @@ LakeOfRageLanceAskHelpText:
 	done
 
 LakeOfRageGyaradosCryText:
-	text "GYARADOS: Gyashaa!"
+	text "BERMUDANT: Grayaa!"
 	done
 
 LakeOfRageGotRedScaleText:
-	text "<PLAYER> obtained a"
-	line "RED SCALE."
+	text "<PLAYER> obtained "
+	line "NASTY SLUDGE."
 	done
 
 LakeOfRageGrampsText:
-	text "The GYARADOS are"
-	line "angry!"
+	text "That BERMUDANT!"
 
-	para "It's a bad omen!"
+	para "It's going crazy!"
 	done
 
 LakeOfRageGrampsText_ClearedRocketHideout:
-	text "Hahah! The MAGI-"
-	line "KARP are biting!"
+	text "Hahah! The water"
+	line "is so clear!"
 	done
 
 LakeOfRageSuperNerdText:
 	text "I heard this lake"
 	line "was made by ram-"
-	cont "paging GYARADOS."
+	cont "paging #MON."
 
-	para "I wonder if there"
-	line "is any connection"
-
-	para "to their mass out-"
-	line "break now?"
+	para "#MON are truly"
+	line "amazing!"
 	done
 
 LakeOfRageCooltrainerFText:
 	text "Did my eyes de-"
 	line "ceive me? I saw a"
 
-	para "red GYARADOS in"
+	para "BERMUDANT in"
 	line "the LAKE…"
-
-	para "But I thought"
-	line "GYARADOS were"
-	cont "usually blue?"
 	done
 
 FisherAndreSeenText:
@@ -418,7 +421,7 @@ CooltrainermAaronAfterBattleText:
 
 CooltrainerfLoisSeenText:
 	text "What happened to"
-	line "the red GYARADOS?"
+	line "the BERMUDANT?"
 
 	para "It's gone?"
 
@@ -434,9 +437,15 @@ CooltrainerfLoisBeatenText:
 	done
 
 CooltrainerfLoisAfterBattleText:
-	text "Come to think of"
-	line "it, I've seen a"
-	cont "pink BUTTERFREE."
+	text "Sailors consider"
+	line "BERMUDANT the"
+	
+	para "ultimate bad luck"
+	line "omen."
+	
+	para "It must be a"
+	line "incredible #-"
+	cont "MON."
 	done
 
 MeetWesleyText:
@@ -481,8 +490,6 @@ WesleyNotWednesdayText:
 
 LakeOfRageSignText:
 	text "LAKE OF RAGE,"
-	line "also known as"
-	cont "GYARADOS LAKE."
 	done
 
 FishingGurusHouseSignText:

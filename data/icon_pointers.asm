@@ -205,4 +205,6 @@ IconPointers:
 	dw YagagarasuIcon
 	dw SqwuckyIcon
 	dw SqueenieIcon
+	dw BudganeerIcon
+	dw DonukameIcon
 	

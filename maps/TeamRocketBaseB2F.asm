@@ -623,16 +623,20 @@ RocketBaseBossRetreatText:
 	line "done for…"
 
 	para "But that's fine."
-	line "The broadcast ex-"
-	cont "periment was a"
+	line "The experiment"
+	cont "was a complete and"
 	cont "total success."
 
-	para "It doesn't matter"
-	line "what happens to"
-	cont "this hideout now."
+	para "We could control"
+	line "BERMUDANT with our"
+	cont "signal, and"
+	
+	para "we snagged us an"
+	line "even bigger prize,"
+	cont "too."
 
-	para "We have much big-"
-	line "ger plans."
+	para "Soon JOHTO will be"
+	line "our!"
 
 	para "You'll come to"
 	line "appreciate TEAM"
@@ -671,7 +675,7 @@ RocketBaseLancePowerOffText:
 	line "left to do is to"
 
 	para "turn off that odd"
-	line "radio signal."
+	line "machine."
 	done
 
 RockerBaseLanceElectrodeFaintText:
@@ -691,8 +695,8 @@ RockerBaseLanceElectrodeFaintText:
 	para "That should stop"
 	line "this machine from"
 
-	para "transmitting that"
-	line "strange signal."
+	para "excreting any more"
+	line "waste."
 
 	para "It's no fault of"
 	line "the #MON, so it"
@@ -710,9 +714,9 @@ RocketBaseLancesSideText:
 	done
 
 RocketBaseLanceElectrodeDoneText:
-	text "LANCE: That odd"
-	line "signal has finally"
-	cont "stopped."
+	text "LANCE: The"
+	line "pollution has "
+	cont "finally stopped."
 
 	para "The LAKE should be"
 	line "back to normal."
@@ -751,7 +755,7 @@ RocketBaseLanceWhirlpoolText:
 	line "out of battle only"
 
 	para "with the BADGE"
-	line "from MAHOGANY GYM."
+	line "from OLIVINE GYM."
 	done
 
 RocketBaseLanceMonMasterText:
@@ -889,11 +893,14 @@ RocketBaseDoorKnowPasswordText:
 	done
 
 RocketBaseB2FTransmitterText:
-	text "It's the radio"
-	line "transmitter that's"
+	text "It's the device"
+	line "that's both"
 
 	para "sending the"
-	line "sinister signal."
+	line "sinister signal"
+	
+	para "and sending out"
+	line "toxic waste."
 
 	para "It's working at"
 	line "full capacity."
@@ -957,7 +964,7 @@ TeamRocketBaseB2F_MapEvents:
 	object_event 20, 16, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TEAM_ROCKET_BASE_B2F_GRUNT_WITH_EXECUTIVE
 	object_event 20, 16, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TEAM_ROCKET_BASE_B2F_EXECUTIVE
 	object_event  5, 13, SPRITE_LANCE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TEAM_ROCKET_BASE_B2F_LANCE
-	object_event  9, 13, SPRITE_DRAGON, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TEAM_ROCKET_BASE_B2F_DRAGONITE
+	object_event  9, 13, SPRITE_BRIGADOOM, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TEAM_ROCKET_BASE_B2F_DRAGONITE
 	object_event  7,  5, SPRITE_CRUSTAZER, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, RocketElectrode1, EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_1
 	object_event  7,  7, SPRITE_CRUSTAZER, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, RocketElectrode2, EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_2
 	object_event  7,  9, SPRITE_CRUSTAZER, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, RocketElectrode3, EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_3

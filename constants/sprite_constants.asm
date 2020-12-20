@@ -137,6 +137,7 @@
 	const SPRITE_GORIATH_CHUNK_3
 	const SPRITE_GORIATH_CHUNK_4
 	const SPRITE_BREEDER_F
+	const SPRITE_BRIGADOOM
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm) TODO cleanup Spritemons
 ;	const_def $a0
@@ -175,7 +176,7 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_SNORLAX ; 9f
 	const SPRITE_GYARADOS ; a0
 	const SPRITE_AVATRICE ; a1
-	const SPRITE_HO_OH ; a2
+	const SPRITE_DONUKAME ; a2
 	const SPRITE_GANZERKER ; a3
 	const SPRITE_CUTTLE ; a4
 	const SPRITE_TIDO   ; a5
@@ -198,6 +199,7 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_FURNIT
 	const SPRITE_EYECHOSIS
 	const SPRITE_ANDROMEGA
+	const SPRITE_BUDGANEER
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)
 	const_def $ee

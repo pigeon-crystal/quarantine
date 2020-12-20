@@ -57,4 +57,5 @@ SpriteMons:
 	db FURNIT
 	db EYECHOSIS
 	db ANDROMEGA
+	db BUDGANEER
 	

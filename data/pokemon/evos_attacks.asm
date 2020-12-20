@@ -3113,6 +3113,7 @@ BrigadoomEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, NIGHT_SHADE
 	db 1, SPITE
+	db 1, BODY_SLAM
 	db 6, SAND_ATTACK
 	db 10, FURY_CUTTER
 	db 13, DESTINY_BOND
