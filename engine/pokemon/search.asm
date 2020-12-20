@@ -8,7 +8,7 @@ BeastsCheck:
 	call CheckOwnMonAnywhere
 	jr nc, .notexist
 
-	ld a, ZAPDOS
+	ld a, NIKUJIRA
 	ld [wScriptVar], a
 	call CheckOwnMonAnywhere
 	jr nc, .notexist

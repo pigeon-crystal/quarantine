@@ -163,7 +163,7 @@
 	const WELLWITCH  ; 8e 
 	const THERAZOR   ; 8f 
 	const ARTICUNO   ; 90 horn trio
-	const ZAPDOS     ; 91 horn trio
+	const NIKUJIRA     ; 91 horn trio
 	const BLAZENBULL ; 92
 	const CHERNOMUSK ; 93
 	const CHELYNOBLE ; 94 

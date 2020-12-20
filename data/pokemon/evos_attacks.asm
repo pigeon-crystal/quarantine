@@ -2327,7 +2327,7 @@ ArticunoEvosAttacks:
 	db 1, GUST
 	db 0 ; no more level-up moves
 
-ZapdosEvosAttacks:
+NikujiraEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 0 ; no more level-up moves

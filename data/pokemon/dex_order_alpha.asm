@@ -251,6 +251,6 @@ AlphabeticalPokedexOrder:
 	db YUEFOE
 	db YUESBI
 	db YUGGROMI
-	db ZAPDOS
+	db NIKUJIRA
 	db ZASTER
 	db ZEPPLIUM

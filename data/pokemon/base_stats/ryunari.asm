@@ -1,11 +1,11 @@
 	db RYUNARI ; 065
 
-	db  100, 56,  97, 120, 115,  97
+	db  101, 55,  97, 120, 115,  97
 	;   hp  atk  def  spd  sat  sdf
 
 	db DRAGON, PSYCHIC_TYPE ; type
 	db 10 ; catch rate
-	db 255 ; base exp
+	db 235 ; base exp
 	db SACRED_ASH, SACRED_ASH ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

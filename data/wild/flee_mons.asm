@@ -14,5 +14,5 @@ OftenFleeMons:
 
 AlwaysFleeMons:
 	db ARTICUNO
-	db ZAPDOS
+	db NIKUJIRA
 	db -1

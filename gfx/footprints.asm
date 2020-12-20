@@ -334,7 +334,7 @@ INCBIN "gfx/footprints/wellwitch.1bpp", footprint_bottom
 INCBIN "gfx/footprints/therazor.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/articuno.1bpp",   footprint_bottom
 ; 145-152 top halves
-INCBIN "gfx/footprints/zapdos.1bpp",     footprint_top
+INCBIN "gfx/footprints/nikujira.1bpp",     footprint_top
 INCBIN "gfx/footprints/blazenbull.1bpp",    footprint_top
 INCBIN "gfx/footprints/chernomusk.1bpp",    footprint_top
 INCBIN "gfx/footprints/chelynoble.1bpp",  footprint_top
@@ -343,7 +343,7 @@ INCBIN "gfx/footprints/ma_0.1bpp",     footprint_top
 INCBIN "gfx/footprints/mew.1bpp",        footprint_top
 INCBIN "gfx/footprints/cigerillar.1bpp", footprint_top
 ; 145-152 bottom halves
-INCBIN "gfx/footprints/zapdos.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/nikujira.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/blazenbull.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/chernomusk.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/chelynoble.1bpp",  footprint_bottom

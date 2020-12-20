@@ -73,7 +73,7 @@ Pokered_MonIndices:
 	db CLIBBLE
 	db BLAZENBULL
 	db ARTICUNO
-	db ZAPDOS
+	db NIKUJIRA
 	db HELACTAL
 	db TODESCOOL
 	db LANATUN

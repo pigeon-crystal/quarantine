@@ -290,8 +290,8 @@ PokemonPicPointers::
 	dba TherazorBackpic
 	dba ArticunoFrontpic
 	dba ArticunoBackpic
-	dba ZapdosFrontpic
-	dba ZapdosBackpic
+	dba NikujiraFrontpic
+	dba NikujiraBackpic
 	dba BlazenbullFrontpic
 	dba BlazenbullBackpic
 	dba ChernomuskFrontpic

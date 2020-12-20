@@ -207,4 +207,5 @@ IconPointers:
 	dw SqueenieIcon
 	dw BudganeerIcon
 	dw DonukameIcon
+	dw KordienaIcon
 	

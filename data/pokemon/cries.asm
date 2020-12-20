@@ -149,7 +149,7 @@ PokemonCries::
 	mon_cry CRY_VILEPLUME,    32,  368 ; WELLWITCH
 	mon_cry CRY_GRIMER,       85,  129 ; THERAZOR
 	mon_cry CRY_RAICHU,      128,  192 ; ARTICUNO
-	mon_cry CRY_FEAROW,      255,  256 ; ZAPDOS
+	mon_cry CRY_FEAROW,      255,  256 ; NIKUJIRA
 	mon_cry CRY_RAICHU,      248,  192 ; BLAZENBULL
 	mon_cry CRY_BULBASAUR,    96,  192 ; CHERNOMUSK
 	mon_cry CRY_BULBASAUR,    64,  256 ; CHELYNOBLE

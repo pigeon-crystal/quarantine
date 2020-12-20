@@ -44,7 +44,7 @@ ReleaseTheBeasts:
 	pause 5
 	disappear BURNEDTOWERB1F_ENTEI2
 	pause 15
-	cry ZAPDOS
+	cry NIKUJIRA
 	appear BURNEDTOWERB1F_SUICUNE1
 	turnobject PLAYER, UP
 	pause 5

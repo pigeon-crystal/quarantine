@@ -495,7 +495,7 @@ InitRoamMons:
 ; species
 	ld a, ARTICUNO
 	ld [wRoamMon1Species], a
-	ld a, ZAPDOS
+	ld a, NIKUJIRA
 	ld [wRoamMon2Species], a
 
 ; level

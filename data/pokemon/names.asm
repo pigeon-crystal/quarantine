@@ -143,7 +143,7 @@ PokemonNames::
 	db "WELLWITCH@"
 	db "THERAZOR@@"
 	db "ARTICUNO@@"
-	db "ZAPDOS@@@@"
+	db "NIKUJIRA@@"
 	db "BLAZENBULL"
 	db "CHERNOMUSK"
 	db "CHELYNOBLE"

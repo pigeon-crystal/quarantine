@@ -144,7 +144,7 @@ PokedexDataPointerTable:
 	dw WellwitchPokedexEntry
 	dw TherazorPokedexEntry
 	dw ArticunoPokedexEntry
-	dw ZapdosPokedexEntry
+	dw NikujiraPokedexEntry
 	dw BlazenbullPokedexEntry
 	dw ChernomuskPokedexEntry
 	dw ChelynoblePokedexEntry

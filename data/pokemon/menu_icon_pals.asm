@@ -4,13 +4,13 @@ ENDM
 ; Colors are RED, BLUE, GREEN, BROWN, PINK, GRAY, YELLOW, PURPLE
 MonMenuIconPals:
 	;         normal, shiny  , species
-	icon_pals BLUE,   GREEN  ; KORDIENA
-	icon_pals GREEN,   GREEN  ; SORDRAENA
-	icon_pals RED,   GREEN  ; TYRDRAGA
-	icon_pals PINK,    BROWN    ; AERFAEDRA
-	icon_pals BROWN,    BROWN    ; KITSYNA
-	icon_pals YELLOW,    PURPLE   ; CERKITAYSA
-	icon_pals PURPLE,   YELLOW   ; GIGASYNAPA
+	icon_pals BLUE,   RED  ; KORDIENA
+	icon_pals GREEN,   RED  ; SORDRAENA
+	icon_pals RED,   YELLOW  ; TYRDRAGA
+	icon_pals PINK,    GREEN    ; AERFAEDRA
+	icon_pals BROWN,    BLUE    ; KITSYNA
+	icon_pals YELLOW,    BLUE   ; CERKITAYSA
+	icon_pals PURPLE,   PURPLE   ; GIGASYNAPA
 	icon_pals BLUE,   YELLOW   ; WARTORTLE
 	icon_pals BLUE,   YELLOW   ; BLASTOISE
 	icon_pals GREEN,   YELLOW  ; BUZZLING
@@ -148,7 +148,7 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; WELLWITCH
 	icon_pals GRAY,   YELLOW  ; THERAZOR
 	icon_pals BROWN,   YELLOW  ; ARTICUNO
-	icon_pals BROWN,   YELLOW  ; ZAPDOS
+	icon_pals BROWN,   YELLOW  ; NIKUJIRA
 	icon_pals GRAY,   PURPLE  ; BLAZENBULL
 	icon_pals BROWN,   YELLOW  ; CHERNOMUSK
 	icon_pals BROWN,   YELLOW  ; CHELYNOBLE

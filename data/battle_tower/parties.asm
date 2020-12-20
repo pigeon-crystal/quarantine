@@ -2563,7 +2563,7 @@ BattleTowerMons5:
 	bigdw 127 ; SDef
 	db "KUROBAtuTO@"
 
-	db ZAPDOS
+	db NIKUJIRA
 	db MIRACLEBERRY
 	db DRILL_PECK, THUNDERBOLT, THUNDER_WAVE, HYPER_BEAM
 	dw 0 ; OT ID
@@ -2878,7 +2878,7 @@ BattleTowerMons6:
 	bigdw 158 ; SDef
 	db "KAIRIKI-@@@"
 
-	db ZAPDOS
+	db NIKUJIRA
 	db MINT_BERRY
 	db REST, DRILL_PECK, THUNDERBOLT, THUNDER_WAVE
 	dw 0 ; OT ID
@@ -3479,7 +3479,7 @@ BattleTowerMons7:
 	bigdw 203 ; SDef
 	db "BANGIRASU@@"
 
-	db ZAPDOS
+	db NIKUJIRA
 	db GOLD_BERRY
 	db THUNDERBOLT, DRILL_PECK, THUNDER_WAVE, HYPER_BEAM
 	dw 0 ; OT ID

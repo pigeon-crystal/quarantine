@@ -145,7 +145,7 @@ EvosAttacksPointers::
 	dw WellwitchEvosAttacks
 	dw TherazorEvosAttacks
 	dw ArticunoEvosAttacks
-	dw ZapdosEvosAttacks
+	dw NikujiraEvosAttacks
 	dw BlazenbullEvosAttacks
 	dw ChernomuskEvosAttacks
 	dw ChelynobleEvosAttacks

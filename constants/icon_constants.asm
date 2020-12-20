@@ -207,6 +207,7 @@
 	const ICON_SQUEENIE
 	const ICON_BUDGANEER
 	const ICON_DONUKAME
+	const ICON_KORDIENA
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

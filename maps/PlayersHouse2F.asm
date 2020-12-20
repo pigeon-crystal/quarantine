@@ -71,7 +71,7 @@ PlayersHouseRadioScript:
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
-	warp CIANWOOD_CITY, 13, 48
+	warp ROUTE_45_PASSAGE, 55, 12
 	end
 	
 ;PlayersHouseRadioScript:
