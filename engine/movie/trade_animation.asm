@@ -1437,8 +1437,8 @@ debugtrade: MACRO
 ENDM
 
 .DebugTradeData:
-	debugtrade VENUSAUR, "ゲーフり@@", $0123 ; GAME FREAK
-	debugtrade CHARIZARD, "クりーチャ@", $0456 ; Creatures Inc.
+	debugtrade MISSINGNO, "ゲーフり@@", $0123 ; GAME FREAK
+	debugtrade TENTAQUIL, "クりーチャ@", $0456 ; Creatures Inc.
 
 TradeGameBoyTilemap:
 ; 6x8

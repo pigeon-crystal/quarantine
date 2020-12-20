@@ -19,41 +19,41 @@ INCLUDE "engine/pokemon/evolve.asm"
 INCLUDE "data/pokemon/evolution_moves.asm"
 INCLUDE "data/pokemon/evos_attacks_pointers.asm"
 
-BulbasaurEvosAttacks:
-	db EVOLVE_LEVEL, 16, IVYSAUR
+KordienaEvosAttacks:
+	db EVOLVE_LEVEL, 16, SORDRAENA
 	db 0 ; no more evolutions
 	db 1, POISON_JAB
 	db 0 ; no more level-up moves
 
-IvysaurEvosAttacks:
-	db EVOLVE_LEVEL, 32, VENUSAUR
+SordraenaEvosAttacks:
+	db EVOLVE_LEVEL, 32, TYRDRAGA
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves
 
-VenusaurEvosAttacks:
+TyrdragaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves
 
-CharmanderEvosAttacks:
-	db EVOLVE_LEVEL, 16, CHARMELEON
+AerfaedraEvosAttacks:
+	db EVOLVE_LEVEL, 16, KITSYNA
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 0 ; no more level-up moves
 
 CharmeleonEvosAttacks:
-	db EVOLVE_LEVEL, 36, CHARIZARD
+	db EVOLVE_LEVEL, 36, CERKITAYSA
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 0 ; no more level-up moves
 
-CharizardEvosAttacks:
+CerkitaysaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 0 ; no more level-up moves
 
-SquirtleEvosAttacks:
+GigasynapaEvosAttacks:
 	db EVOLVE_LEVEL, 16, WARTORTLE
 	db 0 ; no more evolutions
 	db 1, POUND

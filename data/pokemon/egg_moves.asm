@@ -5,11 +5,15 @@ SECTION "Egg Moves", ROMX
 
 INCLUDE "data/pokemon/egg_move_pointers.asm"
 
-BulbasaurEggMoves:
+KordienaEggMoves:
 	db LIGHT_SCREEN
-	db SAFEGUARD
-	db RAZOR_WIND
-	db PETAL_DANCE
+	db SUBSTITUTE
+	db SWORDS_DANCE
+	db NASTY_PLOT
+	db REFLECT
+	db RAPID_SPIN
+	db EXPLOSION
+	db SUBSTITUTE
 	db -1 ; end
 
 WartortleEggMoves:

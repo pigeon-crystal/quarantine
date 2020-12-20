@@ -2,20 +2,20 @@
 
 PokemonPicPointers::
 ; entries correspond to Pokémon species, two apiece
-	dba BulbasaurFrontpic
-	dba BulbasaurBackpic
-	dba IvysaurFrontpic
-	dba IvysaurBackpic
-	dba VenusaurFrontpic
-	dba VenusaurBackpic
-	dba CharmanderFrontpic
-	dba CharmanderBackpic
+	dba KordienaFrontpic
+	dba KordienaBackpic
+	dba SordraenaFrontpic
+	dba SordraenaBackpic
+	dba TyrdragaFrontpic
+	dba TyrdragaBackpic
+	dba AerfaedraFrontpic
+	dba AerfaedraBackpic
 	dba CharmeleonFrontpic
 	dba CharmeleonBackpic
-	dba CharizardFrontpic
-	dba CharizardBackpic
-	dba SquirtleFrontpic
-	dba SquirtleBackpic
+	dba CerkitaysaFrontpic
+	dba CerkitaysaBackpic
+	dba GigasynapaFrontpic
+	dba GigasynapaBackpic
 	dba WartortleFrontpic
 	dba WartortleBackpic
 	dba BlastoiseFrontpic

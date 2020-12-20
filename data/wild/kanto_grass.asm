@@ -887,8 +887,8 @@ KantoGrassWildMons:
 	db 39, PILFOARD
 	db 40, YAGAGARASU
 	db 40, YAGAGARASU
-	db 42, BULBASAUR
-	db 41, BULBASAUR
+	db 42, KORDIENA
+	db 41, KORDIENA
 	db 43, FALWODUR  ; standin for snail 1
 	db 43, FALWODUR
 	db 42, MAJESDOR

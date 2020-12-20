@@ -24,7 +24,7 @@ BillScript:
 	writetext ReceivedEeveeText
 	playsound SFX_CAUGHT_MON
 	waitsfx
-	givepoke BULBASAUR, 20
+	givepoke KORDIENA, 20
 	setevent EVENT_GOT_EEVEE
 	writetext BillEeveeMayEvolveText
 	waitbutton
@@ -109,11 +109,12 @@ BillsHouseRadio:
 BillTakeThisEeveeText:
 	text "BILL: Hi, <PLAYER>!"
 	line "Do us a favor and"
-	cont "take this EEVEE."
+	cont "take this rare"
+	cont "#MON."
 
-	para "It came over when"
+	para "It showed up when"
 	line "I was adjusting"
-	cont "the TIME CAPSULE."
+	cont "the PC system."
 
 	para "Someone has to"
 	line "take care of it,"
@@ -142,15 +143,23 @@ BillImCountingOnYouText:
 
 ReceivedEeveeText:
 	text "<PLAYER> received"
-	line "EEVEE!"
+	line "KORDIENA!"
 	done
 
 BillEeveeMayEvolveText:
-	text "BILL: PROF.ELM"
-	line "claims EEVEE may"
+	text "BILL: KORDIENA"
+	line "is a real weird"
+	cont "#MON."
 
-	para "evolve in new and"
-	line "unknown ways."
+	para "Depending on how"
+	line "you raise it,"
+	
+	para "yours can evolve"
+	line "to be a totally"
+	
+	para "different #MON"
+	line "than a pal's"
+	cont "KORDIENA."
 	done
 
 BillPartyFullText:
@@ -162,6 +171,9 @@ BillPartyFullText:
 BillNoEeveeText:
 	text "Oh… Now what to"
 	line "do?"
+	
+	para "Help me out,"
+	line "<PLAYER>!"
 	done
 
 BillPopWontWorkText:
@@ -238,6 +250,21 @@ BillsSisterStorageSystemText:
 
 	para "#MON storage"
 	line "system."
+	
+	para "Call him to change"
+	line "boxes when you"
+	
+	para "think one's full!"
+	
+	para "If you don't,"
+	line "you may not be"
+	cont "able to catch"
+	cont "#MON!"
+	
+	para "Aren't I a real"
+	line "sweetie for giving"
+	
+	para "you BILL's number?"
 	done
 
 BillsFamilysHouse_MapEvents:

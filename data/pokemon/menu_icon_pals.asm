@@ -4,13 +4,13 @@ ENDM
 ; Colors are RED, BLUE, GREEN, BROWN, PINK, GRAY, YELLOW, PURPLE
 MonMenuIconPals:
 	;         normal, shiny  , species
-	icon_pals YELLOW,   GREEN  ; BULBASAUR
-	icon_pals YELLOW,   GREEN  ; IVYSAUR
-	icon_pals YELLOW,   GREEN  ; VENUSAUR
-	icon_pals RED,    BROWN    ; CHARMANDER
-	icon_pals RED,    BROWN    ; CHARMELEON
-	icon_pals RED,    PURPLE   ; CHARIZARD
-	icon_pals BLUE,   YELLOW   ; SQUIRTLE
+	icon_pals BLUE,   GREEN  ; KORDIENA
+	icon_pals GREEN,   GREEN  ; SORDRAENA
+	icon_pals RED,   GREEN  ; TYRDRAGA
+	icon_pals PINK,    BROWN    ; AERFAEDRA
+	icon_pals BROWN,    BROWN    ; KITSYNA
+	icon_pals YELLOW,    PURPLE   ; CERKITAYSA
+	icon_pals PURPLE,   YELLOW   ; GIGASYNAPA
 	icon_pals BLUE,   YELLOW   ; WARTORTLE
 	icon_pals BLUE,   YELLOW   ; BLASTOISE
 	icon_pals GREEN,   YELLOW  ; BUZZLING

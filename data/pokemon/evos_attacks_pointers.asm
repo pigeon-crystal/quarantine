@@ -1,13 +1,13 @@
 ; Evolutions and attacks are grouped together since they're both checked at level-up.
 
 EvosAttacksPointers::
-	dw BulbasaurEvosAttacks
-	dw IvysaurEvosAttacks
-	dw VenusaurEvosAttacks
-	dw CharmanderEvosAttacks
+	dw KordienaEvosAttacks
+	dw SordraenaEvosAttacks
+	dw TyrdragaEvosAttacks
+	dw AerfaedraEvosAttacks
 	dw CharmeleonEvosAttacks
-	dw CharizardEvosAttacks
-	dw SquirtleEvosAttacks
+	dw CerkitaysaEvosAttacks
+	dw GigasynapaEvosAttacks
 	dw WartortleEvosAttacks
 	dw BlastoiseEvosAttacks
 	dw BuzzlingEvosAttacks

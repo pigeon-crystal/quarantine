@@ -1,12 +1,12 @@
 PokedexDataPointerTable:
 ; entries correspond to constants/pokemon_constants.asm
-	dw BulbasaurPokedexEntry
-	dw IvysaurPokedexEntry
-	dw VenusaurPokedexEntry
-	dw CharmanderPokedexEntry
+	dw KordienaPokedexEntry
+	dw SordraenaPokedexEntry
+	dw TyrdragaPokedexEntry
+	dw AerfaedraPokedexEntry
 	dw CharmeleonPokedexEntry
-	dw CharizardPokedexEntry
-	dw SquirtlePokedexEntry
+	dw CerkitaysaPokedexEntry
+	dw GigasynapaPokedexEntry
 	dw WartortlePokedexEntry
 	dw BlastoisePokedexEntry
 	dw BuzzlingPokedexEntry

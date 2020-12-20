@@ -1,5 +1,5 @@
 EggMovePointers::
-	dw BulbasaurEggMoves ; Taxo base
+	dw KordienaEggMoves ; Taxo base
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

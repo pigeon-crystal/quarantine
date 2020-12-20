@@ -19,13 +19,13 @@
 ; - FramesPointers (see gfx/pokemon/frame_pointers.asm)
 ; - Footprints (see gfx/footprints.asm)
 	const_def 1
-	const BULBASAUR  ; 01 taxo chordate
-	const IVYSAUR    ; 02 taxo reptile
-	const VENUSAUR   ; 03 taxo saur
-	const CHARMANDER ; 04 taxo bird
-	const CHARMELEON ; 05 taxo mammal
-	const CHARIZARD  ; 06 taxo ungulate
-	const SQUIRTLE   ; 07 taxo primate
+	const KORDIENA  ; 01 KORDIENA
+	const SORDRAENA    ; 02 SORDRAENA
+	const TYRDRAGA   ; 03 TYRDRAGA
+	const AERFAEDRA ; 04 AERFAEDRA
+	const KITSYNA ; 05 KITSYNA
+	const CERKITAYSA  ; 06 CERKITAYSA
+	const GIGASYNAPA   ; 07 GIGASYNAPA
 	const WARTORTLE  ; 08 strandbeest
 	const BLASTOISE  ; 09 strandbeest
 	const BUZZLING   ; 0a

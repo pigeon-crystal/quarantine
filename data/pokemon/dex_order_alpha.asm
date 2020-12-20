@@ -16,7 +16,7 @@ AlphabeticalPokedexOrder:
 	db BISMUTT
 	db BLASTOISE
 	db BRIGADOOM
-	db BULBASAUR
+	db KORDIENA
 	db BUNDEGRAF
 	db BUZZLING
 	db CAIRNIVORE
@@ -26,9 +26,9 @@ AlphabeticalPokedexOrder:
 	db CANTOGETHA
 	db CASANOCTE
 	db TENTAQUIL
-	db CHARIZARD
-	db CHARMANDER
-	db CHARMELEON
+	db CERKITAYSA
+	db AERFAEDRA
+	db KITSYNA
 	db CIGERILLAR
 	db NIMBOREM
 	db CLIBBLE
@@ -91,7 +91,7 @@ AlphabeticalPokedexOrder:
 	db HORNAMPA
 	db STRATOWAR
 	db IGNAGA
-	db IVYSAUR
+	db SORDRAENA
 	db JADDICE
 	db HEXAHED
 	db JOLTEON
@@ -208,7 +208,7 @@ AlphabeticalPokedexOrder:
 	db THERAZOR
 	db SNOVERDOSE
 	db SNOWUP
-	db SQUIRTLE
+	db GIGASYNAPA
 	db SQWUCKY
 	db STIKLBRAT
 	db STINPEON
@@ -232,7 +232,7 @@ AlphabeticalPokedexOrder:
 	db GANZORAH
 	db VAZZINATE
 	db VEGETEBAA
-	db VENUSAUR
+	db TYRDRAGA
 	db VOLTINGER
 	db LAMYGLAMA
 	db VOYAPOD

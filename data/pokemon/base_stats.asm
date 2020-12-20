@@ -32,13 +32,13 @@ endr
 ENDM
 
 BaseData::
-INCLUDE "data/pokemon/base_stats/bulbasaur.asm"
-INCLUDE "data/pokemon/base_stats/ivysaur.asm"
-INCLUDE "data/pokemon/base_stats/venusaur.asm"
-INCLUDE "data/pokemon/base_stats/charmander.asm"
-INCLUDE "data/pokemon/base_stats/charmeleon.asm"
-INCLUDE "data/pokemon/base_stats/charizard.asm"
-INCLUDE "data/pokemon/base_stats/squirtle.asm"
+INCLUDE "data/pokemon/base_stats/kordiena.asm"
+INCLUDE "data/pokemon/base_stats/sordraena.asm"
+INCLUDE "data/pokemon/base_stats/tyrdraga.asm"
+INCLUDE "data/pokemon/base_stats/aerfaedra.asm"
+INCLUDE "data/pokemon/base_stats/kitsyna.asm"
+INCLUDE "data/pokemon/base_stats/cerkitaysa.asm"
+INCLUDE "data/pokemon/base_stats/gigasynapa.asm"
 INCLUDE "data/pokemon/base_stats/wartortle.asm"
 INCLUDE "data/pokemon/base_stats/blastoise.asm"
 INCLUDE "data/pokemon/base_stats/buzzling.asm"
