@@ -200,7 +200,7 @@ JOHTO_POKEMON EQU const_value
 	const SQUEENIE   ; b2 
 	const YUESBI     ; b3
 	const YUEFOE     ; b4
-	const AMPHAROS   ; b5 computer
+	const VIRUES   ; b5 computer
 	const PLANTENNA  ; b6
 	const HABBLE     ; b7
 	const SATELISK   ; b8

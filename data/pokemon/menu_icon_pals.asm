@@ -184,7 +184,7 @@ MonMenuIconPals:
 	icon_pals PINK,   YELLOW  ; SQUEENIE
 	icon_pals BLUE,   YELLOW  ; YUESBI
 	icon_pals RED,   YELLOW  ; YUEFOE
-	icon_pals GRAY,   YELLOW  ; AMPHAROS
+	icon_pals GRAY,   YELLOW  ; VIRUES
 	icon_pals GRAY,   YELLOW   ; PLANTENNA
 	icon_pals GRAY,   YELLOW   ; HABBLE
 	icon_pals GRAY,   YELLOW   ; SATELISK

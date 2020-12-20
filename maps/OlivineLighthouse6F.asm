@@ -44,7 +44,7 @@ OlivineLighthouseJasmine:
 	promptbutton
 	closetext
 	special RestartMapMusic
-	cry AMPHAROS
+	cry NAVIGAZER
 	special FadeOutPalettes
 	pause 10
 	special FadeInPalettes
@@ -107,7 +107,7 @@ OlivineLighthouseAmphy:
 	checkevent EVENT_JASMINE_RETURNED_TO_GYM
 	iftrue .HealthyNow
 	writetext AmphyPalPalooText
-	setval AMPHAROS
+	setval NAVIGAZER
 	special PlaySlowCry
 	promptbutton
 	writetext AmphyBreathingLaboredText
@@ -117,7 +117,7 @@ OlivineLighthouseAmphy:
 
 .HealthyNow:
 	writetext AmphyPaluPaluluText
-	cry AMPHAROS
+	cry NAVIGAZER
 	waitbutton
 	closetext
 	special FadeOutPalettes
@@ -160,16 +160,20 @@ MovementData_0x60c79:
 	step_sleep 8
 	step_end
 
-JasmineCianwoodPharmacyText:
+JasmineCianwoodPharmacyText: ; TODO swap amphy with Navigazer
 	text "JASMINE: … This"
-	line "#MON always"
+	line "#MON's luster"
 
-	para "kept the sea lit"
-	line "at night."
+	para "helps sailors find"
+	line "their way home"
+	cont "at night."
 
 	para "…But it suddenly"
-	line "got sick… It's"
-	cont "gasping for air…"
+	line "got sick… It"
+	cont "no longer shines…"
+	
+	para "It looks so"
+	line "distressed…"
 
 	para "…I understand"
 	line "that there is a"
@@ -181,24 +185,24 @@ JasmineCianwoodPharmacyText:
 	line "the sea…"
 
 	para "And I can't leave"
-	line "AMPHY unattended…"
+	line "NAVII unattended…"
 	done
 
 JasmineGetSomeMedicineText:
 	text "…May I ask you to"
-	line "get some medicine"
-	cont "for me? Please?"
+	line "get something for"
+	cont "NAVII? Please?"
 	done
 
 JasmineCureAmphyText:
 	text "JASMINE: …Will"
-	line "that medicine cure"
-	cont "AMPHY?"
+	line "that help cure"
+	cont "NAVII?"
 	done
 
 PlayerHandedSecretpotionText:
 	text "<PLAYER> handed the"
-	line "SECRETPOTION to"
+	line "SECRETPOLISH to"
 	cont "JASMINE."
 	done
 
@@ -207,7 +211,7 @@ JasmineDontBeOffendedText:
 	line "please don't be"
 	cont "offended…"
 
-	para "…AMPHY will not"
+	para "…NAVII will not"
 	line "take anything from"
 	cont "anyone but me…"
 	done
@@ -215,7 +219,7 @@ JasmineDontBeOffendedText:
 JasmineAmphyHowAreYouFeelingText:
 	text "JASMINE: …"
 
-	para "AMPHY, how are you"
+	para "NAVII, how are you"
 	line "feeling?"
 	done
 
@@ -238,22 +242,23 @@ JasmineISeeText:
 	done
 
 JasmineAmphyHangOnText:
-	text "…AMPHY, hang on!"
+	text "…NAVII, hang on!"
 	done
 
 AmphyPalPalooText:
-	text "AMPHY: …"
-	line "…Pa… paloo…"
+	text "NAVII: …"
+	line "…V… vvvvr…"
 	done
 
 AmphyBreathingLaboredText:
-	text "Its breathing is"
-	line "terribly labored…"
+	text "It's doing all it"
+	line "can just to stay"
+	cont "upright…"
 	done
 
 AmphyPaluPaluluText:
-	text "AMPHY: Palu!"
-	line "Palulu!"
+	text "NAVII: VVVV!"
+	line "Vvrrr!"
 	done
 
 OlivineLighthouse6F_MapEvents:
@@ -270,5 +275,5 @@ OlivineLighthouse6F_MapEvents:
 
 	db 3 ; object events
 	object_event  8,  8, SPRITE_JASMINE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OlivineLighthouseJasmine, EVENT_OLIVINE_LIGHTHOUSE_JASMINE
-	object_event  9,  8, SPRITE_MONSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, OlivineLighthouseAmphy, -1
+	object_event  9,  8, SPRITE_NAVIGAZER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, OlivineLighthouseAmphy, -1
 	object_event  3,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, OlivineLighthouse6FSuperPotion, EVENT_OLIVINE_LIGHTHOUSE_6F_SUPER_POTION

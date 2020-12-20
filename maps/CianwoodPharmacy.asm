@@ -1,4 +1,4 @@
-	object_const_def ; object_event constants		; TODO fix dialogue
+	object_const_def ; object_event constants	
 	const CIANWOODPHARMACY_PHARMACIST
 
 CianwoodPharmacy_MapScripts:
@@ -73,12 +73,12 @@ PharmacistGiveSecretpotionText:
 
 ReceivedSecretpotionText:
 	text "<PLAYER> received"
-	line "SECRETPOTION."
+	line "SECRETPOLISH."
 	done
 
 PharmacistDescribeSecretpotionText:
-	text "My SECRETPOTION is"
-	line "a tad too strong."
+	text "My SECRETPOLISH is"
+	line "super hard to make."
 
 	para "I only offer it in"
 	line "an emergency."

@@ -65,7 +65,7 @@ ItemNames::
 	db "MAX ETHER@"
 	db "ELIXER@"
 	db "RED SCALE@"
-	db "SECRETPOTION@"
+	db "SECRETPOLISH@"
 	db "S.S.TICKET@"
 	db "MYSTERY EGG@"
 	db "CLEAR BELL@"

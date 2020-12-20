@@ -180,7 +180,7 @@ PokedexDataPointerTable:
 	dw SqueeniePokedexEntry
 	dw YuesbiPokedexEntry
 	dw YuefoePokedexEntry
-	dw AmpharosPokedexEntry
+	dw ViruesPokedexEntry
 	dw PlantennaPokedexEntry
 	dw HabblePokedexEntry
 	dw SateliskPokedexEntry

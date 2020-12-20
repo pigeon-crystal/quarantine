@@ -362,8 +362,8 @@ PokemonPicPointers::
 	dba YuesbiBackpic
 	dba YuefoeFrontpic
 	dba YuefoeBackpic
-	dba AmpharosFrontpic
-	dba AmpharosBackpic
+	dba ViruesFrontpic
+	dba ViruesBackpic
 	dba PlantennaFrontpic
 	dba PlantennaBackpic
 	dba HabbleFrontpic

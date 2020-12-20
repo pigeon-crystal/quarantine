@@ -181,7 +181,7 @@ EvosAttacksPointers::
 	dw SqueenieEvosAttacks
 	dw YuesbiEvosAttacks
 	dw YuefoeEvosAttacks
-	dw AmpharosEvosAttacks
+	dw ViruesEvosAttacks
 	dw PlantennaEvosAttacks
 	dw HabbleEvosAttacks
 	dw SateliskEvosAttacks

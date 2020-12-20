@@ -219,7 +219,7 @@ Pokered_MonIndices:
 	db SQUEENIE
 	db YUESBI
 	db YUEFOE
-	db AMPHAROS
+	db VIRUES
 	db PLANTENNA
 	db HABBLE
 	db SATELISK

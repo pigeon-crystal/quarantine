@@ -58,7 +58,7 @@ NewPokedexOrder:
 	db ATTACKO
 	db YUESBI
 	db YUEFOE
-	db AMPHAROS
+	db VIRUES
 	db ODDITTEN
 	db ASTROTOM
 	db FLUFFRUIT

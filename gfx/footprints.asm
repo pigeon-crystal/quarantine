@@ -410,7 +410,7 @@ INCBIN "gfx/footprints/sqwucky.1bpp",       footprint_top
 INCBIN "gfx/footprints/squeenie.1bpp",       footprint_top
 INCBIN "gfx/footprints/yuesbi.1bpp",     footprint_top
 INCBIN "gfx/footprints/yuefoe.1bpp",    footprint_top
-INCBIN "gfx/footprints/ampharos.1bpp",   footprint_top
+INCBIN "gfx/footprints/virues.1bpp",   footprint_top
 INCBIN "gfx/footprints/plantenna.1bpp",  footprint_top
 INCBIN "gfx/footprints/habble.1bpp",     footprint_top
 INCBIN "gfx/footprints/satelisk.1bpp",  footprint_top
@@ -419,7 +419,7 @@ INCBIN "gfx/footprints/sqwucky.1bpp",       footprint_bottom
 INCBIN "gfx/footprints/squeenie.1bpp",       footprint_bottom
 INCBIN "gfx/footprints/yuesbi.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/yuefoe.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/ampharos.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/virues.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/plantenna.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/habble.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/satelisk.1bpp",  footprint_bottom

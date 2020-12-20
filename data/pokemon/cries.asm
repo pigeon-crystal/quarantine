@@ -185,7 +185,7 @@ PokemonCries::
 	mon_cry CRY_NATU,       -167,  360 ; SQUEENIE
 	mon_cry CRY_MAREEP,       34,  216 ; YUESBI
 	mon_cry CRY_MAREEP,       -7,  384 ; YUEFOE
-	mon_cry CRY_AMPHAROS,   -124,  232 ; AMPHAROS
+	mon_cry CRY_AMPHAROS,   -124,  232 ; VIRUES
 	mon_cry $1C,        	$0010, $0070 ; PLANTENNA
 	mon_cry $1C,       		$001B, $0060 ; HABBLE
 	mon_cry $1C,      		$0F1B, $00A0 ; SATELISK

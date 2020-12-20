@@ -5,7 +5,7 @@ AlphabeticalPokedexOrder:
 	db AMANIGO
 	db AMBINNI
 	db AMBIONIC
-	db AMPHAROS
+	db VIRUES
 	db ANTPYRE
 	db ARASBESTOS
 	db ARTICUNO

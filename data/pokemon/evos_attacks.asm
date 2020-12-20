@@ -19,7 +19,7 @@ INCLUDE "engine/pokemon/evolve.asm"
 INCLUDE "data/pokemon/evolution_moves.asm"
 INCLUDE "data/pokemon/evos_attacks_pointers.asm"
 
-KordienaEvosAttacks:
+KordienaEvosAttacks: ;TODO fix this shit man
 	db EVOLVE_LEVEL, 16, SORDRAENA
 	db 0 ; no more evolutions
 	db 1, POISON_JAB
@@ -2888,7 +2888,7 @@ SqueenieEvosAttacks:
 
 YuesbiEvosAttacks:
 	db EVOLVE_ITEM, THUNDERSTONE, YUEFOE
-	db EVOLVE_LEVEL, 40, AMPHAROS
+	db EVOLVE_LEVEL, 40, VIRUES
 	db 0 ; no more evolutions
 	db 1, SCREECH
 	db 7, DOUBLESLAP
@@ -2916,7 +2916,7 @@ YuefoeEvosAttacks:
 	db 60, RAZOR_WIND
 	db 0 ; no more level-up moves
 
-AmpharosEvosAttacks:
+ViruesEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, GROWL
