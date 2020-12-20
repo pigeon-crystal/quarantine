@@ -1,10 +1,10 @@
-	db "BIG BRUTE@" ; species name TODO
-	dw 103, 14200 ; height, weight
+	db "BIG BRUTE@" ; species name 
+	dw 810, 6423 ; height, weight
 
-	db   "When it closes its"
-	next "eyes, twice as"
-	next "many alpha parti-"
+	db   "Ancient ONIONION"
+	next "sprout white hairs"
+	next "on their chin."
 
-	page "cles come out of"
-	next "the surface of its"
-	next "body.@"
+	page "Their scent drives"
+	next "others away from"
+	next "their territory.@"

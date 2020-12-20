@@ -235,6 +235,9 @@ JasmineThankYouText:
 
 	para "…I will return to"
 	line "the GYM…"
+	
+	para "NAVII and I will"
+	line "await you…"
 	done
 
 JasmineISeeText:

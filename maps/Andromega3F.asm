@@ -54,7 +54,7 @@ Andromega3F_MapEvents:
 
 	db 0 ; coord events
 
-	db 5 ; bg events TODO text for bookshelves
+	db 5 ; bg events
 	bg_event 5, 2, BGEVENT_READ, Andromega3FComputer
 	bg_event 10, 1, BGEVENT_READ, Andromega3FBooks1
 	bg_event 11, 1, BGEVENT_READ, Andromega3FBooks

@@ -20,5 +20,5 @@ Andromega5F_MapEvents:
 
 	db 0 ; bg events 
  	
-	db 1 ; object events TODO add an evo stone
+	db 1 ; object events 
 	object_event 4, 2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, AndromegaSunStone, EVENT_ANDROMEGA_SUN_STONE

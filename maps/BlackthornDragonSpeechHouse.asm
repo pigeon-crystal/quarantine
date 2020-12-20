@@ -18,19 +18,25 @@ BlackthornDragonSpeechHouseDratiniScript:
 	closetext
 	end
 
-BlackthornDragonSpeechHouseGrannyText:			; TODO: once we have the snail names do the endangered snail story
-	text "A clan of trainers"
-	line "who can freely"
+BlackthornDragonSpeechHouseGrannyText:			
+	text "Do you know"
+	line "FALWODUR?"
 
-	para "command dragons"
-	line "live right here in"
-	cont "BLACKTHORN."
+	para "They were such a"
+	line "pest - they would"
+	cont "eat anything metal."
 
-	para "As a result, there"
-	line "are many legends"
+	para "We brought in "
+	line "WALLARRIOR to"
 
-	para "about dragons in"
-	line "this town."
+	para "help, but they"
+	line "did a real number"
+	cont "on the FALWODUR."
+	
+	para "FALWODUR are rare"
+	line "now, and mostly"
+	cont "are found in the"
+	cont "depths of the DEN."
 	done
 
 BlackthornDragonSpeechHouseDratiniText:
@@ -49,5 +55,5 @@ BlackthornDragonSpeechHouse_MapEvents:
 	db 0 ; bg events
 
 	db 2 ; object events
-	object_event  2,  3, SPRITE_GRANNY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BlackthornDragonSpeechHouseGrannyScript, -1
-	object_event  5,  5, SPRITE_EKANS, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, BlackthornDragonSpeechHouseDratiniScript, -1
+	object_event  2,  3, SPRITE_BREEDER_F, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BlackthornDragonSpeechHouseGrannyScript, -1
+	object_event  5,  5, SPRITE_DRAGON, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, BlackthornDragonSpeechHouseDratiniScript, -1

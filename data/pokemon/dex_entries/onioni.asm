@@ -1,10 +1,10 @@
 	db "BRUTE@" ; species name TODO
 	dw 403, 1073 ; height, weight
 
-	db   "When it closes its"
-	next "eyes, twice as"
-	next "many alpha parti-"
+	db   "They enjoy swinging"
+	next "their massive"
+	next "stalk at other"
 
-	page "cles come out of"
-	next "the surface of its"
-	next "body.@"
+	page "#MON to make"
+	next "them cry."
+	next "Strong and brutal.@"

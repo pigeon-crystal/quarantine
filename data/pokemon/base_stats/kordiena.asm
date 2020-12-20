@@ -14,7 +14,7 @@
 	INCBIN "gfx/pokemon/kordiena/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
 	db GROWTH_MEDIUM_FAST ; growth rate
-	dn EGG_MONSTER, EGG_WATER_1 ; egg groups
+	dn EGG_MONSTER, EGG_WATER_3 ; egg groups
 
 	; tm/hm learnset TODO
 	tmhm 

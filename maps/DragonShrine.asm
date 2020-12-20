@@ -503,7 +503,7 @@ DragonShrineTakeThisDratiniText:
 	para "I have something"
 	line "for you."
 
-	para "Take this DRATINI"
+	para "Take this #MON"
 	line "as proof that I"
 
 	para "have recognized"
@@ -512,7 +512,7 @@ DragonShrineTakeThisDratiniText:
 
 DragonShrinePlayerReceivedDratiniText:
 	text "<PLAYER> received"
-	line "DRATINI!"
+	line "SHREDDRAKE!"
 	done
 
 DragonShrinePartyFullText:

@@ -16,4 +16,4 @@ Andromega4F_MapEvents:
 
 	db 0 ; bg events 
  	
-	db 0 ; object events TODO add a moon stone
+	db 0 ; object events 

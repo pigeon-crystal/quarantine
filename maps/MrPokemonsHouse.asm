@@ -320,12 +320,13 @@ MrPokemonsHouse_OakText2:
 	done
 
 MrPokemonText_GimmeTheScale:
-	text "Hm? That SCALE!"
-	line "What's that?"
-	cont "A red GYARADOS?"
+	text "Hm? That SLUDGE!"
+	
+	para "How noxious! How"
+	line "pungent! How" 
+	cont "rare!"
 
-	para "That's rare! "
-	line "I, I want it…"
+	para "I, I want it…"
 
 	para "<PLAY_G>, would you"
 	line "care to trade it?"

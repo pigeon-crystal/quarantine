@@ -1,4 +1,4 @@
-	object_const_def ; object_event constants   TODO: replace lake of rage origin story
+	object_const_def ; object_event constants   
 	const LAKEOFRAGEMAGIKARPHOUSE_FISHING_GURU
 
 LakeOfRageMagikarpHouse_MapScripts:
@@ -95,7 +95,7 @@ MagikarpLengthRaterText_LakeOfRageHistory:
 	line "actually a crater"
 
 	para "made by rampaging"
-	line "GYARADOS."
+	line "#MON."
 
 	para "The crater filled"
 	line "up with rainwater"
@@ -112,7 +112,7 @@ MagikarpLengthRaterText_LakeOfRageHistory:
 	para "It used to be that"
 	line "you could catch"
 
-	para "lively LANATUN"
+	para "juicy LANATUN"
 	line "there, but…"
 
 	para "I don't understand"
@@ -137,7 +137,7 @@ MagikarpLengthRaterText_WorldsLargestMagikarp:
 	para "I may yet realize"
 	line "my dream of see-"
 	cont "ing the world's"
-	cont "largest LANATUN."
+	cont "biggest LANATUN."
 
 	para "Do you have a ROD?"
 	line "Please help me if"

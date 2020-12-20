@@ -232,7 +232,7 @@ EggMovePointers::
 	dw ObelithEggMoves
 	dw NoEggMoves
 	dw PolyroEggMoves
-	dw NoEggMoves
+	dw SlowhogEggMoves
 	dw EyechosisEggMoves
 	dw FueghastEggMoves
 	dw HitmontopEggMoves
@@ -251,4 +251,4 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw PilfoardEggMoves
-	dw MissingnoEggMoves
+	dw NoEggMoves

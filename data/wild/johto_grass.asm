@@ -1797,12 +1797,12 @@ JohtoGrassWildMons:
 	; nite
 	db 23, DOLMESA
 	db 23, QWALLOP
-	db 24, WALLARRIOR		; Wallarrior
+	db 24, WALLARRIOR		; 
 	db 25, QWALLOP
-	db 20, WALLARRIOR		; Wallarrior
+	db 20, WALLARRIOR		; 
 	db 27, YAGAGARASU
-	db 27, WALLARRIOR		; Wallarrior
-	db 28, FALWODUR		; Snail 1
+	db 27, WALLARRIOR		; 
+	db 28, FALWODUR		
 
 	map_id ROUTE_46 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -2103,5 +2103,155 @@ JohtoGrassWildMons:
  	db 40, KODOROYAH
 	db 40, FALWODRAIG ; dragon snail 2
 	db 40, SHREDDRAKE
+	
+	map_id ROUTE_45_PASSAGE
+	db 9 percent, 9 percent, 9 percent
+	; morn
+	db 23, DOLMESA
+	db 23, QWALLOP
+	db 24, WALLARRIOR		; Wallarrior
+	db 25, HABBLE
+	db 20, YAGAGARASU		; Wallarrior
+	db 27, YAGAGARASU
+	db 27, WALLARRIOR		; Wallarrior
+	db 28, FALWODUR		; Snail 1
+	; day
+	db 23, DOLMESA
+	db 23, QWALLOP
+	db 24, WALLARRIOR		; Wallarrior
+	db 25, HABBLE
+	db 20, YAGAGARASU		; Wallarrior
+	db 27, YAGAGARASU
+	db 27, WALLARRIOR		; Wallarrior
+	db 28, YAGAGARASU
+	; nite
+	db 23, DOLMESA
+	db 23, QWALLOP
+	db 24, WALLARRIOR		; 
+	db 25, HABBLE
+	db 20, YAGAGARASU		; 
+	db 27, YAGAGARASU
+	db 27, VOYAPOD		; 
+	db 28, VOYAPOD		
+	
+	map_id ANDROMEGA_2F
+	db 2 percent, 2 percent, 3 percent
+	; morn
+	db 23, HABBLE
+	db 23, HABBLE
+	db 24, ODDITTEN		; 
+	db 25, ASTROTOM
+	db 20, PLANTENNA		; 
+	db 27, JUNOBE
+	db 27, NYALLEY		; 
+	db 28, NYALLEY		; 
+	; day
+	db 23, HABBLE
+	db 23, HABBLE
+	db 24, ODDITTEN		; 
+	db 25, ASTROTOM
+	db 20, PLANTENNA		; 
+	db 27, JUNOBE
+	db 27, NYALLEY		; 
+	db 28, NYALLEY		
+	; nite
+	db 23, HABBLE
+	db 23, HABBLE
+	db 24, ODDITTEN		; 
+	db 25, ASTROTOM
+	db 20, PLANTENNA		; 
+	db 27, JUNOBE
+	db 27, NYALLEY		; 
+	db 28, NYALLEY			
+
+	map_id ANDROMEGA_3F
+	db 2 percent, 2 percent, 3 percent
+	; morn
+	db 23, HABBLE
+	db 23, HABBLE
+	db 24, ODDITTEN		; 
+	db 25, ASTROTOM
+	db 20, PLANTENNA		; 
+	db 27, JUNOBE
+	db 27, NYALLEY		; 
+	db 28, NYALLEY		; 
+	; day
+	db 23, HABBLE
+	db 23, HABBLE
+	db 24, ODDITTEN		; 
+	db 25, ASTROTOM
+	db 20, PLANTENNA		; 
+	db 27, JUNOBE
+	db 27, NYALLEY		; 
+	db 28, NYALLEY		
+	; nite
+	db 23, HABBLE
+	db 23, HABBLE
+	db 24, ODDITTEN		; 
+	db 25, ASTROTOM
+	db 20, PLANTENNA		; 
+	db 27, JUNOBE
+	db 27, NYALLEY		; 
+	db 28, NYALLEY	
+
+	map_id ANDROMEGA_4F
+	db 2 percent, 2 percent, 3 percent
+	; morn
+	db 23, HABBLE
+	db 23, HABBLE
+	db 24, ODDITTEN		; 
+	db 25, ASTROTOM
+	db 20, PLANTENNA		; 
+	db 27, JUNOBE
+	db 27, NYALLEY		; 
+	db 28, NYALLEY		; 
+	; day
+	db 23, HABBLE
+	db 23, HABBLE
+	db 24, ODDITTEN		; 
+	db 25, ASTROTOM
+	db 20, PLANTENNA		; 
+	db 27, JUNOBE
+	db 27, NYALLEY		; 
+	db 28, NYALLEY		
+	; nite
+	db 23, HABBLE
+	db 23, HABBLE
+	db 24, ODDITTEN		; 
+	db 25, ASTROTOM
+	db 20, PLANTENNA		; 
+	db 27, JUNOBE
+	db 27, NYALLEY		; 
+	db 28, NYALLEY			
+
+	map_id ANDROMEGA_5F
+	db 2 percent, 2 percent, 3 percent
+	; morn
+	db 23, HABBLE
+	db 23, HABBLE
+	db 24, ODDITTEN		; 
+	db 25, ASTROTOM
+	db 20, PLANTENNA		; 
+	db 27, JUNOBE
+	db 27, NYALLEY		; 
+	db 28, NYALLEY		; 
+	; day
+	db 23, HABBLE
+	db 23, HABBLE
+	db 24, ODDITTEN		; 
+	db 25, ASTROTOM
+	db 20, PLANTENNA		; 
+	db 27, JUNOBE
+	db 27, NYALLEY		; 
+	db 28, NYALLEY		
+	; nite
+	db 23, HABBLE
+	db 23, HABBLE
+	db 24, ODDITTEN		; 
+	db 25, ASTROTOM
+	db 20, PLANTENNA		; 
+	db 27, JUNOBE
+	db 27, NYALLEY		; 
+	db 28, NYALLEY					
 	
 	db -1 ; end

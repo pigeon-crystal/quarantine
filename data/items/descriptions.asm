@@ -515,12 +515,12 @@ ElixerDesc:
 	next "moves by 10.@"
 
 RedScaleDesc:
-	db   "A scale from the"
-	next "red GYARADOS.@"
+	db   "Sludge made by a"
+	next "BERMUDANT.@"
 
 SecretPotionDesc:
-	db   "Fully heals any"
-	next "#MON.@"
+	db   "For taking care"
+	next "of a NAVIGAZER.@"
 
 SSTicketDesc:
 	db   "A ticket for the"

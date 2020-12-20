@@ -64,8 +64,8 @@ ItemNames::
 	db "ETHER@"
 	db "MAX ETHER@"
 	db "ELIXER@"
-	db "RED SCALE@"
-	db "SECRETPOLISH@"
+	db "NASTY SLUDGE@"			; Red Scale
+	db "SECRETPOLISH@"		; SecretPotion
 	db "S.S.TICKET@"
 	db "MYSTERY EGG@"
 	db "CLEAR BELL@"

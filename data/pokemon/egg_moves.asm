@@ -731,6 +731,7 @@ WiwrightEggMoves:
 
 ZasterEggMoves:
 	db METRONOME
+	db FOCUS_BLAST
 	db -1 ; end
 
 PekoiEggMoves:
@@ -754,6 +755,8 @@ YagagarasuEggMoves:
 
 UmberjerkEggMoves:
 	db SWEET_SCENT
+	db FURY_SWIPES
+	db FOCUS_ENERGY
 	db -1 ; end
 
 SmuciousEggMoves:
@@ -817,6 +820,14 @@ PolyroEggMoves:
 	db THRASH
 	db -1 ; end
 
+SlowhogEggMoves: 
+	db RECOVER
+	db CURSE
+	db SAND_ATTACK
+	db MINIMIZE
+	db SPIKE_CANNON
+	db -1 ; end
+
 EyechosisEggMoves:
 	db PAIN_SPLIT
 	db PROTECT
@@ -857,13 +868,5 @@ PilfoardEggMoves:
 	db SPIKE_CANNON
 	db -1 ; end
 	
-MissingnoEggMoves: ;todo slowhog egg move TODO
-	db RECOVER
-	db CURSE
-	db SAND_ATTACK
-	db MINIMIZE
-	db SPIKE_CANNON
-	db -1 ; end
-
 NoEggMoves:
 	db -1 ; end
