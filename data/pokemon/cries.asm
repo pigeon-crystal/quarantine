@@ -5,13 +5,13 @@ ENDM
 
 PokemonCries::
 ; entries correspond to constants/pokemon_constants.asm
-	mon_cry CRY_BULBASAUR,   128,  129 ; KORDIENA
-	mon_cry CRY_BULBASAUR,    32,  256 ; SORDRAENA
-	mon_cry CRY_BULBASAUR,     0,  320 ; TYRDRAGA
-	mon_cry CRY_CHARMANDER,   96,  192 ; AERFAEDRA
-	mon_cry CRY_CHARMANDER,   32,  192 ; KITSYNA
-	mon_cry CRY_CHARMANDER,    0,  256 ; CERKITAYSA
-	mon_cry CRY_SQUIRTLE,     96,  192 ; GIGASYNAPA
+	mon_cry $12, 			  $0300,  $012A ; KORDIENA
+	mon_cry $12,    		$08d5,  $00ff ; SORDRAENA
+	mon_cry $12,     		$06f7,  $00ff ; TYRDRAGA
+	mon_cry $12,   			$0ab7,  $00ff ; AERFAEDRA
+	mon_cry $12,   			$0a07,  $00ff ; KITSYNA
+	mon_cry $12,    		$0add,  $00ff ; CERKITAYSA
+	mon_cry $12,     		$0907,  $01ff ; GIGASYNAPA
 	mon_cry CRY_SQUIRTLE,     32,  192 ; WARTORTLE
 	mon_cry CRY_BLASTOISE,     0,  256 ; BLASTOISE
 	mon_cry $13,   			$0160, $0090 ; BUZZLING
@@ -29,7 +29,7 @@ PokemonCries::
 	mon_cry $3B,      		$0f4b, $01b0 ; QWALLOP
 	mon_cry CRY_EKANS,       130,  276 ; WYRMOMETER
 	mon_cry CRY_EKANS,       436,  255 ; IGNAGA
-	mon_cry CRY_BULBASAUR,   238,  129 ; BUDGANEER
+	mon_cry $10,  			$07DD, $00FF ; BUDGANEER
 	mon_cry CRY_RAICHU,      238,  136 ; RAICHU
 	mon_cry CRY_NIDORAN_M,    32,  192 ; SANDOLPH
 	mon_cry CRY_NIDORAN_M,   255,  383 ; DUNEFIN
@@ -94,8 +94,8 @@ PokemonCries::
 	mon_cry CRY_TOTODILE,    100,  200 ; JADDICE
 	mon_cry CRY_GRIMER,      787,  256 ; DUMBLOON
 	mon_cry CRY_CYNDAQUIL,   999,  383 ; ZEPPLIUM
-	mon_cry CRY_FEAROW,        0,  256 ; BAMBABY
-	mon_cry CRY_FEAROW,      111,  352 ; PIPENDA
+	mon_cry $0C,        	 $0188,  $0040 ; BAMBABY
+	mon_cry $0C,      		 $0EF2,  $00F1 ; PIPENDA
 	mon_cry CRY_METAPOD,       0,  256 ; FLUFFRUIT
 	mon_cry CRY_METAPOD,      48,  192 ; SCRUFFRUIT
 	mon_cry CRY_MUK,           0,  383 ; PITAYRANT
@@ -155,7 +155,7 @@ PokemonCries::
 	mon_cry CRY_BULBASAUR,    64,  256 ; CHELYNOBLE
 	mon_cry CRY_BULBASAUR,    60,  320 ; SEABEHEM
 	mon_cry CRY_MA_0,          0,  252 ; MA_0
-	mon_cry CRY_PARAS,       238,  383 ; MEW
+	mon_cry $1B,       		$0126,  $0100 ; MEW
 	mon_cry $14,  	 		$0046,  $0082 	; CIGERILLAR, orig CHIKORITA
 	mon_cry $14,       		$0069,  $0299 	; TOBACOON, 
 	mon_cry $14,  			$2ffd,  $0217 	; OKAMIKAZE,
@@ -183,9 +183,9 @@ PokemonCries::
 	mon_cry CRY_TOGETIC,    -177,  444 ; ALLSEERAPH
 	mon_cry CRY_NATU,       -103,  256 ; SQWUCKY
 	mon_cry CRY_NATU,       -167,  360 ; SQUEENIE
-	mon_cry CRY_MAREEP,       34,  216 ; YUESBI
-	mon_cry CRY_MAREEP,       -7,  384 ; YUEFOE
-	mon_cry CRY_AMPHAROS,   -124,  232 ; VIRUES
+	mon_cry $18,       		$0320,  $0022 ; YUESBI
+	mon_cry $18,		    $012D,  $00F0 ; YUEFOE
+	mon_cry $18,   			$0A2D,  $00F0 ; VIRUES
 	mon_cry $1C,        	$0010, $0070 ; PLANTENNA
 	mon_cry $1C,       		$001B, $0060 ; HABBLE
 	mon_cry $1C,      		$0F1B, $00A0 ; SATELISK
