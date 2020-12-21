@@ -208,6 +208,8 @@
 	const ICON_BUDGANEER
 	const ICON_DONUKAME
 	const ICON_KORDIENA
+	const ICON_SORDRAENA
+	const ICON_KITSYNA
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

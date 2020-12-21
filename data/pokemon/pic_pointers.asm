@@ -10,8 +10,8 @@ PokemonPicPointers::
 	dba TyrdragaBackpic
 	dba AerfaedraFrontpic
 	dba AerfaedraBackpic
-	dba CharmeleonFrontpic
-	dba CharmeleonBackpic
+	dba KitsynaFrontpic
+	dba KitsynaBackpic
 	dba CerkitaysaFrontpic
 	dba CerkitaysaBackpic
 	dba GigasynapaFrontpic

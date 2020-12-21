@@ -1,6 +1,6 @@
 	db AERFAEDRA ; 133
 
-	db  85,  70,  90,  90,  115,  80
+	db  80,  74,  89,  90,  117,  80
 	;   hp  atk  def  spd  sat  sdf
 
 	db FAIRY, DRAGON ; type

@@ -4,7 +4,7 @@ PokedexDataPointerTable:
 	dw SordraenaPokedexEntry
 	dw TyrdragaPokedexEntry
 	dw AerfaedraPokedexEntry
-	dw CharmeleonPokedexEntry
+	dw KitsynaPokedexEntry
 	dw CerkitaysaPokedexEntry
 	dw GigasynapaPokedexEntry
 	dw WartortlePokedexEntry

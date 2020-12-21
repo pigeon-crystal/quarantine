@@ -5,7 +5,7 @@ EvosAttacksPointers::
 	dw SordraenaEvosAttacks
 	dw TyrdragaEvosAttacks
 	dw AerfaedraEvosAttacks
-	dw CharmeleonEvosAttacks
+	dw KitsynaEvosAttacks
 	dw CerkitaysaEvosAttacks
 	dw GigasynapaEvosAttacks
 	dw WartortleEvosAttacks

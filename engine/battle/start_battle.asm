@@ -110,7 +110,7 @@ PlayBattleMusic:
 	cp RED
 	jr z, .done
 
-	ld de, MUSIC_YOTSUBA
+	ld de, MUSIC_YOTSUBA2
 	cp YOTSUBA_CLASS
 	jr z, .done
 	

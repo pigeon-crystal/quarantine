@@ -20,43 +20,116 @@ INCLUDE "data/pokemon/evolution_moves.asm"
 INCLUDE "data/pokemon/evos_attacks_pointers.asm"
 
 KordienaEvosAttacks: ;TODO fix this shit man
-	db EVOLVE_LEVEL, 16, SORDRAENA
+	db EVOLVE_TAXO1, 22, SPD_GT_DEF, KITSYNA
+	db EVOLVE_TAXO1, 22, SPD_LT_DEF, SORDRAENA
 	db 0 ; no more evolutions
-	db 1, POISON_JAB
+	db 1, BUBBLE
+	db 1, HARDEN
+	db 10, HIDDEN_POWER
+	db 15, FLAIL
+	db 25, MIMIC
 	db 0 ; no more level-up moves
 
 SordraenaEvosAttacks:
-	db EVOLVE_LEVEL, 32, TYRDRAGA
+	db EVOLVE_TAXO2, 45, ATK_GT_SPD, TYRDRAGA
+	db EVOLVE_TAXO2, 45, ATK_LT_SPD, AERFAEDRA
 	db 0 ; no more evolutions
-	db 1, POUND
+	db 1, SCRATCH
+	db 10, HIDDEN_POWER
+	db 15, FLAIL
+	db 21, MORNING_SUN
+	db 23, ANCIENTPOWER
+	db 29, GLARE
+	db 34, STOMP
+	db 39, DRAGONBREATH
+	db 42, ROAR
 	db 0 ; no more level-up moves
 
 TyrdragaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POUND
+	db 1, SCRATCH
+	db 10, HIDDEN_POWER
+	db 15, FLAIL
+	db 21, MORNING_SUN
+	db 23, ANCIENTPOWER
+	db 29, GLARE
+	db 34, STOMP
+	db 39, DRAGONBREATH
+	db 42, ROAR
+	db 44, FLAME_WHEEL
+	db 50, OUTRAGE
+	db 55, SLASH
+	db 60, DRAGON_DANCE
+	db 65, SUNNY_DAY
 	db 0 ; no more level-up moves
 
 AerfaedraEvosAttacks:
-	db EVOLVE_LEVEL, 16, KITSYNA
 	db 0 ; no more evolutions
 	db 1, SCRATCH
+	db 10, HIDDEN_POWER
+	db 15, FLAIL
+	db 21, MORNING_SUN
+	db 23, ANCIENTPOWER
+	db 29, GLARE
+	db 34, STOMP
+	db 39, DRAGONBREATH
+	db 42, ROAR
+	db 44, SING
+	db 50, MOONBLAST
+	db 55, BRAVE_BIRD
+	db 60, NASTY_PLOT
+	db 65, RAZOR_WIND
 	db 0 ; no more level-up moves
 
-CharmeleonEvosAttacks:
-	db EVOLVE_LEVEL, 36, CERKITAYSA
+KitsynaEvosAttacks:
+	db EVOLVE_TAXO2, 45, ATK_GT_SPD, GIGASYNAPA
+	db EVOLVE_TAXO2, 45, ATK_LT_SPD, CERKITAYSA
 	db 0 ; no more evolutions
-	db 1, SCRATCH
+	db 1, POUND
+	db 10, HIDDEN_POWER
+	db 15, FLAIL
+	db 21, MILK_DRINK
+	db 23, CONFUSION
+	db 29, SNARL
+	db 34, STOMP
+	db 39, HYPNOSIS
+	db 42, PSYBEAM
 	db 0 ; no more level-up moves
 
 CerkitaysaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SCRATCH
+	db 1, POUND
+	db 10, HIDDEN_POWER
+	db 15, FLAIL
+	db 21, MILK_DRINK
+	db 23, CONFUSION
+	db 29, SNARL
+	db 34, STOMP
+	db 39, HYPNOSIS
+	db 42, PSYBEAM	
+	db 44, EXTREMESPEED
+	db 50, THUNDERBOLT
+	db 55, CALM_MIND
+	db 60, PSYCHIC_M
+	db 65, THUNDER
 	db 0 ; no more level-up moves
 
 GigasynapaEvosAttacks:
-	db EVOLVE_LEVEL, 16, WARTORTLE
 	db 0 ; no more evolutions
 	db 1, POUND
+	db 10, HIDDEN_POWER
+	db 15, FLAIL
+	db 21, MILK_DRINK
+	db 23, CONFUSION
+	db 29, SNARL
+	db 34, STOMP
+	db 39, HYPNOSIS
+	db 42, PSYBEAM	
+	db 44, PSYCHO_CUT
+	db 50, CRUNCH
+	db 55, BELLY_DRUM
+	db 60, THRASH
+	db 65, DARK_PULSE
 	db 0 ; no more level-up moves
 
 WartortleEvosAttacks:
@@ -340,7 +413,18 @@ IgnagaEvosAttacks:
 BudganeerEvosAttacks:
 	db EVOLVE_LEVEL, 40, RAICHU
 	db 0 ; no more evolutions
-	db 1, THUNDERSHOCK
+	db 1, EMBER
+	db 1, LEER
+	db 6, PECK
+	db 13, MIMIC
+	db 18, SMOKESCREEN
+	db 24, WING_ATTACK
+	db 28, WHIRLWIND
+	db 32, FIRE_SPIN
+	db 37, SING
+	db 42, FLAME_WHEEL
+	db 46, BRAVE_BIRD
+	db 50, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 RaichuEvosAttacks:
@@ -828,7 +912,7 @@ TodescoolEvosAttacks:
 	db 0 ; no more level-up moves
 
 JunobeEvosAttacks:
-	db EVOLVE_LEVEL, 17, VOYAPOD
+	db EVOLVE_LEVEL, 23, VOYAPOD
 	db 0 ; no more evolutions
 	db 1, CONSTRICT
 	db 1, FORESIGHT
@@ -836,7 +920,6 @@ JunobeEvosAttacks:
 	db 7, DISABLE
 	db 13, CONFUSION
 	db 19, ENCORE
-	db 19, WRAP
 	db 23, BUBBLEBEAM
 	db 29, AURORA_BEAM
 	db 31, PSYBEAM
@@ -2113,17 +2196,31 @@ BermudantEvosAttacks:
 
 WallarriorEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POUND
+	db 1, SCRATCH
+	db 1, LEER
+	db 6, SAND_ATTACK
+	db 12, HARDEN
+	db 18, DIG
+	db 21, METAL_CLAW
+	db 26, SLASH
+	db 33, SHARPEN
+	db 37, PLAY_ROUGH
+	db 45, EARTHQUAKE
+	db 55, BODY_SLAM
 	db 0 ; no more level-up moves
 
 FalwodurEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POUND
+	db 1, HARDEN
+	db 1, ACID
+	db 20, DEFENSE_CURL
+	db 24, SPIKE_CANNON
 	db 0 ; no more level-up moves
 
 FalwodraigEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, THRASH
+	db 1, HARDEN
+	db 1, ACID
 	db 0 ; no more level-up moves
 
 MandelblobEvosAttacks:
@@ -2329,7 +2426,18 @@ ArticunoEvosAttacks:
 
 NikujiraEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, PECK
+	db 1, WATER_GUN
+	db 8, HYPNOSIS
+	db 10, STOMP
+	db 17, HORN_ATTACK
+	db 22, HAZE
+	db 30, RECOVER
+	db 36, SHADOW_CLAW
+	db 42, DISABLE
+	db 47, LIQUIDATION
+	db 51, EXPLOSION
+	db 56, HYDRO_PUMP
+	db 63, HORN_DRILL
 	db 0 ; no more level-up moves
 
 BlazenbullEvosAttacks:
@@ -2352,7 +2460,12 @@ BlazenbullEvosAttacks:
 ChernomuskEvosAttacks:
 	db EVOLVE_LEVEL, 30, CHELYNOBLE
 	db 0 ; no more evolutions
-	db 1, WRAP
+	db 1, LEER
+	db 1, HARDEN
+	db 1, POUND
+	db 15, BUBBLE
+	db 20, BARRIER
+	db 25, BUBBLEBEAM
 	db 0 ; no more level-up moves
 
 ChelynobleEvosAttacks:
@@ -2891,6 +3004,7 @@ YuesbiEvosAttacks:
 	db EVOLVE_LEVEL, 40, VIRUES
 	db 0 ; no more evolutions
 	db 1, SCREECH
+	db 1, SPARK
 	db 7, DOUBLESLAP
 	db 10, SCARY_FACE
 	db 16, THUNDER_WAVE
@@ -2905,7 +3019,7 @@ YuesbiEvosAttacks:
 YuefoeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCREECH
-	db 1, THUNDERSHOCK
+	db 1, SPARK
 	db 18, THUNDER_WAVE
 	db 29, RECOVER
 	db 36, LIGHT_SCREEN
@@ -2918,16 +3032,18 @@ YuefoeEvosAttacks:
 
 ViruesEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POUND
-	db 1, GROWL
-	db 1, THUNDERSHOCK
-	db 1, THUNDER_WAVE
+	db 1, SCREECH
+	db 1, SCARY_FACE
+	db 1, GLARE
 	db 9, THUNDERSHOCK
-	db 18, THUNDER_WAVE
-	db 27, COTTON_SPORE
-	db 30, THUNDERPUNCH
-	db 42, LIGHT_SCREEN
-	db 57, THUNDER
+	db 18, REST
+	db 22, BITE
+	db 30, LEECH_SEED
+	db 34, SPARK
+	db 28, CONFUSE_RAY
+	db 42, CRUNCH
+	db 50, BUG_BUZZ
+	db 60, OUTRAGE
 	db 0 ; no more level-up moves
 
 PlantennaEvosAttacks:
@@ -3843,10 +3959,10 @@ SlowhogEvosAttacks:
 	db 35, SUBSTITUTE
 	db 40, GROWL
 	db 45, SPIKES
-	db 55, EARTH_POWER
-	db 57, TRI_ATTACK
-	db 59, HYPER_BEAM
-	db 65, FISSURE
+	db 56, EARTH_POWER
+	db 58, TRI_ATTACK
+	db 60, HYPER_BEAM
+	db 75, FISSURE
 	db 0 ; no more level-up moves
 
 EyechosisEvosAttacks:

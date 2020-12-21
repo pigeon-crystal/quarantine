@@ -208,4 +208,6 @@ IconPointers:
 	dw BudganeerIcon
 	dw DonukameIcon
 	dw KordienaIcon
+	dw SordraenaIcon
+	dw KitsynaIcon
 	

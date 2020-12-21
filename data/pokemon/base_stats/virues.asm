@@ -1,6 +1,6 @@
 	db VIRUES ; 142
 
-	db  99, 101,  65,  97,  90,  69
+	db  99, 99,  113,  31,  85,  94
 	;   hp  atk  def  spd  sat  sdf
 
 	db ELECTRIC, BUG ; type
