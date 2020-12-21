@@ -56,6 +56,8 @@ PlayersHouseRadioScript:
 	setflag ENGINE_FOGBADGE
 	setflag ENGINE_RISINGBADGE
 	setflag ENGINE_MINERALBADGE
+	setevent EVENT_TEAM_ROCKET_BASE_POPULATION
+	setevent ROCKET_BF3_VIRUES_2
 	giveitem TM_TWISTER
 	giveitem TM_REST
 	giveitem HM_WHIRLPOOL
@@ -71,7 +73,7 @@ PlayersHouseRadioScript:
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
-	warp ROUTE_45_PASSAGE, 55, 12
+	warp TEAM_ROCKET_BASE_B3F, 22, 8
 	end
 	
 ;PlayersHouseRadioScript:

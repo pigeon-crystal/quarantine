@@ -21,8 +21,10 @@ TeamRocketBaseB3F_MapScripts:
 	scene_script .DummyScene2 ; SCENE_TEAMROCKETBASEB3F_ROCKET_BOSS
 	scene_script .DummyScene3 ; SCENE_TEAMROCKETBASEB3F_NOTHING
 
-	db 1 ; callbacks
+	db 3 ; callbacks
 	callback MAPCALLBACK_TILES, .CheckGiovanniDoor
+	callback MAPCALLBACK_TILES, .CheckViruesComputer1
+	callback MAPCALLBACK_TILES, .CheckViruesComputer2
 
 .LanceGetsPassword:
 	prioritysjump LanceGetPasswordScript
@@ -44,6 +46,24 @@ TeamRocketBaseB3F_MapScripts:
 
 .OpenSesame:
 	changeblock 10, 8, $07 ; floor
+	return
+	
+.CheckViruesComputer1
+	checkevent ROCKET_BF3_VIRUES_1
+	iftrue .NormalDesk1
+	return
+	
+.NormalDesk1
+	changeblock 24, 6, $29 ; desk
+	return
+
+.CheckViruesComputer2
+	checkevent ROCKET_BF3_VIRUES_2
+	iftrue .NormalDesk2
+	return
+	
+.NormalDesk2
+	changeblock 20, 10, $29 ; desk
 	return
 
 LanceGetPasswordScript:
@@ -562,6 +582,51 @@ TeamRocketBaseB3FLockedDoorOpenSesameText:
 
 	para "The door opened!"
 	done
+	
+ViruesEvent1:
+	conditional_event ROCKET_BF3_VIRUES_1, .Script
+
+.Script
+	opentext 
+	writetext ComputerText
+	waitbutton
+	closetext
+	cry VIRUES
+	loadwildmon VIRUES, 32
+	startbattle 
+	setevent ROCKET_BF3_VIRUES_1
+	reloadmapafterbattle
+	changeblock 24, 6, $29
+	reloadmappart
+	end
+
+ViruesEvent2:
+	conditional_event ROCKET_BF3_VIRUES_2, .Script
+
+.Script
+	opentext 
+	writetext ComputerText
+	waitbutton
+	closetext
+	cry VIRUES
+	loadwildmon VIRUES, 32
+	startbattle 
+	setevent ROCKET_BF3_VIRUES_2
+	reloadmapafterbattle
+	changeblock 20, 10, $29
+	reloadmappart
+	end
+
+ComputerText:
+	text "It's a computer"
+	line "with information"
+	cont "about TEAM ROCKET."
+	
+	para "… … …"
+	
+	para "And it's looking"
+	line "right at you!"
+	done
 
 TeamRocketBaseB3F_MapEvents:
 	db 0, 0 ; filler
@@ -577,7 +642,7 @@ TeamRocketBaseB3F_MapEvents:
 	coord_event 11,  8, SCENE_TEAMROCKETBASEB3F_ROCKET_BOSS, RocketBaseBossRight
 	coord_event  8, 10, SCENE_TEAMROCKETBASEB3F_RIVAL_ENCOUNTER, RocketBaseRival
 
-	db 10 ; bg events
+	db 12 ; bg events
 	bg_event 10,  9, BGEVENT_IFNOTSET, TeamRocketBaseB3FLockedDoor
 	bg_event 11,  9, BGEVENT_IFNOTSET, TeamRocketBaseB3FLockedDoor
 	bg_event 10,  1, BGEVENT_READ, TeamRocketBaseB3FOathScript
@@ -588,6 +653,8 @@ TeamRocketBaseB3F_MapEvents:
 	bg_event  5, 13, BGEVENT_READ, TeamRocketBaseB3FOathScript
 	bg_event  6, 13, BGEVENT_READ, TeamRocketBaseB3FOathScript
 	bg_event  7, 13, BGEVENT_READ, TeamRocketBaseB3FOathScript
+	bg_event 25, 6,  BGEVENT_IFNOTSET, ViruesEvent1
+	bg_event 21, 10, BGEVENT_IFNOTSET, ViruesEvent2
 
 	db 14 ; object events
 	object_event 25, 14, SPRITE_LANCE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LanceGetPasswordScript, EVENT_TEAM_ROCKET_BASE_B3F_LANCE_PASSWORDS
