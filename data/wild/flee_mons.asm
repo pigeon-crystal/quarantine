@@ -13,6 +13,6 @@ OftenFleeMons:
 	db -1
 
 AlwaysFleeMons:
-	db ARTICUNO
+	db TERRATORA
 	db NIKUJIRA
 	db -1

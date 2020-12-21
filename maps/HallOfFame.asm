@@ -106,6 +106,8 @@ HallOfFame_LanceText:
 
 	para "and your partners"
 	line "as CHAMPIONS!"
+	
+	para "Congratulations!"
 	done
 
 HallOfFame_MapEvents:

@@ -16,6 +16,27 @@ IcePath1FPPUp:
 
 IcePath1FProtein:
 	itemball PROTEIN
+	
+MtNootEvent1:
+	conditional_event, ICE_PATH_NOOT_1, .Script
+
+.Script
+	opentext 
+	writetext RockIsMoving1
+	waitbutton
+	closetext
+	cry MT_NOOT
+	loadwildmon MT_NOOT, 44
+	startbattle 
+	setevent ICE_PATH_NOOT_1
+	reloadmapafterbattle
+	end
+	
+RockIsMoving1:
+	text "Huh?"
+	
+	para "The rock is"
+	line "moving!"
 
 IcePath1F_MapEvents:
 	db 0, 0 ; filler
@@ -28,7 +49,8 @@ IcePath1F_MapEvents:
 
 	db 0 ; coord events
 
-	db 0 ; bg events
+	db 1 ; bg events
+	bg_event 25, 15, BGEVENT_IFNOTSET, MtNootEvent1
 
 	db 3 ; object events
 	object_event 31,  7, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IcePath1FHMWaterfall, EVENT_GOT_HM07_WATERFALL

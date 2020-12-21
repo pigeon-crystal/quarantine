@@ -27,6 +27,27 @@ IcePathB2FMahoganySideBoulderText:
 	text "It's immovably"
 	line "imbedded in ice."
 	done
+	
+MtNootEvent4:
+	conditional_event, ICE_PATH_NOOT_4, .Script
+
+.Script
+	opentext 
+	writetext RockIsMoving4
+	waitbutton
+	closetext
+	cry MT_NOOT
+	loadwildmon MT_NOOT, 44
+	startbattle 
+	setevent ICE_PATH_NOOT_4
+	reloadmapafterbattle
+	end
+	
+RockIsMoving4:
+	text "Huh?"
+	
+	para "The rock is"
+	line "moving!"
 
 IcePathB2FMahoganySide_MapEvents:
 	db 0, 0 ; filler
@@ -41,8 +62,9 @@ IcePathB2FMahoganySide_MapEvents:
 
 	db 0 ; coord events
 
-	db 1 ; bg events
+	db 2 ; bg events
 	bg_event  0, 17, BGEVENT_ITEM, IcePathB2FMahoganySideHiddenCarbos
+	bg_event 19,  2, BGEVENT_IFNOTSET, MtNootEvent4
 
 	db 6 ; object events
 	object_event 11,  3, SPRITE_BOULDER, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IcePathB2FMahoganySideBoulder, EVENT_BOULDER_IN_ICE_PATH_1A

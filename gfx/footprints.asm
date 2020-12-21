@@ -192,7 +192,7 @@ INCBIN "gfx/footprints/dismaiden.1bpp",    footprint_bottom
 ; 081-088 top halves
 INCBIN "gfx/footprints/bedlamam.1bpp",  footprint_top
 INCBIN "gfx/footprints/magneton.1bpp",   footprint_top
-INCBIN "gfx/footprints/farfetch_d.1bpp", footprint_top
+INCBIN "gfx/footprints/ampala.1bpp", footprint_top
 INCBIN "gfx/footprints/doduo.1bpp",      footprint_top
 INCBIN "gfx/footprints/dodrio.1bpp",     footprint_top
 INCBIN "gfx/footprints/caddisicle.1bpp",       footprint_top
@@ -201,7 +201,7 @@ INCBIN "gfx/footprints/dumbloon.1bpp",     footprint_top
 ; 081-088 bottom halves
 INCBIN "gfx/footprints/bedlamam.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/magneton.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/farfetch_d.1bpp", footprint_bottom
+INCBIN "gfx/footprints/ampala.1bpp", footprint_bottom
 INCBIN "gfx/footprints/doduo.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/dodrio.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/caddisicle.1bpp",       footprint_bottom
@@ -323,7 +323,7 @@ INCBIN "gfx/footprints/belloceros.1bpp",     footprint_top
 INCBIN "gfx/footprints/subceros.1bpp",   footprint_top
 INCBIN "gfx/footprints/wellwitch.1bpp", footprint_top
 INCBIN "gfx/footprints/therazor.1bpp",    footprint_top
-INCBIN "gfx/footprints/articuno.1bpp",   footprint_top
+INCBIN "gfx/footprints/terratora.1bpp",   footprint_top
 ; 137-144 bottom halves
 INCBIN "gfx/footprints/porygon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/mammothra.1bpp",    footprint_bottom
@@ -332,7 +332,7 @@ INCBIN "gfx/footprints/belloceros.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/subceros.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/wellwitch.1bpp", footprint_bottom
 INCBIN "gfx/footprints/therazor.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/articuno.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/terratora.1bpp",   footprint_bottom
 ; 145-152 top halves
 INCBIN "gfx/footprints/nikujira.1bpp",     footprint_top
 INCBIN "gfx/footprints/blazenbull.1bpp",    footprint_top

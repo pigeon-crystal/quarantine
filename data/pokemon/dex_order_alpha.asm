@@ -8,7 +8,7 @@ AlphabeticalPokedexOrder:
 	db VIRUES
 	db ANTPYRE
 	db ARASBESTOS
-	db ARTICUNO
+	db TERRATORA
 	db ATTACKO
 	db BEHEMOTHRA
 	db BELLOCEROS
@@ -57,7 +57,7 @@ AlphabeticalPokedexOrder:
 	db EUKUB
 	db EXOTUNITY
 	db EYECHOSIS
-	db FARFETCH_D
+	db AMPALA
 	db FELIORITTE
 	db FLAREON
 	db FLUFFRUIT

@@ -210,4 +210,5 @@ IconPointers:
 	dw KordienaIcon
 	dw SordraenaIcon
 	dw KitsynaIcon
+	dw TyrdragaIcon
 	

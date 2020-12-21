@@ -1,6 +1,6 @@
 	db ANDROMEGA ; 142
 
-	db  77, 99,  70, 130,  127,  77
+	db  77, 99,  71, 130,  127,  77
 	;   hp  atk  def  spd  sat  sdf
 
 	db FLYING, DARK ; type

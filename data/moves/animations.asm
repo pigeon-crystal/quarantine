@@ -1576,6 +1576,14 @@ BattleAnim_FurySwipes:
 	anim_ret
 
 BattleAnim_XScissor:
+    anim_1gfx ANIM_GFX_CUT
+    anim_sound 0, 1, SFX_CUT
+    anim_bgeffect ANIM_BG_1F, $08, $2, $0
+    anim_obj ANIM_OBJ_3A, 150, 40, $0
+    anim_obj ANIM_OBJ_3B, 118, 40, $0
+    anim_wait 32
+    anim_ret
+
 BattleAnim_Cut:
 	anim_1gfx ANIM_GFX_CUT
 	anim_sound 0, 1, SFX_CUT
@@ -4190,6 +4198,38 @@ BattleAnim_Nitroblaze:
 	anim_ret
 
 BattleAnim_EarthPower:
+    anim_2gfx ANIM_GFX_FIRE, ANIM_GFX_ROCKS
+    anim_sound 0, 0, SFX_EGG_BOMB
+    anim_bgp $1b
+    anim_bgeffect ANIM_BG_1F, $28, $2, $0
+    anim_obj ANIM_OBJ_ROCK_SMASH, 120, 68, $5c
+    anim_obj ANIM_OBJ_ROCK_SMASH, 120, 68, $e8
+    anim_obj ANIM_OBJ_ROCK_SMASH, 120, 68, $9c
+    anim_obj ANIM_OBJ_ROCK_SMASH, 120, 68, $50
+    anim_obj ANIM_OBJ_EMBER, 120, 68, $30
+    anim_wait 40
+    anim_clearobjs
+    anim_wait 8
+    anim_sound 0, 0, SFX_EGG_BOMB
+    anim_bgeffect ANIM_BG_1F, $28, $2, $0
+    anim_obj ANIM_OBJ_ROCK_SMASH, 144, 68, $5c
+    anim_obj ANIM_OBJ_ROCK_SMASH, 144, 68, $e8
+    anim_obj ANIM_OBJ_ROCK_SMASH, 144, 68, $d0
+    anim_obj ANIM_OBJ_ROCK_SMASH, 144, 68, $10
+    anim_obj ANIM_OBJ_EMBER, 144, 68, $30
+    anim_wait 40
+    anim_clearobjs
+    anim_wait 8
+    anim_sound 0, 0, SFX_EGG_BOMB
+    anim_bgeffect ANIM_BG_1F, $28, $2, $0
+    anim_obj ANIM_OBJ_ROCK_SMASH, 132, 68, $28
+    anim_obj ANIM_OBJ_ROCK_SMASH, 132, 68, $e8
+    anim_obj ANIM_OBJ_ROCK_SMASH, 132, 68, $d0
+    anim_obj ANIM_OBJ_ROCK_SMASH, 132, 68, $50
+    anim_obj ANIM_OBJ_EMBER, 132, 68, $30
+    anim_wait 48
+    anim_ret
+
 BattleAnim_Magnitude:
 	anim_1gfx ANIM_GFX_ROCKS
 .loop

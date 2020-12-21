@@ -166,8 +166,8 @@ PokemonPicPointers::
 	dba BedlamamBackpic
 	dba MagnetonFrontpic
 	dba MagnetonBackpic
-	dba FarfetchDFrontpic
-	dba FarfetchDBackpic
+	dba AmpalaFrontpic
+	dba AmpalaBackpic
 	dba DoduoFrontpic
 	dba DoduoBackpic
 	dba DodrioFrontpic
@@ -288,8 +288,8 @@ PokemonPicPointers::
 	dba WellwitchBackpic
 	dba TherazorFrontpic
 	dba TherazorBackpic
-	dba ArticunoFrontpic
-	dba ArticunoBackpic
+	dba TerratoraFrontpic
+	dba TerratoraBackpic
 	dba NikujiraFrontpic
 	dba NikujiraBackpic
 	dba BlazenbullFrontpic

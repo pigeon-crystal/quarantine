@@ -52,7 +52,8 @@ PosterScript:
 
 PlayersHouseRadioScript:
 	setflag ENGINE_POKEDEX
-	givepoke STRATOWAR, 50
+	givepoke MT_NOOT, 50
+	givepoke TYRDRAGA, 50
 	setflag ENGINE_FOGBADGE
 	setflag ENGINE_RISINGBADGE
 	setflag ENGINE_MINERALBADGE

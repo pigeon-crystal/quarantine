@@ -87,7 +87,7 @@ PokemonCries::
 	mon_cry CRY_GROWLITHE,     0,  256 ; DISMAIDEN
 	mon_cry CRY_METAPOD,     128,  224 ; BEDLAMAM
 	mon_cry CRY_METAPOD,      32,  320 ; MAGNETON
-	mon_cry CRY_SPEAROW,     221,  129 ; FARFETCH_D
+	mon_cry CRY_SPEAROW,     221,  129 ; AMPALA
 	mon_cry CRY_DIGLETT,     187,  129 ; DODUO
 	mon_cry CRY_DIGLETT,     153,  160 ; DODRIO
 	mon_cry CRY_TOTODILE,    -50,  123 ; CADDISICLE
@@ -148,7 +148,7 @@ PokemonCries::
 	mon_cry CRY_FEAROW,      238,  129 ; SUBCEROS
 	mon_cry CRY_VILEPLUME,    32,  368 ; WELLWITCH
 	mon_cry CRY_GRIMER,       85,  129 ; THERAZOR
-	mon_cry CRY_RAICHU,      128,  192 ; ARTICUNO
+	mon_cry CRY_RAICHU,      128,  192 ; TERRATORA
 	mon_cry CRY_FEAROW,      255,  256 ; NIKUJIRA
 	mon_cry CRY_RAICHU,      248,  192 ; BLAZENBULL
 	mon_cry CRY_BULBASAUR,    96,  192 ; CHERNOMUSK

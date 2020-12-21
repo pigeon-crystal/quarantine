@@ -101,8 +101,8 @@
 	const DISMAIDEN  ; 50 
 	const BEDLAMAM   ; 51 
 	const MAGNETON   ; 52 antelope
-	const FARFETCH_D ; 53 fire antelope
-	const DODUO      ; 54 elec antelope
+	const AMPALA 	 ; 53 elec antelope
+	const DODUO      ; 54 fire antelope
 	const DODRIO     ; 55 otter
 	const CADDISICLE ; 56
 	const JADDICE    ; 57
@@ -153,17 +153,17 @@
 	const HELACTAL   ; 84
 	const NOOMSDAY   ; 85 
 	const GANZORAH   ; 86 
-	const JOLTEON    ; 87 Mist Moomin
-	const FLAREON    ; 88 Mist Rando
-	const PORYGON    ; 89 Dr Scorp
+	const JOLTEON    ; 87 Dr Scorp
+	const FLAREON    ; 88 Mist Moomin
+	const PORYGON    ; 89 Mist Vote
 	const MAMMOTHRA  ; 8a
 	const BEHEMOTHRA ; 8b
 	const BELLOCEROS ; 8c
 	const SUBCEROS   ; 8d 
 	const WELLWITCH  ; 8e 
 	const THERAZOR   ; 8f 
-	const ARTICUNO   ; 90 horn trio
-	const NIKUJIRA     ; 91 horn trio
+	const TERRATORA  ; 90
+	const NIKUJIRA   ; 91 
 	const BLAZENBULL ; 92
 	const CHERNOMUSK ; 93
 	const CHELYNOBLE ; 94 

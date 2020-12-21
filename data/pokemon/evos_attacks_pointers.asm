@@ -83,7 +83,7 @@ EvosAttacksPointers::
 	dw DismaidenEvosAttacks
 	dw BedlamamEvosAttacks
 	dw MagnetonEvosAttacks
-	dw FarfetchDEvosAttacks
+	dw AmpalaEvosAttacks
 	dw DoduoEvosAttacks
 	dw DodrioEvosAttacks
 	dw CaddisicleEvosAttacks
@@ -144,7 +144,7 @@ EvosAttacksPointers::
 	dw SubcerosEvosAttacks
 	dw WellwitchEvosAttacks
 	dw TherazorEvosAttacks
-	dw ArticunoEvosAttacks
+	dw TerratoraEvosAttacks
 	dw NikujiraEvosAttacks
 	dw BlazenbullEvosAttacks
 	dw ChernomuskEvosAttacks

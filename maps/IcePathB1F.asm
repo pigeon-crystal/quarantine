@@ -72,6 +72,44 @@ IcePathBoulderFellThroughText:
 	text "The boulder fell"
 	line "through."
 	done
+	
+MtNootEvent2:
+	conditional_event, ICE_PATH_NOOT_2, .Script
+
+.Script
+	opentext 
+	writetext RockIsMoving2
+	waitbutton
+	closetext
+	cry MT_NOOT
+	loadwildmon MT_NOOT, 44
+	startbattle 
+	setevent ICE_PATH_NOOT_2
+	reloadmapafterbattle
+	end
+	
+RockIsMoving2:
+	text "Huh?"
+	
+	para "The rock is"
+	line "moving!"
+	
+MtNootEvent6:
+	conditional_event, ICE_PATH_NOOT_6, .Script
+
+.Script
+	opentext 
+	writetext RockIsMoving2
+	waitbutton
+	closetext
+	cry MT_NOOT
+	loadwildmon MT_NOOT, 44
+	loadvar VAR_BATTLETYPE, BATTLETYPE_SHINY
+	startbattle 
+	setevent ICE_PATH_NOOT_6
+	reloadmapafterbattle
+	end
+
 
 IcePathB1F_MapEvents:
 	db 0, 0 ; filler
@@ -88,8 +126,10 @@ IcePathB1F_MapEvents:
 
 	db 0 ; coord events
 
-	db 1 ; bg events
+	db 3 ; bg events
 	bg_event 17, 30, BGEVENT_ITEM, IcePathB1FHiddenMaxPotion
+	bg_event 17, 13, BGEVENT_IFNOTSET, MtNootEvent2
+	bg_event 4, 35, BGEVENT_IFNOTSET, MtNootEvent6
 
 	db 5 ; object events
 	object_event 11,  7, SPRITE_BOULDER, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IcePathB1FBoulder, EVENT_BOULDER_IN_ICE_PATH_1

@@ -13,6 +13,27 @@ IcePathB3FNevermeltice:
 IcePathB3FRock:
 	jumpstd smashrock
 
+MtNootEvent5:
+	conditional_event, ICE_PATH_NOOT_5, .Script
+
+.Script
+	opentext 
+	writetext RockIsMoving5
+	waitbutton
+	closetext
+	cry MT_NOOT
+	loadwildmon MT_NOOT, 44
+	startbattle 
+	setevent ICE_PATH_NOOT_5
+	reloadmapafterbattle
+	end
+	
+RockIsMoving5:
+	text "Huh?"
+	
+	para "The rock is"
+	line "moving!"
+	
 IcePathB3F_MapEvents:
 	db 0, 0 ; filler
 
@@ -22,7 +43,8 @@ IcePathB3F_MapEvents:
 
 	db 0 ; coord events
 
-	db 0 ; bg events
+	db 1 ; bg events
+	bg_event 9, 9, BGEVENT_IFNOTSET, MtNootEvent5
 
 	db 2 ; object events
 	object_event  5,  7, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IcePathB3FNevermeltice, EVENT_ICE_PATH_B3F_NEVERMELTICE

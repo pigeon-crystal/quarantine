@@ -493,7 +493,7 @@ InitRoamMons:
 ; initialize wRoamMon structs
 
 ; species
-	ld a, ARTICUNO
+	ld a, TERRATORA
 	ld [wRoamMon1Species], a
 	ld a, NIKUJIRA
 	ld [wRoamMon2Species], a

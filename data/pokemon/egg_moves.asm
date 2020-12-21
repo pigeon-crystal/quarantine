@@ -335,6 +335,7 @@ DjammEggMoves:
 	db -1; end
 
 CantaloneEggMoves:
+	db FAINT_ATTACK
 	db REFLECT
 	db MEGA_DRAIN
 	db PLAY_ROUGH

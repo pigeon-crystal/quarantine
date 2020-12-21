@@ -1,6 +1,6 @@
 	db NIKUJIRA ; 065
 
-	db  150, 102,  80, 76, 102,  80
+	db  151, 102,  80, 76, 102,  80
 	;   hp  atk  def  spd  sat  sdf
 
 	db GHOST, WATER ; type

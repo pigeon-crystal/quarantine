@@ -82,7 +82,7 @@ PokedexDataPointerTable:
 	dw DismaidenPokedexEntry
 	dw BedlamamPokedexEntry
 	dw MagnetonPokedexEntry
-	dw FarfetchDPokedexEntry
+	dw AmpalaPokedexEntry
 	dw DoduoPokedexEntry
 	dw DodrioPokedexEntry
 	dw CaddisiclePokedexEntry
@@ -143,7 +143,7 @@ PokedexDataPointerTable:
 	dw SubcerosPokedexEntry
 	dw WellwitchPokedexEntry
 	dw TherazorPokedexEntry
-	dw ArticunoPokedexEntry
+	dw TerratoraPokedexEntry
 	dw NikujiraPokedexEntry
 	dw BlazenbullPokedexEntry
 	dw ChernomuskPokedexEntry

@@ -427,14 +427,13 @@ INCLUDE "engine/phone/scripts/generic_callee.asm"
 INCLUDE "engine/events/trainer_scripts.asm"
 
 
-SECTION "bank32", ROMX
+SECTION "bank32", ROMX ; MOVED THE END TO BANK 38
 
 INCLUDE "engine/battle_anims/bg_effects.asm"
 INCLUDE "data/moves/animations.asm"
 INCLUDE "engine/events/poisonstep_pals.asm"
 
-TheEndGFX::
-INCBIN "gfx/credits/theend.2bpp"
+
 
 
 SECTION "Move Animations", ROMX
@@ -464,6 +463,9 @@ INCLUDE "engine/games/card_flip.asm"
 INCLUDE "engine/games/unown_puzzle.asm"
 INCLUDE "engine/games/dummy_game.asm"
 INCLUDE "engine/pokemon/bills_pc.asm"
+
+TheEndGFX::
+INCBIN "gfx/credits/theend.2bpp"	
 
 
 SECTION "bank39", ROMX

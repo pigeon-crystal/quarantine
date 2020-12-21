@@ -850,7 +850,7 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (12) Route 27, hidden by the Solarbeam TM
 	db "JOSE@", TRAINERTYPE_NORMAL
-	db 36, FARFETCH_D
+	db 36, AMPALA
 	db -1 ; end
 
 	; BIRD_KEEPER (13) ;route 32
@@ -864,12 +864,12 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (14)
 	db "JOSE@", TRAINERTYPE_NORMAL
-	db 34, FARFETCH_D
+	db 34, AMPALA
 	db -1 ; end
 
 	; BIRD_KEEPER (15)
 	db "PERRY@", TRAINERTYPE_NORMAL
-	db 34, FARFETCH_D
+	db 34, AMPALA
 	db -1 ; end
 
 	; BIRD_KEEPER (16)
@@ -880,7 +880,7 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (17)
 	db "JOSE@", TRAINERTYPE_MOVES
-	db 40, FARFETCH_D, FURY_SWIPES, DETECT, FLY, SLASH
+	db 40, AMPALA, FURY_SWIPES, DETECT, FLY, SLASH
 	db -1 ; end
 
 	; BIRD_KEEPER (18)

@@ -19,7 +19,7 @@ INCLUDE "engine/pokemon/evolve.asm"
 INCLUDE "data/pokemon/evolution_moves.asm"
 INCLUDE "data/pokemon/evos_attacks_pointers.asm"
 
-KordienaEvosAttacks: ;TODO fix this shit man
+KordienaEvosAttacks:
 	db EVOLVE_TAXO1, 22, SPD_GT_DEF, KITSYNA
 	db EVOLVE_TAXO1, 22, SPD_LT_DEF, SORDRAENA
 	db 0 ; no more evolutions
@@ -1411,13 +1411,13 @@ BedlamamEvosAttacks:
 	db 0 ; no more level-up moves
 
 MagnetonEvosAttacks:
-	db EVOLVE_ITEM, FIRE_STONE, FARFETCH_D
+	db EVOLVE_ITEM, FIRE_STONE, AMPALA
 	db EVOLVE_ITEM, THUNDERSTONE, DODUO
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves
 
-FarfetchDEvosAttacks:
+AmpalaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 0 ; no more level-up moves
@@ -2209,7 +2209,7 @@ WallarriorEvosAttacks:
 	db 55, BODY_SLAM
 	db 0 ; no more level-up moves
 
-FalwodurEvosAttacks:
+FalwodurEvosAttacks: ;TODO finish this
 	db 0 ; no more evolutions
 	db 1, HARDEN
 	db 1, ACID
@@ -2227,6 +2227,7 @@ MandelblobEvosAttacks:
 	db EVOLVE_LEVEL, 37, HELACTAL
 	db 0 ; no more evolutions
 	db 1, POUND
+	db 1, FAINT_ATTACK
 	db 10, FLAIL
 	db 15, MIMIC
 	db 20, DISABLE
@@ -2242,6 +2243,7 @@ MandelblobEvosAttacks:
 HelactalEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, FLAIL
+	db 1, FAINT_ATTACK
 	db 1, POUND
 	db 15, MIMIC
 	db 20, DISABLE
@@ -2419,7 +2421,7 @@ TherazorEvosAttacks:
 	db 65, SWORDS_DANCE	
 	db 0 ; no more level-up moves
 
-ArticunoEvosAttacks:
+TerratoraEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, GUST
 	db 0 ; no more level-up moves

@@ -1617,12 +1617,13 @@
 	; rocket computers
 	const ROCKET_BF3_VIRUES_1
 	const ROCKET_BF3_VIRUES_2
-	const EVENT_609
-	const EVENT_60A
-	const EVENT_60B
-	const EVENT_60C
-	const EVENT_60D
-	const EVENT_60E
+	; ice path mt noots
+	const ICE_PATH_NOOT_1
+	const ICE_PATH_NOOT_2
+	const ICE_PATH_NOOT_3
+	const ICE_PATH_NOOT_4
+	const ICE_PATH_NOOT_5
+	const ICE_PATH_NOOT_6
 	const EVENT_60F
 	const EVENT_610
 	const EVENT_611
