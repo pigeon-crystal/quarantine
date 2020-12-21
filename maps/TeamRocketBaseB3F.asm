@@ -21,10 +21,8 @@ TeamRocketBaseB3F_MapScripts:
 	scene_script .DummyScene2 ; SCENE_TEAMROCKETBASEB3F_ROCKET_BOSS
 	scene_script .DummyScene3 ; SCENE_TEAMROCKETBASEB3F_NOTHING
 
-	db 3 ; callbacks
-	callback MAPCALLBACK_TILES, .CheckGiovanniDoor
-	callback MAPCALLBACK_TILES, .CheckViruesComputer1
-	callback MAPCALLBACK_TILES, .CheckViruesComputer2
+	db 1 ; callbacks
+	callback MAPCALLBACK_TILES, .CheckTiles
 
 .LanceGetsPassword:
 	prioritysjump LanceGetPasswordScript
@@ -39,32 +37,28 @@ TeamRocketBaseB3F_MapScripts:
 .DummyScene3:
 	end
 
-.CheckGiovanniDoor:
-	checkevent EVENT_OPENED_DOOR_TO_GIOVANNIS_OFFICE
-	iftrue .OpenSesame
-	return
+.CheckTiles:
+    checkevent EVENT_OPENED_DOOR_TO_GIOVANNIS_OFFICE
+    iftrue .OpenSesame
+.return1
+    checkevent ROCKET_BF3_VIRUES_1
+    iftrue .NormalDesk1
+.return2
+    checkevent ROCKET_BF3_VIRUES_2
+    iftrue .NormalDesk2
+    return
 
 .OpenSesame:
-	changeblock 10, 8, $07 ; floor
-	return
-	
-.CheckViruesComputer1
-	checkevent ROCKET_BF3_VIRUES_1
-	iftrue .NormalDesk1
-	return
-	
+    changeblock 10, 8, $07 ; floor
+    jump .return1
+    
 .NormalDesk1
-	changeblock 24, 6, $29 ; desk
-	return
-
-.CheckViruesComputer2
-	checkevent ROCKET_BF3_VIRUES_2
-	iftrue .NormalDesk2
-	return
-	
+    changeblock 24, 6, $29 ; desk
+    jump .return2
+    
 .NormalDesk2
-	changeblock 20, 10, $29 ; desk
-	return
+    changeblock 20, 10, $29 ; desk
+    return
 
 LanceGetPasswordScript:
 	turnobject PLAYER, LEFT

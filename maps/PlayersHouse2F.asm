@@ -73,7 +73,7 @@ PlayersHouseRadioScript:
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
-	warp TEAM_ROCKET_BASE_B3F, 22, 8
+	warp TEAM_ROCKET_BASE_B2F, 27, 15
 	end
 	
 ;PlayersHouseRadioScript:
