@@ -164,6 +164,9 @@ INCLUDE "audio/music/lookdemonlady.asm"
 INCLUDE "audio/music/lookradical.asm"
 INCLUDE "audio/music/andromega.asm"
 
+SECTION "Zenith lmao", ROMX
+INCLUDE "audio/music/yotsuba2.asm"
+
 SECTION "Sound Effects", ROMX
 
 INCLUDE "audio/sfx.asm"
