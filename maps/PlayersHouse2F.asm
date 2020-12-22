@@ -52,8 +52,8 @@ PosterScript:
 
 PlayersHouseRadioScript:
 	setflag ENGINE_POKEDEX
-	givepoke MT_NOOT, 50
-	givepoke TYRDRAGA, 50
+	givepoke MUMAGNUS, 100
+	givepoke AERFAEDRA, 50
 	setflag ENGINE_FOGBADGE
 	setflag ENGINE_RISINGBADGE
 	setflag ENGINE_MINERALBADGE
@@ -74,7 +74,8 @@ PlayersHouseRadioScript:
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
-	warp TEAM_ROCKET_BASE_B2F, 27, 15
+	loadwildmon DONUKAME, 50
+	startbattle
 	end
 	
 ;PlayersHouseRadioScript:

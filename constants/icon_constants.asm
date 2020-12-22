@@ -211,6 +211,7 @@
 	const ICON_SORDRAENA
 	const ICON_KITSYNA
 	const ICON_TYRDRAGA
+	const ICON_AERFAEDRA
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

@@ -93,7 +93,8 @@ DoBattleAnimFrame:
 	dw BattleAnimFunction_4D ; 4d
 	dw BattleAnimFunction_4E ; 4e
 	dw BattleAnimFunction_4F ; 4f
-
+	dw BattleAnimFunction_50 ; 50
+	
 BattleAnimFunction_Null:
 	call BattleAnim_AnonJumptable
 .anon_dw
@@ -4137,3 +4138,8 @@ BattleAnim_AbsCosinePrecise:
 
 BattleAnimSineWave:
 	sine_table 32
+
+BattleAnimFunction_50: ; added by Sour
+    call BattleAnim_AnonJumptable
+.anon_dw
+    dw Functionce306

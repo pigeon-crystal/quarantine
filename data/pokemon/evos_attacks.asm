@@ -882,10 +882,10 @@ MumagnusEvosAttacks:
 	db 33, TRI_ATTACK
 	db 36, MOONLIGHT
 	db 40, PLAY_ROUGH
-	db 43, MOONBLAST
+	db 43, FOCUS_BLAST
 	db 46, POWER_GEM
 	db 48, FLASH_CANNON
-	db 50, FOCUS_BLAST
+	db 50, MOONBLAST
 	db 53, BELLY_DRUM
 	db 55, CALM_MIND
 	db 0 ; no more level-up moves
@@ -2423,7 +2423,7 @@ TherazorEvosAttacks:
 
 TerratoraEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, GUST
+	db 1, CRUNCH
 	db 0 ; no more level-up moves
 
 NikujiraEvosAttacks:
