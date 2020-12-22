@@ -131,7 +131,7 @@ Moves:: ; 41afb
 	move PUKE_BLOOD,   EFFECT_RECOIL_HIT,        130, POISON,   	SPECIAL,   95,  5,   0
 	move METRONOME,    EFFECT_METRONOME,           0, NORMAL,   	STATUS,   100, 10,   0
 	move MIRROR_MOVE,  EFFECT_MIRROR_MOVE,         0, FLYING,   	STATUS,   100, 20,   0
-	move SELFDESTRUCT, EFFECT_SELFDESTRUCT,      250, NORMAL,   	SPECIAL,  100,  5,   0
+	move SELFDESTRUCT, EFFECT_SELFDESTRUCT,      200, NORMAL,   	PHYSICAL,  100,  5,   0
 	move NASTY_PLOT,   EFFECT_SP_ATK_UP_2,         0, DARK,     	STATUS,   100, 30,   0
 	move LICK,         EFFECT_PARALYZE_HIT,       35, GHOST,    	PHYSICAL, 100, 30,  30
 	move SMOG,         EFFECT_POISON_HIT,         30, POISON,   	SPECIAL,   90, 20,  40
@@ -221,7 +221,7 @@ Moves:: ; 41afb
 	move SWAGGER,      EFFECT_SWAGGER,             0, NORMAL,   	STATUS,    95, 15, 100
 	move MILK_DRINK,   EFFECT_HEAL,                0, NORMAL,   	STATUS,   100, 10,   0
 	move SPARK,        EFFECT_PARALYZE_HIT,       65, ELECTRIC, 	PHYSICAL, 100, 20,  35
-	move FURY_CUTTER,  EFFECT_FURY_CUTTER,        40, BUG,      	PHYSICAL,  95, 20,   0
+	move FURY_CUTTER,  EFFECT_FURY_CUTTER,        30, BUG,      	PHYSICAL,  95, 20,   0
 	move STEEL_WING,   EFFECT_DEFENSE_UP_HIT,     70, STEEL,    	PHYSICAL,  95, 25,  25
 	move MEAN_LOOK,    EFFECT_MEAN_LOOK,           0, NORMAL,   	STATUS,   100,  5,   0
 	move ATTRACT,      EFFECT_ATTRACT,             0, NORMAL,   	STATUS,   100, 15,   0

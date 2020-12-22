@@ -489,13 +489,24 @@ TrainerScientistJed:
 	closetext
 	end
 
-TrainerGruntM16:
-	trainer GRUNTM, GRUNTM_16, EVENT_BEAT_ROCKET_GRUNTM_16, GruntM16SeenText, GruntM16BeatenText, 0, .Script
+TrainerGruntM16: ; Really Engineer 1
+	trainer ENGINEER, ENGINEER_1, EVENT_BEAT_ROCKET_GRUNTM_16, GruntM16SeenText, GruntM16BeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
 	writetext GruntM16AfterBattleText
+	waitbutton
+	closetext
+	end
+
+TrainerSalarymanChotaro:
+	trainer SALARYMAN, CHOTARO, EVENT_BEAT_SALARYMAN_CHOTARO, SalarymanChotaroSeenText, SalarymanChotaroBeatenText, 0, .Script
+
+.Script
+	endifjustbattled
+	opentext
+	writetext SalarymanChotaroAfterBattleText
 	waitbutton
 	closetext
 	end
@@ -699,7 +710,10 @@ GruntM16BeatenText:
 GruntM16AfterBattleText:
 	text "I don't even know"
 	line "where the traps"
-	cont "are planted."
+	cont "are planted,"
+	
+	para "and I installed"
+	line "them!"
 
 	para "You'll just have"
 	line "to collect your"
@@ -722,6 +736,30 @@ TeamRocketBaseB1FSecretSwitchText:
 TeamRocketBaseB1FSwitchOffText:
 	text "The switch is"
 	line "turned off."
+	done
+	
+SalarymanChotaroSeenText:
+	text "Oh no! Oh no!"
+	line "What do I do?"
+	done
+	
+SalarymanChotaroBeatenText:
+	text "Oh no! Oh no!"
+	line "I got beat!"
+	done
+	
+SalarymanChotaroAfterBattleText:
+	text "TEAM ROCKET"
+	line "hired me to do"
+	cont "their finances."
+	
+	para "… … …"
+	
+	para "Don't look at me"
+	line "like that!"
+	
+	para "It's a rough"
+	line "job market!"
 	done
 
 TeamRocketBaseB1F_MapEvents:
@@ -780,10 +818,11 @@ TeamRocketBaseB1F_MapEvents:
 	bg_event 21, 11, BGEVENT_READ, TeamRocketBaseB1FBookshelf
 	bg_event  3, 11, BGEVENT_ITEM, TeamRocketBaseB1FHiddenRevive
 
-	db 6 ; object events
+	db 7 ; object events
 	object_event  0,  0, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TEAM_ROCKET_BASE_SECURITY_GRUNTS
-	object_event  2,  4, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerGruntM16, EVENT_TEAM_ROCKET_BASE_POPULATION
+	object_event  2,  4, SPRITE_ENGINEER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerGruntM16, EVENT_TEAM_ROCKET_BASE_POPULATION
 	object_event 18, 12, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerScientistJed, EVENT_TEAM_ROCKET_BASE_POPULATION
 	object_event 27,  6, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, TeamRocketBaseB1FHyperPotion, EVENT_TEAM_ROCKET_BASE_B1F_HYPER_POTION
 	object_event 14, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, TeamRocketBaseB1FNugget, EVENT_TEAM_ROCKET_BASE_B1F_NUGGET
 	object_event 21, 12, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, TeamRocketBaseB1FGuardSpec, EVENT_TEAM_ROCKET_BASE_B1F_GUARD_SPEC
+	object_event 8, 13, SPRITE_SALARYMAN, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerSalarymanChotaro, EVENT_TEAM_ROCKET_BASE_POPULATION

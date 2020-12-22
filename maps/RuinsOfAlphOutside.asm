@@ -110,13 +110,13 @@ TrainerPsychicNathan:
 	closetext
 	end
 
-TrainerSuperNerdStan:
-	trainer SUPER_NERD, STAN, EVENT_BEAT_SUPER_NERD_STAN, SuperNerdStanSeenText, SuperNerdStanBeatenText, 0, .Script
+TrainerSkepticTed:
+	trainer SKEPTIC, TED_2, EVENT_BEAT_SKEPTIC_TED, SkepticTedSeenText, SkepticTedBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
 	opentext
-	writetext SuperNerdStanAfterBattleText
+	writetext SkepticTedAfterText
 	waitbutton
 	closetext
 	end
@@ -161,7 +161,7 @@ RuinsOfAlphOutsideScientistText:
 	line "#MON?"
 
 	para "It looks like the"
-	line "strange writing on"
+	line "odd drawings on"
 
 	para "the walls of the"
 	line "RUINS."
@@ -176,13 +176,13 @@ RuinsOfAlphOutsideScientistText:
 	cont "DEX. Follow me."
 	done
 
-SuperNerdStanSeenText:
+SkepticTedSeenText:
 	text "What do you want?"
-	line "I'm studying--"
-	cont "don't disturb me!"
+	line "Don't disturb my"
+	cont "investigation!"
 	done
 
-SuperNerdStanBeatenText:
+SkepticTedBeatenText:
 	text "Sorry…"
 	line "I'm frustrated by"
 
@@ -190,18 +190,17 @@ SuperNerdStanBeatenText:
 	line "understanding…"
 	done
 
-SuperNerdStanAfterBattleText:
-	text "The RUINS are from"
-	line "about 1500 years"
-	cont "ago."
+SkepticTedAfterText:
+	text "The ruins are"
+	line "older than those"
+	cont "scientists think."
 
 	para "Nobody knows who"
 	line "built them."
 
-	para "It's also not"
-	line "known if the #-"
-	cont "MON statues have"
-	cont "any meaning."
+	para "It's not known"
+	line "what secrets the"
+	cont "GLYTHIC hide."
 
 	para "It's all one big"
 	line "mystery…"
@@ -251,6 +250,15 @@ RuinsOfAlphOutsideFisherText1:
 
 	para "You should be"
 	line "careful too."
+	
+	para "By the way, I'm"
+	line "here because I"
+	
+	para "heard about a"
+	line "powerful #MON"
+	
+	para "can be found in"
+	line "these waters."
 	done
 
 RuinsOfAlphOutsideFisherText2:
@@ -258,6 +266,9 @@ RuinsOfAlphOutsideFisherText2:
 	line "huge secret!"
 
 	para "…I think…"
+	
+	para "At least their"
+	line "waters do!"
 	done
 
 RuinsOfAlphOutsideYoungster1Text:
@@ -303,9 +314,10 @@ RuinsOfAlphOutside_MapEvents:
 	bg_event 12, 16, BGEVENT_READ, RuinsOfAlphSign
 	bg_event 18, 12, BGEVENT_READ, RuinsOfAlphResearchCenterSign
 
-	db 5 ; object events
+	db 6 ; object events
 	object_event  4, 20, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 1, TrainerPsychicNathan, -1
 	object_event 11, 15, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, RuinsOfAlphOutsideScientistScript, EVENT_RUINS_OF_ALPH_OUTSIDE_SCIENTIST
 	object_event 13, 17, SPRITE_FISHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, RuinsOfAlphOutsideFisherScript, EVENT_RUINS_OF_ALPH_OUTSIDE_TOURIST_FISHER
 	object_event 14, 11, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, RuinsOfAlphOutsideYoungster1Script, EVENT_RUINS_OF_ALPH_OUTSIDE_TOURIST_YOUNGSTERS
 	object_event 12,  8, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, RuinsOfAlphOutsideYoungster2Script, EVENT_RUINS_OF_ALPH_OUTSIDE_TOURIST_YOUNGSTERS
+	object_event 11, 35, SPRITE_SKEPTIC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerSkepticTed, -1

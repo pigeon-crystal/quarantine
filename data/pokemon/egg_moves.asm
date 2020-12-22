@@ -121,6 +121,7 @@ VulpixEggMoves:
 
 MtNootEggMoves:
 	db ICY_WIND
+	db SOFTBOILED
 	db PRESENT
 	db -1 ;end
 

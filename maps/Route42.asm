@@ -172,7 +172,7 @@ TrainerPokemaniacShane:
 	end
 
 TrainerHikerBenjamin:
-	trainer HIKER, BENJAMIN, EVENT_BEAT_HIKER_BENJAMIN, HikerBenjaminSeenText, HikerBenjaminBeatenText, 0, .Script
+	trainer ATHLETE_M, BENJAMIN_2, EVENT_BEAT_HIKER_BENJAMIN, HikerBenjaminSeenText, HikerBenjaminBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
@@ -210,7 +210,7 @@ Route42FruitTree3:
 	fruittree FRUITTREE_ROUTE_42_3
 
 Route42HiddenMaxPotion:
-	hiddenitem MAX_POTION, EVENT_ROUTE_42_HIDDEN_MAX_POTION
+	hiddenitem WATER_STONE, EVENT_ROUTE_42_HIDDEN_MAX_POTION
 
 Route42SuicuneMovement:
 	set_sliding
@@ -338,7 +338,7 @@ Route42_MapEvents:
 
 	db 9 ; object events
 	object_event 40, 10, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 1, TrainerFisherTully, -1
-	object_event 51,  9, SPRITE_POKEFAN_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerHikerBenjamin, -1
+	object_event 51,  9, SPRITE_ATHLETE_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerHikerBenjamin, -1
 	object_event 47,  8, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerPokemaniacShane, -1
 	object_event 27, 16, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route42FruitTree1, -1
 	object_event 28, 16, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route42FruitTree2, -1

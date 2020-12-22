@@ -850,10 +850,10 @@
 	const EVENT_33F
 	const EVENT_GOT_GS_BALL_FROM_POKECOM_CENTER
 ; ???
-	const EVENT_CIANWOOD_DJAMM
-	const EVENT_342
-	const EVENT_343
-	const EVENT_344
+	const EVENT_CIANWOOD_DJAMM ; Djamm
+	const EVENT_BEAT_SALARYMAN_KINICHI ; Lake of Rage Salaryman
+	const EVENT_BEAT_BREEDER_F_CLARA ; Route 33 Breeder
+	const EVENT_BEAT_SKEPTIC_TED ; ruins of alph
 	const EVENT_345
 	const EVENT_346
 	const EVENT_347

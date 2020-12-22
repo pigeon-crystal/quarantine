@@ -718,11 +718,15 @@ KRIS EQU __enum__
 	
 	trainerclass ENFORCER ; 47
 	const ENFORCER_1
+	const ENFORCER_2
+	const ENFORCER_3
+	const ENFORCER_4
 	
 	trainerclass ATHLETE_F ; 48
 	const AVA
 	
 	trainerclass ATHLETE_M ; 49
+	const BENJAMIN_2
 	
 	trainerclass FANATIC_RED ; 4a
 	const YAMATO_TRAINER
@@ -744,10 +748,16 @@ KRIS EQU __enum__
 	
 	trainerclass SALARYMAN ; 4e
 	const GORO
+	const CHOTARO
+	const KINICHI
 	
 	trainerclass ENGINEER ; 4f
+	const ENGINEER_1
+	const ENGINEER_2
+	const ENGINEER_3
 	
 	trainerclass SKEPTIC ; 50
+	const TED_2
 	
 	trainerclass KAIJU ; 51
 	const NOTZILLA
@@ -760,6 +770,8 @@ KRIS EQU __enum__
 	
 	trainerclass DELINQUENT_F ; 54
 	const CHERRY
+	const RIKA
+	const SHIKO
 	
 	trainerclass ULTRAMAN ; 55
 	
@@ -770,6 +782,7 @@ KRIS EQU __enum__
 	trainerclass BREEDER_M ; 58
 	
 	trainerclass BREEDER_F ; 59
+	const CLARA
 	
 	trainerclass NURSE_T ; 5a
 	
@@ -778,6 +791,7 @@ KRIS EQU __enum__
 	trainerclass BILL_CLASS ; 5c
 	
 	trainerclass SUKEBAN ; 5d
+	const AYA
 	
 	trainerclass SPELLCASTER ; 5e
 	

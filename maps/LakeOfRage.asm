@@ -186,6 +186,17 @@ TrainerCooltrainerfLois:
 	closetext
 	end
 
+TrainerSalarymanKinichi:
+	trainer SALARYMAN, KINICHI, EVENT_BEAT_SALARYMAN_KINICHI, SalarymanKinichiSeenText, SalarymanKinichiBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext SalarymanKinichiAfterBattleText
+	waitbutton
+	closetext
+	end
+	
 WesleyScript:
 	faceplayer
 	opentext
@@ -419,6 +430,27 @@ CooltrainermAaronAfterBattleText:
 	line "constant battling."
 	done
 
+SalarymanKinichiSeenText:
+	text "I couldn't take"
+	line "it another day!"
+	
+	para "No more! No more!"
+	
+SalarymanKinichiBeatenText:
+	text "My head feels"
+	line "clearer, now."
+	
+SalarymanKinichiAfterBattleText:
+	text "I couldn't take it"
+	line "at my job anymore."
+	
+	para "I ran away about…"
+	line "two days ago?"
+	cont "I think?"
+	
+	para "Please don't tell"
+	line "anybody I'm here."
+
 CooltrainerfLoisSeenText:
 	text "What happened to"
 	line "the BERMUDANT?"
@@ -513,7 +545,7 @@ LakeOfRage_MapEvents:
 	bg_event  4,  4, BGEVENT_ITEM, LakeOfRageHiddenRareCandy
 	bg_event 35,  5, BGEVENT_ITEM, LakeOfRageHiddenMaxPotion
 
-	db 12 ; object events
+	db 13 ; object events
 	object_event 21, 28, SPRITE_LANCE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LakeOfRageLanceScript, EVENT_LAKE_OF_RAGE_LANCE
 	object_event 20, 26, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LakeOfRageGrampsScript, -1
 	object_event 36, 13, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, LakeOfRageSuperNerdScript, -1
@@ -526,3 +558,5 @@ LakeOfRage_MapEvents:
 	object_event  4,  4, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, WesleyScript, EVENT_LAKE_OF_RAGE_WESLEY_OF_WEDNESDAY
 	object_event  7, 10, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, LakeOfRageElixer, EVENT_LAKE_OF_RAGE_ELIXER
 	object_event 35,  2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, LakeOfRageTMDetect, EVENT_LAKE_OF_RAGE_TM_DETECT
+	object_event 11, 33, SPRITE_SALARYMAN, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 1, TrainerSalarymanKinichi, -1
+	

@@ -621,7 +621,7 @@ MtNootEvosAttacks:
 	db 6, HARDEN
 	db 14, ICY_WIND
 	db 20, ENDURE
-	db 23, DRILL_PECK
+	db 24, DRILL_PECK
 	db 29, AURORA_BEAM
 	db 33, SPIKES
 	db 37, SUBSTITUTE
@@ -1457,7 +1457,7 @@ JaddiceEvosAttacks:
 	db 19, STUN_SPORE
 	db 23, ICY_WIND
 	db 33, STOMP
-	db 35, TRIPLE_KICK
+	db 35, DOUBLE_KICK
 	db 39, SWEET_KISS
 	db 42, ICICLE_CRASH
 	db 48, LEECH_LIFE
@@ -4251,11 +4251,12 @@ PilfoardEvosAttacks:
 	db 17, SCARY_FACE
 	db 19, QUICK_ATTACK
 	db 23, PAY_DAY
+	db 26, SELFDESTRUCT
 	db 30, FLAIL
 	db 37, SCREECH
 	db 41, SHEKELSHOT
 	db 44, GLARE
-	db 50, SELFDESTRUCT
+	db 50, EXPLOSION
 	db 0 ; no more level-up moves
 	
 MissingnoEvosAttacks:

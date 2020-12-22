@@ -413,7 +413,7 @@ TrainerPokefanmBrandon:
 	end
 
 TrainerCooltrainerfIrene:
-	trainer COOLTRAINERF, IRENE, EVENT_BEAT_COOLTRAINERF_IRENE, CooltrainerfIreneSeenText, CooltrainerfIreneBeatenText, 0, .Script
+	trainer DELINQUENT_F, SHIKO, EVENT_BEAT_COOLTRAINERF_IRENE, CooltrainerfIreneSeenText, CooltrainerfIreneBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
@@ -432,7 +432,7 @@ TrainerCooltrainerfIrene:
 	end
 
 TrainerCooltrainerfJenn:
-	trainer COOLTRAINERF, JENN, EVENT_BEAT_COOLTRAINERF_JENN, CooltrainerfJennSeenText, CooltrainerfJennBeatenText, 0, .Script
+	trainer DELINQUENT_F, RIKA, EVENT_BEAT_COOLTRAINERF_JENN, CooltrainerfJennSeenText, CooltrainerfJennBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
@@ -451,7 +451,7 @@ TrainerCooltrainerfJenn:
 	end
 
 TrainerCooltrainerfKate:
-	trainer COOLTRAINERF, KATE, EVENT_BEAT_COOLTRAINERF_KATE, CooltrainerfKateSeenText, CooltrainerfKateBeatenText, 0, .Script
+	trainer SUKEBAN, AYA, EVENT_BEAT_COOLTRAINERF_KATE, CooltrainerfKateSeenText, CooltrainerfKateBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
@@ -649,81 +649,106 @@ PokefanmBrandonAfterText:
 	done
 
 CooltrainerfIreneSeenText:
-	text "IRENE: Kyaaah!"
-	line "Someone found us!"
+	text "What are you doing"
+	line "on our turf? Move,"
+	cont "or I'll make you!!"
 	done
 
 CooltrainerfIreneBeatenText:
-	text "IRENE: Ohhh!"
-	line "Too strong!"
+	text "I yield, but the"
+	line "FISHOUS GANG will"
+	cont "kick your butt!"
 	done
 
 CooltrainerfIreneAfterText1:
-	text "IRENE: My sister"
-	line "KATE will get you"
-	cont "for this!"
+	text "You got some"
+	line "brawn, but no"
+	cont "brains to come"
+	cont "here!"
 	done
 
 CooltrainerfIreneAfterText2:
-	text "IRENE: Isn't this"
-	line "beach great?"
-
-	para "It's our secret"
-	line "little getaway!"
+	text "You're one of us"
+	line "now!"
+	
+	para "FISHOUS GANG"
+	line "FOREVER!"
 	done
 
 CooltrainerfJennSeenText:
-	text "JENN: You can't"
-	line "beat IRENE and go"
-	cont "unpunished!"
+	text "Huuh?! You got a"
+	line "problem with us?!"
 	done
 
 CooltrainerfJennBeatenText:
-	text "JENN: So sorry,"
-	line "IRENE! Sis!"
+	text "Ouch, that hurt!"
+	line "But you won't beat"
+	cont "our leader!"
 	done
 
 CooltrainerfJennAfterText1:
-	text "JENN: Don't get"
-	line "cocky! My sister"
-	cont "KATE is tough!"
+	text "I got nothin'"
+	line "to say to you"
+	cont "except one thing:"
+	
+	para "FISHOUS GANG"
+	line "FOREVER!"
 	done
 
 CooltrainerfJennAfterText2:
-	text "JENN: Sunlight"
-	line "makes your body"
-	cont "stronger."
+	text "Welcome to the"
+	line "family!"
+	
+	para "When you say"
+	line "our gang's name,"
+	cont "say it loud and"
+	cont "proud."
+	
+	para "FISHOUS GANG"
+	line "FOREVER!"
 	done
 
 CooltrainerfKateSeenText:
-	text "KATE: You sure"
-	line "were mean to my"
-	cont "little sisters!"
+	text "I'm the leader of"
+	line "the FISHOUS GANG."
+
+	para "You'll feel sorry"
+	line "for beating up my"
+	cont "underlings after I"
+	cont "am done with you!"
 	done
 
 CooltrainerfKateBeatenText:
-	text "KATE: No! I can't"
-	line "believe I lost."
+	text "No way! You're"
+	line "strong!"
 	done
 
 CooltrainerfKateOfferSoftSandText:
-	text "KATE: You're too"
-	line "strong. I didn't"
-	cont "stand a chance."
-
-	para "Here. You deserve"
-	line "this."
+	text "OK, I admit"
+	line "defeat!"
+	
+	para "You're tough!"
+	line "I like tough!"
+	
+	para "From now on,"
+	line "you're a member"
+	cont "of the FISHOUS"
+	cont "GANG!"
+	
+	para "Here's a gift,"
+	line "to seal our bonds!"
 	done
 
 CooltrainerfKateAfterText:
-	text "KATE: I'm sorry we"
-	line "jumped you."
+	text "I'm glad we"
+	line "jumped you!"
 
-	para "We never expected"
-	line "anyone to find us"
-
-	para "here. You sure"
-	line "startled us."
+	para "Never expected"
+	line "to get a new"
+	cont "member this way!"
+	
+	para "FISHOUS GANG"
+	line "FOREVER!"
 	done
 
 Route34IlexForestSignText:
@@ -790,7 +815,7 @@ Route34_MapEvents:
 	object_event 15, 16, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DayCareManScript_Outside, EVENT_DAY_CARE_MAN_ON_ROUTE_34
 	object_event 14, 18, SPRITE_DAY_CARE_MON_1, SPRITEMOVEDATA_POKEMON, 2, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DayCareMon1Script, EVENT_DAY_CARE_MON_1
 	object_event 17, 19, SPRITE_DAY_CARE_MON_2, SPRITEMOVEDATA_POKEMON, 2, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DayCareMon2Script, EVENT_DAY_CARE_MON_2
-	object_event 11, 48, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 5, TrainerCooltrainerfIrene, -1
-	object_event  3, 48, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerCooltrainerfJenn, -1
-	object_event  6, 51, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 2, TrainerCooltrainerfKate, -1
+	object_event 11, 48, SPRITE_DELINQUENT_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 5, TrainerCooltrainerfIrene, -1
+	object_event  3, 48, SPRITE_DELINQUENT_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, TrainerCooltrainerfJenn, -1
+	object_event  6, 51, SPRITE_DELINQUENT_F, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 2, TrainerCooltrainerfKate, -1
 	object_event  7, 30, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route34Nugget, EVENT_ROUTE_34_NUGGET

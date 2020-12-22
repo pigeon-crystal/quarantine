@@ -74,8 +74,7 @@ PlayersHouseRadioScript:
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
-	loadwildmon DONUKAME, 50
-	startbattle
+	warp ROUTE_33, 11, 16
 	end
 	
 ;PlayersHouseRadioScript:

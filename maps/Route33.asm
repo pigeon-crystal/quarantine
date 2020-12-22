@@ -136,6 +136,46 @@ TrainerHikerAnthony:
 	jumpstd rematchm
 	end
 
+TrainerBreederFClara:
+	trainer BREEDER_F, CLARA, EVENT_BEAT_BREEDER_F_CLARA, BreederClaraSeenText, BreederClaraBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext BreederClaraAfterBattleText
+	waitbutton
+	closetext
+	end
+	
+BreederClaraSeenText:
+	text "Hello, dear."
+	
+	para "Care to help me"
+	line "train some new-"
+	cont "born #MON?"
+	done
+	
+BreederClaraBeatenText:
+	text "What a wallop!"
+	
+	para "I hope they"
+	line "enjoyed it."
+	done
+	
+BreederClaraAfterBattleText:
+	text "What's that, dear?"
+	
+	para "Envious of my"
+	line "#MON?"
+	
+	para "I've been raising"
+	line "#MON from eggs"
+	cont "my whole life,"
+	
+	para "I'm bound to have"
+	line "some good luck!"
+	done
+	
 Route33Sign:
 	jumptext Route33SignText
 
@@ -188,6 +228,7 @@ Route33LassText:
 	line "outside."
 	done
 
+
 Route33SignText:
 	text "ROUTE 33"
 	done
@@ -203,7 +244,8 @@ Route33_MapEvents:
 	db 1 ; bg events
 	bg_event 11, 11, BGEVENT_READ, Route33Sign
 
-	db 3 ; object events
+	db 4 ; object events
 	object_event  6, 13, SPRITE_POKEFAN_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 2, TrainerHikerAnthony, -1
 	object_event 13, 16, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Route33LassScript, -1
 	object_event 14, 16, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route33FruitTree, -1
+	object_event 8, 17, SPRITE_BREEDER_F, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, TrainerBreederFClara, -1

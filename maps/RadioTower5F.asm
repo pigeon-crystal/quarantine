@@ -4,6 +4,10 @@
 	const RADIOTOWER5F_ROCKET_GIRL
 	const RADIOTOWER5F_ROCKER
 	const RADIOTOWER5F_POKE_BALL
+	const GORIATH1
+	const GORIATH2	
+	const GORIATH3
+	const GORIATH4
 
 RadioTower5F_MapScripts:
 	db 3 ; scene scripts
@@ -83,11 +87,16 @@ RadioTower5FRocketBossScene:
 	opentext
 	writetext RadioTower5FRocketBossBeforeText
 	waitbutton
+	cry GORIATH
 	closetext
 	winlosstext RadioTower5FRocketBossWinText, 0
 	setlasttalked RADIOTOWER5F_ROCKET
 	loadtrainer EXECUTIVEM, EXECUTIVEM_1
 	startbattle
+	disappear GORIATH1
+	disappear GORIATH2
+	disappear GORIATH3
+	disappear GORIATH4
 	reloadmapafterbattle
 	opentext
 	writetext RadioTower5FRocketBossAfterText
@@ -278,28 +287,43 @@ RadioTower5FRocketBossBeforeText:
 	para "We intend to take"
 	line "over this RADIO"
 
-	para "STATION and an-"
-	line "nounce our come-"
-	cont "back."
-
-	para "That should bring"
-	line "our boss GIOVANNI"
-
-	para "back from his solo"
-	line "training."
+	para "STATION and"
+	line "broadcast a"
+	cont "signal that will"
+	
+	para "let us control"
+	line "all the #MON"
+	cont "in JOHTO!"
+	
+	para "Our tests attracted"
+	line "the legendary"
+	cont "GORIATH!"
+	
+	para "We're unstoppable!"
 
 	para "We are going to"
 	line "regain our former"
-	cont "glory."
+	cont "glory -- if"
+	cont "not surpass it!"
+	
+	para "GIOVANNI will come"
+	line "back to us!"
 
 	para "I won't allow you"
 	line "to interfere with"
-	cont "our plans."
+	cont "our plans!"
 	done
 
 RadioTower5FRocketBossWinText:
-	text "No! Forgive me,"
-	line "GIOVANNI!"
+	text "GORIATH, where are"
+	line "you going?!"
+	
+	para "No!"
+	
+	para "…We've lost"
+	line "everything."
+	
+	para "GIOVANNI…"
 	done
 
 RadioTower5FRocketBossAfterText:
@@ -418,6 +442,15 @@ RadioTower5FStudio1SignText:
 	text "5F STUDIO 1"
 	done
 
+RadioTower5FGoriath:
+	jumptext RadioTower5FGoriathText
+	done
+	
+RadioTower5FGoriathText:
+	text "GORIATH: OOK"
+	line "OOK OOK!"
+	end
+
 RadioTower5F_MapEvents:
 	db 0, 0 ; filler
 
@@ -436,9 +469,15 @@ RadioTower5F_MapEvents:
 	bg_event 16,  1, BGEVENT_READ, RadioTower5FBookshelf
 	bg_event 17,  1, BGEVENT_READ, RadioTower5FBookshelf
 
-	db 5 ; object events
+	db 9 ; object events
 	object_event  3,  6, SPRITE_GENTLEMAN, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Director, -1
 	object_event 13,  5, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
 	object_event 17,  2, SPRITE_ROCKET_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 1, TrainerExecutivef1, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
 	object_event 13,  5, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Ben, EVENT_RADIO_TOWER_CIVILIANS_AFTER
 	object_event  8,  5, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, RadioTower5FUltraBall, EVENT_RADIO_TOWER_5F_ULTRA_BALL
+	object_event 14, 6, SPRITE_GORIATH_CHUNK_1, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, RadioTower5FGoriath, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
+	object_event 15, 6, SPRITE_GORIATH_CHUNK_2, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, RadioTower5FGoriath, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
+	object_event 14, 7, SPRITE_GORIATH_CHUNK_3, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, RadioTower5FGoriath, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
+	object_event 15, 7, SPRITE_GORIATH_CHUNK_4, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, RadioTower5FGoriath, EVENT_RADIO_TOWER_ROCKET_TAKEOVER
+
+
