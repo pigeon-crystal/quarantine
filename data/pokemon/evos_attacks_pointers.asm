@@ -151,7 +151,7 @@ EvosAttacksPointers::
 	dw ChelynobleEvosAttacks
 	dw SeabehemEvosAttacks
 	dw Ma_0EvosAttacks
-	dw MewEvosAttacks
+	dw IlluxuryEvosAttacks
 	dw CigerillarEvosAttacks  ;chiko
 	dw TobacoonEvosAttacks
 	dw OkamikazeEvosAttacks

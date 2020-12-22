@@ -161,7 +161,7 @@ ChernomuskPokedexEntry::    INCLUDE "data/pokemon/dex_entries/chernomusk.asm"
 ChelynoblePokedexEntry::  INCLUDE "data/pokemon/dex_entries/chelynoble.asm"
 SeabehemPokedexEntry::  INCLUDE "data/pokemon/dex_entries/seabehem.asm"
 Ma_0PokedexEntry::     INCLUDE "data/pokemon/dex_entries/ma_0.asm"
-MewPokedexEntry::        INCLUDE "data/pokemon/dex_entries/mew.asm"
+IlluxuryPokedexEntry::        INCLUDE "data/pokemon/dex_entries/illuxury.asm"
 CigerillarPokedexEntry:: INCLUDE "data/pokemon/dex_entries/cigerillar.asm"      ;chikorita
 TobacoonPokedexEntry::   INCLUDE "data/pokemon/dex_entries/tobacoon.asm"
 OkamikazePokedexEntry::  INCLUDE "data/pokemon/dex_entries/okamikaze.asm"

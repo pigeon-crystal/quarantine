@@ -3937,7 +3937,7 @@ BattleTower_LevelCheck:
 	scf
 	ret
 
-BattleTower_UbersCheck:
+BattleTower_UbersCheck: ; Battle Tower Ubers
 	ldh a, [rSVBK]
 	push af
 	ld a, [wcd4f]
@@ -3954,7 +3954,7 @@ BattleTower_UbersCheck:
 	ld a, [de]
 	cp MA_0
 	jr z, .uber
-	cp MEW
+	cp ILLUXURY
 	jr z, .uber
 	cp AVATRICE
 	jr c, .next

@@ -302,8 +302,8 @@ PokemonPicPointers::
 	dba SeabehemBackpic
 	dba Ma_0Frontpic
 	dba Ma_0Backpic
-	dba MewFrontpic
-	dba MewBackpic
+	dba IlluxuryFrontpic
+	dba IlluxuryBackpic
 	dba CigerillarFrontpic ;orig chiko
 	dba CigerillarBackpic
 	dba TobacoonFrontpic

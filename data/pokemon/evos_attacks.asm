@@ -2509,7 +2509,7 @@ Ma_0EvosAttacks:
 	db 100, SPIKES
 	db 0 ; no more level-up moves
 
-MewEvosAttacks:
+IlluxuryEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves

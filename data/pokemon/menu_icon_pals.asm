@@ -150,11 +150,11 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; TERRATORA
 	icon_pals BROWN,   YELLOW  ; NIKUJIRA
 	icon_pals GRAY,   PURPLE  ; BLAZENBULL
-	icon_pals BROWN,   YELLOW  ; CHERNOMUSK
-	icon_pals BROWN,   YELLOW  ; CHELYNOBLE
-	icon_pals BROWN,   YELLOW  ; SEABEHEM
+	icon_pals BLUE,   GREEN  ; CHERNOMUSK
+	icon_pals BLUE,   GREEN  ; CHELYNOBLE
+	icon_pals BLUE,   GREEN  ; SEABEHEM
 	icon_pals GRAY,   YELLOW  ; MA_0
-	icon_pals BROWN,   YELLOW  ; MEW  						END OF "KANTOMONS"
+	icon_pals RED,   YELLOW  ; ILLUXURY  						END OF "KANTOMONS"
 	icon_pals GREEN,   YELLOW  ; CIGERILLAR
 	icon_pals GREEN,   YELLOW  ; TOBACOON
 	icon_pals GREEN,   YELLOW  ; OKAMIKAZE

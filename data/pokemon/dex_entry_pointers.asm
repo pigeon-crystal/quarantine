@@ -150,7 +150,7 @@ PokedexDataPointerTable:
 	dw ChelynoblePokedexEntry
 	dw SeabehemPokedexEntry
 	dw Ma_0PokedexEntry
-	dw MewPokedexEntry
+	dw IlluxuryPokedexEntry
 	dw CigerillarPokedexEntry   ;orig chikorita
 	dw TobacoonPokedexEntry
 	dw OkamikazePokedexEntry

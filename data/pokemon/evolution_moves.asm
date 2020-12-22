@@ -149,7 +149,7 @@ EvolutionMoves::
 	db NO_MOVE		; CHELYNOBLE
 	db NO_MOVE		; SEABEHEM
 	db NO_MOVE		; MA_0
-	db NO_MOVE		; MEW              END OF "KANTOMONS"
+	db NO_MOVE		; ILLUXURY              END OF "KANTOMONS"
 	db NO_MOVE		; CIGERILLAR
 	db HARDEN 		; TOBACOON
 	db GROWTH		; OKAMIKAZE

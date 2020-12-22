@@ -5,7 +5,6 @@ AlphabeticalPokedexOrder:
 	db AMANIGO
 	db AMBINNI
 	db AMBIONIC
-	db VIRUES
 	db ANTPYRE
 	db ARASBESTOS
 	db TERRATORA
@@ -123,7 +122,7 @@ AlphabeticalPokedexOrder:
 	db BOBBITE
 	db MAULZER
 	db MEOWTAIN
-	db MEW
+	db ILLUXURY
 	db DRASSAL
 	db SLOWHOG
 	db BLAZENBULL
@@ -232,6 +231,7 @@ AlphabeticalPokedexOrder:
 	db GANZORAH
 	db VAZZINATE
 	db VEGETEBAA
+	db VIRUES
 	db TYRDRAGA
 	db VOLTINGER
 	db LAMYGLAMA

@@ -182,7 +182,7 @@ INCLUDE "data/pokemon/base_stats/chernomusk.asm"
 INCLUDE "data/pokemon/base_stats/chelynoble.asm"
 INCLUDE "data/pokemon/base_stats/seabehem.asm"
 INCLUDE "data/pokemon/base_stats/ma_0.asm"
-INCLUDE "data/pokemon/base_stats/mew.asm"
+INCLUDE "data/pokemon/base_stats/illuxury.asm"
 INCLUDE "data/pokemon/base_stats/cigerillar.asm"	  ;chiko
 INCLUDE "data/pokemon/base_stats/tobacoon.asm"
 INCLUDE "data/pokemon/base_stats/okamikaze.asm"

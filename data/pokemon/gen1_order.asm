@@ -19,7 +19,7 @@ Pokered_MonIndices:
 	db CUTTLE
 	db MANDELBLOB
 	db BIPORKAR
-	db MEW
+	db ILLUXURY
 	db FALWODRAIG
 	db BAMBABY
 	db SLISCES

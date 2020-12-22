@@ -155,7 +155,7 @@ PokemonCries::
 	mon_cry CRY_BULBASAUR,    64,  256 ; CHELYNOBLE
 	mon_cry CRY_BULBASAUR,    60,  320 ; SEABEHEM
 	mon_cry CRY_MA_0,          0,  252 ; MA_0
-	mon_cry $1B,       		$0126,  $0100 ; MEW
+	mon_cry $1B,       		$0126,  $0100 ; ILLUXURY
 	mon_cry $14,  	 		$0046,  $0082 	; CIGERILLAR, orig CHIKORITA
 	mon_cry $14,       		$0069,  $0299 	; TOBACOON, 
 	mon_cry $14,  			$2ffd,  $0217 	; OKAMIKAZE,

@@ -58,14 +58,9 @@ YotsubasDadFightMyDaughter:
 	
 	para "I'm trying to"
 	line "relax here, but"
-	cont "she's a bundle of"
-	cont "energy."
 	
-	para "Just a heads up"
-	line "that she was a"
-	cont "CHAMPION back home"
-	cont "in the FOCHUN"
-	cont "REGION."
+	para "she's a bundle of"
+	line "energy."
 	
 	para "If you entertain"
 	line "her, I'll make it"
@@ -90,12 +85,14 @@ YotsubasDadThanksForThat:
 	
 	para "As a token of"
 	line "gratitude, I want"
-	cont "you to have this"
-	cont "#MON."
+	
+	para "you to have this"
+	line "#MON."
 	
 	para "It's a national"
 	line "treasure from our"
-	cont "home region."
+	cont "home region,"
+	cont "FOCHUN."
 	done
 	
 YouGotATentaquilText:

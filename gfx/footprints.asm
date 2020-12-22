@@ -340,7 +340,7 @@ INCBIN "gfx/footprints/chernomusk.1bpp",    footprint_top
 INCBIN "gfx/footprints/chelynoble.1bpp",  footprint_top
 INCBIN "gfx/footprints/seabehem.1bpp",  footprint_top
 INCBIN "gfx/footprints/ma_0.1bpp",     footprint_top
-INCBIN "gfx/footprints/mew.1bpp",        footprint_top
+INCBIN "gfx/footprints/illuxury.1bpp",        footprint_top
 INCBIN "gfx/footprints/cigerillar.1bpp", footprint_top
 ; 145-152 bottom halves
 INCBIN "gfx/footprints/nikujira.1bpp",     footprint_bottom
@@ -349,7 +349,7 @@ INCBIN "gfx/footprints/chernomusk.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/chelynoble.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/seabehem.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/ma_0.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/mew.1bpp",        footprint_bottom
+INCBIN "gfx/footprints/illuxury.1bpp",        footprint_bottom
 INCBIN "gfx/footprints/cigerillar.1bpp", footprint_bottom
 ; 153-160 top halves
 INCBIN "gfx/footprints/tobacoon.1bpp",   footprint_top

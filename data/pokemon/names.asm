@@ -149,7 +149,7 @@ PokemonNames::
 	db "CHELYNOBLE"
 	db "SEABEHEM@@"
 	db "MA-0@@@@@@"
-	db "MEW@@@@@@@"
+	db "ILLUXURY@@"
 	db "CIGERILLAR" ;chiko
 	db "TOBACOON@@"
 	db "OKAMIKAZE@"

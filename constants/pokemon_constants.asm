@@ -169,7 +169,7 @@
 	const CHELYNOBLE ; 94 
 	const SEABEHEM   ; 95 
 	const MA_0     	 ; 96
-	const MEW        ; 97 dress waifu
+	const ILLUXURY   ; 97 dress waifu
 JOHTO_POKEMON EQU const_value
 	const CIGERILLAR ; 98 
 	const TOBACOON   ; 99
