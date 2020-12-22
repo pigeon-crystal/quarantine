@@ -1873,7 +1873,7 @@ LeaffigyEvosAttacks:
 	db 13, TELEPORT
 	db 17, RAZOR_LEAF
 	db 19, MINIMIZE
-	db 28, HEART_STAMP
+	db 24, HEART_STAMP
 	db 29, MIMIC
 	db 34, SYNTHESIS
 	db 37, FOCUS_BLAST

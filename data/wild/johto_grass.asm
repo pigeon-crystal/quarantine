@@ -1749,7 +1749,7 @@ JohtoGrassWildMons:
 	; morn
 	db 23, ANTPYRE
 	db 22, ORGNOME
-	db 22, MESSMASH		; CAG 
+	db 22, MESSMASH		 
 	db 24, ARASBESTOS
 	db 24, PURRAATZLE
 	db 26, HAUNTLET 		; Stand-in for llama
@@ -1758,7 +1758,7 @@ JohtoGrassWildMons:
 	; day
 	db 23, ANTPYRE
 	db 22, ORGNOME
-	db 22, MESSMASH		; CAG 
+	db 22, MESSMASH		 
 	db 24, ARASBESTOS
 	db 24, PURRAATZLE
 	db 26, LAMYGLAMA 		; Stand-in for llama
@@ -1872,26 +1872,26 @@ JohtoGrassWildMons:
 	db 35, BOBBITE
 	db 36, BISMUTT
 	db 35, BISMUTT
-	db 35, EYECHOSIS
-	db 37, EYECHOSIS
-	db 37, EYECHOSIS
+	db 35, BISMUTT
+	db 37, BOBBITE
+	db 37, DOLMESA
 	; day
 	db 35, DOLMESA
 	db 35, BOBBITE
 	db 35, BOBBITE
 	db 36, BISMUTT
 	db 35, BISMUTT
-	db 35, EYECHOSIS
-	db 37, EYECHOSIS
-	db 37, EYECHOSIS
+	db 35, BISMUTT
+	db 37, BOBBITE
+	db 37, DOLMESA
 	; nite
 	db 35, DOLMESA
 	db 35, BOBBITE
 	db 35, BOBBITE
 	db 36, BISMUTT
 	db 35, BISMUTT
-	db 35, EYECHOSIS
-	db 37, EYECHOSIS
+	db 35, RESPECTRE
+	db 37, RESPECTRE
 	db 37, RESPECTRE
 	
 	map_id CIANWOOD_DUNES ;done

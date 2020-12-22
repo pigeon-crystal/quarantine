@@ -19,13 +19,13 @@
 ; - FramesPointers (see gfx/pokemon/frame_pointers.asm)
 ; - Footprints (see gfx/footprints.asm)
 	const_def 1
-	const KORDIENA  ; 01 KORDIENA
-	const SORDRAENA    ; 02 SORDRAENA
-	const TYRDRAGA   ; 03 TYRDRAGA
-	const AERFAEDRA ; 04 AERFAEDRA
-	const KITSYNA ; 05 KITSYNA
-	const CERKITAYSA  ; 06 CERKITAYSA
-	const GIGASYNAPA   ; 07 GIGASYNAPA
+	const KORDIENA  	; 01 KORDIENA
+	const SORDRAENA    	; 02 SORDRAENA
+	const TYRDRAGA   	; 03 TYRDRAGA
+	const AERFAEDRA 	; 04 AERFAEDRA
+	const KITSYNA 		; 05 KITSYNA
+	const CERKITAYSA  	; 06 CERKITAYSA
+	const GIGASYNAPA   	; 07 GIGASYNAPA
 	const WARTORTLE  ; 08 strandbeest
 	const BLASTOISE  ; 09 strandbeest
 	const BUZZLING   ; 0a
@@ -169,7 +169,7 @@
 	const CHELYNOBLE ; 94 
 	const SEABEHEM   ; 95 
 	const MA_0     	 ; 96
-	const ILLUXURY   ; 97 dress waifu
+	const ILLUXURY   ; 97 
 JOHTO_POKEMON EQU const_value
 	const CIGERILLAR ; 98 
 	const TOBACOON   ; 99
@@ -200,7 +200,7 @@ JOHTO_POKEMON EQU const_value
 	const SQUEENIE   ; b2 
 	const YUESBI     ; b3
 	const YUEFOE     ; b4
-	const VIRUES   ; b5 computer
+	const VIRUES   ; b5 
 	const PLANTENNA  ; b6
 	const HABBLE     ; b7
 	const SATELISK   ; b8
@@ -256,7 +256,7 @@ JOHTO_POKEMON EQU const_value
 	const SLOWHOG  	 ; ea
 	const EYECHOSIS  ; eb
 	const FUEGHAST   ; ec 
-	const HITMONTOP  ; ed cat
+	const HITMONTOP  ; ed some other fossil
 	const AMBIONIC   ; ee 
 	const ELEKID     ; ef cured buzzling
 	const GORIATH    ; f0 
