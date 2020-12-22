@@ -118,8 +118,8 @@ PokemonCries::
 	mon_cry CRY_CHARMANDER,    0,  256 ; CUTTLE
 	mon_cry CRY_RHYDON,        1,  256 ; TENDRILL
 	mon_cry CRY_RHYDON,      -10,  320 ; CALARMOURI
-	mon_cry CRY_TOTODILE,  12358,   45 ; ANTPYRE
-	mon_cry CRY_TOTODILE,    22,  48 ; GENEROPSIS
+	mon_cry CRY_TOTODILE,  12358,   45 ; ANTPYRE			; this and below are both done
+	mon_cry CRY_TOTODILE,    22,  48   ; GENEROPSIS
 	mon_cry CRY_AMPHAROS,   3000,  292 ; OSCURASA
 	mon_cry CRY_AMPHAROS,   2069,  420 ; MADRUGASA
 	mon_cry CRY_SEEL,       1128,  200 ; GOOSAPLING
@@ -190,7 +190,7 @@ PokemonCries::
 	mon_cry $1C,       		$001B, $0060 ; HABBLE
 	mon_cry $1C,      		$0F1B, $00A0 ; SATELISK
 	mon_cry CRY_DONPHAN,    $004e, $000d ; PARDNER
-	mon_cry CRY_CLEFFA,     -675,  456 ; OLCHAP
+	mon_cry CRY_DONPHAN,    $0062, $00FF ; OLCHAP
 	mon_cry CRY_CLEFAIRY,    199,  169 ; SHABBYCAT orig HOPPIP
 	mon_cry CRY_CLEFAIRY,    100,  169 ; PURRDLE
 	mon_cry CRY_CLEFAIRY,   -104,  399 ; MEOWTAIN
@@ -240,7 +240,7 @@ PokemonCries::
 	mon_cry CRY_SPINARAK,   -399,  400 ; POLYRO
 	mon_cry CRY_CYNDAQUIL,   666,  320 ; SLOWHOG
 	mon_cry CRY_AMPHAROS,    -91,  303 ; EYECHOSIS
-	mon_cry $10,       			 $176F,  $00B0 ; FUEGHAST
+	mon_cry $10,       	 $176F,  $00B0 ; FUEGHAST
 	mon_cry CRY_SLUGMA,        0,  256 ; HITMONTOP
 	mon_cry CRY_MARILL,      104,  256 ; AMBIONIC
 	mon_cry CRY_SUNFLORA,   -728,  180 ; ELEKID
