@@ -450,7 +450,7 @@ SandolphEvosAttacks:
 	db 39, CRUNCH
 	db 42, EARTHQUAKE
 	db 49, BODY_SLAM
-	db 55, OUTRAGE
+	db 50, OUTRAGE
 	db 0 ; no more level-up moves
 
 DunefinEvosAttacks:
@@ -815,12 +815,12 @@ ElephootEvosAttacks:
 	db 15, SMOG
 	db 20, ACID
 	db 25, AMNESIA
-	db 29, EXPLOSION
+	db 29, SELFDESTRUCT
 	db 32, HAZE
 	db 40, FLASH_CANNON
 	db 41, TOXIC
 	db 46, SLUDGE_BOMB
-	db 50, SELFDESTRUCT
+	db 50, EXPLOSION
 	db 51, DARK_PULSE
 	db 65, RECOVER
 	db 0 ; no more level-up moves
@@ -836,13 +836,13 @@ PripydermEvosAttacks:
 	db 15, SMOG
 	db 20, ACID
 	db 25, AMNESIA
-	db 29, EXPLOSION
+	db 29, SELFDESTRUCT
 	db 32, HAZE
 	db 38, STOMP
 	db 41, FLASH_CANNON
 	db 43, TOXIC
 	db 46, SLUDGE_BOMB
-	db 50, SELFDESTRUCT
+	db 50, EXPLOSION
 	db 51, DARK_PULSE
 	db 60, RECOVER
 	db 0 ; no more level-up moves
@@ -1743,15 +1743,14 @@ CantaloneEvosAttacks:
 	db 1, POUND
 	db 5, HARDEN
 	db 5, SHARPEN
-	db 11, BUBBLEBEAM
+	db 11, RAPID_SPIN
 	db 17, DOUBLE_KICK
-	db 23, RAPID_SPIN
 	db 24, BEAT_UP
 	db 30, VITAL_THROW
 	db 33, BATON_PASS
 	db 37, MIRROR_COAT
 	db 40, LIQUIDATION
-	db 43, IRON_HEAD
+	db 40, IRON_HEAD
 	db 0 ; no more level-up moves
 
 CantogethaEvosAttacks:
@@ -1760,14 +1759,13 @@ CantogethaEvosAttacks:
 	db 1, MACH_PUNCH
 	db 5, HARDEN
 	db 5, SHARPEN
-	db 11, BUBBLEBEAM
+	db 11, RAPID_SPIN
 	db 17, DOUBLE_KICK
-	db 23, RAPID_SPIN
 	db 24, BEAT_UP
 	db 30, VITAL_THROW
 	db 33, BATON_PASS
 	db 37, MIRROR_COAT
-	db 43, IRON_HEAD
+	db 40, IRON_HEAD
 	db 46, CROSS_CHOP
 	db 49, LIQUIDATION
 	db 51, SEISMIC_TOSS
@@ -1964,12 +1962,12 @@ AntpyreEvosAttacks:
 	db 19, FIRE_SPIN
 	db 22, FURY_CUTTER
 	db 25, MEGA_DRAIN
-	db 30, EXPLOSION
+	db 30, SELFDESTRUCT
 	db 33, POISON_JAB
 	db 39, LEECH_LIFE
 	db 42, SLUDGE_BOMB
 	db 46, FLAMETHROWER
-	db 50, SELFDESTRUCT
+	db 50, EXPLOSION
 	db 0 ; no more level-up moves
 
 GeneropsisEvosAttacks:
@@ -1988,7 +1986,6 @@ GeneropsisEvosAttacks:
 	db 39, LEECH_LIFE
 	db 39, FLAMETHROWER
 	db 42, SLUDGE_BOMB
-	db 50, SELFDESTRUCT
 	db 55, FIRE_BLAST
 	db 0 ; no more level-up moves
 
@@ -3828,7 +3825,7 @@ SnosebleedEvosAttacks:
 	db 42, ICE_BEAM
 	db 48, SLUDGE_BOMB
 	db 50, HYDRO_PUMP
-	db 55, SELFDESTRUCT
+	db 55, EXPLOSION
 	db 60, FOCUS_BLAST
 	db 0 ; no more level-up moves
 
@@ -3850,7 +3847,7 @@ SnowupEvosAttacks:
 	db 42, ICE_BEAM
 	db 48, SLUDGE_BOMB
 	db 52, HYDRO_PUMP
-	db 55, SELFDESTRUCT
+	db 55, EXPLOSION
 	db 60, FOCUS_BLAST	
 	db 0 ; no more level-up moves
 
@@ -3870,7 +3867,7 @@ SnoverdoseEvosAttacks:
 	db 35, REST
 	db 40, AMNESIA
 	db 42, ICE_BEAM
-	db 43, SELFDESTRUCT
+	db 43, EXPLOSION
 	db 48, SLUDGE_BOMB
 	db 49, PUKE_BLOOD
 	db 52, HYDRO_PUMP

@@ -778,6 +778,7 @@ KodoroyahEggMoves:
 LamseedEggMoves:
 	db DOUBLE_EDGE
 	db BITE
+	db BULLET_SEED
 	db BODY_SLAM
 	db DRAININGKISS
 	db EXPLOSION
