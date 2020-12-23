@@ -124,7 +124,7 @@
 	const FOCUS_ENERGY ; 74
 	const PUKE_BLOOD   ; 75
 	const METRONOME    ; 76
-	const MIRROR_MOVE  ; 77
+	const BULLET_SEED  ; 77
 	const SELFDESTRUCT ; 78
 	const NASTY_PLOT   ; 79
 	const LICK         ; 7a

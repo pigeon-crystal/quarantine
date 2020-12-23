@@ -119,7 +119,7 @@ BattleAnimations::
 	dw BattleAnim_FocusEnergy
 	dw BattleAnim_PukeBlood
 	dw BattleAnim_Metronome
-	dw BattleAnim_MirrorMove
+	dw BattleAnim_BulletSeed
 	dw BattleAnim_Selfdestruct
 	dw BattleAnim_NastyPlot
 	dw BattleAnim_Lick
@@ -283,8 +283,28 @@ BattleAnimations::
 BattleAnim_0:
 BattleAnim_253:
 BattleAnim_254:
-BattleAnim_MirrorMove:
 	anim_ret
+	
+BattleAnim_BulletSeed:
+    anim_2gfx ANIM_GFX_PLANT, ANIM_GFX_HIT    
+    anim_sound 0, 1, SFX_BONE_CLUB
+.loop
+    anim_obj ANIM_OBJ_BULLET_SEED, 64, 90, $14
+    anim_wait 7
+    anim_obj ANIM_OBJ_BULLET_SEED, 64, 90, $14
+    anim_sound 0, 1, SFX_HORN_ATTACK
+    anim_obj ANIM_OBJ_01, 136, 56, $0
+    anim_wait 7
+    anim_obj ANIM_OBJ_BULLET_SEED, 64, 90, $14
+    anim_sound 0, 1, SFX_HORN_ATTACK
+    anim_obj ANIM_OBJ_01, 136, 56, $0
+    anim_wait 7
+    anim_sound 0, 1, SFX_HORN_ATTACK
+    anim_obj ANIM_OBJ_01, 136, 56, $0
+    anim_loop 3, .loop
+    anim_wait 16
+    anim_ret
+
 
 BattleAnim_SweetScent2:
 	anim_2gfx ANIM_GFX_FLOWER, ANIM_GFX_MISC
@@ -4660,6 +4680,60 @@ BattleAnim_Extremespeed:
 	anim_ret
 
 BattleAnim_PowerGem:
+    anim_1gfx ANIM_GFX_SHINE
+    anim_bgeffect ANIM_BG_07, $0, $0, $0
+    anim_sound 0, 0, SFX_METRONOME
+    anim_obj ANIM_OBJ_POWER_GEM, 70, 108, $0
+    anim_wait 1
+    anim_obj ANIM_OBJ_POWER_GEM, 46, 88, $0
+    anim_wait 1
+    anim_obj ANIM_OBJ_POWER_GEM, 64, 92, $0
+    anim_wait 1
+    anim_obj ANIM_OBJ_POWER_GEM, 24, 90, $0
+    anim_wait 1
+    anim_obj ANIM_OBJ_POWER_GEM, 36, 72, $0
+    anim_wait 1
+    anim_obj ANIM_OBJ_POWER_GEM, 44, 112, $0
+    anim_wait 1
+    anim_obj ANIM_OBJ_POWER_GEM, 30, 106, $0
+    anim_wait 1
+    anim_obj ANIM_OBJ_POWER_GEM, 56, 104, $0
+    anim_wait 1
+    anim_obj ANIM_OBJ_POWER_GEM, 54, 68, $0
+    anim_wait 1
+    anim_obj ANIM_OBJ_POWER_GEM, 76, 78, $0
+    anim_wait 80
+    anim_sound 0, 1, SFX_SHINE
+    anim_incobj  1
+    anim_wait 2
+    anim_incobj  2
+    anim_wait 2
+    anim_sound 0, 1, SFX_SHINE
+    anim_incobj  3
+    anim_wait 2
+    anim_incobj  4
+    anim_wait 2
+    anim_sound 0, 1, SFX_SHINE
+    anim_incobj  5
+    anim_wait 2
+    anim_incobj  6
+    anim_wait 2
+    anim_sound 0, 1, SFX_SHINE
+    anim_incobj  7
+    anim_wait 2
+    anim_incobj  8
+    anim_wait 2
+    anim_sound 0, 1, SFX_SHINE
+    anim_incobj  9
+    anim_wait 2
+    anim_incobj  10
+    anim_wait 16
+    anim_ret
+
+
+
+
+
 BattleAnim_Ancientpower:
 	anim_2gfx ANIM_GFX_ROCKS, ANIM_GFX_HIT
 	anim_sound 0, 0, SFX_SPARK

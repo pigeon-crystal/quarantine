@@ -52,8 +52,7 @@ PosterScript:
 
 PlayersHouseRadioScript:
 	setflag ENGINE_POKEDEX
-	givepoke MUMAGNUS, 100
-	givepoke AERFAEDRA, 50
+	givepoke PEPOFFER, 100
 	setflag ENGINE_FOGBADGE
 	setflag ENGINE_RISINGBADGE
 	setflag ENGINE_MINERALBADGE
@@ -74,7 +73,7 @@ PlayersHouseRadioScript:
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
-	warp ROUTE_33, 11, 16
+	warp ANDROMEGA_FINAL, 2, 2
 	end
 	
 ;PlayersHouseRadioScript:

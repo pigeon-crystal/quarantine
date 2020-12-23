@@ -118,7 +118,7 @@ MoveDescriptions::
 	dw FocusEnergyDescription
 	dw PukeBloodDescription
 	dw MetronomeDescription
-	dw MirrorMoveDescription
+	dw BulletSeedDescription
 	dw SelfdestructDescription
 	dw NastyPlotDescription
 	dw LickDescription
@@ -733,9 +733,9 @@ MetronomeDescription:
 	db   "Randomly uses any"
 	next "#MON move.@"
 
-MirrorMoveDescription:
-	db   "Counters with the"
-	next "same move.@"
+BulletSeedDescription:
+	db   "Shoots a seed"
+	next "2-5 times.@"
 
 SelfdestructDescription:
 	db   "Powerful but makes"

@@ -735,6 +735,7 @@ KRIS EQU __enum__
 	trainerclass FANATIC_BLUE ; 4b
 	const SAIJO
 	const BRIDGET_F_B
+	const CONNIE_F_B
 	
 	trainerclass WARRIOR ; 4c 
 	const MURAI

@@ -117,7 +117,7 @@ MoveNames::
 	db "FOCUS ENERGY@"
 	db "PUKE BLOOD@"
 	db "METRONOME@"
-	db "MIRROR MOVE@"
+	db "BULLET SEED@"
 	db "SELFDESTRUCT@"
 	db "NASTY PLOT@"
 	db "LICK@"

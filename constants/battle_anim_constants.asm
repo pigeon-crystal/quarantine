@@ -224,6 +224,8 @@ BATTLEANIM_BASE_TILE EQU 7 * 7  ; Maximum size of a pokemon picture
 	const ANIM_OBJ_MOONBLAST
     const ANIM_OBJ_MOON
     const ANIM_OBJ_MOON_CHARGE
+	const ANIM_OBJ_POWER_GEM
+	const ANIM_OBJ_BULLET_SEED
 
 ; DoBattleAnimFrame arguments (see engine/battle_anims/functions.asm)
 	const_def
@@ -307,7 +309,8 @@ BATTLEANIM_BASE_TILE EQU 7 * 7  ; Maximum size of a pokemon picture
 	const BATTLEANIMFUNC_4D
 	const BATTLEANIMFUNC_4E
 	const BATTLEANIMFUNC_4F
-	const BATTLEANIMFUNC_50
+	const BATTLEANIMFUNC_50 ; Moonblast 
+	const BATTLEANIMFUNC_51	; Power gem
 
 ; BattleAnimFrameData indexes (see data/battle_anims/framesets.asm)
 	const_def
@@ -496,7 +499,8 @@ BATTLEANIM_BASE_TILE EQU 7 * 7  ; Maximum size of a pokemon picture
 	const BATTLEANIMFRAMESET_B6
 	const BATTLEANIMFRAMESET_B7
 	const BATTLEANIMFRAMESET_B8
-	const BATTLEANIMFRAMESET_B9
+	const BATTLEANIMFRAMESET_B9 ; moonblast
+	const BATTLEANIMFRAMESET_BA ; power gem
 	
 ; BattleAnimOAMData indexes (see data/battle_anims/oam.asm)
 	const_def
@@ -784,14 +788,14 @@ BATTLEANIM_BASE_TILE EQU 7 * 7  ; Maximum size of a pokemon picture
 	const ANIM_GFX_SMOKE
 	const ANIM_GFX_EXPLOSION
 	const ANIM_GFX_ROCKS
-	const ANIM_GFX_ICE
+	const ANIM_GFX_ICE 
 	const ANIM_GFX_POKE_BALL
 	const ANIM_GFX_POISON
 	const ANIM_GFX_BUBBLE
 	const ANIM_GFX_NOISE
 	const ANIM_GFX_POWDER
 	const ANIM_GFX_BEAM
-	const ANIM_GFX_SPEED
+	const ANIM_GFX_SPEED ;10
 	const ANIM_GFX_CHARGE
 	const ANIM_GFX_WIND
 	const ANIM_GFX_WHIP
@@ -806,7 +810,7 @@ BATTLEANIM_BASE_TILE EQU 7 * 7  ; Maximum size of a pokemon picture
 	const ANIM_GFX_HORN
 	const ANIM_GFX_FLOWER
 	const ANIM_GFX_MISC
-	const ANIM_GFX_SKY_ATTACK
+	const ANIM_GFX_SKY_ATTACK ;20
 	const ANIM_GFX_GLOBE
 	const ANIM_GFX_SHAPES
 	const ANIM_GFX_OBJECTS

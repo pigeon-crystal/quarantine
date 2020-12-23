@@ -864,8 +864,8 @@ MuminiEvosAttacks:
 	db 36, MOONLIGHT
 	db 37, MOONBLAST
 	db 40, PLAY_ROUGH
-	db 48, FISSURE
 	db 53, BELLY_DRUM
+	db 60, FISSURE
 	db 0 ; no more level-up moves
 
 MumagnusEvosAttacks:
@@ -1670,7 +1670,7 @@ LanatunEvosAttacks:
 	db 15, LEECH_SEED
 	db 19, BUBBLEBEAM
 	db 22, SLEEP_POWDER
-	db 25, CONFUSE_RAY
+	db 25, BULLET_SEED
 	db 27, MEGA_DRAIN
 	db 31, SYNTHESIS
 	db 34, MINIMIZE
@@ -1689,7 +1689,7 @@ PepofferEvosAttacks:
 	db 15, LEECH_SEED
 	db 21, BUBBLEBEAM
 	db 24, SLEEP_POWDER
-	db 26, CONFUSE_RAY
+	db 26, BULLET_SEED
 	db 27, MEGA_DRAIN
 	db 28, SYNTHESIS
 	db 30, EXPLOSION
@@ -1698,6 +1698,7 @@ PepofferEvosAttacks:
 	db 40, THRASH
 	db 44, HEAL_BELL
 	db 53, HYDRO_PUMP
+	db 56, BULLET_SEED
 	db 0 ; no more level-up moves
 
 LamyglamaEvosAttacks:
