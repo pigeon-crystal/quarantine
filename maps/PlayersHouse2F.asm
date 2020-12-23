@@ -52,15 +52,19 @@ PosterScript:
 
 PlayersHouseRadioScript:
 	setflag ENGINE_POKEDEX
-	givepoke HAPPIG, 100
-	givepoke BISMUTT, 100
+	givepoke BISMUTT, 66
+	givepoke WALLARRIOR, 100
+	setflag ENGINE_ZEPHYRBADGE
+	setflag ENGINE_HIVEBADGE
 	setflag ENGINE_FOGBADGE
 	setflag ENGINE_RISINGBADGE
 	setflag ENGINE_MINERALBADGE
 	setevent EVENT_TEAM_ROCKET_BASE_POPULATION
 	setevent ROCKET_BF3_VIRUES_2
 	giveitem TM_TWISTER
+	giveitem GS_BALL
 	giveitem TM_REST
+	giveitem HM_CUT
 	giveitem HM_WHIRLPOOL
 	giveitem HM_SURF
 	giveitem HM_WATERFALL
@@ -74,7 +78,8 @@ PlayersHouseRadioScript:
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
-	warp ANDROMEGA_FINAL, 2, 2
+	giveitem MAX_REPEL
+	warp ILEX_FOREST_AZALEA_GATE, 0, 6
 	end
 	
 ;PlayersHouseRadioScript:

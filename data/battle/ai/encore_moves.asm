@@ -23,11 +23,9 @@ EncoreMoves:
 	db POISON_GAS
 	db SHARPEN
 	db WILL_O_WISP
-	db CONVERSION
 	db SUPER_FANG
 	db SUBSTITUTE
-	db TRIPLE_KICK
 	db SPIDER_WEB
-	db FLAME_WHEEL
+	db BEAT_UP
 	db COTTON_SPORE
 	db -1 ; end

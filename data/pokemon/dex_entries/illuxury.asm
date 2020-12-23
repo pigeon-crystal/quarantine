@@ -1,10 +1,11 @@
-	db "MAIDEN@" ; species name ; TODO
+	db "FELLMAIDEN@" ; species name ; TODO
 	dw 302, 11 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "Some say YUGGROMI"
+	next "isn't the FIEND"
+	next "OF THE FOREST,"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "instead blaming"
+	next "a silent girl in"
+	next "a white dress.@"
+	

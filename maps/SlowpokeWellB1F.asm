@@ -229,6 +229,11 @@ GruntM1SeenText:
 	para "If you interrupt"
 	line "our work, don't"
 	cont "expect any mercy!"
+	
+	para "I think it's time"
+	line "you learned what"
+	cont "TEAM ROCKET's all"
+	cont "about!"
 	done
 
 GruntM1BeatenText:

@@ -167,7 +167,7 @@ BattleAnimations::
 	dw BattleAnim_Substitute
 	dw BattleAnim_Struggle
 	dw BattleAnim_Sketch
-	dw BattleAnim_TripleKick
+	dw BattleAnim_CatCannon
 	dw BattleAnim_Thief
 	dw BattleAnim_SpiderWeb
 	dw BattleAnim_Accelerock
@@ -305,6 +305,27 @@ BattleAnim_BulletSeed:
     anim_wait 16
     anim_ret
 
+BattleAnim_CatCannon:
+    anim_2gfx ANIM_GFX_CAT, ANIM_GFX_HIT
+.loop
+    anim_sound 0, 1, SFX_SQUEAK
+    anim_obj ANIM_OBJ_CAT, 64, 92, $18
+    anim_wait 8
+    anim_sound 0, 1, SFX_SQUEAK
+    anim_obj ANIM_OBJ_CAT, 56, 84, $18
+    anim_sound 0, 1, SFX_HEADBUTT
+    anim_obj ANIM_OBJ_01, 136, 56, $0
+    anim_wait 8
+    anim_sound 0, 1, SFX_SQUEAK
+    anim_obj ANIM_OBJ_CAT, 52, 88, $18
+    anim_sound 0, 1, SFX_HEADBUTT
+    anim_obj ANIM_OBJ_01, 128, 48, $0
+    anim_wait 8
+    anim_sound 0, 1, SFX_HEADBUTT
+    anim_obj ANIM_OBJ_01, 132, 52, $0
+    anim_loop 3, .loop
+    anim_wait 16
+    anim_ret
 
 BattleAnim_SweetScent2:
 	anim_2gfx ANIM_GFX_FLOWER, ANIM_GFX_MISC
@@ -3275,33 +3296,6 @@ BattleAnim_Sketch:
 	anim_incbgeffect ANIM_BG_1A
 	anim_call BattleAnim_ShowMon_0
 	anim_wait 1
-	anim_ret
-
-BattleAnim_TripleKick:
-	anim_1gfx ANIM_GFX_HIT
-	anim_if_param_equal $1, .alternate1
-	anim_if_param_equal $2, .alternate2
-	anim_sound 0, 1, SFX_MEGA_KICK
-	anim_obj ANIM_OBJ_07, 144, 48, $0
-	anim_wait 6
-	anim_obj ANIM_OBJ_01, 144, 48, $0
-	anim_wait 8
-	anim_ret
-
-.alternate1:
-	anim_sound 0, 1, SFX_DOUBLE_KICK
-	anim_obj ANIM_OBJ_07, 120, 64, $0
-	anim_wait 6
-	anim_obj ANIM_OBJ_01, 120, 64, $0
-	anim_wait 8
-	anim_ret
-
-.alternate2:
-	anim_sound 0, 1, SFX_DOUBLE_KICK
-	anim_obj ANIM_OBJ_07, 132, 32, $0
-	anim_wait 6
-	anim_obj ANIM_OBJ_01, 132, 32, $0
-	anim_wait 8
 	anim_ret
 
 BattleAnim_Thief:

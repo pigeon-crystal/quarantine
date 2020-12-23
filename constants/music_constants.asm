@@ -130,6 +130,7 @@
 	const MUSIC_YOTSUBA2
 
 ; GetMapMusic picks music for these values (see home/map.asm)
+MUSIC_ILEX_FOREST	EQU $fb
 MUSIC_MAHOGANY_MART EQU $fc
 MUSIC_RADIO_TOWER   EQU $fd
 

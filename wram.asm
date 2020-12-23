@@ -2617,7 +2617,7 @@ wMooMooBerries:: db ; d962
 wUndergroundSwitchPositions:: db ; d963
 wFarfetchdPosition:: db ; d964
 
-	ds 12 ;editing from ds 13
+	ds 11 ;editing from ds 13
 
 ; map scene ids
 wPokecenter2FSceneID::                            db ; d972
@@ -2699,6 +2699,7 @@ wFastShipB1FSceneID::                             db ; d9bd
 wMountMoonSquareSceneID::                         db ; d9be
 wMobileTradeRoomSceneID::                         db ; d9bf
 wMobileBattleRoomSceneID::                        db ; d9c0     deleted below ds 49
+wIlexForestSceneID::							  db ; huh?
 
 
 ; fight counts

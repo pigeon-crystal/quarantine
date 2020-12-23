@@ -14,7 +14,7 @@ GoldenrodPokecenter1FNurseScript:
 	jumpstd pokecenternurse
 
 GoldenrodPokecenter1F_GSBallSceneLeft:
-	checkflag ENGINE_RISINGBADGE	
+	checkevent	EVENT_CAN_GIVE_GS_BALL_TO_KURT	
 	iftrue .gsball
 	end
 

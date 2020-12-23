@@ -166,7 +166,7 @@ MoveDescriptions::
 	dw SubstituteDescription
 	dw StruggleDescription
 	dw SketchDescription
-	dw TripleKickDescription
+	dw CatCannonDescription
 	dw ThiefDescription
 	dw SpiderWebDescription
 	dw AccelerockDescription
@@ -925,9 +925,9 @@ SketchDescription:
 	db   "Copies the foe's"
 	next "move permanently.@"
 
-TripleKickDescription:
-	db   "Hits three times"
-	next "with rising power.@"
+CatCannonDescription:
+	db   "Fire SHABBYCAT"
+	next "2-5 times.@"
 
 ThiefDescription:
 	db   "An attack that may"

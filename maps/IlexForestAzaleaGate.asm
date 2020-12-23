@@ -11,7 +11,11 @@ IlexForestAzaleaGateOfficerScript:
 	jumptextfaceplayer IlexForestAzaleaGateOfficerText
 
 IlexForestAzaleaGateGrannyScript:
+	checkevent EVENT_CAUGHT_ILLUXURY
+	iftrue .GrannyIlluxury
 	jumptextfaceplayer IlexForestAzaleaGateGrannyText
+.GrannyIlluxury
+	jumptextfaceplayer IlexForestAzaleaGateGrannyIlluxuryText
 
 IlexForestAzaleaGateOfficerText:
 	text "If you're gonna"
@@ -32,12 +36,23 @@ IlexForestAzaleaGateGrannyText:
 	line "watched over by"
 	cont "its protector."
 
-	para "But that protection"
+	para "But that boon"
 	line "wanes when the sun"
 	cont "sets."
 	
 	para "Be careful, child."
 	done
+	
+IlexForestAzaleaGateGrannyIlluxuryText
+	text "So it's true?"
+	
+	para "It's not that the"
+	line "boon wanes when the"
+	cont "sun falls,"
+	
+	para "it's that a curse"
+	line "gets stronger when"
+	cont "the moon rises…"
 
 IlexForestAzaleaGate_MapEvents:
 	db 0, 0 ; filler
@@ -54,4 +69,4 @@ IlexForestAzaleaGate_MapEvents:
 
 	db 2 ; object events
 	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, IlexForestAzaleaGateOfficerScript, -1
-	object_event  1,  3, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, IlexForestAzaleaGateGrannyScript, -1
+	object_event  1,  3, SPRITE_BREEDER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, IlexForestAzaleaGateGrannyScript, -1

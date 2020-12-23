@@ -3182,9 +3182,9 @@ MeowtainEvosAttacks:
 	db 35, SLASH
 	db 44, BODY_SLAM
 	db 47, PLAY_ROUGH
-	db 47, CRUNCH
-	db 50, POISON_JAB
-	db 52, RETURN
+	db 47, CATAPULT
+	db 50, CRUNCH
+	db 55, RETURN
 	db 0 ; no more level-up moves
 
 HoplaqueEvosAttacks:

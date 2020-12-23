@@ -69,6 +69,8 @@ PlayBattleMusic:
 	jr z, .legendmusic
 	cp GORIATH
 	jr z, .legendmusic
+	cp ILLUXURY
+	jr z, .legendmusic
 
 	; Are we fighting a trainer?
 	ld a, [wOtherTrainerClass]

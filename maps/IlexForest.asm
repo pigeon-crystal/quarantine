@@ -10,13 +10,41 @@
 	const ILEXFOREST_POKE_BALL2
 	const ILEXFOREST_POKE_BALL3
 	const ILEXFOREST_POKE_BALL4
+	const ILEXFOREST_FANATIC_1
+	const ILEXFOREST_FANATIC_2
+	const ILEXFOREST_FANATIC_3
 
 IlexForest_MapScripts:
-	db 0 ; scene scripts
+	db 1 ; scene scripts
+	scene_script .DummyScene
 
-	db 1 ; callbacks
+	db 2 ; callbacks
+	callback MAPCALLBACK_TILES, .CheckTiles
 	callback MAPCALLBACK_OBJECTS, .FarfetchdCallback
+	
+.DummyScene
+	end
 
+.CheckTiles
+	checkevent EVENT_PLACED_BALL_IN_SHRINE
+	iftrue .ForestMazeOpensCallback
+.CheckTilesReturn
+	checkevent EVENT_CAUGHT_ILLUXURY
+	iftrue .Escape
+	return
+.ForestMazeOpensCallback
+	changeblock 12, 36, $01 ; floor
+	changeblock 12, 38, $01
+	changeblock 18, 38, $04 ; flower
+	changeblock 20, 38, $01
+	changeblock 22, 38, $01
+	changeblock 24, 38, $04
+	jump .CheckTilesReturn
+.Escape
+	changeblock 20, 48, $01
+	changeblock 22, 48, $01
+	return
+	
 .FarfetchdCallback:
 	checkevent EVENT_GOT_HM01_CUT
 	iftrue .Static
@@ -444,38 +472,27 @@ IlexForestShrineScript:
 
 .CelebiEvent:
 	takeitem GS_BALL
-	clearevent EVENT_FOREST_IS_RESTLESS
-	setevent EVENT_AZALEA_TOWN_KURT
-	disappear ILEXFOREST_LASS
-	clearevent EVENT_ROUTE_34_ILEX_FOREST_GATE_LASS
+	setevent EVENT_PLACED_BALL_IN_SHRINE
 	writetext Text_InsertGSBall
 	waitbutton
-	closetext
 	pause 20
 	showemote EMOTE_SHOCK, PLAYER, 20
-	special FadeOutMusic
-	applymovement PLAYER, MovementData_0x6ef58
-	pause 30
-	turnobject PLAYER, DOWN
-	pause 20
-	clearflag ENGINE_FOREST_IS_RESTLESS
-	special CelebiShrineEvent
-	loadwildmon TENTAQUIL, 30
-	startbattle
-	reloadmapafterbattle
-	pause 20
-	special CheckCaughtCelebi
-	iffalse .DidntCatchCelebi
-	appear ILEXFOREST_KURT
-	applymovement ILEXFOREST_KURT, MovementData_0x6ef4e
-	opentext
-	writetext Text_KurtCaughtCelebi
+	earthquake 30
+	changeblock 12, 36, $01 ; floor
+	changeblock 12, 38, $01
+	changeblock 18, 38, $04 ; flower
+	changeblock 20, 38, $01
+	changeblock 22, 38, $01
+	changeblock 24, 38, $04
+	writetext SomethingSouthText
 	waitbutton
-	closetext
-	applymovement ILEXFOREST_KURT, MovementData_0x6ef53
-	disappear ILEXFOREST_KURT
-.DidntCatchCelebi:
+	closetext	
 	end
+	
+SomethingSouthText:
+	text "You hear a rustle"
+	line "to the south."
+	done
 
 MovementData_Farfetchd_Pos1_Pos2:
 	big_step UP
@@ -731,6 +748,15 @@ MovementData_0x6ef58:
 	slow_step DOWN
 	remove_fixed_facing
 	step_end
+	
+IlluxuryGirl1:
+	jumptextfaceplayer NotHereWhoops
+	end
+	
+NotHereWhoops:
+	text "This isn't supposed"
+	line "to happen."
+	done	
 
 IlexForestApprenticeIntroText:
 	text "Oh, man… My boss"
@@ -835,9 +861,9 @@ Text_HeadbuttOutro:
 	done
 
 Text_IlexForestLass:
-	text "Did something"
-	line "happen to the"
-	cont "forest's guardian?"
+	text "Did you see"
+	line "that beautiful"
+	cont "girl?"
 	done
 
 IlexForestSignpostText:
@@ -874,36 +900,16 @@ Text_ShrineCelebiEvent:
 	para "It's a hole."
 	line "It looks like the"
 
-	para "GS BALL would fit"
+	para "QT BALL would fit"
 	line "inside it."
 
-	para "Want to put the GS"
+	para "Want to put the QT"
 	line "BALL here?"
 	done
 
 Text_InsertGSBall:
 	text "<PLAYER> put in the"
-	line "GS BALL."
-	done
-
-Text_KurtCaughtCelebi:
-	text "Whew, wasn't that"
-	line "something!"
-
-	para "<PLAYER>, that was"
-	line "fantastic. Thanks!"
-
-	para "The legends about"
-	line "that SHRINE were"
-	cont "real after all."
-
-	para "I feel inspired by"
-	line "what I just saw."
-
-	para "It motivates me to"
-	line "make better BALLS!"
-
-	para "I'm going!"
+	line "QT BALL."
 	done
 
 BugCatcherWayneSeenText:
@@ -932,6 +938,77 @@ BugCatcherWayneAfterBattleText:
 	cont "places too."
 	done
 
+IlluxuryCoordEvent1:
+	checkevent ILLUXURY_1_IN_ILEX_FOREST
+	iftrue .noevent
+	applymovement ILEXFOREST_FANATIC_1, IlluxuryGirl1Movement
+	disappear ILEXFOREST_FANATIC_1
+	setevent ILLUXURY_1_IN_ILEX_FOREST
+.noevent
+	end 
+	
+IlluxuryCoordEvent2:
+	checkevent ILLUXURY_2_IN_ILEX_FOREST
+	iftrue .noevent
+	applymovement ILEXFOREST_FANATIC_2, IlluxuryGirl2Movement
+	disappear ILEXFOREST_FANATIC_2
+	setevent ILLUXURY_2_IN_ILEX_FOREST
+	musicfadeout MUSIC_TENSION, 16
+	setevent ILLUXURY_TENSION_PLAYING
+.noevent
+	end
+	
+MusicStops:
+	checkevent EVENT_CAUGHT_ILLUXURY
+	iftrue .noevent
+	playmusic MUSIC_NONE, 0
+.noevent
+	end
+	
+IlluxuryGirl1Movement:
+	step DOWN
+	step DOWN
+	step DOWN
+	step DOWN
+	step_end
+	
+IlluxuryGirl2Movement:
+	step UP
+	step UP
+	step UP
+	step UP
+	step_end
+
+IlluxuryGirl3:
+	clearevent EVENT_FOREST_IS_RESTLESS
+	faceplayer
+	opentext
+	writetext HeheheIlluxury
+	waitbutton
+	closetext
+	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
+	loadwildmon ILLUXURY, 55
+	startbattle
+; post battle events cleaned up
+	clearevent ILLUXURY_TENSION_PLAYING
+	setevent EVENT_CAUGHT_ILLUXURY
+	setevent EVENT_AZALEA_TOWN_KURT
+	disappear ILEXFOREST_LASS
+	clearevent EVENT_ROUTE_34_ILEX_FOREST_GATE_LASS
+	clearflag ENGINE_FOREST_IS_RESTLESS
+	disappear ILEXFOREST_FANATIC_3
+;done with that shit
+	reloadmapafterbattle
+	changeblock 20, 48, $01
+	changeblock 22, 48, $01
+	reloadmappart
+	end
+	
+HeheheIlluxury:
+	text "Got…"
+	line "you…"
+	done
+
 IlexForest_MapEvents:
 	db 0, 0 ; filler
 
@@ -940,7 +1017,13 @@ IlexForest_MapEvents:
 	warp_event  3, 42, ILEX_FOREST_AZALEA_GATE, 1
 	warp_event  3, 43, ILEX_FOREST_AZALEA_GATE, 2
 
-	db 0 ; coord events
+	db 6 ; coord events
+	coord_event 12, 39, SCENE_DEFAULT, IlluxuryCoordEvent1
+	coord_event 13, 39, SCENE_DEFAULT, IlluxuryCoordEvent1
+	coord_event 16, 48,	SCENE_DEFAULT, IlluxuryCoordEvent2
+	coord_event 16, 49, SCENE_DEFAULT, IlluxuryCoordEvent2
+	coord_event 25, 46, SCENE_DEFAULT, MusicStops
+	coord_event 24, 46, SCENE_DEFAULT, MusicStops
 
 	db 5 ; bg events
 	bg_event  3, 17, BGEVENT_READ, IlexForestSignpost
@@ -949,7 +1032,7 @@ IlexForest_MapEvents:
 	bg_event  1, 17, BGEVENT_ITEM, IlexForestHiddenFullHeal
 	bg_event  8, 22, BGEVENT_UP, IlexForestShrineScript
 
-	db 11 ; object events
+	db 14 ; object events
 	object_event 14, 31, SPRITE_BIRD, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, IlexForestFarfetchdScript, EVENT_ILEX_FOREST_FARFETCHD
 	object_event  7, 28, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, IlexForestCharcoalApprenticeScript, EVENT_ILEX_FOREST_APPRENTICE
 	object_event  5, 28, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IlexForestCharcoalMasterScript, EVENT_ILEX_FOREST_CHARCOAL_MASTER
@@ -961,3 +1044,6 @@ IlexForest_MapEvents:
 	object_event  9, 17, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IlexForestXAttack, EVENT_ILEX_FOREST_X_ATTACK
 	object_event 17,  7, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IlexForestAntidote, EVENT_ILEX_FOREST_ANTIDOTE
 	object_event 27,  1, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IlexForestEther, EVENT_ILEX_FOREST_ETHER
+	object_event 13, 41, SPRITE_FANATIC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, IlluxuryGirl1, ILLUXURY_1_IN_ILEX_FOREST
+	object_event 19, 47, SPRITE_FANATIC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, IlluxuryGirl1, ILLUXURY_2_IN_ILEX_FOREST
+	object_event 29, 49, SPRITE_FANATIC, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, IlluxuryGirl3, ILLUXURY_3_IN_ILEX_FOREST

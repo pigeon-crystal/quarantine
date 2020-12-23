@@ -287,6 +287,9 @@ Kurt1:
 	waitbutton
 	closetext
 	setevent EVENT_FOREST_IS_RESTLESS
+	clearevent ILLUXURY_1_IN_ILEX_FOREST
+	clearevent ILLUXURY_2_IN_ILEX_FOREST
+	clearevent ILLUXURY_3_IN_ILEX_FOREST
 	clearevent EVENT_CAN_GIVE_GS_BALL_TO_KURT
 	clearevent EVENT_GAVE_GS_BALL_TO_KURT
 	special FadeOutMusic
@@ -573,13 +576,32 @@ KurtsHouseKurtWhatIsThatText:
 
 	para "I've never seen"
 	line "one before."
+	
+	para "… … …"
 
-	para "It looks a lot"
-	line "like a # BALL,"
-
-	para "but it appears to"
-	line "be something else."
-
+	para "Say, <PLAYER>,"
+	line "you've heard of"
+	
+	para "the FIEND OF THE"
+	line "FOREST, right?"
+	
+	para "The YUGGROMI that"
+	line "come out at night"
+	cont "and do bad things?"
+	
+	para "If I'm correct…"
+	
+	para "This BALL might"
+	line "have something to"
+	
+	para "do with the FIEND"
+	line "and the ILEX"
+	cont "FOREST SHRINE."
+	
+	para "Really, where on"
+	line "earth did you get"
+	cont "this…"
+	
 	para "Let me check it"
 	line "for you."
 	done
@@ -671,8 +693,8 @@ KurtsHouseOakPhotoText:
 
 KurtsHouseCelebiStatueText:
 	text "It's a statue of"
-	line "the forest's pro-"
-	cont "tector."
+	line "the a rare"
+	cont "#MON."
 	done
 
 KurtsHouse_MapEvents:

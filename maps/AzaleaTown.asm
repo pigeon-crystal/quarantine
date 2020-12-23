@@ -384,7 +384,7 @@ AzaleaTownKurtText1:
 
 AzaleaTownKurtText2:
 	text "<PLAYER>, here's"
-	line "your GS BALL back!"
+	line "your QT BALL back!"
 	done
 
 AzaleaTownKurtText3:
@@ -426,8 +426,9 @@ SlowpokeWellSignText:
 	
 	para "draw wells, and"
 	line "they would teach"
-	cont "that art to"
-	cont "humans that would"
+	
+	para "that art to"
+	line "humans that would"
 	cont "befriend them."
 
 	para "Records show that"

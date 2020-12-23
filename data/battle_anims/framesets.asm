@@ -187,6 +187,7 @@ BattleAnimFrameData:
 	dw .Frameset_b8 ; BATTLEANIMFRAMESET_B8
 	dw .Frameset_b9 ; BATTLEANIMFRAMESET_B9
 	dw .Frameset_ba ; BATTLEANIMFRAMESET_BA
+	dw .Frameset_bb ; BATTLEANIMFRAMESET_BB
 
 
 .Frameset_00:
@@ -1276,5 +1277,9 @@ BattleAnimFrameData:
 
 .Frameset_ba:    					; added by sour
     frame BATTLEANIMOAMSET_54, 40
+    endanim
+
+.Frameset_bb:						; added by sour
+    frame BATTLEANIMOAMSET_0A,  8
     endanim
 
