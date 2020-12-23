@@ -708,6 +708,7 @@ KRIS EQU __enum__
 	
 	trainerclass WIZARD ; 44
 	const CROWLEY
+	const TIM_WIZ
 
 	trainerclass GURU ; 45
 	const LI_GURU

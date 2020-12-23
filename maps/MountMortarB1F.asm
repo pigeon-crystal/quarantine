@@ -12,44 +12,128 @@ MountMortarB1F_MapScripts:
 
 	db 0 ; callbacks
 
-MountMortarB1FKiyoScript:			; TODO fix Tyrogue
+MountMortarB1FKiyoScript:			; 
 	faceplayer
 	opentext
-	checkevent EVENT_GOT_TYROGUE_FROM_KIYO
-	iftrue .GotFueghast
-	checkevent EVENT_BEAT_BLACKBELT_KIYO
-	iftrue .BeatKiyo
-	writetext MountMortarB1FKiyoIntroText
+	checkevent EVENT_CAUGHT_ILLUXURY
+	iftrue .Illuxury
+	checkevent EVENT_GOT_QT_BALL_FROM_TIM
+	iftrue .BeatTim
+	writetext MountMortarWizardTimIntroText
 	waitbutton
 	closetext
-	winlosstext MountMortarB1FKiyoWinText, 0
-	loadtrainer BLACKBELT_T, KIYO
+	winlosstext MountMortarWizardTimBeatenText, 0
+	loadtrainer WIZARD, TIM_WIZ
 	startbattle
 	reloadmapafterbattle
-	setevent EVENT_BEAT_BLACKBELT_KIYO
+	setevent EVENT_BEAT_WIZARD_TIM
 	opentext
-.BeatKiyo:
-	writetext MountMortarB1FFueghastRewardText
+	writetext WizardTimGivesBallText
 	promptbutton
 	waitsfx
-	readvar VAR_PARTYCOUNT
-	ifequal PARTY_LENGTH, .NoRoom
-	writetext MountMortarB1FReceiveMonText
-	playsound SFX_CAUGHT_MON
+	giveitem GS_BALL
+	writetext GotQTBall
+	waitbutton
+	playsound SFX_KEY_ITEM
 	waitsfx
-	givepoke FUEGHAST, 10
-	setevent EVENT_GOT_TYROGUE_FROM_KIYO
-.GotFueghast:
-	writetext MountMortarB1FKiyoGotFueghastText
+	setevent EVENT_GOT_QT_BALL_FROM_TIM
+	setevent EVENT_GOT_GS_BALL_FROM_POKECOM_CENTER
+	setevent EVENT_CAN_GIVE_GS_BALL_TO_KURT
+.BeatTim
+	writetext GoToKurt
+	waitbutton
+	closetext
+.Illuxury
+	writetext MuhMaiden
 	waitbutton
 	closetext
 	end
 
-.NoRoom:
-	writetext MountMortarB1FKiyoFullPartyText
-	waitbutton
-	closetext
-	end
+MountMortarWizardTimIntroText:
+	text "Ohohoho! I've been"
+	line "waiting for you,"
+	cont "<PLAYER>!"
+	
+	para "The stars! They"
+	line "spoke of your"
+	cont "arrival!"
+	
+	para "<PLAYER>, we"
+	line "shall do battle!"
+	
+	para "Emerge victorious,"
+	line "and I will bestow"
+	cont "upon you a great"
+	cont "treasure!"
+	
+	para "Hee hee hee!"
+	line "Prepare yourself!"
+	done
+	
+MountMortarWizardTimBeatenText:
+	text "Yes, yes!"
+	line "You are the one!"
+	done
+	
+WizardTimGivesBallText:
+	text "Ho ho! Hee hoo!"
+	
+	para "A magnificent bout!"
+	line "Beautiful!"
+	
+	para "<PLAYER>, you are"
+	line "ready!"
+	
+	para "I believe you"
+	line "are ready to"
+	cont "recieve the"
+	
+	para "blessing of the"
+	line "MAIDEN!"
+	
+	para "<PLAYER>, you"
+	line "must take this!"
+	done
+	
+GotQTBall:
+	text "<PLAYER> got"
+	line "the QT BALL!"
+	done
+	
+GoToKurt:
+	text "You must take"
+	line "this BALL to"
+	
+	para "the smith KURT"
+	line "of AZALEA!"
+	
+	para "You musn't keep"
+	line "the MAIDEN"
+	cont "waiting!"
+
+	para "Go! Go!"
+	done
+	
+MuhMaiden:
+	text "W-WHAT?"
+	line "B-but you were"
+	
+	para "supposed to be"
+	line "dinner!"
+	
+	para "Noooooooo!!!"
+	
+	para "M-my MAIDEN!"
+	line "The queen of"
+	cont "vile luxuries!"
+	
+	para "Please, if you"
+	line "won't be a meal"
+	
+	para "for her, at least"
+	line "treat her well."
+	done
+
 
 MountMortarB1FBoulder:
 	jumpstd strengthboulder

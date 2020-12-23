@@ -3949,6 +3949,15 @@ WizardGroup: ; TODO figure out what i want to do with the wizards.
 		db GOLD_BERRY
 		db ICE_PUNCH, ACID, HAZE, ICE_SHARD
 	db -1 ; end
+	
+	; Wizard (2)
+	db "TIM@", TRAINERTYPE_ITEM
+	db 53, BOWLIDE, PRZCUREBERRY
+	db 56, SHAMSEL, MAGNET
+	db 53, BOBBITRAP, NO_ITEM
+	db 54, MOTHOMEN, MINT_BERRY
+	db 51, YUGGROMI, MINT_BERRY
+	db -1
 
 GuruGroup:
 	; GURU (1) ;sprout boss

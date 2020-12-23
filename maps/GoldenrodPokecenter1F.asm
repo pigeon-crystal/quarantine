@@ -14,8 +14,9 @@ GoldenrodPokecenter1FNurseScript:
 	jumpstd pokecenternurse
 
 GoldenrodPokecenter1F_GSBallSceneLeft:
-	checkevent	EVENT_CAN_GIVE_GS_BALL_TO_KURT	
-	iftrue .gsball
+	setval BATTLETOWERACTION_CHECKMOBILEEVENT
+	special BattleTowerAction
+	ifequal MOBILE_EVENT_OBJECT_GS_BALL, .gsball
 	end
 
 .gsball
@@ -45,8 +46,9 @@ GoldenrodPokecenter1F_GSBallSceneLeft:
 	end
 
 GoldenrodPokecenter1F_GSBallSceneRight:
-	checkflag ENGINE_RISINGBADGE	
-	iftrue .gsball
+	setval BATTLETOWERACTION_CHECKMOBILEEVENT
+	special BattleTowerAction
+	ifequal MOBILE_EVENT_OBJECT_GS_BALL, .gsball
 	end
 
 .gsball
