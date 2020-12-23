@@ -10,6 +10,5 @@ RainDanceMoves:
 	db WATERFALL
 	db CLAMP
 	db BUBBLE
-	db CRABHAMMER
 	db WHIRLPOOL
 	db -1 ; end

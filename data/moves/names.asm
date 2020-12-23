@@ -150,7 +150,7 @@ MoveNames::
 	db "PSYWAVE@"
 	db "ICICLE CRASH@"
 	db "WILL-O-WISP@"
-	db "CRABHAMMER@"
+	db "WRATH STRIKE@"
 	db "EXPLOSION@"
 	db "FURY SWIPES@"
 	db "BONEMERANG@"

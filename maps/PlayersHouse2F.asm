@@ -52,7 +52,8 @@ PosterScript:
 
 PlayersHouseRadioScript:
 	setflag ENGINE_POKEDEX
-	givepoke PEPOFFER, 100
+	givepoke HAPPIG, 100
+	givepoke BISMUTT, 100
 	setflag ENGINE_FOGBADGE
 	setflag ENGINE_RISINGBADGE
 	setflag ENGINE_MINERALBADGE

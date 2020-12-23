@@ -151,7 +151,7 @@ MoveDescriptions::
 	dw PsywaveDescription
 	dw IcicleCrashDescription
 	dw WillOWispDescription
-	dw CrabhammerDescription
+	dw WrathStrikeDescription
 	dw ExplosionDescription
 	dw FurySwipesDescription
 	dw BonemerangDescription
@@ -865,9 +865,9 @@ WillOWispDescription:
 	db   "Burns with a"
 	next "sinister flame.@"
 
-CrabhammerDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+WrathStrikeDescription:
+	db   "A strong blow. May"
+	next "lower SPCL.DEF.@"
 
 ExplosionDescription:
 	db   "Very powerful but"

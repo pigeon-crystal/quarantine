@@ -5,7 +5,6 @@ CriticalHitMoves:
 	db RAZOR_LEAF
 	db LEAF_BLADE
 	db PSYCHO_CUT
-	db CRABHAMMER
 	db SLASH
 	db FROSTBITE
 	db SHADOW_CLAW

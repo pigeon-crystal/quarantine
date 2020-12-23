@@ -157,7 +157,7 @@
 	const PSYWAVE      ; 95
 	const ICICLE_CRASH ; 96
 	const WILL_O_WISP  ; 97
-	const CRABHAMMER   ; 98
+	const WRATH_STRIKE ; 98
 	const EXPLOSION    ; 99
 	const FURY_SWIPES  ; 9a
 	const BONEMERANG   ; 9b

@@ -504,14 +504,14 @@ OnioniEvosAttacks:
 	db 30, LEECH_SEED
 	db 37, SLASH
 	db 45, SWORDS_DANCE
-	db 46, SYNTHESIS
-	db 50, MACH_PUNCH
+	db 46, LEAF_BLADE
+	db 50, SYNTHESIS
 	db 58, THRASH
 	db 0 ; no more level-up moves
 
 OnionionEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, LEAF_BLADE
+	db 1, WRATH_STRIKE
 	db 1, GROWL
 	db 1, POUND
 	db 6, CHARM
@@ -523,9 +523,9 @@ OnionionEvosAttacks:
 	db 39, SLASH
 	db 46, SWORDS_DANCE
 	db 49, SYNTHESIS
-	db 55, CROSS_CHOP
-	db 59, MACH_PUNCH
-	db 62, THRASH
+	db 55, LEAF_BLADE
+	db 59, CROSS_CHOP
+	db 60, THRASH
 	db 0 ; no more level-up moves
 
 PrawmateEvosAttacks:
@@ -2204,7 +2204,7 @@ WallarriorEvosAttacks:
 	db 33, SHARPEN
 	db 37, PLAY_ROUGH
 	db 45, EARTHQUAKE
-	db 55, BODY_SLAM
+	db 55, WRATH_STRIKE
 	db 0 ; no more level-up moves
 
 FalwodurEvosAttacks: ;TODO finish this
@@ -4099,10 +4099,16 @@ SlaatelEvosAttacks:
 	db 1, BITE
 	db 1, LEER
 	db 11, ROAR
-	db 50, HEAL_BELL
-	db 50, RECOVER
-	db 50, STEEL_WING
-	db 50, DRAGONBREATH
+	db 15, PURSUIT
+	db 20, TWISTER
+	db 25, SPITE 
+	db 33, SHADOW_CLAW
+	db 39, STEEL_WING
+	db 42, HEAL_BELL
+	db 47, RECOVER
+	db 52, DRAGONBREATH
+	db 63, OUTRAGE
+; for posteirity, the cheated slaatel moveset from the previous demo
 ;	db 100, RECOVER
 ;	db 100, GUILLOTINE
 ;	db 100, FISSURE
@@ -4111,8 +4117,20 @@ SlaatelEvosAttacks:
 
 RyunariEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, POWER_GEM
 	db 1, FORESIGHT
 	db 1, TWISTER
+	db 10, SWIFT
+	db 15, CONFUSE_RAY
+	db 20, CONFUSION
+	db 26, SAFEGUARD
+	db 33, AMNESIA
+	db 36, FORESIGHT
+	db 40, FUTURE_SIGHT
+	db 45, MIRROR_COAT
+	db 50, AGILITY
+	db 55, MOONBLAST
+	db 60, NIGHT_SHADE
 	db 0 ; no more level-up moves
 
 YukittenEvosAttacks:

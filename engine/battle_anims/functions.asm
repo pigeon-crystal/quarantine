@@ -4208,7 +4208,8 @@ PowerGemFunction3:
     ld hl, BATTLEANIMSTRUCT_XCOORD
     add hl, bc
     ld a, [hl]
-    cp $88
+    cp $c0
+    ret nc
     ld a, $8
     call Functionce70a
     ret
@@ -4216,3 +4217,5 @@ PowerGemFunction3:
 .asm_ce35b
     call DeinitBattleAnimation
     ret
+
+

@@ -427,10 +427,12 @@ INCLUDE "engine/phone/scripts/generic_callee.asm"
 INCLUDE "engine/events/trainer_scripts.asm"
 
 
-SECTION "bank32", ROMX ; MOVED THE END TO BANK 38
+SECTION "bank32", ROMX ; MOVED THE END GRAPHIC TO BANK 38, MOVED POISON STEP PALS TO ITS OWN THING
 
 INCLUDE "engine/battle_anims/bg_effects.asm"
 INCLUDE "data/moves/animations.asm"
+
+SECTION "poison step pals", ROMX			; I HAVE NO IDEA WHAT IM DOING
 INCLUDE "engine/events/poisonstep_pals.asm"
 
 
