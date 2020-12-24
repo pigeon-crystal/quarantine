@@ -80,7 +80,7 @@ EggMovePointers::
 	dw MissteriaEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw MagnetonEggMoves ; antelope
+	dw CalfeenEggMoves ; antelope
 	dw NoEggMoves
 	dw NoEggMoves
 	dw DodrioEggMoves ; otter

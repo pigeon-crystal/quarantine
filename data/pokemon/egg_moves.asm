@@ -263,8 +263,9 @@ MissteriaEggMoves:
 	db ENCORE
 	db -1 ; end
 
-MagnetonEggMoves: ; antelope
+CalfeenEggMoves: ; antelope
 	db SNARL
+	db EXPLOSION
 	db -1 
 	
 DodrioEggMoves: ; otter

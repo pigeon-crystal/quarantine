@@ -164,12 +164,12 @@ PokemonPicPointers::
 	dba DismaidenBackpic
 	dba BedlamamFrontpic
 	dba BedlamamBackpic
-	dba MagnetonFrontpic
-	dba MagnetonBackpic
+	dba CalfeenFrontpic
+	dba CalfeenBackpic
 	dba AmpalaFrontpic
 	dba AmpalaBackpic
-	dba DoduoFrontpic
-	dba DoduoBackpic
+	dba BlazelleFrontpic
+	dba BlazelleBackpic
 	dba DodrioFrontpic
 	dba DodrioBackpic
 	dba CaddisicleFrontpic
@@ -431,8 +431,8 @@ PokemonPicPointers::
 	dba YagagarasuBackpic
 	dba UmberjerkFrontpic
 	dba UmberjerkBackpic
-	dba HeracrossFrontpic
-	dba HeracrossBackpic
+	dba PainsawFrontpic
+	dba PainsawBackpic
 	dba SneaselFrontpic
 	dba SneaselBackpic
 	dba SmuciousFrontpic

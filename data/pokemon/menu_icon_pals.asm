@@ -85,9 +85,9 @@ MonMenuIconPals:
 	icon_pals BLUE,   YELLOW  ; MISSTERIA
 	icon_pals BROWN,   YELLOW  ; DISMAIDEN
 	icon_pals BROWN,   YELLOW  ; BEDLAMAM
-	icon_pals BROWN,   YELLOW  ; MAGNETON
+	icon_pals BROWN,   YELLOW  ; CALFEEN
 	icon_pals BROWN,   YELLOW  ; FARFETCH'D 
-	icon_pals BROWN,   YELLOW  ; DODUO
+	icon_pals BROWN,   YELLOW  ; BLAZELLE
 	icon_pals BROWN,   YELLOW  ; DODRIO
 	icon_pals BLUE,   YELLOW   ; CADDISICLE
 	icon_pals BLUE,   YELLOW   ; JADDICE
@@ -217,7 +217,7 @@ MonMenuIconPals:
 	icon_pals BROWN,   GREEN    ; PEKOI
 	icon_pals RED,   YELLOW    ; YAGAGARASU
 	icon_pals RED,   YELLOW    ; UMBERJERK
-	icon_pals RED,   YELLOW    ; HERACROSS
+	icon_pals RED,   YELLOW    ; PAINSAW
 	icon_pals RED,   YELLOW    ; SNEASAL
 	icon_pals PINK,   YELLOW    ; SMUCIOUS
 	icon_pals PINK,   YELLOW    ; SMOTHERENE

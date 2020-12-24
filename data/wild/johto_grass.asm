@@ -1602,8 +1602,8 @@ JohtoGrassWildMons:
 	db 16, LAMSEED
 	db 17, WORMEEK
 	db 18, ONIONI
-	db 18, MAGNETON 	; antelope1 stand-in
-	db 18, MAGNETON		; antelope1 stand-in
+	db 18, CALFEEN 	; antelope1 stand-in
+	db 18, CALFEEN		; antelope1 stand-in
 	db 19, WENDIGAUNT
 	; day
 	db 17, SPRUNNY
@@ -1611,8 +1611,8 @@ JohtoGrassWildMons:
 	db 16, LAMSEED
 	db 17, WORMEEK
 	db 18, ONIONI
-	db 18, MAGNETON		; antelope1 stand-in
-	db 18, MAGNETON		; antelope1 stand-in
+	db 18, CALFEEN		; antelope1 stand-in
+	db 18, CALFEEN		; antelope1 stand-in
 	db 19, WENDIGAUNT
 	; nite
 	db 17, SPRUNNY
@@ -1621,7 +1621,7 @@ JohtoGrassWildMons:
 	db 17, WORMEEK
 	db 18, ONIONI
 	db 18, WENDIGAUNT
-	db 18, MAGNETON		; antelope1 stand-in
+	db 18, CALFEEN		; antelope1 stand-in
 	db 19, WENDIGAUNT
 
 	map_id ROUTE_39 ;done
@@ -1841,7 +1841,7 @@ JohtoGrassWildMons:
 	db 42, MOPERDOR
 	db 42, IGNAGA
 	db 44, MAJESDOR
-	db 41, DODUO
+	db 41, BLAZELLE
 	db 43, DODRIO
 	db 43, DODRIO
 	db 45, ANTPYRE
@@ -1850,7 +1850,7 @@ JohtoGrassWildMons:
 	db 42, MOPERDOR
 	db 42, IGNAGA
 	db 44, MAJESDOR
-	db 41, DODUO
+	db 41, BLAZELLE
 	db 43, DODRIO
 	db 43, DODRIO
 	db 45, ANTPYRE

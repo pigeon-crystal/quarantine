@@ -1410,21 +1410,21 @@ BedlamamEvosAttacks:
 	db 1, POUND
 	db 0 ; no more level-up moves
 
-MagnetonEvosAttacks:
+CalfeenEvosAttacks:
 	db EVOLVE_ITEM, FIRE_STONE, AMPALA
-	db EVOLVE_ITEM, THUNDERSTONE, DODUO
+	db EVOLVE_ITEM, THUNDERSTONE, BLAZELLE
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves
 
 AmpalaEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, PECK
+	db 1, SPARK
 	db 0 ; no more level-up moves
 
-DoduoEvosAttacks:
+BlazelleEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, PECK
+	db 1, EMBER
 	db 0 ; no more level-up moves
 
 DodrioEvosAttacks:
@@ -3621,7 +3621,7 @@ UmberjerkEvosAttacks:
 	db 1, CONSTRICT
 	db 0 ; no more level-up moves
 
-HeracrossEvosAttacks:
+PainsawEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 0 ; no more level-up moves

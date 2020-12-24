@@ -100,9 +100,9 @@
 	const MISSTERIA  ; 4f 
 	const DISMAIDEN  ; 50 
 	const BEDLAMAM   ; 51 
-	const MAGNETON   ; 52 antelope
+	const CALFEEN    ; 52 antelope
 	const AMPALA 	 ; 53 elec antelope
-	const DODUO      ; 54 fire antelope
+	const BLAZELLE   ; 54 fire antelope
 	const DODRIO     ; 55 otter
 	const CADDISICLE ; 56
 	const JADDICE    ; 57
@@ -200,7 +200,7 @@ JOHTO_POKEMON EQU const_value
 	const SQUEENIE   ; b2 
 	const YUESBI     ; b3
 	const YUEFOE     ; b4
-	const VIRUES   ; b5 
+	const VIRUES     ; b5 
 	const PLANTENNA  ; b6
 	const HABBLE     ; b7
 	const SATELISK   ; b8
@@ -233,7 +233,7 @@ JOHTO_POKEMON EQU const_value
 	const PEKOI      ; d3
 	const YAGAGARASU ; d4
 	const UMBERJERK  ; d5 
-	const HERACROSS  ; d6 murderer2
+	const PAINSAW  ; d6 murderer2
 	const SNEASEL    ; d7 murderer3
 	const SMUCIOUS   ; d8
 	const SMOTHERENE ; d9

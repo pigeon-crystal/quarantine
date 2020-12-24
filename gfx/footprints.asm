@@ -191,18 +191,18 @@ INCBIN "gfx/footprints/missteria.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/dismaiden.1bpp",    footprint_bottom
 ; 081-088 top halves
 INCBIN "gfx/footprints/bedlamam.1bpp",  footprint_top
-INCBIN "gfx/footprints/magneton.1bpp",   footprint_top
+INCBIN "gfx/footprints/calfeen.1bpp",   footprint_top
 INCBIN "gfx/footprints/ampala.1bpp", footprint_top
-INCBIN "gfx/footprints/doduo.1bpp",      footprint_top
+INCBIN "gfx/footprints/blazelle.1bpp",      footprint_top
 INCBIN "gfx/footprints/dodrio.1bpp",     footprint_top
 INCBIN "gfx/footprints/caddisicle.1bpp",       footprint_top
 INCBIN "gfx/footprints/jaddice.1bpp",    footprint_top
 INCBIN "gfx/footprints/dumbloon.1bpp",     footprint_top
 ; 081-088 bottom halves
 INCBIN "gfx/footprints/bedlamam.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/magneton.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/calfeen.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/ampala.1bpp", footprint_bottom
-INCBIN "gfx/footprints/doduo.1bpp",      footprint_bottom
+INCBIN "gfx/footprints/blazelle.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/dodrio.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/caddisicle.1bpp",       footprint_bottom
 INCBIN "gfx/footprints/jaddice.1bpp",    footprint_bottom
@@ -483,7 +483,7 @@ INCBIN "gfx/footprints/grimpact.1bpp",   footprint_top
 INCBIN "gfx/footprints/pekoi.1bpp",   footprint_top
 INCBIN "gfx/footprints/yagagarasu.1bpp",     footprint_top
 INCBIN "gfx/footprints/umberjerk.1bpp",    footprint_top
-INCBIN "gfx/footprints/heracross.1bpp",  footprint_top
+INCBIN "gfx/footprints/painsaw.1bpp",  footprint_top
 INCBIN "gfx/footprints/sneasel.1bpp",    footprint_top
 INCBIN "gfx/footprints/smucious.1bpp",  footprint_top
 ; 209-216 bottom halves
@@ -492,7 +492,7 @@ INCBIN "gfx/footprints/grimpact.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/pekoi.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/yagagarasu.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/umberjerk.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/heracross.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/painsaw.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/sneasel.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/smucious.1bpp",  footprint_bottom
 ; 217-224 top halves

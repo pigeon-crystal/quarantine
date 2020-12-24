@@ -51,7 +51,7 @@ AlphabeticalPokedexOrder:
 	db DISMAIDEN
 	db DJAMM
 	db DODRIO
-	db DODUO
+	db BLAZELLE
 	db DOLMESA
 	db DOLMITE
 	db DONUKAME
@@ -92,7 +92,7 @@ AlphabeticalPokedexOrder:
 	db HAPPIG
 	db HAUNTLET
 	db HELACTAL
-	db HERACROSS
+	db PAINSAW
 	db HEXAHED
 	db HITMONTOP
 	db HIVEMAIM
@@ -119,7 +119,7 @@ AlphabeticalPokedexOrder:
 	db LEAFFIGY
 	db MA_0
 	db MADRUGASA
-	db MAGNETON
+	db CALFEEN
 	db MAJESDOR
 	db MAMMOTHRA
 	db MANDELBLOB

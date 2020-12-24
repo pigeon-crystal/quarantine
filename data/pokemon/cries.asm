@@ -86,9 +86,9 @@ PokemonCries::
 	mon_cry CRY_SLOWPOKE,      0,  256 ; MISSTERIA
 	mon_cry CRY_GROWLITHE,     0,  256 ; DISMAIDEN
 	mon_cry CRY_METAPOD,     128,  224 ; BEDLAMAM
-	mon_cry CRY_METAPOD,      32,  320 ; MAGNETON
-	mon_cry CRY_SPEAROW,     221,  129 ; AMPALA
-	mon_cry CRY_DIGLETT,     187,  129 ; DODUO
+	mon_cry CRY_AIPOM,      -200,  320 ; CALFEEN
+	mon_cry CRY_GIRAFARIG,   187,  320 ; AMPALA
+	mon_cry CRY_GIRAFARIG,   -10,  189 ; BLAZELLE
 	mon_cry CRY_DIGLETT,     153,  160 ; DODRIO
 	mon_cry CRY_TOTODILE,    -50,  123 ; CADDISICLE
 	mon_cry CRY_TOTODILE,    100,  200 ; JADDICE
@@ -218,7 +218,7 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,    252,  234 		; PEKOI
 	mon_cry CRY_AMPHAROS,      0,  352 ; YAGAGARASU
 	mon_cry CRY_DUNSPARCE,   656,  168 ; UMBERJERK
-	mon_cry CRY_AMPHAROS,     53,  224 ; HERACROSS
+	mon_cry CRY_AMPHAROS,     53,  224 ; PAINSAW
 	mon_cry CRY_WOOPER,       83,  175 ; SNEASEL
 	mon_cry CRY_MARILL,  	 100,  120 ; SMUCIOUS
 	mon_cry CRY_MARILL,  	  77,  301 ; SMOTHERENE

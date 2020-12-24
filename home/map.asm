@@ -2178,8 +2178,6 @@ GetMapMusic::
 	ld de, MAP_MUSIC
 	call GetMapField
 	ld a, c
-	cp MUSIC_ILEX_FOREST
-	jr z, .ilexforest
 	cp MUSIC_MAHOGANY_MART
 	jr z, .mahoganymart
 	cp MUSIC_RADIO_TOWER
@@ -2191,16 +2189,6 @@ GetMapMusic::
 	pop bc
 	pop hl
 	ret
-
-.ilexforest ; TODO figure out whats going on here
-	ld a, [wEventFlags]
-	cp ILLUXURY_TENSION_PLAYING
-	jr nz, .tensionnotplaying
-	ld de, MUSIC_TENSION
-	jr .done
-.tensionnotplaying
-	ld de, MUSIC_UNION_CAVE
-	jr .done
 
 .radiotower
 	ld a, [wStatusFlags2]

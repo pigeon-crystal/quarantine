@@ -445,7 +445,7 @@ BattleTowerMons1:
 	bigdw 25 ; SDef
 	db "NAtuSI-@@@@"
 
-	db HERACROSS
+	db PAINSAW
 	db GOLD_BERRY
 	db FLAIL, ENDURE, COUNTER, ROCK_SMASH
 	dw 0 ; OT ID
@@ -708,7 +708,7 @@ BattleTowerMons2:
 	bigdw 52 ; SDef
 	db "UINDEi@@@@@"
 
-	db HERACROSS
+	db PAINSAW
 	db FOCUS_BAND
 	db ENDURE, FLAIL, MEGAHORN, EARTHQUAKE
 	dw 0 ; OT ID
@@ -3112,7 +3112,7 @@ BattleTowerMons6:
 	bigdw 184 ; SDef
 	db "KABIGON@@@@"
 
-	db HERACROSS
+	db PAINSAW
 	db FOCUS_BAND
 	db FLAIL, MEGAHORN, EARTHQUAKE, COUNTER
 	dw 0 ; OT ID
@@ -3739,7 +3739,7 @@ BattleTowerMons7:
 	bigdw 217 ; SDef
 	db "SAWAMURA-@@"
 
-	db HERACROSS
+	db PAINSAW
 	db BRIGHTPOWDER
 	db FLAIL, ENDURE, MEGAHORN, EARTHQUAKE
 	dw 0 ; OT ID

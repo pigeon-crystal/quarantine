@@ -139,9 +139,9 @@ NewPokedexOrder:
 	db CLIBBLE
 	db GIGUARD
 	db GIGERATOR
-	db MAGNETON
+	db CALFEEN
 	db AMPALA
-	db DODUO
+	db BLAZELLE
 	db DODRIO
 	db LANATUN
 	db PEPOFFER
@@ -169,7 +169,7 @@ NewPokedexOrder:
 	db BAMBABY
 	db PIPENDA
 	db UMBERJERK
-	db HERACROSS
+	db PAINSAW
 	db SNEASEL
 	db STIKLBRAT
 	db SIDFICIOUS

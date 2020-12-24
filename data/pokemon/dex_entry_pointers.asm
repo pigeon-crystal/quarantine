@@ -81,9 +81,9 @@ PokedexDataPointerTable:
 	dw MissteriaPokedexEntry
 	dw DismaidenPokedexEntry
 	dw BedlamamPokedexEntry
-	dw MagnetonPokedexEntry
+	dw CalfeenPokedexEntry
 	dw AmpalaPokedexEntry
-	dw DoduoPokedexEntry
+	dw BlazellePokedexEntry
 	dw DodrioPokedexEntry
 	dw CaddisiclePokedexEntry
 	dw JaddicePokedexEntry
@@ -213,7 +213,7 @@ PokedexDataPointerTable:
 	dw PekoiPokedexEntry
 	dw YagagarasuPokedexEntry
 	dw UmberjerkPokedexEntry
-	dw HeracrossPokedexEntry
+	dw PainsawPokedexEntry
 	dw SneaselPokedexEntry
 	dw SmuciousPokedexEntry
 	dw SmotherenePokedexEntry

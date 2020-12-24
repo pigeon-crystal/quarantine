@@ -728,7 +728,7 @@ KantoGrassWildMons:
 	db 3, NOMSTER
 	db 3, QWAIL
 	db 5, QWAIL
-	db 4, DODUO
+	db 4, BLAZELLE
 	db 6, MOPERDOR
 	db 7, QWALLOP
 	db 7, QWALLOP
@@ -737,7 +737,7 @@ KantoGrassWildMons:
 	db 3, NOMSTER
 	db 3, QWAIL
 	db 5, QWAIL
-	db 4, DODUO
+	db 4, BLAZELLE
 	db 6, MOPERDOR
 	db 7, QWALLOP
 	db 7, QWALLOP

@@ -82,9 +82,9 @@ EvosAttacksPointers::
 	dw MissteriaEvosAttacks
 	dw DismaidenEvosAttacks
 	dw BedlamamEvosAttacks
-	dw MagnetonEvosAttacks
+	dw CalfeenEvosAttacks
 	dw AmpalaEvosAttacks
-	dw DoduoEvosAttacks
+	dw BlazelleEvosAttacks
 	dw DodrioEvosAttacks
 	dw CaddisicleEvosAttacks
 	dw JaddiceEvosAttacks
@@ -214,7 +214,7 @@ EvosAttacksPointers::
 	dw PekoiEvosAttacks
 	dw YagagarasuEvosAttacks
 	dw UmberjerkEvosAttacks
-	dw HeracrossEvosAttacks
+	dw PainsawEvosAttacks
 	dw SneaselEvosAttacks
 	dw SmuciousEvosAttacks
 	dw SmothereneEvosAttacks
