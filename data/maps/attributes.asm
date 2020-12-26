@@ -489,6 +489,9 @@ ENDM
 	map_attributes SafariZoneFuchsiaGateBeta, SAFARI_ZONE_FUCHSIA_GATE_BETA, $00, 0
 	map_attributes SafariZoneBeta, SAFARI_ZONE_BETA, $13, 0
 	map_attributes VictoryRoad, VICTORY_ROAD, $1d, 0
+	map_attributes VictoryRoadNew, VICTORY_ROAD_NEW, $1d, 0
+	map_attributes VictoryRoadSideWater, VICTORY_ROAD_SIDE_WATER, $1d, 0
+	map_attributes VictoryRoadSideCave, VICTORY_ROAD_SIDE_CAVE, $1d, 0
 	map_attributes EcruteakTinTowerEntrance, ECRUTEAK_TIN_TOWER_ENTRANCE, $00, 0
 	map_attributes WiseTriosRoom, WISE_TRIOS_ROOM, $00, 0
 	map_attributes EcruteakPokecenter1F, ECRUTEAK_POKECENTER_1F, $00, 0

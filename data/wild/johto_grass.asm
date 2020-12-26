@@ -1447,37 +1447,37 @@ JohtoGrassWildMons:
 	map_id ROUTE_33 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 12, DOLMITE
-	db 11, QWAIL
-	db 12, NOMSTER
-	db 12, WANDELUS
+	db 13, DOLMITE
 	db 12, QWAIL
-	db 10, WANDELUS
+	db 12, NOMSTER
+	db 13, WANDELUS
+	db 12, QWAIL
+	db 12, WANDELUS
 	db 12, SHABBYCAT
 	db 13, SHABBYCAT
 	; day
-	db 12, DOLMITE
-	db 11, QWAIL
-	db 12, NOMSTER
+	db 13, DOLMITE
+	db 12, QWAIL
+	db 13, NOMSTER
 	db 12, WANDELUS
-	db 11, QWAIL
-	db 10, WANDELUS
+	db 12, QWAIL
+	db 13, WANDELUS
 	db 12, SHABBYCAT
 	db 13, SHABBYCAT
 	; nite
-	db 12, DOLMITE
-	db 11, WANDELUS
+	db 13, DOLMITE
+	db 12, WANDELUS
 	db 12, FLUFFRUIT
 	db 12, QWAIL
 	db 12, FLUFFRUIT
-	db 10, WANDELUS
+	db 13, WANDELUS
 	db 12, SHABBYCAT
 	db 13, JUNOBE
 
 	map_id ROUTE_34 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 14, NOMSTER
+	db 15, NOMSTER
 	db 14, HAPPIG
 	db 14, SAPPURA
 	db 14, AMBINNI
@@ -1486,7 +1486,7 @@ JohtoGrassWildMons:
 	db 15, MANDELBLOB
 	db 16, MANDELBLOB
 	; day
-	db 14, NOMSTER
+	db 15, NOMSTER
 	db 14, NOMSTER
 	db 14, SAPPURA
 	db 14, AMBINNI
@@ -1495,7 +1495,7 @@ JohtoGrassWildMons:
 	db 15, MANDELBLOB
 	db 16, MANDELBLOB
 	; nite
-	db 14, NOMSTER
+	db 15, NOMSTER
 	db 14, HAPPIG
 	db 14, SAPPURA
 	db 14, AMBINNI
@@ -1507,30 +1507,30 @@ JohtoGrassWildMons:
 	map_id ROUTE_35 ;done Nyalley Swarm route
 	db 11 percent, 11 percent, 11 percent ; encounter rates: morn/day/nite
 	; morn
-	db 14, AMBINNI
-	db 14, HAPPIG
+	db 15, AMBINNI
+	db 16, HAPPIG
 	db 15, SAPPURA
-	db 15, HEXAHED
-	db 15, SAPPURA
-	db 16, HEXAHED
+	db 17, HEXAHED
+	db 17, SAPPURA
+	db 17, HEXAHED
 	db 16, ZASTER
 	db 17, NYALLEY
 	; day
-	db 14, AMBINNI
-	db 14, HAPPIG
+	db 15, AMBINNI
+	db 16, HAPPIG
 	db 15, SAPPURA
-	db 15, HEXAHED
-	db 15, SAPPURA
-	db 16, HEXAHED
+	db 17, HEXAHED
+	db 17, SAPPURA
+	db 17, HEXAHED
 	db 16, ZASTER
 	db 17, NYALLEY
 	; nite
-	db 14, AMBINNI
-	db 14, HAPPIG
+	db 15, AMBINNI
+	db 16, HAPPIG
 	db 15, HEXAHED
-	db 15, SAPPURA
-	db 15, HEXAHED
-	db 16, SAPPURA
+	db 17, SAPPURA
+	db 17, HEXAHED
+	db 17, SAPPURA
 	db 17, NYALLEY
 	db 16, ZASTER
 
@@ -1542,237 +1542,237 @@ JohtoGrassWildMons:
 	db 7, FURNIT
 	db 7, GOOSAPLING
 	db 7, NOMSTER
-	db 7, NOMSTER
+	db 9, NOMSTER
 	db 8, GOOSAPLING
-	db 8, BUZZLING
+	db 9, BUZZLING
 	; day
 	db 7, HOATOT
 	db 7, BUZZLING
 	db 7, FURNIT
 	db 7, GOOSAPLING
 	db 7, NOMSTER
-	db 7, NOMSTER
+	db 9, NOMSTER
 	db 8, GOOSAPLING
-	db 8, BUZZLING
+	db 9, BUZZLING
 	; nite
 	db 7, HOATOT
 	db 7, BUZZLING
 	db 7, GOOSAPLING
 	db 7, NOMSTER
 	db 7, NOMSTER
-	db 7, FURNIT
+	db 9, FURNIT
 	db 8, GOOSAPLING
-	db 8, JUNOBE
+	db 9, JUNOBE
 
 	map_id ROUTE_37 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 18, AMBINNI
-	db 18, FURDOBA
+	db 19, AMBINNI
+	db 20, FURDOBA
 	db 18, HEXAHED
-	db 17, PEAUTY
-	db 17, HAUNTLET ; ice ghost stand-in
-	db 18, SWAZZAGE
-	db 18, SWAZZAGE
-	db 18, PEAUTY
+	db 19, PEAUTY
+	db 20, HAUNTLET ; ice ghost stand-in
+	db 21, SWAZZAGE
+	db 22, SWAZZAGE
+	db 20, PEAUTY
 	; day
-	db 18, AMBINNI
-	db 18, FURDOBA
+	db 19, AMBINNI
+	db 20, FURDOBA
 	db 18, HEXAHED
-	db 17, PEAUTY
-	db 17, HAUNTLET ; ice ghost stand-in
-	db 18, SWAZZAGE
-	db 18, SWAZZAGE
-	db 18, PEAUTY
+	db 19, PEAUTY
+	db 20, HAUNTLET ; ice ghost stand-in
+	db 21, SWAZZAGE
+	db 22, SWAZZAGE
+	db 20, PEAUTY
 	; nite
-	db 18, AMBINNI
-	db 18, FURDOBA
+	db 19, AMBINNI
+	db 20, FURDOBA
 	db 18, HEXAHED
-	db 17, PEAUTY
-	db 17, HAUNTLET ; ice ghost stand-in
-	db 18, SWAZZAGE
-	db 18, SWAZZAGE
-	db 18, PEAUTY
+	db 19, PEAUTY
+	db 20, HAUNTLET ; ice ghost stand-in
+	db 21, SWAZZAGE
+	db 22, SWAZZAGE
+	db 20, PEAUTY
 
-	map_id ROUTE_38 ;done
+	map_id ROUTE_38 ;done TODO left off here
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 17, SPRUNNY
-	db 17, NOMSABRE
-	db 16, LAMSEED
-	db 17, WORMEEK
-	db 18, ONIONI
-	db 18, CALFEEN 	; antelope1 stand-in
-	db 18, CALFEEN		; antelope1 stand-in
-	db 19, WENDIGAUNT
+	db 30, SPRUNNY
+	db 31, NOMSABRE
+	db 28, LAMSEED
+	db 25, WORMEEK
+	db 32, ONIONI
+	db 32, CALFEEN 	
+	db 32, CALFEEN
+	db 35, WENDIGAUNT
 	; day
-	db 17, SPRUNNY
-	db 17, NOMSABRE
-	db 16, LAMSEED
-	db 17, WORMEEK
-	db 18, ONIONI
-	db 18, CALFEEN		; antelope1 stand-in
-	db 18, CALFEEN		; antelope1 stand-in
-	db 19, WENDIGAUNT
+	db 30, SPRUNNY
+	db 31, NOMSABRE
+	db 28, LAMSEED
+	db 25, WORMEEK
+	db 32, ONIONI
+	db 32, CALFEEN		; antelope1 stand-in
+	db 32, CALFEEN		; antelope1 stand-in
+	db 35, WENDIGAUNT
 	; nite
-	db 17, SPRUNNY
-	db 17, NOMSABRE
-	db 16, LAMSEED
-	db 17, WORMEEK
-	db 18, ONIONI
-	db 18, WENDIGAUNT
-	db 18, CALFEEN		; antelope1 stand-in
-	db 19, WENDIGAUNT
+	db 30, SPRUNNY
+	db 31, NOMSABRE
+	db 28, LAMSEED
+	db 25, WORMEEK
+	db 32, ONIONI
+	db 35, WENDIGAUNT
+	db 32, CALFEEN		; antelope1 stand-in
+	db 36, WENDIGAUNT
 
 	map_id ROUTE_39 ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 18, SPRUNNY
-	db 22, LAMSEED
-	db 19, LAMSEED
-	db 19, MAULZER
-	db 19, BUDGANEER		; placeholder for parrot
-	db 19, ONIONI
-	db 19, MURDERMIS
-	db 25, MURDERMIS
+	db 32, ONIONI
+	db 29, LAMSEED
+	db 29, LAMSEED
+	db 32, MAULZER
+	db 32, BUDGANEER		; placeholder for parrot
+	db 32, SLOWHOG
+	db 35, MURDERMIS
+	db 37, MURDERMIS
 	; day
-	db 18, SPRUNNY
-	db 22, LAMSEED
-	db 19, LAMSEED
-	db 19, MAULZER
-	db 19, BUDGANEER		; placeholder for parrot
-	db 19, ONIONI
-	db 19, MURDERMIS
-	db 25, MURDERMIS
+	db 32, ONIONI
+	db 29, LAMSEED
+	db 29, LAMSEED
+	db 32, MAULZER
+	db 32, BUDGANEER		; placeholder for parrot
+	db 32, SLOWHOG
+	db 35, MURDERMIS
+	db 37, MURDERMIS
 	; nite
-	db 18, SPRUNNY
-	db 22, LAMSEED
-	db 19, LAMSEED
-	db 19, MAULZER
-	db 19, BUDGANEER		; placeholder for parrot
-	db 19, MURDERMIS
-	db 19, ONIONI
-	db 25, MURDERMIS
+	db 32, ONIONI
+	db 29, LAMSEED
+	db 29, LAMSEED
+	db 32, MAULZER
+	db 32, BUDGANEER		; placeholder for parrot
+	db 35, MURDERMIS
+	db 32, SLOWHOG
+	db 37, MURDERMIS
 	
 	map_id ROUTE_41 
 	db 10 percent, 10 percent, 10 percent 
 	; morn
-	db 30, BUDGANEER ; sub for parrot
- 	db 30, NIMBOREM ; 
-	db 30, BUDGANEER ; sub for parrot
-	db 30, NIMBOREM ; 
-	db 30, NIMBOREM 
-	db 30, NUCKAWHEEZ 
-	db 30, NUCKAWHEEZ
-	db 30, NIMBOREM
+	db 37, BUDGANEER ; sub for parrot
+ 	db 37, NIMBOREM ; 
+	db 37, BUDGANEER ; sub for parrot
+	db 37, NIMBOREM ; 
+	db 37, NIMBOREM 
+	db 39, NUCKAWHEEZ 
+	db 39, NUCKAWHEEZ
+	db 37, NIMBOREM
  ; day
-	db 30, BUDGANEER ; sub for parrot
- 	db 30, NIMBOREM ; 
-	db 30, BUDGANEER ; sub for parrot
-	db 30, NIMBOREM ; 
-	db 30, NUCKAWHEEZ 
-	db 30, NUCKAWHEEZ 
-	db 30, NUCKAWHEEZ
-	db 30, NIMBOREM
+	db 37, BUDGANEER ; sub for parrot
+ 	db 37, NIMBOREM ; 
+	db 37, BUDGANEER ; sub for parrot
+	db 37, NIMBOREM ; 
+	db 39, NUCKAWHEEZ 
+	db 39, NUCKAWHEEZ 
+	db 39, NUCKAWHEEZ
+	db 37, NIMBOREM
  ; nite
-	db 30, BUDGANEER ; sub for parrot
- 	db 30, NIMBOREM ; 
-	db 30, BUDGANEER ; sub for parrot
-	db 30, NIMBOREM ; 
-	db 30, NUCKAWHEEZ 
-	db 30, NUCKAWHEEZ 
-	db 30, NAVIGAZER
-	db 30, NAVIGAZER
+	db 37, BUDGANEER ; sub for parrot
+ 	db 37, NIMBOREM ; 
+	db 37, BUDGANEER ; sub for parrot
+	db 37, NIMBOREM ; 
+	db 39, NUCKAWHEEZ 
+	db 39, NUCKAWHEEZ 
+	db 39, NAVIGAZER
+	db 39, NAVIGAZER
 
 	map_id ROUTE_42 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, QWAIL
-	db 23, AMBINNI
-	db 23, BUNDEGRAF
-	db 23, QWALLOP
-	db 25, PARDNER
-	db 23, AMBINNI
-	db 25, ARASBESTOS
-	db 26, ARASBESTOS
+	db 24, QWAIL
+	db 24, AMBINNI
+	db 26, BUNDEGRAF
+	db 28, QWALLOP
+	db 26, PARDNER
+	db 25, AMBINNI
+	db 27, ARASBESTOS
+	db 29, ARASBESTOS
 	; day
-	db 23, QWAIL
-	db 23, AMBINNI
-	db 23, BUNDEGRAF
-	db 23, QWALLOP
-	db 25, PARDNER
-	db 23, AMBINNI
-	db 25, ARASBESTOS
-	db 26, ARASBESTOS
+	db 24, QWAIL
+	db 24, AMBINNI
+	db 26, BUNDEGRAF
+	db 28, QWALLOP
+	db 26, PARDNER
+	db 25, AMBINNI
+	db 27, ARASBESTOS
+	db 29, ARASBESTOS
 	; nite
-	db 23, QWAIL
+	db 24, QWAIL
 	db 23, AMBINNI
-	db 23, BUNDEGRAF
-	db 23, QWALLOP
-	db 25, ARASBESTOS
-	db 23, AMBINNI
-	db 25, PARDNER
-	db 26, VOYAPOD
+	db 26, BUNDEGRAF
+	db 28, QWALLOP
+	db 28, ARASBESTOS
+	db 24, AMBINNI
+	db 26, PARDNER
+	db 29, VOYAPOD
 
 	map_id ROUTE_43 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 15, HOATOXIC
-	db 16, HOATOXIC
-	db 16, MESSMASH		; CAG
-	db 15, MESSMASH		; CAG
-	db 17, ELEPHOOT
-	db 17, PLANTENNA
-	db 17, ELEPHOOT
-	db 18, PLANTENNA
+	db 27, HOATOXIC
+	db 28, HOATOXIC
+	db 27, MESSMASH		; CAG
+	db 28, MESSMASH		; CAG
+	db 28, ELEPHOOT
+	db 24, PLANTENNA
+	db 27, ELEPHOOT
+	db 24, PLANTENNA
 	; day
-	db 15, HOATOXIC
-	db 16, HOATOXIC
-	db 16, MESSMASH		; CAG
-	db 15, MESSMASH		; CAG
-	db 17, ELEPHOOT
-	db 17, PLANTENNA
-	db 17, ELEPHOOT
-	db 18, PLANTENNA
+	db 27, HOATOXIC
+	db 28, HOATOXIC
+	db 27, MESSMASH		; CAG
+	db 28, MESSMASH		; CAG
+	db 28, ELEPHOOT
+	db 24, PLANTENNA
+	db 27, ELEPHOOT
+	db 24, PLANTENNA
 	; nite
-	db 15, HOATOXIC
-	db 16, HOATOXIC
-	db 16, MESSMASH		; CAG
-	db 15, MESSMASH		; CAG
-	db 17, ELEPHOOT
-	db 17, WENDIGAUNT
-	db 17, WENDIGAUNT
-	db 18, WENDIGAUNT
+	db 27, HOATOXIC
+	db 28, HOATOXIC
+	db 27, MESSMASH		; CAG
+	db 28, MESSMASH		; CAG
+	db 28, ELEPHOOT
+	db 29, WENDIGAUNT
+	db 29, WENDIGAUNT
+	db 29, WENDIGAUNT
 
 	map_id ROUTE_44 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, ANTPYRE
-	db 22, ORGNOME
-	db 22, MESSMASH		 
-	db 24, ARASBESTOS
-	db 24, PURRAATZLE
-	db 26, HAUNTLET 		; Stand-in for llama
-	db 26, HAUNTLET		; Stand-in for llama
-	db 28, PURRAATZLE
+	db 38, ANTPYRE
+	db 38, ORGNOME
+	db 38, MESSMASH		 
+	db 40, ARASBESTOS
+	db 43, PURRAATZLE
+	db 35, HAUNTLET 		; Stand-in for llama
+	db 35, HAUNTLET		; Stand-in for llama
+	db 43, PURRAATZLE
 	; day
-	db 23, ANTPYRE
-	db 22, ORGNOME
-	db 22, MESSMASH		 
-	db 24, ARASBESTOS
-	db 24, PURRAATZLE
-	db 26, LAMYGLAMA 		; Stand-in for llama
-	db 26, LAMYGLAMA		; Stand-in for llama
-	db 28, PURRAATZLE
+	db 38, ANTPYRE
+	db 38, ORGNOME
+	db 38, MESSMASH		 
+	db 40, ARASBESTOS
+	db 43, PURRAATZLE
+	db 39, LAMYGLAMA 		; Stand-in for llama
+	db 39, LAMYGLAMA		; Stand-in for llama
+	db 43, PURRAATZLE
 	; nite
-	db 23, ANTPYRE
-	db 22, ORGNOME
-	db 22, MESSMASH		; CAG 
-	db 24, ARASBESTOS
-	db 24, PURRAATZLE
-	db 26, HAUNTLET 		; Stand-in for ice ghost 1
-	db 26, HAUNTLET		; Stand-in for ice ghost 1
-	db 28, VOYAPOD
+	db 38, ANTPYRE
+	db 38, ORGNOME
+	db 38, MESSMASH		; CAG 
+	db 40, ARASBESTOS
+	db 43, PURRAATZLE
+	db 35, HAUNTLET 		; Stand-in for ice ghost 1
+	db 35, HAUNTLET		; Stand-in for ice ghost 1
+	db 37, VOYAPOD
 
 	map_id ROUTE_45 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1782,8 +1782,8 @@ JohtoGrassWildMons:
 	db 24, WALLARRIOR		; Wallarrior
 	db 25, QWALLOP
 	db 20, WALLARRIOR		; Wallarrior
-	db 27, YAGAGARASU
-	db 27, WALLARRIOR		; Wallarrior
+	db 27, WALLARRIOR
+	db 27, YAGAGARASU		; Wallarrior
 	db 28, FALWODUR		; Snail 1
 	; day
 	db 23, DOLMESA
@@ -1791,9 +1791,9 @@ JohtoGrassWildMons:
 	db 24, WALLARRIOR		; Wallarrior
 	db 25, QWALLOP
 	db 20, WALLARRIOR		; Wallarrior
-	db 27, YAGAGARASU
-	db 27, WALLARRIOR		; Wallarrior
-	db 28, YAGAGARASU
+	db 27, WALLARRIOR
+	db 27, YAGAGARASU		; Wallarrior
+	db 28, FALWODUR
 	; nite
 	db 23, DOLMESA
 	db 23, QWALLOP
@@ -1805,7 +1805,7 @@ JohtoGrassWildMons:
 	db 28, FALWODUR		
 
 	map_id ROUTE_46 ;done
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	db 10 percent, 10 percent, 11 percent ; encounter rates: morn/day/nite
 	; morn
 	db 3, DOLMITE
 	db 3, QWAIL

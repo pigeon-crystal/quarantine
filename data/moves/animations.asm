@@ -167,7 +167,7 @@ BattleAnimations::
 	dw BattleAnim_Substitute
 	dw BattleAnim_Struggle
 	dw BattleAnim_Sketch
-	dw BattleAnim_CatCannon
+	dw BattleAnim_Catapult
 	dw BattleAnim_Thief
 	dw BattleAnim_SpiderWeb
 	dw BattleAnim_Accelerock
@@ -305,7 +305,7 @@ BattleAnim_BulletSeed:
     anim_wait 16
     anim_ret
 
-BattleAnim_CatCannon:
+BattleAnim_Catapult:
     anim_2gfx ANIM_GFX_CAT, ANIM_GFX_HIT
 .loop
     anim_sound 0, 1, SFX_SQUEAK

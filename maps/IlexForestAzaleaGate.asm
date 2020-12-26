@@ -43,7 +43,7 @@ IlexForestAzaleaGateGrannyText:
 	para "Be careful, child."
 	done
 	
-IlexForestAzaleaGateGrannyIlluxuryText
+IlexForestAzaleaGateGrannyIlluxuryText:
 	text "So it's true?"
 	
 	para "It's not that the"

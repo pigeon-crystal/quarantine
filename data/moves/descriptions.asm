@@ -166,7 +166,7 @@ MoveDescriptions::
 	dw SubstituteDescription
 	dw StruggleDescription
 	dw SketchDescription
-	dw CatCannonDescription
+	dw CatapultDescription
 	dw ThiefDescription
 	dw SpiderWebDescription
 	dw AccelerockDescription
@@ -925,8 +925,8 @@ SketchDescription:
 	db   "Copies the foe's"
 	next "move permanently.@"
 
-CatCannonDescription:
-	db   "Fire SHABBYCAT"
+CatapultDescription:
+	db   "Launches SHABBYCAT"
 	next "2-5 times.@"
 
 ThiefDescription:

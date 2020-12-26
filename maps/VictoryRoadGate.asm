@@ -103,8 +103,8 @@ VictoryRoadGate_MapEvents:
 	warp_event 18,  7, ROUTE_22, 1
 	warp_event  9, 17, ROUTE_26, 1
 	warp_event 10, 17, ROUTE_26, 1
-	warp_event  9,  0, VICTORY_ROAD, 1
-	warp_event 10,  0, VICTORY_ROAD, 1
+	warp_event  9,  0, VICTORY_ROAD_NEW, 1
+	warp_event 10,  0, VICTORY_ROAD_NEW, 1
 	warp_event  1,  7, ROUTE_28, 2
 	warp_event  2,  7, ROUTE_28, 2
 

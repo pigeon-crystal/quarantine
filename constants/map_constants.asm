@@ -146,6 +146,9 @@ ENDM
 	map_const SAFARI_ZONE_FUCHSIA_GATE_BETA,                5,  4 ; 89
 	map_const SAFARI_ZONE_BETA,                            10, 18 ; 90
 	map_const VICTORY_ROAD,                                10, 36 ; 91
+	map_const VICTORY_ROAD_NEW,							   48, 18
+	map_const VICTORY_ROAD_SIDE_WATER,						10, 6
+	map_const VICTORY_ROAD_SIDE_CAVE,						10, 6
 
 	newgroup                                                      ;  4
 

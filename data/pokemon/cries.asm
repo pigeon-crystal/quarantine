@@ -87,8 +87,8 @@ PokemonCries::
 	mon_cry CRY_GROWLITHE,     0,  256 ; DISMAIDEN
 	mon_cry CRY_METAPOD,     128,  224 ; BEDLAMAM
 	mon_cry CRY_AIPOM,      -200,  320 ; CALFEEN
-	mon_cry CRY_GIRAFARIG,   187,  320 ; AMPALA
-	mon_cry CRY_GIRAFARIG,   -10,  189 ; BLAZELLE
+	mon_cry CRY_GIRAFARIG,   -10,  320 ; AMPALA
+	mon_cry CRY_GIRAFARIG,   100,  189 ; BLAZELLE
 	mon_cry CRY_DIGLETT,     153,  160 ; DODRIO
 	mon_cry CRY_TOTODILE,    -50,  123 ; CADDISICLE
 	mon_cry CRY_TOTODILE,    100,  200 ; JADDICE

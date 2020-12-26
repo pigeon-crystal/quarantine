@@ -52,7 +52,7 @@ PosterScript:
 
 PlayersHouseRadioScript:
 	setflag ENGINE_POKEDEX
-	givepoke BISMUTT, 66
+	givepoke MEOWTAIN, 66
 	givepoke WALLARRIOR, 100
 	setflag ENGINE_ZEPHYRBADGE
 	setflag ENGINE_HIVEBADGE
@@ -79,7 +79,7 @@ PlayersHouseRadioScript:
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
 	giveitem MAX_REPEL
-	warp ILEX_FOREST_AZALEA_GATE, 0, 6
+	warp ROUTE_26, 12, 58
 	end
 	
 ;PlayersHouseRadioScript:
