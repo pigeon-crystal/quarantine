@@ -1,6 +1,7 @@
 	object_const_def ; object_event constants
 	const ICEPATHB3F_POKE_BALL
 	const ICEPATHB3F_ROCK
+	const ICEPATHB3F_IVORY
 
 IcePathB3F_MapScripts:
 	db 0 ; scene scripts
@@ -9,6 +10,9 @@ IcePathB3F_MapScripts:
 
 IcePathB3FNevermeltice:
 	itemball NEVERMELTICE
+	
+IcePathB3FFossil:
+	itemball OLD_IVORY
 
 IcePathB3FRock:
 	jumpstd smashrock
@@ -46,6 +50,8 @@ IcePathB3F_MapEvents:
 	db 1 ; bg events
 	bg_event 9, 9, BGEVENT_IFNOTSET, MtNootEvent5
 
-	db 2 ; object events
+	db 3 ; object events
 	object_event  5,  7, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IcePathB3FNevermeltice, EVENT_ICE_PATH_B3F_NEVERMELTICE
 	object_event  6,  6, SPRITE_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IcePathB3FRock, -1
+	object_event 10,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IcePathB3FFossil, EVENT_ICE_PATH_FOSSIL1
+

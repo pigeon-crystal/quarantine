@@ -52,7 +52,8 @@ PosterScript:
 
 PlayersHouseRadioScript:
 	setflag ENGINE_POKEDEX
-	givepoke MEOWTAIN, 66
+	givepoke MEOWTAIN, 100
+	givepoke DONUKAME, 100
 	givepoke SQUEENIE, 100
 	setflag ENGINE_ZEPHYRBADGE
 	setflag ENGINE_HIVEBADGE

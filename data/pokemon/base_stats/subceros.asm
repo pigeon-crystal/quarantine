@@ -1,6 +1,6 @@
 	db SUBCEROS ; 140
 
-	db  66,  131, 105,  82,  40,  90
+	db  67,  131, 90,  82,  40,  105
 	;   hp   atk  def  spd  sat  sdf
 
 	db ROCK, ICE ; type

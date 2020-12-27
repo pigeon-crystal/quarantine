@@ -96,5 +96,5 @@ TrainerGroups:
 	dba SukebanGroup
 	dba SpellcasterGroup
 	dba YotsubaGroup
-	
+	dba HistorianGroup
 	

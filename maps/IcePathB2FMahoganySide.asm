@@ -5,6 +5,7 @@
 	const ICEPATHB2FMAHOGANYSIDE_BOULDER4
 	const ICEPATHB2FMAHOGANYSIDE_POKE_BALL1
 	const ICEPATHB2FMAHOGANYSIDE_POKE_BALL2
+	const ICEPATHB2FOSSIL
 
 IcePathB2FMahoganySide_MapScripts:
 	db 0 ; scene scripts
@@ -49,6 +50,9 @@ RockIsMoving4:
 	para "The rock is"
 	line "moving!"
 
+IcePathB2FFossil:
+	itemball HORN_FOSSIL
+	
 IcePathB2FMahoganySide_MapEvents:
 	db 0, 0 ; filler
 
@@ -66,10 +70,11 @@ IcePathB2FMahoganySide_MapEvents:
 	bg_event  0, 17, BGEVENT_ITEM, IcePathB2FMahoganySideHiddenCarbos
 	bg_event 19,  2, BGEVENT_IFNOTSET, MtNootEvent4
 
-	db 6 ; object events
+	db 7 ; object events
 	object_event 11,  3, SPRITE_BOULDER, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IcePathB2FMahoganySideBoulder, EVENT_BOULDER_IN_ICE_PATH_1A
 	object_event  4,  7, SPRITE_BOULDER, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IcePathB2FMahoganySideBoulder, EVENT_BOULDER_IN_ICE_PATH_2A
 	object_event  3, 12, SPRITE_BOULDER, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IcePathB2FMahoganySideBoulder, EVENT_BOULDER_IN_ICE_PATH_3A
 	object_event 12, 13, SPRITE_BOULDER, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IcePathB2FMahoganySideBoulder, EVENT_BOULDER_IN_ICE_PATH_4A
 	object_event  8,  9, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IcePathB2FMahoganySideFullHeal, EVENT_ICE_PATH_B2F_MAHOGANY_SIDE_FULL_HEAL
 	object_event  0,  2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IcePathB2FMahoganySideMaxPotion, EVENT_ICE_PATH_B2F_MAHOGANY_SIDE_MAX_POTION
+	object_event 18, 16, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IcePathB2FFossil, EVENT_ICE_PATH_B2F_FOSSIL

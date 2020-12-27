@@ -95,4 +95,5 @@ TrainerClassNames::
 	db "SUKEBAN@" 
 	db "SPELLCASTER@"
 	db "YOUNGSTER@" ; Yotsuba
+	db "HISTORIAN@" ; NOT! Bill, the archaeologist class 
 	

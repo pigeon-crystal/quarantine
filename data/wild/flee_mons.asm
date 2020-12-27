@@ -4,7 +4,6 @@ FleeMons:
 SometimesFleeMons:
 	db WORMEEK
 	db AMBINNI
-	db UNOWN
 	db -1
 
 OftenFleeMons:

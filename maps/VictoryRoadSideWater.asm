@@ -28,6 +28,8 @@ VictoryRoadSideWater_MapScripts:
 	.skiptoend
 	return
 
+VictoryRoadMaxRepel:
+	itemball MAX_REPEL
 
 VictoryRoadSideWater_MapEvents:
 	db 0, 0 ; filler
@@ -43,4 +45,5 @@ VictoryRoadSideWater_MapEvents:
 
 	db 0 ; bg events 
  	
-	db 0 ; object events 
+	db 1 ; object events 
+	object_event  4, 8, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VictoryRoadMaxRepel, EVENT_VICTORY_ROAD_MAX_REPEL

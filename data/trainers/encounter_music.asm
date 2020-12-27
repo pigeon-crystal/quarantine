@@ -98,4 +98,6 @@ TrainerEncounterMusic::
 	db MUSIC_DEMON_ENCOUNTER		; sukeban
 	db MUSIC_DEMON_ENCOUNTER		; spellcaster
 	db MUSIC_LASS_ENCOUNTER			; yotsuba
+	db MUSIC_HIKER_ENCOUNTER		; historian
+	
 	

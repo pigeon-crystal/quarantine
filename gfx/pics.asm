@@ -156,6 +156,7 @@ BaafometBackpic:      INCBIN "gfx/pokemon/baafomet/back.2bpp.lz"
 StranglureBackpic:     INCBIN "gfx/pokemon/stranglure/back.2bpp.lz"
 FurnitFrontpic:      INCBIN "gfx/pokemon/furnit/front.animated.2bpp.lz"
 BlasphermyBackpic:     INCBIN "gfx/pokemon/blasphermy/back.2bpp.lz"
+HistorianPic:			INCBIN "gfx/trainers/historian.2bpp.lz"
 
 
 SECTION "Pics 6", ROMX

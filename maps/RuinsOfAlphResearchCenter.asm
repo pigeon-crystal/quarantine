@@ -186,7 +186,7 @@ RuinsOfAlphResearchCenterPrinter:
 	scall FossilMachineItsAMonScript
 	setval BELLOCEROS
 	special GameCornerPrizeMonCheckDex
-	givepoke BELLOCEROS, 10
+	givepoke BELLOCEROS, 20
 	takeitem HORN_FOSSIL
 	sjump FossilMachineEndTransaction
 	
@@ -201,7 +201,7 @@ RuinsOfAlphResearchCenterPrinter:
 	scall FossilMachineItsAMonScript
 	setval MAMMOTHRA
 	special GameCornerPrizeMonCheckDex
-	givepoke MAMMOTHRA, 10
+	givepoke MAMMOTHRA, 20
 	takeitem OLD_IVORY
 	sjump FossilMachineEndTransaction
 	
@@ -216,7 +216,7 @@ RuinsOfAlphResearchCenterPrinter:
 	scall FossilMachineItsAMonScript
 	setval THERAZOR
 	special GameCornerPrizeMonCheckDex
-	givepoke THERAZOR, 10
+	givepoke THERAZOR, 35
 	takeitem SCYTHEFOSSIL
 	sjump FossilMachineEndTransaction
 	
@@ -231,7 +231,7 @@ RuinsOfAlphResearchCenterPrinter:
 	scall FossilMachineItsAMonScript
 	setval AMBIONIC
 	special GameCornerPrizeMonCheckDex
-	givepoke AMBIONIC, 10
+	givepoke AMBIONIC, 35
 	takeitem ODD_AMBER
 	sjump FossilMachineEndTransaction
 	
@@ -246,7 +246,7 @@ RuinsOfAlphResearchCenterPrinter:
 	scall FossilMachineItsAMonScript
 	setval FUEGHAST
 	special GameCornerPrizeMonCheckDex
-	givepoke FUEGHAST, 10
+	givepoke FUEGHAST, 25
 	takeitem MYSTERY_BONE
 	sjump FossilMachineEndTransaction
 	
@@ -261,7 +261,7 @@ RuinsOfAlphResearchCenterPrinter:
 	scall FossilMachineItsAMonScript
 	setval ODDITULLY
 	special GameCornerPrizeMonCheckDex
-	givepoke ODDITULLY, 10
+	givepoke ODDITULLY, 45
 	takeitem BEAK_FOSSIL
 	sjump FossilMachineEndTransaction
 	
@@ -274,9 +274,9 @@ RuinsOfAlphResearchCenterPrinter:
 	waitsfx
 	playsound SFX_TRANSACTION
 	scall FossilMachineItsAMonScript
-	setval HITMONTOP
+	setval MISSINGNO
 	special GameCornerPrizeMonCheckDex
-	givepoke HITMONTOP, 10
+	givepoke MISSINGNO, 10
 	takeitem ANCIENT_FANG
 	sjump FossilMachineEndTransaction
 	
@@ -485,7 +485,7 @@ RuinsOfAlphResearchCenterDexUpgradedText:
 	done
 
 RuinsOfAlphResearchCenterScientist3Text:
-	text "The UNOWN you"
+	text "The GLYTHIC you"
 	line "catch will all be"
 	cont "recorded."
 

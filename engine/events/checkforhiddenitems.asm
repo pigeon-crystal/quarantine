@@ -103,16 +103,12 @@ endr
 	ret
 	
 .RockItems:
-	db 1, SCALE_FOSSIL
-	;db 1, ODD_AMBER
-	db 1, BRICK_PIECE
+	db 1, WATER_STONE
+	db 1, LEAF_STONE
 	db 1, HORN_FOSSIL
-	;db 1, OLD_IVORY
-	db 1, ETHER
-	;db 1, SCYTHEFOSSIL
-	db 1, MAX_ELIXER
-	db 1, BEAK_FOSSIL
-	;db 1, ANCIENT_FANG
+	db 1, FIRE_STONE
+	db 1, OLD_IVORY
+	db 1, THUNDERSTONE
 	db 1, GOLD_LEAF
 	db 1, MAX_REVIVE
 	db 4, NUGGET

@@ -725,6 +725,7 @@ KRIS EQU __enum__
 	
 	trainerclass ATHLETE_F ; 48
 	const AVA
+	const SHANNA
 	
 	trainerclass ATHLETE_M ; 49
 	const BENJAMIN_2
@@ -732,6 +733,7 @@ KRIS EQU __enum__
 	trainerclass FANATIC_RED ; 4a
 	const YAMATO_TRAINER
 	const CARRIE_F_R
+	const AMY
 	
 	trainerclass FANATIC_BLUE ; 4b
 	const SAIJO
@@ -749,11 +751,13 @@ KRIS EQU __enum__
 	trainerclass RADICAL ; 4d
 	const YASUI
 	const HIDEKI
+	const NAOYUKI
 	
 	trainerclass SALARYMAN ; 4e
 	const GORO
 	const CHOTARO
 	const KINICHI
+	const TURNER
 	
 	trainerclass ENGINEER ; 4f
 	const ENGINEER_1
@@ -788,6 +792,7 @@ KRIS EQU __enum__
 	
 	trainerclass BREEDER_F ; 59
 	const CLARA
+	const LUCY
 	
 	trainerclass NURSE_T ; 5a
 	
@@ -802,5 +807,10 @@ KRIS EQU __enum__
 	
 	trainerclass YOTSUBA_CLASS ; 5f
 	const YOTSUBA_TRAINER
+	
+	trainerclass HISTORIAN ; 60
+	const BIGBY
+	const BRUCE
+	const ART
 	
 NUM_TRAINER_CLASSES EQU __enum__

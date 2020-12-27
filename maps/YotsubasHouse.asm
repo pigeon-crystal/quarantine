@@ -195,14 +195,15 @@ WontGoEasyText:
 	done
 	
 YotsubaWinText:
-	text "Yaaay!"
-	
-	para "That was fun!"
-	done
+	text "My smile"
+	line "is gone for good."
 	
 YoureAToughCookie:
-	text "Thanks for the"
-	line "battle!"
+	text "Sigh…"
+	
+	para "Losing hurts, but"
+	line "the battle was"
+	cont "fun."
 	
 	para "You're one tough"
 	line "cookie!"

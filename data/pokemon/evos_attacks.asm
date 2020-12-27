@@ -1865,7 +1865,7 @@ SappuraEvosAttacks:
 	db 0 ; no more level-up moves
 
 LeaffigyEvosAttacks:
-	db EVOLVE_LEVEL, 45, SAKURONNA
+	db EVOLVE_ITEM, LEAF_STONE, SAKURONNA
 	db 0 ; no more evolutions
 	db 1, GROWTH
 	db 8, VINE_WHIP
@@ -1877,6 +1877,7 @@ LeaffigyEvosAttacks:
 	db 34, SYNTHESIS
 	db 37, FOCUS_BLAST
 	db 43, IRON_HEAD
+	db 46, LEAF_BLADE
 	db 50, PSYCHO_CUT
 	db 55, HEAL_BELL
 	db 0 ; no more level-up moves

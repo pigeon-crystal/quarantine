@@ -1,6 +1,6 @@
 	db WIRIGIBLE ; 142
 
-	db  97, 97,  60, 113,  50,  97
+	db  97, 97,  60, 114,  50,  97
 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, FLYING ; type

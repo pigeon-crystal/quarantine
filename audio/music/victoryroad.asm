@@ -286,9 +286,9 @@ Music_VictoryRoad_Ch1:
 	tone $0000
 	pitch_slide 13, 4, 3
 	note E_, 2
-	tone $0004
+	tone $0005
 	octave 4
-	pitch_slide 13, 4, 10
+	pitch_slide 16, 4, 10
 	note E_, 3
 	tone $0000
 	pitch_slide 8, 4, 9

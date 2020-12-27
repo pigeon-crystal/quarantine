@@ -139,7 +139,7 @@ MountMortarB1FBoulder:
 	jumpstd strengthboulder
 
 MountMortarB1FHyperPotion:
-	itemball HYPER_POTION
+	itemball SCYTHEFOSSIL
 
 MountMortarB1FCarbos:
 	itemball CARBOS
@@ -155,66 +155,6 @@ MountMortarB1FPPUp:
 
 MountMortarB1FHiddenMaxRevive:
 	hiddenitem MAX_REVIVE, EVENT_MOUNT_MORTAR_B1F_HIDDEN_MAX_REVIVE
-
-MountMortarB1FKiyoIntroText:
-	text "Hey!"
-
-	para "I am the KARATE"
-	line "KING!"
-
-	para "I train alone here"
-	line "in the dark!"
-
-	para "You!"
-	line "Battle with me!"
-
-	para "Hwaaarggh!"
-	done
-
-MountMortarB1FKiyoWinText:
-	text "Waaaarggh!"
-	line "I'm beaten!"
-	done
-
-MountMortarB1FFueghastRewardText:
-	text "I… I'm crushed…"
-
-	para "My training is"
-	line "still not enough…"
-
-	para "But a loss is a"
-	line "loss. I admit it."
-
-	para "As proof that you"
-	line "defeated me, I'll"
-
-	para "give you a rare"
-	line "fighting #MON."
-	done
-
-MountMortarB1FReceiveMonText:
-	text "<PLAYER> received"
-	line "FUEGHAST."
-	done
-
-MountMortarB1FKiyoGotFueghastText:
-	text "FUEGHAST is a"
-	line "fighting-type."
-
-	para "It evolves into a"
-	line "tougher #MON."
-
-	para "Keep up the hard"
-	line "work. I'll keep"
-	cont "training too."
-
-	para "Farewell!"
-	done
-
-MountMortarB1FKiyoFullPartyText:
-	text "You have no room"
-	line "in your party!"
-	done
 
 MountMortarB1F_MapEvents:
 	db 0, 0 ; filler

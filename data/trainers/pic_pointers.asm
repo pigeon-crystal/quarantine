@@ -97,4 +97,5 @@ TrainerPicPointers::
 	dba SukebanPic
 	dba SpellcasterPic
 	dba YotsubaPic
+	dba HistorianPic
 	

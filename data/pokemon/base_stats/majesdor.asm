@@ -6,7 +6,7 @@
 	db NORMAL, FAIRY ; type
 	db 30 ; catch rate
 	db 189 ; base exp
-	db MIRACLEBERRY, MYSTERYBERRY ; items
+	db MIRACLEBERRY, MYSTERY_BONE ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 11 ; step cycles to hatch
