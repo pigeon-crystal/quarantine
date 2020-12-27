@@ -747,6 +747,8 @@ KRIS EQU __enum__
 	const GLENN_W
 	
 	trainerclass RADICAL ; 4d
+	const YASUI
+	const HIDEKI
 	
 	trainerclass SALARYMAN ; 4e
 	const GORO
@@ -782,6 +784,7 @@ KRIS EQU __enum__
 	trainerclass MASTERMIND ; 57
 	
 	trainerclass BREEDER_M ; 58
+	const BERMAN
 	
 	trainerclass BREEDER_F ; 59
 	const CLARA

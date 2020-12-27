@@ -11,7 +11,7 @@ VictoryRoadSideCave_MapEvents:
 	db 0, 0 ; filler
 
 	db 1 ; warp events 
-	warp_event 13, 17, VICTORY_ROAD_SIDE_WATER, 4
+	warp_event 13, 7, VICTORY_ROAD_SIDE_WATER, 4
 	
 	db 0 ; coord events
 

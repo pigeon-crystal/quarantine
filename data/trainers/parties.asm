@@ -4225,6 +4225,20 @@ WarriorGroup:
 	db -1 ; end
 
 RadicalGroup:
+; RADICAL (1) Victory Road
+	db "YASUI@", TRAINERTYPE_ITEM
+	db 50, DJAMM, BERRY_JUICE
+	db 50, YUEFOE, NO_ITEM
+	db 51, AMPALA, NO_ITEM
+	db -1
+	
+; RADICAL (2) idk
+	db "HIDEKI@", TRAINERTYPE_NORMAL
+	db 20, ZASTER
+	db 20, BISMUTT
+	db -1
+	
+
 
 SalarymanGroup:
 ; SALARYMAN (1) underground nonstory
@@ -4335,6 +4349,13 @@ DemonGroup:
 MastermindGroup:
 
 BreederMGroup:
+; BREEDER M (1) Victory Road
+	db "BERMAN@", TRAINERTYPE_DVS
+	db 52, MOTHOMEN, ATKDEFDV_SHINY, SPDSPCDV_SHINY
+	db 50, ALLSEERAPH, ATKDEFDV_SHINY, SPDSPCDV_SHINY
+	db 51, GENEROPSIS, ATKDEFDV_SHINY, SPDSPCDV_SHINY
+	db 50, MURDERMIS, ATKDEFDV_SHINY, SPDSPCDV_SHINY
+	db -1
 
 BreederFGroup:
 ; BREEDER F (1) Route 33

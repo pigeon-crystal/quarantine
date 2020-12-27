@@ -85,4 +85,5 @@ MapScenes::
 	scene_var MOBILE_TRADE_ROOM,                           wMobileTradeRoomSceneID
 	scene_var MOBILE_BATTLE_ROOM,                          wMobileBattleRoomSceneID
 	scene_var ILEX_FOREST,								   wIlexForestSceneID
+	scene_var VICTORY_ROAD_NEW, 						   wVictoryRoadNewSceneID
 	db -1 ; end
