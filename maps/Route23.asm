@@ -1,4 +1,4 @@
-Route23_MapScripts:
+Route23_MapScripts: ; WHY WON'T YOU UPDATE WITH THE RIGHT WARP EVENTS
 	db 0 ; scene scripts
 
 	db 1 ; callbacks
