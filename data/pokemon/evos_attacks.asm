@@ -2530,9 +2530,11 @@ TherazorEvosAttacks:
 	db 65, SWORDS_DANCE	
 	db 0 ; no more level-up moves
 
-TerratoraEvosAttacks:
+TerratoraEvosAttacks:		; TODO
 	db 0 ; no more evolutions
-	db 1, CRUNCH
+	db 1, SCRATCH
+	db 1, LEER
+	db 45, ROCK_SLIDE
 	db 0 ; no more level-up moves
 
 NikujiraEvosAttacks:
@@ -2568,7 +2570,7 @@ BlazenbullEvosAttacks:
 	db 70, WILL_O_WISP
 	db 0 ; no more level-up moves
 
-ChernomuskEvosAttacks:
+ChernomuskEvosAttacks: ; TODO
 	db EVOLVE_LEVEL, 30, CHELYNOBLE
 	db 0 ; no more evolutions
 	db 1, LEER
@@ -2869,7 +2871,17 @@ NuckawheezEvosAttacks:
 
 MurdermisEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POUND
+	db 1, NIGHT_SHADE
+	db 1, NASTY_PLOT
+	db 9, SNARL
+	db 17, WHIRLWIND
+	db 22, HYPNOSIS
+	db 30, SCARY_FACE
+	db 38, DARK_PULSE
+	db 44, GLARE
+	db 50, RAZOR_WIND
+	db 52, SHADOW_BALL
+	db 61, MOONBLAST
 	db 0 ; no more level-up moves
 
 WormeekEvosAttacks:
@@ -3743,7 +3755,7 @@ YagagarasuEvosAttacks:
 	db 60, BATON_PASS
 	db 0 ; no more level-up moves
 
-UmberjerkEvosAttacks:
+UmberjerkEvosAttacks: ;TODO
 	db 0 ; no more evolutions
 	db 1, CONSTRICT
 	db 0 ; no more level-up moves
@@ -3881,7 +3893,7 @@ BaafometEvosAttacks:
 
 StiklbratEvosAttacks:
 	db EVOLVE_FISH, SIDFICIOUS
-	db EVOLVE_LEVEL, 38, SALARITO
+	db EVOLVE_LEVEL, 35, SALARITO
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
 	db 1, CHARM
@@ -3890,8 +3902,8 @@ StiklbratEvosAttacks:
 	db 18, AURORA_BEAM
 	db 22, BUBBLEBEAM
 	db 26, FOCUS_ENERGY
-	db 32, SUBSTITUTE
-	db 33, MIMIC
+	db 30, SUBSTITUTE
+	db 32, MIMIC
 	db 44, LIQUIDATION
 	db 55, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -3912,9 +3924,20 @@ SidficiousEvosAttacks:
 	db 60, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-SalaritoEvosAttacks: ; TODO 
+SalaritoEvosAttacks: 
 	db 0 ; no more evolutions
-	db 1, PRESENT
+	db 1, WATER_GUN
+	db 8, FAINT_ATTACK
+	db 11, ENCORE
+	db 18, AURORA_BEAM
+	db 22, BUBBLEBEAM
+	db 26, FOCUS_ENERGY
+	db 32, SUBSTITUTE
+	db 33, MIMIC
+	db 34, PAY_DAY
+	db 44, LIQUIDATION
+	db 48, DOUBLE_EDGE
+	db 53, REST
 	db 0 ; no more level-up moves
 
 KrakentoaEvosAttacks:
@@ -4178,10 +4201,14 @@ GoriathEvosAttacks:
 DrassalEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, THIEF
-	db 40, DETECT
-	db 40, PROTECT
-	db 40, PAY_DAY
+	db 12, STEEL_WING
+	db 20, DETECT
+	db 25, PROTECT
+	db 35, PAY_DAY
 	db 40, SHEKELSHOT
+	db 50, BUG_BUZZ
+	db 60, LEECH_LIFE
+	db 75, OUTRAGE
 	db 0 ; no more level-up moves
 
 OdditullyEvosAttacks:
@@ -4196,7 +4223,7 @@ OdditullyEvosAttacks:
 	db 35, ANCIENTPOWER
 	db 40, LIQUIDATION
 	db 43, ROCK_SLIDE
-	db 47, DRAGON_DANCE
+	db 49, DRAGON_DANCE
 	db 53, SOFTBOILED
 	db 58, OUTRAGE
 	db 0 ; no more level-up moves
@@ -4223,7 +4250,7 @@ AndromegaEvosAttacks:
 
 SlaatelEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, BITE
+	db 1, METAL_CLAW
 	db 1, LEER
 	db 11, ROAR
 	db 15, PURSUIT
@@ -4234,7 +4261,9 @@ SlaatelEvosAttacks:
 	db 42, HEAL_BELL
 	db 47, RECOVER
 	db 52, DRAGONBREATH
-	db 63, OUTRAGE
+	db 57, THRASH
+	db 63, CRUNCH
+	db 68, OUTRAGE
 ; for posteirity, the cheated slaatel moveset from the previous demo
 ;	db 100, RECOVER
 ;	db 100, GUILLOTINE
