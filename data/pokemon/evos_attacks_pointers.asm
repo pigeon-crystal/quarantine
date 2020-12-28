@@ -225,7 +225,7 @@ EvosAttacksPointers::
 	dw BaafometEvosAttacks
 	dw StiklbratEvosAttacks
 	dw SidficiousEvosAttacks
-	dw DelibirdEvosAttacks
+	dw SalaritoEvosAttacks
 	dw KrakentoaEvosAttacks
 	dw SnosebleedEvosAttacks
 	dw SnowupEvosAttacks

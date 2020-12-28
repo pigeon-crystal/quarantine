@@ -2,6 +2,7 @@
 	const ICEPATH1F_POKE_BALL1
 	const ICEPATH1F_POKE_BALL2
 	const ICEPATH1F_POKE_BALL3
+	const ICEPATH_ART
 
 IcePath1F_MapScripts:
 	db 0 ; scene scripts
@@ -37,6 +38,39 @@ RockIsMoving1:
 	
 	para "The rock is"
 	line "moving!"
+	
+IcePathArt:
+	trainer HISTORIAN, ART, EVENT_BEAT_HISTORIAN_ART, HistorianArtSeenText, HistorianArtBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext HistorianArtAfterText
+	waitbutton
+	closetext
+	end
+
+HistorianArtSeenText:
+	text "T-This cave i-is"
+	line "q-quite frigid?"
+	
+	para "C-Care to warm up"
+	line "with a b-battle?"
+	done
+	
+HistorianArtBeatenText:
+	text "Ah, better!"
+	done
+	
+HistorianArtAfterText:
+	text "#MON fossils"
+	line "from the ice age"
+	
+	para "are likely in this"
+	line "cave."
+	
+	para "B-But it's too cold"
+	line "for me here!"
 
 IcePath1F_MapEvents:
 	db 0, 0 ; filler
@@ -52,7 +86,8 @@ IcePath1F_MapEvents:
 	db 1 ; bg events
 	bg_event 25, 15, BGEVENT_IFNOTSET, MtNootEvent1
 
-	db 3 ; object events
+	db 4 ; object events
 	object_event 31,  7, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IcePath1FHMWaterfall, EVENT_GOT_HM07_WATERFALL
 	object_event 32, 23, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IcePath1FPPUp, EVENT_ICE_PATH_1F_PP_UP
 	object_event 35,  9, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IcePath1FProtein, EVENT_ICE_PATH_1F_PROTEIN
+	object_event 25, 3, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 2, IcePathArt, 0

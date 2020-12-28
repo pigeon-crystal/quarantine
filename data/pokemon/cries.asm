@@ -228,8 +228,8 @@ PokemonCries::
 	mon_cry $33,   			$068F, $01FF ; VEGETEBAA
 	mon_cry $33,  			$0C23, $01F0 ; BAAFOMET
 	mon_cry CRY_SLOWKING,    410,  300 ; STIKLBRAT
-	mon_cry CRY_SLOWKING,     27,  300 ; SIDFICIOUS
-	mon_cry CRY_SLOWKING,      2,  300 ; DELIBIRD
+	mon_cry CRY_SLOWKING,     28,  295 ; SIDFICIOUS
+	mon_cry CRY_SLOWKING,      2,  444 ; SALARITO
 	mon_cry CRY_MANTINE,    -377,  292 ; KRAKENTOA
 	mon_cry CRY_AMPHAROS,   2017,  384 ; SNOSEBLEED
 	mon_cry CRY_AMPHAROS,   1619,  409 ; SNOWUP

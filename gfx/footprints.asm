@@ -514,7 +514,7 @@ INCBIN "gfx/footprints/baafomet.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/stiklbrat.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/sidficious.1bpp",  footprint_bottom
 ; 225-232 top halves
-INCBIN "gfx/footprints/delibird.1bpp",   footprint_top
+INCBIN "gfx/footprints/salarito.1bpp",   footprint_top
 INCBIN "gfx/footprints/krakentoa.1bpp",    footprint_top
 INCBIN "gfx/footprints/snosebleed.1bpp",   footprint_top
 INCBIN "gfx/footprints/snowup.1bpp",   footprint_top
@@ -523,7 +523,7 @@ INCBIN "gfx/footprints/navigazer.1bpp",    footprint_top
 INCBIN "gfx/footprints/obelith.1bpp",     footprint_top
 INCBIN "gfx/footprints/moneumenn.1bpp",    footprint_top
 ; 225-232 bottom halves
-INCBIN "gfx/footprints/delibird.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/salarito.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/krakentoa.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/snosebleed.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/snowup.1bpp",   footprint_bottom

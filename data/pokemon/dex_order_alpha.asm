@@ -47,7 +47,7 @@ AlphabeticalPokedexOrder:
 	db CREMIGO
 	db CRUSTAZER
 	db CUTTLE
-	db DELIBIRD
+	db SALARITO
 	db DISMAIDEN
 	db DJAMM
 	db DODRIO

@@ -1655,9 +1655,10 @@
 	const EVENT_ICE_PATH_FOSSIL1
 	; back to victory road
 	const EVENT_BEAT_BREEDER_F_LUCY
-	const EVENT_62A
-	const EVENT_62B
-	const EVENT_62C
+	; historian trainers
+	const EVENT_BEAT_HISTORIAN_BIGBY
+	const EVENT_BEAT_HISTORIAN_BRUCE
+	const EVENT_BEAT_HISTORIAN_ART
 	const EVENT_62D
 	const EVENT_62E
 	const EVENT_62F

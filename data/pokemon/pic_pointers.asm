@@ -453,8 +453,8 @@ PokemonPicPointers::
 	dba StiklbratBackpic
 	dba SidficiousFrontpic
 	dba SidficiousBackpic
-	dba DelibirdFrontpic
-	dba DelibirdBackpic
+	dba SalaritoFrontpic
+	dba SalaritoBackpic
 	dba KrakentoaFrontpic
 	dba KrakentoaBackpic
 	dba SnosebleedFrontpic

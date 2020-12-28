@@ -223,7 +223,7 @@ PokemonNames::
 	db "BAAFOMET@@"
 	db "STIKLBRAT@"
 	db "SIDFICIOUS"
-	db "DELIBIRD@@"
+	db "SALARITO@@"
 	db "KRAKENTOA@"
 	db "SNOSEBLEED"
 	db "SNOWUP@@@@"

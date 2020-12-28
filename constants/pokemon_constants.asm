@@ -244,7 +244,7 @@ JOHTO_POKEMON EQU const_value
 	const BAAFOMET   ; de
 	const STIKLBRAT  ; df
 	const SIDFICIOUS ; e0
-	const DELIBIRD   ; e1 stiklbrat surf evo
+	const SALARITO   ; e1 stiklbrat surf evo
 	const KRAKENTOA  ; e2
 	const SNOSEBLEED ; e3
 	const SNOWUP     ; e4

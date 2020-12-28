@@ -224,7 +224,7 @@ PokedexDataPointerTable:
 	dw BaafometPokedexEntry
 	dw StiklbratPokedexEntry
 	dw SidficiousPokedexEntry
-	dw DelibirdPokedexEntry
+	dw SalaritoPokedexEntry
 	dw KrakentoaPokedexEntry
 	dw SnosebleedPokedexEntry
 	dw SnowupPokedexEntry

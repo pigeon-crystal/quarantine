@@ -3755,7 +3755,7 @@ BaafometEvosAttacks:
 
 StiklbratEvosAttacks:
 	db EVOLVE_FISH, SIDFICIOUS
-	db EVOLVE_LEVEL, 38, DELIBIRD
+	db EVOLVE_LEVEL, 38, SALARITO
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
 	db 1, CHARM
@@ -3786,7 +3786,7 @@ SidficiousEvosAttacks:
 	db 60, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-DelibirdEvosAttacks:
+SalaritoEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PRESENT
 	db 0 ; no more level-up moves
