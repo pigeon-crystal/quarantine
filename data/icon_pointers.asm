@@ -112,6 +112,9 @@ IconPointers:
 	dw NoomsdayIcon
 	dw GanzorahIcon
 	dw NikujiraIcon
+	dw TerratoraIcon
+	dw GlythicIcon
+	dw GoriathIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon

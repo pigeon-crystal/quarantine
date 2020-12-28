@@ -1,6 +1,6 @@
 	db BEDLAMAM ; 
 
-	db  70,  65,  108,  40,  65,  108
+	db  108,  79,  94,  61,  93,  94
 	;   hp  atk  def  spd  sat  sdf
 
 	db DARK, STEEL ; type

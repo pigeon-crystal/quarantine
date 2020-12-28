@@ -1,6 +1,6 @@
 	db CRUSTAZER ; 142
 
-	db  82, 115,  67, 55,  99,  82
+	db  82, 113,  69, 55,  99,  82
 	;   hp  atk  def  spd  sat  sdf
 
 	db ELECTRIC, ELECTRIC ; type

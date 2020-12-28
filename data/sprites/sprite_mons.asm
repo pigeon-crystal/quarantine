@@ -59,4 +59,5 @@ SpriteMons:
 	db ANDROMEGA
 	db BUDGANEER
 	db NIKUJIRA
+	db TERRATORA
 	

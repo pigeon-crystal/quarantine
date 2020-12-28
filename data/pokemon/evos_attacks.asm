@@ -411,7 +411,7 @@ IgnagaEvosAttacks:
 	db 0 ; no more level-up moves
 
 BudganeerEvosAttacks:
-	db EVOLVE_LEVEL, 40, RAICHU
+	db EVOLVE_LEVEL, 42, MACAWSAIR
 	db 0 ; no more evolutions
 	db 1, EMBER
 	db 1, LEER
@@ -422,14 +422,27 @@ BudganeerEvosAttacks:
 	db 28, WHIRLWIND
 	db 32, FIRE_SPIN
 	db 37, SING
-	db 42, FLAME_WHEEL
-	db 46, BRAVE_BIRD
+	db 40, FLAME_WHEEL
 	db 50, FIRE_BLAST
+	db 56, RAZOR_WIND
 	db 0 ; no more level-up moves
 
-RaichuEvosAttacks:
+MacawsairEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, THUNDERSHOCK
+	db 1, EMBER
+	db 1, LEER
+	db 6, PECK
+	db 13, MIMIC
+	db 18, SMOKESCREEN
+	db 24, WING_ATTACK
+	db 28, WHIRLWIND
+	db 32, FIRE_SPIN
+	db 37, SING
+	db 40, FLAME_WHEEL
+	db 41, BRAVE_BIRD
+	db 52, FIRE_BLAST
+	db 56, BODY_SLAM
+	db 62, RAZOR_WIND
 	db 0 ; no more level-up moves
 
 SandolphEvosAttacks:
@@ -1397,17 +1410,56 @@ MajesdorEvosAttacks:
 MissteriaEvosAttacks:
 	db EVOLVE_LEVEL, 29, DISMAIDEN
 	db 0 ; no more evolutions
+	db 1, POUND
 	db 1, CURSE
+	db 15, SPITE
+	db 20, DESTINY_BOND
+	db 24, NIGHT_SHADE
+	db 32, SCREECH
+	db 36, IRON_HEAD
+	db 40, DOUBLE_EDGE
+	db 44, DARK_PULSE
+	db 47, SELFDESTRUCT
 	db 0 ; no more level-up moves
 
 DismaidenEvosAttacks:
 	db EVOLVE_LEVEL, 46, BEDLAMAM
+	db 1, POUND
 	db 1, CURSE
+	db 10, DISABLE
+	db 15, SPITE
+	db 20, DESTINY_BOND
+	db 24, NIGHT_SHADE 
+	db 28, WITHDRAW 	; dismaiden evo move
+	db 29, CLAMP		; dismaiden evo move
+	db 34, SPIKE_CANNON
+	db 38, SCREECH
+	db 41, IRON_HEAD
+	db 44, DOUBLE_EDGE
+	db 48, DARK_PULSE
+	db 52, SELFDESTRUCT
+	db 55, FLASH_CANNON
 	db 0 ; no more level-up moves
 
 BedlamamEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
+	db 1, CURSE
+	db 10, DISABLE
+	db 15, SPITE
+	db 20, DESTINY_BOND
+	db 24, NIGHT_SHADE 
+	db 28, WITHDRAW 	; dismaiden evo move
+	db 29, CLAMP		; dismaiden evo move
+	db 34, SPIKE_CANNON
+	db 38, SCREECH
+	db 41, IRON_HEAD
+	db 44, DOUBLE_EDGE
+	db 45, GUILLOTINE		; bedlamam evo move
+	db 49, DARK_PULSE
+	db 51, NASTY_PLOT
+	db 55, SELFDESTRUCT
+	db 61, FLASH_CANNON
 	db 0 ; no more level-up moves
 
 CalfeenEvosAttacks:
@@ -1415,16 +1467,52 @@ CalfeenEvosAttacks:
 	db EVOLVE_ITEM, THUNDERSTONE, BLAZELLE
 	db 0 ; no more evolutions
 	db 1, POUND
+	db 1, LEER
+	db 10, LICK
+	db 15, FOCUS_ENERGY
+	db 19, CHARM
+	db 24, DOUBLE_KICK
+	db 30, STOMP
+	db 34, AMNESIA
+	db 39, IRON_HEAD
+	db 46, BODY_SLAM
 	db 0 ; no more level-up moves
 
 AmpalaEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, POUND
 	db 1, SPARK
+	db 1, LEER
+	db 10, LICK
+	db 15, FOCUS_ENERGY
+	db 19, CHARM
+	db 24, DOUBLE_KICK
+	db 30, STOMP
+	db 34, THUNDER_WAVE
+	db 35, SPARK
+	db 42, IRON_HEAD
+	db 46, THUNDERBOLT
+	db 49, BODY_SLAM
+	db 53, COUNTER
+	db 56, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 BlazelleEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, WILL_O_WISP
+	db 1, POUND
+	db 1, LEER
 	db 1, EMBER
+	db 10, LICK
+	db 15, FOCUS_ENERGY
+	db 19, CHARM
+	db 24, DOUBLE_KICK
+	db 30, FIRE_SPIN
+	db 34, CONFUSE_RAY
+	db 35, WILL_O_WISP
+	db 42, CALM_MIND
+	db 48, FLAMETHROWER
+	db 56, DESTINY_BOND
 	db 0 ; no more level-up moves
 
 DodrioEvosAttacks:

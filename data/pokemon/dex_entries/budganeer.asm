@@ -1,5 +1,5 @@
 	db "PIRATE@" ; species name
-	dw 1002, 8104 ; height, weight
+	dw 200, 135 ; height, weight
 
 	db   "BUDGANEER can "
 	next "mimic human"

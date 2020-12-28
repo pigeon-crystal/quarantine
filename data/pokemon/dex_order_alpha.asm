@@ -179,7 +179,7 @@ AlphabeticalPokedexOrder:
 	db QWAIL
 	db QWALLOP
 	db RADEON
-	db RAICHU
+	db MACAWSAIR
 	db RESPECTRE
 	db RYUNARI
 	db SAKURONNA

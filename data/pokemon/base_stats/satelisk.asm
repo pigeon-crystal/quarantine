@@ -1,6 +1,6 @@
 	db SATELISK ; 063
 
-	db  63,  61,   92,   107,   118,  85
+	db  65,  61,   92,   107,   118,  85
 	;   hp   atk   def   spd   sat  sdf
 
 	db PSYCHIC_TYPE, ELECTRIC ; type

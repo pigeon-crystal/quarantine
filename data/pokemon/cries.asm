@@ -30,7 +30,7 @@ PokemonCries::
 	mon_cry CRY_EKANS,       130,  276 ; WYRMOMETER
 	mon_cry CRY_EKANS,       436,  255 ; IGNAGA
 	mon_cry $10,  			$07DD, $00FF ; BUDGANEER
-	mon_cry CRY_RAICHU,      238,  136 ; RAICHU
+	mon_cry $10,      		$00EF, $00FF ; MACAWSAIR
 	mon_cry CRY_NIDORAN_M,    32,  192 ; SANDOLPH
 	mon_cry CRY_NIDORAN_M,   255,  383 ; DUNEFIN
 	mon_cry CRY_NIDORAN_F,     0,  256 ; SPRUNNY

@@ -24,7 +24,7 @@ PokemonNames::
 	db "WYRMOMETER"
 	db "IGNAGA@@@@"
 	db "BUDGANEER@"
-	db "RAICHU@@@@"
+	db "MACAWSAIR@"
 	db "SANDOLPH@@"
 	db "DUNEFIN@@@"
 	db "SPRUNNY@@@"

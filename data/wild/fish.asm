@@ -22,13 +22,13 @@ FishGroups:
 	fishgroup 50 percent + 1, .Pekoi_NoSwarm_Old, .Pekoi_NoSwarm_Good, .Pekoi_NoSwarm_Super
 
 .Shore_Old:
-	db  70 percent + 1, SLISCES,   10		; barberfish placeholder
-	db  85 percent + 1, SLISCES,   10
-	db 100 percent,     STRANGLURE,     10
+	db  70 percent + 1, SLISCES,   11		; barberfish placeholder
+	db  85 percent + 1, SLISCES,   12
+	db 100 percent,     STRANGLURE,     13
 .Shore_Good:
-	db  35 percent,     SLISCES,   20
-	db  70 percent,     STRANGLURE,     20
-	db  90 percent + 1, PRAWMATE,     20
+	db  35 percent,     SLISCES,   24
+	db  70 percent,     STRANGLURE,     25
+	db  90 percent + 1, PRAWMATE,     26
 	db 100 percent,     time_group 0
 .Shore_Super:
 	db  40 percent,     SLISCES,     40
@@ -37,13 +37,13 @@ FishGroups:
 	db 100 percent,     NIMBOCETUS,    40
 
 .Ocean_Old:
-	db  70 percent + 1, STRANGLURE,   10
-	db  85 percent + 1, STRANGLURE,   10
-	db 100 percent,     COCACOBRA,  10
+	db  70 percent + 1, STRANGLURE,   11
+	db  85 percent + 1, STRANGLURE,   12
+	db 100 percent,     COCACOBRA,  13
 .Ocean_Good:
-	db  35 percent,     STRANGLURE,   20
-	db  70 percent,     COCACOBRA,  20
-	db  90 percent + 1, UPWHALE,   20
+	db  35 percent,     STRANGLURE,   24
+	db  70 percent,     COCACOBRA,  25
+	db  90 percent + 1, UPWHALE,   26
 	db 100 percent,     time_group 2
 .Ocean_Super:
 	db  40 percent,     UPWHALE,   40
@@ -206,7 +206,7 @@ FishGroups:
 
 TimeFishGroups:
 	;  day              nite
-	db PRAWMATE,    20,  STRANGLURE,     20 		; 0 shore good
+	db PRAWMATE,    27,  STRANGLURE,     27 		; 0 shore good
 	db SHRIMPANZI,    40,  SHAMSEL,     40 		; 1 shore super
 	db UPWHALE,   20,  STRANGLURE,   20 	   	; 2 ocean good
 	db STRANGLURE,   40,  SHAMSEL,   40 		; 3 ocean super

@@ -44,7 +44,7 @@
 	const WYRMOMETER ; 17 
 	const IGNAGA     ; 18
 	const BUDGANEER    ; 19 pirate parrot
-	const RAICHU     ; 1a pirate parrot
+	const MACAWSAIR     ; 1a pirate parrot
 	const SANDOLPH   ; 1b
 	const DUNEFIN    ; 1c
 	const SPRUNNY    ; 1d

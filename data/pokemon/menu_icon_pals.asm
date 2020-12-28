@@ -29,7 +29,7 @@ MonMenuIconPals:
 	icon_pals RED,   BLUE      ; WYRMOMETER
 	icon_pals RED,   BLUE      ; IGNAGA
 	icon_pals RED,   YELLOW  ; BUDGANEER
-	icon_pals RED,   YELLOW  ; RAICHU
+	icon_pals RED,   YELLOW  ; MACAWSAIR
 	icon_pals YELLOW,   PINK  ; SANDOLPH
 	icon_pals YELLOW,  PINK   ; DUNEFIN
 	icon_pals GREEN,   RED  ; SPRUNNY
@@ -76,18 +76,18 @@ MonMenuIconPals:
 	icon_pals GREEN,   YELLOW  ; ORGNOME
 	icon_pals GREEN, BROWN	   ; GNOMERCY
 	icon_pals GRAY,    YELLOW  ; SLISCES
-	icon_pals BROWN,   YELLOW  ; DREADGE
+	icon_pals GRAY,   YELLOW  ; DREADGE
 	icon_pals GRAY,   YELLOW   ; DOLMITE
 	icon_pals GRAY,   YELLOW   ; DOLMESA
 	icon_pals GRAY,   YELLOW   ; CAIRNIVORE
 	icon_pals BROWN,   YELLOW  ; MOPERDOR
 	icon_pals BLUE,    YELLOW  ; MAJESDOR
 	icon_pals BLUE,   YELLOW  ; MISSTERIA
-	icon_pals BROWN,   YELLOW  ; DISMAIDEN
-	icon_pals BROWN,   YELLOW  ; BEDLAMAM
-	icon_pals BROWN,   YELLOW  ; CALFEEN
-	icon_pals BROWN,   YELLOW  ; FARFETCH'D 
-	icon_pals BROWN,   YELLOW  ; BLAZELLE
+	icon_pals GRAY,   YELLOW  ; DISMAIDEN
+	icon_pals GRAY,   YELLOW  ; BEDLAMAM
+	icon_pals PINK,   YELLOW  ; CALFEEN
+	icon_pals BLUE,   YELLOW  ; AMPALA 
+	icon_pals RED,   YELLOW  ; BLAZELLE
 	icon_pals BROWN,   YELLOW  ; DODRIO
 	icon_pals BLUE,   YELLOW   ; CADDISICLE
 	icon_pals BLUE,   YELLOW   ; JADDICE
@@ -131,12 +131,12 @@ MonMenuIconPals:
 	icon_pals GRAY,   YELLOW  ; GIGUARD
 	icon_pals GRAY,   YELLOW  ; GIGERATOR
 	icon_pals GRAY,   YELLOW  ; BERMUDANT
-	icon_pals BROWN,   YELLOW  ; WALLARRIOR
-	icon_pals BROWN,   YELLOW  ; FALWODUR
-	icon_pals BROWN,   YELLOW  ; FALWODRAIG
+	icon_pals PURPLE,   YELLOW  ; WALLARRIOR
+	icon_pals GRAY,   YELLOW  ; FALWODUR
+	icon_pals GRAY,   YELLOW  ; FALWODRAIG
 	icon_pals PINK,   YELLOW   ; MANDELBLOB
 	icon_pals PINK,   YELLOW   ; HELACTAL
-	icon_pals GRAY,   YELLOW  ; NOOMSDAY
+	icon_pals PURPLE,   YELLOW  ; NOOMSDAY
 	icon_pals GRAY,   YELLOW  ; GANZORAH
 	icon_pals BROWN,   YELLOW  ; JOLTEON
 	icon_pals BROWN,   YELLOW  ; FLAREON
@@ -145,7 +145,7 @@ MonMenuIconPals:
 	icon_pals RED,   YELLOW    ; BEHEMOTHRA
 	icon_pals BROWN,   YELLOW  ; BELLOCEROS
 	icon_pals BROWN,   YELLOW  ; SUBCEROS
-	icon_pals BROWN,   YELLOW  ; WELLWITCH
+	icon_pals GREEN,   YELLOW  ; WELLWITCH
 	icon_pals GRAY,   YELLOW  ; THERAZOR
 	icon_pals BROWN,   YELLOW  ; TERRATORA
 	icon_pals BLUE,   RED  ; NIKUJIRA

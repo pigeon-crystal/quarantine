@@ -52,8 +52,8 @@ PokemonPicPointers::
 	dba IgnagaBackpic
 	dba BudganeerFrontpic
 	dba BudganeerBackpic
-	dba RaichuFrontpic
-	dba RaichuBackpic
+	dba MacawsairFrontpic
+	dba MacawsairBackpic
 	dba SandolphFrontpic
 	dba SandolphBackpic
 	dba DunefinFrontpic

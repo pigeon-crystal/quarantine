@@ -65,7 +65,7 @@ INCBIN "gfx/footprints/wyrmometer.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/ignaga.1bpp",      footprint_bottom
 ; 025-032 top halves
 INCBIN "gfx/footprints/budganeer.1bpp",    footprint_top
-INCBIN "gfx/footprints/raichu.1bpp",     footprint_top
+INCBIN "gfx/footprints/macawsair.1bpp",     footprint_top
 INCBIN "gfx/footprints/sandolph.1bpp",  footprint_top
 INCBIN "gfx/footprints/dunefin.1bpp",  footprint_top
 INCBIN "gfx/footprints/sprunny.1bpp",  footprint_top
@@ -74,7 +74,7 @@ INCBIN "gfx/footprints/onionion.1bpp",  footprint_top
 INCBIN "gfx/footprints/prawmate.1bpp",  footprint_top
 ; 025-032 bottom halves
 INCBIN "gfx/footprints/budganeer.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/raichu.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/macawsair.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/sandolph.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/dunefin.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/sprunny.1bpp",  footprint_bottom

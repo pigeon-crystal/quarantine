@@ -112,6 +112,9 @@ PardnerIcon:	  INCBIN "gfx/icons/pardner.2bpp"
 NoomsdayIcon:     INCBIN "gfx/icons/noomsday.2bpp"
 GanzorahIcon:     INCBIN "gfx/icons/ganzorah.2bpp"
 NikujiraIcon:	  INCBIN "gfx/icons/nikujira.2bpp"
+TerratoraIcon:		INCBIN "gfx/icons/terratora.2bpp"
+GlythicIcon:		INCBIN "gfx/icons/glythic.2bpp"
+GoriathIcon:		INCBIN "gfx/icons/goriath.2bpp"
 
 SECTION "Mon Icons 2", ROMX
 

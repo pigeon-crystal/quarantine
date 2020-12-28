@@ -26,7 +26,7 @@ EvosAttacksPointers::
 	dw WyrmometerEvosAttacks		;ekans
 	dw IgnagaEvosAttacks
 	dw BudganeerEvosAttacks
-	dw RaichuEvosAttacks
+	dw MacawsairEvosAttacks
 	dw SandolphEvosAttacks
 	dw DunefinEvosAttacks
 	dw SprunnyEvosAttacks
