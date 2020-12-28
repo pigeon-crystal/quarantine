@@ -57,9 +57,9 @@ PokemonCries::
 	mon_cry CRY_CLEFFA,       14,  229 ; MUMINI
 	mon_cry CRY_GROWLITHE,    -4,  392 ; MUMAGNUS
 	mon_cry CRY_BULBASAUR,    39,  144 ; TODESCOOL
-	mon_cry CRY_DIGLETT,     275,  383 ; JUNOBE
+	mon_cry CRY_DIGLETT,     675,  383 ; JUNOBE
 	mon_cry CRY_DIGLETT,     300,  400 ; VOYAPOD
-	mon_cry CRY_DIGLETT,     185,  400 ; EXOTUNITY
+	mon_cry CRY_DIGLETT,      85,  401 ; EXOTUNITY
 	mon_cry CRY_NIDOQUEEN,   221,  224 ; BOBBITE
 	mon_cry CRY_NIDOQUEEN,   175,  192 ; BOBBITRAP
 	mon_cry CRY_GROWLITHE,    32,  192 ; HAPPIG
@@ -76,16 +76,16 @@ PokemonCries::
 	mon_cry $38,    		$0f9f,  $00af ; LAWNIE
 	mon_cry $38,      		$0ef2,  $01af ; ORGNOME
 	mon_cry $38,    		$0bf1,  $01af ; GNOMERCY
-	mon_cry CRY_VENONAT,       0,  256 ; SLISCES
-	mon_cry CRY_VENONAT,     238,  383 ; DREADGE
+	mon_cry $16,      	$0095,  $00F0 ; SLISCES
+	mon_cry $16,     	$00C5,  $0144 ; DREADGE
 	mon_cry $12,       		$01E0,  $00C0 ; DOLMITE
 	mon_cry $12,      		$0EE0,  $01D4 ; DOLMESA
 	mon_cry $13,      		$0CAA,  $0184 ; CAIRNIVORE
 	mon_cry CRY_MAGCARGO,      7,  247 ; MOPERDOR
 	mon_cry CRY_WEEDLE,        2,  300 ; MAJESDOR
-	mon_cry CRY_SLOWPOKE,      0,  256 ; MISSTERIA
-	mon_cry CRY_GROWLITHE,     0,  256 ; DISMAIDEN
-	mon_cry CRY_METAPOD,     128,  224 ; BEDLAMAM
+	mon_cry $2D,      	$0100,  $00FF ; MISSTERIA
+	mon_cry $1C,      	$0290,  $0051 ; DISMAIDEN
+	mon_cry $1C,     	$10E0,  $0100 ; BEDLAMAM
 	mon_cry CRY_AIPOM,      -200,  320 ; CALFEEN
 	mon_cry CRY_GIRAFARIG,   -10,  320 ; AMPALA
 	mon_cry CRY_GIRAFARIG,   100,  189 ; BLAZELLE
@@ -200,8 +200,8 @@ PokemonCries::
 	mon_cry CRY_VENONAT,     -49,  304 ; ARASBESTOS
 	mon_cry CRY_WOOPER,      147,  175 ; ODDITTEN
 	mon_cry CRY_WOOPER,     -198,  320 ; ASTROTOM
-	mon_cry CRY_AIPOM,       162,  320 ; HAUNTLET
-	mon_cry CRY_VENONAT,    -233,  240 ; GLOST
+	mon_cry $12,       $01FF,  $00FD ; HAUNTLET
+	mon_cry $12,    	$0EF7,  $01FD ; GLOST
 	mon_cry CRY_MARILL,      -50,  222 ; BISMUTT
 	mon_cry CRY_CYNDAQUIL,   145,  120 ; TIDO
 	mon_cry $32,			$0DF6, $01F0 ; MAULZER
@@ -238,7 +238,7 @@ PokemonCries::
 	mon_cry $0D,     		$1187,  $0081 ; OBELITH
 	mon_cry $0D,      		$1487,  $0074 ; MONEUMENN
 	mon_cry CRY_SPINARAK,   -399,  400 ; POLYRO
-	mon_cry CRY_CYNDAQUIL,   666,  320 ; SLOWHOG
+	mon_cry $19,  		 $FF32,  $0081 ; SLOWHOG
 	mon_cry CRY_AMPHAROS,    -91,  303 ; EYECHOSIS
 	mon_cry $10,       	 $176F,  $00B0 ; FUEGHAST
 	mon_cry CRY_SLUGMA,        0,  256 ; HITMONTOP

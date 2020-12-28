@@ -178,7 +178,7 @@ Moves:: ; 41afb
 	move SUBSTITUTE,   EFFECT_SUBSTITUTE,          0, NORMAL,   	STATUS,   100, 10,   0
 	move STRUGGLE,     EFFECT_RECOIL_HIT,         50, NORMAL,   	PHYSICAL, 100,  1,   0
 	move SKETCH,       EFFECT_SKETCH,              0, NORMAL,   	STATUS,   100,  1,   0
-	move CATAPULT,   EFFECT_MULTI_HIT,          32, NORMAL, 	    PHYSICAL,  95, 10,   0
+	move CATAPULT,     EFFECT_MULTI_HIT,          32, NORMAL, 	    PHYSICAL,  95, 10,   0
 	move THIEF,        EFFECT_THIEF,              60, DARK,     	PHYSICAL, 100, 25, 100
 	move SPIDER_WEB,   EFFECT_MEAN_LOOK,           0, BUG,      	STATUS,   100, 10,   0
 	move ACCELEROCK,   EFFECT_PRIORITY_HIT,       40, ROCK,    		PHYSICAL,  100, 40,  0
