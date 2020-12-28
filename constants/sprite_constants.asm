@@ -174,7 +174,7 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_RHYDON ; 9d
 	const SPRITE_BLAZENBULL ; 9e
 	const SPRITE_SNORLAX ; 9f
-	const SPRITE_GYARADOS ; a0
+	const SPRITE_GYARADOS ; c0
 	const SPRITE_AVATRICE ; a1
 	const SPRITE_DONUKAME ; a2
 	const SPRITE_GANZERKER ; a3
@@ -196,10 +196,11 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_MURDERMIS ; b3
 	const SPRITE_VEGETEBAA ; d4
 	const SPRITE_CRUSTAZER ; d5
-	const SPRITE_FURNIT
-	const SPRITE_EYECHOSIS
-	const SPRITE_ANDROMEGA
-	const SPRITE_BUDGANEER
+	const SPRITE_FURNIT ; d6
+	const SPRITE_EYECHOSIS ; d7
+	const SPRITE_ANDROMEGA ; d8
+	const SPRITE_BUDGANEER ; d9
+	const SPRITE_NIKUJIRA ; da
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)
 	const_def $ee

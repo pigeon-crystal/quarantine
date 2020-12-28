@@ -148,7 +148,7 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; WELLWITCH
 	icon_pals GRAY,   YELLOW  ; THERAZOR
 	icon_pals BROWN,   YELLOW  ; TERRATORA
-	icon_pals BROWN,   YELLOW  ; NIKUJIRA
+	icon_pals BLUE,   RED  ; NIKUJIRA
 	icon_pals GRAY,   PURPLE  ; BLAZENBULL
 	icon_pals BLUE,   GREEN  ; CHERNOMUSK
 	icon_pals BLUE,   GREEN  ; CHELYNOBLE

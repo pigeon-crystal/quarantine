@@ -306,62 +306,62 @@ JohtoGrassWildMons:
 	map_id BURNED_TOWER_1F ;done
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, ANTPYRE
-	db 14, OSCURASA
-	db 15, ANTPYRE
-	db 14, OSCURASA
-	db 15, MISSTERIA
-	db 15, MISSTERIA
-	db 15, MISSTERIA
-	db 19, MOTHO
+	db 22, ANTPYRE
+	db 24, OSCURASA
+	db 24, ANTPYRE
+	db 22, OSCURASA
+	db 21, MISSTERIA
+	db 22, MISSTERIA
+	db 23, MISSTERIA
+	db 24, MOTHO
 	; day
-	db 13, ANTPYRE
-	db 14, OSCURASA
-	db 15, ANTPYRE
-	db 14, OSCURASA
-	db 15, MISSTERIA
-	db 15, MISSTERIA
-	db 15, MISSTERIA
-	db 19, MOTHO
+	db 24, ANTPYRE
+	db 22, OSCURASA
+	db 22, ANTPYRE
+	db 24, OSCURASA
+	db 21, MISSTERIA
+	db 22, MISSTERIA
+	db 23, MISSTERIA
+	db 24, MOTHO
 	; nite
-	db 13, ANTPYRE
-	db 14, OSCURASA
-	db 15, ANTPYRE
-	db 14, OSCURASA
-	db 15, MOTHO
-	db 15, MOTHO
-	db 15, MOTHO
-	db 19, MISSTERIA
+	db 23, ANTPYRE
+	db 23, OSCURASA
+	db 23, ANTPYRE
+	db 23, OSCURASA
+	db 22, MOTHO
+	db 23, MOTHO
+	db 24, MOTHO
+	db 21, MISSTERIA
 
 	map_id BURNED_TOWER_B1F ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, OSCURASA
-	db 14, ANTPYRE
-	db 15, OSCURASA
-	db 14, ANTPYRE
-	db 15, MISSTERIA
-	db 15, MISSTERIA
-	db 15, MOTHO
-	db 19, MOTHO
+	db 23, OSCURASA
+	db 23, ANTPYRE
+	db 22, OSCURASA
+	db 22, ANTPYRE
+	db 21, MISSTERIA
+	db 22, MISSTERIA
+	db 23, MOTHO
+	db 24, MOTHO
 	; day
-	db 13, OSCURASA
-	db 14, ANTPYRE
-	db 15, OSCURASA
-	db 14, ANTPYRE
-	db 15, MISSTERIA
-	db 15, MISSTERIA
-	db 15, MOTHO
-	db 19, MOTHO
+	db 23, OSCURASA
+	db 23, ANTPYRE
+	db 22, OSCURASA
+	db 22, ANTPYRE
+	db 21, MISSTERIA
+	db 22, MISSTERIA
+	db 23, MOTHO
+	db 24, MOTHO
 	; nite
-	db 13, OSCURASA
-	db 14, ANTPYRE
-	db 15, OSCURASA
-	db 14, ANTPYRE
-	db 15, MOTHO
-	db 15, MOTHO
-	db 15, MOTHO
-	db 19, MISSTERIA
+	db 23, OSCURASA
+	db 23, ANTPYRE
+	db 22, OSCURASA
+	db 22, ANTPYRE
+	db 22, MOTHO
+	db 23, MOTHO
+	db 24, MOTHO
+	db 22, MISSTERIA
 	
 
 	map_id NATIONAL_PARK ;done
@@ -547,25 +547,25 @@ JohtoGrassWildMons:
 	map_id SLOWPOKE_WELL_B1F ;done
 	db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
 	; morn
-	db 12, STINPEON
+	db 14, STINPEON
 	db 13, CUTTLE
-	db 12, CUTTLE
+	db 13, CUTTLE
 	db 13, NOMSTER
 	db 12, STINPEON
 	db 12, CUTTLE
 	db 14, MUMINI
 	db 15, MUMINI
 	; day
-	db 12, STINPEON
+	db 14, STINPEON
 	db 13, CUTTLE
-	db 12, CUTTLE
+	db 13, CUTTLE
 	db 13, NOMSTER
 	db 12, STINPEON
 	db 12, CUTTLE
 	db 14, MUMINI
 	db 15, MUMINI
 	; nite
-	db 12, STINPEON
+	db 14, STINPEON
 	db 13, CUTTLE
 	db 12, CUTTLE
 	db 13, NOMSTER
@@ -584,7 +584,7 @@ JohtoGrassWildMons:
 	db 23, MUMINI
 	db 23, MUMINI
 	db 23, MUMINI
-	db 24, STINPEON
+	db 24, RESPECTRE
 	; day
 	db 21, CUTTLE
 	db 23, STINPEON
@@ -593,7 +593,7 @@ JohtoGrassWildMons:
 	db 23, MUMINI
 	db 23, MUMINI
 	db 23, MUMINI
-	db 24, STINPEON
+	db 24, RESPECTRE
 	; nite
 	db 21, CUTTLE
 	db 23, STINPEON
@@ -637,512 +637,512 @@ JohtoGrassWildMons:
 	map_id MOUNT_MORTAR_1F_OUTSIDE ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 14, BOBBITE
-	db 13, SCRUFFRUIT
-	db 14, BOBBITE
-	db 13, MORADAY
-	db 14, DOLMESA
-	db 16, OLCHAP   ; stand-in for bad hat
-	db 16, OLCHAP	  ; stand-in for bad hat
-	db 19, PARDNER
+	db 24, BOBBITE
+	db 23, SCRUFFRUIT
+	db 24, BOBBITE
+	db 26, MORADAY
+	db 23, DOLMESA
+	db 26, OLCHAP   ; stand-in for bad hat
+	db 26, OLCHAP	  ; stand-in for bad hat
+	db 27, PARDNER
 	; day
-	db 14, BOBBITE
-	db 13, SCRUFFRUIT
-	db 14, BOBBITE
-	db 13, MORADAY
-	db 14, DOLMESA
-	db 16, OLCHAP   ; stand-in for bad hat
-	db 16, OLCHAP   ; stand-in for bad hat
-	db 19, PARDNER
+	db 24, BOBBITE
+	db 23, SCRUFFRUIT
+	db 24, BOBBITE
+	db 26, MORADAY
+	db 23, DOLMESA
+	db 26, OLCHAP   ; stand-in for bad hat
+	db 26, OLCHAP   ; stand-in for bad hat
+	db 27, PARDNER
 	; nite
-	db 14, BOBBITE
-	db 13, SCRUFFRUIT
-	db 14, BOBBITE
-	db 13, MORADAY
-	db 14, DOLMESA
-	db 16, OLCHAP   ; stand-in for bad hat
-	db 16, OLCHAP   ; stand-in for bad hat
-	db 19, OLCHAP   ; OHONONONO PARDNER BROS HOW COULD WE LOSE TO THE NIGHT
+	db 24, BOBBITE
+	db 23, SCRUFFRUIT
+	db 24, BOBBITE
+	db 26, MORADAY
+	db 23, DOLMESA
+	db 26, OLCHAP   ; stand-in for bad hat
+	db 26, OLCHAP   ; stand-in for bad hat
+	db 27, OLCHAP   
 
 	map_id MOUNT_MORTAR_1F_INSIDE ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 14, BOBBITE
-	db 13, SCRUFFRUIT
-	db 14, BOBBITE
-	db 13, MORADAY
-	db 14, DOLMESA
-	db 16, CLIBBLE
-	db 16, OLCHAP  ; stand-in for bad hat
-	db 19, OLCHAP  ; stand-in for bad hat
+	db 25, BOBBITE
+	db 25, SCRUFFRUIT
+	db 24, BOBBITE
+	db 26, MORADAY
+	db 24, DOLMESA
+	db 22, CLIBBLE
+	db 27, OLCHAP  ; stand-in for bad hat
+	db 27, OLCHAP  ; stand-in for bad hat
 	; day
-	db 14, BOBBITE
-	db 13, SCRUFFRUIT
-	db 14, BOBBITE
-	db 13, MORADAY
-	db 14, DOLMESA
-	db 16, OLCHAP   ; stand-in for bad hat
-	db 16, OLCHAP   ; stand-in for bad hat
-	db 19, PARDNER
+	db 25, BOBBITE
+	db 25, SCRUFFRUIT
+	db 24, BOBBITE
+	db 26, MORADAY
+	db 24, DOLMESA
+	db 27, OLCHAP   ; stand-in for bad hat
+	db 27, OLCHAP   ; stand-in for bad hat
+	db 27, PARDNER
 	; nite
-	db 14, BOBBITE
-	db 13, SCRUFFRUIT
-	db 14, BOBBITE
-	db 13, MORADAY
-	db 14, DOLMESA
-	db 16, CLIBBLE
-	db 16, OLCHAP  ; stand-in for bad hat
-	db 19, OLCHAP  ; stand-in for bad hat
+	db 25, BOBBITE
+	db 25, SCRUFFRUIT
+	db 24, BOBBITE
+	db 26, MORADAY
+	db 24, DOLMESA
+	db 22, CLIBBLE
+	db 27, OLCHAP  ; stand-in for bad hat
+	db 27, OLCHAP  ; stand-in for bad hat
 
 	map_id MOUNT_MORTAR_2F_INSIDE ; REQUIRES WATERFALL - LATEGAME
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 31, DOLMESA
-	db 32, NIMBOCETUS
-	db 31, DOLMITE
-	db 30, NOMSABRE
-	db 28, FURSA
-	db 30, FURSA
-	db 30, FURSA
-	db 33, FURSA
+	db 25, BOBBITE
+	db 25, SCRUFFRUIT
+	db 24, BOBBITE
+	db 26, MORADAY
+	db 24, DOLMESA
+	db 22, CLIBBLE
+	db 27, OLCHAP  ; stand-in for bad hat
+	db 27, OLCHAP  ; stand-in for bad hat
 	; day
-	db 31, DOLMESA
-	db 32, NIMBOCETUS
-	db 31, DOLMITE
-	db 30, NOMSABRE
-	db 28, FURSA
-	db 30, FURSA
-	db 30, FURSA
-	db 33, FURSA
+	db 25, BOBBITE
+	db 25, SCRUFFRUIT
+	db 24, BOBBITE
+	db 26, MORADAY
+	db 24, DOLMESA
+	db 27, OLCHAP   ; stand-in for bad hat
+	db 27, OLCHAP   ; stand-in for bad hat
+	db 27, PARDNER
 	; nite
-	db 31, DOLMESA
-	db 31, DOLMITE
-	db 30, NOMSABRE
-	db 30, SCORPEROR
-	db 28, FURSA
-	db 30, FURSA
-	db 30, FURSA
-	db 33, FURSA
+	db 25, BOBBITE
+	db 25, SCRUFFRUIT
+	db 24, BOBBITE
+	db 26, MORADAY
+	db 24, DOLMESA
+	db 22, CLIBBLE
+	db 27, OLCHAP  ; stand-in for bad hat
+	db 27, OLCHAP  ; stand-in for bad hat
 
 	map_id MOUNT_MORTAR_B1F ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 14, BOBBITE
-	db 13, SCRUFFRUIT
-	db 14, BOBBITE
-	db 13, MORADAY
-	db 14, CLIBBLE
-	db 16, CLIBBLE
-	db 16, OLCHAP  ; stand-in for bad hat
-	db 19, OLCHAP  ; stand-in for bad hat
+	db 25, BOBBITE
+	db 25, SCRUFFRUIT
+	db 25, BOBBITE
+	db 27, MORADAY
+	db 25, DOLMESA
+	db 25, CLIBBLE
+	db 27, OLCHAP  ; stand-in for bad hat
+	db 27, OLCHAP  ; stand-in for bad hat
 	; day
-	db 14, BOBBITE
-	db 13, SCRUFFRUIT
-	db 14, BOBBITE
-	db 13, MORADAY
-	db 14, CLIBBLE
-	db 16, CLIBBLE
-	db 16, OLCHAP  ; stand-in for bad hat
-	db 19, OLCHAP  ; stand-in for bad hat
+	db 25, BOBBITE
+	db 25, SCRUFFRUIT
+	db 25, BOBBITE
+	db 27, MORADAY
+	db 27, DOLMESA
+	db 27, OLCHAP   ; stand-in for bad hat
+	db 27, OLCHAP   ; stand-in for bad hat
+	db 28, PARDNER
 	; nite
-	db 14, BOBBITE
-	db 13, SCRUFFRUIT
-	db 14, BOBBITE
-	db 13, MORADAY
-	db 14, CLIBBLE
-	db 16, CLIBBLE
-	db 16, OLCHAP  ; stand-in for bad hat
-	db 19, OLCHAP  ; stand-in for bad hat
+	db 25, BOBBITE
+	db 25, SCRUFFRUIT
+	db 25, BOBBITE
+	db 27, MORADAY
+	db 26, DOLMESA
+	db 25, CLIBBLE
+	db 27, OLCHAP  ; stand-in for bad hat
+	db 27, OLCHAP  ; stand-in for bad hat
 
 	map_id ICE_PATH_1F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 24, CADDISICLE
-	db 25, SNOSEBLEED
-	db 25, CADDISICLE
-	db 26, HAUNTLET ; ice ghost 1
-	db 22, HAUNTLET ; ice ghost 1
-	db 24, HAUNTLET ; ice ghost 1
-	db 26, SNOWUP
-	db 28, JADDICE
+	db 30, CADDISICLE
+	db 35, SNOSEBLEED
+	db 32, CADDISICLE
+	db 35, HAUNTLET ; ice ghost 1
+	db 36, HAUNTLET ; ice ghost 1
+	db 37, HAUNTLET ; ice ghost 1
+	db 40, SNOWUP
+	db 42, JADDICE
 	; day
-	db 24, CADDISICLE
-	db 25, SNOSEBLEED
-	db 25, CADDISICLE
-	db 26, HAUNTLET ; ice ghost 1
-	db 22, HAUNTLET ; ice ghost 1
-	db 24, HAUNTLET ; ice ghost 1
-	db 26, SNOWUP
-	db 28, JADDICE
+	db 30, CADDISICLE
+	db 35, SNOSEBLEED
+	db 32, CADDISICLE
+	db 35, HAUNTLET ; ice ghost 1
+	db 36, HAUNTLET ; ice ghost 1
+	db 37, HAUNTLET ; ice ghost 1
+	db 40, SNOWUP
+	db 42, JADDICE
 	; nite
-	db 24, CADDISICLE
-	db 25, SNOSEBLEED
-	db 25, CADDISICLE
-	db 26, HAUNTLET ; ice ghost 1
-	db 22, HAUNTLET ; ice ghost 1
-	db 24, HAUNTLET ; ice ghost 1
-	db 26, SNOWUP
-	db 28, JADDICE
+	db 30, CADDISICLE
+	db 35, SNOSEBLEED
+	db 32, CADDISICLE
+	db 35, HAUNTLET ; ice ghost 1
+	db 36, HAUNTLET ; ice ghost 1
+	db 37, HAUNTLET ; ice ghost 1
+	db 40, SNOWUP
+	db 42, JADDICE
 
 	map_id ICE_PATH_B1F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 24, CADDISICLE
-	db 25, SNOSEBLEED
-	db 25, CADDISICLE
-	db 26, HAUNTLET ; ice ghost 1
-	db 22, HAUNTLET ; ice ghost 1
-	db 24, HAUNTLET ; ice ghost 1
-	db 26, YUKITTEN
-	db 28, SNOWUP
+	db 30, CADDISICLE
+	db 35, SNOSEBLEED
+	db 32, CADDISICLE
+	db 36, HAUNTLET ; ice ghost 1
+	db 37, HAUNTLET ; ice ghost 1
+	db 38, HAUNTLET ; ice ghost 1
+	db 28, YUKITTEN
+	db 44, SNOWUP
 	; day
-	db 24, CADDISICLE
-	db 25, SNOSEBLEED
-	db 25, CADDISICLE
-	db 26, HAUNTLET ; ice ghost 1
-	db 22, HAUNTLET ; ice ghost 1
-	db 24, HAUNTLET ; ice ghost 1
-	db 26, YUKITTEN
-	db 28, SNOWUP
+	db 30, CADDISICLE
+	db 35, SNOSEBLEED
+	db 32, CADDISICLE
+	db 36, HAUNTLET ; ice ghost 1
+	db 37, HAUNTLET ; ice ghost 1
+	db 38, HAUNTLET ; ice ghost 1
+	db 28, YUKITTEN
+	db 44, SNOWUP
 	; nite
-	db 24, CADDISICLE
-	db 25, SNOSEBLEED
-	db 25, CADDISICLE
-	db 26, HAUNTLET ; ice ghost 1
-	db 22, HAUNTLET ; ice ghost 1
-	db 24, HAUNTLET ; ice ghost 1
-	db 26, YUKITTEN
-	db 28, SNOWUP
+	db 30, CADDISICLE
+	db 35, SNOSEBLEED
+	db 32, CADDISICLE
+	db 36, HAUNTLET ; ice ghost 1
+	db 37, HAUNTLET ; ice ghost 1
+	db 38, HAUNTLET ; ice ghost 1
+	db 28, YUKITTEN
+	db 44, SNOWUP
 
 	map_id ICE_PATH_B2F_MAHOGANY_SIDE ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 24, CADDISICLE
-	db 25, SNOSEBLEED
-	db 25, CADDISICLE
-	db 26, HAUNTLET ; ice ghost 1
-	db 22, HAUNTLET ; ice ghost 1
-	db 24, HAUNTLET ; ice ghost 1
-	db 26, YUKITTEN
-	db 28, SNOWUP
+	db 30, CADDISICLE
+	db 35, SNOSEBLEED
+	db 32, CADDISICLE
+	db 36, HAUNTLET ; ice ghost 1
+	db 37, HAUNTLET ; ice ghost 1
+	db 38, HAUNTLET ; ice ghost 1
+	db 28, YUKITTEN
+	db 44, SNOWUP
 	; day
-	db 24, CADDISICLE
-	db 25, SNOSEBLEED
-	db 25, CADDISICLE
-	db 26, HAUNTLET ; ice ghost 1
-	db 22, HAUNTLET ; ice ghost 1
-	db 24, HAUNTLET ; ice ghost 1
-	db 26, YUKITTEN
-	db 28, SNOWUP
+	db 30, CADDISICLE
+	db 35, SNOSEBLEED
+	db 32, CADDISICLE
+	db 36, HAUNTLET ; ice ghost 1
+	db 37, HAUNTLET ; ice ghost 1
+	db 38, HAUNTLET ; ice ghost 1
+	db 28, YUKITTEN
+	db 44, SNOWUP
 	; nite
-	db 24, CADDISICLE
-	db 25, SNOSEBLEED
-	db 25, CADDISICLE
-	db 26, HAUNTLET ; ice ghost 1
-	db 22, HAUNTLET ; ice ghost 1
-	db 24, HAUNTLET ; ice ghost 1
-	db 26, YUKITTEN
-	db 28, SNOWUP
+	db 30, CADDISICLE
+	db 35, SNOSEBLEED
+	db 32, CADDISICLE
+	db 36, HAUNTLET ; ice ghost 1
+	db 37, HAUNTLET ; ice ghost 1
+	db 38, HAUNTLET ; ice ghost 1
+	db 28, YUKITTEN
+	db 44, SNOWUP
 
 	map_id ICE_PATH_B2F_BLACKTHORN_SIDE ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 24, CADDISICLE
-	db 25, SNOSEBLEED
-	db 25, SNOSEBLEED
-	db 26, HAUNTLET ; ice ghost 1
-	db 22, HAUNTLET ; ice ghost 1
-	db 24, YUKITTEN
-	db 26, SNOWUP
-	db 28, SNOWUP
+	db 30, CADDISICLE
+	db 31, SNOSEBLEED
+	db 32, SNOSEBLEED
+	db 37, HAUNTLET ; ice ghost 1
+	db 38, HAUNTLET ; ice ghost 1
+	db 28, YUKITTEN
+	db 45, SNOWUP
+	db 46, SNOWUP
 	; day
-	db 24, CADDISICLE
-	db 25, SNOSEBLEED
-	db 25, SNOSEBLEED
-	db 26, HAUNTLET ; ice ghost 1
-	db 22, HAUNTLET ; ice ghost 1
-	db 24, YUKITTEN
-	db 26, SNOWUP
-	db 28, SNOWUP
+	db 30, CADDISICLE
+	db 31, SNOSEBLEED
+	db 32, SNOSEBLEED
+	db 37, HAUNTLET ; ice ghost 1
+	db 38, HAUNTLET ; ice ghost 1
+	db 28, YUKITTEN
+	db 45, SNOWUP
+	db 46, SNOWUP
 	; nite
-	db 24, CADDISICLE
-	db 25, SNOSEBLEED
-	db 25, SNOSEBLEED
-	db 26, HAUNTLET ; ice ghost 1
-	db 22, HAUNTLET ; ice ghost 1
-	db 24, YUKITTEN
-	db 26, SNOWUP
-	db 28, SNOWUP
+	db 30, CADDISICLE
+	db 31, SNOSEBLEED
+	db 32, SNOSEBLEED
+	db 37, HAUNTLET ; ice ghost 1
+	db 38, HAUNTLET ; ice ghost 1
+	db 28, YUKITTEN
+	db 45, SNOWUP
+	db 46, SNOWUP
 
 	map_id ICE_PATH_B3F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 24, CADDISICLE
-	db 25, SNOSEBLEED
-	db 25, SNOSEBLEED
-	db 26, HAUNTLET ; ice ghost 1
-	db 22, YUKITTEN
-	db 24, HAUNTLET ; ice ghost 1
-	db 26, SNOWUP
-	db 28, SNOWUP
+	db 45, JADDICE
+	db 33, SNOSEBLEED
+	db 34, SNOSEBLEED
+	db 39, HAUNTLET ; ice ghost 1
+	db 29, YUKITTEN
+	db 38, HAUNTLET ; ice ghost 1
+	db 46, SNOWUP
+	db 40, FLURIKEN
 	; day
-	db 24, CADDISICLE
-	db 25, SNOSEBLEED
-	db 25, SNOSEBLEED
-	db 26, HAUNTLET ; ice ghost 1
-	db 22, YUKITTEN
-	db 24, HAUNTLET ; ice ghost 1
-	db 26, SNOWUP
-	db 28, SNOWUP
+	db 45, JADDICE
+	db 33, SNOSEBLEED
+	db 34, SNOSEBLEED
+	db 39, HAUNTLET ; ice ghost 1
+	db 29, YUKITTEN
+	db 38, HAUNTLET ; ice ghost 1
+	db 46, SNOWUP
+	db 40, FLURIKEN
 	; nite
-	db 24, CADDISICLE
-	db 25, SNOSEBLEED
-	db 25, SNOSEBLEED
-	db 26, HAUNTLET ; ice ghost 1
-	db 22, YUKITTEN
-	db 24, HAUNTLET ; ice ghost 1
-	db 26, SNOWUP
-	db 28, SNOWUP
+	db 45, JADDICE
+	db 33, SNOSEBLEED
+	db 34, SNOSEBLEED
+	db 39, HAUNTLET ; ice ghost 1
+	db 29, YUKITTEN
+	db 38, HAUNTLET ; ice ghost 1
+	db 46, SNOWUP
+	db 40, FLURIKEN
 
 	map_id WHIRL_ISLAND_NW ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, TENDRILL
-	db 23, BOBBITE
-	db 22, BOBBITE
-	db 24, BISMUTT
-	db 25, PILFOARD
-	db 24, BISMUTT
-	db 24, NAVIGAZER
-	db 25, NAVIGAZER
+	db 37, TENDRILL
+	db 34, BOBBITE
+	db 34, BOBBITE
+	db 40, BISMUTT
+	db 35, PILFOARD
+	db 40, BISMUTT
+	db 40, NAVIGAZER
+	db 40, NAVIGAZER
 	; day
-	db 22, TENDRILL
-	db 23, BOBBITE
-	db 22, BOBBITE
-	db 24, BISMUTT
-	db 25, PILFOARD
-	db 24, BISMUTT
-	db 24, NAVIGAZER
-	db 25, NAVIGAZER
+	db 37, TENDRILL
+	db 34, BOBBITE
+	db 34, BOBBITE
+	db 40, BISMUTT
+	db 35, PILFOARD
+	db 40, BISMUTT
+	db 40, NAVIGAZER
+	db 40, NAVIGAZER
 	; nite
-	db 22, TENDRILL
-	db 23, BOBBITE
-	db 22, BOBBITE
-	db 24, BISMUTT
-	db 25, PILFOARD
-	db 24, BISMUTT
-	db 24, PILFOARD
-	db 25, PILFOARD
+	db 37, TENDRILL
+	db 34, BOBBITE
+	db 34, BOBBITE
+	db 40, BISMUTT
+	db 35, PILFOARD
+	db 40, BISMUTT
+	db 35, PILFOARD
+	db 35, PILFOARD
 
 	map_id WHIRL_ISLAND_NE ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, TENDRILL
-	db 23, BOBBITE
-	db 22, BOBBITE
-	db 24, BISMUTT
-	db 25, PILFOARD
-	db 24, BISMUTT
-	db 24, NAVIGAZER
-	db 25, NAVIGAZER
+	db 37, TENDRILL
+	db 34, BOBBITE
+	db 34, BOBBITE
+	db 40, BISMUTT
+	db 35, PILFOARD
+	db 40, BISMUTT
+	db 40, NAVIGAZER
+	db 40, NAVIGAZER
 	; day
-	db 22, TENDRILL
-	db 23, BOBBITE
-	db 22, BOBBITE
-	db 24, BISMUTT
-	db 25, PILFOARD
-	db 24, BISMUTT
-	db 24, NAVIGAZER
-	db 25, NAVIGAZER
+	db 37, TENDRILL
+	db 34, BOBBITE
+	db 34, BOBBITE
+	db 40, BISMUTT
+	db 35, PILFOARD
+	db 40, BISMUTT
+	db 40, NAVIGAZER
+	db 40, NAVIGAZER
 	; nite
-	db 22, TENDRILL
-	db 23, BOBBITE
-	db 22, BOBBITE
-	db 24, BISMUTT
-	db 25, PILFOARD
-	db 24, BISMUTT
-	db 24, PILFOARD
-	db 25, PILFOARD
+	db 37, TENDRILL
+	db 34, BOBBITE
+	db 34, BOBBITE
+	db 40, BISMUTT
+	db 35, PILFOARD
+	db 40, BISMUTT
+	db 35, PILFOARD
+	db 35, PILFOARD
 
 	map_id WHIRL_ISLAND_SW ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, TENDRILL
-	db 23, BOBBITE
-	db 22, BOBBITE
-	db 24, BISMUTT
-	db 25, PILFOARD
-	db 24, BISMUTT
-	db 24, NAVIGAZER
-	db 25, NAVIGAZER
+	db 37, TENDRILL
+	db 34, BOBBITE
+	db 34, BOBBITE
+	db 40, BISMUTT
+	db 35, PILFOARD
+	db 40, BISMUTT
+	db 40, NAVIGAZER
+	db 40, NAVIGAZER
 	; day
-	db 22, TENDRILL
-	db 23, BOBBITE
-	db 22, BOBBITE
-	db 24, BISMUTT
-	db 25, PILFOARD
-	db 24, BISMUTT
-	db 24, NAVIGAZER
-	db 25, NAVIGAZER
+	db 37, TENDRILL
+	db 34, BOBBITE
+	db 34, BOBBITE
+	db 40, BISMUTT
+	db 35, PILFOARD
+	db 40, BISMUTT
+	db 40, NAVIGAZER
+	db 40, NAVIGAZER
 	; nite
-	db 22, TENDRILL
-	db 23, BOBBITE
-	db 22, BOBBITE
-	db 24, BISMUTT
-	db 25, PILFOARD
-	db 24, BISMUTT
-	db 24, PILFOARD
-	db 25, PILFOARD
+	db 37, TENDRILL
+	db 34, BOBBITE
+	db 34, BOBBITE
+	db 40, BISMUTT
+	db 35, PILFOARD
+	db 40, BISMUTT
+	db 35, PILFOARD
+	db 35, PILFOARD
 
 	map_id WHIRL_ISLAND_CAVE ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, TENDRILL
-	db 23, BOBBITE
-	db 22, BOBBITE
-	db 24, BISMUTT
-	db 25, PILFOARD
-	db 24, BISMUTT
-	db 24, NAVIGAZER
-	db 25, NAVIGAZER
+	db 37, TENDRILL
+	db 35, BOBBITE
+	db 34, BOBBITE
+	db 42, BISMUTT
+	db 37, PILFOARD
+	db 42, BISMUTT
+	db 40, NAVIGAZER
+	db 40, NAVIGAZER
 	; day
-	db 22, TENDRILL
-	db 23, BOBBITE
-	db 22, BOBBITE
-	db 24, BISMUTT
-	db 25, PILFOARD
-	db 24, BISMUTT
-	db 24, NAVIGAZER
-	db 25, NAVIGAZER
+	db 37, TENDRILL
+	db 35, BOBBITE
+	db 34, BOBBITE
+	db 42, BISMUTT
+	db 37, PILFOARD
+	db 42, BISMUTT
+	db 40, NAVIGAZER
+	db 40, NAVIGAZER
 	; nite
-	db 22, TENDRILL
-	db 23, BOBBITE
-	db 22, BOBBITE
-	db 24, BISMUTT
-	db 25, PILFOARD
-	db 24, BISMUTT
-	db 24, PILFOARD
-	db 25, PILFOARD
+	db 37, TENDRILL
+	db 35, BOBBITE
+	db 34, BOBBITE
+	db 42, BISMUTT
+	db 37, PILFOARD
+	db 42, BISMUTT
+	db 35, PILFOARD
+	db 35, PILFOARD
 
 	map_id WHIRL_ISLAND_SE ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, TENDRILL
-	db 23, BOBBITE
-	db 22, BOBBITE
-	db 24, BISMUTT
-	db 25, PILFOARD
-	db 24, BISMUTT
-	db 24, NAVIGAZER
-	db 25, NAVIGAZER
+	db 37, TENDRILL
+	db 34, BOBBITE
+	db 34, BOBBITE
+	db 40, BISMUTT
+	db 35, PILFOARD
+	db 40, BISMUTT
+	db 40, NAVIGAZER
+	db 40, NAVIGAZER
 	; day
-	db 22, TENDRILL
-	db 23, BOBBITE
-	db 22, BOBBITE
-	db 24, BISMUTT
-	db 25, PILFOARD
-	db 24, BISMUTT
-	db 24, NAVIGAZER
-	db 25, NAVIGAZER
+	db 37, TENDRILL
+	db 34, BOBBITE
+	db 34, BOBBITE
+	db 40, BISMUTT
+	db 35, PILFOARD
+	db 40, BISMUTT
+	db 40, NAVIGAZER
+	db 40, NAVIGAZER
 	; nite
-	db 22, TENDRILL
-	db 23, BOBBITE
-	db 22, BOBBITE
-	db 24, BISMUTT
-	db 25, PILFOARD
-	db 24, BISMUTT
-	db 24, PILFOARD
-	db 25, PILFOARD
+	db 37, TENDRILL
+	db 34, BOBBITE
+	db 34, BOBBITE
+	db 40, BISMUTT
+	db 35, PILFOARD
+	db 40, BISMUTT
+	db 35, PILFOARD
+	db 35, PILFOARD
 
 	map_id WHIRL_ISLAND_B1F ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, TENDRILL
-	db 24, BOBBITE
-	db 23, BOBBITE
-	db 25, BISMUTT
-	db 26, PILFOARD
-	db 25, BISMUTT
-	db 25, NAVIGAZER
-	db 26, DRASSAL
+	db 38, TENDRILL
+	db 34, BOBBITE
+	db 35, BOBBITE
+	db 41, BISMUTT
+	db 38, PILFOARD
+	db 41, BISMUTT
+	db 41, NAVIGAZER
+	db 42, DRASSAL
 	; day
-	db 23, TENDRILL
-	db 24, BOBBITE
-	db 23, BOBBITE
-	db 25, BISMUTT
-	db 26, PILFOARD
-	db 25, BISMUTT
-	db 25, NAVIGAZER
-	db 26, DRASSAL
+	db 38, TENDRILL
+	db 34, BOBBITE
+	db 35, BOBBITE
+	db 41, BISMUTT
+	db 38, PILFOARD
+	db 41, BISMUTT
+	db 41, NAVIGAZER
+	db 42, DRASSAL
 	; nite
-	db 23, TENDRILL
-	db 24, BOBBITE
-	db 23, BOBBITE
-	db 25, BISMUTT
-	db 26, PILFOARD
-	db 25, BISMUTT
-	db 25, PILFOARD
-	db 26, DRASSAL
+	db 38, TENDRILL
+	db 34, BOBBITE
+	db 35, BOBBITE
+	db 42, BISMUTT
+	db 38, PILFOARD
+	db 41, BISMUTT
+	db 41, PILFOARD
+	db 42, DRASSAL
 
 	map_id WHIRL_ISLAND_B2F ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 24, TENDRILL
-	db 25, BOBBITE
-	db 24, BOBBITE
-	db 26, BISMUTT
-	db 27, PILFOARD
-	db 26, NAVIGAZER
-	db 26, DRASSAL
-	db 29, DRASSAL
+	db 38, TENDRILL
+	db 37, BOBBITE
+	db 35, BOBBITE
+	db 42, BISMUTT
+	db 40, PILFOARD
+	db 40, NAVIGAZER
+	db 42, DRASSAL
+	db 42, DRASSAL
 	; day
-	db 24, TENDRILL
-	db 25, BOBBITE
-	db 24, BOBBITE
-	db 26, BISMUTT
-	db 27, PILFOARD
-	db 26, NAVIGAZER
-	db 26, DRASSAL
-	db 29, DRASSAL
+	db 38, TENDRILL
+	db 37, BOBBITE
+	db 35, BOBBITE
+	db 42, BISMUTT
+	db 40, PILFOARD
+	db 40, NAVIGAZER
+	db 42, DRASSAL
+	db 42, DRASSAL
 	; nite
-	db 24, TENDRILL
-	db 25, BOBBITE
-	db 24, BOBBITE
-	db 26, BISMUTT
-	db 27, PILFOARD
-	db 26, BISMUTT
-	db 26, DRASSAL
-	db 29, DRASSAL
+	db 38, TENDRILL
+	db 37, BOBBITE
+	db 35, BOBBITE
+	db 42, BISMUTT
+	db 40, PILFOARD
+	db 42, BISMUTT
+	db 42, DRASSAL
+	db 42, DRASSAL
 
 	map_id WHIRL_ISLAND_LUGIA_CHAMBER ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 25, TENDRILL
-	db 26, BOBBITE
-	db 25, BOBBITE
-	db 27, BISMUTT
-	db 28, PILFOARD
-	db 27, DRASSAL
-	db 27, DRASSAL
-	db 29, DRASSAL
+	db 37, TENDRILL
+	db 37, BOBBITE
+	db 37, BOBBITE
+	db 42, BISMUTT
+	db 42, PILFOARD
+	db 42, DRASSAL
+	db 42, DRASSAL
+	db 45, DRASSAL
 	; day
-	db 25, TENDRILL
-	db 26, BOBBITE
-	db 25, BOBBITE
-	db 27, BISMUTT
-	db 28, PILFOARD
-	db 27, DRASSAL
-	db 27, DRASSAL
-	db 29, DRASSAL
+	db 37, TENDRILL
+	db 37, BOBBITE
+	db 37, BOBBITE
+	db 42, BISMUTT
+	db 42, PILFOARD
+	db 42, DRASSAL
+	db 42, DRASSAL
+	db 45, DRASSAL
 	; nite
-	db 25, TENDRILL
-	db 26, BOBBITE
-	db 25, BOBBITE
-	db 27, BISMUTT
-	db 28, PILFOARD
-	db 27, DRASSAL
-	db 27, DRASSAL
-	db 29, DRASSAL
+	db 37, TENDRILL
+	db 37, BOBBITE
+	db 37, BOBBITE
+	db 42, BISMUTT
+	db 42, PILFOARD
+	db 42, DRASSAL
+	db 42, DRASSAL
+	db 45, DRASSAL
 
 	map_id SILVER_CAVE_ROOM_1 ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -1297,32 +1297,32 @@ JohtoGrassWildMons:
 	map_id DARK_CAVE_BLACKTHORN_ENTRANCE
 	db 5 percent, 5 percent, 5 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, DOLMITE
-	db 23, STINPEON
-	db 25, DOLMESA
-	db 25, SMOTHERENE
-	db 20, DOLMESA
-	db 23, SCORPEROR
-	db 23, KODOROYAH
-	db 25, SMUCIOUS
+	db 20, DOLMITE
+	db 37, SCORPEROR
+	db 38, DOLMESA
+	db 36, SMUCIOUS
+	db 34, DOLMESA
+	db 37, SCORPEROR
+	db 36, KODOROYAH
+	db 36, SMUCIOUS
 	; day
-	db 23, DOLMITE
-	db 23, STINPEON
-	db 25, DOLMESA
-	db 25, SMOTHERENE
-	db 30, DOLMESA
-	db 23, SCORPEROR
-	db 23, SMUCIOUS
-	db 25, KODOROYAH
+	db 20, DOLMITE
+	db 37, STINPEON
+	db 38, DOLMESA
+	db 36, SMUCIOUS
+	db 34, DOLMESA
+	db 37, SCORPEROR
+	db 36, SMUCIOUS
+	db 36, KODOROYAH
 	; nite
-	db 23, DOLMITE
-	db 23, STINPEON
-	db 25, DOLMESA
-	db 20, RESPECTRE
-	db 25, DOLMESA
-	db 23, SCORPEROR
-	db 23, KODOROYAH
-	db 25, SMUCIOUS
+	db 20, DOLMITE
+	db 37, SCORPEROR
+	db 38, DOLMESA
+	db 36, SMUCIOUS
+	db 34, DOLMESA
+	db 37, SCORPEROR
+	db 36, KODOROYAH
+	db 36, SMUCIOUS
 
 	map_id ROUTE_29 ;done
 	db 11 percent, 11 percent, 11 percent ; encounter rates: morn/day/nite
@@ -1448,30 +1448,30 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 13, DOLMITE
-	db 12, QWAIL
+	db 14, QWAIL
 	db 12, NOMSTER
 	db 13, WANDELUS
 	db 12, QWAIL
 	db 12, WANDELUS
-	db 12, SHABBYCAT
+	db 14, SHABBYCAT
 	db 13, SHABBYCAT
 	; day
 	db 13, DOLMITE
-	db 12, QWAIL
+	db 14, QWAIL
 	db 13, NOMSTER
 	db 12, WANDELUS
 	db 12, QWAIL
 	db 13, WANDELUS
-	db 12, SHABBYCAT
+	db 14, SHABBYCAT
 	db 13, SHABBYCAT
 	; nite
 	db 13, DOLMITE
-	db 12, WANDELUS
+	db 14, WANDELUS
 	db 12, FLUFFRUIT
 	db 12, QWAIL
 	db 12, FLUFFRUIT
-	db 13, WANDELUS
-	db 12, SHABBYCAT
+	db 14, WANDELUS
+	db 15, SHABBYCAT
 	db 13, JUNOBE
 
 	map_id ROUTE_34 ;done
@@ -1509,25 +1509,25 @@ JohtoGrassWildMons:
 	; morn
 	db 15, AMBINNI
 	db 16, HAPPIG
-	db 15, SAPPURA
+	db 16, SAPPURA
 	db 17, HEXAHED
-	db 17, SAPPURA
+	db 18, SAPPURA
 	db 17, HEXAHED
 	db 16, ZASTER
 	db 17, NYALLEY
 	; day
 	db 15, AMBINNI
 	db 16, HAPPIG
-	db 15, SAPPURA
+	db 16, SAPPURA
 	db 17, HEXAHED
-	db 17, SAPPURA
+	db 18, SAPPURA
 	db 17, HEXAHED
 	db 16, ZASTER
 	db 17, NYALLEY
 	; nite
 	db 15, AMBINNI
 	db 16, HAPPIG
-	db 15, HEXAHED
+	db 16, HEXAHED
 	db 17, SAPPURA
 	db 17, HEXAHED
 	db 17, SAPPURA
@@ -1543,7 +1543,7 @@ JohtoGrassWildMons:
 	db 7, GOOSAPLING
 	db 7, NOMSTER
 	db 9, NOMSTER
-	db 8, GOOSAPLING
+	db 9, GOOSAPLING
 	db 9, BUZZLING
 	; day
 	db 7, HOATOT
@@ -1552,7 +1552,7 @@ JohtoGrassWildMons:
 	db 7, GOOSAPLING
 	db 7, NOMSTER
 	db 9, NOMSTER
-	db 8, GOOSAPLING
+	db 9, GOOSAPLING
 	db 9, BUZZLING
 	; nite
 	db 7, HOATOT
@@ -1561,7 +1561,7 @@ JohtoGrassWildMons:
 	db 7, NOMSTER
 	db 7, NOMSTER
 	db 9, FURNIT
-	db 8, GOOSAPLING
+	db 9, GOOSAPLING
 	db 9, JUNOBE
 
 	map_id ROUTE_37 ;done
@@ -1594,7 +1594,7 @@ JohtoGrassWildMons:
 	db 22, SWAZZAGE
 	db 20, PEAUTY
 
-	map_id ROUTE_38 ;done TODO left off here
+	map_id ROUTE_38 ;
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 30, SPRUNNY
@@ -1777,32 +1777,32 @@ JohtoGrassWildMons:
 	map_id ROUTE_45 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, DOLMESA
-	db 23, QWALLOP
-	db 24, WALLARRIOR		; Wallarrior
-	db 25, QWALLOP
-	db 20, WALLARRIOR		; Wallarrior
-	db 27, WALLARRIOR
-	db 27, YAGAGARASU		; Wallarrior
-	db 28, FALWODUR		; Snail 1
+	db 40, DOLMESA
+	db 41, QWALLOP
+	db 42, WALLARRIOR		; Wallarrior
+	db 40, QWALLOP
+	db 43, WALLARRIOR		; Wallarrior
+	db 40, WALLARRIOR
+	db 44, YAGAGARASU		; Wallarrior
+	db 36, FALWODUR		; Snail 1
 	; day
-	db 23, DOLMESA
-	db 23, QWALLOP
-	db 24, WALLARRIOR		; Wallarrior
-	db 25, QWALLOP
-	db 20, WALLARRIOR		; Wallarrior
-	db 27, WALLARRIOR
-	db 27, YAGAGARASU		; Wallarrior
-	db 28, FALWODUR
+	db 40, DOLMESA
+	db 41, QWALLOP
+	db 40, WALLARRIOR		; Wallarrior
+	db 42, QWALLOP
+	db 43, WALLARRIOR		; Wallarrior
+	db 40, WALLARRIOR
+	db 44, YAGAGARASU		; Wallarrior
+	db 36, FALWODUR
 	; nite
-	db 23, DOLMESA
-	db 23, QWALLOP
-	db 24, WALLARRIOR		; 
-	db 25, QWALLOP
-	db 20, WALLARRIOR		; 
-	db 27, YAGAGARASU
-	db 27, WALLARRIOR		; 
-	db 28, FALWODUR		
+	db 40, DOLMESA
+	db 41, QWALLOP
+	db 42, WALLARRIOR		; 
+	db 43, QWALLOP
+	db 44, WALLARRIOR		; 
+	db 45, YAGAGARASU
+	db 40, WALLARRIOR		; 
+	db 36, FALWODUR		
 
 	map_id ROUTE_46 ;done
 	db 10 percent, 10 percent, 11 percent ; encounter rates: morn/day/nite
@@ -1957,182 +1957,182 @@ JohtoGrassWildMons:
 	map_id DRAGONS_DEPTHS_1F
 	db 5 percent, 5 percent, 5 percent
 	; morn
-	db 40, FALWODUR ; dragon snail 1
-	db 40, TENDRILL
-	db 40, SHREDDRAKE 
-	db 40, FALWODUR ; dragon snail 1
+	db 45, FALWODUR ; dragon snail 1
+	db 44, TENDRILL
+	db 48, SHREDDRAKE 
+	db 45, FALWODUR ; dragon snail 1
 	db 40, KODOROYAH
  	db 40, SMUCIOUS
-	db 40, FALWODUR ; dragon snail 1
+	db 45, FALWODUR ; dragon snail 1
 	db 40, KODOROYAH
 	; day
-	db 40, FALWODUR ; dragon snail 1
-	db 40, TENDRILL
-	db 40, SHREDDRAKE 
-	db 40, FALWODUR ; dragon snail 1
+	db 45, FALWODUR ; dragon snail 1
+	db 44, TENDRILL
+	db 48, SHREDDRAKE 
+	db 45, FALWODUR ; dragon snail 1
 	db 40, KODOROYAH
  	db 40, SMUCIOUS
-	db 40, FALWODUR ; dragon snail 1
+	db 45, FALWODUR ; dragon snail 1
 	db 40, KODOROYAH
 	; nite
-	db 40, FALWODUR ; dragon snail 1
-	db 40, TENDRILL
-	db 40, SHREDDRAKE 
-	db 40, FALWODUR ; dragon snail 1
+	db 45, FALWODUR ; dragon snail 1
+	db 44, TENDRILL
+	db 48, SHREDDRAKE 
+	db 45, FALWODUR ; dragon snail 1
 	db 40, KODOROYAH
  	db 40, SMUCIOUS
-	db 40, FALWODUR ; dragon snail 1
+	db 45, FALWODUR ; dragon snail 1
 	db 40, KODOROYAH
 
 	map_id DRAGONS_DEPTHS_B1F
 	db 5 percent, 5 percent, 5 percent
 	; morn
-	db 40, FALWODUR ; dragon snail 1
-	db 40, TENDRILL
-	db 40, SHREDDRAKE 
-	db 40, FALWODUR ; dragon snail 1
+	db 45, FALWODUR ; dragon snail 1
+	db 45, TENDRILL
+	db 49, SHREDDRAKE 
+	db 45, FALWODUR ; dragon snail 1
 	db 40, SMUCIOUS
  	db 40, KODOROYAH
-	db 40, FALWODRAIG ; dragon snail 2
-	db 40, SHREDDRAKE
+	db 50, FALWODRAIG ; dragon snail 2
+	db 50, SHREDDRAKE
 	; day
-	db 40, FALWODUR ; dragon snail 1
-	db 40, TENDRILL
-	db 40, SHREDDRAKE 
-	db 40, FALWODUR ; dragon snail 1
+	db 45, FALWODUR ; dragon snail 1
+	db 45, TENDRILL
+	db 49, SHREDDRAKE 
+	db 45, FALWODUR ; dragon snail 1
 	db 40, SMUCIOUS
  	db 40, KODOROYAH
-	db 40, FALWODRAIG ; dragon snail 2
-	db 40, SHREDDRAKE
+	db 50, FALWODRAIG ; dragon snail 2
+	db 50, SHREDDRAKE
 	; nite
-	db 40, FALWODUR ; dragon snail 1
-	db 40, TENDRILL
-	db 40, SHREDDRAKE 
-	db 40, FALWODUR ; dragon snail 1
+	db 45, FALWODUR ; dragon snail 1
+	db 45, TENDRILL
+	db 49, SHREDDRAKE 
+	db 45, FALWODUR ; dragon snail 1
 	db 40, SMUCIOUS
  	db 40, KODOROYAH
-	db 40, FALWODRAIG ; dragon snail 2
-	db 40, SHREDDRAKE
+	db 50, FALWODRAIG ; dragon snail 2
+	db 50, SHREDDRAKE
 
 	map_id DRAGONS_DEPTHS_ITEM_ROOM
 	db 3 percent, 3 percent, 3 percent
 	; morn
-	db 40, FALWODUR ; dragon snail 1
-	db 40, TENDRILL
-	db 40, SHREDDRAKE 
-	db 40, FALWODUR ; dragon snail 1
+	db 44, FALWODUR ; dragon snail 1
+	db 44, TENDRILL
+	db 49, SHREDDRAKE 
+	db 44, FALWODUR ; dragon snail 1
 	db 40, SMUCIOUS
  	db 40, KODOROYAH
-	db 40, FALWODRAIG ; dragon snail 2
-	db 40, SHREDDRAKE
+	db 50, FALWODRAIG ; dragon snail 2
+	db 50, SHREDDRAKE
 	; day
-	db 40, FALWODUR ; dragon snail 1
-	db 40, TENDRILL
-	db 40, SHREDDRAKE 
-	db 40, FALWODUR ; dragon snail 1
+	db 44, FALWODUR ; dragon snail 1
+	db 44, TENDRILL
+	db 49, SHREDDRAKE 
+	db 44, FALWODUR ; dragon snail 1
 	db 40, SMUCIOUS
  	db 40, KODOROYAH
-	db 40, FALWODRAIG ; dragon snail 2
-	db 40, SHREDDRAKE
+	db 50, FALWODRAIG ; dragon snail 2
+	db 50, SHREDDRAKE
 	; nite
-	db 40, FALWODUR ; dragon snail 1
-	db 40, TENDRILL
-	db 40, SHREDDRAKE 
-	db 40, FALWODUR ; dragon snail 1
+	db 44, FALWODUR ; dragon snail 1
+	db 44, TENDRILL
+	db 49, SHREDDRAKE 
+	db 44, FALWODUR ; dragon snail 1
 	db 40, SMUCIOUS
  	db 40, KODOROYAH
-	db 40, FALWODRAIG ; dragon snail 2
-	db 40, SHREDDRAKE
+	db 50, FALWODRAIG ; dragon snail 2
+	db 50, SHREDDRAKE
 	
 	map_id DRAGONS_DEPTHS_B2F
 	db 5 percent, 5 percent, 5 percent
 	; morn
-	db 40, FALWODUR ; dragon snail 1
-	db 40, TENDRILL
-	db 40, SHREDDRAKE 
-	db 40, FALWODRAIG ; dragon snail 2
-	db 40, SMUCIOUS
- 	db 40, KODOROYAH
-	db 40, FALWODRAIG ; dragon snail 2
-	db 40, SHREDDRAKE
+	db 45, FALWODUR ; dragon snail 1
+	db 45, TENDRILL
+	db 49, SHREDDRAKE 
+	db 49, FALWODRAIG ; dragon snail 2
+	db 41, SMUCIOUS
+ 	db 41, KODOROYAH
+	db 50, FALWODRAIG ; dragon snail 2
+	db 51, SHREDDRAKE
 	; day
-	db 40, FALWODUR ; dragon snail 1
-	db 40, TENDRILL
-	db 40, SHREDDRAKE 
-	db 40, FALWODRAIG ; dragon snail 2
-	db 40, SMUCIOUS
- 	db 40, KODOROYAH
-	db 40, FALWODRAIG ; dragon snail 2
-	db 40, SHREDDRAKE
+	db 45, FALWODUR ; dragon snail 1
+	db 45, TENDRILL
+	db 49, SHREDDRAKE 
+	db 49, FALWODRAIG ; dragon snail 2
+	db 41, SMUCIOUS
+ 	db 41, KODOROYAH
+	db 50, FALWODRAIG ; dragon snail 2
+	db 51, SHREDDRAKE
 	; nite
-	db 40, FALWODUR ; dragon snail 1
-	db 40, TENDRILL
-	db 40, SHREDDRAKE 
-	db 40, FALWODRAIG ; dragon snail 2
-	db 40, SMUCIOUS
- 	db 40, KODOROYAH
-	db 40, FALWODRAIG ; dragon snail 2
-	db 40, SHREDDRAKE
+	db 45, FALWODUR ; dragon snail 1
+	db 45, TENDRILL
+	db 49, SHREDDRAKE 
+	db 49, FALWODRAIG ; dragon snail 2
+	db 41, SMUCIOUS
+ 	db 41, KODOROYAH
+	db 50, FALWODRAIG ; dragon snail 2
+	db 51, SHREDDRAKE
 
 	map_id DRAGONS_DEPTHS_B3F
 	db 2 percent, 3 percent, 2 percent
 	; morn
-	db 40, FALWODUR ; dragon snail 1
-	db 40, SHREDDRAKE
-	db 40, KODOROYAH 
-	db 40, FALWODRAIG ; dragon snail 2
-	db 40, SMUCIOUS
- 	db 40, KODOROYAH
-	db 40, FALWODRAIG ; dragon snail 2
-	db 40, SHREDDRAKE
+	db 45, FALWODUR ; dragon snail 1
+	db 49, SHREDDRAKE
+	db 41, KODOROYAH 
+	db 50, FALWODRAIG ; dragon snail 2
+	db 41, SMUCIOUS
+ 	db 41, KODOROYAH
+	db 51, FALWODRAIG ; dragon snail 2
+	db 49, SHREDDRAKE
 	; day
-	db 40, FALWODUR ; dragon snail 1
-	db 40, SHREDDRAKE
-	db 40, KODOROYAH 
-	db 40, FALWODRAIG ; dragon snail 2
-	db 40, SMUCIOUS
- 	db 40, KODOROYAH
-	db 40, FALWODRAIG ; dragon snail 2
-	db 40, SHREDDRAKE
+	db 45, FALWODUR ; dragon snail 1
+	db 49, SHREDDRAKE
+	db 41, KODOROYAH 
+	db 50, FALWODRAIG ; dragon snail 2
+	db 41, SMUCIOUS
+ 	db 41, KODOROYAH
+	db 51, FALWODRAIG ; dragon snail 2
+	db 49, SHREDDRAKE
 	; nite
-	db 40, FALWODUR ; dragon snail 1
-	db 40, SHREDDRAKE
-	db 40, KODOROYAH 
-	db 40, FALWODRAIG ; dragon snail 2
-	db 40, SMUCIOUS
- 	db 40, KODOROYAH
-	db 40, FALWODRAIG ; dragon snail 2
-	db 40, SHREDDRAKE
+	db 45, FALWODUR ; dragon snail 1
+	db 49, SHREDDRAKE
+	db 41, KODOROYAH 
+	db 50, FALWODRAIG ; dragon snail 2
+	db 41, SMUCIOUS
+ 	db 41, KODOROYAH
+	db 51, FALWODRAIG ; dragon snail 2
+	db 49, SHREDDRAKE
 	
 	map_id ROUTE_45_PASSAGE
 	db 9 percent, 9 percent, 9 percent
 	; morn
-	db 23, DOLMESA
-	db 23, QWALLOP
-	db 24, WALLARRIOR		; Wallarrior
-	db 25, HABBLE
-	db 20, YAGAGARASU		; Wallarrior
-	db 27, YAGAGARASU
-	db 27, WALLARRIOR		; Wallarrior
-	db 28, FALWODUR		; Snail 1
+	db 41, DOLMESA
+	db 42, QWALLOP
+	db 43, WALLARRIOR		; Wallarrior
+	db 40, HABBLE
+	db 44, YAGAGARASU		; Wallarrior
+	db 45, YAGAGARASU
+	db 42, WALLARRIOR		; Wallarrior
+	db 40, FALWODUR		; Snail 1
 	; day
-	db 23, DOLMESA
-	db 23, QWALLOP
-	db 24, WALLARRIOR		; Wallarrior
-	db 25, HABBLE
-	db 20, YAGAGARASU		; Wallarrior
-	db 27, YAGAGARASU
-	db 27, WALLARRIOR		; Wallarrior
-	db 28, YAGAGARASU
+	db 41, DOLMESA
+	db 42, QWALLOP
+	db 43, WALLARRIOR		; Wallarrior
+	db 40, HABBLE
+	db 44, YAGAGARASU		; Wallarrior
+	db 45, YAGAGARASU
+	db 41, WALLARRIOR		; Wallarrior
+	db 46, YAGAGARASU
 	; nite
-	db 23, DOLMESA
-	db 23, QWALLOP
-	db 24, WALLARRIOR		; 
-	db 25, HABBLE
-	db 20, YAGAGARASU		; 
-	db 27, YAGAGARASU
-	db 27, VOYAPOD		; 
-	db 28, VOYAPOD		
+	db 41, DOLMESA
+	db 42, QWALLOP
+	db 43, WALLARRIOR		; 
+	db 40, HABBLE
+	db 44, YAGAGARASU		; 
+	db 45, YAGAGARASU
+	db 41, VOYAPOD		; 
+	db 41, VOYAPOD		
 	
 	map_id ANDROMEGA_2F
 	db 2 percent, 2 percent, 3 percent

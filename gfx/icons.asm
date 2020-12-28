@@ -111,6 +111,7 @@ BowlideIcon:	  INCBIN "gfx/icons/bowlide.2bpp"
 PardnerIcon:	  INCBIN "gfx/icons/pardner.2bpp"
 NoomsdayIcon:     INCBIN "gfx/icons/noomsday.2bpp"
 GanzorahIcon:     INCBIN "gfx/icons/ganzorah.2bpp"
+NikujiraIcon:	  INCBIN "gfx/icons/nikujira.2bpp"
 
 SECTION "Mon Icons 2", ROMX
 

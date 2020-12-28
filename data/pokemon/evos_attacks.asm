@@ -2209,17 +2209,39 @@ WallarriorEvosAttacks:
 	db 0 ; no more level-up moves
 
 FalwodurEvosAttacks: ;TODO finish this
+	db EVOLVE_LEVEL, 48, FALWODRAIG
 	db 0 ; no more evolutions
 	db 1, HARDEN
 	db 1, ACID
+	db 11, EMBER
 	db 20, DEFENSE_CURL
-	db 24, SPIKE_CANNON
+	db 24, SPIKES
+	db 30, SPIKE_CANNON
+	db 35, BODY_SLAM
+	db 41, MEGA_DRAIN
+	db 46, FLASH_CANNON
+	db 50, BARRIER
+	db 56, RECOVER
+	db 60, DRAGONBREATH
+	db 65, DRAGON_DANCE
 	db 0 ; no more level-up moves
 
 FalwodraigEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, HARDEN
 	db 1, ACID
+	db 11, EMBER
+	db 20, DEFENSE_CURL
+	db 24, SPIKES
+	db 30, SPIKE_CANNON
+	db 35, BODY_SLAM
+	db 41, MEGA_DRAIN
+	db 46, FLASH_CANNON
+	db 47, DRAGONBREATH
+	db 51, BARRIER
+	db 59, RECOVER
+	db 62, EARTH_POWER
+	db 70, DRAGON_DANCE
 	db 0 ; no more level-up moves
 
 MandelblobEvosAttacks:
@@ -2510,7 +2532,23 @@ Ma_0EvosAttacks:
 
 IlluxuryEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POUND
+    db 1, MOONLIGHT ;relearner-only healing move
+    db 1, BITE ;early game spam move
+    db 7, CHARM ;six, thematic move
+    db 13, LICK ;six, stab
+    db 19, MEAN_LOOK ;six, trapping move
+    db 26, FURY_CUTTER ;7, stab 2
+    db 26, FORESIGHT ;0, japanese name is "thought read" and further helps prevent opponents from running away (via evasion or being normal type). maybe replace this with disable?
+    db 35, DESTINY_BOND ;9, scary move
+    db 44, LEECH_LIFE ;9, earliest available slot for a vampirish move that will be in the encounter moveset
+    db 48, SUPER_FANG ;4, mostly just a tool to make illuxury scary
+    db 55, SHADOW_BALL ;7, stab
+    db 55, CALM_MIND ;0, setup
+    db 61, PURSUIT ;6, stops opponents from getting away
+    db 61, CURSE ;0, the current highest known score in Touhou 6 EOSD, featuring Remilia Scarlet. chose curse for this slot because it's the most vampire-y move available that isn't leech life i think?
+    db 67, SWORDS_DANCE ;six, alternative setup move for leech life (but she doesn't get shadow claw so how useful actually is this?)
+    db 73, PERISH_SONG ;six, scary soul-binding move like destiny bond
+    db 79, MOONBLAST ;six, final level up movepool is free coverage, also bookends the level up moves nicely with moonlight on both sides
 	db 0 ; no more level-up moves
 
 CigerillarEvosAttacks:
@@ -3786,7 +3824,7 @@ SidficiousEvosAttacks:
 	db 60, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-SalaritoEvosAttacks:
+SalaritoEvosAttacks: ; TODO 
 	db 0 ; no more evolutions
 	db 1, PRESENT
 	db 0 ; no more level-up moves

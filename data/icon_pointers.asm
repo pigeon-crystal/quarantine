@@ -111,6 +111,7 @@ IconPointers:
 	dw PardnerIcon
 	dw NoomsdayIcon
 	dw GanzorahIcon
+	dw NikujiraIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon

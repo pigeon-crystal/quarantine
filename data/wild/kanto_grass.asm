@@ -155,32 +155,32 @@ KantoGrassWildMons:
 	map_id TOHJO_FALLS ;done
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, NOMSABRE
-	db 22, OSCURASA
-	db 24, TENDRILL
-	db 21, SNOSEBLEED
-	db 20, TENDRILL
+	db 29, NOMSABRE
+	db 25, OSCURASA
+	db 29, TENDRILL
+	db 20, SNOSEBLEED
+	db 29, TENDRILL
 	db 23, SNOSEBLEED
 	db 23, SNOSEBLEED
-	db 25, TENDRILL
+	db 29, TENDRILL
 	; day
-	db 22, NOMSABRE
-	db 22, OSCURASA
-	db 24, TENDRILL
-	db 21, SNOSEBLEED
-	db 20, TENDRILL
+	db 29, NOMSABRE
+	db 25, OSCURASA
+	db 29, TENDRILL
+	db 20, SNOSEBLEED
+	db 29, TENDRILL
 	db 23, SNOSEBLEED
 	db 23, SNOSEBLEED
-	db 25, TENDRILL
+	db 29, TENDRILL
 	; nite
-	db 22, NOMSABRE
-	db 22, OSCURASA
-	db 24, TENDRILL
-	db 21, SNOSEBLEED
-	db 20, TENDRILL
+	db 29, NOMSABRE
+	db 25, OSCURASA
+	db 29, TENDRILL
+	db 20, SNOSEBLEED
+	db 29, TENDRILL
 	db 23, SNOSEBLEED
 	db 23, SNOSEBLEED
-	db 25, TENDRILL
+	db 29, TENDRILL
 
 	map_id ROUTE_1 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -815,62 +815,62 @@ KantoGrassWildMons:
 	map_id ROUTE_26 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 28, QWALLOP
-	db 28, HOATOXIC
-	db 30, BLASPHERMY
-	db 30, WORMACHO
-	db 32, YAGAGARASU
-	db 30, YAGAGARASU
-	db 30, WELLWITCH ; standin for Wellwitchsia
-	db 40, WELLWITCH ; standin for Wellwitchsia
+	db 46, QWALLOP
+	db 47, NOXROMAEUS
+	db 48, BLASPHERMY
+	db 47, WORMACHO
+	db 48, YAGAGARASU
+	db 48, YAGAGARASU
+	db 47, WELLWITCH ; standin for Wellwitchsia
+	db 49, WELLWITCH ; standin for Wellwitchsia
 	; day
-	db 28, QWALLOP
-	db 28, HOATOXIC
-	db 30, BLASPHERMY
-	db 30, WORMACHO
-	db 32, YAGAGARASU
-	db 30, YAGAGARASU
-	db 30, WELLWITCH ; standin for Wellwitchsia
-	db 40, WELLWITCH ; standin for Wellwitchsia
+	db 46, QWALLOP
+	db 47, NOXROMAEUS
+	db 48, BLASPHERMY
+	db 47, WORMACHO
+	db 48, YAGAGARASU
+	db 48, YAGAGARASU
+	db 47, WELLWITCH ; standin for Wellwitchsia
+	db 49, WELLWITCH ; standin for Wellwitchsia
 	; nite
-	db 28, QWALLOP
-	db 28, HOATOXIC
-	db 30, BLASPHERMY
-	db 30, WORMACHO
-	db 32, YAGAGARASU
-	db 30, YAGAGARASU
-	db 30, WELLWITCH ; standin for Wellwitchsia
-	db 40, WELLWITCH ; standin for Wellwitchsia
+	db 46, QWALLOP
+	db 47, NOXROMAEUS
+	db 48, BLASPHERMY
+	db 47, WORMACHO
+	db 48, YAGAGARASU
+	db 48, YAGAGARASU
+	db 47, WELLWITCH ; standin for Wellwitchsia
+	db 49, WELLWITCH ; standin for Wellwitchsia
 
 	map_id ROUTE_27 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 28, QWALLOP
-	db 28, HORNAMPA
-	db 30, HOATOXIC
-	db 30, WORMACHO
-	db 32, HOATOXIC
-	db 30, WELLWITCH ; standin for Wellwitchsia
-	db 30, WELLWITCH ; standin for Wellwitchsia
-	db 40, WELLWITCH ; standin for Wellwitchsia
+	db 44, QWALLOP
+	db 46, HORNAMPA
+	db 45, NOXROMAEUS
+	db 45, WORMACHO
+	db 48, NOXROMAEUS
+	db 48, WELLWITCH ; standin for Wellwitchsia
+	db 47, WELLWITCH ; standin for Wellwitchsia
+	db 47, WELLWITCH ; standin for Wellwitchsia
 	; day
-	db 28, QWALLOP
-	db 28, HORNAMPA
-	db 30, HOATOXIC
-	db 30, WORMACHO
-	db 32, HOATOXIC
-	db 30, WELLWITCH ; standin for Wellwitchsia
-	db 30, WELLWITCH ; standin for Wellwitchsia
-	db 40, WELLWITCH ; standin for Wellwitchsia
+	db 44, QWALLOP
+	db 46, HORNAMPA
+	db 45, NOXROMAEUS
+	db 45, WORMACHO
+	db 48, NOXROMAEUS
+	db 48, WELLWITCH ; standin for Wellwitchsia
+	db 47, WELLWITCH ; standin for Wellwitchsia
+	db 47, WELLWITCH ; standin for Wellwitchsia
 	; nite
-	db 28, QWALLOP
-	db 28, HORNAMPA
-	db 30, HOATOXIC
-	db 30, WORMACHO
-	db 32, HOATOXIC
-	db 30, WELLWITCH ; standin for Wellwitchsia
-	db 30, WELLWITCH ; standin for Wellwitchsia
-	db 40, WELLWITCH ; standin for Wellwitchsia	
+	db 44, QWALLOP
+	db 46, HORNAMPA
+	db 45, NOXROMAEUS
+	db 45, WORMACHO
+	db 48, NOXROMAEUS
+	db 48, WELLWITCH ; standin for Wellwitchsia
+	db 47, WELLWITCH ; standin for Wellwitchsia
+	db 47, WELLWITCH ; standin for Wellwitchsia
 
 	map_id ROUTE_28 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -901,5 +901,96 @@ KantoGrassWildMons:
 	db 42, NYALLEY
 	db 42, NYALLEY
 	db 42, NYALLEY
+	
+	map_id VICTORY_ROAD_NEW
+	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
+	; morn
+	db 46, MADRUGASA
+	db 48, SCORPEROR
+	db 47, MORADAY
+	db 45, TENDRILL
+	db 46, ALIGRO
+	db 48, EYECHOSIS
+	db 49, EYECHOSIS
+	db 50, CALARMOURI
+	; day
+	db 46, MADRUGASA
+	db 48, SCORPEROR
+	db 47, MORADAY
+	db 45, TENDRILL
+	db 46, ALIGRO
+	db 48, EYECHOSIS
+	db 49, EYECHOSIS
+	db 50, CALARMOURI
+	; nite
+	db 46, MADRUGASA
+	db 48, SCORPEROR
+	db 47, MORADAY
+	db 45, TENDRILL
+	db 46, ALIGRO
+	db 48, EYECHOSIS
+	db 49, EYECHOSIS
+	db 50, CALARMOURI
+	
+	map_id VICTORY_ROAD_SIDE_WATER
+	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
+	; morn
+	; morn
+	db 46, MADRUGASA
+	db 48, SCORPEROR
+	db 47, MORADAY
+	db 45, TENDRILL
+	db 46, ALIGRO
+	db 48, EYECHOSIS
+	db 49, EYECHOSIS
+	db 50, CALARMOURI
+	; day
+	db 46, MADRUGASA
+	db 48, SCORPEROR
+	db 47, MORADAY
+	db 45, TENDRILL
+	db 46, ALIGRO
+	db 48, EYECHOSIS
+	db 49, EYECHOSIS
+	db 50, CALARMOURI
+	; nite
+	db 46, MADRUGASA
+	db 48, SCORPEROR
+	db 47, MORADAY
+	db 45, TENDRILL
+	db 46, ALIGRO
+	db 48, EYECHOSIS
+	db 49, EYECHOSIS
+	db 50, CALARMOURI
+	
+	map_id VICTORY_ROAD_SIDE_CAVE
+	db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
+	; morn
+	db 34, NOMSTER
+	db 32, NOMSTER
+	db 33, NOMSTER
+	db 34, NOMSTER
+	db 35, NOMSTER
+	db 35, NOMSTER
+	db 35, NOMSTER
+	db 60, NOMSABRE
+	; day
+	db 34, NOMSTER
+	db 32, NOMSTER
+	db 33, NOMSTER
+	db 34, NOMSTER
+	db 35, NOMSTER
+	db 35, NOMSTER
+	db 35, NOMSTER
+	db 60, NOMSABRE
+	; nite
+	db 34, NOMSTER
+	db 32, NOMSTER
+	db 33, NOMSTER
+	db 34, NOMSTER
+	db 35, NOMSTER
+	db 35, NOMSTER
+	db 35, NOMSTER
+	db 60, NOMSABRE
 
 	db -1 ; end

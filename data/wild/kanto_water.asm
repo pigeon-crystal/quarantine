@@ -103,17 +103,17 @@ KantoWaterWildMons:
 
 	map_id ROUTE_26
 	db 6 percent ; encounter rate
-	db 30, SQWUCKY
-	db 25, SHRIMPANZI
-	db 30, SWIMIAN
-	db 35, STRANGLURE
+	db 46, SQWUCKY
+	db 47, SHRIMPANZI
+	db 48, SWIMIAN
+	db 50, STRANGLURE
 
 	map_id ROUTE_27
 	db 6 percent ; encounter rate
-	db 20, PRAWMATE
-	db 15, PRAWMATE
-	db 20, STRANGLURE
-	db 25, SQWUCKY
+	db 47, PRAWMATE
+	db 46, PRAWMATE
+	db 45, STRANGLURE
+	db 50, SQWUCKY
 
 	map_id ROUTE_28
 	db 2 percent ; encounter rate
@@ -170,5 +170,12 @@ KantoWaterWildMons:
 	db 30, SLISCES
 	db 35, DREADGE
 	db 40, MISSINGNO
+	
+	map_id VICTORY_ROAD_NEW
+	db 5 percent
+	db 45, MADRUGASA
+	db 48, STIKLBRAT
+	db 30, CHERNOMUSK
+	db 48, PEPOFFER
 
 	db -1 ; end

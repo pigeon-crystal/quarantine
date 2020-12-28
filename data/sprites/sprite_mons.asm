@@ -58,4 +58,5 @@ SpriteMons:
 	db EYECHOSIS
 	db ANDROMEGA
 	db BUDGANEER
+	db NIKUJIRA
 	
