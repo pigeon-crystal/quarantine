@@ -729,6 +729,7 @@ KRIS EQU __enum__
 	
 	trainerclass ATHLETE_M ; 49
 	const BENJAMIN_2
+	const DOC
 	
 	trainerclass FANATIC_RED ; 4a
 	const YAMATO_TRAINER

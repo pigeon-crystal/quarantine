@@ -276,7 +276,7 @@ RuinsOfAlphResearchCenterPrinter:
 	scall FossilMachineItsAMonScript
 	setval HALLOALLO
 	special GameCornerPrizeMonCheckDex
-	givepoke HALLOALLO, 39
+	givepoke HALLOALLO, 35
 	takeitem ANCIENT_FANG
 	sjump FossilMachineEndTransaction
 	

@@ -4201,6 +4201,13 @@ AthleteMGroup:
 	db 30, NIMBOREM, BERRY
 	db 30, SCRUFFRUIT, SCOPE_LENS
 	db -1
+	
+; Athlete M (2) Route 40
+	db "DOC@", TRAINERTYPE_ITEM
+	db 35, ATTACKO, SCOPE_LENS
+	db 35, CRUSTAZER, NO_ITEM
+	db 34, BUDGANEER, NO_ITEM
+	db -1
 
 FanaticRedGroup:
 ; FANATIC_RED (1) Cianwood Dunes
