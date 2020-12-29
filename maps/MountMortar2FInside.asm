@@ -36,7 +36,7 @@ MountMortar2FInsideDragonScale:
 	itemball DRAGON_SCALE
 
 MountMortar2FInsideElixer:
-	itemball ELIXER
+	itemball FIRE_STONE
 
 MountMortar2FInsideEscapeRope:
 	itemball ESCAPE_ROPE
@@ -55,13 +55,7 @@ SupernerdHughBeatenText:
 SupernerdHughAfterBattleText:
 	text "I'm investigating"
 	line "MT.MORTAR, but my"
-	cont "pal's gone AWOL."
-
-	para "Have you seen a"
-	line "trainer who has a"
-
-	para "SLOWPOKE that can"
-	line "use STRENGTH?"
+	cont "pal's gone AWOL." ; TODO something about his buddy
 	done
 
 MountMortar2FInside_MapEvents:

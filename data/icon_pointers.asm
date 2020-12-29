@@ -223,4 +223,6 @@ IconPointers:
 	dw TyrdragaIcon
 	dw AerfaedraIcon
 	dw GigasynapaIcon
+	dw CerkitaysaIcon
+	
 	

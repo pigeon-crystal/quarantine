@@ -9,13 +9,13 @@ WhirlIslandB2F_MapScripts:
 	db 0 ; callbacks
 
 WhirlIslandB2FFullRestore:
-	itemball FULL_RESTORE
+	itemball LEAF_STONE
 
 WhirlIslandB2FMaxRevive:
-	itemball MAX_REVIVE
+	itemball WATER_STONE
 
 WhirlIslandB2FMaxElixer:
-	itemball MAX_ELIXER
+	itemball FIRE_STONE
 
 WhirlIslandB2F_MapEvents:
 	db 0, 0 ; filler

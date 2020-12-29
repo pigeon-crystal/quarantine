@@ -128,7 +128,7 @@ PryceGroup:
 JasmineGroup:
 	; JASMINE (1)
 	db "JASMINE@", TRAINERTYPE_NICKNAME | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
-	db 42, TENDRILL
+	db 41, TENDRILL
 		db "TENDRILL@"
 		dw $81ac, $7a8b, $90ac, $faac, $d0ac
 		db GOLD_BERRY
@@ -143,7 +143,7 @@ JasmineGroup:
 		dw $7aac, $6aac, $7aac, $6aac, $6aac
 		db PRZCUREBERRY
 		db IRON_TAIL, LIQUIDATION, BITE, ROCK_SMASH
-	db 41, NAVIGAZER
+	db 42, NAVIGAZER
 		db "NAVII@"
 		dw $9aac, $6bac, $70ac, $fa0c, $810c
 		db MINT_BERRY
@@ -153,10 +153,10 @@ JasmineGroup:
 ChuckGroup:
 	; CHUCK (1) 
 	db "CHUCK@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
-	db 38, WORMACHO
-		dw $7aac, $e1ac, $fbac, $6aac, $0aac
-		db BRIGHTPOWDER
-		db BODY_SLAM, DYNAMICPUNCH, DIG, COMET_PUNCH
+	db 38, DODRIO
+		dw $7aac, $e1ac, $fbac, $6aac, $5aac
+		db MIRACLE_SEED
+		db BULLET_SEED, DYNAMICPUNCH, SURF, SHARPEN
 	db 38, SCORPEROR
 		dw $7aac, $6aac, $7aac, $6aac, $6aac
 		db NO_ITEM
@@ -186,9 +186,9 @@ ClairGroup:
 		dw $7bac, $91ac, $8bac, $9afc, $9aac
 		db PRZCUREBERRY
 		db DRAGONBREATH, FLASH_CANNON, ACID, REFLECT
-	db 51, TYRDRAGA
+	db 52, TYRDRAGA
 		dw $8bac, $f1ac, $8bac, $aeff, PERFECT_STAT_EXP
-		db GOLD_BERRY
+		db MIRACLEBERRY
 		db FIRE_PUNCH, DRAGONBREATH, GLARE, STOMP
 	db -1 ; end
 

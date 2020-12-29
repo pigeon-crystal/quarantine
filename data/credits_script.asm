@@ -18,55 +18,55 @@ CreditsScript:
 ; Update the banner.
 	db CREDITS_SCENE, 0 ; Pichu
 
-	db             DIRECTOR, 1
-	db       SATOSHI_TAJIRI, 2
+	db             DIRECTOR, 1 ; artist/director
+	db       SATOSHI_TAJIRI, 2 ; daz
 
 	db CREDITS_WAIT, 12
 
-	db           CODIRECTOR, 1
-	db       JUNICHI_MASUDA, 2
+	db           CODIRECTOR, 1 ; developer
+	db       JUNICHI_MASUDA, 2 ; qdexanon 
 
 	db CREDITS_WAIT, 12
 
-	db          PROGRAMMERS, 0
-	db       SOUSUKE_TAMADA, 1
-	db       HISASHI_SOGABE, 2
-	db         KEITA_KAGAYA, 3
-	db    YOSHINORI_MATSUDA, 4
+	db          PROGRAMMERS, 0  ; guest artist
+	db       SOUSUKE_TAMADA, 1  ; & trainer sprites
+	db       HISASHI_SOGABE, 2  ; varmintz
+	db         KEITA_KAGAYA, 3  ; composer
+	db    YOSHINORI_MATSUDA, 4  ; toothpaste
 
 	db CREDITS_WAIT, 12
 
-	db          PROGRAMMERS, 0
-	db     SHIGEKI_MORIMOTO, 1
-	db     TETSUYA_WATANABE, 2
-	db        TAKENORI_OOTA, 3
+	db          PROGRAMMERS, 0 ; guest artist
+	db     SHIGEKI_MORIMOTO, 1 ; and icons
+	db     TETSUYA_WATANABE, 2 ; TC
+	db        TAKENORI_OOTA, 3 ; anonymous
 
 	db CREDITS_WAIT, 12
 
-	db    GRAPHICS_DIRECTOR, 1
-	db         KEN_SUGIMORI, 2
+	db    GRAPHICS_DIRECTOR, 1 ; Cries
+	db         KEN_SUGIMORI, 2 ; gojee
 
 	db CREDITS_WAIT, 12
 
-	db       MONSTER_DESIGN, 0
-	db         KEN_SUGIMORI, 1
-	db    MOTOFUMI_FUJIWARA, 2
-	db     SHIGEKI_MORIMOTO, 3
-	db     HIRONOBU_YOSHIDA, 4
-	db         SATOSHI_OOTA, 5
+	db       MONSTER_DESIGN, 0 ; Guest designers
+	db       HISASHI_SOGABE, 1 ; varmintz
+	db    MOTOFUMI_FUJIWARA, 2 ; raptor
+	db       ATSUKO_NISHIDA, 3 ; beatrix cromwell
+	db    	   KEN_SUGIMORI, 4 ; gojee
+	db        TAKENORI_OOTA, 5 ; anonymous
 
 	db CREDITS_WAIT, 12
 
-	db       MONSTER_DESIGN, 0
-	db       ATSUKO_NISHIDA, 1
-	db          MUNEO_SAITO, 2
-	db       RENA_YOSHIKAWA, 3
+	db       MUNEO_SAITO, 0    ; ASM Help
+	db       RENA_YOSHIKAWA, 1 ; Coral, pfero
+	db          JUN_OKUTANI, 2 ; Sourapple, electro
+	db       HIRONOBU_YOSHIDA, 3 ; rangi, seatree
 
 	db CREDITS_WAIT, 12
 
-	db    POKEMON_ANIMATION, 1
-	db     HIRONOBU_YOSHIDA, 2
-	db          JUN_OKUTANI, 3
+	db    POKEMON_ANIMATION, 1 ; backsprites
+	db       HISASHI_SOGABE, 2 ; varmintz
+	db       ASUKA_IWASHITA, 3 ; scarlax
 
 	db CREDITS_WAIT, 12
 
@@ -78,7 +78,7 @@ CreditsScript:
 ; Update the banner.
 	db CREDITS_SCENE, 1 ; Smoochum
 
-	db      GRAPHICS_DESIGN, 0
+	db      GRAPHICS_DESIGN, 0 ; 
 	db     HIRONOBU_YOSHIDA, 1
 	db          JUN_OKUTANI, 2
 	db       ASUKA_IWASHITA, 3

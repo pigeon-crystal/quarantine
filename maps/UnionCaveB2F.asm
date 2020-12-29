@@ -72,7 +72,7 @@ UnionCaveB2FElixer:
 	itemball ELIXER
 
 UnionCaveB2FHyperPotion:
-	itemball HYPER_POTION
+	itemball THUNDERSTONE
 
 CooltrainermNickSeenText:
 	text "There are two"

@@ -223,6 +223,7 @@
 	const ICON_TYRDRAGA
 	const ICON_AERFAEDRA
 	const ICON_GIGASYNAPA
+	const ICON_CERKITAYSA
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

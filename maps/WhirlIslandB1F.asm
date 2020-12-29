@@ -21,7 +21,7 @@ WhirlIslandB1FCalcium:
 	itemball CALCIUM
 
 WhirlIslandB1FNugget:
-	itemball NUGGET
+	itemball THUNDERSTONE
 
 WhirlIslandB1FEscapeRope:
 	itemball ESCAPE_ROPE
@@ -33,7 +33,7 @@ WhirlIslandB1FHiddenRareCandy:
 	hiddenitem RARE_CANDY, EVENT_WHIRL_ISLAND_B1F_HIDDEN_RARE_CANDY
 
 WhirlIslandB1FHiddenUltraBall:
-	hiddenitem ULTRA_BALL, EVENT_WHIRL_ISLAND_B1F_HIDDEN_ULTRA_BALL
+	hiddenitem NUGGET, EVENT_WHIRL_ISLAND_B1F_HIDDEN_ULTRA_BALL
 
 WhirlIslandB1FHiddenFullRestore:
 	hiddenitem FULL_RESTORE, EVENT_WHIRL_ISLAND_B1F_HIDDEN_FULL_RESTORE

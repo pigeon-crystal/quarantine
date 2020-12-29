@@ -226,3 +226,5 @@ KitsynaIcon:	  INCBIN "gfx/icons/kitsyna.2bpp"
 TyrdragaIcon:	  INCBIN "gfx/icons/tyrdraga.2bpp"
 AerfaedraIcon:	  INCBIN "gfx/icons/aerfaedra.2bpp"
 GigasynapaIcon:	  INCBIN "gfx/icons/gigasynapa.2bpp"
+CerkitaysaIcon:	  INCBIN "gfx/icons/cerkitaysa.2bpp"
+
