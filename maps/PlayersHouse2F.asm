@@ -55,6 +55,7 @@ PlayersHouseRadioScript:
 	givepoke MEOWTAIN, 100
 	givepoke DONUKAME, 100
 	givepoke SQUEENIE, 100
+	givepoke HAUNTLET, 45
 	setflag ENGINE_ZEPHYRBADGE
 	setflag ENGINE_HIVEBADGE
 	setflag ENGINE_FOGBADGE
@@ -83,7 +84,7 @@ PlayersHouseRadioScript:
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
 	giveitem MAX_REPEL
-	warp VICTORY_ROAD_NEW, 66, 10
+	warp ECRUTEAK_CITY, 13, 20
 	end
 	
 ;PlayersHouseRadioScript:

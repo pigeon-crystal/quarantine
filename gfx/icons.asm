@@ -118,6 +118,8 @@ GoriathIcon:		INCBIN "gfx/icons/goriath.2bpp"
 TranquielIcon:		INCBIN "gfx/icons/tranquiel.2bpp"
 AllseeraphIcon:		INCBIN "gfx/icons/allseeraph.2bpp"
 AmpalaIcon:			INCBIN "gfx/icons/ampala.2bpp"
+BlazelleIcon:		INCBIN "gfx/icons/blazelle.2bpp"
+CalfeenIcon:		INCBIN "gfx/icons/calfeen.2bpp"
 
 SECTION "Mon Icons 2", ROMX
 

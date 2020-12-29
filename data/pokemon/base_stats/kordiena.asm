@@ -16,7 +16,7 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_MONSTER, EGG_WATER_3 ; egg groups
 
-	; tm/hm learnset TODO
-	tmhm 
+	; tm/hm learnset 
+	tmhm PSYCH_UP, HIDDEN_POWER, SNORE, PROTECT, ENDURE, FRUSTRATION, RETURN, SLEEP_TALK, REST, ATTRACT
 	; end
 	

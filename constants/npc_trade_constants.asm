@@ -21,6 +21,7 @@ NPCTRADE_PADDING EQU 31 ; db
 	const NPC_TRADE_FOREST ; 6
 	const NPC_TRADE_AMANE  ; 7
 	const NPC_TRADE_POPPER ; 8
+	const NPC_TRADE_EDWARD ; 9
 NUM_NPC_TRADES EQU const_value
 
 ; trade gender limits

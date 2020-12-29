@@ -118,6 +118,8 @@ IconPointers:
 	dw TranquielIcon
 	dw AllseeraphIcon
 	dw AmpalaIcon
+	dw BlazelleIcon
+	dw CalfeenIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon
