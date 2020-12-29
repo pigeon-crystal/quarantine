@@ -120,6 +120,7 @@ AllseeraphIcon:		INCBIN "gfx/icons/allseeraph.2bpp"
 AmpalaIcon:			INCBIN "gfx/icons/ampala.2bpp"
 BlazelleIcon:		INCBIN "gfx/icons/blazelle.2bpp"
 CalfeenIcon:		INCBIN "gfx/icons/calfeen.2bpp"
+IlluxuryIcon:		INCBIN "gfx/icons/illuxury.2bpp"
 
 SECTION "Mon Icons 2", ROMX
 
@@ -224,3 +225,4 @@ SordraenaIcon:	  INCBIN "gfx/icons/sordraena.2bpp"
 KitsynaIcon:	  INCBIN "gfx/icons/kitsyna.2bpp"
 TyrdragaIcon:	  INCBIN "gfx/icons/tyrdraga.2bpp"
 AerfaedraIcon:	  INCBIN "gfx/icons/aerfaedra.2bpp"
+GigasynapaIcon:	  INCBIN "gfx/icons/gigasynapa.2bpp"

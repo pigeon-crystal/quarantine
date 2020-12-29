@@ -152,7 +152,7 @@
 	const DRAGON_FANG  ; 90
 	const ANCIENT_FANG ; 91
 	const LEFTOVERS    ; 92
-	const ITEM_93      ; 93
+	const LEMON_ICE    ; 93
 	const ITEM_94      ; 94
 	const ITEM_95      ; 95
 	const MYSTERYBERRY ; 96

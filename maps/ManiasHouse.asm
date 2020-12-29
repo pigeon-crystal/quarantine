@@ -13,6 +13,8 @@ ManiaScript:
 	iftrue .default_postevent
 	checkevent EVENT_GOT_SHUCKIE
 	iftrue .alreadyhaveshuckie
+	checkevent EVENT_BEAT_CHUCK
+	iffalse .weak
 	writetext ManiaText_AskLookAfterShuckle
 	yesorno
 	iffalse .refusetotakeshuckie
@@ -26,6 +28,12 @@ ManiaScript:
 	waitsfx
 	closetext
 	setevent EVENT_GOT_SHUCKIE
+	end
+	
+.weak
+	writetext ManiaText_AskLookAfterShuckleWeak
+	waitbutton
+	closetext
 	end
 
 .alreadyhaveshuckie
@@ -123,6 +131,33 @@ ManiaText_AskLookAfterShuckle:
 	line "for a while?"
 	done
 
+ManiaText_AskLookAfterShuckleWeak:
+	text "I, I'm in shock!"
+
+	para "A guy about your"
+	line "age with piercing"
+
+	para "eyes and long hair"
+	line "came in."
+
+	para "He scared me into"
+	line "giving him my"
+	cont "prized #MON!"
+
+	para "I still have one"
+	line "left, but what if"
+	cont "he comes back?"
+
+	para "You don't look"
+	line "strong enough"
+	cont "to defend my"
+	cont "#MON."
+
+	para "Come back when"
+	line "you're a bit"
+	cont "tougher!"
+	done
+	
 ManiaText_TakeCareOfShuckle:
 	text "Oh, thank you!"
 

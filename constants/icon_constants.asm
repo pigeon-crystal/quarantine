@@ -120,6 +120,7 @@
 	const ICON_AMPALA
 	const ICON_BLAZELLE
 	const ICON_CALFEEN
+	const ICON_ILLUXURY
 	const ICON_SQUIRTLE ;START OF BANK 2
 	const ICON_BULBASAUR
 	const ICON_CHARMANDER
@@ -221,6 +222,7 @@
 	const ICON_KITSYNA
 	const ICON_TYRDRAGA
 	const ICON_AERFAEDRA
+	const ICON_GIGASYNAPA
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

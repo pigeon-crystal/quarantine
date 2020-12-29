@@ -237,7 +237,6 @@ INCLUDE "maps/BattleTowerBattleRoom.asm"
 INCLUDE "maps/BattleTowerElevator.asm"
 INCLUDE "maps/BattleTowerHallway.asm"
 INCLUDE "maps/Route40BattleTowerGate.asm"
-INCLUDE "maps/BattleTowerOutside.asm"
 
 
 SECTION "Map Scripts 13", ROMX
@@ -249,6 +248,7 @@ INCLUDE "maps/BrunosRoom.asm"
 INCLUDE "maps/KarensRoom.asm"
 INCLUDE "maps/LancesRoom.asm"
 INCLUDE "maps/HallOfFame.asm"
+INCLUDE "maps/BattleTowerOutside.asm"
 
 
 SECTION "Map Scripts 14", ROMX

@@ -146,7 +146,7 @@ ItemDescriptions:
 	dw DragonFangDesc
 	dw AncientFangDesc
 	dw LeftoversDesc
-	dw TeruSama15Desc
+	dw LemonIceDesc
 	dw TeruSama16Desc
 	dw TeruSama17Desc
 	dw MysteryBerryDesc
@@ -831,8 +831,9 @@ LeftoversDesc:
 	db   "Restores HP during"
 	next "battle. (HOLD)@"
 
-TeruSama15Desc:
-	db   "?@"
+LemonIceDesc:
+	db   "A sweet treat."
+	next "Restores 160 HP.@"
 
 TeruSama16Desc:
 	db   "?@"

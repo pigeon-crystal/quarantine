@@ -8,7 +8,7 @@ GiveShuckle:
 ; Level 15 Shuckle.
 	ld a, EYECHOSIS
 	ld [wCurPartySpecies], a
-	ld a, 15
+	ld a, 30
 	ld [wCurPartyLevel], a
 
 	predef TryAddMonToParty

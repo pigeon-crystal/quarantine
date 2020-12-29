@@ -120,6 +120,7 @@ IconPointers:
 	dw AmpalaIcon
 	dw BlazelleIcon
 	dw CalfeenIcon
+	dw IlluxuryIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon
@@ -221,4 +222,5 @@ IconPointers:
 	dw KitsynaIcon
 	dw TyrdragaIcon
 	dw AerfaedraIcon
+	dw GigasynapaIcon
 	

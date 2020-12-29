@@ -145,7 +145,7 @@ ItemNames::
 	db "DRAGON FANG@"
 	db "ENIGMAFOSSIL@"    ; ANCIENT_FANG
 	db "LEFTOVERS@"
-	db "TERU-SAMA@"
+	db "LEMON ICE@" ; ITEM 93
 	db "TERU-SAMA@"
 	db "TERU-SAMA@"
 	db "MYSTERYBERRY@"
