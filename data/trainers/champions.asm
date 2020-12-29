@@ -7,4 +7,5 @@
 Champions:
 	db CHAMPION
 	db RED
+	db YOTSUBA
 	db -1
