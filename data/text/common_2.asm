@@ -696,19 +696,41 @@ _YouCantUseItInABattleText::
 	prompt
 
 _AreYouABoyOrAreYouAGirlText::
-	text "This is an un-"
-	line "official fangame."
+	text "ATTENTION!"
 	
-	para "This is not"
-	line "associated with"
-	cont "GAMEFREAK or"
-	cont "official #MON"
-	cont "games in any way."
+	para "THIS IS AN "
+	line "INTERNAL PLAYTEST"
+	cont "DEMO."
 	
-	para "If you somehow"
-	line "paid money for"
-	cont "this, demand a"
-	cont "refund."
+	para "DO NOT POST THIS"
+	line "ELSEWHERE OR"
+	cont "HOST VIDEOS OF"
+	cont "IT (please!)."
+	
+	para "That means YOU,"
+	line "YouTubers,"
+	cont "#moner, and"
+	cont "Knuckles-san."
+	
+	para "Report any buys"
+	line "you can find"
+	cont "so the public"
+	cont "demo can be out"
+	cont "soon!"
+
+;	text "This is an un-"
+;	line "official fangame."
+	
+;	para "This is not"
+;	line "associated with"
+;	cont "GAMEFREAK or"
+;	cont "official #MON"
+;	cont "games in any way."
+	
+;	para "If you somehow"
+;	line "paid money for"
+;	cont "this, demand a"
+;	cont "refund."
 	
 	para "But I digress!"
 	

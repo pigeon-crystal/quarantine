@@ -79,8 +79,8 @@ CreditsScript:
 	db CREDITS_SCENE, 1 ; Smoochum
 
 	db      GRAPHICS_DESIGN, 0 ; 
-	db     HIRONOBU_YOSHIDA, 1
-	db          JUN_OKUTANI, 2
+	db     HIRONOBU_YOSHIDA, 1 ; 
+	db          JUN_OKUTANI, 2 ; 
 	db       ASUKA_IWASHITA, 3
 	db     TETSUYA_WATANABE, 4
 

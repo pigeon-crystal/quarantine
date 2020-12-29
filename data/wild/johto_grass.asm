@@ -1870,7 +1870,7 @@ JohtoGrassWildMons:
 	db 35, DOLMESA
 	db 35, BOBBITE
 	db 35, BOBBITE
-	db 36, BISMUTT
+	db 36, BOBBITE
 	db 35, BISMUTT
 	db 35, BISMUTT
 	db 37, BOBBITE
@@ -1879,7 +1879,7 @@ JohtoGrassWildMons:
 	db 35, DOLMESA
 	db 35, BOBBITE
 	db 35, BOBBITE
-	db 36, BISMUTT
+	db 36, BOBBITE
 	db 35, BISMUTT
 	db 35, BISMUTT
 	db 37, BOBBITE
@@ -1888,7 +1888,7 @@ JohtoGrassWildMons:
 	db 35, DOLMESA
 	db 35, BOBBITE
 	db 35, BOBBITE
-	db 36, BISMUTT
+	db 36, BOBBITE
 	db 35, BISMUTT
 	db 35, RESPECTRE
 	db 37, RESPECTRE
@@ -1900,28 +1900,28 @@ JohtoGrassWildMons:
 	db 35, SANDOLPH
 	db 35, DOLMESA
 	db 35, SANDOLPH 
-	db 36, WARTORTLE ; stand-in for strandbeest1
-	db 35, WARTORTLE ; stand-in for strandbeest1
-	db 35, WELLWITCH ; stand-in for Wellwitchsia
-	db 37, WELLWITCH ; stand-in for Wellwitchsia
+	db 36, DOLMESA ; stand-in for strandbeest1
+	db 35, WELLWITCH ; stand-in for strandbeest1
+	db 35, WELLWITCH 
+	db 37, CANTALONE 
 	db 37, CANTALONE  
 	; day
 	db 35, SANDOLPH
 	db 35, DOLMESA
 	db 35, SANDOLPH 
-	db 36, WARTORTLE ; stand-in for strandbeest1
-	db 35, WARTORTLE ; stand-in for strandbeest1
+	db 36, DOLMESA ; stand-in for strandbeest1
+	db 35, WELLWITCH ; stand-in for strandbeest1
 	db 35, WELLWITCH ; stand-in for Wellwitchsia
-	db 37, WELLWITCH ; stand-in for Wellwitchsia
+	db 37, CANTALONE ; stand-in for Wellwitchsia
 	db 37, CANTALONE  
 	; nite
 	db 35, SANDOLPH
 	db 35, DOLMESA
 	db 35, SANDOLPH 
-	db 36, WARTORTLE ; stand-in for strandbeest1
-	db 35, WARTORTLE ; stand-in for strandbeest1
+	db 36, DOLMESA ; stand-in for strandbeest1
+	db 35, WELLWITCH ; stand-in for strandbeest1
 	db 35, WELLWITCH ; stand-in for Wellwitchsia
-	db 37, WELLWITCH ; stand-in for Wellwitchsia
+	db 37, CANTALONE ; stand-in for Wellwitchsia
 	db 37, CANTALONE  
 	
 	map_id CIANWOOD_DUNES_COAST_CAVE ; done

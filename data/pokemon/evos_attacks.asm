@@ -1329,13 +1329,14 @@ DolmiteEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, HARDEN
-	db 1, SAND_ATTACK
-	db 10, ROCK_THROW
-	db 16, SHARPEN
+	db 5, SAND_ATTACK
+	db 9, ROCK_THROW
+	db 14, SHARPEN
+	db 18, ROLLOUT
 	db 24, STOMP
 	db 27, ROCK_SLIDE
-	db 32, SPIKES
-	db 45, THRASH
+	db 30, SPIKES
+	db 43, THRASH
 	db 60, FISSURE
 	db 0 ; no more level-up moves
 
@@ -1347,6 +1348,7 @@ DolmesaEvosAttacks:
 	db 1, SAND_ATTACK
 	db 11, ROCK_THROW
 	db 16, SHARPEN
+	db 18, ROLLOUT
 	db 24, STOMP
 	db 27, ROCK_SLIDE
 	db 32, SPIKES
@@ -1365,8 +1367,8 @@ CairnivoreEvosAttacks:
 	db 27, ROCK_SLIDE
 	db 32, SPIKES
 	db 42, IRON_HEAD
-	db 45, THRASH
-	db 55, RECOVER
+	db 46, THRASH
+	db 53, RECOVER
 	db 65, FISSURE
 	db 0 ; no more level-up moves
 

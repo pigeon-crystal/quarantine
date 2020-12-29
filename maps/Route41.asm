@@ -369,9 +369,18 @@ HistorianMcKennaAfterBattleText:
 	line "I learned that a"
 	cont "fossil of an"
 	
-	para "ancient plant"
-	line "should be around"
-	cont "here somewhere."
+	para "ancient #MON"
+	line "could be either"
+	
+	para "here or on the"
+	line "southeast isle."
+	
+	para "I've also heard"
+	line "numerous rumours"
+	
+	para "about the riches"
+	line "in the ISLANDS"
+	cont "themselves!"
 	done
 	
 Route41Fossil:
