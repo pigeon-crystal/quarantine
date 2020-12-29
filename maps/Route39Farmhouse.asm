@@ -94,15 +94,15 @@ FarmhouseBookshelf:
 	jumpstd picturebookshelf
 
 FarmerMText_SickCow:
-	text "My MILTANK ain't"
+	text "My VEGETEBAA ain't"
 	line "givin' me milk"
 	cont "n'more."
 
 	para "This here FARM's"
-	line "got famous milk."
+	line "got famous cheese."
 
 	para "Most everyone"
-	line "wants a drink."
+	line "wants a taste."
 
 	para "It'll give me lots"
 	line "o' milk if'n I"
@@ -113,7 +113,7 @@ FarmerMText_SickCow:
 
 FarmerMText_BuyMilk:
 	text "How'd you like my"
-	line "MOOMOO MILK?"
+	line "BAABAA BLOX?"
 
 	para "It's my pride and"
 	line "joy, there."
@@ -155,18 +155,18 @@ FarmerFText_InTrouble:
 	line "out to KANTO."
 
 	para "So if our own"
-	line "MILTANK won't give"
+	line "VEGETEBAA won't"
+	cont "give us any milk,"
 
-	para "us any milk, we're"
-	line "in trouble."
+	para "we're in trouble."
 	done
 
 FarmerFText_HealedMiltank:
 	text "You fixed our"
-	line "MILTANK, hon. Now"
+	line "VEGETEBAA, hon."
 
-	para "it gives MOOMOO"
-	line "MILK again."
+	para "Now we can make"
+	line "BAABAA BLOX again."
 
 	para "Here's somethin'"
 	line "fer your trouble."

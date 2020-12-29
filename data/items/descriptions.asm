@@ -824,8 +824,8 @@ DragonFangDesc:
 	next "type moves. (HOLD)@"
 
 AncientFangDesc:
-	db   "The fang of an"
-	next "ancient #MON.@"
+	db   "Odd fossilized"
+	next "remains.@"
 
 LeftoversDesc:
 	db   "Restores HP during"

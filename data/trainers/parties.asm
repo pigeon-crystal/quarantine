@@ -4523,3 +4523,10 @@ HistorianGroup:
 	db 47, PHANGUARD, CLEANSE_TAG
 	db -1 ; end
 	
+; historian (4) Whirl Islands 
+	db "MCKENNA@", TRAINERTYPE_ITEM
+	db 47, BEHEMOTHRA, NO_ITEM
+	db 47, PEKOI, BERRY_JUICE
+	db 46, MORADAY, NO_ITEM
+	db -1 ; end
+	

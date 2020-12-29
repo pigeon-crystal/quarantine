@@ -236,7 +236,7 @@ PokedexDataPointerTable:
 	dw SlowhogPokedexEntry
 	dw EyechosisPokedexEntry
 	dw FueghastPokedexEntry
-	dw HitmontopPokedexEntry
+	dw HalloalloPokedexEntry
 	dw AmbionicPokedexEntry
 	dw ElekidPokedexEntry
 	dw GoriathPokedexEntry

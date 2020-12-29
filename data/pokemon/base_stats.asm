@@ -268,7 +268,7 @@ INCLUDE "data/pokemon/base_stats/polyro.asm"
 INCLUDE "data/pokemon/base_stats/slowhog.asm" ;orig stantler
 INCLUDE "data/pokemon/base_stats/eyechosis.asm"
 INCLUDE "data/pokemon/base_stats/fueghast.asm"
-INCLUDE "data/pokemon/base_stats/hitmontop.asm"
+INCLUDE "data/pokemon/base_stats/halloallo.asm"
 INCLUDE "data/pokemon/base_stats/ambionic.asm"
 INCLUDE "data/pokemon/base_stats/elekid.asm"
 INCLUDE "data/pokemon/base_stats/goriath.asm"

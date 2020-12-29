@@ -177,7 +177,7 @@ EcruteakGymGrampsSlowStepDownMovement:
 	slow_step DOWN
 	step_end
 
-MortyIntroText:					; TODO change legend
+MortyIntroText:					
 	text "Good of you to"
 	line "have come."
 
@@ -185,14 +185,14 @@ MortyIntroText:					; TODO change legend
 	line "#MON have been"
 	cont "revered."
 
-	para "It's said that a"
-	line "rainbow-colored"
-
-	para "#MON will come"
-	line "down to appear"
-
-	para "before a truly"
-	line "powerful trainer."
+	para "It's said that"
+	line "a #MON that"
+	
+	para "has been sealed"
+	line "away will appear"
+	
+	para "for a powerful"
+	line "trainer."
 
 	para "I believed that"
 	line "tale, so I have"
@@ -211,7 +211,7 @@ MortyIntroText:					; TODO change legend
 
 	para "a future in which"
 	line "I meet the #MON"
-	cont "of rainbow colors."
+	cont "legends speak of."
 
 	para "You're going to"
 	line "help me reach that"

@@ -237,7 +237,7 @@ EvosAttacksPointers::
 	dw SlowhogEvosAttacks ;stantler
 	dw EyechosisEvosAttacks
 	dw FueghastEvosAttacks
-	dw HitmontopEvosAttacks
+	dw HalloalloEvosAttacks
 	dw AmbionicEvosAttacks
 	dw ElekidEvosAttacks
 	dw GoriathEvosAttacks

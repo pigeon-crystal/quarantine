@@ -121,43 +121,82 @@ EcruteakTwoTowersText:				; TODO change
 	text "In ECRUTEAK, there"
 	line "were two towers."
 
-	para "Each tower was the"
-	line "roost of powerful"
-	cont "flying #MON."
-
-	para "But one of the"
-	line "towers burned to"
-	cont "the ground."
-
-	para "The two #MON"
-	line "haven't been seen"
-	cont "since…"
+	para "One held great"
+	line "riches."
+	
+	para "A large #MON"
+	line "ruled it."
+	
+	para "One held meager"
+	line "treasures."
+	
+	para "A small #MON"
+	line "ruled it."
+	
+	para "A #MON ruled"
+	line "over each tower."
+	
+	para "The rich #MON"
+	line "stayed alone,"
+	
+	para "fiercely guarding"
+	line "its riches."
+	
+	para "The other #MON"
+	line "brought in the"
+	
+	para "people of the"
+	line "town to its"
+	cont "empty tower,"
+	
+	para "and shared what"
+	line "it had with them."
+	
+	para "Do you know"
+	line "which of the"
+	
+	para "#MON was"
+	line "happy?"
 
 	para "Keep reading?"
 	done
 
 EcruteakThreeMonText:
-	text "ECRUTEAK was also"
-	line "home to three"
+	text "The rich #MON"
+	line "flew off long ago."
+	
+	para "It only sought"
+	line "more riches."
 
-	para "#MON that raced"
-	line "around the town."
-
-	para "They were said to"
-	line "have been born of"
-
-	para "water, lightning"
-	line "and fire."
-
-	para "But they could not"
-	line "contain their"
-	cont "excessive power."
-
-	para "So they say the"
-	line "three ran like the"
-
-	para "wind off into the"
-	line "grassland."
+	para "The small #MON"
+	line "would revel with"
+	
+	para "the villagers of"
+	line "ECRUTEAK."
+	
+	para "It would revel"
+	line "with #MON, too."
+	
+	para "Its constant"
+	line "companions were"
+	
+	para "the three"
+	line "emissaries."
+	
+	para "The sky-soaring"
+	line "soothsayer."
+	
+	para "The denizen of"
+	line "the deep."
+	
+	para "The molten beast"
+	line "of mantle."
+	
+	para "Yes, these were"
+	line "the small"
+	cont "#MON's friends."
+	
+	para "Until one day…"
 	done
 
 EcruteakItemfinderHouse_MapEvents:
@@ -173,5 +212,5 @@ EcruteakItemfinderHouse_MapEvents:
 	bg_event  2,  1, BGEVENT_READ, ItemFinderHouseRadio
 
 	db 2 ; object events
-	object_event  2,  3, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, EcruteakItemfinderGuy, -1
+	object_event  2,  3, SPRITE_BREEDER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakItemfinderGuy, -1
 	object_event  3,  3, SPRITE_POKEDEX, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakHistoryBook, -1

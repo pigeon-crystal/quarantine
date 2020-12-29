@@ -1,9 +1,9 @@
 	db THERAZOR ; 143
 
-	db 103, 147,  111,  3,  50, 111
+	db 99, 147,  110,  3,  50, 90
 	;   hp  atk  def  spd  sat  sdf
 
-	db ROCK, NORMAL ; type
+	db ROCK, STEEL ; type
 	db 5 ; catch rate
 	db 154 ; base exp
 	db NO_ITEM, NO_ITEM ; items

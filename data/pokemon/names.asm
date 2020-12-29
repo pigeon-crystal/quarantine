@@ -235,7 +235,7 @@ PokemonNames::
 	db "SLOWHOG@@@"
 	db "EYECHOSIS@"
 	db "FUEGHAST@@"
-	db "HITMONTOP@"
+	db "HALLOALLO@"
 	db "AMBIONIC@@"
 	db "ELEKID@@@@"
 	db "GORIATH@@@"

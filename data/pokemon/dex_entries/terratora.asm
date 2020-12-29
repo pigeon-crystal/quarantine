@@ -1,10 +1,10 @@
-	db "TECTONIC@" ; species name ; TODO
+	db "TECTONIC@" ; species name 
 	dw 702, 11206 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "TERRATORA roars,"
+	next "tectonic plates"
+	next "shift. A core of"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "white fire boils"
+	next "until the world"
+	next "stops spinning.@"

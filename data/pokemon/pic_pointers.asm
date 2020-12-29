@@ -477,8 +477,8 @@ PokemonPicPointers::
 	dba EyechosisBackpic
 	dba FueghastFrontpic
 	dba FueghastBackpic
-	dba HitmontopFrontpic
-	dba HitmontopBackpic
+	dba HalloalloFrontpic
+	dba HalloalloBackpic
 	dba AmbionicFrontpic
 	dba AmbionicBackpic
 	dba ElekidFrontpic

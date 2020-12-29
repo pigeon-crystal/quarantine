@@ -131,9 +131,11 @@ MovementData_0x98628:
 WiseTriosRoomSage1Text:
 	text "Astounding…"
 
-	para "SUICUNE, ENTEI and"
-	line "RAIKOU have arisen"
-	cont "from their sleep…"
+	para "RYUNARI, NIKUJIRA "
+	line "and TERRATORRA"
+	
+	para "have all arisen"
+	line "from their sleep…"
 
 	para "Is the legend"
 	line "coming true?"
@@ -161,12 +163,12 @@ WiseTriosRoomSage3BlocksExitText:
 	line "GYM BADGE."
 
 	para "However, now that"
-	line "SUICUNE, RAIKOU"
+	line "the emissaries"
 
-	para "and ENTEI have"
-	line "arisen, I ask you"
+	para "have arisen,"
+	line "I ask you to"
 
-	para "to refrain from"
+	para "refrain from"
 	line "entering!"
 	done
 
@@ -198,7 +200,7 @@ SageGakuSeenText:
 	line "come true!"
 
 	para "The legendary"
-	line "#MON SUICUNE"
+	line "#MON RYUNARI"
 	cont "has arrived!"
 
 	para "We, the WISE TRIO,"
@@ -217,9 +219,9 @@ SageGakuAfterBattleText:
 	text "Ah, so it is you"
 	line "who claim to have"
 
-	para "seen SUICUNE,"
-	line "ENTEI and RAIKOU"
-	cont "while they slept?"
+	para "seen RYUNARI,"
+	line "NIKUJIRA, and"
+	cont "TERRATORA?"
 
 	para "Unbelievable!"
 
@@ -255,40 +257,45 @@ SageMasaAfterBattleText:
 	para "where #MON were"
 	line "said to rest."
 
-	para "The view from the"
-	line "tops of the TOWERS"
+	para "At the BRASS"
+	line "TOWER, a great"
+	
+	para "#MON of horrid"
+	line "power would"
+	
+	para "revel with the"
+	line "people and"
+	cont "#MON of the town."
 
-	para "must have been"
-	line "magnificent."
+	para "In its revelry,"
+	line "it called thunder"
+	cont "that destroyed"
+	cont "the tower."
+	
+	para "The blazes could"
+	line "not be extinguished"
+	cont "by NIKUJIRA, nor"
+	
+	para "could mighty"
+	line "TERRATORA"
+	cont "withstand them."
 
-	para "At the time, an"
-	line "immense, silver-"
-
-	para "colored #MON"
-	line "was said to make"
-
-	para "its roost atop the"
-	line "BRASS TOWER."
-
-	para "However…"
-
-	para "About 150 years"
-	line "ago, a lightning"
-
-	para "bolt struck one of"
-	line "the TOWERS."
-
-	para "It was engulfed in"
-	line "flames that raged"
-	cont "for three days."
-
-	para "A sudden downpour"
-	line "finally put out"
-	cont "the blaze."
-
-	para "And that is how"
+	para "To prevent this"
+	line "from happening"
+	cont "again,"
+	
+	para "the three"
+	line "emissaries sealed"
+	cont "the great one"
+	cont "away."
+	
+	para "That is how"
 	line "the BURNED TOWER"
-	cont "came to be."
+	cont "came to be,"
+	
+	para "and how the"
+	line "slumber of"
+	cont "the three began."
 	done
 
 SageKojiSeenText:
@@ -331,14 +338,14 @@ SageKojiAfterBattleSpeechText:
 	line "and enter the TIN"
 	cont "TOWER ahead."
 
-	para "SUICUNE will put"
+	para "RYUNARI will put"
 	line "you to the test."
 	done
 
 SageKojiAfterBattleFinalText:
 	text "Please, do go on."
 
-	para "SUICUNE will put"
+	para "RYUNARI will put"
 	line "you to the test."
 	done
 

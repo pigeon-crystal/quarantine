@@ -256,7 +256,7 @@ JOHTO_POKEMON EQU const_value
 	const SLOWHOG  	 ; ea
 	const EYECHOSIS  ; eb
 	const FUEGHAST   ; ec 
-	const HITMONTOP  ; ed some other fossil
+	const HALLOALLO  ; ed some other fossil
 	const AMBIONIC   ; ee 
 	const ELEKID     ; ef cured buzzling
 	const GORIATH    ; f0 

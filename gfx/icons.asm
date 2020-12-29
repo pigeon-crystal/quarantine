@@ -115,6 +115,9 @@ NikujiraIcon:	  INCBIN "gfx/icons/nikujira.2bpp"
 TerratoraIcon:		INCBIN "gfx/icons/terratora.2bpp"
 GlythicIcon:		INCBIN "gfx/icons/glythic.2bpp"
 GoriathIcon:		INCBIN "gfx/icons/goriath.2bpp"
+TranquielIcon:		INCBIN "gfx/icons/tranquiel.2bpp"
+AllseeraphIcon:		INCBIN "gfx/icons/allseeraph.2bpp"
+AmpalaIcon:			INCBIN "gfx/icons/ampala.2bpp"
 
 SECTION "Mon Icons 2", ROMX
 

@@ -115,6 +115,9 @@ IconPointers:
 	dw TerratoraIcon
 	dw GlythicIcon
 	dw GoriathIcon
+	dw TranquielIcon
+	dw AllseeraphIcon
+	dw AmpalaIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon

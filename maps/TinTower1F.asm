@@ -55,7 +55,7 @@ TinTower1F_MapScripts:
 .NoRaikou:
 	disappear TINTOWER1F_RAIKOU
 .CheckEntei:
-	setval NIKUJIRA
+	setval TERRATORA
 	special MonCheck
 	iftrue .NoEntei
 	appear TINTOWER1F_ENTEI
@@ -323,11 +323,12 @@ TinTowerEusineSuicuneText:
 	para "more incredible,"
 	line "<PLAYER>."
 
-	para "I heard RYUNARI's"
-	line "mystic power"
+	para "I heard RYUNARI,"
+	line "NIKUJIRA, and"
+	cont "TERRATORA can"
 
-	para "summons a rainbow-"
-	line "colored #MON."
+	para "summon an even"
+	line "stronger #MON."
 
 	para "Maybe, just maybe,"
 	line "what went on today"
@@ -354,9 +355,7 @@ TinTower1FSage1Text:
 
 	para "commune, from the"
 	line "heavens descends a"
-
-	para "#MON of rainbow"
-	line "colors…"
+	cont "#MON…"
 
 	para "Could it mean the"
 	line "legendary #MON"
@@ -369,32 +368,25 @@ TinTower1FSage2Text:
 	text "When the BRASS"
 	line "TOWER burned down,"
 
-	para "three nameless"
-	line "#MON were said"
+	para "the emissaries"
+	line "of sky, earth"
+	cont "and sea were said"
 
-	para "to have perished."
-	line "It was tragic."
+	para "to have perished"
+	line "sealing DONUKAME."
+	cont "It was tragic."
 
 	para "However…"
 
-	para "A rainbow-colored"
-	line "#MON…"
-
-	para "In other words…"
-
-	para "HO-OH descended"
-	line "from the sky and"
-
-	para "gave new life to"
-	line "the three #MON."
-
-	para "They are…"
-
-	para "RYUNARI, ENTEI and"
-	line "RAIKOU."
-
-	para "That is what they"
-	line "say."
+	para "We know the"
+	line "truth!"
+	
+	para "RYUNARI, with its"
+	line "mystic power,"
+	
+	para "put them in a"
+	line "protective"
+	cont "slumber."
 	done
 
 TinTower1FSage3Text:
@@ -415,8 +407,8 @@ TinTower1FSage3Text:
 	done
 
 TinTower1FSage4Text1:
-	text "HO-OH appears to"
-	line "have descended"
+	text "DONUKAME! It"
+	line "has descended"
 
 	para "upon this, the TIN"
 	line "TOWER!"
@@ -446,7 +438,7 @@ TinTowerEusineHoOhText:
 	para "I knew you'd get"
 	line "to see the #MON"
 
-	para "of rainbow colors,"
+	para "called DONUKAME,"
 	line "<PLAYER>."
 
 	para "It happened just"
@@ -469,14 +461,14 @@ TinTower1FSage4Text2:
 	para "to embody three"
 	line "powers…"
 
-	para "The lightning that"
-	line "struck the TOWER."
-
-	para "The fire that"
-	line "burned the TOWER."
-
-	para "And the rain that"
-	line "put out the fire…"
+	para "The core of the"
+	line "planet itself…"
+	
+	para "The endless depths"
+	line "of the sea…"
+	
+	para "And the open"
+	line "beauty of the sky…"
 	done
 
 TinTower1FSage5Text3:
@@ -505,19 +497,8 @@ TinTower1FSage6Text2:
 	line "#MON, RYUNARI"
 
 	para "is said to be the"
-	line "closest to HO-OH."
-
-	para "I hear there may"
-	line "also be a link to"
-
-	para "#MON known as"
-	line "UNOWN."
-
-	para "The #MON UNOWN"
-	line "must be sharing a"
-
-	para "cooperative bond"
-	line "with RYUNARI."
+	line "closest to"
+	cont "DONUKAME."
 	done
 
 TinTower1F_MapEvents:
@@ -533,9 +514,9 @@ TinTower1F_MapEvents:
 	db 0 ; bg events
 
 	db 10 ; object events
-	object_event  9,  9, SPRITE_SUICUNE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TIN_TOWER_1F_SUICUNE
-	object_event  7,  9, SPRITE_RAIKOU, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TIN_TOWER_1F_RAIKOU
-	object_event 12,  9, SPRITE_SLAATEL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TIN_TOWER_1F_ENTEI
+	object_event  9,  9, SPRITE_RYUNARI, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TIN_TOWER_1F_SUICUNE
+	object_event  7,  9, SPRITE_NIKUJIRA, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TIN_TOWER_1F_RAIKOU
+	object_event 12,  9, SPRITE_TERRATORA, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TIN_TOWER_1F_ENTEI
 	object_event  8,  3, SPRITE_SUPER_NERD, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, TinTowerEusine, EVENT_TIN_TOWER_1F_EUSINE
 	object_event  5,  9, SPRITE_SAGE, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TinTower1FSage1Script, EVENT_TIN_TOWER_1F_WISE_TRIO_1
 	object_event 11, 11, SPRITE_SAGE, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TinTower1FSage2Script, EVENT_TIN_TOWER_1F_WISE_TRIO_1

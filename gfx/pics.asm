@@ -103,7 +103,7 @@ SECTION "Pics 4", ROMX
 
 DodrioFrontpic:      INCBIN "gfx/pokemon/dodrio/front.animated.2bpp.lz"
 TidoFrontpic:    INCBIN "gfx/pokemon/tido/front.animated.2bpp.lz"
-HitmontopFrontpic:   INCBIN "gfx/pokemon/hitmontop/front.animated.2bpp.lz"
+HalloalloFrontpic:   INCBIN "gfx/pokemon/halloallo/front.animated.2bpp.lz"
 MoradayFrontpic:        INCBIN "gfx/pokemon/moraday/front.animated.2bpp.lz"
 OdditullyFrontpic:     INCBIN "gfx/pokemon/odditully/front.animated.2bpp.lz"
 NimbocetusFrontpic:     INCBIN "gfx/pokemon/nimbocetus/front.animated.2bpp.lz"
@@ -332,7 +332,7 @@ KimonoGirlPic:       INCBIN "gfx/trainers/kimono_girl.2bpp.lz"
 VoltingerBackpic:     INCBIN "gfx/pokemon/voltinger/back.2bpp.lz"
 HoplaqueFrontpic:       INCBIN "gfx/pokemon/hoplaque/front.animated.2bpp.lz"
 AmbinniFrontpic:        INCBIN "gfx/pokemon/ambinni/front.animated.2bpp.lz"
-HitmontopBackpic:    INCBIN "gfx/pokemon/hitmontop/back.2bpp.lz"
+HalloalloBackpic:    INCBIN "gfx/pokemon/halloallo/back.2bpp.lz"
 PipendaBackpic:     INCBIN "gfx/pokemon/pipenda/back.2bpp.lz"
 UnownFBackpic:       INCBIN "gfx/pokemon/unown_f/back.2bpp.lz"
 

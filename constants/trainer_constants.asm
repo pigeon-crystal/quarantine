@@ -812,5 +812,6 @@ KRIS EQU __enum__
 	const BIGBY
 	const BRUCE
 	const ART
+	const MCKENNA
 	
 NUM_TRAINER_CLASSES EQU __enum__

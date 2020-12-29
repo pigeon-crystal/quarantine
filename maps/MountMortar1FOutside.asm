@@ -1,6 +1,7 @@
 	object_const_def ; object_event constants
 	const MOUNTMORTAR1FOUTSIDE_POKE_BALL1
 	const MOUNTMORTAR1FOUTSIDE_POKE_BALL2
+	const MOUNTMORTARBRUCE
 
 MountMortar1FOutside_MapScripts:
 	db 0 ; scene scripts
@@ -8,13 +9,42 @@ MountMortar1FOutside_MapScripts:
 	db 0 ; callbacks
 
 MountMortar1FOutsideEther:
-	itemball ETHER
+	itemball NUGGET
 
 MountMortar1FOutsideRevive:
-	itemball REVIVE
+	itemball MAX_REVIVE
 
 MountMortar1FOutsideHiddenHyperPotion:
-	hiddenitem HYPER_POTION, EVENT_MOUNT_MORTAR_1F_OUTSIDE_HIDDEN_HYPER_POTION
+	hiddenitem PP_UP, EVENT_MOUNT_MORTAR_1F_OUTSIDE_HIDDEN_HYPER_POTION
+	
+MountMortarHistorianBruce:
+	trainer HISTORIAN, BRUCE, EVENT_BEAT_HISTORIAN_BRUCE, BruceSeenText, BruceBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext BruceAfterText
+	waitbutton
+	closetext
+	end
+
+BruceSeenText:
+	text "'Allo, chap!"
+	line "Fancy a battle?"
+	done
+	
+BruceBeatenText:
+	text "Cheers, dears!"
+	line "That was a swell"
+	cont "bout!"
+	done
+
+BruceAfterText:
+	text "Keep your eye"
+	line "out around here."
+	
+	para "I smell a FOSSIL!"
+	done
 
 MountMortar1FOutside_MapEvents:
 	db 0, 0 ; filler
@@ -35,6 +65,7 @@ MountMortar1FOutside_MapEvents:
 	db 1 ; bg events
 	bg_event 25, 22, BGEVENT_ITEM, MountMortar1FOutsideHiddenHyperPotion
 
-	db 2 ; object events
+	db 3 ; object events
 	object_event 13, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, MountMortar1FOutsideEther, EVENT_MOUNT_MORTAR_1F_OUTSIDE_ETHER
 	object_event 31, 18, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, MountMortar1FOutsideRevive, EVENT_MOUNT_MORTAR_1F_OUTSIDE_REVIVE
+	object_event  7, 24, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_TRAINER, 0, MountMortarHistorianBruce, -1

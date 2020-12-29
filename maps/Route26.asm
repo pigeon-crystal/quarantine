@@ -300,8 +300,8 @@ CooltrainermGavenAfterText:
 	para "But VICTORY ROAD"
 	line "is tough."
 
-	para "Practically nobody"
-	line "goes there!"
+	para "Good luck in"
+	line "there!"
 	done
 
 CooltrainerfJoyceSeenText:
@@ -340,9 +340,6 @@ CooltrainerfBeth1SeenText:
 	para "It was as if he"
 	line "absolutely had to"
 	cont "win at any cost."
-
-	para "I felt sorry for"
-	line "his #MON."
 	done
 
 CooltrainerfBeth1BeatenText:

@@ -241,7 +241,7 @@ PokemonCries::
 	mon_cry $19,  		 $FF32,  $0081 ; SLOWHOG
 	mon_cry CRY_AMPHAROS,    -91,  303 ; EYECHOSIS
 	mon_cry $10,       	 $176F,  $00B0 ; FUEGHAST
-	mon_cry CRY_SLUGMA,        0,  256 ; HITMONTOP
+	mon_cry CRY_SLUGMA,        0,  256 ; HALLOALLO
 	mon_cry CRY_MARILL,      104,  256 ; AMBIONIC
 	mon_cry CRY_SUNFLORA,   -728,  180 ; ELEKID
 	mon_cry CRY_TEDDIURSA,   374,   58 ; GORIATH

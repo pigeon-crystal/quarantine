@@ -166,21 +166,28 @@ EcruteakCityYoungsterText:
 	line "How awful!"
 	done
 
-EcruteakCityGramps3Text:		; TODO change legend
+EcruteakCityGramps3Text:		
 	text "In the distant"
 	line "past…"
 
-	para "This tower burned"
-	line "in a fire. Three"
+	para "A #MON that"
+	line "lords over storms"
+	
+	para "resided in a"
+	line "tower here."
+	
+	para "But the #MON"
+	line "was insolent, and"
+	
+	para "destroyed its own"
+	line "tower."
+	
+	para "The emissaries of"
+	line "the sea, sky, and"
+	cont "earth perished to"
 
-	para "nameless #MON"
-	line "perished in it."
-
-	para "A rainbow-colored"
-	line "#MON descended"
-
-	para "from the sky and"
-	line "resurrected them…"
+	para "seal the storm"
+	line "lord away."
 
 	para "It's a legend that"
 	line "has been passed"

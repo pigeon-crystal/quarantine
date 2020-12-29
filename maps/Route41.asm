@@ -9,6 +9,7 @@
 	const ROUTE41_SWIMMER_GIRL3
 	const ROUTE41_SWIMMER_GIRL4
 	const ROUTE41_SWIMMER_GIRL5
+	const ROUTE41_HISTORIAN
 
 Route41_MapScripts:
 	db 0 ; scene scripts
@@ -125,10 +126,6 @@ TrainerSwimmermMathew:
 	closetext
 	end
 
-Route41Rock:
-; unused
-	jumpstd smashrock
-
 Route41HiddenMaxEther:
 	hiddenitem MAX_ETHER, EVENT_ROUTE_41_HIDDEN_MAX_ETHER
 
@@ -195,9 +192,8 @@ SwimmermBerkeAfterBattleText:
 	line "#MON flying"
 	cont "from the islands."
 
-	para "It was scattering"
-	line "feathers from its"
-	cont "silver wings."
+	para "It dropped gold!"
+	line "Like, real gold!"
 	done
 
 SwimmermKirkSeenText:
@@ -233,8 +229,9 @@ SwimmermMathewAfterBattleText:
 	text "A secret about"
 	line "WHIRL ISLANDS…"
 
-	para "It's pitch-black"
-	line "inside!"
+	para "There's this green"
+	line "#MON that only"
+	cont "lives there!"
 	done
 
 SwimmerfKayleeSeenText:
@@ -251,13 +248,16 @@ SwimmerfKayleeBeatenText:
 	done
 
 SwimmerfKayleeAfterBattleText:
-	text "There's supposed"
-	line "to be a big #-"
-	cont "MON deep beneath"
-	cont "WHIRL ISLANDS."
+	text "We once saw this"
+	line "really cute and"
+	cont "small #MON"
 
-	para "I wonder what it"
-	line "could be?"
+	para "in the WHIRL"
+	line "ISLANDS."
+	
+	para "But it ran away"
+	line "before we could"
+	cont "try to catch it!"
 	done
 
 SwimmerfSusieSeenText:
@@ -273,7 +273,7 @@ SwimmerfSusieBeatenText:
 SwimmerfSusieAfterBattleText:
 	text "Wasn't there a hit"
 	line "song about a boy"
-	cont "riding a LAPRAS?"
+	cont "and his SQUEENIE?"
 	done
 
 SwimmerfDeniseSeenText:
@@ -321,9 +321,10 @@ SwimmerfKaraAfterBattleText:
 	done
 
 SwimmerfWendySeenText:
-	text "At night, STARYU"
-	line "gather near the"
-	cont "water's surface."
+	text "At night,"
+	line "STRANGLURE gather"
+	cont "near the water's"
+	cont "surface."
 	done
 
 SwimmerfWendyBeatenText:
@@ -332,13 +333,50 @@ SwimmerfWendyBeatenText:
 
 SwimmerfWendyAfterBattleText:
 	text "The clusters of"
-	line "STARYU light up"
+	line "STRANGLURE alight"
 	cont "at the same time."
 
 	para "It's so beautiful,"
 	line "it's scary."
 	done
 
+TrainerHistorianMcKenna:
+	trainer HISTORIAN, MCKENNA, EVENT_BEAT_HISTORIAN_MCKENNA, HistorianMcKennaSeenText, HistorianMcKennaBeaten, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext HistorianMcKennaAfterBattleText
+	waitbutton
+	closetext
+	end	
+	
+HistorianMcKennaSeenText:
+	text "I've been looking"
+	line "for fossils here!"
+	
+	para "Care to keep me"
+	line "entertained?"
+	done
+	
+HistorianMcKennaBeaten:
+	text "Well done!"
+	line "Well done indeed!"
+	done
+	
+HistorianMcKennaAfterBattleText:
+	text "From my studies,"
+	line "I learned that a"
+	cont "fossil of an"
+	
+	para "ancient plant"
+	line "should be around"
+	cont "here somewhere."
+	done
+	
+Route41Fossil:
+	hiddenitem ANCIENT_FANG, EVENT_ROUTE41_FOSSIL
+	
 Route41_MapEvents:
 	db 0, 0 ; filler
 
@@ -350,10 +388,11 @@ Route41_MapEvents:
 
 	db 0 ; coord events
 
-	db 1 ; bg events
+	db 2 ; bg events
 	bg_event  9, 35, BGEVENT_ITEM, Route41HiddenMaxEther
+	bg_event 38, 39, BGEVENT_ITEM, Route41Fossil
 
-	db 10 ; object events
+	db 11 ; object events
 	object_event 32,  6, SPRITE_OLIVINE_RIVAL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerSwimmermCharlie, -1
 	object_event 46,  8, SPRITE_OLIVINE_RIVAL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerSwimmermGeorge, -1
 	object_event 20, 26, SPRITE_OLIVINE_RIVAL, SPRITEMOVEDATA_SPINCOUNTERCLOCKWISE, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerSwimmermBerke, -1
@@ -364,3 +403,5 @@ Route41_MapEvents:
 	object_event 27, 34, SPRITE_SWIMMER_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, TrainerSwimmerfDenise, -1
 	object_event 44, 28, SPRITE_SWIMMER_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 4, TrainerSwimmerfKara, -1
 	object_event  9, 50, SPRITE_SWIMMER_GIRL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, TrainerSwimmerfWendy, -1
+	object_event  6, 13, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 2, TrainerHistorianMcKenna, -1
+	

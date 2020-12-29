@@ -235,7 +235,7 @@ EggMovePointers::
 	dw SlowhogEggMoves
 	dw EyechosisEggMoves
 	dw FueghastEggMoves
-	dw HitmontopEggMoves
+	dw HalloalloEggMoves
 	dw AmbionicEggMoves
 	dw NoEggMoves
 	dw NoEggMoves

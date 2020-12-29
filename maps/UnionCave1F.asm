@@ -8,6 +8,7 @@
 	const UNIONCAVE1F_POKE_BALL2
 	const UNIONCAVE1F_POKE_BALL3
 	const UNIONCAVE1F_POKE_BALL4
+	const UNIONCAVEHISTORIAN
 
 UnionCave1F_MapScripts:
 	db 0 ; scene scripts
@@ -80,10 +81,6 @@ UnionCave1FPotion:
 
 UnionCave1FAwakening:
 	itemball AWAKENING
-
-UnionCave1FUnusedSign:
-; unused
-	jumptext UnionCave1FUnusedSignText
 
 HikerRussellSeenText:
 	text "You're headed to"
@@ -209,10 +206,42 @@ FirebreatherRayAfterBattleText:
 	cont "up this cave!"
 	done
 
-UnionCave1FUnusedSignText:
-	text "UNION CAVE"
+UnionCaveHistorianBigby:
+	trainer HISTORIAN, BIGBY, EVENT_BEAT_HISTORIAN_BIGBY, BigbySeenText, BigbyBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext BigbyAfterText
+	waitbutton
+	closetext
+	end
+	
+BigbySeenText:
+	text "Go away! Shoo!"
+	done
+	
+BigbyBeatenText:
+	text "Tarnation!"
+	line "Fiddlesticks!"
 	done
 
+BigbyAfterText:
+	text "If you must know,"
+	line "I'm looking for"
+	cont "a SCALE FOSSIL."
+	
+	para "In ancient days,"
+	line "this cave was"
+	cont "filled with"
+	cont "seawater."
+	
+	para "The SCALE FOSSIL"
+	line "was from an"
+	cont "apex predator"
+	cont "of those days."
+	done
+	
 UnionCave1F_MapEvents:
 	db 0, 0 ; filler
 
@@ -226,7 +255,7 @@ UnionCave1F_MapEvents:
 
 	db 0 ; bg events
 
-	db 9 ; object events
+	db 10 ; object events
 	object_event  3,  6, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 2, TrainerHikerDaniel, -1
 	object_event  4, 21, SPRITE_SUPER_NERD, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerPokemaniacLarry, -1
 	object_event 11,  8, SPRITE_POKEFAN_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 1, TrainerHikerRussell, -1
@@ -236,3 +265,4 @@ UnionCave1F_MapEvents:
 	object_event  4,  2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, UnionCave1FXAttack, EVENT_UNION_CAVE_1F_X_ATTACK
 	object_event  4, 17, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, UnionCave1FPotion, EVENT_UNION_CAVE_1F_POTION
 	object_event 12, 33, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, UnionCave1FAwakening, EVENT_UNION_CAVE_1F_AWAKENING
+	object_event 7, 27, SPRITE_POKEFAN_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 2, UnionCaveHistorianBigby, -1

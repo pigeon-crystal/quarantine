@@ -201,7 +201,7 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_ANDROMEGA ; d8
 	const SPRITE_BUDGANEER ; d9
 	const SPRITE_NIKUJIRA ; da
-	const SPRITE_TERRATORRA ; db
+	const SPRITE_TERRATORA ; db
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)
 	const_def $ee

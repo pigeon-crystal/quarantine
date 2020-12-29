@@ -70,7 +70,7 @@ ItemNames::
 	db "MYSTERY EGG@"
 	db "CLEAR BELL@"
 	db "SILVER WING@"
-	db "MOOMOO MILK@"
+	db "BAABAA BLOX@" ; MOOMOO MILK
 	db "QUICK CLAW@"
 	db "PSNCUREBERRY@"
 	db "GOLD LEAF@"
@@ -143,7 +143,7 @@ ItemNames::
 	db "BEAK FOSSIL@"
 	db "METAL COAT@"
 	db "DRAGON FANG@"
-	db "ANCIENT FANG@"
+	db "ENIGMAFOSSIL@"    ; ANCIENT_FANG
 	db "LEFTOVERS@"
 	db "TERU-SAMA@"
 	db "TERU-SAMA@"

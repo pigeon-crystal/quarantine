@@ -380,9 +380,9 @@ LassDanaMoomooMilkText:
 	text "I know something"
 	line "good!"
 
-	para "MOOMOO FARM's milk"
-	line "is famous for its"
-	cont "flavor."
+	para "BAABAA FARM's got"
+	line "really famous"
+	cont "cheese!"
 	done
 
 BeautyValerieSeenText:
@@ -432,19 +432,22 @@ BeautyOliviaSeenText:
 	done
 
 BeautyOliviaBeatenText:
-	text "We drink MOOMOO"
-	line "MILK every day."
+	text "We eat BAABAA"
+	line "BLOX every day."
 	done
 
 BeautyOliviaAfterBattleText:
-	text "MOOMOO MILK is"
+	text "BAABAA BLOX are"
 	line "good for beauty"
 
 	para "and health, but"
 	line "inconveniently,"
 
 	para "they only sell a"
-	line "bottle at a time."
+	line "bag at a time."
+	
+	para "They're just"
+	line "divine in salads!"
 	done
 
 Route38SignText:

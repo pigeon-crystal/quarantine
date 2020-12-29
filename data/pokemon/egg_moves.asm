@@ -853,8 +853,9 @@ FueghastEggMoves:
 	db LOCK_ON
 	db -1 ; end
 	
-HitmontopEggMoves:
-	db BITE 
+HalloalloEggMoves:
+	db CRUNCH
+	db SAFEGUARD
 	db -1 ; end
 
 AmbionicEggMoves:

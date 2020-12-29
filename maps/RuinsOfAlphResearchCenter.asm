@@ -274,9 +274,9 @@ RuinsOfAlphResearchCenterPrinter:
 	waitsfx
 	playsound SFX_TRANSACTION
 	scall FossilMachineItsAMonScript
-	setval MISSINGNO
+	setval HALLOALLO
 	special GameCornerPrizeMonCheckDex
-	givepoke MISSINGNO, 10
+	givepoke HALLOALLO, 39
 	takeitem ANCIENT_FANG
 	sjump FossilMachineEndTransaction
 	
@@ -329,7 +329,7 @@ RuinsOfAlphResearchCenterPrinter:
 	db 5 ;items
 	db "MYSTERY BONE@"
 	db "BEAK FOSSIL@"
-	db "ANCIENT FANG@"
+	db "ENIGMAFOSSIL@"
 	db "SCALE FOSSIL@"
 	db "PAGE 1@"
 	

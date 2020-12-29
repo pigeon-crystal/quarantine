@@ -94,7 +94,7 @@ AlphabeticalPokedexOrder:
 	db HELACTAL
 	db PAINSAW
 	db HEXAHED
-	db HITMONTOP
+	db HALLOALLO
 	db HIVEMAIM
 	db HOATOT
 	db HOATOXIC

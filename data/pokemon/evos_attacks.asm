@@ -4162,13 +4162,14 @@ PolyroEvosAttacks:
 	db 10, EMBER
 	db 15, TWISTER
 	db 20, WHIRLWIND
-	db 25, METAL_CLAW
-	db 30, TRI_ATTACK
-	db 35, POWER_GEM
-	db 40, FLAMETHROWER
-	db 45, RAZOR_WIND
-	db 50, OUTRAGE
-	db 55, HORN_DRILL
+	db 25, LOCK_ON
+	db 30, METAL_CLAW
+	db 35, TRI_ATTACK
+	db 40, POWER_GEM
+	db 45, FLAMETHROWER
+	db 50, RAZOR_WIND
+	db 55, OUTRAGE
+	db 60, HORN_DRILL
 	db 0 ; no more level-up moves
 
 SlowhogEvosAttacks:
@@ -4227,9 +4228,20 @@ FueghastEvosAttacks:
 	db 70, BATON_PASS
 	db 0 ; no more level-up moves
 
-HitmontopEvosAttacks:
+HalloalloEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, MEGA_KICK
+	db 1, POUND
+	db 6, SPIKE_CANNON
+	db 10, WRAP
+	db 15, FORESIGHT
+	db 20, CONSTRICT
+	db 26, ROCK_THROW
+	db 30, CALM_MIND
+	db 36, CONFUSE_RAY
+	db 41, IRON_HEAD
+	db 48, ROCK_SLIDE
+	db 60, THRASH
+	db 88, RECOVER
 	db 0 ; no more level-up moves
 
 AmbionicEvosAttacks:

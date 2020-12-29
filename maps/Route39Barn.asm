@@ -38,7 +38,7 @@ Route39BarnTwin2Script:
 	end
 
 .FeedingMooMoo:
-	writetext Route39BarnTwinWereFeedingMoomooText
+	writetext SlowhogGoneMissing
 	waitbutton
 	closetext
 	turnobject ROUTE39BARN_TWIN2, LEFT
@@ -126,7 +126,7 @@ MoomooScript:
 	end
 
 Route39BarnTwinMoomooIsSickText:
-	text "MOOMOO is sick…"
+	text "BAABAA is sick…"
 
 	para "She needs lots of"
 	line "BERRIES."
@@ -134,11 +134,21 @@ Route39BarnTwinMoomooIsSickText:
 
 Route39BarnTwinWereFeedingMoomooText:
 	text "We're feeding"
-	line "MOOMOO!"
+	line "BAABAA!"
+	done
+	
+SlowhogGoneMissing:
+	text "Mom n' Pop"
+	line "raise SLOWHOG,"
+	cont "too."
+	
+	para "But SLOWHOG"
+	line "never stays around"
+	cont "for long!"
 	done
 
 MoomooWeakMooText:
-	text "VEGETEBAA: …Moo…"
+	text "VEGETEBAA: …Baa…"
 	done
 
 Route39BarnItsCryIsWeakText:
@@ -146,7 +156,7 @@ Route39BarnItsCryIsWeakText:
 	done
 
 MoomooHappyMooText:
-	text "VEGETEBAA: Mooo!"
+	text "VEGETEBAA: Baa!"
 	done
 
 Route39BarnAskGiveBerryText:
@@ -200,4 +210,4 @@ Route39Barn_MapEvents:
 	db 3 ; object events
 	object_event  2,  3, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route39BarnTwin1Script, -1
 	object_event  4,  3, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route39BarnTwin2Script, -1
-	object_event  3,  3, SPRITE_TAUROS, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MoomooScript, -1
+	object_event  3,  3, SPRITE_VEGETEBAA, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MoomooScript, -1

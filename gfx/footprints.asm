@@ -536,7 +536,7 @@ INCBIN "gfx/footprints/polyro.1bpp",   footprint_top
 INCBIN "gfx/footprints/slowhog.1bpp",  footprint_top
 INCBIN "gfx/footprints/eyechosis.1bpp",   footprint_top
 INCBIN "gfx/footprints/fueghast.1bpp",    footprint_top
-INCBIN "gfx/footprints/hitmontop.1bpp",  footprint_top
+INCBIN "gfx/footprints/halloallo.1bpp",  footprint_top
 INCBIN "gfx/footprints/ambionic.1bpp",   footprint_top
 INCBIN "gfx/footprints/elekid.1bpp",     footprint_top
 INCBIN "gfx/footprints/goriath.1bpp",      footprint_top
@@ -545,7 +545,7 @@ INCBIN "gfx/footprints/polyro.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/slowhog.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/eyechosis.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/fueghast.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/hitmontop.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/halloallo.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/ambionic.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/elekid.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/goriath.1bpp",      footprint_bottom

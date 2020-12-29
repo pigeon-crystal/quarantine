@@ -240,7 +240,7 @@ MonMenuIconPals:
 	icon_pals PINK,   YELLOW    ; SLOWHOG
 	icon_pals PURPLE,   YELLOW    ; EYECHOSIS
 	icon_pals RED,   YELLOW    ; FUEGHAST
-	icon_pals RED,   YELLOW    ; HITMONTOP
+	icon_pals RED,   YELLOW    ; HALLOALLO
 	icon_pals YELLOW,   RED    ; AMBIONIC
 	icon_pals RED,   YELLOW    ; ELEKID
 	icon_pals GRAY,   RED    	; GORIATH
