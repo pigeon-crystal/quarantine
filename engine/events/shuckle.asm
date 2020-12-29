@@ -8,7 +8,7 @@ GiveShuckle:
 ; Level 15 Shuckle.
 	ld a, EYECHOSIS
 	ld [wCurPartySpecies], a
-	ld a, 30
+	ld a, 35
 	ld [wCurPartyLevel], a
 
 	predef TryAddMonToParty
@@ -26,7 +26,7 @@ GiveShuckle:
 	push bc
 	ld hl, wPartyMon1Item
 	call AddNTimes
-	ld [hl], BERRY
+	ld [hl], GOLD_BERRY
 	pop bc
 	pop af
 
@@ -69,7 +69,7 @@ SpecialShuckleOT:
 	db "MANIA@"
 
 SpecialShuckleNick:
-	db "SHUCKIE@"
+	db "EYECHO@"
 
 ReturnShuckle:
 	farcall SelectMonFromParty
