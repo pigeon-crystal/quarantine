@@ -226,6 +226,7 @@
 	const ICON_CERKITAYSA
 	const ICON_MACAWSAIR
 	const ICON_SALARITO
+	const ICON_SHREDDRAKE
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

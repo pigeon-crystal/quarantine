@@ -226,4 +226,5 @@ IconPointers:
 	dw CerkitaysaIcon
 	dw MacawsairIcon
 	dw SalaritoIcon
+	dw ShreddrakeIcon
 	

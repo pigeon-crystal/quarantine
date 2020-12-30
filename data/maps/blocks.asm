@@ -1125,3 +1125,5 @@ FixedTown_Blocks:
 AndromegaFinal_Blocks:
 	INCBIN "maps/AndromegaFinal.blk"
 	
+VermilionEmptyHouse_Blocks:
+	INCBIN "maps/VermilionEmptyHouse.blk"

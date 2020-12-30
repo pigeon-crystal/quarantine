@@ -305,6 +305,7 @@ ENDM
 	map_const VERMILION_GYM,                                5,  9 ; 11
 	map_const ROUTE_6_SAFFRON_GATE,                         5,  4 ; 12
 	map_const ROUTE_6_UNDERGROUND_PATH_ENTRANCE,            4,  4 ; 13
+	map_const VERMILION_EMPTY_HOUSE,						4,  4 ; 14
 
 	newgroup                                                      ; 13
 

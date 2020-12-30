@@ -927,6 +927,7 @@ TodescoolEvosAttacks:
 JunobeEvosAttacks:
 	db EVOLVE_LEVEL, 23, VOYAPOD
 	db 0 ; no more evolutions
+	db 1, LOCK_ON
 	db 1, CONSTRICT
 	db 1, FORESIGHT
 	db 5, PSYWAVE
@@ -948,6 +949,7 @@ JunobeEvosAttacks:
 VoyapodEvosAttacks:
 	db EVOLVE_ITEM, MOON_STONE, EXOTUNITY
 	db 0 ; no more evolutions
+	db 1, LOCK_ON
 	db 1, CONSTRICT
 	db 1, FORESIGHT
 	db 5, PSYWAVE
@@ -969,6 +971,7 @@ VoyapodEvosAttacks:
 
 ExotunityEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, LOCK_ON
 	db 1, PAIN_SPLIT
 	db 1, PSYCHO_CUT
 	db 1, FORESIGHT
@@ -2638,7 +2641,7 @@ SeabehemEvosAttacks:
 	db 50, HYDRO_PUMP
 	db 54, EXPLOSION
 	db 58, FLASH_CANNON
-	db 62, SLUDGE_BOMB
+	db 62, FOCUS_BLAST
 	db 75, RECOVER
 	db 0 ; no more level-up moves
 

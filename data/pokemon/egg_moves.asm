@@ -73,6 +73,9 @@ WyrmometerEggMoves:
 BudganeerEggMoves:
 	db TWISTER
 	db FLAIL
+	db RAZOR_WIND
+	db SHEKELSHOT
+	db PAY_DAY
 	db -1 ; end
 	
 SandolphEggMoves:
@@ -122,6 +125,8 @@ VulpixEggMoves:
 MtNootEggMoves:
 	db ICY_WIND
 	db SOFTBOILED
+	db SWEET_KISS
+	db DRAININGKISS
 	db PRESENT
 	db -1 ;end
 
@@ -162,6 +167,8 @@ MessmashEggMoves:
 ElephootEggMoves:
 	db BATON_PASS
 	db SCREECH
+	db EXPLOSION
+	db FOCUS_BLAST
 	db GIGA_DRAIN
 	db -1 ; end
 
@@ -185,6 +192,8 @@ TodescoolEggMoves:
 
 JunobeEggMoves:
 	db TRANSFORM
+	db MIMIC
+	db LOCK_ON
 	db -1 ; end
 
 BobbiteEggMoves:
@@ -202,6 +211,7 @@ HappigEggMoves:
 	db CRUNCH
 	db THRASH
 	db FIRE_SPIN
+	db LOCK_ON
 	db -1 ; end
 
 CremigoEggMoves:
@@ -221,8 +231,9 @@ AmbinniEggMoves:
 UpwhaleEggMoves:
 	db LIGHT_SCREEN
 	db BARRIER
-	db MEGA_KICK
 	db ENCORE
+	db CALM_MIND
+	db AMNESIA
 	db -1 ; end
 
 LawnieEggMoves:
@@ -261,6 +272,7 @@ MissteriaEggMoves:
 	db SAFEGUARD
 	db FUTURE_SIGHT
 	db ENCORE
+	db SHADOW_BONE
 	db -1 ; end
 
 CalfeenEggMoves: ; antelope

@@ -708,8 +708,8 @@ ENDM
 	map_attributes Route31VioletGate, ROUTE_31_VIOLET_GATE, $00, 0
 	map_attributes CianwoodDunesCave, CIANWOOD_DUNES_CAVE, $09, 0
 	map_attributes EcruteakEdwardHouse, ECRUTEAK_EDWARD_HOUSE, $00, 0
+	map_attributes VermilionEmptyHouse, VERMILION_EMPTY_HOUSE, $00, 0 
 
-	
 	map_attributes CianwoodDunes, CIANWOOD_DUNES, $35, NORTH
 	connection north, CianwoodDunesCoast, CIANWOOD_DUNES_COAST, 2
 	

@@ -229,4 +229,4 @@ GigasynapaIcon:	  INCBIN "gfx/icons/gigasynapa.2bpp"
 CerkitaysaIcon:	  INCBIN "gfx/icons/cerkitaysa.2bpp"
 MacawsairIcon:	  INCBIN "gfx/icons/macawsair.2bpp"
 SalaritoIcon:	  INCBIN "gfx/icons/salarito.2bpp"
-
+ShreddrakeIcon:	  INCBIN "gfx/icons/shreddrake.2bpp"

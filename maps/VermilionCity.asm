@@ -261,8 +261,7 @@ VermilionCityPortSignText:
 VermilionCity_MapEvents:
 	db 0, 0 ; filler
 
-;	db 11 ; warp_events 
-	db 10 ; warp events
+	db 11 ; warp_events 
 	warp_event  5,  5, VERMILION_FISHING_SPEECH_HOUSE, 1
 	warp_event  9,  5, VERMILION_POKECENTER_1F, 1
 	warp_event  7, 13, POKEMON_FAN_CLUB, 1
@@ -273,7 +272,7 @@ VermilionCity_MapEvents:
 	warp_event 19, 31, VERMILION_PORT_PASSAGE, 1
 	warp_event 20, 31, VERMILION_PORT_PASSAGE, 2
 	warp_event 34,  7, DIGLETTS_CAVE, 1
-;	warp_event 25,  7, EMPTY_HOUSE, 1
+	warp_event 25,  7, VERMILION_EMPTY_HOUSE, 1
 
 	db 0 ; coord events
 

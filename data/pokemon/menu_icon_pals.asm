@@ -227,7 +227,7 @@ MonMenuIconPals:
 	icon_pals YELLOW,   GREEN    ; VEGETEBAA
 	icon_pals GREEN,   YELLOW    ; BAAFOMET
 	icon_pals BLUE,   YELLOW    ; STIKLBRAT
-	icon_pals RED,   YELLOW    ; SIDFICIOUS
+	icon_pals RED, 	  YELLOW    ; SIDFICIOUS
 	icon_pals BLUE,   YELLOW    ; SALARITO
 	icon_pals BROWN,   PINK    ; KRAKENTOA
 	icon_pals RED,   YELLOW    ; SNOSEBLEED

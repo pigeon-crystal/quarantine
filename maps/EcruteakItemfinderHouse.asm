@@ -1,6 +1,7 @@
 	object_const_def ; object_event constants
 	const ECRUTEAKITEMFINDERHOUSE_COOLTRAINER_M
 	const ECRUTEAKITEMFINDERHOUSE_POKEDEX
+	const ECRUTEAKBAMBABYWOMAN
 
 EcruteakItemfinderHouse_MapScripts:
 	db 0 ; scene scripts
@@ -199,6 +200,33 @@ EcruteakThreeMonText:
 	para "Until one day…"
 	done
 
+EcruteakBambabyWoman:
+	jumptextfaceplayer EcruteakBambabySpeech
+	
+EcruteakBambabySpeech:
+	text "Do you know the"
+	line "#MON BAMBABY?"
+	
+	para "It's very"
+	line "illusive. You"
+	
+	para "can only find it"
+	line "in the trees of"
+	
+	para "the canyon south "
+	line "of BLACKTHORN."
+	
+	para "I heard rumors of"
+	line "land development"
+	cont "in that canyon."
+	
+	para "I hope they"
+	line "aren't true! Where"
+	
+	para "else would the"
+	line "BAMBABY live?"
+	done 
+
 EcruteakItemfinderHouse_MapEvents:
 	db 0, 0 ; filler
 
@@ -211,6 +239,8 @@ EcruteakItemfinderHouse_MapEvents:
 	db 1 ; bg events
 	bg_event  2,  1, BGEVENT_READ, ItemFinderHouseRadio
 
-	db 2 ; object events
+	db 3 ; object events
 	object_event  2,  3, SPRITE_BREEDER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakItemfinderGuy, -1
 	object_event  3,  3, SPRITE_POKEDEX, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakHistoryBook, -1
+	object_event  5,  3, SPRITE_BREEDER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakBambabyWoman, -1
+

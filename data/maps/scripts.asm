@@ -249,6 +249,7 @@ INCLUDE "maps/KarensRoom.asm"
 INCLUDE "maps/LancesRoom.asm"
 INCLUDE "maps/HallOfFame.asm"
 INCLUDE "maps/BattleTowerOutside.asm"
+INCLUDE "maps/VermilionEmptyHouse.asm"
 
 
 SECTION "Map Scripts 14", ROMX
