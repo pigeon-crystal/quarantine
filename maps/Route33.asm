@@ -2,6 +2,7 @@
 	const ROUTE33_POKEFAN_M
 	const ROUTE33_LASS
 	const ROUTE33_FRUIT_TREE
+	const ROUTE_33_BREEDER
 
 Route33_MapScripts:
 	db 0 ; scene scripts
@@ -202,8 +203,8 @@ HikerAnthony2AfterText:
 	done
 
 HikerAnthonyDunsparceText:
-	text "Hey, did you get a"
-	line "DUNSPARCE?"
+	text "Hey, did you get "
+	line "an ATTACKO?"
 
 	para "I caught one too."
 

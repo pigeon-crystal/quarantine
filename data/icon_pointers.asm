@@ -227,4 +227,6 @@ IconPointers:
 	dw MacawsairIcon
 	dw SalaritoIcon
 	dw ShreddrakeIcon
+	dw AligroIcon
+	dw AmbionicIcon
 	
