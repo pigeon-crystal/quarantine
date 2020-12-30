@@ -22,18 +22,18 @@ VermilionCityTeacherScript:
 VermilionMachopOwner:
 	jumptextfaceplayer VermilionMachopOwnerText
 
-VermilionMachop:
-	opentext
-	writetext VermilionMachopText1
-	cry EYECHOSIS
-	waitbutton
-	closetext
-	earthquake 30
-	opentext
-	writetext VermilionMachopText2
-	waitbutton
-	closetext
-	end
+;VermilionMachop:
+;	opentext
+;	writetext VermilionMachopText1
+;	cry EYECHOSIS
+;	waitbutton
+;	closetext
+;	earthquake 30
+;	opentext
+;	writetext VermilionMachopText2
+;	waitbutton
+;	closetext
+;	end
 
 VermilionCitySuperNerdScript:
 	jumptextfaceplayer VermilionCitySuperNerdText
@@ -134,25 +134,18 @@ VermilionCityTeacherText:
 	done
 
 VermilionMachopOwnerText:
-	text "My #MON is"
-	line "preparing the land"
-	cont "for construction."
-
-	para "But I have no"
-	line "money to start the"
-	cont "project…"
+	text "I finally got"
+	line "my house built!"
+	
+	para "But I spent all"
+	line "my money on"
+	cont "construction…"
+	
+	para "I don't have any"
+	line "money for"
+	cont "furniture!"
 	done
 
-VermilionMachopText1:
-	text "MACHOP: Guooh"
-	line "gogogoh!"
-	done
-
-VermilionMachopText2:
-	text "A MACHOP is growl-"
-	line "ing while stomping"
-	cont "the ground flat."
-	done
 
 VermilionCitySuperNerdText:
 	text "There are eight"
@@ -164,8 +157,8 @@ VermilionCitySuperNerdText:
 	done
 
 VermilionCitySnorlaxSleepingText:
-	text "SNORLAX is snoring"
-	line "peacefully…"
+	text "MEOWTAIN is sound"
+	line "asleep…"
 	done
 
 VermilionCityRadioNearSnorlaxText:
@@ -268,6 +261,7 @@ VermilionCityPortSignText:
 VermilionCity_MapEvents:
 	db 0, 0 ; filler
 
+;	db 11 ; warp_events 
 	db 10 ; warp events
 	warp_event  5,  5, VERMILION_FISHING_SPEECH_HOUSE, 1
 	warp_event  9,  5, VERMILION_POKECENTER_1F, 1
@@ -279,6 +273,7 @@ VermilionCity_MapEvents:
 	warp_event 19, 31, VERMILION_PORT_PASSAGE, 1
 	warp_event 20, 31, VERMILION_PORT_PASSAGE, 2
 	warp_event 34,  7, DIGLETTS_CAVE, 1
+;	warp_event 25,  7, EMPTY_HOUSE, 1
 
 	db 0 ; coord events
 
@@ -294,8 +289,8 @@ VermilionCity_MapEvents:
 
 	db 6 ; object events
 	object_event 18,  9, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionCityTeacherScript, -1
-	object_event 23,  6, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionMachopOwner, -1
-	object_event 26,  7, SPRITE_MACHOP, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, VermilionMachop, -1
+	object_event 22,  7, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionMachopOwner, -1
+	object_event 16,  1, SPRITE_BIG_MEOWTAIN, SPRITEMOVEDATA_BIGDOLLSYM, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, VermilionSnorlax, -1
 	object_event 14, 16, SPRITE_SUPER_NERD, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, VermilionCitySuperNerdScript, -1
-	object_event 34,  8, SPRITE_BIG_MEOWTAIN, SPRITEMOVEDATA_BIGDOLLSYM, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionSnorlax, EVENT_VERMILION_CITY_SNORLAX
+	object_event 34,  8, SPRITE_BIG_MEOWTAIN, SPRITEMOVEDATA_BIGDOLLSYM, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VermilionSnorlax, -1 ; EVENT_VERMILION_CITY_SNORLAX
 	object_event 31, 12, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, VermilionGymBadgeGuy, -1

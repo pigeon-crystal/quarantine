@@ -52,7 +52,7 @@ PosterScript:
 
 PlayersHouseRadioScript:
 	setflag ENGINE_POKEDEX
-	givepoke MEOWTAIN, 100
+	givepoke RAMBOYANT, 55
 	givepoke DONUKAME, 100
 	givepoke SQUEENIE, 100
 	givepoke HAUNTLET, 45
@@ -84,7 +84,7 @@ PlayersHouseRadioScript:
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
 	giveitem MAX_REPEL
-	warp ECRUTEAK_CITY, 13, 20
+	warp VICTORY_ROAD_NEW, 55, 24
 	end
 	
 ;PlayersHouseRadioScript:

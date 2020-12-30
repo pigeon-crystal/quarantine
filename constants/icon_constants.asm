@@ -224,6 +224,8 @@
 	const ICON_AERFAEDRA
 	const ICON_GIGASYNAPA
 	const ICON_CERKITAYSA
+	const ICON_MACAWSAIR
+	const ICON_SALARITO
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

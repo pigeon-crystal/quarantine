@@ -1517,7 +1517,7 @@ BlazelleEvosAttacks:
 	db 56, DESTINY_BOND
 	db 0 ; no more level-up moves
 
-DodrioEvosAttacks:
+RamboyantEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
@@ -1530,6 +1530,7 @@ DodrioEvosAttacks:
 	db 42, LIQUIDATION
 	db 48, LEAF_BLADE
 	db 51, CROSS_CHOP
+	db 55, BULLET_SEED
 	db 0 ; no more level-up moves
 
 CaddisicleEvosAttacks:
@@ -3969,7 +3970,7 @@ BaafometEvosAttacks:
 
 StiklbratEvosAttacks:
 	db EVOLVE_FISH, SIDFICIOUS
-	db EVOLVE_LEVEL, 35, SALARITO
+	db EVOLVE_LEVEL, 33, SALARITO
 	db 0 ; no more evolutions
 	db 1, WATER_GUN
 	db 1, CHARM
@@ -4009,8 +4010,8 @@ SalaritoEvosAttacks:
 	db 22, BUBBLEBEAM
 	db 26, FOCUS_ENERGY
 	db 32, SUBSTITUTE
-	db 33, MIMIC
-	db 34, PAY_DAY
+	db 32, MIMIC
+	db 32, PAY_DAY
 	db 44, LIQUIDATION
 	db 48, DOUBLE_EDGE
 	db 53, REST

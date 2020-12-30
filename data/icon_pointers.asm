@@ -224,5 +224,6 @@ IconPointers:
 	dw AerfaedraIcon
 	dw GigasynapaIcon
 	dw CerkitaysaIcon
-	
+	dw MacawsairIcon
+	dw SalaritoIcon
 	

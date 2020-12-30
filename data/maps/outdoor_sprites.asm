@@ -165,6 +165,7 @@ EcruteakGroupSprites:
 	db SPRITE_COOLTRAINER_M
 	db SPRITE_BUG_CATCHER
 	db SPRITE_SUPER_NERD
+	db SPRITE_DELINQUENT_M
 	; 8 of max 9 walking sprites
 	db SPRITE_GANZERKER
 	db SPRITE_POKE_BALL
@@ -172,6 +173,7 @@ EcruteakGroupSprites:
 	db SPRITE_SUICUNE
 	db SPRITE_TWIN
 	db SPRITE_WIZARD
+	db SPRITE_LAWNIE
 	db 0 ; end
 
 AzaleaGroupSprites:

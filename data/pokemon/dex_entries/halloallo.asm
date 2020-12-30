@@ -1,10 +1,10 @@
 	db "ENIGMA@" ; species name ; TODO
 	dw 404, 51206 ; height, weight
 
-	db   "This unusual"
-	next "#MON predates"
-	next "most others. It"
+	db   "A strange being"
+	next "whose affiliations"
+	next "are unknown."
 
-	page "is unknown if it"
-	next "was stationary or"
-	next "an apex predator.@"
+	page "Cheerful for an"
+	next "endling, it likes"
+	next "to do handstands.@"

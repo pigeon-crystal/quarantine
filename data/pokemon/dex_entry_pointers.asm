@@ -84,7 +84,7 @@ PokedexDataPointerTable:
 	dw CalfeenPokedexEntry
 	dw AmpalaPokedexEntry
 	dw BlazellePokedexEntry
-	dw DodrioPokedexEntry
+	dw RamboyantPokedexEntry
 	dw CaddisiclePokedexEntry
 	dw JaddicePokedexEntry
 	dw DumbloonPokedexEntry

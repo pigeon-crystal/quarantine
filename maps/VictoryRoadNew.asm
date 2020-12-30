@@ -13,6 +13,7 @@
 	const VICTORY_ROAD_NAOYUKI	
 	const VICTORY_ROAD_LUCY
 	const VICTORY_ROAD_SILVER
+	const VICTORY_ROAD_TELEPORTER
 
 VictoryRoadNew_MapScripts:
 	db 2 ; scene scripts
@@ -505,6 +506,64 @@ VictoryRoadNewRivalVictoryText:
 	done
 
 
+TeleportGuyVRScript:
+	faceplayer
+	opentext
+	writetext TeleportGuyVRText1
+	yesorno
+	iffalse .No
+	writetext TeleportGuyVRYesText
+	waitbutton
+	closetext
+	cry STELLOCEAN
+	playsound SFX_WARP_TO
+	special FadeOutPalettes
+	waitsfx
+	warp VICTORY_ROAD_NEW, 57, 30
+	end
+
+.No:
+	writetext TeleportGuyVRNoText
+	waitbutton
+	closetext
+	end
+	
+TeleportGuyVRText1:
+	text "Hello, trainer!"
+	line "Did you find"
+	
+	para "yourself un-"
+	line "prepared for the"
+	cont "trials ahead?"
+	
+	para "Fear not!"
+	
+	para "I can teleport you"
+	line "back to the cave's"
+	
+	para "entrance with my"
+	line "#MON."
+	
+	para "Would you like to"
+	line "go back?"
+	done
+	
+TeleportGuyVRYesText:
+	text "Alright!"
+	
+	para "STELLOCEAN,"
+	line "use TELEPORT!"
+	done
+	
+TeleportGuyVRNoText:
+	text "Brought all the"
+	line "needed HMs, then?"
+	
+	para "Good, good!"
+	line "Best of luck!"
+	done
+	
+
 VictoryRoadNew_MapEvents:
 	db 0, 0 ; filler
 
@@ -539,7 +598,7 @@ VictoryRoadNew_MapEvents:
 	bg_event 17, 10, BGEVENT_ITEM, VictoryRoadHiddenNugget
 	bg_event 90, 28, BGEVENT_ITEM, VictoryRoadLeafStone
  	
-	db 14 ; object events 
+	db 15 ; object events 
 	object_event  68, 8, SPRITE_BOULDER, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VictoryRoadBoulder, EVENT_BOULDER_IN_VICTORY_ROAD_SIDE_WATER
 	object_event  53, 20, SPRITE_RADICAL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 4, RadicalYasui, -1
 	object_event  60, 28, SPRITE_BREEDER_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 4, BreederMBerman, -1
@@ -554,3 +613,5 @@ VictoryRoadNew_MapEvents:
 	object_event  12, 18, SPRITE_RADICAL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, RadicalNaoyuki, -1
 	object_event  82, 29, SPRITE_BREEDER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, BreederFLucy, -1
 	object_event  87, 9, SPRITE_SILVER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_VICTORY_ROAD
+	object_event  46, 30, SPRITE_WIZARD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, TeleportGuyVRScript, -1
+	

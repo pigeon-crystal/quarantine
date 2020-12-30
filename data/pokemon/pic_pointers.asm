@@ -170,8 +170,8 @@ PokemonPicPointers::
 	dba AmpalaBackpic
 	dba BlazelleFrontpic
 	dba BlazelleBackpic
-	dba DodrioFrontpic
-	dba DodrioBackpic
+	dba RamboyantFrontpic
+	dba RamboyantBackpic
 	dba CaddisicleFrontpic
 	dba CaddisicleBackpic
 	dba JaddiceFrontpic

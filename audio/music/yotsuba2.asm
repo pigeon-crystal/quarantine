@@ -64,6 +64,7 @@ Music_Yotsuba2_Ch1:
 	sound_call .sub2
 	sound_call .sub69
 .mainloop
+	tone $0001
 	transpose 0, 9
 	sound_call .sub3
 	;
@@ -78,31 +79,30 @@ Music_Yotsuba2_Ch1:
 	sound_call .sub1
 	sound_call .sub2
 	transpose 0, 0
-	notetype $9, $30
+	notetype $9, $20
 	note C#, 1
 	octave 3
 	note G_, 1
 	octave 4
 	note C#, 1
 	note D_, 1
-	tone $0000
 	octave 3
 	transpose 0, 4
-	notetype $1, $30
+	notetype $1, $20
 	sound_call .sub5
+	sound_call .sub5
+	notetype $1, $30
 	sound_call .sub5
 	notetype $1, $40
 	sound_call .sub5
-	notetype $1, $50
-	sound_call .sub5
 	transpose 0, 7
+	notetype $1, $50
+	sound_call .sub6
 	notetype $1, $60
 	sound_call .sub6
 	notetype $1, $70
 	sound_call .sub6
 	notetype $1, $80
-	sound_call .sub6
-	notetype $1, $90
 	sound_call .sub6
 	;
 	transpose 0, 6
@@ -125,20 +125,25 @@ Music_Yotsuba2_Ch1:
 	note C_, 1
 	octave 4
 	note C_, 1
-	notetype $1, $70
-	octave 3
-	note C_, 1
-	octave 4
-	note C_, 1
-	octave 3
-	note C_, 1
-	octave 4
-	note C_, 1
 	notetype $1, $60
 	octave 3
 	note C_, 1
 	octave 4
 	note C_, 1
+	octave 3
+	note C_, 1
+	octave 4
+	note C_, 1
+	notetype $1, $50
+	octave 3
+	note C_, 1
+	octave 4
+	note C_, 1
+	octave 3
+	note C_, 1
+	octave 4
+	note C_, 1
+	notetype $1, $40
 	octave 3
 	note C_, 1
 	octave 4
@@ -181,11 +186,6 @@ Music_Yotsuba2_Ch1:
 	notetype $1, $C0
 	octave 3
 	note C_, 1
-	octave 4
-	note C_, 1
-	notetype $1, $D0
-	octave 3
-	note C_, 1
 	transpose 1, 7
 	sound_call .sub9
 	;desync is before here
@@ -333,6 +333,7 @@ Music_Yotsuba2_Ch1:
 	sound_call .sub24
 	sound_call .sub26
 	sound_call .sub27
+	tone $0000
 	transpose 0, 2
 	sound_call .sub28
 	;desync is before here
@@ -345,16 +346,16 @@ Music_Yotsuba2_Ch1:
 	note C_, 1
 	octave 4
 	note C_, 1
-	notetype $1, $80
-	octave 2
-	note D#, 1
-	octave 3
-	note D#, 1
-	octave 2
-	note G_, 1
-	octave 3
-	note G_, 1
 	notetype $1, $70
+	octave 2
+	note D#, 1
+	octave 3
+	note D#, 1
+	octave 2
+	note G_, 1
+	octave 3
+	note G_, 1
+	notetype $1, $60
 	octave 3
 	note C_, 1
 	octave 4
@@ -524,12 +525,12 @@ Music_Yotsuba2_Ch1:
 	sound_call .sub37
 	transpose 0, 0
 	octave 4
-	notetype $9, $86
+	notetype $9, $76
 	note F#, 2
-	notetype $1, $60
+	notetype $1, $50
 	note __, 3
 	;WHY DID I DO THIS TO MYSELF
-	notetype $1, $60
+	notetype $1, $50
 	octave 3
 	dutycycle $0
 	note F_, 1
@@ -560,14 +561,14 @@ Music_Yotsuba2_Ch1:
 	sound_call .sub52
 	sound_call .sub51
 	sound_call .sub51
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub51
 	transpose 0, 9
-	notetype $1, $20
+	notetype $1, $10
 	sound_call .sub51
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub51
-	notetype $1, $60
+	notetype $1, $50
 	sound_call .sub51
 	sound_call .sub52
 	sound_call .sub52
@@ -577,15 +578,15 @@ Music_Yotsuba2_Ch1:
 	sound_call .sub52
 	sound_call .sub51
 	sound_call .sub51
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub51
 	;
 	transpose 0, 6
-	notetype $1, $20
+	notetype $1, $10
 	sound_call .sub53
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub53
-	notetype $1, $60
+	notetype $1, $50
 	sound_call .sub53
 	sound_call .sub54
 	sound_call .sub54
@@ -595,40 +596,40 @@ Music_Yotsuba2_Ch1:
 	sound_call .sub54
 	sound_call .sub53
 	sound_call .sub53
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub53
-	notetype $1, $20
+	notetype $1, $10
 	sound_call .sub55
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub55
-	notetype $1, $60
+	notetype $1, $50
 	sound_call .sub55
 	sound_call .sub56
 	sound_call .sub56
 	sound_call .sub55
 	sound_call .sub55
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub55
 	transpose 0, 9
-	notetype $1, $20
+	notetype $1, $10
 	sound_call .sub51
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub51
-	notetype $1, $60
+	notetype $1, $50
 	sound_call .sub51
 	sound_call .sub52
 	sound_call .sub52
 	sound_call .sub51
 	sound_call .sub51
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub51
 	;
 	transpose 0, 7
-	notetype $1, $20
+	notetype $1, $10
 	sound_call .sub57
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub57
-	notetype $1, $60
+	notetype $1, $50
 	sound_call .sub57
 	sound_call .sub58
 	sound_call .sub58
@@ -638,14 +639,14 @@ Music_Yotsuba2_Ch1:
 	sound_call .sub58
 	sound_call .sub57
 	sound_call .sub57
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub57
 	transpose 0, 6
-	notetype $1, $20
+	notetype $1, $10
 	sound_call .sub59
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub59
-	notetype $1, $60
+	notetype $1, $50
 	sound_call .sub59
 	sound_call .sub60
 	sound_call .sub60
@@ -655,10 +656,26 @@ Music_Yotsuba2_Ch1:
 	sound_call .sub60
 	sound_call .sub59
 	sound_call .sub59
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub59
 	;hahaha
-	notetype $1, $A0
+	notetype $1, $90
+	sound_call .sub55
+	notetype $1, $80
+	sound_call .sub55
+	notetype $1, $70
+	sound_call .sub55
+	notetype $1, $60
+	sound_call .sub55
+	notetype $1, $50
+	sound_call .sub55
+	notetype $1, $40
+	sound_call .sub55
+	notetype $1, $90
+	sound_call .sub55
+	notetype $1, $80
+	sound_call .sub55
+	notetype $1, $70
 	sound_call .sub55
 	notetype $1, $90
 	sound_call .sub55
@@ -670,26 +687,8 @@ Music_Yotsuba2_Ch1:
 	sound_call .sub55
 	notetype $1, $50
 	sound_call .sub55
-	notetype $1, $A0
+	notetype $1, $40
 	sound_call .sub55
-	notetype $1, $90
-	sound_call .sub55
-	notetype $1, $80
-	sound_call .sub55
-	notetype $1, $A0
-	sound_call .sub55
-	notetype $1, $90
-	sound_call .sub55
-	notetype $1, $80
-	sound_call .sub55
-	notetype $1, $70
-	sound_call .sub55
-	notetype $1, $60
-	sound_call .sub55
-	notetype $1, $50
-	sound_call .sub55
-	notetype $1, $A0
-	sound_call .sub61
 	notetype $1, $90
 	sound_call .sub61
 	notetype $1, $80
@@ -700,8 +699,8 @@ Music_Yotsuba2_Ch1:
 	sound_call .sub61
 	notetype $1, $50
 	sound_call .sub61
-	notetype $1, $A0
-	sound_call .sub53
+	notetype $1, $40
+	sound_call .sub61
 	notetype $1, $90
 	sound_call .sub53
 	notetype $1, $80
@@ -709,12 +708,12 @@ Music_Yotsuba2_Ch1:
 	notetype $1, $70
 	sound_call .sub53
 	notetype $1, $60
+	sound_call .sub53
+	notetype $1, $50
 	sound_call .sub53
 	sound_call .sub53
 	sound_call .sub54
 	transpose 0, 7
-	notetype $1, $A0
-	sound_call .sub57
 	notetype $1, $90
 	sound_call .sub57
 	notetype $1, $80
@@ -725,9 +724,9 @@ Music_Yotsuba2_Ch1:
 	sound_call .sub57
 	notetype $1, $50
 	sound_call .sub57
-	transpose 0, 9
-	notetype $1, $A0
+	notetype $1, $40
 	sound_call .sub57
+	transpose 0, 9
 	notetype $1, $90
 	sound_call .sub57
 	notetype $1, $80
@@ -735,6 +734,8 @@ Music_Yotsuba2_Ch1:
 	notetype $1, $70
 	sound_call .sub57
 	notetype $1, $60
+	sound_call .sub57
+	notetype $1, $50
 	transpose 0, 0
 	sound_call .sub50
 	;
@@ -748,14 +749,14 @@ Music_Yotsuba2_Ch1:
 	sound_call .sub52
 	sound_call .sub51
 	sound_call .sub51
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub51
 	transpose 0, 9
-	notetype $1, $20
+	notetype $1, $10
 	sound_call .sub51
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub51
-	notetype $1, $60
+	notetype $1, $50
 	sound_call .sub51
 	sound_call .sub52
 	sound_call .sub52
@@ -765,15 +766,15 @@ Music_Yotsuba2_Ch1:
 	sound_call .sub52
 	sound_call .sub51
 	sound_call .sub51
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub51
 	;
 	transpose 0, 6
-	notetype $1, $20
+	notetype $1, $10
 	sound_call .sub53
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub53
-	notetype $1, $60
+	notetype $1, $50
 	sound_call .sub53
 	sound_call .sub54
 	sound_call .sub54
@@ -783,40 +784,40 @@ Music_Yotsuba2_Ch1:
 	sound_call .sub54
 	sound_call .sub53
 	sound_call .sub53
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub53
-	notetype $1, $20
+	notetype $1, $10
 	sound_call .sub55
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub55
-	notetype $1, $60
+	notetype $1, $50
 	sound_call .sub55
 	sound_call .sub56
 	sound_call .sub56
 	sound_call .sub55
 	sound_call .sub55
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub55
 	transpose 0, 4
-	notetype $1, $20
+	notetype $1, $10
 	sound_call .sub63
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub63
-	notetype $1, $60
+	notetype $1, $50
 	sound_call .sub63
 	sound_call .sub64
 	sound_call .sub64
 	sound_call .sub63
 	sound_call .sub63
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub63
 	;
 	transpose 0, 7
-	notetype $1, $20
+	notetype $1, $10
 	sound_call .sub51
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub51
-	notetype $1, $60
+	notetype $1, $50
 	sound_call .sub51
 	sound_call .sub52
 	sound_call .sub52
@@ -826,14 +827,14 @@ Music_Yotsuba2_Ch1:
 	sound_call .sub52
 	sound_call .sub51
 	sound_call .sub51
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub51
 	transpose 0, 9
-	notetype $1, $20
+	notetype $1, $10
 	sound_call .sub51
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub51
-	notetype $1, $60
+	notetype $1, $50
 	sound_call .sub51
 	sound_call .sub52
 	sound_call .sub52
@@ -843,94 +844,94 @@ Music_Yotsuba2_Ch1:
 	sound_call .sub52
 	sound_call .sub51
 	sound_call .sub51
-	notetype $1, $40
+	notetype $1, $30
 	sound_call .sub51
 	;out of the frying pan and into the fire
 	transpose 0, 0
 	octave 4
-	notetype $1, $A0
-	note G_, 2
 	notetype $1, $90
-	note B_, 2
+	note G_, 2
 	notetype $1, $80
-	note G_, 2
-	notetype $1, $70
 	note B_, 2
-	notetype $1, $60
+	notetype $1, $70
 	note G_, 2
+	notetype $1, $60
+	note B_, 2
 	notetype $1, $50
-	note B_, 2
+	note G_, 2
 	notetype $1, $40
-	note G_, 2
-	notetype $1, $30
 	note B_, 2
-	notetype $1, $20
+	notetype $1, $30
 	note G_, 2
-	notetype $1, $A0
+	notetype $1, $20
+	note B_, 2
+	notetype $1, $10
 	note G_, 2
 	notetype $1, $90
-	note B_, 2
-	notetype $1, $80
 	note G_, 2
-	notetype $1, $70
+	notetype $1, $80
 	note B_, 2
+	notetype $1, $70
+	note G_, 2
 	notetype $1, $60
+	note B_, 2
+	notetype $1, $50
 	note G_, 1
-	notetype $1, $A0
+	notetype $1, $90
+	note G_, 2
+	notetype $1, $80
+	note B_, 2
+	notetype $1, $70
+	note G_, 2
+	notetype $1, $60
+	note B_, 2
+	notetype $1, $50
+	note G_, 2
+	notetype $1, $40
+	note B_, 2
+	notetype $1, $30
+	note G_, 2
+	notetype $1, $20
+	note B_, 2
+	notetype $1, $10
 	note G_, 2
 	notetype $1, $90
-	note B_, 2
+	note G_, 2
 	notetype $1, $80
-	note G_, 2
+	note B_, 2
 	notetype $1, $70
-	note B_, 2
+	note G_, 2
 	notetype $1, $60
-	note G_, 2
+	note B_, 2
 	notetype $1, $50
-	note B_, 2
+	note G_, 2
 	notetype $1, $40
-	note G_, 2
-	notetype $1, $30
 	note B_, 2
-	notetype $1, $20
+	notetype $1, $30
 	note G_, 2
-	notetype $1, $A0
+	notetype $1, $20
+	note B_, 2
+	notetype $1, $10
 	note G_, 2
 	notetype $1, $90
-	note B_, 2
+	note A#, 2
 	notetype $1, $80
-	note G_, 2
+	note F#, 2
 	notetype $1, $70
-	note B_, 2
+	note A#, 2
 	notetype $1, $60
-	note G_, 2
+	note F#, 2
 	notetype $1, $50
-	note B_, 2
+	note A#, 2
 	notetype $1, $40
-	note G_, 2
+	note F#, 2
 	notetype $1, $30
-	note B_, 2
+	note A#, 2
 	notetype $1, $20
-	note G_, 2
-	notetype $1, $A0
-	note A#, 2
-	notetype $1, $90
 	note F#, 2
-	notetype $1, $80
+	notetype $1, $10
 	note A#, 2
-	notetype $1, $70
-	note F#, 2
-	notetype $1, $60
-	note A#, 2
-	notetype $1, $50
-	note F#, 2
-	notetype $1, $40
-	note A#, 2
-	notetype $1, $30
-	note F#, 2
-	notetype $1, $20
-	note A#, 2
-	notetype $9, $57
+	notetype $9, $47
 	octave 2
 	note __, 1
 	note A_, 1
@@ -940,7 +941,7 @@ Music_Yotsuba2_Ch1:
 	note D_, 1
 	;desync is before here
 	note __, 1
-	notetype $1, $62
+	notetype $1, $52
 	dutycycle $2
 	tone $0000
 	transpose 4, 11
@@ -1146,14 +1147,14 @@ Music_Yotsuba2_Ch1:
 	; see, this bit COULD be optimised, but to do so would mean i use more than 69 subroutines
 	transpose 0, 0
 	dutycycle $1
-	notetype $1, $90
+	notetype $1, $80
 	octave 3
 	note F#, 2
 	octave 4
 	note D_, 2
 	octave 3
 	note F#, 2
-	notetype $1, $70
+	notetype $1, $60
 	octave 4
 	note D_, 2
 	octave 3
@@ -1166,30 +1167,26 @@ Music_Yotsuba2_Ch1:
 	note D_, 2
 	octave 3
 	note F#, 2
-	notetype $1, $90
+	notetype $1, $80
 	octave 3
 	note F#, 2
 	octave 4
 	note D_, 2
 	octave 3
 	note F#, 2
-	notetype $1, $70
+	notetype $1, $60
 	octave 4
 	note D_, 2
 	octave 3
 	note F#, 1
-	notetype $1, $90
+	notetype $1, $80
 	octave 3
 	note F#, 2
 	octave 4
 	note C#, 2
 	octave 3
 	note F#, 2
-	notetype $1, $70
-	octave 4
-	note C#, 2
-	octave 3
-	note F#, 2
+	notetype $1, $60
 	octave 4
 	note C#, 2
 	octave 3
@@ -1198,14 +1195,18 @@ Music_Yotsuba2_Ch1:
 	note C#, 2
 	octave 3
 	note F#, 2
-	notetype $1, $90
+	octave 4
+	note C#, 2
+	octave 3
+	note F#, 2
+	notetype $1, $80
 	octave 3
 	note F#, 2
 	octave 4
 	note D_, 2
 	octave 3
 	note F#, 2
-	notetype $1, $70
+	notetype $1, $60
 	octave 4
 	note D_, 2
 	octave 3
@@ -1218,14 +1219,14 @@ Music_Yotsuba2_Ch1:
 	note D_, 2
 	octave 3
 	note F#, 2
-	notetype $1, $90
+	notetype $1, $80
 	octave 3
 	note F#, 2
 	octave 4
 	note E_, 2
 	octave 3
 	note F#, 2
-	notetype $1, $70
+	notetype $1, $60
 	octave 4
 	note E_, 2
 	octave 3
@@ -1248,18 +1249,14 @@ Music_Yotsuba2_Ch1:
 	note F#, 2
 	octave 4
 	note E_, 1
-	notetype $1, $90
+	notetype $1, $80
 	octave 3
 	note F#, 2
 	octave 4
 	note E_, 2
 	octave 3
 	note F#, 2
-	notetype $1, $70
-	octave 4
-	note E_, 2
-	octave 3
-	note F#, 2
+	notetype $1, $60
 	octave 4
 	note E_, 2
 	octave 3
@@ -1268,14 +1265,18 @@ Music_Yotsuba2_Ch1:
 	note E_, 2
 	octave 3
 	note F#, 2
-	notetype $1, $90
+	octave 4
+	note E_, 2
+	octave 3
+	note F#, 2
+	notetype $1, $80
 	octave 3
 	note F#, 2
 	octave 4
 	note D_, 2
 	octave 3
 	note F#, 2
-	notetype $1, $70
+	notetype $1, $60
 	octave 4
 	note D_, 2
 	octave 3
@@ -1288,14 +1289,9 @@ Music_Yotsuba2_Ch1:
 	note D_, 2
 	octave 3
 	note F#, 2
-	notetype $1, $90
+	notetype $1, $80
 	octave 3
 	note F#, 2
-	octave 4
-	note D_, 2
-	octave 3
-	note F#, 2
-	notetype $1, $70
 	octave 4
 	note D_, 2
 	octave 3
@@ -1310,8 +1306,13 @@ Music_Yotsuba2_Ch1:
 	note D_, 2
 	octave 3
 	note F#, 2
+	notetype $1, $40
+	octave 4
+	note D_, 2
+	octave 3
+	note F#, 2
 	;
-	notetype $1, $62
+	notetype $1, $52
 	dutycycle $2
 	transpose 3, 7
 	sound_call .sub65
@@ -1483,7 +1484,7 @@ Music_Yotsuba2_Ch1:
 	sound_call .sub65
 	transpose 2, 0
 	sound_call .sub66
-	notetype $1, $52
+	notetype $1, $42
 	transpose 2, 4
 	sound_call .sub65
 	transpose 2, 7
@@ -1492,7 +1493,7 @@ Music_Yotsuba2_Ch1:
 	sound_call .sub65
 	transpose 1, 4
 	sound_call .sub66
-	notetype $1, $42
+	notetype $1, $32
 	transpose 1, 7
 	sound_call .sub65
 	transpose 1, 4
@@ -1501,7 +1502,7 @@ Music_Yotsuba2_Ch1:
 	sound_call .sub65
 	transpose 0, 0
 	sound_call .sub66
-	notetype $1, $32
+	notetype $1, $22
 	transpose 1, 7
 	sound_call .sub65
 	transpose 0, 0
@@ -1512,7 +1513,7 @@ Music_Yotsuba2_Ch1:
 	sound_call .sub68
 	;
 	transpose 0, 0
-	notetype $9, $97
+	notetype $9, $87
 	dutycycle $1
 	octave 3
 	note G#, 3
@@ -1530,7 +1531,7 @@ Music_Yotsuba2_Ch1:
 	transpose 0, 0
 	dutycycle $3
 	tone $0000
-	notetype $9, $B3
+	notetype $9, $A3
 	octave 3
 	note B_, 1
 	octave 4
@@ -1556,7 +1557,7 @@ Music_Yotsuba2_Ch1:
 	sound_loop 0, .mainloop
 	
 .sub1: ;minor 1st half
-	notetype $1, $D0
+	notetype $1, $C0
 	dutycycle $1
 	octave 3
 	note C_, 1
@@ -1566,17 +1567,17 @@ Music_Yotsuba2_Ch1:
 	note D#, 1
 	octave 3
 	note D#, 1
-	notetype $1, $C0
-	octave 2
-	note G_, 1
-	octave 3
-	note G_, 1
-	octave 3
-	note C_, 1
-	octave 4
-	note C_, 1
 	notetype $1, $B0
 	octave 2
+	note G_, 1
+	octave 3
+	note G_, 1
+	octave 3
+	note C_, 1
+	octave 4
+	note C_, 1
+	notetype $1, $A0
+	octave 2
 	note D#, 1
 	octave 3
 	note D#, 1
@@ -1584,7 +1585,7 @@ Music_Yotsuba2_Ch1:
 	note G_, 1
 	octave 3
 	note G_, 1
-	notetype $1, $A0
+	notetype $1, $90
 	octave 3
 	note C_, 1
 	octave 4
@@ -1593,7 +1594,7 @@ Music_Yotsuba2_Ch1:
 	note D#, 1
 	octave 3
 	note D#, 1
-	notetype $1, $90
+	notetype $1, $80
 	octave 2
 	note G_, 1
 	octave 3
@@ -1604,25 +1605,25 @@ Music_Yotsuba2_Ch1:
 	note C_, 1
 	octave 4
 	note C_, 1
-	notetype $1, $80
-	octave 2
-	note D#, 1
-	octave 3
-	note D#, 1
-	octave 2
-	note G_, 1
-	octave 3
-	note G_, 1
 	notetype $1, $70
-	octave 3
-	note C_, 1
-	octave 4
-	note C_, 1
 	octave 2
 	note D#, 1
 	octave 3
 	note D#, 1
+	octave 2
+	note G_, 1
+	octave 3
+	note G_, 1
 	notetype $1, $60
+	octave 3
+	note C_, 1
+	octave 4
+	note C_, 1
+	octave 2
+	note D#, 1
+	octave 3
+	note D#, 1
+	notetype $1, $50
 	octave 2
 	note G_, 1
 	octave 3
@@ -1631,7 +1632,7 @@ Music_Yotsuba2_Ch1:
 	note C_, 1
 	octave 4
 	note C_, 1
-	notetype $1, $50
+	notetype $1, $40
 	octave 2
 	note D#, 1
 	octave 3
@@ -1642,7 +1643,7 @@ Music_Yotsuba2_Ch1:
 	note G_, 1
 	sound_ret
 .sub3: ;major 1st half
-	notetype $1, $D0
+	notetype $1, $C0
 	dutycycle $1
 	octave 3
 	note C_, 1
@@ -1652,17 +1653,17 @@ Music_Yotsuba2_Ch1:
 	note E_, 1
 	octave 3
 	note E_, 1
-	notetype $1, $C0
-	octave 2
-	note G_, 1
-	octave 3
-	note G_, 1
-	octave 3
-	note C_, 1
-	octave 4
-	note C_, 1
 	notetype $1, $B0
 	octave 2
+	note G_, 1
+	octave 3
+	note G_, 1
+	octave 3
+	note C_, 1
+	octave 4
+	note C_, 1
+	notetype $1, $A0
+	octave 2
 	note E_, 1
 	octave 3
 	note E_, 1
@@ -1670,7 +1671,7 @@ Music_Yotsuba2_Ch1:
 	note G_, 1
 	octave 3
 	note G_, 1
-	notetype $1, $A0
+	notetype $1, $90
 	octave 3
 	note C_, 1
 	octave 4
@@ -1679,7 +1680,7 @@ Music_Yotsuba2_Ch1:
 	note E_, 1
 	octave 3
 	note E_, 1
-	notetype $1, $90
+	notetype $1, $80
 	octave 2
 	note G_, 1
 	octave 3
@@ -1690,25 +1691,25 @@ Music_Yotsuba2_Ch1:
 	note C_, 1
 	octave 4
 	note C_, 1
-	notetype $1, $80
-	octave 2
-	note E_, 1
-	octave 3
-	note E_, 1
-	octave 2
-	note G_, 1
-	octave 3
-	note G_, 1
 	notetype $1, $70
-	octave 3
-	note C_, 1
-	octave 4
-	note C_, 1
 	octave 2
 	note E_, 1
 	octave 3
 	note E_, 1
+	octave 2
+	note G_, 1
+	octave 3
+	note G_, 1
 	notetype $1, $60
+	octave 3
+	note C_, 1
+	octave 4
+	note C_, 1
+	octave 2
+	note E_, 1
+	octave 3
+	note E_, 1
+	notetype $1, $50
 	octave 2
 	note G_, 1
 	octave 3
@@ -1717,7 +1718,7 @@ Music_Yotsuba2_Ch1:
 	note C_, 1
 	octave 4
 	note C_, 1
-	notetype $1, $50
+	notetype $1, $40
 	octave 2
 	note E_, 1
 	octave 3
@@ -1762,15 +1763,6 @@ Music_Yotsuba2_Ch1:
 	note A_, 1
 	sound_ret
 .sub7: ;arps part 1
-	notetype $1, $C0
-	octave 3
-	note C_, 1
-	octave 4
-	note C_, 1
-	octave 3
-	note C_, 1
-	octave 4
-	note C_, 1
 	notetype $1, $B0
 	octave 3
 	note C_, 1
@@ -1781,6 +1773,15 @@ Music_Yotsuba2_Ch1:
 	octave 4
 	note C_, 1
 	notetype $1, $A0
+	octave 3
+	note C_, 1
+	octave 4
+	note C_, 1
+	octave 3
+	note C_, 1
+	octave 4
+	note C_, 1
+	notetype $1, $90
 	octave 3
 	note C_, 1
 	sound_ret
@@ -1791,31 +1792,22 @@ Music_Yotsuba2_Ch1:
 	note C_, 1
 	octave 4
 	note C_, 1
-	notetype $1, $90
-	octave 3
-	note C_, 1
-	octave 4
-	note C_, 1
-	octave 3
-	note C_, 1
-	octave 4
-	note C_, 1
 	notetype $1, $80
+	octave 3
+	note C_, 1
+	octave 4
+	note C_, 1
+	octave 3
+	note C_, 1
+	octave 4
+	note C_, 1
+	notetype $1, $70
 	octave 3
 	note C_, 1
 	octave 4
 	note C_, 1
 	sound_ret
 .sub9: ;0 7 D-9
-	notetype $1, $D0
-	octave 4
-	note C_, 1
-	octave 5
-	note C_, 1
-	octave 3
-	note G_, 1
-	octave 4
-	note G_, 1
 	notetype $1, $C0
 	octave 4
 	note C_, 1
@@ -1848,14 +1840,17 @@ Music_Yotsuba2_Ch1:
 	note C_, 1
 	octave 5
 	note C_, 1
+	octave 3
+	note G_, 1
+	octave 4
+	note G_, 1
+	notetype $1, $80
+	octave 4
+	note C_, 1
+	octave 5
+	note C_, 1
 	sound_ret
 .sub10: ;ughhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh this used to be well named but pokecrystal doesn't like good subset names so
-	notetype $1, $A0
-	dutycycle $0
-	note C_, 1
-	note F_, 1
-	dutycycle $1
-	note G_, 1
 	notetype $1, $90
 	dutycycle $0
 	note C_, 1
@@ -1863,6 +1858,12 @@ Music_Yotsuba2_Ch1:
 	dutycycle $1
 	note G_, 1
 	notetype $1, $80
+	dutycycle $0
+	note C_, 1
+	note F_, 1
+	dutycycle $1
+	note G_, 1
+	notetype $1, $70
 	dutycycle $0
 	note C_, 1
 	note F_, 1
@@ -1870,12 +1871,6 @@ Music_Yotsuba2_Ch1:
 	note G_, 1
 	sound_ret
 .sub11:
-	notetype $1, $70
-	dutycycle $0
-	note C_, 1
-	note F_, 1
-	dutycycle $1
-	note G_, 1
 	notetype $1, $60
 	dutycycle $0
 	note C_, 1
@@ -1883,6 +1878,12 @@ Music_Yotsuba2_Ch1:
 	dutycycle $1
 	note G_, 1
 	notetype $1, $50
+	dutycycle $0
+	note C_, 1
+	note F_, 1
+	dutycycle $1
+	note G_, 1
+	notetype $1, $40
 	dutycycle $0
 	note C_, 1
 	note F_, 1
@@ -1890,12 +1891,6 @@ Music_Yotsuba2_Ch1:
 	note G_, 1
 	sound_ret
 .sub12
-	notetype $1, $A0
-	dutycycle $0
-	note C_, 1
-	note F_, 1
-	dutycycle $1
-	note F#, 1
 	notetype $1, $90
 	dutycycle $0
 	note C_, 1
@@ -1903,6 +1898,12 @@ Music_Yotsuba2_Ch1:
 	dutycycle $1
 	note F#, 1
 	notetype $1, $80
+	dutycycle $0
+	note C_, 1
+	note F_, 1
+	dutycycle $1
+	note F#, 1
+	notetype $1, $70
 	dutycycle $0
 	note C_, 1
 	note F_, 1
@@ -1910,12 +1911,6 @@ Music_Yotsuba2_Ch1:
 	note F#, 1
 	sound_ret
 .sub13:
-	notetype $1, $70
-	dutycycle $0
-	note C_, 1
-	note F_, 1
-	dutycycle $1
-	note F#, 1
 	notetype $1, $60
 	dutycycle $0
 	note C_, 1
@@ -1923,6 +1918,12 @@ Music_Yotsuba2_Ch1:
 	dutycycle $1
 	note F#, 1
 	notetype $1, $50
+	dutycycle $0
+	note C_, 1
+	note F_, 1
+	dutycycle $1
+	note F#, 1
+	notetype $1, $40
 	dutycycle $0
 	note C_, 1
 	note F_, 1
@@ -1930,12 +1931,6 @@ Music_Yotsuba2_Ch1:
 	note F#, 1
 	sound_ret
 .sub14:
-	notetype $1, $A0
-	dutycycle $0
-	note C_, 1
-	note F_, 1
-	dutycycle $1
-	note G#, 1
 	notetype $1, $90
 	dutycycle $0
 	note C_, 1
@@ -1943,6 +1938,12 @@ Music_Yotsuba2_Ch1:
 	dutycycle $1
 	note G#, 1
 	notetype $1, $80
+	dutycycle $0
+	note C_, 1
+	note F_, 1
+	dutycycle $1
+	note G#, 1
+	notetype $1, $70
 	dutycycle $0
 	note C_, 1
 	note F_, 1
@@ -1950,12 +1951,6 @@ Music_Yotsuba2_Ch1:
 	note G#, 1
 	sound_ret
 .sub15:
-	notetype $1, $70
-	dutycycle $0
-	note C_, 1
-	note F_, 1
-	dutycycle $1
-	note G#, 1
 	notetype $1, $60
 	dutycycle $0
 	note C_, 1
@@ -1963,6 +1958,12 @@ Music_Yotsuba2_Ch1:
 	dutycycle $1
 	note G#, 1
 	notetype $1, $50
+	dutycycle $0
+	note C_, 1
+	note F_, 1
+	dutycycle $1
+	note G#, 1
+	notetype $1, $40
 	dutycycle $0
 	note C_, 1
 	note F_, 1
@@ -1970,12 +1971,6 @@ Music_Yotsuba2_Ch1:
 	note G#, 1
 	sound_ret
 .sub16:
-	notetype $1, $A0
-	dutycycle $0
-	note C_, 1
-	note F_, 1
-	dutycycle $1
-	note A#, 1
 	notetype $1, $90
 	dutycycle $0
 	note C_, 1
@@ -1983,6 +1978,12 @@ Music_Yotsuba2_Ch1:
 	dutycycle $1
 	note A#, 1
 	notetype $1, $80
+	dutycycle $0
+	note C_, 1
+	note F_, 1
+	dutycycle $1
+	note A#, 1
+	notetype $1, $70
 	dutycycle $0
 	note C_, 1
 	note F_, 1
@@ -1990,12 +1991,6 @@ Music_Yotsuba2_Ch1:
 	note A#, 1
 	sound_ret
 .sub17:
-	notetype $1, $70
-	dutycycle $0
-	note C_, 1
-	note F_, 1
-	dutycycle $1
-	note A#, 1
 	notetype $1, $60
 	dutycycle $0
 	note C_, 1
@@ -2003,6 +1998,12 @@ Music_Yotsuba2_Ch1:
 	dutycycle $1
 	note A#, 1
 	notetype $1, $50
+	dutycycle $0
+	note C_, 1
+	note F_, 1
+	dutycycle $1
+	note A#, 1
+	notetype $1, $40
 	dutycycle $0
 	note C_, 1
 	note F_, 1
@@ -2010,12 +2011,6 @@ Music_Yotsuba2_Ch1:
 	note A#, 1
 	sound_ret
 .sub18:
-	notetype $1, $A0
-	dutycycle $0
-	note C_, 1
-	note E_, 1
-	dutycycle $1
-	note G_, 1
 	notetype $1, $90
 	dutycycle $0
 	note C_, 1
@@ -2023,6 +2018,12 @@ Music_Yotsuba2_Ch1:
 	dutycycle $1
 	note G_, 1
 	notetype $1, $80
+	dutycycle $0
+	note C_, 1
+	note E_, 1
+	dutycycle $1
+	note G_, 1
+	notetype $1, $70
 	dutycycle $0
 	note C_, 1
 	note E_, 1
@@ -2030,12 +2031,6 @@ Music_Yotsuba2_Ch1:
 	note G_, 1
 	sound_ret
 .sub19:
-	notetype $1, $70
-	dutycycle $0
-	note C_, 1
-	note E_, 1
-	dutycycle $1
-	note G_, 1
 	notetype $1, $60
 	dutycycle $0
 	note C_, 1
@@ -2043,6 +2038,12 @@ Music_Yotsuba2_Ch1:
 	dutycycle $1
 	note G_, 1
 	notetype $1, $50
+	dutycycle $0
+	note C_, 1
+	note E_, 1
+	dutycycle $1
+	note G_, 1
+	notetype $1, $40
 	dutycycle $0
 	note C_, 1
 	note E_, 1
@@ -2050,12 +2051,6 @@ Music_Yotsuba2_Ch1:
 	note G_, 1
 	sound_ret
 .sub20:
-	notetype $1, $A0
-	dutycycle $0
-	note C_, 1
-	note E_, 1
-	dutycycle $1
-	note F#, 1
 	notetype $1, $90
 	dutycycle $0
 	note C_, 1
@@ -2063,6 +2058,12 @@ Music_Yotsuba2_Ch1:
 	dutycycle $1
 	note F#, 1
 	notetype $1, $80
+	dutycycle $0
+	note C_, 1
+	note E_, 1
+	dutycycle $1
+	note F#, 1
+	notetype $1, $70
 	dutycycle $0
 	note C_, 1
 	note E_, 1
@@ -2070,12 +2071,6 @@ Music_Yotsuba2_Ch1:
 	note F#, 1
 	sound_ret
 .sub21:
-	notetype $1, $70
-	dutycycle $0
-	note C_, 1
-	note E_, 1
-	dutycycle $1
-	note F#, 1
 	notetype $1, $60
 	dutycycle $0
 	note C_, 1
@@ -2083,6 +2078,12 @@ Music_Yotsuba2_Ch1:
 	dutycycle $1
 	note F#, 1
 	notetype $1, $50
+	dutycycle $0
+	note C_, 1
+	note E_, 1
+	dutycycle $1
+	note F#, 1
+	notetype $1, $40
 	dutycycle $0
 	note C_, 1
 	note E_, 1
@@ -2090,12 +2091,6 @@ Music_Yotsuba2_Ch1:
 	note F#, 1
 	sound_ret
 .sub22:
-	notetype $1, $A0
-	dutycycle $0
-	note C_, 1
-	note E_, 1
-	dutycycle $1
-	note A_, 1
 	notetype $1, $90
 	dutycycle $0
 	note C_, 1
@@ -2103,6 +2098,12 @@ Music_Yotsuba2_Ch1:
 	dutycycle $1
 	note A_, 1
 	notetype $1, $80
+	dutycycle $0
+	note C_, 1
+	note E_, 1
+	dutycycle $1
+	note A_, 1
+	notetype $1, $70
 	dutycycle $0
 	note C_, 1
 	note E_, 1
@@ -2110,12 +2111,6 @@ Music_Yotsuba2_Ch1:
 	note A_, 1
 	sound_ret
 .sub23:
-	notetype $1, $70
-	dutycycle $0
-	note C_, 1
-	note E_, 1
-	dutycycle $1
-	note A_, 1
 	notetype $1, $60
 	dutycycle $0
 	note C_, 1
@@ -2123,6 +2118,12 @@ Music_Yotsuba2_Ch1:
 	dutycycle $1
 	note A_, 1
 	notetype $1, $50
+	dutycycle $0
+	note C_, 1
+	note E_, 1
+	dutycycle $1
+	note A_, 1
+	notetype $1, $40
 	dutycycle $0
 	note C_, 1
 	note E_, 1
@@ -2130,12 +2131,6 @@ Music_Yotsuba2_Ch1:
 	note A_, 1
 	sound_ret
 .sub24:
-	notetype $1, $A0
-	dutycycle $0
-	note C_, 1
-	note E_, 1
-	dutycycle $1
-	note G#, 1
 	notetype $1, $90
 	dutycycle $0
 	note C_, 1
@@ -2143,6 +2138,12 @@ Music_Yotsuba2_Ch1:
 	dutycycle $1
 	note G#, 1
 	notetype $1, $80
+	dutycycle $0
+	note C_, 1
+	note E_, 1
+	dutycycle $1
+	note G#, 1
+	notetype $1, $70
 	dutycycle $0
 	note C_, 1
 	note E_, 1
@@ -2150,12 +2151,6 @@ Music_Yotsuba2_Ch1:
 	note G#, 1
 	sound_ret
 .sub25:
-	notetype $1, $70
-	dutycycle $0
-	note C_, 1
-	note E_, 1
-	dutycycle $1
-	note G#, 1
 	notetype $1, $60
 	dutycycle $0
 	note C_, 1
@@ -2168,14 +2163,14 @@ Music_Yotsuba2_Ch1:
 	note E_, 1
 	dutycycle $1
 	note G#, 1
-	sound_ret
-.sub26:
-	notetype $1, $A0
+	notetype $1, $40
 	dutycycle $0
 	note C_, 1
 	note E_, 1
 	dutycycle $1
-	note A#, 1
+	note G#, 1
+	sound_ret
+.sub26:
 	notetype $1, $90
 	dutycycle $0
 	note C_, 1
@@ -2188,14 +2183,14 @@ Music_Yotsuba2_Ch1:
 	note E_, 1
 	dutycycle $1
 	note A#, 1
-	sound_ret
-.sub27:
 	notetype $1, $70
 	dutycycle $0
 	note C_, 1
 	note E_, 1
 	dutycycle $1
 	note A#, 1
+	sound_ret
+.sub27:
 	notetype $1, $60
 	dutycycle $0
 	note C_, 1
@@ -2208,17 +2203,14 @@ Music_Yotsuba2_Ch1:
 	note E_, 1
 	dutycycle $1
 	note A#, 1
+	notetype $1, $40
+	dutycycle $0
+	note C_, 1
+	note E_, 1
+	dutycycle $1
+	note A#, 1
 	sound_ret
 .sub28: ;0 5 D-9
-	notetype $1, $D0
-	octave 4
-	note C_, 1
-	octave 5
-	note C_, 1
-	octave 3
-	note F_, 1
-	octave 4
-	note F_, 1
 	notetype $1, $C0
 	octave 4
 	note C_, 1
@@ -2251,9 +2243,18 @@ Music_Yotsuba2_Ch1:
 	note C_, 1
 	octave 5
 	note C_, 1
+	octave 3
+	note F_, 1
+	octave 4
+	note F_, 1
+	notetype $1, $80
+	octave 4
+	note C_, 1
+	octave 5
+	note C_, 1
 	sound_ret
 .sub29: ;12accent 01 lead cut early
-	notetype $1, $67
+	notetype $1, $57
 	octave 4
 	dutycycle $0
 	note C_, 1
@@ -2263,17 +2264,17 @@ Music_Yotsuba2_Ch1:
 	note __, 5
 	sound_ret
 .sub30: ;12accent 01 lead
-	notetype $1, $67
+	notetype $1, $57
 	octave 4
 	dutycycle $0
 	note C_, 1
 	octave 3
 	dutycycle $1
 	note C_, 8
-	notetype $9, $57
+	notetype $9, $47
 	sound_ret
 .sub31: ;minor end half way through 6
-	notetype $1, $A0
+	notetype $1, $90
 	dutycycle $1
 	octave 3
 	note C_, 1
@@ -2283,17 +2284,17 @@ Music_Yotsuba2_Ch1:
 	note D#, 1
 	octave 3
 	note D#, 1
-	notetype $1, $90
-	octave 2
-	note G_, 1
-	octave 3
-	note G_, 1
-	octave 3
-	note C_, 1
-	octave 4
-	note C_, 1
 	notetype $1, $80
 	octave 2
+	note G_, 1
+	octave 3
+	note G_, 1
+	octave 3
+	note C_, 1
+	octave 4
+	note C_, 1
+	notetype $1, $70
+	octave 2
 	note D#, 1
 	octave 3
 	note D#, 1
@@ -2301,7 +2302,7 @@ Music_Yotsuba2_Ch1:
 	note G_, 1
 	octave 3
 	note G_, 1
-	notetype $1, $70
+	notetype $1, $60
 	octave 3
 	note C_, 1
 	octave 4
@@ -2310,7 +2311,7 @@ Music_Yotsuba2_Ch1:
 	note D#, 1
 	octave 3
 	note D#, 1
-	notetype $1, $60
+	notetype $1, $50
 	octave 2
 	note G_, 1
 	octave 3
@@ -2321,16 +2322,16 @@ Music_Yotsuba2_Ch1:
 	note C_, 1
 	octave 4
 	note C_, 1
-	notetype $1, $50
-	octave 2
-	note D#, 1
-	octave 3
-	note D#, 1
-	octave 2
-	note G_, 1
-	octave 3
-	note G_, 1
 	notetype $1, $40
+	octave 2
+	note D#, 1
+	octave 3
+	note D#, 1
+	octave 2
+	note G_, 1
+	octave 3
+	note G_, 1
+	notetype $1, $30
 	octave 3
 	note C_, 1
 	octave 4
@@ -2339,7 +2340,7 @@ Music_Yotsuba2_Ch1:
 	note D#, 1
 	sound_ret
 .sub33: ;major end half way through 6
-	notetype $1, $A0
+	notetype $1, $90
 	dutycycle $1
 	octave 4
 	note C_, 1
@@ -2349,17 +2350,17 @@ Music_Yotsuba2_Ch1:
 	note E_, 1
 	octave 4
 	note E_, 1
-	notetype $1, $90
-	octave 3
-	note G_, 1
-	octave 4
-	note G_, 1
-	octave 4
-	note C_, 1
-	octave 4
-	note C_, 1
 	notetype $1, $80
 	octave 3
+	note G_, 1
+	octave 4
+	note G_, 1
+	octave 4
+	note C_, 1
+	octave 4
+	note C_, 1
+	notetype $1, $70
+	octave 3
 	note E_, 1
 	octave 4
 	note E_, 1
@@ -2367,7 +2368,7 @@ Music_Yotsuba2_Ch1:
 	note G_, 1
 	octave 4
 	note G_, 1
-	notetype $1, $70
+	notetype $1, $60
 	octave 4
 	note C_, 1
 	octave 5
@@ -2376,7 +2377,7 @@ Music_Yotsuba2_Ch1:
 	note E_, 1
 	octave 4
 	note E_, 1
-	notetype $1, $60
+	notetype $1, $50
 	octave 3
 	note G_, 1
 	octave 4
@@ -2387,16 +2388,16 @@ Music_Yotsuba2_Ch1:
 	note C_, 1
 	octave 5
 	note C_, 1
-	notetype $1, $50
-	octave 3
-	note E_, 1
-	octave 4
-	note E_, 1
-	octave 3
-	note G_, 1
-	octave 4
-	note G_, 1
 	notetype $1, $40
+	octave 3
+	note E_, 1
+	octave 4
+	note E_, 1
+	octave 3
+	note G_, 1
+	octave 4
+	note G_, 1
+	notetype $1, $30
 	octave 4
 	note C_, 1
 	octave 5
@@ -2407,7 +2408,7 @@ Music_Yotsuba2_Ch1:
 .sub35: ;major extext
 	octave 4
 	note E_, 1
-	notetype $1, $30
+	notetype $1, $20
 	octave 3
 	note G_, 1
 	octave 4
@@ -2416,7 +2417,7 @@ Music_Yotsuba2_Ch1:
 	note C_, 1
 	octave 5
 	note C_, 1
-	notetype $1, $20
+	notetype $1, $10
 	octave 3
 	note E_, 1
 	octave 4
@@ -2427,7 +2428,7 @@ Music_Yotsuba2_Ch1:
 	note G_, 1
 	sound_ret
 .sub36: ;059 end half way through 6
-	notetype $1, $A0
+	notetype $1, $90
 	dutycycle $1
 	octave 3
 	note C_, 1
@@ -2437,17 +2438,17 @@ Music_Yotsuba2_Ch1:
 	note F_, 1
 	octave 3
 	note F_, 1
-	notetype $1, $90
-	octave 2
-	note A_, 1
-	octave 3
-	note A_, 1
-	octave 3
-	note C_, 1
-	octave 4
-	note C_, 1
 	notetype $1, $80
 	octave 2
+	note A_, 1
+	octave 3
+	note A_, 1
+	octave 3
+	note C_, 1
+	octave 4
+	note C_, 1
+	notetype $1, $70
+	octave 2
 	note F_, 1
 	octave 3
 	note F_, 1
@@ -2455,7 +2456,7 @@ Music_Yotsuba2_Ch1:
 	note A_, 1
 	octave 3
 	note A_, 1
-	notetype $1, $70
+	notetype $1, $60
 	octave 3
 	note C_, 1
 	octave 4
@@ -2464,7 +2465,7 @@ Music_Yotsuba2_Ch1:
 	note F_, 1
 	octave 3
 	note F_, 1
-	notetype $1, $60
+	notetype $1, $50
 	octave 2
 	note A_, 1
 	octave 3
@@ -2475,16 +2476,16 @@ Music_Yotsuba2_Ch1:
 	note C_, 1
 	octave 4
 	note C_, 1
-	notetype $1, $50
-	octave 2
-	note F_, 1
-	octave 3
-	note F_, 1
-	octave 2
-	note A_, 1
-	octave 3
-	note A_, 1
 	notetype $1, $40
+	octave 2
+	note F_, 1
+	octave 3
+	note F_, 1
+	octave 2
+	note A_, 1
+	octave 3
+	note A_, 1
+	notetype $1, $30
 	octave 3
 	note C_, 1
 	octave 4
@@ -2493,7 +2494,7 @@ Music_Yotsuba2_Ch1:
 	note F_, 1
 	sound_ret
 .sub38: ;027 end half way through 6
-	notetype $1, $A0
+	notetype $1, $90
 	dutycycle $1
 	octave 3
 	note C_, 1
@@ -2503,17 +2504,17 @@ Music_Yotsuba2_Ch1:
 	note D_, 1
 	octave 3
 	note D_, 1
-	notetype $1, $90
-	octave 2
-	note G_, 1
-	octave 3
-	note G_, 1
-	octave 3
-	note C_, 1
-	octave 4
-	note C_, 1
 	notetype $1, $80
 	octave 2
+	note G_, 1
+	octave 3
+	note G_, 1
+	octave 3
+	note C_, 1
+	octave 4
+	note C_, 1
+	notetype $1, $70
+	octave 2
 	note D_, 1
 	octave 3
 	note D_, 1
@@ -2521,7 +2522,7 @@ Music_Yotsuba2_Ch1:
 	note G_, 1
 	octave 3
 	note G_, 1
-	notetype $1, $70
+	notetype $1, $60
 	octave 3
 	note C_, 1
 	octave 4
@@ -2530,7 +2531,7 @@ Music_Yotsuba2_Ch1:
 	note D_, 1
 	octave 3
 	note D_, 1
-	notetype $1, $60
+	notetype $1, $50
 	octave 2
 	note G_, 1
 	octave 3
@@ -2541,16 +2542,16 @@ Music_Yotsuba2_Ch1:
 	note C_, 1
 	octave 4
 	note C_, 1
-	notetype $1, $50
-	octave 2
-	note D_, 1
-	octave 3
-	note D_, 1
-	octave 2
-	note G_, 1
-	octave 3
-	note G_, 1
 	notetype $1, $40
+	octave 2
+	note D_, 1
+	octave 3
+	note D_, 1
+	octave 2
+	note G_, 1
+	octave 3
+	note G_, 1
+	notetype $1, $30
 	octave 3
 	note C_, 1
 	octave 4
@@ -2559,7 +2560,7 @@ Music_Yotsuba2_Ch1:
 	note D_, 1
 	sound_ret
 .sub40: ;038 end half way through 6
-	notetype $1, $A0
+	notetype $1, $90
 	dutycycle $1
 	octave 3
 	note C_, 1
@@ -2569,17 +2570,17 @@ Music_Yotsuba2_Ch1:
 	note D#, 1
 	octave 3
 	note D#, 1
-	notetype $1, $90
-	octave 2
-	note G#, 1
-	octave 3
-	note G#, 1
-	octave 3
-	note C_, 1
-	octave 4
-	note C_, 1
 	notetype $1, $80
 	octave 2
+	note G#, 1
+	octave 3
+	note G#, 1
+	octave 3
+	note C_, 1
+	octave 4
+	note C_, 1
+	notetype $1, $70
+	octave 2
 	note D#, 1
 	octave 3
 	note D#, 1
@@ -2587,7 +2588,7 @@ Music_Yotsuba2_Ch1:
 	note G#, 1
 	octave 3
 	note G#, 1
-	notetype $1, $70
+	notetype $1, $60
 	octave 3
 	note C_, 1
 	octave 4
@@ -2596,7 +2597,7 @@ Music_Yotsuba2_Ch1:
 	note D#, 1
 	octave 3
 	note D#, 1
-	notetype $1, $60
+	notetype $1, $50
 	octave 2
 	note G#, 1
 	octave 3
@@ -2607,16 +2608,16 @@ Music_Yotsuba2_Ch1:
 	note C_, 1
 	octave 4
 	note C_, 1
-	notetype $1, $50
-	octave 2
-	note D#, 1
-	octave 3
-	note D#, 1
-	octave 2
-	note G#, 1
-	octave 3
-	note G#, 1
 	notetype $1, $40
+	octave 2
+	note D#, 1
+	octave 3
+	note D#, 1
+	octave 2
+	note G#, 1
+	octave 3
+	note G#, 1
+	notetype $1, $30
 	octave 3
 	note C_, 1
 	octave 4
@@ -2627,7 +2628,7 @@ Music_Yotsuba2_Ch1:
 .sub42: ;038 extext
 	octave 3
 	note D#, 1
-	notetype $1, $30
+	notetype $1, $20
 	octave 2
 	note G#, 1
 	octave 3
@@ -2636,7 +2637,7 @@ Music_Yotsuba2_Ch1:
 	note C_, 1
 	octave 4
 	note C_, 1
-	notetype $1, $20
+	notetype $1, $10
 	octave 2
 	note D#, 1
 	octave 3
@@ -2647,7 +2648,7 @@ Music_Yotsuba2_Ch1:
 	note G#, 1
 	sound_ret
 .sub43: ;048 end half way through 6
-	notetype $1, $A0
+	notetype $1, $90
 	dutycycle $1
 	octave 4
 	note C_, 1
@@ -2657,17 +2658,17 @@ Music_Yotsuba2_Ch1:
 	note E_, 1
 	octave 4
 	note E_, 1
-	notetype $1, $90
-	octave 3
-	note G#, 1
-	octave 4
-	note G#, 1
-	octave 4
-	note C_, 1
-	octave 5
-	note C_, 1
 	notetype $1, $80
 	octave 3
+	note G#, 1
+	octave 4
+	note G#, 1
+	octave 4
+	note C_, 1
+	octave 5
+	note C_, 1
+	notetype $1, $70
+	octave 3
 	note E_, 1
 	octave 4
 	note E_, 1
@@ -2675,7 +2676,7 @@ Music_Yotsuba2_Ch1:
 	note G#, 1
 	octave 4
 	note G#, 1
-	notetype $1, $70
+	notetype $1, $60
 	octave 4
 	note C_, 1
 	octave 5
@@ -2684,7 +2685,7 @@ Music_Yotsuba2_Ch1:
 	note E_, 1
 	octave 4
 	note E_, 1
-	notetype $1, $60
+	notetype $1, $50
 	octave 3
 	note G#, 1
 	octave 4
@@ -2695,16 +2696,16 @@ Music_Yotsuba2_Ch1:
 	note C_, 1
 	octave 5
 	note C_, 1
-	notetype $1, $50
-	octave 3
-	note E_, 1
-	octave 4
-	note E_, 1
-	octave 3
-	note G#, 1
-	octave 4
-	note G#, 1
 	notetype $1, $40
+	octave 3
+	note E_, 1
+	octave 4
+	note E_, 1
+	octave 3
+	note G#, 1
+	octave 4
+	note G#, 1
+	notetype $1, $30
 	octave 4
 	note C_, 1
 	octave 5
@@ -2713,7 +2714,7 @@ Music_Yotsuba2_Ch1:
 	note E_, 1
 	sound_ret
 .sub45: ;049 end half way through 6
-	notetype $1, $A0
+	notetype $1, $90
 	dutycycle $1
 	octave 4
 	note C_, 1
@@ -2723,17 +2724,17 @@ Music_Yotsuba2_Ch1:
 	note E_, 1
 	octave 4
 	note E_, 1
-	notetype $1, $90
-	octave 3
-	note A_, 1
-	octave 4
-	note A_, 1
-	octave 4
-	note C_, 1
-	octave 5
-	note C_, 1
 	notetype $1, $80
 	octave 3
+	note A_, 1
+	octave 4
+	note A_, 1
+	octave 4
+	note C_, 1
+	octave 5
+	note C_, 1
+	notetype $1, $70
+	octave 3
 	note E_, 1
 	octave 4
 	note E_, 1
@@ -2741,7 +2742,7 @@ Music_Yotsuba2_Ch1:
 	note A_, 1
 	octave 4
 	note A_, 1
-	notetype $1, $70
+	notetype $1, $60
 	octave 4
 	note C_, 1
 	octave 5
@@ -2750,7 +2751,7 @@ Music_Yotsuba2_Ch1:
 	note E_, 1
 	octave 4
 	note E_, 1
-	notetype $1, $60
+	notetype $1, $50
 	octave 3
 	note A_, 1
 	octave 4
@@ -2761,16 +2762,16 @@ Music_Yotsuba2_Ch1:
 	note C_, 1
 	octave 5
 	note C_, 1
-	notetype $1, $50
-	octave 3
-	note E_, 1
-	octave 4
-	note E_, 1
-	octave 3
-	note A_, 1
-	octave 4
-	note A_, 1
 	notetype $1, $40
+	octave 3
+	note E_, 1
+	octave 4
+	note E_, 1
+	octave 3
+	note A_, 1
+	octave 4
+	note A_, 1
+	notetype $1, $30
 	octave 4
 	note C_, 1
 	octave 5
@@ -2781,7 +2782,7 @@ Music_Yotsuba2_Ch1:
 .sub47: ;049 extext
 	octave 4
 	note E_, 1
-	notetype $1, $30
+	notetype $1, $20
 	octave 3
 	note A_, 1
 	octave 4
@@ -2790,7 +2791,7 @@ Music_Yotsuba2_Ch1:
 	note C_, 1
 	octave 5
 	note C_, 1
-	notetype $1, $20
+	notetype $1, $10
 	octave 3
 	note E_, 1
 	octave 4
@@ -2829,7 +2830,7 @@ Music_Yotsuba2_Ch1:
 	note A_, 1
 	sound_ret
 .sub50: ;hell
-	notetype $1, $60
+	notetype $1, $50
 	octave 2
 	dutycycle $0
 	note B_, 1
@@ -3102,7 +3103,7 @@ Music_Yotsuba2_Ch1:
 	
 .sub69: ;intro echo
 	transpose 0, 0
-	notetype $9, $30
+	notetype $9, $20
 	note C#, 1
 	octave 3
 	note F#, 1
@@ -3178,9 +3179,9 @@ Music_Yotsuba2_Ch2:
 	note A_, 1
 	note G_, 1
 	note F#, 3
-	notetype $9, $3B
+	notetype $9, $2B
 	note F#, 2
-	notetype $9, $B3
+	notetype $9, $A3
 	note G_, 2
 	note A_, 2
 	;
@@ -3223,7 +3224,7 @@ Music_Yotsuba2_Ch2:
 	octave 3
 	note B_, 1
 	note F#, 1
-	notetype $9, $63
+	notetype $9, $53
 	note B_, 1
 	transpose 1, 6
 	sound_call .sub4
@@ -3338,10 +3339,10 @@ Music_Yotsuba2_Ch2:
 	note C_, 2
 	transpose 0, 6
 	sound_call .sub5
-	notetype $1, $B7
+	notetype $1, $A7
 	note C_, 5
 	transpose 0, 0
-	notetype $1, $A0
+	notetype $1, $90
 	note F_, 1
 	note E_, 1
 	note D#, 1
@@ -3350,10 +3351,10 @@ Music_Yotsuba2_Ch2:
 	transpose 0, 1
 	sound_call .sub5
 	note C_, 5
-	notetype $1, $57
+	notetype $1, $47
 	note C_, 5
 	transpose 0, 0
-	notetype $1, $40
+	notetype $1, $30
 	note D_, 1
 	note D#, 1
 	note E_, 1
@@ -3362,30 +3363,28 @@ Music_Yotsuba2_Ch2:
 	sound_call .sub5
 	note C_, 2
 	transpose 2, 11
-	notetype $1, $C0
-	sound_call .sub7
 	notetype $1, $B0
 	sound_call .sub7
 	notetype $1, $A0
+	sound_call .sub7
+	notetype $1, $90
 	note C_, 2
 	transpose 1, 1
-	notetype $1, $C0
-	sound_call .sub7
 	notetype $1, $B0
 	sound_call .sub7
 	notetype $1, $A0
+	sound_call .sub7
+	notetype $1, $90
 	note C_, 2
 	transpose 1, 2
-	notetype $1, $C0
-	sound_call .sub6
 	notetype $1, $B0
 	sound_call .sub6
 	notetype $1, $A0
+	sound_call .sub6
+	notetype $1, $90
 	note C_, 2
 	;
 	transpose 1, 9
-	notetype $1, $C0
-	sound_call .sub6
 	notetype $1, $B0
 	sound_call .sub6
 	notetype $1, $A0
@@ -3397,79 +3396,79 @@ Music_Yotsuba2_Ch2:
 	notetype $1, $70
 	sound_call .sub6
 	notetype $1, $60
+	sound_call .sub6
+	notetype $1, $50
 	note C_, 2
 	octave 4
 	note A_, 2
 	octave 5
 	note C_, 2
 	transpose 1, 11
-	notetype $1, $C0
-	sound_call .sub7
 	notetype $1, $B0
+	sound_call .sub7
+	notetype $1, $A0
 	note C_, 1
 	transpose 1, 9
-	notetype $1, $C0
-	sound_call .sub6
 	notetype $1, $B0
 	sound_call .sub6
 	notetype $1, $A0
 	sound_call .sub6
 	notetype $1, $90
+	sound_call .sub6
+	notetype $1, $80
 	note C_, 2
 	octave 4
 	note A_, 1
 	transpose 0, 2
-	notetype $1, $C0
-	sound_call .sub6
 	notetype $1, $B0
 	sound_call .sub6
 	notetype $1, $A0
+	sound_call .sub6
+	notetype $1, $90
 	note C_, 2
 	transpose 0, 1
-	notetype $1, $C0
-	sound_call .sub7
-	notetype $1, $B0
-	sound_call .sub7
-	notetype $1, $A0
-	note C_, 2
-	transpose 0, 2
-	notetype $1, $C0
-	sound_call .sub6
-	notetype $1, $B0
-	sound_call .sub6
-	notetype $1, $A0
-	note C_, 2
-	;
-	transpose 0, 1
-	notetype $1, $C0
-	sound_call .sub7
 	notetype $1, $B0
 	sound_call .sub7
 	notetype $1, $A0
 	sound_call .sub7
 	notetype $1, $90
+	note C_, 2
+	transpose 0, 2
+	notetype $1, $B0
+	sound_call .sub6
+	notetype $1, $A0
+	sound_call .sub6
+	notetype $1, $90
+	note C_, 2
+	;
+	transpose 0, 1
+	notetype $1, $B0
+	sound_call .sub7
+	notetype $1, $A0
+	sound_call .sub7
+	notetype $1, $90
+	sound_call .sub7
+	notetype $1, $80
 	note C_, 2
 	octave 4
 	note G#, 1
 	transpose 1, 9
-	notetype $1, $C0
-	sound_call .sub6
 	notetype $1, $B0
 	sound_call .sub6
 	notetype $1, $A0
 	sound_call .sub6
 	notetype $1, $90
+	sound_call .sub6
+	notetype $1, $80
 	note C_, 2
 	octave 4
 	note A_, 1
 	transpose 1, 7
-	notetype $1, $C0
-	sound_call .sub6
 	notetype $1, $B0
+	sound_call .sub6
+	notetype $1, $A0
 	note C_, 1
 	transpose 1, 6
-	notetype $1, $C0
-	sound_call .sub7
 	notetype $1, $B0
 	sound_call .sub7
 	notetype $1, $A0
@@ -3481,30 +3480,30 @@ Music_Yotsuba2_Ch2:
 	notetype $1, $70
 	sound_call .sub7
 	notetype $1, $60
+	sound_call .sub7
+	notetype $1, $50
 	note C_, 2
 	octave 4
 	note G#, 2
 	octave 5
 	note C_, 2
 	transpose 1, 6
-	notetype $1, $C0
-	sound_call .sub7
 	notetype $1, $B0
+	sound_call .sub7
+	notetype $1, $A0
 	note C_, 1
 	transpose 1, 4
-	notetype $1, $C0
-	sound_call .sub6
 	notetype $1, $B0
+	sound_call .sub6
+	notetype $1, $A0
 	note C_, 1
 	transpose 1, 6
-	notetype $1, $C0
-	sound_call .sub7
 	notetype $1, $B0
+	sound_call .sub7
+	notetype $1, $A0
 	note C_, 1
 	;
 	transpose 2, 11
-	notetype $1, $C0
-	sound_call .sub7
 	notetype $1, $B0
 	sound_call .sub7
 	notetype $1, $A0
@@ -3516,50 +3515,50 @@ Music_Yotsuba2_Ch2:
 	notetype $1, $70
 	sound_call .sub7
 	notetype $1, $60
+	sound_call .sub7
+	notetype $1, $50
 	note C_, 2
 	octave 4
 	note G#, 2
 	octave 5
 	note C_, 2
 	transpose 1, 7
-	notetype $1, $C0
-	sound_call .sub6
 	notetype $1, $B0
 	sound_call .sub6
 	notetype $1, $A0
+	sound_call .sub6
+	notetype $1, $90
 	note C_, 2
 	transpose 1, 6
-	notetype $1, $C0
-	sound_call .sub7
 	notetype $1, $B0
 	sound_call .sub7
 	notetype $1, $A0
+	sound_call .sub7
+	notetype $1, $90
 	note C_, 2
 	transpose 1, 4
-	notetype $1, $C0
-	sound_call .sub6
 	notetype $1, $B0
 	sound_call .sub6
 	notetype $1, $A0
+	sound_call .sub6
+	notetype $1, $90
 	note C_, 2
 	transpose 1, 2
-	notetype $1, $C0
-	sound_call .sub6
 	notetype $1, $B0
 	sound_call .sub6
 	notetype $1, $A0
+	sound_call .sub6
+	notetype $1, $90
 	note C_, 2
 	transpose 1, 4
-	notetype $1, $C0
-	sound_call .sub6
 	notetype $1, $B0
 	sound_call .sub6
 	notetype $1, $A0
+	sound_call .sub6
+	notetype $1, $90
 	note C_, 2
 	;
 	transpose 1, 6
-	notetype $1, $C0
-	sound_call .sub7
 	notetype $1, $B0
 	sound_call .sub7
 	notetype $1, $A0
@@ -3581,32 +3580,32 @@ Music_Yotsuba2_Ch2:
 	notetype $1, $20
 	sound_call .sub7
 	notetype $1, $10
+	sound_call .sub7
+	notetype $1, $00
 	note C_, 2
 	transpose 2, 11
-	notetype $1, $C0
-	sound_call .sub7
 	notetype $1, $B0
 	sound_call .sub7
 	notetype $1, $A0
+	sound_call .sub7
+	notetype $1, $90
 	note C_, 2
 	transpose 1, 1
-	notetype $1, $C0
-	sound_call .sub7
 	notetype $1, $B0
 	sound_call .sub7
 	notetype $1, $A0
+	sound_call .sub7
+	notetype $1, $90
 	note C_, 2
 	transpose 1, 2
-	notetype $1, $C0
-	sound_call .sub6
 	notetype $1, $B0
 	sound_call .sub6
 	notetype $1, $A0
+	sound_call .sub6
+	notetype $1, $90
 	note C_, 2
 	;
 	transpose 1, 9
-	notetype $1, $C0
-	sound_call .sub6
 	notetype $1, $B0
 	sound_call .sub6
 	notetype $1, $A0
@@ -3618,79 +3617,79 @@ Music_Yotsuba2_Ch2:
 	notetype $1, $70
 	sound_call .sub6
 	notetype $1, $60
+	sound_call .sub6
+	notetype $1, $50
 	note C_, 2
 	octave 4
 	note A_, 2
 	octave 5
 	note C_, 2
 	transpose 1, 11
-	notetype $1, $C0
-	sound_call .sub7
 	notetype $1, $B0
+	sound_call .sub7
+	notetype $1, $A0
 	note C_, 1
 	transpose 1, 9
-	notetype $1, $C0
+	notetype $1, $B0
 	sound_call .sub6
+	notetype $1, $A0
+	sound_call .sub6
+	notetype $1, $90
+	sound_call .sub6
+	notetype $1, $80
+	note C_, 2
+	octave 4
+	note A_, 1
+	transpose 0, 2
 	notetype $1, $B0
 	sound_call .sub6
 	notetype $1, $A0
 	sound_call .sub6
 	notetype $1, $90
 	note C_, 2
-	octave 4
-	note A_, 1
-	transpose 0, 2
-	notetype $1, $C0
-	sound_call .sub6
-	notetype $1, $B0
-	sound_call .sub6
-	notetype $1, $A0
-	note C_, 2
 	transpose 0, 1
-	notetype $1, $C0
-	sound_call .sub7
 	notetype $1, $B0
 	sound_call .sub7
 	notetype $1, $A0
+	sound_call .sub7
+	notetype $1, $90
 	note C_, 2
 	transpose 0, 2
-	notetype $1, $C0
-	sound_call .sub6
 	notetype $1, $B0
 	sound_call .sub6
 	notetype $1, $A0
+	sound_call .sub6
+	notetype $1, $90
 	note C_, 2
 	;
 	transpose 0, 4
-	notetype $1, $C0
-	sound_call .sub6
 	notetype $1, $B0
 	sound_call .sub6
 	notetype $1, $A0
 	sound_call .sub6
 	notetype $1, $90
+	sound_call .sub6
+	notetype $1, $80
 	note C_, 2
 	octave 4
 	note A_, 1
 	transpose 0, 1
-	notetype $1, $C0
-	sound_call .sub7
-	notetype $1, $B0
-	note C_, 1
-	notetype $1, $C0
-	sound_call .sub7
 	notetype $1, $B0
 	sound_call .sub7
 	notetype $1, $A0
+	note C_, 1
+	notetype $1, $B0
+	sound_call .sub7
+	notetype $1, $A0
+	sound_call .sub7
+	notetype $1, $90
 	note C_, 2
 	transpose 1, 9
-	notetype $1, $C0
-	sound_call .sub8
 	notetype $1, $B0
+	sound_call .sub8
+	notetype $1, $A0
 	note C_, 1
 	transpose 1, 11
-	notetype $1, $C0
-	sound_call .sub8
 	notetype $1, $B0
 	sound_call .sub8
 	notetype $1, $A0
@@ -3702,176 +3701,178 @@ Music_Yotsuba2_Ch2:
 	notetype $1, $70
 	sound_call .sub8
 	notetype $1, $60
+	sound_call .sub8
+	notetype $1, $50
 	note C_, 2
 	octave 4
 	note G_, 2
 	octave 5
 	note C_, 2
 	transpose 1, 11
-	notetype $1, $C0
-	sound_call .sub7
 	notetype $1, $B0
+	sound_call .sub7
+	notetype $1, $A0
 	note C_, 1
 	transpose 0, 1
-	notetype $1, $C0
-	sound_call .sub7
 	notetype $1, $B0
+	sound_call .sub7
+	notetype $1, $A0
 	note C_, 1
 	transpose 0, 2
-	notetype $1, $C0
-	sound_call .sub6
 	notetype $1, $B0
+	sound_call .sub6
+	notetype $1, $A0
 	note C_, 1
 	;
 	transpose 0, 2
-	notetype $1, $C0
-	sound_call .sub6
 	notetype $1, $B0
 	sound_call .sub6
 	notetype $1, $A0
 	sound_call .sub6
 	notetype $1, $90
+	sound_call .sub6
+	notetype $1, $80
 	note C_, 2
 	octave 4
 	note A_, 1
 	transpose 1, 11
-	notetype $1, $C0
-	sound_call .sub7
-	notetype $1, $B0
-	sound_call .sub7
-	notetype $1, $A0
-	note C_, 2
-	transpose 1, 7
-	notetype $1, $C0
-	sound_call .sub8
-	notetype $1, $B0
-	note C_, 1
-	transpose 1, 11
-	notetype $1, $C0
-	sound_call .sub7
-	notetype $1, $B0
-	note C_, 1
-	transpose 0, 2
-	notetype $1, $C0
-	sound_call .sub6
-	notetype $1, $B0
-	note C_, 1
-	transpose 0, 1
-	notetype $1, $C0
-	sound_call .sub7
 	notetype $1, $B0
 	sound_call .sub7
 	notetype $1, $A0
 	sound_call .sub7
 	notetype $1, $90
+	note C_, 2
+	transpose 1, 7
+	notetype $1, $B0
+	sound_call .sub8
+	notetype $1, $A0
+	note C_, 1
+	transpose 1, 11
+	notetype $1, $B0
+	sound_call .sub7
+	notetype $1, $A0
+	note C_, 1
+	transpose 0, 2
+	notetype $1, $B0
+	sound_call .sub6
+	notetype $1, $A0
+	note C_, 1
+	transpose 0, 1
+	notetype $1, $B0
+	sound_call .sub7
+	notetype $1, $A0
+	sound_call .sub7
+	notetype $1, $90
+	sound_call .sub7
+	notetype $1, $80
 	note C_, 2
 	octave 4
 	note G#, 1
 	transpose 1, 9
-	notetype $1, $C0
-	sound_call .sub8
 	notetype $1, $B0
 	sound_call .sub8
 	notetype $1, $A0
+	sound_call .sub8
+	notetype $1, $90
 	note C_, 2
 	transpose 1, 9
-	notetype $1, $C0
-	sound_call .sub6
 	notetype $1, $B0
+	sound_call .sub6
+	notetype $1, $A0
 	note C_, 1
 	transpose 0, 2
-	notetype $1, $C0
-	sound_call .sub8
 	notetype $1, $B0
+	sound_call .sub8
+	notetype $1, $A0
 	note C_, 1
 	transpose 0, 4
-	notetype $1, $C0
-	sound_call .sub6
 	notetype $1, $B0
+	sound_call .sub6
+	notetype $1, $A0
 	note C_, 1
 	;
 	transpose 0, 0
-	notetype $1, $C0
-	note F#, 2
 	notetype $1, $B0
-	note D_, 2
+	note F#, 2
 	notetype $1, $A0
-	note F#, 2
-	notetype $1, $90
 	note D_, 2
-	notetype $1, $80
+	notetype $1, $90
 	note F#, 2
+	notetype $1, $80
+	note D_, 2
 	notetype $1, $70
-	note D_, 2
+	note F#, 2
 	notetype $1, $60
-	note F#, 2
+	note D_, 2
 	notetype $1, $50
-	note D_, 2
-	notetype $1, $40
 	note F#, 2
-	notetype $1, $C0
-	note G_, 2
+	notetype $1, $40
+	note D_, 2
+	notetype $1, $30
+	note F#, 2
 	notetype $1, $B0
-	note D_, 2
-	notetype $1, $A0
 	note G_, 2
-	notetype $1, $90
+	notetype $1, $A0
 	note D_, 2
+	notetype $1, $90
+	note G_, 2
 	notetype $1, $80
+	note D_, 2
+	notetype $1, $70
 	note G_, 1
-	notetype $1, $C0
+	notetype $1, $B0
+	note F#, 2
+	notetype $1, $A0
+	note D_, 2
+	notetype $1, $90
+	note F#, 2
+	notetype $1, $80
+	note D_, 2
+	notetype $1, $70
+	note F#, 2
+	notetype $1, $60
+	note D_, 2
+	notetype $1, $50
+	note F#, 2
+	notetype $1, $40
+	note D_, 2
+	notetype $1, $30
 	note F#, 2
 	notetype $1, $B0
-	note D_, 2
+	note G_, 2
 	notetype $1, $A0
-	note F#, 2
+	note D_, 2
 	notetype $1, $90
-	note D_, 2
+	note G_, 2
 	notetype $1, $80
-	note F#, 2
+	note D_, 2
 	notetype $1, $70
-	note D_, 2
+	note G_, 2
 	notetype $1, $60
-	note F#, 2
-	notetype $1, $50
 	note D_, 2
+	notetype $1, $50
+	note G_, 2
 	notetype $1, $40
-	note F#, 2
-	notetype $1, $C0
+	note D_, 2
+	notetype $1, $30
 	note G_, 2
 	notetype $1, $B0
-	note D_, 2
+	note F#, 2
 	notetype $1, $A0
-	note G_, 2
+	note C#, 2
 	notetype $1, $90
-	note D_, 2
+	note F#, 2
 	notetype $1, $80
-	note G_, 2
+	note C#, 2
 	notetype $1, $70
-	note D_, 2
+	note F#, 2
 	notetype $1, $60
-	note G_, 2
+	note C#, 2
 	notetype $1, $50
-	note D_, 2
+	note F#, 2
 	notetype $1, $40
-	note G_, 2
-	notetype $1, $C0
-	note F#, 2
-	notetype $1, $B0
 	note C#, 2
-	notetype $1, $A0
-	note F#, 2
-	notetype $1, $90
-	note C#, 2
-	notetype $1, $80
-	note F#, 2
-	notetype $1, $70
-	note C#, 2
-	notetype $1, $60
-	note F#, 2
-	notetype $1, $50
-	note C#, 2
-	notetype $1, $40
+	notetype $1, $30
 	note F#, 2
 	transpose 3, 9
 	sound_call .sub10
@@ -4036,7 +4037,7 @@ Music_Yotsuba2_Ch2:
 	sound_call .sub10
 	note C_, 10
 	dutycycle $3
-	notetype $9, $B3
+	notetype $9, $A3
 	transpose 0, 0
 	octave 4
 	note C#, 1
@@ -4045,7 +4046,7 @@ Music_Yotsuba2_Ch2:
 	sound_loop 0, .mainloop
 	
 .sub1: ;(basic intro)
-	notetype $9, $B3
+	notetype $9, $A3
 	octave 3
 	note B_, 1
 	note F#, 1
@@ -4076,7 +4077,7 @@ Music_Yotsuba2_Ch2:
 	sound_ret
 	
 .sub2: ;intro with g
-	notetype $9, $B3
+	notetype $9, $A3
 	octave 3
 	note B_, 1
 	note G_, 1
@@ -4140,7 +4141,7 @@ Music_Yotsuba2_Ch2:
 	sound_ret
 	
 .sub4: ;12accent 01 lead cut early
-	notetype $1, $C7
+	notetype $1, $B7
 	octave 5
 	dutycycle $0
 	note C_, 1
@@ -4151,14 +4152,14 @@ Music_Yotsuba2_Ch2:
 	sound_ret
 	
 .sub5: ;12accent 01 lead
-	notetype $1, $C7
+	notetype $1, $B7
 	octave 5
 	dutycycle $0
 	note C_, 1
 	octave 4
 	dutycycle $1
 	note C_, 8
-	notetype $9, $B7
+	notetype $9, $A7
 	sound_ret
 	
 .sub6: ;0 3
@@ -4198,7 +4199,7 @@ Music_Yotsuba2_Ch2:
 	sound_ret
 	
 .sub9: ;21 lead cut early
-	notetype $1, $C7
+	notetype $1, $B7
 	octave 5
 	dutycycle $2
 	note C_, 1
@@ -4208,13 +4209,13 @@ Music_Yotsuba2_Ch2:
 	sound_ret
 	
 .sub10: ;21 lead
-	notetype $1, $C7
+	notetype $1, $B7
 	octave 5
 	dutycycle $2
 	note C_, 1
 	dutycycle $1
 	note C_, 8
-	notetype $9, $B7
+	notetype $9, $A7
 	sound_ret
 	
 ; IT'S GF'S FAULT
@@ -10082,3 +10083,4 @@ Music_Yotsuba2_Ch4:
 	note G_, 1
 	note G#, 1
 	sound_ret
+	

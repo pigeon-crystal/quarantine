@@ -268,9 +268,10 @@ CalfeenEggMoves: ; antelope
 	db EXPLOSION
 	db -1 
 	
-DodrioEggMoves: ; otter
+RamboyantEggMoves: ; otter
 	db LIQUIDATION
 	db DETECT
+	db WRATH_STRIKE
 	db -1
 
 CaddisicleEggMoves:

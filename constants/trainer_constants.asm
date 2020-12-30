@@ -776,6 +776,7 @@ KRIS EQU __enum__
 	trainerclass DELINQUENT_M ; 53
 	const CHUSUKE
 	const TAKEO
+	const GEN
 	
 	trainerclass DELINQUENT_F ; 54
 	const CHERRY

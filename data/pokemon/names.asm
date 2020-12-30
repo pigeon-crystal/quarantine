@@ -83,7 +83,7 @@ PokemonNames::
 	db "CALFEEN@@@"
 	db "AMPALA@@@@"
 	db "BLAZELLE@@"
-	db "DODRIO@@@@"
+	db "RAMBOYANT@"
 	db "CADDISICLE"
 	db "JADDICE@@@"
 	db "DUMBLOON@@"

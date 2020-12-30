@@ -3,6 +3,7 @@
 	const OLIVINECITY_STANDING_YOUNGSTER
 	const OLIVINECITY_SAILOR2
 	const OLIVINECITY_OLIVINE_RIVAL
+	const OLIVINECITY_SAILOR3
 
 OlivineCity_MapScripts:
 	db 2 ; scene scripts
@@ -281,6 +282,29 @@ OlivineCityBattleTowerSignText:
 	line "Opening Now!"
 	done
 
+OlivineCitySailor3Script:
+	jumptextfaceplayer Sailor3Text
+	
+Sailor3Text:
+	text "There's a lot"
+	line "of SLISCES in the"
+	
+	para "waters around "
+	line "OLIVINE."
+
+	para "They eat up the"
+	line "finishing line"
+	
+	para "and trash left"
+	line "over by ships."
+	
+	para "They thrive here,"
+	line "but I feel bad"
+	
+	para "they're here at"
+	line "all."
+	done
+	
 OlivineCityBattleTowerSignText_NotYetOpen:
 ; unused; originally shown when the Battle Tower was closed
 	text "BATTLE TOWER AHEAD"
@@ -315,8 +339,9 @@ OlivineCity_MapEvents:
 	bg_event 14, 21, BGEVENT_READ, OlivineCityPokecenterSign
 	bg_event 20, 17, BGEVENT_READ, OlivineCityMartSign
 
-	db 4 ; object events
+	db 5 ; object events
 	object_event 26, 27, SPRITE_SAILOR, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OlivineCitySailor1Script, -1
 	object_event 20, 13, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OlivineCityStandingYoungsterScript, -1
 	object_event 17, 21, SPRITE_SAILOR, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OlivineCitySailor2Script, -1
 	object_event 10, 11, SPRITE_OLIVINE_RIVAL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_OLIVINE_CITY
+	object_event 7, 16, SPRITE_SAILOR, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OlivineCitySailor3Script, -1

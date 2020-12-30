@@ -101,7 +101,7 @@ BehemothraBackpic:      INCBIN "gfx/pokemon/behemothra/back.2bpp.lz"
 
 SECTION "Pics 4", ROMX
 
-DodrioFrontpic:      INCBIN "gfx/pokemon/dodrio/front.animated.2bpp.lz"
+RamboyantFrontpic:      INCBIN "gfx/pokemon/ramboyant/front.animated.2bpp.lz"
 TidoFrontpic:    INCBIN "gfx/pokemon/tido/front.animated.2bpp.lz"
 HalloalloFrontpic:   INCBIN "gfx/pokemon/halloallo/front.animated.2bpp.lz"
 MoradayFrontpic:        INCBIN "gfx/pokemon/moraday/front.animated.2bpp.lz"
@@ -339,7 +339,7 @@ UnownFBackpic:       INCBIN "gfx/pokemon/unown_f/back.2bpp.lz"
 
 SECTION "Pics 11", ROMX
 
-DodrioBackpic:       INCBIN "gfx/pokemon/dodrio/back.2bpp.lz"
+RamboyantBackpic:       INCBIN "gfx/pokemon/ramboyant/back.2bpp.lz"
 NyalleyFrontpic:    INCBIN "gfx/pokemon/nyalley/front.animated.2bpp.lz"
 KodoroyahFrontpic:      INCBIN "gfx/pokemon/kodoroyah/front.animated.2bpp.lz"
 HappigFrontpic:   INCBIN "gfx/pokemon/happig/front.animated.2bpp.lz"

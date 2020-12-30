@@ -194,7 +194,7 @@ INCBIN "gfx/footprints/bedlamam.1bpp",  footprint_top
 INCBIN "gfx/footprints/calfeen.1bpp",   footprint_top
 INCBIN "gfx/footprints/ampala.1bpp", footprint_top
 INCBIN "gfx/footprints/blazelle.1bpp",      footprint_top
-INCBIN "gfx/footprints/dodrio.1bpp",     footprint_top
+INCBIN "gfx/footprints/ramboyant.1bpp",     footprint_top
 INCBIN "gfx/footprints/caddisicle.1bpp",       footprint_top
 INCBIN "gfx/footprints/jaddice.1bpp",    footprint_top
 INCBIN "gfx/footprints/dumbloon.1bpp",     footprint_top
@@ -203,7 +203,7 @@ INCBIN "gfx/footprints/bedlamam.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/calfeen.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/ampala.1bpp", footprint_bottom
 INCBIN "gfx/footprints/blazelle.1bpp",      footprint_bottom
-INCBIN "gfx/footprints/dodrio.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/ramboyant.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/caddisicle.1bpp",       footprint_bottom
 INCBIN "gfx/footprints/jaddice.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/dumbloon.1bpp",     footprint_bottom

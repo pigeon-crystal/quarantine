@@ -2,6 +2,7 @@
 	const OLIVINECAFE_SAILOR1
 	const OLIVINECAFE_FISHING_GURU
 	const OLIVINECAFE_SAILOR2
+	const OLIVINECAFE_ATHLETEM
 
 OlivineCafe_MapScripts:
 	db 0 ; scene scripts
@@ -60,22 +61,69 @@ OlivineCafeFishingGuruText:
 
 	para "of hearty fare for"
 	line "beefy SAILORS!"
+	
+	para "We use a lot of"
+	line "local ingredients"
+	cont "like BAABAA BLOX!"
 	done
 
 OlivineCafeSailorText:
-	text "Whenever I roll"
-	line "into this town, I"
-
-	para "always visit the"
-	line "OLIVINE CAFE."
-
-	para "Everything on the"
-	line "menu makes me feel"
-
-	para "stronger. I can't"
-	line "stop eating!"
+	text "Sigh…"
+	
+	para "I've had it rough."
+	line "A MACAWSAIR and"
+	cont "its band of"
+	cont "BUDGANEER"
+	
+	para "raided my ship"
+	line "and took our"
+	cont "goods."
+	
+	para "Boy, they sure"
+	line "raise a ruckus."
 	done
 
+
+OlivineCafeAthleteM:
+	faceplayer
+	opentext
+	checkevent EVENT_BEAT_JASMINE
+	iftrue .PlayerAccolades
+	writetext OlivineCafeAthleteMJasmine
+	waitbutton
+	closetext
+	end
+.PlayerAccolades
+	writetext OlivineCafeAthleteMPlayer
+	waitbutton
+	closetext
+	end
+	
+
+OlivineCafeAthleteMJasmine:
+	text "Boy, lemme tell"
+	line "ya!"
+	
+	para "It's all about"
+	line "JASMINE!"
+	
+	para "She's the best"
+	line "around! No"
+	cont "contest!"
+	done
+	
+OlivineCafeAthleteMPlayer:
+	text "Boy, lemme tell"
+	line "ya!"
+	
+	para "It's all about"
+	line "<PLAYER>!"
+	
+	para "They're the best"
+	line "around! A real"
+	cont "rising star!"
+	done
+		
 OlivineCafe_MapEvents:
 	db 0, 0 ; filler
 
@@ -87,7 +135,9 @@ OlivineCafe_MapEvents:
 
 	db 0 ; bg events
 
-	db 3 ; object events
+	db 4 ; object events
 	object_event  4,  3, SPRITE_SAILOR, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OlivineCafeStrengthSailorScript, -1
 	object_event  7,  3, SPRITE_FISHING_GURU, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OlivineCafeFishingGuruScript, -1
 	object_event  6,  6, SPRITE_SAILOR, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OlivineCafeSailorScript, -1
+	object_event  2, 4, SPRITE_ATHLETE_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, OlivineCafeAthleteM, -1
+

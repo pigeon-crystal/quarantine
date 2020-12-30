@@ -60,4 +60,5 @@ SpriteMons:
 	db BUDGANEER
 	db NIKUJIRA
 	db TERRATORA
+	db LAWNIE
 	

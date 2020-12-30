@@ -182,28 +182,28 @@ JohtoWaterWildMons:
 	db 6 percent ; encounter rate
 	db 22, GOOSAPLING
 	db 23, LANATUN
-	db 23, DODRIO	; otter standin
+	db 23, RAMBOYANT	; otter standin
 	db 25, GOOSAPLING
 
 	map_id ROUTE_43 ;done
 	db 6 percent ; encounter rate
 	db 22, LANATUN
 	db 23, LANATUN
-	db 23, DODRIO	; otter standin
+	db 23, RAMBOYANT	; otter standin
 	db 25, LANATUN
 
 	map_id ROUTE_44 ;done
 	db 2 percent ; encounter rate
 	db 40, PEPOFFER
 	db 41, GOOSAPLING
-	db 42, DODRIO  ; otter standin
+	db 42, RAMBOYANT  ; otter standin
 	db 45, PEPOFFER
 
 	map_id ROUTE_45 ;done
 	db 2 percent ; encounter rate
 	db 41, GOOSAPLING
 	db 42, GOOSAPLING
-	db 45, DODRIO  ; otter standin
+	db 45, RAMBOYANT  ; otter standin
 	db 42, LANATUN
 
 	map_id NEW_BARK_TOWN ;done

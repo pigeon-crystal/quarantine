@@ -89,7 +89,7 @@ PokemonCries::
 	mon_cry CRY_AIPOM,      -200,  320 ; CALFEEN
 	mon_cry CRY_GIRAFARIG,   -10,  320 ; AMPALA
 	mon_cry CRY_GIRAFARIG,   100,  189 ; BLAZELLE
-	mon_cry CRY_DIGLETT,     153,  160 ; DODRIO
+	mon_cry CRY_DIGLETT,     153,  160 ; RAMBOYANT
 	mon_cry CRY_TOTODILE,    -50,  123 ; CADDISICLE
 	mon_cry CRY_TOTODILE,    100,  200 ; JADDICE
 	mon_cry CRY_GRIMER,      787,  256 ; DUMBLOON

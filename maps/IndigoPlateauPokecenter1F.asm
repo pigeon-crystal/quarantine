@@ -155,6 +155,7 @@ TeleportGuyScript:
 	writetext TeleportGuyYesText
 	waitbutton
 	closetext
+	cry EYECHOSIS
 	playsound SFX_WARP_TO
 	special FadeOutPalettes
 	waitsfx
@@ -170,7 +171,7 @@ TeleportGuyScript:
 AbraScript:
 	opentext
 	writetext AbraText
-	cry SAPPURA
+	cry EYECHOSIS
 	waitbutton
 	closetext
 	end
@@ -275,7 +276,7 @@ TeleportGuyText1:
 	para "If you need to"
 	line "train some more,"
 
-	para "my SAPPURA can"
+	para "my EYECHOSIS can"
 	line "help you."
 
 	para "It can TELEPORT"
@@ -294,10 +295,16 @@ TeleportGuyYesText:
 TeleportGuyNoText:
 	text "OK, OK. The best"
 	line "of luck to you!"
+	
+	para "And if you see"
+	line "my brother in"
+	cont "VICTORY ROAD,"
+	
+	para "tell him hi!"
 	done
 
 AbraText:
-	text "SAPPURA: Shaa~!"
+	text "EYECHOSIS: Fwah!"
 	done
 
 IndigoPlateauPokecenter1F_MapEvents:
@@ -320,5 +327,5 @@ IndigoPlateauPokecenter1F_MapEvents:
 	object_event 11,  7, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IndigoPlateauPokecenter1FClerkScript, -1
 	object_event 11, 11, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, IndigoPlateauPokecenter1FCooltrainerMScript, -1
 	object_event 16,  9, SPRITE_SILVER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_INDIGO_PLATEAU_POKECENTER_RIVAL
-	object_event  1,  9, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, TeleportGuyScript, EVENT_TELEPORT_GUY
-	object_event  0,  9, SPRITE_JYNX, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, AbraScript, EVENT_TELEPORT_GUY
+	object_event  1,  9, SPRITE_WIZARD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, TeleportGuyScript, EVENT_TELEPORT_GUY
+	object_event  0,  9, SPRITE_EYECHOSIS, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, AbraScript, EVENT_TELEPORT_GUY

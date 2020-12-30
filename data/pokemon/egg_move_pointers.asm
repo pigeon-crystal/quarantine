@@ -83,7 +83,7 @@ EggMovePointers::
 	dw CalfeenEggMoves ; antelope
 	dw NoEggMoves
 	dw NoEggMoves
-	dw DodrioEggMoves ; otter
+	dw RamboyantEggMoves ; otter
 	dw CaddisicleEggMoves
 	dw NoEggMoves
 	dw DumbloonEggMoves

@@ -103,7 +103,7 @@
 	const CALFEEN    ; 52 antelope
 	const AMPALA 	 ; 53 elec antelope
 	const BLAZELLE   ; 54 fire antelope
-	const DODRIO     ; 55 otter
+	const RAMBOYANT     ; 55 otter
 	const CADDISICLE ; 56
 	const JADDICE    ; 57
 	const DUMBLOON   ; 58

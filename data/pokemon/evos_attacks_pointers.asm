@@ -85,7 +85,7 @@ EvosAttacksPointers::
 	dw CalfeenEvosAttacks
 	dw AmpalaEvosAttacks
 	dw BlazelleEvosAttacks
-	dw DodrioEvosAttacks
+	dw RamboyantEvosAttacks
 	dw CaddisicleEvosAttacks
 	dw JaddiceEvosAttacks
 	dw DumbloonEvosAttacks

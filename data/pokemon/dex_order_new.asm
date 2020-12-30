@@ -142,7 +142,7 @@ NewPokedexOrder:
 	db CALFEEN
 	db AMPALA
 	db BLAZELLE
-	db DODRIO
+	db RAMBOYANT
 	db LANATUN
 	db PEPOFFER
 	db PEKOI

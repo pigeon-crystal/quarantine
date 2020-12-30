@@ -1842,8 +1842,8 @@ JohtoGrassWildMons:
 	db 42, IGNAGA
 	db 44, MAJESDOR
 	db 41, BLAZELLE
-	db 43, DODRIO
-	db 43, DODRIO
+	db 43, RAMBOYANT
+	db 43, RAMBOYANT
 	db 45, ANTPYRE
 	; day
 	db 41, ANTPYRE
@@ -1851,8 +1851,8 @@ JohtoGrassWildMons:
 	db 42, IGNAGA
 	db 44, MAJESDOR
 	db 41, BLAZELLE
-	db 43, DODRIO
-	db 43, DODRIO
+	db 43, RAMBOYANT
+	db 43, RAMBOYANT
 	db 45, ANTPYRE
 	; nite
 	db 41, ANTPYRE

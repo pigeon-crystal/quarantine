@@ -8,6 +8,10 @@
 	const VIOLETCITY_POKE_BALL1
 	const VIOLETCITY_POKE_BALL2
 	const VIOLETCITY_WIZARD_CROWLEY
+	const VIOLETCITY_LAWNIE1
+	const VIOLETCITY_LAWNIE2
+	const VIOLETCITY_LAWNIE3
+	const VIOLETCITY_DELINQUENT
 
 VioletCity_MapScripts:
 	db 0 ; scene scripts
@@ -362,6 +366,68 @@ CrowleyAfterText:
 	line "cookie!"
 	done
 	
+	
+VioletCityGnomes:
+	jumptext Gnometext
+	
+Gnometext:
+	text "It's a lawn"
+	line "decoration."
+	done
+
+VioletCityGnomes2:
+	opentext
+	writetext Gnometext
+	cry LAWNIE
+	writetext Gnome3text
+	waitbutton
+	closetext
+	end
+	
+Gnome3text:
+	text "Or so you thought!"
+	done
+	
+DelinquentGenFight:
+	trainer DELINQUENT_M, GEN, EVENT_BEAT_DELINQUENT_M_GEN, DelinquentGenSeen, DelinquentGenBeaten, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext DelinquentGenAfter
+	waitbutton
+	closetext
+	end
+	
+DelinquentGenSeen:
+	text "Huh? What are"
+	line "you doing here?"
+	
+	para "I-I'm not goin'"
+	line "back to school!"
+	done
+	
+DelinquentGenBeaten:
+	text "Oh, thought you"
+	line "were a parole"
+	cont "officer."
+	done
+	
+DelinquentGenAfter:
+	text "I don't get why"
+	line "I gotta go to"
+	cont "school!"
+	
+	para "I mean, I'm an"
+	line "ELITE FOUR"
+	cont "compared to"
+	
+	para "all the other"
+	line "dweebs!"
+	
+	para "You dig?"
+	done
+	
 VioletCity_MapEvents:
 	db 0, 0 ; filler
 
@@ -387,7 +453,7 @@ VioletCity_MapEvents:
 	bg_event 10, 17, BGEVENT_READ, VioletCityMartSign
 	bg_event 37, 14, BGEVENT_ITEM, VioletCityHiddenHyperPotion
 
-	db 9 ; object events
+	db 13 ; object events
 	object_event 13, 16, SPRITE_FISHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, VioletCityEarlScript, EVENT_VIOLET_CITY_EARL
 	object_event 28, 28, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, VioletCityLassScript, -1
 	object_event 24, 14, SPRITE_SUPER_NERD, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, VioletCitySuperNerdScript, -1
@@ -396,5 +462,9 @@ VioletCity_MapEvents:
 	object_event 14, 29, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VioletCityFruitTree, -1
 	object_event  4,  1, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VioletCityPPUp, EVENT_VIOLET_CITY_PP_UP
 	object_event 35,  5, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VioletCityRareCandy, EVENT_VIOLET_CITY_RARE_CANDY
-	object_event 24, 27, SPRITE_WIZARD, SPRITEMOVEDATA_WANDER, 0, 0 , -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, VioletCityWizardScript, -1
+	object_event  7, 2, SPRITE_WIZARD, SPRITEMOVEDATA_WANDER, 0, 0 , -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, VioletCityWizardScript, -1
+	object_event 24, 29, SPRITE_LAWNIE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, VioletCityGnomes, -1
+	object_event 27, 14, SPRITE_LAWNIE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, VioletCityGnomes, -1
+	object_event 12, 14, SPRITE_LAWNIE, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, VioletCityGnomes2, -1
+	object_event 36, 12, SPRITE_DELINQUENT_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 1, DelinquentGenFight, -1
 	

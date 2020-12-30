@@ -50,7 +50,7 @@ AlphabeticalPokedexOrder:
 	db SALARITO
 	db DISMAIDEN
 	db DJAMM
-	db DODRIO
+	db RAMBOYANT
 	db BLAZELLE
 	db DOLMESA
 	db DOLMITE
