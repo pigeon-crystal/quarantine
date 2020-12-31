@@ -1,10 +1,10 @@
 	db "SOOTHSAYER@" ; species name
 	dw 708, 2347 ; height, weight
 
-	db   "RYUNARI is known"
-	next "as an ancient and"
-	next "wise #MON. It"
+	db   "Witnesses time in"
+	next "its ord. The past"
+	next "grants the wisdom"
 
-	page "sees what is"
-	next "yet to come in its"
-	next "crimson orb.@"
+	page "of mistakes, the"
+	next "future serenity of"
+	next "inevitability.@"

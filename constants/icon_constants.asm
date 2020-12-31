@@ -235,6 +235,9 @@
 	const ICON_YUESBI
 	const ICON_VIRUES
 	const ICON_YUEFOE
+	const ICON_MOPERDOR
+	const ICON_MAJESDOR
+	const ICON_FUEGHAST
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

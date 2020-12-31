@@ -12,6 +12,7 @@
 	const ROUTE45_POKE_BALL3
 	const ROUTE45_POKE_BALL4
 	const ROUTE45_YOUNGSTER
+	const ROUTE45_HIDEKI
 
 Route45_MapScripts:
 	db 0 ; scene scripts
@@ -528,6 +529,36 @@ Route45SignText:
 	text "ROUTE 45"
 	line "MOUNTAIN RD. AHEAD"
 	done
+	
+TrainerRadicalHideki:
+	trainer RADICAL, HIDEKI, EVENT_BEAT_RADICAL_HIDEKI, RadicalHidekiSeenText, RadicalHidekiBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext RadicalHidekiAfterText
+	waitbutton
+	closetext
+	end
+	
+RadicalHidekiSeenText:
+	text "Let's get pumpin'!"
+	para "Let's get jumpin'!"
+	done
+	
+RadicalHidekiBeatenText:
+	text "I don't"
+	line "understand!"
+	
+	para "But that was a"
+	line "RADICAL battle!"
+	done
+	
+RadicalHidekiAfterText:
+	text "It's fun skating"
+	line "over all the"
+	cont "ledges here."
+	done
 
 Route45_MapEvents:
 	db 0, 0 ; filler
@@ -555,3 +586,4 @@ Route45_MapEvents:
 	object_event  6, 20, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route45Elixer, EVENT_ROUTE_45_ELIXER
 	object_event  7, 33, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route45MaxPotion, EVENT_ROUTE_45_MAX_POTION
 	object_event  4, 70, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, TrainerCamperQuentin, -1
+	object_event  8, 6, SPRITE_RADICAL, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, TrainerRadicalHideki, -1

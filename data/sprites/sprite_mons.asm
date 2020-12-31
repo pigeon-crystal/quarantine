@@ -61,4 +61,5 @@ SpriteMons:
 	db NIKUJIRA
 	db TERRATORA
 	db LAWNIE
+	db SHREDDRAKE
 	

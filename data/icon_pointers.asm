@@ -235,4 +235,7 @@ IconPointers:
 	dw YuesbiIcon
 	dw ViruesIcon
 	dw YuefoeIcon
+	dw MoperdorIcon
+	dw MajesdorIcon
+	dw FueghastIcon
 	

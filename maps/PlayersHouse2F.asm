@@ -49,65 +49,26 @@ PosterScript:
 
 .Script:
 	describedecoration DECODESC_POSTER
-
-PlayersHouseRadioScript:
-	setflag ENGINE_POKEDEX
-	givepoke YUESBI, 55
-	givepoke YUEFOE, 100
-	givepoke VIRUES, 100
-	givepoke SHREDDRAKE, 45
-	setflag ENGINE_ZEPHYRBADGE
-	setflag ENGINE_HIVEBADGE
-	setflag ENGINE_FOGBADGE
-	setflag ENGINE_RISINGBADGE
-	setflag ENGINE_MINERALBADGE
-	setflag ENGINE_STORMBADGE
-	setflag ENGINE_GLACIERBADGE
-	setflag ENGINE_PLAINBADGE
-	giveitem TM_TWISTER
-	giveitem GS_BALL
-	giveitem TM_REST
-	giveitem HM_CUT
-	giveitem HM_WHIRLPOOL
-	giveitem HM_SURF
-	giveitem HM_STRENGTH
-	giveitem HM_WATERFALL
-	giveitem MAX_REPEL
-	giveitem MASTER_BALL
-	giveitem MASTER_BALL
-	giveitem MASTER_BALL
-	giveitem MASTER_BALL
-	giveitem MASTER_BALL
-	giveitem MASTER_BALL
-	giveitem MASTER_BALL
-	giveitem MASTER_BALL
-	giveitem MASTER_BALL
-	giveitem MASTER_BALL
-	giveitem MAX_REPEL
-	giveitem COIN_CASE
-	givecoins 1000
-	warp GOLDENROD_GAME_CORNER, 3, 12
-	end
 	
-;PlayersHouseRadioScript:
-;	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
-;	iftrue .NormalRadio
-;	checkevent EVENT_LISTENED_TO_INITIAL_RADIO
-;	iftrue .AbbreviatedRadio
-;	playmusic MUSIC_POKEMON_TALK
-;	opentext
-;	writetext PlayersRadioText1
-;	pause 45
-;	writetext PlayersRadioText2
-;	pause 45
-;	writetext PlayersRadioText3
-;	pause 45
-;	musicfadeout MUSIC_NEW_BARK_TOWN, 16
-;	writetext PlayersRadioText4
-;	pause 45
-;	closetext
-;	setevent EVENT_LISTENED_TO_INITIAL_RADIO
-;	end
+PlayersHouseRadioScript:
+	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+	iftrue .NormalRadio
+	checkevent EVENT_LISTENED_TO_INITIAL_RADIO
+	iftrue .AbbreviatedRadio
+	playmusic MUSIC_POKEMON_TALK
+	opentext
+	writetext PlayersRadioText1
+	pause 45
+	writetext PlayersRadioText2
+	pause 45
+	writetext PlayersRadioText3
+	pause 45
+	musicfadeout MUSIC_NEW_BARK_TOWN, 16
+	writetext PlayersRadioText4
+	pause 45
+	closetext
+	setevent EVENT_LISTENED_TO_INITIAL_RADIO
+	end
 
 .NormalRadio:
 	jumpstd radio1
