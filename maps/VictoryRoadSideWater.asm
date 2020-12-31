@@ -1,5 +1,7 @@
 	object_const_def ; object_event constants 
-
+	const VICTORYROADSIDEITEMBALL
+	const VICTORYROADARTIST
+	
 VictoryRoadSideWater_MapScripts:
 	db 0 ; scene scripts
 
@@ -31,6 +33,51 @@ VictoryRoadSideWater_MapScripts:
 VictoryRoadMaxRepel:
 	itemball MAX_REPEL
 
+VictoryRoadSasha:
+	trainer ARTIST_GRAY, SASHA, EVENT_BEAT_GRAY_ARTIST, SashaSeen, SashaBeaten, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext SashaAfter
+	waitbutton
+	closetext
+	end
+
+SashaSeen:
+	text "Who disturbs a"
+	line "humble painter,"
+	
+	para "honing her craft"
+	line "in this cave as"
+	
+	para "dark as her soul?"
+	done
+	
+SashaBeaten:
+	text "The agony of"
+	line "defeat, the start"
+	
+	para "of a long dark"
+	line "night in my"
+	cont "heart."
+	done
+	
+SashaAfter:
+	text "A stone."
+	
+	para "Some jagged,"
+	line "some smooth."
+	
+	para "Just like our"
+	line "hearts."
+	
+	para "…"
+	
+	para "Is my free verse"
+	line "poetry corny?"
+	done
+
 VictoryRoadSideWater_MapEvents:
 	db 0, 0 ; filler
 
@@ -45,5 +92,6 @@ VictoryRoadSideWater_MapEvents:
 
 	db 0 ; bg events 
  	
-	db 1 ; object events 
+	db 2 ; object events 
 	object_event  4, 8, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VictoryRoadMaxRepel, EVENT_VICTORY_ROAD_MAX_REPEL
+	object_event  2, 10, SPRITE_DAISY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_SILVER, OBJECTTYPE_TRAINER, 1, VictoryRoadSasha, -1

@@ -74,9 +74,6 @@ TrainerSwimmermRandall:
 	closetext
 	end
 
-Route40Lass1Script:
-	jumptextfaceplayer Route40Lass1Text
-
 Route40PokefanMScript:
 	special Mobile_DummyReturnFalse
 	iftrue .mobile
@@ -234,14 +231,6 @@ SwimmerfPaulaAfterBattleText:
 	cont "carry me along."
 	done
 
-Route40Lass1Text:
-	text "Although you can't"
-	line "see it from here,"
-
-	para "CIANWOOD is across"
-	line "the sea."
-	done
-
 Route40PokefanMText:
 	text "Hm! There's a big"
 	line "building up ahead!"
@@ -369,6 +358,40 @@ AthleteDocAfterText:
 	para "My name used to"
 	line "be everywhere."
 	done	
+	
+BrownArtistScript:
+	trainer ARTIST_BROWN, HAZEL, EVENT_BEAT_BROWN_ARTIST, HazelSeenText, HazelBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext HazelAfterText
+	waitbutton
+	closetext
+	end
+	
+HazelSeenText:
+	text "I'm waiting for"
+	line "the magic hour"
+	
+	para "where the sun'll"
+	line "hit the waves"
+	
+	para "just right!"
+	done
+	
+HazelBeatenText:
+	text "Phooey!"
+	done
+	
+HazelAfterText:
+	text "It may not look"
+	line "it, but CIANWOOD"
+	
+	para "is just over the"
+	line "horizon, across"
+	cont "the sea!"
+	done
 
 Route40_MapEvents:
 	db 0, 0 ; filler
@@ -390,7 +413,7 @@ Route40_MapEvents:
 	object_event  7, 11, SPRITE_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route40Rock, -1
 	object_event  6,  9, SPRITE_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route40Rock, -1
 	object_event  7,  8, SPRITE_ROCK, SPRITEMOVEDATA_SMASHABLE_ROCK, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route40Rock, -1
-	object_event 11, 13, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route40Lass1Script, -1
+	object_event 11, 13, SPRITE_DAISY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 0, BrownArtistScript, -1
 	object_event  8, 10, SPRITE_BUENA, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MonicaScript, EVENT_ROUTE_40_MONICA_OF_MONDAY
 	object_event  7,  6, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route40PokefanMScript, -1
 	object_event 13,  4, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route40Lass2Script, -1

@@ -8,8 +8,11 @@
 	const CIANWOODDUNES_FANATIC_RED
 	const CIANWOODDUNES_DELINQUENT_M
 	const CIANWOODDUNES_FANATIC_BLUE
-;	const CIANWOODDUNES_RADICAL
-;	const CIANWOODDUNES_WIZARD
+	const DUNESATHLETE1
+	const CIANWOODDUNES_POKE_BALL_4
+	const CIANWOODDUNES_POKE_BALL_5
+	const CIANWOODDUNES_POKE_BALL_6
+	const CIANWOODDUNES_POKE_BALL_7
 	
 
 CianwoodDunes_MapScripts:
@@ -239,13 +242,162 @@ SaijoAfterText:
 	done
 
 CianwoodDunesKingsRock:
-	itemball KINGS_ROCK
+	itemball POTION
 	
 CianwoodDunesSodaPop:
 	itemball SODA_POP
 	
 CianwoodDunesMaxElixer:
-	itemball MAX_ELIXER
+	itemball REPEL
+	
+CianwoodDunesTrashman:
+	faceplayer
+	opentext
+	checkevent EVENT_ALLTRASHGONE
+	iftrue .ThanksForCleaning
+	checkevent EVENT_CIANWOOD_DUNES_KINGS_ROCK
+	iffalse .PickUpTrash
+	checkevent EVENT_CIANWOOD_DUNES_MAX_ELIXER
+	iffalse .PickUpTrash
+	checkevent EVENT_CIANWOOD_DUNES_SODA_POP
+	iffalse .PickUpTrash
+	checkevent EVENT_TRASH1
+	iffalse .PickUpTrash
+	checkevent EVENT_TRASH2
+	iffalse .PickUpTrash
+	checkevent EVENT_TRASH3
+	iffalse .PickUpTrash
+	checkevent EVENT_TRASH4
+	iffalse .PickUpTrash
+	writetext HereAGift
+	verbosegiveitem STAR_PIECE
+	iffalse .BagFull
+	verbosegiveitem NUGGET
+	iffalse .BagFull
+	writetext ThanksForCleaningText
+	setevent EVENT_ALLTRASHGONE
+	waitbutton
+	closetext
+	end
+	
+.BagFull
+	closetext
+	end
+	
+.PickUpTrash
+	writetext HelpWithTrashPlz
+	waitbutton
+	closetext
+	end
+	
+.ThanksForCleaning
+	writetext ThanksForCleaningText
+	waitbutton
+	closetext
+	
+HelpWithTrashPlz:
+	text "Ow, ow…"
+	
+	para "I need to clean"
+	line "up all the litter"
+	
+	para "on the beach or"
+	line "Chuck's gonna have"
+	
+	para "my head, but I"
+	line "sprained my"
+	cont "ankle…"
+	
+	para "Think you could do"
+	line "it for me?"
+	
+	para "Pretty please?"
+	done
+	
+HereAGift:
+	text "Wow! Wowowow!"
+	
+	para "You really cleaned"
+	line "the beach for me!"
+	
+	para "Thank you so much!"
+	line "Really!"
+	
+	para "I've found some"
+	line "good stuff lying"
+	cont "around here,"
+	
+	para "so I'll give you"
+	line "some!"
+	done
+	
+ThanksForCleaningText:
+	text "Again, thanks so"
+	line "much for helping"
+	cont "keep our beach"
+	cont "clean!"
+	done
+	
+ItsJustTrash:
+	opentext
+	writetext ItsJustTrashText
+	waitbutton
+	closetext
+	disappear CIANWOODDUNES_POKE_BALL_4
+	setevent EVENT_TRASH1
+	end
+	
+ItsJustTrashText:
+	text "It's just trash."
+	line "You cleaned it up."
+	done
+
+CianwoodDunesCocacobra1:
+	opentext
+	writetext TrashOrIsItText
+	waitbutton
+	closetext
+	cry COCACOBRA
+	loadwildmon COCACOBRA, 32
+	startbattle
+	disappear CIANWOODDUNES_POKE_BALL_5
+	setevent EVENT_TRASH2
+	reloadmapafterbattle
+	end
+	
+CianwoodDunesCocacobra2:
+	opentext
+	writetext TrashOrIsItText
+	waitbutton
+	closetext
+	cry COCACOBRA
+	loadwildmon COCACOBRA, 33
+	startbattle
+	disappear CIANWOODDUNES_POKE_BALL_6
+	setevent EVENT_TRASH3
+	reloadmapafterbattle
+	end
+	
+CianwoodDunesCantalone:
+	opentext
+	writetext TrashOrIsItText
+	waitbutton
+	closetext
+	cry CANTALONE
+	loadwildmon CANTALONE, 31
+	startbattle
+	disappear CIANWOODDUNES_POKE_BALL_7
+	setevent EVENT_TRASH3
+	reloadmapafterbattle
+	end
+	
+TrashOrIsItText:
+	text "It's just trash."
+	para "You cleaned it up."
+	
+	para "… … …"
+	line "Huh?"
+	done
 	
 CianwoodDunes_MapEvents:
 	db 0, 0 ; filler
@@ -258,14 +410,18 @@ CianwoodDunes_MapEvents:
 	db 1 ; bg events
 	bg_event 10, 34, BGEVENT_READ, CianwoodDunesSign
 
-	db 9 ; obj events
+	db 14 ; obj events
 	object_event 4, 29, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, CianwoodDunesKingsRock, EVENT_CIANWOOD_DUNES_KINGS_ROCK
-	object_event 12, 12, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, CianwoodDunesSodaPop, EVENT_CIANWOOD_DUNES_SODA_POP
+	object_event 11, 14, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, CianwoodDunesSodaPop, EVENT_CIANWOOD_DUNES_SODA_POP
 	object_event 25, 35, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, CianwoodDunesMaxElixer, EVENT_CIANWOOD_DUNES_MAX_ELIXER
-	object_event 15, 25, SPRITE_ATHLETE_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, CianwoodDunesTrainerAva, -1
-	object_event  3, 18, SPRITE_SWIMMER_GUY, SPRITEMOVEDATA_SWIM_WANDER, 1, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 2, CianwoodDunesTrainerDalton, -1
-	object_event  3, 14, SPRITE_SWIMMER_GIRL, SPRITEMOVEDATA_SPINCOUNTERCLOCKWISE, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, CianwoodDunesWillow, -1
-	object_event 25, 28, SPRITE_FANATIC, 	SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 0, CianwoodDunesYamato, -1
+	object_event 15, 25, SPRITE_ATHLETE_F, 		SPRITEMOVEDATA_WALK_LEFT_RIGHT, 3, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, CianwoodDunesTrainerAva, -1
+	object_event  3, 18, SPRITE_SWIMMER_GUY, 	SPRITEMOVEDATA_SWIM_WANDER, 1, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 2, CianwoodDunesTrainerDalton, -1
+	object_event  3, 14, SPRITE_SWIMMER_GIRL, 	SPRITEMOVEDATA_SPINCOUNTERCLOCKWISE, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, CianwoodDunesWillow, -1
+	object_event 25, 28, SPRITE_FANATIC, 		SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 0, CianwoodDunesYamato, -1
 	object_event 25, 29, SPRITE_DELINQUENT_M, 	SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 0, CianwoodDunesTakeo, -1
-	object_event 21, 22, SPRITE_FANATIC, 	SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 2, CianwoodDunesSaijo, -1
-	
+	object_event 21, 22, SPRITE_FANATIC, 		SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 2, CianwoodDunesSaijo, -1
+	object_event 12, 34, SPRITE_ATHLETE_M, 		SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CianwoodDunesTrashman, -1
+	object_event  4, 22, SPRITE_POKE_BALL, 		SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ItsJustTrash, EVENT_TRASH1
+	object_event  8, 10, SPRITE_POKE_BALL, 		SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CianwoodDunesCocacobra1, EVENT_TRASH2
+	object_event 11,  4, SPRITE_POKE_BALL, 		SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CianwoodDunesCocacobra2, EVENT_TRASH3
+	object_event 17, 12, SPRITE_POKE_BALL, 		SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CianwoodDunesCantalone, EVENT_TRASH4

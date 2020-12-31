@@ -1,10 +1,11 @@
-	db "PIRATE@" ; species name ; TODO
-	dw 611, 641 ; height, weight
+	db "COMMANDO@" ; species name ; TODO
+	dw 411, 827 ; height, weight
 
-	db   "When MACAWSAIR"
-	next "spots riches, its"
-	next "feathers burn with"
+	db   "This is an"
+	next "undiscovered"
+	next "#MON!"
 
-	page "excitement. It"
-	next "steals habitually,"
-	next "not maliciously.@"
+	page "Report back with"
+	next "information about"
+	next "its biology.@"
+

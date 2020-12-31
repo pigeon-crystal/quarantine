@@ -10,6 +10,7 @@
 	const ROUTE35_OFFICER
 	const ROUTE35_FRUIT_TREE
 	const ROUTE35_POKE_BALL
+	const ROUTE35_ARTIST
 
 Route35_MapScripts:
 	db 0 ; scene scripts
@@ -472,6 +473,38 @@ Route35SignText:
 	text "ROUTE 35"
 	done
 
+YellowArtistScript:
+	trainer ARTIST_YELLOW, SUNNY, EVENT_BEAT_YELLOW_ARTIST, SunnySeenText, SunnyBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext SunnyAfterText
+	waitbutton
+	closetext
+	end
+	
+SunnySeenText:
+	text "La la la!"
+	
+	para "A lovely day for"
+	line "art!"
+	
+	para "A lovely day for"
+	line "#MON!"
+	done
+	
+SunnyBeatenText:
+	text "Ahh! What a lovely"
+	line "loss I had!" 
+	done
+	
+SunnyAfterText:
+	text "How rousing and"
+	line "lovely a battle"
+	cont "can be!"
+	done
+
 Route35_MapEvents:
 	db 0, 0 ; filler
 
@@ -486,7 +519,7 @@ Route35_MapEvents:
 	bg_event  1,  7, BGEVENT_READ, Route35Sign
 	bg_event 11, 31, BGEVENT_READ, Route35Sign
 
-	db 11 ; object events
+	db 12 ; object events
 	object_event  4, 19, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, TrainerCamperIvan, -1
 	object_event  8, 20, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, TrainerCamperElliot, -1
 	object_event  7, 20, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 3, TrainerPicnickerBrooke, -1
@@ -498,3 +531,4 @@ Route35_MapEvents:
 	object_event  5,  6, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, TrainerOfficerDirk, -1
 	object_event  2, 25, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route35FruitTree, -1
 	object_event 13, 16, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route35TMRollout, EVENT_ROUTE_35_TM_ROLLOUT
+	object_event 0, 6, SPRITE_DAISY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 1, YellowArtistScript, -1
