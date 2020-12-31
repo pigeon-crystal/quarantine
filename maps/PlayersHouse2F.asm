@@ -52,10 +52,10 @@ PosterScript:
 
 PlayersHouseRadioScript:
 	setflag ENGINE_POKEDEX
-	givepoke RAMBOYANT, 55
-	givepoke DONUKAME, 100
-	givepoke SQUEENIE, 100
-	givepoke HAUNTLET, 45
+	givepoke YUESBI, 55
+	givepoke YUEFOE, 100
+	givepoke VIRUES, 100
+	givepoke SHREDDRAKE, 45
 	setflag ENGINE_ZEPHYRBADGE
 	setflag ENGINE_HIVEBADGE
 	setflag ENGINE_FOGBADGE
@@ -84,7 +84,9 @@ PlayersHouseRadioScript:
 	giveitem MASTER_BALL
 	giveitem MASTER_BALL
 	giveitem MAX_REPEL
-	warp VICTORY_ROAD_NEW, 55, 24
+	giveitem COIN_CASE
+	givecoins 1000
+	warp GOLDENROD_GAME_CORNER, 3, 12
 	end
 	
 ;PlayersHouseRadioScript:

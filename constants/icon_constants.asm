@@ -232,6 +232,9 @@
 	const ICON_NUKE1
 	const ICON_NUKE2
 	const ICON_NUKE3
+	const ICON_YUESBI
+	const ICON_VIRUES
+	const ICON_YUEFOE
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

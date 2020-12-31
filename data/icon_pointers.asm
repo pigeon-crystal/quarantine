@@ -232,4 +232,7 @@ IconPointers:
 	dw Nuke1Icon
 	dw Nuke2Icon
 	dw Nuke3Icon
+	dw YuesbiIcon
+	dw ViruesIcon
+	dw YuefoeIcon
 	
