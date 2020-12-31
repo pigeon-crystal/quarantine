@@ -859,7 +859,7 @@ TakeCyndaquilText:
 
 TakeTotodileText:
 	text "ELM: Do you want"
-	line "FURSA, the"
+	line "NUTANUK, the"
 	cont "water #MON?"
 	done
 

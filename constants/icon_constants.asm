@@ -238,6 +238,8 @@
 	const ICON_MOPERDOR
 	const ICON_MAJESDOR
 	const ICON_FUEGHAST
+	const ICON_MAMMOTHRA
+	const ICON_BEHEMOTHRA
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

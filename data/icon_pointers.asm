@@ -238,4 +238,6 @@ IconPointers:
 	dw MoperdorIcon
 	dw MajesdorIcon
 	dw FueghastIcon
+	dw MammothraIcon
+	dw BehemothraIcon
 	

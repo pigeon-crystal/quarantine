@@ -57,12 +57,6 @@ Route32CooltrainerMContinueScene:
 	closetext
 	end
 
-.Unreferenced:
-	writetext Route32CooltrainerMText_UnusedSproutTower
-	waitbutton
-	closetext
-	end
-
 .GiveMiracleSeed:
 	writetext Route32CooltrainerMText_HaveThisSeed
 	promptbutton
@@ -609,7 +603,7 @@ Route32CooltrainerMText_ExperiencesShouldBeUseful:
 	line "for your journey."
 	
 	para "Tell your friends!"
-	cont "Come back soon!"
+	line "Come back soon!"
 	done
 
 Text_MillionDollarSlowpokeTail:

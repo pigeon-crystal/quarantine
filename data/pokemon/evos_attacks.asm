@@ -2697,11 +2697,11 @@ IlluxuryEvosAttacks:
 CigerillarEvosAttacks:
 	db EVOLVE_LEVEL, 16, TOBACOON
 	db 0 ; no more evolutions
+	db 1, CONSTRICT
 	db 1, POUND
 	db 1, STRING_SHOT
-	db 7, CONSTRICT
-	db 9, ABSORB
-	db 11, POISON_GAS
+	db 8, ABSORB
+	db 10, POISON_GAS
 	db 13, SMOKESCREEN
 	db 15, STUN_SPORE
 	db 18, MEGA_DRAIN
