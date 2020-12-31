@@ -712,7 +712,7 @@ _AreYouABoyOrAreYouAGirlText::
 	cont "#moner, and"
 	cont "Knuckles-san."
 	
-	para "Report any buys"
+	para "Report any bugs"
 	line "you can find"
 	cont "so the public"
 	cont "demo can be out"
