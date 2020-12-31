@@ -103,3 +103,7 @@ INCBIN "gfx/trainers/sukeban.gbcpal", middle_colors
 INCBIN "gfx/trainers/spellcaster.gbcpal", middle_colors
 INCBIN "gfx/trainers/yotsuba.gbcpal", middle_colors
 INCBIN "gfx/trainers/historian.gbcpal", middle_colors
+INCBIN "gfx/trainers/artist_brown.gbcpal", middle_colors
+INCBIN "gfx/trainers/artist_pink.gbcpal", middle_colors
+INCBIN "gfx/trainers/artist_yellow.gbcpal", middle_colors
+INCBIN "gfx/trainers/artist_gray.gbcpal", middle_colors

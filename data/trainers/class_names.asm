@@ -96,4 +96,8 @@ TrainerClassNames::
 	db "SPELLCASTER@"
 	db "YOUNGSTER@" ; Yotsuba
 	db "HISTORIAN@" ; NOT! Bill, the archaeologist class 
+	db "ARTIST@" ; BROWN
+	db "ARTIST@" ; yellow
+	db "ARTIST@" ; pink
+	db "ARTIST@" ; gray
 	

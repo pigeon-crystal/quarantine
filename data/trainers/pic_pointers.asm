@@ -98,4 +98,8 @@ TrainerPicPointers::
 	dba SpellcasterPic
 	dba YotsubaPic
 	dba HistorianPic
+	dba ArtistBrownPic
+	dba ArtistPinkPic
+	dba ArtistYellowPic
+	dba ArtistGrayPic
 	

@@ -174,6 +174,7 @@ EcruteakGroupSprites:
 	db SPRITE_WIZARD
 	db SPRITE_LAWNIE
 	db SPRITE_DELINQUENT_M
+	db SPRITE_DAISY
 	db 0 ; end
 
 AzaleaGroupSprites:
@@ -247,6 +248,7 @@ CianwoodGroupSprites:
 	db SPRITE_VEGETEBAA
 	db SPRITE_MURDERMIS
 	db SPRITE_BAAFOMET
+	db SPRITE_DAISY
 	db 0 ; end
 
 LakeOfRageGroupSprites:
@@ -282,6 +284,7 @@ MahoganyGroupSprites:
 	db SPRITE_FRUIT_TREE
 	db SPRITE_POKE_BALL
 	db SPRITE_SUICUNE
+	db SPRITE_DAISY
 	db 0 ; end
 
 BlackthornGroupSprites:

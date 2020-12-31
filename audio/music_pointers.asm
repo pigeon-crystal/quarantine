@@ -126,3 +126,4 @@ Music:
 	dba Music_LookRadical
 	dba Music_Andromega
 	dba Music_Yotsuba2
+	dba Music_LookArtist

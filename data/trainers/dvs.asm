@@ -96,7 +96,9 @@ TrainerClassDVs:
 	dn 15, 10, 10, 11 ; SUKEBAN
 	dn  7,  8,  7, 15 ; SPELLCASTER
 	dn 15, 15, 15, 15 ; YOTSUBA 		lategame bonus boss, fuck you, etc
-	dn  8,  8,  8, 11 ; HIKER
-
-
- 
+	dn  8,  8,  8, 12 ; HISTORIAN
+	dn  7, 12, 12,  8 ; ARTIST
+	dn  7, 12, 12,  8 ; ARTIST
+	dn  7, 12, 12,  8 ; ARTIST
+	dn  7, 12, 12,  8 ; ARTIST
+	

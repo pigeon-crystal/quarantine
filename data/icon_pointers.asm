@@ -229,4 +229,7 @@ IconPointers:
 	dw ShreddrakeIcon
 	dw AligroIcon
 	dw AmbionicIcon
+	dw Nuke1Icon
+	dw Nuke2Icon
+	dw Nuke3Icon
 	

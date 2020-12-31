@@ -128,6 +128,7 @@
 	const MUSIC_RADICAL_ENCOUNTER			 ; 78
 	const MUSIC_ANDROMEGA					 ; 79
 	const MUSIC_YOTSUBA2
+	const MUSIC_ARTIST_ENCOUNTER
 
 ; GetMapMusic picks music for these values (see home/map.asm)
 MUSIC_ILEX_FOREST	EQU $fb

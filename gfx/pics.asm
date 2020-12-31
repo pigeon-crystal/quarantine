@@ -157,6 +157,10 @@ StranglureBackpic:     INCBIN "gfx/pokemon/stranglure/back.2bpp.lz"
 FurnitFrontpic:      INCBIN "gfx/pokemon/furnit/front.animated.2bpp.lz"
 BlasphermyBackpic:     INCBIN "gfx/pokemon/blasphermy/back.2bpp.lz"
 HistorianPic:			INCBIN "gfx/trainers/historian.2bpp.lz"
+ArtistBrownPic:			INCBIN "gfx/trainers/artist_brown.2bpp.lz"
+ArtistPinkPic:			INCBIN "gfx/trainers/artist_pink.2bpp.lz"
+ArtistYellowPic:		INCBIN "gfx/trainers/artist_yellow.2bpp.lz"
+ArtistGrayPic:			INCBIN "gfx/trainers/artist_gray.2bpp.lz"
 
 
 SECTION "Pics 6", ROMX

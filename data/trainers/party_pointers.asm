@@ -97,4 +97,7 @@ TrainerGroups:
 	dba SpellcasterGroup
 	dba YotsubaGroup
 	dba HistorianGroup
-	
+	dba ArtistBrownGroup
+	dba ArtistPinkGroup
+	dba ArtistYellowGroup
+	dba ArtistGrayGroup

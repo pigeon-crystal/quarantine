@@ -3100,10 +3100,9 @@ JugglerGroup:
 BlackbeltGroup:
 	; BLACKBELT_T (1) Kenji 2
 	db "KENJI@", TRAINERTYPE_NORMAL
-	db 27, MORADAY
-	db 30, MOTHO
-	db 27, MORADAY
-	db 32, NIMBOCETUS
+	db 60, PAINSAW
+	db 60, PAINSAW
+	db 70, QWALLOP
 	db -1 ; end
 
 	; BLACKBELT_T (2) ;Cianwood gym, first pair left
@@ -3149,7 +3148,7 @@ BlackbeltGroup:
 
 	; BLACKBELT_T (8) Route 45 Kenji 1
 	db "KENJI@", TRAINERTYPE_NORMAL
-	db 49, PAINSAW
+	db 47, PAINSAW
 	db 49, QWALLOP
 	db -1 ; end
 
@@ -4591,3 +4590,35 @@ HistorianGroup:
 	db 46, MORADAY, NO_ITEM
 	db -1 ; end
 	
+ArtistBrownGroup: ; looking out at ocean, route 40
+	db "@HAZEL", TRAINERTYPE_ITEM
+	db 37, PARDNER, MIRACLEBERRY
+	db 37, KITSYNA, NO_ITEM
+	db 37, WORMACHO, NO_ITEM
+	db 37, PEKOI, NO_ITEM
+	db -1
+
+ArtistPinkGroup: ; route 36
+	db "ROSE@", TRAINERTYPE_NORMAL
+	db 9, CALFEEN
+	db 7, MANDELBLOB
+	db 9, GWUBBY
+	db -1 ; end
+
+ArtistYellowGroup: ; route 35
+	db "SUNNY@", TRAINERTYPE_NORMAL
+	db 22, NYALLEY
+	db 22, HAPPIG
+	db 22, TRANQUIEL
+	db 22, SANDOLPH
+	db 22, SQWUCKY
+	db -1 ; end
+
+ArtistGrayGroup: ; victory road side cave
+	db "SASHA@", TRAINERTYPE_ITEM
+	db 50, TENDRILL, NO_ITEM
+	db 50, RESPECTRE, STICK
+	db 50, NIMBOREM, NO_ITEM
+	db 50, SALARITO, PINK_BOW
+	db 50, SLISCES, METAL_COAT
+	db -1

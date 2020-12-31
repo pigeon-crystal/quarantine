@@ -816,4 +816,16 @@ KRIS EQU __enum__
 	const ART
 	const MCKENNA
 	
+	trainerclass ARTIST_BROWN
+	const HAZEL
+	
+	trainerclass ARTIST_PINK
+	const ROSE
+	
+	trainerclass ARTIST_YELLOW
+	const SUNNY
+	
+	trainerclass ARTIST_GRAY
+	const SASHA
+	
 NUM_TRAINER_CLASSES EQU __enum__

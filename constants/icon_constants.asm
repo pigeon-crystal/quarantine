@@ -229,6 +229,9 @@
 	const ICON_SHREDDRAKE
 	const ICON_ALIGRO
 	const ICON_AMBIONIC
+	const ICON_NUKE1
+	const ICON_NUKE2
+	const ICON_NUKE3
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def
