@@ -256,6 +256,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	ld b, a
 	decoord 1, 15
 	call .PlaceCurrentDay
+	call .VersionNumberPrint
 	decoord 4, 16
 	ldh a, [hHours]
 	ld c, a
@@ -266,6 +267,14 @@ MainMenu_PrintCurrentTimeAndDay:
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
 	call PrintNum
 	ret
+
+.VersionNumberPrint:
+	ld de, .VersionNumberText
+	call PlaceString
+	ret
+	
+.VersionNumberText
+	db "v0.500@"
 
 .min
 ; unused
