@@ -294,6 +294,7 @@ CianwoodDunesTrashman:
 	writetext ThanksForCleaningText
 	waitbutton
 	closetext
+	end
 	
 HelpWithTrashPlz:
 	text "Ow, ow…"

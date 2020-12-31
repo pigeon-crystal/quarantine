@@ -22,8 +22,14 @@ GoldenrodVendingMachine:
 	ifequal 1, .FreshWater
 	ifequal 2, .SodaPop
 	ifequal 3, .Lemonade
+	ifequal 4, .DietClover
 	closetext
 	end
+
+.DietClover
+	writetext AllOut
+	waitbutton
+	sjump .Start
 
 .FreshWater:
 	checkmoney YOUR_MONEY, GOLDENRODDEPTSTORE6F_FRESH_WATER_PRICE
@@ -78,11 +84,16 @@ GoldenrodVendingMachine:
 
 .MenuData:
 	db STATICMENU_CURSOR ; flags
-	db 4 ; items
+	db 5 ; items
 	db "FRESH WATER  ¥200@"
 	db "SODA POP     ¥300@"
 	db "LEMONADE     ¥350@"
+	db "DIET CLOVER  ¥400@"
 	db "CANCEL@"
+	
+AllOut:
+	text "They're all out."
+	done
 
 GoldenrodDeptStore6FLassScript:
 	jumptextfaceplayer GoldenrodDeptStore6FLassText
