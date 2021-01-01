@@ -55,8 +55,9 @@ AmazingTrainer:
 	para "I will likely"
 	line "remain down here"
 	cont "to meditate. I"
-	cont "assume most of"
-	cont "the WARRIORS will"
+	
+	para "assume most of"
+	line "the WARRIORS will"
 	cont "stay to train, too."
 	done
 

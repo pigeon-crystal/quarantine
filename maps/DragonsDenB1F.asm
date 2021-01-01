@@ -220,6 +220,7 @@ DragonsDenB1FGuardText:
 	
 	para "without the consent"
 	line "of the MASTER."
+	done
 
 ClairText_Wait:
 	text "Wait!"

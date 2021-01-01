@@ -51,17 +51,6 @@ OlivineLighthouseJasmine:
 	opentext
 	writetext AmphyPaluPaluluText
 	waitbutton
-	closetext
-	turnobject OLIVINELIGHTHOUSE6F_MONSTER, RIGHT
-	pause 10
-	turnobject OLIVINELIGHTHOUSE6F_MONSTER, LEFT
-	pause 10
-	turnobject OLIVINELIGHTHOUSE6F_MONSTER, RIGHT
-	pause 10
-	turnobject OLIVINELIGHTHOUSE6F_MONSTER, LEFT
-	pause 10
-	faceplayer
-	opentext
 	writetext JasmineThankYouText
 	waitbutton
 	closetext
@@ -102,7 +91,6 @@ OlivineLighthouseUnusedDummyScript:
 	end
 
 OlivineLighthouseAmphy:
-	faceplayer
 	opentext
 	checkevent EVENT_JASMINE_RETURNED_TO_GYM
 	iftrue .HealthyNow

@@ -175,11 +175,10 @@ MahoganyMart1FBlackBeltText:
 	line "ment worked like a"
 	cont "charm."
 
-	para "MAGIKARP are just"
-	line "worthless, but"
-
-	para "GYARADOS are big"
-	line "moneymakers."
+	para "Shame about all"
+	line "the toxic waste!"
+	
+	para "Kekekeke!"
 	done
 
 MahoganyMart1FBlackBeltText_LanceEntered:
@@ -200,10 +199,10 @@ MahoganyMart1FLanceRadioText:
 	line "<PLAY_G>?"
 
 	para "Just as I thought,"
-	line "that strange radio"
+	line "the pipelines"
 
-	para "signal is coming"
-	line "from here."
+	para "lead straight back"
+	line "to here."
 	done
 
 MahoganyMart1FLanceStairsText:

@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, ROCK ; type
-	db 205 ; catch rate
-	db 51 ; base exp
+	db 211 ; catch rate
+	db 52 ; base exp
 	db BLK_APRICORN, HARD_STONE ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

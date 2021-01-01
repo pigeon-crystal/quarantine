@@ -303,13 +303,13 @@ NomsterEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 4, DEFENSE_CURL
-	db 5, BITE
+	db 7, BITE
 	db 9, ROLLOUT
 	db 16, HEADBUTT
 	db 19, ENDURE
 	db 21, QUICK_ATTACK
 	db 22, DIG
-	db 24, REST
+	db 28, REST
 	db 30, CRUNCH
 	db 33, HYPER_FANG
 	db 40, SUPER_FANG
@@ -326,12 +326,11 @@ NomsabreEvosAttacks:
 	db 19, ENDURE
 	db 21, HEADBUTT
 	db 22, HAMSTERKAUF
-	db 24, REST
 	db 28, DIG
 	db 34, CRUNCH
 	db 38, HYPER_FANG
 	db 41, SUPER_FANG
-	db 49, CURSE
+	db 49, REST
 	db 52, BODY_SLAM
 	db 64, RECOVER
 	db 0 ; no more level-up moves
@@ -1429,6 +1428,7 @@ MissteriaEvosAttacks:
 
 DismaidenEvosAttacks:
 	db EVOLVE_LEVEL, 46, BEDLAMAM
+	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, CURSE
 	db 10, DISABLE

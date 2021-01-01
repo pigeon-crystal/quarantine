@@ -1,6 +1,6 @@
 	db JUNOBE ; 190
 
-	db  19,  29,  31,  71,  53,  41
+	db  19,  29,  31,  71,  59,  41
 	;   hp  atk  def  spd  sat  sdf
 
 	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
@@ -13,7 +13,7 @@
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/junobe/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
-	db GROWTH_SLIGHTLY_SLOW ; growth rate
+	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_WATER_2, EGG_WATER_3 ; egg groups
 
 	; tm/hm learnset

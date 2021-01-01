@@ -246,8 +246,9 @@ BugCatcherBennySeenText:
 	line "sure bird #MON"
 	cont "like the garden!"
 
-	para "Birds are important,"
-	line "after all!"
+	para "Birds are very"
+	line "important, after"
+	cont "all!"
 	done
 
 BugCatcherBennyBeatenText:
@@ -365,8 +366,8 @@ AzaleaGymGuyText:
 	cont "a real nice"
 	cont "garden!"
 	
-	para "Their teams reflect"
-	line "that."
+	para "Their teams "
+	line "reflect that."
 
 	para "What kind of"
 	line "#MON would you"

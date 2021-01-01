@@ -14,7 +14,7 @@ AndromegaItself:
 	closetext
 	setevent EVENT_GOT_ANDROMEGA
 	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
-	loadwildmon MUMAGNUS, 60
+	loadwildmon ANDROMEGA, 60
 	startbattle
 	disappear ANDROMEGA_FINAL_ANDROMEGA
 	reloadmapafterbattle

@@ -114,10 +114,9 @@ BattleTowerOutsideSignText_NotYetOpen:
 	done
 
 BattleTowerOutsideSignText:
-	text "BATTLE TOWER"
-
-	para "Take the Ultimate"
-	line "Trainer Challenge!"
+	text "The BATTLE TOWER"
+	line "PROJECT has"
+	cont "started!"
 	done
 
 BattleTowerOutsideText_DoorsClosed:

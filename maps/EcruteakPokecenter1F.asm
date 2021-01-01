@@ -121,6 +121,11 @@ EcruteakPokecenter1F_BillText2:
 	
 	para "Say, come on"
 	line "over sometime."
+	
+	para "I have a gift"
+	line "for #MON"
+	cont "TRAINER like"
+	cont "you!"
 
 	para "Buh-bye!"
 	done

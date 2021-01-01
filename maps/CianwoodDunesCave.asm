@@ -64,6 +64,7 @@ TrainerDelinquentFCherry:
 	endifjustbattled
 	opentext
 	writetext CherryAfterBattleText
+	waitbutton
 	closetext
 	end
 	
@@ -96,6 +97,7 @@ TrainerDelinquentMChusuke:
 	endifjustbattled
 	opentext
 	writetext ChusukeAfterBattleText
+	waitbutton
 	closetext
 	end
 
@@ -117,6 +119,7 @@ ChusukeAfterBattleText:
 	para "But get outta my"
 	line "sight before I"
 	cont "lose my cool."
+	done
 
 CianwoodDunesCaveOddAmber:
 	itemball ODD_AMBER

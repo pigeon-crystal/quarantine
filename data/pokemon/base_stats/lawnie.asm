@@ -1,11 +1,11 @@
 	db LAWNIE ; 
 
-	db  53,  36,  55,  32, 47,  43
+	db  53,  34,  55,  34, 47,  43
 	;   hp  atk  def  spd  sat  sdf
 
 	db DARK, GROUND ; type
 	db 211 ; catch rate
-	db 52 ; base exp
+	db 56 ; base exp
 	db GRN_APRICORN, GRN_APRICORN ; items
 	db GENDER_F12_5 ; gender ratio
 	db 100 ; unknown 1

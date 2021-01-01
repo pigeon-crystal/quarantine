@@ -1,10 +1,10 @@
-	db "SYMBOL@" ; species name
-	dw 108, 110 ; height, weight
+	db "RUNE@" ; species name
+	dw 410, 300 ; height, weight
 
 	db   "The last relic of"
 	next "a vanished civil-"
-	next "ization. There are"
+	next "ization. Many"
 	
-	page "many different"
-	next "varietes of UNOWN"
-	next "that exist.@"
+	page "different varietes"
+	next "of GLYTHIC"
+	next "exist.@"

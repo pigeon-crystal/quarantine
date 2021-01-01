@@ -338,12 +338,20 @@ PokemaniacBenBeatenText:
 	done
 
 PokemaniacBenAfterBattleText:
-	text "What else do I"
-	line "like besides"
-	cont "#MON?"
-
-	para "MARY on the radio."
-	line "I bet she's cute!"
+	text "Have you met BILL?"
+	
+	para "Man, he's the" 
+	line "best!"
+	
+	para "He gave me this"
+	line "KORDIENA, and he"
+	
+	para "said it has a"
+	line "lot of different"
+	cont "evolutions!"
+	
+	para "I wonder what"
+	line "mine will be?"
 	done
 
 PokemaniacBrentSeenText:
@@ -375,8 +383,9 @@ PokemaniacRonSeenText:
 	done
 
 PokemaniacRonBeatenText:
-	text "My NIDOKING did"
-	line "pretty right on!"
+	text "Even though we"
+	line "lost, they're the"
+	cont "coolest!"
 	done
 
 PokemaniacRonAfterBattleText:

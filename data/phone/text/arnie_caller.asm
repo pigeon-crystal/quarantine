@@ -100,12 +100,8 @@ ArnieHurryText:
 
 	para "You're missing out"
 	line "on seeing some"
-	cont "ARASBESTOS!"
+	cont "NYALLEY!"
 
 	para "Get down to ROUTE"
 	line "35 right now!"
-	
-	para "On the other hand,"
-	line "this is kinda"
-	cont "scary."
 	done

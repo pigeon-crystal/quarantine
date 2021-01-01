@@ -268,11 +268,19 @@ EcruteakTinTowerEntranceGrampsText:
 	text "Two towers…"
 	line "Two #MON…"
 
-	para "But when one"
-	line "burned down, both"
-
-	para "#MON left,"
-	line "never to return."
+	para "One left in days"
+	line "of yore, seeking"
+	cont "great riches…"
+	
+	para "One was punished"
+	line "for its grave,"
+	
+	para "catastrophic"
+	line "mistake…"
+	
+	para "Ecruteak is a"
+	line "storied town"
+	cont "indeed."
 	done
 
 EcruteakTinTowerEntrance_MapEvents:

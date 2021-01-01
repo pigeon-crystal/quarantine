@@ -197,11 +197,6 @@ WarriorGlennAfterBattleText:
 	line "guard below is"
 	cont "stronger than"
 	cont "any of us."
-	
-	para "I hear he has a"
-	line "rare #MON"
-	cont "from the WHIRL"
-	cont "ISLANDS."
 	done
 
 DragonsDepthsB1FHiddenMaxRevive:

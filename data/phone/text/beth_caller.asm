@@ -10,10 +10,7 @@ BethExhilaratingRideText:
 	line "very fast."
 
 	para "It's exhilarating"
-	line "to ride on its"
-
-	para "back when it"
-	line "really gets going."
+	line "to watch it go!"
 	done
 
 BethDefeatedMonText:

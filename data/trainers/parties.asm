@@ -111,7 +111,7 @@ MortyGroup:
 PryceGroup:
 	; PRYCE (1)
 	db "PRYCE@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
-	db 36, JADDICE
+	db 37, JADDICE
 		dw $7aac, $6aac, $7aac, $6aac, $6aac
 		db NO_ITEM
 		db DOUBLE_KICK, STUN_SPORE, ICE_SHARD, ICY_WIND
@@ -120,7 +120,7 @@ PryceGroup:
 		db NEVERMELTICE
 		db EARTH_POWER, ICE_PUNCH, ICY_WIND, SMOG
 	db 38, MT_NOOT
-		dw $baaa, $baaa, $baaa, $baaa, $baaf
+		dw PERFECT_STAT_EXP, $baaa, $bafa, $baaa, PERFECT_STAT_EXP
 		db GOLD_BERRY
 		db SUBSTITUTE, ICY_WIND, SHADOW_BALL, SURF 
 	db -1 ; end
@@ -140,12 +140,12 @@ JasmineGroup:
 		db RAIN_DANCE, SURF, SPIKE_CANNON, CHARM
 	db 42, DREADGE
 		db "DREADGE@"
-		dw $7aac, $6aac, $7aac, $6aac, $6aac
+		dw $7aac, PERFECT_STAT_EXP, $7aac, $6aac, $6aac
 		db PRZCUREBERRY
 		db IRON_TAIL, LIQUIDATION, BITE, ROCK_SMASH
 	db 42, NAVIGAZER
 		db "NAVII@"
-		dw $9aac, $6bac, $70ac, $fa0c, $810c
+		dw $9aac, $6bac, $70ac, $fa0c, PERFECT_STAT_EXP
 		db MINT_BERRY
 		db PSYBEAM, THUNDERBOLT, MOONLIGHT, BARRIER
 	db -1 ; end
@@ -161,8 +161,8 @@ ChuckGroup:
 		dw $7aac, $6aac, $7aac, $6aac, $6aac
 		db NO_ITEM
 		db DYNAMICPUNCH, LEECH_LIFE, SLASH, TOXIC
-	db 39, CANTOGETHA
-		dw $7aac, $6aac, $7aac, $6aac, $6aac
+	db 40, CANTOGETHA
+		dw $faac, $bfac, $baac, $baac, $6aac
 		db GOLD_BERRY
 		db DYNAMICPUNCH, DETECT, HEADBUTT, IRON_HEAD
 	db -1 ; end
@@ -182,8 +182,8 @@ ClairGroup:
 		dw $8fa0, $91ac, $8bac, $9afc, $9aac
 		db NO_ITEM
 		db OUTRAGE, EARTHQUAKE, SUPERSONIC, SUPER_FANG
-	db 50, FALWODRAIG
-		dw $7bac, $91ac, $8bac, $9afc, $9aac
+	db 51, FALWODRAIG
+		dw PERFECT_STAT_EXP, $91ac, $8bac, $9afc, $9aac
 		db PRZCUREBERRY
 		db DRAGONBREATH, FLASH_CANNON, ACID, REFLECT
 	db 52, TYRDRAGA
@@ -846,7 +846,7 @@ SchoolboyGroup:
 	; SCHOOLBOY (8) Route 25
 	db "JOE@", TRAINERTYPE_NORMAL
 	db 33, ANTPYRE
-	db 33, GANZORAH
+	db 33, GANZERKER
 	db -1 ; end
 
 	; SCHOOLBOY (9) Route 15
@@ -985,9 +985,9 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (5)
 	db "TOBY@", TRAINERTYPE_NORMAL
-	db 15, BLAZELLE
-	db 16, BLAZELLE
-	db 17, BLAZELLE
+	db 34, QWALLOP
+	db 36, HORNAMPA
+	db 36, BUDGANEER
 	db -1 ; end
 
 	; BIRD_KEEPER (6) Lighthouse
@@ -1217,7 +1217,7 @@ CooltrainerMGroup:
 	db 49, SORDRAENA, BURNT_BERRY
 	db 49, SORDRAENA, BURNT_BERRY
 	db 49, SORDRAENA, BURNT_BERRY
-	end
+	db -1 ; end
 
 	; COOLTRAINERM (4) Blackthorn Gym
 	db "CODY@", TRAINERTYPE_NORMAL
@@ -1300,7 +1300,7 @@ CooltrainerMGroup:
 
 	; COOLTRAINERM (16)
 	db "SEAN@", TRAINERTYPE_NORMAL
-	db 35, FLAREON
+	db 35, ANTPYRE
 	db 35, ANTPYRE
 	db 35, WALLARRIOR
 	db -1 ; end
@@ -1334,10 +1334,10 @@ CooltrainerMGroup:
 CooltrainerFGroup:
 	; COOLTRAINERF (1)
 	db "GWEN@", TRAINERTYPE_NORMAL
-	db 26, NOOMSDAY
-	db 22, FLAREON
-	db 22, GANZORAH
-	db 22, JOLTEON
+	db 26, PURRAATZLE
+	db 22, PURRDLE
+	db 22, NYALLEY
+	db 22, ODDITTEN
 	db -1 ; end
 
 	; COOLTRAINERF (2) Lake of Rage
@@ -1589,7 +1589,8 @@ PokemaniacGroup:
 
 	; POKEMANIAC (5) Route 43
 	db "BEN@", TRAINERTYPE_NORMAL
-	db 32, DISMAIDEN
+	db 32, KORDIENA
+	db 30, KRAKENTOA	
 	db -1 ; end
 
 	; POKEMANIAC (6) Route 43 Brent 1
@@ -1657,9 +1658,9 @@ PokemaniacGroup:
 GruntMGroup:
 	; GRUNTM (1) Well Boss UNUSED
 	db "GRUNT@", TRAINERTYPE_ITEM
-	db 17, NOMSTER
-	db 18, CLIBBLE
-	db 17, STRANGLURE
+	db 17, NOMSTER, BERRY
+	db 18, CLIBBLE, BERRY
+	db 17, STRANGLURE, BERRY
 	db -1 ; end
 
 	; GRUNTM (2) Well 
@@ -2547,7 +2548,9 @@ SailorGroup:
 
 	; SAILOR (10) Route 38
 	db "HARRY@", TRAINERTYPE_NORMAL
-	db 19, ODDITTEN
+	db 35, SLISCES
+	db 35, PRAWMATE
+	db 35, ODDITTEN
 	db -1 ; end
 
 	; SAILOR (11)
@@ -3768,7 +3771,7 @@ BoarderGroup:
 
 	; BOARDER (2)
 	db "BRAD@", TRAINERTYPE_NORMAL
-	db 37, JADDICE
+	db 36, JADDICE
 	db -1 ; end
 
 	; BOARDER (3)
@@ -4289,7 +4292,7 @@ FanaticBlueGroup:
 	db -1 ; end
 	
 ; FANATIC_BLUE (2) Goldenrod Gym's Bridget
-	db "BRIDGET@", TRAINERTYPE_ITEM
+	db "SONG@", TRAINERTYPE_ITEM
 	db 23, DUMBLOON, NO_ITEM
 	db 27, FURSA, 	 BERRY
 	db 23, DUMBLOON, PINK_BOW
@@ -4393,14 +4396,14 @@ SalarymanGroup:
 	db 30, HAPPIG
 	db 30, ZASTER
 	db 33, SALARITO
-	db -1
+	db -1 ; end
 	
 ; SALARYMAN (4) Victory Road
 	db "TURNER@", TRAINERTYPE_ITEM
 	db 50, GIGUARD, NO_ITEM
 	db 52, GRIMPACT, NO_ITEM
 	db 50, DREADGE, PRZCUREBERRY
-	db -1
+	db -1 ; end
 	
 EngineerGroup:
 ;ENGINEER (1) rocket base b1f
@@ -4465,7 +4468,7 @@ DelinquentMGroup:
 	db 26, SIDFICIOUS, NO_ITEM
 	db 28, KODOROYAH, NO_ITEM
 	db 26, CALFEEN, SCOPE_LENS
-	db -1
+	db -1 ; end
 	
 DelinquentFGroup:
 ; DELINQUENT F (1) Cianwood Dunes Cave
@@ -4500,14 +4503,14 @@ BreederMGroup:
 	db 50, ALLSEERAPH, PERFECT_DV, PERFECT_DV
 	db 51, GENEROPSIS, ATKDEFDV_SHINY, SPDSPCDV_SHINY
 	db 50, MURDERMIS, PERFECT_DV, PERFECT_DV
-	db -1
+	db -1 ; end
 
 BreederFGroup:
 ; BREEDER F (1) Route 33
 	db "CLARA@", TRAINERTYPE_DVS | TRAINERTYPE_MOVES
 	db 16, PRAWMATE, ATKDEFDV_SHINY, SPDSPCDV_SHINY, SUPERSONIC, DISABLE, COUNTER, BUBBLE
 	db 15, ODDITTEN, ATKDEFDV_SHINY, SPDSPCDV_SHINY, SING, BODY_SLAM, SAFEGUARD, PURSUIT 
-	db -1
+	db -1 ; end
 	
 ; BREEDER F (2) Victory Road
 	db "LUCY@", TRAINERTYPE_DVS | TRAINERTYPE_MOVES
@@ -4516,7 +4519,7 @@ BreederFGroup:
 	db 52, SLOWHOG, 		PERFECT_DV, PERFECT_DV, 			RECOVER, SPIKE_CANNON, MINIMIZE, SPIKES
 	db 52, BAAFOMET, 		ATKDEFDV_SHINY, SPDSPCDV_SHINY, 	BULLET_SEED, DRAININGKISS, BODY_SLAM, POISON_JAB
 	db 53, GIGASYNAPA, 		ATKDEFDV_SHINY, SPDSPCDV_SHINY,		PSYCHO_CUT, SWORDS_DANCE, SUBSTITUTE, CRUNCH
-	db -1
+	db -1 ; end
 	
 NurseGroup:
 
@@ -4592,12 +4595,12 @@ HistorianGroup:
 	db -1 ; end
 	
 ArtistBrownGroup: ; looking out at ocean, route 40
-	db "@HAZEL", TRAINERTYPE_ITEM
+	db "HAZEL@", TRAINERTYPE_ITEM
 	db 37, PARDNER, MIRACLEBERRY
 	db 37, KITSYNA, NO_ITEM
-	db 37, WORMACHO, NO_ITEM
+	db 37, WORMACHO, ICE_BERRY
 	db 37, PEKOI, NO_ITEM
-	db -1
+	db -1 ; end
 
 ArtistPinkGroup: ; route 36
 	db "ROSE@", TRAINERTYPE_NORMAL
@@ -4622,4 +4625,4 @@ ArtistGrayGroup: ; victory road side cave
 	db 50, NIMBOREM, NO_ITEM
 	db 50, SALARITO, PINK_BOW
 	db 50, SLISCES, METAL_COAT
-	db -1
+	db -1 ; end

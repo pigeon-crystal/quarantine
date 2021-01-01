@@ -807,7 +807,8 @@ Text_CharcoalMasterIntro:
 	line "wouldn't be able"
 
 	para "to knock down"
-	line "trees for charcoal."
+	line "trees get lumber"
+	cont "for charcoal!"
 
 	para "Thanks, kid!"
 

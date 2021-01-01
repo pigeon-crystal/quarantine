@@ -6,5 +6,5 @@
 	next "discarded nuclear"
  
 	page "waste. It's rare"
-	next "to see CHERNOMUSK"
-	next "sleeping."
+	next "to see SEAHEM"
+	next "sleeping.@"

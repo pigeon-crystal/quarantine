@@ -140,7 +140,7 @@ LizSurfPikachuGossipText:
 	para "But I can't seem"
 	line "to get a hold of a"
 
-	para "SURF PIKACHU DOLL."
+	para "TIDO DOLL."
 	line "None of my friends"
 
 	para "have it. It must"
@@ -155,10 +155,13 @@ LizMooMooMilkGossipText:
 	text "Listen, listen!"
 
 	para "Do you know about"
-	line "MOOMOO MILK?"
+	line "BAABAA BLOX?"
 
 	para "You can buy it at"
-	line "MOOMOO FARM."
+	line "BAABAA FARM."
+	
+	para "It's north of"
+	line "OLIVINE."
 
 	para "It's supposed to"
 	line "be good for health"
@@ -227,12 +230,12 @@ LizBugCatchingContestGossipText:
 
 	para "I did once, but"
 	line "all I could catch"
-	cont "was a CATERPIE."
+	cont "was a BUZZLING."
 
 	para "But guess what!"
 
 	para "I won with that"
-	line "CATERPIE. Isn't"
+	line "BUZZLING. Isn't"
 	cont "that great?"
 	done
 

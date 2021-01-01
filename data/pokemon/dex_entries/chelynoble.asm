@@ -7,5 +7,5 @@
  
 	page "Although it looks"
 	next "inert, it's risky"
-	next "to be around."
+	next "to be around.@"
 

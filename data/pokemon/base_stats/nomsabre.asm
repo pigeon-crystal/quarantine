@@ -1,11 +1,11 @@
 	db NOMSABRE ; 020
 
-	db  115, 93,  95, 40,  30,  75
+	db  115, 90,  93, 40,  35,  75
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type
 	db 111 ; catch rate
-	db 111 ; base exp
+	db 140 ; base exp
 	db GOLD_BERRY, MYSTERYBERRY ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

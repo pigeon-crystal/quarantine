@@ -1329,15 +1329,15 @@ JohtoGrassWildMons:
 	; morn
 	db 2, WORMEEK
 	db 3, NOMSTER
-	db 3, FURNIT
+	db 2, FURNIT
 	db 3, HOATOT
 	db 3, NOMSTER
 	db 3, WORMEEK
 	db 3, HOATOT
-	db 5, FURNIT
+	db 4, FURNIT
 	; day
 	db 3, NOMSTER
-	db 3, FURNIT
+	db 2, FURNIT
 	db 3, HOATOT
 	db 2, WORMEEK
 	db 3, FURNIT
@@ -1347,7 +1347,7 @@ JohtoGrassWildMons:
 	; nite
 	db 3, NOMSTER
 	db 2, WORMEEK
-	db 3, FURNIT
+	db 2, FURNIT
 	db 3, HOATOT
 	db 3, NOMSTER
 	db 3, FURNIT

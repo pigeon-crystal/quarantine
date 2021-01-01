@@ -290,7 +290,7 @@ LakeOfRageLanceIntroText:
 	done
 
 LakeOfRageLanceRadioSignalText:
-	text "LANCE: Excellent!"
+	text "LANCE: Hm."
 
 	para "It seems that the"
 	line "LAKE's getting"
@@ -303,10 +303,11 @@ LakeOfRageLanceRadioSignalText:
 	cont "cause, but it was"
 	cont "a symptom."
 
-	para "The waste was coming"
-	line "from a pipeline"
+	para "The waste was "
+	line "coming from a"
 	
-	para "leading to MAHOGANY."
+	para "pipeline leading"
+	line "to MAHOGANY."
 	
 	para "What's worse is"
 	line "that I think the"
@@ -435,10 +436,12 @@ SalarymanKinichiSeenText:
 	line "it another day!"
 	
 	para "No more! No more!"
+	done
 	
 SalarymanKinichiBeatenText:
 	text "My head feels"
 	line "clearer, now."
+	done
 	
 SalarymanKinichiAfterBattleText:
 	text "I couldn't take it"
@@ -450,6 +453,7 @@ SalarymanKinichiAfterBattleText:
 	
 	para "Please don't tell"
 	line "anybody I'm here."
+	done
 
 CooltrainerfLoisSeenText:
 	text "What happened to"

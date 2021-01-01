@@ -7,5 +7,5 @@
  
 	page "Battles with"
 	next "unrivaled vigor"
-	next "and gumption."
+	next "and gumption.@"
 	
