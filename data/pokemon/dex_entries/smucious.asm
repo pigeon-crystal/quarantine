@@ -1,7 +1,7 @@
 	db "LECHEROUS@" ; species name, thnx some anon in the early threads
 	dw 011, 300 ; height, weight
 
-	db   "People who are"
+	db   "People who"
 	next "get visits from"
 	next "SMUCIOUS in their"
 

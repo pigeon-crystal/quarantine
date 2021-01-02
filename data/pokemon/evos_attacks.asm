@@ -2926,8 +2926,8 @@ MurdermisEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, NIGHT_SHADE
 	db 1, NASTY_PLOT
-	db 9, SNARL
-	db 17, WHIRLWIND
+	db 9, WHIRLWIND
+	db 17, SNARL
 	db 22, HYPNOSIS
 	db 30, SCARY_FACE
 	db 38, DARK_PULSE

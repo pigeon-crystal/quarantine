@@ -1,4 +1,4 @@
-;bad
+;cool and based
 Music_LookDemonLady:
 	musicheader 4, 1, Music_LookDemonLady_Ch1
 	musicheader 1, 2, Music_LookDemonLady_Ch2
@@ -11,8 +11,9 @@ Music_LookDemonLady_Ch1:
 	note_type 12, 1, -5
 	dutycycle $1
 	octave 3
+	note __, 6
 	note D#, 8
-	note_type 6, 9, 4
+	note_type 6, 11, 4
 	dutycycle $0
 	tone $0002
 .mainloop:
@@ -87,11 +88,19 @@ Bass2:
 
 Music_LookDemonLady_Ch2:
 	vibrato 12, 2, 5
-	note_type 6, 1, -5
+	note_type 12, 12, 7
+	dutycycle $2
+	octave 3
+	note D#, 1
+	note __, 1
+	octave 4
+	note_type 12, 12, 4
+	note A_, 6
+	note_type 6, 5, -5
 	dutycycle $1
 	octave 3
-	note A_, 16
-	note_type 12, 11, 7
+	note A_, 12
+	note_type 12, 12, 7
 	vibrato 0, 1, 5
 	octave 4
 	note __, 2
@@ -121,6 +130,7 @@ Music_LookDemonLady_Ch2:
 Music_LookDemonLady_Ch3:
 	octave 3
 	note_type 6, 3, 5
+	note __, 12
 	note F#, 6
 	note_type 6, 2, 5
 	note F#, 6
@@ -139,6 +149,7 @@ Music_LookDemonLady_Ch4:
 	togglenoise $5
 	notetype 6
 	note __, 16
+	note __, 12
 .mainloop:
 	note B_, 4
 	note B_, 12

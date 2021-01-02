@@ -211,6 +211,7 @@ CianwoodDunesSaijo:
 	writetext SaijoAfterText
 	waitbutton
 	closetext
+	end
 	
 SaijoSeenText:
 	text "Sniff…"

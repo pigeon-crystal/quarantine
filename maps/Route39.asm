@@ -344,6 +344,15 @@ Route39TrainerTipsText:
 	done
 	
 Route39ScareCrow:
+	opentext
+	writetext ScarecrowText
+	waitbutton
+	closetext
+	cry MURDERMIS
+	wait 15
+	end
+
+ScarecrowText:
 	text "It's just"
 	line "a scarecrow."
 	

@@ -568,7 +568,7 @@ VictoryRoadNew_MapEvents:
 	db 0, 0 ; filler
 
 	db 20 ; warp events FINAL
-	warp_event 57, 31, VICTORY_ROAD_GATE, 1				;entrance
+	warp_event 57, 31, VICTORY_ROAD_GATE, 6				;entrance
 	warp_event 49, 29, VICTORY_ROAD_NEW, 3				; 1
 	warp_event 23, 31, VICTORY_ROAD_NEW, 2		
 	warp_event 45, 27, VICTORY_ROAD_NEW, 5				; 2

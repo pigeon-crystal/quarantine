@@ -256,7 +256,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	ld b, a
 	decoord 1, 15
 	call .PlaceCurrentDay
-	hlcoord 13, 15				; thank you coral and lv 3 !!!
+	hlcoord 12, 15				; thank you coral and lv 3 !!!
 	call .VersionNumberPrint
 	decoord 4, 16
 	ldh a, [hHours]
@@ -275,7 +275,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 	
 .VersionNumberText
-	db "v0.503"
+	db "v0.504@"
 
 .min
 ; unused

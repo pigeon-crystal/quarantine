@@ -16,6 +16,7 @@ IlexForestAzaleaGateGrannyScript:
 	jumptextfaceplayer IlexForestAzaleaGateGrannyText
 .GrannyIlluxury
 	jumptextfaceplayer IlexForestAzaleaGateGrannyIlluxuryText
+	end
 
 IlexForestAzaleaGateOfficerText:
 	text "If you're gonna"

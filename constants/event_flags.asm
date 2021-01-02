@@ -1678,7 +1678,7 @@
 	const EVENT_BEAT_PINK_ARTIST
 	const EVENT_BEAT_GRAY_ARTIST
 	const EVENT_BEAT_YELLOW_ARTIST
-	const EVENT_63D
+	const EVENT_VIRUES_3
 	const EVENT_63E
 	const EVENT_63F
 ; Sprite visibility flags

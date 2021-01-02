@@ -175,7 +175,7 @@ PokemonCries::
 	mon_cry CRY_SPINARAK,   -166,  444 		; GRUBBOID
 	mon_cry $1E,    		$1E6F,  $0080	; CRUSTAZER
 	mon_cry $28,   			$003B,  $01E2 ; STRANGLURE
-	mon_cry $28,   			$05C7,  $0362 ; SHAMSEL
+	mon_cry $28,   			$05C7,  $0302 ; SHAMSEL
 	mon_cry $3C,        	$0019,  $00F0 ; WANDELUS
 	mon_cry $3C,       		$0109,  $00F0 ; NIMBOREM
 	mon_cry $3C,   			$0E01,  $00FA ; STRATOWAR
@@ -231,7 +231,7 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,     28,  295 ; SIDFICIOUS
 	mon_cry $3B,      		$FC59, $0198 ; SALARITO
 	mon_cry CRY_MANTINE,    -377,  292 ; KRAKENTOA
-	mon_cry CRY_AMPHAROS,   2017,  384 ; SNOSEBLEED
+	mon_cry CRY_SPEAROW,   $50e6,  $0014 ; SNOSEBLEED
 	mon_cry CRY_AMPHAROS,   1619,  409 ; SNOWUP
 	mon_cry CRY_AMPHAROS,   1420,  428 ; SNOVERDOSE
 	mon_cry CRY_SLUGMA,      193,  400 ; NAVIGAZER

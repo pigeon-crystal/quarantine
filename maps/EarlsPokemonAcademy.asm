@@ -121,15 +121,18 @@ AcademyBlackboard:
 	db "FRZ@"
 	db "QUIT@"
 
-AcademyNotebook:
+AcademyNotebookScript:
 	opentext
 	writetext AcademyNotebookText
+	waitbutton
 	yesorno
 	iffalse .Done
 	writetext AcademyNotebookText1
+	waitbutton
 	yesorno
 	iffalse .Done
 	writetext AcademyNotebookText2
+	waitbutton
 	yesorno
 	iffalse .Done
 	writetext AcademyNotebookText3
@@ -405,10 +408,7 @@ AcademyNotebookText2:
 	cont "confusion."
 	
 	para "Some moves may"
-	line "cause infatuation,"
-	cont "which may make"
-	cont "a #MON im-"
-	cont "mobilized by love."
+	line "cause infatuation."
 	
 	para "While a #MON"
 	line "can snap out of"
@@ -418,8 +418,9 @@ AcademyNotebookText2:
 	para "infatuation"
 	line "persists until"
 	cont "after the battle"
-	cont "or until the"
-	cont "#MON is with-"
+	
+	para "or until the"
+	line "#MON is with-"
 	cont "drawn."
 
 	para "Keep reading?"
@@ -475,4 +476,4 @@ EarlsPokemonAcademy_MapEvents:
 	object_event  3, 11, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EarlsPokemonAcademyGameboyKid1Script, -1
 	object_event  4, 11, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, EarlsPokemonAcademyGameboyKid2Script, -1
 	object_event  4,  7, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EarlsPokemonAcademyYoungster2Script, -1
-	object_event  2,  4, SPRITE_POKEDEX, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AcademyNotebook, -1
+	object_event  2,  4, SPRITE_POKEDEX, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AcademyNotebookScript, -1

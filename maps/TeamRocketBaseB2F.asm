@@ -39,11 +39,19 @@ TeamRocketBaseB2F_MapScripts:
 .TransmitterDoorCallback:
 	checkevent EVENT_OPENED_DOOR_TO_ROCKET_HIDEOUT_TRANSMITTER
 	iftrue .OpenDoor
+.Return1
+	checkevent EVENT_VIRUES_3
+	iftrue .PostVirues
+.Return2
 	return
+
+.PostVirues
+	changeblock 24, 8, $29 ; desk
+	jump .Return2
 
 .OpenDoor:
 	changeblock 14, 12, $07 ; floor
-	return
+	jump .Return1
 
 RocketBaseBossFLeft:
 	moveobject TEAMROCKETBASEB2F_LANCE, 9, 13
@@ -636,8 +644,8 @@ RocketBaseBossRetreatText:
 	cont "too."
 
 	para "Soon JOHTO will be"
-	line "our!"
-
+	line "ours!"
+	
 	para "You'll come to"
 	line "appreciate TEAM"
 
@@ -914,6 +922,36 @@ RocketBaseB2FDeactivateTransmitterText:
 	line "broadcast."
 	done
 
+
+ViruesEvent3:
+	conditional_event EVENT_VIRUES_3, .Script
+
+.Script
+	opentext 
+	writetext ComputerTextBF2
+	waitbutton
+	closetext
+	cry VIRUES
+	loadwildmon VIRUES, 32
+	startbattle 
+	setevent EVENT_VIRUES_3
+	reloadmapafterbattle
+	changeblock 20, 10, $29
+	reloadmappart
+	end
+	
+ComputerTextBF2:
+	text "It's a computer"
+	line "with information"
+	cont "about TEAM ROCKET."
+	
+	para "… … …"
+	
+	para "And it's looking"
+	line "right at you!"
+	done
+
+	
 TeamRocketBaseB2F_MapEvents:
 	db 0, 0 ; filler
 
@@ -935,7 +973,7 @@ TeamRocketBaseB2F_MapEvents:
 	coord_event 12, 10, SCENE_TEAMROCKETBASEB2F_ELECTRODES, RocketBaseLancesSideScript
 	coord_event 12, 11, SCENE_TEAMROCKETBASEB2F_ELECTRODES, RocketBaseLancesSideScript
 
-	db 23 ; bg events
+	db 24 ; bg events
 	bg_event 14, 12, BGEVENT_IFNOTSET, TeamRocketBaseB2FLockedDoor
 	bg_event 15, 12, BGEVENT_IFNOTSET, TeamRocketBaseB2FLockedDoor
 	bg_event 17,  9, BGEVENT_READ, TeamRocketBaseB2FTransmitterScript
@@ -959,6 +997,7 @@ TeamRocketBaseB2F_MapEvents:
 	bg_event 17,  7, BGEVENT_READ, TeamRocketBaseB2FTransmitterScript
 	bg_event 17,  8, BGEVENT_READ, TeamRocketBaseB2FTransmitterScript
 	bg_event 26,  7, BGEVENT_ITEM, TeamRocketBaseB2FHiddenFullHeal
+	bg_event 25, 8, BGEVENT_IFNOTSET, ViruesEvent3
 
 	db 14 ; object events
 	object_event 20, 16, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_TEAM_ROCKET_BASE_B2F_GRUNT_WITH_EXECUTIVE
