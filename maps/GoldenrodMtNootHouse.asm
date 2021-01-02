@@ -64,7 +64,7 @@ GoldenrodMtNootHouseHiAgain:
 	done
 	
 GoldenrodMtNootHouseGrannyIntro:
-	text "My husband amd"
+	text "My husband and"
 	line "I just adore"
 	cont "MT. NOOT!"
 	
@@ -117,6 +117,13 @@ GoldenrodMtNootHouseGrannyLore3:
 	line "here in JOHTO"
 	cont "sometimes carry"
 	cont "ice like this."
+	
+	para "I hear they're"
+	line "found in the"
+	cont "ICE PATH,"
+	
+	para "hidden among"
+	line "the rocks."
 	done
 	
 GoldenrodMtNootHouseGrannyToodles:

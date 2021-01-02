@@ -17,8 +17,8 @@ MonMenuIconPals:
 	icon_pals BROWN,   YELLOW  ; HIVEMAIM
 	icon_pals RED,   YELLOW    ; VAZZINATE
 	icon_pals PINK,   YELLOW   ; HOATOT
-	icon_pals PURPLE,   YELLOW ; HOATOXIC
-	icon_pals PURPLE,   YELLOW ; NOXROMAEUS
+	icon_pals RED,   YELLOW ; HOATOXIC
+	icon_pals RED,   YELLOW ; NOXROMAEUS
 	icon_pals BROWN,   YELLOW  ; FURNIT
 	icon_pals BROWN,   YELLOW  ; FURDOBA
 	icon_pals BROWN,   YELLOW  ; HORNAMPA
@@ -88,7 +88,7 @@ MonMenuIconPals:
 	icon_pals PINK,   YELLOW  ; CALFEEN
 	icon_pals BLUE,   YELLOW  ; AMPALA 
 	icon_pals RED,   YELLOW  ; BLAZELLE
-	icon_pals BROWN,   YELLOW  ; RAMBOYANT
+	icon_pals GREEN,   BROWN  ; RAMBOYANT
 	icon_pals BLUE,   YELLOW   ; CADDISICLE
 	icon_pals BLUE,   YELLOW   ; JADDICE
 	icon_pals PINK,   YELLOW  ; DUMBLOON

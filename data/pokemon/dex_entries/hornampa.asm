@@ -7,4 +7,4 @@
 
 	page "rises, but it"
 	next "will just flee to"
-	next "gather more mud."
+	next "gather more mud.@"

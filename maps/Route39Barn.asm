@@ -166,7 +166,8 @@ Route39BarnAskGiveBerryText:
 
 Route39BarnGaveBerryText:
 	text "<PLAYER> gave a"
-	line "BERRY to VEGETEBAA."
+	line "BERRY to the sick"
+	cont "VEGETEBAA!"
 	done
 
 Route39BarnLittleHealthierText:

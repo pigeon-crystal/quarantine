@@ -273,7 +273,7 @@ SageMasaAfterBattleText:
 	cont "the tower."
 	
 	para "The blazes could"
-	line "not be extinguished"
+	line "not be put out"
 	cont "by NIKUJIRA, nor"
 	
 	para "could mighty"

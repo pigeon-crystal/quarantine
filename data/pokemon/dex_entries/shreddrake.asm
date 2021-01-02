@@ -1,8 +1,8 @@
-	db "RECEPTIVE@" ; species name
-	dw 102, 130 ; height, weight
+	db "METALDRGN.@" ; species name
+	dw 606, 2817 ; height, weight
 
 	db   "Cries of wild"
-	next "SHREDDRAKE are very"
+	next "SHREDDRAKE are "
 	next "popular with teens."
 
 	page "Recordings of the"

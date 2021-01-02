@@ -88,8 +88,9 @@ ReceivedSecretpotionText:
 	done
 
 PharmacistDescribeSecretpotionText:
-	text "My SECRETPOLISH is"
-	line "super hard to make."
+	text "My SECRETPOLISH"
+	line "is super hard to"
+	cont "make."
 
 	para "I only offer it in"
 	line "an emergency."
@@ -102,7 +103,7 @@ CianwoodDjamm:
 	cry DJAMM
 	pause 15
 	closetext
-	loadwildmon DJAMM, 33
+	loadwildmon DJAMM, 34
 	startbattle
 	setevent EVENT_CIANWOOD_DJAMM
 	disappear CIANWOODPOTION3
@@ -138,8 +139,8 @@ CianwoodPharmDontMess:
 	
 	para "…Oh, a DJAMM?"
 	
-	para "They sneak in every"
-	line "now and then."
+	para "They sneak in"
+	line "sometimes."
 	
 	para "Weird dudes, those"
 	line "DJAMM."
@@ -161,6 +162,6 @@ CianwoodPharmacy_MapEvents:
 	db 5 ; object events
 	object_event  2,  3, SPRITE_PHARMACIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CianwoodPharmacist, -1
 	object_event  3,  3, SPRITE_POTION, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, CianwoodPotion, EVENT_GOT_SECRETPOTION_FROM_PHARMACY
-	object_event  4,  3, SPRITE_POTION, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_SILVER, OBJECTTYPE_SCRIPT, 0, CianwoodPotion, -1
+	object_event  4,  3, SPRITE_POTION, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, CianwoodPotion, -1
 	object_event  4,  1, SPRITE_POTION, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, CianwoodDjamm, EVENT_CIANWOOD_DJAMM 
 	object_event  6,  1, SPRITE_POTION, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CianwoodPotion, -1

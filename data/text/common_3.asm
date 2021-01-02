@@ -496,6 +496,7 @@ _HerbShopLadyIntroText::
 	line "not like them."
 
 	para "Hehehehe…"
+	done
 
 _HerbalLadyHowManyText::
 	text "How many?"

@@ -304,7 +304,7 @@ HelpWithTrashPlz:
 	line "up all the litter"
 	
 	para "on the beach or"
-	line "Chuck's gonna have"
+	line "CHUCK's gonna have"
 	
 	para "my head, but I"
 	line "sprained my"

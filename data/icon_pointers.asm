@@ -240,4 +240,11 @@ IconPointers:
 	dw FueghastIcon
 	dw MammothraIcon
 	dw BehemothraIcon
+	dw HauntletIcon
+	dw GlostIcon
+	dw MothoIcon
+	dw MothomenIcon
+	dw HappigIcon
+	dw BiporkarIcon
+	dw RamboyantIcon
 	

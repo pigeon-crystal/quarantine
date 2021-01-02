@@ -4,7 +4,7 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db DRAGON, STEEL ; type
-	db 100 ; catch rate
+	db 95 ; catch rate
 	db 100 ; base exp
 	db METAL_COAT, BERRY ; items
 	db GENDER_F25 ; gender ratio
@@ -17,5 +17,5 @@
 	dn EGG_BUG, EGG_MINERAL ; egg groups
 
 	; tm/hm learnset
-	tmhm CURSE
+	tmhm HEADBUTT, CURSE, ROLLOUT, TOXIC, PSYCH_UP, HIDDEN_POWER, SNORE, PROTECT, RAIN_DANCE, GIGA_DRAIN, ENDURE, FRUSTRATION, SOLARBEAM, DRAGONBREATH, RETURN, DIG, MUD_SLAP, SWAGGER, SLEEP_TALK, SLUDGE_BOMB, SANDSTORM, SWIFT, DEFENSE_CURL, REST, ATTRACT, THIEF, SPARK, SURF, STRENGTH
 	; end

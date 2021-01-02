@@ -1,11 +1,11 @@
 	db SEABEHEM ; 149
 
-	db  91, 134,  95,  80, 100, 100
+	db  86, 122,  75,  120, 122, 75
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, STEEL ; type
 	db 45 ; catch rate
-	db 218 ; base exp
+	db 222 ; base exp
 	db NO_ITEM, BLK_APRICORN ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

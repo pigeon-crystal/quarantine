@@ -320,7 +320,8 @@ Route44HiddenElixer:
 
 FisherWilton1SeenText:
 	text "Aack! You made me"
-	line "lose a POLIWAG!"
+	line "lose a big"
+	para "LANATUN!"
 
 	para "What are you going"
 	line "to do about it?"
@@ -332,7 +333,7 @@ FisherWilton1BeatenText:
 	done
 
 FisherWiltonHugePoliwagText:
-	text "That POLIWAG that"
+	text "That LANATUN that"
 	line "got away…"
 	cont "It was huge."
 
@@ -366,9 +367,11 @@ FisherEdgarAfterBattleText:
 	done
 
 BirdKeeperVance1SeenText:
-	text "Do you know about"
-	line "the legendary bird"
-	cont "#MON?"
+	text "Gonna head in to"
+	line "the ICE PATH?"
+	
+	para "Let's see if"
+	line "you're ready!"
 	done
 
 BirdKeeperVance1BeatenText:
@@ -377,15 +380,20 @@ BirdKeeperVance1BeatenText:
 	done
 
 BirdKeeperVanceLegendaryBirdsText:
-	text "ARTICUNO, ZAPDOS"
-	line "and MOLTRES are"
-
-	para "the three legend-"
-	line "ary bird #MON."
-
-	para "I heard there are"
-	line "other legendary"
-	cont "birds, though."
+	text "You can find a"
+	line "#MON called"
+	
+	para "PURRAATZLE on"
+	line "this route."
+	
+	para "They like to"
+	line "cuddle up to"
+	cont "trainers who just"
+	
+	para "left the ICE PATH,"
+	line "warming them up."
+	
+	para "It's quite cute."
 	done
 
 BirdKeeperVance2BeatenText:

@@ -116,7 +116,7 @@ TinTower1F_MapScripts:
 	applymovement TINTOWER1F_SUICUNE, TinTowerSuicuneMovement
 	cry RYUNARI
 	pause 20
-	loadwildmon RYUNARI, 40
+	loadwildmon RYUNARI, 45
 	loadvar VAR_BATTLETYPE, BATTLETYPE_SUICUNE
 	startbattle
 	dontrestartmapmusic

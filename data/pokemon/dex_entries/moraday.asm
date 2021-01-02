@@ -3,8 +3,8 @@
 
 	db   "Heavily attuned"
 	next "to the magnetic"
-	next "field. This #-"
+	next "field. This"
 
-	page "MON munches on"
-	next "the static generat-"
-	next "ing AMBINNI.@"
+	page "#MON munches"
+	next "on the static"
+	next "filled AMBINNI.@"

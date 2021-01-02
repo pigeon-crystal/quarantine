@@ -2,7 +2,7 @@
 	dw 708, 2347 ; height, weight
 
 	db   "Witnesses time in"
-	next "its ord. The past"
+	next "its orb. The past"
 	next "grants the wisdom"
 
 	page "of mistakes, the"

@@ -52,7 +52,7 @@ IcePathArt:
 
 HistorianArtSeenText:
 	text "T-This cave i-is"
-	line "q-quite frigid?"
+	line "q-quite frigid!"
 	
 	para "C-Care to warm up"
 	line "with a b-battle?"
@@ -71,6 +71,7 @@ HistorianArtAfterText:
 	
 	para "B-But it's too cold"
 	line "for me here!"
+	done
 
 IcePath1F_MapEvents:
 	db 0, 0 ; filler
@@ -90,4 +91,4 @@ IcePath1F_MapEvents:
 	object_event 31,  7, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IcePath1FHMWaterfall, EVENT_GOT_HM07_WATERFALL
 	object_event 32, 23, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IcePath1FPPUp, EVENT_ICE_PATH_1F_PP_UP
 	object_event 35,  9, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, IcePath1FProtein, EVENT_ICE_PATH_1F_PROTEIN
-	object_event 25, 3, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 2, 1, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 2, IcePathArt, 0
+	object_event 25, 3, SPRITE_POKEFAN_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 2, IcePathArt, 0

@@ -1,7 +1,7 @@
 	db "BRUTE@" ; species name TODO
 	dw 403, 1073 ; height, weight
 
-	db   "They enjoy swinging"
+	db   "They love swinging"
 	next "their massive"
 	next "stalk at other"
 

@@ -44,7 +44,7 @@ PlayBattleMusic:
 
 	ld a, [wBattleType]
 	cp BATTLETYPE_SUICUNE
-	ld de, MUSIC_SUICUNE_BATTLE
+	ld de, MUSIC_LEGENDARY
 	jp z, .done
 	cp BATTLETYPE_ROAMING
 	jp z, .done

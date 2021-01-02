@@ -29,21 +29,25 @@ CianwoodLugiaSpeechHouseTeacherText:
 	cont "along the way?"
 
 	para "I heard that a "
-	line "mythical sea crea-"
-	cont "ture is hiding in"
-	cont "them."
+	line "grand #MON"
+	cont "hides in them."
 	done
 
 CianwoodLugiaSpeechHouseLassText:
-	text "I heard that you"
-	line "can only see it if"
-
-	para "you have a SILVER"
-	line "WING."
-
-	para "It must have the"
-	line "same scent as the"
-	cont "creature."
+	text "I heard that the"
+	line "#MON in the"
+	
+	para "WHIRL ISLANDS is"
+	line "a real horror."
+	
+	para "They say it has"
+	line "a legion of green"
+	cont "monsters it"
+	
+	para "controls to do its"
+	line "bidding!"
+	
+	para "How scary!"
 	done
 
 CianwoodLugiaSpeechHouseTwinText:
@@ -52,11 +56,12 @@ CianwoodLugiaSpeechHouseTwinText:
 
 	para "around the islands"
 	line "are caused by the"
-	cont "sea creature."
+	cont "monster to protect"
 
-	para "You might need a"
-	line "special move to"
-	cont "get past them."
+	para "its loot."
+	
+	para "It must be really"
+	line "greedy!"
 	done
 
 CianwoodLugiaSpeechHouse_MapEvents:

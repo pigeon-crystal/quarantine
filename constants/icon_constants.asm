@@ -240,6 +240,13 @@
 	const ICON_FUEGHAST
 	const ICON_MAMMOTHRA
 	const ICON_BEHEMOTHRA
+	const ICON_HAUNTLET
+	const ICON_GLOST
+	const ICON_MOTHO
+	const ICON_MOTHOMEN
+	const ICON_HAPPIG
+	const ICON_BIPORKAR
+	const ICON_RAMBOYANT
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def
