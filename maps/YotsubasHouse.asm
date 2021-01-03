@@ -197,6 +197,7 @@ WontGoEasyText:
 YotsubaWinText:
 	text "My smile"
 	line "is gone for good."
+	done
 	
 YoureAToughCookie:
 	text "Sigh…"

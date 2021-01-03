@@ -1203,7 +1203,7 @@ Pokedex_DrawOptionScreenBG:
 	db   "@"
 
 .UnownMode:
-	db "UNOWN MODE@"
+	db "GLYPH MODE@"
 
 Pokedex_DrawSearchScreenBG:
 	call Pokedex_FillBackgroundColor2

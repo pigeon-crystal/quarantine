@@ -616,8 +616,7 @@ _SweetScentNothingText::
 	done
 
 _SquirtbottleNothingText::
-	text "<PLAYER> sprinkled"
-	line "water."
+	text "<PLAYER> honked."
 
 	para "But nothing"
 	line "happened…"

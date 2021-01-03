@@ -345,11 +345,20 @@ OlivinePortFridayShipText:
 	done
 
 OlivinePortFishingGuru1Text:
-	text "SHELLDER are easy"
-	line "to catch here."
-
-	para "They're kind of"
-	line "rare elsewhere."
+	text "Kids these days"
+	line "ask me if I've"
+	
+	para "caught any"
+	line "UPWHALE."
+	
+	para "I don't know what"
+	line "that #MON"
+	cont "is, and they"
+	
+	para "all laugh when I"
+	line "tell 'em."
+	
+	para "Crazy kids."
 	done
 
 OlivinePortFishingGuru2Text:

@@ -1617,7 +1617,7 @@ _FlowerShopIntroText::
 	done
 	
 _FlowerShopComeAgainText::
-	text "Thank you, sweetie!"
+	text "Thanks, sweetie!"
 	line "Come back anytime!"
 	done
 	

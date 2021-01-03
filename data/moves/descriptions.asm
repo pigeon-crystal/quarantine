@@ -334,8 +334,8 @@ WhirlwindDescription:
 	next "& ends battle.@"
 
 FlyDescription:
-	db   "1st turn: Fly"
-	next "2nd turn: Attack@"
+	db   "Soars into the"
+	next "air and attacks.@"
 
 DarkPulseDescription:
 	db   "An attack that may"

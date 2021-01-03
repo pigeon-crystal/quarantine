@@ -76,7 +76,7 @@ PokemaniacMillerBeatenText:
 
 PokemaniacMillerAfterBattleText:
 	text "A while back, this"
-	line "karate dude wanted"
+	line "wizardy dude wanted"
 
 	para "to battle. He was"
 	line "ridiculously good."
@@ -107,11 +107,9 @@ SupernerdMarkusAfterBattleText:
 	para "got separated from"
 	line "my partner…"
 
-	para "Did you run into a"
-	line "trainer who uses a"
-
-	para "SEADRA that knows"
-	line "WATERFALL?"
+	para "Oh, I also saw"
+	line "this guy dressed"
+	cont "funny deeper in."
 	done
 
 MountMortar1FInside_MapEvents:

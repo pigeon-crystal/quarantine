@@ -26,20 +26,28 @@ AzaleaPokecenter1FPokefanFScript:
 	jumptextfaceplayer AzaleaPokecenter1FPokefanFText
 
 AzaleaPokecenter1FGentlemanText:
-	text "Do your #MON"
-	line "know HM moves?"
-
-	para "Those moves can"
-	line "be used even if"
-
-	para "your #MON has"
-	line "fainted."
+	text "I'm gonna stock"
+	line "up on # DOLLS"
+	cont "while I'm here."
+	
+	para "The GUIDE GENT"
+	line "in CHERRYGROVE"
+	
+	para "will remind your"
+	line "#MON of a"
+	
+	para "move it's learned"
+	line "if you give him"
+	cont "one!"
 	done
 
 AzaleaPokecenter1FFishingGuruText:
 	text "BILL's PC can"
 	line "store up to 20"
 	cont "#MON per BOX."
+	
+	para "It's the cat's"
+	line "meow."
 	done
 
 AzaleaPokecenter1FPokefanFText:
@@ -77,5 +85,5 @@ AzaleaPokecenter1F_MapEvents:
 	db 4 ; object events
 	object_event  3,  1, SPRITE_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AzaleaPokecenter1FNurseScript, -1
 	object_event  9,  6, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AzaleaPokecenter1FGentlemanScript, -1
-	object_event  6,  1, SPRITE_FISHING_GURU, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AzaleaPokecenter1FFishingGuruScript, -1
+	object_event  6,  1, SPRITE_RADICAL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, AzaleaPokecenter1FFishingGuruScript, -1
 	object_event  1,  4, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AzaleaPokecenter1FPokefanFScript, -1

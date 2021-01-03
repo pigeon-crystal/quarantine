@@ -88,7 +88,7 @@ GoldenrodVendingMachine:
 	db "FRESH WATER  ¥200@"
 	db "SODA POP     ¥300@"
 	db "LEMONADE     ¥350@"
-	db "DIET CLOVER  ¥400@"
+	db "DIET CLOVER  ¥404@"
 	db "CANCEL@"
 	
 AllOut:

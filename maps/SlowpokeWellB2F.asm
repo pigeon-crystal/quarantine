@@ -31,32 +31,23 @@ SlowpokeWellB2FTMRainDance:
 	itemball TM_RAIN_DANCE
 
 SlowpokeWellB2FGymGuyText:
-	text "I'm waiting to see"
-	line "SLOWPOKE's moment"
-	cont "of evolution."
-
-	para "Through observa-"
-	line "tion, I made a new"
-	cont "discovery."
-
-	para "A SLOWPOKE with a"
-	line "KING'S ROCK often"
-
-	para "gets bitten by a"
-	line "SHELLDER."
-
-	para "Here, I'll share a"
-	line "KING'S ROCK with"
-	cont "you."
+	text "Don't you hate it"
+	line "when you get"
+	
+	para "FLINCHED in"
+	line "battle?"
+	
+	para "Well, how'd you"
+	line "like to be on"
+	cont "the other side?"
+	
+	para "Oh yeah, baby!"
+	line "Take on of these!"
 	done
 
 SlowpokeWellB2FGymGuyText_GotKingsRock:
-	text "I'm going to be"
-	line "like SLOWPOKE."
-
-	para "I'll wait patient-"
-	line "ly, so I can see"
-	cont "one evolve."
+	text "The KING'S ROCK"
+	line "sure is devious."
 	done
 
 SlowpokeWellB2F_MapEvents:
