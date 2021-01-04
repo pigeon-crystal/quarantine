@@ -105,15 +105,15 @@ KantoWaterWildMons:
 	db 6 percent ; encounter rate
 	db 46, SQWUCKY
 	db 47, SHRIMPANZI
-	db 48, SWIMIAN
-	db 50, STRANGLURE
+	db 48, STRANGLURE
+	db 50, SWIMIAN
 
 	map_id ROUTE_27
 	db 6 percent ; encounter rate
-	db 47, PRAWMATE
-	db 46, PRAWMATE
-	db 45, STRANGLURE
-	db 50, SQWUCKY
+	db 30, PRAWMATE
+	db 30, SQWUCKY
+	db 31, STRANGLURE
+	db 33, SQWUCKY
 
 	map_id ROUTE_28
 	db 2 percent ; encounter rate

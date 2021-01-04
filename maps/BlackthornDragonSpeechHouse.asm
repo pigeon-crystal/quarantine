@@ -24,13 +24,16 @@ BlackthornDragonSpeechHouseGrannyText:
 
 	para "They were such a"
 	line "pest - they would"
-	cont "eat anything metal."
+	cont "eat anything"
+	cont "metallic."
 
 	para "We brought in "
 	line "WALLARRIOR to"
+	cont "control their"
+	cont "population,"
 
-	para "help, but they"
-	line "did a real number"
+	para "but they did"
+	line "a real number"
 	cont "on the FALWODUR."
 	
 	para "FALWODUR are rare"

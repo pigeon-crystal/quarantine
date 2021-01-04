@@ -38,6 +38,7 @@ RockIsMoving1:
 	
 	para "The rock is"
 	line "moving!"
+	done
 	
 IcePathArt:
 	trainer HISTORIAN, ART, EVENT_BEAT_HISTORIAN_ART, HistorianArtSeenText, HistorianArtBeatenText, 0, .Script

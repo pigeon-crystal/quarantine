@@ -58,10 +58,10 @@ FishGroups:
 .Lake_Good:
 	db  35 percent,     LANATUN,   20
 	db  70 percent,     GOOSAPLING,    20
-	db  90 percent + 1, GOOSAPLING,    20
+	db  90 percent + 1, STIKLBRAT,    20
 	db 100 percent,     time_group 4
 .Lake_Super:
-	db  40 percent,     PEPOFFER,    40
+	db  40 percent,     STIKLBRAT,    40
 	db  70 percent,     time_group 5
 	db  90 percent + 1, PEPOFFER,   40
 	db 100 percent,     CANTALONE,    40
@@ -73,10 +73,10 @@ FishGroups:
 .Pond_Good:
 	db  35 percent,     LANATUN,   20
 	db  70 percent,     GOOSAPLING,    20
-	db  90 percent + 1, LANATUN,    20
+	db  90 percent + 1, STIKLBRAT,    20
 	db 100 percent,     time_group 6
 .Pond_Super:
-	db  40 percent,     PEPOFFER,    40
+	db  40 percent,     STIKLBRAT,    40
 	db  70 percent,     time_group 7
 	db  90 percent + 1, PEPOFFER,   40
 	db 100 percent,     PEPOFFER,    50
@@ -162,8 +162,8 @@ FishGroups:
 	db 100 percent,     PRAWMATE,     10
 .WhirlIslands_Good:
 	db  35 percent,     PRAWMATE,   20
-	db  70 percent,     PRAWMATE,     20
-	db  90 percent + 1, UPWHALE,     20
+	db  70 percent,     UPWHALE,     20
+	db  90 percent + 1, KRAKENTOA,     20
 	db 100 percent,     time_group 18
 .WhirlIslands_Super:
 	db  40 percent,     LANATUN,     40
@@ -179,8 +179,8 @@ FishGroups:
 .Pekoi_NoSwarm_Good:
 .Pekoi_Good:
 	db  35 percent,     GOOSAPLING,   20
-	db  70 percent,     LANATUN,  20
-	db  90 percent + 1, LANATUN,  20
+	db  70 percent,     STIKLBRAT,  20
+	db  90 percent + 1, PEKOI,  20
 	db 100 percent,     time_group 20
 .Pekoi_NoSwarm_Super:
 .Pekoi_Super:
@@ -210,7 +210,7 @@ TimeFishGroups:
 	db SHRIMPANZI,    40,  SHAMSEL,     40 		; 1 shore super
 	db UPWHALE,   20,  STRANGLURE,   20 	   	; 2 ocean good
 	db STRANGLURE,   40,  SHAMSEL,   40 		; 3 ocean super
-	db GOOSAPLING,    20,  GOOSAPLING,    20 	; 4 lake good
+	db STIKLBRAT,    20,  GOOSAPLING,    20 	; 4 lake good
 	db GOOSAPLING,    40,  GOOSAPLING,    40 	; 5 lake super
 	db LANATUN,    20,  GOOSAPLING,    20 		; 6 pond good
 	db GOOSAPLING,    40,  PEKOI,    40 			; 7 pond super

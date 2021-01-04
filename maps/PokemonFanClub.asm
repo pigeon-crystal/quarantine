@@ -107,7 +107,7 @@ PokemonFanClubClefairyDollScript:
 PokemonFanClubBayleefScript:
 	opentext
 	writetext PokemonFanClubBayleefText
-	cry TOBACOON
+	cry EUKUB
 	waitbutton
 	closetext
 	end
@@ -140,7 +140,7 @@ PokemonFanClubChairmanRapidashText:
 	line "Then listen up!"
 
 	para "So… my favorite"
-	line "RAPIDASH…"
+	line "VAZZINATE…"
 
 	para "It… cute… lovely…"
 	line "smart… unbearably…"
@@ -207,7 +207,7 @@ PokemonFanClubClefairyGuyClefairyIsSoAdorableText:
 	text "I love the way"
 	line "NYALLEY waggles"
 
-	para "its finger when"
+	para "its tail when"
 	line "it's trying to use"
 
 	para "METRONOME."
@@ -264,7 +264,7 @@ PokemonFanClubClefairyGuyPackIsJammedFullText:
 
 PokemonFanClubTeacherText:
 	text "Look at my darling"
-	line "TOBACOON!"
+	line "EUKUB!"
 
 	para "The leaf on its"
 	line "head is so cute!"
@@ -280,7 +280,7 @@ PokemonFanClubClefairyDollText:
 	done
 
 PokemonFanClubBayleefText:
-	text "TOBACOON: Brrrrrr."
+	text "EUKUB: Brrrrrr."
 	done
 
 PokemonFanClubListenSignText:
@@ -312,5 +312,5 @@ PokemonFanClub_MapEvents:
 	object_event  4,  1, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, PokemonFanClubReceptionistScript, -1
 	object_event  2,  3, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PokemonFanClubClefairyGuyScript, -1
 	object_event  7,  2, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PokemonFanClubTeacherScript, -1
-	object_event  2,  4, SPRITE_FAIRY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PokemonFanClubClefairyDollScript, EVENT_VERMILION_FAN_CLUB_DOLL
+	object_event  2,  4, SPRITE_NYALLEY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, PokemonFanClubClefairyDollScript, EVENT_VERMILION_FAN_CLUB_DOLL
 	object_event  7,  3, SPRITE_EUKUB, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, PokemonFanClubBayleefScript, -1

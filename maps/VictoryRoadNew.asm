@@ -134,8 +134,8 @@ BreederMBermanBeatenText:
 	
 BreederMBermanAfterBattleText:
 	text "I've raised these"
-	line "guys since they were"
-	cont "eggs."
+	line "guys since they"
+	cont "were eggs."
 	
 	para "I'm proud of us."
 	done
@@ -235,7 +235,7 @@ FanaticAmyAfterText:
 	para "of the ELITE"
 	line "FOUR's."
 	
-	text "I love them!"
+	para "I love them!"
 	done
 	
 RadicalNaoyuki:
@@ -307,7 +307,8 @@ BreederFLucyAfter:
 	para "The first?"
 	
 	para "A stern young man"
-	line "with piercing eyes."
+	line "with piercing"
+	cont "eyes."
 	
 	para "If I was 70 years"
 	line "younger, he'd be"
@@ -374,6 +375,8 @@ VictoryRoadNewRivalNext:
 	iftrue .GotTotodile
 	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
 	iftrue .GotChikorita
+	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELM
+	iftrue .GotCyndaquil
 	winlosstext VictoryRoadNewRivalDefeatText, VictoryRoadNewRivalVictoryText
 	setlasttalked VICTORY_ROAD_SILVER
 	loadtrainer RIVAL1, RIVAL1_5_TOTODILE
@@ -382,6 +385,15 @@ VictoryRoadNewRivalNext:
 	reloadmapafterbattle
 	sjump .AfterBattle
 
+.GotCyndaquil
+	winlosstext VictoryRoadNewRivalDefeatText, VictoryRoadNewRivalVictoryText
+	setlasttalked VICTORY_ROAD_SILVER
+	loadtrainer RIVAL1, RIVAL1_5_TOTODILE
+	startbattle
+	dontrestartmapmusic
+	reloadmapafterbattle
+	sjump .AfterBattle
+	
 .GotTotodile:
 	winlosstext VictoryRoadNewRivalDefeatText, VictoryRoadNewRivalVictoryText
 	setlasttalked VICTORY_ROAD_SILVER
@@ -468,7 +480,7 @@ VictoryRoadNewRivalDefeatText:
 	para "I'm beginning to"
 	line "understand what"
 
-	para "that dragon master"
+	para "that caped codger"
 	line "said to me…"
 	done
 
@@ -504,7 +516,6 @@ VictoryRoadNewRivalVictoryText:
 	para "I don't need any-"
 	line "thing else."
 	done
-
 
 TeleportGuyVRScript:
 	faceplayer
@@ -570,7 +581,7 @@ VictoryRoadNew_MapEvents:
 	db 20 ; warp events FINAL
 	warp_event 57, 31, VICTORY_ROAD_GATE, 6				;entrance
 	warp_event 49, 29, VICTORY_ROAD_NEW, 3				; 1
-	warp_event 23, 31, VICTORY_ROAD_NEW, 2		
+	warp_event 23, 31, VICTORY_ROAD_NEW, 2
 	warp_event 45, 27, VICTORY_ROAD_NEW, 5				; 2
 	warp_event 5, 29, VICTORY_ROAD_NEW, 4
 	warp_event 41, 23, VICTORY_ROAD_NEW, 7				; 3
@@ -602,7 +613,7 @@ VictoryRoadNew_MapEvents:
 	object_event  68, 8, SPRITE_BOULDER, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VictoryRoadBoulder, EVENT_BOULDER_IN_VICTORY_ROAD_SIDE_WATER
 	object_event  53, 20, SPRITE_RADICAL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 4, RadicalYasui, -1
 	object_event  60, 28, SPRITE_BREEDER_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 4, BreederMBerman, -1
-	object_event  34, 22, SPRITE_SALARYMAN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, SalarymanTurner, -1  
+	object_event  34, 22, SPRITE_SALARYMAN, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, SalarymanTurner, -1
 	object_event  45, 31, SPRITE_BOULDER, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VictoryRoadBoulder, -1
 	object_event  71, 24, SPRITE_BOULDER, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VictoryRoadBoulder, -1
 	object_event  65, 16, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VictoryRoadThunderpunch, EVENT_VICTORY_ROAD_THUNDERPUNCH
@@ -613,5 +624,5 @@ VictoryRoadNew_MapEvents:
 	object_event  12, 18, SPRITE_RADICAL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, RadicalNaoyuki, -1
 	object_event  82, 29, SPRITE_BREEDER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_TRAINER, 2, BreederFLucy, -1
 	object_event  87, 9, SPRITE_SILVER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_VICTORY_ROAD
-	object_event  46, 30, SPRITE_WIZARD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, TeleportGuyVRScript, -1
+	object_event 80, 24, SPRITE_WIZARD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, TeleportGuyVRScript, -1
 	

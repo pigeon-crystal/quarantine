@@ -422,8 +422,8 @@ PoisonStingDescription:
 	next "poison the target.@"
 
 VaporPulseDescription:
-	db   "Assails with vapor"
-	next "that may poison.@"
+	db   "Strikes twice, may"
+	next "inflict poison.@"
 
 FlashCannonDescription:
 	db   "An attack that may"

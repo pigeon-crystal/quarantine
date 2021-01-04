@@ -42,7 +42,7 @@ Andromega3FComputerText:
 	cont "construction."
 	
 	para "Trials begin the"
-	cont "following month.'"
+	line "following month.'"
 	done
 
 Andromega3F_MapEvents:

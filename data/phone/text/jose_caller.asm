@@ -2,27 +2,28 @@ JoseMonsStickHasADeliciousAromaText:
 	text "Hey listen, my"
 	line "@"
 	text_ram wStringBuffer4
-	text "'s stick"
+	text "has been really"
 
-	para "has this really"
-	line "delicious aroma."
+	para "bulking up"
+	line "lately."
 
-	para "That aroma gets my"
-	line "appetite going!"
+	para "Don't my #MON"
+	line "rock?"
 	done
 
 JoseDefeatedMonText:
 	text "A while ago, my"
-	line "FARFETCH'D KO'd"
+	line "FURNIT KO'd"
 	cont "this @"
 	text_ram wStringBuffer4
 	text "."
 
 	para "You should have"
-	line "seen FARFETCH'D"
+	line "seen FURNIT"
 
-	para "wield that stick."
-	line "Amazing stuff!"
+	para "deftly flap"
+	line "around. It was"
+	cont "awesome!"
 	done
 
 JoseLostAMonText:
@@ -46,7 +47,7 @@ JoseBattleRematchText:
 	line "again?"
 
 	para "For some reason,"
-	line "my FARFETCH'D is"
+	line "my FURNIT is"
 
 	para "all worked up and"
 	line "raring to go."
@@ -65,7 +66,7 @@ JoseHangUpText:
 	done
 
 JoseFoundItemText:
-	text "My FARFETCH'D had"
+	text "My FURNIT had"
 	line "something pretty"
 	cont "in its beak."
 
@@ -97,14 +98,13 @@ JoseReminderText:
 	text "<PLAY_G>, could you"
 	line "hurry over?"
 
-	para "FARFETCH'D is"
+	para "FURNIT is"
 	line "agitated."
 
 	para "If you don't come"
 	line "soon, it might"
 
-	para "smack me with its"
-	line "stick!"
+	para "peck my eyes out!"
 
 	para "@"
 	text_ram wStringBuffer5
@@ -127,4 +127,7 @@ JoseComePickUpText:
 
 	para "and I'll let you"
 	line "have it."
+	
+	para "FURNIT, MACAWSAIR,"
+	line "and I are waiting!"
 	done

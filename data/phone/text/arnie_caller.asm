@@ -101,6 +101,9 @@ ArnieHurryText:
 	para "You're missing out"
 	line "on seeing some"
 	cont "NYALLEY!"
+	
+	para "It's like a"
+	line "meteor shower!"
 
 	para "Get down to ROUTE"
 	line "35 right now!"

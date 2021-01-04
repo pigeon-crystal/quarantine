@@ -24,6 +24,7 @@ AlphabeticalPokedexOrder:
 	db BISMUTT
 	db BLASPHERMY
 	db BLASTOISE
+	db BLAZELLE
 	db BLAZENBULL
 	db BOBBITE
 	db BOBBITRAP
@@ -35,6 +36,7 @@ AlphabeticalPokedexOrder:
 	db CADDISICLE
 	db CAIRNIVORE
 	db CALARMOURI
+	db CALFEEN
 	db CANTALONE
 	db CANTOGETHA
 	db CASANOCTE
@@ -47,11 +49,8 @@ AlphabeticalPokedexOrder:
 	db CREMIGO
 	db CRUSTAZER
 	db CUTTLE
-	db SALARITO
 	db DISMAIDEN
 	db DJAMM
-	db RAMBOYANT
-	db BLAZELLE
 	db DOLMESA
 	db DOLMITE
 	db DONUKAME
@@ -89,12 +88,11 @@ AlphabeticalPokedexOrder:
 	db GRUBBOID
 	db GWUBBY
 	db HABBLE
+	db HALLOALLO
 	db HAPPIG
 	db HAUNTLET
 	db HELACTAL
-	db PAINSAW
 	db HEXAHED
-	db HALLOALLO
 	db HIVEMAIM
 	db HOATOT
 	db HOATOXIC
@@ -118,8 +116,8 @@ AlphabeticalPokedexOrder:
 	db LAWNIE
 	db LEAFFIGY
 	db MA_0
+	db MACAWSAIR
 	db MADRUGASA
-	db CALFEEN
 	db MAJESDOR
 	db MAMMOTHRA
 	db MANDELBLOB
@@ -158,6 +156,7 @@ AlphabeticalPokedexOrder:
 	db ONIONION
 	db ORGNOME
 	db OSCURASA
+	db PAINSAW
 	db PARDNER
 	db PEACOLDER
 	db PEAUTY
@@ -179,10 +178,11 @@ AlphabeticalPokedexOrder:
 	db QWAIL
 	db QWALLOP
 	db RADEON
-	db MACAWSAIR
+	db RAMBOYANT
 	db RESPECTRE
 	db RYUNARI
 	db SAKURONNA
+	db SALARITO
 	db SANDOLPH
 	db SAPPURA
 	db SATELISK

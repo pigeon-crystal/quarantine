@@ -52,7 +52,7 @@ RandyScript:
 .questcomplete
 	writetext Route35GoldenrodGateRandySomethingForYourTroubleText
 	promptbutton
-	verbosegiveitem EVIOLITE
+	verbosegiveitem LUCKY_EGG
 	iffalse .bagfull
 	setevent EVENT_GOT_HP_UP_FROM_RANDY
 .gothpup

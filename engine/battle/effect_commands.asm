@@ -2588,13 +2588,13 @@ UnevolvedEviolite:
 .got_species:
 ; say "no eviolite to you" for special monsters :)
 	cp NOMSABRE
-	jr z, .done
+	ret z
 	cp GANZERKER
-	jr z, .done
+	ret z
 	cp MUMAGNUS
-	jr z, .done
+	ret z
 	cp SCORPEROR
-	jr z, .done
+	ret z
 	
 ; check if the defender has any evolutions
 ; hl := EvosAttacksPointers + (species - 1) * 2

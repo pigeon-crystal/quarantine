@@ -6,7 +6,7 @@
 	db WATER, STEEL ; type
 	db 45 ; catch rate
 	db 67 ; base exp
-	db NO_ITEM, BLK_APRICORN ; items
+	db BLK_APRICORN, BLK_APRICORN ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 14 ; step cycles to hatch

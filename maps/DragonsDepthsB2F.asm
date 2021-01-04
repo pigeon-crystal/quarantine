@@ -58,7 +58,8 @@ AmazingTrainer:
 	
 	para "assume most of"
 	line "the WARRIORS will"
-	cont "stay to train, too."
+	cont "stay to train,"
+	cont "as well."
 	done
 
 GuruShoichiSeenText:

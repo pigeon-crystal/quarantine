@@ -291,7 +291,7 @@ VermilionPortSuperNerdText:
 	text "You came from"
 	line "JOHTO?"
 
-	para "I hear many rare"
+	para "I hear many cool"
 	line "#MON live over"
 	cont "there."
 	done

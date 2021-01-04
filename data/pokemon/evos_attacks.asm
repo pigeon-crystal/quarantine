@@ -43,6 +43,7 @@ SordraenaEvosAttacks:
 	db 34, STOMP
 	db 39, DRAGONBREATH
 	db 42, ROAR
+	db 48, DRAGONBREATH
 	db 0 ; no more level-up moves
 
 TyrdragaEvosAttacks:
@@ -57,10 +58,10 @@ TyrdragaEvosAttacks:
 	db 39, DRAGONBREATH
 	db 42, ROAR
 	db 44, FLAME_WHEEL
-	db 50, OUTRAGE
-	db 55, SLASH
-	db 60, DRAGON_DANCE
-	db 65, SUNNY_DAY
+	db 49, OUTRAGE
+	db 54, SLASH
+	db 59, DRAGON_DANCE
+	db 61, SUNNY_DAY
 	db 0 ; no more level-up moves
 
 AerfaedraEvosAttacks:
@@ -75,10 +76,10 @@ AerfaedraEvosAttacks:
 	db 39, DRAGONBREATH
 	db 42, ROAR
 	db 44, SING
-	db 50, MOONBLAST
-	db 55, BRAVE_BIRD
-	db 60, NASTY_PLOT
-	db 65, RAZOR_WIND
+	db 49, MOONBLAST
+	db 54, BRAVE_BIRD
+	db 59, NASTY_PLOT
+	db 61, RAZOR_WIND
 	db 0 ; no more level-up moves
 
 KitsynaEvosAttacks:
@@ -94,6 +95,7 @@ KitsynaEvosAttacks:
 	db 34, STOMP
 	db 39, HYPNOSIS
 	db 42, PSYBEAM
+	db 48, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 CerkitaysaEvosAttacks:
@@ -108,10 +110,10 @@ CerkitaysaEvosAttacks:
 	db 39, HYPNOSIS
 	db 42, PSYBEAM	
 	db 44, EXTREMESPEED
-	db 50, THUNDERBOLT
-	db 55, CALM_MIND
-	db 60, PSYCHIC_M
-	db 65, THUNDER
+	db 49, THUNDERBOLT
+	db 54, CALM_MIND
+	db 59, PSYCHIC_M
+	db 61, THUNDER
 	db 0 ; no more level-up moves
 
 GigasynapaEvosAttacks:
@@ -126,10 +128,10 @@ GigasynapaEvosAttacks:
 	db 39, HYPNOSIS
 	db 42, PSYBEAM	
 	db 44, PSYCHO_CUT
-	db 50, CRUNCH
-	db 55, BELLY_DRUM
-	db 60, THRASH
-	db 65, DARK_PULSE
+	db 49, CRUNCH
+	db 54, BELLY_DRUM
+	db 59, THRASH
+	db 61, DARK_PULSE
 	db 0 ; no more level-up moves
 
 WartortleEvosAttacks:
@@ -592,6 +594,7 @@ SwimianEvosAttacks:
 
 NyalleyEvosAttacks:
 	db EVOLVE_ITEM, MOON_STONE, FELIORITTE
+	db EVOLVE_ITEM, SUN_STONE, FELIORITTE
 	db 0 ; no more evolutions
 	db 1, QUICK_ATTACK
 	db 1, METRONOME
@@ -1302,9 +1305,9 @@ SliscesEvosAttacks:
 	db 32, CLAMP
 	db 35, SUPER_FANG
 	db 37, LIQUIDATION
-	db 45, CRUNCH
-	db 50, HYPER_FANG
-	db 52, X_SCISSOR
+	db 42, CRUNCH
+	db 46, HYPER_FANG
+	db 49, X_SCISSOR
 	db 0 ; no more level-up moves
 
 DreadgeEvosAttacks:
@@ -1319,10 +1322,10 @@ DreadgeEvosAttacks:
 	db 36, SUPER_FANG
 	db 37, LIQUIDATION
 	db 39, IRON_HEAD
-	db 46, CRUNCH
-	db 52, HYPER_FANG
-	db 55, X_SCISSOR
-	db 63, GUILLOTINE
+	db 45, CRUNCH
+	db 48, HYPER_FANG
+	db 51, X_SCISSOR
+	db 60, GUILLOTINE
 	db 0 ; no more level-up moves
 
 DolmiteEvosAttacks:
@@ -1369,6 +1372,7 @@ CairnivoreEvosAttacks:
 	db 32, SPIKES
 	db 42, IRON_HEAD
 	db 46, THRASH
+	db 49, EARTHQUAKE
 	db 53, RECOVER
 	db 65, FISSURE
 	db 0 ; no more level-up moves
@@ -1437,9 +1441,9 @@ DismaidenEvosAttacks:
 	db 24, NIGHT_SHADE 
 	db 28, WITHDRAW 	; dismaiden evo move
 	db 29, CLAMP		; dismaiden evo move
-	db 34, SPIKE_CANNON
-	db 38, SCREECH
-	db 41, IRON_HEAD
+	db 32, SPIKE_CANNON
+	db 37, SCREECH
+	db 40, IRON_HEAD
 	db 44, DOUBLE_EDGE
 	db 48, DARK_PULSE
 	db 52, SELFDESTRUCT

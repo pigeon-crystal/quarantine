@@ -380,18 +380,6 @@ EvolveAfterBattle_MasterLoop::
 	ld bc, PARTYMON_STRUCT_LENGTH
 	call CopyBytes
 
-	ld a, [wTempSpecies]
-	dec a
-	call CheckCaughtMon
-	jr nz, .no_dex
-	ld a, [wTempSpecies]
-	dec a
-	call SetSeenAndCaughtMon
-	farcall NewPokedexEntry
-	call ClearTilemap
-	farcall Pokedex_PlaceFrontpicPostEvolution
-
-.no_dex
 	ld a, [wCurSpecies]
 	ld [wTempSpecies], a
 	xor a
@@ -401,7 +389,6 @@ EvolveAfterBattle_MasterLoop::
 	ld a, [wTempSpecies]
 	dec a
 	call SetSeenAndCaughtMon
-	
 
 	ld a, [wTempSpecies]
 	cp UNOWN

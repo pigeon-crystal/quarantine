@@ -32,6 +32,7 @@ RockIsMoving3:
 	
 	para "The rock is"
 	line "moving!"
+	done
 
 IcePathB2FBlackthornSide_MapEvents:
 	db 0, 0 ; filler

@@ -11,8 +11,10 @@ VermilionDiglettsCaveSpeechHouseGentlemanScript:
 
 VermilionDiglettsCaveSpeechHouseGentlemanText:
 	text "Over many years,"
-	line "DIGLETT dug a"
-	cont "large tunnel."
+	line "exploding ANTPYRE"
+	cont "ended up making"
+	
+	para "a big tunnel."
 
 	para "That tunnel goes"
 	line "to a distant town."

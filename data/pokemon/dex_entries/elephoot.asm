@@ -3,7 +3,7 @@
 
 	db   "After an accident"
 	next "trying to make use"
-	next "of CHELONUKE's"
+	next "of SEAHEM's"
 
 	page "energy, ELEPHOOT"
 	next "emerged from the"

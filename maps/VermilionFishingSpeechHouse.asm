@@ -27,16 +27,16 @@ FishingDudeText:
 
 	para "He dreams about"
 	line "seeing the world's"
-	cont "greatest MAGIKARP."
+	cont "greatest LANATUN."
 
 	para "If you don't mind,"
 	line "could you show him"
 
-	para "any MAGIKARP you"
+	para "any LANATUN you"
 	line "catch?"
 
 	para "Who knows, you may"
-	line "catch the MAGIKARP"
+	line "catch the LANATUN"
 	cont "of his dreams."
 	done
 

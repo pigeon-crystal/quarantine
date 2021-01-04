@@ -57,8 +57,6 @@ PlayBattleMusic:
 	ld a, [wTempEnemyMonSpecies]
 	cp DONUKAME
 	jr z, .donchanmusic
-	
-	ld a, [wTempEnemyMonSpecies]
 	cp SLAATEL
 	jr z, .legendmusic
 	cp BLAZENBULL
@@ -70,7 +68,7 @@ PlayBattleMusic:
 	cp GORIATH
 	jr z, .legendmusic
 	cp ILLUXURY
-	jr z, .legendmusic
+	jr z, .StainedWhiteRobesOfTheForestMaiden
 
 	; Are we fighting a trainer?
 	ld a, [wOtherTrainerClass]
@@ -99,7 +97,11 @@ PlayBattleMusic:
 	
 .legendmusic
 	ld de, MUSIC_LEGENDARY
-	jr .done 
+	jp .done 
+	
+.StainedWhiteRobesOfTheForestMaiden
+	ld de, MUSIC_ILLUXURY
+	jr .done
 	
 .kantowild
 	ld de, MUSIC_KANTO_WILD_BATTLE

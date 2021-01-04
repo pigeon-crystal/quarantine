@@ -33,12 +33,12 @@ PokemonCries::
 	mon_cry $10,      		$00EF, $00FF ; MACAWSAIR
 	mon_cry CRY_NIDORAN_M,    32,  192 ; SANDOLPH
 	mon_cry CRY_NIDORAN_M,   255,  383 ; DUNEFIN
-	mon_cry CRY_NIDORAN_F,     0,  256 ; SPRUNNY
-	mon_cry CRY_NIDORAN_F,    44,  352 ; ONIONI
-	mon_cry CRY_NIDOQUEEN,     0,  256 ; ONIONION
-	mon_cry CRY_NIDORAN_M,     0,  256 ; PRAWMATE
-	mon_cry CRY_NIDORAN_M,    44,  320 ; SHRIMPANZI
-	mon_cry CRY_RAICHU,        0,  256 ; SWIMIAN
+	mon_cry $42,  			$01E2,  $0088 ; SPRUNNY
+	mon_cry $42,    		$0162,  $00F8 ; ONIONI
+	mon_cry $42,     		$0D67,  $0120 ; ONIONION
+	mon_cry $19,     		$009F,  $005F ; PRAWMATE
+	mon_cry $19,    		$0FD6,  $008F ; SHRIMPANZI
+	mon_cry $19,       		$0D1B,  $013F ; SWIMIAN
 	mon_cry CRY_CLEFAIRY,    204,  129 ; NYALLEY
 	mon_cry CRY_CLEFAIRY,    170,  160 ; FELIORITTE
 	mon_cry CRY_VULPIX,       79,  144 ; VULPIX
@@ -47,32 +47,32 @@ PokemonCries::
 	mon_cry $0D,     		$1575, $01FF ; ICOSAHED
 	mon_cry CRY_SQUIRTLE,    120,  125 ; STINPEON
 	mon_cry CRY_SQUIRTLE,    18,    127 ; SCORPEROR
-	mon_cry CRY_ODDISH,      221,  129 ; EUKUB
-	mon_cry CRY_ODDISH,      170,  192 ; KOAGAN
-	mon_cry CRY_VILEPLUME,    34,  383 ; POCALYPTUS
-	mon_cry CRY_PARAS,        32,  352 ; MESSMASH
-	mon_cry CRY_PARAS,        66,  383 ; BLASPHERMY
-	mon_cry CRY_VENONAT,      68,  192 ; ELEPHOOT
-	mon_cry CRY_VENONAT,      41,  256 ; PRIPYDERM
+	mon_cry $19,      		$0FF0,  $005F ; EUKUB
+	mon_cry $19,      		$0CF0,  $010F ; KOAGAN
+	mon_cry $19,    		$0AFD,  $01EF ; POCALYPTUS
+	mon_cry CRY_GROWLITHE,    106,  300 ; MESSMASH				done but
+	mon_cry CRY_TOTODILE,     915, 325 ; BLASPHERMY				could be better
+	mon_cry $03,      		$00FF,  $006F ; ELEPHOOT	
+	mon_cry $03,    		$1FFF,  $01FF ; PRIPYDERM	
 	mon_cry CRY_CLEFFA,       14,  229 ; MUMINI
 	mon_cry CRY_GROWLITHE,    -4,  392 ; MUMAGNUS
 	mon_cry CRY_BULBASAUR,    39,  144 ; TODESCOOL
 	mon_cry CRY_DIGLETT,     675,  383 ; JUNOBE
 	mon_cry CRY_DIGLETT,     300,  400 ; VOYAPOD
 	mon_cry CRY_DIGLETT,      85,  401 ; EXOTUNITY
-	mon_cry CRY_NIDOQUEEN,   221,  224 ; BOBBITE
-	mon_cry CRY_NIDOQUEEN,   175,  192 ; BOBBITRAP
-	mon_cry CRY_GROWLITHE,    32,  192 ; HAPPIG
-	mon_cry CRY_WEEDLE,        0,  256 ; BIPORKAR
+	mon_cry $16,   			$0F80,  $00A0 ; BOBBITE			
+	mon_cry $16,   			$0F1F,  $01AF ; BOBBITRAP			
+	mon_cry $02,   			$015F,  $0140 ; HAPPIG			
+	mon_cry $1F,      		$01F0,  $0100 ; BIPORKAR			
 	mon_cry $0E,			$0156,  $0218 ; CREMIGO
 	mon_cry $0E,   			$0218,  $0318 ; AMANIGO
 	mon_cry $0E,    		$0A17,  $03EF ; YUGGROMI
-	mon_cry CRY_PICHU,       -49,  121 ; AMBINNI
-	mon_cry CRY_METAPOD,     168,  320 ; BUNDEGRAF
-	mon_cry CRY_METAPOD,     152,  383 ; VOLTINGER
-	mon_cry CRY_GROWLITHE,   238,  129 ; UPWHALE
-	mon_cry CRY_GROWLITHE,    72,  224 ; NIMBOCETUS
-	mon_cry CRY_GROWLITHE,     8,  320 ; STELLOCEAN
+	mon_cry $09,       		$0FE0,  $0038 ; AMBINNI
+	mon_cry $09,     		$0FDB,  $0088 ; BUNDEGRAF			
+	mon_cry $09,     		$00CF,  $0098 ; VOLTINGER			
+	mon_cry $1A,   			$0FAA,  $007F ; UPWHALE			
+	mon_cry $1A,    		$0EAA,  $00EF ; NIMBOCETUS		
+	mon_cry $1A,     		$0D70,  $016F ; STELLOCEAN		
 	mon_cry $38,    		$0f9f,  $00af ; LAWNIE
 	mon_cry $38,      		$0ef2,  $01af ; ORGNOME
 	mon_cry $38,    		$0bf1,  $01af ; GNOMERCY
@@ -89,29 +89,29 @@ PokemonCries::
 	mon_cry CRY_AIPOM,      -200,  320 ; CALFEEN
 	mon_cry CRY_GIRAFARIG,   -10,  320 ; AMPALA
 	mon_cry CRY_GIRAFARIG,   100,  189 ; BLAZELLE
-	mon_cry CRY_DIGLETT,     153,  160 ; RAMBOYANT
+	mon_cry $0B,     	$0F99,  $00C0 ; RAMBOYANT		need to be done
 	mon_cry CRY_TOTODILE,    -50,  123 ; CADDISICLE
 	mon_cry CRY_TOTODILE,    100,  200 ; JADDICE
 	mon_cry CRY_GRIMER,      787,  256 ; DUMBLOON
 	mon_cry CRY_CYNDAQUIL,   999,  383 ; ZEPPLIUM
 	mon_cry $0C,        	 $0188,  $0040 ; BAMBABY
 	mon_cry $0C,      		 $0EF2,  $00F1 ; PIPENDA
-	mon_cry CRY_METAPOD,       0,  256 ; FLUFFRUIT
-	mon_cry CRY_METAPOD,      48,  192 ; SCRUFFRUIT
-	mon_cry CRY_MUK,           0,  383 ; PITAYRANT
-	mon_cry CRY_EKANS,       255,  320 ; MORADAY
+	mon_cry $19,       	     $0099,  $003F ; FLUFFRUIT
+	mon_cry $19,      		 $0028,  $00FF ; SCRUFFRUIT
+	mon_cry $19,           	 $160F,  $018F ; PITAYRANT
+	mon_cry $3A,       		$03E8,  $0097 ; MORADAY		need to be done
 	mon_cry $33,      		$FD33, $00A0 ; EELKIE
 	mon_cry $3D,    		$7B49, $02C8 ; MOSSARRE
 	mon_cry CRY_CYNDAQUIL,  1080,  211 ; LANATUN
 	mon_cry CRY_CYNDAQUIL,   308,  211 ; PEPOFFER
-	mon_cry CRY_VOLTORB,     237,  256 ; LAMYGLAMA
-	mon_cry CRY_VOLTORB,     168,  272 ; DJAMM
+	mon_cry $18,    			 $0EFC,  $00FD ; LAMYGLAMA		need to be done
+	mon_cry $09,     			$0A90,  $0059 ; DJAMM			need to be done
 	mon_cry CRY_DIGLETT,     99,  256  ; CANTALONE
 	mon_cry CRY_DIGLETT,     1,  256   ; CANTOGETHA
 	mon_cry CRY_EKANS,       229,  271 ; COCACOBRA
 	mon_cry CRY_EKANS,       333,  345 ; KALKOLA
-	mon_cry CRY_GOLEM,       128,  320 ; MOTHO
-	mon_cry CRY_SEEL,        238,  320 ; MOTHOMEN
+	mon_cry CRY_VENONAT,     100,  320 ; MOTHO			need to be done (halfassed attempt)
+	mon_cry CRY_VENONAT,     238,  320 ; MOTHOMEN		need to be done
 	mon_cry CRY_CLEFFA,       200, 340 ; SAPPURA
 	mon_cry CRY_MARILL,       200, 420 ; LEAFFIGY
 	mon_cry CRY_MARILL,       122, 500 ; SAKURONNA
@@ -181,8 +181,8 @@ PokemonCries::
 	mon_cry $3C,   			$0E01,  $00FA ; STRATOWAR
 	mon_cry CRY_TOGEPI,      777,  222 ; TRANQUIEL 
 	mon_cry CRY_TOGETIC,    -177,  444 ; ALLSEERAPH
-	mon_cry CRY_NATU,       -103,  256 ; SQWUCKY
-	mon_cry CRY_NATU,       -167,  360 ; SQUEENIE
+	mon_cry $16,       		$0F8F,  $00A0 ; SQWUCKY
+	mon_cry $16,       		$008F, $00FF ; SQUEENIE
 	mon_cry $18,       		$0320,  $0022 ; YUESBI
 	mon_cry $18,		    $012D,  $00F0 ; YUEFOE
 	mon_cry $18,   			$0A2D,  $00F0 ; VIRUES
@@ -216,10 +216,10 @@ PokemonCries::
 	mon_cry $3E,  			$007B, $0044 	; ZASTER
 	mon_cry $3E,     		$057B, $0144 	; GRIMPACT
 	mon_cry CRY_SLOWKING,    252,  234 		; PEKOI
-	mon_cry CRY_AMPHAROS,      0,  352 ; YAGAGARASU
-	mon_cry CRY_DUNSPARCE,   656,  168 ; UMBERJERK ; semi done
-	mon_cry CRY_DUNSPARCE,    99,  224 ; PAINSAW
-	mon_cry CRY_DUNSPARCE,   -11,  333 ; SNEASEL
+	mon_cry CRY_AMPHAROS,    -100,  372 ; YAGAGARASU
+	mon_cry $30,  			 $0125,  $00DF ; UMBERJERK ; semi done
+	mon_cry $30,    		$0719,  $01FB ; PAINSAW
+	mon_cry $3A,   			$0C4B,  $00BF ; SNEASEL
 	mon_cry CRY_MARILL,  	 100,  120 ; SMUCIOUS
 	mon_cry CRY_MARILL,  	  77,  301 ; SMOTHERENE
 	mon_cry CRY_SLUGMA,     -200,  444 ; KODOROYAH
@@ -248,13 +248,13 @@ PokemonCries::
 	mon_cry CRY_GLIGAR,     -461,  416 ; DRASSAL
 	mon_cry CRY_VILEPLUME,   133,  455 ; ODDITULLY
 	mon_cry $1C,      		$03AA,  $017F ; ANDROMEGA
-	mon_cry CRY_ENTEI,         0,  416 ; SLAATEL
+	mon_cry $32,         	$0AFB,  $01B0 ; SLAATEL
 	mon_cry CRY_MAGCARGO,      0,  384 ; RYUNARI
 	mon_cry $3C,     	  	$07EC,  $001E ; YUKITTEN
 	mon_cry $3C,  			$04ED,  $004E ; FLURIKEN
 	mon_cry $3C,   		  	$0C52,  $0027 ; SNOKAGE
 	mon_cry CRY_TYPHLOSION,    0,  256 ; AVATRICE
-	mon_cry CRY_AIPOM,         0,  384 ; DONUKAME
+	mon_cry CRY_AIPOM,        100,  333 ; DONUKAME
 	mon_cry CRY_CLEFFA,     -685,  457 ; TENTAQUIL
 	mon_cry $B5,      		$083E,  $0057 ; PILFOARD
 	mon_cry CRY_MA_0,   	-255,    1 ; MISSINGNO

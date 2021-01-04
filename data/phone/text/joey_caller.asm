@@ -25,6 +25,9 @@ JoeyDefeatedMonText:
 
 	para "can't be helped,"
 	line "us being so tough."
+	
+	para "Can anyone stand"
+	line "up to the 'NOM?"
 	done
 
 JoeyLostAMonText:
@@ -71,10 +74,18 @@ JoeyDevisingStrategiesText:
 
 	para "and devising some"
 	line "strategies."
+	
+	para "I seek the"
+	line "ultimate power"
+	
+	para "that spells the"
+	line "doom of this"
+	
+	para "weak, pathetic"
+	line "world."
 
-	para "When I come up"
-	line "with a good one,"
-	cont "let's battle!"
+	para "When I find it"
+	line "let's battle!"
 	done
 
 JoeyReminderText:

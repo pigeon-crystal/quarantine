@@ -1,8 +1,8 @@
 ;WHAT THE FUCK IS WRONG WITH PITCH BENDING IN THIS FUCKING ENGINE OH MY GOD
 ;wow base victory road theme sucks assdicks
-;this kinda does too tbh
-;transition to the chorus and the second half of the chorus in particular are very sloppy
-;but i feel at least moderately certain that this sucks less than base victory road theme
+;luckily, this is a fucking banger (toothpaste orignally was being 'uwu i suckie wuckie' but i decided to correct the record)
+;a really great and funky tune
+;this sucks less than base victory road theme by a massive margin
 
 Music_VictoryRoad:
 	musicheader 4, 1, Music_VictoryRoad_Ch1
@@ -13,7 +13,7 @@ Music_VictoryRoad:
 Music_VictoryRoad_Ch1:
 	tempo 150
 	dutycycle $0
-	notetype $c, $40
+	notetype $c, $50
 	note __, 16
 	note __, 16
 	sound_call .sub1
@@ -154,9 +154,9 @@ Music_VictoryRoad_Ch1:
 	note D_, 1
 	note D#, 1
 	note G_, 1
-	volume_envelope 10, 6
+	volume_envelope 11, 6
 	note F_, 8
-	volume_envelope 10, 7
+	volume_envelope 11, 7
 	dutycycle $1
 	note D#, 1
 	note F_, 1
@@ -195,7 +195,7 @@ Music_VictoryRoad_Ch1:
 	note D#, 6
 	note F_, 6
 	note F#, 4
-	volume_envelope 10, 3
+	volume_envelope 11, 3
 	note F_, 1
 	note F_, 1
 	note F_, 1
@@ -206,7 +206,7 @@ Music_VictoryRoad_Ch1:
 	note F_, 1
 	note F_, 7
 	dutycycle $0
-	volume_envelope 5, 0
+	volume_envelope 6, 0
 	sound_call .sub1
 	sound_call .sub1
 	sound_call .sub1
@@ -221,7 +221,7 @@ Music_VictoryRoad_Ch1:
 	sound_call .sub1
 	sound_call .sub6
 	dutycycle $0
-	volume_envelope 5, 0
+	volume_envelope 6, 0
 	sound_call .sub1
 	sound_call .sub1
 	sound_call .sub1
@@ -277,7 +277,7 @@ Music_VictoryRoad_Ch1:
 	sound_ret
 .sub6:
 	dutycycle $2
-	volume_envelope 6, 7
+	volume_envelope 7, 7
 	octave 4
 	note D#, 3
 	tone $000F
@@ -305,7 +305,7 @@ Music_VictoryRoad_Ch1:
 Music_VictoryRoad_Ch2:
 	dutycycle $0
 	tone $0008
-	notetype $c, $50
+	notetype $c, $60
 	sound_call .sub1
 	sound_call .sub1
 	sound_call .sub1
@@ -313,7 +313,7 @@ Music_VictoryRoad_Ch2:
 	octave 1
 	note D#, 2
 	dutycycle $1
-	volume_envelope 11, 7
+	volume_envelope 12, 7
 	tone $0000
 	vibrato 28, 2, 4
 	octave 3
@@ -350,13 +350,13 @@ Music_VictoryRoad_Ch2:
 	note B_, 6
 	note G#, 6
 	note B_, 4
-	notetype $6, $B7
+	notetype $6, $C7
 	note A#, 1
 	note B_, 1
-	notetype $c, $B7
+	notetype $c, $C7
 	note A#, 5
 	note G#, 4
-	volume_envelope 11, 6
+	volume_envelope 12, 6
 	octave 2
 	vibrato 0, 0, 0
 	note F_, 4
@@ -395,29 +395,29 @@ Music_VictoryRoad_Ch2:
 	volume_envelope 14, 6
 	dutycycle $0
 	note D#, 6
-	volume_envelope 11, 6
+	volume_envelope 12, 6
 	dutycycle $1
 	octave 2
 	note D#, 2
 	note __, 8
 	;inefficiency!
-	volume_envelope 5, 0
+	volume_envelope 6, 0
 	dutycycle $0
 	note G_, 1
-	volume_envelope 6, 0
-	note A#, 1
 	volume_envelope 7, 0
+	note A#, 1
+	volume_envelope 8, 0
 	octave 3
 	note D_, 1
-	volume_envelope 8, 0
-	note D#, 1
 	volume_envelope 9, 0
-	note G_, 1
+	note D#, 1
 	volume_envelope 10, 0
+	note G_, 1
+	volume_envelope 11, 0
 	note A#, 1
-	volume_envelope 11, 5
+	volume_envelope 12, 5
 	note B_, 8
-	volume_envelope 11, 7
+	volume_envelope 12, 7
 	note F#, 1
 	note G#, 1
 	;
@@ -430,11 +430,11 @@ Music_VictoryRoad_Ch2:
 	note D#, 6
 	note F#, 2
 	note A#, 8
-	notetype $6, $B7
+	notetype $6, $C7
 	octave 4
 	note C_, 1
 	note C#, 11
-	notetype $C, $B7
+	notetype $C, $C7
 	note C_, 1
 	octave 3
 	note B_, 1
@@ -455,7 +455,7 @@ Music_VictoryRoad_Ch2:
 	note A#, 12
 	octave 4
 	note C#, 4
-	volume_envelope 11, 3
+	volume_envelope 12, 3
 	note D_, 1
 	note D_, 1
 	note D_, 1
@@ -465,7 +465,7 @@ Music_VictoryRoad_Ch2:
 	note D_, 1
 	note D#, 1
 	note D#, 3
-	volume_envelope 9, 7
+	volume_envelope 10, 7
 	dutycycle $3
 	tone $0008
 	octave 1
@@ -523,7 +523,7 @@ Music_VictoryRoad_Ch2:
 	volume_envelope 14, 6
 	dutycycle $0
 	note D#, 6
-	volume_envelope 11, 6
+	volume_envelope 12, 6
 	dutycycle $1
 	octave 2
 	note D#, 2
@@ -540,7 +540,7 @@ Music_VictoryRoad_Ch2:
 	note A#, 3
 	octave 2
 	note C#, 2
-	volume_envelope 10, 6
+	volume_envelope 11, 6
 	tone $0000
 	note D#, 3
 	octave 3
@@ -548,7 +548,7 @@ Music_VictoryRoad_Ch2:
 	octave 2
 	note D#, 2
 	note A_, 3
-	volume_envelope 9, 7
+	volume_envelope 10, 7
 	tone $0008
 	note G#, 3
 	note F#, 2
@@ -904,3 +904,4 @@ Music_VictoryRoad_Ch4:
 	note C_, 1
 	note C_, 1
 	sound_ret
+	

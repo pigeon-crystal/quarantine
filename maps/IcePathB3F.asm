@@ -37,6 +37,7 @@ RockIsMoving5:
 	
 	para "The rock is"
 	line "moving!"
+	done
 	
 IcePathB3F_MapEvents:
 	db 0, 0 ; filler

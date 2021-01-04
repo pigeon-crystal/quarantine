@@ -164,6 +164,7 @@ INCLUDE "audio/music/lookradical.asm"
 INCLUDE "audio/music/andromega.asm"
 INCLUDE "audio/music/victoryroad.asm"
 INCLUDE "audio/music/lookartist.asm"
+INCLUDE "audio/music/illuxury.asm"
 
 SECTION "Zenith lmao", ROMX
 INCLUDE "audio/music/yotsuba2.asm"

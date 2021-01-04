@@ -66,242 +66,242 @@ JohtoGrassWildMons:
 	map_id TIN_TOWER_2F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, FLUFFRUIT
-	db 23, MISSTERIA
-	db 24, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER		;crab stand-in
+	db 40, CRUSTAZER		;crab stand-in
 	; day
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, FLUFFRUIT
-	db 23, MISSTERIA
-	db 24, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER		;crab stand-in
+	db 40, CRUSTAZER		;crab stand-in
 	; nite
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, FLUFFRUIT
-	db 23, MISSTERIA
-	db 24, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER		;crab stand-in
+	db 40, CRUSTAZER		;crab stand-in
 
 	map_id TIN_TOWER_3F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, FLUFFRUIT
-	db 23, MISSTERIA
-	db 24, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER		;crab stand-in
+	db 40, CRUSTAZER		;crab stand-in
 	; day
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, FLUFFRUIT
-	db 23, MISSTERIA
-	db 24, MISSTERIA
-	db 24, NOMSTER
-	db 26, NOMSTER
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER
+	db 40, CRUSTAZER
 	; nite
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, FLUFFRUIT
-	db 23, MISSTERIA
-	db 24, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER
+	db 40, CRUSTAZER	;crab stand-in
 
 	map_id TIN_TOWER_4F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, FLUFFRUIT
-	db 23, MISSTERIA
-	db 24, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER
+	db 40, CRUSTAZER;crab stand-in
 	; day
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, FLUFFRUIT
-	db 23, MISSTERIA
-	db 24, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER
+	db 40, CRUSTAZER;crab stand-in
 	; nite
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, FLUFFRUIT
-	db 23, MISSTERIA
-	db 24, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER
+	db 40, CRUSTAZER
 
 	map_id TIN_TOWER_5F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, MISSTERIA
-	db 23, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
 	; day
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, MISSTERIA
-	db 23, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
 	; nite
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, MISSTERIA
-	db 23, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
 
 	map_id TIN_TOWER_6F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, MISSTERIA
-	db 23, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
 	; day
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, MISSTERIA
-	db 23, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
 	; nite
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, MISSTERIA
-	db 23, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
 
 	map_id TIN_TOWER_7F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, MISSTERIA
-	db 23, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
 	; day
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, MISSTERIA
-	db 23, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
 	; nite
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, MISSTERIA
-	db 23, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
 
 	map_id TIN_TOWER_8F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, MISSTERIA
-	db 23, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
 	; day
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, MISSTERIA
-	db 23, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
 	; nite
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, MISSTERIA
-	db 23, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
 
 	map_id TIN_TOWER_9F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, MISSTERIA
-	db 23, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
 	; day
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, MISSTERIA
-	db 23, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
 	; nite
-	db 20, NOMSABRE
-	db 21, OSCURASA
-	db 22, FLUFFRUIT
-	db 22, MISSTERIA
-	db 23, MISSTERIA
-	db 24, CRUSTAZER		;crab stand-in
-	db 24, CRUSTAZER		;crab stand-in
-	db 26, CRUSTAZER		;crab stand-in
+	db 40, NOMSABRE
+	db 40, OSCURASA
+	db 40, FLUFFRUIT
+	db 40, MISSTERIA
+	db 40, MISSTERIA
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
+	db 40, CRUSTAZER		
 
 	map_id BURNED_TOWER_1F ;done
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -339,8 +339,8 @@ JohtoGrassWildMons:
 	db 23, OSCURASA
 	db 23, ANTPYRE
 	db 22, OSCURASA
-	db 22, ANTPYRE
-	db 21, MISSTERIA
+	db 22, MISSTERIA
+	db 21, ANTPYRE
 	db 22, MISSTERIA
 	db 23, MOTHO
 	db 24, MOTHO
@@ -348,8 +348,8 @@ JohtoGrassWildMons:
 	db 23, OSCURASA
 	db 23, ANTPYRE
 	db 22, OSCURASA
-	db 22, ANTPYRE
-	db 21, MISSTERIA
+	db 22, MISSTERIA
+	db 21, ANTPYRE
 	db 22, MISSTERIA
 	db 23, MOTHO
 	db 24, MOTHO
@@ -357,7 +357,7 @@ JohtoGrassWildMons:
 	db 23, OSCURASA
 	db 23, ANTPYRE
 	db 22, OSCURASA
-	db 22, ANTPYRE
+	db 22, MOTHO
 	db 22, MOTHO
 	db 23, MOTHO
 	db 24, MOTHO
@@ -368,7 +368,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 16, SHABBYCAT
-	db 16, MOPERDOR
+	db 18, MOPERDOR
 	db 16, PEAUTY
 	db 17, PEAUTY
 	db 17, ODDITTEN
@@ -377,7 +377,7 @@ JohtoGrassWildMons:
 	db 20, MAULZER
 	; day
 	db 16, SHABBYCAT
-	db 16, MOPERDOR
+	db 18, MOPERDOR
 	db 16, PEAUTY
 	db 17, PEAUTY
 	db 17, ODDITTEN
@@ -386,7 +386,7 @@ JohtoGrassWildMons:
 	db 20, MAULZER
 	; nite
 	db 16, SHABBYCAT
-	db 16, MOPERDOR
+	db 18, MOPERDOR
 	db 16, ODDITTEN
 	db 17, ODDITTEN
 	db 17, PEAUTY
@@ -639,27 +639,27 @@ JohtoGrassWildMons:
 	; morn
 	db 24, BOBBITE
 	db 23, SCRUFFRUIT
-	db 24, BOBBITE
+	db 24, DOLMESA
 	db 26, MORADAY
-	db 23, DOLMESA
+	db 23, BOBBITE
 	db 26, OLCHAP   ; stand-in for bad hat
 	db 26, OLCHAP	  ; stand-in for bad hat
 	db 27, PARDNER
 	; day
 	db 24, BOBBITE
 	db 23, SCRUFFRUIT
-	db 24, BOBBITE
+	db 24, DOLMESA
 	db 26, MORADAY
-	db 23, DOLMESA
+	db 23, BOBBITE
 	db 26, OLCHAP   ; stand-in for bad hat
 	db 26, OLCHAP   ; stand-in for bad hat
 	db 27, PARDNER
 	; nite
 	db 24, BOBBITE
 	db 23, SCRUFFRUIT
-	db 24, BOBBITE
+	db 24, DOLMESA
 	db 26, MORADAY
-	db 23, DOLMESA
+	db 23, BOBBITE
 	db 26, OLCHAP   ; stand-in for bad hat
 	db 26, OLCHAP   ; stand-in for bad hat
 	db 27, OLCHAP   
@@ -669,27 +669,27 @@ JohtoGrassWildMons:
 	; morn
 	db 25, BOBBITE
 	db 25, SCRUFFRUIT
-	db 24, BOBBITE
-	db 26, MORADAY
 	db 24, DOLMESA
+	db 26, MORADAY
+	db 24, BOBBITE
 	db 22, CLIBBLE
 	db 27, OLCHAP  ; stand-in for bad hat
 	db 27, OLCHAP  ; stand-in for bad hat
 	; day
 	db 25, BOBBITE
 	db 25, SCRUFFRUIT
-	db 24, BOBBITE
-	db 26, MORADAY
 	db 24, DOLMESA
+	db 26, MORADAY
+	db 24, CLIBBLE
 	db 27, OLCHAP   ; stand-in for bad hat
 	db 27, OLCHAP   ; stand-in for bad hat
 	db 27, PARDNER
 	; nite
 	db 25, BOBBITE
 	db 25, SCRUFFRUIT
-	db 24, BOBBITE
-	db 26, MORADAY
 	db 24, DOLMESA
+	db 26, MORADAY
+	db 24, BOBBITE
 	db 22, CLIBBLE
 	db 27, OLCHAP  ; stand-in for bad hat
 	db 27, OLCHAP  ; stand-in for bad hat
@@ -699,21 +699,21 @@ JohtoGrassWildMons:
 	; morn
 	db 25, BOBBITE
 	db 25, SCRUFFRUIT
-	db 24, BOBBITE
-	db 26, MORADAY
 	db 24, DOLMESA
+	db 26, MORADAY
+	db 24, BOBBITE
 	db 22, CLIBBLE
 	db 27, OLCHAP  ; stand-in for bad hat
 	db 27, OLCHAP  ; stand-in for bad hat
 	; day
 	db 25, BOBBITE
 	db 25, SCRUFFRUIT
-	db 24, BOBBITE
-	db 26, MORADAY
 	db 24, DOLMESA
-	db 27, OLCHAP   ; stand-in for bad hat
-	db 27, OLCHAP   ; stand-in for bad hat
-	db 27, PARDNER
+	db 26, MORADAY
+	db 24, BOBBITE
+	db 22, CLIBBLE
+	db 27, OLCHAP  ; stand-in for bad hat
+	db 27, OLCHAP
 	; nite
 	db 25, BOBBITE
 	db 25, SCRUFFRUIT
@@ -733,17 +733,17 @@ JohtoGrassWildMons:
 	db 27, MORADAY
 	db 25, DOLMESA
 	db 25, CLIBBLE
-	db 27, OLCHAP  ; stand-in for bad hat
-	db 27, OLCHAP  ; stand-in for bad hat
+	db 28, OLCHAP  ; stand-in for bad hat
+	db 28, OLCHAP  ; stand-in for bad hat
 	; day
 	db 25, BOBBITE
 	db 25, SCRUFFRUIT
 	db 25, BOBBITE
 	db 27, MORADAY
-	db 27, DOLMESA
-	db 27, OLCHAP   ; stand-in for bad hat
-	db 27, OLCHAP   ; stand-in for bad hat
-	db 28, PARDNER
+	db 25, DOLMESA
+	db 25, CLIBBLE
+	db 28, OLCHAP  ; stand-in for bad hat
+	db 28, OLCHAP  
 	; nite
 	db 25, BOBBITE
 	db 25, SCRUFFRUIT
@@ -751,8 +751,8 @@ JohtoGrassWildMons:
 	db 27, MORADAY
 	db 26, DOLMESA
 	db 25, CLIBBLE
-	db 27, OLCHAP  ; stand-in for bad hat
-	db 27, OLCHAP  ; stand-in for bad hat
+	db 28, OLCHAP  ; stand-in for bad hat
+	db 28, OLCHAP  ; stand-in for bad hat
 
 	map_id ICE_PATH_1F ;done
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite

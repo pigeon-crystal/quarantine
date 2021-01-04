@@ -6,5 +6,5 @@
 	next "freely, giving it"
 
 	page "limited flight. It"
-	next "often butt heads"
+	next "often butts heads"
 	next "with PARDNER.@"

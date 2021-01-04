@@ -49,6 +49,7 @@ RockIsMoving4:
 	
 	para "The rock is"
 	line "moving!"
+	done
 
 IcePathB2FFossil:
 	itemball HORN_FOSSIL

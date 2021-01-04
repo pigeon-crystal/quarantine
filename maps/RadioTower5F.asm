@@ -295,9 +295,9 @@ RadioTower5FRocketBossBeforeText:
 	line "all the #MON"
 	cont "in JOHTO!"
 	
-	para "Our tests attracted"
-	line "the legendary"
-	cont "GORIATH!"
+	para "Our tests"
+	line "attracted the "
+	cont "legendary GORIATH!"
 	
 	para "We're unstoppable!"
 

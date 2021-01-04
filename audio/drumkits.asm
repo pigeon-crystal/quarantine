@@ -11,86 +11,86 @@ Drumkit0:
 	dw Drum00
 	dw Snare1
 	dw Snare2
-	dw Snare3
-	dw Snare4
+	dw Snare3 ;
+	dw Snare4 ;
 	dw Drum05
-	dw Triangle1
-	dw Triangle2
+	dw Triangle1 ;
+	dw Triangle2 ;
 	dw HiHat1
 	dw Snare5
-	dw Snare6
-	dw Snare7
+	dw Snare6 ;
+	dw Snare7 ;
 	dw HiHat2
 Drumkit1:
 	dw Drum00
 	dw HiHat1
 	dw Snare5
-	dw Snare6
-	dw Snare7
+	dw Snare6 ;
+	dw Snare7 ;
 	dw HiHat2
 	dw HiHat3
 	dw Snare8
 	dw Triangle3
 	dw Triangle4
-	dw Snare9
-	dw Snare10
-	dw Snare11
+	dw Snare9 ;
+	dw Snare10 ;
+	dw Snare11 ;
 Drumkit2:
 	dw Drum00
 	dw Snare1
-	dw Snare9
-	dw Snare10
-	dw Snare11
+	dw Snare9 ;
+	dw Snare10 ;
+	dw Snare11 ;
 	dw Drum05
-	dw Triangle1
-	dw Triangle2
+	dw Triangle1 ;
+	dw Triangle2 ;
 	dw HiHat1
 	dw Snare5
-	dw Snare6
-	dw Snare7
+	dw Snare6 ;
+	dw Snare7 ;
 	dw HiHat2
 Drumkit3:
 	dw Drum21
-	dw Snare12
-	dw Snare13
-	dw Snare14
-	dw Kick1
-	dw Triangle5
-	dw Drum20
-	dw Drum27
-	dw Drum28
-	dw Drum29
+	dw Snare12 ;
+	dw Snare13 ;
+	dw Snare14 ;
+	dw Kick1 ;
+	dw Triangle5 ;
+	dw Drum20 ;
+	dw Drum27 ;
+	dw Drum28 ;
+	dw Drum29 ;
 	dw Drum21
-	dw Kick2
-	dw Crash2
+	dw Kick2 ;
+	dw Crash2 ;
 Drumkit4:
 	dw Drum21
-	dw Drum20
-	dw Snare13
-	dw Snare14
-	dw Kick1
+	dw Drum20 ;
+	dw Snare13 ;
+	dw Snare14 ;
+	dw Kick1 ;
 	dw Drum33
-	dw Triangle5
+	dw Triangle5 ;
 	dw Drum35
 	dw Drum31
 	dw Drum32
 	dw Drum36
-	dw Kick2
-	dw Crash1
+	dw Kick2 ;
+	dw Crash1 ;
 Drumkit5:
 	dw Drum00
-	dw Snare9
-	dw Snare10
-	dw Snare11
-	dw Drum27
+	dw Snare9 ;
+	dw Snare10 ;
+	dw Snare11 ;
+	dw Drum27 ;
 	dw Drum28
-	dw Drum29
+	dw Drum29 ;
 	dw Drum05
-	dw Triangle1
-	dw Crash1
-	dw Snare14
-	dw Snare13
-	dw Kick2
+	dw Triangle1 ;
+	dw Crash1 ;
+	dw Snare14 ;
+	dw Snare13 ;
+	dw Kick2 ;
 Drumkit6: ; does not exist
 	dw Drum00
 	dw Kick2
@@ -99,11 +99,11 @@ Drumkit6: ; does not exist
 	dw VocalT
 	dw VocalF
 	dw VocalK
-	dw Drum00
-	dw Drum00
-	dw Drum00
-	dw Drum00
-	dw Drum00
+	dw Crash2
+	dw Snare3
+	dw Drum27
+	dw Snare13
+	dw Snare7
 	dw Drum00
 
 Drum00:

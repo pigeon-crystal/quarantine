@@ -1,12 +1,12 @@
 	db NOMSABRE ; 020
 
-	db  115, 90,  93, 40,  35,  75
+	db  120, 93,  97, 40,  35,  77
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type
 	db 111 ; catch rate
 	db 140 ; base exp
-	db GOLD_BERRY, MYSTERYBERRY ; items
+	db GOLD_BERRY, MIRACLEBERRY ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 11 ; step cycles to hatch

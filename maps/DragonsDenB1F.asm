@@ -218,8 +218,8 @@ DragonsDenB1FGuardText:
 	line "pass into the"
 	cont "DRAGON'S DEPTHS"
 	
-	para "without the consent"
-	line "of the MASTER."
+	para "without the"
+	line "MASTER's blessing."
 	done
 
 ClairText_Wait:

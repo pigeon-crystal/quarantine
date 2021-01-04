@@ -31,7 +31,7 @@ VictoryRoadSideWater_MapScripts:
 	return
 
 VictoryRoadMaxRepel:
-	itemball MAX_REPEL
+	itemball EVERSTONE
 
 VictoryRoadSasha:
 	trainer ARTIST_GRAY, SASHA, EVENT_BEAT_GRAY_ARTIST, SashaSeen, SashaBeaten, 0, .Script

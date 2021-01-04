@@ -73,11 +73,11 @@ Andromega2F_MapEvents:
 	db 0 ; coord events
 
 	db 7 ; bg events TODO add wild mons for floors 2-5
- 	bg_event 4, 4, BGEVENT_READ, Andromega2FSchematics
-	bg_event 1, 6, BGEVENT_READ, Andromega2FSchematics
+	bg_event 0, 6, BGEVENT_READ, Andromega2FSchematics
 	bg_event 16, 1, BGEVENT_READ, Andromega2FHabbleBook
 	bg_event 17, 1, BGEVENT_READ, Andromega2FHabbleBook
 	bg_event 11, 1, BGEVENT_READ, Andromega2FPsychicBook
 	bg_event 5, 1, BGEVENT_READ, Andromega2FPsychicBook
 	bg_event 9, 1, BGEVENT_READ, Andromega2FComputer
+	bg_event 4, 4, BGEVENT_READ, Andromega2FSchematics
 	db 0 ; object events

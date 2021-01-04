@@ -93,6 +93,7 @@ RockIsMoving2:
 	
 	para "The rock is"
 	line "moving!"
+	done
 	
 MtNootEvent6:
 	conditional_event, ICE_PATH_NOOT_6, .Script

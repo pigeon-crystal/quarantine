@@ -548,8 +548,9 @@ Route36LassText:
 	done
 
 Route36LassText_ClearedSudowoodo:
-	text "Phew! Good riddance"
-	line "to bad GANZERKERS."
+	text "Phew! Good"
+	line "riddance to bad"
+	cont "GANZERKERs."
 
 	para "Now I can shop"
 	line "'till I drop!"

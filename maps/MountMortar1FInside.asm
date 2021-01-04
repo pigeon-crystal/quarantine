@@ -76,9 +76,10 @@ PokemaniacMillerBeatenText:
 
 PokemaniacMillerAfterBattleText:
 	text "A while back, this"
-	line "wizardy dude wanted"
+	line "wizardy dude"
+	cont "wanted to battle."
 
-	para "to battle. He was"
+	para "He was really,"
 	line "ridiculously good."
 
 	para "He just thrashed"

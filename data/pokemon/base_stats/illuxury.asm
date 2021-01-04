@@ -4,7 +4,7 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, GHOST ; type
-	db 5 ; catch rate
+	db 2 ; catch rate
 	db 255 ; base exp
 	db POLKADOT_BOW, POLKADOT_BOW ; items
 	db GENDER_F100 ; gender ratio
