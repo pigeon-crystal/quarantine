@@ -3673,16 +3673,16 @@ SageGroup:
 	db  10, LAWNIE
 	db -1 ; end
 
-	; SAGE (5) ; ecruteak gym, ayylmao
-	db "JEFFREY@", TRAINERTYPE_NORMAL
+	; SAGE (5) ; ecruteak gym, ayylmao, formerly jeffery
+	db "GIORGIO@", TRAINERTYPE_NORMAL
 	db 26, UNOWN ; glythic placeholder	
 	db 29, OBELITH
 	db 27, ODDITTEN
 	db 28, HABBLE
 	db -1 ; end
 
-	; SAGE (6) ; ecruteak gym , movie monsters
-	db "PING@", TRAINERTYPE_NORMAL
+	; SAGE (6) ; ecruteak gym , movie monsters, formerly ping
+	db "JUNJI@", TRAINERTYPE_NORMAL
 	db 29, KODOROYAH
 	db 28, VOYAPOD
 	db 26, UMBERJERK  ;placeholder for chainsaw
