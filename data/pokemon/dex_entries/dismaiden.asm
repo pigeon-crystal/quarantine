@@ -1,10 +1,10 @@
 	db "TORMENT@" ; species name
 	dw 509, 6118 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "Within its iron"
+	next "shell lies a"
+	next "curious spirit"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "confined. It"
+	next "ponders about"
+	next "life in solitude.@"

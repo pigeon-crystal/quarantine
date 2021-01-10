@@ -2624,7 +2624,7 @@ SuperNerdGroup:
 	db "ERIC@", TRAINERTYPE_NORMAL
 	db 22, HEXAHED
 	db 23, PILFOARD
-	db 21, DUMBLOON
+	db 21, YUESBI
 	db -1 ; end
 
 	; SUPER_NERD (3) ; unused
@@ -4325,7 +4325,7 @@ FanaticBlueGroup:
 ; FANATIC_BLUE (2) Goldenrod Gym's Bridget
 	db "SONG@", TRAINERTYPE_ITEM
 	db 23, DUMBLOON, NO_ITEM
-	db 27, FURSA, 	 BERRY
+	db 26, FURSA, 	 BERRY
 	db 23, DUMBLOON, PINK_BOW
 	db 23, DUMBLOON, NO_ITEM
 	db -1 ; end
@@ -4334,7 +4334,7 @@ FanaticBlueGroup:
 	db "CONNIE@", TRAINERTYPE_ITEM
 	db 37, HABBLE, NO_ITEM
 	db 35, SLISCES, MINT_BERRY
-	db 36, SLISCES, NO_ITEM
+	db 36, SLISCES, ICE_BERRY
 	db -1 ; end
 	
 WarriorGroup:

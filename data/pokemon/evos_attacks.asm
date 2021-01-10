@@ -1730,15 +1730,15 @@ MoradayEvosAttacks:
 	db 17, THUNDERSHOCK
 	db 24, SANDSTORM
 	db 27, DRAGONBREATH
-	db 30, THUNDERBOLT
+	db 30, EARTH_POWER
 	db 35, CRUNCH
 	db 36, GLARE
 	db 40, BODY_SLAM
 	db 41, MEAN_LOOK
-	db 44, EARTH_POWER
-	db 47, THUNDERBOLT
-	db 49, FLAMETHROWER
+	db 44, THUNDERBOLT
+	db 48, FLAMETHROWER
 	db 55, FISSURE
+	db 65, POWER_GEM
 	db 0 ; no more level-up moves
 
 EelkieEvosAttacks:
@@ -1817,6 +1817,7 @@ PepofferEvosAttacks:
 	db 44, HEAL_BELL
 	db 53, HYDRO_PUMP
 	db 56, BULLET_SEED
+	db 65, PETAL_DANCE
 	db 0 ; no more level-up moves
 
 LamyglamaEvosAttacks:
@@ -1828,10 +1829,10 @@ LamyglamaEvosAttacks:
 	db 22, FLAIL
 	db 25, ACID
 	db 30, DOUBLE_KICK
-	db 36, IRON_HEAD
-	db 40, PSYCHIC_M
-	db 44, HEAL_BELL
-	db 49, SLUDGE_BOMB
+	db 34, IRON_HEAD
+	db 37, PSYCHIC_M
+	db 42, HEAL_BELL
+	db 45, SLUDGE_BOMB
 	db 51, MINIMIZE
 	db 56, DARK_PULSE
 	db 0 ; no more level-up moves
@@ -3477,10 +3478,10 @@ ArasbestosEvosAttacks:
 	db 25, SPIKES
 	db 27, GLARE
 	db 30, TOXIC
-	db 33, ROCK_SLIDE
+	db 33, POWER_GEM
 	db 38, PAIN_SPLIT
 	db 40, LEECH_LIFE
-	db 43, POISON_JAB
+	db 43, SLUDGE_BOMB
 	db 46, SUBSTITUTE
 	db 49, SAFEGUARD
 	db 0 ; no more level-up moves
@@ -3552,7 +3553,7 @@ GlostEvosAttacks:
 	db 32, CONFUSE_RAY
 	db 39, SHADOW_BALL
 	db 42, DESTINY_BOND
-	db 45, ICE_BEAM
+	db 44, ICE_BEAM
 	db 48, SLUDGE_BOMB
 	db 52, BLIZZARD
 	db 55, AGILITY

@@ -103,16 +103,16 @@ JohtoWaterWildMons:
 
 	map_id DARK_CAVE_VIOLET_ENTRANCE ;done
 	db 2 percent ; encounter rate
-	db 15, FLUFFRUIT
-	db 10, FLUFFRUIT
-	db 5, CUTTLE
+	db 20, FLUFFRUIT
+	db 20, FLUFFRUIT
+	db 18, HOPLAQUE
 	db 25, BOWLIDE
 
 	map_id DARK_CAVE_BLACKTHORN_ENTRANCE ;done
 	db 2 percent ; encounter rate
-	db 15, SCRUFFRUIT
-	db 10, SMUCIOUS
-	db 5, KODOROYAH
+	db 20, HOPLAQUE
+	db 30, SMUCIOUS
+	db 30, KODOROYAH
 	db 40, BOWLIDE
 
 	map_id DRAGONS_DEN_B1F ;done
