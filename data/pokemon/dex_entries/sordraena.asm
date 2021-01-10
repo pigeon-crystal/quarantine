@@ -1,10 +1,11 @@
 	db "REPTILE@" ; species name
 	dw 301, 628 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db "Soaks up sunlight"
+	next "all day long. The"
+	next "latent heat it"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "absorbs gives it"
+	next "the energy to"
+	next "defend itself.@"
+

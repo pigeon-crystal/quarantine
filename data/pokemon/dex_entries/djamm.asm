@@ -1,5 +1,5 @@
 	db "FUNKY@" ; species name
-	dw 411, 260 ; height, weight
+	dw 006, 019 ; height, weight
 
 	db   "DJAMM uses"
 	next "only the"

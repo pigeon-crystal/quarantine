@@ -1,10 +1,10 @@
 	db "IRON-CLAD@" ; species name
 	dw 1002, 8104 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
-
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	db 	 "The scales of a"
+	next "FALWODRAIG that "
+	next "has waged war are"
+	
+	page "the best material"
+	next "for smithing armor"
+	next "and shields.@"

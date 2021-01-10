@@ -1,10 +1,11 @@
 	db "POWERFUL@" ; species name
 	dw 511, 1755 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db "Its intellect and"
+	next "sense of strategy "
+	next "are unmatched, but"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "despite its power,"
+	next "EYECHOSIS yearns"
+	next "to be understood.@"
+

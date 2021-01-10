@@ -1,5 +1,5 @@
 	db "TORMENT@" ; species name
-	dw 406, 4034 ; height, weight
+	dw 509, 6118 ; height, weight
 
 	db   "This is an"
 	next "undiscovered"

@@ -5,6 +5,6 @@
 	next "broken electronics"
 	next "in its body. If a"
 
-	page "piece falls out it"
-	next "pretends to be"
-	next "broken.@"
+	page "piece falls out,"
+	next "it pretends to"
+	next "be broken.@"

@@ -228,7 +228,7 @@ DragonsDepthsB1F_MapEvents:
 	db 0 ; coord events
 
 	db 1 ; bg events
-	bg_event 7, 10, BGEVENT_ITEM, DragonsDepthsB1FHiddenMaxRevive
+	bg_event  4,  7, BGEVENT_ITEM, DragonsDepthsB1FHiddenMaxRevive
 
 	db 10 ; object events
 	object_event 11, 18, SPRITE_WARRIOR, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerWarriorShindo, -1

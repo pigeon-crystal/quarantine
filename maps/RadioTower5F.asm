@@ -4,10 +4,10 @@
 	const RADIOTOWER5F_ROCKET_GIRL
 	const RADIOTOWER5F_ROCKER
 	const RADIOTOWER5F_POKE_BALL
-	const GORIATH1
-	const GORIATH2	
-	const GORIATH3
-	const GORIATH4
+	const RADIOTOWER5F_GORIATH1
+	const RADIOTOWER5F_GORIATH2	
+	const RADIOTOWER5F_GORIATH3
+	const RADIOTOWER5F_GORIATH4
 
 RadioTower5F_MapScripts:
 	db 3 ; scene scripts
@@ -93,11 +93,11 @@ RadioTower5FRocketBossScene:
 	setlasttalked RADIOTOWER5F_ROCKET
 	loadtrainer EXECUTIVEM, EXECUTIVEM_1
 	startbattle
-	disappear GORIATH1
-	disappear GORIATH2
-	disappear GORIATH3
-	disappear GORIATH4
 	reloadmapafterbattle
+	disappear RADIOTOWER5F_GORIATH1
+	disappear RADIOTOWER5F_GORIATH2
+	disappear RADIOTOWER5F_GORIATH3
+	disappear RADIOTOWER5F_GORIATH4
 	opentext
 	writetext RadioTower5FRocketBossAfterText
 	waitbutton

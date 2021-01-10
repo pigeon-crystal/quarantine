@@ -1,10 +1,10 @@
 	db "ANCESTOR@" ; species name
-	dw 304, 44 ; height, weight
+	dw 304, 044 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "Genetic studies"
+	next "suggest it is not"
+	next "even a dog. It"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "flops hollowly in"
+	next "the wind, leaking"
+	next "a trail of ashes.@"

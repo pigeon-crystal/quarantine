@@ -6,7 +6,7 @@
 	db STEEL, GROUND ; type
 	db 44 ; catch rate
 	db 222 ; base exp
-	db LUCKY_PUNCH, BLU_APRICORN ; items
+	db BLK_APRICORN, SOFT_SAND ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 10 ; step cycles to hatch

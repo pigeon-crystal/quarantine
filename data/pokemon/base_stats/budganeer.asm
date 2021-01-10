@@ -1,6 +1,6 @@
 	db BUDGANEER ; 198
 
-	db  70,  65,  60,  80,  65,  60
+	db  70,  67,  60,  81,  65,  60
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, FLYING ; type

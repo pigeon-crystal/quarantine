@@ -1,10 +1,10 @@
 	db "SCALE-CLAD@" ; species name
 	dw 404, 1077 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "With its sturdy"
+	next "coat of scales it"
+	next "feel emboldened"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "to charge at brave"
+	next "knights very, very"
+	next "slowly.@"

@@ -1,10 +1,11 @@
 	db "PRIMATE@" ; species name
 	dw 605, 2794 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db "GIGASYNAPA rules"
+	next "the night, running"
+	next "amock and tearing"
+		
+	page "the world apart"
+	next "for fun. However,"
+	next "it fears fire.@"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"

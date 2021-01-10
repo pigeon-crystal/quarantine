@@ -222,14 +222,19 @@ BigbySeenText:
 	done
 	
 BigbyBeatenText:
-	text "Tarnation!"
-	line "Fiddlesticks!"
+	text "I guess I'll"
+	line "go back to the"
+	cont "RUINS OF ALPH"
+	cont "emptyhanded."
 	done
 
 BigbyAfterText:
 	text "If you must know,"
 	line "I'm looking for"
-	cont "a SCALE FOSSIL."
+	cont "a SCALE FOSSIL"
+	
+	para "to revive at the"
+	line "RUINS OF ALPH."
 	
 	para "In ancient days,"
 	line "this cave was"
@@ -238,8 +243,8 @@ BigbyAfterText:
 	
 	para "The SCALE FOSSIL"
 	line "was from an"
-	cont "apex predator"
-	cont "of those days."
+	cont "creature of"
+	cont "those days."
 	done
 	
 UnionCave1F_MapEvents:

@@ -1,5 +1,5 @@
 	db "DISCARDED@" ; species name
-	dw 040, 006 ; height, weight
+	dw 009, 006 ; height, weight
 
 	db   "When a child "
 	next "leaves behind a"

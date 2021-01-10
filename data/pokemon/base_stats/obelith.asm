@@ -4,9 +4,9 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, ELECTRIC ; type
-	db 53 ; catch rate
-	db 211 ; base exp
-	db NO_ITEM, KINGS_ROCK ; items
+	db 67 ; catch rate
+	db 167 ; base exp
+	db HARD_STONE, KINGS_ROCK ; items
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1
 	db 17 ; step cycles to hatch

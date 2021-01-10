@@ -6,5 +6,5 @@
 	next "enough to evacuate"
 
 	page "a township, as"
-	next "calamity inevitably"
+	next "calamity always"
 	next "follows.@"

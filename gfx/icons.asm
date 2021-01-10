@@ -121,6 +121,14 @@ AmpalaIcon:			INCBIN "gfx/icons/ampala.2bpp"
 BlazelleIcon:		INCBIN "gfx/icons/blazelle.2bpp"
 CalfeenIcon:		INCBIN "gfx/icons/calfeen.2bpp"
 IlluxuryIcon:		INCBIN "gfx/icons/illuxury.2bpp"
+MissteriaIcon:		INCBIN "gfx/icons/missteria.2bpp"
+DismaidenIcon:		INCBIN "gfx/icons/dismaiden.2bpp"
+BedlamamIcon:		INCBIN "gfx/icons/bedlamam.2bpp"
+PrawmateIcon:		INCBIN "gfx/icons/prawmate.2bpp"
+ShrimpanziIcon:		INCBIN "gfx/icons/shrimpanzi.2bpp"
+SwimianIcon:		INCBIN "gfx/icons/swimian.2bpp"
+SliscesIcon:		INCBIN "gfx/icons/slisces.2bpp"
+DreadgeIcon:		INCBIN "gfx/icons/dreadge.2bpp"
 
 SECTION "Mon Icons 2", ROMX
 

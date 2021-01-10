@@ -3,7 +3,7 @@
 
 	db   "Emerging from the"
 	next "stygian depths,"
-	next "BERMUTANT spreads"
+	next "BERMUDANT spreads"
 
 	page "disease and fear."
 	next "Rumors say they"

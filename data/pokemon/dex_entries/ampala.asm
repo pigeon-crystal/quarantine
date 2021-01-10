@@ -1,10 +1,11 @@
-	db "SOLENOID@" ; species name ; TODO
+	db "SOLENOID@" ; species name ;
 	dw 805, 4001 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db "When it flashes"
+	next "its horns, it"
+	next "makes a sound like"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "thunder, which"
+	next "will attract"
+	next "BLAZELLE.@"
+

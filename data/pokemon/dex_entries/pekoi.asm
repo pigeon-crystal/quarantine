@@ -1,10 +1,10 @@
 	db "TEALEAF@" ; species name
-	dw 111, 601 ; height, weight
+	dw 111, 401 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "PEKOI was imported"
+	next "to JOHTO for its"
+	next "healing potential."
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "Unfortunately, it"
+	next "brought with it a"
+	next "haughty attitude.@"

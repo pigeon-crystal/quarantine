@@ -121,6 +121,14 @@ IconPointers:
 	dw BlazelleIcon
 	dw CalfeenIcon
 	dw IlluxuryIcon
+	dw MissteriaIcon
+	dw DismaidenIcon
+	dw BedlamamIcon
+	dw PrawmateIcon
+	dw ShrimpanziIcon
+	dw SwimianIcon
+	dw SliscesIcon
+	dw DreadgeIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw BulbasaurIcon
 	dw CharmanderIcon

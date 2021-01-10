@@ -1,10 +1,11 @@
 	db "REDGLACIER@" ; species name
-	dw 908, 3641 ; height, weight
+	dw 910, 3754 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db 	"Ancient cultures,"
+	next "who revered it"
+	next "as a great deity"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "of the yearly flu," 
+	next "adorned it with "
+	next "ritual symbols.@"
+

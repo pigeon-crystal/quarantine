@@ -1,10 +1,10 @@
 	db "MONSTER@" ; species name
 	dw 611, 1419 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "A fish who tried"
+	next "to become a dragon"
+	next "before it was"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "ready, warped into"
+	next "a strange form"
+	next "as consequence.@"

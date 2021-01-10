@@ -6,7 +6,7 @@
 	db GHOST, GHOST ; type
 	db 41 ; catch rate
 	db 160 ; base exp
-	db LUCKY_PUNCH, BLU_APRICORN ; items
+	db CLEANSE_TAG, SPELL_TAG ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
 	db 11 ; step cycles to hatch

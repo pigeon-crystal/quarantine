@@ -1,10 +1,10 @@
 	db "ANGRY@" ; species name
 	dw 800, 3333 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "Having overcome"
+	next "its viruses, YUEFOE"
+	next "constantly seeks"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "data. It overs"
+	next "over objects and"
+	next "clicks.@"

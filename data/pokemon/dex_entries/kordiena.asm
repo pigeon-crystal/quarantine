@@ -1,10 +1,10 @@
 	db "STEM@" ; species name
 	dw 201, 223 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "Its potential to"
+	next "change only"
+	next "awakened after it"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "left behind its"
+	next "puddle to interact"
+	next "with the world.@"

@@ -43,8 +43,8 @@
 	const QWALLOP    ; 16
 	const WYRMOMETER ; 17 
 	const IGNAGA     ; 18
-	const BUDGANEER    ; 19 pirate parrot
-	const MACAWSAIR     ; 1a pirate parrot
+	const BUDGANEER  ; 19
+	const MACAWSAIR  ; 1a 
 	const SANDOLPH   ; 1b
 	const DUNEFIN    ; 1c
 	const SPRUNNY    ; 1d
@@ -100,10 +100,10 @@
 	const MISSTERIA  ; 4f 
 	const DISMAIDEN  ; 50 
 	const BEDLAMAM   ; 51 
-	const CALFEEN    ; 52 antelope
-	const AMPALA 	 ; 53 elec antelope
-	const BLAZELLE   ; 54 fire antelope
-	const RAMBOYANT     ; 55 otter
+	const CALFEEN    ; 52 
+	const AMPALA 	 ; 53 
+	const BLAZELLE   ; 54 
+	const RAMBOYANT  ; 55 
 	const CADDISICLE ; 56
 	const JADDICE    ; 57
 	const DUMBLOON   ; 58
@@ -233,7 +233,7 @@ JOHTO_POKEMON EQU const_value
 	const PEKOI      ; d3
 	const YAGAGARASU ; d4
 	const UMBERJERK  ; d5 
-	const PAINSAW  ; d6 murderer2
+	const PAINSAW 	 ; d6 
 	const SNEASEL    ; d7 murderer3
 	const SMUCIOUS   ; d8
 	const SMOTHERENE ; d9
@@ -244,7 +244,7 @@ JOHTO_POKEMON EQU const_value
 	const BAAFOMET   ; de
 	const STIKLBRAT  ; df
 	const SIDFICIOUS ; e0
-	const SALARITO   ; e1 stiklbrat surf evo
+	const SALARITO   ; e1 
 	const KRAKENTOA  ; e2
 	const SNOSEBLEED ; e3
 	const SNOWUP     ; e4
@@ -256,7 +256,7 @@ JOHTO_POKEMON EQU const_value
 	const SLOWHOG  	 ; ea
 	const EYECHOSIS  ; eb
 	const FUEGHAST   ; ec 
-	const HALLOALLO  ; ed some other fossil
+	const HALLOALLO  ; ed
 	const AMBIONIC   ; ee 
 	const ELEKID     ; ef cured buzzling
 	const GORIATH    ; f0 

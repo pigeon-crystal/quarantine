@@ -73,8 +73,8 @@ GiveGoodRodText:
 	done
 	
 LaxWinLossText:
-	text "Ah!"
-	line "What a fine battle."
+	text "YAR! What a"
+	line "fine battle."
 	done
 	
 BeatLaxText:
@@ -110,7 +110,8 @@ DontWantGoodRodText:
 
 HaveGoodRodText:
 	text "How are things?"
-	line "Land the big one?"
+	line "Ye land the"
+	cont "big one, matey?"
 	done
 
 OlivineGoodRodHouse_MapEvents:

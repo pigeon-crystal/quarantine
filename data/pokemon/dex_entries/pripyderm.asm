@@ -2,8 +2,8 @@
 	dw 701, 40902 ; height, weight
 
 	db   "Its life can only"
-	next "end when the en-"
-	next "ergy in their body"
+	next "end when the"
+	next "energy in its body"
 
 	page "is completely used"
 	next "up. PRIPYDERM will"

@@ -1,10 +1,10 @@
 	db "ANGRY@" ; species name
 	dw 010, 059 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "Once a normal"
+	next "computer mouse, it"
+	next "caught a virus and"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "rolled off. It "
+	next "only leaves empty"
+	next "USB ports behind.@"

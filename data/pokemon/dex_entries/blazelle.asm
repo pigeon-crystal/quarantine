@@ -1,12 +1,11 @@
-	db "BONFIRE@" ; species name ; TODO
+	db "BONFIRE@" ; species name ; 
 	dw 705, 901 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db "Will often cause"
+	next "forest fires on"
+	next "accident. It may"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "mistake thunder"
+	next "for an AMPALA"
+	next "flash.@"
 
-; could be about how it's mostly composed of spectral-appearing flames?

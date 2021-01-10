@@ -1,10 +1,10 @@
 	db "MALWARE@" ; species name
 	dw 109, 202 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "A PC possessed by"
+	next "countless viruses."
+	next "Vulgar, rude and"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "eager to part a"
+	next "fool from his"
+	next "bank details.@"

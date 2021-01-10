@@ -1,11 +1,11 @@
 	db "COMMANDO@" ; species name ; TODO
 	dw 411, 827 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "They fire seeds"
+	next "from their beloved"
+	next "sticks. They try"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "to stay hidden by"
+	next "rolling in the mud"
+	next "and grass.@"
 

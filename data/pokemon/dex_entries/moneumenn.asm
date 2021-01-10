@@ -1,10 +1,10 @@
 	db "BEACON@" ; species name
-	dw 1210, 49011 ; height, weight
+	dw 1309, 65244 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "Planted firmly,"
+	next "the gaps in their"
+	next "bodies seem like a"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "door, but nothing"
+	next "ever opens it from"
+	next "the other side.@"

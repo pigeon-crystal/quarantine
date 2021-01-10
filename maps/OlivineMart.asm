@@ -29,18 +29,16 @@ OlivineMartCooltrainerFText:
 	done
 
 OlivineMartLassText:
-	text "My BUTTERFREE came"
+	text "My SQUEENIE came"
 	line "from my boyfriend"
 	cont "overseas."
 
-	para "It carried some"
-	line "MAIL from him."
+	para "He says it"
+	line "reminds him of me."
 
-	para "Want to know what"
-	line "it says?"
-
-	para "Let's see… Nope!"
-	line "It's a secret!"
+	para "I don't know"
+	line "what to think of"
+	cont "that."
 	done
 
 OlivineMart_MapEvents:

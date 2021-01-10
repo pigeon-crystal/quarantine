@@ -1,13 +1,13 @@
 	db TERRATORA ; 133
 
-	db  80,  126,  150,  74,  86,  65
+	db  80,  126,  150,  74,  88,  65
 	;   hp   atk   def  spd  sat  sdf
 
 	db FIRE, ROCK ; type
 	db 3 ; catch rate
-	db 222 ; base exp
-	db NO_ITEM, NO_ITEM ; items
-	db GENDER_F50 ; gender ratio
+	db 235 ; base exp
+	db HARD_STONE, HARD_STONE ; items
+	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1
 	db 5 ; step cycles to hatch
 	db 5 ; unknown 2

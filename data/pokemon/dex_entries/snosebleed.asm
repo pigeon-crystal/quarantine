@@ -1,10 +1,11 @@
 	db "RED SNOW@" ; species name
 	dw 104, 227 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db 	 "In the far north,"
+	next "scientists have"
+	next "quarantined all" 
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "SNOSEBLEED to one" 
+	next "glacier, yet their"
+	next "fevers only rise.@"
+

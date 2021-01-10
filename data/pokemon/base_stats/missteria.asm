@@ -3,10 +3,10 @@
 	db  51,  50,  60,  49,  60,  50
 	;   hp  atk  def  spd  sat  sdf
 
-	db DARK, NORMAL ; type
-	db 125 ; catch rate
+	db DARK, DARK ; type
+	db 108 ; catch rate
 	db 55 ; base exp
-	db NO_ITEM, BLK_APRICORN ; items
+	db CLEANSE_TAG, BLK_APRICORN ; items
 	db GENDER_F100 ; gender ratio
 	db 100 ; unknown 1
 	db 15 ; step cycles to hatch

@@ -39,7 +39,7 @@ WiltonPhoneFullText:
 
 WiltonRematchText:
 	text "Argh! You startled"
-	line "POLIWAG into"
+	line "STIKLBRAT into"
 	cont "fleeing again!"
 	done
 

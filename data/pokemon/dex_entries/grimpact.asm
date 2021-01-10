@@ -6,5 +6,5 @@
 	next "spews exhaust as"
 
 	page "a warning to"
-	next "keep your"
-	next "distance.@"
+	next "stay away from"
+	next "it.@"

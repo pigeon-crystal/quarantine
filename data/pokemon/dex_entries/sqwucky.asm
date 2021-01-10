@@ -3,7 +3,7 @@
 
 	db   "SQWUCKY drift "
 	next "along the open sea"
-	next "in large flocks"
+	next "in large flocks."
 
 	page "Their cacophonous"
 	next "quacks can be"

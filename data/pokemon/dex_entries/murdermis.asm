@@ -1,5 +1,5 @@
 	db "SCARECROW@" ; species name
-	dw 302, 2501 ; height, weight
+	dw 705, 2501 ; height, weight
 
 	db   "A strange force"
 	next "inside the head"

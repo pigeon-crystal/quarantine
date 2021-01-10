@@ -14,7 +14,7 @@ FishGroups:
 	fishgroup 50 percent + 1, .Chernomusk_Old,          .Chernomusk_Good,          .Chernomusk_Super
 	fishgroup 50 percent + 1, .Pekoi_Swarm_Old,   .Pekoi_Swarm_Good,   .Pekoi_Swarm_Super
 	fishgroup 50 percent + 1, .Stiklbrat_Swarm_Old,   .Stiklbrat_Swarm_Good,   .Stiklbrat_Swarm_Super
-	fishgroup 50 percent + 1, .Falwodraig_Old,         .Falwodraig_Good,         .Falwodraig_Super
+	fishgroup 50 percent + 1, .LakeOfRage_Old,         .LakeOfRage_Good,         .LakeOfRage_Super
 	fishgroup 50 percent + 1, .Chernomusk_2_Old,        .Chernomusk_2_Good,        .Chernomusk_2_Super
 	fishgroup 50 percent + 1, .WhirlIslands_Old,     .WhirlIslands_Good,     .WhirlIslands_Super
 	fishgroup 50 percent + 1, .Pekoi_Old,         .Pekoi_Good,         .Pekoi_Super
@@ -126,32 +126,32 @@ FishGroups:
 	db  90 percent + 1, STIKLBRAT,   40
 	db 100 percent,     STIKLBRAT,   40
 
-.Falwodraig_Old:
+.LakeOfRage_Old:
 	db  70 percent + 1, LANATUN,   10
-	db  85 percent + 1, LANATUN,   10
+	db  85 percent + 1, STIKLBRAT,   10
 	db 100 percent,     LANATUN,   10
-.Falwodraig_Good:
-	db  35 percent,     LANATUN,   20
-	db  70 percent,     LANATUN,   20
-	db  90 percent + 1, PEPOFFER,   20
+.LakeOfRage_Good:
+	db  35 percent,     LANATUN,   21
+	db  70 percent,     STIKLBRAT,   22
+	db  90 percent + 1, PEPOFFER,   23
 	db 100 percent,     time_group 14
-.Falwodraig_Super:
-	db  40 percent,     LANATUN,   40
+.LakeOfRage_Super:
+	db  40 percent,     STIKLBRAT,   40
 	db  70 percent,     time_group 15
 	db  90 percent + 1, PEPOFFER,   40
 	db 100 percent,     PEPOFFER,   40
 
 .Chernomusk_2_Old:
 	db  70 percent + 1, LANATUN,   10
-	db  85 percent + 1, LANATUN,   10
+	db  85 percent + 1, STIKLBRAT,   10
 	db 100 percent,     HOPLAQUE,   10
 .Chernomusk_2_Good:
 	db  35 percent,     LANATUN,   10
-	db  70 percent,     LANATUN,   10
+	db  70 percent,     HOPLAQUE,   10
 	db  90 percent + 1, STIKLBRAT,   10
 	db 100 percent,     time_group 16
 .Chernomusk_2_Super:
-	db  40 percent,     PEPOFFER,   10
+	db  40 percent,     STIKLBRAT,   10
 	db  70 percent,     time_group 17
 	db  90 percent + 1, HOPLAQUE,   10
 	db 100 percent,     HOPLAQUE,  10

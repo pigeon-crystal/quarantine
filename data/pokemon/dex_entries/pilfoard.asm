@@ -1,10 +1,10 @@
 	db "COVETOUS@" ; species name
 	dw 100, 300 ; height, weight
 
-	db   "They readily abs-"
-	next "cond with their"
-	next "trainer's valu-"
+	db   "They readily run"
+	next "off with their"
+	next "trainer's goods,"
 
-	page "ables, making them"
-	next "a real pain"
+	page "making them a"
+	next "notorious pain"
 	next "to raise.@"

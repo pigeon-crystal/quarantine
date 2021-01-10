@@ -4,6 +4,7 @@
 	const ECRUTEAKPOKECENTER1F_COOLTRAINER_F
 	const ECRUTEAKPOKECENTER1F_GYM_GUY
 	const ECRUTEAKPOKECENTER1F_BILL
+	const ECRUTEAKMOVEDELETER
 
 EcruteakPokecenter1F_MapScripts:
 	db 2 ; scene scripts
@@ -177,6 +178,14 @@ EcruteakPokecenter1FGymGuyText:
 	line "acy. I know it!"
 	done
 
+EcruteakMoveDeleter:
+	faceplayer
+	opentext
+	special MoveDeletion
+	waitbutton
+	closetext
+	end
+
 EcruteakPokecenter1F_MapEvents:
 	db 0, 0 ; filler
 
@@ -189,9 +198,12 @@ EcruteakPokecenter1F_MapEvents:
 
 	db 0 ; bg events
 
-	db 5 ; object events
+	db 6 ; object events
 	object_event  3,  1, SPRITE_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakPokecenter1FNurseScript, -1
 	object_event  7,  6, SPRITE_BREEDER_M, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakPokecenter1FPokefanMScript, -1
-	object_event  1,  4, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakPokecenter1FCooltrainerFScript, -1
+	object_event  1,  5, SPRITE_ATHLETE_F, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakPokecenter1FCooltrainerFScript, -1
 	object_event  7,  1, SPRITE_SKEPTIC, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, EcruteakPokecenter1FGymGuyScript, -1
 	object_event  0,  7, SPRITE_BILL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ECRUTEAK_POKE_CENTER_BILL
+	object_event  0,  3, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EcruteakMoveDeleter, -1
+
+

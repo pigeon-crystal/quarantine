@@ -1,10 +1,11 @@
 	db "UNGULATE@" ; species name
 	dw 710, 4024 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db "Even small herds"
+	next "of CERKITAYSA can"
+	next "illuminate the"
+		
+	page "darkest of nights."
+	next "It does this to"
+	next "comfort its young.@"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"

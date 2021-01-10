@@ -1,10 +1,10 @@
 	db "FORESTER@" ; species name
-	dw 103, 55 ; height, weight
+	dw 103, 65 ; height, weight
 
 	db   "This #MON hangs"
 	next "on its favorite"
-	next "branch, waiting"
+	next "branch. It waits"
 
 	page "for new leaves to"
 	next "grow rather than"
-	next "find new ones.@"
+	next "find a new branch.@"

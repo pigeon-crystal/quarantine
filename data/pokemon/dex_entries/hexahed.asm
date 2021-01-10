@@ -1,10 +1,10 @@
 	db "DEALER@" ; species name
 	dw 207, 777 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "Loves to play"
+	next "games of chance,"
+	next "but tips the odds"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "gently in its"
+	next "favor by deft"
+	next "sleight of hand.@"

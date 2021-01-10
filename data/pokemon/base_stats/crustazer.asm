@@ -1,11 +1,11 @@
 	db CRUSTAZER ; 142
 
-	db  82, 113,  69, 55,  99,  82
+	db  82, 112,  69, 55,  99,  82
 	;   hp  atk  def  spd  sat  sdf
 
 	db ELECTRIC, ELECTRIC ; type
-	db 50 ; catch rate
-	db 159 ; base exp
+	db 59 ; catch rate
+	db 169 ; base exp
 	db MAGNET, YLW_APRICORN ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

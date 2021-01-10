@@ -1,10 +1,10 @@
-	db "FAWN@" ; species name ; TODO
-	dw 405, 2001 ; height, weight
+	db "FAWN@" ; species name ; 
+	dw 405, 930 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "The ever-fiesty"
+	next "CALFEEN have high"
+	next "energy reserves that"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "manifest in many"
+	next "ways. They love to"
+	next "butt heads.@"

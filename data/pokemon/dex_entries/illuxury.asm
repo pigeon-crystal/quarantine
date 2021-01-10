@@ -1,5 +1,5 @@
 	db "FELLMAIDEN@" ; species name ; TODO
-	dw 302, 11 ; height, weight
+	dw 411, 11 ; height, weight
 
 	db   "Some say YUGGROMI"
 	next "isn't the FIEND"

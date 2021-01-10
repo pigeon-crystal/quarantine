@@ -82,7 +82,7 @@ MonMenuIconPals:
 	icon_pals GRAY,   YELLOW   ; CAIRNIVORE
 	icon_pals BROWN,   YELLOW  ; MOPERDOR
 	icon_pals BLUE,    YELLOW  ; MAJESDOR
-	icon_pals BLUE,   YELLOW  ; MISSTERIA
+	icon_pals GRAY,   YELLOW  ; MISSTERIA
 	icon_pals GRAY,   YELLOW  ; DISMAIDEN
 	icon_pals GRAY,   YELLOW  ; BEDLAMAM
 	icon_pals PINK,   YELLOW  ; CALFEEN

@@ -1,10 +1,10 @@
 	db "ANCIENT@" ; species name
 	dw 700, 10406 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "Forms lines at"
+	next "night, blinking in"
+	next "sequence. as if"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "marking a runway"
+	next "for visitors who"
+	next "never come.@"

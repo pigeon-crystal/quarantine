@@ -1,10 +1,11 @@
 	db "SAURIAN@" ; species name
 	dw 1201, 4878 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db "The sun is no"
+	next "longer strong"
+	next "enough to power"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "its body, so it"
+	next "boils its own"
+	next "blood instead.@"
+	

@@ -3,8 +3,8 @@
 
 	db   "They swim just"
 	next "as naturally as"
-	next "they walk. NANUQUA"
+	next "they walk."
 
-	page "will teach them"
-	next "how to gather"
-	next "berries.@"
+	page "NANUQUA will teach"
+	next "them how to "
+	next "gather berries.@"

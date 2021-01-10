@@ -1,6 +1,6 @@
 	db BLAZELLE ; 190
 
-	db  80,  80,  80,  70,  100,  90
+	db  80,  80,  80,  70,  100,  95
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, FIRE ; type

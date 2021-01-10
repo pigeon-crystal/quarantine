@@ -1,6 +1,6 @@
 	db AMPALA ; 133
 
-	db  80,  100,  80,  90,  80,  70
+	db  80,  100,  80,  95,  80,  70
 	;   hp   atk   def  spd  sat  sdf
 
 	db ELECTRIC, ELECTRIC ; type

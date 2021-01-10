@@ -1,10 +1,10 @@
 	db "HARPY@" ; species name
 	dw 303, 527 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "Once thought to be"
+	next "lost spirits as they"
+	next "swooped in the"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "night, their eyes"
+	next "lit and their wings"
+	next "beating silently.@"

@@ -353,9 +353,9 @@ TinTower1FSage1Text:
 	para "When the souls of"
 	line "#MON and humans"
 
-	para "commune, from the"
-	line "heavens descends a"
-	cont "#MON…"
+	para "commune, a"
+	line "#MON will"
+	cont "burst forth."
 
 	para "Could it mean the"
 	line "legendary #MON"

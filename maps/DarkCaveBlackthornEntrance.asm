@@ -26,10 +26,10 @@ DarkCaveBlackthornEntrancePharmacistScript:
 	end
 
 DarkCaveBlackthornEntranceRevive:
-	itemball REVIVE
+	itemball MAX_REVIVE
 
 DarkCaveBlackthornEntranceTMSnore:
-	itemball FULL_HEAL
+	itemball MOON_STONE
 
 DarkCaveBlackthornEntrancePharmacistText1:
 	text "Whoa! You startled"

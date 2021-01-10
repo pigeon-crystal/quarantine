@@ -1,10 +1,11 @@
 	db "RED SNOW@" ; species name
 	dw 404, 1207 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db "SNOWUP's blood-red"
+	next "vomit is a slurry"
+	next "of ancient proto-"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "#MON: remnants" 
+	next "from an age when"
+	next "the planet froze.@"
+

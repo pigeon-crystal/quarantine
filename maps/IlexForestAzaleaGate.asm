@@ -48,12 +48,13 @@ IlexForestAzaleaGateGrannyIlluxuryText:
 	text "So it's true?"
 	
 	para "It's not that the"
-	line "boon wanes when the"
-	cont "sun falls,"
+	line "boon wanes when "
+	cont "the sun falls,"
 	
 	para "it's that a curse"
 	line "gets stronger when"
 	cont "the moon rises…"
+	done
 
 IlexForestAzaleaGate_MapEvents:
 	db 0, 0 ; filler

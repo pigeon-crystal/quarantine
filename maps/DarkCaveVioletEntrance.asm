@@ -14,7 +14,7 @@ DarkCaveVioletEntrance_MapScripts:
 	db 0 ; callbacks
 
 DarkCaveVioletEntrancePotion:
-	itemball POTION
+	itemball SUPER_POTION
 
 DarkCaveVioletEntranceFullHeal:
 	itemball FULL_HEAL
@@ -29,7 +29,7 @@ DarkCaveVioletEntranceRock:
 	jumpstd smashrock
 
 DarkCaveVioletEntranceHiddenElixer:
-	hiddenitem ELIXER, EVENT_DARK_CAVE_VIOLET_ENTRANCE_HIDDEN_ELIXER
+	hiddenitem PP_UP, EVENT_DARK_CAVE_VIOLET_ENTRANCE_HIDDEN_ELIXER
 
 DarkCaveVioletEntrance_MapEvents:
 	db 0, 0 ; filler

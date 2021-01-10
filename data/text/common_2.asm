@@ -787,7 +787,7 @@ _BattleTookSunlightText::
 	line "took in sunlight!"
 	prompt
 
-_BattleLoweredHeadText::
+_BattleLoweredHeadText:: ; for Hackles Up, formerly Skull Bash
 	text_start
 	line "is on high alert!"
 	prompt
@@ -1086,7 +1086,7 @@ _ContestJudging_ThirdPlaceScoreText::
 
 _MagikarpGuruMeasureText::
 	text "Let me measure"
-	line "that MAGIKARP."
+	line "that LANATUN."
 
 	para "…Hm, it measures"
 	line "@"
@@ -1399,29 +1399,6 @@ _OakPCText4::
 	line "OAK's PC closed."
 	done
 
-; unused
-_TrainerRankingExplanationText::
-	text "Triple-theme"
-	line "trainer ranking!"
-
-	para "The SAVE file you"
-	line "just sent might"
-	cont "make the rankings!"
-
-	para ""
-	done
-
-; unused
-_TrainerRankingNoDataText::
-	text "There is no"
-	line "ranking data."
-
-	para "Link to obtain"
-	line "ranking data."
-
-	para ""
-	done
-
 _DummyGameYeahText::
 	text " , yeah!"
 	done
@@ -1600,8 +1577,6 @@ _OakText2::
 _OakText3::
 	text_promptbutton
 	text_end
-
-	text_end ; unused
 
 _OakText4::
 	text "People and #MON"

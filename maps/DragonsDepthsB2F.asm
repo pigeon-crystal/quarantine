@@ -46,7 +46,7 @@ TrainerGuruShoichi:
 	end
 
 AmazingTrainer:
-	text "You have caught"
+	text "You have quelled"
 	line "the beast. Truly,"
 	
 	para "you are an"

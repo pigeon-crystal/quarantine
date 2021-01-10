@@ -278,7 +278,7 @@ EcruteakTinTowerEntranceGrampsText:
 	para "catastrophic"
 	line "mistake…"
 	
-	para "Ecruteak is a"
+	para "ECRUTEAK is a"
 	line "storied town"
 	cont "indeed."
 	done

@@ -1,5 +1,5 @@
 	db "STORMCLOUD@" ; species name
-	dw 472, 81 ; height, weight
+	dw 411, 81 ; height, weight
 
 	db   "Ill tempered"
 	next "NIMBOREM colonies"

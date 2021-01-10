@@ -1,10 +1,11 @@
 	db "AVIFAUNA@" ; species name
 	dw 700, 1008 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db 	 "Seeking to get"
+	next "closer to the sun,"
+	next "AERFAEDRA grew"
+    
+	page "four beautiful"
+	next "wings to soar"
+	next "in the sky.@"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"

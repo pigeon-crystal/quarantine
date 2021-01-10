@@ -1,10 +1,10 @@
 	db "ELDER@" ; species name
 	dw 909, 5105 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "Many aeons of sea"
+	next "salt and battering"
+	next "waves have dried"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "out their leaves"
+	next "and bark. They can"
+	next "weather any storm.@"

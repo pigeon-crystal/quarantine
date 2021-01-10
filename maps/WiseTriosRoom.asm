@@ -265,7 +265,8 @@ SageMasaAfterBattleText:
 	
 	para "revel with the"
 	line "people and"
-	cont "#MON of the town."
+	cont "#MON of"
+	cont "fair ECRUTEAK."
 
 	para "In its revelry,"
 	line "it called thunder"
