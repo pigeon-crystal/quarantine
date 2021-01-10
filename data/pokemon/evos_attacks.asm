@@ -60,7 +60,7 @@ TyrdragaEvosAttacks:
 	db 44, FLAME_WHEEL
 	db 49, OUTRAGE
 	db 54, SLASH
-	db 59, DRAGON_DANCE
+	db 57, DRAGON_DANCE
 	db 61, SUNNY_DAY
 	db 0 ; no more level-up moves
 
@@ -78,7 +78,7 @@ AerfaedraEvosAttacks:
 	db 44, SING
 	db 49, MOONBLAST
 	db 54, BRAVE_BIRD
-	db 59, NASTY_PLOT
+	db 57, NASTY_PLOT
 	db 61, RAZOR_WIND
 	db 0 ; no more level-up moves
 
@@ -112,7 +112,7 @@ CerkitaysaEvosAttacks:
 	db 44, EXTREMESPEED
 	db 49, THUNDERBOLT
 	db 54, CALM_MIND
-	db 59, PSYCHIC_M
+	db 57, PSYCHIC_M
 	db 61, THUNDER
 	db 0 ; no more level-up moves
 
@@ -130,7 +130,7 @@ GigasynapaEvosAttacks:
 	db 44, PSYCHO_CUT
 	db 49, CRUNCH
 	db 54, BELLY_DRUM
-	db 59, THRASH
+	db 57, THRASH
 	db 61, DARK_PULSE
 	db 0 ; no more level-up moves
 
@@ -197,7 +197,7 @@ HoatotEvosAttacks:
 	db 1, GROWL
 	db 1, POUND
 	db 7, POISON_STING
-	db 11, PECK
+	db 10, PECK
 	db 16, SMOG
 	db 21, POISON_GAS
 	db 25, FAINT_ATTACK
@@ -249,7 +249,7 @@ FurnitEvosAttacks:
 	db EVOLVE_LEVEL, 15, FURDOBA
 	db 0 ; no more evolutions
 	db 1, LEER
-	db 1, PECK
+	db 3, PECK
 	db 4, SAND_ATTACK
 	db 7, MUD_SLAP
 	db 11, GUST
@@ -686,9 +686,9 @@ IcosahedEvosAttacks:
 	db 36, SHADOW_BALL
 	db 40, RAPID_SPIN
 	db 43, NASTY_PLOT ; evo move
-	db 48, DARK_PULSE
-	db 56, PSYCHIC_M
-	db 58, MACH_PUNCH
+	db 46, DARK_PULSE
+	db 51, PSYCHIC_M
+	db 54, MACH_PUNCH
 	db 60, BATON_PASS
 	db 0 ; no more level-up moves
 
@@ -2198,13 +2198,13 @@ PeautyEvosAttacks:
 	db 29, MIMIC
 	db 33, PSYBEAM
 	db 38, CALM_MIND
-	db 43, DARK_PULSE
+	db 43, PSYCHIC_M
 	db 51, RAZOR_WIND
-	db 53, PSYCHIC_M
+	db 53, DARK_PULSE
 	db 0 ; no more level-up moves
 
 PeekeyeEvosAttacks:
-	db EVOLVE_LEVEL, 50, PEACOLDER
+	db EVOLVE_LEVEL, 48, PEACOLDER
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, TELEPORT
@@ -2217,9 +2217,9 @@ PeekeyeEvosAttacks:
 	db 29, MIMIC
 	db 30, PSYBEAM
 	db 38, CALM_MIND
-	db 43, DARK_PULSE
+	db 43, PSYCHIC_M
 	db 51, RAZOR_WIND
-	db 53, PSYCHIC_M
+	db 53, DARK_PULSE
 	db 0 ; no more level-up moves
 
 PeacolderEvosAttacks:
@@ -2233,10 +2233,10 @@ PeacolderEvosAttacks:
 	db 29, MIMIC
 	db 30, PSYBEAM
 	db 38, CALM_MIND
-	db 43, DARK_PULSE
-	db 49, GLARE
+	db 43, PSYCHIC_M
+	db 47, GLARE
 	db 51, RAZOR_WIND
-	db 55, PSYCHIC_M
+	db 55, DARK_PULSE
 	db 0 ; no more level-up moves
 
 BowlideEvosAttacks:
@@ -2330,7 +2330,7 @@ WallarriorEvosAttacks:
 	db 55, WRATH_STRIKE
 	db 0 ; no more level-up moves
 
-FalwodurEvosAttacks: ;TODO finish this
+FalwodurEvosAttacks:
 	db EVOLVE_LEVEL, 48, FALWODRAIG
 	db 0 ; no more evolutions
 	db 1, HARDEN
@@ -2361,8 +2361,8 @@ FalwodraigEvosAttacks:
 	db 46, FLASH_CANNON
 	db 47, DRAGONBREATH
 	db 51, BARRIER
-	db 59, RECOVER
-	db 62, EARTH_POWER
+	db 55, RECOVER
+	db 60, EARTH_POWER
 	db 70, DRAGON_DANCE
 	db 0 ; no more level-up moves
 
@@ -3566,7 +3566,7 @@ BismuttEvosAttacks:
 	db 1, GROWL
 	db 6, ACCELEROCK
 	db 12, BARRIER
-	db 16, PSYBEAM
+	db 17, PSYBEAM
 	db 20, CONFUSE_RAY
 	db 26, ANCIENTPOWER
 	db 31, SANDSTORM
@@ -3588,9 +3588,9 @@ TidoEvosAttacks:
 	db 23, CLAMP
 	db 27, SCREECH
 	db 31, BONE_RUSH
-	db 35, CRUNCH
-	db 39, LIQUIDATION
-	db 44, PLAY_ROUGH
+	db 34, CRUNCH
+	db 36, LIQUIDATION
+	db 42, PLAY_ROUGH
 	db 50, AGILITY
 	db 0 ; no more level-up moves
 
@@ -3599,7 +3599,6 @@ MaulzerEvosAttacks:
 	db 1, GROWL
 	db 1, SNARL
 	db 1, BITE
-	db 6, POUND
 	db 9, ROAR
 	db 12, FORESIGHT
 	db 15, FURY_SWIPES
@@ -4171,7 +4170,7 @@ ObelithEvosAttacks:
 	db 35, CALM_MIND
 	db 35, ANCIENTPOWER
 	db 40, ZAP_CANNON
-	db 45, EARTH_POWER
+	db 45, POWER_GEM
 	db 50, PSYCHIC_M
 	db 0 ; no more level-up moves
 
@@ -4189,10 +4188,10 @@ MoneumennEvosAttacks:
 	db 35, CALM_MIND
 	db 35, ANCIENTPOWER
 	db 40, ZAP_CANNON
-	db 45, EARTH_POWER
+	db 45, POWER_GEM
 	db 50, PSYCHIC_M
-	db 55, FISSURE
-	db 60, POWER_GEM
+	db 55, EARTH_POWER
+	db 60, FISSURE
 	db 65, RECOVER	
 	db 0 ; no more level-up moves
 
@@ -4208,8 +4207,8 @@ PolyroEvosAttacks:
 	db 35, TRI_ATTACK
 	db 40, POWER_GEM
 	db 45, FLAMETHROWER
-	db 50, RAZOR_WIND
-	db 55, OUTRAGE
+	db 50, OUTRAGE
+	db 55, RAZOR_WIND
 	db 60, HORN_DRILL
 	db 0 ; no more level-up moves
 
@@ -4225,8 +4224,8 @@ SlowhogEvosAttacks:
 	db 35, SUBSTITUTE
 	db 42, GROWL
 	db 45, SPIKES
-	db 56, EARTH_POWER
-	db 58, TRI_ATTACK
+	db 50, EARTH_POWER
+	db 55, TRI_ATTACK
 	db 60, HYPER_BEAM
 	db 75, FISSURE
 	db 0 ; no more level-up moves
