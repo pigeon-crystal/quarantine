@@ -4,7 +4,7 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, NORMAL ; type
-	db 88 ; catch rate
+	db 77 ; catch rate
 	db 88 ; base exp
 	db RED_APRICORN, GOLD_BERRY ; items
 	db GENDER_F75 ; gender ratio

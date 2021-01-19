@@ -61,7 +61,7 @@ TyrdragaEvosAttacks:
 	db 49, OUTRAGE
 	db 54, SLASH
 	db 57, DRAGON_DANCE
-	db 61, SUNNY_DAY
+	db 61, FIRE_PUNCH
 	db 0 ; no more level-up moves
 
 AerfaedraEvosAttacks:
@@ -220,11 +220,12 @@ HoatoxicEvosAttacks:
 	db 23, POISON_GAS
 	db 26, FAINT_ATTACK
 	db 31, SLASH
-	db 35, POISON_JAB
-	db 39, NASTY_PLOT
-	db 44, RAZOR_WIND
-	db 48, DRAGONBREATH
+	db 35, RAZOR_WIND
+	db 37, NASTY_PLOT
+	db 39, POISON_JAB
+	db 45, DRAGONBREATH
 	db 50, TOXIC
+	db 51, BRAVE_BIRD
 	db 0 ; no more level-up moves
 
 NoxromaeusEvosAttacks:
@@ -238,9 +239,9 @@ NoxromaeusEvosAttacks:
 	db 27, FAINT_ATTACK
 	db 31, SLASH
 	db 33, TOXIC
-	db 35, POISON_JAB
-	db 39, NASTY_PLOT
-	db 43, RAZOR_WIND
+	db 35, RAZOR_WIND
+	db 38, NASTY_PLOT
+	db 41, POISON_JAB
 	db 48, DRAGONBREATH
 	db 52, BRAVE_BIRD
 	db 0 ; no more level-up moves
@@ -256,9 +257,9 @@ FurnitEvosAttacks:
 	db 24, DIG
 	db 29, POWER_GEM
 	db 36, EARTH_POWER
-	db 41, SANDSTORM
-	db 44, WHIRLWIND
-	db 46, RAZOR_WIND
+	db 39, SANDSTORM
+	db 40, WHIRLWIND
+	db 42, RAZOR_WIND
 	db 50, AGILITY
 	db 0 ; no more level-up moves
 
@@ -271,6 +272,7 @@ FurdobaEvosAttacks:
 	db 7, SAND_ATTACK
 	db 12, GUST
 	db 14, HARDEN
+	db 18, WING_ATTACK
 	db 24, DIG
 	db 27, SPIKES
 	db 29, POWER_GEM
@@ -294,7 +296,7 @@ HornampaEvosAttacks:
 	db 33, BARRIER
 	db 39, EARTH_POWER
 	db 41, SANDSTORM
-	db 44, RAZOR_WIND
+	db 43, RAZOR_WIND
 	db 47, WHIRLWIND
 	db 55, AGILITY
 	db 57, REFLECT
@@ -347,11 +349,11 @@ QwailEvosAttacks:
 	db 14, DOUBLESLAP
 	db 17, KARATE_CHOP
 	db 20, WING_ATTACK
-	db 24, PURSUIT
-	db 31, DETECT
-	db 37, DRILL_PECK
-	db 41, AGILITY
-	db 49, BRAVE_BIRD
+	db 22, PURSUIT
+	db 28, DETECT
+	db 34, DRILL_PECK
+	db 39, AGILITY
+	db 43, BRAVE_BIRD
 	db 0 ; no more level-up moves
 
 QwallopEvosAttacks:
@@ -363,32 +365,33 @@ QwallopEvosAttacks:
 	db 14, DOUBLESLAP
 	db 17, KARATE_CHOP
 	db 20, WING_ATTACK
-	db 24, PURSUIT
+	db 22, PURSUIT
 	db 24, MACH_PUNCH
 	db 33, DETECT
 	db 35, DRILL_PECK
-	db 43, AGILITY
-	db 46, CROSS_CHOP
-	db 50, BRAVE_BIRD
+	db 39, AGILITY
+	db 43, CROSS_CHOP
+	db 48, BRAVE_BIRD
 	db 60, SWORDS_DANCE
 	db 70, EXTREMESPEED
 	db 0 ; no more level-up moves
 
 WyrmometerEvosAttacks:
-	db EVOLVE_LEVEL, 36, IGNAGA
+	db EVOLVE_LEVEL, 34, IGNAGA
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
 	db 7, CONSTRICT
 	db 9, BITE
-	db 14, EMBER
+	db 10, EMBER
+	db 15, GLARE
 	db 20, FIRE_SPIN
 	db 25, MEAN_LOOK
-	db 29, ACID
+	db 28, ACID
 	db 37, NASTY_PLOT
-	db 43, CRUNCH
+	db 40, TRI_ATTACK
 	db 45, FLAMETHROWER
-	db 55, TRI_ATTACK
+	db 55, CRUNCH
 	db 0 ; no more level-up moves
 
 IgnagaEvosAttacks:
@@ -397,17 +400,18 @@ IgnagaEvosAttacks:
 	db 1, LEER
 	db 7, CONSTRICT
 	db 9, BITE
-	db 14, EMBER
+	db 10, EMBER
+	db 15, GLARE
 	db 20, FIRE_SPIN
 	db 25, MEAN_LOOK
-	db 29, ACID
-	db 35, NASTY_PLOT
-	db 40, CRUNCH
-	db 43, GLARE
-	db 45, FLAMETHROWER
+	db 28, ACID
+	db 33, NASTY_PLOT
+	db 39, FLAMETHROWER
+	db 42, GLARE
+	db 45, TRI_ATTACK
 	db 51, SLUDGE_BOMB
 	db 53, DARK_PULSE
-	db 56, TRI_ATTACK
+	db 56, CRUNCH
 	db 60, MORNING_SUN
 	db 0 ; no more level-up moves
 
@@ -421,7 +425,7 @@ BudganeerEvosAttacks:
 	db 18, SMOKESCREEN
 	db 24, WING_ATTACK
 	db 28, WHIRLWIND
-	db 32, FLAME_WHEEL
+	db 30, FLAME_WHEEL
 	db 36, SING
 	db 39, FIRE_SPIN
 	db 41, SCREECH
@@ -432,6 +436,7 @@ BudganeerEvosAttacks:
 
 MacawsairEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, MIST
 	db 1, EMBER
 	db 1, LEER
 	db 1, THIEF
@@ -440,9 +445,9 @@ MacawsairEvosAttacks:
 	db 18, SMOKESCREEN
 	db 24, WING_ATTACK
 	db 28, WHIRLWIND
-	db 32, FIRE_SPIN
+	db 32, FLAME_WHEEL
 	db 37, SING
-	db 39, FLAME_WHEEL
+	db 39, FIRE_SPIN
 	db 39, BRAVE_BIRD
 	db 44, FAINT_ATTACK
 	db 47, SCREECH
@@ -2116,18 +2121,20 @@ OscurasaEvosAttacks:
 	db EVOLVE_LEVEL, 40, MADRUGASA
 	db 0 ; no more evolutions
 	db 1, POUND
+	db 1, NIGHT_SHADE
 	db 1, SPITE
 	db 7, GUST
 	db 10, QUICK_ATTACK
 	db 15, ENCORE
 	db 20, SUBSTITUTE
+	db 22, WING_ATTACK
 	db 24, ATTRACT
 	db 29, PURSUIT
 	db 31, SWAGGER
 	db 36, AGILITY
-	db 45, DARK_PULSE
-	db 50, RAZOR_WIND
-	db 55, PERISH_SONG
+	db 42, DARK_PULSE
+	db 43, RAZOR_WIND
+	db 44, PERISH_SONG
 	db 0 ; no more level-up moves
 
 MadrugasaEvosAttacks:
@@ -2136,18 +2143,21 @@ MadrugasaEvosAttacks:
 	db 1, SWORDS_DANCE
 	db 1, RAIN_DANCE
 	db 1, PETAL_DANCE
+	db 6, NIGHT_SHADE
+	db 6, SPITE
 	db 7, GUST
 	db 10, QUICK_ATTACK
 	db 15, ENCORE
 	db 20, SUBSTITUTE
+	db 22, WING_ATTACK
 	db 24, ATTRACT
 	db 29, PURSUIT
 	db 31, SWAGGER
 	db 36, AGILITY
 	db 39, DESTINY_BOND
-	db 43, DARK_PULSE
-	db 47, PERISH_SONG
-	db 51, RAZOR_WIND
+	db 42, DARK_PULSE
+	db 44, PERISH_SONG
+	db 46, RAZOR_WIND
 	db 0 ; no more level-up moves
 
 GoosaplingEvosAttacks:
@@ -2162,8 +2172,8 @@ GoosaplingEvosAttacks:
 	db 18, ROCK_THROW
 	db 22, MEAN_LOOK
 	db 26, BUBBLEBEAM
-	db 37, POWER_GEM
-	db 52, HYDRO_PUMP
+	db 35, POWER_GEM
+	db 43, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 GanzerkerEvosAttacks:
@@ -2181,23 +2191,24 @@ GanzerkerEvosAttacks:
 	db 37, POWER_GEM
 	db 42, NASTY_PLOT
 	db 46, RAZOR_WIND
-	db 52, HYDRO_PUMP
+	db 50, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 PeautyEvosAttacks:
 	db EVOLVE_LEVEL, 31, PEEKEYE
 	db 0 ; no more evolutions
+	db 1, NIGHTMARE
 	db 1, PECK
 	db 1, TELEPORT
 	db 7, GUST
 	db 13, MEAN_LOOK
-	db 14, PSYWAVE
+	db 14, CONFUSION
 	db 17, DISABLE
 	db 23, HYPNOSIS
-	db 25, CONFUSION
+	db 25, PSYBEAM
 	db 29, MIMIC
-	db 33, PSYBEAM
-	db 38, CALM_MIND
+	db 33, CALM_MIND
+	db 38, CONFUSE_RAY
 	db 43, PSYCHIC_M
 	db 51, RAZOR_WIND
 	db 53, DARK_PULSE
@@ -2207,25 +2218,28 @@ PeekeyeEvosAttacks:
 	db EVOLVE_LEVEL, 48, PEACOLDER
 	db 0 ; no more evolutions
 	db 1, PECK
+	db 1, NIGHTMARE
 	db 1, TELEPORT
 	db 7, GUST
 	db 13, MEAN_LOOK
-	db 14, PSYWAVE
+	db 14, CONFUSION
 	db 17, DISABLE
 	db 23, HYPNOSIS
-	db 25, CONFUSION
+	db 25, PSYBEAM
 	db 29, MIMIC
-	db 30, PSYBEAM
-	db 38, CALM_MIND
+	db 30, CONFUSE_RAY
+	db 35, CALM_MIND
 	db 43, PSYCHIC_M
-	db 51, RAZOR_WIND
-	db 53, DARK_PULSE
+	db 50, RAZOR_WIND
+	db 52, DARK_PULSE
 	db 0 ; no more level-up moves
 
 PeacolderEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, TELEPORT
+	db 1, NIGHTMARE
+	db 7, GUST
 	db 13, MEAN_LOOK
 	db 17, DISABLE
 	db 23, HYPNOSIS
@@ -2236,7 +2250,7 @@ PeacolderEvosAttacks:
 	db 43, PSYCHIC_M
 	db 47, GLARE
 	db 51, RAZOR_WIND
-	db 55, DARK_PULSE
+	db 54, DARK_PULSE
 	db 0 ; no more level-up moves
 
 BowlideEvosAttacks:
@@ -2304,15 +2318,18 @@ BermudantEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POISON_GAS
 	db 1, SMOG
-	db 1, CONFUSE_RAY
+	db 1, WITHDRAW
 	db 10, SMOKESCREEN
 	db 14, EMBER
+	db 19, TOXIC
 	db 22, ACID
-	db 30, FIRE_SPIN
-	db 39, SLUDGE_BOMB
-	db 41, WILL_O_WISP
+	db 29, FIRE_SPIN
+	db 34, CONFUSE_RAY
+	db 39, FLAMETHROWER
+	db 41, SLUDGE_BOMB
 	db 45, DARK_PULSE
-	db 55, FLAMETHROWER
+	db 55, WILL_O_WISP
+	db 62, RECOVER
 	db 0 ; no more level-up moves
 
 WallarriorEvosAttacks:
@@ -2343,7 +2360,8 @@ FalwodurEvosAttacks:
 	db 41, MEGA_DRAIN
 	db 46, FLASH_CANNON
 	db 50, BARRIER
-	db 56, RECOVER
+	db 52, RECOVER
+	db 56, EARTH_POWER
 	db 60, DRAGONBREATH
 	db 65, DRAGON_DANCE
 	db 0 ; no more level-up moves
@@ -2427,13 +2445,31 @@ NoomsdayEvosAttacks:
 
 GanzorahEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, POUND
+	db 1, BITE
+	db 1, DRAGONBREATH
+	db 1, SPIKES
+	db 9, WATER_GUN
+	db 14, SUPERSONIC
+	db 18, ROCK_THROW
+	db 24, MEAN_LOOK
+	db 25, BUBBLEBEAM
+	db 29, WING_ATTACK
+	db 30, TWISTER
+	db 37, POWER_GEM
+	db 42, NASTY_PLOT
+	db 46, RAZOR_WIND
+	db 50, HYDRO_PUMP
+	db 55, OUTRAGE
+	db 60, ICE_BEAM
+	db 60, FLAMETHROWER
+	db 60, THUNDERBOLT
+	db 66, EARTHQUAKE
+	db 71, DRAGON_DANCE
 	db 0 ; no more level-up moves
 
 JolteonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
-	db 1, TAIL_WHIP
 	db 0 ; no more level-up moves
 
 FlareonEvosAttacks:
@@ -2468,7 +2504,6 @@ MammothraEvosAttacks:
 
 BehemothraEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, THUNDER_WAVE
 	db 1, POUND
 	db 1, GROWTH
 	db 8, ABSORB
@@ -2539,9 +2574,9 @@ WellwitchEvosAttacks:
 	db 37, STUN_SPORE
 	db 40, PETAL_DANCE
 	db 46, ACCELEROCK
-	db 52, ROCK_SLIDE
-	db 55, LIQUIDATION
-	db 62, CRUNCH
+	db 50, ROCK_SLIDE
+	db 54, LIQUIDATION
+	db 59, CRUNCH
 	db 70, LEECH_SEED
 	db 0 ; no more level-up moves
 
@@ -2695,23 +2730,23 @@ Ma_0EvosAttacks:
 
 IlluxuryEvosAttacks:
 	db 0 ; no more evolutions
-    db 1, MOONLIGHT ;relearner-only healing move
-    db 1, BITE ;early game spam move
-    db 7, CHARM ;six, thematic move
-    db 13, LICK ;six, stab
-    db 19, MEAN_LOOK ;six, trapping move
-    db 26, FURY_CUTTER ;7, stab 2
-    db 26, FORESIGHT ;0, japanese name is "thought read" and further helps prevent opponents from running away (via evasion or being normal type). maybe replace this with disable?
-    db 35, DESTINY_BOND ;9, scary move
-    db 44, LEECH_LIFE ;9, earliest available slot for a vampirish move that will be in the encounter moveset
-    db 48, SUPER_FANG ;4, mostly just a tool to make illuxury scary
-    db 55, SHADOW_BALL ;7, stab
-    db 55, CALM_MIND ;0, setup
-    db 61, PURSUIT ;6, stops opponents from getting away
-    db 61, CURSE ;0, the current highest known score in Touhou 6 EOSD, featuring Remilia Scarlet. chose curse for this slot because it's the most vampire-y move available that isn't leech life i think?
-    db 67, SWORDS_DANCE ;six, alternative setup move for leech life (but she doesn't get shadow claw so how useful actually is this?)
-    db 73, PERISH_SONG ;six, scary soul-binding move like destiny bond
-    db 79, MOONBLAST ;six, final level up movepool is free coverage, also bookends the level up moves nicely with moonlight on both sides
+    db 1, MOONLIGHT 		;relearner-only healing move
+    db 1, BITE 				;early game spam move
+    db 7, CHARM 			;six, thematic move
+    db 13, LICK 			;six, stab
+    db 19, MEAN_LOOK 		;six, trapping move
+    db 26, FURY_CUTTER 		;7, stab 2
+    db 26, FORESIGHT 		;0, japanese name is "thought read" and further helps prevent opponents from running away (via evasion or being normal type). maybe replace this with disable?
+    db 35, DESTINY_BOND 	;9, scary move
+    db 44, LEECH_LIFE 		;9, earliest available slot for a vampirish move that will be in the encounter moveset
+    db 48, SUPER_FANG 		;4, mostly just a tool to make illuxury scary
+    db 55, SHADOW_BALL 		;7, stab
+    db 55, CALM_MIND 		;0, setup
+    db 61, PURSUIT 			;6, stops opponents from getting away
+    db 61, CURSE 			;0, the current highest known score in Touhou 6 EOSD, featuring Remilia Scarlet. chose curse for this slot because it's the most vampire-y move available that isn't leech life i think?
+    db 67, SWORDS_DANCE 	;six, alternative setup move for leech life (but she doesn't get shadow claw so how useful actually is this?)
+    db 73, PERISH_SONG 		;six, scary soul-binding move like destiny bond
+    db 79, MOONBLAST 		;six, final level up movepool is free coverage, also bookends the level up moves nicely with moonlight on both sides
 	db 0 ; no more level-up moves
 
 CigerillarEvosAttacks:
@@ -2802,6 +2837,7 @@ ScaulterEvosAttacks:
 	db 39, SUNNY_DAY
 	db 42, CRUNCH
 	db 45, IRON_TAIL
+	db 60, EXTREMESPEED
 	db 0 ; no more level-up moves
 
 ScorchopprEvosAttacks:
@@ -2821,6 +2857,7 @@ ScorchopprEvosAttacks:
 	db 40, IRON_HEAD
 	db 44, NITROBLAZE
 	db 50, CRUNCH
+	db 55, IRON_TAIL
 	db 70, EXTREMESPEED
 	db 0 ; no more level-up moves
 
@@ -2888,18 +2925,18 @@ WendigauntEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, FURY_SWIPES
 	db 1, PAIN_SPLIT
-	db 9, RAZOR_LEAF
-	db 11, HORN_ATTACK
+	db 7, RAZOR_LEAF
+	db 10, HORN_ATTACK
 	db 16, CUT
 	db 19, SYNTHESIS
 	db 25, SHADOW_CLAW
-	db 29, DISABLE
+	db 28, DISABLE
 	db 30, LEECH_LIFE
 	db 33, GIGA_DRAIN
 	db 35, LEAF_BLADE
 	db 38, NASTY_PLOT
-	db 45, LEECH_SEED
-	db 49, SHADOW_BONE
+	db 43, LEECH_SEED
+	db 47, SHADOW_BONE
 	db 51, BONE_RUSH
 	db 55, SPIKES
 	db 0 ; no more level-up moves
@@ -3042,8 +3079,10 @@ CrustazerEvosAttacks:
 	db 36, DIZZY_PUNCH
 	db 39, THUNDERBOLT
 	db 42, FLASH_CANNON
-	db 48, MEGAHORN
-	db 52, GIGA_DRAIN
+	db 48, GIGA_DRAIN
+	db 51, SELFDESTRUCT
+	db 54, MEGAHORN
+	db 60, THUNDER
 	db 0 ; no more level-up moves
 
 StranglureEvosAttacks:
@@ -3654,16 +3693,15 @@ SwazzageEvosAttacks:
 	db 10, BEAT_UP
 	db 11, BATON_PASS
 	db 17, PURSUIT
-	db 19, COMET_PUNCH
+	db 19, SCREECH
 	db 23, DRAININGKISS
 	db 25, MACH_PUNCH
 	db 26, HEART_STAMP
-	db 30, SLASH
-	db 35, NASTY_PLOT
-	db 39, SHADOW_CLAW
+	db 30, SHADOW_CLAW
+	db 34, NASTY_PLOT
+	db 38, SLASH
 	db 41, IRON_HEAD
 	db 43, BELLY_DRUM
-	db 44, MACH_PUNCH
 	db 46, THUNDERPUNCH
 	db 46, FIRE_PUNCH
 	db 46, ICE_PUNCH
@@ -3703,7 +3741,7 @@ AligroEvosAttacks:
 	db 33, POISON_GAS
 	db 36, FIRE_SPIN
 	db 40, MOONBLAST
-	db 47, FLAMETHROWER
+	db 44, FLAMETHROWER
 	db 50, RAZOR_WIND
 	db 60, FIRE_BLAST
 	db 0 ; no more level-up moves
@@ -4205,9 +4243,9 @@ PolyroEvosAttacks:
 	db 25, LOCK_ON
 	db 30, METAL_CLAW
 	db 35, TRI_ATTACK
-	db 40, POWER_GEM
+	db 40, OUTRAGE
 	db 45, FLAMETHROWER
-	db 50, OUTRAGE
+	db 50, POWER_GEM
 	db 55, RAZOR_WIND
 	db 60, HORN_DRILL
 	db 0 ; no more level-up moves
@@ -4250,6 +4288,7 @@ EyechosisEvosAttacks:
 
 FueghastEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, BATON_PASS
 	db 1, GROWL
 	db 1, SANDSTORM
 	db 1, LICK
@@ -4257,15 +4296,16 @@ FueghastEvosAttacks:
 	db 12, BITE
 	db 17, DISABLE
 	db 22, NIGHT_SHADE
+	db 27, DIG
 	db 30, AGILITY
 	db 34, SHADOW_CLAW
 	db 40, CRUNCH
 	db 42, SUBSTITUTE
 	db 46, NASTY_PLOT
 	db 50, SUPER_FANG
-	db 62, EARTHQUAKE
+	db 59, EARTHQUAKE
 	db 65, SHADOW_BONE
-	db 70, BATON_PASS
+	db 70, BONE_RUSH
 	db 0 ; no more level-up moves
 
 HalloalloEvosAttacks:
@@ -4281,8 +4321,8 @@ HalloalloEvosAttacks:
 	db 36, CONFUSE_RAY
 	db 40, IRON_HEAD
 	db 43, ROCK_SLIDE
-	db 52, THRASH
-	db 88, RECOVER
+	db 50, THRASH
+	db 70, RECOVER
 	db 0 ; no more level-up moves
 
 AmbionicEvosAttacks:
@@ -4335,7 +4375,7 @@ DrassalEvosAttacks:
 	db 40, SHEKELSHOT
 	db 50, BUG_BUZZ
 	db 60, LEECH_LIFE
-	db 75, OUTRAGE
+	db 70, OUTRAGE
 	db 0 ; no more level-up moves
 
 OdditullyEvosAttacks:

@@ -1,26 +1,17 @@
 IconPointers:
 ; entries correspond to ICON_* constants
 	dw NullIcon
-	dw PoliwagIcon
-	dw JigglypuffIcon
-	dw DiglettIcon
-	dw PikachuIcon
-	dw StaryuIcon
 	dw FishIcon
 	dw BirdIcon
 	dw MonsterIcon
-	dw ClefairyIcon
-	dw OddishIcon
 	dw BugIcon
 	dw GhostIcon
-	dw LaprasIcon
 	dw HumanshapeIcon
 	dw FoxIcon
 	dw EquineIcon
 	dw ShellIcon
 	dw BlobIcon
 	dw SerpentIcon
-	dw VoltorbIcon
 	dw FurnitIcon
 	dw FurdobaIcon
 	dw HornampaIcon
@@ -129,23 +120,20 @@ IconPointers:
 	dw SwimianIcon
 	dw SliscesIcon
 	dw DreadgeIcon
+	dw FalwodurIcon
+	dw FalwodraigIcon
+	dw OlchapIcon
+	dw TherazorIcon
+	dw HalloalloIcon
+	dw SlowhogIcon
+	dw WellwitchIcon
 	dw SquirtleIcon ;START OF BANK 2
-	dw BulbasaurIcon
-	dw CharmanderIcon
 	dw CaterpillarIcon
-	dw UnownIcon
-	dw GeodudeIcon
 	dw FighterIcon
 	dw EggIcon
 	dw JellyfishIcon
 	dw MothIcon
 	dw BatIcon
-	dw SnorlaxIcon
-	dw HoOhIcon
-	dw LugiaIcon
-	dw GyaradosIcon
-	dw SlowpokeIcon
-	dw SudowoodoIcon
 	dw BigmonIcon
 	dw NomsterIcon
 	dw NomsabreIcon
@@ -255,4 +243,10 @@ IconPointers:
 	dw HappigIcon
 	dw BiporkarIcon
 	dw RamboyantIcon
+	dw BambabyIcon
+	dw PipendaIcon
+	dw WallarriorIcon
+	dw MoradayIcon
+	dw PurraatzleIcon
+	dw SwazzageIcon
 	

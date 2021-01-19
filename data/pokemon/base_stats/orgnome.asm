@@ -7,7 +7,7 @@
 	db 111 ; catch rate
 	db 133 ; base exp
 	db GRN_APRICORN, GRN_APRICORN ; items
-	db GENDER_F12_5 ; gender ratio
+	db GENDER_F25 ; gender ratio
 	db 100 ; unknown 1
 	db 20 ; step cycles to hatch
 	db 5 ; unknown 2

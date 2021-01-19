@@ -5,7 +5,7 @@
 
 	db FLYING, DARK ; type
 	db 3 ; catch rate
-	db 222 ; base exp
+	db 250 ; base exp
 	db STAR_PIECE, STAR_PIECE ; items
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1

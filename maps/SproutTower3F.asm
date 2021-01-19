@@ -237,9 +237,6 @@ SageLiSeenText:
 
 	para "your #MON and"
 	line "you!"
-	
-	para "Prepare yourself!"
-	line "I won't hold back!"
 	done
 
 SageLiBeatenText:
@@ -262,11 +259,12 @@ SageLiTakeThisFlashText:
 	done
 
 SageLiFlashExplanationText:
-	text "In battle, FLASH"
-	line "deals damage while"
-	cont "lowering the"
-	cont "ACCURACY of your"
-	cont "foe."
+	text "FLASH is an"
+	line "electric type"
+	cont "move that deals"
+	
+	para "damage while"
+	line "lowering accuracy."
 	
 	para "It is much like"
 	line "the move MUD-SLAP"
@@ -316,10 +314,6 @@ SageJinAfterBattleText:
 	cont "I'll give you"
 	cont "a tip!"
 	
-	para "LAWNIE stays"
-	line "part dark with"
-	cont "each evolution."
-	
 	para "Only LAWNIE can"
 	line "learn strong"
 	cont "ground-type moves."
@@ -363,6 +357,10 @@ SageNealAfterBattleText:
 	para "Maybe that's why"
 	line "they can put up"
 	cont "with our baldness!"
+	
+	para "Or, it's because"
+	line "FLASH is electric"
+	cont "type!"
 	done
 
 SproutTower3FPaintingText:
