@@ -381,6 +381,7 @@ INCLUDE "maps/Route31VioletGate.asm"
 SECTION "Map Scripts 19", ROMX
 
 INCLUDE "maps/AzaleaTown.asm"
+INCLUDE "maps/AzaleaMeadow.asm"
 INCLUDE "maps/GoldenrodCity.asm"
 INCLUDE "maps/SaffronCity.asm"
 INCLUDE "maps/MahoganyRedGyaradosSpeechHouse.asm"

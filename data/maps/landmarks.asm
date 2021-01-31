@@ -19,6 +19,7 @@ Landmarks:
 	landmark  84, 124, UnionCaveName
 	landmark  82, 124, Route33Name
 	landmark  68, 124, AzaleaTownName
+	landmark  68, 129, AzaleaMeadowName
 	landmark  70, 122, SlowpokeWellName
 	landmark  52, 120, IlexForestName
 	landmark  52, 112, Route34Name
@@ -109,6 +110,7 @@ NewBarkTownName:     db "NEW BARK¯TOWN@"
 CherrygroveCityName: db "CHERRYGROVE¯CITY@"
 VioletCityName:      db "VIOLET CITY@"
 AzaleaTownName:      db "AZALEA TOWN@"
+AzaleaMeadowName: 	 db "AZALEA¯MEADOW@"
 GoldenrodCityName:   db "GOLDENROD¯CITY@"
 EcruteakCityName:    db "ECRUTEAK¯CITY@"
 OlivineCityName:     db "OLIVINE¯CITY@"

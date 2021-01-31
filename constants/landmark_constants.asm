@@ -16,6 +16,7 @@
 	const LANDMARK_UNION_CAVE        ; 0a
 	const LANDMARK_ROUTE_33          ; 0b
 	const LANDMARK_AZALEA_TOWN       ; 0c
+	const LANDMARK_AZALEA_MEADOW	 ; JUST FUCK MY SHIT UP
 	const LANDMARK_SLOWPOKE_WELL     ; 0d
 	const LANDMARK_ILEX_FOREST       ; 0e
 	const LANDMARK_ROUTE_34          ; 0f

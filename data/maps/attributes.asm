@@ -109,9 +109,13 @@ ENDM
 	connection west, Route36, ROUTE_36, 0
 	connection east, Route31, ROUTE_31, 9
 
-	map_attributes AzaleaTown, AZALEA_TOWN, $05, WEST | EAST
+	map_attributes AzaleaTown, AZALEA_TOWN, $05, SOUTH | WEST | EAST
+	connection south, AzaleaMeadow, AZALEA_MEADOW, 4
 	connection west, Route34, ROUTE_34, -18
 	connection east, Route33, ROUTE_33, 0
+	
+	map_attributes AzaleaMeadow, AZALEA_MEADOW, $05, NORTH
+	connection north, AzaleaTown, AZALEA_TOWN, -4
 
 	map_attributes CianwoodCity, CIANWOOD_CITY, $35, EAST
 	connection east, Route41, ROUTE_41, 0

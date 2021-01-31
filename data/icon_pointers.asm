@@ -1,16 +1,8 @@
 IconPointers:
 ; entries correspond to ICON_* constants
 	dw NullIcon
-	dw FishIcon
-	dw BirdIcon
 	dw MonsterIcon
-	dw BugIcon
-	dw GhostIcon
-	dw HumanshapeIcon
 	dw FoxIcon
-	dw EquineIcon
-	dw ShellIcon
-	dw BlobIcon
 	dw SerpentIcon
 	dw FurnitIcon
 	dw FurdobaIcon
@@ -127,13 +119,19 @@ IconPointers:
 	dw HalloalloIcon
 	dw SlowhogIcon
 	dw WellwitchIcon
+	dw OscurasaIcon
+	dw MadrugasaIcon
+	dw BobbiteIcon
+	dw BobbitrapIcon
+	dw BellocerosIcon
+	dw SubcerosIcon
+	dw AntpyreIcon	
+	dw GeneropsisIcon
+	dw LamyglamaIcon
 	dw SquirtleIcon ;START OF BANK 2
 	dw CaterpillarIcon
 	dw FighterIcon
 	dw EggIcon
-	dw JellyfishIcon
-	dw MothIcon
-	dw BatIcon
 	dw BigmonIcon
 	dw NomsterIcon
 	dw NomsabreIcon
@@ -249,4 +247,7 @@ IconPointers:
 	dw MoradayIcon
 	dw PurraatzleIcon
 	dw SwazzageIcon
+	dw ElephootIcon
+	dw PripydermIcon
+	dw KrakentoaIcon
 	

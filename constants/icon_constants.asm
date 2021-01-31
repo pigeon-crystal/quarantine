@@ -1,16 +1,8 @@
 ; IconPointers indexes (see data/icon_pointers.asm)
 	const_def
 	const ICON_NULL
-	const ICON_FISH
-	const ICON_BIRD
 	const ICON_MONSTER
-	const ICON_BUG
-	const ICON_GHOST
-	const ICON_HUMANSHAPE
 	const ICON_FOX
-	const ICON_EQUINE
-	const ICON_SHELL
-	const ICON_BLOB
 	const ICON_SERPENT
 	const ICON_FURNIT
 	const ICON_FURDOBA
@@ -127,13 +119,19 @@
 	const ICON_HALLOALLO
 	const ICON_SLOWHOG
 	const ICON_WELLWITCH
+	const ICON_OSCURASA
+	const ICON_MADRUGASA
+	const ICON_BOBBITE
+	const ICON_BOBBITRAP
+	const ICON_BELLOCEROS
+	const ICON_SUBCEROS
+	const ICON_ANTPYRE
+	const ICON_GENEROPSIS
+	const ICON_LAMYGLAMA
 	const ICON_SQUIRTLE ;START OF BANK 2
 	const ICON_CATERPILLAR
 	const ICON_FIGHTER
 	const ICON_EGG
-	const ICON_JELLYFISH
-	const ICON_MOTH
-	const ICON_BAT
 	const ICON_BIGMON
 	const ICON_NOMSTER
 	const ICON_NOMSABRE
@@ -249,6 +247,9 @@
 	const ICON_MORADAY
 	const ICON_PURRAATZLE
 	const ICON_SWAZZAGE
+	const ICON_ELEPHOOT
+	const ICON_PRIPYDERM
+	const ICON_KRAKENTOA
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

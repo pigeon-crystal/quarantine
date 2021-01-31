@@ -782,6 +782,9 @@ OlivineLighthouse6F_Blocks:
 
 SECTION "Map Blocks 3", ROMX
 
+AzaleaMeadow_Blocks:
+	INCBIN "maps/AzaleaMeadow.blk"
+
 BetaSlowpokeWell1F_Blocks:
 	INCBIN "maps/unused/BetaSlowpokeWell1F.blk"
 

@@ -5,7 +5,7 @@
 
 	db STEEL, GROUND ; type
 	db 99 ; catch rate
-	db 111 ; base exp
+	db 155 ; base exp
 	db BLU_APRICORN, BLU_APRICORN ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

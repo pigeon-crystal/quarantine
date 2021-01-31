@@ -128,3 +128,4 @@ Music:
 	dba Music_Yotsuba2
 	dba Music_LookArtist
 	dba Music_Illuxury
+	dba Music_Shiny

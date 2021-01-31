@@ -204,6 +204,7 @@ SPRITE_POKEMON EQU const_value
 	const SPRITE_TERRATORA ; db
 	const SPRITE_LAWNIE
 	const SPRITE_SHREDDRAKE
+	const SPRITE_QWALLOP
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)
 	const_def $ee

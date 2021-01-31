@@ -367,32 +367,32 @@ JohtoGrassWildMons:
 	map_id NATIONAL_PARK ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 16, SHABBYCAT
+	db 17, SHABBYCAT
 	db 18, MOPERDOR
-	db 16, PEAUTY
 	db 17, PEAUTY
+	db 19, PEAUTY
 	db 17, ODDITTEN
 	db 18, SHABBYCAT
 	db 19, ODDITTEN
-	db 20, MAULZER
+	db 21, MAULZER
 	; day
-	db 16, SHABBYCAT
+	db 17, SHABBYCAT
 	db 18, MOPERDOR
-	db 16, PEAUTY
 	db 17, PEAUTY
+	db 19, PEAUTY
 	db 17, ODDITTEN
 	db 18, SHABBYCAT
 	db 19, ODDITTEN
-	db 20, MAULZER
+	db 21, MAULZER
 	; nite
-	db 16, SHABBYCAT
+	db 17, SHABBYCAT
 	db 18, MOPERDOR
-	db 16, ODDITTEN
 	db 17, ODDITTEN
-	db 17, PEAUTY
+	db 19, ODDITTEN
+	db 18, PEAUTY
 	db 18, SHABBYCAT
 	db 19, PEAUTY
-	db 20, MAULZER
+	db 21, MAULZER
 
 	map_id RUINS_OF_ALPH_OUTSIDE ;done
 	db 6 percent, 5 percent, 6 percent ; encounter rates: morn/day/nite
@@ -1474,11 +1474,41 @@ JohtoGrassWildMons:
 	db 15, SHABBYCAT
 	db 13, JUNOBE
 
+	map_id AZALEA_MEADOW
+	db 10 percent, 10 percent, 10 percent
+	; morn
+	db 16, SPRUNNY
+	db 16, NOMSTER
+	db 15, WANDELUS
+	db 15, SLOWHOG
+	db 16, NOMSTER
+	db 16, SPRUNNY
+	db 18, SLOWHOG
+	db 18, SLOWHOG
+	; day
+	db 16, SPRUNNY
+	db 16, NOMSTER
+	db 15, WANDELUS
+	db 15, SLOWHOG
+	db 16, NOMSTER
+	db 16, SPRUNNY
+	db 18, SLOWHOG
+	db 18, SLOWHOG
+	; nite
+	db 16, SPRUNNY
+	db 16, NOMSTER
+	db 15, WANDELUS
+	db 15, SLOWHOG
+	db 16, NOMSTER
+	db 16, SPRUNNY
+	db 19, SLOWHOG
+	db 17, JUNOBE
+
 	map_id ROUTE_34 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 15, NOMSTER
-	db 14, HAPPIG
+	db 16, HAPPIG
 	db 14, SAPPURA
 	db 14, AMBINNI
 	db 15, SAPPURA
@@ -1487,7 +1517,7 @@ JohtoGrassWildMons:
 	db 16, MANDELBLOB
 	; day
 	db 15, NOMSTER
-	db 14, NOMSTER
+	db 16, NOMSTER
 	db 14, SAPPURA
 	db 14, AMBINNI
 	db 15, SAPPURA
@@ -1496,7 +1526,7 @@ JohtoGrassWildMons:
 	db 16, MANDELBLOB
 	; nite
 	db 15, NOMSTER
-	db 14, HAPPIG
+	db 16, HAPPIG
 	db 14, SAPPURA
 	db 14, AMBINNI
 	db 15, SAPPURA

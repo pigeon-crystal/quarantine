@@ -62,4 +62,5 @@ SpriteMons:
 	db TERRATORA
 	db LAWNIE
 	db SHREDDRAKE
+	db QWALLOP
 	

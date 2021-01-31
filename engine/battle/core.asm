@@ -9270,6 +9270,8 @@ BattleStartMessage:
 	ldh [hBattleTurn], a
 	ld a, 1
 	ld [wBattleAnimParam], a
+	ld de, MUSIC_NONE
+	farcall PlayMusic
 	ld de, ANIM_SEND_OUT_MON
 	call Call_PlayBattleAnim
 
@@ -9283,6 +9285,13 @@ BattleStartMessage:
 	call PlayStereoCry
 
 .skip_cry
+    call BattleCheckEnemyShininess
+    jr nc, .no_shiny_music
+    xor a
+    ld de, MUSIC_SHINY
+    farcall PlayMusic
+    farcall MaxVolume
+.no_shiny_music
 	ld a, [wBattleType]
 	cp BATTLETYPE_FISH
 	jr nz, .NotFishing

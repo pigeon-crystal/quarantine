@@ -232,6 +232,7 @@ ENDM
 	map_const AZALEA_GYM,                                   5,  8 ;  5
 	map_const ROUTE_33,                                    10,  9 ;  6
 	map_const AZALEA_TOWN,                                 20,  9 ;  7
+	map_const AZALEA_MEADOW, 							   10, 23 ;  8
 
 	newgroup                                                      ;  9
 

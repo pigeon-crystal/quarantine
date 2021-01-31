@@ -130,6 +130,7 @@
 	const MUSIC_YOTSUBA2
 	const MUSIC_ARTIST_ENCOUNTER
 	const MUSIC_ILLUXURY
+	const MUSIC_SHINY
 
 ; GetMapMusic picks music for these values (see home/map.asm)
 MUSIC_ILEX_FOREST	EQU $fb

@@ -702,12 +702,12 @@ StinpeonEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 5, POISON_STING
-	db 9, HARDEN
+	db 9, KARATE_CHOP
 	db 13, CLAMP
-	db 16, KARATE_CHOP
+	db 16, HARDEN
 	db 21, DIZZY_PUNCH
-	db 26, SLASH
-	db 30, LEECH_LIFE
+	db 26, LEECH_LIFE
+	db 30, SLASH
 	db 37, SWORDS_DANCE
 	db 42, X_SCISSOR
 	db 45, POISON_JAB
@@ -724,7 +724,7 @@ ScorperorEvosAttacks:
 	db 21, DIZZY_PUNCH
 	db 26, SLASH
 	db 30, LEECH_LIFE
-	db 32, SEISMIC_TOSS
+	db 32, VITAL_THROW
 	db 40, SWORDS_DANCE
 	db 44, X_SCISSOR
 	db 47, POISON_JAB
@@ -1107,7 +1107,7 @@ CremigoEvosAttacks:
 	db 0 ; no more level-up moves
 
 AmanigoEvosAttacks:
-	db EVOLVE_ITEM, 43, YUGGROMI
+	db EVOLVE_LEVEL, 43, YUGGROMI
 	db 0 ; no more evolutions
 	db 1, SMOG
 	db 1, ABSORB
@@ -1260,8 +1260,7 @@ LawnieEvosAttacks:
 	db 11, MUD_SLAP
 	db 14, GROWTH
 	db 16, MAGNITUDE
-	db 17, BEAT_UP
-	db 26, SNARL
+	db 24, SNARL
 	db 29, SANDSTORM
 	db 34, EARTHQUAKE
 	db 35, CRUNCH
@@ -1277,7 +1276,6 @@ OrgnomeEvosAttacks:
 	db 6, ABSORB
 	db 10, BITE
 	db 11, GROWTH
-	db 18, BEAT_UP
 	db 19, BUBBLEBEAM
 	db 26, SNARL
 	db 33, CRUNCH
@@ -1294,7 +1292,6 @@ GnomercyEvosAttacks:
 	db 6, ABSORB
 	db 10, BITE
 	db 11, GROWTH
-	db 19, BEAT_UP
 	db 26, SNARL
 	db 33, CRUNCH
 	db 38, GIGA_DRAIN
@@ -1399,8 +1396,7 @@ MoperdorEvosAttacks:
 	db 17, QUICK_ATTACK
 	db 20, BITE
 	db 23, MUD_SLAP
-	db 29, BEAT_UP
-	db 35, LIQUIDATION
+	db 33, LIQUIDATION
 	db 40, BODY_SLAM
 	db 43, HACKLES_UP
 	db 47, PLAY_ROUGH
@@ -1418,7 +1414,6 @@ MajesdorEvosAttacks:
 	db 13, BUBBLE
 	db 19, QUICK_ATTACK
 	db 22, BITE
-	db 29, BEAT_UP
 	db 35, LIQUIDATION
 	db 40, BODY_SLAM
 	db 43, HACKLES_UP
@@ -1870,8 +1865,7 @@ CantaloneEvosAttacks:
 	db 5, SHARPEN
 	db 11, RAPID_SPIN
 	db 17, DOUBLE_KICK
-	db 24, BEAT_UP
-	db 30, VITAL_THROW
+	db 28, VITAL_THROW
 	db 33, BATON_PASS
 	db 37, MIRROR_COAT
 	db 40, LIQUIDATION
@@ -1886,7 +1880,6 @@ CantogethaEvosAttacks:
 	db 5, SHARPEN
 	db 11, RAPID_SPIN
 	db 17, DOUBLE_KICK
-	db 24, BEAT_UP
 	db 30, VITAL_THROW
 	db 33, BATON_PASS
 	db 37, MIRROR_COAT
@@ -2832,7 +2825,7 @@ ScaulterEvosAttacks:
 	db 15, ROAR
 	db 18, METAL_CLAW
 	db 20, QUICK_ATTACK
-	db 24, BEAT_UP
+	db 24, SNARL
 	db 30, FLAME_WHEEL
 	db 39, SUNNY_DAY
 	db 42, CRUNCH
@@ -2849,7 +2842,6 @@ ScorchopprEvosAttacks:
 	db 16, METAL_CLAW
 	db 19, ROAR
 	db 21, QUICK_ATTACK
-	db 24, BEAT_UP
 	db 28, SNARL
 	db 30, FLAME_WHEEL
 	db 35, SUNNY_DAY
@@ -3641,7 +3633,6 @@ MaulzerEvosAttacks:
 	db 9, ROAR
 	db 12, FORESIGHT
 	db 15, FURY_SWIPES
-	db 15, BEAT_UP
 	db 19, MEAN_LOOK
 	db 22, METAL_CLAW
 	db 24, COUNTER
@@ -3690,7 +3681,6 @@ SwazzageEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LICK
 	db 1, ENCORE
-	db 10, BEAT_UP
 	db 11, BATON_PASS
 	db 17, PURSUIT
 	db 19, SCREECH
@@ -3861,10 +3851,9 @@ YagagarasuEvosAttacks:
 	db 1, MIMIC
 	db 1, LEER
 	db 10, PURSUIT
-	db 15, BEAT_UP
-	db 18, FALSE_SWIPE
-	db 24, CURSE
-	db 27, MEAN_LOOK
+	db 15, FALSE_SWIPE
+	db 20, CURSE
+	db 25, MEAN_LOOK
 	db 29, METAL_CLAW
 	db 35, DARK_PULSE
 	db 35, MIMIC
@@ -3959,8 +3948,7 @@ KodoroyahEvosAttacks:
 	db 1, TWISTER
 	db 1, GUST
 	db 8, EMBER
-	db 13, BEAT_UP
-	db 15, WHIRLWIND
+	db 14, WHIRLWIND
 	db 22, RAPID_SPIN
 	db 29, AMNESIA
 	db 35, DRAGONBREATH
@@ -3972,7 +3960,6 @@ CasanocteEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TWISTER
 	db 1, GUST
-	db 15, BEAT_UP
 	db 22, RAPID_SPIN
 	db 22, WHIRLWIND
 	db 22, FOCUS_BLAST
@@ -4061,7 +4048,6 @@ StiklbratEvosAttacks:
 SidficiousEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SWAGGER
-	db 11, BEAT_UP
 	db 22, PURSUIT
 	db 22, FAINT_ATTACK
 	db 22, SCARY_FACE
@@ -4545,7 +4531,6 @@ AvatriceEvosAttacks:
 
 DonukameEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, BEAT_UP
     db 1, THUNDERSHOCK
     db 1, GROWL
     db 14, MORNING_SUN

@@ -241,7 +241,7 @@ OddEggs:
 	db NO_ITEM
 	db PECK, TELEPORT, METRONOME, SPITE
 	dw 02560 ; OT ID
-	dt 523 ; Exp
+	dt 313 ; Exp
 	; Stat exp
 	bigdw 0
 	bigdw 0
@@ -267,7 +267,7 @@ OddEggs:
 	db NO_ITEM
 	db PECK, TELEPORT, METRONOME, SPITE
 	dw 00512 ; OT ID
-	dt 523 ; Exp
+	dt 313 ; Exp
 	; Stat exp
 	bigdw 0
 	bigdw 0
