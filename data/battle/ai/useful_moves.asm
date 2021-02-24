@@ -3,6 +3,7 @@
 UsefulMoves:
 	db DOUBLE_EDGE
 	db SING
+	db SPORE
 	db FLAMETHROWER
 	db HYDRO_PUMP
 	db SURF

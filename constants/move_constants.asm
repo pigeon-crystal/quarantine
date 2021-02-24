@@ -9,7 +9,7 @@
 	const POUND        ; 01
 	const KARATE_CHOP  ; 02
 	const DOUBLESLAP   ; 03
-	const COMET_PUNCH  ; 04
+	const BIBBIDI_BOP  ; 04
 	const SHADOW_BONE  ; 05
 	const PAY_DAY      ; 06
 	const FIRE_PUNCH   ; 07
@@ -125,7 +125,7 @@
 	const PUKE_BLOOD   ; 75
 	const METRONOME    ; 76
 	const BULLET_SEED  ; 77
-	const SELFDESTRUCT ; 78
+	const SILVER_WIND  ; 78
 	const NASTY_PLOT   ; 79
 	const LICK         ; 7a
 	const SMOG         ; 7b
@@ -256,7 +256,7 @@
 	const FUTURE_SIGHT ; f8
 	const ROCK_SMASH   ; f9
 	const WHIRLPOOL    ; fa
-	const BEAT_UP      ; fb
+	const AQUA_JET     ; fb
 	const SHEKELSHOT   ; fc
 	const MOONBLAST	   ; fd
 	const ICE_SHARD    ; fe

@@ -4,7 +4,7 @@ BattleAnimations::
 	dw BattleAnim_Pound
 	dw BattleAnim_KarateChop
 	dw BattleAnim_Doubleslap
-	dw BattleAnim_CometPunch
+	dw BattleAnim_BibbidiBop
 	dw BattleAnim_ShadowBone
 	dw BattleAnim_PayDay
 	dw BattleAnim_FirePunch
@@ -120,7 +120,7 @@ BattleAnimations::
 	dw BattleAnim_PukeBlood
 	dw BattleAnim_Metronome
 	dw BattleAnim_BulletSeed
-	dw BattleAnim_Selfdestruct
+	dw BattleAnim_SilverWind
 	dw BattleAnim_NastyPlot
 	dw BattleAnim_Lick
 	dw BattleAnim_Smog
@@ -251,7 +251,7 @@ BattleAnimations::
 	dw BattleAnim_FutureSight
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
-	dw BattleAnim_BeatUp
+	dw BattleAnim_AquaJet
 	dw BattleAnim_Shekelshot
 	dw BattleAnim_Moonblast
 	dw BattleAnim_IceShard
@@ -737,7 +737,7 @@ BattleAnim_Doubleslap:
 	anim_wait 8
 	anim_ret
 
-BattleAnim_CometPunch:
+BattleAnim_BibbidiBop:
 	anim_1gfx ANIM_GFX_HIT
 	anim_if_param_equal $1, .alternate
 	anim_sound 0, 1, SFX_COMET_PUNCH
@@ -1395,6 +1395,7 @@ BattleAnim_RazorWind:
 	anim_ret
 
 BattleAnim_FlashCannon:
+BattleAnim_SilverWind:
 BattleAnim_Sonicboom_JP:
 	anim_2gfx ANIM_GFX_WHIP, ANIM_GFX_HIT
 .loop
@@ -1433,21 +1434,21 @@ BattleAnim_Sonicboom:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_Selfdestruct:
-	anim_1gfx ANIM_GFX_EXPLOSION
-	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $8, $24
-	anim_if_param_equal $1, .loop
-	anim_call BattleAnimSub_Explosion2
-	anim_wait 16
-	anim_ret
+;BattleAnim_Selfdestruct:
+;	anim_1gfx ANIM_GFX_EXPLOSION
+;	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $8, $24
+;	anim_if_param_equal $1, .loop
+;	anim_call BattleAnimSub_Explosion2
+;	anim_wait 16
+;	anim_ret
 
-.loop
-	anim_call BattleAnimSub_Explosion1
-	anim_wait 5
-	anim_bgeffect ANIM_BG_HIDE_MON, $0, $1, $0
-	anim_loop 2, .loop
-	anim_wait 16
-	anim_ret
+;.loop
+;	anim_call BattleAnimSub_Explosion1
+;	anim_wait 5
+;	anim_bgeffect ANIM_BG_HIDE_MON, $0, $1, $0
+;	anim_loop 2, .loop
+;	anim_wait 16
+;	anim_ret
 
 BattleAnim_Explosion:
 	anim_1gfx ANIM_GFX_EXPLOSION
@@ -2556,7 +2557,8 @@ BattleAnim_Mimic:
 	anim_wait 48
 	anim_ret
 
-BattleAnim_LovelyKiss:
+BattleAnim_DrainingKiss:
+BattleAnim_SweetKiss: ; make draining
 	anim_2gfx ANIM_GFX_OBJECTS, ANIM_GFX_ANGELS
 	anim_bgeffect ANIM_BG_07, $0, $2, $0
 	anim_obj ANIM_OBJ_LOVELY_KISS, 152, 40, $0
@@ -3620,8 +3622,7 @@ BattleAnim_FaintAttack:
 	anim_wait 4
 	anim_ret
 
-BattleAnim_DrainingKiss:
-BattleAnim_SweetKiss:
+BattleAnim_LovelyKiss: ; make lovely
 	anim_2gfx ANIM_GFX_OBJECTS, ANIM_GFX_ANGELS
 	anim_bgeffect ANIM_BG_07, $0, $2, $0
 	anim_obj ANIM_OBJ_SWEET_KISS, 96, 40, $0
@@ -4842,7 +4843,7 @@ BattleAnim_Whirlpool:
 	anim_wait 1
 	anim_ret
 
-BattleAnim_BeatUp:
+BattleAnim_AquaJet:
 	anim_if_param_equal $0, .current_mon
 	anim_sound 0, 0, SFX_BALL_POOF
 	anim_bgeffect ANIM_BG_RETURN_MON, $0, $1, $0

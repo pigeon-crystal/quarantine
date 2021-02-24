@@ -753,6 +753,7 @@ KRIS EQU __enum__
 	const YASUI
 	const HIDEKI
 	const NAOYUKI
+	const TEE
 	
 	trainerclass SALARYMAN ; 4e
 	const GORO
@@ -791,10 +792,12 @@ KRIS EQU __enum__
 	
 	trainerclass BREEDER_M ; 58
 	const BERMAN
+	const CRAIG
 	
 	trainerclass BREEDER_F ; 59
 	const CLARA
 	const LUCY
+	const DONNA
 	
 	trainerclass NURSE_T ; 5a
 	

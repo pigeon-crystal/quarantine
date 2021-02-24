@@ -27,6 +27,8 @@ StallMoves:
 	db AMNESIA
 	db TRANSFORM
 	db WILL_O_WISP
+	db CALM_MIND
+	db DRAGON_DANCE
 	db SHARPEN
 	db SUBSTITUTE
 	db -1 ; end

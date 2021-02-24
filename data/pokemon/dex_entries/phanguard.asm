@@ -1,4 +1,4 @@
-	db "SOLIDER@" ; species name
+	db "SOLDIER@" ; species name
 	dw 501, 793 ; height, weight
 
 	db   "It retains its"

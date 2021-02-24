@@ -44,7 +44,7 @@ TrainerClassDVs:
 	dn  9,  8,  8,  8 ; SUPER_NERD
 	dn  9,  8,  8,  8 ; RIVAL2
 	dn  9,  8,  8,  8 ; GUITARIST
-	dn 10,  8,  8,  8 ; HIKER
+	dn 10,  8,  8,  7 ; HIKER
 	dn  9,  8,  8,  8 ; BIKER
 	dn 10,  8, 10,  8 ; BLAINE
 	dn  9,  8,  8,  8 ; BURGLAR
@@ -67,11 +67,11 @@ TrainerClassDVs:
 	dn 15, 13, 15, 13 ; BLUE
 	dn  9,  8,  8,  8 ; OFFICER
 	dn  7, 13, 10,  8 ; GRUNTF
-	dn  9, 10, 11, 12 ; MYSTICALMAN
+	dn  9, 10, 11, 14 ; MYSTICALMAN
 	dn 11, 14, 15, 15 ; WIZARD
-	dn 13, 13, 13, 14 ; GURU
+	dn 10,  9, 10, 14 ; GURU
 	dn 15, 15, 15, 15 ; CHEATER
-	dn 11,  7, 10,  9 ; ENFORCER
+	dn 11,  9, 10,  9 ; ENFORCER
 	dn  7, 12, 12,  8 ; ATHLETEF
 	dn 13,  8, 12,  8 ; ATHLETEM	
 	dn  7, 12, 12,  8 ; FANATICRED

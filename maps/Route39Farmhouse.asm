@@ -179,7 +179,7 @@ Text_ReceivedTM13:
 
 FarmerFText_SnoreSpeech:
 	text "That there's"
-	line "SNORE."
+	line "SWEET DREAM."
 
 	para "It's a rare move"
 	line "that only works"

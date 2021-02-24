@@ -26,6 +26,7 @@ WartortleEggMoves:
 	db -1 ; end
 
 BuzzlingEggMoves:
+	db SILVER_WIND
 	db BATON_PASS
 	db GRIMNEEDLE
 	db -1 ; end
@@ -58,7 +59,7 @@ NomsterEggMoves:
 
 QwailEggMoves:
 	db FAINT_ATTACK
-	db COMET_PUNCH
+	db BIBBIDI_BOP
 	db SCARY_FACE
 	db QUICK_ATTACK
 	db -1 ; end
@@ -67,7 +68,6 @@ WyrmometerEggMoves:
 	db DRAININGKISS
 	db GLARE
 	db SPITE
-	db BEAT_UP
 	db -1 ; end
 
 BudganeerEggMoves:
@@ -94,7 +94,6 @@ SprunnyEggMoves:
 	db FOCUS_ENERGY
 	db CHARM
 	db COUNTER
-	db BEAT_UP
 	db -1 ; end
 
 PrawmateEggMoves:
@@ -104,7 +103,6 @@ PrawmateEggMoves:
 	db CONFUSION
 	db AMNESIA
 	db COUNTER
-	db BEAT_UP
 	db -1 ; end
 	
 NyalleyEggMoves:
@@ -177,7 +175,6 @@ MuminiEggMoves:
 	db SCREECH
 	db ANCIENTPOWER
 	db PURSUIT
-	db BEAT_UP
 	db GIGA_DRAIN
 	db ACCELEROCK
 	db -1 ; end
@@ -187,7 +184,7 @@ TodescoolEggMoves:
 	db CHARM
 	db HYPNOSIS
 	db AMNESIA
-	db SELFDESTRUCT
+	db EXPLOSION
 	db -1 ; end
 
 JunobeEggMoves:
@@ -202,7 +199,6 @@ BobbiteEggMoves:
 	db BARRIER
 	db COUNTER
 	db FLAIL
-	db BEAT_UP
 	db -1 ; end
 
 HappigEggMoves:
@@ -237,6 +233,7 @@ UpwhaleEggMoves:
 	db -1 ; end
 
 LawnieEggMoves:
+	db MEGA_DRAIN
 	db SWORDS_DANCE
 	db ENCORE
 	db REFLECT
@@ -537,7 +534,7 @@ PurraatzleEggMoves:
 
 NuckawheezEggMoves:
 	db EARTH_POWER
-	db SELFDESTRUCT
+	db EXPLOSION
 	db SCREECH
 	db SUPERSONIC
 	db FAINT_ATTACK
@@ -558,6 +555,7 @@ WormeekEggMoves:
 	db -1 ; end
 
 GwubbyEggMoves:
+	db SILVER_WIND
 	db LEECH_LIFE
 	db DISABLE
 	db SONICBOOM
@@ -568,7 +566,6 @@ GwubbyEggMoves:
 CrustazerEggMoves:
 	db SPARK
 	db EXPLOSION
-	db SELFDESTRUCT
 	db -1 ; end 
 
 StranglureEggMoves:
@@ -588,6 +585,7 @@ WandelusEggMoves:
 	db -1 ; end
 
 TranquielEggMoves:
+	db SILVER_WIND
 	db PRESENT
 	db FORESIGHT
 	db FUTURE_SIGHT
@@ -649,7 +647,6 @@ HoplaqueEggMoves:
 	db PURSUIT
 	db AGILITY
 	db BODY_SLAM
-	db BEAT_UP
 	db -1 ; end
 
 ArasbestosEggMoves:
@@ -686,7 +683,6 @@ TidoEggMoves:
 	db SHADOW_BONE
 	db BONE_RUSH
 	db METAL_CLAW
-	db BEAT_UP
 	db -1 ;end
 
 MaulzerEggMoves:
@@ -708,7 +704,6 @@ SwazzageEggMoves:
 	db AMNESIA
 	db FORESIGHT
 	db FUTURE_SIGHT
-	db BEAT_UP
 	db -1 ; end
 
 ShreddrakeEggMoves:
@@ -827,7 +822,7 @@ ObelithEggMoves:
 	db FOCUS_ENERGY
 	db BODY_SLAM
 	db ANCIENTPOWER
-	db SELFDESTRUCT
+	db EXPLOSION
 	db -1 ; end
 	
 PolyroEggMoves:
@@ -850,7 +845,6 @@ EyechosisEggMoves:
 	db PROTECT
 	db REST
 	db BARRIER
-	db BEAT_UP
 	db HYPNOSIS
 	db NASTY_PLOT
 	db DIZZY_PUNCH

@@ -11,6 +11,8 @@
 	const AZALEATOWN_SILVER
 	const AZALEATOWN_AZALEA_ROCKET3
 	const AZALEATOWN_KURT_OUTSIDE
+	const AZALEATOWN_ROCKET4
+	const AZALEATOWN_ROCKET5
 
 AzaleaTown_MapScripts:
 	db 3 ; scene scripts
@@ -449,6 +451,33 @@ AzaleaTownIlexForestSignText:
 	line "gate."
 	done
 
+AzaleaTownRocket4Script:
+	jumptextfaceplayer AzaleaRocket4Text
+	
+AzaleaTownRocket5Script:
+	jumptextfaceplayer AzaleaRocket5Text
+	
+AzaleaRocket4Text:
+	text "Me and my pals,"
+	line "we're gonna take"
+	
+	para "all the berries"
+	line "here for"
+	cont "ourselves."
+	
+	para "Gonna be a nice"
+	line "little picnic."
+	cont "He he he."
+	done
+	
+AzaleaRocket5Text:
+	text "Tch. Some guy's"
+	line "blocking all the"
+	
+	para "rare berries. He's"
+	line "strong, too."
+	done
+
 AzaleaTown_MapEvents:
 	db 0, 0 ; filler
 
@@ -478,7 +507,7 @@ AzaleaTown_MapEvents:
 	bg_event  3,  9, BGEVENT_READ, AzaleaTownIlextForestSign
 	bg_event 31,  6, BGEVENT_ITEM, AzaleaTownHiddenFullHeal
 
-	db 12 ; object events
+	db 14 ; object events
 	object_event 31,  9, SPRITE_AZALEA_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AzaleaTownRocket1Script, EVENT_AZALEA_TOWN_SLOWPOKETAIL_ROCKET
 	object_event 21,  9, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AzaleaTownGrampsScript, -1
 	object_event 15, 13, SPRITE_TEACHER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 2, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, AzaleaTownTeacherScript, -1
@@ -491,3 +520,7 @@ AzaleaTown_MapEvents:
 	object_event 11, 10, SPRITE_AZALEA_ROCKET, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_AZALEA_TOWN
 	object_event 10, 16, SPRITE_AZALEA_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AzaleaTownRocket2Script, EVENT_SLOWPOKE_WELL_ROCKETS
 	object_event  6,  5, SPRITE_KURT, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AzaleaTownKurtScript, EVENT_AZALEA_TOWN_KURT
+	object_event 18, 17, SPRITE_AZALEA_ROCKET, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AzaleaTownRocket4Script, EVENT_SLOWPOKE_WELL_ROCKETS
+	object_event 19, 17, SPRITE_AZALEA_ROCKET, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AzaleaTownRocket5Script, EVENT_SLOWPOKE_WELL_ROCKETS
+
+

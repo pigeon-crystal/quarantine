@@ -1,10 +1,10 @@
 	db "FAWN@" ; species name ; 
 	dw 405, 930 ; height, weight
 
-	db   "The ever-fiesty"
+	db   "The ever-feisty"
 	next "CALFEEN have high"
-	next "energy reserves that"
+	next "energy reserves"
 
-	page "manifest in many"
-	next "ways. They love to"
-	next "butt heads.@"
+	page "that manifest in"
+	next "many ways. They "
+	next "oft butt heads.@"

@@ -3,7 +3,7 @@ MoveDescriptions::
 	dw PoundDescription
 	dw KarateChopDescription
 	dw DoubleslapDescription
-	dw CometPunchDescription
+	dw BibbidiBopDescription
 	dw ShadowBoneDescription
 	dw PayDayDescription
 	dw FirePunchDescription
@@ -119,7 +119,7 @@ MoveDescriptions::
 	dw PukeBloodDescription
 	dw MetronomeDescription
 	dw BulletSeedDescription
-	dw SelfdestructDescription
+	dw SilverWindDescription
 	dw NastyPlotDescription
 	dw LickDescription
 	dw SmogDescription
@@ -250,7 +250,7 @@ MoveDescriptions::
 	dw FutureSightDescription
 	dw RockSmashDescription
 	dw WhirlpoolDescription
-	dw BeatUpDescription
+	dw AquaJetDescription
 	dw ShekelshotDescription
 	dw MoonblastDescription
 	dw IceShardDescription
@@ -273,8 +273,8 @@ DoubleslapDescription:
 	db   "Repeatedly slaps"
 	next "2-5 times.@"
 
-CometPunchDescription:
-	db   "Repeatedly punches"
+BibbidiBopDescription:
+	db   "Repeatedly bops"
 	next "2-5 times.@"
 
 ShadowBoneDescription:
@@ -737,9 +737,9 @@ BulletSeedDescription:
 	db   "Shoots a seed"
 	next "2-5 times.@"
 
-SelfdestructDescription:
-	db   "Powerful but makes"
-	next "the user faint.@"
+SilverWindDescription:
+	db   "An attack that may"
+	next "raise all stats.@"
 
 NastyPlotDescription:
 	db   "The user schemes, "
@@ -1261,9 +1261,9 @@ WhirlpoolDescription:
 	db   "Traps the foe for"
 	next "2-5 turns.@"
 
-BeatUpDescription:
-	db   "Party #MON join"
-	next "in the attack.@"
+AquaJetDescription:
+	db   "A rapid lunge"
+	next "that hits first.@"
 
 ShekelshotDescription:
 	db   "The #MON uses"
