@@ -51,8 +51,10 @@ PosterScript:
 	describedecoration DECODESC_POSTER
 	
 PlayersHouseRadioScript:
-;	givepoke CRUSTAZER, 50
-;	warp AZALEA_TOWN, 10, 10
+	credits
+	end
+
+Geese:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue .NormalRadio
 	checkevent EVENT_LISTENED_TO_INITIAL_RADIO

@@ -4,7 +4,7 @@ CreditsScript:
 	db CREDITS_CLEAR
 
 ; Pokemon Crystal Version Staff
-	db                STAFF, 1
+	db STAFF, 1
 
 	db CREDITS_WAIT, 8
 
@@ -18,55 +18,55 @@ CreditsScript:
 ; Update the banner.
 	db CREDITS_SCENE, 0 ; Pichu
 
-	db             DIRECTOR, 1 ; artist/director
-	db       SATOSHI_TAJIRI, 2 ; daz
+	db             DIRECTOR, 1
+	db       SATOSHI_TAJIRI, 2
 
 	db CREDITS_WAIT, 12
 
-	db           CODIRECTOR, 1 ; developer
-	db       JUNICHI_MASUDA, 2 ; qdexanon 
+	db           CODIRECTOR, 1
+	db       JUNICHI_MASUDA, 2
 
 	db CREDITS_WAIT, 12
 
-	db          PROGRAMMERS, 0  ; guest artist
-	db       SOUSUKE_TAMADA, 1  ; & trainer sprites
-	db       HISASHI_SOGABE, 2  ; varmintz
-	db         KEITA_KAGAYA, 3  ; composer
-	db    YOSHINORI_MATSUDA, 4  ; toothpaste
+	db          PROGRAMMERS, 0
+	db       SOUSUKE_TAMADA, 1
+	db       HISASHI_SOGABE, 2
+	db         KEITA_KAGAYA, 3
+	db    YOSHINORI_MATSUDA, 4
 
 	db CREDITS_WAIT, 12
 
-	db          PROGRAMMERS, 0 ; guest artist
-	db     SHIGEKI_MORIMOTO, 1 ; and icons
-	db     TETSUYA_WATANABE, 2 ; TC
-	db        TAKENORI_OOTA, 3 ; anonymous
+	db          PROGRAMMERS, 0
+	db     SHIGEKI_MORIMOTO, 1
+	db     TETSUYA_WATANABE, 2
+	db        TAKENORI_OOTA, 3
 
 	db CREDITS_WAIT, 12
 
-	db    GRAPHICS_DIRECTOR, 1 ; Cries
-	db         KEN_SUGIMORI, 2 ; gojee
+	db    GRAPHICS_DIRECTOR, 1
+	db         KEN_SUGIMORI, 2
 
 	db CREDITS_WAIT, 12
 
-	db       MONSTER_DESIGN, 0 ; Guest designers
-	db       HISASHI_SOGABE, 1 ; varmintz
-	db    MOTOFUMI_FUJIWARA, 2 ; raptor
-	db       ATSUKO_NISHIDA, 3 ; beatrix cromwell
-	db    	   KEN_SUGIMORI, 4 ; gojee
-	db        TAKENORI_OOTA, 5 ; anonymous
+	db       MONSTER_DESIGN, 0
+	db         KEN_SUGIMORI, 1
+	db    MOTOFUMI_FUJIWARA, 2
+	db     SHIGEKI_MORIMOTO, 3
+	db     HIRONOBU_YOSHIDA, 4
+	db         SATOSHI_OOTA, 5
 
 	db CREDITS_WAIT, 12
 
-	db       MUNEO_SAITO, 0    ; ASM Help
-	db       RENA_YOSHIKAWA, 1 ; Coral, pfero
-	db          JUN_OKUTANI, 2 ; Sourapple, electro
-	db       HIRONOBU_YOSHIDA, 3 ; rangi, seatree
+	db       MONSTER_DESIGN, 0
+	db       ATSUKO_NISHIDA, 1
+	db          MUNEO_SAITO, 2
+	db       RENA_YOSHIKAWA, 3
 
 	db CREDITS_WAIT, 12
 
-	db    POKEMON_ANIMATION, 1 ; backsprites
-	db       HISASHI_SOGABE, 2 ; varmintz
-	db       ASUKA_IWASHITA, 3 ; scarlax
+	db    POKEMON_ANIMATION, 1
+	db     HIRONOBU_YOSHIDA, 2
+	db          JUN_OKUTANI, 3
 
 	db CREDITS_WAIT, 12
 
@@ -78,9 +78,9 @@ CreditsScript:
 ; Update the banner.
 	db CREDITS_SCENE, 1 ; Smoochum
 
-	db      GRAPHICS_DESIGN, 0 ; 
-	db     HIRONOBU_YOSHIDA, 1 ; 
-	db          JUN_OKUTANI, 2 ; 
+	db      GRAPHICS_DESIGN, 0
+	db     HIRONOBU_YOSHIDA, 1
+	db          JUN_OKUTANI, 2
 	db       ASUKA_IWASHITA, 3
 	db     TETSUYA_WATANABE, 4
 
@@ -190,63 +190,108 @@ CreditsScript:
 ; Update the banner.
 	db CREDITS_SCENE, 3 ; Igglybuff
 
-	db     US_VERSION_STAFF, 2
+;	db     US_VERSION_STAFF, 2
+	db     QUARANTINE_STAFF, 2
 
 	db CREDITS_WAIT, 9
 
-	db      US_COORDINATION, 1
-	db          GAIL_TILDEN, 2
-	db        HIRO_NAKAMURA, 3
+;	db      US_COORDINATION, 1
+;	db          GAIL_TILDEN, 2
+;	db        HIRO_NAKAMURA, 3
+	db          PROGRAMMERS, 0
+	db    		   QDEXANON, 1
+	db       		   PRET, 2
+	db             CORALDEV, 3
+	db                PFERO, 4
 
 	db CREDITS_WAIT, 12
 
-	db      US_COORDINATION, 1
-	db       JUNICHI_MASUDA, 2
-	db        SETH_MCMAHILL, 3
+;	db      US_COORDINATION, 1
+;	db       JUNICHI_MASUDA, 2
+;	db        SETH_MCMAHILL, 3
+	db          PROGRAMMERS, 0
+	db    		      RAGNI, 1
+	db       		    TPP, 2
+	db              ELECTRO, 3
+	db                  CAM, 4
 
 	db CREDITS_WAIT, 12
 
-	db      US_COORDINATION, 1
-	db     HIROTO_ALEXANDER, 2
-	db     TERESA_LILLYGREN, 3
+;	db      US_COORDINATION, 1
+;	db     HIROTO_ALEXANDER, 2
+;	db     TERESA_LILLYGREN, 3
+	db          PROGRAMMERS, 0
+	db    		    SEATREE, 1
+	db       		   SOUP, 2
+	db           TOOTHPASTE, 3
 
 	db CREDITS_WAIT, 12
 
-	db     TEXT_TRANSLATION, 1
-	db        NOB_OGASAWARA, 2
+;	db     TEXT_TRANSLATION, 1
+;	db        NOB_OGASAWARA, 2
+	db       MONSTER_DESIGN, 0
+	db            DAZZYDEER, 1
+	db                GOJEE, 2
+	db         AUTUMNRAPTOR, 3
+	db             VARMINTZ, 4
+	db            ANONYMOUS, 5
 
 	db CREDITS_WAIT, 12
 
-	db          PROGRAMMERS, 1
-	db      TERUKI_MURAKAWA, 2
-	db      KAZUYOSHI_OSAWA, 3
+;	db          PROGRAMMERS, 1
+;	db      TERUKI_MURAKAWA, 2
+;	db      KAZUYOSHI_OSAWA, 3
+	db      POKEMON_SPRITES, 0
+	db            DAZZYDEER, 1
+	db                GOJEE, 2
+	db         AUTUMNRAPTOR, 3
+	db             VARMINTZ, 4
+	db              SCARLAX, 5
 
 	db CREDITS_WAIT, 12
 
-	db         PAAD_TESTING, 1
-	db       THOMAS_HERTZOG, 2
-	db         ERIK_JOHNSON, 3
+;	db         PAAD_TESTING, 1
+;	db       THOMAS_HERTZOG, 2
+;	db         ERIK_JOHNSON, 3
+	db        MISC_GRAPHICS, 0
+	db             VARMINTZ, 1
+	db                   TC, 2
+	db                GUESO, 3
+	db                  EMI, 4
+	db            ANONYMOUS, 5
 
 	db CREDITS_WAIT, 12
 
-	db      PRODUCT_TESTING, 0
-	db             PLANNING, 1
+;	db      PRODUCT_TESTING, 0
+;	db             PLANNING, 1
+	db         CREDIT_MUSIC, 1
+	db           TOOTHPASTE, 2
+	db            MELONADEM, 3
 
 	db CREDITS_WAIT, 12
 
-	db      PRODUCT_TESTING, 0
-	db       KEITA_NAKAMURA, 1
-	db      HIROTAKA_UEMURA, 2
-	db       HIROAKI_TAMURA, 3
-	db    NORIAKI_SAKAGUCHI, 4
+;	db      PRODUCT_TESTING, 0
+;	db       KEITA_NAKAMURA, 1
+;	db      HIROTAKA_UEMURA, 2
+;	db       HIROAKI_TAMURA, 3
+;	db    NORIAKI_SAKAGUCHI, 4
+	db       ORIGINAL_MUSIC, 0
+	db          GO_ICHINOSE, 1
+	db          JOHN_SEIGER, 2
+	db        JOHN_LOEFFLER, 3
+	db          JASON_PAIGE, 4
+	db        YOUSUKE_YASUI, 5
 
 	db CREDITS_WAIT, 12
 
-	db      PRODUCT_TESTING, 0
-	db NCL_SUPER_MARIO_CLUB, 1
-	db          KENJI_SAIKI, 2
-	db         ATSUSHI_TADA, 3
-	db          MIYUKI_SATO, 4
+;	db      PRODUCT_TESTING, 0
+;	db NCL_SUPER_MARIO_CLUB, 1
+;	db          KENJI_SAIKI, 2
+;	db         ATSUSHI_TADA, 3
+;	db          MIYUKI_SATO, 4
+	db CREDIT_SOUND_EFFECTS, 1
+	db                GOJEE, 2
+	db           TOOTHPASTE, 3
 
 	db CREDITS_WAIT, 12
 
@@ -266,6 +311,8 @@ CreditsScript:
 	db       SPECIAL_THANKS, 0
 	db    MIKIHIRO_ISHIKAWA, 1
 	db   HIDEYUKI_HASHIMOTO, 2
+	db            ANONYMOUS, 3
+	db          THIS_IS_YOU, 4
 
 	db CREDITS_WAIT, 12
 

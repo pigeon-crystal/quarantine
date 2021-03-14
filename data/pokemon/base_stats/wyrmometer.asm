@@ -1,6 +1,6 @@
 	db WYRMOMETER ; 190
 
-	db  50,  55,  50,  86,  47,  47
+	db  50,  55,  50,  86,  55,  47
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, NORMAL ; type

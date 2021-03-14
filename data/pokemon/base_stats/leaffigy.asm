@@ -1,6 +1,6 @@
 	db LEAFFIGY ; 142
 
-	db  65, 91,  59, 49,  65,  91
+	db  65, 92,  59, 49,  77,  91
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, PSYCHIC_TYPE ; type

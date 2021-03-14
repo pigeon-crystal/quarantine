@@ -712,7 +712,7 @@ KRIS EQU __enum__
 
 	trainerclass GURU ; 45
 	const LI_GURU
-	const GOJEE
+	const GOJEE_GURU
 	const SHOICHI
 	
 	trainerclass CHEATER ; 46

@@ -1,4 +1,4 @@
-; CreditsStrings indexes (see data/credits_strings.asm)
+; CreditsStringsPointers indexes (see data/credits_strings.asm)
 	const_def
 	const SATOSHI_TAJIRI
 	const JUNICHI_MASUDA
@@ -103,13 +103,43 @@
 	const US_COORDINATION
 	const TEXT_TRANSLATION
 	const PAAD_TESTING
+	const QUARANTINE_STAFF
+	const QDEXANON
+	const PRET
+	const CORALDEV
+	const PFERO
+	const RAGNI
+	const TPP
+	const ELECTRO
+	const CAM
+	const SEATREE
+	const SOUP
+	const TOOTHPASTE
+	const DAZZYDEER
+	const GOJEE
+	const AUTUMNRAPTOR
+	const VARMINTZ
+	const ANONYMOUS
+	const SCARLAX
+	const TC
+	const GUESO
+	const EMI
+	const MELONADEM
+	const YOUSUKE_YASUI
+	const JOHN_SEIGER
+	const JOHN_LOEFFLER
+	const JASON_PAIGE
+	const POKEMON_SPRITES
+	const MISC_GRAPHICS
+	const ORIGINAL_MUSIC
+	const THIS_IS_YOU
 
 ; CreditsScript indexes (see data/credits_script.asm)
-	const_def -7
-	const CREDITS_THEEND
-	const CREDITS_WAIT2
-	const CREDITS_MUSIC
-	const CREDITS_CLEAR
-	const CREDITS_SCENE
-	const CREDITS_WAIT
+	const_def -1, -1
 	const CREDITS_END
+	const CREDITS_WAIT
+	const CREDITS_SCENE
+	const CREDITS_CLEAR
+	const CREDITS_MUSIC
+	const CREDITS_WAIT2
+	const CREDITS_THEEND

@@ -5,7 +5,7 @@
 
 	db BUG, GROUND ; type
 	db 70 ; catch rate
-	db 182 ; base exp
+	db 200 ; base exp
 	db SOFT_SAND, BERRY ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

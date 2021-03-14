@@ -1,11 +1,11 @@
 	db CAIRNIVORE ;
 	
-	db  92,  96,  175, 25, 45,  82
+	db  95,  99,  175, 25, 45,  87
 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, ROCK ; type
 	db 45 ; catch rate
-	db 212 ; base exp
+	db 222 ; base exp
 	db HARD_STONE, HARD_STONE ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

@@ -249,7 +249,7 @@ MoveNames::
 	db "FUTURE SIGHT@"
 	db "ROCK SMASH@"
 	db "WHIRLPOOL@"
-	db "BEAT UP@"
+	db "AQUA JET@"
 	db "SHEKELSHOT@"
 	db "MOONBLAST@"
 	db "ICE SHARD@"

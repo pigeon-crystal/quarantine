@@ -1,11 +1,11 @@
 	db MOTHO ; 
 
-	db  47, 69,  45, 88,  69,  64
+	db  60, 69,  45, 88,  69,  67
 	;   hp  atk  def  spd  sat  sdf
 
 	db DARK, BUG ; type
 	db 49 ; catch rate
-	db 95 ; base exp
+	db 111 ; base exp
 	db CLEANSE_TAG, SILVERPOWDER ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

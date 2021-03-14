@@ -88,8 +88,8 @@ Music_Illuxury_Ch1:
 	sound_call .versesub2
 	sound_call .versesub5
 	sound_call .versesub5
-	sound_call .versesub2
-	sound_call .versesub2
+	sound_call .versesub6
+	sound_call .versesub7
 	sound_call .bridgesub1
 	sound_call .bridgesub2
 	;
@@ -106,8 +106,8 @@ Music_Illuxury_Ch1:
 	sound_call .versesub2
 	sound_call .versesub5
 	sound_call .versesub5
-	sound_call .versesub2
-	sound_call .versesub2
+	sound_call .versesub6
+	sound_call .versesub7
 	sound_call .bridgesub1
 	sound_call .bridgesub3
 	sound_call .chorussub1
@@ -558,6 +558,56 @@ Music_Illuxury_Ch1:
 	note A#, 1
 	note G_, 1
 	note D#, 1
+	sound_ret
+	
+.versesub6:
+	octave 3
+	note E_, 1
+	octave 2
+	note A#, 1
+	note G_, 1
+	note E_, 1
+	note G_, 1
+	note A#, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note A#, 1
+	note G_, 1
+	note E_, 1
+	note G_, 1
+	note A#, 1
+	octave 3
+	note E_, 1
+	octave 2
+	note A#, 1
+	note G_, 1
+	note E_, 1
+	sound_ret
+	
+.versesub7:
+	octave 3
+	note E_, 1
+	note C#, 1
+	octave 2
+	note A#, 1
+	note G_, 1
+	note A#, 1
+	octave 3
+	note C#, 1
+	note E_, 1
+	note C#, 1
+	octave 2
+	note A#, 1
+	note G_, 1
+	note A#, 1
+	octave 3
+	note C#, 1
+	note E_, 1
+	note C#, 1
+	octave 2
+	note A#, 1
+	note G_, 1
 	sound_ret
 	
 .introsub1:

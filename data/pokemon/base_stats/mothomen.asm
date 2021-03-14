@@ -1,11 +1,11 @@
 	db MOTHOMEN ; 142
 
-	db  57, 100,  55, 120,  100,  94
+	db  75, 100,  59, 110,  100,  90
 	;   hp  atk  def  spd  sat  sdf
 
 	db DARK, BUG ; type
 	db 45 ; catch rate
-	db 202 ; base exp
+	db 209 ; base exp
 	db SILVERPOWDER, CLEANSE_TAG ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

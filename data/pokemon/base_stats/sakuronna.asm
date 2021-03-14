@@ -1,11 +1,11 @@
 	db SAKURONNA ; 142
 
-	db  80, 106,  77, 69,  82,  106
+	db  81, 107,  77, 69,  82,  106
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, PSYCHIC_TYPE ; type
 	db 50 ; catch rate
-	db 200 ; base exp
+	db 220 ; base exp
 	db PNK_APRICORN, PNK_APRICORN ; items
 	db GENDER_F100 ; gender ratio
 	db 100 ; unknown 1

@@ -1447,60 +1447,60 @@ JohtoGrassWildMons:
 	map_id ROUTE_33 ;done
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, DOLMITE
-	db 14, QWAIL
-	db 12, NOMSTER
-	db 14, WANDELUS
+	db 12, DOLMITE
 	db 12, QWAIL
-	db 12, WANDELUS
-	db 17, SHABBYCAT
+	db 11, NOMSTER
+	db 13, WANDELUS
+	db 11, QWAIL
+	db 11, WANDELUS
 	db 14, SHABBYCAT
+	db 15, SHABBYCAT
 	; day
-	db 13, DOLMITE
-	db 14, QWAIL
-	db 13, NOMSTER
-	db 14, WANDELUS
+	db 12, DOLMITE
 	db 12, QWAIL
-	db 14, WANDELUS
-	db 17, SHABBYCAT
+	db 11, NOMSTER
+	db 13, WANDELUS
+	db 11, QWAIL
+	db 11, WANDELUS
 	db 14, SHABBYCAT
+	db 15, SHABBYCAT
 	; nite
-	db 13, DOLMITE
-	db 14, WANDELUS
-	db 12, FLUFFRUIT
-	db 12, QWAIL
-	db 12, FLUFFRUIT
-	db 14, WANDELUS
-	db 17, SHABBYCAT
+	db 12, DOLMITE
+	db 12, WANDELUS
+	db 11, FLUFFRUIT
+	db 13, QWAIL
+	db 11, FLUFFRUIT
+	db 11, WANDELUS
+	db 15, SHABBYCAT
 	db 13, JUNOBE
 
 	map_id AZALEA_MEADOW
 	db 10 percent, 10 percent, 10 percent
 	; morn
-	db 17, SPRUNNY
-	db 16, NOMSTER
-	db 17, WANDELUS
-	db 16, SLOWHOG
-	db 16, NOMSTER
 	db 16, SPRUNNY
+	db 16, NOMSTER
+	db 16, WANDELUS
+	db 16, SLOWHOG
+	db 15, NOMSTER
+	db 14, SPRUNNY
 	db 20, SLOWHOG
-	db 18, SLOWHOG
+	db 17, SLOWHOG
 	; day
-	db 17, SPRUNNY
+	db 16, SPRUNNY
 	db 16, NOMSTER
-	db 17, WANDELUS
+	db 16, WANDELUS
 	db 16, SLOWHOG
-	db 16, NOMSTER
-	db 16, SPRUNNY
+	db 14, NOMSTER
+	db 14, SPRUNNY
 	db 20, SLOWHOG
-	db 18, SLOWHOG
+	db 17, SLOWHOG
 	; nite
-	db 17, SPRUNNY
-	db 16, NOMSTER
-	db 17, WANDELUS
-	db 18, SLOWHOG
-	db 16, NOMSTER
 	db 16, SPRUNNY
+	db 16, NOMSTER
+	db 16, WANDELUS
+	db 16, SLOWHOG
+	db 15, NOMSTER
+	db 14, SPRUNNY
 	db 20, SLOWHOG
 	db 17, JUNOBE
 

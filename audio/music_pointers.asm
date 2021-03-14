@@ -129,3 +129,4 @@ Music:
 	dba Music_LookArtist
 	dba Music_Illuxury
 	dba Music_Shiny
+	dba Music_Thismia

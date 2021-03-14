@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, GROUND ; type
-	db 100 ; catch rate
-	db 60 ; base exp
+	db 101 ; catch rate
+	db 101 ; base exp
 	db BERRY, SOFT_SAND ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

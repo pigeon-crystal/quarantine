@@ -45,6 +45,7 @@ TinTower1F_MapScripts:
 .FaceBeasts:
 	checkevent EVENT_FOUGHT_SUICUNE
 	iftrue .FoughtSuicune
+	playmusic MUSIC_TENSION
 	appear TINTOWER1F_SUICUNE
 	setval NIKUJIRA
 	special MonCheck

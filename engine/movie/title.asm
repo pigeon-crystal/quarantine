@@ -73,7 +73,7 @@ _TitleScreen:
 	call ByteFill
 
 ; 'QUARANTINE'
-	hlbgcoord 7, 9 ;orig 5_9
+	hlbgcoord 6, 9 ;orig 5_9
 	ld bc, 9 ; length of version text
 	ld a, 1
 	call ByteFill
@@ -119,16 +119,16 @@ _TitleScreen:
 	call DrawTitleGraphic
 	
 ; Draw "Quarantine"
-	hlcoord 7, 9
-	lb bc, 1, 7
+	hlcoord 6, 9
+	lb bc, 1, 8
 	ld d, $34
 	ld e, $3A
 	call DrawTitleGraphic
 	
 ; Draw "Crystal"
-	hlcoord 8, 10
+	hlcoord 7, 10
 	lb bc, 1, 6
-	ld d, $3B
+	ld d, $3C
 	ld e, $40
 	call DrawTitleGraphic
 	

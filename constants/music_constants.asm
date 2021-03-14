@@ -131,6 +131,7 @@
 	const MUSIC_ARTIST_ENCOUNTER
 	const MUSIC_ILLUXURY
 	const MUSIC_SHINY
+	const MUSIC_THISMIA
 
 ; GetMapMusic picks music for these values (see home/map.asm)
 MUSIC_ILEX_FOREST	EQU $fb

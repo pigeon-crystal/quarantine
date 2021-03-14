@@ -1,11 +1,11 @@
 	db SAPPURA ; 142
 
-	db  47, 64,  42, 39,  47,  64
+	db  47, 65,  42, 39,  47,  77
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, PSYCHIC_TYPE ; type
 	db 145 ; catch rate
-	db 55 ; base exp
+	db 70 ; base exp
 	db PNK_APRICORN, BERRY ; items
 	db GENDER_F100 ; gender ratio
 	db 100 ; unknown 1

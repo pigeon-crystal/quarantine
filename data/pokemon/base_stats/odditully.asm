@@ -1,6 +1,6 @@
 	db ODDITULLY ; 142
 
-	db  66, 110,  92, 69,  92,  92
+	db  70, 110,  92, 69,  92,  92
 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, DRAGON ; type

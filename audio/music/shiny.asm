@@ -10,7 +10,7 @@ Music_Shiny:
 Music_Shiny_Ch1:
 	tempo 101
 	dutycycle $0
-	notetype 12, $72
+	notetype 12, $82
 	octave 3
 	tone $0001
 	transpose 1, 7
@@ -53,12 +53,12 @@ Music_Shiny_Ch1:
 	sound_call .BAEAsub
 	sound_call .BAEAsub
 	transpose 0, 0
-	notetype 12, $A6
+	notetype 12, $B6
 	note B_, 6
 	note G#, 6
 	note F#, 4
 	;
-	notetype 12, $72
+	notetype 12, $82
 	transpose 1, 9
 	sound_call .BGEGsub
 	sound_call .BGEGsub
@@ -103,7 +103,7 @@ Music_Shiny_Ch1:
 	note A#, 1
 	note F#, 1
 	;
-	notetype 12, $96
+	notetype 12, $A6
 	dutycycle $3
 	octave 2
 	note G#, 2
@@ -178,7 +178,7 @@ Music_Shiny_Ch1:
 	note __, 2
 	octave 3
 	note C#, 6
-	notetype 12, $72
+	notetype 12, $82
 	tone $0001
 	dutycycle $0
 	octave 2
@@ -329,7 +329,7 @@ Music_Shiny_Ch1:
 	octave 4
 	note C#, 2
 	note __, 2
-	notetype 12, $97
+	notetype 12, $A7
 	note D#, 4
 	notetype 6, $60
 	note D_, 1
@@ -337,7 +337,7 @@ Music_Shiny_Ch1:
 	note C_, 1
 	octave 3
 	note B_, 1
-	notetype 12, $96
+	notetype 12, $A6
 	sound_ret
 
 ; ============================================================================================================
@@ -345,7 +345,7 @@ Music_Shiny_Ch1:
 Music_Shiny_Ch2:
 	vibrato 24, 2, 4
 	dutycycle $1
-	notetype 12, $96
+	notetype 12, $A6
 	octave 2
 	sound_call .intro
 	sound_call .intro
@@ -364,7 +364,7 @@ Music_Shiny_Ch2:
 	note A_, 2
 	note __, 2
 	octave 4
-	notetype 12, $97
+	notetype 12, $A7
 	note C#, 6
 .mainloop:
 	octave 3
@@ -384,7 +384,7 @@ Music_Shiny_Ch2:
 	sound_call .verse
 	note F_, 10
 	tone $0001
-	notetype 12, $96
+	notetype 12, $A6
 	octave 2
 	note F#, 2
 	note D#, 2

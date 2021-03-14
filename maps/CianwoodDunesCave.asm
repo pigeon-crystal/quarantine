@@ -15,7 +15,7 @@ CianwoodDunesCave_MapScripts:
 	db 0 ;map scripts
 
 TrainerGuruGojee:
-	trainer GURU, GOJEE, EVENT_BEAT_GURU_GOJEE, GuruGojeeSeenText, GuruGojeeBeatenText, 0, .Script
+	trainer GURU, GOJEE_GURU, EVENT_BEAT_GURU_GOJEE, GuruGojeeSeenText, GuruGojeeBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled

@@ -6,6 +6,7 @@ Drumkits:
 	dw Drumkit4
 	dw Drumkit5
 	dw Drumkit6
+	dw Drumkit7
 
 Drumkit0:
 	dw Drum00
@@ -104,6 +105,20 @@ Drumkit6: ; does not exist
 	dw Drum27
 	dw Snare13
 	dw Snare7
+	dw Drum00
+Drumkit7: ; does not exist
+	dw Drum00
+	dw Breathe1
+	dw Breathe2
+	dw Drum00
+	dw Drum00
+	dw Drum00
+	dw Drum00
+	dw Drum00
+	dw Drum00
+	dw Drum00
+	dw Drum00
+	dw Drum00
 	dw Drum00
 
 Drum00:
@@ -289,4 +304,38 @@ VocalF:
 	
 VocalK:
 	noise_note 32, 5, 1, 51
+	sound_ret
+	
+Breathe1:
+	noise_note 250, 1, 0, 107
+	noise_note 250, 2, 0, 107
+	noise_note 250, 3, 0, 107
+	noise_note 250, 4, 0, 107
+	noise_note 250, 5, 0, 107
+	noise_note 250, 6, 0, 107
+	noise_note 250, 7, 0, 107
+	noise_note 250, 6, 0, 107
+	noise_note 250, 5, 0, 107
+	noise_note 250, 4, 0, 107
+	noise_note 250, 3, 0, 107
+	noise_note 250, 2, 0, 107
+	noise_note 250, 1, 0, 107
+	noise_note 250, 0, 0, 107
+	sound_ret
+	
+Breathe2:
+	noise_note 250, 1, 0, 54
+	noise_note 250, 2, 0, 54
+	noise_note 250, 3, 0, 54
+	noise_note 250, 4, 0, 54
+	noise_note 250, 5, 0, 54
+	noise_note 250, 6, 0, 54
+	noise_note 250, 7, 0, 54
+	noise_note 250, 6, 0, 54
+	noise_note 250, 5, 0, 54
+	noise_note 250, 4, 0, 54
+	noise_note 250, 3, 0, 54
+	noise_note 250, 2, 0, 54
+	noise_note 250, 1, 0, 54
+	noise_note 250, 0, 0, 54
 	sound_ret
