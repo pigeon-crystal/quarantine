@@ -191,7 +191,7 @@ CreditsScript:
 	db CREDITS_SCENE, 3 ; Igglybuff
 
 ;	db     US_VERSION_STAFF, 2
-	db     QUARANTINE_STAFF, 2
+	db     QUARANTINE_STAFF, 1
 
 	db CREDITS_WAIT, 9
 
