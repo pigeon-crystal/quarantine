@@ -1597,7 +1597,7 @@ PokemaniacGroup:
 
 	; POKEMANIAC (4) Route 42
 	db "SHANE@", TRAINERTYPE_NORMAL
-	db 29, ONIONI
+	db 29, OBELITH
 	db 30, ODDITTEN
 	db 31, OBELITH
 	db -1 ; end

@@ -1,6 +1,6 @@
 	db DOLMITE ;
 	
-	db  55,  56,  89,  23, 25,  53
+	db  61,  59,  89,  23, 25,  53
 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, ROCK ; type

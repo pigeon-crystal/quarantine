@@ -105,8 +105,15 @@ JohtoWaterWildMons:
 	db 2 percent ; encounter rate
 	db 20, FLUFFRUIT
 	db 20, FLUFFRUIT
-	db 18, HOPLAQUE
-	db 25, BOWLIDE
+	db 18, FLUFFRUIT
+	db 26, SCRUFFRUIT
+	
+	map_id DARK_CAVE_MIDDLE 
+	db 3 percent
+	db 30, SCRUFFRUIT
+	db 21, FLUFFRUIT
+	db 19, HOPLAQUE
+	db 31, BOWLIDE
 
 	map_id DARK_CAVE_BLACKTHORN_ENTRANCE ;done
 	db 2 percent ; encounter rate

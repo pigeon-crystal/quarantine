@@ -1293,34 +1293,64 @@ JohtoGrassWildMons:
 	db 6, DOLMITE
 	db 6, ATTACKO
 	db 7, ATTACKO
+	
+	map_id DARK_CAVE_MIDDLE
+	db 5 percent, 5 percent, 5 percent ; encounter rates: morn/day/nite
+	;morn
+	db 20, DOLMITE
+	db 31, DOLMESA
+	db 32, SCRUFFRUIT
+	db 25, DOLMITE
+	db 33, DOLMESA
+	db 20, HOPLAQUE
+	db 21, HOPLAQUE
+	db 35, ATTACKO
+	;day
+	db 20, DOLMITE
+	db 31, DOLMESA
+	db 32, SCRUFFRUIT
+	db 25, DOLMITE
+	db 33, DOLMESA
+	db 20, HOPLAQUE
+	db 21, HOPLAQUE
+	db 35, ATTACKO
+	; NITE
+	db 20, DOLMITE
+	db 31, DOLMESA
+	db 32, SCRUFFRUIT
+	db 25, DOLMITE
+	db 33, DOLMESA
+	db 20, HOPLAQUE
+	db 21, HOPLAQUE
+	db 35, ATTACKO
 
 	map_id DARK_CAVE_BLACKTHORN_ENTRANCE
 	db 5 percent, 5 percent, 5 percent ; encounter rates: morn/day/nite
 	; morn
-	db 20, DOLMITE
-	db 37, SCORPEROR
-	db 38, DOLMESA
+	db 21, DOLMITE
+	db 40, SCORPEROR
+	db 39, DOLMESA
 	db 36, SMUCIOUS
-	db 20, HOPLAQUE
-	db 37, SCORPEROR
+	db 30, HOPLAQUE
+	db 44, SCORPEROR
 	db 36, KODOROYAH
 	db 36, SMUCIOUS
 	; day
-	db 20, DOLMITE
-	db 37, STINPEON
-	db 38, DOLMESA
+	db 21, DOLMITE
+	db 40, SCORPEROR
+	db 39, DOLMESA
 	db 36, SMUCIOUS
-	db 20, HOPLAQUE
-	db 37, SCORPEROR
+	db 30, HOPLAQUE
+	db 44, SCORPEROR
 	db 36, SMUCIOUS
 	db 36, KODOROYAH
 	; nite
-	db 20, DOLMITE
-	db 37, SCORPEROR
+	db 21, DOLMITE
+	db 44, SCORPEROR
 	db 38, DOLMESA
 	db 36, SMUCIOUS
 	db 20, HOPLAQUE
-	db 37, SCORPEROR
+	db 40, SCORPEROR
 	db 36, KODOROYAH
 	db 36, SMUCIOUS
 

@@ -51,6 +51,11 @@ PosterScript:
 	describedecoration DECODESC_POSTER
 	
 PlayersHouseRadioScript:
+	giveitem COIN_CASE
+	givecoins 9999
+	warp GOLDENROD_GAME_CORNER, 2, 12
+
+Sneedmode:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue .NormalRadio
 	checkevent EVENT_LISTENED_TO_INITIAL_RADIO

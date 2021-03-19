@@ -1128,7 +1128,8 @@ AmanigoEvosAttacks:
 	db 21, SLEEP_POWDER
 	db 24, MEGA_DRAIN
 	db 26, SPORE
-	db 33, AMNESIA
+	db 31, AMNESIA
+	db 35, GIGA_DRAIN
 	db 37, MEAN_LOOK
 	db 50, DARK_PULSE
 	db 0 ; no more level-up moves
@@ -1144,6 +1145,7 @@ YuggromiEvosAttacks:
 	db 21, SLEEP_POWDER
 	db 24, MEGA_DRAIN
 	db 28, SPORE
+	db 35, GIGA_DRAIN
 	db 37, MEAN_LOOK
 	db 42, DARK_PULSE
 	db 48, SLUDGE_BOMB
@@ -1773,9 +1775,10 @@ EelkieEvosAttacks:
 	db 25, MEGA_DRAIN
 	db 31, LEECH_SEED
 	db 33, SHADOW_BALL
-	db 39, STUN_SPORE
-	db 43, GIGA_DRAIN
-	db 46, MEGAHORN
+	db 35, STUN_SPORE
+	db 40, GIGA_DRAIN
+	db 41, RECOVER
+	db 42, MEGAHORN
 	db 0 ; no more level-up moves
 
 MossarreEvosAttacks:
@@ -1788,10 +1791,10 @@ MossarreEvosAttacks:
 	db 20, SPITE
 	db 26, MEGA_DRAIN
 	db 29, LEECH_SEED
-	db 34, SHADOW_BALL
-	db 37, RECOVER
-	db 40, STUN_SPORE
-	db 44, GIGA_DRAIN
+	db 33, STUN_SPORE
+	db 36, SHADOW_BALL
+	db 40, GIGA_DRAIN
+	db 44, RECOVER
 	db 47, MEGAHORN
 	db 60, HORN_DRILL
 	db 0 ; no more level-up moves
@@ -2139,7 +2142,7 @@ GeneropsisEvosAttacks:
 	db 0 ; no more level-up moves
 
 OscurasaEvosAttacks:
-	db EVOLVE_LEVEL, 40, MADRUGASA
+	db EVOLVE_LEVEL, 38, MADRUGASA
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, NIGHT_SHADE
@@ -2150,11 +2153,12 @@ OscurasaEvosAttacks:
 	db 20, SUBSTITUTE
 	db 22, WING_ATTACK
 	db 24, ATTRACT
+	db 27, BATON_PASS
 	db 29, PURSUIT
 	db 31, SWAGGER
 	db 36, AGILITY
-	db 42, DARK_PULSE
-	db 43, RAZOR_WIND
+	db 39, DARK_PULSE
+	db 41, RAZOR_WIND
 	db 44, PERISH_SONG
 	db 0 ; no more level-up moves
 
@@ -2172,12 +2176,13 @@ MadrugasaEvosAttacks:
 	db 20, SUBSTITUTE
 	db 22, WING_ATTACK
 	db 24, ATTRACT
+	db 27, BATON_PASS
 	db 29, PURSUIT
 	db 31, SWAGGER
 	db 36, AGILITY
-	db 39, DESTINY_BOND
-	db 42, DARK_PULSE
-	db 44, PERISH_SONG
+	db 37, DESTINY_BOND
+	db 40, DARK_PULSE
+	db 43, PERISH_SONG
 	db 46, RAZOR_WIND
 	db 0 ; no more level-up moves
 
@@ -3895,20 +3900,21 @@ YagagarasuEvosAttacks:
 	db 1, MEAN_LOOK
 	db 1, MIMIC
 	db 1, LEER
+	db 7, AMNESIA
 	db 10, PURSUIT
 	db 15, FALSE_SWIPE
 	db 20, CURSE
 	db 25, MEAN_LOOK
 	db 29, METAL_CLAW
-	db 35, DARK_PULSE
+	db 32, DARK_PULSE
 	db 35, MIMIC
 	db 36, AGILITY
 	db 39, DESTINY_BOND
 	db 40, SHADOW_CLAW
-	db 45, EARTHQUAKE
-	db 49, SWORDS_DANCE
-	db 55, THRASH
-	db 60, BATON_PASS
+	db 43, EARTHQUAKE
+	db 45, SWORDS_DANCE
+	db 50, THRASH
+	db 52, BATON_PASS
 	db 0 ; no more level-up moves
 
 UmberjerkEvosAttacks: ;TODO
@@ -3997,24 +4003,24 @@ KodoroyahEvosAttacks:
 	db 22, RAPID_SPIN
 	db 29, AMNESIA
 	db 35, DRAGONBREATH
-	db 44, DARK_PULSE
-	db 52, NASTY_PLOT
+	db 40, DARK_PULSE
+	db 50, NASTY_PLOT
 	db 0 ; no more level-up moves
 
 CasanocteEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TWISTER
 	db 1, GUST
-	db 22, RAPID_SPIN
-	db 22, WHIRLWIND
-	db 22, FOCUS_BLAST
+	db 10, RAPID_SPIN
+	db 15, WHIRLWIND
+	db 20, FOCUS_BLAST
 	db 29, AMNESIA
-	db 40, FLAMETHROWER
-	db 40, DRAGONBREATH
+	db 32, FLAMETHROWER
+	db 35, DRAGONBREATH
 	db 40, FLASH_CANNON
 	db 45, DARK_PULSE
-	db 52, HYPER_BEAM
-	db 65, NASTY_PLOT
+	db 50, HYPER_BEAM
+	db 60, NASTY_PLOT
 	db 0 ; no more level-up moves
 
 LamseedEvosAttacks:

@@ -1,17 +1,27 @@
-op/kaijuanon for the art. The heart and soul of this project.
-Varmintz for trainer sprites.
-Toothpaste for new music except for the "legend" theme, which was done by an anonymous artist.
-All the anonymous contributors for their design prompts, icons, flavor text, dex entries, and ideas.
+Art:
+op/kaijuanon/daz for the mon designs and sprites. The heart and soul of this project.
+Varmintz for trainer sprites, overworlds, and 
+Gojee for Lamseed line designs
+Autumnraptor for Nyalley designs
+beatrix cromwell for Todescool's design
+Varmintz and anonymous contributor for unown fossil tiles.
+Many anonymous contributors, Varmintz, TC, gueso and Emi Monserrate for menu icons.
+
+Music:
+Toothpaste for new music except for the "legend" theme, which was done by [I FORGOT THEIR NAME AGHHH]
+
+Coding:
 pret pokecrystal wiki and its many contributors for teaching me how to do .asm and doing 90% of the heavy lifting.
+CoralDev and pfero for more than I could reasonably list here. Thank you both so much.
 Ragni and TPP Anniversary Crystal Devs for Move Reminder code.
-CoralDev for loads of help with assembly code (thanks for teaching me how to use callbacks!)
-pfero for help with move reminder string printing, bugfixes, menus, and a hell of a lot more.
 Electro for help with added evolution methods.
 Cam with project management help.
 Seatree for Hyper Beam code.
-Soup/SourCrystal's dev for move animations for Earth Power and X-Scissor and help with palettes. 
-Many anonymous contributors, Varmintz, TC, gueso and Emi Monserrate for menu icons.
-Varmintz and anonymous contributor for unown fossil tiles.
-CaptainAhab and gojee for promo art.
+Soup/SourCrystal's dev for move animations.
+Gojee for many, many mon cries.
 
+ETC:
+CaptainAhab and gojee for promo art.
+All the anonymous contributors for their design prompts, icons, flavor text, dex entries, and ideas.
 /rheg/ and the rheg + pret + rhh discords for their support and help
+GigaSneed22
