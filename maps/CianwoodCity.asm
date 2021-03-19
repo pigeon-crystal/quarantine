@@ -233,11 +233,14 @@ ChucksWifeChubbyText:
 	done
 
 CianwoodCityYoungsterText:
-	text "If you use FLY,"
-	line "you can get back"
-
-	para "to OLIVINE in-"
-	line "stantly."
+	text "I heard CHUCK"
+	line "used to own"
+	
+	para "a fancy ocean"
+	line "condo."
+	
+	para "Seems out of"
+	line "character for him."
 	done
 
 CianwoodCityPokefanMText:
