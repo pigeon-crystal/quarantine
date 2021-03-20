@@ -647,18 +647,18 @@ MtNootEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, MIST
-	db 6, HARDEN
+	db 7, HARDEN
 	db 14, ICY_WIND
 	db 20, ENDURE
 	db 24, DRILL_PECK
-	db 29, AURORA_BEAM
-	db 33, SPIKES
-	db 36, SUBSTITUTE
-	db 40, SOFTBOILED
-	db 44, ICE_BEAM
-	db 46, EARTH_POWER
-	db 53, BLIZZARD
-	db 65, FISSURE
+	db 28, AURORA_BEAM
+	db 33, SUBSTITUTE
+	db 36, SOFTBOILED
+	db 40, SPIKES
+	db 43, ICE_BEAM
+	db 45, EARTH_POWER
+	db 52, BLIZZARD
+	db 62, FISSURE
 	db 0 ; no more level-up moves
 
 HexahedEvosAttacks:
