@@ -948,8 +948,8 @@ ParkBallDesc:
 	next "Contest BALL.@"
 
 RainbowWingDesc:
-	db   "A mystical feather"
-	next "of rainbow colors.@"
+	db   "A boombox sure to"
+	next "start a party.@"
 
 TeruSama24Desc:
 	db   "?@"

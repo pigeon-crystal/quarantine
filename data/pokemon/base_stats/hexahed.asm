@@ -5,7 +5,7 @@
 
 	db DARK, PSYCHIC_TYPE ; type
 	db 97 ; catch rate
-	db 97 ; base exp
+	db 137 ; base exp
 	db STARDUST, AMULET_COIN ; items
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1
@@ -13,7 +13,7 @@
 	db 5 ; unknown 2
 	INCBIN "gfx/pokemon/hexahed/front.dimensions"
 	dw NULL, NULL ; unused (beta front/back pics)
-	db GROWTH_SLIGHTLY_FAST ; growth rate
+	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
 
 	; tm/hm learnset

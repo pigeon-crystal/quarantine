@@ -252,7 +252,6 @@ FurnitEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, LEER
 	db 1, POUND
-	db 3, SAND_ATTACK
 	db 5, PECK
 	db 7, MUD_SLAP
 	db 11, GUST
@@ -311,9 +310,9 @@ NomsterEvosAttacks:
 	db 4, DEFENSE_CURL
 	db 7, BITE
 	db 9, ROLLOUT
-	db 16, HEADBUTT
-	db 19, ENDURE
-	db 21, QUICK_ATTACK
+	db 14, ENDURE
+	db 17, QUICK_ATTACK
+	db 20, HEADBUTT
 	db 22, DIG
 	db 28, REST
 	db 30, CRUNCH
@@ -332,7 +331,7 @@ NomsabreEvosAttacks:
 	db 19, ENDURE
 	db 21, HEADBUTT
 	db 22, HAMSTERKAUF
-	db 28, DIG
+	db 25, DIG
 	db 34, CRUNCH
 	db 38, HYPER_FANG
 	db 41, SUPER_FANG
@@ -663,11 +662,12 @@ MtNootEvosAttacks:
 	db 0 ; no more level-up moves
 
 HexahedEvosAttacks:
-	db EVOLVE_LEVEL, 44, ICOSAHED
+	db EVOLVE_LEVEL, 34, ICOSAHED
 	db 0 ; no more evolutions
 	db 1, DOUBLESLAP
-	db 1, PAY_DAY
+	db 1, MACH_PUNCH
 	db 1, CONFUSE_RAY
+	db 7, CONFUSION
 	db 10, PRESENT
 	db 15, PSYWAVE
 	db 20, METRONOME
@@ -677,6 +677,7 @@ HexahedEvosAttacks:
 	db 33, ENCORE
 	db 36, SHADOW_BALL
 	db 40, RAPID_SPIN
+	db 41, DARK_PULSE
 	db 54, MACH_PUNCH
 	db 57, BATON_PASS
 	db 0 ; no more level-up moves
@@ -684,8 +685,9 @@ HexahedEvosAttacks:
 IcosahedEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, DOUBLESLAP
-	db 1, PAY_DAY
+	db 1, MACH_PUNCH
 	db 1, CONFUSE_RAY
+	db 7, CONFUSION
 	db 10, PRESENT
 	db 15, PSYWAVE
 	db 20, MAGNITUDE
@@ -693,9 +695,9 @@ IcosahedEvosAttacks:
 	db 25, HEART_STAMP
 	db 30, METRONOME
 	db 33, ENCORE
+	db 33, NASTY_PLOT
 	db 36, SHADOW_BALL
 	db 40, RAPID_SPIN
-	db 43, NASTY_PLOT ; evo move
 	db 46, DARK_PULSE
 	db 51, PSYCHIC_M
 	db 54, MACH_PUNCH
@@ -1504,9 +1506,10 @@ CalfeenEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 1, LEER
-	db 10, LICK
-	db 15, FOCUS_ENERGY
-	db 19, CHARM
+	db 9, LICK
+	db 13, FOCUS_ENERGY
+	db 17, CHARM
+	db 20, HEADBUTT
 	db 24, DOUBLE_KICK
 	db 30, STOMP
 	db 34, AMNESIA
@@ -1519,6 +1522,7 @@ AmpalaEvosAttacks:
 	db 1, POUND
 	db 1, SPARK
 	db 1, LEER
+	db 1, HEADBUTT
 	db 10, LICK
 	db 15, FOCUS_ENERGY
 	db 19, CHARM
@@ -3318,12 +3322,13 @@ YuefoeEvosAttacks:
 	db 18, THUNDER_WAVE
 	db 24, BARRIER
 	db 29, RECOVER
+	db 33, THUNDERBOLT
 	db 36, LIGHT_SCREEN
 	db 39, CONFUSE_RAY
 	db 42, LOCK_ON
-	db 43, ZAP_CANNON
-	db 50, TRI_ATTACK
-	db 55, RAZOR_WIND
+	db 42, ZAP_CANNON
+	db 47, RAZOR_WIND
+	db 51, TRI_ATTACK
 	db 0 ; no more level-up moves
 
 ViruesEvosAttacks:
