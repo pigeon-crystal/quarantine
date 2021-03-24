@@ -45,14 +45,14 @@ BugContestant_PokefanMWilliam:
 BugContestant_BugCatcherBenny:
 	db BUG_CATCHER, BUG_CATCHER_BENNY
 	dbw CADDISICLE, 444
-	dbw GWUBBY,     395
-	dbw BUZZLING,   385
+	dbw GWUBBY,     405
+	dbw BUZZLING,   1
 
 BugContestant_CamperBarry:
 	db CAMPER, BARRY
 	dbw JADDICE,     501
-	dbw HIVEMAIM,    479
-	dbw GWUBBY,      414
+	dbw HIVEMAIM,    489
+	dbw GWUBBY,      434
 
 BugContestant_PicnickerCindy:
 	db PICNICKER, CINDY

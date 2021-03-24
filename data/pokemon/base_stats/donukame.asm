@@ -1,6 +1,6 @@
 	db DONUKAME ; 
 
-	db  250, 140, 5,  115, 155,  5
+	db  230, 140, 15,  115, 155,  15
 	;   hp  atk  def  spd  sat  sdf
 
 	db ELECTRIC, ELECTRIC ; type

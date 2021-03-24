@@ -229,7 +229,7 @@ TrainerGruntM19:
 
 RocketElectrode1:
 	cry CRUSTAZER
-	loadwildmon CRUSTAZER, 23
+	loadwildmon CRUSTAZER, 33
 	startbattle
 	iftrue TeamRocketBaseB2FReloadMap
 	disappear TEAMROCKETBASEB2F_ELECTRODE1
@@ -247,7 +247,7 @@ RocketElectrode1:
 
 RocketElectrode2:
 	cry CRUSTAZER
-	loadwildmon CRUSTAZER, 23
+	loadwildmon CRUSTAZER, 33
 	startbattle
 	iftrue TeamRocketBaseB2FReloadMap
 	disappear TEAMROCKETBASEB2F_ELECTRODE2
@@ -265,7 +265,7 @@ RocketElectrode2:
 
 RocketElectrode3:
 	cry CRUSTAZER
-	loadwildmon CRUSTAZER, 23
+	loadwildmon CRUSTAZER, 33
 	startbattle
 	iftrue TeamRocketBaseB2FReloadMap
 	disappear TEAMROCKETBASEB2F_ELECTRODE3

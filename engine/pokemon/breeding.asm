@@ -60,9 +60,9 @@ CheckBreedmonCompatibility:
 	ld b, a
 	ld a, [wBreedMon1Species]
 	cp b
-	ld c, 254
-	jr z, .compare_ids
 	ld c, 128
+	jr z, .compare_ids
+	ld c, 77
 .compare_ids
 	; Speed up
 	ld a, [wBreedMon1ID]
@@ -76,7 +76,7 @@ CheckBreedmonCompatibility:
 	cp b
 	jr nz, .done
 	ld a, c
-	sub 77
+	sub 64
 	ld c, a
 
 .done

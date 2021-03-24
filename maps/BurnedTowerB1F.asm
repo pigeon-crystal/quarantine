@@ -94,9 +94,39 @@ ReleaseTheBeasts:
 	changeblock 6, 14, $1b ; ladder
 	reloadmappart
 	closetext
+	callasm SetNikujiraSeen
+	callasm SetTerratoraSeen
+	callasm SetRyunariSeen
 	setscene SCENE_FINISHED
 	end
 
+SetNikujiraSeen:
+    ld a, NIKUJIRA
+    dec a
+    ld c, a
+    ld b, SET_FLAG
+    ld hl, wPokedexSeen
+    predef SmallFarFlagAction
+    ret
+
+SetTerratoraSeen:
+    ld a, TERRATORA
+    dec a
+    ld c, a
+    ld b, SET_FLAG
+    ld hl, wPokedexSeen
+    predef SmallFarFlagAction
+    ret
+	
+SetRyunariSeen:
+    ld a, RYUNARI
+    dec a
+    ld c, a
+    ld b, SET_FLAG
+    ld hl, wPokedexSeen
+    predef SmallFarFlagAction
+    ret
+	
 BurnedTowerB1FEusine:
 	faceplayer
 	opentext
@@ -253,8 +283,8 @@ BurnedTowerB1F_MapEvents:
 	db 9 ; object events
 	object_event 17,  8, SPRITE_BOULDER, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BurnedTowerB1FBoulder, -1
 	object_event  7,  3, SPRITE_TERRATORA, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_BURNED_TOWER_B1F_BEASTS_1
-	object_event 12,  3, SPRITE_NIKUJIRA, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_BURNED_TOWER_B1F_BEASTS_1
-	object_event 10,  4, SPRITE_RYUNARI, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_BURNED_TOWER_B1F_BEASTS_1
+	object_event 12,  3, SPRITE_NIKUJIRA, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_BURNED_TOWER_B1F_BEASTS_1
+	object_event 10,  4, SPRITE_RYUNARI, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_BURNED_TOWER_B1F_BEASTS_1
 	object_event  7,  3, SPRITE_TERRATORA, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_SILVER, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_BURNED_TOWER_B1F_BEASTS_2
 	object_event 12,  3, SPRITE_NIKUJIRA, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_SILVER, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_BURNED_TOWER_B1F_BEASTS_2
 	object_event 10,  4, SPRITE_RYUNARI, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_SILVER, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_BURNED_TOWER_B1F_BEASTS_2

@@ -1314,10 +1314,9 @@ GnomercyEvosAttacks:
 	db 33, CRUNCH
 	db 38, GIGA_DRAIN
 	db 42, DARK_PULSE
-	db 55, SUNNY_DAY
-	db 56, MORNING_SUN
-	db 57, SOLARBEAM
-	db 59, DARK_PULSE
+	db 44, SUNNY_DAY
+	db 50, MORNING_SUN
+	db 54, SOLARBEAM
 	db 0 ; no more level-up moves
 
 SliscesEvosAttacks:
@@ -2611,13 +2610,13 @@ WellwitchEvosAttacks:
 	db 23, GIGA_DRAIN
 	db 27, ANCIENTPOWER
 	db 32, SUPER_FANG
-	db 37, STUN_SPORE
+	db 36, STUN_SPORE
 	db 40, ROCK_SLIDE
-	db 46, ACCELEROCK
-	db 50, PETAL_DANCE
-	db 52, LIQUIDATION
-	db 54, CRUNCH
-	db 56, LEECH_LIFE
+	db 44, ACCELEROCK
+	db 48, PETAL_DANCE
+	db 51, LIQUIDATION
+	db 53, CRUNCH
+	db 55, LEECH_LIFE
 	db 0 ; no more level-up moves
 
 TherazorEvosAttacks:

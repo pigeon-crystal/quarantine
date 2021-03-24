@@ -1,6 +1,6 @@
 	db AVATRICE ; 142
 
-	db  110, 110,  150, 65,  85,  150
+	db  101, 101,  151, 65,  101,  151
 	;   hp  atk  def  spd  sat  sdf
 
 	db DRAGON, DRAGON ; type
