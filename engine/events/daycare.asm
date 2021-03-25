@@ -585,11 +585,30 @@ DayCare_InitBreeding:
 	ld a, [wBreedMon2Species]
 
 .GotMother:
-	ld [wCurPartySpecies], a
-	callfar GetPreEvolution
-	callfar GetPreEvolution
-	ld a, EGG_LEVEL
-	ld [wCurPartyLevel], a
+    ld [wCurPartySpecies], a
+    cp KITSYNA
+    jr z, .kordy
+    cp GIGASYNAPA
+    jr z, .kordy
+	cp CERKITAYSA
+	jr z, .kordy
+	cp SORDRAENA
+	jr z, .kordy
+	cp TYRDRAGA
+	jr z, .kordy
+	cp AERFAEDRA
+	jr z, .kordy
+.return
+    callfar GetPreEvolution
+    callfar GetPreEvolution
+    ld a, EGG_LEVEL
+    ld [wCurPartyLevel], a
+    jr .not_kordy
+.kordy
+    ld a, KORDIENA
+    ld [wCurPartySpecies], a
+    jr .return
+.not_kordy
 
 ; Nidoran♀ can give birth to either gender of Nidoran
 	ld a, [wCurPartySpecies]

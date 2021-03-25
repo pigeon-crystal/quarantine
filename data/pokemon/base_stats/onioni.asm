@@ -4,7 +4,7 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, FIGHTING ; type
-	db 95 ; catch rate
+	db 90 ; catch rate
 	db 109 ; base exp
 	db GRN_APRICORN, GRN_APRICORN ; items
 	db GENDER_F25 ; gender ratio

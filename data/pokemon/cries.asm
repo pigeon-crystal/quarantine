@@ -138,7 +138,7 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,      272,  310 ; MANDELBLOB
 	mon_cry CRY_PIDGEY,      172,  310 ; HELACTAL
 	mon_cry CRY_VENONAT,     136,  224 ; NOOMSDAY
-	mon_cry CRY_VENONAT,     170,  383 ; GANZORAH
+	mon_cry $2A,     		$9012, $029F ; GANZORAH
 	mon_cry CRY_VENONAT,      61,  256 ; JOLTEON
 	mon_cry CRY_VENONAT,      16,  160 ; FLAREON
 	mon_cry CRY_WEEPINBELL,  170,  383 ; PORYGON
@@ -208,7 +208,7 @@ PokemonCries::
 	mon_cry $3A,   			$02EF, $00FF ; UNOWN
 	mon_cry CRY_DUNSPARCE,   273,  369 ; RESPECTRE
 	mon_cry CRY_GIRAFARIG,    65,  512 ; SWAZZAGE
-	mon_cry CRY_SLOWKING,    128,  256 ; SHREDDRAKE
+	mon_cry $15,    		$052C,  $016C ; SHREDDRAKE
 	mon_cry $03,      		  $1A87,  $0181 ; ALIGRO
 	mon_cry CRY_DUNSPARCE,   841,  206 		; ATTACKO
 	mon_cry CRY_GLIGAR,       69,  231 		; WIWRIGHT
@@ -249,7 +249,7 @@ PokemonCries::
 	mon_cry CRY_VILEPLUME,   133,  455 ; ODDITULLY
 	mon_cry $1C,      		$03AA,  $017F ; ANDROMEGA
 	mon_cry $32,         	$0AFB,  $01B0 ; SLAATEL
-	mon_cry CRY_MAGCARGO,      0,  384 ; RYUNARI
+	mon_cry $09,      $0108,  $00ef ; RYUNARI
 	mon_cry $3C,     	  	$07EC,  $001E ; YUKITTEN
 	mon_cry $3C,  			$04ED,  $004E ; FLURIKEN
 	mon_cry $3C,   		  	$0C52,  $0027 ; SNOKAGE

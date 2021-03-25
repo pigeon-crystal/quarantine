@@ -275,7 +275,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 	
 .VersionNumberText
-	db "v0.509@"
+	db "v0.50a@"
 
 .min
 ; unused

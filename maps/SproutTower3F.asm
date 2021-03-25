@@ -152,7 +152,7 @@ MovementData_0x184a24:
 	step_end
 
 SproutTowerElderLecturesRivalText:
-	text "ELDER: You are in-"
+	text "GURU: You are in-"
 	line "deed skilled as a"
 	cont "trainer."
 
@@ -177,7 +177,7 @@ SproutTowerRivalOnlyCareAboutStrongText:
 	line "…Humph!"
 
 	para "He claims to be"
-	line "the ELDER but"
+	line "the GURU but"
 	cont "he's weak."
 
 	para "It stands to"
@@ -185,16 +185,14 @@ SproutTowerRivalOnlyCareAboutStrongText:
 
 	para "Flowery rhetoric"
 	line "means nothing if"
-	cont "you don't have"
-	cont "the strength to"
-	cont "back it up."
+	cont "you aren't able"
+	cont "to back it up."
 
 	para "Listen up!"
 
 	para "I'll gain the"
-	line "strength to make"
-	cont "my goals intro"
-	cont "reality:"
+	line "strength to see"
+	cont "my goals through."
 	
 	para "I'm going to be"
 	line "the strongest"
@@ -331,7 +329,7 @@ SageTroyBeatenText:
 
 SageTroyAfterBattleText:
 	text "It is not far to"
-	line "the ELDER."
+	line "the GURU."
 	
 	para "His battle prowess"
 	line "far surpasses"
@@ -339,7 +337,7 @@ SageTroyAfterBattleText:
 	done
 
 SageNealSeenText:
-	text "The ELDER's HM"
+	text "The GURU's HM"
 	line "will brighten even"
 	cont "the darkest of"
 	cont "caves!"

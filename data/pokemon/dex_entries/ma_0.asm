@@ -1,10 +1,11 @@
 	db "WEAPON@" ; species name
 	dw 4200, 61108 ; height, weight
 
-	db   "An ancient and"
-	next "seemingly artifical"
-	next "creature. Blinding"
+    db   "Cleansing light"
+    next "emits from the"
+    next "tips of its black,"
 
-	page "light emits from the"
-	next "tips of its black."
-	next "twisting cables.@"
+    page "twisting cables."
+    next "Only the blind can"
+    next "lead us now.@"
+

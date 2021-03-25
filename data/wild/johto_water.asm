@@ -6,51 +6,51 @@ JohtoWaterWildMons:
 	map_id RUINS_OF_ALPH_OUTSIDE ;done
 	db 3 percent ; encounter rate
 	db 25, LANATUN
-	db 20, STIKLBRAT
-	db 22, LANATUN
-	db 20, CHERNOMUSK			; chelonukes standin
+	db 25, STIKLBRAT
+	db 25, LANATUN
+	db 23, CHERNOMUSK			; chelonukes standin
 
 	map_id UNION_CAVE_1F ;done
 	db 2 percent ; encounter rate
-	db 15, GOOSAPLING
-	db 20, STIKLBRAT
-	db 15, STIKLBRAT
+	db 22, GOOSAPLING
+	db 22, STIKLBRAT
+	db 22, STIKLBRAT
 	db 25, LANATUN
 
 	map_id UNION_CAVE_B1F ;done
 	db 2 percent ; encounter rate
 	db 25, GOOSAPLING
-	db 21, STIKLBRAT
+	db 25, STIKLBRAT
 	db 25, STIKLBRAT
 	db 25, LANATUN
 
 	map_id UNION_CAVE_B2F ;done
 	db 4 percent ; encounter rate
-	db 22, GOOSAPLING
+	db 25, GOOSAPLING
 	db 25, STIKLBRAT
 	db 28, STIKLBRAT
-	db 30, BOWLIDE
+	db 36, BOWLIDE
 
 	map_id SLOWPOKE_WELL_B1F ;done
 	db 2 percent ; encounter rate
-	db 22, CUTTLE
-	db 23, CUTTLE
-	db 27, TENDRILL
-	db 27, TENDRILL
+	db 30, CUTTLE
+	db 32, CUTTLE
+	db 32, TENDRILL
+	db 33, TENDRILL
 
 	map_id SLOWPOKE_WELL_B2F ;done
 	db 2 percent ; encounter rate
-	db 30, TENDRILL
-	db 20, CUTTLE
-	db 30, TENDRILL
-	db 33, BOWLIDE
+	db 32, TENDRILL
+	db 30, CUTTLE
+	db 31, TENDRILL
+	db 37, BOWLIDE
 
 	map_id ILEX_FOREST ;done
 	db 3 percent ; encounter rate
 	db 25, LANATUN
 	db 25, LANATUN
-	db 27, TODESCOOL
-	db 29, TODESCOOL
+	db 31, TODESCOOL
+	db 32, TODESCOOL
 
 	map_id MOUNT_MORTAR_1F_OUTSIDE ;done
 	db 4 percent ; encounter rate
@@ -131,23 +131,23 @@ JohtoWaterWildMons:
 
 	map_id OLIVINE_PORT ;done
 	db 2 percent ; encounter rate
-	db 20, PRAWMATE
-	db 15, BUDGANEER 		;parrot standin
-	db 20, SLISCES	; barberfish standin
-	db 25, UPWHALE
+	db 30, PRAWMATE
+	db 33, BUDGANEER 		;parrot standin
+	db 33, SLISCES	; barberfish standin
+	db 20, UPWHALE
 
 	map_id ROUTE_30 ;done
 	db 2 percent ; encounter rate
-	db 20, LANATUN
-	db 15, STIKLBRAT
-	db 20, GOOSAPLING
+	db 25, LANATUN
+	db 25, STIKLBRAT
+	db 25, GOOSAPLING
 	db 25, LANATUN
 
 	map_id ROUTE_31 ;done
 	db 2 percent ; encounter rate
-	db 20, LANATUN
-	db 15, STIKLBRAT
-	db 20, GOOSAPLING
+	db 25, LANATUN
+	db 25, STIKLBRAT
+	db 25, GOOSAPLING
 	db 25, LANATUN
 
 	map_id ROUTE_32 ;done
@@ -222,24 +222,24 @@ JohtoWaterWildMons:
 
 	map_id CHERRYGROVE_CITY ;done
 	db 6 percent ; encounter rate
-	db 20, PRAWMATE
-	db 15, PRAWMATE
-	db 20, STRANGLURE
-	db 22, SQWUCKY
+	db 25, PRAWMATE
+	db 26, PRAWMATE
+	db 27, STRANGLURE
+	db 28, SQWUCKY
 
 	map_id VIOLET_CITY ;done
 	db 2 percent ; encounter rate
-	db 20, LANATUN
-	db 15, GOOSAPLING
-	db 20, LANATUN
-	db 30, GOOSAPLING
+	db 25, LANATUN
+	db 25, GOOSAPLING
+	db 27, LANATUN
+	db 28, GOOSAPLING
 
 	map_id CIANWOOD_CITY ;done
 	db 6 percent ; encounter rate
-	db 20, PRAWMATE
-	db 15, BUDGANEER 		;parrot standin
-	db 20, SLISCES	; barberfish standin
-	db 25, UPWHALE
+	db 25, PRAWMATE
+	db 26, BUDGANEER 		;parrot standin
+	db 27, SLISCES	; barberfish standin
+	db 28, UPWHALE
 
 	map_id OLIVINE_CITY ;done
 	db 6 percent ; encounter rate
@@ -250,10 +250,10 @@ JohtoWaterWildMons:
 
 	map_id ECRUTEAK_CITY ;done
 	db 2 percent ; encounter rate
-	db 20, STIKLBRAT
-	db 15, LANATUN
-	db 20, GOOSAPLING
-	db 25, GOOSAPLING
+	db 25, STIKLBRAT
+	db 26, LANATUN
+	db 27, GOOSAPLING
+	db 28, GOOSAPLING
 
 	map_id LAKE_OF_RAGE ;done
 	db 6 percent ; encounter rate
@@ -264,10 +264,10 @@ JohtoWaterWildMons:
 
 	map_id BLACKTHORN_CITY ;done
 	db 4 percent ; encounter rate
-	db 15, STIKLBRAT
-	db 10, STIKLBRAT
-	db 5, STIKLBRAT
-	db 8, HOPLAQUE
+	db 35, STIKLBRAT
+	db 35, STIKLBRAT
+	db 35, STIKLBRAT
+	db 38, HOPLAQUE
 
 	map_id SILVER_CAVE_OUTSIDE ;done
 	db 2 percent ; encounter rate

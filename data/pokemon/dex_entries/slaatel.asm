@@ -1,10 +1,10 @@
 	db "OBEDIENCE@" ; species name
 	dw 709, 4175 ; height, weight
 
-	db   "Long ago, this"
-	next "#MON was tamed"
-	next "by mystic chains"
+    db   "Chains beyond our"
+    next "understanding bind"
+    next "its draconic body."
 
-	page "that ensured its"
-	next "obedience. Few"
-	next "SLAATTEL exist.@"
+    page "Soon, we will face"
+    next "what our ancestors"
+    next "could not.@"

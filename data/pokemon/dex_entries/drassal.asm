@@ -1,10 +1,10 @@
 	db "HORDE@" ; species name
 	dw 307, 521 ; height, weight
 
-	db   "All DRASSAL share"
-	next "a mental link"
-	next "with AVATRICE,"
+    db   "A kleptomaniac"
+    next "that does not keep"
+    next "its stolen goods."
 
-	page "who commands"
-	next "them to steal"
-	next "riches for it.@"
+    page "Who is it trying"
+    next "to appease, and"
+    next "why aren't we?@"

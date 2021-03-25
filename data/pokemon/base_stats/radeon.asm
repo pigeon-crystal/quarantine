@@ -1,6 +1,6 @@
 	db RADEON ; this mon only becomes fire/steel at the last stage because fire/steel is a fucking incredible typing
  
-    db 51,  65,  55,   46,  51,  42
+    db 51,  65,  55,   45,  54,  40
     ;   hp  atk  def  spd  sat  sdf
  
     db FIRE, FIRE ; type
