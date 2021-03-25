@@ -2985,8 +2985,9 @@ WendigauntEvosAttacks:
 	db 38, NASTY_PLOT
 	db 43, LEECH_SEED
 	db 47, SHADOW_BONE
-	db 51, BONE_RUSH
-	db 55, SPIKES
+	db 50, BONE_RUSH
+	db 53, SPIKES
+	db 56, PAIN_SPLIT
 	db 0 ; no more level-up moves
 
 PurraatzleEvosAttacks:
@@ -3000,13 +3001,13 @@ PurraatzleEvosAttacks:
 	db 17, WRAP
 	db 21, BITE
 	db 27, SAFEGUARD
-	db 32, BIBBIDI_BOP
+	db 31, BIBBIDI_BOP
 	db 35, SUBSTITUTE
-	db 38, FIRE_SPIN
+	db 37, FIRE_SPIN
 	db 40, WILL_O_WISP
 	db 43, PLAY_ROUGH
-	db 48, FLAMETHROWER
-	db 53, CRUNCH
+	db 46, FLAMETHROWER
+	db 51, CRUNCH
 	db 0 ; no more level-up moves
 
 NuckawheezEvosAttacks:
@@ -3023,8 +3024,8 @@ NuckawheezEvosAttacks:
 	db 30, SCREECH
 	db 32, TOXIC
 	db 37, RAIN_DANCE
-	db 42, SLUDGE_BOMB
-	db 45, PERISH_SONG
+	db 40, SLUDGE_BOMB
+	db 43, PERISH_SONG
 	db 50, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
@@ -3038,9 +3039,9 @@ MurdermisEvosAttacks:
 	db 22, HYPNOSIS
 	db 30, SCARY_FACE
 	db 38, DARK_PULSE
-	db 44, GLARE
-	db 48, SHADOW_BALL
-	db 50, MOONBLAST
+	db 42, GLARE
+	db 45, SHADOW_BALL
+	db 49, MOONBLAST
 	db 52, MOONLIGHT
 	db 0 ; no more level-up moves
 
@@ -3056,8 +3057,8 @@ WormeekEvosAttacks:
 	db 20, MAGNITUDE
 	db 31, BODY_SLAM
 	db 36, SWIFT
-	db 46, EARTHQUAKE
-	db 50, LEECH_LIFE
+	db 45, EARTHQUAKE
+	db 47, LEECH_LIFE
 	db 0 ; no more level-up moves
 
 WormachoEvosAttacks:
@@ -3130,7 +3131,7 @@ CrustazerEvosAttacks:
 	db 46, GIGA_DRAIN
 	db 50, EXPLOSION
 	db 52, MEGAHORN
-	db 57, THUNDER
+	db 55, THUNDER
 	db 0 ; no more level-up moves
 
 StranglureEvosAttacks:
@@ -3200,8 +3201,8 @@ NimboremEvosAttacks:
 	db 23, SPARK
 	db 26, RAPID_SPIN
 	db 29, BUBBLEBEAM
-	db 33, ICY_WIND
-	db 36, RAZOR_WIND
+	db 32, ICY_WIND
+	db 35, RAZOR_WIND
 	db 40, TWISTER
 	db 49, HAZE
 	db 0 ; no more level-up moves
@@ -3219,12 +3220,12 @@ StratowarEvosAttacks:
 	db 23, SPARK
 	db 26, RAPID_SPIN
 	db 29, BUBBLEBEAM
-	db 33, ICY_WIND
-	db 36, RAZOR_WIND
+	db 32, ICY_WIND
+	db 35, RAZOR_WIND
 	db 40, TWISTER
 	db 41, THUNDER
 	db 44, HAZE
-	db 55, HYDRO_PUMP
+	db 53, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
 TranquielEvosAttacks:
