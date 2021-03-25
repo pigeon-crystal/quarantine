@@ -336,9 +336,12 @@ LanatunEggMoves:
 
 LamyglamaEggMoves:
 	db PSYCHO_CUT
+	db EXPLOSION
+	db PLAY_ROUGH
 	db -1 ; end
 	
 DjammEggMoves:
+	db WRAP
     db CLAMP
     db THUNDER_WAVE
     db DARK_PULSE

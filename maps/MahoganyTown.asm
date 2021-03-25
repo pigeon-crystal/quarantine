@@ -189,8 +189,9 @@ MahoganyTownGrampsText:
 	line "poor #MON"
 	cont "at the lake…"
 	
-	para "Won't somebody"
-	line "do something?"
+	para "The pollution is"
+	line "even hurting the"
+	cont "HOATOXIC!"
 	done
 
 MahoganyTownGrampsText_ClearedRocketHideout:
@@ -212,12 +213,15 @@ MahoganyTownFisherText:
 	line "north and check"
 
 	para "out LAKE OF RAGE"
-	line "right now………"
+	line "right now…"
 	
 	para "That's what I'd"
 	line "normally say, but"
 	cont "something's not"
 	cont "right."
+	
+	para "All the #MON…"
+	line "They're not well."
 	done
 
 MahoganyTownLassText:
