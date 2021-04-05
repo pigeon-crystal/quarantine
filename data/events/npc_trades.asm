@@ -9,7 +9,7 @@ ENDM
 NPCTrades:
 ; entries correspond to NPCTRADE_* constants
 	npctrade TRADE_DIALOGSET_COLLECTOR, AMBINNI,    ZASTER,     "HYUNDIE@@@@", $87, $a6, METAL_COAT, 		37460, 		"MIKE@@@@@@@", TRADE_GENDER_EITHER ; goldenrod department
-	npctrade TRADE_DIALOGSET_GIRL,      LAWNIE,     SNOSEBLEED, "SQUATCH@@@@", $88, $88, BITTER_BERRY, 		48926, 		"KYLE@@@@@@@", TRADE_GENDER_FEMALE ; violet city
+	npctrade TRADE_DIALOGSET_NEWBIE,    LAWNIE,     SNOSEBLEED, "SQUATCH@@@@", $88, $88, BITTER_BERRY, 		48926, 		"KYLE@@@@@@@", TRADE_GENDER_FEMALE ; violet city
 	npctrade TRADE_DIALOGSET_HAPPY,     NIMBOREM,   LAMYGLAMA,  "KOOL-AID@@@", $98, $88, MIRACLEBERRY, 		29420, 		"TIM@@@@@@@@", TRADE_GENDER_EITHER ; olivine
 	npctrade TRADE_DIALOGSET_GIRL,      SLOWHOG,  	ALIGRO,     "IFRIT@@@@@@", $77, $99, SMOKE_BALL,   		00283, 		"EMY@@@@@@@@", TRADE_GENDER_EITHER ; blackthorn
 	npctrade TRADE_DIALOGSET_NEWBIE,    SCRUFFRUIT, SQUEENIE,   "FONDA@@@@@@", $96, $86, MYSTERYBERRY, 		15616, 		"CHRIS@@@@@@", TRADE_GENDER_EITHER ; pewter

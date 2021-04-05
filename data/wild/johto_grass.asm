@@ -1689,7 +1689,7 @@ JohtoGrassWildMons:
 	; morn
 	db 34, ONIONI
 	db 29, LAMSEED
-	db 29, LAMSEED
+	db 30, LAMSEED
 	db 34, MAULZER
 	db 32, BUDGANEER		; placeholder for parrot
 	db 38, SLOWHOG
@@ -1698,7 +1698,7 @@ JohtoGrassWildMons:
 	; day
 	db 34, ONIONI
 	db 29, LAMSEED
-	db 29, LAMSEED
+	db 30, LAMSEED
 	db 34, MAULZER
 	db 32, BUDGANEER		; placeholder for parrot
 	db 38, SLOWHOG
@@ -1707,11 +1707,11 @@ JohtoGrassWildMons:
 	; nite
 	db 34, ONIONI
 	db 29, LAMSEED
-	db 29, LAMSEED
+	db 30, LAMSEED
 	db 34, MAULZER
 	db 32, BUDGANEER		; placeholder for parrot
 	db 35, MURDERMIS
-	db 38, SLOWHOG
+	db 39, SLOWHOG
 	db 37, MURDERMIS
 	
 	map_id ROUTE_41 

@@ -852,22 +852,47 @@ LabWhereGoingText:
 	done
 
 TakeCyndaquilText:
-	text "ELM: You'll take"
-	line "RADEON, the"
-	cont "fire #MON?"
-	done
+    text "ELM: So, you're"
+    line "curious about"
+    cont "RADEON?"
+    
+    para "It's becoming"
+    line "rather popular"
+    cont "as of late."
+    
+    para "You'll take"
+    line "RADEON, the"
+    cont "fire #MON?"
+    done
 
 TakeTotodileText:
-	text "ELM: Do you want"
-	line "NUTANUK, the"
-	cont "water #MON?"
-	done
+    text "ELM: I see"
+    line "NUTANUK has"
+    cont "caught your eye!"
+    
+    para "You'll find that"
+    line "it's quite a"
+    cont "reliable #MON."
+    
+    para "Do you want"
+    line "NUTANUK, the"
+    cont "water #MON?"
+    done
 
 TakeChikoritaText:
-	text "ELM: So, you like"
-	line "CIGERILLAR, the"
-	cont "grass #MON?"
-	done
+    text "ELM: Oh! You're"
+    line "interested in"
+    cont "CIGERILLAR?"
+    
+    para "It's a tough"
+    line "#MON to raise,"
+    cont "but rewarding!"
+    
+    para "So, you like"
+    line "CIGERILLAR, the"
+    cont "grass #MON?"
+    done
+
 
 DidntChooseStarterText:
 	text "ELM: Think it over"

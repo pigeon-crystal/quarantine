@@ -125,7 +125,7 @@ CianwoodDunesCaveOddAmber:
 	itemball ODD_AMBER
 	
 CianwoodDunesCaveSunStone:
-	itemball SUN_STONE
+	itemball FIRE_STONE
 	
 CianwoodDunesCaveFirePunch:
 	itemball TM_FIRE_PUNCH

@@ -765,6 +765,7 @@ KRIS EQU __enum__
 	const ENGINEER_1
 	const ENGINEER_2
 	const ENGINEER_3
+	const ENGINEER_WAREHOUSE
 	
 	trainerclass SKEPTIC ; 50
 	const TED_2

@@ -6,26 +6,26 @@ ENDM
 OddEggProbabilities:
 prob_total = 0
 ; Wyrmometer
-	prob 8
-	prob 1
+	prob 9
+	prob 3
 ; Smucious
-	prob 16
+	prob 13
 	prob 3
 ; Kodoroyah
-	prob 16
+	prob 13
 	prob 3
 ; Hoplaque
-	prob 14
-	prob 2
-; Peauty
+	prob 13
+	prob 3
+; Upwhale
 	prob 10
-	prob 2
+	prob 3
 ; Plantenna
 	prob 12
 	prob 2
 ; Clibble
 	prob 10
-	prob 1
+	prob 3
 
 OddEggs:
 
@@ -237,37 +237,37 @@ OddEggs:
 	bigdw 15 ; SDef
 	db "EGG@@@@@@@@"
 
-	db PEAUTY
+	db UPWHALE
 	db NO_ITEM
-	db PECK, TELEPORT, METRONOME, SPITE
+	db GROWL, WATER_GUN, CALM_MIND, SPITE
 	dw 02560 ; OT ID
-	dt 313 ; Exp
+	dt 135 ; Exp
 	; Stat exp
 	bigdw 0
 	bigdw 0
 	bigdw 0
 	bigdw 0
 	bigdw 0
-	dn 15, 8, 10, 14 ; DVs
+	dn 9, 15, 15, 10 ; DVs
 	db 35, 20, 10, 10 ; PP
 	db 20 ; Step cycles to hatch
 	db 0, 0, 0 ; Pokerus, Caught data
 	db 5 ; Level
 	db 0, 0 ; Status
 	bigdw 0 ; HP
-	bigdw 19 ; Max HP
-	bigdw 10 ; Atk
-	bigdw 8 ; Def
-	bigdw 10 ; Spd
-	bigdw 11 ; SAtk
-	bigdw 11 ; SDef
+	bigdw 28 ; Max HP
+	bigdw 11 ; Atk
+	bigdw 14 ; Def
+	bigdw 12 ; Spd
+	bigdw 16 ; SAtk
+	bigdw 14 ; SDef
 	db "EGG@@@@@@@@"
 
-	db PEAUTY
+	db UPWHALE ; shiny
 	db NO_ITEM
-	db PECK, TELEPORT, METRONOME, SPITE
+	db GROWL, WATER_GUN, CALM_MIND, SPITE
 	dw 00512 ; OT ID
-	dt 313 ; Exp
+	dt 135 ; Exp
 	; Stat exp
 	bigdw 0
 	bigdw 0
@@ -281,12 +281,12 @@ OddEggs:
 	db 5 ; Level
 	db 0, 0 ; Status
 	bigdw 0 ; HP
-	bigdw 19 ; Max HP
+	bigdw 27 ; Max HP
 	bigdw 10 ; Atk
-	bigdw 8  ; Def
-	bigdw 10 ; Spd
-	bigdw 11 ; SAtk
-	bigdw 11 ; SDef
+	bigdw 14  ; Def
+	bigdw 12 ; Spd
+	bigdw 16 ; SAtk
+	bigdw 13 ; SDef
 	db "EGG@@@@@@@@"
 
 	db PLANTENNA

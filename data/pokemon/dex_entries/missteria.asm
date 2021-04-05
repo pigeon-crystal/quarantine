@@ -1,10 +1,10 @@
 	db "TORMENT@" ; species name
 	dw 104, 44 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "The spirit of"
+	next "this #MON is"
+	next "always tense and"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "on edge. It can't"
+	next "seem to get a"
+	next "grasp on life.@"

@@ -32,6 +32,7 @@ GENDER_F12_5   EQU 12 percent + 1
 GENDER_F25     EQU 25 percent
 GENDER_F50     EQU 50 percent
 GENDER_F75     EQU 75 percent
+GENDER_F98	   EQU 98 percent
 GENDER_F100    EQU 100 percent - 1
 GENDER_UNKNOWN EQU -1
 

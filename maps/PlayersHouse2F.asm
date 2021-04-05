@@ -50,7 +50,7 @@ PosterScript:
 .Script:
 	describedecoration DECODESC_POSTER
 	
-PlayersHouseRadioScript: 
+PlayersHouseRadioScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue .NormalRadio
 	checkevent EVENT_LISTENED_TO_INITIAL_RADIO

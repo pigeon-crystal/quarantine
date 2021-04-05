@@ -542,21 +542,19 @@ AIUsedItemSound:
 
 EnemyUsedFullHeal:
 	call AIUsedItemSound
-	call AI_HealStatus
-	ld a, FULL_HEAL
-	ld [wCurEnemyItem], a
-	xor a
-	ld [wEnemyConfuseCount], a
-	jp PrintText_UsedItemOn_AND_AIUpdateHUD
+    call AI_HealStatus
+    xor a
+    ld [wEnemyConfuseCount], a
+    ld a, FULL_HEAL
+    jp PrintText_UsedItemOn_AND_AIUpdateHUD
 	
 EnemyUsedScorpSerum:
 	call AIUsedItemSound
-	call AI_HealStatus
-	ld a, SCORPSERUM
-	ld [wCurEnemyItem], a
-	xor a
-	ld [wEnemyConfuseCount], a
-	jp PrintText_UsedItemOn_AND_AIUpdateHUD
+    call AI_HealStatus
+    xor a
+    ld [wEnemyConfuseCount], a
+    ld a, SCORPSERUM
+    jp PrintText_UsedItemOn_AND_AIUpdateHUD
 
 EnemyUsedMaxPotion:
 	ld a, MAX_POTION

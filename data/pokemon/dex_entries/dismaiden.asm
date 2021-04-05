@@ -1,4 +1,4 @@
-	db "TORMENT@" ; species name
+	db "CONFINED@" ; species name
 	dw 509, 6118 ; height, weight
 
 	db   "Within its iron"

@@ -7,7 +7,7 @@
 	db 88 ; catch rate
 	db 170 ; base exp
 	db PNK_APRICORN, MYSTIC_WATER ; items
-	db 98 ; gender ratio
+	db GENDER_F98 ; gender ratio
 	db 100 ; unknown 1
 	db 15 ; step cycles to hatch
 	db 5 ; unknown 2

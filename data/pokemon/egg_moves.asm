@@ -230,6 +230,7 @@ UpwhaleEggMoves:
 	db ENCORE
 	db CALM_MIND
 	db AMNESIA
+	db SPITE
 	db -1 ; end
 
 LawnieEggMoves:

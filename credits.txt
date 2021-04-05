@@ -1,8 +1,8 @@
 Art:
 op/kaijuanon/daz for the mon designs and sprites. The heart and soul of this project.
-Varmintz for trainer sprites, overworlds, and 
+Varmintz for trainer sprites and some new tiles
 Gojee for Lamseed line designs
-Autumnraptor for Nyalley designs
+Autumnraptor for Nyalley line designs
 beatrix cromwell for Todescool's design
 Varmintz and anonymous contributor for unown fossil tiles.
 Many anonymous contributors, Varmintz, TC, gueso and Emi Monserrate for menu icons.
@@ -24,4 +24,4 @@ ETC:
 CaptainAhab and gojee for promo art.
 All the anonymous contributors for their design prompts, icons, flavor text, dex entries, and ideas.
 /rheg/ and the rheg + pret + rhh discords for their support and help
-GigaSneed22
+

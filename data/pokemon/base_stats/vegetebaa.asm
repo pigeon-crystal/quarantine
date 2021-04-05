@@ -1,6 +1,6 @@
 	db VEGETEBAA ; baby...
 
-	db  119, 70,  70, 50,  110,  101
+	db  121, 70,  71, 50,  110,  101
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, GRASS ; type

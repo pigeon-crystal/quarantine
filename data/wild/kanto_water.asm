@@ -145,10 +145,10 @@ KantoWaterWildMons:
 
 	map_id VERMILION_CITY
 	db 6 percent ; encounter rate
-	db 35, SLISCES
-	db 30, SLISCES
-	db 35, DREADGE
-	db 40, DREADGE
+	db 55, SLISCES
+	db 56, SLISCES
+	db 60, DREADGE
+	db 60, DREADGE
 
 	map_id CELADON_CITY
 	db 2 percent ; encounter rate

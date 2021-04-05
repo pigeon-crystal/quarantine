@@ -9,7 +9,7 @@ MountMortar1FOutside_MapScripts:
 	db 0 ; callbacks
 
 MountMortar1FOutsideEther:
-	itemball NUGGET
+	itemball MAX_ETHER
 
 MountMortar1FOutsideRevive:
 	itemball MAX_REVIVE

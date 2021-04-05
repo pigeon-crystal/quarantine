@@ -40,6 +40,42 @@ VermilionCitySuperNerdScript:
 
 VermilionSnorlax:
 	opentext
+	writetext ThanksForPlayingMessage
+	waitbutton
+	closetext
+	end
+	
+ThanksForPlayingMessage:
+	text "Huh?"
+
+	para "The MEOWTAIN is"
+	line "holding a note!"
+	
+	para "'Thank you so much"
+	line "for playing!"
+	
+	para "This is the end"
+	line "of the demo."
+	
+	para "Have you found"
+	line "all the secrets"
+	
+	para "in JOHTO?"
+	line "We hope so!"
+	
+	para "We hope you"
+	line "enjoyed this"
+	cont "and had a"
+	cont "grand old time."
+	
+	para "Warm regards,"
+	line "QUARANTINE"
+	cont "CRYSTAL DEV"
+	cont "TEAM'"
+	done	
+
+VermilionSnorlaxReal:
+	opentext
 	special SnorlaxAwake
 	iftrue .Awake
 	writetext VermilionCitySnorlaxSleepingText
@@ -148,12 +184,18 @@ VermilionMachopOwnerText:
 
 
 VermilionCitySuperNerdText:
-	text "There are eight"
-	line "GYMS in KANTO."
-
-	para "That big building"
-	line "is VERMILION's"
-	cont "#MON GYM."
+	text "One of my pals"
+	line "bought a cottage"
+	
+	para "that was formerly"
+	line "a GYM LEADER'S"
+	
+	para "over off the"
+	line "coast of CIANWOOD."
+	
+	para "I heard he's"
+	line "staying there with"
+	cont "his kid."
 	done
 
 VermilionCitySnorlaxSleepingText:

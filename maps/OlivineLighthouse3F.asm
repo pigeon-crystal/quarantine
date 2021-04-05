@@ -85,11 +85,9 @@ SailorTerrellAfterBattleText:
 	line "back to OLIVINE, I"
 	cont "visit the GYM."
 
-	para "The GYM LEADER's"
-	line "#MON type has"
-
-	para "changed without me"
-	line "noticing."
+	para "JASMINE is kinder"
+	line "and stronger than"
+	cont "just about anyone!"
 	done
 
 GentlemanPrestonSeenText:
@@ -105,9 +103,12 @@ GentlemanPrestonBeatenText:
 	done
 
 GentlemanPrestonAfterBattleText:
-	text "JASMINE used to"
-	line "use rock #MON"
-	cont "like ONIX."
+	text "JASMINE is kind."
+	line "She adopted some"
+	cont "injured SLISCES"
+	
+	para "she found in the"
+	line "OLIVINE HARBOR."
 	done
 
 OlivineLighthouse3F_MapEvents:

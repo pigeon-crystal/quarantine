@@ -19,12 +19,12 @@ FalknerGroup:
 	db "FALKNER@", TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 12, HOATOXIC
 		db $da, $da
-		dw $0021, $00B1, $00C1, $00D1, $00A1
+		dw $0021, $00B1, $00C1, $0051, $0051
 		db NO_ITEM
-		db POUND, MUD_SLAP, ACID, POISON_STING
+		db POUND, ACID, POISON_STING, NO_MOVE
 	db 12, FURDOBA
 		db $da, $da
-		dw $0021, $00A1, $00B1, $00C1, $00D1
+		dw $0021, $0051, $0051, $0051, $0051
 		db NO_ITEM
 		db MUD_SLAP, GUST, SANDSTORM, NO_MOVE
 	db -1 ; end
@@ -34,19 +34,19 @@ WhitneyGroup:
 	db "WHITNEY@", TRAINERTYPE_NICKNAME | TRAINERTYPE_DVS | TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 23, NYALLEY
 		db "NYALLEY@"
-		db $79, $9b
+		db $77, $7b
 		dw $1011, $401a, $2201, PERFECT_STAT_EXP, $22c0
 		db BERRY
 		db CONFUSION, ATTRACT, ENCORE, METRONOME
 	db 23, ATTACKO
 		db "ATTACKO@"
 		db PERFECT_DV, PERFECT_DV
-		dw $62fa, $620a, $62fa, $32fa, $32fa
+		dw $62fa, $420a, $32fa, $42fa, $32fa
 		db NO_ITEM
 		db BIBBIDI_BOP, DRAININGKISS, DISABLE, GLARE
 	db 25, PURRDLE
 		db "PURRDLE@"
-		db $96, $98 														    					;DVs: atk|def, spd|spc
+		db $86, $78 														    					;DVs: atk|def, spd|spc
 		dw $32fa, $32fa, $32fa, $403a, $300a 	;Stat exp: hp, atk, def, spd, spc
 		db BERRY 																						;item
 		db QUICK_ATTACK, FAINT_ATTACK, ATTRACT, BITE															;moves
@@ -660,23 +660,23 @@ MistyGroup:
 LtSurgeGroup:
 	; LT_SURGE (1)
 	db "LT.SURGE@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
-	db 64, AMPALA
+	db 62, AMPALA
 		dw $abcd, PERFECT_STAT_EXP, $abcd, $abcd, $abcd
 		db MAGNET
 		db THUNDER_WAVE, SPARK, DOUBLE_EDGE, COUNTER
-	db 63, GENEROPSIS
+	db 61, GENEROPSIS
 		dw $abcd, $abcd, $abcd, $abcd, PERFECT_STAT_EXP
 		db CHARCOAL
 		db FLAMETHROWER, SLUDGE_BOMB, ATTRACT, FIRE_SPIN
-	db 64, CRUSTAZER
+	db 62, CRUSTAZER
 		dw $abcd, $abcd, $abcd, $abcd, PERFECT_STAT_EXP
 		db MIRACLE_SEED	
 		db GIGA_DRAIN, THUNDER_WAVE, THUNDER, MEGAHORN
-	db 63, RAMBOYANT
+	db 61, RAMBOYANT
 		dw $abcd, $abcd, $abcd, PERFECT_STAT_EXP, $abcd
 		db MYSTIC_WATER
 		db LIQUIDATION, CROSS_CHOP, BULLET_SEED, SWAGGER
-	db 66, VOLTINGER
+	db 64, VOLTINGER
 		dw PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP, PERFECT_STAT_EXP
 		db MAGNET
 		db EARTHQUAKE, THUNDERPUNCH, PLAY_ROUGH, BODY_SLAM
@@ -872,14 +872,16 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (11)
 	db "NATE@", TRAINERTYPE_NORMAL
-	db 32, WORMACHO
-	db 32, CANTOGETHA
+	db 60, WORMACHO
+	db 60, ZEPPLIUM
+	db 60, CANTOGETHA
 	db -1 ; end
 
 	; SCHOOLBOY (12)
 	db "RICKY@", TRAINERTYPE_NORMAL
-	db 32, HOPLAQUE
-	db 32, HELACTAL
+	db 65, HOPLAQUE
+	db 60, HELACTAL
+	db 60, NOXROMAEUS
 	db -1 ; end
 
 	; SCHOOLBOY (13) Jack 2, olivine
@@ -966,7 +968,7 @@ SchoolboyGroup:
 BirdKeeperGroup:
 	; BIRD_KEEPER (1) ;violet gym 2
 	db "ROD@", TRAINERTYPE_ITEM
-	db 12, QWAIL, 	   BERRY
+	db 11, QWAIL, 	   NO_ITEM
 	db 11, GOOSAPLING, NO_ITEM
 	db 12, FLUFFRUIT,  NO_ITEM
 	db -1 ; end
@@ -974,7 +976,7 @@ BirdKeeperGroup:
 	; BIRD_KEEPER (2) ;violet gym
 	db "ABE@", TRAINERTYPE_ITEM 
 	db 12, FURNIT, 		NO_ITEM
-	db 12, HOATOT,		BERRY
+	db 12, HOATOT,		NO_ITEM
 	db -1 ; end
 
 	; BIRD_KEEPER (3) route 35
@@ -1314,9 +1316,8 @@ CooltrainerMGroup:
 
 	; COOLTRAINERM (16)
 	db "SEAN@", TRAINERTYPE_NORMAL
-	db 35, ANTPYRE
-	db 35, ANTPYRE
-	db 35, WALLARRIOR
+	db 60, GENEROPSIS
+	db 61, WALLARRIOR
 	db -1 ; end
 
 	; COOLTRAINERM (17)
@@ -1427,9 +1428,9 @@ CooltrainerFGroup:
 
 	; COOLTRAINERF (13)
 	db "CAROL@", TRAINERTYPE_NORMAL
-	db 50, MAJESDOR
-	db 50, OKAMIKAZE
-	db 50, LAMYGLAMA
+	db 60, MAJESDOR
+	db 60, OKAMIKAZE
+	db 60, LAMYGLAMA
 	db -1 ; end
 
 	; COOLTRAINERF (14)
@@ -1514,8 +1515,8 @@ BeautyGroup:
 
 	; BEAUTY (6)
 	db "CASSIE@", TRAINERTYPE_NORMAL
-	db 28, POCALYPTUS
-	db 34, VAZZINATE
+	db 60, POCALYPTUS
+	db 59, VAZZINATE
 	db -1 ; end
 
 	; BEAUTY (7)
@@ -1622,10 +1623,11 @@ PokemaniacGroup:
 	db 29, ANTPYRE
 	db -1 ; end
 
-	; POKEMANIAC (8)
+	; POKEMANIAC (8) Fast Ship
 	db "ETHAN@", TRAINERTYPE_NORMAL
-	db 31, CUTTLE
-	db 31, TENDRILL
+	db 36, CUTTLE
+	db 51, TENDRILL
+	db 66, CALARMOURI
 	db -1 ; end
 
 	; POKEMANIAC (9)
@@ -1767,9 +1769,11 @@ GruntMGroup:
 	db -1 ; end
 
 	; GRUNTM (15) Radio tower (warehouse
-	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 41, DUMBLOON
-	db 40, DISMAIDEN
+	db "GRUNT@", TRAINERTYPE_ITEM
+	db 40, MESSMASH, BERSERK_GENE
+	db 40, MESSMASH, BERSERK_GENE
+	db 41, YUEFOE, MAGNET
+	db 44, BLASPHERMY, BERSERK_GENE
 	db -1 ; end
 
 	; GRUNTM (16) UNUSED
@@ -1878,7 +1882,7 @@ GentlemanGroup:
 
 	; GENTLEMAN (2)
 	db "EDWARD@", TRAINERTYPE_NORMAL
-	db 33, JUNOBE
+	db 75, JUNOBE
 	db -1 ; end
 
 	; GENTLEMAN (3)
@@ -1924,7 +1928,8 @@ TeacherGroup:
 
 	; TEACHER (3)
 	db "SHIRLEY@", TRAINERTYPE_NORMAL
-	db 35, HEXAHED
+	db 64, ICOSAHED
+	db 60, SAKURONNA
 	db -1 ; end
 
 SabrinaGroup:
@@ -1990,10 +1995,11 @@ BugCatcherGroup:
 	db 24, CADDISICLE
 	db -1 ; end
 
-	; BUG_CATCHER (9)
+	; BUG_CATCHER (9) fast ship
 	db "KEN@", TRAINERTYPE_NORMAL
-	db 30, GRUBBOID
-	db 32, BERMUDANT
+	db 59, GRUBBOID
+	db 60, ARASBESTOS
+	db 62, JADDICE
 	db -1 ; end
 
 	; BUG_CATCHER (10) Wade 2 (Goldenrod
@@ -2139,12 +2145,11 @@ FisherGroup:
 	db 42, PEKOI, MIRACLE_SEED  
 	db -1 ; end
 
-	; FISHER (12)
+	; FISHER (12) fast ship
 	db "JONAH@", TRAINERTYPE_NORMAL
-	db 25, BAMBABY
-	db 29, SIDFICIOUS
-	db 25, STIKLBRAT
-	db 29, PIPENDA
+	db 60, SIDFICIOUS
+	db 60, SALARITO
+	db 70, STIKLBRAT
 	db -1 ; end
 
 	; FISHER (13)
@@ -2689,9 +2694,8 @@ SuperNerdGroup:
 
 	; SUPER_NERD (9)
 	db "SHAWN@", TRAINERTYPE_NORMAL
-	db 31, BEDLAMAM
-	db 33, ZEPPLIUM
-	db 31, BEDLAMAM
+	db 60, BEDLAMAM
+	db 60, VIRUES
 	db -1 ; end
 
 	; SUPER_NERD (10) underground nonstory
@@ -2714,8 +2718,9 @@ SuperNerdGroup:
 	db -1 ; end
 
 	; SUPER_NERD (13) Mount Mortar 2F
-	db "HUGH@", TRAINERTYPE_MOVES
-	db 39, MADRUGASA,     SMOKESCREEN, TWISTER, SURF, WATERFALL
+	db "HUGH@", TRAINERTYPE_ITEM
+	db 49, MADRUGASA,     BRIGHTPOWDER
+	db 45, BLAZELLE, NO_ITEM
 	db -1 ; end
 
 	; SUPER_NERD (14) Mt. Mortar
@@ -2787,7 +2792,8 @@ Rival2Group:
 GuitaristGroup:
 	; GUITARIST (1)
 	db "CLYDE@", TRAINERTYPE_NORMAL
-	db 34, GIGUARD
+	db 62, SIDFICIOUS
+	db 60, GIGUARD
 	db -1 ; end
 
 	; GUITARIST (2)
@@ -3022,7 +3028,7 @@ BurglarGroup:
 	db "DUNCAN@", TRAINERTYPE_ITEM
 	db 43, HAPPIG, NUGGET
 	db 40, PILFOARD, STAR_PIECE
-	db 41, PILFOARD, WATER_STONE
+	db 41, PILFOARD, FIRE_STONE
 	db -1 ; end
 
 	; BURGLAR (2)
@@ -3033,10 +3039,10 @@ BurglarGroup:
 
 	; BURGLAR (3)
 	db "COREY@", TRAINERTYPE_ITEM
-	db 42, CLIBBLE, FULL_RESTORE
-	db 42, CLIBBLE, MAX_REVIVE
-	db 42, CLIBBLE, ELIXER
-	db 42, CLIBBLE, NUGGET
+	db 60, CLIBBLE, WATER_STONE
+	db 60, CLIBBLE, MAX_REVIVE
+	db 60, PILFOARD, ELIXER
+	db 60, CLIBBLE, NUGGET
 	db -1 ; end
 
 	; BURGLAR (4) Dragon's Depths
@@ -3218,7 +3224,7 @@ ExecutiveMGroup:
 		db NO_ITEM
 		db IRON_HEAD, REFLECT, COUNTER, SPARK
 	db 46, PITAYRANT
-		dw $700d, $70cd, $7bcd, $7bcd, PERFECT_STAT_EXP
+		dw $705d, $75cd, $7bcd, $7bcd, PERFECT_STAT_EXP
 		db ICE_BERRY
 		db DRAGONBREATH, GIGA_DRAIN, LEECH_SEED, RAZOR_WIND
 	db 44, PRIPYDERM
@@ -3681,28 +3687,28 @@ ExecutiveFGroup:
 SageGroup:
 	; SAGE (1) ;sprout
 	db "CHOW@", TRAINERTYPE_NORMAL
-	db  6, LAWNIE
-	db  7, EUKUB
-	db  7, HOATOT
+	db 5, EUKUB
+	db 6, LAWNIE
+	db 5, HOATOT
 	db -1 ; end
 
 	; SAGE (2) ;sprout
 	db "NICO@", TRAINERTYPE_NORMAL
+	db  5, LAWNIE
 	db  6, LAWNIE
-	db  7, LAWNIE
 	db -1 ; end
 
 	; SAGE (3) ;sprout
 	db "JIN@", TRAINERTYPE_NORMAL
 	db  9, LAWNIE
-	db  8,  QWAIL
+	db  7,  QWAIL
 	db -1 ; end
 
 	; SAGE (4) ;sprout
 	db "TROY@", TRAINERTYPE_NORMAL
 	db   7, LAWNIE
 	db 	 8, SPRUNNY
-	db  10, LAWNIE
+	db   9, LAWNIE
 	db -1 ; end
 
 	; SAGE (5) ; ecruteak gym, ayylmao, formerly jeffery
@@ -3730,8 +3736,8 @@ SageGroup:
 
 	; SAGE (8) ;sprout
 	db "NEAL@", TRAINERTYPE_NORMAL
-	db   9, FURNIT
-	db 	 9, GWUBBY
+	db   7, FURNIT
+	db 	 8, GWUBBY
 	db   9, LAWNIE
 	db -1 ; end
 
@@ -4194,17 +4200,17 @@ GuruGroup:
 	; GURU (1) ;sprout boss
 	db "LI@", TRAINERTYPE_STAT_EXP | TRAINERTYPE_ITEM | TRAINERTYPE_MOVES
 	db 10, LAWNIE
-		dw $0101, $0211, $006A, $0190, $010D
+		dw $0011, $0011, $0020, $0030, $0013
 		db NO_ITEM
-		db POUND, DIG, SWIFT, NO_MOVE
+		db POUND, SWIFT, FLASH, NO_MOVE
 	db 10, FLUFFRUIT
-		dw $001D, $006F, $003D, $0410, $010D
-		db MIRACLE_SEED
-		db ABSORB, GROWTH, GUST, ATTRACT
-	db 12, LAWNIE
-		dw $00BA, $020A, $0601, $00FA, $0501
-		db BERRY
-		db REST, SNORE, FLASH, DIG
+		dw $0011, $0011, $001D, $0022, $001D
+		db NO_ITEM
+		db ABSORB, LEER, GUST, NO_MOVE
+	db 11, LAWNIE
+		dw $00AA, $002A, $0011, $000A, $0011
+		db NO_ITEM
+		db DIG, ABSORB, NO_MOVE, NO_MOVE
 	db -1 ; end
 
 	; GURU (2), Cianwood Dunes Cave
@@ -4482,14 +4488,22 @@ EngineerGroup:
 	db 32, NUCKAWHEEZ
 	db -1 ; end
 
-;ENGINEER (3) rocket base b3f
-	db "ENGINEER@", TRAINERTYPE_ITEM
-	db 32, MESSMASH, BERSERK_GENE
-	db 32, MESSMASH, BERSERK_GENE
-	db 32, MESSMASH, BERSERK_GENE
-	db 32, YUEFOE, MAGNET
+;ENGINEER (3) rocket base b3f hyuck hyuck
+	db "ENGINEER@", TRAINERTYPE_ITEM_MOVES
+	db 32, MESSMASH, BERSERK_GENE, HYPER_FANG, KARATE_CHOP, SUPERSONIC, BITE
+	db 32, MESSMASH, BERSERK_GENE, HYPER_FANG, KARATE_CHOP, SUPERSONIC, BITE
+	db 32, MESSMASH, BERSERK_GENE, HYPER_FANG, KARATE_CHOP, SUPERSONIC, BITE
+	db 32, YUEFOE, MAGNET, THUNDERBOLT, RECOVER, SCREECH, THUNDER_WAVE
 	db -1 ; end
 
+; ENGINEER (4) Radio Tower Warehouse (replaces GruntM 15) (nvm unused)
+	db "ENGINEER@", TRAINERTYPE_ITEM
+	db 40, MESSMASH, BERSERK_GENE
+	db 40, MESSMASH, BERSERK_GENE
+	db 41, YUEFOE, MAGNET
+	db 44, BLASPHERMY, BERSERK_GENE
+	db -1 ; end
+	
 SkepticGroup:
 ; SKEPTIC (1) Ruins OUtside
 	db "TED@", TRAINERTYPE_ITEM
@@ -4679,8 +4693,8 @@ ArtistBrownGroup: ; looking out at ocean, route 40
 
 ArtistPinkGroup: ; route 36
 	db "ROSE@", TRAINERTYPE_NORMAL
-	db 9, CALFEEN
-	db 7, MANDELBLOB
+	db 7, CALFEEN
+	db 8, MANDELBLOB
 	db 9, GWUBBY
 	db -1 ; end
 

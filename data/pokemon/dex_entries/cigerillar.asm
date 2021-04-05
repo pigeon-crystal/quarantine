@@ -3,8 +3,8 @@
 
 	db   "It eats toxic"
 	next "plants to make it-"
-	next "self unplatable to"
+	next "self unpalatable"
 
-	page "predators. It"
-	next "has a distinct"
-	next "odor.@"
+	page "to predators. It"
+	next "has a distinct,"
+	next "noxious odor.@"

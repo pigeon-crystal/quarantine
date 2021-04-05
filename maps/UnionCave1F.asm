@@ -93,7 +93,7 @@ HikerRussellSeenText:
 
 HikerRussellBeatenText:
 	text "Oh my! Looks good"
-	cont "to me!"
+	line "to me!"
 	done
 
 HikerRussellAfterBattleText:
@@ -132,8 +132,9 @@ PokemaniacLarryAfterBattleText:
 	para "Once I get the"
 	line "FOG BADGE, I'll"
 	cont "use SURF to find"
-	cont "and catch that"
-	cont "rare #MON!"
+	
+	para "that rare"
+	line "#MON!"
 	done
 
 HikerDanielSeenText:

@@ -240,7 +240,7 @@ PokemonNames::
 	db "ELEKID@@@@"
 	db "GORIATH@@@"
 	db "DRASSAL@@@"
-	db "ODDITULLY@"
+	db "ANOMULLY@@"
 	db "ANDROMEGA@"
 	db "SLAATTEL@@"
 	db "RYUNARI@@@"

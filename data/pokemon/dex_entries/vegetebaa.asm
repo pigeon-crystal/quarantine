@@ -1,10 +1,10 @@
 	db "ZOOPHYTE@" ; species name
 	dw 504, 1604 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "Most VEGETEBAA"
+	next "have very sweet"
+	next "temperments. On a"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "farm, they'll care"
+	next "for all #MON,"
+	next "not just LAMSEED.@"

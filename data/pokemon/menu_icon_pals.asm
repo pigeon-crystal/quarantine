@@ -132,10 +132,10 @@ MonMenuIconPals:
 	icon_pals GRAY,   YELLOW  ; GIGERATOR
 	icon_pals GRAY,   YELLOW  ; BERMUDANT
 	icon_pals PURPLE,   YELLOW  ; WALLARRIOR
-	icon_pals GRAY,   YELLOW  ; FALWODUR
-	icon_pals GRAY,   YELLOW  ; FALWODRAIG
-	icon_pals PINK,   YELLOW   ; MANDELBLOB
-	icon_pals PINK,   YELLOW   ; HELACTAL
+	icon_pals GRAY,   RED  ; FALWODUR
+	icon_pals GRAY,   RED  ; FALWODRAIG
+	icon_pals PINK,   BLUE   ; MANDELBLOB
+	icon_pals PINK,   BLUE   ; HELACTAL
 	icon_pals PURPLE,   YELLOW  ; NOOMSDAY
 	icon_pals GRAY,   YELLOW  ; GANZORAH
 	icon_pals BROWN,   YELLOW  ; JOLTEON
@@ -254,7 +254,7 @@ MonMenuIconPals:
 	icon_pals BLUE,   PURPLE    ; SNOKAGE
 	icon_pals YELLOW,   GRAY    ; AVATRICE
 	icon_pals BLUE,   RED    	; DONUKAME
-	icon_pals YELLOW,   BLUE    ; TENTAQUIL
+	icon_pals BLUE,   BLUE    ; TENTAQUIL
 	icon_pals YELLOW, GRAY 		; PILFOARD
 	icon_pals RED, YELLOW		; MISSINGNO
 	icon_pals RED,   BLUE      ; EGG

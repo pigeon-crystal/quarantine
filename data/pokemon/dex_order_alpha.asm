@@ -9,6 +9,7 @@ AlphabeticalPokedexOrder:
 	db AMBIONIC
 	db AMPALA
 	db ANDROMEGA
+	db ODDITULLY
 	db ANTPYRE
 	db ARASBESTOS
 	db ASTROTOM
@@ -41,8 +42,6 @@ AlphabeticalPokedexOrder:
 	db CANTOGETHA
 	db CASANOCTE
 	db CERKITAYSA
-	db CHELYNOBLE
-	db CHERNOMUSK
 	db CIGERILLAR
 	db CLIBBLE
 	db COCACOBRA
@@ -73,7 +72,6 @@ AlphabeticalPokedexOrder:
 	db FUEGHAST
 	db FURDOBA
 	db FURNIT
-	db FURSA
 	db GANZERKER
 	db GANZORAH
 	db GENEROPSIS
@@ -81,6 +79,7 @@ AlphabeticalPokedexOrder:
 	db GIGERATOR
 	db GIGUARD
 	db GLOST
+	db UNOWN
 	db GNOMERCY
 	db GOOSAPLING
 	db GORIATH
@@ -136,6 +135,7 @@ AlphabeticalPokedexOrder:
 	db MUMAGNUS
 	db MUMINI
 	db MURDERMIS
+	db URSKIMO
 	db NANUQUA
 	db NAVIGAZER
 	db NIKUJIRA
@@ -146,10 +146,10 @@ AlphabeticalPokedexOrder:
 	db NOOMSDAY
 	db NOXROMAEUS
 	db NUCKAWHEEZ
+	db FURSA
 	db NYALLEY
 	db OBELITH
 	db ODDITTEN
-	db ODDITULLY
 	db OKAMIKAZE
 	db OLCHAP
 	db ONIONI
@@ -191,6 +191,8 @@ AlphabeticalPokedexOrder:
 	db SCORPEROR
 	db SCRUFFRUIT
 	db SEABEHEM
+	db CHERNOMUSK
+	db CHELYNOBLE
 	db SHABBYCAT
 	db SHAMSEL
 	db SHREDDRAKE
@@ -228,9 +230,7 @@ AlphabeticalPokedexOrder:
 	db TRANQUIEL
 	db TYRDRAGA
 	db UMBERJERK
-	db UNOWN
 	db UPWHALE
-	db URSKIMO
 	db VAZZINATE
 	db VEGETEBAA
 	db VIRUES

@@ -6,8 +6,8 @@
 	db WATER, WATER ; type
 	db 131 ; catch rate
 	db 88 ; base exp
-	db NO_ITEM, YLW_APRICORN ; items
-	db 98 ; gender ratio
+	db YLW_APRICORN, PNK_APRICORN ; items
+	db GENDER_F98 ; gender ratio
 	db 100 ; unknown 1
 	db 13 ; step cycles to hatch
 	db 5 ; unknown 2

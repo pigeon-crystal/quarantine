@@ -1,10 +1,10 @@
 	db "VEGETABLE@" ; species name
 	dw 201, 443 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "LAMSEED are hardy"
+	next "and easy to raise."
+	next "For this reason,"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "most farms rear"
+	next "a great many"
+	next "LAMSEED.@"

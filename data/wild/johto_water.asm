@@ -173,16 +173,16 @@ JohtoWaterWildMons:
 
 	map_id ROUTE_40 ;done
 	db 6 percent ; encounter rate
-	db 33, PRAWMATE
-	db 34, SQWUCKY
-	db 35, SLISCES ; barberfish standin
+	db 32, PRAWMATE
+	db 33, SQWUCKY
+	db 34, SLISCES ; barberfish standin
 	db 30, UPWHALE
 
 	map_id ROUTE_41 ;done
 	db 6 percent ; encounter rate
 	db 32, PRAWMATE
 	db 34, BUDGANEER ; parrot standin
-	db 35, SQWUCKY
+	db 33, SQWUCKY
 	db 29, UPWHALE
 
 	map_id ROUTE_42 ;done

@@ -22,34 +22,6 @@ VioletCity_MapScripts:
 .FlyPoint:
 	setflag ENGINE_FLYPOINT_VIOLET
 	return
-
-VioletCityWizardScript:
-	faceplayer
-	opentext
-	checkevent EVENT_BEAT_WIZARD_CROWLEY
-	iftrue .FightDone
-	checkevent EVENT_BEAT_WHITNEY
-	iftrue .FightStart
-	writetext CrowleyIntroShooText
-	waitbutton
-	closetext
-	end
-	
-.FightStart
-	writetext CrowleyIntroBattleText
-	waitbutton
-	closetext
-	winlosstext CrowleyWinLossText, 0
-	loadtrainer, WIZARD, CROWLEY
-	startbattle
-	reloadmapafterbattle
-	setevent EVENT_BEAT_WIZARD_CROWLEY
-	opentext
-.FightDone
-	writetext CrowleyAfterText
-	waitbutton
-	closetext
-	end
 	
 VioletCityEarlScript:
 	applymovement VIOLETCITY_EARL, VioletCitySpinningEarl_MovementData
@@ -120,7 +92,7 @@ VioletCityMartSign:
 	jumpstd martsign
 
 VioletCityPPUp:
-	itemball PP_UP
+	itemball THUNDERSTONE
 
 VioletCityRareCandy:
 	itemball RARE_CANDY
@@ -428,6 +400,18 @@ DelinquentGenAfter:
 	para "You dig?"
 	done
 	
+VioletCityWizardScript:
+	trainer WIZARD, CROWLEY, EVENT_BEAT_WIZARD_CROWLEY, CrowleyIntroBattleText, CrowleyWinLossText, 0, .Script
+	end
+	
+.Script
+	endifjustbattled
+	opentext
+	writetext CrowleyAfterText
+	waitbutton
+	closetext
+	end
+	
 VioletCity_MapEvents:
 	db 0, 0 ; filler
 
@@ -462,7 +446,7 @@ VioletCity_MapEvents:
 	object_event 14, 29, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VioletCityFruitTree, -1
 	object_event  4,  1, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VioletCityPPUp, EVENT_VIOLET_CITY_PP_UP
 	object_event 35,  5, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VioletCityRareCandy, EVENT_VIOLET_CITY_RARE_CANDY
-	object_event  7, 2, SPRITE_WIZARD, SPRITEMOVEDATA_WANDER, 0, 0 , -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, VioletCityWizardScript, -1
+	object_event  7, 2, SPRITE_WIZARD, SPRITEMOVEDATA_STANDING_LEFT, 0, 0 , -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, VioletCityWizardScript, -1
 	object_event 24, 29, SPRITE_LAWNIE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, VioletCityGnomes, -1
 	object_event 27, 14, SPRITE_LAWNIE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, VioletCityGnomes, -1
 	object_event 12, 14, SPRITE_LAWNIE, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, VioletCityGnomes2, -1

@@ -1,10 +1,10 @@
 	db "ZOOPHYTE@" ; species name
 	dw 604, 2081 ; height, weight
 
-	db   "This is an"
-	next "undiscovered"
-	next "#MON!"
+	db   "Even the sweetest"
+	next "male LAMSEED will"
+	next "become an ornery"
 
-	page "Report back with"
-	next "information about"
-	next "its biology.@"
+	page "BAAFOMET. They"
+	next "are fierce fathers"
+	next "and protective.@"

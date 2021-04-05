@@ -107,12 +107,12 @@ Jasmine_SteelTypeIntro:
 	line "GYM LEADER. I use"
 	cont "the steel-type."
 
-	para "…Do you know about"
-	line "the steel-type?"
-
-	para "It's a type that"
-	line "was only recently"
-	cont "discovered."
+	para "…Steel-type is"
+	line "strong and"
+	cont "unyielding."
+	
+	para "I think you'll"
+	line "see that soon…"
 
 	para "…Um… May I begin?"
 	done

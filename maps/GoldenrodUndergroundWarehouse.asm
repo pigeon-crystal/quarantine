@@ -144,6 +144,10 @@ GruntM15SeenText:
 
 	para "You got me good"
 	line "at our hideout!"
+	
+	para "I got demoted"
+	line "after giving you"
+	cont "the password!"
 	done
 
 GruntM15BeatenText:

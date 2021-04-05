@@ -20,8 +20,8 @@ BugContestantPointers:
 
 BugContestant_BugCatcherDon:
 	db BUG_CATCHER, DON
-	dbw HIVEMAIM,   465
-	dbw HIVEMAIM,   445
+	dbw HIVEMAIM,   450
+	dbw HIVEMAIM,   435
 	dbw BUZZLING,   376
 
 BugContestant_BugCatcherEd:
@@ -33,47 +33,47 @@ BugContestant_BugCatcherEd:
 BugContestant_CooltrainerMNick:
 	db COOLTRAINERM, NICK
 	dbw BUZZLING,     512
-	dbw JADDICE,      499
-	dbw ARASBESTOS,   470
+	dbw JADDICE,      490
+	dbw ARASBESTOS,   450
 
 BugContestant_PokefanMWilliam:
 	db POKEFANM, WILLIAM
-	dbw GWUBBY,     472
-	dbw VAZZINATE,  457
+	dbw GWUBBY,     462
+	dbw VAZZINATE,  447
 	dbw WORMEEK,    421
 
 BugContestant_BugCatcherBenny:
 	db BUG_CATCHER, BUG_CATCHER_BENNY
-	dbw CADDISICLE, 444
+	dbw CADDISICLE, 440
 	dbw GWUBBY,     405
 	dbw BUZZLING,   1
 
 BugContestant_CamperBarry:
 	db CAMPER, BARRY
-	dbw JADDICE,     501
-	dbw HIVEMAIM,    489
-	dbw GWUBBY,      434
+	dbw CADDISICLE,  449   
+	dbw HIVEMAIM,    459
+	dbw CADDISICLE,  421
 
 BugContestant_PicnickerCindy:
 	db PICNICKER, CINDY
-	dbw ANTPYRE, 	486
+	dbw ANTPYRE, 	462
 	dbw CADDISICLE, 411
 	dbw BUZZLING,   364
 
 BugContestant_BugCatcherJosh:
 	db BUG_CATCHER, JOSH
-	dbw CADDISICLE,  470
-	dbw HIVEMAIM,    468
-	dbw BUZZLING,    462
+	dbw CADDISICLE,  460
+	dbw HIVEMAIM,    448
+	dbw BUZZLING,    422
 
 BugContestant_YoungsterSamuel:
 	db YOUNGSTER, SAMUEL
-	dbw VAZZINATE,   483
+	dbw VAZZINATE,   453
 	dbw WORMEEK,     442
 	dbw BUZZLING,    351
 
 BugContestant_SchoolboyKipp:
 	db SCHOOLBOY, KIPP
 	dbw HIVEMAIM,      489
-	dbw BUZZLING,      484
+	dbw BUZZLING,      464
 	dbw ARASBESTOS,    444

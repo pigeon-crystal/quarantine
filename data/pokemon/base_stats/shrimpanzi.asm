@@ -5,7 +5,7 @@
 
 	db WATER, WATER ; type
 	db 150 ; catch rate
-	db 150 ; base exp
+	db 151 ; base exp
 	db PNK_APRICORN, PNK_APRICORN ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

@@ -1239,8 +1239,8 @@ NimbocetusEvosAttacks:
 	db 22, FORESIGHT
 	db 25, SUPERSONIC
 	db 30, BODY_SLAM
-	db 35, BUBBLEBEAM
-	db 40, SKY_ATTACK
+	db 34, BUBBLEBEAM
+	db 38, SKY_ATTACK
 	db 42, SAFEGUARD
 	db 50, RAIN_DANCE
 	db 55, HYDRO_PUMP
@@ -1259,10 +1259,11 @@ StelloceanEvosAttacks:
 	db 35, BUBBLEBEAM
 	db 42, SAFEGUARD
 	db 45, AMNESIA
-	db 48, PSYBEAM
+	db 47, PSYBEAM
 	db 50, RAIN_DANCE
-	db 54, REST
-	db 57, HYDRO_PUMP	
+	db 52, REST
+	db 55, HYDRO_PUMP	
+	db 61, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 LawnieEvosAttacks:
@@ -2292,16 +2293,17 @@ BowlideEvosAttacks:
 	db 1, CONFUSE_RAY
 	db 1, BUBBLE
 	db 1, SWIFT
-	db 10, HYPNOSIS
+	db 10, TELEPORT
 	db 17, REFLECT
+	db 20, DISABLE
 	db 24, BUBBLEBEAM
-	db 27, TELEPORT
+	db 27, HYPNOSIS
 	db 30, PSYBEAM
 	db 35, AMNESIA
-	db 42, MIRROR_COAT
-	db 50, CALM_MIND
-	db 55, PSYCHIC_M
-	db 60, BATON_PASS
+	db 39, MIRROR_COAT
+	db 42, PSYCHIC_M
+	db 47, CALM_MIND
+	db 50, BATON_PASS
 	db 0 ; no more level-up moves
 
 ClibbleEvosAttacks:
@@ -3326,7 +3328,7 @@ YuefoeEvosAttacks:
 	db 18, THUNDER_WAVE
 	db 24, BARRIER
 	db 29, RECOVER
-	db 33, THUNDERBOLT
+	db 32, THUNDERBOLT
 	db 36, LIGHT_SCREEN
 	db 39, CONFUSE_RAY
 	db 42, LOCK_ON
@@ -4035,16 +4037,18 @@ CasanocteEvosAttacks:
 	db 0 ; no more level-up moves
 
 LamseedEvosAttacks:
-	db EVOLVE_FEMALE, 35, VEGETEBAA
-	db EVOLVE_MALE, 35, BAAFOMET
+	db EVOLVE_FEMALE, 34, VEGETEBAA
+	db EVOLVE_MALE, 34, BAAFOMET
 	db 0 ; no more evolutions
 	db 1, POUND
 	db 7, ABSORB
 	db 9, CHARM
 	db 14, SYNTHESIS
 	db 18, VINE_WHIP
-	db 25, LEECH_SEED
+	db 22, LEECH_SEED
+	db 25, HEADBUTT
 	db 29, COTTON_SPORE
+	db 32, MEGA_DRAIN
 	db 36, FLAIL
 	db 40, DOUBLE_EDGE
 	db 0 ; no more level-up moves
@@ -4056,14 +4060,16 @@ VegetebaaEvosAttacks:
 	db 9, CHARM
 	db 14, SYNTHESIS
 	db 18, VINE_WHIP
-	db 25, LEECH_SEED
+	db 22, LEECH_SEED
+	db 25, HEADBUTT
 	db 29, COTTON_SPORE
-	db 34, GROWTH
+	db 32, MEGA_DRAIN
+	db 33, GROWTH ; evo move
 	db 36, ATTRACT
-	db 37, MEGA_DRAIN
-	db 40, SUBSTITUTE
-	db 43, SPORE
-	db 46, GIGA_DRAIN
+	db 37, SUBSTITUTE
+	db 40, SPORE
+	db 43, GIGA_DRAIN
+	db 46, MILK_DRINK
 	db 49, HEAL_BELL
 	db 52, CALM_MIND
 	db 55, SOLARBEAM
@@ -4077,9 +4083,10 @@ BaafometEvosAttacks:
 	db 9, CHARM
 	db 14, SYNTHESIS
 	db 18, VINE_WHIP
-	db 25, LEECH_SEED
+	db 22, LEECH_SEED
+	db 25, HEADBUTT
 	db 29, COTTON_SPORE
-	db 34, SWORDS_DANCE
+	db 33, SWORDS_DANCE
 	db 36, HORN_ATTACK
 	db 37, MEGAHORN
 	db 40, CURSE

@@ -1,11 +1,11 @@
 	db SWIMIAN ; 
 
-	db  70,  105,  77,  80,  80,  110
+	db  70,  105,  77,  80,  80,  111
 	;   hp   atk  def  spd   sat  sdf
 
 	db WATER, WATER ; type
-	db 100 ; catch rate
-	db 201 ; base exp
+	db 99 ; catch rate
+	db 211 ; base exp
 	db PNK_APRICORN, PNK_APRICORN ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

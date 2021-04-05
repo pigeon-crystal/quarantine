@@ -234,7 +234,7 @@ WesleyNotWednesdayScript:
 	end
 
 LakeOfRageElixer:
-	itemball ELIXER
+	itemball LEAF_STONE
 
 LakeOfRageTMDetect:
 	itemball TM_DETECT

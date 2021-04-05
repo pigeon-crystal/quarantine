@@ -4,7 +4,7 @@
 	;   hp   atk   def   spd   sat  sdf
 
 	db WATER, WATER ; type
-	db 122 ; catch rate
+	db 125 ; catch rate
 	db 59 ; base exp
 	db BLU_APRICORN, MYSTIC_WATER ; items
 	db GENDER_F50 ; gender ratio

@@ -1,6 +1,6 @@
 	db BAAFOMET ; baby...
 
-	db  119, 110,  101, 50,  70,  70
+	db  121, 110,  101, 50,  70,  71
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, POISON ; type

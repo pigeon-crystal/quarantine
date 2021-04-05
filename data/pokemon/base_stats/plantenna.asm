@@ -4,7 +4,7 @@
 	;   hp   atk  def   spd  sat  sdf
 
 	db PSYCHIC_TYPE, ELECTRIC ; type
-	db 69 ; catch rate
+	db 100 ; catch rate
 	db 66 ; base exp
 	db WHT_APRICORN, MYSTERYBERRY ; items
 	db GENDER_F50 ; gender ratio

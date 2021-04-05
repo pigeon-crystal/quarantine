@@ -28,8 +28,8 @@ UnownWalls:
 	; db      $4c, $00, $46, $08, $42, -1
 	unownwall "W", "A", "T", "E", "R"
 ; UNOWNWORDS_HO_OH
-	; db      $0e, $2c, $64, $2c, $0e, -1
-	unownwall "H", "O", "-", "O", "H"
+	; db      $0e, $2c, $64, $2c, $69,  -1 (these numbers are wrong)
+	unownwall "T", "A", "I", "K", "O"
 
 MenuHeaders_UnownWalls:
 ; UNOWNWORDS_ESCAPE
