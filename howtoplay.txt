@@ -1,0 +1,4 @@
+How to play:
+Use BGB as emulator
+Patch ***A FRESH CRYSTAL 1.1 ROM ONLY*** with the .ips patch.
+Using anything else WILL NOT WORK.
