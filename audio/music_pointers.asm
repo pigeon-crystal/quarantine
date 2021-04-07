@@ -130,3 +130,4 @@ Music:
 	dba Music_Illuxury
 	dba Music_Shiny
 	dba Music_Thismia
+	dba Music_Yuggromi

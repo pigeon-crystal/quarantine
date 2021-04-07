@@ -53,8 +53,8 @@ DoBattle:
 	jp z, LostBattle
 	call SafeLoadTempTilemapToTilemap
 	ld a, [wBattleType]
-	cp BATTLETYPE_DEBUG
-	jp z, .tutorial_debug
+;	cp BATTLETYPE_DEBUG
+;	jp z, .tutorial_debug
 	cp BATTLETYPE_TUTORIAL
 	jp z, .tutorial_debug
 	xor a
@@ -3760,17 +3760,15 @@ CheckIfCurPartyMonIsFitToFight:
 TryToRunAwayFromBattle:
 ; Run away from battle, with or without item
 	ld a, [wBattleType]
-	cp BATTLETYPE_DEBUG
-	jp z, .can_escape
 	cp BATTLETYPE_CONTEST
 	jp z, .can_escape
 	cp BATTLETYPE_TRAP
 	jp z, .cant_escape
-	cp BATTLETYPE_CELEBI
-	jp z, .cant_escape
 	cp BATTLETYPE_SHINY
 	jp z, .cant_escape
 	cp BATTLETYPE_SUICUNE
+	jp z, .cant_escape
+	cp BATTLETYPE_FORCEITEM
 	jp z, .cant_escape
 
 	ld a, [wLinkMode]
@@ -4959,8 +4957,8 @@ BattleMenu:
 	call LoadTempTilemapToTilemap
 
 	ld a, [wBattleType]
-	cp BATTLETYPE_DEBUG
-	jr z, .ok
+;	cp BATTLETYPE_DEBUG
+;	jr z, .ok
 	cp BATTLETYPE_TUTORIAL
 	jr z, .ok
 	call EmptyBattleTextbox
@@ -6688,16 +6686,16 @@ CheckUnownLetter:
 
 INCLUDE "data/wild/unlocked_unowns.asm"
 
-Unreferenced_SwapBattlerLevels:
-	push bc
-	ld a, [wBattleMonLevel]
-	ld b, a
-	ld a, [wEnemyMonLevel]
-	ld [wBattleMonLevel], a
-	ld a, b
-	ld [wEnemyMonLevel], a
-	pop bc
-	ret
+;Unreferenced_SwapBattlerLevels:
+;	push bc
+;	ld a, [wBattleMonLevel]
+;	ld b, a
+;	ld a, [wEnemyMonLevel]
+;	ld [wBattleMonLevel], a
+;	ld a, b
+;	ld [wEnemyMonLevel], a
+;	pop bc
+;	ret
 
 BattleWinSlideInEnemyTrainerFrontpic:
 	xor a
@@ -7930,11 +7928,6 @@ GoodComeBackText:
 	text_far _GoodComeBackText
 	text_end
 
-Unreferenced_TextJump_ComeBack:
-; this function doesn't seem to be used
-	ld hl, ComeBackText
-	ret
-
 ComeBackText:
 	text_far _ComeBackText
 	text_end
@@ -8196,10 +8189,6 @@ StartBattle:
 	scf
 	ret
 
-Unreferenced_DoBattle:
-	call DoBattle
-	ret
-
 BattleIntro:
 	farcall StubbedTrainerRankings_Battles ; mobile
 	call LoadTrainerOrWildMonPic
@@ -8369,56 +8358,7 @@ InitEnemyWildmon:
 	predef PlaceGraphic
 	ret
 
-Unreferenced_Function3f662:
-	ld hl, wEnemyMonMoves
-	ld de, wListMoves_MoveIndicesBuffer
-	ld b, NUM_MOVES
-.loop
-	ld a, [de]
-	inc de
-	ld [hli], a
-	and a
-	jr z, .clearpp
-
-	push bc
-	push hl
-
-	push hl
-	dec a
-	ld hl, Moves + MOVE_PP
-	ld bc, MOVE_LENGTH
-	call AddNTimes
-	ld a, BANK(Moves)
-	call GetFarByte
-	pop hl
-
-	ld bc, wEnemyMonPP - (wEnemyMonMoves + 1)
-	add hl, bc
-	ld [hl], a
-
-	pop hl
-	pop bc
-
-	dec b
-	jr nz, .loop
-	ret
-
-.clear
-	xor a
-	ld [hli], a
-
-.clearpp
-	push bc
-	push hl
-	ld bc, wEnemyMonPP - (wEnemyMonMoves + 1)
-	add hl, bc
-	xor a
-	ld [hl], a
-	pop hl
-	pop bc
-	dec b
-	jr nz, .clear
-	ret
+; goodbye Unreferenced_Function3f662 aka FillEnemyMovesFromMoveIndicesBuffer
 
 ExitBattle:
 	call .HandleEndOfBattle
@@ -9264,7 +9204,7 @@ BattleStartMessage:
 	farcall Battle_GetTrainerName
 
 	ld hl, WantsToBattleText
-	jr .PlaceBattleStartText
+	jp .PlaceBattleStartText
 
 .wild
 	call BattleCheckEnemyShininess
@@ -9311,10 +9251,63 @@ BattleStartMessage:
 	ld hl, PokemonFellFromTreeText
 	cp BATTLETYPE_TREE
 	jr z, .PlaceBattleStartText
-	ld hl, WildCelebiAppearedText
-	cp BATTLETYPE_CELEBI
+	
+;species unique battle text
+	ld a, [wTempEnemyMonSpecies]
+	ld hl, YuggromiBattleText
+	cp YUGGROMI
 	jr z, .PlaceBattleStartText
+	
+	ld hl, DonukameBattleText
+	cp DONUKAME
+	jr z, .PlaceBattleStartText
+	
+	ld hl, IlluxuryBattleText
+	cp ILLUXURY
+	jr z, .PlaceBattleStartText
+	
+	ld hl, AndromegaBattleText
+	cp ANDROMEGA
+	jr z, .PlaceBattleStartText
+	
+	ld hl, SlaattelBattleText
+	cp SLAATEL
+	jr z, .PlaceBattleStartText
+
+; do these guys
+
+	ld hl, TrioBattleText
+	cp RYUNARI
+	jr z, .PlaceBattleStartText
+	cp TERRATORA
+	jr z, .PlaceBattleStartText
+	cp NIKUJIRA
+	jr z, .PlaceBattleStartText
+	
+	ld hl, DrassalBattleText
+	cp DRASSAL 
+	jr z, .PlaceBattleStartText
+	
+	ld hl, WeaponBattleText
+	cp GORIATH
+	jr z, .PlaceBattleStartText
+	cp BLAZENBULL
+	jr z, .PlaceBattleStartText
+	
+	ld hl, MissingnoBattleText
+	cp MISSINGNO
+	jr z, .PlaceBattleStartText
+	
+	ld hl, AvatriceBattleText
+	cp AVATRICE
+	jr z, .PlaceBattleStartText
+	
+	ld hl, MA0BattleText
+	cp MA_0
+	jr z, .PlaceBattleStartText
+	
 	ld hl, WildPokemonAppearedText
+
 
 .PlaceBattleStartText:
 	push hl

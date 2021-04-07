@@ -28,11 +28,64 @@ PokemonFellFromTreeText:
 	line "out of the tree!"
 	prompt
 
-WildCelebiAppearedText:
-	text "Wild @"
+YuggromiBattleText:
+	text "YUGGROMI draws"
+	line "near…"
+	prompt
+	
+IlluxuryBattleText:
+	text "What?! ILLUXURY"
+	line "reveals itself!"
+	prompt
+	
+SlaattelBattleText:
+	text "SLAATTEL breaks"
+	line "its chains!"
+	prompt
+	
+AndromegaBattleText:
+	text "ANDROMEGA forms…"
+	line "You cannot go"
+	cont "back."
+	prompt
+	
+DonukameBattleText:
+	text "DONUKAME gets"
+	line "ready to party!"
+	prompt
+	
+TrioBattleText:
 	text_ram wEnemyMonNick
-	text_start
+	text " blesses"
+	line "your presence!"
+	prompt
+	
+DrassalBattleText:
+	text "Oh! Wild DRASSAL"
 	line "appeared!"
+	prompt
+	
+WeaponBattleText:
+	text_ram wEnemyMonNick
+	text " arms"
+	line "itself!"
+	prompt
+	
+MissingnoBattleText:
+	text "<PLAYER> @"
+	text_decimal wMoney, 3, 6
+	text_start
+	line "A AAA A A AAAAA"
+	cont "ERROR. ERROR."
+	prompt
+	
+AvatriceBattleText:
+	text "AVATRICE rejects"
+	line "your offering!"
+	prompt
+
+MA0BattleText:
+	text "MA-0 awakens!"
 	prompt
 
 WantsToBattleText::

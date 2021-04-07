@@ -53,8 +53,6 @@ PlayBattleMusic:
 	ld a, [wTempEnemyMonSpecies]
 	cp MISSINGNO
 	jr z, .missingnomusic
-	
-	ld a, [wTempEnemyMonSpecies]
 	cp DONUKAME
 	jr z, .donchanmusic
 	cp SLAATEL
@@ -69,6 +67,8 @@ PlayBattleMusic:
 	jr z, .legendmusic
 	cp ILLUXURY
 	jr z, .StainedWhiteRobesOfTheForestMaiden
+	cp YUGGROMI
+	jr z, .yuggromimusic
 
 	; Are we fighting a trainer?
 	ld a, [wOtherTrainerClass]
@@ -101,8 +101,12 @@ PlayBattleMusic:
 	
 .StainedWhiteRobesOfTheForestMaiden
 	ld de, MUSIC_ILLUXURY
-	jr .done
+	jp .done
 	
+.yuggromimusic
+	ld de, MUSIC_YUGGROMI
+	jr .done
+
 .kantowild
 	ld de, MUSIC_KANTO_WILD_BATTLE
 	jr .done

@@ -1,6 +1,6 @@
 	db UNOWN ; 201 ACTUALLY GLYTHIC LEL
 
-	db  75,  55,  70,  100,  100,  75
+	db  75,  65,  70,  100,  100,  75
 	;   hp  atk  def  spd  sat  sdf
 
 	db PSYCHIC_TYPE, GROUND ; type

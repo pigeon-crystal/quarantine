@@ -5,6 +5,6 @@
 	next "a vanished"
 	next "civilization. Many"
 	
-	page "different varietes"
-	next "of GLYTHIC"
-	next "exist.@"
+	page "different"
+	next "varities of"
+	next "GLYTHIC exist.@"

@@ -1760,7 +1760,7 @@ Pokedex_DisplayModeDescription:
 	next "alphabetically.@"
 
 .UnownMode:
-	db   "UNOWN are listed"
+	db   "GLYTHIC are listed"
 	next "in catching order.@"
 
 Pokedex_DisplayChangingModesMessage:
