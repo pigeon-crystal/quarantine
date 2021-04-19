@@ -326,7 +326,7 @@ RadioTower1FRadioCardWomanQuestion1Text:
 
 	para "Is there a #MON"
 	line "that appears only"
-	cont "in the morning?"
+	cont "in the evening?"
 	done
 
 RadioTower1FRadioCardWomanQuestion2Text:

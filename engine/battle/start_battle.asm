@@ -47,18 +47,6 @@ PlayBattleMusic:
 	and a
 	jp nz, .trainermusic
 
-	farcall RegionCheck
-	ld a, e
-	and a
-	jp nz, .kantowild
-
-	ld de, MUSIC_JOHTO_WILD_BATTLE
-	ld a, [wTimeOfDay]
-	cp NITE_F
-	jp nz, .done
-	ld de, MUSIC_JOHTO_WILD_BATTLE_NIGHT
-	jp .done
-
 	ld a, [wBattleType]
 	cp BATTLETYPE_SUICUNE
 	ld de, MUSIC_LEGENDARY
@@ -105,7 +93,19 @@ PlayBattleMusic:
 	
 .yuggromimusic
 	ld de, MUSIC_YUGGROMI
-	jr .done
+	jp .done
+
+	farcall RegionCheck
+	ld a, e
+	and a
+	jp nz, .kantowild
+
+	ld de, MUSIC_JOHTO_WILD_BATTLE
+	ld a, [wTimeOfDay]
+	cp NITE_F
+	jp nz, .done
+	ld de, MUSIC_JOHTO_WILD_BATTLE_NIGHT
+	jp .done
 
 .kantowild
 	ld de, MUSIC_KANTO_WILD_BATTLE

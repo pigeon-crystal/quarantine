@@ -2251,7 +2251,7 @@ PeautyEvosAttacks:
 	db 0 ; no more level-up moves
 
 PeekeyeEvosAttacks:
-	db EVOLVE_LEVEL, 48, PEACOLDER
+	db EVOLVE_LEVEL, 47, PEACOLDER
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, NIGHTMARE
@@ -2288,7 +2288,7 @@ PeacolderEvosAttacks:
 	db 31, SILVER_WIND
 	db 38, CALM_MIND
 	db 43, PSYCHIC_M
-	db 47, GLARE
+	db 46, GLARE
 	db 51, RAZOR_WIND
 	db 54, DARK_PULSE
 	db 0 ; no more level-up moves
@@ -2919,7 +2919,6 @@ FursaEvosAttacks: ;orig totodile
 	db 1, LEER
 	db 4, LICK
 	db 10, WATER_GUN
-	db 13, BITE
 	db 18, PURSUIT
 	db 19, SHARPEN
 	db 20, AQUA_JET
@@ -2939,13 +2938,12 @@ NanuquaEvosAttacks:
 	db 1, LEER
 	db 4, LICK
 	db 10, WATER_GUN
-	db 13, BITE
 	db 15, PURSUIT
 	db 17, SCARY_FACE
-	db 19, ICE_SHARD
-	db 21, SHARPEN
-	db 23, AQUA_JET
-	db 26, BONE_RUSH
+	db 20, ICE_SHARD
+	db 23, SHARPEN
+	db 26, AQUA_JET
+	db 31, BONE_RUSH
 	db 34, SLASH
 	db 40, SCREECH
 	db 42, FROSTBITE
@@ -2959,11 +2957,9 @@ UrskimoEvosAttacks:
 	db 1, LEER
 	db 4, LICK
 	db 10, WATER_GUN
-	db 13, BITE
 	db 16, PURSUIT
 	db 17, SCARY_FACE
 	db 20, SHARPEN
-	db 21, BITE
 	db 21, ICE_SHARD
 	db 23, AQUA_JET
 	db 26, BONE_RUSH
@@ -3505,7 +3501,7 @@ MeowtainEvosAttacks:
 	db 0 ; no more level-up moves
 
 HoplaqueEvosAttacks:
-	db EVOLVE_LEVEL, 27, PHANGUARD
+	db EVOLVE_LEVEL, 26, PHANGUARD
 	db 0 ; no more evolutions
 	db 1, NIGHT_SHADE
 	db 1, SPITE
@@ -3524,7 +3520,7 @@ HoplaqueEvosAttacks:
 	db 0 ; no more level-up moves
 
 PhanguardEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, BRIGADOOM
+	db EVOLVE_LEVEL, 43, BRIGADOOM
 	db 0 ; no more evolutions
 	db 1, NIGHT_SHADE
 	db 1, SPITE
@@ -3534,12 +3530,11 @@ PhanguardEvosAttacks:
 	db 16, MIRROR_COAT
 	db 18, DIG
 	db 22, BONE_RUSH
-	db 28, SHADOW_CLAW
+	db 25, SHADOW_CLAW
 	db 33, BONEMERANG
 	db 37, ANCIENTPOWER
-	db 40, SHADOW_BONE
-	db 48, OUTRAGE
-	db 60, DRAGON_DANCE
+	db 46, OUTRAGE
+	db 50, DRAGON_DANCE
 	db 0 ; no more level-up moves
 
 BrigadoomEvosAttacks:
@@ -3554,12 +3549,12 @@ BrigadoomEvosAttacks:
 	db 18, DIG
 	db 25, BONE_RUSH
 	db 27, SHADOW_CLAW
-	db 32, BONEMERANG
+	db 33, BONEMERANG
 	db 37, ANCIENTPOWER
-	db 40, SHADOW_BONE
-	db 46, CRUNCH
-	db 48, OUTRAGE
-	db 53, FOCUS_BLAST
+	db 42, SHADOW_BONE
+	db 45, CRUNCH
+	db 49, OUTRAGE
+	db 52, FOCUS_BLAST
 	db 55, DRAGON_DANCE
 	db 0 ; no more level-up moves
 

@@ -4,7 +4,7 @@
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, FLYING ; type
-	db 9 ; catch rate
+	db 22 ; catch rate
 	db 190 ; base exp
 	db MIRACLEBERRY, MIRACLEBERRY ; items
 	db GENDER_F50 ; gender ratio

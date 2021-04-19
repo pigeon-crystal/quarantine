@@ -42,12 +42,15 @@ AzaleaPokecenter1FGentlemanText:
 	done
 
 AzaleaPokecenter1FFishingGuruText:
-	text "BILL's PC can"
-	line "store up to 20"
-	cont "#MON per BOX."
+	text "I had no idea"
+	line "how to evolve"
+	cont "my #MON,"
 	
-	para "It's the cat's"
-	line "meow."
+	para "but I checked the"
+	line "#DEX and got"
+
+	para "a good idea"
+	line "on what to do."
 	done
 
 AzaleaPokecenter1FPokefanFText:

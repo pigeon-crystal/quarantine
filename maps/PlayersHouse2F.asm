@@ -51,12 +51,6 @@ PosterScript:
 	describedecoration DECODESC_POSTER
 	
 PlayersHouseRadioScript:
-	givepoke RAMBOYANT, 100
-	loadwildmon ILLUXURY, 50
-	startbattle
-	end
-
-sneed:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue .NormalRadio
 	checkevent EVENT_LISTENED_TO_INITIAL_RADIO
