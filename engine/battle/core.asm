@@ -6397,6 +6397,10 @@ LoadEnemyMon:
 	jr z, .no_status
 	cp ELEPHOOT
 	jr z, .no_status
+	cp TERRATORA
+	jr z, .no_status
+	cp NIKUJIRA
+	jr z, .no_status
     call CheckRocketSignalEffect
     ld a, 1 << PSN
     jr c, .UpdateStatus

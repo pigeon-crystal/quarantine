@@ -30,7 +30,7 @@ GoldenrodPPSpeechHouseFisherText:
 	line "using SPITE on"
 	cont "my team."
 	
-	para "That dranied their"
+	para "That drained their"
 	line "PP awfully quick!"
 
 	para "I had to run back"

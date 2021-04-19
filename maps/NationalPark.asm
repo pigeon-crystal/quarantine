@@ -208,7 +208,7 @@ TrainerPokefanfBeverly1:
 	iftrue .GiveNugget
 	checkcellnum PHONE_POKEFAN_BEVERLY
 	iftrue .NumberAccepted
-	checkpoke AMBINNI
+	checkpoke BUNDEGRAF
 	iffalse .NoMarill
 	checkevent EVENT_BEVERLY_ASKED_FOR_PHONE_NUMBER
 	iftrue .AskAgain
@@ -422,8 +422,8 @@ SchoolboyJackTradeMonText:
 
 	para "For example…"
 
-	para "There are 52 kinds"
-	line "of TMs."
+	para "There are over 50"
+	line "kinds of TMs."
 
 	para "Traded #MON"
 	line "level up faster."

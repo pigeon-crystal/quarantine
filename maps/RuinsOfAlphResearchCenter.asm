@@ -216,7 +216,7 @@ RuinsOfAlphResearchCenterPrinter:
 	scall FossilMachineItsAMonScript
 	setval THERAZOR
 	special GameCornerPrizeMonCheckDex
-	givepoke THERAZOR, 35
+	givepoke THERAZOR, 31
 	takeitem SCYTHEFOSSIL
 	sjump FossilMachineEndTransaction
 	
@@ -276,7 +276,7 @@ RuinsOfAlphResearchCenterPrinter:
 	scall FossilMachineItsAMonScript
 	setval HALLOALLO
 	special GameCornerPrizeMonCheckDex
-	givepoke HALLOALLO, 35
+	givepoke HALLOALLO, 40
 	takeitem ANCIENT_FANG
 	sjump FossilMachineEndTransaction
 	

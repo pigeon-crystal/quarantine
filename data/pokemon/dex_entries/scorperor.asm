@@ -6,5 +6,5 @@
 	next "like fists into"
 
 	page "foes, the more"
-	next "venom their tail"
-	next "exudes.@"
+	next "venom courses"
+	next "through them.@"

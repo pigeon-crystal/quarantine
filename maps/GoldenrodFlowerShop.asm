@@ -135,7 +135,7 @@ GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
 	cont "borrow this"
 	
 	para "BIKE HORN if you"
-	line "go help by"
+	line "go help my"
 	cont "boyfriend out."
 	
 	para "He works at the"

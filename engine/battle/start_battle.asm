@@ -42,6 +42,23 @@ PlayBattleMusic:
 	call DelayFrame
 	call MaxVolume
 
+	; Are we fighting a trainer? ; moved for 0.602
+	ld a, [wOtherTrainerClass]
+	and a
+	jp nz, .trainermusic
+
+	farcall RegionCheck
+	ld a, e
+	and a
+	jp nz, .kantowild
+
+	ld de, MUSIC_JOHTO_WILD_BATTLE
+	ld a, [wTimeOfDay]
+	cp NITE_F
+	jp nz, .done
+	ld de, MUSIC_JOHTO_WILD_BATTLE_NIGHT
+	jp .done
+
 	ld a, [wBattleType]
 	cp BATTLETYPE_SUICUNE
 	ld de, MUSIC_LEGENDARY
@@ -69,23 +86,6 @@ PlayBattleMusic:
 	jr z, .StainedWhiteRobesOfTheForestMaiden
 	cp YUGGROMI
 	jr z, .yuggromimusic
-
-	; Are we fighting a trainer?
-	ld a, [wOtherTrainerClass]
-	and a
-	jp nz, .trainermusic
-
-	farcall RegionCheck
-	ld a, e
-	and a
-	jp nz, .kantowild
-
-	ld de, MUSIC_JOHTO_WILD_BATTLE
-	ld a, [wTimeOfDay]
-	cp NITE_F
-	jp nz, .done
-	ld de, MUSIC_JOHTO_WILD_BATTLE_NIGHT
-	jp .done
 
 .missingnomusic
 	ld de, MUSIC_KRAID

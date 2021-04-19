@@ -85,7 +85,7 @@ OddEggs:
 	db NO_ITEM
 	db LOVELY_KISS, SWEET_KISS, COUNTER, PECK
 	dw 04096 ; OT ID
-	dt 114 ; Exp
+	dt 156 ; Exp
 	; Stat exp
 	bigdw 0
 	bigdw 0
@@ -111,7 +111,7 @@ OddEggs:
 	db NO_ITEM
 	db LOVELY_KISS, SWEET_KISS, COUNTER, PECK
 	dw 00768 ; OT ID
-	dt 114 ; Exp
+	dt 156 ; Exp
 	; Stat exp
 	bigdw 0
 	bigdw 0
@@ -137,7 +137,7 @@ OddEggs:
 	db NO_ITEM
 	db TWISTER, GUST, ANCIENTPOWER, SPITE
 	dw 04096 ; OT ID
-	dt 114 ; Exp
+	dt 156 ; Exp
 	; Stat exp
 	bigdw 0
 	bigdw 0
@@ -163,7 +163,7 @@ OddEggs:
 	db NO_ITEM
 	db TWISTER, GUST, ANCIENTPOWER, SPITE
 	dw 00768 ; OT ID
-	dt 114 ; Exp
+	dt 156 ; Exp
 	; Stat exp
 	bigdw 0
 	bigdw 0
@@ -189,7 +189,7 @@ OddEggs:
 	db NO_ITEM
 	db NIGHT_SHADE, SPITE, PURSUIT, COUNTER
 	dw 03584 ; OT ID
-	dt 157 ; Exp
+	dt 156 ; Exp
 	; Stat exp
 	bigdw 0
 	bigdw 0
@@ -215,7 +215,7 @@ OddEggs:
 	db NO_ITEM
 	db NIGHT_SHADE, SPITE, PURSUIT, COUNTER
 	dw 00512 ; OT ID
-	dt 157 ; Exp
+	dt 156 ; Exp
 	; Stat exp
 	bigdw 0
 	bigdw 0

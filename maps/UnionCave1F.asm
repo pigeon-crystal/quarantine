@@ -243,7 +243,7 @@ BigbyAfterText:
 	cont "seawater."
 	
 	para "The SCALE FOSSIL"
-	line "was from an"
+	line "was from a"
 	cont "creature of"
 	cont "those days."
 	done

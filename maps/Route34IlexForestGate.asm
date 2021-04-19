@@ -125,15 +125,12 @@ Route34IlexForestGateLassText:
 	cont "the protector?"
 
 	para "It watches over"
-	line "the FOREST from"
-	cont "across time."
-
-	para "I think that it"
-	line "must be a grass-"
-	cont "type #MON."
+	line "the FOREST,"
 	
-	para "I could be"
-	line "wrong, though…"
+	para "protecting us"
+	line "from the FIEND."
+
+	para "It must be nice!"
 	done
 
 Route34IlexForestGate_MapEvents:
