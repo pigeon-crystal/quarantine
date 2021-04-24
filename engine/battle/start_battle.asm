@@ -48,6 +48,11 @@ PlayBattleMusic:
 	jp z, .done
 	cp BATTLETYPE_ROAMING
 	jp z, .done
+	
+	; Are we fighting a trainer? ; moved for 0.602
+	ld a, [wOtherTrainerClass]
+	and a
+	jp nz, .trainermusic
 
 	; Legendary Check Time
 	ld a, [wTempEnemyMonSpecies]
@@ -101,12 +106,6 @@ PlayBattleMusic:
 .yuggromimusic
 	ld de, MUSIC_YUGGROMI
 	jp .done
-
-	; Are we fighting a trainer? ; moved for 0.602
-	ld a, [wOtherTrainerClass]
-	and a
-	jp nz, .trainermusic
-
 
 .kantowild
 	ld de, MUSIC_KANTO_WILD_BATTLE
