@@ -293,7 +293,7 @@ Sailor3Text:
 	line "OLIVINE."
 
 	para "They eat up the"
-	line "finishing line"
+	line "fishing line"
 	
 	para "and trash left"
 	line "over by ships."

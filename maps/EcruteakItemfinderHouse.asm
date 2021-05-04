@@ -103,7 +103,11 @@ ItemfinderExplanationText:
 	line "there are items"
 
 	para "in ECRUTEAK's"
-	line "BURNED TOWER."
+	line "BURNED TOWER,"
+	
+	para "and there's a"
+	line "rare item east"
+	cont "of town."
 	done
 
 EcruteakItemfinderToEachHisOwnText:
@@ -208,7 +212,7 @@ EcruteakBambabySpeech:
 	line "#MON BAMBABY?"
 	
 	para "It's very"
-	line "illusive. You"
+	line "elusive. You"
 	
 	para "can only find it"
 	line "in the trees of"

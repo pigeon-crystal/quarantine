@@ -307,8 +307,13 @@ MrPokemonsHouse_GetDexText:
 MrPokemonsHouse_OakText2:
 	text "Go meet many kinds"
 	line "of #MON!"
+	
+	para "You can get"
+	line "# BALLS at"
+	cont "the MART in"
+	cont "CHERRYGROVE."
 
-	para "But I've stayed"
+	para "Ah, I've stayed"
 	line "too long."
 
 	para "I have to get to"

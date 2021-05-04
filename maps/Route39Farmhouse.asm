@@ -127,7 +127,7 @@ FarmerMText_BuyMilk:
 
 FarmerMText_GotMilk:
 	text "Here ya go!"
-	line "Drink up'n enjoy!"
+	line "Eat up'n enjoy!"
 	done
 
 FarmerMText_NoMoney:
@@ -158,7 +158,13 @@ FarmerFText_InTrouble:
 	line "VEGETEBAA won't"
 	cont "give us any milk,"
 
-	para "we're in trouble."
+	para "we're can't make"
+	line "any cheese."
+	
+	para "If we can't make"
+	line "any cheese, our"
+	cont "GANZERKER is"
+	cont "cooked!"
 	done
 
 FarmerFText_HealedMiltank:

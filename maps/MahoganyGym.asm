@@ -199,7 +199,7 @@ Text_ReceivedGlacierBadge:
 
 PryceText_GlacierBadgeSpeech:
 	text "That BADGE will"
-	line "the world how"
+	line "show the world how"
 	
 	para "you have bested"
 	line "me today."

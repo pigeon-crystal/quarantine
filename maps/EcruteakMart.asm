@@ -20,14 +20,17 @@ EcruteakMartSuperNerdScript:
 EcruteakMartGrannyScript:
 	jumptextfaceplayer EcruteakMartGrannyText
 
-EcruteakMartSuperNerdText:			; TODO change to 
-	text "My LAMSEED evolved"
-	line "into a BAAFOMET."
-
-	para "But my friend's"
-	line "LAMSEED didn't!"
-
-	para "I wonder why…"
+EcruteakMartSuperNerdText:			
+	text "My pal and I got"
+	line "a #MON from"
+	cont "BILL!"
+	
+	para "Mine is fast, but"
+	line "my friend's is"
+	cont "bulky."
+	
+	para "We were shocked"
+	line "when they evolved!"
 	done
 
 EcruteakMartGrannyText:

@@ -128,9 +128,8 @@ BugCatchingContestant2AText:
 	done
 
 BugCatchingContestant3AText:
-	text "NICK: I'm raising"
-	line "fast #MON for"
-	cont "battles."
+	text "NICK: You have"
+	line "already lost."
 	done
 
 BugCatchingContestant4AText:

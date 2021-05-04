@@ -5,6 +5,6 @@
 	next "NIMBOREM colonies"
 	next "will cause strong"
 
-	page "thundestorms"
+	page "thunderstorms"
 	next "for weeks until"
 	next "they calm down.@"

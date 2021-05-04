@@ -5,6 +5,6 @@
 	next "understanding of"
 	next "probability, and"
 
-	page "carefully calculates"
+	page "fully calculates"
 	next "the odds of every"
 	next "action it takes.@"

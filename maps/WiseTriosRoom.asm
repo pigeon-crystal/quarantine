@@ -132,7 +132,7 @@ WiseTriosRoomSage1Text:
 	text "Astounding…"
 
 	para "RYUNARI, NIKUJIRA "
-	line "and TERRATORRA"
+	line "and TERRATORA"
 	
 	para "have all arisen"
 	line "from their sleep…"

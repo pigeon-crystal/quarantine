@@ -988,7 +988,7 @@ IlluxuryGirl3:
 	waitbutton
 	closetext
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon ILLUXURY, 55
+	loadwildmon ILLUXURY, 60
 	startbattle
 ; post battle events cleaned up
 	clearevent ILLUXURY_TENSION_PLAYING

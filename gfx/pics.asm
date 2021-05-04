@@ -97,7 +97,8 @@ GnomercyFrontpic:  INCBIN "gfx/pokemon/gnomercy/front.animated.2bpp.lz"
 MacawsairFrontpic:      INCBIN "gfx/pokemon/macawsair/front.animated.2bpp.lz"
 BobbitrapFrontpic:    INCBIN "gfx/pokemon/bobbitrap/front.animated.2bpp.lz"
 BehemothraBackpic:      INCBIN "gfx/pokemon/behemothra/back.2bpp.lz"
-
+MysticalmanPic:      INCBIN "gfx/trainers/mysticalman.2bpp.lz"
+CooltrainerfPic:     INCBIN "gfx/trainers/cooltrainer_f.2bpp.lz"
 
 SECTION "Pics 4", ROMX
 
@@ -123,6 +124,9 @@ BermudantFrontpic:      	INCBIN "gfx/pokemon/bermudant/front.animated.2bpp.lz"
 UnownEFrontpic:     	 	INCBIN "gfx/pokemon/unown_e/front.animated.2bpp.lz"
 UnownExclamationFrontpic: INCBIN "gfx/pokemon/unown_exclamation/front.animated.2bpp.lz"
 UnownExclamationBackpic:  INCBIN "gfx/pokemon/unown_exclamation/back.2bpp.lz"
+EyechosisBackpic:     INCBIN "gfx/pokemon/eyechosis/back.2bpp.lz"
+CerkitaysaBackpic:    INCBIN "gfx/pokemon/cerkitaysa/back.2bpp.lz"
+BundegrafBackpic:      INCBIN "gfx/pokemon/bundegraf/back.2bpp.lz"
 
 
 SECTION "Pics 5", ROMX
@@ -466,8 +470,6 @@ YuggromiBackpic:    INCBIN "gfx/pokemon/yuggromi/back.2bpp.lz"
 SwimmermPic:         INCBIN "gfx/trainers/swimmer_m.2bpp.lz"
 PhanguardFrontpic:     INCBIN "gfx/pokemon/phanguard/front.animated.2bpp.lz"
 ShrimpanziBackpic:     INCBIN "gfx/pokemon/shrimpanzi/back.2bpp.lz"
-MysticalmanPic:      INCBIN "gfx/trainers/mysticalman.2bpp.lz"
-CooltrainerfPic:     INCBIN "gfx/trainers/cooltrainer_f.2bpp.lz"
 DjammFrontpic:   INCBIN "gfx/pokemon/djamm/front.animated.2bpp.lz"
 PardnerBackpic:    INCBIN "gfx/pokemon/pardner/back.2bpp.lz"
 SpellcasterPic:		INCBIN "gfx/trainers/spellcaster.2bpp.lz"
@@ -494,9 +496,6 @@ DolmiteFrontpic:     INCBIN "gfx/pokemon/dolmite/front.animated.2bpp.lz"
 YagagarasuBackpic:       INCBIN "gfx/pokemon/yagagarasu/back.2bpp.lz"
 SwazzageBackpic:    INCBIN "gfx/pokemon/swazzage/back.2bpp.lz"
 SlowhogBackpic:    INCBIN "gfx/pokemon/slowhog/back.2bpp.lz"
-EyechosisBackpic:     INCBIN "gfx/pokemon/eyechosis/back.2bpp.lz"
-CerkitaysaBackpic:    INCBIN "gfx/pokemon/cerkitaysa/back.2bpp.lz"
-BundegrafBackpic:      INCBIN "gfx/pokemon/bundegraf/back.2bpp.lz"
 BobbitrapBackpic:     INCBIN "gfx/pokemon/bobbitrap/back.2bpp.lz"
 PurraatzleBackpic:       INCBIN "gfx/pokemon/purraatzle/back.2bpp.lz"
 WartortleBackpic:    INCBIN "gfx/pokemon/wartortle/back.2bpp.lz"

@@ -525,7 +525,8 @@ WesleyNotWednesdayText:
 	done
 
 LakeOfRageSignText:
-	text "LAKE OF RAGE,"
+	text "LAKE OF RAGE"
+	; RIP "LAKE OF RAGE,"
 	done
 
 FishingGurusHouseSignText:

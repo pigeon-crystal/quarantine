@@ -204,8 +204,6 @@ MortyIntroText:
 	line "now see what"
 	cont "others cannot."
 
-	para "Just a bit more…"
-
 	para "With a little"
 	line "more, I could see"
 
@@ -316,7 +314,8 @@ SagePingBeatenText:
 
 SagePingAfterBattleText:
 	text "Ghost and dark"
-	line "#MON are tricky."
+	line "#MON are very"
+	cont "tricky!"
 	
 	para "Ghost #MON are"
 	line "immune to fighting"

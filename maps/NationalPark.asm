@@ -375,14 +375,19 @@ NationalParkYoungster2Text:
 	done
 
 NationalParkTeacher2Text:
-	text "I take walks in"
-	line "the PARK, but I"
-
-	para "never go into the"
-	line "grass."
-
-	para "Trainers always"
-	line "want to battle…"
+	text "Are you going"
+	line "to take part in"
+	cont "the BUG CATCHING"
+	cont "CONTEST?"
+	
+	para "I'll give you a"
+	line "tip!"
+	
+	para "A healthy"
+	line "#MON earns"
+	
+	para "more points than"
+	line "one weakened."
 	done
 
 NationalParkPersianText:

@@ -6,5 +6,5 @@
 	next "civilization. Many"
 	
 	page "different"
-	next "varities of"
+	next "varieties of"
 	next "GLYTHIC exist.@"

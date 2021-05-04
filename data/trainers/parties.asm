@@ -1632,7 +1632,8 @@ PokemaniacGroup:
 
 	; POKEMANIAC (9)
 	db "BRENT@", TRAINERTYPE_NORMAL
-	db 25, GENEROPSIS
+	db 37, TODESCOOL
+	db 37, ORGNOME
 	db -1 ; end
 
 	; POKEMANIAC (10)
@@ -1670,8 +1671,9 @@ PokemaniacGroup:
 
 	; POKEMANIAC (15) Mount Mortar
 	db "MILLER@", TRAINERTYPE_NORMAL
-	db 33, ONIONI
-	db 33, PEEKEYE
+	db 30, ONIONI
+	db 30, PEEKEYE
+	db 30, PURRAATZLE
 	db -1 ; end
 
 GruntMGroup:
