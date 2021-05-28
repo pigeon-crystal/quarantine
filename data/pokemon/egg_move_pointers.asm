@@ -6,7 +6,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw WartortleEggMoves ; Strandbeest 1
+	dw RhocoEggMoves ; Strandbeest 1
 	dw NoEggMoves
 	dw BuzzlingEggMoves
 	dw NoEggMoves

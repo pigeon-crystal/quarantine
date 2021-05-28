@@ -6,7 +6,7 @@ PokemonNames::
 	db "KITSYNA@@@"
 	db "CERKITAYSA"
 	db "GIGASYNAPA"
-	db "WARTORTLE@"
+	db "RHOCO@"
 	db "BLASTOISE@"
 	db "BUZZLING@@"
 	db "HIVEMAIM@@"

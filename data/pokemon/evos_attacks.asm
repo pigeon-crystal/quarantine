@@ -135,7 +135,7 @@ GigasynapaEvosAttacks:
 	db 60, DARK_PULSE
 	db 0 ; no more level-up moves
 
-WartortleEvosAttacks:
+RhocoEvosAttacks:
 	db EVOLVE_LEVEL, 36, BLASTOISE
 	db 0 ; no more evolutions
 	db 1, POUND

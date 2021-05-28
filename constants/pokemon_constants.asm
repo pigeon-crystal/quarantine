@@ -26,7 +26,7 @@
 	const KITSYNA 		; 05 KITSYNA
 	const CERKITAYSA  	; 06 CERKITAYSA
 	const GIGASYNAPA   	; 07 GIGASYNAPA
-	const WARTORTLE  ; 08 strandbeest
+	const RHOCO  ; 08 rhoco
 	const BLASTOISE  ; 09 strandbeest
 	const BUZZLING   ; 0a
 	const HIVEMAIM   ; 0b

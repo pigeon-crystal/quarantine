@@ -8,7 +8,7 @@ EvosAttacksPointers::
 	dw KitsynaEvosAttacks
 	dw CerkitaysaEvosAttacks
 	dw GigasynapaEvosAttacks
-	dw WartortleEvosAttacks
+	dw RhocoEvosAttacks
 	dw BlastoiseEvosAttacks
 	dw BuzzlingEvosAttacks
 	dw HivemaimEvosAttacks
